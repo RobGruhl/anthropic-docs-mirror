@@ -1,0 +1,124 @@
+# Improve your prompts in the developer console
+*October 14, 2024*
+---
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23073f253139349bf60_71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+
+# Improve your prompts in the developer console
+
+Claude can now automatically refine prompts in the developer console using techniques like chain-of-thought reasoning and example enrichment.
+
+‍
+
+- CategoryProduct announcements
+
+- ProductClaude Developer Platform
+
+- DateOctober 14, 2024
+
+- Reading time5min
+
+- ShareCopy linkhttps://claude.com/blog/prompt-improver
+
+Today, we're introducing the ability to improve prompts and manage examples directly in the[Anthropic Console](https://console.anthropic.com/). These features make it easier to leverage prompt engineering best practices and build more reliable AI applications.
+
+## Better prompts for better completions
+
+Prompt quality plays a significant role in how successful a model's responses are for a given task. However, prompting best practices take time to implement and often vary across model providers.
+
+The prompt improver allows developers to take existing prompts and leverage Claude to automatically refine them using advanced prompt engineering techniques. This is ideal for adapting prompts that were originally written for other AI models, as well as for optimizing hand-written prompts.
+
+The prompt improver strengthens existing prompts via the following methods:
+
+- Chain-of-thought reasoning:Adds a dedicated section for Claude to think through problems systematically before responding to improve accuracy and reliability.
+
+- Example standardization:Converts examples into a consistent XML format for improved clarity and processing.
+
+- Example enrichment:Augments existing examples with chain-of-thought reasoning that aligns with the newly structured prompt.
+
+- Rewriting:Rewrites the prompt to clarify structure and correct any minor grammatical or spelling issues.
+
+- Prefill addition:Prefills the Assistant message to direct Claude’s actions and enforce output formats.
+
+Once the new prompt is generated, you can provide feedback for Claude about what is and isn’t working to further improve the prompt.
+
+Our testing shows that the prompt improver increased accuracy by 30% for a multilabel classification test1and brought word count adherence up to 100% for a summarization task.2
+
+# Manage multi-shot examples
+
+Adding examples to prompts is one of the most effective ways to improve model response quality, especially when it comes to getting Claude to precisely follow a specific format in the output. You can now manage examples in a structured format directly in the Workbench. This makes it easier to add new examples with clear input/output pairs or edit existing examples to refine response quality.
+
+![A visual of the Anthropic Console showing examples for a prompt.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d939bfbe47c603d7aae_57c9898911ae729e6745f4d5cc5d9c1e0e4b18df-3840x2160.jpeg)
+
+If your prompt doesn’t have examples, you can add them with Claude-driven example generation. Claude can automatically create synthetic example inputs and draft outputs for you to streamline this process.
+
+Adding examples contributes to increased:
+
+- Accuracy:Reduces misinterpretation of instructions.
+
+- Consistency:Ensures desired output formatting.
+
+- Performance:Boosts Claude’s ability to handle complex tasks.
+
+## Evaluate prompts with ideal outputs
+
+Our[prompt evaluator](https://www.anthropic.com/news/evaluate-prompts)allows you to test your prompts under various scenarios. To help benchmark and improve prompt performance, we've added an optional "ideal output" column in the Evaluations tab. This column helps users effectively and consistently grade model outputs on a 5-point scale.
+
+After testing your new prompt, you can give Claude additional feedback in the prompt improver on what’s still not working and repeat this process until you’re satisfied with the result. The prompt improver can also modify the prompt and examples based on arbitrary requests. For example you can ask Claude to change the prompt and examples to have JSON-formatted outputs instead of XML-formatted outputs.
+
+## Customer spotlight: Kapa.ai
+
+[Kapa.ai](https://www.kapa.ai/), a technology company that turns your technical knowledge base into a production-ready AI assistant, used the prompt improver to migrate multiple critical AI workflows to Claude.
+
+"Anthropic's prompt improver streamlined our migration to Claude 3.5 Sonnet and enabled us to get to production faster," said Finn Bauer, Co-Founder at Kapa.ai.
+
+## Getting started
+
+The prompt improver, example management, and ideal outputs are available to all users in the[Anthropic Console](https://console.anthropic.com/).
+
+To learn more about how to improve and evaluate prompts with Claude, check out our[docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-improver).
+
+#### Footnotes
+
+[1] Given 500 Wikipedia articles and titles, we tested Claude 3 Haiku’s ability to match article titles to a sentence pulled from an article at random. Claude 3 Haiku’s accuracy increased by 30% in comparison to the original prompt.
+
+[2] Given ten Wikipedia articles, Claude’s adherence to an instruction to write summaries within a specific word count range was 100% after running through the prompt improver.
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+FAQ
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+
+### Bringing automated preview, review, and merge to Claude Code on desktop
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+
+### Increase web search accuracy and efficiency with dynamic filtering
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+
+### Cowork: Claude Code for the rest of your work
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
+
+### Your favorite work tools are now interactive connectors inside Claude
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+---
+**Source:** https://claude.com/blog/prompt-improver
+*This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

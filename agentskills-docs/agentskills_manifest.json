@@ -1,0 +1,78 @@
+{
+  "files": {
+    "client-implementation__adding-skills-support.md": {
+      "original_url": "https://agentskills.io/client-implementation/adding-skills-support",
+      "original_md_url": "https://agentskills.io/client-implementation/adding-skills-support.md",
+      "path": "/client-implementation/adding-skills-support",
+      "hash": "3215efd9d43ff6060aaaac49293b1b3ce2baa7405da905ec1d298fc72867f791",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 08:56:28 GMT",
+      "last_updated": "2026-03-07T10:18:08.012192"
+    },
+    "home.md": {
+      "original_url": "https://agentskills.io/home",
+      "original_md_url": "https://agentskills.io/home.md",
+      "path": "/home",
+      "hash": "dd76724125bb3609f93a98d49baa7569b32000557ef8557cc7083d4c4dffc482",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 08:50:56 GMT",
+      "last_updated": "2026-03-07T10:18:08.012799"
+    },
+    "skill-creation__evaluating-skills.md": {
+      "original_url": "https://agentskills.io/skill-creation/evaluating-skills",
+      "original_md_url": "https://agentskills.io/skill-creation/evaluating-skills.md",
+      "path": "/skill-creation/evaluating-skills",
+      "hash": "c343808d84e1a729d4c7f444f2abc0760d2c3ce6f3019036711826642578530d",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 08:53:09 GMT",
+      "last_updated": "2026-03-07T10:18:08.013137"
+    },
+    "skill-creation__using-scripts.md": {
+      "original_url": "https://agentskills.io/skill-creation/using-scripts",
+      "original_md_url": "https://agentskills.io/skill-creation/using-scripts.md",
+      "path": "/skill-creation/using-scripts",
+      "hash": "1d9bf93b25b920557e46bee4c352522e6d538f0af8aa35d9a1bad5efe7ad0d3b",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 09:08:12 GMT",
+      "last_updated": "2026-03-02T08:56:34.300665"
+    },
+    "specification.md": {
+      "original_url": "https://agentskills.io/specification",
+      "original_md_url": "https://agentskills.io/specification.md",
+      "path": "/specification",
+      "hash": "df7af152e467ea869ba7cd182c192820205b9c34f2bb30de55842fbdfb3cbff6",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 08:54:41 GMT",
+      "last_updated": "2026-02-01T06:19:56.547517"
+    },
+    "what-are-skills.md": {
+      "original_url": "https://agentskills.io/what-are-skills",
+      "original_md_url": "https://agentskills.io/what-are-skills.md",
+      "path": "/what-are-skills",
+      "hash": "caa89b6520a03a890e0f3d45024ab553c948fa24296592de7fde078454e1346a",
+      "etag": null,
+      "last_modified": "Sat, 07 Mar 2026 08:49:54 GMT",
+      "last_updated": "2026-03-07T10:18:08.013828"
+    }
+  },
+  "fetch_metadata": {
+    "last_fetch_completed": "2026-03-07T10:18:08.015799",
+    "fetch_duration_seconds": 0.488053,
+    "total_pages_discovered": 6,
+    "pages_fetched_successfully": 6,
+    "pages_failed": 0,
+    "pages_unchanged": 2,
+    "pages_updated": 2,
+    "pages_new": 2,
+    "pages_skipped_304": 0,
+    "failed_pages": [],
+    "source_sitemap": "https://agentskills.io/sitemap.xml",
+    "fetch_tool_version": "5.0",
+    "fetch_mode": "incremental"
+  },
+  "base_url": "https://raw.githubusercontent.com/robgruhl/anthropic-docs-mirror/main/agentskills-docs/",
+  "github_repository": "robgruhl/anthropic-docs-mirror",
+  "github_ref": "main",
+  "source_site": "agentskills.io",
+  "last_updated": "2026-03-07T10:18:08.015954"
+}

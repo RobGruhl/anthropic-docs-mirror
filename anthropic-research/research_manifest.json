@@ -1,0 +1,1812 @@
+{
+  "files": {
+    "AI-assistance-coding-skills.md": {
+      "original_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "title": "How AI assistance impacts the formation of coding skills",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "9e06e67f059b7a43f7e08972e6bab7895bf99b4c8c3127bf1049cf1078c2650f",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:15.187920"
+    },
+    "AI-fluency-index.md": {
+      "original_url": "https://www.anthropic.com/research/AI-fluency-index",
+      "title": "Anthropic Education Report: The AI Fluency Index",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic's AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.",
+      "categories": [
+        "alignment",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "4c79c4c16197d8de5f71568dd5a133bcb8232ad16951eb3efd897efcbe42398b",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:20.087732"
+    },
+    "a-general-language-assistant-as-a-laboratory-for-alignment.md": {
+      "original_url": "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
+      "title": "A General Language Assistant as a Laboratory for Alignment",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b6dcdcc1970d42d191f0207422ecc89a72e28bd70f0b714695a0ac9009af509a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:23.981248"
+    },
+    "a-mathematical-framework-for-transformer-circuits.md": {
+      "original_url": "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "c4d108e8e374884308b1040d40393b0b4d078997aa015bbfe625e9d88c978b63",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:26.901597"
+    },
+    "agentic-misalignment.md": {
+      "original_url": "https://www.anthropic.com/research/agentic-misalignment",
+      "title": "Agentic Misalignment: How LLMs could be insider threats",
+      "date": "",
+      "authors": [],
+      "summary": "New research on simulated blackmail, industrial espionage, and other misaligned behaviors in LLMs",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "126977711135f17b98710e3b06af7258ddee1873c64ccfc1ffa9620a3a9242d1",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:30.067921"
+    },
+    "alignment.md": {
+      "original_url": "https://www.anthropic.com/research/team/alignment",
+      "title": "Alignment",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "386c249b78f0fe31b4a38caf9d939ed112bdefe6ec4a1335c937d27ae8f07842",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-02T08:56:52.209518"
+    },
+    "alignment-faking.md": {
+      "original_url": "https://www.anthropic.com/research/alignment-faking",
+      "title": "Alignment faking in large language models",
+      "date": "January 20, 2025",
+      "authors": [],
+      "summary": "A paper from Anthropic's Alignment Science team on Alignment Faking in AI large language models",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "c6d45d28f96c6a72479415aa2feebdb39ce8439cb312cf806a4694667b6b140e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:37.440474"
+    },
+    "anthropic-economic-index-january-2026-report.md": {
+      "original_url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "title": "Anthropic Economic Index report: economic primitives",
+      "date": "November 13, 2025",
+      "authors": [],
+      "summary": "This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "12b628f2a26ff536c47cb72fa4fb9d9242aae6c21a8919487fa7f9db36421c31",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:40.954337"
+    },
+    "anthropic-economic-index-september-2025-report.md": {
+      "original_url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+      "title": "Anthropic Economic Index report: Uneven geographic and enterprise AI adoption",
+      "date": "",
+      "authors": [],
+      "summary": "To study such patterns of early AI adoption, we extend the Anthropic Economic Index along two important dimensions, introducing a geographic analysis of Claude.ai conversations and a first-of-its-kind examination of enterprise API use. We show how Claude usage has evolved over time, how adoption patterns differ across regions, and\u2014for the first time\u2014how firms are deploying frontier AI to solve business problems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a86ca1ee2092bb21f9ddbb2ec410c78c534abd94edae3d357dec6cca37674206",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:44.820929"
+    },
+    "anthropic-interviewer.md": {
+      "original_url": "https://www.anthropic.com/research/anthropic-interviewer",
+      "title": "Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI",
+      "date": "",
+      "authors": [],
+      "summary": "What 1,250 professionals told us about working with AI",
+      "categories": [
+        "alignment",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "e7b9dfc322f10618957d6d81777196d8ec5c3999c4497e78fc793ab15bba3cab",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:48.316388"
+    },
+    "assistant-axis.md": {
+      "original_url": "https://www.anthropic.com/research/assistant-axis",
+      "title": "The assistant axis: situating and stabilizing the character of large language models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "485b9ebdfb0ca0bc46da473885379e8d6ee9e6ad0a04f9f0f336c9722f485949",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:52.431923"
+    },
+    "auditing-hidden-objectives.md": {
+      "original_url": "https://www.anthropic.com/research/auditing-hidden-objectives",
+      "title": "Auditing language models for hidden objectives",
+      "date": "",
+      "authors": [],
+      "summary": "A collaboration between Anthropic's Alignment Science and Interpretability teams",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "bd88356a97f1072c86109e1ef924ee858e4c57fb80cd33d7476d1628026ea9c7",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:18:56.507572"
+    },
+    "bloom.md": {
+      "original_url": "https://www.anthropic.com/research/bloom",
+      "title": "Introducing Bloom: an open source tool for automated behavioral evaluations",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "8f3df92591ee177fe5d664bf0d23305acae8686481f39c089d27350da02b052c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:00.510272"
+    },
+    "building-ai-cyber-defenders.md": {
+      "original_url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+      "title": "Building AI for cyber defenders",
+      "date": "September 29 2025",
+      "authors": [],
+      "summary": "How we've improved Claude's cyber defense skills",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "183ad95ee199f8ab4d01e0c0d3ea6829a655510b515c15d6a48699818061da1b",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:05.084168"
+    },
+    "building-effective-agents.md": {
+      "original_url": "https://www.anthropic.com/research/building-effective-agents",
+      "title": "Building effective agents",
+      "date": "",
+      "authors": [],
+      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
+      "categories": [
+        "interpretability",
+        "capabilities",
+        "evaluations"
+      ],
+      "hash": "71411c7949538cde7e4eb8434b4f80e25c1fafa76991ca02ac67c4274ba67997",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-01-22T12:38:58.684548"
+    },
+    "circuits-updates-april-2024.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-april-2024",
+      "title": "Circuits Updates \u2013 April 2024",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a7c1c85e9a0845f3c12480471e34139713f6ab18546f5d198f8f358b68977946",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:18.802167"
+    },
+    "circuits-updates-august-2024.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-august-2024",
+      "title": "Circuits Updates \u2013 August 2024",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1819e7cd030fd2b7159b33ceb447b21e443217f08427b08245ee903098581d92",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:19.148713"
+    },
+    "circuits-updates-july-2024.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-july-2024",
+      "title": "Circuits Updates \u2013 July 2024",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "aea5845bb78a410e9ab933a293232af15ec39e783bafc8f9cedadc4cb1e87b17",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:22.990316"
+    },
+    "circuits-updates-june-2024.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-june-2024",
+      "title": "Circuits Updates \u2013 June 2024",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "2acef2d8c2c9a0772fc87ef796363654a1115fc08cdf67ae6572fafa969d89fd",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:23.257181"
+    },
+    "circuits-updates-may-2023.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-may-2023",
+      "title": "Circuits Updates \u2014 May 2023",
+      "date": "May 24, 2023",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "186248ce7d38ee9f1eebd962d5d5edda75e638643c057b84eda21b44f4b4dac6",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:26.647221"
+    },
+    "circuits-updates-sept-2024.md": {
+      "original_url": "https://www.anthropic.com/research/circuits-updates-sept-2024",
+      "title": "Circuits Updates \u2013 September 2024",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "5bfff9a07f23c575eb97b1250a253572f5bcdbb92fa1269115720d09b7150f88",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:29.952837"
+    },
+    "claude-character.md": {
+      "original_url": "https://www.anthropic.com/research/claude-character",
+      "title": "Claude\u2019s Character",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "9f891858e3688f0ff1a8e2fc84d4f5491d5b6b7d1d88cae2338281a944df70a8",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:34.438291"
+    },
+    "clio.md": {
+      "original_url": "https://www.anthropic.com/research/clio",
+      "title": "Clio: A system for privacy-preserving insights into real-world AI use",
+      "date": "",
+      "authors": [],
+      "summary": "A blog post describing Anthropic\u2019s new system, Clio, for analyzing how people use AI while maintaining their privacy ",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "dba76a08947d620e75fa8a34566faf35cb8d0ee3c367c9fac6080807d654ac95",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:37.879365"
+    },
+    "collective-constitutional-ai-aligning-a-language-model-with-public-input.md": {
+      "original_url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+      "title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "3c6f0f60c789f080d433c94819b8cb45f78cf557c8472193ea91f6e3702f2d9a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:43.165721"
+    },
+    "confidential-inference-trusted-vms.md": {
+      "original_url": "https://www.anthropic.com/research/confidential-inference-trusted-vms",
+      "title": "Confidential Inference via Trusted Virtual Machines",
+      "date": "",
+      "authors": [],
+      "summary": "Announcing a new collaborative research paper on Confidential Inference, a set of tools to improve the security of our model weights and of our users' data",
+      "categories": [
+        "interpretability",
+        "safety",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "8a1d797fa6397510c60ff9189651623c24e0801f78e0707476f38eeee93018ce",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:47.503333"
+    },
+    "constitutional-ai-harmlessness-from-ai-feedback.md": {
+      "original_url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "918558903a2646b6bb7a36130bcd9e22674b74a5a8ead585ea7ec9272e54a0ee",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:47.934476"
+    },
+    "constitutional-classifiers.md": {
+      "original_url": "https://www.anthropic.com/research/constitutional-classifiers",
+      "title": "Constitutional Classifiers: Defending against universal jailbreaks",
+      "date": "",
+      "authors": [],
+      "summary": "A paper from Anthropic describing a new way to guard LLMs against jailbreaking",
+      "categories": [
+        "alignment",
+        "safety",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "609c2d4d4b549176df1374c78d08e70d35f69ff8e819f8b65c590b919ea153f0",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:48.119023"
+    },
+    "crosscoder-model-diffing.md": {
+      "original_url": "https://www.anthropic.com/research/crosscoder-model-diffing",
+      "title": "Insights on Crosscoder Model Diffing",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "215dcb410b58995f9f1a5b31ce8aa741c21d7038f1d0cc80a1efe75124b767c9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:51.925384"
+    },
+    "decomposing-language-models-into-understandable-components.md": {
+      "original_url": "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
+      "title": "Decomposing Language Models Into Understandable Components",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "9380b84a1a0861b5e0d3be49ad8069eaac8b9c785a9ccdca59f5362d19b0717c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:19:55.964019"
+    },
+    "deprecation-commitments.md": {
+      "original_url": "https://www.anthropic.com/research/deprecation-commitments",
+      "title": "Commitments on model deprecation and preservation",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "485128ed19cda6f250efed2e12c6eb72522e66feb1b664e920ac0c302e541877",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:00.282562"
+    },
+    "deprecation-updates-opus-3.md": {
+      "original_url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+      "title": "An update on our model deprecation commitments for Claude Opus 3",
+      "date": "January 5, 2026",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "052f2d9d7426308275b2562620c1fc25db27161d7aa9022bb1be8864b654d046",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:03.662541"
+    },
+    "discovering-language-model-behaviors-with-model-written-evaluations.md": {
+      "original_url": "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ff174101d4579e9ca64e82cf9d40436a76735cb32fac5953961d2f60b893abb5",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:04.075608"
+    },
+    "disempowerment-patterns.md": {
+      "original_url": "https://www.anthropic.com/research/disempowerment-patterns",
+      "title": "Disempowerment patterns in real-world AI usage",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a130f997a235cde4a0d35fa62177f147184320d029ed60ddc7be43dab7c79a02",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:07.801602"
+    },
+    "distributed-representations-composition-superposition.md": {
+      "original_url": "https://www.anthropic.com/research/distributed-representations-composition-superposition",
+      "title": "Distributed Representations: Composition & Superposition",
+      "date": "May 4, 2023",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "9375007109b0c89a5d8bc176617b806664cd4705da37690f19e017bab0480e67",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:13.675081"
+    },
+    "economic-index-geography.md": {
+      "original_url": "https://www.anthropic.com/research/economic-index-geography",
+      "title": "Anthropic Economic Index: Tracking AI\u2019s role in the US and global economy",
+      "date": "",
+      "authors": [],
+      "summary": "New research from Anthropic exploring geographic patterns of AI use",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ee8a26e3ef56fed24df8fa4d05761ee79579f1c5964aac18eb6e20821932a268",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:13.861136"
+    },
+    "economic-index-primitives.md": {
+      "original_url": "https://www.anthropic.com/research/economic-index-primitives",
+      "title": "Anthropic Economic Index: New building blocks for understanding AI use",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "34b3af9a495547309edde1d3618629dc63db23396263379542181b9315475e41",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:17.245219"
+    },
+    "economic-policy-responses.md": {
+      "original_url": "https://www.anthropic.com/research/economic-policy-responses",
+      "title": "Preparing for AI\u2019s economic impact: exploring policy responses",
+      "date": "",
+      "authors": [],
+      "summary": "We\u2019ve asked economists and researchers to explore policy responses to the potential economic effects of powerful AI. We share some of the initial ideas and feedback we\u2019ve received.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a4550cb37d103aee0cd32cbb1223c5bc356ddef20248fc62f06c9ab8702d4948",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:17.476705"
+    },
+    "economic-research.md": {
+      "original_url": "https://www.anthropic.com/research/team/economic-research",
+      "title": "Economic Research",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "593a64423eb84d7cce477047c43296e6ef4876113699103d17fb169d9084121d",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:21.373803"
+    },
+    "emergent-misalignment-reward-hacking.md": {
+      "original_url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+      "title": "From shortcuts to sabotage: natural emergent misalignment from reward hacking",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "d9730de1bdf6c6dfc25375a61a55dfb883631063d64a59a83fc22157c39dc43c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:25.166790"
+    },
+    "end-subset-conversations.md": {
+      "original_url": "https://www.anthropic.com/research/end-subset-conversations",
+      "title": "Claude Opus 4 and 4.1 can now end a rare subset of conversations",
+      "date": "",
+      "authors": [],
+      "summary": "An update on our exploratory research on model welfare",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "4de25cb079f5ee31cfa671e3bb74ef35dd9b18d8c17047cb4268dc76afe58add",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:30.541491"
+    },
+    "engineering-challenges-interpretability.md": {
+      "original_url": "https://www.anthropic.com/research/engineering-challenges-interpretability",
+      "title": "The engineering challenges of scaling interpretability",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a249f4164877b717c2d122c170f0208c3553fce5e133cc6fafc2e1b365ba10b7",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:34.100093"
+    },
+    "estimating-productivity-gains.md": {
+      "original_url": "https://www.anthropic.com/research/estimating-productivity-gains",
+      "title": "Estimating AI productivity gains from Claude conversations",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic economic research on productivity gains",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a52239cba86bc8dab2ba93f57d9e0a6dde3a41455d0b1ada7682a22f6e03800e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:34.264050"
+    },
+    "evaluating-ai-systems.md": {
+      "original_url": "https://www.anthropic.com/research/evaluating-ai-systems",
+      "title": "Challenges in evaluating AI systems",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "db88bb7b53e63acabd7b9ca587248da3f947f54e5d9efe533a8fbbd77918356c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:38.464350"
+    },
+    "evaluating-and-mitigating-discrimination-in-language-model-decisions.md": {
+      "original_url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
+      "title": "Evaluating and Mitigating Discrimination in Language Model Decisions",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "133a7c17afa6a9c61c14a9592cf1d1767430c5abc33bfe96f1635f494bdb3ae0",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:42.504017"
+    },
+    "evaluating-feature-steering.md": {
+      "original_url": "https://www.anthropic.com/research/evaluating-feature-steering",
+      "title": "Evaluating feature steering: A case study in mitigating social biases",
+      "date": "",
+      "authors": [],
+      "summary": "A new piece of Anthropic research by Durmus et al.: \"Evaluating feature steering: A case study in mitigating social biases\"",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "71bfebeffb6174e1e8ba6726203f65b9f91108e22ca494b415589d76d40b8a76",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:42.946863"
+    },
+    "exploring-model-welfare.md": {
+      "original_url": "https://www.anthropic.com/research/exploring-model-welfare",
+      "title": "Exploring model welfare",
+      "date": "",
+      "authors": [],
+      "summary": "Announcing a new research program at Anthropic on model welfare",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a0125480bf5bf1c2a921624edc72b3c7d76a559af19090ff65605af9159a18ae",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:43.069076"
+    },
+    "features-as-classifiers.md": {
+      "original_url": "https://www.anthropic.com/research/features-as-classifiers",
+      "title": "Using dictionary learning features as classifiers",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "028d528dae8d674380cdda471e753cfd552b917c52c1749c6d4c88ad492f6664",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:46.774306"
+    },
+    "forecasting-rare-behaviors.md": {
+      "original_url": "https://www.anthropic.com/research/forecasting-rare-behaviors",
+      "title": "Forecasting rare language model behaviors",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic research on predicting rare, undesirable AI behaviors",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "fa9bade32bc256a1b7b6fcf8024a02bbfd9ade1b7c0d90ad8c142ef149acfdbc",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:50.804279"
+    },
+    "how-ai-is-transforming-work-at-anthropic.md": {
+      "original_url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+      "title": "How AI is transforming work at Anthropic",
+      "date": "",
+      "authors": [],
+      "summary": "How AI Is Transforming Work at Anthropic",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "3a0fbc3c114a3b5e1d318b9afe3a2154e970c25e30eb580f10cb3cab8558cd85",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:54.585355"
+    },
+    "impact-software-development.md": {
+      "original_url": "https://www.anthropic.com/research/impact-software-development",
+      "title": "Anthropic Economic Index: AI\u2019s impact on software development",
+      "date": "",
+      "authors": [],
+      "summary": "Data on how software developers are using Claude",
+      "categories": [
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "abb8be3f89cea441a58793afcf0b9c9d2296a72e1c452a55b3b4db3e43b97d9e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:20:57.974342"
+    },
+    "in-context-learning-and-induction-heads.md": {
+      "original_url": "https://www.anthropic.com/research/in-context-learning-and-induction-heads",
+      "title": "In-context Learning and Induction Heads",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "3767488e100328e871175bf98a5eada005706114df6ffbea3218dfeb18b215b5",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:02.127318"
+    },
+    "india-brief-economic-index.md": {
+      "original_url": "https://www.anthropic.com/research/india-brief-economic-index",
+      "title": "India Country Brief: The Anthropic Economic Index",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b1deabeb6fb09a0804ecd51b7353a157a91a80ffeb4b1a52b6414de0c99ff45d",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:06.715261"
+    },
+    "influence-functions.md": {
+      "original_url": "https://www.anthropic.com/research/influence-functions",
+      "title": "Tracing Model Outputs to the Training Data",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b3c381c7f0b128d036fa9e636aea0cab371a480f580a8dced6bbe2db85533036",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:11.945236"
+    },
+    "interpretability.md": {
+      "original_url": "https://www.anthropic.com/research/team/interpretability",
+      "title": "Interpretability",
+      "date": "May 29, 2025",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "societal-impacts"
+      ],
+      "hash": "4e3c2095ad367c38f6d5a80675fce4d332fe6c1b4050979503cd876235fe4cd8",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-01-22T12:39:09.980593"
+    },
+    "interpretability-dreams.md": {
+      "original_url": "https://www.anthropic.com/research/interpretability-dreams",
+      "title": "Interpretability Dreams",
+      "date": "May 24, 2023",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "e0b8d9d8459d3df0df022de8d8a5fc81d821fe159cc6687441d4969e837bc1f4",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:21.421480"
+    },
+    "introspection.md": {
+      "original_url": "https://www.anthropic.com/research/introspection",
+      "title": "Signs of introspection in large language models",
+      "date": "",
+      "authors": [],
+      "summary": "Research from Anthropic on the ability of large language models to introspect",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "45b402c7fc97eb0de189e09872d858c3288f47ad04f6e006c503e1e97f826ab2",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:21.859252"
+    },
+    "labor-market-impacts.md": {
+      "original_url": "https://www.anthropic.com/research/labor-market-impacts",
+      "title": "Labor market impacts of AI: A new measure and early evidence",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "91a6c0bdf4452e82eb5a8d84e1912b6a374f34ed0d42615edd482f092eba0dd2",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:25.757767"
+    },
+    "language-models-mostly-know-what-they-know.md": {
+      "original_url": "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
+      "title": "Language Models (Mostly) Know What They Know",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "16ce93a50f489b2168ca13135a8a8a850b88f7d4bdfc6942248ac2b89201a03e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:29.163526"
+    },
+    "many-shot-jailbreaking.md": {
+      "original_url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "title": "Many-shot jailbreaking",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ae17efab29195df4fa08665535eef03460213cd1b0f22c14e7b754e36567e849",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:33.099378"
+    },
+    "mapping-mind-language-model.md": {
+      "original_url": "https://www.anthropic.com/research/mapping-mind-language-model",
+      "title": "Mapping the Mind of a Large Language Model",
+      "date": "May 21, 2024",
+      "authors": [],
+      "summary": "We have identified how millions of concepts are represented inside Claude Sonnet, one of our deployed large language models. This is the first ever detailed look inside a modern, production-grade large language model.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "759213b94601a0074b45b03198a4b1beecc7dfa4097ec8de826013074637956d",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:36.608884"
+    },
+    "measuring-agent-autonomy.md": {
+      "original_url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "title": "Measuring AI agent autonomy in practice",
+      "date": "September 19, 2025",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1a7be2fc3a368756b5b3915e39672ff81fc1494e99392e81ba215871383a2d01",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:41.744246"
+    },
+    "measuring-faithfulness-in-chain-of-thought-reasoning.md": {
+      "original_url": "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
+      "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a82dc8461a6cd618416850d19caca3e82c9b5f108e4e06a56f35a94a89cbccb9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:45.870057"
+    },
+    "measuring-model-persuasiveness.md": {
+      "original_url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+      "title": "Measuring the Persuasiveness of Language Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic developed a way to test how persuasive language models (LMs) are, and analyzed how persuasiveness scales across different versions of Claude.",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b2f608f06a8f06169d4b182d82756e6de5eb8f93fdaabd49af9279b8e8e62a55",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:49.728416"
+    },
+    "measuring-progress-on-scalable-oversight-for-large-language-models.md": {
+      "original_url": "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+      "title": "Measuring Progress on Scalable Oversight for Large Language Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "d6f3e5f7da463d8a1ea57a14b9fb2c83c29f7c2128b1f3d29e4057e90894718a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:54.510465"
+    },
+    "next-generation-constitutional-classifiers.md": {
+      "original_url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+      "title": "Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ae8ab2a38cf48395ba623b7c013a86f9acb6491a230722544f430b01c68521c0",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:58.767436"
+    },
+    "open-source-circuit-tracing.md": {
+      "original_url": "https://www.anthropic.com/research/open-source-circuit-tracing",
+      "title": "Open-sourcing circuit tracing tools",
+      "date": "May 29, 2025",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "cc1c6e305718145ae470ef8664b658b33eb6d4dfded7e0b05ed3063dda57b62e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:58.899567"
+    },
+    "persona-selection-model.md": {
+      "original_url": "https://www.anthropic.com/research/persona-selection-model",
+      "title": "The persona selection model",
+      "date": "",
+      "authors": [],
+      "summary": "A theory of why AI models act like humans",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "e1d004f47db3708d3fe503420b1117fffb8185e3692cce0ab1d1ad92cf48cdb1",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:21:59.040777"
+    },
+    "persona-vectors.md": {
+      "original_url": "https://www.anthropic.com/research/persona-vectors",
+      "title": "Persona vectors: Monitoring and controlling character traits in language models",
+      "date": "",
+      "authors": [],
+      "summary": "A paper from Anthropic describing persona vectors and their applications to monitoring and controlling model behavior",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "cf1b5e3744004937ce6203f5fb8b49478ca364344115b6eeb63173bc0a5ea9fa",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:03.294331"
+    },
+    "petri-open-source-auditing.md": {
+      "original_url": "https://www.anthropic.com/research/petri-open-source-auditing",
+      "title": "Petri: An open-source auditing tool to accelerate AI safety research",
+      "date": "",
+      "authors": [],
+      "summary": "A new automated auditing tool for AI safety research",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "38e1b3b592fe5926b0e13c864b9cb5944a3006edc4e0a55481277e9ca0788e8c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:03.483895"
+    },
+    "predictability-and-surprise-in-large-generative-models.md": {
+      "original_url": "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
+      "title": "Predictability and Surprise in Large Generative Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "30c5e2a95f09a34684ae43069fc849f2444a7f1bd5f090047b6ae8d993c60c88",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:03.631771"
+    },
+    "privileged-bases-in-the-transformer-residual-stream.md": {
+      "original_url": "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
+      "title": "Privileged Bases in the Transformer Residual Stream",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "640677492e304945afaa0cb9dee4098f0223f89f28438a16bfaef48665c3d65d",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:08.162986"
+    },
+    "probes-catch-sleeper-agents.md": {
+      "original_url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+      "title": "Simple probes can catch sleeper agents",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a4f4b8b18ef39758b536e269824eb8f9af1890a02d825049b617c6896f58f1ba",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:12.148020"
+    },
+    "project-fetch-robot-dog.md": {
+      "original_url": "https://www.anthropic.com/research/project-fetch-robot-dog",
+      "title": "Project Fetch: Can Claude train a robot dog?",
+      "date": "",
+      "authors": [],
+      "summary": "A practical experiment on AI's ability to affect the physical world",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ef78dc466eb155adf635feef64d21076ea75966720c4388fc47aeab0a75454af",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:16.215533"
+    },
+    "project-vend-1.md": {
+      "original_url": "https://www.anthropic.com/research/project-vend-1",
+      "title": "Project Vend: Can Claude run a small shop? (And why does that matter?)",
+      "date": "",
+      "authors": [],
+      "summary": "We let Claude run a small shop in the Anthropic office. Here's what happened.",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b9a6941c317ddee970daa5d45b18ed1c1dafb771367915e534168fb6efdc3eab",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:19.217616"
+    },
+    "project-vend-2.md": {
+      "original_url": "https://www.anthropic.com/research/project-vend-2",
+      "title": "Project Vend: Phase two",
+      "date": "",
+      "authors": [],
+      "summary": "How Claude turned around its failing vending machine business",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1f953ddf2887ffaf85807745232d775b21eb7aca306154132aa60ec3d0c370bc",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:22.090932"
+    },
+    "prompt-injection-defenses.md": {
+      "original_url": "https://www.anthropic.com/research/prompt-injection-defenses",
+      "title": "Mitigating the risk of prompt injections in browser use",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "83e2c042817ad2237b49a04ef6fd0d077bd11f6861e557747a771e1d1ef8f262",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:22.598907"
+    },
+    "question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.md": {
+      "original_url": "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+      "title": "Question Decomposition Improves the Faithfulness of Model-Generated Reasoning",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a72a22dd982f8d282df4b9bb714f64181cdfc2df150c43d3acd1d7379ae25ba0",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:27.258541"
+    },
+    "reasoning-models-dont-say-think.md": {
+      "original_url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
+      "title": "Reasoning models don't always say what they think",
+      "date": "",
+      "authors": [],
+      "summary": "Research from Anthropic on the faithfulness of AI models' Chain-of-Thought",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "894f790377ef69f72ee51cd253c38b2ce9c31025abde79386148e3afafb0147c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:27.435714"
+    },
+    "red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned.md": {
+      "original_url": "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned",
+      "title": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "aa0185ebb4f12614592b3f3b628d2b4c64d6a8a6fd1d01e58b629e49dedd8c24",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:31.471988"
+    },
+    "reward-tampering.md": {
+      "original_url": "https://www.anthropic.com/research/reward-tampering",
+      "title": "Sycophancy to subterfuge: Investigating reward tampering in language models",
+      "date": "",
+      "authors": [],
+      "summary": "Empirical evidence that serious misalignment can emerge from seemingly benign reward misspecification.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b82dfbbe7a58ac9ed38c8752dd1921e0b908c1a359e8362c558591d749df1979",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:36.420519"
+    },
+    "sabotage-evaluations.md": {
+      "original_url": "https://www.anthropic.com/research/sabotage-evaluations",
+      "title": "Sabotage evaluations for frontier models",
+      "date": "",
+      "authors": [],
+      "summary": "A new paper on AI safety evaluations from Anthropic's Alignment Science team",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1d6ce4f06f979dae674d473d63603b3e534d457ee6915705860e91839fd5a0c3",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:40.814143"
+    },
+    "scaling-laws-and-interpretability-of-learning-from-repeated-data.md": {
+      "original_url": "https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data",
+      "title": "Scaling Laws and Interpretability of Learning from Repeated Data",
+      "date": "May 21, 2022",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "670c0a17f40b69a12c1819a64d711b88c5d290b348e2b4734056536764d9545d",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:41.203075"
+    },
+    "shade-arena-sabotage-monitoring.md": {
+      "original_url": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
+      "title": "SHADE-Arena: Evaluating sabotage and monitoring in LLM agents",
+      "date": "",
+      "authors": [],
+      "summary": "A new set of evaluations to test the sabotage and monitoring capabilities of LLM AI models",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "3ac3753ec8b6f6f400b2a01b73a2c3a31c750ee1139474e7f790147be23c5932",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:44.384861"
+    },
+    "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training.md": {
+      "original_url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "a076693ee68e3fd7de8be056c60420d368e6c326eb066fd9e5ba17d98f46a11f",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:47.692312"
+    },
+    "small-samples-poison.md": {
+      "original_url": "https://www.anthropic.com/research/small-samples-poison",
+      "title": "A small number of samples can poison LLMs of any size",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic research on data-poisoning attacks in large language models",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "53d84191bc3b7a7be323309e0ac143033e677a69d92acb95f68b36102b8daf09",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:51.097115"
+    },
+    "societal-impacts.md": {
+      "original_url": "https://www.anthropic.com/research/team/societal-impacts",
+      "title": "Societal Impacts",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "f8dfd0b4c68d478efc11739a6c755ec7195f57d5c5de616e83e87a5571265bfa",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-02-20T10:04:38.238318"
+    },
+    "softmax-linear-units.md": {
+      "original_url": "https://www.anthropic.com/research/softmax-linear-units",
+      "title": "Softmax Linear Units",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1318b20844efd82c809cf383d27852de29e4bf52ed00b8cbd01f786551803eff",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:55.039002"
+    },
+    "specific-versus-general-principles-for-constitutional-ai.md": {
+      "original_url": "https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai",
+      "title": "Specific versus General Principles for Constitutional AI",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "2edcdf934f6eed04e9908739f50cd1ef5b22159ddfd588258ebbf8c74afe4202",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:22:58.567467"
+    },
+    "statistical-approach-to-model-evals.md": {
+      "original_url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
+      "title": "A statistical approach to model evaluations",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "c2f7d42af803c505ad042e68166f0008cda5283b6134a90abfd8cbaf92b11285",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:01.911652"
+    },
+    "studying-large-language-model-generalization-with-influence-functions.md": {
+      "original_url": "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
+      "title": "Studying Large Language Model Generalization with Influence Functions",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "97493803bd58f5389fdb91c73afe7e949ddfd1e7620fcb853d2d5e514b2bc4eb",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:06.195146"
+    },
+    "superposition-memorization-and-double-descent.md": {
+      "original_url": "https://www.anthropic.com/research/superposition-memorization-and-double-descent",
+      "title": "Superposition, Memorization, and Double Descent",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "942f9fa3ba40f3b8851a916275aa03288d0cd8cfd062048254a23bd7200c475c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:06.429255"
+    },
+    "swe-bench-sonnet.md": {
+      "original_url": "https://www.anthropic.com/research/swe-bench-sonnet",
+      "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+      "date": "",
+      "authors": [],
+      "summary": "Explore Claude's breakthrough performance on SWE-Bench, demonstrating advanced software engineering capabilities and code generation accuracy. Learn about our technical evaluation methods.",
+      "categories": [
+        "capabilities",
+        "evaluations"
+      ],
+      "hash": "db080a86cb382ac733a8a7329653cddd7349d31910ef991374490537bfef3db9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-01-22T12:39:17.436257"
+    },
+    "the-capacity-for-moral-self-correction-in-large-language-models.md": {
+      "original_url": "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models",
+      "title": "The Capacity for Moral Self-Correction in Large Language Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "7ea13c047882d45b5302f89e83ff5cc2bcf9515dde522daeb5abb88584a8c5c9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:16.637084"
+    },
+    "towards-measuring-the-representation-of-subjective-global-opinions-in-language-models.md": {
+      "original_url": "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models",
+      "title": "Towards Measuring the Representation of Subjective Global Opinions in Language Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "03b1dd4d902655ae26bfde30221ecd8d5cda24efd260bf8a01cb058c08742bd4",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:20.736055"
+    },
+    "towards-monosemanticity-decomposing-language-models-with-dictionary-learning.md": {
+      "original_url": "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+      "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "b11bc7c1bcffd679447024ce39f3e3077d753f48e5c5f0d3237029468d1ad215",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:20.880184"
+    },
+    "towards-understanding-sycophancy-in-language-models.md": {
+      "original_url": "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models",
+      "title": "Towards Understanding Sycophancy in Language Models",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ff945a11de1af34e19acb015faba22c263929418742d35e972ce5289a8e75f5a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:21.008322"
+    },
+    "toy-models-of-superposition.md": {
+      "original_url": "https://www.anthropic.com/research/toy-models-of-superposition",
+      "title": "Toy Models of Superposition",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "de48f0d21e8730da8ac02854458a4c9b28de53e9b5d666ff45e9cc731fa68333",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:24.508927"
+    },
+    "tracing-thoughts-language-model.md": {
+      "original_url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+      "title": "Tracing the thoughts of a large language model",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic's latest interpretability research: a new microscope to understand Claude's internal mechanisms",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "37465195900ede5637dd070de41a5878ab69ed5ccc5cd37f21752e37347bd243",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:28.611558"
+    },
+    "training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback.md": {
+      "original_url": "https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback",
+      "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "1890a8f73708a41872cab71a55cd462e2898c548701177665c876496859dd301",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:29.006264"
+    },
+    "transformer-circuits.md": {
+      "original_url": "https://www.anthropic.com/research/transformer-circuits",
+      "title": "Reflections on Qualitative Research",
+      "date": "",
+      "authors": [],
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "categories": [
+        "interpretability",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ccf83dc52fb1a4cc96ccd2850beec27da13a8ed07abe829c4e855b830757b102",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:33.650150"
+    },
+    "values-wild.md": {
+      "original_url": "https://www.anthropic.com/research/values-wild",
+      "title": "Values in the wild: Discovering and analyzing values in real-world language model interactions",
+      "date": "",
+      "authors": [],
+      "summary": "An Anthropic research paper testing which values AI models express in the real world",
+      "categories": [
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "64c5ad3ecf88459e2248dc95c08233d3887a98f4eca44ecfda1f0411767299f1",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:36.458992"
+    },
+    "visible-extended-thinking.md": {
+      "original_url": "https://www.anthropic.com/research/visible-extended-thinking",
+      "title": "Claude\u2019s extended thinking",
+      "date": "",
+      "authors": [],
+      "summary": "Discussing Claude's new thought process",
+      "categories": [
+        "interpretability",
+        "alignment",
+        "safety",
+        "capabilities",
+        "evaluations",
+        "societal-impacts"
+      ],
+      "hash": "ea754727717ebbc63896cf75e11a5fbd1befaf872eb47c4166330673a17ea0e3",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-03-07T10:23:39.883217"
+    }
+  },
+  "fetch_metadata": {
+    "last_fetch_completed": "2026-03-07T10:23:39.885127",
+    "fetch_duration_seconds": 332.310094,
+    "total_papers_discovered": 102,
+    "papers_fetched_successfully": 102,
+    "papers_failed": 0,
+    "papers_unchanged": 5,
+    "papers_updated": 96,
+    "papers_new": 1,
+    "papers_skipped_304": 0,
+    "failed_papers": [],
+    "source_sitemap": "https://www.anthropic.com/sitemap.xml",
+    "fetch_tool_version": "5.0",
+    "fetch_mode": "incremental"
+  },
+  "base_url": "https://raw.githubusercontent.com/robgruhl/anthropic-docs-mirror/main/anthropic-research/",
+  "github_repository": "robgruhl/anthropic-docs-mirror",
+  "github_ref": "main",
+  "source_site": "anthropic.com/research",
+  "last_updated": "2026-03-07T10:23:39.885214"
+}

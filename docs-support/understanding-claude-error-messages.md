@@ -1,0 +1,92 @@
+# Understanding Claude Error Messages
+
+*Updated this week*
+
+---
+
+This article explains common error messages and warnings you may encounter when using Claude and provides guidance on how to address them.
+
+ 
+
+## Usage limit warnings and errors
+
+Usage limit warnings appear when you're approaching your plan’s limit within a five-hour session: *“Approaching 5-hour limit.”*
+
+ 
+
+If you hit your plan’s limit after the warning appears, you’ll see a blocking error message letting you know when you can use Claude again: *“5-hour limit reached - resets [time].”*
+
+ 
+
+Looking for ways to maximize your Claude usage? Refer to [Usage Limit Best Practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices).
+
+ 
+
+### Extra usage
+
+Paid Claude users with extra usage enabled in Usage settings will see a slightly different usage limit error:* “5-hour limit resets [time] - continuing with extra usage.”* Note that this will only appear for members with access to extra usage.
+
+ 
+
+Refer to these articles for more information about this feature depending on your plan:
+
+- [Extra Usage for Paid Claude Plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Extra Usage for Team and Enterprise Plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-enterprise-plans)
+
+ 
+
+## Length limit errors
+
+You may encounter a length limit error when your message to Claude exceeds the maximum input length allowed: "Your message will exceed the length limit for this chat. Try attaching fewer or smaller files or starting a new conversation." This error indicates that your message is too long and needs to be shortened before sending it to Claude.
+
+ 
+
+For users on paid plans with code execution enabled, Claude automatically manages long conversations by summarizing earlier messages when context limits are approached. This means most users will rarely encounter length limit errors during normal use. Your full chat history is preserved so Claude can reference it even after summarization. In rare cases where you still encounter this error (such as when sending a very large first message), you can:
+
+- Break your content into smaller chunks and process them separately
+- Summarize or extract key sections before sending to Claude
+- Use Claude to first identify the most relevant portions of your content
+- Start a new conversation
+
+ 
+
+## Login errors
+
+If you see a generic error message when attempting to log in to your Claude account (e.g, "There was an error logging you in"), try the following troubleshooting steps:
+
+- Ensure you’re not using a VPN when accessing Claude.
+- Disable any browser extensions that you currently have active.
+- Clear your browser’s cache and cookies.
+
+ If you're still seeing an error, check [our status page](http://status.claude.com) for active incidents.
+
+ 
+
+## Capacity constraints
+
+Capacity issues occur when Claude’s infrastructure experiences high demand system-wide. When capacity is constrained, you may see this message when chatting with Claude: *"Due to unexpected capacity constraints, Claude is unable to respond to your message. Please try again soon."*
+
+Capacity issues will not appear on [our status page](http://status.claude.com) because they represent normal load management rather than technical problems.
+
+ 
+
+## Service incidents and outages
+
+Service incidents are disruptions where Claude is unavailable or significantly degraded for all or most users. These represent actual technical problems with our systems. To check for confirmed incidents, visit status.claude.com, where you'll find real-time updates on scope, impact, and resolution progress for any active incidents.
+
+ 
+
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1771884000&signature=1259849def0b12c598f2e61e1b0de3be916ccf9c769951ef78660a61e37b3be3&req=dSciFc53m4NbXvMW1HO4za4BUa4r2rbE7y68oYp%2BYg%2FsQl%2BulnSm9%2BfaaxDi%0AVt36cNiBZRWZ8JAJ9LE%3D%0A)
+
+ 
+
+
+---
+
+## Related Articles
+
+- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
+- [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
+- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
+- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
+- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)

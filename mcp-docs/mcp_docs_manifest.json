@@ -1,0 +1,2215 @@
+{
+  "files": {
+    "community__antitrust.md": {
+      "original_url": "https://modelcontextprotocol.io/community/antitrust",
+      "original_md_url": "https://modelcontextprotocol.io/community/antitrust.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/antitrust",
+      "hash": "55478f8bb8687f3171ac76e78dd93e4fae7687a9e9415f864de4db3e0e433296",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:15 GMT",
+      "last_updated": "2026-02-01T06:24:01.789500"
+    },
+    "community__communication.md": {
+      "original_url": "https://modelcontextprotocol.io/community/communication",
+      "original_md_url": "https://modelcontextprotocol.io/community/communication.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/communication",
+      "hash": "bd7ec1cfe8cc06a7e566e20b002df7016c711842994c37d4a994a4c974737cd3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:15 GMT",
+      "last_updated": "2026-02-01T06:24:01.789726"
+    },
+    "community__contributing.md": {
+      "original_url": "https://modelcontextprotocol.io/community/contributing",
+      "original_md_url": "https://modelcontextprotocol.io/community/contributing.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/contributing",
+      "hash": "d79b7685100c158677f589a567af47dad591a259df699cfff4e8f110a1c7304f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:15 GMT",
+      "last_updated": "2026-02-01T06:24:01.789841"
+    },
+    "community__governance.md": {
+      "original_url": "https://modelcontextprotocol.io/community/governance",
+      "original_md_url": "https://modelcontextprotocol.io/community/governance.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/governance",
+      "hash": "f21a3fd5801e0ab46deaa37750f50ffbc3920857981c69ef6cf14d3743533963",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:15 GMT",
+      "last_updated": "2026-02-05T11:12:06.329471"
+    },
+    "community__sdk-tiers.md": {
+      "original_url": "https://modelcontextprotocol.io/community/sdk-tiers",
+      "original_md_url": "https://modelcontextprotocol.io/community/sdk-tiers.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/sdk-tiers",
+      "hash": "56af7f4279e5e3d9a792e698e4303ce8e3f51d20ce70b57570f0773ac471c077",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.329584"
+    },
+    "community__sep-guidelines.md": {
+      "original_url": "https://modelcontextprotocol.io/community/sep-guidelines",
+      "original_md_url": "https://modelcontextprotocol.io/community/sep-guidelines.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/sep-guidelines",
+      "hash": "2fd9a552cbb3df9372c8f5aff4ec379885dea342aa6c4e29a73f6ebf1fb7c5d0",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-01T06:24:01.790089"
+    },
+    "community__seps.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps",
+      "hash": "a3c438664de0f6f7a01d8675eac660401d364af2aa931916801644d4b59630c6",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:15 GMT",
+      "last_updated": "2026-02-05T11:12:06.329795"
+    },
+    "community__seps__1024-mcp-client-security-requirements-for-local-server-.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1024-mcp-client-security-requirements-for-local-server-",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1024-mcp-client-security-requirements-for-local-server-.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1024-mcp-client-security-requirements-for-local-server-",
+      "hash": "da65dc09242b6657b10f4bf0a4daed4679b02e80ec06860d71d877b804b3b50a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:58:58 GMT",
+      "last_updated": "2026-02-05T11:12:06.329874"
+    },
+    "community__seps__1034--support-default-values-for-all-primitive-types-in.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1034--support-default-values-for-all-primitive-types-in",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1034--support-default-values-for-all-primitive-types-in.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1034--support-default-values-for-all-primitive-types-in",
+      "hash": "8518ff94d41bb6a084b136dac489f23d963ef985651985653daeedc92a26bf4c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.329967"
+    },
+    "community__seps__1036-url-mode-elicitation-for-secure-out-of-band-intera.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1036-url-mode-elicitation-for-secure-out-of-band-intera",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1036-url-mode-elicitation-for-secure-out-of-band-intera.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1036-url-mode-elicitation-for-secure-out-of-band-intera",
+      "hash": "b79b7cbb5a6f36b22716cb206d6f44fc99d6da6a593165aa3f8c6f2e65377068",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.330070"
+    },
+    "community__seps__1046-support-oauth-client-credentials-flow-in-authoriza.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1046-support-oauth-client-credentials-flow-in-authoriza",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1046-support-oauth-client-credentials-flow-in-authoriza.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1046-support-oauth-client-credentials-flow-in-authoriza",
+      "hash": "64601b7a47e113e3fce8ba122805db0f46d8d05a9727f4256380274422ea6401",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:58:58 GMT",
+      "last_updated": "2026-02-05T11:12:06.330155"
+    },
+    "community__seps__1302-formalize-working-groups-and-interest-groups-in-mc.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1302-formalize-working-groups-and-interest-groups-in-mc",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1302-formalize-working-groups-and-interest-groups-in-mc.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1302-formalize-working-groups-and-interest-groups-in-mc",
+      "hash": "9cf16319a81249ac4ea788b94a22c6203a380696c5ca8072168a917c629201d2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.330246"
+    },
+    "community__seps__1303-input-validation-errors-as-tool-execution-errors.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1303-input-validation-errors-as-tool-execution-errors",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1303-input-validation-errors-as-tool-execution-errors.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1303-input-validation-errors-as-tool-execution-errors",
+      "hash": "055bb40702971c59de1058dc6ec073a87f074c1097f338889a6a811a98927a6d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:29:02 GMT",
+      "last_updated": "2026-02-05T11:12:06.330329"
+    },
+    "community__seps__1319-decouple-request-payload-from-rpc-methods-definiti.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1319-decouple-request-payload-from-rpc-methods-definiti",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1319-decouple-request-payload-from-rpc-methods-definiti.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1319-decouple-request-payload-from-rpc-methods-definiti",
+      "hash": "24cf19d637077cc31d0227ce3d8790b15d9368a4e7d2ed0737a8be673c729402",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.330412"
+    },
+    "community__seps__1330-elicitation-enum-schema-improvements-and-standards.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1330-elicitation-enum-schema-improvements-and-standards",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1330-elicitation-enum-schema-improvements-and-standards.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1330-elicitation-enum-schema-improvements-and-standards",
+      "hash": "d9b12f39bbe22c17b6de0d89e649fd4ce0e7bbfbdb9acf49b4efcf799939b875",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.330498"
+    },
+    "community__seps__1577--sampling-with-tools.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1577--sampling-with-tools",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1577--sampling-with-tools.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1577--sampling-with-tools",
+      "hash": "52e06f8cffec232020eed914991455085b18ba736f0fa452fa00c53fc703b02f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:27:11 GMT",
+      "last_updated": "2026-02-05T11:12:06.330581"
+    },
+    "community__seps__1613-establish-json-schema-2020-12-as-default-dialect-f.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1613-establish-json-schema-2020-12-as-default-dialect-f",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1613-establish-json-schema-2020-12-as-default-dialect-f.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1613-establish-json-schema-2020-12-as-default-dialect-f",
+      "hash": "45db308fe5d815336e9b317b384cb867bc82a8ffec6a97098ebd345cb08a0327",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.330908"
+    },
+    "community__seps__1686-tasks.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1686-tasks",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1686-tasks.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1686-tasks",
+      "hash": "14c92c2acbde0877956ab0c242db15428ab90173bb1affc484aec34507742738",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.331046"
+    },
+    "community__seps__1699-support-sse-polling-via-server-side-disconnect.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1699-support-sse-polling-via-server-side-disconnect",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1699-support-sse-polling-via-server-side-disconnect.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1699-support-sse-polling-via-server-side-disconnect",
+      "hash": "cf3ecc4e4d1e0e84b1489412043fbb3462dd0820920d3831b151b7723b4613ec",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.331183"
+    },
+    "community__seps__1730-sdks-tiering-system.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1730-sdks-tiering-system",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1730-sdks-tiering-system.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1730-sdks-tiering-system",
+      "hash": "b6d0f897f092c36bc71118eac65baeae94a0600188984af8c5e5c343f78c2b55",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.331302"
+    },
+    "community__seps__1850-pr-based-sep-workflow.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1850-pr-based-sep-workflow",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1850-pr-based-sep-workflow.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1850-pr-based-sep-workflow",
+      "hash": "5a3a2e10a637ab2df6abd9d149fdbac8d2d63aecabeac07246cbfdd8ae6ede93",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.331401"
+    },
+    "community__seps__1865-mcp-apps-interactive-user-interfaces-for-mcp.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/1865-mcp-apps-interactive-user-interfaces-for-mcp",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/1865-mcp-apps-interactive-user-interfaces-for-mcp.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/1865-mcp-apps-interactive-user-interfaces-for-mcp",
+      "hash": "d2a9a2cc138e0fe23a2be04d94ff92351f39fce9898104bebd9033e7635b2582",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:24:19 GMT",
+      "last_updated": "2026-02-05T11:12:06.331483"
+    },
+    "community__seps__2085-governance-succession-and-amendment.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/2085-governance-succession-and-amendment",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/2085-governance-succession-and-amendment.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/2085-governance-succession-and-amendment",
+      "hash": "2d00f469f51302aa653a2e5a041b1a53f9bd9dd4a07e590c8ea828e3c1f08c8a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:16 GMT",
+      "last_updated": "2026-02-05T11:12:06.331565"
+    },
+    "community__seps__2133-extensions.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/2133-extensions",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/2133-extensions.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/2133-extensions",
+      "hash": "37923f929343eeefc76b3790c8e00e64bca679893c89dc8f51932c92b890d0df",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:00:21 GMT",
+      "last_updated": "2026-02-05T11:12:06.331653"
+    },
+    "community__seps__932-model-context-protocol-governance.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/932-model-context-protocol-governance",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/932-model-context-protocol-governance.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/932-model-context-protocol-governance",
+      "hash": "1307af20722e43419bcd7723b5f93d0dbda9b7af81fca3698ddaf3fbafa7631f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:31:53 GMT",
+      "last_updated": "2026-02-05T11:12:06.331732"
+    },
+    "community__seps__973-expose-additional-metadata-for-implementations-res.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/973-expose-additional-metadata-for-implementations-res",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/973-expose-additional-metadata-for-implementations-res.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/973-expose-additional-metadata-for-implementations-res",
+      "hash": "f22b28b6a9efadc79f249d207e3be0906595adf02a3ad18ca1a32729d00e9215",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-05T11:12:06.331826"
+    },
+    "community__seps__985-align-oauth-20-protected-resource-metadata-with-rf.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/985-align-oauth-20-protected-resource-metadata-with-rf",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/985-align-oauth-20-protected-resource-metadata-with-rf.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/985-align-oauth-20-protected-resource-metadata-with-rf",
+      "hash": "339c9c703377ac924bca6f3f17bb281108a82b856086c8a8b5583cb122e52ada",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-05T11:12:06.332093"
+    },
+    "community__seps__986-specify-format-for-tool-names.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/986-specify-format-for-tool-names",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/986-specify-format-for-tool-names.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/986-specify-format-for-tool-names",
+      "hash": "1ce0ef78d06c69d006e0e4e0966f1425f0e432ba79e9284b9e5e9107b5b56fab",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:31:53 GMT",
+      "last_updated": "2026-02-05T11:12:06.332188"
+    },
+    "community__seps__990-enable-enterprise-idp-policy-controls-during-mcp-o.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/990-enable-enterprise-idp-policy-controls-during-mcp-o",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/990-enable-enterprise-idp-policy-controls-during-mcp-o.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/990-enable-enterprise-idp-policy-controls-during-mcp-o",
+      "hash": "998d1de6e1705d6da3d5e4e5ef3348c3e33d05785d2c9feab53a741985c16aeb",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-05T11:12:06.332490"
+    },
+    "community__seps__991-enable-url-based-client-registration-using-oauth-c.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/991-enable-url-based-client-registration-using-oauth-c",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/991-enable-url-based-client-registration-using-oauth-c.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/991-enable-url-based-client-registration-using-oauth-c",
+      "hash": "0d299f59be9a1d9f069d9e88a2608259d90ba06f44311f2e8863324ef8e3e92e",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-05T11:12:06.332641"
+    },
+    "community__seps__994-shared-communication-practicesguidelines.md": {
+      "original_url": "https://modelcontextprotocol.io/community/seps/994-shared-communication-practicesguidelines",
+      "original_md_url": "https://modelcontextprotocol.io/community/seps/994-shared-communication-practicesguidelines.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/seps/994-shared-communication-practicesguidelines",
+      "hash": "36ccfbe518d37af9e6bb5e4f7474c0c95080f73540f557efb1eda1364f2de6f2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-05T11:12:06.332746"
+    },
+    "community__working-interest-groups.md": {
+      "original_url": "https://modelcontextprotocol.io/community/working-interest-groups",
+      "original_md_url": "https://modelcontextprotocol.io/community/working-interest-groups.md",
+      "category": "community",
+      "categories": [
+        "community"
+      ],
+      "path": "/community/working-interest-groups",
+      "hash": "47e151ee81eafcfa8f7e5355d1350050d5fdf043fb201fc658581428ba51ec77",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:17 GMT",
+      "last_updated": "2026-02-01T06:24:01.793663"
+    },
+    "docs__develop__build-client.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/develop/build-client",
+      "original_md_url": "https://modelcontextprotocol.io/docs/develop/build-client.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/develop/build-client",
+      "hash": "9968b9a2ed753e57d4ce7653a2346dedeb7f40bba8e0b5c68487df97d34f2141",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:25 GMT",
+      "last_updated": "2026-01-27T11:09:52.369457"
+    },
+    "docs__develop__build-server.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/develop/build-server",
+      "original_md_url": "https://modelcontextprotocol.io/docs/develop/build-server.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/develop/build-server",
+      "hash": "5c94924101bef02ea1abd261b9ce7a9c5f57369b8fb1e76b2ad91a8da7a3f257",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:17 GMT",
+      "last_updated": "2026-02-11T15:57:19.531911"
+    },
+    "docs__develop__connect-local-servers.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers",
+      "original_md_url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/develop/connect-local-servers",
+      "hash": "88b4c4f1b1d9092b9dcda158c4022d13d3afdff6b3b4450c327aaa4dfd0cf719",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:15:32 GMT",
+      "last_updated": "2026-02-20T09:59:31.327009"
+    },
+    "docs__develop__connect-remote-servers.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/develop/connect-remote-servers",
+      "original_md_url": "https://modelcontextprotocol.io/docs/develop/connect-remote-servers.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/develop/connect-remote-servers",
+      "hash": "fde5d0d872bdb7ebdde93757f7943a2ae0ac1d31f63c544e686b060f1f4b7242",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:21:39 GMT",
+      "last_updated": "2026-01-27T11:09:52.370289"
+    },
+    "docs__getting-started__intro.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "original_md_url": "https://modelcontextprotocol.io/docs/getting-started/intro.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/getting-started/intro",
+      "hash": "36a1cb8b0e4a70204d238e812ce2db2a123e332f1068aef258d31ad6bf5508d7",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:17 GMT",
+      "last_updated": "2026-01-27T11:09:52.371475"
+    },
+    "docs__learn__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/learn/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/docs/learn/architecture.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/learn/architecture",
+      "hash": "e7d07183aaaa4e5df317c30593ce93a280798623713d36ba362105ecb90f90b6",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:02 GMT",
+      "last_updated": "2026-01-27T11:09:52.371724"
+    },
+    "docs__learn__client-concepts.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/learn/client-concepts",
+      "original_md_url": "https://modelcontextprotocol.io/docs/learn/client-concepts.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/learn/client-concepts",
+      "hash": "ea964eff981ad3144c520081ad93179fc57c06bd251997c284344922ea08bb70",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:12:52 GMT",
+      "last_updated": "2026-01-27T11:09:52.371932"
+    },
+    "docs__learn__server-concepts.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/learn/server-concepts",
+      "original_md_url": "https://modelcontextprotocol.io/docs/learn/server-concepts.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/learn/server-concepts",
+      "hash": "eb83dd7896bbe4fae1aebef529fc664da9b1f11320b5b3c40f402d1feb7a0090",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:07:53 GMT",
+      "last_updated": "2026-01-27T11:09:52.372243"
+    },
+    "docs__sdk.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/sdk",
+      "original_md_url": "https://modelcontextprotocol.io/docs/sdk.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/sdk",
+      "hash": "049bb829d72800137bf55fffd71e7ec8104fcb07d86143163057292c07dfa2a4",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:58:57 GMT",
+      "last_updated": "2026-02-20T09:59:31.327887"
+    },
+    "docs__tools__inspector.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/tools/inspector",
+      "original_md_url": "https://modelcontextprotocol.io/docs/tools/inspector.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/tools/inspector",
+      "hash": "996910f570b32967eaa4bb71dd4dd2c8f450a38e5e8b7ba13914f43b8471f07a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:31:50 GMT",
+      "last_updated": "2026-01-27T11:09:52.372738"
+    },
+    "docs__tutorials__security__authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/tutorials/security/authorization",
+      "original_md_url": "https://modelcontextprotocol.io/docs/tutorials/security/authorization.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/tutorials/security/authorization",
+      "hash": "e755d1fe8a587675507fc6cefe9fdf13dd0bba9231d67eda0a0ce7ef7d33aee9",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:22:05 GMT",
+      "last_updated": "2026-01-27T11:09:52.372950"
+    },
+    "docs__tutorials__security__security_best_practices.md": {
+      "original_url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+      "original_md_url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices.md",
+      "category": "docs",
+      "categories": [
+        "docs"
+      ],
+      "path": "/docs/tutorials/security/security_best_practices",
+      "hash": "fd6c67dabc1602ff87e2c161db549a3ef0c6a54480d3cc8813e86c6ff9d06e94",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:08 GMT",
+      "last_updated": "2026-02-11T15:57:19.534635"
+    },
+    "clients.md": {
+      "original_url": "https://modelcontextprotocol.io/clients",
+      "original_md_url": "https://modelcontextprotocol.io/clients.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/clients",
+      "hash": "b1e6869dc4317dca9486683c106820774f602cabe7dde0e4f147385bda61d6d0",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:54:46 GMT",
+      "last_updated": "2026-02-13T11:24:59.433906"
+    },
+    "development__roadmap.md": {
+      "original_url": "https://modelcontextprotocol.io/development/roadmap",
+      "original_md_url": "https://modelcontextprotocol.io/development/roadmap.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/development/roadmap",
+      "hash": "ead2b86ea0a31ee9bf3e4052f941c3494dfe35e9cf4b02b1f39f82a2869e5d8a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:54:47 GMT",
+      "last_updated": "2026-01-27T11:09:52.373389"
+    },
+    "examples.md": {
+      "original_url": "https://modelcontextprotocol.io/examples",
+      "original_md_url": "https://modelcontextprotocol.io/examples.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/examples",
+      "hash": "f32a7c72fc10ab956d6a4ad09cf851948c127f17e11dc7093ba6a022b5475d22",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:19:46 GMT",
+      "last_updated": "2026-01-27T11:09:52.373583"
+    },
+    "extensions__apps__build.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/apps/build",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/apps/build.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/apps/build",
+      "hash": "53b0e73116982414bd80049b873a9a7d8856a98e797c2ee6a0df30b1795e133a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:07:48 GMT",
+      "last_updated": "2026-02-23T13:27:23.256602"
+    },
+    "extensions__apps__overview.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/apps/overview",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/apps/overview.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/apps/overview",
+      "hash": "a67955908b2779699d78d98ea8ae6eaaf4334e50242e1c3e7c8d23a3605db48f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:07:49 GMT",
+      "last_updated": "2026-02-23T13:27:23.256768"
+    },
+    "extensions__auth__enterprise-managed-authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/auth/enterprise-managed-authorization",
+      "hash": "8a5bfcc3cf6807d0d6727c0ff0f04142f3a2fe6253405fc3060e5b74ab8488e3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:15:50 GMT",
+      "last_updated": "2026-02-23T13:27:23.256908"
+    },
+    "extensions__auth__oauth-client-credentials.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/auth/oauth-client-credentials.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/auth/oauth-client-credentials",
+      "hash": "f20c90c5e896caa25fa1183b2aaa0aca8f16f683f054ccb4eeba73a4ea4957a0",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:15:24 GMT",
+      "last_updated": "2026-02-23T13:27:23.257092"
+    },
+    "extensions__auth__overview.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/auth/overview",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/auth/overview.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/auth/overview",
+      "hash": "20c19c964186e4f5e10b7c90219176cecd756529e24cf1bfbaf7be79b6940c93",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:14:58 GMT",
+      "last_updated": "2026-02-23T13:27:23.257276"
+    },
+    "extensions__client-matrix.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/client-matrix",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/client-matrix.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/client-matrix",
+      "hash": "a18ec6c75b796deb82fbe2acbe873a97ca9a2d0907c6648790bad5e50a74f987",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:13:34 GMT",
+      "last_updated": "2026-02-23T13:27:23.257446"
+    },
+    "extensions__overview.md": {
+      "original_url": "https://modelcontextprotocol.io/extensions/overview",
+      "original_md_url": "https://modelcontextprotocol.io/extensions/overview.md",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "path": "/extensions/overview",
+      "hash": "2ddd2e1bb8228a0453e89a5f754dbcace22a26543b481bf7e034842af4c8b0b2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:13:21 GMT",
+      "last_updated": "2026-02-23T13:27:23.257619"
+    },
+    "registry__about.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/about",
+      "original_md_url": "https://modelcontextprotocol.io/registry/about.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/about",
+      "hash": "896238a437f19d57e537c978bb2b42d0d357ae053e0d1532de6f46b49faddc36",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:20:33 GMT",
+      "last_updated": "2026-02-20T09:59:31.329089"
+    },
+    "registry__authentication.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/authentication",
+      "original_md_url": "https://modelcontextprotocol.io/registry/authentication.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/authentication",
+      "hash": "2b31c6ff5af2633529ceaa047fd5082378a0ec287fd5c67bbe2012186939dceb",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:54:52 GMT",
+      "last_updated": "2026-01-27T11:09:52.374087"
+    },
+    "registry__faq.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/faq",
+      "original_md_url": "https://modelcontextprotocol.io/registry/faq.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/faq",
+      "hash": "54955443fa255a405d63154ae678309704844f0064513d915d983cc015e41577",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.374289"
+    },
+    "registry__github-actions.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/github-actions",
+      "original_md_url": "https://modelcontextprotocol.io/registry/github-actions.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/github-actions",
+      "hash": "68f3aba9d297ceadb44c08a0e9501ebb5112bffba672520c61c8ff0f68d8f969",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.374452"
+    },
+    "registry__moderation-policy.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/moderation-policy",
+      "original_md_url": "https://modelcontextprotocol.io/registry/moderation-policy.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/moderation-policy",
+      "hash": "e88d8e9ffc9c670d8e982c07937d6a10b5f150afe1bb67c9a6327c6ce3e500b8",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.374620"
+    },
+    "registry__package-types.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/package-types",
+      "original_md_url": "https://modelcontextprotocol.io/registry/package-types.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/package-types",
+      "hash": "e2476b936fd3daf563af1ed35220c67ccdd75203fc616797fd1e83f21c6e6599",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.374779"
+    },
+    "registry__quickstart.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/quickstart",
+      "original_md_url": "https://modelcontextprotocol.io/registry/quickstart.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/quickstart",
+      "hash": "41e9de742c009221e8af006f492bd75e78649198ded9241c5a516101f0c72923",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:19:10 GMT",
+      "last_updated": "2026-01-27T11:09:52.374945"
+    },
+    "registry__registry-aggregators.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/registry-aggregators",
+      "original_md_url": "https://modelcontextprotocol.io/registry/registry-aggregators.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/registry-aggregators",
+      "hash": "4f93ff0fe733c9854086fcdc88ac414ca93309b3edabe5702dd4da7f892e19c3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.375138"
+    },
+    "registry__remote-servers.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/remote-servers",
+      "original_md_url": "https://modelcontextprotocol.io/registry/remote-servers.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/remote-servers",
+      "hash": "ff59db82d0ac604f82a7974ffcd253204a3b9acb48e460dc87f4746910aeded8",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.375462"
+    },
+    "registry__terms-of-service.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/terms-of-service",
+      "original_md_url": "https://modelcontextprotocol.io/registry/terms-of-service.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/terms-of-service",
+      "hash": "463cf8cb591d0476b01ca9ce9591d4f15f92a2d3035d5997eb658bb48a02ef22",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.375683"
+    },
+    "registry__versioning.md": {
+      "original_url": "https://modelcontextprotocol.io/registry/versioning",
+      "original_md_url": "https://modelcontextprotocol.io/registry/versioning.md",
+      "category": "registry",
+      "categories": [
+        "registry"
+      ],
+      "path": "/registry/versioning",
+      "hash": "584e11968e16f355e6cec8dd52d88afa1609d077b4f2aeec5080de0f81e8236c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.375868"
+    },
+    "specification__2024-11-05.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05",
+      "hash": "a7ad2e784acf5957269184ca1d5ccbaeb993b16f281c2658cb519d7b741d9de5",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-02-01T06:24:01.797014"
+    },
+    "specification__2024-11-05__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/architecture.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/architecture",
+      "hash": "96e5649d7cf9092d85e1d065b636503e3c6846d5922b95b77e6dc559fe5d0495",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.376283"
+    },
+    "specification__2024-11-05__basic.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic",
+      "hash": "1db06da4831dbbd21a28ab9b70db0600b282470328731d09594a299c0e5dfaba",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.376467"
+    },
+    "specification__2024-11-05__basic__lifecycle.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/lifecycle",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/lifecycle.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/lifecycle",
+      "hash": "63470a1f398a0983efe35e2124c651bb86c50167df1458149a099b1883b0e5dd",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.376636"
+    },
+    "specification__2024-11-05__basic__messages.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/messages",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/messages.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/messages",
+      "hash": "cd86bb2a5123c56c913ed4174c7bc0531604c117300f09439c42011b20ac1bdc",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.376827"
+    },
+    "specification__2024-11-05__basic__transports.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/transports",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/transports.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/transports",
+      "hash": "39840b509a317155fd5a9ce069774a7c9ab98f220caca6337ca8d16d9e15baed",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.377000"
+    },
+    "specification__2024-11-05__basic__utilities__cancellation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/cancellation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/cancellation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/utilities/cancellation",
+      "hash": "090c26b10dbcd5783b2c9da1691171a6b55c2dcc89a8a327cdbb90e267d6e6d5",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.377176"
+    },
+    "specification__2024-11-05__basic__utilities__ping.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/ping",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/ping.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/utilities/ping",
+      "hash": "63a22215df061c50a5f73879d0a81edd26b1b739ce93318dfc4a84cba60c12d6",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:18 GMT",
+      "last_updated": "2026-01-27T11:09:52.377354"
+    },
+    "specification__2024-11-05__basic__utilities__progress.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/progress",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/basic/utilities/progress.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/basic/utilities/progress",
+      "hash": "ca332539258e903c9441677057b95654bfd397d2a21c8af49847e273cf21e1b6",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.377527"
+    },
+    "specification__2024-11-05__client__roots.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/client/roots",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/client/roots.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/client/roots",
+      "hash": "2a078864b639ee4779fba7bb9480e3694e6dc2ff29c4716624929db64de403ca",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.377709"
+    },
+    "specification__2024-11-05__client__sampling.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/client/sampling",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/client/sampling.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/client/sampling",
+      "hash": "b1c2ddb98f653d9dc4e12543e166ba708ac32b5f5d92b29b58c5e8af372adb4f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.377920"
+    },
+    "specification__2024-11-05__server.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server",
+      "hash": "9c4791628940e9c8cb37fe8a47ff1e580fcfb3e5b8c591e82515182c8c749d89",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.378111"
+    },
+    "specification__2024-11-05__server__prompts.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/prompts",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/prompts.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/prompts",
+      "hash": "54dfaad38220ff085bc78a11045293a9f729458d89647f1ced6862c0cde4b411",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.378255"
+    },
+    "specification__2024-11-05__server__resources.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/resources",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/resources.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/resources",
+      "hash": "f2367c3de9e9598b31f07c9e27357262f90ed61c0b998624665dfd841a265dca",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.378445"
+    },
+    "specification__2024-11-05__server__tools.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/tools",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/tools.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/tools",
+      "hash": "442cc570cd4f2295b24417538ef78f845f3be392cd47db62828e0b5d6868a02b",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.378637"
+    },
+    "specification__2024-11-05__server__utilities__completion.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/completion",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/completion.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/utilities/completion",
+      "hash": "660935aab304717057edccd7834ace2a68b1d14b75e72d021702363504fd79ba",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.378820"
+    },
+    "specification__2024-11-05__server__utilities__logging.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/logging",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/logging.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/utilities/logging",
+      "hash": "4034ec8a8b551151740bc90ba36dd5958d4ed1ec17bff0e376bfa201431403d2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.379221"
+    },
+    "specification__2024-11-05__server__utilities__pagination.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/pagination",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2024-11-05/server/utilities/pagination.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2024-11-05/server/utilities/pagination",
+      "hash": "df9cf2c5171db90ba9759d7fa7e920372770ca9b5703c2137a5df909bc1a8741",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.379523"
+    },
+    "specification__2025-03-26.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26",
+      "hash": "3c5ee0f22febdafc1249fccb61fa2c406db27258ce46d98cb83a8cd8958098b0",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-02-01T06:24:01.799008"
+    },
+    "specification__2025-03-26__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/architecture.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/architecture",
+      "hash": "803a422f6a11446403321704ea856d0d17b5c4fadbbb3baa72f9841e06fca964",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:13:29 GMT",
+      "last_updated": "2026-01-27T11:09:52.379877"
+    },
+    "specification__2025-03-26__basic.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic",
+      "hash": "d8e3ed865f7bd2d99932cceee7768741d0e8cc01af7a1083ad8e77d52294671c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.380077"
+    },
+    "specification__2025-03-26__basic__authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/authorization",
+      "hash": "4fe524dba3134810fc3c59d6cc3b7c3cafc660e2ea5f5e268e6932a88367d4f2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:55:08 GMT",
+      "last_updated": "2026-01-27T11:09:52.380270"
+    },
+    "specification__2025-03-26__basic__lifecycle.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/lifecycle",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/lifecycle.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/lifecycle",
+      "hash": "1329399a04abca9bbe3b9611a4fee20350b6587ce22efd9d734a3dca3e03cb35",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.380551"
+    },
+    "specification__2025-03-26__basic__transports.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/transports",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/transports.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/transports",
+      "hash": "f0faf013cf2aa3c589389dd3cfc1af486e83f46adc3366f00111e40528ecd3ac",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.380744"
+    },
+    "specification__2025-03-26__basic__utilities__cancellation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/cancellation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/cancellation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/utilities/cancellation",
+      "hash": "86ea8a6497ee278f5612883f8450311b6a585b4cb0ff8cb735d1c53f9b1ee67d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.381005"
+    },
+    "specification__2025-03-26__basic__utilities__ping.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/ping",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/ping.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/utilities/ping",
+      "hash": "1f387e3e26e6fc738df8cab420deead727f3af2e8b98cfb71b69dfc82da56224",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:51:53 GMT",
+      "last_updated": "2026-01-27T11:09:52.381140"
+    },
+    "specification__2025-03-26__basic__utilities__progress.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/progress",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/utilities/progress.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/basic/utilities/progress",
+      "hash": "61c43417d37306a48203a238d4cdf3189e8e46a2c6d6f11d1b2943747e635c24",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.381285"
+    },
+    "specification__2025-03-26__changelog.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/changelog",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/changelog.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/changelog",
+      "hash": "44d5b5bba00bded7618b7c665db575f6a829600e31cb692a5779ad4715a48904",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.381430"
+    },
+    "specification__2025-03-26__client__roots.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/client/roots",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/client/roots.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/client/roots",
+      "hash": "557c19bbe890dba7c50b118c2c6bc2889b3bb6fd2ce00b405e44467e760001d3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.381589"
+    },
+    "specification__2025-03-26__client__sampling.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/client/sampling",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/client/sampling.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/client/sampling",
+      "hash": "b0a0cd4a515796b97ddbf9d24a4aab7cf95f541b3f16988b686f88b71f3f0c3d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.381754"
+    },
+    "specification__2025-03-26__server.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server",
+      "hash": "3f0261d7c01fec3fb8ad7a36f7be6fef6e6c81dd9eca8c36068b0ca468450a45",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:21 GMT",
+      "last_updated": "2026-01-27T11:09:52.381926"
+    },
+    "specification__2025-03-26__server__prompts.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/prompts",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/prompts.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/prompts",
+      "hash": "650cdc75fa34053ecd30f135cea7072ebfc1a5628009798d5f74c7831a18409c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.382062"
+    },
+    "specification__2025-03-26__server__resources.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/resources",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/resources.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/resources",
+      "hash": "430c2487c3cc1212da08b1e10fb8d8fecb70a1e1a4a1104d158fd7e4ff69730f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.382225"
+    },
+    "specification__2025-03-26__server__tools.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/tools",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/tools.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/tools",
+      "hash": "e03202b68d25f5f3b12368e4e5ba0ae1ad976cf642c56c673755520404bda54f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.382391"
+    },
+    "specification__2025-03-26__server__utilities__completion.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/completion",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/completion.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/utilities/completion",
+      "hash": "8616fff88af9113f2efdc1231ceaeeba5982d278484536e6112ac44906e3063d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:24:19 GMT",
+      "last_updated": "2026-01-27T11:09:52.382545"
+    },
+    "specification__2025-03-26__server__utilities__logging.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/logging",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/logging.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/utilities/logging",
+      "hash": "b0b80d0179f875a1e24630b1d9674b0a407c96d077dfe1d1c6185c04bb37ea9f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.382703"
+    },
+    "specification__2025-03-26__server__utilities__pagination.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/pagination",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/utilities/pagination.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-03-26/server/utilities/pagination",
+      "hash": "c013161adf81e9f6e3626b083b90f21e2fe007832592cc102be3ce51874abd83",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.382851"
+    },
+    "specification__2025-06-18.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18",
+      "hash": "befde6a006730ad3d87437c014a5b8228af58e3b83000077cbfaac403dae6e3a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:33:19 GMT",
+      "last_updated": "2026-02-01T06:24:01.801272"
+    },
+    "specification__2025-06-18__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/architecture",
+      "hash": "0b1aebce2797af2a317b81a6730aa6b618456f6d6103d839b001864cdcac1de3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.383245"
+    },
+    "specification__2025-06-18__basic.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic",
+      "hash": "86738c7a37ceb00066cf9881d4c100e05d84d8cc5e74db8a062ff067a36318e1",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.383411"
+    },
+    "specification__2025-06-18__basic__authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/authorization",
+      "hash": "98c6dd412312ef6a8f0d2431e008b48322a5978dbd18381e26f01b81b431fe4c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:12:26 GMT",
+      "last_updated": "2026-01-27T11:09:52.383573"
+    },
+    "specification__2025-06-18__basic__lifecycle.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/lifecycle",
+      "hash": "25880d3775da0d20c04157706cf45c14c28b4bb920172d20b4f7628da9f71c26",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:43:14 GMT",
+      "last_updated": "2026-01-27T11:09:52.383721"
+    },
+    "specification__2025-06-18__basic__transports.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/transports",
+      "hash": "f8bc0f02c544d4cc6f3db216405059926f4efce85d817e7dcd19e682e10572b2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:26 GMT",
+      "last_updated": "2026-01-27T11:09:52.384230"
+    },
+    "specification__2025-06-18__basic__utilities__cancellation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/cancellation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/cancellation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/utilities/cancellation",
+      "hash": "6ece82805fa82d5f1eeb1f3b090bb13e2d7ee5a6cbd3d3d8e2f8fd2c92b68904",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:43:51 GMT",
+      "last_updated": "2026-01-27T11:09:52.384474"
+    },
+    "specification__2025-06-18__basic__utilities__ping.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/ping",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/ping.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/utilities/ping",
+      "hash": "45bbb361b7b2661765e588b67af3591ff594825faa912f7b1da1668ebca4aa42",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:44:11 GMT",
+      "last_updated": "2026-01-27T11:09:52.384618"
+    },
+    "specification__2025-06-18__basic__utilities__progress.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/progress",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/progress.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/basic/utilities/progress",
+      "hash": "e3951f6aa74288c869ebce1e6410e53c9a1c81d83d20f46386d1f412dbdc5186",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:44:29 GMT",
+      "last_updated": "2026-01-27T11:09:52.384747"
+    },
+    "specification__2025-06-18__changelog.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/changelog",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/changelog.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/changelog",
+      "hash": "f186c1d46730772f10fc00ba6f1efceea71d7d1cc5d05bdb6148f8abae9d4a2d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:21 GMT",
+      "last_updated": "2026-01-27T11:09:52.384881"
+    },
+    "specification__2025-06-18__client__elicitation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/client/elicitation",
+      "hash": "ec4b76dee38102e98d7c364dedfa1e01c3b7c9243db016f4d465fbae7bc65017",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:21:44 GMT",
+      "last_updated": "2026-01-27T11:09:52.385003"
+    },
+    "specification__2025-06-18__client__roots.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/roots",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/roots.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/client/roots",
+      "hash": "1107a07ba01176e745083ab4eae1919dc6bba06f5205e809ede2f84933cb0a47",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:09:41 GMT",
+      "last_updated": "2026-01-27T11:09:52.385143"
+    },
+    "specification__2025-06-18__client__sampling.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/sampling",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/client/sampling.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/client/sampling",
+      "hash": "1e5d0ec0c6e068f0fffd94f5a02ccba051a70fa9d62817aa59b06be42e1cfa40",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:37 GMT",
+      "last_updated": "2026-01-27T11:09:52.385283"
+    },
+    "specification__2025-06-18__schema.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/schema",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/schema.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/schema",
+      "hash": "e0b22c4bfd98452f0c24b729f9776e5cee3a06dd1dbe7f03ade31b40ac408f40",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:53:16 GMT",
+      "last_updated": "2026-01-27T11:09:52.385427"
+    },
+    "specification__2025-06-18__server.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server",
+      "hash": "e6ae4fec63621bf17d40ff5b40433323ea9653ac24671f23bbbaabcd9f009a43",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:45:26 GMT",
+      "last_updated": "2026-01-27T11:09:52.385775"
+    },
+    "specification__2025-06-18__server__prompts.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/prompts",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/prompts.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/prompts",
+      "hash": "ee6985009a54b52d1a87814af4f9304af2ed49562408090064725266a643d429",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:45:42 GMT",
+      "last_updated": "2026-01-27T11:09:52.385925"
+    },
+    "specification__2025-06-18__server__resources.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/resources",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/resources.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/resources",
+      "hash": "f7b2ac8fad7ec0fcaa134fdc0966f91bfa61901fcb725468690b4a162f84b7bd",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:08:57 GMT",
+      "last_updated": "2026-01-27T11:09:52.386103"
+    },
+    "specification__2025-06-18__server__tools.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/tools",
+      "hash": "326fcc1e55e03ce5acac0bbe7532aec7159e9b6a4c754398c18e5ce2613db263",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:10:44 GMT",
+      "last_updated": "2026-01-27T11:09:52.386277"
+    },
+    "specification__2025-06-18__server__utilities__completion.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/completion",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/completion.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/utilities/completion",
+      "hash": "80396086b8f6c11808815c72e0a9d50cb8ee27739eee10ab2a36f3af377528c7",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:52:42 GMT",
+      "last_updated": "2026-01-27T11:09:52.386439"
+    },
+    "specification__2025-06-18__server__utilities__logging.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/logging",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/logging.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/utilities/logging",
+      "hash": "6c08db9fa91bcada5fbe2ff646ec08207d5e919e9be1be3867a665523bd7ea2d",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:52:53 GMT",
+      "last_updated": "2026-01-27T11:09:52.386584"
+    },
+    "specification__2025-06-18__server__utilities__pagination.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/pagination",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-06-18/server/utilities/pagination.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-06-18/server/utilities/pagination",
+      "hash": "67feefa42b9c215c6fdec4b6a6685651dfa2c3375574646b804f8685b62d8787",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:53:04 GMT",
+      "last_updated": "2026-01-27T11:09:52.386738"
+    },
+    "specification__2025-11-25.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25",
+      "hash": "96216f3dce21e414a9e7a7ef5687ea4e7b4b27617a429038c240438faee3e2e1",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:09:21 GMT",
+      "last_updated": "2026-02-01T06:24:01.803277"
+    },
+    "specification__2025-11-25__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/architecture",
+      "hash": "8b12ecf11e86989bf995f09f014bcff3c95b6f1d597e9fd700d103cac96628dc",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:24:20 GMT",
+      "last_updated": "2026-01-27T11:09:52.387018"
+    },
+    "specification__2025-11-25__basic.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic",
+      "hash": "fa64fd7a40f4ac92f47dc7a0883c30dd8b7565e26c47a2745922e2be93f92661",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:51:27 GMT",
+      "last_updated": "2026-01-27T11:09:52.387168"
+    },
+    "specification__2025-11-25__basic__authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/authorization",
+      "hash": "01c3c1b5aa503ce39b8695955dadad3727912cc9ae52b8ccc5b85bea7d851fd5",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:21:52 GMT",
+      "last_updated": "2026-01-27T11:09:52.387381"
+    },
+    "specification__2025-11-25__basic__lifecycle.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/lifecycle",
+      "hash": "cbed47e21602ac49d768d3fc3655c977c74ac5e59ea2c4dacffee9c315228bab",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:15:07 GMT",
+      "last_updated": "2026-01-27T11:09:52.387541"
+    },
+    "specification__2025-11-25__basic__transports.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/transports",
+      "hash": "48182ccf388244b593309055d8a8cd78d996ffc1878938823a64ca39aca45257",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:15:07 GMT",
+      "last_updated": "2026-01-27T11:09:52.387883"
+    },
+    "specification__2025-11-25__basic__utilities__cancellation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/cancellation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/cancellation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/utilities/cancellation",
+      "hash": "f0703264bfd855c6c141ea7556b13e70ba415504efc3f93e17a31ce16f385a27",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:41 GMT",
+      "last_updated": "2026-01-27T11:09:52.388022"
+    },
+    "specification__2025-11-25__basic__utilities__ping.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/ping",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/ping.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/utilities/ping",
+      "hash": "85874ca8d6a57adaf585a1b35b9a6a4eb0a16349de8a1e69228ce5c8765c7884",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:48 GMT",
+      "last_updated": "2026-01-27T11:09:52.388142"
+    },
+    "specification__2025-11-25__basic__utilities__progress.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/progress",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/progress.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/utilities/progress",
+      "hash": "83e4763798eebd916ba6f00d0c63e64729b9cd47f12f7576552b1a8da2264c22",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:56 GMT",
+      "last_updated": "2026-01-27T11:09:52.388267"
+    },
+    "specification__2025-11-25__basic__utilities__tasks.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/tasks",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/utilities/tasks.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/basic/utilities/tasks",
+      "hash": "e8ccafebbdfefcbefcdadb961ba0094c9e427d7b9e3e2ebc1ca402b1617e8f9c",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:22:56 GMT",
+      "last_updated": "2026-01-27T11:09:52.388385"
+    },
+    "specification__2025-11-25__changelog.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/changelog",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/changelog.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/changelog",
+      "hash": "fe5645ade5142b6c49d0879976102a5d5ee132e6941307a43fc2d819b2d4b227",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:24:11 GMT",
+      "last_updated": "2026-01-27T11:09:52.388547"
+    },
+    "specification__2025-11-25__client__elicitation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/elicitation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/elicitation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/client/elicitation",
+      "hash": "e9da477d508bbd1ff387b966f5f469f327a364e04bd557127bcf0529e9a31767",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:21:45 GMT",
+      "last_updated": "2026-01-27T11:09:52.388695"
+    },
+    "specification__2025-11-25__client__roots.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/roots",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/roots.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/client/roots",
+      "hash": "ce325bf44d81a80fd3c8ccbeba67419061bba8013ef08db23453ff433e2e4634",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:22:07 GMT",
+      "last_updated": "2026-01-27T11:09:52.388835"
+    },
+    "specification__2025-11-25__client__sampling.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/sampling",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/client/sampling.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/client/sampling",
+      "hash": "978876edc580b9090fdaf28675c30b78984619c085c860d92563a9bddf621515",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:26:50 GMT",
+      "last_updated": "2026-01-27T11:09:52.388995"
+    },
+    "specification__2025-11-25__schema.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/schema",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/schema.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/schema",
+      "hash": "ad09fe835f98b21921d0d1d278c699e7a9b597cfc3e2e9e404310623c9119d07",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:24:50 GMT",
+      "last_updated": "2026-01-27T11:09:52.389142"
+    },
+    "specification__2025-11-25__server.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server",
+      "hash": "1f60262245cfec6144061c72feaff63be38ec3b0ca182af1ab322c7d60f184e3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:27:39 GMT",
+      "last_updated": "2026-01-27T11:09:52.389553"
+    },
+    "specification__2025-11-25__server__prompts.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/prompts",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/prompts.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/prompts",
+      "hash": "3d77a1837a3351aa4bc2936a3e4040c1a7b5f0d6950305713c916536ba862994",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:53:38 GMT",
+      "last_updated": "2026-01-27T11:09:52.389688"
+    },
+    "specification__2025-11-25__server__resources.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/resources.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/resources",
+      "hash": "308a5e620eeff45b80014b0a981ec22b1b5b4fed3510a9929b78338f3ed840b2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:53:38 GMT",
+      "last_updated": "2026-01-27T11:09:52.389847"
+    },
+    "specification__2025-11-25__server__tools.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/tools",
+      "hash": "aaf4af85b946bf8e79d24d315fee73790cdb821be2c6ace842ed36afcaa34d6f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:29:02 GMT",
+      "last_updated": "2026-01-27T11:09:52.390009"
+    },
+    "specification__2025-11-25__server__utilities__completion.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/completion",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/completion.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/utilities/completion",
+      "hash": "5bc46f064c9c2cfed0f0312e8db1a59408c6354d6c6357a196208cfaaaf9cbe2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:28:26 GMT",
+      "last_updated": "2026-01-27T11:09:52.390253"
+    },
+    "specification__2025-11-25__server__utilities__logging.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/logging",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/logging.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/utilities/logging",
+      "hash": "3b4b604557f53177c6469a91dc899d0c4e387efc536bd7c3869a61375c359d06",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:28:35 GMT",
+      "last_updated": "2026-01-27T11:09:52.390429"
+    },
+    "specification__2025-11-25__server__utilities__pagination.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/pagination",
+      "original_md_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/utilities/pagination.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/2025-11-25/server/utilities/pagination",
+      "hash": "3c7db01f99622bc7a5b96cbfaad432a6c077d80463e3aa77aacb2317b004ace5",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:24:58 GMT",
+      "last_updated": "2026-01-27T11:09:52.390587"
+    },
+    "specification__draft.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft",
+      "hash": "0e1d0d27fd8b27027c33c12bee3c28c2438dae1434c8d57c60a652008b9fd0a9",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:08:54 GMT",
+      "last_updated": "2026-02-01T06:24:01.806382"
+    },
+    "specification__draft__architecture.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/architecture",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/architecture.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/architecture",
+      "hash": "a955f98d54fa9ba86fe34adbfad11dd2c545f5c9c14b3b1e4d6526c438f9dd92",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:23:36 GMT",
+      "last_updated": "2026-01-27T11:09:52.390862"
+    },
+    "specification__draft__basic.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic",
+      "hash": "66efe1b7498784574b9cbbb7aadfc076306cac8be2f4d67d541b169db73e6e48",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:13 GMT",
+      "last_updated": "2026-01-27T11:09:52.390988"
+    },
+    "specification__draft__basic__authorization.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/authorization",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/authorization.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/authorization",
+      "hash": "513891ca276ac0b5ecf2011afeb8edfdfc21de82f576c7f00f2089f7aabb5e9e",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:26:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.391113"
+    },
+    "specification__draft__basic__lifecycle.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/lifecycle",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/lifecycle.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/lifecycle",
+      "hash": "7b33241215793a26df3343fee54284eb3a9c5814a38483a2092bd546df71a7b4",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:25:54 GMT",
+      "last_updated": "2026-02-07T22:35:11.880808"
+    },
+    "specification__draft__basic__transports.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/transports",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/transports.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/transports",
+      "hash": "8453975f164410eff56856a551abffffb00e94623991754f6ee09560ba8a4972",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:25:44 GMT",
+      "last_updated": "2026-01-27T11:09:52.391484"
+    },
+    "specification__draft__basic__utilities__cancellation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/cancellation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/cancellation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/utilities/cancellation",
+      "hash": "a257920468572a0782a6f9c73a2206f606c5bb867c94beb71e118e479b2e5631",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.391600"
+    },
+    "specification__draft__basic__utilities__ping.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/ping",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/ping.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/utilities/ping",
+      "hash": "32cb5bdb49fcb70a9079316e0aad4da315df6f13d6b73b561b3e1c27a7a55b59",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.391703"
+    },
+    "specification__draft__basic__utilities__progress.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/progress",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/progress.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/utilities/progress",
+      "hash": "64703a90818cc23e1a3e07b785d5dddcb3bea5925189a5db992fdba8f59f9405",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.391816"
+    },
+    "specification__draft__basic__utilities__tasks.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/tasks",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/basic/utilities/tasks.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/basic/utilities/tasks",
+      "hash": "b32d4f519e210a378b6df872e8a21cff49ed73c902084c6ec79fb18adb43138a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.392038"
+    },
+    "specification__draft__changelog.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/changelog",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/changelog.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/changelog",
+      "hash": "77cf722ad47feb8b50ac9ce7c23ebc2c5e4e66300a9df1cf3dd399734b7e3eae",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-02-07T22:35:11.881380"
+    },
+    "specification__draft__client__elicitation.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/client/elicitation",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/client/elicitation.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/client/elicitation",
+      "hash": "188407ceb443fd346c1c6f1afcd2c7b4a1df4faaef6f8bf9fa924d58c0574314",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-02-11T15:57:19.553351"
+    },
+    "specification__draft__client__roots.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/client/roots",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/client/roots.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/client/roots",
+      "hash": "7465570c1c10da16989eb1cefd37b403ffe6d681dda31a7a59267a3f13f439a7",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-01-27T11:09:52.392373"
+    },
+    "specification__draft__client__sampling.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/client/sampling",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/client/sampling.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/client/sampling",
+      "hash": "ca581861a17504c07e682e35c21e3bed61d03a5f6f6af9553c14a8c1b1015e4b",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-02-11T15:57:19.553642"
+    },
+    "specification__draft__schema.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/schema",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/schema.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/schema",
+      "hash": "c611d7c68f5dc93c207e0aa294bb48c7be5fd1a396a898ea62e2df9cbbb72a3b",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:22 GMT",
+      "last_updated": "2026-02-01T06:24:01.808353"
+    },
+    "specification__draft__server.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server",
+      "hash": "60242ce33e71e0902c8c6b7c85ee16fc7567fc6453a78d14c0862de30af6f5b1",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:23:43 GMT",
+      "last_updated": "2026-01-27T11:09:52.393220"
+    },
+    "specification__draft__server__prompts.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/prompts",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/prompts.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/prompts",
+      "hash": "f4b09512722e1fcfd9bbd8cd9dfb958f24f1a2a1181d18b1711157e3cbe7640f",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:23 GMT",
+      "last_updated": "2026-01-27T11:09:52.393333"
+    },
+    "specification__draft__server__resources.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/resources",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/resources.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/resources",
+      "hash": "2b528c0fd677faab55b180f79e5eb353912bd53425b4b50664371048a70220d2",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 20:26:42 GMT",
+      "last_updated": "2026-01-27T11:09:52.393476"
+    },
+    "specification__draft__server__tools.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/tools",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/tools.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/tools",
+      "hash": "180f8c9c676b44bc0abe7bfb0bbd053bfc9f1f4465088c2669627778f5d82132",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:37:02 GMT",
+      "last_updated": "2026-01-27T11:09:52.393620"
+    },
+    "specification__draft__server__utilities__completion.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/completion",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/completion.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/utilities/completion",
+      "hash": "bac872664a12bfd85f3a29386023793a1d6df46e2abbdd864188b906b07b2be3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:24:42 GMT",
+      "last_updated": "2026-01-27T11:09:52.393828"
+    },
+    "specification__draft__server__utilities__logging.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/logging",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/logging.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/utilities/logging",
+      "hash": "3f9d54432670dfe7b3bacf4ab371b45d0e49cb63e30f5fb1da8577bd5ab35e10",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 19:26:08 GMT",
+      "last_updated": "2026-01-27T11:09:52.393989"
+    },
+    "specification__draft__server__utilities__pagination.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/pagination",
+      "original_md_url": "https://modelcontextprotocol.io/specification/draft/server/utilities/pagination.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/draft/server/utilities/pagination",
+      "hash": "16873c2467dd0a2df1e26c269de8b9c5bd5a5f21add918544dcd007b14f79c9a",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 21:27:23 GMT",
+      "last_updated": "2026-01-27T11:09:52.394138"
+    },
+    "specification__versioning.md": {
+      "original_url": "https://modelcontextprotocol.io/specification/versioning",
+      "original_md_url": "https://modelcontextprotocol.io/specification/versioning.md",
+      "category": "specification",
+      "categories": [
+        "specification"
+      ],
+      "path": "/specification/versioning",
+      "hash": "5073c9f59d9a6b4b5b8f2a702d0b146855f4a49c5bb9b2147664f9c2f270b0d3",
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 18:13:02 GMT",
+      "last_updated": "2026-01-27T11:09:52.394258"
+    }
+  },
+  "fetch_metadata": {
+    "last_fetch_completed": "2026-02-23T13:27:23.278147",
+    "fetch_duration_seconds": 9.232557,
+    "total_pages_discovered": 168,
+    "pages_fetched_successfully": 168,
+    "pages_failed": 0,
+    "pages_unchanged": 161,
+    "pages_updated": 0,
+    "pages_new": 7,
+    "pages_skipped_304": 0,
+    "failed_pages": [],
+    "by_category": {
+      "community": 32,
+      "docs": 12,
+      "other": 10,
+      "registry": 11,
+      "specification": 103
+    },
+    "source_sitemap": "https://modelcontextprotocol.io/sitemap.xml",
+    "fetch_tool_version": "5.0",
+    "fetch_mode": "incremental"
+  },
+  "base_url": "https://raw.githubusercontent.com/robgruhl/anthropic-docs-mirror/main/mcp-docs/",
+  "github_repository": "robgruhl/anthropic-docs-mirror",
+  "github_ref": "main",
+  "source_site": "modelcontextprotocol.io",
+  "last_updated": "2026-02-23T13:27:23.278267"
+}

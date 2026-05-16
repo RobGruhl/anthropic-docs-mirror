@@ -1,0 +1,85 @@
+# Claude Code와 Slack
+---
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+
+# Claude Code와 Slack
+
+- 카테고리제품 발표
+
+- 제품Claude Code
+
+- 게시일2025-12-08
+
+- 예상 읽기 시간5분
+
+- 공유하기링크 복사https://claude.com/blog/claude-code-and-slack
+
+오늘 Slack에서 바로 Claude Code에 작업을 위임할 수 있는 기능이 도입되었습니다. 이제 리서치 프리뷰 형태로 제공되는 이 베타 버전으로, Claude는 Slack 대화에서의 맥락을 코딩 세션으로 손쉽게 옮길 수 있습니다.
+
+## 논의에서 구현까지
+
+버그 보고서, 기능 요청, 엔지니어링 논의 등 엔지니어링 작업과 관련된 중요한 맥락은 대부분 Slack 내에 존재합니다. 버그가 보고되거나 팀원이 코드 수정을 요청할 때, 이제 Slack에서 Claude를 태그하면 주변 맥락을 활용해 Claude Code 세션이 자동으로 시작됩니다. 다음 상황에 사용하세요.
+
+- 버그 조사 및 수정: 버그 신고가 접수되면 즉시 조사하고 수정하도록 Claude에 요청하세요.
+
+- 빠른 코드 검토 및 수정: Claude가 팀 피드백을 바탕으로 소규모 기능을 구현하거나 코드를 리팩터링하도록 요청합니다.
+
+- 협업 디버깅: 팀 논의에서 나온 오류 재현이나 사용자 리포트와 같은 중요한 맥락을 바탕으로, Claude 디버깅 전략을 수립합니다.
+
+## Claude Code에 자동으로 작업을 라우팅합니다
+
+이 기능은 기존[Slack용 Claude 앱](https://www.claude.com/blog/claude-and-slack)을 확장하여, Claude가 Claude Code 웹 환경으로 작업을 다시 전달할 수 있도록 합니다. Slack에서 @Claude를 멘션하면, Claude는 메시지를 검토하여 코딩 작업인지 여부를 확인합니다. 코딩 작업이라면 새 Claude Code 세션이 자동으로 생성됩니다. 또한 요청을 코딩 작업으로 처리하도록 Claude에 수동으로 지시할 수 있습니다.
+
+Claude는 Slack에서 최근 채널과 스레드 메시지의 맥락을 수집하고, Claude Code 세션에 반영합니다. 이 맥락을 활용하여, 웹에서 Claude Code에 인증된 리포지토리를 기반으로 작업을 실행할 리포지토리를 자동으로 선택합니다.
+
+Claude Code 세션이 진행되면서, Claude는 Slack 스레드에 상태 업데이트를 다시 게시합니다. 작업이 완료되면, 변경 사항을 검토할 수 있는 전체 세션에 대한 링크와 풀 리퀘스트(PR)를 즉시 열 수 있는 링크를 확인할 수 있습니다.
+
+## 시작하기
+
+시작하려면[Slack App Marketplace](https://slack.com/marketplace/A08SF47R6P4)에서 Claude 앱을 Slack 워크스페이스에 설치하세요. 설치가 완료되면 Claude 계정으로 인증하고, 코딩 작업에 @Claude를 멘션합니다. Claude가 코딩 작업을 라우팅하려면[웹에서 Claude Code](https://www.claude.com/blog/claude-code-on-the-web)에 액세스해야 합니다.
+
+자세한 내용은[문서를 확인하세요](https://code.claude.com/docs/en/slack).
+
+‍
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+FAQ
+
+관련 게시물
+
+Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+### Claude in Chrome 시범 실행하기
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+
+### 웹용 Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Claude에 메모리 도입하기
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2307f9555d7c1bc46cb_77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
+
+### Agent Skills 소개
+
+Claude와 함께 조직의 운영 방식을 혁신하세요
+
+## ‍
+
+개발자 뉴스레터 구독
+
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
+
+월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
+
+---
+**Source:** https://claude.com/ko-kr/blog/claude-code-and-slack
+*This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

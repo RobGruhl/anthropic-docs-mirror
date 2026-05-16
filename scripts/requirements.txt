@@ -1,0 +1,4 @@
+# Requires Python 3.8+ for secure XML parsing
+requests==2.32.5
+beautifulsoup4==4.12.3
+aiohttp==3.13.3

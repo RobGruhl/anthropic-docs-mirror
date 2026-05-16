@@ -1,0 +1,96 @@
+# Your favorite work tools are now interactive connectors inside Claude
+*January 26, 2026*
+---
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
+
+# Your favorite work tools are now interactive connectors inside Claude
+
+Open Asana, Slack, Figma, and more in chat with MCP Apps
+
+- CategoryProduct announcements
+
+- ProductClaude apps
+
+- DateJanuary 26, 2026
+
+- Reading time5min
+
+- ShareCopy linkhttps://claude.com/blog/interactive-tools-in-claude
+
+Starting today, we’re bringing interactive connectors to Claude with MCP Apps. You can open and interact with tools in Claude. Build and update project timelines in Asana. Draft, edit and send Slack messages in a formatted preview. Visualize ideas as diagrams in Figma—all without switching tabs.
+
+Claude already connects to your tools and takes actions on your behalf. Now, with MCP Apps, those tools show up as interactive connectors right in the conversation, so you can see what's happening and collaborate in real time.Here's what you can now do directly in Claude:
+
+- Amplitude– Build analytics charts, then explore trends and adjust parameters interactively to uncover hidden insights.
+
+- ‍Asana– Turn chats into projects, tasks, and timelines your team can see and execute in Asana.
+
+- Box- Search for files, preview documents inline, then extract insights and ask questions about your content.
+
+- Canva- Create presentation outlines, then customize branding and design in real-time to produce client-ready decks.
+
+- Clay- Research companies, find contacts with email and phone info, pull data like company size and funding, then draft personalized outreach directly in your conversation.
+
+- Figma– Prompt to turn text and images into flow charts, Gantt charts, or other visual diagrams in FigJam.
+
+- Hex- Ask data questions and get answers complete with interactive charts, tables, and citations.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977320ae3916b6e1531390f_hex-mcp-apps.png)
+
+- monday.com- Manage your work, run projects, update boards, smartly assign tasks, and visualize progress with insights.
+
+- Slack(from Salesforce) – Search and retrieve Slack conversations for context, generate message drafts, format them your way, and review before you post.
+
+Coming soon:Salesforce- Bring enterprise context to Claude with Agentforce 360, enabling teams to reason, collaborate, and act from a single, connected interface.
+
+## MCP Apps:Built on an open standard‍
+
+The underlying technology is built on the[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro), the open standard for connecting tools to AI applications. MCP Apps is a new extension to MCP that lets any MCP server deliver interactive connectors with a rich user interface within any supporting AI product—not just Claude.
+
+We open sourced MCP to give the ecosystem a universal way to connect tools to AI. Now we're extending MCP further so developers can build interactive UI on top of it, wherever their users are.
+
+To learn more, see the announcement of[MCP Apps - The First Official MCP Extension](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps).
+
+## Getting started
+
+Start using interactive connectors (MCP Apps) in Claude today. Head to[claude.ai/directory](http://claude.ai/directory)and connect to apps under the "featured" section to get started. Available on web and desktop for Pro, Max, Team, Enterprise plans. Coming soon to[Claude Cowork](http://claude.com/product/cowork).‍
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+
+FAQ
+
+## Related posts
+
+Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+
+### Bringing automated preview, review, and merge to Claude Code on desktop
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+
+### Increase web search accuracy and efficiency with dynamic filtering
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+
+### Cowork: Claude Code for the rest of your work
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+
+### Claude Code and Slack
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+
+---
+**Source:** https://claude.com/blog/interactive-tools-in-claude
+*This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
