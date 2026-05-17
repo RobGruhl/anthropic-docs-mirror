@@ -28,7 +28,7 @@ Claude in Slack gives you AI assistance right where your team collaborates. This
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1778979600&signature=d2a39ec7bef2abaeb21e21fde9add031ebb49e6e4f13055e47a15ca019256c3b&req=dSciE8h7nYdZWPMW1HO4zXK25RlH7zgYVfOC%2FRy97LVGYi3maBa5S1DVkow%2F%0AvxfBTfbHlctAy7kXYRw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1778994000&signature=aa35b2fc21ff089a40eee85345160a78ee7f25b8879dfcae5cca3f71b7ab3a54&req=dSciE8h7nYdZWPMW1HO4zXK25RlH4TUeVfOC%2FRy97LVEk0WEj9i4l7l6kC2g%0AVTETbYqKQdA62KA6elM%3D%0A)
 
  
 

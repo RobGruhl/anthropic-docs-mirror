@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1778979600&signature=d6f57ced242f7b4bd10a7c5b20697665d22148def477e9bb1ffbda07d3ac9ce8&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4ifDs46H9crMELaMZPyAfy4kO8VD8kDvsWJA%0AVkRGHdltzPjcs539dz0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1778993100&signature=5eb4812f1d58049895055acdf68cbf6cac2b09375fc721b4b66fef312746075d&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4ifDvYSA9crMELaMZPzdxBIalU5O02vEBGZf%0AShZc%2B9NOBPhDNm5sjvI%3D%0A)
 
  
 
