@@ -1,6 +1,6 @@
 # Set up the Claude LTI in Canvas by Instructure
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -34,7 +34,7 @@ This article provides information on how to enable the Claude LTI integration in
 4. Input the Client ID generated for your developer key (from Step 6 under Creating Claude LTI Developer Key in Canvas).
 5. Click "Install" and refresh the course page.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1771884000&signature=7170bcac05c67b4939c3ad10d233f9dfcb840001f76dc6064ced38719248da6a&req=dSYmF818n4VcWfMW1HO4zTEDZeoWk%2FeBEv2ojHLMylaZvxVyDOmVmKM2t3%2BP%0AzPUYcx3zR5achPg33hk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1778979600&signature=fd30c0c204c8e5013cc810d3db12f161e51397d87e380111b05ba4518f746426&req=dSYmF818n4VcWfMW1HO4zTEDZeMXnPqHEv2ojHLMylaCXUUd0U7dK06eBXJD%0AoLAtguf1dQVnkAjlJwA%3D%0A)
 
  
 
@@ -60,6 +60,6 @@ If you have any questions about your Claude for Education plan account or the Cl
 
 - [Getting Started with Claude for Education at Your University (for Owners/Admins)](https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
-- [Prototype AI-Powered Apps with Claude artifacts](https://support.claude.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts)
-- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)
+- [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
+- [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

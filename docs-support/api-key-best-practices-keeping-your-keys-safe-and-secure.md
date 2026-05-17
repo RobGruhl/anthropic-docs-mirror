@@ -1,6 +1,6 @@
 # API Key Best Practices: Keeping Your Keys Safe and Secure
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -145,7 +145,7 @@ API key security is an ongoing process that requires vigilance and regular revie
 ## Related Articles
 
 - [Automated Security Reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code)
-- [Managing API key environment variables in Claude Code](https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
 - [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
+- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)

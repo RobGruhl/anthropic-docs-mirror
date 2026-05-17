@@ -8,8 +8,6 @@ Update Workspace
 
 - `workspace_id: string`
 
-  ID of the Workspace.
-
 ### Body Parameters
 
 - `name: string`
@@ -87,6 +85,18 @@ Update Workspace
     For Workspaces, this is always `"workspace"`.
 
     - `"workspace"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "name": "x"
+        }'
+```
 
 
 ---

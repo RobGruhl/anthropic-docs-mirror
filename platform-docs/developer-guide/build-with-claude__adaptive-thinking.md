@@ -4,23 +4,29 @@ Let Claude dynamically determine when and how much to use extended thinking with
 
 ---
 
-Adaptive thinking is the recommended way to use [extended thinking](/docs/en/build-with-claude/extended-thinking) with Claude Opus 4.6 and Sonnet 4.6. Instead of manually setting a thinking token budget, adaptive thinking lets Claude dynamically determine when and how much to use extended thinking based on the complexity of each request.
+<Note>
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
+</Note>
+
+Adaptive thinking is the recommended way to use [extended thinking](/docs/en/build-with-claude/extended-thinking) with Claude Opus 4.7, Claude Opus 4.6, and Claude Sonnet 4.6, and is the default mode on [Claude Mythos Preview](https://anthropic.com/glasswing) (where it auto-applies whenever `thinking` is unset). Instead of manually setting a thinking token budget, adaptive thinking lets Claude dynamically determine when and how much to use extended thinking based on the complexity of each request. On Claude Opus 4.7, adaptive thinking is the **only** supported thinking mode; manual `thinking: {type: "enabled", budget_tokens: N}` is no longer accepted.
 
 <Tip>
 Adaptive thinking can drive better performance than extended thinking with a fixed `budget_tokens` for many workloads, especially bimodal tasks and long-horizon agentic workflows. No beta header is required.
 
-For workloads where predictable latency and token usage matter, or where you need precise control over thinking costs, extended thinking with `budget_tokens` continues to be fully supported. Consider testing both modes on your specific workloads to determine which works best.
+If your workload requires predictable latency or precise control over thinking costs, extended thinking with `budget_tokens` is still functional on Claude Opus 4.6 and Claude Sonnet 4.6 but is deprecated and no longer recommended. See the warning below.
 </Tip>
 
 ## Supported models
 
 Adaptive thinking is supported on the following models:
 
+- Claude Mythos Preview (`claude-mythos-preview`), adaptive thinking is the default; `thinking: {type: "disabled"}` is not supported
+- Claude Opus 4.7 (`claude-opus-4-7`), adaptive thinking is the only supported thinking mode. Thinking is off unless you explicitly set `thinking: {type: "adaptive"}` in your request; manual `thinking: {type: "enabled"}` is rejected with a 400 error.
 - Claude Opus 4.6 (`claude-opus-4-6`)
 - Claude Sonnet 4.6 (`claude-sonnet-4-6`)
 
 <Warning>
-`thinking.type: "enabled"` and `budget_tokens` are **deprecated** on Opus 4.6 and Sonnet 4.6 and will be removed in a future model release. Use `thinking.type: "adaptive"` with the `effort` parameter instead. If you are already using extended thinking with `budget_tokens`, it continues to work and no immediate changes are required.
+`thinking.type: "enabled"` and `budget_tokens` are [**deprecated**](/docs/en/build-with-claude/overview#feature-availability) on Opus 4.6 and Sonnet 4.6 and will be removed in a future model release. Use `thinking.type: "adaptive"` with the `effort` parameter instead. Existing `budget_tokens` configurations are still functional but no longer recommended; plan to migrate.
 
 Older models (Sonnet 4.5, Opus 4.5, etc.) do not support adaptive thinking and require `thinking.type: "enabled"` with `budget_tokens`.
 </Warning>
@@ -36,14 +42,14 @@ Adaptive thinking also automatically enables [interleaved thinking](/docs/en/bui
 Set `thinking.type` to `"adaptive"` in your API request:
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 16000,
     "thinking": {
         "type": "adaptive"
@@ -57,13 +63,26 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python
+```bash CLI nocheck
+ant messages create \
+  --model claude-opus-4-7 \
+  --max-tokens 16000 \
+  --thinking '{type: adaptive}' \
+  --message '{role: user, content: Explain why the sum of two even numbers is always even.}' \
+  --transform content --format jsonl |
+  jq -r '
+    if   .type == "thinking" then "\nThinking: \(.thinking)"
+    elif .type == "text"     then "\nResponse: \(.text)"
+    else empty end'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=16000,
     thinking={"type": "adaptive"},
     messages=[
@@ -81,13 +100,13 @@ for block in response.content:
         print(f"\nResponse: {block.text}")
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: {
     type: "adaptive"
@@ -98,7 +117,7 @@ const response = await client.messages.create({
       content: "Explain why the sum of two even numbers is always even."
     }
   ]
-} as unknown as Anthropic.MessageCreateParamsNonStreaming);
+});
 
 for (const block of response.content) {
   if (block.type === "thinking") {
@@ -123,7 +142,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 16000,
             Thinking = new ThinkingConfigAdaptive(),
             Messages = [
@@ -166,7 +185,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 16000,
 		Thinking: anthropic.ThinkingConfigParamUnion{
 			OfAdaptive: &anthropic.ThinkingConfigAdaptiveParam{},
@@ -190,7 +209,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..10,-1}
+```java Java hidelines={1..5,7..9,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -203,7 +222,7 @@ public class ExtendedThinkingExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(16000L)
             .thinking(ThinkingConfigAdaptive.builder().build())
             .addUserMessage("Explain why the sum of two even numbers is always even.")
@@ -223,7 +242,7 @@ public class ExtendedThinkingExample {
 }
 ```
 
-```php PHP
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -238,7 +257,7 @@ $message = $client->messages->create(
             'content' => 'Explain why the sum of two even numbers is always even.'
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     thinking: ['type' => 'adaptive'],
 );
 
@@ -251,13 +270,13 @@ foreach ($message->content as $block) {
 }
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: {
     type: "adaptive"
@@ -287,20 +306,21 @@ You can combine adaptive thinking with the [effort parameter](/docs/en/build-wit
 
 | Effort level | Thinking behavior |
 |:-------------|:------------------|
-| `max` | Claude always thinks with no constraints on thinking depth. Opus 4.6 only. Requests using `max` on other models return an error. |
+| `max` | Claude always thinks with no constraints on thinking depth. Available on Claude Mythos Preview, Claude Opus 4.7, Claude Opus 4.6, and Claude Sonnet 4.6. |
+| `xhigh` | Claude always thinks deeply with extended exploration. Available on Claude Opus 4.7. |
 | `high` (default) | Claude always thinks. Provides deep reasoning on complex tasks. |
 | `medium` | Claude uses moderate thinking. May skip thinking for very simple queries. |
 | `low` | Claude minimizes thinking. Skips thinking for simple tasks where speed matters most. |
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 16000,
     "thinking": {
         "type": "adaptive"
@@ -317,13 +337,28 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python
+```bash CLI
+ant messages create \
+  --transform 'content.0.text' --raw-output <<'YAML'
+model: claude-opus-4-7
+max_tokens: 16000
+thinking:
+  type: adaptive
+output_config:
+  effort: medium
+messages:
+  - role: user
+    content: What is the capital of France?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=16000,
     thinking={"type": "adaptive"},
     output_config={"effort": "medium"},
@@ -333,13 +368,13 @@ response = client.messages.create(
 print(response.content[0].text)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: {
     type: "adaptive"
@@ -353,7 +388,7 @@ const response = await client.messages.create({
       content: "What is the capital of France?"
     }
   ]
-} as unknown as Anthropic.MessageCreateParamsNonStreaming);
+});
 
 for (const block of response.content) {
   if (block.type === "text") {
@@ -376,7 +411,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 16000,
             Thinking = new ThinkingConfigAdaptive(),
             OutputConfig = new OutputConfig { Effort = Effort.Medium },
@@ -389,7 +424,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -404,7 +439,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 16000,
 		Thinking: anthropic.ThinkingConfigParamUnion{
 			OfAdaptive: &anthropic.ThinkingConfigAdaptiveParam{},
@@ -423,7 +458,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..11,-1}
+```java Java hidelines={1..5,8..10,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -437,7 +472,7 @@ public class Main {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(16000L)
             .thinking(ThinkingConfigAdaptive.builder().build())
             .outputConfig(OutputConfig.builder()
@@ -454,7 +489,7 @@ public class Main {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -466,7 +501,7 @@ $message = $client->messages->create(
     messages: [
         ['role' => 'user', 'content' => 'What is the capital of France?']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     thinking: ['type' => 'adaptive'],
     outputConfig: ['effort' => 'medium'],
 );
@@ -474,13 +509,13 @@ $message = $client->messages->create(
 echo $message->content[0]->text;
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: {
     type: "adaptive"
@@ -502,13 +537,21 @@ puts message.content.first.text
 Adaptive thinking works seamlessly with [streaming](/docs/en/build-with-claude/streaming). Thinking blocks are streamed via `thinking_delta` events just like manual thinking mode:
 
 <CodeGroup>
-```python Python
+```bash CLI
+ant messages create --stream --format jsonl \
+  --model claude-opus-4-7 \
+  --max-tokens 16000 \
+  --thinking '{type: adaptive}' \
+  --message '{role: user, content: What is the greatest common divisor of 1071 and 462?}'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 with client.messages.stream(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=16000,
     thinking={"type": "adaptive"},
     messages=[
@@ -528,17 +571,17 @@ with client.messages.stream(
                 print(event.delta.text, end="", flush=True)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const stream = await client.messages.stream({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: { type: "adaptive" },
   messages: [{ role: "user", content: "What is the greatest common divisor of 1071 and 462?" }]
-} as unknown as Anthropic.MessageStreamParams);
+});
 
 for await (const event of stream) {
   if (event.type === "content_block_start") {
@@ -567,7 +610,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 16000,
             Thinking = new ThinkingConfigAdaptive(),
             Messages = [new() { Role = Role.User, Content = "What is the greatest common divisor of 1071 and 462?" }]
@@ -581,7 +624,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -596,7 +639,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 16000,
 		Thinking: anthropic.ThinkingConfigParamUnion{
 			OfAdaptive: &anthropic.ThinkingConfigAdaptiveParam{},
@@ -626,7 +669,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..8,-1}
+```java Java hidelines={1..4,6..8,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -638,7 +681,7 @@ public class StreamingThinkingExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(16000L)
             .thinking(ThinkingConfigAdaptive.builder().build())
             .addUserMessage("What is the greatest common divisor of 1071 and 462?")
@@ -669,7 +712,7 @@ public class StreamingThinkingExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -681,7 +724,7 @@ $stream = $client->messages->createStream(
     messages: [
         ['role' => 'user', 'content' => 'What is the greatest common divisor of 1071 and 462?']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     thinking: ['type' => 'adaptive'],
 );
 
@@ -698,13 +741,13 @@ foreach ($stream as $event) {
 }
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 stream = client.messages.stream(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 16000,
   thinking: { type: "adaptive" },
   messages: [
@@ -727,16 +770,16 @@ end
 
 | Mode | Config | Availability | When to use |
 |:-----|:-------|:-------------|:------------|
-| **Adaptive** | `thinking: {type: "adaptive"}` | Opus 4.6, Sonnet 4.6 | Claude determines when and how much to use extended thinking. Use `effort` to guide. |
-| **Manual** | `thinking: {type: "enabled", budget_tokens: N}` | All models. Deprecated on Opus 4.6 and Sonnet 4.6 (consider adaptive mode instead). | When you need precise control over thinking token spend. |
-| **Disabled** | Omit `thinking` parameter | All models | When you don't need extended thinking and want the lowest latency. |
+| **Adaptive** | `thinking: {type: "adaptive"}` | Claude Mythos Preview (default), Opus 4.7 (only mode), Opus 4.6, Sonnet 4.6 | Claude determines when and how much to use extended thinking. Use `effort` to guide. |
+| **Manual** | `thinking: {type: "enabled", budget_tokens: N}` | All models except Claude Opus 4.7 (rejected). Deprecated on Opus 4.6 and Sonnet 4.6 (consider adaptive mode instead). | When you need precise control over thinking token spend. |
+| **Disabled** | Omit `thinking` parameter or pass `{type: "disabled"}` | All models except Claude Mythos Preview | When you don't need extended thinking and want the lowest latency. |
 
 <Note>
-Adaptive thinking is available on Opus 4.6 and Sonnet 4.6. Older models only support `type: "enabled"` with `budget_tokens`. On both Opus 4.6 and Sonnet 4.6, `type: "enabled"` with `budget_tokens` is still accepted but deprecated.
+Adaptive thinking is available on Claude Mythos Preview, Claude Opus 4.7, Opus 4.6, and Sonnet 4.6. On Mythos Preview, adaptive thinking is the default and applies automatically whenever `thinking` is unset. On Claude Opus 4.7, adaptive thinking is the only supported mode and `type: "enabled"` with `budget_tokens` is rejected. Older models only support `type: "enabled"` with `budget_tokens`. On Opus 4.6 and Sonnet 4.6, `type: "enabled"` with `budget_tokens` is still functional but deprecated.
 
 **Interleaved thinking availability by mode:**
-- **Adaptive mode:** Interleaved thinking is automatically enabled on both Opus 4.6 and Sonnet 4.6.
-- **Manual mode on Sonnet 4.6:** Interleaved thinking is supported via the `interleaved-thinking-2025-05-14` beta header.
+- **Adaptive mode:** Interleaved thinking is automatically enabled on Claude Mythos Preview, Claude Opus 4.7, Opus 4.6, and Sonnet 4.6. On Mythos Preview and Opus 4.7, inter-tool reasoning always lives inside thinking blocks.
+- **Manual mode on Sonnet 4.6:** Interleaved thinking works via the `interleaved-thinking-2025-05-14` beta header.
 - **Manual mode on Opus 4.6:** Interleaved thinking is not available. If your agentic workflow requires thinking between tool calls on Opus 4.6, use adaptive mode.
 </Note>
 
@@ -776,29 +819,64 @@ The following concepts apply to all models that support extended thinking, regar
 
 ### Summarized thinking
 
-With extended thinking enabled, the Messages API for Claude 4 models returns a summary of Claude's full thinking process. Summarized thinking provides the full intelligence benefits of extended thinking, while preventing misuse.
+With extended thinking enabled, the Messages API for Claude 4 models returns a summary of Claude's full thinking process. Summarized thinking provides the full intelligence benefits of extended thinking, while preventing misuse. This is the default behavior on Claude 4 models when the `display` field on the thinking configuration is unset or set to `"summarized"`. On Claude Opus 4.7 and [Claude Mythos Preview](https://anthropic.com/glasswing), `display` defaults to `"omitted"` instead, so you must set `display: "summarized"` explicitly to receive summarized thinking.
 
 Here are some important considerations for summarized thinking:
 
 - You're charged for the full thinking tokens generated by the original request, not the summary tokens.
 - The billed output token count will **not match** the count of tokens you see in the response.
-- The first few lines of thinking output are more verbose, providing detailed reasoning that's particularly helpful for prompt engineering purposes.
+- On Claude 4 models, the first few lines of thinking output are more verbose, providing detailed reasoning that's particularly helpful for prompt engineering purposes. [Claude Mythos Preview](https://anthropic.com/glasswing) summarizes from the first token, so its thinking blocks do not show this verbose preamble.
 - As Anthropic seeks to improve the extended thinking feature, summarization behavior is subject to change.
-- Summarization preserves the key ideas of Claude's thinking process with minimal added latency, enabling a streamable user experience and easy migration from Claude Sonnet 3.7 to Claude 4 and later models.
+- Summarization preserves the key ideas of Claude's thinking process with minimal added latency, enabling a streamable user experience.
 - Summarization is processed by a different model than the one you target in your requests. The thinking model does not see the summarized output.
 
 <Note>
-Claude Sonnet 3.7 continues to return full thinking output.
-
 In rare cases where you need access to full thinking output for Claude 4 models, [contact our sales team](mailto:sales@anthropic.com).
 </Note>
+
+### Controlling thinking display
+
+The `display` field on the thinking configuration controls how thinking content is returned in API responses. It accepts two values:
+
+- `"summarized"`: Thinking blocks contain summarized thinking text. See [Summarized thinking](#summarized-thinking) for details. This is the default on Claude Opus 4.6, Claude Sonnet 4.6, and earlier Claude 4 models.
+- `"omitted"`: Thinking blocks are returned with an empty `thinking` field. The `signature` field still carries the encrypted full thinking for multi-turn continuity (see [Thinking encryption](#thinking-encryption)). This is the default on Claude Opus 4.7 and [Claude Mythos Preview](https://anthropic.com/glasswing).
+
+Setting `display: "omitted"` is useful when your application doesn't surface thinking content to users. The primary benefit is **faster time-to-first-text-token when streaming:** The server skips streaming thinking tokens entirely and delivers only the signature, so the final text response begins streaming sooner.
+
+Here are some important considerations for omitted thinking:
+
+- You're still charged for the full thinking tokens. Omitting reduces latency, not cost.
+- If you pass thinking blocks back in multi-turn conversations, pass them unchanged. The server decrypts the `signature` to reconstruct the original thinking for prompt construction (see [Preserving thinking blocks](/docs/en/build-with-claude/extended-thinking#preserving-thinking-blocks)). Any text you place in the `thinking` field of a round-tripped omitted block is ignored.
+- `display` is invalid with `thinking.type: "disabled"` (there is nothing to display).
+- When using `thinking.type: "adaptive"` and the model skips thinking for a simple request, no thinking block is produced regardless of `display`.
+
+<Note>
+The `signature` field is identical whether `display` is `"summarized"` or `"omitted"`. Switching `display` values between turns in a conversation is supported.
+</Note>
+
+<Note>
+On Claude Opus 4.7, `thinking.display` defaults to `"omitted"`. Thinking blocks still appear in the response stream, but their `thinking` field is empty unless you explicitly opt in. This is a silent change from Claude Opus 4.6, where the default was `"summarized"`. To restore summarized thinking text on Claude Opus 4.7, set `thinking.display` to `"summarized"` explicitly:
+
+```python
+thinking = {
+    "type": "adaptive",
+    "display": "summarized",
+}
+```
+</Note>
+
+For code examples and streaming behavior with `display: "omitted"`, see [Controlling thinking display](/docs/en/build-with-claude/extended-thinking#controlling-thinking-display) on the extended thinking page. The examples there use `type: "enabled"`; with adaptive thinking, use:
+
+```python
+thinking = {"type": "adaptive", "display": "omitted"}
+```
 
 ### Thinking encryption
 
 Full thinking content is encrypted and returned in the `signature` field. This field is used to verify that thinking blocks were generated by Claude when passed back to the API.
 
 <Note>
-It is only strictly necessary to send back thinking blocks when using [tools with extended thinking](/docs/en/build-with-claude/extended-thinking#extended-thinking-with-tool-use). Otherwise you can omit thinking blocks from previous turns, or let the API strip them for you if you pass them back.
+It is only strictly necessary to send back thinking blocks when using [tools with extended thinking](/docs/en/build-with-claude/extended-thinking#extended-thinking-with-tool-use). Otherwise you can omit thinking blocks from previous turns. If you pass them back, whether the API keeps or strips them depends on the model: Opus 4.5+ and Sonnet 4.6+ keep them in context by default; earlier Opus/Sonnet models and all Haiku models strip them. See [context editing](/docs/en/build-with-claude/context-editing) to configure this.
 
 If sending back thinking blocks, we recommend passing everything back as you received it for consistency and to avoid potential issues.
 </Note>
@@ -806,8 +884,8 @@ If sending back thinking blocks, we recommend passing everything back as you rec
 Here are some important considerations on thinking encryption:
 - When [streaming responses](/docs/en/build-with-claude/extended-thinking#streaming-thinking), the signature is added via a `signature_delta` inside a `content_block_delta` event just before the `content_block_stop` event.
 - `signature` values are significantly longer in Claude 4 models than in previous models.
-- The `signature` field is an opaque field and should not be interpreted or parsed - it exists solely for verification purposes.
-- `signature` values are compatible across platforms (Claude APIs, [Amazon Bedrock](/docs/en/build-with-claude/claude-on-amazon-bedrock), and [Vertex AI](/docs/en/build-with-claude/claude-on-vertex-ai)). Values generated on one platform will be compatible with another.
+- The `signature` field is an opaque field and should not be interpreted or parsed.
+- `signature` values are compatible across platforms (Claude APIs, [Amazon Bedrock](/docs/en/build-with-claude/claude-in-amazon-bedrock), and [Vertex AI](/docs/en/build-with-claude/claude-on-vertex-ai)). Values generated on one platform will be compatible with another.
 
 ### Pricing
 
@@ -815,7 +893,7 @@ For complete pricing information including base rates, cache writes, cache hits,
 
 The thinking process incurs charges for:
 - Tokens used during thinking (output tokens)
-- Thinking blocks from the last assistant turn included in subsequent requests (input tokens)
+- Thinking blocks from prior assistant turns kept in context: only the last turn on earlier Opus/Sonnet models and all Haiku models; all turns by default on Opus 4.5+ and Sonnet 4.6+ (input tokens)
 - Standard text output tokens
 
 <Note>
@@ -823,13 +901,18 @@ When extended thinking is enabled, a specialized system prompt is automatically 
 </Note>
 
 When using summarized thinking:
-- **Input tokens**: Tokens in your original request (excludes thinking tokens from previous turns)
-- **Output tokens (billed)**: The original thinking tokens that Claude generated internally
-- **Output tokens (visible)**: The summarized thinking tokens you see in the response
-- **No charge**: Tokens used to generate the summary
+- **Input tokens:** Tokens in your original request (excludes thinking tokens from previous turns)
+- **Output tokens (billed):** The original thinking tokens that Claude generated internally
+- **Output tokens (visible):** The summarized thinking tokens you see in the response
+- **No charge:** Tokens used to generate the summary
+
+When using `display: "omitted"`:
+- **Input tokens:** Tokens in your original request (same as summarized)
+- **Output tokens (billed):** The original thinking tokens that Claude generated internally (same as summarized)
+- **Output tokens (visible):** Zero thinking tokens (the `thinking` field is empty)
 
 <Warning>
-The billed output token count will **not** match the visible token count in the response. You are billed for the full thinking process, not the summary you see.
+The billed output token count will **not** match the visible token count in the response. You are billed for the full thinking process, not the thinking content visible in the response.
 </Warning>
 
 ### Additional topics

@@ -1,4 +1,4 @@
-# Streaming Messages
+# Streaming messages
 
 ---
 
@@ -9,7 +9,19 @@ When creating a Message, you can set `"stream": true` to incrementally stream th
 The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript](https://github.com/anthropics/anthropic-sdk-typescript) SDKs offer multiple ways of streaming. The [PHP](https://github.com/anthropics/anthropic-sdk-php) SDK provides streaming via `createStream()`. The Python SDK allows both sync and async streams. See the documentation in each SDK for details.
 
 <CodeGroup>
-    ```python Python
+    ```bash CLI
+    ant messages create --stream --format jsonl \
+      --model claude-opus-4-7 \
+      --max-tokens 1024 \
+      --message '{role: user, content: "Hello"}' \
+      | while IFS= read -r event; do
+          [[ $event == *'"text_delta"'* ]] || continue
+          text=${event#*'"text":"'}
+          printf '%b' "${text%\"*}"
+        done
+    ```
+
+    ```python Python hidelines={1..2}
     import anthropic
 
     client = anthropic.Anthropic()
@@ -17,13 +29,13 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     with client.messages.stream(
         max_tokens=1024,
         messages=[{"role": "user", "content": "Hello"}],
-        model="claude-opus-4-6",
+        model="claude-opus-4-7",
     ) as stream:
         for text in stream.text_stream:
             print(text, end="", flush=True)
     ```
 
-    ```typescript TypeScript hidelines={1..4}
+    ```typescript TypeScript hidelines={1..2}
     import Anthropic from "@anthropic-ai/sdk";
 
     const client = new Anthropic();
@@ -31,7 +43,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     await client.messages
       .stream({
         messages: [{ role: "user", content: "Hello" }],
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 1024
       })
       .on("text", (text) => {
@@ -51,7 +63,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
 
             var parameters = new MessageCreateParams
             {
-                Model = Model.ClaudeOpus4_6,
+                Model = Model.ClaudeOpus4_7,
                 MaxTokens = 1024,
                 Messages = [new() { Role = Role.User, Content = "Hello" }]
             };
@@ -64,7 +76,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     }
     ```
 
-    ```go Go hidelines={1..13,-1}
+    ```go Go hidelines={1..11,-1}
     package main
 
     import (
@@ -79,7 +91,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     	client := anthropic.NewClient()
 
     	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-    		Model:     anthropic.ModelClaudeOpus4_6,
+    		Model:     anthropic.ModelClaudeOpus4_7,
     		MaxTokens: 1024,
     		Messages: []anthropic.MessageParam{
     			anthropic.NewUserMessage(anthropic.NewTextBlock("Hello")),
@@ -102,7 +114,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     }
     ```
 
-    ```java Java hidelines={1..6,-1}
+    ```java Java hidelines={1..6,-2..}
     import com.anthropic.client.AnthropicClient;
     import com.anthropic.client.okhttp.AnthropicOkHttpClient;
     import com.anthropic.models.messages.MessageCreateParams;
@@ -112,7 +124,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
             AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
             MessageCreateParams params = MessageCreateParams.builder()
-                .model("claude-opus-4-6")
+                .model("claude-opus-4-7")
                 .maxTokens(1024L)
                 .addUserMessage("Hello")
                 .build();
@@ -130,7 +142,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     }
     ```
 
-    ```php PHP
+    ```php PHP hidelines={1..4}
     <?php
 
     use Anthropic\Client;
@@ -142,7 +154,7 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
         messages: [
             ['role' => 'user', 'content' => 'Hello']
         ],
-        model: 'claude-opus-4-6',
+        model: 'claude-opus-4-7',
     );
 
     foreach ($stream as $message) {
@@ -150,13 +162,13 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
     }
     ```
 
-    ```ruby Ruby
+    ```ruby Ruby hidelines={1..2}
     require "anthropic"
 
     client = Anthropic::Client.new
 
     stream = client.messages.stream(
-      model: "claude-opus-4-6",
+      model: "claude-opus-4-7",
       max_tokens: 1024,
       messages: [{ role: "user", content: "Hello" }]
     )
@@ -170,7 +182,20 @@ The [Python](https://github.com/anthropics/anthropic-sdk-python) and [TypeScript
 If you don't need to process text as it arrives, the SDKs provide a way to use streaming under the hood while returning the complete `Message` object, identical to what `.create()` returns. This is especially useful for requests with large `max_tokens` values, where the SDKs require streaming to avoid HTTP timeouts.
 
 <CodeGroup>
-    ```python Python hidelines={1..4,-1}
+    ```bash CLI
+    # The ant CLI's --stream flag emits one event per line and does not
+    # accumulate into a final Message. For long generations, stream the
+    # raw events:
+    ant messages create --stream --format jsonl <<'YAML'
+    model: claude-opus-4-7
+    max_tokens: 128000
+    messages:
+      - role: user
+        content: Write a detailed analysis...
+    YAML
+    ```
+
+    ```python Python hidelines={1..2}
     import anthropic
 
     client = anthropic.Anthropic()
@@ -178,14 +203,14 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     with client.messages.stream(
         max_tokens=128000,
         messages=[{"role": "user", "content": "Write a detailed analysis..."}],
-        model="claude-opus-4-6",
+        model="claude-opus-4-7",
     ) as stream:
         message = stream.get_final_message()
 
     print(message.content[0].text)
     ```
 
-    ```typescript TypeScript hidelines={1..4}
+    ```typescript TypeScript hidelines={1..2}
     import Anthropic from "@anthropic-ai/sdk";
 
     const client = new Anthropic();
@@ -193,7 +218,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     const stream = client.messages.stream({
       max_tokens: 128000,
       messages: [{ role: "user", content: "Write a detailed analysis..." }],
-      model: "claude-opus-4-6"
+      model: "claude-opus-4-7"
     });
 
     const message = await stream.finalMessage();
@@ -218,7 +243,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
 
             var parameters = new MessageCreateParams
             {
-                Model = Model.ClaudeOpus4_6,
+                Model = Model.ClaudeOpus4_7,
                 MaxTokens = 128000,
                 Messages = [new() { Role = Role.User, Content = "Write a detailed analysis..." }]
             };
@@ -234,7 +259,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     }
     ```
 
-    ```go Go hidelines={1..13,-1}
+    ```go Go hidelines={1..11,-1}
     package main
 
     import (
@@ -249,7 +274,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     	client := anthropic.NewClient()
 
     	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-    		Model:     anthropic.ModelClaudeOpus4_6,
+    		Model:     anthropic.ModelClaudeOpus4_7,
     		MaxTokens: 128000,
     		Messages: []anthropic.MessageParam{
     			anthropic.NewUserMessage(anthropic.NewTextBlock("Write a detailed analysis...")),
@@ -271,7 +296,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     }
     ```
 
-    ```java Java hidelines={1..9,-1}
+    ```java Java hidelines={1..2,4..9,-2..}
     import com.anthropic.client.AnthropicClient;
     import com.anthropic.client.okhttp.AnthropicOkHttpClient;
     import com.anthropic.helpers.MessageAccumulator;
@@ -284,7 +309,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
             AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
             MessageCreateParams params = MessageCreateParams.builder()
-                .model(Model.CLAUDE_OPUS_4_6)
+                .model(Model.CLAUDE_OPUS_4_7)
                 .maxTokens(128000L)
                 .addUserMessage("Write a detailed analysis...")
                 .build();
@@ -300,7 +325,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     }
     ```
 
-    ```php PHP hidelines={1..5}
+    ```php PHP hidelines={1..4}
     <?php
 
     use Anthropic\Client;
@@ -312,7 +337,7 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
         messages: [
             ['role' => 'user', 'content' => 'Write a detailed analysis...']
         ],
-        model: 'claude-opus-4-6',
+        model: 'claude-opus-4-7',
     );
 
     $fullText = '';
@@ -325,13 +350,13 @@ If you don't need to process text as it arrives, the SDKs provide a way to use s
     echo $fullText;
     ```
 
-    ```ruby Ruby
+    ```ruby Ruby hidelines={1..2}
     require "anthropic"
 
     client = Anthropic::Client.new
 
     message = client.messages.stream(
-      model: "claude-opus-4-6",
+      model: "claude-opus-4-7",
       max_tokens: 128000,
       messages: [{ role: "user", content: "Write a detailed analysis..." }]
     ).accumulated_message
@@ -405,6 +430,8 @@ When using [extended thinking](/docs/en/build-with-claude/extended-thinking#stre
 
 For thinking content, a special `signature_delta` event is sent just before the `content_block_stop` event. This signature is used to verify the integrity of the thinking block.
 
+When `display: "omitted"` is set on the thinking configuration, no `thinking_delta` events are sent. The thinking block opens, receives a single `signature_delta`, and closes. See [Controlling thinking display](/docs/en/build-with-claude/extended-thinking#controlling-thinking-display).
+
 A typical thinking delta looks like:
 ```sse Thinking delta
 event: content_block_delta
@@ -417,17 +444,17 @@ event: content_block_delta
 data: {"type": "content_block_delta", "index": 0, "delta": {"type": "signature_delta", "signature": "EqQBCgIYAhIM1gbcDa9GJwZA2b3hGgxBdjrkzLoky3dl1pkiMOYds..."}}
 ```
 
-## Full HTTP Stream response
+## Full HTTP stream response
 
 Use the [client SDKs](/docs/en/api/client-sdks) when using streaming mode. However, if you are building a direct API integration, you need to handle these events yourself.
 
-A stream response is comprised of:
+A stream response consists of:
 1. A `message_start` event
 2. Potentially multiple content blocks, each of which contains:
     - A `content_block_start` event
     - Potentially multiple `content_block_delta` events
     - A `content_block_stop` event
-3. A `message_delta` event
+3. One or more `message_delta` events
 4. A `message_stop` event
 
 There may be `ping` events dispersed throughout the response as well. See [Event types](#event-types) for more details on the format.
@@ -435,27 +462,34 @@ There may be `ping` events dispersed throughout the response as well. See [Event
 ### Basic streaming request
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --data \
 '{
-  "model": "claude-opus-4-6",
+  "model": "claude-opus-4-7",
   "messages": [{"role": "user", "content": "Hello"}],
   "max_tokens": 256,
   "stream": true
 }'
 ```
 
-```python Python hidelines={1..4}
+```bash CLI
+ant messages create --stream --format jsonl \
+  --model claude-opus-4-7 \
+  --max-tokens 256 \
+  --message '{role: user, content: Hello}'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 with client.messages.stream(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     messages=[{"role": "user", "content": "Hello"}],
     max_tokens=256,
 ) as stream:
@@ -463,13 +497,13 @@ with client.messages.stream(
         print(text, end="", flush=True)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const stream = client.messages.stream({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   messages: [{ role: "user", content: "Hello" }],
   max_tokens: 256
 });
@@ -495,7 +529,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 256,
             Messages = [new() { Role = Role.User, Content = "Hello" }]
         };
@@ -508,7 +542,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -523,7 +557,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 256,
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock("Hello")),
@@ -546,7 +580,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..7,-1}
+```java Java hidelines={1..7,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -557,7 +591,7 @@ public class StreamingExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(256L)
             .addUserMessage("Hello")
             .build();
@@ -575,7 +609,7 @@ public class StreamingExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -587,7 +621,7 @@ $stream = $client->messages->createStream(
     messages: [
         ['role' => 'user', 'content' => 'Hello']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
 );
 
 foreach ($stream as $message) {
@@ -595,13 +629,13 @@ foreach ($stream as $message) {
 }
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 stream = client.messages.stream(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   messages: [{ role: "user", content: "Hello" }],
   max_tokens: 256
 )
@@ -612,7 +646,7 @@ stream.text.each { |text| print(text) }
 
 ```sse Response
 event: message_start
-data: {"type": "message_start", "message": {"id": "msg_1nZdL29xx5MUA1yADyHTEsnR8uuvGzszyY", "type": "message", "role": "assistant", "content": [], "model": "claude-opus-4-6", "stop_reason": null, "stop_sequence": null, "usage": {"input_tokens": 25, "output_tokens": 1}}}
+data: {"type": "message_start", "message": {"id": "msg_1nZdL29xx5MUA1yADyHTEsnR8uuvGzszyY", "type": "message", "role": "assistant", "content": [], "model": "claude-opus-4-7", "stop_reason": null, "stop_sequence": null, "usage": {"input_tokens": 25, "output_tokens": 1}}}
 
 event: content_block_start
 data: {"type": "content_block_start", "index": 0, "content_block": {"type": "text", "text": ""}}
@@ -646,13 +680,13 @@ Tool use supports [fine-grained streaming](/docs/en/agents-and-tools/tool-use/fi
 This request asks Claude to use a tool to report the weather.
 
 <CodeGroup>
-```bash Shell
+```bash cURL
   curl https://api.anthropic.com/v1/messages \
     -H "content-type: application/json" \
     -H "x-api-key: $ANTHROPIC_API_KEY" \
     -H "anthropic-version: 2023-06-01" \
     -d '{
-      "model": "claude-opus-4-6",
+      "model": "claude-opus-4-7",
       "max_tokens": 1024,
       "tools": [
         {
@@ -681,7 +715,30 @@ This request asks Claude to use a tool to report the weather.
     }'
 ```
 
-```python Python hidelines={1..4}
+```bash CLI
+ant messages create --stream --format jsonl <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+tools:
+  - name: get_weather
+    description: Get the current weather in a given location
+    input_schema:
+      type: object
+      properties:
+        location:
+          type: string
+          description: The city and state, e.g. San Francisco, CA
+      required:
+        - location
+tool_choice:
+  type: any
+messages:
+  - role: user
+    content: What is the weather like in San Francisco?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
@@ -704,7 +761,7 @@ tools = [
 ]
 
 with client.messages.stream(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     tools=tools,
     tool_choice={"type": "any"},
@@ -716,7 +773,7 @@ with client.messages.stream(
         print(text, end="", flush=True)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
@@ -739,7 +796,7 @@ const tools: Anthropic.Tool[] = [
 ];
 
 const stream = client.messages.stream({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: tools,
   tool_choice: { type: "any" },
@@ -773,7 +830,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 1024,
             Tools = [
                 new ToolUnion(new Tool()
@@ -804,7 +861,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -819,7 +876,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Tools: []anthropic.ToolUnionParam{
 			{OfTool: &anthropic.ToolParam{
@@ -858,7 +915,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..13,-1}
+```java Java hidelines={1..13,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -875,7 +932,7 @@ public class StreamingToolUse {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(1024L)
             .addTool(Tool.builder()
                 .name("get_weather")
@@ -907,7 +964,7 @@ public class StreamingToolUse {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -919,7 +976,7 @@ $stream = $client->messages->createStream(
     messages: [
         ['role' => 'user', 'content' => 'What is the weather like in San Francisco?']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     toolChoice: ['type' => 'any'],
     tools: [
         [
@@ -944,7 +1001,7 @@ foreach ($stream as $message) {
 }
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
@@ -967,7 +1024,7 @@ tools = [
 ]
 
 stream = client.messages.stream(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: tools,
   tool_choice: { type: "any" },
@@ -982,7 +1039,7 @@ stream.text.each { |text| print(text) }
 
 ```sse Response
 event: message_start
-data: {"type":"message_start","message":{"id":"msg_014p7gG3wDgGV9EUtLvnow3U","type":"message","role":"assistant","model":"claude-opus-4-6","stop_sequence":null,"usage":{"input_tokens":472,"output_tokens":2},"content":[],"stop_reason":null}}
+data: {"type":"message_start","message":{"id":"msg_014p7gG3wDgGV9EUtLvnow3U","type":"message","role":"assistant","model":"claude-opus-4-7","stop_sequence":null,"usage":{"input_tokens":472,"output_tokens":2},"content":[],"stop_reason":null}}
 
 event: content_block_start
 data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
@@ -1051,16 +1108,7 @@ event: content_block_delta
 data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"o,"}}
 
 event: content_block_delta
-data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":" CA\""}}
-
-event: content_block_delta
-data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":", "}}
-
-event: content_block_delta
-data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"\"unit\": \"fah"}}
-
-event: content_block_delta
-data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"renheit\"}"}}
+data: {"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":" CA\"}"}}
 
 event: content_block_stop
 data: {"type":"content_block_stop","index":1}
@@ -1074,22 +1122,22 @@ data: {"type":"message_stop"}
 
 ### Streaming request with extended thinking
 
-This request enables extended thinking with streaming to see Claude's step-by-step reasoning.
+This request enables extended thinking with streaming. The `display: "summarized"` setting streams a condensed summary of Claude's reasoning rather than the full chain of thought.
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 20000,
     "stream": true,
     "thinking": {
-        "type": "enabled",
-        "budget_tokens": 16000
+        "type": "adaptive",
+        "display": "summarized"
     },
     "messages": [
         {
@@ -1100,15 +1148,23 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4}
+```bash CLI
+ant messages create --stream --format jsonl \
+  --model claude-opus-4-7 \
+  --max-tokens 20000 \
+  --thinking '{type: adaptive, display: summarized}' \
+  --message '{role: user, content: What is the greatest common divisor of 1071 and 462?}'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 with client.messages.stream(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=20000,
-    thinking={"type": "enabled", "budget_tokens": 16000},
+    thinking={"type": "adaptive", "display": "summarized"},
     messages=[
         {
             "role": "user",
@@ -1124,15 +1180,15 @@ with client.messages.stream(
                 print(event.delta.text, end="", flush=True)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const stream = client.messages.stream({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 20000,
-  thinking: { type: "enabled", budget_tokens: 16000 },
+  thinking: { type: "adaptive", display: "summarized" },
   messages: [
     {
       role: "user",
@@ -1160,9 +1216,9 @@ AnthropicClient client = new();
 
 var parameters = new MessageCreateParams
 {
-    Model = Model.ClaudeOpus4_6,
+    Model = Model.ClaudeOpus4_7,
     MaxTokens = 20000,
-    Thinking = new ThinkingConfigEnabled(budgetTokens: 16000),
+    Thinking = new ThinkingConfigAdaptive { Display = Display.Summarized },
     Messages = [new() { Role = Role.User, Content = "What is the greatest common divisor of 1071 and 462?" }]
 };
 
@@ -1172,7 +1228,7 @@ await foreach (var msg in client.Messages.CreateStreaming(parameters))
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1187,9 +1243,13 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 20000,
-		Thinking:  anthropic.ThinkingConfigParamOfEnabled(16000),
+		Thinking: anthropic.ThinkingConfigParamUnion{
+			OfAdaptive: &anthropic.ThinkingConfigAdaptiveParam{
+				Display: anthropic.ThinkingConfigAdaptiveDisplaySummarized,
+			},
+		},
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock("What is the greatest common divisor of 1071 and 462?")),
 		},
@@ -1218,35 +1278,36 @@ import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
 import com.anthropic.models.messages.Model;
+import com.anthropic.models.messages.ThinkingConfigAdaptive;
 
-public class ExtendedThinkingStreaming {
-    public static void main(String[] args) {
-        AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+void main() {
+    AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
-        MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
-            .maxTokens(20000L)
-            .enabledThinking(16000L)
-            .addUserMessage("What is the greatest common divisor of 1071 and 462?")
-            .build();
+    MessageCreateParams params = MessageCreateParams.builder()
+        .model(Model.CLAUDE_OPUS_4_7)
+        .maxTokens(20000L)
+        .thinking(ThinkingConfigAdaptive.builder()
+            .display(ThinkingConfigAdaptive.Display.SUMMARIZED)
+            .build())
+        .addUserMessage("What is the greatest common divisor of 1071 and 462?")
+        .build();
 
-        try (var streamResponse = client.messages().createStreaming(params)) {
-            streamResponse.stream().forEach(event -> {
-                event.contentBlockDelta().ifPresent(deltaEvent -> {
-                    deltaEvent.delta().thinking().ifPresent(td ->
-                        System.out.print(td.thinking())
-                    );
-                    deltaEvent.delta().text().ifPresent(td ->
-                        System.out.print(td.text())
-                    );
-                });
+    try (var streamResponse = client.messages().createStreaming(params)) {
+        streamResponse.stream().forEach(event -> {
+            event.contentBlockDelta().ifPresent(deltaEvent -> {
+                deltaEvent.delta().thinking().ifPresent(td ->
+                    IO.print(td.thinking())
+                );
+                deltaEvent.delta().text().ifPresent(td ->
+                    IO.print(td.text())
+                );
             });
-        }
+        });
     }
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -1258,8 +1319,8 @@ $stream = $client->messages->createStream(
     messages: [
         ['role' => 'user', 'content' => 'What is the greatest common divisor of 1071 and 462?']
     ],
-    model: 'claude-opus-4-6',
-    thinking: ['type' => 'enabled', 'budget_tokens' => 16000],
+    model: 'claude-opus-4-7',
+    thinking: ['type' => 'adaptive', 'display' => 'summarized'],
 );
 
 foreach ($stream as $message) {
@@ -1267,15 +1328,15 @@ foreach ($stream as $message) {
 }
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 stream = client.messages.stream(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 20000,
-  thinking: { type: "enabled", budget_tokens: 16000 },
+  thinking: { type: "adaptive", display: "summarized" },
   messages: [
     { role: "user", content: "What is the greatest common divisor of 1071 and 462?" }
   ]
@@ -1295,10 +1356,10 @@ end
 
 ```sse Response
 event: message_start
-data: {"type": "message_start", "message": {"id": "msg_01...", "type": "message", "role": "assistant", "content": [], "model": "claude-opus-4-6", "stop_reason": null, "stop_sequence": null}}
+data: {"type": "message_start", "message": {"id": "msg_01...", "type": "message", "role": "assistant", "content": [], "model": "claude-opus-4-7", "stop_reason": null, "stop_sequence": null}}
 
 event: content_block_start
-data: {"type": "content_block_start", "index": 0, "content_block": {"type": "thinking", "thinking": ""}}
+data: {"type": "content_block_start", "index": 0, "content_block": {"type": "thinking", "thinking": "", "signature": ""}}
 
 event: content_block_delta
 data: {"type": "content_block_delta", "index": 0, "delta": {"type": "thinking_delta", "thinking": "I need to find the GCD of 1071 and 462 using the Euclidean algorithm.\n\n1071 = 2 × 462 + 147"}}
@@ -1339,14 +1400,14 @@ data: {"type": "message_stop"}
 This request asks Claude to search the web for current weather information.
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "stream": true,
     "tools": [
@@ -1365,13 +1426,21 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4}
+```bash CLI
+ant messages create --stream --format jsonl \
+  --model claude-opus-4-7 \
+  --max-tokens 1024 \
+  --tool '{type: web_search_20250305, name: web_search, max_uses: 5}' \
+  --message '{role: user, content: What is the weather like in New York City today?}'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 with client.messages.stream(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
     messages=[
@@ -1382,13 +1451,13 @@ with client.messages.stream(
         print(text, end="", flush=True)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const stream = client.messages.stream({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 5 }],
   messages: [{ role: "user", content: "What is the weather like in New York City today?" }]
@@ -1409,7 +1478,7 @@ AnthropicClient client = new();
 
 var parameters = new MessageCreateParams
 {
-    Model = Model.ClaudeOpus4_6,
+    Model = Model.ClaudeOpus4_7,
     MaxTokens = 1024,
     Tools = [new ToolUnion(new WebSearchTool20250305() { MaxUses = 5 })],
     Messages = [new() { Role = Role.User, Content = "What is the weather like in New York City today?" }]
@@ -1421,7 +1490,7 @@ await foreach (var msg in client.Messages.CreateStreaming(parameters))
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1436,7 +1505,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Tools: []anthropic.ToolUnionParam{
 			{
@@ -1466,7 +1535,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..8,-1}
+```java Java hidelines={1..4,6..8,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -1478,7 +1547,7 @@ public class WebSearchStreaming {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(1024L)
             .addTool(WebSearchTool20250305.builder()
                 .maxUses(5L)
@@ -1499,7 +1568,7 @@ public class WebSearchStreaming {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -1511,7 +1580,7 @@ $stream = $client->messages->createStream(
     messages: [
         ['role' => 'user', 'content' => 'What is the weather like in New York City today?']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     tools: [
         ['type' => 'web_search_20250305', 'name' => 'web_search', 'max_uses' => 5]
     ],
@@ -1522,13 +1591,13 @@ foreach ($stream as $message) {
 }
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 stream = client.messages.stream(
-  model: :"claude-opus-4-6",
+  model: :"claude-opus-4-7",
   max_tokens: 1024,
   tools: [
     {
@@ -1551,7 +1620,7 @@ stream.text.each { |text| print(text) }
 
 ```sse Response
 event: message_start
-data: {"type":"message_start","message":{"id":"msg_01G...","type":"message","role":"assistant","model":"claude-opus-4-6","content":[],"stop_reason":null,"stop_sequence":null,"usage":{"input_tokens":2679,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":3}}}
+data: {"type":"message_start","message":{"id":"msg_01G...","type":"message","role":"assistant","model":"claude-opus-4-7","content":[],"stop_reason":null,"stop_sequence":null,"usage":{"input_tokens":2679,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":3}}}
 
 event: content_block_start
 data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
@@ -1639,22 +1708,25 @@ For Claude 4.5 models and earlier, you can recover a streaming request that was 
 
 The basic recovery strategy involves:
 
-1. **Capture the partial response**: Save all content that was successfully received before the error occurred
-2. **Construct a continuation request**: Create a new API request that includes the partial assistant response as the beginning of a new assistant message
-3. **Resume streaming**: Continue receiving the rest of the response from where it was interrupted
+1. **Capture the partial response:** Save all content that was successfully received before the error occurred
+2. **Construct a continuation request:** Create a new API request that includes the partial assistant response as the beginning of a new assistant message
+3. **Resume streaming:** Continue receiving the rest of the response from where it was interrupted
 
-### Claude 4.6
+### Claude 4.6 and later
 
-For Claude 4.6 models, you should add a user message that instructs the model to continue from where it left off. For example:
+For Claude 4.6 and later models, the same capture-and-resume strategy applies, but step 2 changes: instead of placing the partial response in an assistant message, add a user message that instructs the model to continue from where it left off.
 
-```text Sample prompt
-Your previous response was interrupted and ended with [previous_response]. Continue from where you left off.
-```
+1. **Capture the partial response:** Save all content that was successfully received before the error occurred
+2. **Construct a continuation request:** Create a new API request with a user message containing the partial response and an instruction to continue, for example:
+   ```text Sample prompt
+   Your previous response was interrupted and ended with [previous_response]. Continue from where you left off.
+   ```
+3. **Resume streaming:** Continue receiving the rest of the response from where it was interrupted
 
 ### Error recovery best practices
 
-1. **Use SDK features**: Leverage the SDK's built-in message accumulation and error handling capabilities
-2. **Handle content types**: Be aware that messages can contain multiple content blocks (`text`, `tool_use`, `thinking`). Tool use and extended thinking blocks cannot be partially recovered. You can resume streaming from the most recent text block.
+1. **Use SDK features:** Leverage the SDK's built-in message accumulation and error handling capabilities
+2. **Handle content types:** Be aware that messages can contain multiple content blocks (`text`, `tool_use`, `thinking`). Tool use and extended thinking blocks cannot be partially recovered. You can resume streaming from the most recent text block.
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/build-with-claude/streaming

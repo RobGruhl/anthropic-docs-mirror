@@ -4,6 +4,10 @@ Automatically manage conversation context as it grows with context editing.
 
 ---
 
+<Note>
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
+</Note>
+
 ## Overview
 
 <Note>
@@ -19,7 +23,7 @@ Context editing allows you to selectively clear specific content from conversati
 | Approach | Where it runs | Strategies | How it works |
 |----------|---------------|------------|--------------|
 | **Server-side** | API | Tool result clearing (`clear_tool_uses_20250919`)<br/>Thinking block clearing (`clear_thinking_20251015`) | Applied before the prompt reaches Claude. Clears specific content from conversation history. Each strategy can be configured independently. |
-| **Client-side** | SDK | Compaction | Available in [Python, TypeScript, and Ruby SDKs](/docs/en/api/client-sdks) when using [`tool_runner`](/docs/en/agents-and-tools/tool-use/implement-tool-use#tool-runner-beta). Generates a summary and replaces full conversation history. See [Client-side compaction](#client-side-compaction-sdk) below. |
+| **Client-side** | SDK | Compaction | Available in [Python, TypeScript, and Ruby SDKs](/docs/en/api/client-sdks) when using [`tool_runner`](/docs/en/agents-and-tools/tool-use/tool-runner). Generates a summary and replaces full conversation history. See [Client-side compaction](#client-side-compaction-sdk) below. |
 
 ## Server-side strategies
 
@@ -29,24 +33,26 @@ Context editing is in beta with support for tool result clearing and thinking bl
 Share feedback on this feature through the [feedback form](https://forms.gle/YXC2EKGMhjN1c4L88).
 </Note>
 
-<Note>
-This feature is in beta and is **not** eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/zero-data-retention). Beta features are excluded from ZDR.
-</Note>
-
 ### Tool result clearing
 
 The `clear_tool_uses_20250919` strategy clears tool results when conversation context grows beyond your configured threshold. This is particularly useful for agentic workflows with heavy tool use. Older tool results (like file contents or search results) are no longer needed once Claude has processed them.
 
-When activated, the API automatically clears the oldest tool results in chronological order. Each cleared result is replaced with placeholder text so Claude knows it was removed. By default, only tool results are cleared. You can optionally clear both tool results and tool calls (the tool use parameters) by setting `clear_tool_inputs` to true.
+When activated, the API automatically clears the oldest tool results in chronological order. The API replaces each cleared result with placeholder text so Claude knows it was removed. By default, only tool results are cleared. You can optionally clear both tool results and tool calls (the tool use parameters) by setting `clear_tool_inputs` to true.
 
 ### Thinking block clearing
 
 The `clear_thinking_20251015` strategy manages `thinking` blocks in conversations when extended thinking is enabled. This strategy gives you control over thinking preservation: you can choose to keep more thinking blocks to maintain reasoning continuity, or clear them more aggressively to save context space.
 
 <Tip>
-**Default behavior:** When extended thinking is enabled without configuring the `clear_thinking_20251015` strategy, the API automatically keeps only the thinking blocks from the last assistant turn (equivalent to `keep: {type: "thinking_turns", value: 1}`).
+**Default behavior:** The default varies by model class.
 
-To maximize cache hits, preserve all thinking blocks by setting `keep: "all"`.
+| Model class | Keep all prior thinking | Keep only the last turn's thinking |
+| --- | --- | --- |
+| Opus | Claude Opus 4.5 and later | Claude Opus 4.1 and earlier |
+| Sonnet | Claude Sonnet 4.6 and later | Claude Sonnet 4.5 and earlier |
+| Haiku | (none) | All models through Claude Haiku 4.5 |
+
+Use this strategy to override the default. If your code runs across multiple model tiers, set `keep` explicitly rather than relying on the per-model default.
 </Tip>
 
 An assistant conversation turn may include multiple content blocks (e.g. when using tools) and multiple thinking blocks (e.g. with [interleaved thinking](/docs/en/build-with-claude/extended-thinking#interleaved-thinking)).
@@ -65,16 +71,7 @@ Context editing's interaction with [prompt caching](/docs/en/build-with-claude/p
 
 ## Supported models
 
-Context editing is available on:
-
-- Claude Opus 4.6 (`claude-opus-4-6`)
-- Claude Opus 4.5 (`claude-opus-4-5-20251101`)
-- Claude Opus 4.1 (`claude-opus-4-1-20250805`)
-- Claude Opus 4 (`claude-opus-4-20250514`)
-- Claude Sonnet 4.6 (`claude-sonnet-4-6`)
-- Claude Sonnet 4.5 (`claude-sonnet-4-5-20250929`)
-- Claude Sonnet 4 (`claude-sonnet-4-20250514`)
-- Claude Haiku 4.5 (`claude-haiku-4-5-20251001`)
+Context editing is available on all supported Claude models.
 
 ## Tool result clearing usage
 
@@ -89,7 +86,7 @@ curl https://api.anthropic.com/v1/messages \
     --header "content-type: application/json" \
     --header "anthropic-beta: context-management-2025-06-27" \
     --data '{
-        "model": "claude-opus-4-6",
+        "model": "claude-opus-4-7",
         "max_tokens": 4096,
         "messages": [
             {
@@ -111,9 +108,25 @@ curl https://api.anthropic.com/v1/messages \
     }'
 ```
 
+```bash CLI
+ant beta:messages create --beta context-management-2025-06-27 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+messages:
+  - role: user
+    content: Search for recent developments in AI
+tools:
+  - type: web_search_20250305
+    name: web_search
+context_management:
+  edits:
+    - type: clear_tool_uses_20250919
+YAML
+```
+
 ```python Python
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     messages=[{"role": "user", "content": "Search for recent developments in AI"}],
     tools=[{"type": "web_search_20250305", "name": "web_search"}],
@@ -130,7 +143,7 @@ const anthropic = new Anthropic({
 });
 
 const response = await anthropic.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     {
@@ -159,7 +172,7 @@ AnthropicClient client = new();
 
 var parameters = new MessageCreateParams
 {
-    Model = "claude-opus-4-6",
+    Model = "claude-opus-4-7",
     MaxTokens = 4096,
     Messages = [
         new() { Role = Role.User, Content = "Search for recent developments in AI" }
@@ -178,7 +191,7 @@ var response = await client.Beta.Messages.Create(parameters);
 Console.WriteLine(response);
 ```
 
-```go Go hidelines={1..13,-5..-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -193,7 +206,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 4096,
 		Messages: []anthropic.BetaMessageParam{
 			anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("Search for recent developments in AI")),
@@ -217,7 +230,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..13,-1}
+```java Java hidelines={1..4,9..12,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.MessageCreateParams;
@@ -233,7 +246,7 @@ public class WebSearchExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(4096L)
             .addUserMessage("Search for recent developments in AI")
             .addTool(BetaWebSearchTool20250305.builder().build())
@@ -249,7 +262,7 @@ public class WebSearchExample {
 }
 ```
 
-```php PHP
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -261,7 +274,7 @@ $response = $client->beta->messages->create(
     messages: [
         ['role' => 'user', 'content' => 'Search for recent developments in AI']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     betas: ['context-management-2025-06-27'],
     tools: [
         ['type' => 'web_search_20250305', 'name' => 'web_search']
@@ -276,13 +289,13 @@ $response = $client->beta->messages->create(
 echo $response;
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.beta.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     { role: "user", content: "Search for recent developments in AI" }
@@ -315,7 +328,7 @@ curl https://api.anthropic.com/v1/messages \
     --header "content-type: application/json" \
     --header "anthropic-beta: context-management-2025-06-27" \
     --data '{
-        "model": "claude-opus-4-6",
+        "model": "claude-opus-4-7",
         "max_tokens": 4096,
         "messages": [
             {
@@ -358,9 +371,40 @@ curl https://api.anthropic.com/v1/messages \
     }'
 ```
 
+```bash CLI
+ant beta:messages create --beta context-management-2025-06-27 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+messages:
+  - role: user
+    content: Create a simple command line calculator app using Python
+tools:
+  - type: text_editor_20250728
+    name: str_replace_based_edit_tool
+    max_characters: 10000
+  - type: web_search_20250305
+    name: web_search
+    max_uses: 3
+context_management:
+  edits:
+    - type: clear_tool_uses_20250919
+      trigger:
+        type: input_tokens
+        value: 30000
+      keep:
+        type: tool_uses
+        value: 3
+      clear_at_least:
+        type: input_tokens
+        value: 5000
+      exclude_tools:
+        - web_search
+YAML
+```
+
 ```python Python
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     messages=[
         {
@@ -403,7 +447,7 @@ const anthropic = new Anthropic({
 });
 
 const response = await anthropic.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     {
@@ -466,7 +510,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = "claude-opus-4-6",
+            Model = "claude-opus-4-7",
             MaxTokens = 4096,
             Messages = new List<BetaMessageParam>
             {
@@ -527,7 +571,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-5..-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -542,7 +586,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 4096,
 		Messages: []anthropic.BetaMessageParam{
 			anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("Create a simple command line calculator app using Python")),
@@ -582,7 +626,7 @@ func main() {
 }
 ```
 
-```java Java nocheck hidelines={1..16,-1}
+```java Java nocheck hidelines={1..4,13..16,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.MessageCreateParams;
@@ -602,7 +646,7 @@ public class ContextManagementExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(4096L)
             .addUserMessage("Create a simple command line calculator app using Python")
             .addTool(BetaToolTextEditor20250728.builder()
@@ -634,7 +678,7 @@ public class ContextManagementExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -649,7 +693,7 @@ $message = $client->beta->messages->create(
             'content' => 'Create a simple command line calculator app using Python'
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     betas: ['context-management-2025-06-27'],
     tools: [
         [
@@ -688,13 +732,13 @@ $message = $client->beta->messages->create(
 echo $message;
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.beta.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     {
@@ -773,6 +817,25 @@ curl https://api.anthropic.com/v1/messages \
             ]
         }
     }'
+```
+
+```bash CLI
+ant beta:messages create --beta context-management-2025-06-27 <<'YAML'
+model: claude-opus-4-6
+max_tokens: 16000
+messages:
+  - role: user
+    content: Hello
+thinking:
+  type: enabled
+  budget_tokens: 10000
+context_management:
+  edits:
+    - type: clear_thinking_20251015
+      keep:
+        type: thinking_turns
+        value: 2
+YAML
 ```
 
 ```python Python nocheck
@@ -869,7 +932,7 @@ class Program
 }
 ```
 
-```go Go nocheck hidelines={1..13,-5..-1}
+```go Go nocheck hidelines={1..11,-1}
 package main
 
 import (
@@ -908,7 +971,7 @@ func main() {
 }
 ```
 
-```java Java nocheck hidelines={1..13,-1}
+```java Java nocheck hidelines={1..4,10..13,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.MessageCreateParams;
@@ -946,7 +1009,7 @@ public class Main {
 }
 ```
 
-```php PHP hidelines={1..6} nocheck
+```php PHP hidelines={1..4} nocheck
 <?php
 
 use Anthropic\Client;
@@ -978,7 +1041,7 @@ $message = $client->beta->messages->create(
 echo $message;
 ```
 
-```ruby Ruby hidelines={4}
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
@@ -1016,7 +1079,7 @@ The `clear_thinking_20251015` strategy supports the following configuration:
 
 | Configuration option | Default | Description |
 |---------------------|---------|-------------|
-| `keep` | `{type: "thinking_turns", value: 1}` | Defines how many recent assistant turns with thinking blocks to preserve. Use `{type: "thinking_turns", value: N}` where N must be > 0 to keep the last N turns, or `"all"` to keep all thinking blocks. |
+| `keep` | Model-specific | Defines how many recent assistant turns with thinking blocks to preserve. Use `{type: "thinking_turns", value: N}` where N must be > 0 to keep the last N turns, or `"all"` to keep all thinking blocks. Opus 4.5+ and Sonnet 4.6+: all turns. Earlier Opus/Sonnet and all Haiku: last turn only. |
 
 **Example configurations:**
 
@@ -1050,6 +1113,35 @@ When using multiple strategies, the `clear_thinking_20251015` strategy must be l
 </Note>
 
 <CodeGroup>
+
+```bash CLI
+ant beta:messages create --beta context-management-2025-06-27 <<'YAML'
+model: claude-opus-4-6
+max_tokens: 16000
+thinking:
+  type: enabled
+  budget_tokens: 10000
+messages:
+  - role: user
+    content: Hello
+tools:
+  - type: web_search_20250305
+    name: web_search
+context_management:
+  edits:
+    - type: clear_thinking_20251015
+      keep:
+        type: thinking_turns
+        value: 2
+    - type: clear_tool_uses_20250919
+      trigger:
+        type: input_tokens
+        value: 50000
+      keep:
+        type: tool_uses
+        value: 5
+YAML
+```
 
 ```python Python nocheck
 response = client.beta.messages.create(
@@ -1171,7 +1263,7 @@ public class Program
 }
 ```
 
-```go Go nocheck hidelines={1..13,-5..-1}
+```go Go nocheck hidelines={1..11,-1}
 package main
 
 import (
@@ -1223,7 +1315,7 @@ func main() {
 }
 ```
 
-```java Java nocheck hidelines={1..16,-1}
+```java Java nocheck hidelines={1..4,13..16,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.MessageCreateParams;
@@ -1272,7 +1364,7 @@ public class ContextManagementExample {
 }
 ```
 
-```php PHP hidelines={1..6} nocheck
+```php PHP hidelines={1..4} nocheck
 <?php
 
 use Anthropic\Client;
@@ -1313,7 +1405,7 @@ $message = $client->beta->messages->create(
 echo $message;
 ```
 
-```ruby Ruby hidelines={4}
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
@@ -1373,7 +1465,7 @@ puts response
 
 You can see which context edits were applied to your request using the `context_management` response field, along with helpful statistics about the content and input tokens cleared.
 
-```json Response
+```json Output
 {
   "id": "msg_013Zva2CMHLNnXjNJJKqJ2EF",
   "type": "message",
@@ -1436,7 +1528,7 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
     --header "content-type: application/json" \
     --header "anthropic-beta: context-management-2025-06-27" \
     --data '{
-        "model": "claude-opus-4-6",
+        "model": "claude-opus-4-7",
         "messages": [
             {
                 "role": "user",
@@ -1462,9 +1554,41 @@ curl https://api.anthropic.com/v1/messages/count_tokens \
     }'
 ```
 
+```bash CLI
+cat > request.yaml <<'YAML'
+model: claude-opus-4-7
+messages:
+  - role: user
+    content: Continue our conversation...
+tools: []
+context_management:
+  edits:
+    - type: clear_tool_uses_20250919
+      trigger:
+        type: input_tokens
+        value: 30000
+      keep:
+        type: tool_uses
+        value: 5
+YAML
+
+ORIGINAL=$(ant beta:messages count-tokens \
+  --beta context-management-2025-06-27 \
+  --transform context_management.original_input_tokens \
+  --raw-output < request.yaml)
+
+INPUT_TOKENS=$(ant beta:messages count-tokens \
+  --beta context-management-2025-06-27 \
+  --transform input_tokens --raw-output < request.yaml)
+
+printf 'Original tokens: %s\n' "$ORIGINAL"
+printf 'After clearing: %s\n' "$INPUT_TOKENS"
+printf 'Savings: %s tokens\n' "$((ORIGINAL - INPUT_TOKENS))"
+```
+
 ```python Python nocheck
 response = client.beta.messages.count_tokens(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     messages=[{"role": "user", "content": "Continue our conversation..."}],
     tools=[...],  # Your tool definitions
     betas=["context-management-2025-06-27"],
@@ -1494,7 +1618,7 @@ const anthropic = new Anthropic({
 });
 
 const response = await anthropic.beta.messages.countTokens({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   messages: [
     {
       role: "user",
@@ -1525,7 +1649,9 @@ const response = await anthropic.beta.messages.countTokens({
 console.log(`Original tokens: ${response.context_management?.original_input_tokens}`);
 console.log(`After clearing: ${response.input_tokens}`);
 console.log(
-  `Savings: ${(response.context_management?.original_input_tokens || 0) - response.input_tokens} tokens`
+  `Savings: ${
+    (response.context_management?.original_input_tokens || 0) - response.input_tokens
+  } tokens`
 );
 ```
 
@@ -1540,7 +1666,7 @@ var client = new AnthropicClient
 
 var parameters = new BetaMessageTokensCountParams
 {
-    Model = "claude-opus-4-6",
+    Model = "claude-opus-4-7",
     Messages = [new() { Role = Role.User, Content = "Continue our conversation..." }],
     Betas = ["context-management-2025-06-27"],
     ContextManagement = new BetaContextManagementConfig
@@ -1562,7 +1688,7 @@ Console.WriteLine($"After clearing: {response.InputTokens}");
 Console.WriteLine($"Savings: {(response.ContextManagement?.OriginalInputTokens ?? 0) - response.InputTokens} tokens");
 ```
 
-```go Go hidelines={1..11,-8..-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1577,7 +1703,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Beta.Messages.CountTokens(context.TODO(), anthropic.BetaMessageCountTokensParams{
-		Model: anthropic.ModelClaudeOpus4_6,
+		Model: anthropic.ModelClaudeOpus4_7,
 		Messages: []anthropic.BetaMessageParam{
 			anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("Continue our conversation...")),
 		},
@@ -1609,7 +1735,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..13,-1}
+```java Java hidelines={1..2,10..13,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.BetaMessageTokensCount;
@@ -1626,7 +1752,7 @@ public class TokenCountExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCountTokensParams params = MessageCountTokensParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .addUserMessage("Continue our conversation...")
             .addBeta(AnthropicBeta.CONTEXT_MANAGEMENT_2025_06_27)
             .contextManagement(BetaContextManagementConfig.builder()
@@ -1650,7 +1776,7 @@ public class TokenCountExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -1661,7 +1787,7 @@ $response = $client->beta->messages->countTokens(
     messages: [
         ['role' => 'user', 'content' => 'Continue our conversation...']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     betas: ['context-management-2025-06-27'],
     contextManagement: [
         'edits' => [
@@ -1685,13 +1811,13 @@ echo "After clearing: " . $response->inputTokens . "\n";
 echo "Savings: " . ($response->contextManagement->originalInputTokens - $response->inputTokens) . " tokens\n";
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.beta.messages.count_tokens(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   messages: [
     { role: "user", content: "Continue our conversation..." }
   ],
@@ -1720,7 +1846,7 @@ puts "Savings: #{response.context_management.original_input_tokens - response.in
 
 </CodeGroup>
 
-```json Response
+```json Output
 {
   "input_tokens": 25000,
   "context_management": {
@@ -1731,7 +1857,7 @@ puts "Savings: #{response.context_management.original_input_tokens - response.in
 
 The response shows both the final token count after context management is applied (`input_tokens`) and the original token count before any clearing occurred (`original_input_tokens`).
 
-## Using with the Memory Tool
+## Using with the memory tool
 
 Context editing can be combined with the [memory tool](/docs/en/agents-and-tools/tool-use/memory-tool). When your conversation context approaches the configured clearing threshold, Claude receives an automatic warning to preserve important information. This enables Claude to save tool results or context to its memory files before they're cleared from the conversation history.
 
@@ -1747,9 +1873,25 @@ To use both features together, enable them in your API request:
 
 <CodeGroup>
 
+```bash CLI
+ant beta:messages create --beta context-management-2025-06-27 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+messages:
+  - role: user
+    content: Hello
+tools:
+  - type: memory_20250818
+    name: memory
+context_management:
+  edits:
+    - type: clear_tool_uses_20250919
+YAML
+```
+
 ```python Python nocheck
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     messages=[...],
     tools=[
@@ -1769,7 +1911,7 @@ const anthropic = new Anthropic({
 });
 
 const response = await anthropic.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     // ...
@@ -1802,7 +1944,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 4096,
             Messages = [],
             Tools = [
@@ -1825,7 +1967,7 @@ class Program
 }
 ```
 
-```go Go nocheck hidelines={1..13,-5..-1}
+```go Go nocheck hidelines={1..11,-1}
 package main
 
 import (
@@ -1840,7 +1982,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 4096,
 		Messages:  []anthropic.BetaMessageParam{},
 		Tools: []anthropic.BetaToolUnionParam{
@@ -1860,7 +2002,7 @@ func main() {
 }
 ```
 
-```java Java nocheck hidelines={1..12,-1}
+```java Java nocheck hidelines={1..4,9..12,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.beta.messages.MessageCreateParams;
@@ -1876,7 +2018,7 @@ public class Main {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(4096L)
             .addTool(BetaMemoryTool20250818.builder().build())
             .addBeta(AnthropicBeta.CONTEXT_MANAGEMENT_2025_06_27)
@@ -1891,7 +2033,7 @@ public class Main {
 }
 ```
 
-```php PHP hidelines={1..6} nocheck
+```php PHP hidelines={1..4} nocheck
 <?php
 
 use Anthropic\Client;
@@ -1901,7 +2043,7 @@ $client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
 $response = $client->beta->messages->create(
     maxTokens: 4096,
     messages: [],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     betas: ['context-management-2025-06-27'],
     tools: [
         [
@@ -1919,13 +2061,13 @@ $response = $client->beta->messages->create(
 echo $response;
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.beta.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   messages: [
     # ...
@@ -1948,14 +2090,16 @@ puts response
 
 </CodeGroup>
 
+For the full memory tool reference including commands and examples, see [Memory tool](/docs/en/agents-and-tools/tool-use/memory-tool).
+
 ## Client-side compaction (SDK)
 
 <Warning>
-**Server-side compaction is recommended over SDK compaction.** [Server-side compaction](/docs/en/build-with-claude/compaction) handles context management automatically with less integration complexity, better token usage calculation, and no client-side limitations. Use SDK compaction only if you specifically need client-side control over the summarization process.
+**Anthropic recommends server-side compaction over SDK compaction.** [Server-side compaction](/docs/en/build-with-claude/compaction) handles context management automatically with less integration complexity, better token usage calculation, and no client-side limitations. Use SDK compaction only if you specifically need client-side control over the summarization process.
 </Warning>
 
 <Note>
-Compaction is available in the [Python, TypeScript, and Ruby SDKs](/docs/en/api/client-sdks) when using the [`tool_runner` method](/docs/en/agents-and-tools/tool-use/implement-tool-use#tool-runner-beta).
+Compaction is available in the [Python, TypeScript, and Ruby SDKs](/docs/en/api/client-sdks) when using the [`tool_runner` method](/docs/en/agents-and-tools/tool-use/tool-runner).
 </Note>
 
 Compaction is an SDK feature that automatically manages conversation context by generating summaries when token usage grows too large. Unlike server-side context editing strategies that clear content, compaction instructs Claude to summarize the conversation history, then replaces the full history with that summary. This allows Claude to continue working on long-running tasks that would otherwise exceed the [context window](/docs/en/build-with-claude/context-windows).
@@ -1971,237 +2115,131 @@ When compaction is enabled, the SDK monitors token usage after each model respon
 
 ### Using compaction
 
-Add `compaction_control` to your `tool_runner` call:
+Add `compaction_control` to your `tool_runner` call to enable automatic summarization when token usage exceeds the threshold.
 
-<CodeGroup>
+<Tabs>
+<Tab title="CLI">
 
-```python Python nocheck hidelines={1..4}
+<Note>
+The CLI does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead, which handles compaction on Anthropic's servers without SDK-side integration.
+</Note>
+
+</Tab>
+<Tab title="Python">
+
+```python Python hidelines={1..10}
 import anthropic
+from anthropic import beta_tool
+
+
+@beta_tool
+def read_file(path: str) -> str:
+    """Read the contents of a file."""
+    return "file contents..."
+
 
 client = anthropic.Anthropic()
 
 runner = client.beta.messages.tool_runner(
-    model="claude-opus-4-6",
-    max_tokens=4096,
-    tools=[...],
-    messages=[
-        {
-            "role": "user",
-            "content": "Analyze all the files in this directory and write a summary report.",
-        }
-    ],
+    model="claude-opus-4-7",
+    max_tokens=1024,
+    tools=[read_file],
+    messages=[{"role": "user", "content": "What's in config.json?"}],
     compaction_control={"enabled": True, "context_token_threshold": 100000},
 )
 
 for message in runner:
     print(f"Tokens used: {message.usage.input_tokens}")
-
-final = runner.until_done()
 ```
 
-```typescript TypeScript hidelines={1..4}
+</Tab>
+<Tab title="TypeScript">
+
+```typescript TypeScript hidelines={1..14}
 import Anthropic from "@anthropic-ai/sdk";
+import { betaTool } from "@anthropic-ai/sdk/helpers/beta/json-schema";
+
+const readFile = betaTool({
+  name: "read_file",
+  description: "Read the contents of a file",
+  inputSchema: {
+    type: "object",
+    properties: { path: { type: "string" } },
+    required: ["path"]
+  },
+  run: async () => "file contents..."
+});
 
 const client = new Anthropic();
 
 const runner = client.beta.messages.toolRunner({
-  model: "claude-opus-4-6",
-  max_tokens: 4096,
-  tools: [
-    // ...
-  ],
-  messages: [
-    {
-      role: "user",
-      content: "Analyze all the files in this directory and write a summary report."
-    }
-  ],
-  compactionControl: {
-    enabled: true,
-    contextTokenThreshold: 100000
-  }
+  model: "claude-opus-4-7",
+  max_tokens: 1024,
+  tools: [readFile],
+  messages: [{ role: "user", content: "What's in config.json?" }],
+  compactionControl: { enabled: true, contextTokenThreshold: 100000 }
 });
 
 for await (const message of runner) {
-  console.log("Tokens used:", message.usage.input_tokens);
-}
-
-const finalMessage = await runner.runUntilDone();
-```
-
-```csharp C# nocheck
-using System;
-using System.Threading.Tasks;
-using Anthropic;
-using Anthropic.Models.Beta.Messages;
-
-public class Program
-{
-    public static async Task Main()
-    {
-        AnthropicClient client = new();
-
-        var parameters = new MessageCreateParams
-        {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 4096,
-            Tools = [],
-            Messages = [
-                new() {
-                    Role = Role.User,
-                    Content = "Analyze all the files in this directory and write a summary report."
-                }
-            ],
-            ContextManagement = new BetaContextManagementConfig()
-            {
-                Edits = [
-                    new BetaCompact20260112Edit()
-                    {
-                        Trigger = new BetaInputTokensTrigger(100000)
-                    }
-                ]
-            }
-        };
-
-        var message = await client.Beta.Messages.Create(parameters);
-        Console.WriteLine($"Tokens used: {message.Usage.InputTokens}");
-    }
+  console.log(`Tokens used: ${message.usage.input_tokens}`);
 }
 ```
 
-```go Go nocheck hidelines={1..13,-6..-1}
-package main
+</Tab>
+<Tab title="C#">
 
-import (
-	"context"
-	"fmt"
-	"log"
+<Note>
+The C# SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead, which handles compaction on Anthropic's servers without SDK-side integration.
+</Note>
 
-	"github.com/anthropics/anthropic-sdk-go"
-)
+</Tab>
+<Tab title="Go">
 
-func main() {
-	client := anthropic.NewClient()
+<Note>
+The Go SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead, which handles compaction on Anthropic's servers without SDK-side integration.
+</Note>
 
-	messages := []anthropic.BetaMessageParam{
-		anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("Analyze all the files in this directory and write a summary report.")),
-	}
+</Tab>
+<Tab title="Java">
 
-	response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
-		MaxTokens: 4096,
-		Tools:     []anthropic.BetaToolUnionParam{},
-		Messages:  messages,
-		ContextManagement: anthropic.BetaContextManagementConfigParam{
-			Edits: []anthropic.BetaContextManagementConfigEditUnionParam{
-				{OfCompact20260112: &anthropic.BetaCompact20260112EditParam{
-					Trigger: anthropic.BetaInputTokensTriggerParam{
-						Value: 100000,
-					},
-				}},
-			},
-		},
-		Betas: []anthropic.AnthropicBeta{"compact-2026-01-12"},
-	})
-	if err != nil {
-		log.Fatal(err)
-	}
+<Note>
+The Java SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead, which handles compaction on Anthropic's servers without SDK-side integration.
+</Note>
 
-	fmt.Printf("Tokens used: %d\n", response.Usage.InputTokens)
-}
-```
+</Tab>
+<Tab title="PHP">
 
-```java Java nocheck hidelines={1..12,-1}
-import com.anthropic.client.AnthropicClient;
-import com.anthropic.client.okhttp.AnthropicOkHttpClient;
-import com.anthropic.models.beta.messages.MessageCreateParams;
-import com.anthropic.models.beta.messages.BetaMessage;
-import com.anthropic.models.beta.messages.BetaContextManagementConfig;
-import com.anthropic.models.beta.messages.BetaCompact20260112Edit;
-import com.anthropic.models.beta.messages.BetaInputTokensTrigger;
-import com.anthropic.models.messages.Model;
-import com.anthropic.helpers.BetaToolRunner;
+<Note>
+The PHP SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead, which handles compaction on Anthropic's servers without SDK-side integration.
+</Note>
 
-public class CompactionExample {
-    public static void main(String[] args) {
-        AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+</Tab>
+<Tab title="Ruby">
 
-        BetaToolRunner toolRunner = client.beta().messages().toolRunner(
-            MessageCreateParams.builder()
-                .model(Model.CLAUDE_OPUS_4_6)
-                .maxTokens(4096L)
-                .addUserMessage("Analyze all the files in this directory and write a summary report.")
-                .addBeta("compact-2026-01-12")
-                .contextManagement(BetaContextManagementConfig.builder()
-                    .addEdit(BetaCompact20260112Edit.builder()
-                        .trigger(BetaInputTokensTrigger.builder()
-                            .value(100000L)
-                            .build())
-                        .build())
-                    .build())
-                .build());
-
-        for (BetaMessage message : toolRunner) {
-            System.out.println("Tokens used: " + message.usage().inputTokens());
-        }
-    }
-}
-```
-
-```php PHP hidelines={1..6} nocheck
-<?php
-
-use Anthropic\Client;
-
-$client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
-
-$messages = [
-    [
-        'role' => 'user',
-        'content' => 'Analyze all the files in this directory and write a summary report.'
-    ]
-];
-
-$response = $client->beta->messages->create(
-    maxTokens: 4096,
-    messages: $messages,
-    model: 'claude-opus-4-6',
-    betas: ['compact-2026-01-12'],
-    tools: [],
-    contextManagement: [
-        'edits' => [
-            [
-                'type' => 'compact_20260112',
-                'trigger' => ['type' => 'input_tokens', 'value' => 100000]
-            ]
-        ]
-    ],
-);
-
-echo "Tokens used: " . $response->usage->inputTokens . "\n";
-```
-
-```ruby Ruby nocheck
+```ruby Ruby hidelines={1..15}
 require "anthropic"
+
+class ReadFileInput < Anthropic::BaseModel
+  required :path, String, doc: "Path to the file"
+end
+
+class ReadFile < Anthropic::BaseTool
+  doc "Read the contents of a file"
+  input_schema ReadFileInput
+
+  def call(input)
+    "file contents..."
+  end
+end
 
 client = Anthropic::Client.new
 
 runner = client.beta.messages.tool_runner(
-  model: "claude-opus-4-6",
-  max_tokens: 4096,
-  tools: [
-    # ...
-  ],
-  messages: [
-    {
-      role: "user",
-      content: "Analyze all the files in this directory and write a summary report."
-    }
-  ],
-  compaction_control: {
-    enabled: true,
-    context_token_threshold: 100000
-  }
+  model: "claude-opus-4-7",
+  max_tokens: 1024,
+  tools: [ReadFile.new],
+  messages: [{ role: "user", content: "What's in config.json?" }],
+  compaction_control: { enabled: true, context_token_threshold: 100000 }
 )
 
 runner.each_message do |message|
@@ -2209,7 +2247,8 @@ runner.each_message do |message|
 end
 ```
 
-</CodeGroup>
+</Tab>
+</Tabs>
 
 #### What happens during compaction
 
@@ -2414,17 +2453,18 @@ When using server-side tools, the SDK may incorrectly calculate token usage, cau
 
 For example, after a web search operation, the API response might show:
 
-```json
+```json Output
 {
   "usage": {
     "input_tokens": 63000,
+    "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 270000,
     "output_tokens": 1400
   }
 }
 ```
 
-The SDK calculates total usage as 63,000 + 270,000 = 333,000 tokens. However, the `cache_read_input_tokens` value includes accumulated reads from multiple internal API calls made by the server-side tool, not your actual conversation context. Your real context length might only be the 63,000 `input_tokens`, but the SDK sees 333k and triggers compaction prematurely.
+The SDK calculates total usage as 63,000 + 0 + 270,000 + 1,400 = 334,400 tokens. However, the `cache_read_input_tokens` value includes accumulated reads from multiple internal API calls made by the server-side tool, not your actual conversation context. Your real context length might only be the 63,000 `input_tokens`, but the SDK sees 334k and triggers compaction prematurely.
 
 **Workarounds:**
 
@@ -2433,13 +2473,16 @@ The SDK calculates total usage as 63,000 + 270,000 = 333,000 tokens. However, th
 
 #### Tool use edge cases
 
-When compaction is triggered while a tool use response is pending, the SDK removes the tool use block from the message history before generating the summary. Claude will re-issue the tool call after resuming from the summary if still needed.
+When the SDK triggers compaction while a tool use response is pending, it removes the tool use block from the message history before generating the summary. Claude will re-issue the tool call after resuming from the summary if still needed.
 
 ### Monitoring compaction
 
-Enable logging to track when compaction occurs:
+Understanding when compaction triggers helps you tune thresholds and verify expected behavior.
 
-<CodeGroup>
+<Tabs>
+<Tab title="Python">
+
+The Python SDK logs compaction events at the INFO level. Enable the `anthropic.lib.tools` logger:
 
 ```python Python
 import logging
@@ -2452,219 +2495,119 @@ logging.getLogger("anthropic.lib.tools").setLevel(logging.INFO)
 # INFO: Compaction complete. New token usage: 2500
 ```
 
-```typescript TypeScript
-// The SDK logs compaction events to the console
-// You'll see messages like:
-// Token usage 105000 has exceeded the threshold of 100000. Performing compaction.
-// Compaction complete. New token usage: 2500
-```
+</Tab>
+<Tab title="TypeScript">
 
-```csharp C# nocheck
-using Anthropic;
-using Anthropic.Models.Beta.Messages;
+The TypeScript SDK's `toolRunner` supports compaction but does not log events. Detect compaction by watching `runner.params.messages.length` shrink between turns:
 
-class CompactionLogging
-{
-    static async Task Main()
-    {
-        var client = new AnthropicClient();
-        var messages = new List<BetaMessageParam>();
+```typescript TypeScript hidelines={1..24}
+import Anthropic from "@anthropic-ai/sdk";
+import { betaTool } from "@anthropic-ai/sdk/helpers/beta/json-schema";
 
-        await Chat(client, messages, "Help me build a C# application");
-        await Chat(client, messages, "Add error handling");
-        await Chat(client, messages, "Now add logging");
-    }
+const readFile = betaTool({
+  name: "read_file",
+  description: "Read the contents of a file",
+  inputSchema: {
+    type: "object",
+    properties: { path: { type: "string" } },
+    required: ["path"]
+  },
+  run: async () => "file contents..."
+});
 
-    static async Task<string> Chat(AnthropicClient client, List<BetaMessageParam> messages, string userMessage)
-    {
-        messages.Add(new BetaMessageParam { Role = Role.User, Content = userMessage });
+const client = new Anthropic();
 
-        var parameters = new MessageCreateParams
-        {
-            Betas = ["compact-2026-01-12"],
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 4096,
-            Messages = messages,
-            ContextManagement = new BetaContextManagementConfig
-            {
-                Edits = [new BetaCompact20260112Edit()]
-            }
-        };
+const runner = client.beta.messages.toolRunner({
+  model: "claude-opus-4-7",
+  max_tokens: 1024,
+  tools: [readFile],
+  messages: [{ role: "user", content: "What's in config.json?" }],
+  compactionControl: { enabled: true, contextTokenThreshold: 100000 }
+});
 
-        var response = await client.Beta.Messages.Create(parameters);
-
-        messages.Add(new BetaMessageParam { Role = Role.Assistant, Content = response.Content });
-
-        Console.WriteLine($"Token usage: {response.Usage.InputTokens}");
-
-        var textBlock = response.Content.FirstOrDefault(b => b.Type == "text");
-        return textBlock?.Text ?? "";
-    }
+let prevMsgCount = 0;
+for await (const message of runner) {
+  const currMsgCount = runner.params.messages.length;
+  if (currMsgCount < prevMsgCount) {
+    console.log(`Compaction occurred: ${prevMsgCount} -> ${currMsgCount} messages`);
+    console.log(`Input tokens after compaction: ${message.usage.input_tokens}`);
+  }
+  prevMsgCount = currMsgCount;
 }
 ```
 
-```go Go nocheck hidelines={1..13,-1}
-package main
+</Tab>
+<Tab title="C#">
 
-import (
-	"context"
-	"fmt"
-	"log"
+<Note>
+The C# SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead.
+</Note>
 
-	"github.com/anthropics/anthropic-sdk-go"
+</Tab>
+<Tab title="Go">
+
+<Note>
+The Go SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead.
+</Note>
+
+</Tab>
+<Tab title="Java">
+
+<Note>
+The Java SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead.
+</Note>
+
+</Tab>
+<Tab title="PHP">
+
+<Note>
+The PHP SDK does not include a `tool_runner` helper. Use [server-side compaction](/docs/en/build-with-claude/compaction) instead.
+</Note>
+
+</Tab>
+<Tab title="Ruby">
+
+The Ruby SDK supports an `on_compact:` callback that fires when compaction occurs. Add it to your `compaction_control` configuration:
+
+```ruby Ruby hidelines={1..15}
+require "anthropic"
+
+class ReadFileInput < Anthropic::BaseModel
+  required :path, String, doc: "Path to the file"
+end
+
+class ReadFile < Anthropic::BaseTool
+  doc "Read the contents of a file"
+  input_schema ReadFileInput
+
+  def call(input)
+    "file contents..."
+  end
+end
+
+client = Anthropic::Client.new
+
+runner = client.beta.messages.tool_runner(
+  model: "claude-opus-4-7",
+  max_tokens: 1024,
+  tools: [ReadFile.new],
+  messages: [{ role: "user", content: "What's in config.json?" }],
+  compaction_control: {
+    enabled: true,
+    context_token_threshold: 100000,
+    on_compact: ->(tokens_before, tokens_after) do
+      puts "Compaction occurred: #{tokens_before} -> #{tokens_after} tokens"
+    end
+  }
 )
 
-func main() {
-	client := anthropic.NewClient()
-
-	messages := []anthropic.BetaMessageParam{}
-
-	chat(client, &messages, "Help me build a Go application")
-	chat(client, &messages, "Add error handling")
-	chat(client, &messages, "Now add logging")
-}
-
-func chat(client anthropic.Client, messages *[]anthropic.BetaMessageParam, userMessage string) string {
-	*messages = append(*messages, anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(userMessage)))
-
-	response, err := client.Beta.Messages.New(context.TODO(), anthropic.BetaMessageNewParams{
-		Betas:     []anthropic.AnthropicBeta{"compact-2026-01-12"},
-		Model:     anthropic.ModelClaudeOpus4_6,
-		MaxTokens: 4096,
-		Messages:  *messages,
-		ContextManagement: anthropic.BetaContextManagementConfigParam{
-			Edits: []anthropic.BetaContextManagementConfigEditUnionParam{
-				{OfCompact20260112: &anthropic.BetaCompact20260112EditParam{}},
-			},
-		},
-	})
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	// Append the response (including any compaction block) to continue the conversation
-	*messages = append(*messages, response.ToParam())
-
-	fmt.Printf("Token usage: %d\n", response.Usage.InputTokens)
-
-	for _, block := range response.Content {
-		switch variant := block.AsAny().(type) {
-		case anthropic.BetaTextBlock:
-			fmt.Println(variant.Text)
-			return variant.Text
-		}
-	}
-	return ""
-}
+runner.each_message do |message|
+  puts "Tokens: #{message.usage.input_tokens}"
+end
 ```
 
-```java Java nocheck hidelines={1..13,-1}
-import com.anthropic.client.AnthropicClient;
-import com.anthropic.client.okhttp.AnthropicOkHttpClient;
-import com.anthropic.models.beta.messages.MessageCreateParams;
-import com.anthropic.models.beta.messages.BetaMessage;
-import com.anthropic.models.beta.messages.BetaMessageParam;
-import com.anthropic.models.beta.messages.BetaContextManagementConfig;
-import com.anthropic.models.beta.messages.BetaCompact20260112Edit;
-import com.anthropic.models.messages.Model;
-import java.util.ArrayList;
-import java.util.List;
-
-public class CompactionLogging {
-    public static void main(String[] args) {
-        AnthropicClient client = AnthropicOkHttpClient.fromEnv();
-        List<BetaMessageParam> messages = new ArrayList<>();
-
-        String response = chat(client, messages, "Help me build a Java application");
-        System.out.println(response);
-
-        response = chat(client, messages, "Add error handling");
-        System.out.println(response);
-
-        response = chat(client, messages, "Now add logging");
-        System.out.println(response);
-    }
-
-    private static String chat(AnthropicClient client, List<BetaMessageParam> messages, String userMessage) {
-        messages.add(BetaMessageParam.builder()
-            .role(BetaMessageParam.Role.USER)
-            .content(userMessage)
-            .build());
-
-        MessageCreateParams params = MessageCreateParams.builder()
-            .addBeta("compact-2026-01-12")
-            .model(Model.CLAUDE_OPUS_4_6)
-            .maxTokens(4096L)
-            .messages(messages)
-            .contextManagement(BetaContextManagementConfig.builder()
-                .addEdit(BetaCompact20260112Edit.builder().build())
-                .build())
-            .build();
-
-        BetaMessage response = client.beta().messages().create(params);
-
-        messages.add(response.toParam());
-
-        System.out.println("Token usage: " + response.usage().inputTokens());
-
-        return response.content().stream()
-            .filter(block -> block.text().isPresent())
-            .map(block -> block.text().get().text())
-            .findFirst()
-            .orElse("");
-    }
-}
-```
-
-```php PHP hidelines={1..6} nocheck
-<?php
-
-
-use Anthropic\Client;
-
-$client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
-$messages = [];
-
-function chat($client, &$messages, $userMessage) {
-    $messages[] = ['role' => 'user', 'content' => $userMessage];
-
-    $response = $client->beta->messages->create(
-        maxTokens: 4096,
-        messages: $messages,
-        model: 'claude-opus-4-6',
-        betas: ['compact-2026-01-12'],
-        contextManagement: [
-            'edits' => [
-                ['type' => 'compact_20260112']
-            ]
-        ],
-    );
-
-    $messages[] = ['role' => 'assistant', 'content' => $response->content];
-
-    echo "Token usage: " . $response->usage->inputTokens . "\n";
-
-    foreach ($response->content as $block) {
-        if ($block->type === 'text') {
-            return $block->text;
-        }
-    }
-    return '';
-}
-
-echo chat($client, $messages, "Help me build a PHP application") . "\n";
-echo chat($client, $messages, "Add error handling") . "\n";
-echo chat($client, $messages, "Now add logging") . "\n";
-```
-
-```ruby Ruby nocheck
-# The SDK logs compaction events when verbose logging is enabled.
-# You'll see messages like:
-# Token usage 105000 has exceeded the threshold of 100000. Performing compaction.
-# Compaction complete. New token usage: 2500
-```
-
-</CodeGroup>
+</Tab>
+</Tabs>
 
 ### When to use compaction
 

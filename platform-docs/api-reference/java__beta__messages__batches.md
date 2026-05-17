@@ -60,6 +60,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
 
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
+
   - `List<Request> requests`
 
     List of requests for prompt completion. Each is an individual request to create a Message.
@@ -81,6 +89,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
         The maximum number of tokens to generate before stopping.
 
         Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
+
+        Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
 
         Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
@@ -210,13 +220,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -240,13 +260,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -424,13 +458,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long documentIndex`
 
                             - `Optional<String> documentTitle`
 
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `JsonValue; type "content_block_location"constant`
 
@@ -454,13 +498,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long searchResultIndex`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `String source`
 
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Optional<String> title`
 
@@ -659,13 +717,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -689,13 +757,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -927,13 +1009,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -957,13 +1049,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -1107,13 +1213,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `String citedText`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `long documentIndex`
 
                           - `Optional<String> documentTitle`
 
                           - `long endBlockIndex`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `long startBlockIndex`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `JsonValue; type "content_block_location"constant`
 
@@ -1137,13 +1253,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `String citedText`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `long endBlockIndex`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `long searchResultIndex`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `String source`
 
                           - `long startBlockIndex`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `Optional<String> title`
 
@@ -1291,13 +1421,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long documentIndex`
 
                                   - `Optional<String> documentTitle`
 
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `JsonValue; type "content_block_location"constant`
 
@@ -1321,13 +1461,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long searchResultIndex`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `String source`
 
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Optional<String> title`
 
@@ -1497,6 +1651,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
               - `Input input`
 
               - `Name name`
+
+                - `ADVISOR("advisor")`
 
                 - `WEB_SEARCH("web_search")`
 
@@ -1801,13 +1957,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long documentIndex`
 
                                   - `Optional<String> documentTitle`
 
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `JsonValue; type "content_block_location"constant`
 
@@ -1831,13 +1997,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long searchResultIndex`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `String source`
 
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Optional<String> title`
 
@@ -2035,6 +2215,77 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                   - `JsonValue; type "code_execution_20260120"constant`
 
                     - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+            - `class BetaAdvisorToolResultBlockParam:`
+
+              - `Content content`
+
+                - `class BetaAdvisorToolResultErrorParam:`
+
+                  - `ErrorCode errorCode`
+
+                    - `MAX_USES_EXCEEDED("max_uses_exceeded")`
+
+                    - `PROMPT_TOO_LONG("prompt_too_long")`
+
+                    - `TOO_MANY_REQUESTS("too_many_requests")`
+
+                    - `OVERLOADED("overloaded")`
+
+                    - `UNAVAILABLE("unavailable")`
+
+                    - `EXECUTION_TIME_EXCEEDED("execution_time_exceeded")`
+
+                  - `JsonValue; type "advisor_tool_result_error"constant`
+
+                    - `ADVISOR_TOOL_RESULT_ERROR("advisor_tool_result_error")`
+
+                - `class BetaAdvisorResultBlockParam:`
+
+                  - `String text`
+
+                  - `JsonValue; type "advisor_result"constant`
+
+                    - `ADVISOR_RESULT("advisor_result")`
+
+                - `class BetaAdvisorRedactedResultBlockParam:`
+
+                  - `String encryptedContent`
+
+                    Opaque blob produced by a prior response; must be round-tripped verbatim.
+
+                  - `JsonValue; type "advisor_redacted_result"constant`
+
+                    - `ADVISOR_REDACTED_RESULT("advisor_redacted_result")`
+
+              - `String toolUseId`
+
+              - `JsonValue; type "advisor_tool_result"constant`
+
+                - `ADVISOR_TOOL_RESULT("advisor_tool_result")`
+
+              - `Optional<BetaCacheControlEphemeral> cacheControl`
+
+                Create a cache control breakpoint at this content block.
+
+                - `JsonValue; type "ephemeral"constant`
+
+                  - `EPHEMERAL("ephemeral")`
+
+                - `Optional<Ttl> ttl`
+
+                  The time-to-live for the cache control breakpoint.
+
+                  This may be one the following values:
+
+                  - `5m`: 5 minutes
+                  - `1h`: 1 hour
+
+                  Defaults to `5m`.
+
+                  - `TTL_5M("5m")`
+
+                  - `TTL_1H("1h")`
 
             - `class BetaCodeExecutionToolResultBlockParam:`
 
@@ -2528,13 +2779,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -2558,13 +2819,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -2649,6 +2924,10 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `TTL_1H("1h")`
 
+              - `Optional<String> encryptedContent`
+
+                Opaque metadata from prior compaction, to be round-tripped verbatim
+
         - `Role role`
 
           - `USER("user")`
@@ -2661,9 +2940,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -2948,6 +3235,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           - `HIGH("high")`
 
+          - `XHIGH("xhigh")`
+
           - `MAX("max")`
 
         - `Optional<BetaJsonOutputFormat> format`
@@ -2961,6 +3250,24 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `JsonValue; type "json_schema"constant`
 
             - `JSON_SCHEMA("json_schema")`
+
+        - `Optional<BetaTokenTaskBudget> taskBudget`
+
+          User-configurable total token budget across contexts.
+
+          - `long total`
+
+            Total token budget across all contexts in the session.
+
+          - `JsonValue; type "tokens"constant`
+
+            The budget type. Currently only 'tokens' is supported.
+
+            - `TOKENS("tokens")`
+
+          - `Optional<Long> remaining`
+
+            Remaining tokens in the budget. Use this to track usage across contexts when implementing compaction client-side. Defaults to total if not provided.
 
       - `Optional<BetaJsonOutputFormat> outputFormat`
 
@@ -3085,13 +3392,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -3115,13 +3432,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -3159,6 +3490,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `ENABLED("enabled")`
 
+          - `Optional<Display> display`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `SUMMARIZED("summarized")`
+
+            - `OMITTED("omitted")`
+
         - `class BetaThinkingConfigDisabled:`
 
           - `JsonValue; type "disabled"constant`
@@ -3170,6 +3509,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `JsonValue; type "adaptive"constant`
 
             - `ADAPTIVE("adaptive")`
+
+          - `Optional<Display> display`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `SUMMARIZED("summarized")`
+
+            - `OMITTED("omitted")`
 
       - `Optional<BetaToolChoice> toolChoice`
 
@@ -4453,6 +4800,241 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             When true, guarantees schema validation on tool names and inputs
 
+        - `class BetaWebFetchTool20260309:`
+
+          Web fetch tool with use_cache parameter for bypassing cached content.
+
+          - `JsonValue; name "web_fetch"constant`
+
+            Name of the tool.
+
+            This is how the tool will be called by the model and in `tool_use` blocks.
+
+            - `WEB_FETCH("web_fetch")`
+
+          - `JsonValue; type "web_fetch_20260309"constant`
+
+            - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+          - `Optional<List<AllowedCaller>> allowedCallers`
+
+            - `DIRECT("direct")`
+
+            - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+            - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+          - `Optional<List<String>> allowedDomains`
+
+            List of domains to allow fetching from
+
+          - `Optional<List<String>> blockedDomains`
+
+            List of domains to block fetching from
+
+          - `Optional<BetaCacheControlEphemeral> cacheControl`
+
+            Create a cache control breakpoint at this content block.
+
+            - `JsonValue; type "ephemeral"constant`
+
+              - `EPHEMERAL("ephemeral")`
+
+            - `Optional<Ttl> ttl`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `TTL_5M("5m")`
+
+              - `TTL_1H("1h")`
+
+          - `Optional<BetaCitationsConfigParam> citations`
+
+            Citations configuration for fetched documents. Citations are disabled by default.
+
+            - `Optional<Boolean> enabled`
+
+          - `Optional<Boolean> deferLoading`
+
+            If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+          - `Optional<Long> maxContentTokens`
+
+            Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+          - `Optional<Long> maxUses`
+
+            Maximum number of times the tool can be used in the API request.
+
+          - `Optional<Boolean> strict`
+
+            When true, guarantees schema validation on tool names and inputs
+
+          - `Optional<Boolean> useCache`
+
+            Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
+        - `class BetaAdvisorTool20260301:`
+
+          - `Model model`
+
+            The model that will complete your prompt.
+
+            See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+            - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
+            - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+              Best combination of speed and intelligence
+
+            - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+              Fastest model with near-frontier intelligence
+
+            - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+              Fastest model with near-frontier intelligence
+
+            - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+              High-performance model for agents and coding
+
+            - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+              High-performance model for agents and coding
+
+            - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+              Exceptional model for specialized complex tasks
+
+            - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+              Exceptional model for specialized complex tasks
+
+            - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+              Powerful model for complex tasks
+
+            - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+              Powerful model for complex tasks
+
+            - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+              High-performance model with extended thinking
+
+            - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+              High-performance model with extended thinking
+
+            - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+              Fast and cost-effective model
+
+          - `JsonValue; name "advisor"constant`
+
+            Name of the tool.
+
+            This is how the tool will be called by the model and in `tool_use` blocks.
+
+            - `ADVISOR("advisor")`
+
+          - `JsonValue; type "advisor_20260301"constant`
+
+            - `ADVISOR_20260301("advisor_20260301")`
+
+          - `Optional<List<AllowedCaller>> allowedCallers`
+
+            - `DIRECT("direct")`
+
+            - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+            - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+          - `Optional<BetaCacheControlEphemeral> cacheControl`
+
+            Create a cache control breakpoint at this content block.
+
+            - `JsonValue; type "ephemeral"constant`
+
+              - `EPHEMERAL("ephemeral")`
+
+            - `Optional<Ttl> ttl`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `TTL_5M("5m")`
+
+              - `TTL_1H("1h")`
+
+          - `Optional<BetaCacheControlEphemeral> caching`
+
+            Caching for the advisor's own prompt. When set, each advisor call writes a cache entry at the given TTL so subsequent calls in the same conversation read the stable prefix. When omitted, the advisor prompt is not cached.
+
+            - `JsonValue; type "ephemeral"constant`
+
+              - `EPHEMERAL("ephemeral")`
+
+            - `Optional<Ttl> ttl`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `TTL_5M("5m")`
+
+              - `TTL_1H("1h")`
+
+          - `Optional<Boolean> deferLoading`
+
+            If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+          - `Optional<Long> maxUses`
+
+            Maximum number of times the tool can be used in the API request.
+
+          - `Optional<Boolean> strict`
+
+            When true, guarantees schema validation on tool names and inputs
+
         - `class BetaToolSearchToolBm25_20251119:`
 
           - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -4623,15 +5205,19 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
       - `Optional<Double> topP`
 
         Use nucleus sampling.
 
-        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
+
+      - `Optional<String> userProfileId`
+
+        The user profile ID to attribute this request to. Use when acting on behalf of a party other than your organization.
 
 ### Returns
 
@@ -4817,6 +5403,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
 
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
+
 ### Returns
 
 - `class BetaMessageBatch:`
@@ -5000,6 +5594,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
 
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
+
 ### Returns
 
 - `class BetaMessageBatch:`
@@ -5174,6 +5776,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
     - `SKILLS_2025_10_02("skills-2025-10-02")`
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
+
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
 
 ### Returns
 
@@ -5350,6 +5960,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
 
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
+
 ### Returns
 
 - `class BetaDeletedMessageBatch:`
@@ -5450,6 +6068,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
     - `SKILLS_2025_10_02("skills-2025-10-02")`
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
+
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
 
 ### Returns
 
@@ -5588,15 +6214,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `Optional<String> fileId`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -5620,13 +6256,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -5707,6 +6357,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `Input input`
 
             - `Name name`
+
+              - `ADVISOR("advisor")`
 
               - `WEB_SEARCH("web_search")`
 
@@ -5949,6 +6601,54 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 - `JsonValue; type "code_execution_20260120"constant`
 
                   - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+          - `class BetaAdvisorToolResultBlock:`
+
+            - `Content content`
+
+              - `class BetaAdvisorToolResultError:`
+
+                - `ErrorCode errorCode`
+
+                  - `MAX_USES_EXCEEDED("max_uses_exceeded")`
+
+                  - `PROMPT_TOO_LONG("prompt_too_long")`
+
+                  - `TOO_MANY_REQUESTS("too_many_requests")`
+
+                  - `OVERLOADED("overloaded")`
+
+                  - `UNAVAILABLE("unavailable")`
+
+                  - `EXECUTION_TIME_EXCEEDED("execution_time_exceeded")`
+
+                - `JsonValue; type "advisor_tool_result_error"constant`
+
+                  - `ADVISOR_TOOL_RESULT_ERROR("advisor_tool_result_error")`
+
+              - `class BetaAdvisorResultBlock:`
+
+                - `String text`
+
+                - `JsonValue; type "advisor_result"constant`
+
+                  - `ADVISOR_RESULT("advisor_result")`
+
+              - `class BetaAdvisorRedactedResultBlock:`
+
+                - `String encryptedContent`
+
+                  Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+                - `JsonValue; type "advisor_redacted_result"constant`
+
+                  - `ADVISOR_REDACTED_RESULT("advisor_redacted_result")`
+
+            - `String toolUseId`
+
+            - `JsonValue; type "advisor_tool_result"constant`
+
+              - `ADVISOR_TOOL_RESULT("advisor_tool_result")`
 
           - `class BetaCodeExecutionToolResultBlock:`
 
@@ -6258,15 +6958,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `Optional<String> fileId`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -6290,13 +7000,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -6339,6 +7063,10 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `Optional<String> content`
 
               Summary of compacted content, or null if compaction failed
+
+            - `Optional<String> encryptedContent`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
 
             - `JsonValue; type "compaction"constant`
 
@@ -6392,9 +7120,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -6459,6 +7195,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `ASSISTANT("assistant")`
+
+        - `Optional<BetaRefusalStopDetails> stopDetails`
+
+          Structured information about a refusal.
+
+          - `Optional<Category> category`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `CYBER("cyber")`
+
+            - `BIO("bio")`
+
+          - `Optional<String> explanation`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `JsonValue; type "refusal"constant`
+
+            - `REFUSAL("refusal")`
 
         - `Optional<BetaStopReason> stopReason`
 
@@ -6630,6 +7390,118 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 Usage for a compaction iteration
 
                 - `COMPACTION("compaction")`
+
+            - `class BetaAdvisorMessageIterationUsage:`
+
+              Token usage for an advisor sub-inference iteration.
+
+              - `Optional<BetaCacheCreation> cacheCreation`
+
+                Breakdown of cached tokens by TTL
+
+                - `long ephemeral1hInputTokens`
+
+                  The number of input tokens used to create the 1 hour cache entry.
+
+                - `long ephemeral5mInputTokens`
+
+                  The number of input tokens used to create the 5 minute cache entry.
+
+              - `long cacheCreationInputTokens`
+
+                The number of input tokens used to create the cache entry.
+
+              - `long cacheReadInputTokens`
+
+                The number of input tokens read from the cache.
+
+              - `long inputTokens`
+
+                The number of input tokens which were used.
+
+              - `Model model`
+
+                The model that will complete your prompt.
+
+                See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+                  New class of intelligence, strongest in coding and cybersecurity
+
+                - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+                  Best combination of speed and intelligence
+
+                - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+                  Fastest model with near-frontier intelligence
+
+                - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+                  Fastest model with near-frontier intelligence
+
+                - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+                  High-performance model for agents and coding
+
+                - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+                  High-performance model for agents and coding
+
+                - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+                  Exceptional model for specialized complex tasks
+
+                - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+                  Exceptional model for specialized complex tasks
+
+                - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+                  Powerful model for complex tasks
+
+                - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+                  Powerful model for complex tasks
+
+                - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+                  High-performance model with extended thinking
+
+                - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+                  High-performance model with extended thinking
+
+                - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+                  Fast and cost-effective model
+
+              - `long outputTokens`
+
+                The number of output tokens which were used.
+
+              - `JsonValue; type "advisor_message"constant`
+
+                Usage for an advisor sub-inference iteration
+
+                - `ADVISOR_MESSAGE("advisor_message")`
 
           - `long outputTokens`
 
@@ -7142,15 +8014,25 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `Optional<String> fileId`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -7174,13 +8056,27 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -7261,6 +8157,8 @@ public final class Main {
             - `Input input`
 
             - `Name name`
+
+              - `ADVISOR("advisor")`
 
               - `WEB_SEARCH("web_search")`
 
@@ -7503,6 +8401,54 @@ public final class Main {
                 - `JsonValue; type "code_execution_20260120"constant`
 
                   - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+          - `class BetaAdvisorToolResultBlock:`
+
+            - `Content content`
+
+              - `class BetaAdvisorToolResultError:`
+
+                - `ErrorCode errorCode`
+
+                  - `MAX_USES_EXCEEDED("max_uses_exceeded")`
+
+                  - `PROMPT_TOO_LONG("prompt_too_long")`
+
+                  - `TOO_MANY_REQUESTS("too_many_requests")`
+
+                  - `OVERLOADED("overloaded")`
+
+                  - `UNAVAILABLE("unavailable")`
+
+                  - `EXECUTION_TIME_EXCEEDED("execution_time_exceeded")`
+
+                - `JsonValue; type "advisor_tool_result_error"constant`
+
+                  - `ADVISOR_TOOL_RESULT_ERROR("advisor_tool_result_error")`
+
+              - `class BetaAdvisorResultBlock:`
+
+                - `String text`
+
+                - `JsonValue; type "advisor_result"constant`
+
+                  - `ADVISOR_RESULT("advisor_result")`
+
+              - `class BetaAdvisorRedactedResultBlock:`
+
+                - `String encryptedContent`
+
+                  Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+                - `JsonValue; type "advisor_redacted_result"constant`
+
+                  - `ADVISOR_REDACTED_RESULT("advisor_redacted_result")`
+
+            - `String toolUseId`
+
+            - `JsonValue; type "advisor_tool_result"constant`
+
+              - `ADVISOR_TOOL_RESULT("advisor_tool_result")`
 
           - `class BetaCodeExecutionToolResultBlock:`
 
@@ -7812,15 +8758,25 @@ public final class Main {
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `Optional<String> fileId`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -7844,13 +8800,27 @@ public final class Main {
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -7893,6 +8863,10 @@ public final class Main {
             - `Optional<String> content`
 
               Summary of compacted content, or null if compaction failed
+
+            - `Optional<String> encryptedContent`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
 
             - `JsonValue; type "compaction"constant`
 
@@ -7946,9 +8920,17 @@ public final class Main {
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -8013,6 +8995,30 @@ public final class Main {
           This will always be `"assistant"`.
 
           - `ASSISTANT("assistant")`
+
+        - `Optional<BetaRefusalStopDetails> stopDetails`
+
+          Structured information about a refusal.
+
+          - `Optional<Category> category`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `CYBER("cyber")`
+
+            - `BIO("bio")`
+
+          - `Optional<String> explanation`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `JsonValue; type "refusal"constant`
+
+            - `REFUSAL("refusal")`
 
         - `Optional<BetaStopReason> stopReason`
 
@@ -8184,6 +9190,118 @@ public final class Main {
                 Usage for a compaction iteration
 
                 - `COMPACTION("compaction")`
+
+            - `class BetaAdvisorMessageIterationUsage:`
+
+              Token usage for an advisor sub-inference iteration.
+
+              - `Optional<BetaCacheCreation> cacheCreation`
+
+                Breakdown of cached tokens by TTL
+
+                - `long ephemeral1hInputTokens`
+
+                  The number of input tokens used to create the 1 hour cache entry.
+
+                - `long ephemeral5mInputTokens`
+
+                  The number of input tokens used to create the 5 minute cache entry.
+
+              - `long cacheCreationInputTokens`
+
+                The number of input tokens used to create the cache entry.
+
+              - `long cacheReadInputTokens`
+
+                The number of input tokens read from the cache.
+
+              - `long inputTokens`
+
+                The number of input tokens which were used.
+
+              - `Model model`
+
+                The model that will complete your prompt.
+
+                See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+                  New class of intelligence, strongest in coding and cybersecurity
+
+                - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+                  Best combination of speed and intelligence
+
+                - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+                  Fastest model with near-frontier intelligence
+
+                - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+                  Fastest model with near-frontier intelligence
+
+                - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+                  High-performance model for agents and coding
+
+                - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+                  High-performance model for agents and coding
+
+                - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+                  Exceptional model for specialized complex tasks
+
+                - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+                  Exceptional model for specialized complex tasks
+
+                - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+                  Powerful model for complex tasks
+
+                - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+                  Powerful model for complex tasks
+
+                - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+                  High-performance model with extended thinking
+
+                - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+                  High-performance model with extended thinking
+
+                - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+                  Fast and cost-effective model
+
+              - `long outputTokens`
+
+                The number of output tokens which were used.
+
+              - `JsonValue; type "advisor_message"constant`
+
+                Usage for an advisor sub-inference iteration
+
+                - `ADVISOR_MESSAGE("advisor_message")`
 
           - `long outputTokens`
 
@@ -8482,15 +9600,25 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `Optional<String> fileId`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -8514,13 +9642,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -8601,6 +9743,8 @@ public final class Main {
           - `Input input`
 
           - `Name name`
+
+            - `ADVISOR("advisor")`
 
             - `WEB_SEARCH("web_search")`
 
@@ -8843,6 +9987,54 @@ public final class Main {
               - `JsonValue; type "code_execution_20260120"constant`
 
                 - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+        - `class BetaAdvisorToolResultBlock:`
+
+          - `Content content`
+
+            - `class BetaAdvisorToolResultError:`
+
+              - `ErrorCode errorCode`
+
+                - `MAX_USES_EXCEEDED("max_uses_exceeded")`
+
+                - `PROMPT_TOO_LONG("prompt_too_long")`
+
+                - `TOO_MANY_REQUESTS("too_many_requests")`
+
+                - `OVERLOADED("overloaded")`
+
+                - `UNAVAILABLE("unavailable")`
+
+                - `EXECUTION_TIME_EXCEEDED("execution_time_exceeded")`
+
+              - `JsonValue; type "advisor_tool_result_error"constant`
+
+                - `ADVISOR_TOOL_RESULT_ERROR("advisor_tool_result_error")`
+
+            - `class BetaAdvisorResultBlock:`
+
+              - `String text`
+
+              - `JsonValue; type "advisor_result"constant`
+
+                - `ADVISOR_RESULT("advisor_result")`
+
+            - `class BetaAdvisorRedactedResultBlock:`
+
+              - `String encryptedContent`
+
+                Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+              - `JsonValue; type "advisor_redacted_result"constant`
+
+                - `ADVISOR_REDACTED_RESULT("advisor_redacted_result")`
+
+          - `String toolUseId`
+
+          - `JsonValue; type "advisor_tool_result"constant`
+
+            - `ADVISOR_TOOL_RESULT("advisor_tool_result")`
 
         - `class BetaCodeExecutionToolResultBlock:`
 
@@ -9152,15 +10344,25 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `Optional<String> fileId`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -9184,13 +10386,27 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -9233,6 +10449,10 @@ public final class Main {
           - `Optional<String> content`
 
             Summary of compacted content, or null if compaction failed
+
+          - `Optional<String> encryptedContent`
+
+            Opaque metadata from prior compaction, to be round-tripped verbatim
 
           - `JsonValue; type "compaction"constant`
 
@@ -9286,9 +10506,17 @@ public final class Main {
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -9353,6 +10581,30 @@ public final class Main {
         This will always be `"assistant"`.
 
         - `ASSISTANT("assistant")`
+
+      - `Optional<BetaRefusalStopDetails> stopDetails`
+
+        Structured information about a refusal.
+
+        - `Optional<Category> category`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `CYBER("cyber")`
+
+          - `BIO("bio")`
+
+        - `Optional<String> explanation`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `JsonValue; type "refusal"constant`
+
+          - `REFUSAL("refusal")`
 
       - `Optional<BetaStopReason> stopReason`
 
@@ -9524,6 +10776,118 @@ public final class Main {
               Usage for a compaction iteration
 
               - `COMPACTION("compaction")`
+
+          - `class BetaAdvisorMessageIterationUsage:`
+
+            Token usage for an advisor sub-inference iteration.
+
+            - `Optional<BetaCacheCreation> cacheCreation`
+
+              Breakdown of cached tokens by TTL
+
+              - `long ephemeral1hInputTokens`
+
+                The number of input tokens used to create the 1 hour cache entry.
+
+              - `long ephemeral5mInputTokens`
+
+                The number of input tokens used to create the 5 minute cache entry.
+
+            - `long cacheCreationInputTokens`
+
+              The number of input tokens used to create the cache entry.
+
+            - `long cacheReadInputTokens`
+
+              The number of input tokens read from the cache.
+
+            - `long inputTokens`
+
+              The number of input tokens which were used.
+
+            - `Model model`
+
+              The model that will complete your prompt.
+
+              See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+              - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+                Frontier intelligence for long-running agents and coding
+
+              - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+                New class of intelligence, strongest in coding and cybersecurity
+
+              - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+                Frontier intelligence for long-running agents and coding
+
+              - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+                Best combination of speed and intelligence
+
+              - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+                Fastest model with near-frontier intelligence
+
+              - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+                Fastest model with near-frontier intelligence
+
+              - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+                Premium model combining maximum intelligence with practical performance
+
+              - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+                Premium model combining maximum intelligence with practical performance
+
+              - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+                High-performance model for agents and coding
+
+              - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+                High-performance model for agents and coding
+
+              - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+                Exceptional model for specialized complex tasks
+
+              - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+                Exceptional model for specialized complex tasks
+
+              - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+                Powerful model for complex tasks
+
+              - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+                Powerful model for complex tasks
+
+              - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+                High-performance model with extended thinking
+
+              - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+                High-performance model with extended thinking
+
+              - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+                Fast and cost-effective model
+
+            - `long outputTokens`
+
+              The number of output tokens which were used.
+
+            - `JsonValue; type "advisor_message"constant`
+
+              Usage for an advisor sub-inference iteration
+
+              - `ADVISOR_MESSAGE("advisor_message")`
 
         - `long outputTokens`
 
@@ -9784,15 +11148,25 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `Optional<String> fileId`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -9816,13 +11190,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -9903,6 +11291,8 @@ public final class Main {
         - `Input input`
 
         - `Name name`
+
+          - `ADVISOR("advisor")`
 
           - `WEB_SEARCH("web_search")`
 
@@ -10145,6 +11535,54 @@ public final class Main {
             - `JsonValue; type "code_execution_20260120"constant`
 
               - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+      - `class BetaAdvisorToolResultBlock:`
+
+        - `Content content`
+
+          - `class BetaAdvisorToolResultError:`
+
+            - `ErrorCode errorCode`
+
+              - `MAX_USES_EXCEEDED("max_uses_exceeded")`
+
+              - `PROMPT_TOO_LONG("prompt_too_long")`
+
+              - `TOO_MANY_REQUESTS("too_many_requests")`
+
+              - `OVERLOADED("overloaded")`
+
+              - `UNAVAILABLE("unavailable")`
+
+              - `EXECUTION_TIME_EXCEEDED("execution_time_exceeded")`
+
+            - `JsonValue; type "advisor_tool_result_error"constant`
+
+              - `ADVISOR_TOOL_RESULT_ERROR("advisor_tool_result_error")`
+
+          - `class BetaAdvisorResultBlock:`
+
+            - `String text`
+
+            - `JsonValue; type "advisor_result"constant`
+
+              - `ADVISOR_RESULT("advisor_result")`
+
+          - `class BetaAdvisorRedactedResultBlock:`
+
+            - `String encryptedContent`
+
+              Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+            - `JsonValue; type "advisor_redacted_result"constant`
+
+              - `ADVISOR_REDACTED_RESULT("advisor_redacted_result")`
+
+        - `String toolUseId`
+
+        - `JsonValue; type "advisor_tool_result"constant`
+
+          - `ADVISOR_TOOL_RESULT("advisor_tool_result")`
 
       - `class BetaCodeExecutionToolResultBlock:`
 
@@ -10454,15 +11892,25 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `Optional<String> fileId`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -10486,13 +11934,27 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -10535,6 +11997,10 @@ public final class Main {
         - `Optional<String> content`
 
           Summary of compacted content, or null if compaction failed
+
+        - `Optional<String> encryptedContent`
+
+          Opaque metadata from prior compaction, to be round-tripped verbatim
 
         - `JsonValue; type "compaction"constant`
 
@@ -10588,9 +12054,17 @@ public final class Main {
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -10655,6 +12129,30 @@ public final class Main {
       This will always be `"assistant"`.
 
       - `ASSISTANT("assistant")`
+
+    - `Optional<BetaRefusalStopDetails> stopDetails`
+
+      Structured information about a refusal.
+
+      - `Optional<Category> category`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `CYBER("cyber")`
+
+        - `BIO("bio")`
+
+      - `Optional<String> explanation`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `JsonValue; type "refusal"constant`
+
+        - `REFUSAL("refusal")`
 
     - `Optional<BetaStopReason> stopReason`
 
@@ -10826,6 +12324,118 @@ public final class Main {
             Usage for a compaction iteration
 
             - `COMPACTION("compaction")`
+
+        - `class BetaAdvisorMessageIterationUsage:`
+
+          Token usage for an advisor sub-inference iteration.
+
+          - `Optional<BetaCacheCreation> cacheCreation`
+
+            Breakdown of cached tokens by TTL
+
+            - `long ephemeral1hInputTokens`
+
+              The number of input tokens used to create the 1 hour cache entry.
+
+            - `long ephemeral5mInputTokens`
+
+              The number of input tokens used to create the 5 minute cache entry.
+
+          - `long cacheCreationInputTokens`
+
+            The number of input tokens used to create the cache entry.
+
+          - `long cacheReadInputTokens`
+
+            The number of input tokens read from the cache.
+
+          - `long inputTokens`
+
+            The number of input tokens which were used.
+
+          - `Model model`
+
+            The model that will complete your prompt.
+
+            See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+            - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
+            - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+              Best combination of speed and intelligence
+
+            - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+              Fastest model with near-frontier intelligence
+
+            - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+              Fastest model with near-frontier intelligence
+
+            - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+              High-performance model for agents and coding
+
+            - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+              High-performance model for agents and coding
+
+            - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+              Exceptional model for specialized complex tasks
+
+            - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+              Exceptional model for specialized complex tasks
+
+            - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+              Powerful model for complex tasks
+
+            - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+              Powerful model for complex tasks
+
+            - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+              High-performance model with extended thinking
+
+            - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+              High-performance model with extended thinking
+
+            - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+              Fast and cost-effective model
+
+          - `long outputTokens`
+
+            The number of output tokens which were used.
+
+          - `JsonValue; type "advisor_message"constant`
+
+            Usage for an advisor sub-inference iteration
+
+            - `ADVISOR_MESSAGE("advisor_message")`
 
       - `long outputTokens`
 

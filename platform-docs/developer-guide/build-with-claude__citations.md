@@ -2,6 +2,10 @@
 
 ---
 
+<Note>
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
+</Note>
+
 Claude is capable of providing detailed citations when answering questions about documents, helping you track and verify information sources in responses.
 
 All [active models](/docs/en/about-claude/models/overview) support citations, with the exception of Haiku 3.
@@ -14,13 +18,13 @@ Here's an example of how to use citations with the Messages API:
 
 <CodeGroup>
 
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
   -H "content-type: application/json" \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -d '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "messages": [
       {
@@ -47,13 +51,34 @@ curl https://api.anthropic.com/v1/messages \
   }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+messages:
+  - role: user
+    content:
+      - type: document
+        source:
+          type: text
+          media_type: text/plain
+          data: The grass is green. The sky is blue.
+        title: My Document
+        context: This is a trustworthy document.
+        citations:
+          enabled: true
+      - type: text
+        text: What color is the grass and sky?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     messages=[
         {
@@ -78,7 +103,7 @@ response = client.messages.create(
 print(response)
 ```
 
-```java Java hidelines={1..8,-1}
+```java Java hidelines={1..8,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.*;
@@ -105,7 +130,7 @@ public class DocumentExample {
       .build();
 
     MessageCreateParams params = MessageCreateParams.builder()
-      .model(Model.CLAUDE_OPUS_4_6)
+      .model(Model.CLAUDE_OPUS_4_7)
       .maxTokens(1024)
       .addUserMessageOfBlockParams(
         List.of(
@@ -203,13 +228,13 @@ Citations and prompt caching can be used together effectively.
 The citation blocks generated in responses cannot be cached directly, but the source documents they reference can be cached. To optimize performance, apply `cache_control` to your top-level document content blocks.
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "messages": [
         {
@@ -235,7 +260,28 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create \
+  --model claude-opus-4-7 \
+  --max-tokens 1024 <<'YAML'
+messages:
+  - role: user
+    content:
+      - type: document
+        source:
+          type: text
+          media_type: text/plain
+          data: This is a very long document with thousands of words...
+        citations:
+          enabled: true
+        cache_control:
+          type: ephemeral
+      - type: text
+        text: What does this document say about API features?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
@@ -246,7 +292,7 @@ long_document = (
 )  # Minimum cacheable length
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     messages=[
         {
@@ -275,7 +321,7 @@ response = client.messages.create(
 print(response)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
@@ -285,7 +331,7 @@ const longDocument =
   "This is a very long document with thousands of words..." + " ... ".repeat(1000); // Minimum cacheable length
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   messages: [
     {

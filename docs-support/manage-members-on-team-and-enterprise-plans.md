@@ -1,6 +1,6 @@
 # Manage members on Team and Enterprise plans
 
-*Updated this week*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -20,10 +20,11 @@ For information on purchasing seats or adjusting your plan's seat allocation, se
 
 Admins and above can add members by following these steps:
 
-1. Navigate to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)** and click “Add member.”
+1. Navigate to[ ](https://claude.ai/admin-settings/organization)**[Organization settings > Members](http://claude.ai/admin-settings/members)** and click “Add member.”
 2. Enter the person's email address (it must use one of your organization's **[allowed email domains](https://support.claude.com/en/articles/13325567-account-management-faqs#h_b54c41c86c)**).
 3. Select the appropriate seat type.
 4. Set the role and permissions for the member.
+4. 1. **Note:** On Enterprise plans, you can also select “Custom roles” as a member’s role. Members set to this role have their access controlled through group memberships and custom roles. For additional details, see **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans)**.
 5. Click “Add members.”
 
 This sends an email invitation to the person. The invitation expires after 21 days, so you'll need to re-invite them if they don't accept within that time period.
@@ -49,10 +50,10 @@ Admins and above can generate a shareable invite link and distribute it to teamm
 **Availability:**
 
 - **Team plans:** Invite links are enabled by default for new organizations.
-- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them in **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
 - **SSO organizations:** Invite links are not available. Member provisioning is managed through your Identity Provider.
 
-To find and copy your invite link, navigate to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**. New members who join via link are assigned to the lowest available seat tier, defaulting to a standard seat if none are available.
+To find and copy your invite link, navigate to[ Organization settings > Organization and access](https://claude.ai/admin-settings/organization). New members who join via link are assigned to the lowest available seat tier, defaulting to a standard seat if none are available.
 
  
 
@@ -68,9 +69,8 @@ For more details on how the joining flow works, see **[Join an organization via 
 
 Organizations with single sign-on (SSO) configured can automate member provisioning. Learn more about **[setting up SSO](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso-for-claude-and-claude-console)**.
 
-- **Just-in-time (JIT) provisioning:** Members assigned to the Anthropic app in your Identity Provider will have accounts created automatically the first time they log in. On plans with multiple seat types, users are assigned to the highest-available seat type upon first login. On single-seat Enterprise plans, users are automatically assigned the Enterprise seat. Admins and above can manually reassign seat types afterward in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
-- **SCIM provisioning (Enterprise plan only):** With SCIM directory sync enabled, members assigned to the Anthropic app in your Identity Provider are provisioned automatically, up to the number of total seats on your plan. On plans with multiple seat types, seat types are distributed from highest to lowest available. On single-seat Enterprise plans, all users are automatically assigned the Enterprise seat. Primary Owners and Owners can reassign seat types afterward in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
--  
+- **Just-in-time (JIT) provisioning:** Members assigned to the Anthropic app in your Identity Provider will have accounts created automatically the first time they log in. On plans with multiple seat types, users are assigned to the highest-available seat type upon first login. On single-seat Enterprise plans, users are automatically assigned the Enterprise seat. Admins and above can manually reassign seat types afterward in **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
+- **SCIM provisioning (Enterprise plan only):** With SCIM directory sync enabled, members assigned to the Anthropic app in your Identity Provider are provisioned automatically, up to the number of total seats on your plan. On plans with multiple seat types, seat types are distributed from highest to lowest available. On single-seat Enterprise plans, all users are automatically assigned the Enterprise seat. Primary Owners and Owners can reassign seat types afterward in **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
 
  
 
@@ -78,9 +78,43 @@ Organizations with single sign-on (SSO) configured can automate member provision
 
  
 
+## Member-to-member invites
+
+Organization members can invite teammates by email, even if they aren't admins. This makes it easier for your team to grow organically without requiring admin involvement for every new member.
+
+ 
+
+### How it works
+
+Any member can access the invite flow from the account selector in Claude. They enter a teammate's email address and submit the invite. What happens next depends on your organization's new member approval setting:
+
+- **Approve one-by-one (default):** The invite request goes to an admin for review. The invite is only sent to the teammate after an admin approves it.
+- **Approve automatically:** The invite is sent right away and the invitee can join immediately.
+
+Invites sent by members follow the same domain restrictions as other join methods — the invitee's email must match one of your organization's allowed domains.
+
+ 
+
+### Availability
+
+- **Team plans:** Member-to-member invites are enabled by default for new organizations.
+- **Enterprise plans:** Member-to-member invites are disabled by default. Admins can enable them from Admin settings.
+
+ 
+
+### Admin controls
+
+Admins can enable or disable member-to-member invites from the admin settings. When disabled, only admins can send invitations. Invitees added through member invites are assigned the default member role and placed in the lowest available seat tier.
+
+## 
+
+---
+
+ 
+
 ## Remove members
 
-You can remove a member by navigating to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**, clicking the menu button to the right of the member, then selecting "Remove from team."
+You can remove a member by navigating to **[Organization settings > Members](http://claude.ai/admin-settings/members)**, clicking the menu button to the right of the member, then selecting "Remove from team."
 
  
 
@@ -114,7 +148,7 @@ The export includes member details such as name, email address, role, and seat t
 
 To export:
 
-1. Navigate to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+1. Navigate to[ ](https://claude.ai/admin-settings/organization)**[Organization settings > Members](http://claude.ai/admin-settings/members)**.
 2. Find the **Members** section.
 3. Click the "Export CSV" button.
 4. A CSV file will download to your device.
@@ -128,13 +162,13 @@ To export:
 
 ### Resend an expired invitation
 
-You can resend an invite from **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**. Find the member and select to resend the invite.
+You can resend an invite from[ ](https://claude.ai/admin-settings/organization)**[Organization settings > Members](http://claude.ai/admin-settings/members)**. Click the “Pending” tab, find the member, and select to resend the invite.
 
  
 
 ### Revoke a pending invitation
 
-You can revoke a pending invite from **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**. Find the member and select "Remove from team."
+You can revoke a pending invite from[ ](https://claude.ai/admin-settings/organization)**[Organization settings > Members](http://claude.ai/admin-settings/members)**. Click the “Pending” tab, find the member, and select "Remove from team."
 
  
 
@@ -160,9 +194,11 @@ To add a member that you previously removed, follow the same steps as adding a n
 
 The current Primary Owner can transfer ownership by:
 
-1. Navigate to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+1. Navigate to[ ](https://claude.ai/admin-settings/organization)**[Organization settings > Members](http://claude.ai/admin-settings/members)**.
 2. Click the Role dropdown next to the new user and select "Primary Owner."
 3. Type the new Primary Owner's email address in the modal to confirm and transfer ownership.
+
+ 
 
 ### What happens to the initial invitation for a new Enterprise organization?
 
@@ -173,8 +209,8 @@ When Anthropic provides a new Enterprise organization and invites the Primary Ow
 
 ## Related Articles
 
-- [Purchasing and managing seats on Team plans](https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats-on-team-plans)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Roles and permissions](https://support.claude.com/en/articles/9267276-roles-and-permissions)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)

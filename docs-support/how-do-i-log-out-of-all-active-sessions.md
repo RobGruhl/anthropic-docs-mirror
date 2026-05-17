@@ -1,6 +1,6 @@
 # How do I log out of all active sessions?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -38,7 +38,7 @@ If you used your Claude account to authenticate into Claude Code, you can manage
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1771884000&signature=d723c3c5d89ed0bcb149070150945f316e3371c27de7ba318acc2105efd2599e&req=dSYnHst4nohdWvMW1HO4zVuHhR313mO7AQofdwM8qVe7piZ2Ihs1KR%2FnjnUr%0ARq4TE4gBJnGYtRcHURk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1778979600&signature=80f0b4591d1171bac7f3ff6f60eb503e2048e0618271ed0489b2a3f28bf37907&req=dSYnHst4nohdWvMW1HO4zVuHhRT00W69AQofdwM8qVeApkO6lU%2FUChXWa2L1%0A0lFiZs6bny7vFGuRqK4%3D%0A)
 
  
 
@@ -52,7 +52,7 @@ If you're unable to sign into your account to log out of all sessions, contact o
 ## Related Articles
 
 - [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
-- [How do I get started with the Team plan?](https://support.claude.com/en/articles/9267247-how-do-i-get-started-with-the-team-plan)
 - [Managing your active sessions](https://support.claude.com/en/articles/13124001-managing-your-active-sessions)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

@@ -1,6 +1,6 @@
-# Installing Claude Desktop
+# Install Claude Desktop
 
-*Updated over a week ago*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -51,9 +51,9 @@ Read more about desktop extensions in our **[Getting Started with Local MCP Serv
 
  
 
-## Cowork
+## Claude Cowork
 
-Users on paid Claude plans can access Cowork in Claude Desktop. This research preview brings Claude Code's agentic capabilities to a visual interface, allowing you to hand off complex, multi-step tasks without using a terminal.
+Users on paid Claude plans can access Cowork in Claude Desktop. Cowork brings Claude Code's agentic capabilities to a visual interface, allowing you to hand off complex, multi-step tasks without using a terminal.
 
  
 
@@ -64,11 +64,11 @@ With Cowork, Claude can:
 - Coordinate parallel workstreams for complex projects.
 - Deliver professional outputs like spreadsheets with working formulas and formatted presentations.
 
-Cowork runs in an isolated virtual machine on your computer for security, with controlled file and network access.
+Cowork runs code in an isolated virtual machine on your computer. File reads and writes are limited to folders you connect, and network access follows your egress settings.
 
  
 
-To learn more, see **[Getting started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)**.
+To learn more, see **[Get started with Cowork](https://support.claude.com/en/articles/13345190-get-started-with-cowork)**.
 
 
 ---
@@ -78,5 +78,5 @@ To learn more, see **[Getting started with Cowork](https://support.claude.com/en
 - [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
-- [Getting started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)
-- [Using Cowork safely](https://support.claude.com/en/articles/13364135-using-cowork-safely)
+- [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)
+- [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)

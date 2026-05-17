@@ -1,6 +1,6 @@
 # Getting started with Claude in Slack
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -18,7 +18,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1771884000&signature=9aac438f246321972c10e3b24f53bcd0fc5b404744ae66268c4875f7f0b08d2f&req=dSciE8h6noZYXPMW1HO4zb2WBQQLHoB35mlLMjhGEMFcmWMAOm%2BoPzQT%2B4l4%0AyT5cALvA43d3i1fP7Zo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1778979600&signature=213c568441507147792775898a4d225bfb2824916043425e8d70b514789b08c8&req=dSciE8h6noZYXPMW1HO4zb2WBQ0KEY1x5mlLMjhGEMFh%2BY5cZFkc8laRtaDK%0AEODJNzuOoBfml8D5aX8%3D%0A)
 
  
 
@@ -26,11 +26,11 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1771884000&signature=5e30545da1742071d1df7e982d65de987593fdc8cdf751694d19a44d1b48a4b8&req=dSciE8h6mYZdWfMW1HO4zUifwjDRH6ekPUSeDntyEuXvBQatj7IGFE7Ox%2FJ2%0A8fDhez5X7F%2FTn%2B%2FGCsY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1778979600&signature=0a6bbea6a98c67fb24afdb3f7ffc45b0e765b2d0caa2de0d3ca71f41c3928fc5&req=dSciE8h6mYZdWfMW1HO4zUifwjnQEKqiPUSeDntyEuVfGKP4xABVv622226%2F%0AA%2Fbu3yoK71GvQI%2F8%2FxM%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1771884000&signature=949a5c715053397285c87cc851bae32642825220e9d44395638070ed75695a63&req=dSciE8h6mIRaX%2FMW1HO4zXrVXdl0%2BIvDBGejWRiWDiIdaKgcAZeDqO%2BRhb%2BH%0ArJS3teKdvZHTT8U0BE4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1778979600&signature=03a71d1d3dc35b2d2ca3e4a27d9426a299e584149535aeabc679a1210314c253&req=dSciE8h6mIRaX%2FMW1HO4zXrVXdB194bFBGejWRiWDiJArIqz0rFzbyXEDK6w%0ABI98nluwtDAt74oCQjM%3D%0A)
 
  
 
@@ -38,7 +38,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755146282/dd7e489f38bd786346478a9b286e/c3e07137-64e6-470c-9f3f-1db2632a784e?expires=1771884000&signature=5188fa259b28a2da04ff999e5ca55d22525fc6ffee2c6c6019b97fae8c512f78&req=dSciE8h6m4NXW%2FMW1HO4za6vkdHsCgEndk%2ByK9LXwIJfuZVGx2EQHqeejabr%0AiVP6AGzdURX%2Bmj3imrg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755146282/dd7e489f38bd786346478a9b286e/c3e07137-64e6-470c-9f3f-1db2632a784e?expires=1778979600&signature=897250af9ce5b988cfbd3b93784c73d5856491607cf97e6d5d7486864487f22f&req=dSciE8h6m4NXW%2FMW1HO4za6vkdjtBQwhdk%2ByK9LXwILYHktl1kw3Cod4rdx9%0AyW4Jg3anLx48HYhYtEM%3D%0A)
 
  
 
@@ -141,7 +141,7 @@ To disconnect your Claude account from Slack:
 2. Under **Disconnect Claude Account**, click the red "Disconnect" button.
 3. Confirm the disconnection.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1771884000&signature=5bdee0e936cc52ca565d0e39ab8b7370097cd2b6812b4368f294ca22d0af017b&req=dSciE8h6lIZbXfMW1HO4zdIAspRDZrWQQgg7UiXQlE0CSrPJTE9A8ZZ5qXkc%0AuzVFO3er%2B6zBDNZMASk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1778979600&signature=5f452c4bb94595aafc0c43526997f21e4929b4fc964a9570e405317d611a5acd&req=dSciE8h6lIZbXfMW1HO4zdIAsp1CabiWQgg7UiXQlE06cYT6XTIuzcRW6lne%0A%2BUX%2B4iX%2BkrA6QThP22U%3D%0A)
 
  
 
@@ -200,8 +200,8 @@ If you are using a company Slack instance and are not assigned to an Admin role,
 
 ## Related Articles
 
-- [Use the Connectors Directory to extend Claude’s capabilities](https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities)
-- [Getting started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
-- [Getting Started with Claude for Life Sciences](https://support.claude.com/en/articles/12614768-getting-started-with-claude-for-life-sciences)
-- [Using interactive connectors in Claude](https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)

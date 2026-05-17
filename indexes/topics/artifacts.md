@@ -1,9 +1,9 @@
 # Artifacts Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
 Documents related to Artifacts across all sources (2 documents)
 ---
 ## Claude.com Blog Posts (2)
-- [Artifacts are now generally available](/claude-blog/artifacts.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
+- [Turn ideas into interactive AI-powered apps](/claude-blog/build-artifacts.md) - ![](https://cdn
 

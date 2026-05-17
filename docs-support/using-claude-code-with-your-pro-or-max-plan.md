@@ -1,10 +1,10 @@
-# Using Claude Code with your Pro or Max plan
+# Use Claude Code with your Pro or Max plan
 
 *Updated over a week ago*
 
 ---
 
-This article applies to individual consumers using Pro or Max plan subscriptions to access Claude Code. If you’re a member of a Team or Enterprise plan organization, see **[Using Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-using-claude-code-with-your-team-or-enterprise-plan)**.
+This article applies to individual consumers using Pro or Max plan subscriptions to access Claude Code. If you’re a member of a Team or Enterprise plan organization, see **[Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131)**.
 
  
 
@@ -31,7 +31,7 @@ Use two powerful AI products in one simple subscription.
 1. **Ensure you have an active Pro or Max plan subscription**
 1. - If you're not already subscribed, upgrade at **[claude.ai/upgrade](https://claude.ai/upgrade)**
 2. **Install Claude Code**
-2. - Visit the **[Claude Code page in our Claude Docs](https://code.claude.com/docs/en/overview#install-and-authenticate)** to download and install Claude Code.
+2. - Visit the **[Claude Code page in our Claude Docs](https://code.claude.com/docs/en/quickstart#step-1-install-claude-code)** to download and install Claude Code.
 - Follow the installation instructions for your operating system.
 3. **Authenticate with your Claude credentials**
 3. - When prompted during setup or first use, log in with the same credentials you use for Claude.
@@ -156,5 +156,5 @@ Auto-reload functionality is managed within your Claude Console account, not thr
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

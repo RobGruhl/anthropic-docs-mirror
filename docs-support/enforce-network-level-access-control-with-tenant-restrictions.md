@@ -1,6 +1,6 @@
 # Enforce network-level access control with Tenant Restrictions
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -60,7 +60,7 @@ Configure your proxy to inject the header for Claude traffic:
 
 ```
 Rule: Claude Tenant Restriction
-Application: claude.ai, api.anthropic.com
+Application: claude.ai, api.anthropic.com, claude.com, anthropic.com
 Action: Inject Header
 Header Name: anthropic-allowed-org-ids
 Header Value: 
@@ -78,7 +78,7 @@ curl https://api.anthropic.com/v1/messages \
   -H "x-api-key: $CLAUDE_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -H "content-type: application/json" \
-  -d '{"model":"claude-sonnet-4-20250514","max_tokens":1024,"messages":
+  -d '{"model":"claude-sonnet-4-6","max_tokens":1024,"messages":
  [{"role":"user","content":"Hello"}]}'
 ```
 
@@ -139,8 +139,8 @@ When access is blocked, users receive the following error:
 
 ## Related Articles
 
-- [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
+- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Microsoft 365 Connector: Security Guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
-- [Restrict access to Claude with IP allowlisting](https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting)
-- [Cowork for Team and Enterprise plans](https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans)
+- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

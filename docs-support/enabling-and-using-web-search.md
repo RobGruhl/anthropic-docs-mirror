@@ -1,18 +1,23 @@
 # Enabling and using web search
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
 You can have Claude search the internet to provide you with up-to-date information and insights when using the following models:
 
+- Opus 4.7
 - Sonnet 4.6
 - Opus 4.6
 - Opus 4.5
 - Haiku 4.5 
 - Sonnet 4.5
 
+ 
+
 Web search expands Claude's knowledge with real-time data, helping you make better-informed decisions with current information.
+
+ 
 
 ## How to enable web search in a chat
 
@@ -126,7 +131,7 @@ You can re-enable it anytime you need current information.
 ## Related Articles
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
+- [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Claude in Chrome release notes](https://support.claude.com/en/articles/12306336-claude-in-chrome-release-notes)
-- [Getting the most out of Sonnet 4.5 in Claude.ai](https://support.claude.com/en/articles/12439373-getting-the-most-out-of-sonnet-4-5-in-claude-ai)
-- [Create professional results across tools with Claude Sonnet 4.5](https://support.claude.com/en/articles/12439380-create-professional-results-across-tools-with-claude-sonnet-4-5)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)

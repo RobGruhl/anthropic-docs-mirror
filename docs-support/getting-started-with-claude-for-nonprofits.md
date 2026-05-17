@@ -1,6 +1,6 @@
 # Getting started with Claude for Nonprofits
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -16,17 +16,26 @@ Learn more about Claude for Nonprofits on our [solution page](http://claude.com/
 
 ## How do I access nonprofit tools and features?
 
-Organizations can access Claude for Nonprofits features and pricing through the **Team plan** ($8 per user per month for Standard seats, billed monthly) or the **Enterprise plan** ([contact our Sales team](https://claude.com/contact-sales) for pricing).
-
-At the discounted price, Claude for Nonprofits includes access to Claude Opus 4.6, Sonnet 4.5, and Haiku 4.5. Opus 4.6 delivers the highest intelligence for the most complex tasks. Sonnet 4.5 is best suited to sophisticated tasks like grant writing and program analysis, while Haiku 4.5 offers near-frontier performance at much faster speed.
+Organizations can access Claude for Nonprofits features and pricing through the **Team plan** or the **Enterprise plan** ([contact our Sales team](https://claude.com/contact-sales) for pricing).
 
  
 
-For teams with less than 20 seats (minimum five seats), you can access Claude for Nonprofits by filling out this [short form](https://validate.poweredbypercent.com/anthropic) to verify your nonprofit status.
+**Team plan pricing**
+
+| **Seat type** | **Price** | **What's included** |
+| --- | --- | --- |
+| Standard | $8 per user per month, billed monthly | Base features, usage limits, Claude Code and Cowork access |
+| Premium | $40 per user per month, billed monthly | Everything in Standard, plus higher usage limits |
+
+At the discounted price, Claude for Nonprofits includes access to Claude Opus 4.6, Sonnet 4.6, and Haiku 4.5. Opus 4.6 delivers the highest intelligence for the most complex tasks. Sonnet 4.6 is best suited to sophisticated tasks like grant writing and program analysis, while Haiku 4.5 offers near-frontier performance at much faster speed. Claude Code and Cowork are included with every seat.
 
  
 
-For larger organizations looking to access the Enterprise plan, please [contact our sales team](https://claude.com/contact-sales/nonprofits).
+For teams with 150 seats or less (minimum two seats), you can access Claude for Nonprofits by filling out this [short form](https://validate.poweredbypercent.com/anthropic) to verify your nonprofit status.
+
+ 
+
+For larger organizations looking to access the Enterprise plan, please [contact our Sales team](https://claude.com/contact-sales/nonprofits).
 
  
 
@@ -85,6 +94,10 @@ Our nonprofit program pricing is available to qualifying nonprofits with 501(c)(
  
 
 Additionally, mission-based healthcare organizations with 501(c)(3) status may qualify, including independent Critical Access Hospitals (CAHs) and Rural Emergency Hospitals (REHs) not part of larger health systems, HRSA-designated Federally Qualified Health Centers (FQHCs) and FQHC Look-Alikes, and CMS-certified Rural Health Clinics (RHCs).
+
+ 
+
+For a full list of eligibility guidelines, see **[Goodstack's nonprofit verification guidance](https://goodstack.org/nonprofit-definitions)**.
 
  
 
@@ -188,22 +201,11 @@ For detailed information on our security practices and compliance certifications
 
 ### What's the difference between the Team plan and the Enterprise plan for nonprofits?
 
-The Team plan is perfect for smaller nonprofits or individual departments, supporting up to 20 users with collaborative workspaces and SSO. This is available self-serve, please fill out [this short form](https://validate.poweredbypercent.com/anthropic) to verify.
+The Team plan is perfect for smaller nonprofits or individual departments, supporting up to 150 users with collaborative workspaces and SSO. This is available self-serve, please fill out [this short form](https://validate.poweredbypercent.com/anthropic) to verify.
 
  
 
 The Enterprise plan is designed for larger organizations needing advanced features like custom data retention policies, expanded context windows for complex documents, SCIM provisioning, and dedicated success management.
-
- 
-
-### What do I do if my organization has fewer than five employees?
-
-Currently, we do not offer discounts for organizations looking for fewer than five seats. However, we do provide several resources to help you get started with AI: 
-
-- [AI Fluency for Nonprofits course](https://anthropic.skilljar.com/ai-fluency-for-nonprofits) – *a comprehensive virtual course with lessons that take you from onboarding to an AI platform to how to prompt to how to incorporate AI into your flows* 
-- [AI Use Cases for Nonprofits](https://claude.com/resources/use-cases/category/nonprofits) – *individual guides for seven use cases that nonprofits commonly work on.*
-
-These resources have been developed in partnership with Giving Tuesday and are tailored for nonprofits. We hope that they can support you as your organization begins to adopt AI to accelerate your impact.
 
  
 
@@ -275,8 +277,8 @@ When the Team plan option appears greyed out, this typically indicates one of th
 
 ## Related Articles
 
-- [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)
 - [Using the Benevity Connector in Claude](https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude)
 - [Using the Candid Connector in Claude](https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude)
 - [Claude for Nonprofits Partnership Success Guide for Admins](https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins)
 - [Claude for Nonprofits Partnership Guide for All Users](https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users)
+- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)

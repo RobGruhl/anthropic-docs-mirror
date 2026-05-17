@@ -1,6 +1,6 @@
 # Set up single sign-on (SSO)
 
-*Updated this week*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -44,9 +44,9 @@ Domain verification proves that you own your company's domain. Once verified, yo
 
 You can verify multiple domains for a single organization, but all domains must be managed through a single IdP. We don't support verifying domains from separate IdPs within the same organization.
 
-1. Navigate to your “Identity and access” settings in Claude (**[claude.ai/admin-settings/identity](http://claude.ai/admin-settings/identity)**) or Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**) – note this page will only appear on Console if you've worked with Sales to enable SSO or completed a merge proposal.
+1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**) – note this page will only appear on Console if you've worked with Sales to enable SSO or completed a merge proposal.
 2. In the **Domains** section, click “Add or edit domains.”
-3. Enter the domain(s) you want to verify in the **Update organization email domains modal** and click the “+” button:
+3. Enter the domain(s) you want to verify in the **Update organization email domains **modal and click the “+” button:
 3.  
 3. 
 3.  
@@ -64,7 +64,7 @@ You can verify multiple domains for a single organization, but all domains must 
 10. If your domain shows as "Pending," use the "Refresh" button.
 10.  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1771884000&signature=3844cbd7da322c75981cc38087898fb840297eb137c6701435db86182f7c13a6&req=diAjEcl6mYVWX%2FMW1HO4zVjmVigIZ3C5PM2D8Zcdgriqg5LlgqrPAigi2Hqa%0AB8llh07EwvyPc0nUQRs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1778979600&signature=ed73973bc0bfa0051646c6711eb4abbc087ac8546416b025195b0e7b0234dcb1&req=diAjEcl6mYVWX%2FMW1HO4zVjmViEJaH2%2FPM2D8ZcdgrgUfKBlF8YhQGjd5za%2F%0Azbg77wC5A74fW%2F24vAw%3D%0A)
 
  
 
@@ -74,11 +74,11 @@ You can verify multiple domains for a single organization, but all domains must 
 
 ## Step 3: Set up SSO with your Identity Provider
 
-1. Navigate to your Identity and access settings in Claude (**[claude.ai/admin-settings/identity](http://claude.ai/admin-settings/identity)**) or Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identit)**)
-2. In the **Global access settings / Organization access **section, click “Setup SSO” (or “Manage”).
+1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**).
+2. In the **Authentication **section, click “Setup SSO” (or “Manage SSO”).
 3. Follow the setup guide provided for your Identity Provider (see below for additional guides).
 4. At the end of these steps, you’ll be prompted to Test Single Sign-on to confirm there are no errors and the configuration is successful.
-5. Once complete, navigate back to the Identity and access settings page for further configuration options.
+5. Once complete, navigate back to the **Organization and access** settings page for further configuration options.
 
  
 
@@ -90,8 +90,7 @@ For IdP-specific setup instructions, see:
 - **[OneLogin SAML](https://workos.com/docs/integrations/onelogin-saml)**
 - **[JumpCloud SAML](https://workos.com/docs/integrations/jumpcloud-saml)**
 - **[Duo SAML](https://workos.com/docs/integrations/duo-saml/4-enter-duo-saml-settings-in-your-workos-dashboard)**
-
- 
+-  
 
 ---
 
@@ -99,15 +98,15 @@ For IdP-specific setup instructions, see:
 
 ## Step 4: Choose to require SSO
 
-You can now choose to toggle on **Require SSO for Console** and/or **Require SSO for Claude,** on the Identity and access page, under **Global access settings / Organization access** section:
+You can now choose to toggle on **Require SSO for Console** and/or **Require SSO for Claude,** on the **Organization and access** page, under the **Authentication** section:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047057631/e5832754120abfd5677be84e9fa7/c3fa3224-f8b5-4aa3-b42f-1974bbbd3193?expires=1771884000&signature=056d10cf6d26c1d7f0972fd9030ac463005b0cc7d09d79dac0b96a41736ae249&req=diAjEcl7modcWPMW1HO4zS%2FkDzm3j2wF7ziFrGT%2F4DAqBXlXuovES02h610G%0AE1uuGbTw3V8ojPGjfh0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1778979600&signature=f81c864def360885ea4b30e57ab41ba177799424d5c12f7aa10a2779039c72ee&req=diMmFM93nYNfWfMW1HO4zdAIBAeoBXUMItXtKivx6ZFXOBngrg9WhJTprjCO%0AyV3eRIj9uhjPXWZu8gg%3D%0A)
 
  
 
-When SSO is required, users must use the “Continue with SSO” option to access Claude/Console. When SSO is not required, they will have the option to choose “Continue with SSO” or “Continue with email.”
+When SSO is required, users must use the “Continue with SSO” option to log in to their Claude/Console accounts. When SSO is not required, they will have the option to choose “Continue with SSO” or “Continue with email.”
 
  
 
@@ -121,21 +120,21 @@ Before you decide, review **[What happens to existing users when SSO is enabled]
 
 ## Step 5: Choose your provisioning approach
 
-Once SSO is enabled, you need to decide how users will be added to your organization. This is controlled by the **Provisioning mode** setting in the **Global access settings / Organization access **section of your Identity and access settings.
+Once SSO is enabled, you need to decide how users will be added to your organization by choosing an option within the **User provisioning **section of your **Organization and access** settings.
 
  
 
-**Manual** is the default. Users are added and removed directly in your Claude or Console settings. Please see **[Managing members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)**.
+**Invite only** is the default. Users are added and removed directly in your Claude or Console settings. Please see **[Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)**.
 
  
 
-**JIT (Just-in-Time) provisioning** can be enabled to automatically provision users when they first log in. By default, users assigned to your Anthropic IdP app first login, they will receive the User role. This is the simplest automated option and requires no additional configuration beyond selecting it.
+**Just-in-Time (JIT) provisioning** can be enabled to automatically provision users when they first log in. By default, users assigned to your Anthropic IdP app first login, they will receive the User role. This is the simplest automated option and requires no additional configuration beyond selecting "Just-in-Time (JIT)" as your provisioning mode.
 
  
 
 ### Enable group mappings - when to configure additional provisioning features
 
-For more control over provisioning, see **[Setting up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)**. You'll want to review this guide if you need to:
+For more control over provisioning, see **[Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)**. You'll want to review this guide if you need to:
 
 - Automatically assign roles or seat tiers based on IdP group membership.
 - Use SCIM directory sync for automatic provisioning and deprovisioning.
@@ -151,16 +150,14 @@ For more control over provisioning, see **[Setting up JIT or SCIM provisioning](
 
 When your Identity Provider's X.509 signing certificate expires or is rotated, you'll need to update it in Claude or Console to maintain SSO functionality.
 
-1. Navigate to your Identity and access settings:
-1. - For Team and Enterprise plans: **[claude.ai/admin-settings/identity](http://claude.ai/admin-settings/identity)**
-- For Claude Console: **[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**
-2. In the **Global access settings / Organization access** section, click “Manage SSO.”
-3. Select “Metadata Config.”
-4. Click “Edit.”
-5. Update your certificate information and save your changes.
-6. Click "Test sign-in" on the same page to confirm everything is working.
-
-## 
+1. Navigate to your settings:
+1. - For Team and Enterprise plans: **[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**
+- For Claude Console: **[platform.claude.com/settings/identity](http://platform.claude.com/settings/organization)**
+2. In the **Authentication **section, click “Manage SSO.”
+3. Find the **Metadata configuration** section and click “Edit.”
+4. Update your certificate information and save your changes.
+5. Click "Test sign-in" on the same page to confirm everything is working.
+5.  
 
 ---
 
@@ -172,7 +169,7 @@ You can toggle **Require SSO for Claude **or **Require SSO for Console** off at 
 
  
 
-To fully disconnect SSO, click “Manage SSO” then “Reset.” This will end all users’ sessions and require them to sign back in via email login link.
+To fully disconnect SSO, click “Manage SSO” then “Reset connection.” This will end all users’ sessions and require them to sign back in via email login link.
 
 
 ---
@@ -180,7 +177,7 @@ To fully disconnect SSO, click “Manage SSO” then “Reset.” This will end 
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
-- [Enforce network-level access control with Tenant Restrictions](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
-- [Switching to a different Identity Provider (IdP)](https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp)
-- [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
+- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
+- [Okta SSO setup](https://support.claude.com/en/articles/13917894-okta-sso-setup)
+- [Ping Identity SSO setup](https://support.claude.com/en/articles/13917902-ping-identity-sso-setup)
+- [SSO login](https://support.claude.com/en/articles/14503613-sso-login)

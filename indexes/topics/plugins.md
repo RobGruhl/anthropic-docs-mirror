@@ -1,18 +1,19 @@
 # Plugins Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Plugins across all sources (7 documents)
+Documents related to Plugins across all sources (10 documents)
 ---
-## Platform Documentation (platform.claude.com) (1)
-- [agent-sdk__plugins](/platform-docs/developer-guide/agent-sdk__plugins.md)
-
-## Claude Code Documentation (4)
+## Claude Code Documentation (6)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
+- [Plugin Dependencies](/code-claude-docs/plugin-dependencies.md)
 - [Plugin Marketplaces](/code-claude-docs/plugin-marketplaces.md)
+- [Plugins](/code-claude-docs/agent-sdk__plugins.md)
 - [Plugins](/code-claude-docs/plugins.md)
 - [Plugins Reference](/code-claude-docs/plugins-reference.md)
 
-## Claude.com Blog Posts (2)
+## Claude.com Blog Posts (4)
+- [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
+- [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
 

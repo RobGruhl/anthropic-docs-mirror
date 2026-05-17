@@ -1,6 +1,6 @@
 # How to use Claude in your preferred language
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -35,7 +35,7 @@
 ## Related Articles
 
 - [What are some things I can use Claude for?](https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for)
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Using dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
-- [Using the 10x Genomics Extension in Claude](https://support.claude.com/en/articles/12614803-using-the-10x-genomics-extension-in-claude)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

@@ -1,6 +1,6 @@
 # Using the Blackbaud Connector in Claude
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -164,8 +164,8 @@ Find all constituents named Williams in our database.
 
 ## Related Articles
 
-- [Using the Synapse.org connector in Claude](https://support.claude.com/en/articles/12614798-using-the-synapse-org-connector-in-claude)
-- [Using the Benchling Connector in Claude](https://support.claude.com/en/articles/12614810-using-the-benchling-connector-in-claude)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [Using the Benevity Connector in Claude](https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude)
 - [Using the Candid Connector in Claude](https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude)
-- [Using interactive connectors in Claude](https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude)
+- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)

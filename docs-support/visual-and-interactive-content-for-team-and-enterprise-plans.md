@@ -1,6 +1,6 @@
-# Visual and interactive content for Team and Enterprise plans
+# Use visual and interactive content on Team and Enterprise plans
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -31,8 +31,8 @@ Interactive inputs don't involve third-party services.
 
 ## Related Articles
 
+- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
-- [Using Google Drive Cataloging on the Enterprise Plan](https://support.claude.com/en/articles/11088779-using-google-drive-cataloging-on-the-enterprise-plan)
-- [Using Enterprise Search](https://support.claude.com/en/articles/12489464-using-enterprise-search)
-- [Cowork for Team and Enterprise plans](https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans)
+- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Visual and interactive content](https://support.claude.com/en/articles/13641943-visual-and-interactive-content)

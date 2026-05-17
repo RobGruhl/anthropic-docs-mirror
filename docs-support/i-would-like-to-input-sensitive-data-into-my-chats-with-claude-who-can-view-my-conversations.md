@@ -1,6 +1,6 @@
 # I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -53,7 +53,7 @@ You can adjust your privacy and model improvement settings at any time by follow
 ## Related Articles
 
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
-- [Using Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)
+- [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
 - [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
-- [Use Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel)
-- [Using Claude in Chrome Safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

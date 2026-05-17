@@ -90,6 +90,14 @@ List Workspaces
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/list

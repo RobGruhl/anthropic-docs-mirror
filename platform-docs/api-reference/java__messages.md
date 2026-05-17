@@ -22,6 +22,8 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+    Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
     Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
   - `List<MessageParam> messages`
@@ -150,13 +152,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -180,13 +192,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -356,13 +382,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -386,13 +422,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -575,13 +625,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -605,13 +665,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -843,13 +917,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -873,13 +957,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -1015,13 +1113,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -1045,13 +1153,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -1199,13 +1321,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long documentIndex`
 
                               - `Optional<String> documentTitle`
 
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `JsonValue; type "content_block_location"constant`
 
@@ -1229,13 +1361,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long searchResultIndex`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `String source`
 
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Optional<String> title`
 
@@ -1693,13 +1839,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long documentIndex`
 
                               - `Optional<String> documentTitle`
 
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `JsonValue; type "content_block_location"constant`
 
@@ -1723,13 +1879,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long searchResultIndex`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `String source`
 
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Optional<String> title`
 
@@ -2422,13 +2592,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -2452,13 +2632,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -3395,6 +3589,87 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
         When true, guarantees schema validation on tool names and inputs
 
+    - `class WebFetchTool20260309:`
+
+      Web fetch tool with use_cache parameter for bypassing cached content.
+
+      - `JsonValue; name "web_fetch"constant`
+
+        Name of the tool.
+
+        This is how the tool will be called by the model and in `tool_use` blocks.
+
+        - `WEB_FETCH("web_fetch")`
+
+      - `JsonValue; type "web_fetch_20260309"constant`
+
+        - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+      - `Optional<List<AllowedCaller>> allowedCallers`
+
+        - `DIRECT("direct")`
+
+        - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+        - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+      - `Optional<List<String>> allowedDomains`
+
+        List of domains to allow fetching from
+
+      - `Optional<List<String>> blockedDomains`
+
+        List of domains to block fetching from
+
+      - `Optional<CacheControlEphemeral> cacheControl`
+
+        Create a cache control breakpoint at this content block.
+
+        - `JsonValue; type "ephemeral"constant`
+
+          - `EPHEMERAL("ephemeral")`
+
+        - `Optional<Ttl> ttl`
+
+          The time-to-live for the cache control breakpoint.
+
+          This may be one the following values:
+
+          - `5m`: 5 minutes
+          - `1h`: 1 hour
+
+          Defaults to `5m`.
+
+          - `TTL_5M("5m")`
+
+          - `TTL_1H("1h")`
+
+      - `Optional<CitationsConfigParam> citations`
+
+        Citations configuration for fetched documents. Citations are disabled by default.
+
+        - `Optional<Boolean> enabled`
+
+      - `Optional<Boolean> deferLoading`
+
+        If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+      - `Optional<Long> maxContentTokens`
+
+        Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+      - `Optional<Long> maxUses`
+
+        Maximum number of times the tool can be used in the API request.
+
+      - `Optional<Boolean> strict`
+
+        When true, guarantees schema validation on tool names and inputs
+
+      - `Optional<Boolean> useCache`
+
+        Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
     - `class ToolSearchToolBm25_20251119:`
 
       - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -3511,15 +3786,15 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-    Recommended for advanced use cases only. You usually only need to use `temperature`.
+    Recommended for advanced use cases only.
 
   - `Optional<Double> topP`
 
     Use nucleus sampling.
 
-    In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+    In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-    Recommended for advanced use cases only. You usually only need to use `temperature`.
+    Recommended for advanced use cases only.
 
 ### Returns
 
@@ -3620,15 +3895,25 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `Optional<String> fileId`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -3652,13 +3937,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -4234,9 +4533,17 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+    - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+      Frontier intelligence for long-running agents and coding
+
+    - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+      New class of intelligence, strongest in coding and cybersecurity
+
     - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-      Most intelligent model for building agents and coding
+      Frontier intelligence for long-running agents and coding
 
     - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -4301,6 +4608,30 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
     This will always be `"assistant"`.
 
     - `ASSISTANT("assistant")`
+
+  - `Optional<RefusalStopDetails> stopDetails`
+
+    Structured information about a refusal.
+
+    - `Optional<Category> category`
+
+      The policy category that triggered the refusal.
+
+      `null` when the refusal doesn't map to a named category.
+
+      - `CYBER("cyber")`
+
+      - `BIO("bio")`
+
+    - `Optional<String> explanation`
+
+      Human-readable explanation of the refusal.
+
+      This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+    - `JsonValue; type "refusal"constant`
+
+      - `REFUSAL("refusal")`
 
   - `Optional<StopReason> stopReason`
 
@@ -4578,13 +4909,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -4608,13 +4949,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -4784,13 +5139,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -4814,13 +5179,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -5003,13 +5382,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -5033,13 +5422,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -5271,13 +5674,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -5301,13 +5714,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -5443,13 +5870,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -5473,13 +5910,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -5627,13 +6078,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long documentIndex`
 
                               - `Optional<String> documentTitle`
 
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `JsonValue; type "content_block_location"constant`
 
@@ -5657,13 +6118,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long searchResultIndex`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `String source`
 
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Optional<String> title`
 
@@ -6121,13 +6596,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long documentIndex`
 
                               - `Optional<String> documentTitle`
 
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `JsonValue; type "content_block_location"constant`
 
@@ -6151,13 +6636,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `String citedText`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `long endBlockIndex`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `long searchResultIndex`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `String source`
 
                               - `long startBlockIndex`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Optional<String> title`
 
@@ -6820,13 +7319,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -6850,13 +7359,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -7785,6 +8308,87 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
         When true, guarantees schema validation on tool names and inputs
 
+    - `class WebFetchTool20260309:`
+
+      Web fetch tool with use_cache parameter for bypassing cached content.
+
+      - `JsonValue; name "web_fetch"constant`
+
+        Name of the tool.
+
+        This is how the tool will be called by the model and in `tool_use` blocks.
+
+        - `WEB_FETCH("web_fetch")`
+
+      - `JsonValue; type "web_fetch_20260309"constant`
+
+        - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+      - `Optional<List<AllowedCaller>> allowedCallers`
+
+        - `DIRECT("direct")`
+
+        - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+        - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+      - `Optional<List<String>> allowedDomains`
+
+        List of domains to allow fetching from
+
+      - `Optional<List<String>> blockedDomains`
+
+        List of domains to block fetching from
+
+      - `Optional<CacheControlEphemeral> cacheControl`
+
+        Create a cache control breakpoint at this content block.
+
+        - `JsonValue; type "ephemeral"constant`
+
+          - `EPHEMERAL("ephemeral")`
+
+        - `Optional<Ttl> ttl`
+
+          The time-to-live for the cache control breakpoint.
+
+          This may be one the following values:
+
+          - `5m`: 5 minutes
+          - `1h`: 1 hour
+
+          Defaults to `5m`.
+
+          - `TTL_5M("5m")`
+
+          - `TTL_1H("1h")`
+
+      - `Optional<CitationsConfigParam> citations`
+
+        Citations configuration for fetched documents. Citations are disabled by default.
+
+        - `Optional<Boolean> enabled`
+
+      - `Optional<Boolean> deferLoading`
+
+        If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+      - `Optional<Long> maxContentTokens`
+
+        Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+      - `Optional<Long> maxUses`
+
+        Maximum number of times the tool can be used in the API request.
+
+      - `Optional<Boolean> strict`
+
+        When true, guarantees schema validation on tool names and inputs
+
+      - `Optional<Boolean> useCache`
+
+        Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
     - `class ToolSearchToolBm25_20251119:`
 
       - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -8285,15 +8889,25 @@ public final class Main {
 
   - `String citedText`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `long documentIndex`
 
   - `Optional<String> documentTitle`
 
   - `long endBlockIndex`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `Optional<String> fileId`
 
   - `long startBlockIndex`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `JsonValue; type "content_block_location"constant`
 
@@ -8305,13 +8919,23 @@ public final class Main {
 
   - `String citedText`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `long documentIndex`
 
   - `Optional<String> documentTitle`
 
   - `long endBlockIndex`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `long startBlockIndex`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `JsonValue; type "content_block_location"constant`
 
@@ -8361,13 +8985,27 @@ public final class Main {
 
   - `String citedText`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `long endBlockIndex`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `long searchResultIndex`
+
+    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+    Counted separately from `document_index`; server-side web search results are not included in this count.
 
   - `String source`
 
   - `long startBlockIndex`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Optional<String> title`
 
@@ -8449,15 +9087,25 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long documentIndex`
 
       - `Optional<String> documentTitle`
 
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `Optional<String> fileId`
 
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `JsonValue; type "content_block_location"constant`
 
@@ -8481,13 +9129,27 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `long searchResultIndex`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `String source`
 
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Optional<String> title`
 
@@ -8505,13 +9167,27 @@ public final class Main {
 
   - `String citedText`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `long endBlockIndex`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `long searchResultIndex`
+
+    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+    Counted separately from `document_index`; server-side web search results are not included in this count.
 
   - `String source`
 
   - `long startBlockIndex`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Optional<String> title`
 
@@ -9225,15 +9901,25 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long documentIndex`
 
         - `Optional<String> documentTitle`
 
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `Optional<String> fileId`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `JsonValue; type "content_block_location"constant`
 
@@ -9257,13 +9943,27 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long searchResultIndex`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `String source`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Optional<String> title`
 
@@ -9908,13 +10608,23 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long documentIndex`
 
         - `Optional<String> documentTitle`
 
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `JsonValue; type "content_block_location"constant`
 
@@ -9938,13 +10648,27 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long searchResultIndex`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `String source`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Optional<String> title`
 
@@ -10114,13 +10838,23 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -10144,13 +10878,27 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -10333,13 +11081,23 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -10363,13 +11121,27 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -10601,13 +11373,23 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -10631,13 +11413,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -10773,13 +11569,23 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -10803,13 +11609,27 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -10957,13 +11777,23 @@ public final class Main {
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -10987,13 +11817,27 @@ public final class Main {
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -11451,13 +12295,23 @@ public final class Main {
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -11481,13 +12335,27 @@ public final class Main {
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -12132,13 +13000,23 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -12162,13 +13040,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -12310,13 +13202,23 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long documentIndex`
 
         - `Optional<String> documentTitle`
 
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `JsonValue; type "content_block_location"constant`
 
@@ -12340,13 +13242,27 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long searchResultIndex`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `String source`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Optional<String> title`
 
@@ -12572,13 +13488,23 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -12602,13 +13528,27 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -13005,15 +13945,25 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `Optional<String> fileId`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -13037,13 +13987,27 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -13619,9 +14583,17 @@ public final class Main {
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+    - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+      Frontier intelligence for long-running agents and coding
+
+    - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+      New class of intelligence, strongest in coding and cybersecurity
+
     - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-      Most intelligent model for building agents and coding
+      Frontier intelligence for long-running agents and coding
 
     - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -13686,6 +14658,30 @@ public final class Main {
     This will always be `"assistant"`.
 
     - `ASSISTANT("assistant")`
+
+  - `Optional<RefusalStopDetails> stopDetails`
+
+    Structured information about a refusal.
+
+    - `Optional<Category> category`
+
+      The policy category that triggered the refusal.
+
+      `null` when the refusal doesn't map to a named category.
+
+      - `CYBER("cyber")`
+
+      - `BIO("bio")`
+
+    - `Optional<String> explanation`
+
+      Human-readable explanation of the refusal.
+
+      This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+    - `JsonValue; type "refusal"constant`
+
+      - `REFUSAL("refusal")`
 
   - `Optional<StopReason> stopReason`
 
@@ -14645,6 +15641,87 @@ public final class Main {
 
       When true, guarantees schema validation on tool names and inputs
 
+  - `class WebFetchTool20260309:`
+
+    Web fetch tool with use_cache parameter for bypassing cached content.
+
+    - `JsonValue; name "web_fetch"constant`
+
+      Name of the tool.
+
+      This is how the tool will be called by the model and in `tool_use` blocks.
+
+      - `WEB_FETCH("web_fetch")`
+
+    - `JsonValue; type "web_fetch_20260309"constant`
+
+      - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+    - `Optional<List<AllowedCaller>> allowedCallers`
+
+      - `DIRECT("direct")`
+
+      - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+      - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+    - `Optional<List<String>> allowedDomains`
+
+      List of domains to allow fetching from
+
+    - `Optional<List<String>> blockedDomains`
+
+      List of domains to block fetching from
+
+    - `Optional<CacheControlEphemeral> cacheControl`
+
+      Create a cache control breakpoint at this content block.
+
+      - `JsonValue; type "ephemeral"constant`
+
+        - `EPHEMERAL("ephemeral")`
+
+      - `Optional<Ttl> ttl`
+
+        The time-to-live for the cache control breakpoint.
+
+        This may be one the following values:
+
+        - `5m`: 5 minutes
+        - `1h`: 1 hour
+
+        Defaults to `5m`.
+
+        - `TTL_5M("5m")`
+
+        - `TTL_1H("1h")`
+
+    - `Optional<CitationsConfigParam> citations`
+
+      Citations configuration for fetched documents. Citations are disabled by default.
+
+      - `Optional<Boolean> enabled`
+
+    - `Optional<Boolean> deferLoading`
+
+      If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+    - `Optional<Long> maxContentTokens`
+
+      Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+    - `Optional<Long> maxUses`
+
+      Maximum number of times the tool can be used in the API request.
+
+    - `Optional<Boolean> strict`
+
+      When true, guarantees schema validation on tool names and inputs
+
+    - `Optional<Boolean> useCache`
+
+      Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
   - `class ToolSearchToolBm25_20251119:`
 
     - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -14866,13 +15943,23 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -14896,13 +15983,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -15072,13 +16173,23 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -15102,13 +16213,27 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -15291,13 +16416,23 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -15321,13 +16456,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -15559,13 +16708,23 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -15589,13 +16748,27 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -15731,13 +16904,23 @@ public final class Main {
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -15761,13 +16944,27 @@ public final class Main {
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -15915,13 +17112,23 @@ public final class Main {
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long documentIndex`
 
                             - `Optional<String> documentTitle`
 
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `JsonValue; type "content_block_location"constant`
 
@@ -15945,13 +17152,27 @@ public final class Main {
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long searchResultIndex`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `String source`
 
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Optional<String> title`
 
@@ -16409,13 +17630,23 @@ public final class Main {
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long documentIndex`
 
                             - `Optional<String> documentTitle`
 
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `JsonValue; type "content_block_location"constant`
 
@@ -16439,13 +17670,27 @@ public final class Main {
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long searchResultIndex`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `String source`
 
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Optional<String> title`
 
@@ -17035,6 +18280,82 @@ public final class Main {
 
     This should be a uuid, hash value, or other opaque identifier. Anthropic may use this id to help detect abuse. Do not include any identifying information such as name, email address, or phone number.
 
+### Model
+
+- `enum Model:`
+
+  The model that will complete your prompt.
+
+  See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+  - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+    Frontier intelligence for long-running agents and coding
+
+  - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+    New class of intelligence, strongest in coding and cybersecurity
+
+  - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
+
+    Frontier intelligence for long-running agents and coding
+
+  - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
+
+    Best combination of speed and intelligence
+
+  - `CLAUDE_HAIKU_4_5("claude-haiku-4-5")`
+
+    Fastest model with near-frontier intelligence
+
+  - `CLAUDE_HAIKU_4_5_20251001("claude-haiku-4-5-20251001")`
+
+    Fastest model with near-frontier intelligence
+
+  - `CLAUDE_OPUS_4_5("claude-opus-4-5")`
+
+    Premium model combining maximum intelligence with practical performance
+
+  - `CLAUDE_OPUS_4_5_20251101("claude-opus-4-5-20251101")`
+
+    Premium model combining maximum intelligence with practical performance
+
+  - `CLAUDE_SONNET_4_5("claude-sonnet-4-5")`
+
+    High-performance model for agents and coding
+
+  - `CLAUDE_SONNET_4_5_20250929("claude-sonnet-4-5-20250929")`
+
+    High-performance model for agents and coding
+
+  - `CLAUDE_OPUS_4_1("claude-opus-4-1")`
+
+    Exceptional model for specialized complex tasks
+
+  - `CLAUDE_OPUS_4_1_20250805("claude-opus-4-1-20250805")`
+
+    Exceptional model for specialized complex tasks
+
+  - `CLAUDE_OPUS_4_0("claude-opus-4-0")`
+
+    Powerful model for complex tasks
+
+  - `CLAUDE_OPUS_4_20250514("claude-opus-4-20250514")`
+
+    Powerful model for complex tasks
+
+  - `CLAUDE_SONNET_4_0("claude-sonnet-4-0")`
+
+    High-performance model with extended thinking
+
+  - `CLAUDE_SONNET_4_20250514("claude-sonnet-4-20250514")`
+
+    High-performance model with extended thinking
+
+  - `CLAUDE_3_HAIKU_20240307("claude-3-haiku-20240307")`
+
+    Fast and cost-effective model
+
 ### Output Config
 
 - `class OutputConfig:`
@@ -17048,6 +18369,8 @@ public final class Main {
     - `MEDIUM("medium")`
 
     - `HIGH("high")`
+
+    - `XHIGH("xhigh")`
 
     - `MAX("max")`
 
@@ -17141,15 +18464,25 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long documentIndex`
 
         - `Optional<String> documentTitle`
 
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `Optional<String> fileId`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `JsonValue; type "content_block_location"constant`
 
@@ -17173,13 +18506,27 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long searchResultIndex`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `String source`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Optional<String> title`
 
@@ -17273,15 +18620,25 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `Optional<String> fileId`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -17305,13 +18662,27 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -17401,15 +18772,25 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long documentIndex`
 
           - `Optional<String> documentTitle`
 
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `Optional<String> fileId`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `JsonValue; type "content_block_location"constant`
 
@@ -17433,13 +18814,27 @@ public final class Main {
 
           - `String citedText`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `long endBlockIndex`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `long searchResultIndex`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `String source`
 
           - `long startBlockIndex`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Optional<String> title`
 
@@ -18043,6 +19438,30 @@ public final class Main {
 
         The time at which the container will expire.
 
+    - `Optional<RefusalStopDetails> stopDetails`
+
+      Structured information about a refusal.
+
+      - `Optional<Category> category`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `CYBER("cyber")`
+
+        - `BIO("bio")`
+
+      - `Optional<String> explanation`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `JsonValue; type "refusal"constant`
+
+        - `REFUSAL("refusal")`
+
     - `Optional<StopReason> stopReason`
 
       - `END_TURN("end_turn")`
@@ -18204,15 +19623,25 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `Optional<String> fileId`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -18236,13 +19665,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -18818,9 +20261,17 @@ public final class Main {
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -18885,6 +20336,30 @@ public final class Main {
       This will always be `"assistant"`.
 
       - `ASSISTANT("assistant")`
+
+    - `Optional<RefusalStopDetails> stopDetails`
+
+      Structured information about a refusal.
+
+      - `Optional<Category> category`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `CYBER("cyber")`
+
+        - `BIO("bio")`
+
+      - `Optional<String> explanation`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `JsonValue; type "refusal"constant`
+
+        - `REFUSAL("refusal")`
 
     - `Optional<StopReason> stopReason`
 
@@ -19108,15 +20583,25 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `Optional<String> fileId`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -19140,13 +20625,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -19722,9 +21221,17 @@ public final class Main {
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -19789,6 +21296,30 @@ public final class Main {
         This will always be `"assistant"`.
 
         - `ASSISTANT("assistant")`
+
+      - `Optional<RefusalStopDetails> stopDetails`
+
+        Structured information about a refusal.
+
+        - `Optional<Category> category`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `CYBER("cyber")`
+
+          - `BIO("bio")`
+
+        - `Optional<String> explanation`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `JsonValue; type "refusal"constant`
+
+          - `REFUSAL("refusal")`
 
       - `Optional<StopReason> stopReason`
 
@@ -19917,6 +21448,30 @@ public final class Main {
 
           The time at which the container will expire.
 
+      - `Optional<RefusalStopDetails> stopDetails`
+
+        Structured information about a refusal.
+
+        - `Optional<Category> category`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `CYBER("cyber")`
+
+          - `BIO("bio")`
+
+        - `Optional<String> explanation`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `JsonValue; type "refusal"constant`
+
+          - `REFUSAL("refusal")`
+
       - `Optional<StopReason> stopReason`
 
         - `END_TURN("end_turn")`
@@ -20037,15 +21592,25 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `Optional<String> fileId`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -20069,13 +21634,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -20715,15 +22294,25 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `Optional<String> fileId`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -20747,13 +22336,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -20814,6 +22417,32 @@ public final class Main {
   - `JsonValue; type "redacted_thinking"constant`
 
     - `REDACTED_THINKING("redacted_thinking")`
+
+### Refusal Stop Details
+
+- `class RefusalStopDetails:`
+
+  Structured information about a refusal.
+
+  - `Optional<Category> category`
+
+    The policy category that triggered the refusal.
+
+    `null` when the refusal doesn't map to a named category.
+
+    - `CYBER("cyber")`
+
+    - `BIO("bio")`
+
+  - `Optional<String> explanation`
+
+    Human-readable explanation of the refusal.
+
+    This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+  - `JsonValue; type "refusal"constant`
+
+    - `REFUSAL("refusal")`
 
 ### Search Result Block Param
 
@@ -20888,13 +22517,23 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long documentIndex`
 
         - `Optional<String> documentTitle`
 
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `JsonValue; type "content_block_location"constant`
 
@@ -20918,13 +22557,27 @@ public final class Main {
 
         - `String citedText`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `long endBlockIndex`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `long searchResultIndex`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `String source`
 
         - `long startBlockIndex`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Optional<String> title`
 
@@ -21216,15 +22869,25 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long documentIndex`
 
       - `Optional<String> documentTitle`
 
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `Optional<String> fileId`
 
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `JsonValue; type "content_block_location"constant`
 
@@ -21248,13 +22911,27 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `long searchResultIndex`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `String source`
 
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Optional<String> title`
 
@@ -21339,13 +23016,23 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long documentIndex`
 
       - `Optional<String> documentTitle`
 
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `JsonValue; type "content_block_location"constant`
 
@@ -21369,13 +23056,27 @@ public final class Main {
 
       - `String citedText`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `long endBlockIndex`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `long searchResultIndex`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `String source`
 
       - `long startBlockIndex`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Optional<String> title`
 
@@ -21427,15 +23128,25 @@ public final class Main {
 
     - `String citedText`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `long documentIndex`
 
     - `Optional<String> documentTitle`
 
     - `long endBlockIndex`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `Optional<String> fileId`
 
     - `long startBlockIndex`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `JsonValue; type "content_block_location"constant`
 
@@ -21459,13 +23170,27 @@ public final class Main {
 
     - `String citedText`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `long endBlockIndex`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `long searchResultIndex`
+
+      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+      Counted separately from `document_index`; server-side web search results are not included in this count.
 
     - `String source`
 
     - `long startBlockIndex`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Optional<String> title`
 
@@ -21513,13 +23238,23 @@ public final class Main {
 
     - `String citedText`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `long documentIndex`
 
     - `Optional<String> documentTitle`
 
     - `long endBlockIndex`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `long startBlockIndex`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `JsonValue; type "content_block_location"constant`
 
@@ -21543,13 +23278,27 @@ public final class Main {
 
     - `String citedText`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `long endBlockIndex`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `long searchResultIndex`
+
+      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+      Counted separately from `document_index`; server-side web search results are not included in this count.
 
     - `String source`
 
     - `long startBlockIndex`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Optional<String> title`
 
@@ -21940,6 +23689,14 @@ public final class Main {
 
     - `ADAPTIVE("adaptive")`
 
+  - `Optional<Display> display`
+
+    Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+    - `SUMMARIZED("summarized")`
+
+    - `OMITTED("omitted")`
+
 ### Thinking Config Disabled
 
 - `class ThinkingConfigDisabled:`
@@ -21963,6 +23720,14 @@ public final class Main {
   - `JsonValue; type "enabled"constant`
 
     - `ENABLED("enabled")`
+
+  - `Optional<Display> display`
+
+    Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+    - `SUMMARIZED("summarized")`
+
+    - `OMITTED("omitted")`
 
 ### Thinking Config Param
 
@@ -21988,6 +23753,14 @@ public final class Main {
 
       - `ENABLED("enabled")`
 
+    - `Optional<Display> display`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `SUMMARIZED("summarized")`
+
+      - `OMITTED("omitted")`
+
   - `class ThinkingConfigDisabled:`
 
     - `JsonValue; type "disabled"constant`
@@ -21999,6 +23772,14 @@ public final class Main {
     - `JsonValue; type "adaptive"constant`
 
       - `ADAPTIVE("adaptive")`
+
+    - `Optional<Display> display`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `SUMMARIZED("summarized")`
+
+      - `OMITTED("omitted")`
 
 ### Thinking Delta
 
@@ -22421,13 +24202,23 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -22451,13 +24242,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -22593,13 +24398,23 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -22623,13 +24438,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -22777,13 +24606,23 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -22807,13 +24646,27 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -24337,6 +26190,87 @@ public final class Main {
 
       When true, guarantees schema validation on tool names and inputs
 
+  - `class WebFetchTool20260309:`
+
+    Web fetch tool with use_cache parameter for bypassing cached content.
+
+    - `JsonValue; name "web_fetch"constant`
+
+      Name of the tool.
+
+      This is how the tool will be called by the model and in `tool_use` blocks.
+
+      - `WEB_FETCH("web_fetch")`
+
+    - `JsonValue; type "web_fetch_20260309"constant`
+
+      - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+    - `Optional<List<AllowedCaller>> allowedCallers`
+
+      - `DIRECT("direct")`
+
+      - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+      - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+    - `Optional<List<String>> allowedDomains`
+
+      List of domains to allow fetching from
+
+    - `Optional<List<String>> blockedDomains`
+
+      List of domains to block fetching from
+
+    - `Optional<CacheControlEphemeral> cacheControl`
+
+      Create a cache control breakpoint at this content block.
+
+      - `JsonValue; type "ephemeral"constant`
+
+        - `EPHEMERAL("ephemeral")`
+
+      - `Optional<Ttl> ttl`
+
+        The time-to-live for the cache control breakpoint.
+
+        This may be one the following values:
+
+        - `5m`: 5 minutes
+        - `1h`: 1 hour
+
+        Defaults to `5m`.
+
+        - `TTL_5M("5m")`
+
+        - `TTL_1H("1h")`
+
+    - `Optional<CitationsConfigParam> citations`
+
+      Citations configuration for fetched documents. Citations are disabled by default.
+
+      - `Optional<Boolean> enabled`
+
+    - `Optional<Boolean> deferLoading`
+
+      If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+    - `Optional<Long> maxContentTokens`
+
+      Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+    - `Optional<Long> maxUses`
+
+      Maximum number of times the tool can be used in the API request.
+
+    - `Optional<Boolean> strict`
+
+      When true, guarantees schema validation on tool names and inputs
+
+    - `Optional<Boolean> useCache`
+
+      Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
   - `class ToolSearchToolBm25_20251119:`
 
     - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -24827,13 +26761,23 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -24857,13 +26801,27 @@ public final class Main {
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -25141,6 +27099,89 @@ public final class Main {
 
     When true, guarantees schema validation on tool names and inputs
 
+### Web Fetch Tool 20260309
+
+- `class WebFetchTool20260309:`
+
+  Web fetch tool with use_cache parameter for bypassing cached content.
+
+  - `JsonValue; name "web_fetch"constant`
+
+    Name of the tool.
+
+    This is how the tool will be called by the model and in `tool_use` blocks.
+
+    - `WEB_FETCH("web_fetch")`
+
+  - `JsonValue; type "web_fetch_20260309"constant`
+
+    - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+  - `Optional<List<AllowedCaller>> allowedCallers`
+
+    - `DIRECT("direct")`
+
+    - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+    - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+  - `Optional<List<String>> allowedDomains`
+
+    List of domains to allow fetching from
+
+  - `Optional<List<String>> blockedDomains`
+
+    List of domains to block fetching from
+
+  - `Optional<CacheControlEphemeral> cacheControl`
+
+    Create a cache control breakpoint at this content block.
+
+    - `JsonValue; type "ephemeral"constant`
+
+      - `EPHEMERAL("ephemeral")`
+
+    - `Optional<Ttl> ttl`
+
+      The time-to-live for the cache control breakpoint.
+
+      This may be one the following values:
+
+      - `5m`: 5 minutes
+      - `1h`: 1 hour
+
+      Defaults to `5m`.
+
+      - `TTL_5M("5m")`
+
+      - `TTL_1H("1h")`
+
+  - `Optional<CitationsConfigParam> citations`
+
+    Citations configuration for fetched documents. Citations are disabled by default.
+
+    - `Optional<Boolean> enabled`
+
+  - `Optional<Boolean> deferLoading`
+
+    If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+  - `Optional<Long> maxContentTokens`
+
+    Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+  - `Optional<Long> maxUses`
+
+    Maximum number of times the tool can be used in the API request.
+
+  - `Optional<Boolean> strict`
+
+    When true, guarantees schema validation on tool names and inputs
+
+  - `Optional<Boolean> useCache`
+
+    Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
 ### Web Fetch Tool Result Block
 
 - `class WebFetchToolResultBlock:`
@@ -25400,13 +27441,23 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long documentIndex`
 
                       - `Optional<String> documentTitle`
 
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `JsonValue; type "content_block_location"constant`
 
@@ -25430,13 +27481,27 @@ public final class Main {
 
                       - `String citedText`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `long endBlockIndex`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `long searchResultIndex`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `String source`
 
                       - `long startBlockIndex`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Optional<String> title`
 
@@ -26256,6 +28321,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+        Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
         Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
       - `List<MessageParam> messages`
@@ -26384,13 +28451,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long documentIndex`
 
                   - `Optional<String> documentTitle`
 
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `JsonValue; type "content_block_location"constant`
 
@@ -26414,13 +28491,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `String citedText`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `long endBlockIndex`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `long searchResultIndex`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `String source`
 
                   - `long startBlockIndex`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Optional<String> title`
 
@@ -26590,13 +28681,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long documentIndex`
 
                             - `Optional<String> documentTitle`
 
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `JsonValue; type "content_block_location"constant`
 
@@ -26620,13 +28721,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `String citedText`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `long endBlockIndex`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `long searchResultIndex`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `String source`
 
                             - `long startBlockIndex`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Optional<String> title`
 
@@ -26809,13 +28924,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long documentIndex`
 
                     - `Optional<String> documentTitle`
 
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonValue; type "content_block_location"constant`
 
@@ -26839,13 +28964,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `String citedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `long endBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `long searchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `String source`
 
                     - `long startBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Optional<String> title`
 
@@ -27077,13 +29216,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long documentIndex`
 
                         - `Optional<String> documentTitle`
 
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `JsonValue; type "content_block_location"constant`
 
@@ -27107,13 +29256,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `String citedText`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `long endBlockIndex`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `long searchResultIndex`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `String source`
 
                         - `long startBlockIndex`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Optional<String> title`
 
@@ -27249,13 +29412,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `String citedText`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `long documentIndex`
 
                           - `Optional<String> documentTitle`
 
                           - `long endBlockIndex`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `long startBlockIndex`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `JsonValue; type "content_block_location"constant`
 
@@ -27279,13 +29452,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `String citedText`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `long endBlockIndex`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `long searchResultIndex`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `String source`
 
                           - `long startBlockIndex`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `Optional<String> title`
 
@@ -27433,13 +29620,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long documentIndex`
 
                                   - `Optional<String> documentTitle`
 
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `JsonValue; type "content_block_location"constant`
 
@@ -27463,13 +29660,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long searchResultIndex`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `String source`
 
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Optional<String> title`
 
@@ -27927,13 +30138,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long documentIndex`
 
                                   - `Optional<String> documentTitle`
 
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `JsonValue; type "content_block_location"constant`
 
@@ -27957,13 +30178,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `String citedText`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `long endBlockIndex`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `long searchResultIndex`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `String source`
 
                                   - `long startBlockIndex`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Optional<String> title`
 
@@ -28541,9 +30776,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -28655,6 +30898,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `MEDIUM("medium")`
 
           - `HIGH("high")`
+
+          - `XHIGH("xhigh")`
 
           - `MAX("max")`
 
@@ -28771,13 +31016,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -28801,13 +31056,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -28845,6 +31114,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `ENABLED("enabled")`
 
+          - `Optional<Display> display`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `SUMMARIZED("summarized")`
+
+            - `OMITTED("omitted")`
+
         - `class ThinkingConfigDisabled:`
 
           - `JsonValue; type "disabled"constant`
@@ -28856,6 +31133,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `JsonValue; type "adaptive"constant`
 
             - `ADAPTIVE("adaptive")`
+
+          - `Optional<Display> display`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `SUMMARIZED("summarized")`
+
+            - `OMITTED("omitted")`
 
       - `Optional<ToolChoice> toolChoice`
 
@@ -29824,6 +32109,87 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             When true, guarantees schema validation on tool names and inputs
 
+        - `class WebFetchTool20260309:`
+
+          Web fetch tool with use_cache parameter for bypassing cached content.
+
+          - `JsonValue; name "web_fetch"constant`
+
+            Name of the tool.
+
+            This is how the tool will be called by the model and in `tool_use` blocks.
+
+            - `WEB_FETCH("web_fetch")`
+
+          - `JsonValue; type "web_fetch_20260309"constant`
+
+            - `WEB_FETCH_20260309("web_fetch_20260309")`
+
+          - `Optional<List<AllowedCaller>> allowedCallers`
+
+            - `DIRECT("direct")`
+
+            - `CODE_EXECUTION_20250825("code_execution_20250825")`
+
+            - `CODE_EXECUTION_20260120("code_execution_20260120")`
+
+          - `Optional<List<String>> allowedDomains`
+
+            List of domains to allow fetching from
+
+          - `Optional<List<String>> blockedDomains`
+
+            List of domains to block fetching from
+
+          - `Optional<CacheControlEphemeral> cacheControl`
+
+            Create a cache control breakpoint at this content block.
+
+            - `JsonValue; type "ephemeral"constant`
+
+              - `EPHEMERAL("ephemeral")`
+
+            - `Optional<Ttl> ttl`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `TTL_5M("5m")`
+
+              - `TTL_1H("1h")`
+
+          - `Optional<CitationsConfigParam> citations`
+
+            Citations configuration for fetched documents. Citations are disabled by default.
+
+            - `Optional<Boolean> enabled`
+
+          - `Optional<Boolean> deferLoading`
+
+            If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+          - `Optional<Long> maxContentTokens`
+
+            Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+          - `Optional<Long> maxUses`
+
+            Maximum number of times the tool can be used in the API request.
+
+          - `Optional<Boolean> strict`
+
+            When true, guarantees schema validation on tool names and inputs
+
+          - `Optional<Boolean> useCache`
+
+            Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
         - `class ToolSearchToolBm25_20251119:`
 
           - `JsonValue; name "tool_search_tool_bm25"constant`
@@ -29940,15 +32306,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
       - `Optional<Double> topP`
 
         Use nucleus sampling.
 
-        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
 ### Returns
 
@@ -30665,15 +33031,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `Optional<String> fileId`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -30697,13 +33073,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -31279,9 +33669,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -31346,6 +33744,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `ASSISTANT("assistant")`
+
+        - `Optional<RefusalStopDetails> stopDetails`
+
+          Structured information about a refusal.
+
+          - `Optional<Category> category`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `CYBER("cyber")`
+
+            - `BIO("bio")`
+
+          - `Optional<String> explanation`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `JsonValue; type "refusal"constant`
+
+            - `REFUSAL("refusal")`
 
         - `Optional<StopReason> stopReason`
 
@@ -31911,15 +34333,25 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long documentIndex`
 
                 - `Optional<String> documentTitle`
 
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `Optional<String> fileId`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonValue; type "content_block_location"constant`
 
@@ -31943,13 +34375,27 @@ public final class Main {
 
                 - `String citedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `long endBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `long searchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `String source`
 
                 - `long startBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Optional<String> title`
 
@@ -32525,9 +34971,17 @@ public final class Main {
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -32592,6 +35046,30 @@ public final class Main {
           This will always be `"assistant"`.
 
           - `ASSISTANT("assistant")`
+
+        - `Optional<RefusalStopDetails> stopDetails`
+
+          Structured information about a refusal.
+
+          - `Optional<Category> category`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `CYBER("cyber")`
+
+            - `BIO("bio")`
+
+          - `Optional<String> explanation`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `JsonValue; type "refusal"constant`
+
+            - `REFUSAL("refusal")`
 
         - `Optional<StopReason> stopReason`
 
@@ -32943,15 +35421,25 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long documentIndex`
 
               - `Optional<String> documentTitle`
 
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `Optional<String> fileId`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `JsonValue; type "content_block_location"constant`
 
@@ -32975,13 +35463,27 @@ public final class Main {
 
               - `String citedText`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `long endBlockIndex`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `long searchResultIndex`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `String source`
 
               - `long startBlockIndex`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Optional<String> title`
 
@@ -33557,9 +36059,17 @@ public final class Main {
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -33624,6 +36134,30 @@ public final class Main {
         This will always be `"assistant"`.
 
         - `ASSISTANT("assistant")`
+
+      - `Optional<RefusalStopDetails> stopDetails`
+
+        Structured information about a refusal.
+
+        - `Optional<Category> category`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `CYBER("cyber")`
+
+          - `BIO("bio")`
+
+        - `Optional<String> explanation`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `JsonValue; type "refusal"constant`
+
+          - `REFUSAL("refusal")`
 
       - `Optional<StopReason> stopReason`
 
@@ -33937,15 +36471,25 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long documentIndex`
 
             - `Optional<String> documentTitle`
 
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `Optional<String> fileId`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `JsonValue; type "content_block_location"constant`
 
@@ -33969,13 +36513,27 @@ public final class Main {
 
             - `String citedText`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `long endBlockIndex`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `long searchResultIndex`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `String source`
 
             - `long startBlockIndex`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Optional<String> title`
 
@@ -34551,9 +37109,17 @@ public final class Main {
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `CLAUDE_OPUS_4_7("claude-opus-4-7")`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `CLAUDE_MYTHOS_PREVIEW("claude-mythos-preview")`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `CLAUDE_OPUS_4_6("claude-opus-4-6")`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `CLAUDE_SONNET_4_6("claude-sonnet-4-6")`
 
@@ -34618,6 +37184,30 @@ public final class Main {
       This will always be `"assistant"`.
 
       - `ASSISTANT("assistant")`
+
+    - `Optional<RefusalStopDetails> stopDetails`
+
+      Structured information about a refusal.
+
+      - `Optional<Category> category`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `CYBER("cyber")`
+
+        - `BIO("bio")`
+
+      - `Optional<String> explanation`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `JsonValue; type "refusal"constant`
+
+        - `REFUSAL("refusal")`
 
     - `Optional<StopReason> stopReason`
 

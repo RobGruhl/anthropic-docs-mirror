@@ -24,15 +24,23 @@ Future models and features will not be compatible with Text Completions. See our
 
   See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-  - `:"claude-opus-4-6" | :"claude-sonnet-4-6" | :"claude-haiku-4-5" | 12 more`
+  - `:"claude-opus-4-7" | :"claude-mythos-preview" | :"claude-opus-4-6" | 14 more`
 
     The model that will complete your prompt.
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+    - `:"claude-opus-4-7"`
+
+      Frontier intelligence for long-running agents and coding
+
+    - `:"claude-mythos-preview"`
+
+      New class of intelligence, strongest in coding and cybersecurity
+
     - `:"claude-opus-4-6"`
 
-      Most intelligent model for building agents and coding
+      Frontier intelligence for long-running agents and coding
 
     - `:"claude-sonnet-4-6"`
 
@@ -150,23 +158,23 @@ Future models and features will not be compatible with Text Completions. See our
 
   Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-  Recommended for advanced use cases only. You usually only need to use `temperature`.
+  Recommended for advanced use cases only.
 
 - `top_p: Float`
 
   Use nucleus sampling.
 
-  In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+  In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-  Recommended for advanced use cases only. You usually only need to use `temperature`.
+  Recommended for advanced use cases only.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -208,6 +216,14 @@ Future models and features will not be compatible with Text Completions. See our
 
     - `:"fast-mode-2026-02-01"`
 
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `class Completion`
@@ -228,15 +244,23 @@ Future models and features will not be compatible with Text Completions. See our
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-    - `:"claude-opus-4-6" | :"claude-sonnet-4-6" | :"claude-haiku-4-5" | 12 more`
+    - `:"claude-opus-4-7" | :"claude-mythos-preview" | :"claude-opus-4-6" | 14 more`
 
       The model that will complete your prompt.
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `:"claude-opus-4-7"`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `:"claude-mythos-preview"`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `:"claude-opus-4-6"`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `:"claude-sonnet-4-6"`
 
@@ -322,7 +346,7 @@ anthropic = Anthropic::Client.new(api_key: "my-anthropic-api-key")
 
 completion = anthropic.completions.create(
   max_tokens_to_sample: 256,
-  model: :"claude-opus-4-6",
+  model: :"claude-opus-4-7",
   prompt: "\n\nHuman: Hello, world!\n\nAssistant:"
 )
 

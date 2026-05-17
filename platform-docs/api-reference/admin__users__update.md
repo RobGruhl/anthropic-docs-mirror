@@ -12,7 +12,7 @@ Update User
 
 ### Body Parameters
 
-- `role: "user" or "developer" or "billing" or 2 more`
+- `role: "user" or "developer" or "billing" or "claude_code_user"`
 
   New role for the User. Cannot be "admin".
 
@@ -23,8 +23,6 @@ Update User
   - `"billing"`
 
   - `"claude_code_user"`
-
-  - `"managed"`
 
 ### Returns
 
@@ -46,7 +44,7 @@ Update User
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -60,8 +58,6 @@ Update User
 
     - `"claude_code_user"`
 
-    - `"managed"`
-
   - `type: "user"`
 
     Object type.
@@ -69,6 +65,18 @@ Update User
     For Users, this is always `"user"`.
 
     - `"user"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "role": "user"
+        }'
+```
 
 
 ---

@@ -1,6 +1,6 @@
 # What is the Pro plan?
 
-*Updated over 2 weeks ago*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -8,7 +8,7 @@ The Pro plan is a paid plan for our Claude chat experience. It is currently avai
 
  
 
-## Key Benefits
+## Key benefits
 
 The benefits of the Pro plan are:
 
@@ -18,6 +18,7 @@ The benefits of the Pro plan are:
 - Ability to choose another model with the **[model selector](https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with)**.
 - Access to **[projects and knowledge bases](https://support.claude.com/en/articles/9517075-what-are-projects)**.
 - **[Claude Code access](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)**
+- **[Cowork access](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)**
 
 Learn how to **[sign up for the Pro plan](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)**.
 
@@ -37,7 +38,11 @@ You can choose to save with an annual subscription plan. Annual subscriptions ar
 
  
 
-Visit [claude.ai/upgrade](https://claude.ai/upgrade) or check your mobile app store for current pricing in your region.
+Visit **[claude.ai/upgrade](https://claude.ai/upgrade)** or check your mobile app store for current pricing in your region.
+
+ 
+
+Price and plans are subject to change at Anthropic's discretion.
 
  
 
@@ -86,8 +91,8 @@ Pro subscribers can also enable extra usage to continue working with Claude beyo
 
 ## Related Articles
 
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)

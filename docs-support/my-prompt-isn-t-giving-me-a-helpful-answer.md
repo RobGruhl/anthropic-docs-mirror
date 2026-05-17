@@ -1,6 +1,6 @@
 # My prompt isn’t giving me a helpful answer.
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -16,8 +16,8 @@ Claude works best when you give it clear and specific instructions. When craftin
 
 ## Related Articles
 
-- [Introduction to Prompt Design](https://support.claude.com/en/articles/7996853-introduction-to-prompt-design)
+- [Introduction to prompt design](https://support.claude.com/en/articles/7996853-introduction-to-prompt-design)
 - [Claude’s response to my prompt is too brief.](https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief)
-- [Prompting Strategies for Financial Analysis](https://support.claude.com/en/articles/12220277-prompting-strategies-for-financial-analysis)
-- [Create professional results across tools with Claude Sonnet 4.5](https://support.claude.com/en/articles/12439380-create-professional-results-across-tools-with-claude-sonnet-4-5)
 - [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
+- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Give Claude context: CLAUDE.md and better prompts](https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts)

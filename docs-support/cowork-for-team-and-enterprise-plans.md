@@ -1,28 +1,22 @@
-# Cowork for Team and Enterprise plans
+# Use Claude Cowork on Team and Enterprise plans
 
-*Updated today*
+*Updated this week*
 
 ---
 
-This article explains important limitations and considerations for Team and Enterprise organizations using Cowork during the research preview period.
+This article explains important limitations and considerations for Team and Enterprise organizations using Claude Cowork.
 
  
 
-## Availability
+## Availability 
 
-Cowork is available as a research preview for paid plans (Pro, Max, Team, Enterprise) on:
+Claude Cowork is available as a research preview for paid plans (Pro, Max, Team, Enterprise) on:
 
 - **Claude Desktop for macOS**
 - - **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download
-- **Claude Desktop for Windows** (x64 only)
-
-**Windows users:** Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](https://claude.com/download)**.
-
- 
-
-Windows arm64 is not supported.
-
- 
+- **Claude Desktop for Windows**
+- - **Windows users:** Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](https://claude.com/download)**.
+   
 
 ---
 
@@ -30,7 +24,7 @@ Windows arm64 is not supported.
 
 ## Admin controls
 
-Cowork will be on by default when the research preview launches, but organization owners can manually disable it.
+Claude Cowork will be on by default when the research preview launches, but organization owners can manually disable it.
 
  
 
@@ -49,11 +43,7 @@ Plugins are included with Cowork and controlled by the same admin toggle—there
 
  
 
-When Cowork is enabled, users can:
-
-- Access pre-installed knowledge work plugins (e.g., sales, legal, data analysis, finance, productivity)
-- Install additional plugins from Anthropic's public repository
-- Customize existing plugins or create new ones locally on their machines
+For details on what members can do with plugins, see **[Use plugins in Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)**.
 
  
 
@@ -61,21 +51,58 @@ When Cowork is enabled, users can:
 
  
 
-## Compliance and monitoring limitations
+## Projects
 
-Cowork currently lacks several enterprise monitoring and compliance capabilities. These limitations are important to understand before enabling Cowork for your organization.
+Projects in Cowork let users organize tasks into dedicated workspaces with their own files, links, instructions, and memory. Projects are available to all Cowork users. There are no separate admin controls for projects, so owners cannot restrict project creation at the organization level at this time.
 
  
 
-### No audit logging or data exports
+Project data (tasks and memory) is stored locally on each user's computer, consistent with how other Cowork data is handled. For full details, see **[Organize your tasks with projects in Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork).**
 
-Cowork activity is **not captured** in:
+ 
 
-- Audit Logs
-- Compliance API
-- Data Exports
+---
 
-Security teams will have no visibility into Cowork usage through standard enterprise monitoring tools. If your organization requires audit trails for compliance purposes, do not enable Cowork for regulated workloads.
+ 
+
+## Manage plugins for your organization
+
+Owners can create plugin marketplaces to distribute curated plugins across their organization. This gives you control over which plugins your team members see and use in Cowork.
+
+- **Installed by default** — Automatically added for everyone in your organization. Members can uninstall if they choose.
+- **Available** — Appears in the plugin catalog for members to install on their own.
+- **Required** — Automatically installed for all members. Members cannot uninstall it.
+- **Not available** — Hidden from the catalog. Useful for staging or deprecating plugins.
+
+On Enterprise plans, admins can also override these preferences for specific groups—for example, auto-installing a plugin for one team while hiding it from everyone else. For details, see **[Manage Cowork plugins for your organization](https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization)**.
+
+ 
+
+---
+
+ 
+
+## Company branding 
+
+Cowork now surfaces your organization's branding, including a redesigned home screen tailored to your team. Team and Enterprise owners can configure branding within **Organization settings**.
+
+ 
+
+---
+
+ 
+
+## Compliance and monitoring 
+
+Team and Enterprise owners can stream Cowork events to your SIEM and observability tools through OpenTelemetry. This gives security teams visibility into tool calls, file access, human approval decisions, and more—though it doesn't replace audit logging for compliance purposes. For setup, supported events, and security considerations, see **[Monitor Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-cowork-activity-with-opentelemetry).**
+
+ 
+
+You can also refer to **[Monitoring](https://claude.com/docs/cowork/monitoring)** in our Claude Docs for more information.
+
+ 
+
+Cowork activity is **not captured** in the Compliance API at this time.
 
  
 
@@ -85,13 +112,13 @@ Cowork stores conversation history locally on users' computers. This data is not
 
  
 
-### No role-based access controls
+### Access controls
 
-Cowork access cannot be selectively limited by user, role, or team within your organization. The admin toggle is organization-wide only—either all users have access or none do.
+The Cowork toggle is organization-wide—either all members have access or none do. On Enterprise plans, admins who need per-team control can use **[groups and custom roles](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)** to selectively enable Cowork for specific users or teams. Team plans don't have access to these controls, so Cowork remains all-or-nothing.
 
  
 
-If you need to selectively enable Cowork for specific users or teams, contact your account representative.
+Within Cowork, admins have more granular control over plugins. You can set per-plugin installation preferences to control which plugins are auto-installed, available for self-service, or hidden from your organization's catalog. On Enterprise plans, these preferences can also be customized per group. See **[Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization)** for details.
 
  
 
@@ -112,9 +139,9 @@ Users should:
 - Avoid granting access to files with sensitive information
 - Monitor Claude for suspicious actions
 - Limit browser and web access to trusted sources
-- Report suspicious behavior immediately
+- Report suspicious behavior immediately 
 
-For detailed guidance, see **[Using Cowork safely](https://support.claude.com/en/articles/13364135-using-cowork-safely)**.
+For detailed guidance, see **[Use Cowork safely](https://support.claude.com/en/articles/13364135-use-cowork-safely)**.
 
  
 
@@ -122,13 +149,17 @@ For detailed guidance, see **[Using Cowork safely](https://support.claude.com/en
 
 Cowork respects your organization's current network egress permissions. Review your network access settings in **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)** under **Code execution** before enabling Cowork.
 
+ 
+
+Network settings are applied when a new Cowork session is created. If you change the network access mode or add domains to the allowlist while a conversation is already active, those changes will not take effect in that session. Start a new conversation for the updated settings to apply.
+
 
 ---
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
-- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
-- [Getting started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)
-- [Using Cowork safely](https://support.claude.com/en/articles/13364135-using-cowork-safely)
-- [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Manage Claude Cowork plugins for your organization](https://support.claude.com/en/articles/13837433-manage-claude-cowork-plugins-for-your-organization)
+- [Use plugins in Claude Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork)
+- [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)

@@ -1,6 +1,6 @@
 # Claude Code on the web
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -20,7 +20,7 @@ Claude Code for web enables asynchronous development workflows. With Claude Code
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1771884000&signature=59cc695dfeedf804c3762c2abcbad52e60bb39182a8666ea1b241e4cd7508fdd&req=dScvEM16m4BaXvMW1HO4zR8%2BD1KISpl27XrRA1YwWGt688mT0hF27f4q%2BdDI%0A6OgUfAPNQj%2F1mOa1A7I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1778979600&signature=04ff3a61586fc567fc193106604ea922e327e6b2e114f3f8a3bc820aacdaaa69&req=dScvEM16m4BaXvMW1HO4zR8%2BD1uJRZRw7XrRA1YwWGuLsoNZ0QwOAuh96fAh%0AqA%2F6EHvoCKAXwK853zA%3D%0A)
 
  
 
@@ -34,7 +34,7 @@ When you start a task, Claude Code on the web creates an isolated virtual machin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1771884000&signature=d99d5c23c8efd55a97285c884e8d7488eb34b3b1b78947e4c45e262040123fd6&req=dScvEM16m4BaUfMW1HO4zcR0opc8h%2B3A7DtpMiX%2FBYlne3m%2F0RbrGqf56MEG%0AxR4TCg3iYyTXygxmrFs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1778979600&signature=bc8725dabbb7b8d92f2a3cfb1f5ca476e6a25ffb015e3aefe95e5706a741cbaf&req=dScvEM16m4BaUfMW1HO4zcR0op49iODG7DtpMiX%2FBYnkmEIg0bm7%2FlwcIHrI%0ABirSlnjbFvN2bd8%2F%2BEY%3D%0A)
 
  
 
@@ -46,7 +46,7 @@ Once the environment is ready, Claude begins working on your task. Claude reads 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1771884000&signature=70a4a87cf17c8f92c6e003bce27b7baa0f26f1b921293959f7e04f5cc0296fcf&req=dScvEM16m4BaX%2FMW1HO4zVbcQ2KL68DOUQl3YqgIJdbOKJggOtPZpFD1orzh%0AUrtg%2FXhXiLPshQ5Tj90%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1778979600&signature=608d1f7daa4c9d5c28e2b5777d635b02d803910c4e7c5d713c970a16fa9a052d&req=dScvEM16m4BaX%2FMW1HO4zVbcQ2uK5M3IUQl3YqgIJdbs1lHc2LPdyoyyriXk%0AtYR9w8ExzwIlsFpVofs%3D%0A)
 
  
 
@@ -177,8 +177,8 @@ Ensure all tests still pass.
 
 ## Related Articles
 
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
-- [Automated Security Reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code)
-- [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Managing API key environment variables in Claude Code](https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code)
+- [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
+- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
+- [Claude Code communications kit](https://support.claude.com/en/articles/14555877-claude-code-communications-kit)

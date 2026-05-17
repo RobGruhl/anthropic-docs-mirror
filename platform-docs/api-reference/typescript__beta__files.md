@@ -22,7 +22,7 @@ Upload File
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -64,6 +64,14 @@ Upload File
 
       - `"fast-mode-2026-02-01"`
 
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `FileMetadata`
@@ -102,9 +110,24 @@ Upload File
 
     Whether the file can be downloaded.
 
+  - `scope?: BetaFileScope | null`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: string`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: "session"`
+
+      The type of scope (e.g., `"session"`).
+
+      - `"session"`
+
 ### Example
 
 ```typescript
+import fs from 'fs';
 import Anthropic from '@anthropic-ai/sdk';
 
 const client = new Anthropic({
@@ -142,13 +165,17 @@ List Files
 
     Defaults to `20`. Ranges from `1` to `1000`.
 
+  - `scope_id?: string`
+
+    Query param: Filter by scope ID. Only returns files associated with the specified scope (e.g., a session ID).
+
   - `betas?: Array<AnthropicBeta>`
 
     Header param: Optional header to specify the beta version(s) you want to use.
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -190,6 +217,14 @@ List Files
 
       - `"fast-mode-2026-02-01"`
 
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `FileMetadata`
@@ -227,6 +262,20 @@ List Files
   - `downloadable?: boolean`
 
     Whether the file can be downloaded.
+
+  - `scope?: BetaFileScope | null`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: string`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: "session"`
+
+      The type of scope (e.g., `"session"`).
+
+      - `"session"`
 
 ### Example
 
@@ -265,7 +314,7 @@ Download File
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -306,6 +355,14 @@ Download File
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -350,7 +407,7 @@ Get File Metadata
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -391,6 +448,14 @@ Get File Metadata
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -430,6 +495,20 @@ Get File Metadata
 
     Whether the file can be downloaded.
 
+  - `scope?: BetaFileScope | null`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: string`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: "session"`
+
+      The type of scope (e.g., `"session"`).
+
+      - `"session"`
+
 ### Example
 
 ```typescript
@@ -466,7 +545,7 @@ Delete File
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -508,6 +587,14 @@ Delete File
 
       - `"fast-mode-2026-02-01"`
 
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `DeletedFile`
@@ -539,6 +626,20 @@ console.log(deletedFile.id);
 ```
 
 ## Domain Types
+
+### Beta File Scope
+
+- `BetaFileScope`
+
+  - `id: string`
+
+    The ID of the scoping resource (e.g., the session ID).
+
+  - `type: "session"`
+
+    The type of scope (e.g., `"session"`).
+
+    - `"session"`
 
 ### Deleted File
 
@@ -593,6 +694,20 @@ console.log(deletedFile.id);
   - `downloadable?: boolean`
 
     Whether the file can be downloaded.
+
+  - `scope?: BetaFileScope | null`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: string`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: "session"`
+
+      The type of scope (e.g., `"session"`).
+
+      - `"session"`
 
 
 ---

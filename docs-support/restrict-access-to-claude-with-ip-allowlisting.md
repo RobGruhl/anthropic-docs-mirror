@@ -1,6 +1,6 @@
 # Restrict access to Claude with IP allowlisting
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -29,8 +29,8 @@ When a request originates from an IP address that’s not in your allowlist, acc
 
 ## Related Articles
 
-- [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [Enabling and using the desktop extension allowlist](https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist)
+- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
+- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)

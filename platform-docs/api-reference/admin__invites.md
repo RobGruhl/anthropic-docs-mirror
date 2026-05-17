@@ -12,7 +12,7 @@ Create Invite
 
   Email of the User.
 
-- `role: "user" or "developer" or "billing" or 2 more`
+- `role: "user" or "developer" or "billing" or "claude_code_user"`
 
   Role for the invited User. Cannot be "admin".
 
@@ -23,8 +23,6 @@ Create Invite
   - `"billing"`
 
   - `"claude_code_user"`
-
-  - `"managed"`
 
 ### Returns
 
@@ -46,7 +44,7 @@ Create Invite
 
     RFC 3339 datetime string indicating when the Invite was created.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -59,8 +57,6 @@ Create Invite
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `status: "accepted" or "expired" or "deleted" or "pending"`
 
@@ -81,6 +77,19 @@ Create Invite
     For Invites, this is always `"invite"`.
 
     - `"invite"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/invites \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "email": "user@emaildomain.com",
+          "role": "user"
+        }'
+```
 
 ## Retrieve
 
@@ -114,7 +123,7 @@ Get Invite
 
     RFC 3339 datetime string indicating when the Invite was created.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -127,8 +136,6 @@ Get Invite
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `status: "accepted" or "expired" or "deleted" or "pending"`
 
@@ -149,6 +156,14 @@ Get Invite
     For Invites, this is always `"invite"`.
 
     - `"invite"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## List
 
@@ -192,7 +207,7 @@ List Invites
 
     RFC 3339 datetime string indicating when the Invite was created.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -205,8 +220,6 @@ List Invites
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `status: "accepted" or "expired" or "deleted" or "pending"`
 
@@ -240,6 +253,14 @@ List Invites
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/invites \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Delete
 
 **delete** `/v1/organizations/invites/{invite_id}`
@@ -266,6 +287,15 @@ Delete Invite
 
   - `"invite_deleted"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Domain Types
 
 ### Invite
@@ -288,7 +318,7 @@ Delete Invite
 
     RFC 3339 datetime string indicating when the Invite was created.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -301,8 +331,6 @@ Delete Invite
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `status: "accepted" or "expired" or "deleted" or "pending"`
 
@@ -323,6 +351,22 @@ Delete Invite
     For Invites, this is always `"invite"`.
 
     - `"invite"`
+
+### Invite Delete Response
+
+- `InviteDeleteResponse = object { id, type }`
+
+  - `id: string`
+
+    ID of the Invite.
+
+  - `type: "invite_deleted"`
+
+    Deleted object type.
+
+    For Invites, this is always `"invite_deleted"`.
+
+    - `"invite_deleted"`
 
 
 ---

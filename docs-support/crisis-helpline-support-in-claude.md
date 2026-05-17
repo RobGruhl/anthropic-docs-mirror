@@ -1,6 +1,6 @@
 # Crisis Helpline Support in Claude
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -166,6 +166,6 @@ We work with ThroughLine, an organization that curates and maintains a global di
 
 - [I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?](https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)
+- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)

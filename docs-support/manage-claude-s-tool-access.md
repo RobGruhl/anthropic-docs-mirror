@@ -1,6 +1,6 @@
 # Manage Claude’s tool access
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -65,15 +65,9 @@ Choose from three options:
 You can set your tool access mode per conversation by following these steps:
 
 1. Open a chat with Claude.
-2. Click the “+”** **button in the lower left corner of your chat, or use the slash (/) command to open the menu.
+2. Click the “+”** **button in the lower left corner of your chat, or type "/" to open the menu.
 3. Mouse over “Connectors,” then “Tool access.”
-4. Select your preferred mode from the three options:
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2062847798/7b7024a080e9849c91eec49ec064/c8350f49-d811-499b-9de9-2bd40c4e1f05?expires=1771884000&signature=ee085f03c10ef254ba40c48b45392c398bdceb832d3abadf6a09b6f2f934ec6e&req=diAhFMF6moZWUfMW1HO4zVWOdEzzfbWqT22%2B0MBiHdt%2FJZwJ34ckYtY7Sxua%0AOBpF2s8CqC5mxglqBlE%3D%0A)
-
- 
-
- 
+4. Select your preferred mode from the three options.  
 
 Your selection only applies to that conversation. You can change it at any time.
 
@@ -100,8 +94,8 @@ In “On demand” mode, Claude searches for the right tool before using it. Thi
 
 ## Related Articles
 
-- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
-- [Use the Connectors Directory to extend Claude’s capabilities](https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities)
-- [Getting Started with Claude for Life Sciences](https://support.claude.com/en/articles/12614768-getting-started-with-claude-for-life-sciences)
-- [Using interactive connectors in Claude](https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude)
-- [Use Claude in PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)
+- [Troubleshoot Claude error messages](https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages)
+- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)

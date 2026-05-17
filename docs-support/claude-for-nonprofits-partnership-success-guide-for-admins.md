@@ -1,6 +1,6 @@
 # Claude for Nonprofits Partnership Success Guide for Admins
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -114,8 +114,8 @@ Remember, there's no "right" timeline for implementation. Whether you're moving 
 
 ## Related Articles
 
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
-- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
 - [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [Claude for Nonprofits Partnership Guide for All Users](https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
+- [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
+- [Claude Design admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans)

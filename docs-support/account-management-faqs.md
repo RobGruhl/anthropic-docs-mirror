@@ -1,6 +1,6 @@
 # Account management FAQs
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1771884000&signature=f9f3ba00033f9298cc09e46e6d6bd23930a5781939ea26b34ceb8db639ae6f9f&req=diAiFcF5nolaW%2FMW1HO4zUrhGeqQYQwakeFUnrkrQZjwUrrrX7OQpz8vncTw%0ArCrcay%2BF9Tf%2F2bURaUk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1778979600&signature=c6149d6a6dbc8ccaee68eff217e071d1b11aa070d5608271606a9c00284f67f8&req=diAiFcF5nolaW%2FMW1HO4zUrhGeORbgEckeFUnrkrQZh7Etnxb%2FGSa36O4r%2Fi%0Ax55wdIE%2BwgO82mDP7U4%3D%0A)
 
   
 
@@ -65,8 +65,8 @@ While the account creator must use a business email address, you can add public 
 
 ## Related Articles
 
-- [Can individuals with Pro or Max plan accounts migrate them to Team or Enterprise plan organizations?](https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations)
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
-- [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
+- [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
+- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)

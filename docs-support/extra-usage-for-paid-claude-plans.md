@@ -1,6 +1,6 @@
-# Extra usage for paid Claude plans
+# Manage extra usage for paid Claude plans
 
-*Updated this week*
+*Updated yesterday*
 
 ---
 
@@ -37,7 +37,7 @@ When you reach your plan’s usage limit with extra usage enabled:
 
 To enable extra usage on your paid Claude plan:
 
-1. Navigate to [Settings > Usage](https://claude.ai/settings/usage) in your Claude account.
+1. Navigate to **[Settings > Usage](https://claude.ai/settings/usage)** in your Claude account.
 2. Locate the **Extra usage** section.
 3. Click "Enable" to turn on extra usage.
 4. Set up your payment method if not already configured.
@@ -49,7 +49,7 @@ To enable extra usage on your paid Claude plan:
 7. You’ll then need to prepay to cover usage beyond your plan limits. Click “Add funds,” enter the amount you want to purchase in the modal, then click “Purchase.”
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1771884000&signature=613eec5d4eb568f18f2c0e89c25ae6fc4267bdfdbc4472ab95bbb1c1da620a18&req=dSgnE8F%2FlIZXXPMW1HO4zYj2DhORrfQ4opE7m38YdfeQLYQe%2B0xXVCZF%2Fbdf%0Ab4ePKfoYaO2J9Qycoc8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1779019200&signature=c38630f4a763fb09d18e7e3b871f441df2edf2a0163b16a50b8c5f9eecf6c99b&req=dSgnE8F%2FlIZXXPMW3nq%2BgZ83oo%2BB5ctuDHv0xflyUDl3LYTbz0KlbDTVYWds%0A%2FXdWexkkskP%2F4GbL061GzmL%2FWnc%3D%0A)
 
  
 
@@ -75,7 +75,11 @@ Control your extra usage spending with:
 
 ## Extra usage pricing
 
-Extra usage is billed at standard API rates; see our [pricing page](https://claude.com/pricing#api) for details.
+Extra usage is billed at standard API rates; see our **[pricing page](https://claude.com/pricing#api)** for details.
+
+ 
+
+Price and plans are subject to change at Anthropic's discretion.
 
  
 
@@ -89,15 +93,16 @@ Extra usage is billed at standard API rates; see our [pricing page](https://clau
 
 Track your extra usage through:
 
-- **Usage dashboard:** View real-time consumption in [Settings > Usage](https://claude.ai/settings/usage).
+- **Usage dashboard:** View real-time consumption in **[Settings > Usage](https://claude.ai/settings/usage)**.
 - **Current spending:** Monitor your month-to-date extra usage costs.
 - **Usage history:** Review past consumption patterns to optimize future usage.
+-  
 
 ### Tips for cost-effective usage
 
 To manage extra usage costs while maintaining productivity:
 
-- **Choose efficient models:** Use our most efficient model - Haiku 4.5, or Sonnet 4.5 for most tasks. These provide excellent performance at lower token costs than Opus models.
+- **Choose efficient models:** Use our most efficient Haiku model, or the most recent Sonnet model for most tasks. These provide excellent performance at lower token costs than Opus models.
 - **Leverage your included usage first:** Plan intensive work sessions around your five-hour usage windows.
 - **Start new conversations:** Begin fresh chats for new topics to minimize the size of your context window.
 - **Use projects effectively:** Store frequently referenced documents in project knowledge instead of re-uploading.
@@ -119,7 +124,7 @@ Extra usage applies to both Claude conversations and Claude Code terminal usage.
 
 ### Research mode
 
-When using Research mode, extra usage rates apply once you exceed your included Max 20X limits. Research sessions may consume tokens more quickly due to multiple searches and comprehensive analysis.
+When using Research mode, extra usage rates apply once you exceed your plan's included limits. Research sessions may consume tokens more quickly due to multiple searches and comprehensive analysis.
 
  
 
@@ -137,7 +142,7 @@ Documents stored in project files count toward your context when used in convers
 
 ### Can I disable extra usage after enabling it?
 
-Yes, you can disable extra usage at any time through [Settings > Usage](https://claude.ai/settings/usage). Once disabled, you'll only have access to your plan's included usage.
+Yes, you can disable extra usage at any time through **[Settings > Usage](https://claude.ai/settings/usage)**. Once disabled, you'll only have access to your plan's included usage.
 
  
 
@@ -179,15 +184,15 @@ It's possible to slightly exceed your defined usage limit. Our system checks if 
 
 ### Does extra usage pricing differ from API pricing?
 
-No, extra usage is billed at the same [standard API rates](https://claude.com/pricing#api) shown in the pricing table above.
+No, extra usage is billed at **[standard API rates](https://claude.com/pricing#api)**.
 
 
 ---
 
 ## Related Articles
 
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)

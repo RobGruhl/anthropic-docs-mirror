@@ -24,6 +24,15 @@ Delete Invite
 
   - `"invite_deleted"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/invites/$INVITE_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/admin/invites/delete

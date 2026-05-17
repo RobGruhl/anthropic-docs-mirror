@@ -1,10 +1,14 @@
 # How large is the context window on paid Claude plans?
 
-*Updated today*
+*Updated this week*
 
 ---
 
-Claude’s context window size is 200K, meaning it can ingest 200K+ tokens (about 500 pages of text or more) when using a paid Claude plan.
+Sonnet 4.6, Opus 4.6, and Opus 4.7 support a 500K token context window on all paid plans when chatting with Claude. Outside of these models, Claude’s context window size is 200K, meaning it can ingest 200K+ tokens (about 500 pages of text or more) when using a paid Claude plan.
+
+ 
+
+When using Claude Code with a Pro, Max, Team, or Enterprise plan, Opus 4.7 supports a 1M token context window. Pro users need to enable extra usage to access Opus 4.7 in Claude Code. Sonnet 4.6 also supports a 1M context window for all paid Claude plans on Claude Code, but extra usage must be enabled to access it (except for usage-based Enterprise plans).
 
  
 
@@ -31,8 +35,8 @@ While context is managed automatically for most conversations, you can still opt
 
 ## Related Articles
 
+- [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
-- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
-- [Using Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
-- [Understanding Claude Error Messages](https://support.claude.com/en/articles/12466728-understanding-claude-error-messages)
+- [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

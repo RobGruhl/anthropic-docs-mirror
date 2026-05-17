@@ -1,6 +1,6 @@
 # How does Claude handle mathematical equations and calculations?
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -11,8 +11,8 @@ Claude can process mathematical equations and perform calculations, but complex 
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
-- [Create and edit files with Claude to eliminate hours of busy work](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)
-- [Claude for Financial Services Overview](https://support.claude.com/en/articles/12219959-claude-for-financial-services-overview)
-- [Use Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
+- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
+- [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
+- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
 - [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)

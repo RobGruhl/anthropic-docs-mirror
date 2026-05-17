@@ -1,6 +1,6 @@
 # Designated Point of Contact for Users in the EU
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -23,7 +23,8 @@ In accordance with our obligations under Article 24(2) of the DSA, Anthropic pub
 
 ## Related Articles
 
-- [Using S&P Global Data for Financial Analysis](https://support.claude.com/en/articles/12220135-using-s-p-global-data-for-financial-analysis)
-- [Financial Analysis Workflows with Claude](https://support.claude.com/en/articles/12220298-financial-analysis-workflows-with-claude)
-- [Use Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel)
+- [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
+- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
+- [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

@@ -1,6 +1,6 @@
 # Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -51,7 +51,7 @@ Anthropic will periodically audit organizations for compliance with these safegu
 ## Related Articles
 
 - [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
-- [Anthropic Connectors Directory FAQ](https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq)
+- [Anthropic's AI for Science Program](https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)

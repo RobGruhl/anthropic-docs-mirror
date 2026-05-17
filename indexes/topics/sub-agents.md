@@ -1,8 +1,9 @@
 # Sub Agents Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Sub Agents across all sources (1 documents)
+Documents related to Sub Agents across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
 - [Sub Agents](/code-claude-docs/sub-agents.md)
+- [Subagents](/code-claude-docs/agent-sdk__subagents.md)
 

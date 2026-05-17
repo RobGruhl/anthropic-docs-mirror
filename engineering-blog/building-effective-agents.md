@@ -218,7 +218,7 @@ Frameworks can help you get started quickly, but don't hesitate to reduce abstra
 ### Acknowledgements
 
 
-Written by Erik Schluntz and Barry Zhang. This work draws upon our experiences building agents at Anthropic and the valuable insights shared by our customers, for which we're deeply grateful.
+Written by Erik S. and Barry Zhang. This work draws upon our experiences building agents at Anthropic and the valuable insights shared by our customers, for which we're deeply grateful.
 
 
 ## Appendix 1: Agents in practice

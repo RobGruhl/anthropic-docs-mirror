@@ -1,6 +1,6 @@
 # Automated Security Reviews in Claude Code
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -113,8 +113,8 @@ For optimal results, we recommend running /security-review before committing sig
 
 ## Related Articles
 
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
-- [Using Claude in Chrome Safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
+- [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)

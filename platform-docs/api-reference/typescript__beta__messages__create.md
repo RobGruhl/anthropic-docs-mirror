@@ -22,6 +22,8 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+      Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
       Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
     - `messages: Array<BetaMessageParam>`
@@ -150,13 +152,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `cited_text: string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `document_index: number`
 
                 - `document_title: string | null`
 
                 - `end_block_index: number`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `start_block_index: number`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `type: "content_block_location"`
 
@@ -180,13 +192,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `cited_text: string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `end_block_index: number`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `search_result_index: number`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `source: string`
 
                 - `start_block_index: number`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `title: string | null`
 
@@ -364,13 +390,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                           - `cited_text: string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `document_index: number`
 
                           - `document_title: string | null`
 
                           - `end_block_index: number`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `start_block_index: number`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `type: "content_block_location"`
 
@@ -394,13 +430,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                           - `cited_text: string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `end_block_index: number`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `search_result_index: number`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `source: string`
 
                           - `start_block_index: number`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `title: string | null`
 
@@ -599,13 +649,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                   - `cited_text: string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `document_index: number`
 
                   - `document_title: string | null`
 
                   - `end_block_index: number`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `start_block_index: number`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `type: "content_block_location"`
 
@@ -629,13 +689,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                   - `cited_text: string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `end_block_index: number`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `search_result_index: number`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `source: string`
 
                   - `start_block_index: number`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `title: string | null`
 
@@ -867,13 +941,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `cited_text: string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `document_index: number`
 
                       - `document_title: string | null`
 
                       - `end_block_index: number`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `start_block_index: number`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `type: "content_block_location"`
 
@@ -897,13 +981,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `cited_text: string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `end_block_index: number`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `search_result_index: number`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `source: string`
 
                       - `start_block_index: number`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `title: string | null`
 
@@ -1047,13 +1145,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `cited_text: string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `document_index: number`
 
                         - `document_title: string | null`
 
                         - `end_block_index: number`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `start_block_index: number`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `type: "content_block_location"`
 
@@ -1077,13 +1185,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `cited_text: string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `end_block_index: number`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `search_result_index: number`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `source: string`
 
                         - `start_block_index: number`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `title: string | null`
 
@@ -1231,13 +1353,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                                 - `cited_text: string`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `document_index: number`
 
                                 - `document_title: string | null`
 
                                 - `end_block_index: number`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `start_block_index: number`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `type: "content_block_location"`
 
@@ -1261,13 +1393,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                                 - `cited_text: string`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `end_block_index: number`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `search_result_index: number`
+
+                                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                 - `source: string`
 
                                 - `start_block_index: number`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `title: string | null`
 
@@ -1436,7 +1582,9 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
             - `input: Record<string, unknown>`
 
-            - `name: "web_search" | "web_fetch" | "code_execution" | 4 more`
+            - `name: "advisor" | "web_search" | "web_fetch" | 5 more`
+
+              - `"advisor"`
 
               - `"web_search"`
 
@@ -1741,13 +1889,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                                 - `cited_text: string`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `document_index: number`
 
                                 - `document_title: string | null`
 
                                 - `end_block_index: number`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `start_block_index: number`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `type: "content_block_location"`
 
@@ -1771,13 +1929,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                                 - `cited_text: string`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `end_block_index: number`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `search_result_index: number`
+
+                                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                 - `source: string`
 
                                 - `start_block_index: number`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `title: string | null`
 
@@ -1975,6 +2147,77 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
                 - `type: "code_execution_20260120"`
 
                   - `"code_execution_20260120"`
+
+          - `BetaAdvisorToolResultBlockParam`
+
+            - `content: BetaAdvisorToolResultErrorParam | BetaAdvisorResultBlockParam | BetaAdvisorRedactedResultBlockParam`
+
+              - `BetaAdvisorToolResultErrorParam`
+
+                - `error_code: "max_uses_exceeded" | "prompt_too_long" | "too_many_requests" | 3 more`
+
+                  - `"max_uses_exceeded"`
+
+                  - `"prompt_too_long"`
+
+                  - `"too_many_requests"`
+
+                  - `"overloaded"`
+
+                  - `"unavailable"`
+
+                  - `"execution_time_exceeded"`
+
+                - `type: "advisor_tool_result_error"`
+
+                  - `"advisor_tool_result_error"`
+
+              - `BetaAdvisorResultBlockParam`
+
+                - `text: string`
+
+                - `type: "advisor_result"`
+
+                  - `"advisor_result"`
+
+              - `BetaAdvisorRedactedResultBlockParam`
+
+                - `encrypted_content: string`
+
+                  Opaque blob produced by a prior response; must be round-tripped verbatim.
+
+                - `type: "advisor_redacted_result"`
+
+                  - `"advisor_redacted_result"`
+
+            - `tool_use_id: string`
+
+            - `type: "advisor_tool_result"`
+
+              - `"advisor_tool_result"`
+
+            - `cache_control?: BetaCacheControlEphemeral | null`
+
+              Create a cache control breakpoint at this content block.
+
+              - `type: "ephemeral"`
+
+                - `"ephemeral"`
+
+              - `ttl?: "5m" | "1h"`
+
+                The time-to-live for the cache control breakpoint.
+
+                This may be one the following values:
+
+                - `5m`: 5 minutes
+                - `1h`: 1 hour
+
+                Defaults to `5m`.
+
+                - `"5m"`
+
+                - `"1h"`
 
           - `BetaCodeExecutionToolResultBlockParam`
 
@@ -2468,13 +2711,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `document_index: number`
 
                     - `document_title: string | null`
 
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `type: "content_block_location"`
 
@@ -2498,13 +2751,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `search_result_index: number`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `source: string`
 
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `title: string | null`
 
@@ -2589,6 +2856,10 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `"1h"`
 
+            - `encrypted_content?: string | null`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
+
       - `role: "user" | "assistant"`
 
         - `"user"`
@@ -2601,11 +2872,19 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-      - `"claude-opus-4-6" | "claude-sonnet-4-6" | "claude-haiku-4-5" | 12 more`
+      - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+        - `"claude-opus-4-7"`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `"claude-mythos-preview"`
+
+          New class of intelligence, strongest in coding and cybersecurity
 
         - `"claude-opus-4-6"`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `"claude-sonnet-4-6"`
 
@@ -2882,7 +3161,7 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       Body param: Configuration options for the model's output, such as the output format.
 
-      - `effort?: "low" | "medium" | "high" | "max" | null`
+      - `effort?: "low" | "medium" | "high" | 2 more | null`
 
         All possible effort levels.
 
@@ -2891,6 +3170,8 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
         - `"medium"`
 
         - `"high"`
+
+        - `"xhigh"`
 
         - `"max"`
 
@@ -2905,6 +3186,24 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
         - `type: "json_schema"`
 
           - `"json_schema"`
+
+      - `task_budget?: BetaTokenTaskBudget | null`
+
+        User-configurable total token budget across contexts.
+
+        - `total: number`
+
+          Total token budget across all contexts in the session.
+
+        - `type: "tokens"`
+
+          The budget type. Currently only 'tokens' is supported.
+
+          - `"tokens"`
+
+        - `remaining?: number | null`
+
+          Remaining tokens in the budget. Use this to track usage across contexts when implementing compaction client-side. Defaults to total if not provided.
 
     - `output_format?: BetaJSONOutputFormat | null`
 
@@ -3031,13 +3330,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
             - `cited_text: string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `document_index: number`
 
             - `document_title: string | null`
 
             - `end_block_index: number`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `start_block_index: number`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `type: "content_block_location"`
 
@@ -3061,13 +3370,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
             - `cited_text: string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `end_block_index: number`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `search_result_index: number`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `source: string`
 
             - `start_block_index: number`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `title: string | null`
 
@@ -3105,6 +3428,14 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `"enabled"`
 
+        - `display?: "summarized" | "omitted" | null`
+
+          Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+          - `"summarized"`
+
+          - `"omitted"`
+
       - `BetaThinkingConfigDisabled`
 
         - `type: "disabled"`
@@ -3116,6 +3447,14 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
         - `type: "adaptive"`
 
           - `"adaptive"`
+
+        - `display?: "summarized" | "omitted" | null`
+
+          Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+          - `"summarized"`
+
+          - `"omitted"`
 
     - `tool_choice?: BetaToolChoice`
 
@@ -4399,6 +4738,245 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           When true, guarantees schema validation on tool names and inputs
 
+      - `BetaWebFetchTool20260309`
+
+        Web fetch tool with use_cache parameter for bypassing cached content.
+
+        - `name: "web_fetch"`
+
+          Name of the tool.
+
+          This is how the tool will be called by the model and in `tool_use` blocks.
+
+          - `"web_fetch"`
+
+        - `type: "web_fetch_20260309"`
+
+          - `"web_fetch_20260309"`
+
+        - `allowed_callers?: Array<"direct" | "code_execution_20250825" | "code_execution_20260120">`
+
+          - `"direct"`
+
+          - `"code_execution_20250825"`
+
+          - `"code_execution_20260120"`
+
+        - `allowed_domains?: Array<string> | null`
+
+          List of domains to allow fetching from
+
+        - `blocked_domains?: Array<string> | null`
+
+          List of domains to block fetching from
+
+        - `cache_control?: BetaCacheControlEphemeral | null`
+
+          Create a cache control breakpoint at this content block.
+
+          - `type: "ephemeral"`
+
+            - `"ephemeral"`
+
+          - `ttl?: "5m" | "1h"`
+
+            The time-to-live for the cache control breakpoint.
+
+            This may be one the following values:
+
+            - `5m`: 5 minutes
+            - `1h`: 1 hour
+
+            Defaults to `5m`.
+
+            - `"5m"`
+
+            - `"1h"`
+
+        - `citations?: BetaCitationsConfigParam | null`
+
+          Citations configuration for fetched documents. Citations are disabled by default.
+
+          - `enabled?: boolean`
+
+        - `defer_loading?: boolean`
+
+          If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+        - `max_content_tokens?: number | null`
+
+          Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+        - `max_uses?: number | null`
+
+          Maximum number of times the tool can be used in the API request.
+
+        - `strict?: boolean`
+
+          When true, guarantees schema validation on tool names and inputs
+
+        - `use_cache?: boolean`
+
+          Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
+      - `BetaAdvisorTool20260301`
+
+        - `model: Model`
+
+          The model that will complete your prompt.
+
+          See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+          - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+            - `"claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
+            - `"claude-opus-4-6"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-sonnet-4-6"`
+
+              Best combination of speed and intelligence
+
+            - `"claude-haiku-4-5"`
+
+              Fastest model with near-frontier intelligence
+
+            - `"claude-haiku-4-5-20251001"`
+
+              Fastest model with near-frontier intelligence
+
+            - `"claude-opus-4-5"`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `"claude-opus-4-5-20251101"`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `"claude-sonnet-4-5"`
+
+              High-performance model for agents and coding
+
+            - `"claude-sonnet-4-5-20250929"`
+
+              High-performance model for agents and coding
+
+            - `"claude-opus-4-1"`
+
+              Exceptional model for specialized complex tasks
+
+            - `"claude-opus-4-1-20250805"`
+
+              Exceptional model for specialized complex tasks
+
+            - `"claude-opus-4-0"`
+
+              Powerful model for complex tasks
+
+            - `"claude-opus-4-20250514"`
+
+              Powerful model for complex tasks
+
+            - `"claude-sonnet-4-0"`
+
+              High-performance model with extended thinking
+
+            - `"claude-sonnet-4-20250514"`
+
+              High-performance model with extended thinking
+
+            - `"claude-3-haiku-20240307"`
+
+              Fast and cost-effective model
+
+          - `(string & {})`
+
+        - `name: "advisor"`
+
+          Name of the tool.
+
+          This is how the tool will be called by the model and in `tool_use` blocks.
+
+          - `"advisor"`
+
+        - `type: "advisor_20260301"`
+
+          - `"advisor_20260301"`
+
+        - `allowed_callers?: Array<"direct" | "code_execution_20250825" | "code_execution_20260120">`
+
+          - `"direct"`
+
+          - `"code_execution_20250825"`
+
+          - `"code_execution_20260120"`
+
+        - `cache_control?: BetaCacheControlEphemeral | null`
+
+          Create a cache control breakpoint at this content block.
+
+          - `type: "ephemeral"`
+
+            - `"ephemeral"`
+
+          - `ttl?: "5m" | "1h"`
+
+            The time-to-live for the cache control breakpoint.
+
+            This may be one the following values:
+
+            - `5m`: 5 minutes
+            - `1h`: 1 hour
+
+            Defaults to `5m`.
+
+            - `"5m"`
+
+            - `"1h"`
+
+        - `caching?: BetaCacheControlEphemeral | null`
+
+          Caching for the advisor's own prompt. When set, each advisor call writes a cache entry at the given TTL so subsequent calls in the same conversation read the stable prefix. When omitted, the advisor prompt is not cached.
+
+          - `type: "ephemeral"`
+
+            - `"ephemeral"`
+
+          - `ttl?: "5m" | "1h"`
+
+            The time-to-live for the cache control breakpoint.
+
+            This may be one the following values:
+
+            - `5m`: 5 minutes
+            - `1h`: 1 hour
+
+            Defaults to `5m`.
+
+            - `"5m"`
+
+            - `"1h"`
+
+        - `defer_loading?: boolean`
+
+          If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+        - `max_uses?: number | null`
+
+          Maximum number of times the tool can be used in the API request.
+
+        - `strict?: boolean`
+
+          When true, guarantees schema validation on tool names and inputs
+
       - `BetaToolSearchToolBm25_20251119`
 
         - `name: "tool_search_tool_bm25"`
@@ -4569,15 +5147,19 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-      Recommended for advanced use cases only. You usually only need to use `temperature`.
+      Recommended for advanced use cases only.
 
     - `top_p?: number`
 
       Body param: Use nucleus sampling.
 
-      In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+      In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-      Recommended for advanced use cases only. You usually only need to use `temperature`.
+      Recommended for advanced use cases only.
+
+    - `user_profile_id?: string | null`
+
+      Body param: The user profile ID to attribute this request to. Use when acting on behalf of a party other than your organization.
 
     - `betas?: Array<AnthropicBeta>`
 
@@ -4585,7 +5167,7 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       - `(string & {})`
 
-      - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+      - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
         - `"message-batches-2024-09-24"`
 
@@ -4626,6 +5208,14 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
         - `"skills-2025-10-02"`
 
         - `"fast-mode-2026-02-01"`
+
+        - `"output-300k-2026-03-24"`
+
+        - `"user-profiles-2026-03-24"`
+
+        - `"advisor-tool-2026-03-01"`
+
+        - `"managed-agents-2026-04-01"`
 
   - `MessageCreateParamsNonStreaming extends MessageCreateParamsBase`
 
@@ -4766,15 +5356,25 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `cited_text: string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `document_index: number`
 
           - `document_title: string | null`
 
           - `end_block_index: number`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `file_id: string | null`
 
           - `start_block_index: number`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `type: "content_block_location"`
 
@@ -4798,13 +5398,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `cited_text: string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `end_block_index: number`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `search_result_index: number`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `source: string`
 
           - `start_block_index: number`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `title: string | null`
 
@@ -4884,7 +5498,9 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       - `input: Record<string, unknown>`
 
-      - `name: "web_search" | "web_fetch" | "code_execution" | 4 more`
+      - `name: "advisor" | "web_search" | "web_fetch" | 5 more`
+
+        - `"advisor"`
 
         - `"web_search"`
 
@@ -5127,6 +5743,54 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
           - `type: "code_execution_20260120"`
 
             - `"code_execution_20260120"`
+
+    - `BetaAdvisorToolResultBlock`
+
+      - `content: BetaAdvisorToolResultError | BetaAdvisorResultBlock | BetaAdvisorRedactedResultBlock`
+
+        - `BetaAdvisorToolResultError`
+
+          - `error_code: "max_uses_exceeded" | "prompt_too_long" | "too_many_requests" | 3 more`
+
+            - `"max_uses_exceeded"`
+
+            - `"prompt_too_long"`
+
+            - `"too_many_requests"`
+
+            - `"overloaded"`
+
+            - `"unavailable"`
+
+            - `"execution_time_exceeded"`
+
+          - `type: "advisor_tool_result_error"`
+
+            - `"advisor_tool_result_error"`
+
+        - `BetaAdvisorResultBlock`
+
+          - `text: string`
+
+          - `type: "advisor_result"`
+
+            - `"advisor_result"`
+
+        - `BetaAdvisorRedactedResultBlock`
+
+          - `encrypted_content: string`
+
+            Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+          - `type: "advisor_redacted_result"`
+
+            - `"advisor_redacted_result"`
+
+      - `tool_use_id: string`
+
+      - `type: "advisor_tool_result"`
+
+        - `"advisor_tool_result"`
 
     - `BetaCodeExecutionToolResultBlock`
 
@@ -5436,15 +6100,25 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `cited_text: string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `document_index: number`
 
               - `document_title: string | null`
 
               - `end_block_index: number`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `file_id: string | null`
 
               - `start_block_index: number`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `type: "content_block_location"`
 
@@ -5468,13 +6142,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `cited_text: string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `end_block_index: number`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `search_result_index: number`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `source: string`
 
               - `start_block_index: number`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `title: string | null`
 
@@ -5517,6 +6205,10 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
       - `content: string | null`
 
         Summary of compacted content, or null if compaction failed
+
+      - `encrypted_content: string | null`
+
+        Opaque metadata from prior compaction, to be round-tripped verbatim
 
       - `type: "compaction"`
 
@@ -5570,11 +6262,19 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-    - `"claude-opus-4-6" | "claude-sonnet-4-6" | "claude-haiku-4-5" | 12 more`
+    - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+      - `"claude-opus-4-7"`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `"claude-mythos-preview"`
+
+        New class of intelligence, strongest in coding and cybersecurity
 
       - `"claude-opus-4-6"`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `"claude-sonnet-4-6"`
 
@@ -5641,6 +6341,30 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
     This will always be `"assistant"`.
 
     - `"assistant"`
+
+  - `stop_details: BetaRefusalStopDetails | null`
+
+    Structured information about a refusal.
+
+    - `category: "cyber" | "bio" | null`
+
+      The policy category that triggered the refusal.
+
+      `null` when the refusal doesn't map to a named category.
+
+      - `"cyber"`
+
+      - `"bio"`
+
+    - `explanation: string | null`
+
+      Human-readable explanation of the refusal.
+
+      This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+    - `type: "refusal"`
+
+      - `"refusal"`
 
   - `stop_reason: BetaStopReason | null`
 
@@ -5812,6 +6536,122 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
           Usage for a compaction iteration
 
           - `"compaction"`
+
+      - `BetaAdvisorMessageIterationUsage`
+
+        Token usage for an advisor sub-inference iteration.
+
+        - `cache_creation: BetaCacheCreation | null`
+
+          Breakdown of cached tokens by TTL
+
+          - `ephemeral_1h_input_tokens: number`
+
+            The number of input tokens used to create the 1 hour cache entry.
+
+          - `ephemeral_5m_input_tokens: number`
+
+            The number of input tokens used to create the 5 minute cache entry.
+
+        - `cache_creation_input_tokens: number`
+
+          The number of input tokens used to create the cache entry.
+
+        - `cache_read_input_tokens: number`
+
+          The number of input tokens read from the cache.
+
+        - `input_tokens: number`
+
+          The number of input tokens which were used.
+
+        - `model: Model`
+
+          The model that will complete your prompt.
+
+          See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+          - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+            - `"claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
+            - `"claude-opus-4-6"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-sonnet-4-6"`
+
+              Best combination of speed and intelligence
+
+            - `"claude-haiku-4-5"`
+
+              Fastest model with near-frontier intelligence
+
+            - `"claude-haiku-4-5-20251001"`
+
+              Fastest model with near-frontier intelligence
+
+            - `"claude-opus-4-5"`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `"claude-opus-4-5-20251101"`
+
+              Premium model combining maximum intelligence with practical performance
+
+            - `"claude-sonnet-4-5"`
+
+              High-performance model for agents and coding
+
+            - `"claude-sonnet-4-5-20250929"`
+
+              High-performance model for agents and coding
+
+            - `"claude-opus-4-1"`
+
+              Exceptional model for specialized complex tasks
+
+            - `"claude-opus-4-1-20250805"`
+
+              Exceptional model for specialized complex tasks
+
+            - `"claude-opus-4-0"`
+
+              Powerful model for complex tasks
+
+            - `"claude-opus-4-20250514"`
+
+              Powerful model for complex tasks
+
+            - `"claude-sonnet-4-0"`
+
+              High-performance model with extended thinking
+
+            - `"claude-sonnet-4-20250514"`
+
+              High-performance model with extended thinking
+
+            - `"claude-3-haiku-20240307"`
+
+              Fast and cost-effective model
+
+          - `(string & {})`
+
+        - `output_tokens: number`
+
+          The number of output tokens which were used.
+
+        - `type: "advisor_message"`
+
+          Usage for an advisor sub-inference iteration
+
+          - `"advisor_message"`
 
     - `output_tokens: number`
 

@@ -1,14 +1,23 @@
 # Mcp Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Mcp across all sources (208 documents)
+Documents related to Mcp across all sources (218 documents)
 ---
-## Platform Documentation (platform.claude.com) (3)
-- [agent-sdk__mcp](/platform-docs/developer-guide/agent-sdk__mcp.md)
+## Platform Documentation (platform.claude.com) (11)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
+- [beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/beta__vaults__credentials__mcp_oauth_validate.md)
+- [cli__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/cli__beta__vaults__credentials__mcp_oauth_validate.md)
+- [csharp__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/csharp__beta__vaults__credentials__mcp_oauth_validate.md)
+- [go__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/go__beta__vaults__credentials__mcp_oauth_validate.md)
+- [java__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/java__beta__vaults__credentials__mcp_oauth_validate.md)
+- [managed-agents__mcp-connector](/platform-docs/developer-guide/managed-agents__mcp-connector.md)
+- [python__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/python__beta__vaults__credentials__mcp_oauth_validate.md)
+- [ruby__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/ruby__beta__vaults__credentials__mcp_oauth_validate.md)
+- [typescript__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/typescript__beta__vaults__credentials__mcp_oauth_validate.md)
 
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
+- [Mcp](/code-claude-docs/agent-sdk__mcp.md)
 - [Mcp](/code-claude-docs/mcp.md)
 
 ## MCP Documentation (modelcontextprotocol.io) (168)
@@ -205,25 +214,26 @@ Documents related to Mcp across all sources (208 documents)
 - [Desktop Extensions: One-click MCP server installation for Claude Desktop](/engineering-blog/desktop-extensions.md) - Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (7)
+## Claude.com Blog Posts (8)
+- [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Claude can now connect to your world](/claude-blog/integrations.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Discover tools that work with Claude](/claude-blog/connectors-directory.md) - ![](https://cdn
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
-- [Skills가 프롬프트, 프로젝트, MCP, 서브 에이전트와 다른 점](/claude-blog/skills-explained.md) - ![](https://cdn
-- [What is Model Context Protocol? Connect AI to your world](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
+- [スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較](/claude-blog/skills-explained.md) - ![](https://cdn
+- [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
 ## Support Articles (11)
 - [Anthropic Connectors Directory FAQ](/docs-support/anthropic-connectors-directory-faq.md)
+- [Build custom connectors via remote MCP servers](/docs-support/building-custom-connectors-via-remote-mcp-servers.md)
 - [Building Desktop Extensions with MCPB](/docs-support/building-desktop-extensions-with-mcpb.md)
-- [Building custom connectors via remote MCP servers](/docs-support/building-custom-connectors-via-remote-mcp-servers.md)
 - [Deploying enterprise-grade MCP servers with desktop extensions](/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md)
 - [Get started with custom connectors using remote MCP](/docs-support/get-started-with-custom-connectors-using-remote-mcp.md)
 - [Getting Started with Local MCP Servers on Claude Desktop](/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md)
 - [Local MCP Server Submission Guide](/docs-support/local-mcp-server-submission-guide.md)
-- [Pre-built web connectors using remote MCP](/docs-support/pre-built-web-connectors-using-remote-mcp.md)
 - [Remote MCP Server Submission Guide](/docs-support/remote-mcp-server-submission-guide.md)
-- [Use the Connectors Directory to extend Claude’s capabilities](/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md)
+- [Use connectors to extend Claude's capabilities](/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md)
+- [Use connectors to extend Claude's capabilities](/docs-support/pre-built-web-connectors-using-remote-mcp.md)
 - [When to use desktop and web connectors](/docs-support/when-to-use-desktop-and-web-connectors.md)
 

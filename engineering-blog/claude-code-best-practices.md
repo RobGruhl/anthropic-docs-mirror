@@ -1,10 +1,10 @@
-# Claude Code overview
+# Best practices for Claude Code
 
 *Date unknown*
 
 ---
 
-**Summary:** Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
+**Summary:** Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 
 
 

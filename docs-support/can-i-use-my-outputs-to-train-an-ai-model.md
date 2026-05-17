@@ -1,6 +1,6 @@
 # Can I use my Outputs to train an AI model?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -53,8 +53,8 @@ Uses that are prohibited include:
 
 ## Related Articles
 
-- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
 - [I would like to input sensitive data into my chats with Claude. Who can view my conversations?](https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations)
 - [Does Anthropic crawl data from the web, and how can site owners block the crawler?](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
 - [Why am I receiving an 'Output blocked by content filtering policy' error?](https://support.claude.com/en/articles/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error)
 - [Why am I receiving an 'Output blocked by content filtering policy' error?](https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error)
+- [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)

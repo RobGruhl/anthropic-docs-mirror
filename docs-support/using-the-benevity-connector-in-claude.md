@@ -1,6 +1,6 @@
 # Using the Benevity Connector in Claude
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -158,8 +158,8 @@ Yes, the Benevity database includes nonprofit organizations from around the worl
 
 ## Related Articles
 
-- [Using the BioRender Connector in Claude](https://support.claude.com/en/articles/12614795-using-the-biorender-connector-in-claude)
-- [Using the Synapse.org connector in Claude](https://support.claude.com/en/articles/12614798-using-the-synapse-org-connector-in-claude)
-- [Using the PubMed Connector in Claude](https://support.claude.com/en/articles/12614801-using-the-pubmed-connector-in-claude)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [Using the Blackbaud Connector in Claude](https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude)
 - [Using the Candid Connector in Claude](https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude)
+- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)

@@ -1,6 +1,6 @@
 # Use quick entry with Claude Desktop on Mac
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -43,7 +43,7 @@ Once enabled, double-tapping Option will open a text box where you can type your
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1771884000&signature=ded447af7a405e0b891cd43a16ce6a2184becf5d3b9416d51598164eef3e92e1&req=dSguFcl2lYJZXPMW1HO4zWggAN9ZrpiaRC8c%2FcM5c2JLHuQvVQt6r9Yu%2BNAJ%0A%2FKZM9RhvmE%2FD7VTGzjA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1778979600&signature=53f7a320be9b1451f60adfa8b44c26f4faceec475db390cf00eb353026784f6b&req=dSguFcl2lYJZXPMW1HO4zWggANZYoZWcRC8c%2FcM5c2Lahi0eWUgkGYUTX3Bh%0AHDvTdqVIiOn9RDTPXRY%3D%0A)
 
  
 
@@ -171,8 +171,8 @@ You can customize the quick access shortcut to use Option + Space or create a cu
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [Using the Claude Widget on Android](https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android)
-- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
+- [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)

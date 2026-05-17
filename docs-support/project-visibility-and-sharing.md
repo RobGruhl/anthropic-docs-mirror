@@ -1,17 +1,17 @@
-# Project visibility and sharing
+# Manage project visibility and sharing
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
-## Understanding the two project visibility options
+## Understand the two project visibility options
 
 When creating a project on a Team or Enterprise plan, you can choose between two initial visibility options:
 
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1771884000&signature=af6e9308a19a7cdda079f2d8071af435dcb3af1d32ef53a90dbf019863b7f487&req=dScjFsp5nYhWWPMW1HO4zd3a1l0sLIqnHK95%2FTFaPyla0sE53pG9yTr2pBmN%0A8zEa2QTXyRNzPSsSNSw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1778979600&signature=ec521771e8aa9c2ee5de6ce370b81efad8bccba6f9b4d0a7b2d417b385c7229b&req=dScjFsp5nYhWWPMW1HO4zd3a1lQtI4ehHK95%2FTFaPylRpoYf%2Fcrt%2Foy0Dh0l%0AXb7Fr65IchLK%2BZ2WjlM%3D%0A)
 
  
 
@@ -27,7 +27,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1771884000&signature=5aa14eeba3935dfc805b7dac8614aa46e7ed5b05f7ce8ff5dcdcd2a8b3cafd68&req=dScjFsp5nYhXXvMW1HO4zUiDrSj%2FiQIpE8Kp5wh0MSDyrb3Ch7jwWnPNX1Nk%0Atw4tM2UKbS7zntn9gOI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1778979600&signature=527d8acfec4e9f1c5ea657ed481f4b4c457f8474e57f40cf1e9d99d80f845fb1&req=dScjFsp5nYhXXvMW1HO4zUiDrSH%2Bhg8vE8Kp5wh0MSAl3oJ2KJO3JTFrkrpW%0AB1YUQZTVXSGqirs1hhU%3D%0A)
 
  
 
@@ -35,7 +35,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1771884000&signature=a5e8c1eb55de567fb25c1c85ba689e0e9f99484b772aa7fb6d76bcf89e438b65&req=dScjFsp5nYhXUfMW1HO4zckCLvNqaiakl3XeGelDRW0SA%2BB%2BTBqYilB1xBJP%0AOOmtdUa9cS%2Fur6Zr3Vk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1778979600&signature=dff1963449418d7f98103cd2e61eb8581bd62a47143c063c02f2639a2ab6d3f6&req=dScjFsp5nYhXUfMW1HO4zckCLvprZSuil3XeGelDRW3P2%2B%2BGSvQEY6oFGZ9y%0A4qEdO%2BSzx7NoXijovJk%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1771884000&signature=1d9477cb9cf1635ded5096da6e8c694f65264825455e4dd25667bc6e190f13bb&req=dScjFsp5nYhXUPMW1HO4zaSEFVKUQrwN2JrJefVtywnO4Z%2FgcEFgCv8zeTrj%0AZ1DH5Z2ho1FVhtM0aVA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1778979600&signature=5b63f7f47dfb2ecb109f846986635119bb6d7aca87cd8eba441560acc1c71b31&req=dScjFsp5nYhXUPMW1HO4zaSEFVuVTbEL2JrJefVtywmzimVkggKSB9LA94rF%0AuIZdIaxOIrwseVWrdy4%3D%0A)
 
  
 
@@ -59,11 +59,11 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1771884000&signature=7bdbdcb04b12228ce65f5da206e8dd0ecb32e9098595f579764c6aa7bcebc10d&req=dScjFsp5nYhWWfMW1HO4zT7Q3MmztQgWAmYRPrgMBZlp5GMb%2FFC5oFcs7t0w%0AI62OEZ3C56GsIFg7djg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1778979600&signature=fef04d2c0e23032a4ec7c6ac543bbaf215c1586d703be6de1ac0182f318e8ab7&req=dScjFsp5nYhWWfMW1HO4zT7Q3MCyugUQAmYRPrgMBZneBpCMbTTZNtyuaUsX%0ARfQr0bv2fNLbicdpszw%3D%0A)
 
  
 
-## Adding and removing member access to private projects
+## Add and remove member access to private projects
 
 ### To add members to a private project
 
@@ -84,13 +84,13 @@ This will share the project and knowledge base with the member, but your chats w
 3. Select "Remove access."
 4. After being removed, they will no longer be able to access this project or its content.
 
-### Adding members in bulk
+### Add members in bulk
 
 You can add multiple users at once by copying and pasting a list of email addresses into the **Invite by email** field after clicking “Share”:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1771884000&signature=a092a8a609b039816b6d9c21ad1c2d1e0d55db51067be360759511011840f096&req=dScjFsp5nYhWW%2FMW1HO4zb8C2HzcRgSz3jdyj4AFq6YykCHdGYAix3mipO2a%0APga0naQhPM4Yr6%2BKxb4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1778979600&signature=7524458e297ad7152c3d28ab97b089e6c44abe2a8b7bec8a63932b99f61eec53&req=dScjFsp5nYhWW%2FMW1HO4zb8C2HXdSQm13jdyj4AFq6Z5uoxXd%2Fd6SYDydvpG%0AmGBig0CvzT%2BlEexNgDI%3D%0A)
 
  
 
@@ -110,7 +110,7 @@ When a project is archived, all sharing permissions are reset to private and pre
 
  
 
-## Sharing and unsharing chats
+## Share and unshare chats
 
 Chats within a project are not shared by default.
 
@@ -143,6 +143,6 @@ The chat snapshot includes all messages that were sent prior to sharing the chat
 
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [How can I disable public projects?](https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects)
+- [Disable public projects for your organization](https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization)
 - [Sharing and Unsharing Chats](https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats)
 - [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)

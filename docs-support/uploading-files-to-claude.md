@@ -1,6 +1,6 @@
-# Uploading files to Claude
+# Upload files to Claude
 
-*Updated today*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -61,7 +61,7 @@ Files can be uploaded to individual chats or uploaded to a project's **Files** s
 
 ### Chat uploads
 
-- **File size:** 30MB per file
+- **File size:** 500MB per file
 - **Number of files:** Up to 20 files per chat
 - **Image dimensions:** Up to 8000x8000 pixels
 
@@ -108,8 +108,8 @@ Claude models can analyze both text and visual elements (like images, charts, an
 
 ## Related Articles
 
+- [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
-- [Create and edit files with Claude to eliminate hours of busy work](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)
-- [Claude for Financial Services Overview](https://support.claude.com/en/articles/12219959-claude-for-financial-services-overview)
-- [Create professional results across tools with Claude Sonnet 4.5](https://support.claude.com/en/articles/12439380-create-professional-results-across-tools-with-claude-sonnet-4-5)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
+- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
+- [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)

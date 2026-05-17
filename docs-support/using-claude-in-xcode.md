@@ -1,6 +1,6 @@
 # Using Claude in Xcode
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -38,7 +38,7 @@ To start using Claude in Xcode:
 2. Open Xcode preferences and navigate to the Intelligence settings.
 3. Log in with your Claude account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1771884000&signature=24869acf6fec3bb33b463efc0a95256879295a03c0294b02e0cff1f80eafcc61&req=dSclEcp5nIRXXPMW1HO4zUAXLM0KWqzUFalhp3bugHIyZXGi9Ep2DmsRYpOo%0AG9SQ4pSY3CNQ8QY%2BVXU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1778979600&signature=f063cbbff7f194ef06910f9c38afe2dc79030748ae2a0b9f8cf819432994195e&req=dSclEcp5nIRXXPMW1HO4zUAXLMQLVaHSFalhp3bugHKx6NGWcJCsxOu3HcGv%0As5pI%2F9%2B%2Bmm8x1N2%2Bczs%3D%0A)
 
  
 
@@ -51,8 +51,8 @@ Your Claude usage limits are shared across all platforms, so your chats with Cla
 
 ## Related Articles
 
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Claude in Chrome release notes](https://support.claude.com/en/articles/12306336-claude-in-chrome-release-notes)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Create professional results across tools with Claude Sonnet 4.5](https://support.claude.com/en/articles/12439380-create-professional-results-across-tools-with-claude-sonnet-4-5)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

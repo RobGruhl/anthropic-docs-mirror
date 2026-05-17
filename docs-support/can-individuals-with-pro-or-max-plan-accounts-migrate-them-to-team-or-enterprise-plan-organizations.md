@@ -1,55 +1,62 @@
-# Can individuals with Pro or Max plan accounts migrate them to Team or Enterprise plan organizations?
+# Move your personal Claude account to a Team or Enterprise organization
 
-*Updated this week*
+*Updated over 3 weeks ago*
 
 ---
 
-Individual accounts (free, Pro, and Max) and organization accounts (Team and Enterprise) are separate account types with different features. You cannot migrate an individual account to a Team or Enterprise organization—if you're joining an organization, you'll need to be added as a new member.
+If you're using Claude with a personal account (Free, Pro, or Max) tied to your work email, your organization may be able to bring that account into their Enterprise workspace. How this works depends on which plan your organization uses.
 
  
 
-## Is there any way to merge my Pro or Max plan account with my Team or Enterprise plan account?
+## Enterprise plan: domain claiming
 
-No, you cannot merge an individual Pro or Max plan account with a Team or Enterprise plan account, even if both accounts use the same email address. Because the two account types are intended for different use cases and don’t offer the same capabilities, they cannot be combined.
-
- 
-
-## How can users with multiple accounts manage them?
-
-Users with both individual and Team or Enterprise accounts tied to the same email address will be able to toggle between the two by clicking on their initials or name in the lower left corner of the screen:
+Enterprise admins can claim all existing personal accounts on their organization's verified domain and move them into the Enterprise workspace. If your admin initiates a domain claim, you'll receive an email and in-product notification with a deadline (at least 30 days out) to choose between merging your data into a new Enterprise account or starting fresh.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2036195112/7184b45b7078b65bf190307f2ed5/image.png?expires=1771884000&signature=52f19974bf9edeaae04f8e9fbe17ebbf143beec9320a72698a4b34affb572546&req=diAkEMh3mIBeW%2FMW1HO4zUSJi2%2BdVZM006rN5CR5XEqy%2BgMnbYW6A2pm6cqL%0AYJzP8ht0SRaSg8brZFk%3D%0A)
+For the full walkthrough of your options, deadlines, and what happens to your subscription, see **[Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)**.
 
  
 
- A blue checkmark shows which account you're currently using. Click on the other account to switch to it and access its separate conversations and projects.
+## Team plan
+
+Team plan organizations can't claim or migrate existing personal accounts. If you're joining a Team organization, you'll be added as a new member with a separate account. **There's no way to merge data between a personal account and a Team account at this time.**
 
  
 
-## How can I discontinue my individual plan and export my data?
-
-If you’d prefer to discontinue your individual account and use only your Team or Enterprise plan account moving forward, start by **[canceling your individual paid plan](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)**. Once your subscription lapses and you're finished using the account, you can **[export your data](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)**. Note that there isn't a way to transfer this data into a Team or Enterprise account. To **[delete your account](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)**, navigate to **[Settings > Account](https://claude.ai/settings/account)** and click "Delete."
+Team admins can block new personal account creation on their verified domain, but they can't claim accounts that already exist.
 
  
 
-## Considerations for organizations using SSO
+## Manage personal and organization accounts
 
-Team and Enterprise plan organizations have access to single sign-on (SSO) and domain verification. Owners can:
+If your organization is on a Team plan (or hasn't initiated domain claiming), you may have both a personal account and an organization account tied to the same email address. You can switch between them by clicking your initials or name in the lower left corner of the screen.
 
-- Restrict usage of any verified domains to accounts added to the Team or Enterprise plan instance.
-- Prevent employees from creating new individual accounts with company email addresses.
+ 
 
-See **[Setting up Single Sign-on (SSO)](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso#h_5ee916332f)** for more information about domain verification and how it affects individual accounts.
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1778979600&signature=caaaf8a88b5ebbce81a6f5aec5ff3bc670e742a27659a5fe82e2c5e9266302bf&req=diMmFMh3noJbXvMW1HO4zXhPktg%2FzxZnufhmlOXMdYYrg7naPLAaNeHO2u%2B9%0Am1cIVm8%2BNgIk98KFlro%3D%0A)
+
+ 
+
+A blue checkmark shows which account you're currently using. Click the other account to switch to it and access its separate conversations and projects.
+
+ 
+
+## Discontinue your personal account manually
+
+If you'd rather not wait for a domain claim, you can discontinue your personal account on your own:
+
+1. **[Cancel your individual paid plan](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)** if applicable.
+2. **[Export your data](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)** while you still have access.
+3. Navigate to **[Settings > Account](https://claude.ai/settings/account)** and click "Delete" to **[delete your account](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)**.
 
 
 ---
 
 ## Related Articles
 
-- [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
+- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
+- [Claim and migrate accounts on your domain](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain)
+- [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)

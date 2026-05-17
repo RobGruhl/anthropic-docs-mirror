@@ -1,6 +1,6 @@
 # What are projects?
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -70,6 +70,6 @@ For more information on private projects and visibility settings on Team and Ent
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [Project visibility and sharing](https://support.claude.com/en/articles/9519189-project-visibility-and-sharing)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [Retrieval augmented generation (RAG) for projects](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects)
+- [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)

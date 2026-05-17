@@ -36,6 +36,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+      Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
       Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
     - `messages: Iterable[MessageParam]`
@@ -164,13 +166,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `document_index: int`
 
                 - `document_title: Optional[str]`
 
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `type: Literal["content_block_location"]`
 
@@ -194,13 +206,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `search_result_index: int`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `source: str`
 
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `title: Optional[str]`
 
@@ -370,13 +396,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `cited_text: str`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `document_index: int`
 
                           - `document_title: Optional[str]`
 
                           - `end_block_index: int`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `start_block_index: int`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `type: Literal["content_block_location"]`
 
@@ -400,13 +436,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `cited_text: str`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `end_block_index: int`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `search_result_index: int`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `source: str`
 
                           - `start_block_index: int`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `title: Optional[str]`
 
@@ -589,13 +639,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `cited_text: str`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `document_index: int`
 
                   - `document_title: Optional[str]`
 
                   - `end_block_index: int`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `start_block_index: int`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `type: Literal["content_block_location"]`
 
@@ -619,13 +679,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `cited_text: str`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `end_block_index: int`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `search_result_index: int`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `source: str`
 
                   - `start_block_index: int`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `title: Optional[str]`
 
@@ -857,13 +931,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                       - `cited_text: str`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `document_index: int`
 
                       - `document_title: Optional[str]`
 
                       - `end_block_index: int`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `start_block_index: int`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `type: Literal["content_block_location"]`
 
@@ -887,13 +971,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                       - `cited_text: str`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `end_block_index: int`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `search_result_index: int`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `source: str`
 
                       - `start_block_index: int`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `title: Optional[str]`
 
@@ -1029,13 +1127,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `cited_text: str`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `document_index: int`
 
                         - `document_title: Optional[str]`
 
                         - `end_block_index: int`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `start_block_index: int`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `type: Literal["content_block_location"]`
 
@@ -1059,13 +1167,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `cited_text: str`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `end_block_index: int`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `search_result_index: int`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `source: str`
 
                         - `start_block_index: int`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `title: Optional[str]`
 
@@ -1213,13 +1335,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                 - `cited_text: str`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `document_index: int`
 
                                 - `document_title: Optional[str]`
 
                                 - `end_block_index: int`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `start_block_index: int`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `type: Literal["content_block_location"]`
 
@@ -1243,13 +1375,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                 - `cited_text: str`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `end_block_index: int`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `search_result_index: int`
+
+                                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                 - `source: str`
 
                                 - `start_block_index: int`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `title: Optional[str]`
 
@@ -1707,13 +1853,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                 - `cited_text: str`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `document_index: int`
 
                                 - `document_title: Optional[str]`
 
                                 - `end_block_index: int`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `start_block_index: int`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `type: Literal["content_block_location"]`
 
@@ -1737,13 +1893,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                 - `cited_text: str`
 
+                                  The full text of the cited block range, concatenated.
+
+                                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                 - `end_block_index: int`
 
+                                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                 - `search_result_index: int`
+
+                                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                 - `source: str`
 
                                 - `start_block_index: int`
+
+                                  0-based index of the first cited block in the source's `content` array.
 
                                 - `title: Optional[str]`
 
@@ -2321,13 +2491,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-      - `Literal["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5", 12 more]`
+      - `Literal["claude-opus-4-7", "claude-mythos-preview", "claude-opus-4-6", 14 more]`
 
         The model that will complete your prompt.
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-        - `claude-opus-4-6` - Most intelligent model for building agents and coding
+        - `claude-opus-4-7` - Frontier intelligence for long-running agents and coding
+        - `claude-mythos-preview` - New class of intelligence, strongest in coding and cybersecurity
+        - `claude-opus-4-6` - Frontier intelligence for long-running agents and coding
         - `claude-sonnet-4-6` - Best combination of speed and intelligence
         - `claude-haiku-4-5` - Fastest model with near-frontier intelligence
         - `claude-haiku-4-5-20251001` - Fastest model with near-frontier intelligence
@@ -2337,15 +2509,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
         - `claude-sonnet-4-5-20250929` - High-performance model for agents and coding
         - `claude-opus-4-1` - Exceptional model for specialized complex tasks
         - `claude-opus-4-1-20250805` - Exceptional model for specialized complex tasks
-        - `claude-opus-4-0` - Powerful model for complex tasks
-        - `claude-opus-4-20250514` - Powerful model for complex tasks
-        - `claude-sonnet-4-0` - High-performance model with extended thinking
-        - `claude-sonnet-4-20250514` - High-performance model with extended thinking
+        - `claude-opus-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-opus-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-sonnet-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-sonnet-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
         - `claude-3-haiku-20240307` - Deprecated: Will reach end-of-life on April 20th, 2026. Please migrate to claude-haiku-4-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+        - `"claude-opus-4-7"`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `"claude-mythos-preview"`
+
+          New class of intelligence, strongest in coding and cybersecurity
 
         - `"claude-opus-4-6"`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `"claude-sonnet-4-6"`
 
@@ -2450,7 +2630,7 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       Configuration options for the model's output, such as the output format.
 
-      - `effort: Optional[Literal["low", "medium", "high", "max"]]`
+      - `effort: Optional[Literal["low", "medium", "high", 2 more]]`
 
         All possible effort levels.
 
@@ -2459,6 +2639,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
         - `"medium"`
 
         - `"high"`
+
+        - `"xhigh"`
 
         - `"max"`
 
@@ -2484,7 +2666,7 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       - `"standard_only"`
 
-    - `stop_sequences: Optional[SequenceNotStr[str]]`
+    - `stop_sequences: Optional[Sequence[str]]`
 
       Custom text sequences that will cause the model to stop generating.
 
@@ -2575,13 +2757,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `cited_text: str`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `document_index: int`
 
             - `document_title: Optional[str]`
 
             - `end_block_index: int`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `start_block_index: int`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `type: Literal["content_block_location"]`
 
@@ -2605,13 +2797,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `cited_text: str`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `end_block_index: int`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `search_result_index: int`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `source: str`
 
             - `start_block_index: int`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `title: Optional[str]`
 
@@ -2649,6 +2855,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           - `"enabled"`
 
+        - `display: Optional[Literal["summarized", "omitted"]]`
+
+          Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+          - `"summarized"`
+
+          - `"omitted"`
+
       - `class ThinkingConfigDisabled: …`
 
         - `type: Literal["disabled"]`
@@ -2660,6 +2874,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
         - `type: Literal["adaptive"]`
 
           - `"adaptive"`
+
+        - `display: Optional[Literal["summarized", "omitted"]]`
+
+          Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+          - `"summarized"`
+
+          - `"omitted"`
 
     - `tool_choice: Optional[ToolChoiceParam]`
 
@@ -3628,6 +3850,87 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           When true, guarantees schema validation on tool names and inputs
 
+      - `class WebFetchTool20260309: …`
+
+        Web fetch tool with use_cache parameter for bypassing cached content.
+
+        - `name: Literal["web_fetch"]`
+
+          Name of the tool.
+
+          This is how the tool will be called by the model and in `tool_use` blocks.
+
+          - `"web_fetch"`
+
+        - `type: Literal["web_fetch_20260309"]`
+
+          - `"web_fetch_20260309"`
+
+        - `allowed_callers: Optional[List[Literal["direct", "code_execution_20250825", "code_execution_20260120"]]]`
+
+          - `"direct"`
+
+          - `"code_execution_20250825"`
+
+          - `"code_execution_20260120"`
+
+        - `allowed_domains: Optional[List[str]]`
+
+          List of domains to allow fetching from
+
+        - `blocked_domains: Optional[List[str]]`
+
+          List of domains to block fetching from
+
+        - `cache_control: Optional[CacheControlEphemeral]`
+
+          Create a cache control breakpoint at this content block.
+
+          - `type: Literal["ephemeral"]`
+
+            - `"ephemeral"`
+
+          - `ttl: Optional[Literal["5m", "1h"]]`
+
+            The time-to-live for the cache control breakpoint.
+
+            This may be one the following values:
+
+            - `5m`: 5 minutes
+            - `1h`: 1 hour
+
+            Defaults to `5m`.
+
+            - `"5m"`
+
+            - `"1h"`
+
+        - `citations: Optional[CitationsConfigParam]`
+
+          Citations configuration for fetched documents. Citations are disabled by default.
+
+          - `enabled: Optional[bool]`
+
+        - `defer_loading: Optional[bool]`
+
+          If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+        - `max_content_tokens: Optional[int]`
+
+          Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+        - `max_uses: Optional[int]`
+
+          Maximum number of times the tool can be used in the API request.
+
+        - `strict: Optional[bool]`
+
+          When true, guarantees schema validation on tool names and inputs
+
+        - `use_cache: Optional[bool]`
+
+          Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
       - `class ToolSearchToolBm25_20251119: …`
 
         - `name: Literal["tool_search_tool_bm25"]`
@@ -3744,15 +4047,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-      Recommended for advanced use cases only. You usually only need to use `temperature`.
+      Recommended for advanced use cases only.
 
     - `top_p: Optional[float]`
 
       Use nucleus sampling.
 
-      In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+      In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-      Recommended for advanced use cases only. You usually only need to use `temperature`.
+      Recommended for advanced use cases only.
 
 ### Returns
 
@@ -4427,15 +4730,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `document_index: int`
 
                 - `document_title: Optional[str]`
 
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `file_id: Optional[str]`
 
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `type: Literal["content_block_location"]`
 
@@ -4459,13 +4772,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `search_result_index: int`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `source: str`
 
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `title: Optional[str]`
 
@@ -5041,13 +5368,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `Literal["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5", 12 more]`
+          - `Literal["claude-opus-4-7", "claude-mythos-preview", "claude-opus-4-6", 14 more]`
 
             The model that will complete your prompt.
 
             See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-            - `claude-opus-4-6` - Most intelligent model for building agents and coding
+            - `claude-opus-4-7` - Frontier intelligence for long-running agents and coding
+            - `claude-mythos-preview` - New class of intelligence, strongest in coding and cybersecurity
+            - `claude-opus-4-6` - Frontier intelligence for long-running agents and coding
             - `claude-sonnet-4-6` - Best combination of speed and intelligence
             - `claude-haiku-4-5` - Fastest model with near-frontier intelligence
             - `claude-haiku-4-5-20251001` - Fastest model with near-frontier intelligence
@@ -5057,15 +5386,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `claude-sonnet-4-5-20250929` - High-performance model for agents and coding
             - `claude-opus-4-1` - Exceptional model for specialized complex tasks
             - `claude-opus-4-1-20250805` - Exceptional model for specialized complex tasks
-            - `claude-opus-4-0` - Powerful model for complex tasks
-            - `claude-opus-4-20250514` - Powerful model for complex tasks
-            - `claude-sonnet-4-0` - High-performance model with extended thinking
-            - `claude-sonnet-4-20250514` - High-performance model with extended thinking
+            - `claude-opus-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-opus-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-sonnet-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-sonnet-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
             - `claude-3-haiku-20240307` - Deprecated: Will reach end-of-life on April 20th, 2026. Please migrate to claude-haiku-4-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+            - `"claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
 
             - `"claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `"claude-sonnet-4-6"`
 
@@ -5132,6 +5469,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `"assistant"`
+
+        - `stop_details: Optional[RefusalStopDetails]`
+
+          Structured information about a refusal.
+
+          - `category: Optional[Literal["cyber", "bio"]]`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `"cyber"`
+
+            - `"bio"`
+
+          - `explanation: Optional[str]`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `type: Literal["refusal"]`
+
+            - `"refusal"`
 
         - `stop_reason: Optional[StopReason]`
 
@@ -5690,15 +6051,25 @@ for batch in client.messages.batches.results(
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `document_index: int`
 
                 - `document_title: Optional[str]`
 
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `file_id: Optional[str]`
 
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `type: Literal["content_block_location"]`
 
@@ -5722,13 +6093,27 @@ for batch in client.messages.batches.results(
 
                 - `cited_text: str`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `end_block_index: int`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `search_result_index: int`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `source: str`
 
                 - `start_block_index: int`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `title: Optional[str]`
 
@@ -6304,13 +6689,15 @@ for batch in client.messages.batches.results(
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `Literal["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5", 12 more]`
+          - `Literal["claude-opus-4-7", "claude-mythos-preview", "claude-opus-4-6", 14 more]`
 
             The model that will complete your prompt.
 
             See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-            - `claude-opus-4-6` - Most intelligent model for building agents and coding
+            - `claude-opus-4-7` - Frontier intelligence for long-running agents and coding
+            - `claude-mythos-preview` - New class of intelligence, strongest in coding and cybersecurity
+            - `claude-opus-4-6` - Frontier intelligence for long-running agents and coding
             - `claude-sonnet-4-6` - Best combination of speed and intelligence
             - `claude-haiku-4-5` - Fastest model with near-frontier intelligence
             - `claude-haiku-4-5-20251001` - Fastest model with near-frontier intelligence
@@ -6320,15 +6707,23 @@ for batch in client.messages.batches.results(
             - `claude-sonnet-4-5-20250929` - High-performance model for agents and coding
             - `claude-opus-4-1` - Exceptional model for specialized complex tasks
             - `claude-opus-4-1-20250805` - Exceptional model for specialized complex tasks
-            - `claude-opus-4-0` - Powerful model for complex tasks
-            - `claude-opus-4-20250514` - Powerful model for complex tasks
-            - `claude-sonnet-4-0` - High-performance model with extended thinking
-            - `claude-sonnet-4-20250514` - High-performance model with extended thinking
+            - `claude-opus-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-opus-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-sonnet-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+            - `claude-sonnet-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
             - `claude-3-haiku-20240307` - Deprecated: Will reach end-of-life on April 20th, 2026. Please migrate to claude-haiku-4-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+            - `"claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
 
             - `"claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `"claude-sonnet-4-6"`
 
@@ -6395,6 +6790,30 @@ for batch in client.messages.batches.results(
           This will always be `"assistant"`.
 
           - `"assistant"`
+
+        - `stop_details: Optional[RefusalStopDetails]`
+
+          Structured information about a refusal.
+
+          - `category: Optional[Literal["cyber", "bio"]]`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `"cyber"`
+
+            - `"bio"`
+
+          - `explanation: Optional[str]`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `type: Literal["refusal"]`
+
+            - `"refusal"`
 
         - `stop_reason: Optional[StopReason]`
 
@@ -6746,15 +7165,25 @@ for batch in client.messages.batches.results(
 
               - `cited_text: str`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `document_index: int`
 
               - `document_title: Optional[str]`
 
               - `end_block_index: int`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `file_id: Optional[str]`
 
               - `start_block_index: int`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `type: Literal["content_block_location"]`
 
@@ -6778,13 +7207,27 @@ for batch in client.messages.batches.results(
 
               - `cited_text: str`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `end_block_index: int`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `search_result_index: int`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `source: str`
 
               - `start_block_index: int`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `title: Optional[str]`
 
@@ -7360,13 +7803,15 @@ for batch in client.messages.batches.results(
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-        - `Literal["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5", 12 more]`
+        - `Literal["claude-opus-4-7", "claude-mythos-preview", "claude-opus-4-6", 14 more]`
 
           The model that will complete your prompt.
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `claude-opus-4-6` - Most intelligent model for building agents and coding
+          - `claude-opus-4-7` - Frontier intelligence for long-running agents and coding
+          - `claude-mythos-preview` - New class of intelligence, strongest in coding and cybersecurity
+          - `claude-opus-4-6` - Frontier intelligence for long-running agents and coding
           - `claude-sonnet-4-6` - Best combination of speed and intelligence
           - `claude-haiku-4-5` - Fastest model with near-frontier intelligence
           - `claude-haiku-4-5-20251001` - Fastest model with near-frontier intelligence
@@ -7376,15 +7821,23 @@ for batch in client.messages.batches.results(
           - `claude-sonnet-4-5-20250929` - High-performance model for agents and coding
           - `claude-opus-4-1` - Exceptional model for specialized complex tasks
           - `claude-opus-4-1-20250805` - Exceptional model for specialized complex tasks
-          - `claude-opus-4-0` - Powerful model for complex tasks
-          - `claude-opus-4-20250514` - Powerful model for complex tasks
-          - `claude-sonnet-4-0` - High-performance model with extended thinking
-          - `claude-sonnet-4-20250514` - High-performance model with extended thinking
+          - `claude-opus-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+          - `claude-opus-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+          - `claude-sonnet-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+          - `claude-sonnet-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
           - `claude-3-haiku-20240307` - Deprecated: Will reach end-of-life on April 20th, 2026. Please migrate to claude-haiku-4-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+          - `"claude-opus-4-7"`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `"claude-mythos-preview"`
+
+            New class of intelligence, strongest in coding and cybersecurity
 
           - `"claude-opus-4-6"`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `"claude-sonnet-4-6"`
 
@@ -7451,6 +7904,30 @@ for batch in client.messages.batches.results(
         This will always be `"assistant"`.
 
         - `"assistant"`
+
+      - `stop_details: Optional[RefusalStopDetails]`
+
+        Structured information about a refusal.
+
+        - `category: Optional[Literal["cyber", "bio"]]`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `"cyber"`
+
+          - `"bio"`
+
+        - `explanation: Optional[str]`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `type: Literal["refusal"]`
+
+          - `"refusal"`
 
       - `stop_reason: Optional[StopReason]`
 
@@ -7764,15 +8241,25 @@ for batch in client.messages.batches.results(
 
             - `cited_text: str`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `document_index: int`
 
             - `document_title: Optional[str]`
 
             - `end_block_index: int`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `file_id: Optional[str]`
 
             - `start_block_index: int`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `type: Literal["content_block_location"]`
 
@@ -7796,13 +8283,27 @@ for batch in client.messages.batches.results(
 
             - `cited_text: str`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `end_block_index: int`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `search_result_index: int`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `source: str`
 
             - `start_block_index: int`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `title: Optional[str]`
 
@@ -8378,13 +8879,15 @@ for batch in client.messages.batches.results(
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-      - `Literal["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5", 12 more]`
+      - `Literal["claude-opus-4-7", "claude-mythos-preview", "claude-opus-4-6", 14 more]`
 
         The model that will complete your prompt.
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-        - `claude-opus-4-6` - Most intelligent model for building agents and coding
+        - `claude-opus-4-7` - Frontier intelligence for long-running agents and coding
+        - `claude-mythos-preview` - New class of intelligence, strongest in coding and cybersecurity
+        - `claude-opus-4-6` - Frontier intelligence for long-running agents and coding
         - `claude-sonnet-4-6` - Best combination of speed and intelligence
         - `claude-haiku-4-5` - Fastest model with near-frontier intelligence
         - `claude-haiku-4-5-20251001` - Fastest model with near-frontier intelligence
@@ -8394,15 +8897,23 @@ for batch in client.messages.batches.results(
         - `claude-sonnet-4-5-20250929` - High-performance model for agents and coding
         - `claude-opus-4-1` - Exceptional model for specialized complex tasks
         - `claude-opus-4-1-20250805` - Exceptional model for specialized complex tasks
-        - `claude-opus-4-0` - Powerful model for complex tasks
-        - `claude-opus-4-20250514` - Powerful model for complex tasks
-        - `claude-sonnet-4-0` - High-performance model with extended thinking
-        - `claude-sonnet-4-20250514` - High-performance model with extended thinking
+        - `claude-opus-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-opus-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-sonnet-4-0` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+        - `claude-sonnet-4-20250514` - Deprecated: Will reach end-of-life on June 15th, 2026. Please migrate to a newer model. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
         - `claude-3-haiku-20240307` - Deprecated: Will reach end-of-life on April 20th, 2026. Please migrate to claude-haiku-4-5. Visit https://docs.anthropic.com/en/docs/resources/model-deprecations for more information.
+
+        - `"claude-opus-4-7"`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `"claude-mythos-preview"`
+
+          New class of intelligence, strongest in coding and cybersecurity
 
         - `"claude-opus-4-6"`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `"claude-sonnet-4-6"`
 
@@ -8469,6 +8980,30 @@ for batch in client.messages.batches.results(
       This will always be `"assistant"`.
 
       - `"assistant"`
+
+    - `stop_details: Optional[RefusalStopDetails]`
+
+      Structured information about a refusal.
+
+      - `category: Optional[Literal["cyber", "bio"]]`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `"cyber"`
+
+        - `"bio"`
+
+      - `explanation: Optional[str]`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `type: Literal["refusal"]`
+
+        - `"refusal"`
 
     - `stop_reason: Optional[StopReason]`
 

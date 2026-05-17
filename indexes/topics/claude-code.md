@@ -1,69 +1,144 @@
 # Claude Code Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Claude Code across all sources (114 documents)
+Documents related to Claude Code across all sources (212 documents)
 ---
-## Platform Documentation (platform.claude.com) (2)
-- [agent-sdk__plugins](/platform-docs/developer-guide/agent-sdk__plugins.md)
-- [build-with-claude__claude-code-analytics-api](/platform-docs/developer-guide/build-with-claude__claude-code-analytics-api.md)
+## Platform Documentation (platform.claude.com) (1)
+- [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (56)
+## Claude Code Documentation (132)
+- [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
+- [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
+- [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
+- [2026 W16](/code-claude-docs/whats-new__2026-w16.md)
+- [2026 W17](/code-claude-docs/whats-new__2026-w17.md)
+- [2026 W18](/code-claude-docs/whats-new__2026-w18.md)
+- [2026 W19](/code-claude-docs/whats-new__2026-w19.md)
+- [Admin Setup](/code-claude-docs/admin-setup.md)
+- [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Agent Teams](/code-claude-docs/agent-teams.md)
+- [Agent View](/code-claude-docs/agent-view.md)
+- [Agents](/code-claude-docs/agents.md)
 - [Amazon Bedrock](/code-claude-docs/amazon-bedrock.md)
 - [Analytics](/code-claude-docs/analytics.md)
 - [Authentication](/code-claude-docs/authentication.md)
+- [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
 - [Best Practices](/code-claude-docs/best-practices.md)
+- [Champion Kit](/code-claude-docs/champion-kit.md)
+- [Changelog](/code-claude-docs/changelog.md)
+- [Channels](/code-claude-docs/channels.md)
+- [Channels Reference](/code-claude-docs/channels-reference.md)
 - [Checkpointing](/code-claude-docs/checkpointing.md)
 - [Chrome](/code-claude-docs/chrome.md)
+- [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Claude Code On The Web](/code-claude-docs/claude-code-on-the-web.md)
+- [Claude Directory](/code-claude-docs/claude-directory.md)
+- [Claude Platform On Aws](/code-claude-docs/claude-platform-on-aws.md)
 - [Cli Reference](/code-claude-docs/cli-reference.md)
+- [Code Review](/code-claude-docs/code-review.md)
+- [Commands](/code-claude-docs/commands.md)
 - [Common Workflows](/code-claude-docs/common-workflows.md)
+- [Communications Kit](/code-claude-docs/communications-kit.md)
+- [Computer Use](/code-claude-docs/computer-use.md)
+- [Context Window](/code-claude-docs/context-window.md)
+- [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
 - [Costs](/code-claude-docs/costs.md)
+- [Custom Tools](/code-claude-docs/agent-sdk__custom-tools.md)
 - [Data Usage](/code-claude-docs/data-usage.md)
+- [Debug Your Config](/code-claude-docs/debug-your-config.md)
+- [Deep Links](/code-claude-docs/deep-links.md)
 - [Desktop](/code-claude-docs/desktop.md)
+- [Desktop Changelog](/code-claude-docs/desktop-changelog.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
+- [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)
 - [Devcontainer](/code-claude-docs/devcontainer.md)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
+- [Env Vars](/code-claude-docs/env-vars.md)
+- [Errors](/code-claude-docs/errors.md)
 - [Fast Mode](/code-claude-docs/fast-mode.md)
 - [Features Overview](/code-claude-docs/features-overview.md)
+- [File Checkpointing](/code-claude-docs/agent-sdk__file-checkpointing.md)
+- [Fullscreen](/code-claude-docs/fullscreen.md)
 - [Github Actions](/code-claude-docs/github-actions.md)
+- [Github Enterprise Server](/code-claude-docs/github-enterprise-server.md)
 - [Gitlab Ci Cd](/code-claude-docs/gitlab-ci-cd.md)
+- [Glossary](/code-claude-docs/glossary.md)
+- [Goal](/code-claude-docs/goal.md)
 - [Google Vertex Ai](/code-claude-docs/google-vertex-ai.md)
 - [Headless](/code-claude-docs/headless.md)
+- [Hooks](/code-claude-docs/agent-sdk__hooks.md)
 - [Hooks](/code-claude-docs/hooks.md)
 - [Hooks Guide](/code-claude-docs/hooks-guide.md)
+- [Hosting](/code-claude-docs/agent-sdk__hosting.md)
 - [How Claude Code Works](/code-claude-docs/how-claude-code-works.md)
 - [Interactive Mode](/code-claude-docs/interactive-mode.md)
 - [Jetbrains](/code-claude-docs/jetbrains.md)
 - [Keybindings](/code-claude-docs/keybindings.md)
 - [Legal And Compliance](/code-claude-docs/legal-and-compliance.md)
 - [Llm Gateway](/code-claude-docs/llm-gateway.md)
+- [Mcp](/code-claude-docs/agent-sdk__mcp.md)
 - [Mcp](/code-claude-docs/mcp.md)
 - [Memory](/code-claude-docs/memory.md)
 - [Microsoft Foundry](/code-claude-docs/microsoft-foundry.md)
+- [Migration Guide](/code-claude-docs/agent-sdk__migration-guide.md)
 - [Model Config](/code-claude-docs/model-config.md)
+- [Modifying System Prompts](/code-claude-docs/agent-sdk__modifying-system-prompts.md)
 - [Monitoring Usage](/code-claude-docs/monitoring-usage.md)
 - [Network Config](/code-claude-docs/network-config.md)
+- [Observability](/code-claude-docs/agent-sdk__observability.md)
 - [Output Styles](/code-claude-docs/output-styles.md)
+- [Overview](/code-claude-docs/agent-sdk__overview.md)
 - [Overview](/code-claude-docs/overview.md)
+- [Permission Modes](/code-claude-docs/permission-modes.md)
+- [Permissions](/code-claude-docs/agent-sdk__permissions.md)
 - [Permissions](/code-claude-docs/permissions.md)
+- [Platforms](/code-claude-docs/platforms.md)
+- [Plugin Dependencies](/code-claude-docs/plugin-dependencies.md)
 - [Plugin Marketplaces](/code-claude-docs/plugin-marketplaces.md)
+- [Plugins](/code-claude-docs/agent-sdk__plugins.md)
 - [Plugins](/code-claude-docs/plugins.md)
 - [Plugins Reference](/code-claude-docs/plugins-reference.md)
+- [Python](/code-claude-docs/agent-sdk__python.md)
+- [Quickstart](/code-claude-docs/agent-sdk__quickstart.md)
 - [Quickstart](/code-claude-docs/quickstart.md)
+- [Remote Control](/code-claude-docs/remote-control.md)
+- [Routines](/code-claude-docs/routines.md)
 - [Sandboxing](/code-claude-docs/sandboxing.md)
+- [Scheduled Tasks](/code-claude-docs/scheduled-tasks.md)
+- [Secure Deployment](/code-claude-docs/agent-sdk__secure-deployment.md)
 - [Security](/code-claude-docs/security.md)
 - [Server Managed Settings](/code-claude-docs/server-managed-settings.md)
+- [Sessions](/code-claude-docs/agent-sdk__sessions.md)
 - [Settings](/code-claude-docs/settings.md)
 - [Setup](/code-claude-docs/setup.md)
+- [Skills](/code-claude-docs/agent-sdk__skills.md)
 - [Skills](/code-claude-docs/skills.md)
 - [Slack](/code-claude-docs/slack.md)
+- [Slash Commands](/code-claude-docs/agent-sdk__slash-commands.md)
 - [Statusline](/code-claude-docs/statusline.md)
+- [Streaming Output](/code-claude-docs/agent-sdk__streaming-output.md)
+- [Streaming Vs Single Mode](/code-claude-docs/agent-sdk__streaming-vs-single-mode.md)
+- [Structured Outputs](/code-claude-docs/agent-sdk__structured-outputs.md)
 - [Sub Agents](/code-claude-docs/sub-agents.md)
+- [Subagents](/code-claude-docs/agent-sdk__subagents.md)
 - [Terminal Config](/code-claude-docs/terminal-config.md)
 - [Third Party Integrations](/code-claude-docs/third-party-integrations.md)
+- [Todo Tracking](/code-claude-docs/agent-sdk__todo-tracking.md)
+- [Tool Search](/code-claude-docs/agent-sdk__tool-search.md)
+- [Tools Reference](/code-claude-docs/tools-reference.md)
+- [Troubleshoot Install](/code-claude-docs/troubleshoot-install.md)
 - [Troubleshooting](/code-claude-docs/troubleshooting.md)
+- [Typescript](/code-claude-docs/agent-sdk__typescript.md)
+- [Typescript V2 Preview](/code-claude-docs/agent-sdk__typescript-v2-preview.md)
+- [Ultraplan](/code-claude-docs/ultraplan.md)
+- [Ultrareview](/code-claude-docs/ultrareview.md)
+- [User Input](/code-claude-docs/agent-sdk__user-input.md)
+- [Voice Dictation](/code-claude-docs/voice-dictation.md)
 - [Vs Code](/code-claude-docs/vs-code.md)
+- [Web Quickstart](/code-claude-docs/web-quickstart.md)
+- [Whats New](/code-claude-docs/whats-new.md)
+- [Worktrees](/code-claude-docs/worktrees.md)
+- [Zero Data Retention](/code-claude-docs/zero-data-retention.md)
 
 ## Anthropic News & Announcements (4)
 - [Anthropic acquires Bun as Claude Code reaches $1B milestone](/anthropic-news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone.md) - Anthropic is an AI safety and research company that's working to build reliab...
@@ -71,15 +146,20 @@ Documents related to Claude Code across all sources (114 documents)
 - [Enabling Claude Code to work more autonomously](/anthropic-news/enabling-claude-code-to-work-more-autonomously.md) -  Introducing Claude Code upgrades: native VS Code extension, terminal UX upda...
 - [Making frontier cybersecurity capabilities available to defenders](/anthropic-news/claude-code-security.md) - Claude Code Security is one step towards our goal of more secure codebases an...
 
-## Engineering Blog Posts (4)
+## Engineering Blog Posts (7)
+- [An update on recent Claude Code quality reports](/engineering-blog/april-23-postmortem.md) - Anthropic is an AI safety and research company that's working to build reliab...
+- [Best practices for Claude Code](/engineering-blog/claude-code-best-practices.md) - Tips and patterns for getting the most out of Claude Code, from configuring y...
 - [Beyond permission prompts: making Claude Code more secure and autonomous](/engineering-blog/claude-code-sandboxing.md) - Learn how Claude Code's new sandboxing feature protects developers with files...
 - [Building a C compiler with a team of parallel Claudes](/engineering-blog/building-c-compiler.md) - Anthropic is an AI safety and research company that's working to build reliab...
-- [Claude Code overview](/engineering-blog/claude-code-best-practices.md) - Claude Code is an agentic coding tool that reads your codebase, edits files, ...
+- [Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
+- [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (40)
+## Claude.com Blog Posts (60)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
+- [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
+- [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Automate security reviews with Claude Code](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
 - [Beyond permission prompts: making Claude Code more secure and autonomous](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 - [Bringing automated preview, review, and merge to Claude Code on desktop](/claude-blog/preview-review-and-merge-with-claude-code.md) - ![](https://cdn
@@ -87,37 +167,55 @@ Documents related to Claude Code across all sources (114 documents)
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
 - [Claude Code on the web](/claude-blog/claude-code-on-the-web.md) - ![](https://cdn
 - [Claude Code power user customization: How to configure hooks](/claude-blog/how-to-configure-hooks.md) - ![](https://cdn
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
-- [Cowork: Claude Code for the rest of your work](/claude-blog/cowork-research-preview.md) - ![](https://cdn
+- [Code with Claude comes to San Francisco, London, and Tokyo](/claude-blog/code-with-claude-san-francisco-london-tokyo.md) - ![](https://cdn
+- [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
+- [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
+- [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
+- [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [Eight trends defining how software gets built in 2026](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
-- [Equipping agents for the real world with Agent Skills](/claude-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - ![](https://cdn
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
 - [How AI helps break the cost barrier to COBOL modernization](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
+- [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How Brex improves code quality and productivity with Claude Code](/claude-blog/how-brex-improves-code-quality-and-productivity-with-claude-code.md) - ![](https://cdn
+- [How Claude Code works in large codebases: Best practices and where to start](/claude-blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md) - ![](https://cdn
+- [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
+- [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How three YC startups built their companies with Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
 - [Improving frontend design through Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
+- [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
-- [Introduction to agentic coding](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
+- [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
+- [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
 - [Piloting Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
+- [Product management on the AI exponential](/claude-blog/product-management-on-the-ai-exponential.md) - ![](https://cdn
+- [Put Claude to work on your computer](/claude-blog/dispatch-and-computer-use.md) - ![](https://cdn
+- [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
-- [Skills가 프롬프트, 프로젝트, MCP, 서브 에이전트와 다른 점](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
+- [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
 - [Updates to Claude Team](/claude-blog/claude-team-updates.md) - ![](https://cdn
 - [Using CLAUDE.md files: Customizing Claude Code for your codebase](/claude-blog/using-claude-md-files.md) - ![](https://cdn
+- [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
+- [スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較](/claude-blog/skills-explained.md) - ![](https://cdn
 
 ## Support Articles (8)
 - [Automated Security Reviews in Claude Code](/docs-support/automated-security-reviews-in-claude-code.md)
@@ -125,7 +223,7 @@ Documents related to Claude Code across all sources (114 documents)
 - [Claude Code model configuration](/docs-support/claude-code-model-configuration.md)
 - [Claude Code on the web](/docs-support/claude-code-on-the-web.md)
 - [Claude Code usage analytics](/docs-support/claude-code-usage-analytics.md)
-- [Managing API key environment variables in Claude Code](/docs-support/managing-api-key-environment-variables-in-claude-code.md)
+- [Manage API key environment variables in Claude Code](/docs-support/managing-api-key-environment-variables-in-claude-code.md)
+- [Use Claude Code with your Pro or Max plan](/docs-support/using-claude-code-with-your-pro-or-max-plan.md)
 - [Use Claude Code with your Team or Enterprise plan](/docs-support/use-claude-code-with-your-team-or-enterprise-plan.md)
-- [Using Claude Code with your Pro or Max plan](/docs-support/using-claude-code-with-your-pro-or-max-plan.md)
 

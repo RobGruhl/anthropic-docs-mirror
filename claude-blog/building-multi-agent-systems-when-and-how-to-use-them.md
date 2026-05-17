@@ -9,7 +9,7 @@ While single-agent systems handle most enterprise workflows effectively, multi-a
 
 - CategoryAgents
 
-- ProductClaude Developer PlatformClaude Code
+- ProductClaude PlatformClaude Code
 
 - DateJanuary 23, 2026
 
@@ -395,8 +395,6 @@ This is the first in a series of posts on multi-agent systems. For more on singl
 
 ## Acknowledgements
 
-‍
-
 Written by Cara Phillips, with contributions from Paul Chen, Andy Schumeister, Brad Abrams, and Theo Chu.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
@@ -411,21 +409,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
-### Cowork: Claude Code for the rest of your work
+### Best practices for computer and browser use with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
 
-### Best practices for prompt engineering
+### Building AI agents for the enterprise
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+### Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### How to create Skills: Key steps, limitations, and examples
+### What is Model Context Protocol? Connect AI to your world
 
 ## Transform how your organization operates with Claude
 

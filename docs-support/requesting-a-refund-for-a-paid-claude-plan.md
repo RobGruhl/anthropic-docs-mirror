@@ -23,13 +23,13 @@ To request a refund for a payment defined as refundable in our Terms of Service,
 
 If you're unable to log in to the account associated with your payment (for example, if you can't access the email account you used to sign up), you'll need to **[contact our Support team](https://support.claude.com/en/articles/9015913-how-to-get-support)** using another email and 'cc' the email address tied to the account you can't access. Write back to cancel your paid plan and request a refund so our team can assist.<br>​﻿
 
-## I paid for my plan on Claude for iOS -- what's the process for requesting a refund?
+## I paid for my plan on Claude for iOS—what's the process for requesting a refund?
 
 If you paid for your plan on **[Claude for iOS](https://support.claude.com/en/collections/9879000-claude-for-ios)**, this means your subscription was started from the Apple App Store. We didn't process this payment, so you will need to reach out to **[Apple Support](https://support.apple.com/billing)** to request a refund.
 
  
 
-## I paid for my plan on Claude for Android -- what's the process for requesting a refund?
+## I paid for my plan on Claude for Android—what's the process for requesting a refund?
 
 If you have an active subscription purchased on **[Claude for Android](https://support.claude.com/en/collections/9879004-claude-for-android)**, our Support team will need to check your eligibility before assisting with a refund. When contacting us, provide any relevant details upfront so our team can help with your request. However, if you are requesting a refund for an inactive subscription, our team won't be able to issue refunds for historical payments made through the Play Store. Please get in touch with **[Google Support](https://support.google.com/googleplay/workflow/9813244?hl=en)** for further assistance.
 
@@ -46,6 +46,6 @@ Our Support team cannot process refunds during pending disputes, as the disputed
 
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
-- [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

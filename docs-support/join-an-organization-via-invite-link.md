@@ -1,6 +1,6 @@
 # Join an organization via invite link
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -19,16 +19,17 @@ Admins and above can generate, copy, disable, and regenerate the invite link for
 ### Availability
 
 - **Team plans:** Invite links are enabled by default for new organizations.
-- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them from **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them from **[Organization settings > Identity and access](http://claude.ai/admin-settings/identity)**.
 - **SSO organizations:** Invite links are not available. Member provisioning is managed through your Identity Provider.
 
  
 
 ### Find and share your invite link
 
-1. Navigate to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
-2. Find the invite link section and click "Copy invite link."
-3. Share the link with the teammates you'd like to add—for example, in a Slack channel, email thread, or team wiki.
+1. Navigate to **[Organization settings > Identity and access](http://claude.ai/admin-settings/identity)**.
+2. Find **Invite link** in the **Global access settings** section.
+3. Click the button to the right of the link to copy it.
+4. Share the link with the teammates you'd like to add—for example, in a Slack channel, email thread, or team wiki.
 
  
 
@@ -49,8 +50,7 @@ Members who join via link are assigned to the lowest available seat tier. If no 
 
 Invite link joins respect your organization's existing security controls:
 
-- **Allowed domains:** Only users with an email address on your organization's allowed domains list can join. Anyone else will see an error.
-- **Org addition setting:** If your organization requires admin approval for new members ("request + approve" mode), link joiners will submit a request that you'll need to approve before they're added. If set to "automatic," they're added immediately.
+- **Allowed domains:** Only users with an email address on your organization's **[allowed domains list](https://support.claude.com/en/articles/13325567-account-management-faqs#h_b54c41c86c)** can join. Anyone else will see an error.
 - **Seat limits:** If your organization has reached its seat limit, link joiners will see an error prompting them to contact their admin.
 
  
@@ -66,10 +66,7 @@ Invite link joins respect your organization's existing security controls:
 3. After authenticating, your email domain will be checked against your organization's allowed domains.
 3. - If your domain matches, you can proceed to join.
 - If your domain doesn't match, you'll see an error. Contact your admin if you believe this is incorrect.
-4. What happens next depends on your organization's settings:
-4. - If your organization uses **instant approval**, you’ll be added to the lowest available seat tier automatically when you join using the invite link.
-- If your organization uses **request + approve**, joining via the invite link sends a request to your admin, who needs to review and approve it before you’re added as a member.
-- For more information, see **[How to find and join an organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization#h_4e3fb82c87)**.
+4. After your domain is verified, you'll be added to the organization automatically and assigned to the lowest available seat tier.
 
 If you're already a member of the organization, you'll be redirected to the chat interface automatically.
 
@@ -79,7 +76,7 @@ If you're already a member of the organization, you'll be redirected to the chat
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
+- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
-- [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
-- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
+- [Find and join a Console organization](https://support.claude.com/en/articles/14793921-find-and-join-a-console-organization)

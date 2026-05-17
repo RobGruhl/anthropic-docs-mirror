@@ -1,6 +1,6 @@
 # How do I pay for my Claude API usage?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -44,8 +44,8 @@ Learn more about credit usage and how it relates to usage limits in our **[Claud
 
 ## Related Articles
 
+- [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [I created a Claude Console organization - how do I start using the Claude API?](https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [How can I advance my Claude API usage to Tier 2?](https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)

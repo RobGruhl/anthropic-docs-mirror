@@ -1,6 +1,6 @@
-# Understanding Claude Error Messages
+# Troubleshoot Claude error messages
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -18,7 +18,7 @@ If you hit your plan’s limit after the warning appears, you’ll see a blockin
 
  
 
-Looking for ways to maximize your Claude usage? Refer to [Usage Limit Best Practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices).
+Looking for ways to maximize your Claude usage? Refer to **[Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)**.
 
  
 
@@ -30,8 +30,8 @@ Paid Claude users with extra usage enabled in Usage settings will see a slightly
 
 Refer to these articles for more information about this feature depending on your plan:
 
-- [Extra Usage for Paid Claude Plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
-- [Extra Usage for Team and Enterprise Plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-enterprise-plans)
+- **[Extra usage for paid Claude Plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)**
+- **[Extra usage for Team and Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-enterprise-plans)**
 
  
 
@@ -58,7 +58,7 @@ If you see a generic error message when attempting to log in to your Claude acco
 - Disable any browser extensions that you currently have active.
 - Clear your browser’s cache and cookies.
 
- If you're still seeing an error, check [our status page](http://status.claude.com) for active incidents.
+ If you're still seeing an error, check **[our status page](http://status.claude.com)** for active incidents.
 
  
 
@@ -66,7 +66,7 @@ If you see a generic error message when attempting to log in to your Claude acco
 
 Capacity issues occur when Claude’s infrastructure experiences high demand system-wide. When capacity is constrained, you may see this message when chatting with Claude: *"Due to unexpected capacity constraints, Claude is unable to respond to your message. Please try again soon."*
 
-Capacity issues will not appear on [our status page](http://status.claude.com) because they represent normal load management rather than technical problems.
+Capacity issues will not appear on our status page because they represent normal load management rather than technical problems.
 
  
 
@@ -76,7 +76,7 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1771884000&signature=1259849def0b12c598f2e61e1b0de3be916ccf9c769951ef78660a61e37b3be3&req=dSciFc53m4NbXvMW1HO4za4BUa4r2rbE7y68oYp%2BYg%2FsQl%2BulnSm9%2BfaaxDi%0AVt36cNiBZRWZ8JAJ9LE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1778979600&signature=6158950d048dc6925c1e9ca054524a99829f09f74f16dd833716a89b668302be&req=dSciFc53m4NbXvMW1HO4za4BUacq1bvC7y68oYp%2BYg%2Fl6nihOzI9pGHMbXp3%0AHvxP8ThxkQbh9SMnzUA%3D%0A)
 
  
 
@@ -85,8 +85,8 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
 ## Related Articles
 
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)

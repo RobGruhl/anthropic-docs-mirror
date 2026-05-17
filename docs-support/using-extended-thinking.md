@@ -1,6 +1,6 @@
 # Using extended thinking
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -79,8 +79,8 @@ Extended thinking mode is particularly valuable for:
 
 ## Related Articles
 
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 - [Using voice mode](https://support.claude.com/en/articles/11101966-using-voice-mode)
-- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
-- [Getting started with Claude.ai](https://support.claude.com/en/articles/12997377-getting-started-with-claude-ai)
-- [Getting started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)
+- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

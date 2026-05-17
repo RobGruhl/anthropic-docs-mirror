@@ -1,6 +1,6 @@
 # Claude 4 Invite Sweepstakes Official Rules
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -20,8 +20,8 @@ By entering the Claude 4 Invite Sweepstakes, you accept and agree to these Offic
 
 ## Related Articles
 
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
 - [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
-- [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)
+- [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)
+- [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)

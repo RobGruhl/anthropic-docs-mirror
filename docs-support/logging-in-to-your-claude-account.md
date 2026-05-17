@@ -1,6 +1,6 @@
 # Logging in to your Claude account
 
-*Updated this week*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -8,7 +8,7 @@ When you open Claude on a web browser ([claude.ai](http://claude.ai)), the deskt
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1771884000&signature=429d4ef43f514fbd3b3ee06345a5e76caf1ca0fa10fb671483539781cc59ddab&req=dSguFct%2Fm4lfXfMW1HO4zXg5CYOE6xa0zWhrqpWiTMmUJpyBPtsWVceODsUx%0AY2hQE7yKDO5%2B2gzTUe0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1778979600&signature=9aea335c4b6d63a90f6f06cfa04250f4464597f32935c1ab92fcfacf1fda7883&req=dSguFct%2Fm4lfXfMW1HO4zXg5CYqF5BuyzWhrqpWiTMk7IlBA9Llj3jkwGk6e%0ACb3c9CjCM0an10RTXdE%3D%0A)
 
  
 
@@ -36,6 +36,26 @@ If you requested the login email and clicked the link using a different device (
 
  
 
+## Authenticating to subscription plans
+
+Claude offers subscription plans (Free, Pro, Max, Team, Enterprise) that let subscribers authenticate using OAuth tokens or other methods. Subscription plans can only be used by subscribers, and the usage included in these plans is designed to support ordinary use of native Anthropic applications, including the Claude web, desktop, and mobile applications and Claude Code.
+
+ 
+
+The preferred way to access Anthropic services using third-party software, tools, or services (“third-party tools”), including open-source projects, is through API key authentication through Claude Console or a supported cloud provider. Anthropic may at its discretion allow paid subscribers who have enabled **[extra usage](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)** to use certain third-party tools to access Anthropic services included in paid subscription plans, but reserves the right to draw use of such third-party tools from extra usage rather than subscription limits. Users are responsible for any Extra Usage charges incurred this way. Use of third-party tools that misrepresent their identity to Anthropic’s servers, attempt to route third-party traffic against subscription limits, or otherwise violate applicable terms or policies is prohibited and such use may be enforced against.
+
+ 
+
+## Developers
+
+If you’re building a product, application, or tool for others, use API key authentication through Claude Console or a supported cloud provider. Applications that misrepresent their identity to Anthropic’s servers, attempt to route third-party traffic against subscription limits, or otherwise violate applicable terms or policies are prohibited and may be enforced against.
+
+ 
+
+---
+
+ 
+
 ## Troubleshooting
 
 ### I entered my email address but I haven’t received my login email.
@@ -49,15 +69,19 @@ If you requested a login email but you haven’t received it yet, do the followi
 
 ### I received the email but I'm still having trouble logging in.
 
-If you received the login email but can’t log in with the link or code, take note of the error message you’re seeing. If you’re creating an account or logging in for the first time and seeing a message about your phone number, please refer to [Verifying your phone number](https://support.claude.com/en/articles/8287232-verifying-your-phone-number).
+If you received the login email but can’t log in with the link or code, take note of the error message you’re seeing. If you’re creating an account or logging in for the first time and seeing a message about your phone number, please refer to **[Verifying your phone number](https://support.claude.com/en/articles/8287232-verifying-your-phone-number)**.
 
  
 
-Otherwise, visit the [Claude status page](https://status.claude.com/) to check if there are any known service disruptions or maintenance activities. If the status page shows an ongoing system-wide incident, it's best to wait for service restoration before attempting further troubleshooting.
+Otherwise, visit the **[Claude status page](https://status.claude.com/)** to check if there are any known service disruptions or maintenance activities. If the status page shows an ongoing system-wide incident, it's best to wait for service restoration before attempting further troubleshooting.
 
  
 
-## Frequently Asked Questions
+---
+
+ 
+
+## Frequently asked questions
 
 ### How can I set a password for my Claude account?
 
@@ -114,6 +138,6 @@ If you are already logged in to Claude for iOS, you can see the email address yo
 
 - [How do I log out of all active sessions?](https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions)
 - [Getting Started with Claude for Education at Your University (for Owners/Admins)](https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins)
-- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
-- [How to gift a Claude subscription](https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription)
+- [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

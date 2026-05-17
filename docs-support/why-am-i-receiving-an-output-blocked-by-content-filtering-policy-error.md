@@ -1,6 +1,6 @@
 # Why am I receiving an 'Output blocked by content filtering policy' error?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 

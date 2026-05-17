@@ -22,6 +22,8 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+    Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
     Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
   - `Messages param.Field[[]MessageParamResp]`
@@ -148,13 +150,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -178,13 +190,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -354,13 +380,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `DocumentIndex int64`
 
                         - `DocumentTitle string`
 
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Type ContentBlockLocation`
 
@@ -384,13 +420,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `SearchResultIndex int64`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `Source string`
 
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Title string`
 
@@ -573,13 +623,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -603,13 +663,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -839,13 +913,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `DocumentIndex int64`
 
                     - `DocumentTitle string`
 
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Type ContentBlockLocation`
 
@@ -869,13 +953,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `SearchResultIndex int64`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `Source string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Title string`
 
@@ -1011,13 +1109,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `DocumentIndex int64`
 
                       - `DocumentTitle string`
 
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Type ContentBlockLocation`
 
@@ -1041,13 +1149,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `SearchResultIndex int64`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `Source string`
 
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Title string`
 
@@ -1195,13 +1317,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `DocumentIndex int64`
 
                               - `DocumentTitle string`
 
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Type ContentBlockLocation`
 
@@ -1225,13 +1357,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `SearchResultIndex int64`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `Source string`
 
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Title string`
 
@@ -1689,13 +1835,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `DocumentIndex int64`
 
                               - `DocumentTitle string`
 
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Type ContentBlockLocation`
 
@@ -1719,13 +1875,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `SearchResultIndex int64`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `Source string`
 
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Title string`
 
@@ -2418,13 +2588,23 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -2448,13 +2628,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -3391,6 +3585,87 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
         When true, guarantees schema validation on tool names and inputs
 
+    - `type WebFetchTool20260309 struct{…}`
+
+      Web fetch tool with use_cache parameter for bypassing cached content.
+
+      - `Name WebFetch`
+
+        Name of the tool.
+
+        This is how the tool will be called by the model and in `tool_use` blocks.
+
+        - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+      - `Type WebFetch20260309`
+
+        - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+      - `AllowedCallers []string`
+
+        - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+        - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+        - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+      - `AllowedDomains []string`
+
+        List of domains to allow fetching from
+
+      - `BlockedDomains []string`
+
+        List of domains to block fetching from
+
+      - `CacheControl CacheControlEphemeral`
+
+        Create a cache control breakpoint at this content block.
+
+        - `Type Ephemeral`
+
+          - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+        - `TTL CacheControlEphemeralTTL`
+
+          The time-to-live for the cache control breakpoint.
+
+          This may be one the following values:
+
+          - `5m`: 5 minutes
+          - `1h`: 1 hour
+
+          Defaults to `5m`.
+
+          - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+          - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+      - `Citations CitationsConfigParamResp`
+
+        Citations configuration for fetched documents. Citations are disabled by default.
+
+        - `Enabled bool`
+
+      - `DeferLoading bool`
+
+        If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+      - `MaxContentTokens int64`
+
+        Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+      - `MaxUses int64`
+
+        Maximum number of times the tool can be used in the API request.
+
+      - `Strict bool`
+
+        When true, guarantees schema validation on tool names and inputs
+
+      - `UseCache bool`
+
+        Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
     - `type ToolSearchToolBm25_20251119 struct{…}`
 
       - `Name ToolSearchToolBm25`
@@ -3507,15 +3782,15 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
     Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-    Recommended for advanced use cases only. You usually only need to use `temperature`.
+    Recommended for advanced use cases only.
 
   - `TopP param.Field[float64]`
 
     Use nucleus sampling.
 
-    In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+    In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-    Recommended for advanced use cases only. You usually only need to use `temperature`.
+    Recommended for advanced use cases only.
 
 ### Returns
 
@@ -3616,15 +3891,25 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `FileID string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -3648,13 +3933,27 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -4236,9 +4535,17 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -4305,6 +4612,30 @@ Learn more about the Messages API in our [user guide](https://docs.claude.com/en
     This will always be `"assistant"`.
 
     - `const AssistantAssistant Assistant = "assistant"`
+
+  - `StopDetails RefusalStopDetails`
+
+    Structured information about a refusal.
+
+    - `Category RefusalStopDetailsCategory`
+
+      The policy category that triggered the refusal.
+
+      `null` when the refusal doesn't map to a named category.
+
+      - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+      - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+    - `Explanation string`
+
+      Human-readable explanation of the refusal.
+
+      This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+    - `Type Refusal`
+
+      - `const RefusalRefusal Refusal = "refusal"`
 
   - `StopReason StopReason`
 
@@ -4589,13 +4920,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -4619,13 +4960,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -4795,13 +5150,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `DocumentIndex int64`
 
                         - `DocumentTitle string`
 
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Type ContentBlockLocation`
 
@@ -4825,13 +5190,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `SearchResultIndex int64`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `Source string`
 
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Title string`
 
@@ -5014,13 +5393,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -5044,13 +5433,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -5280,13 +5683,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `DocumentIndex int64`
 
                     - `DocumentTitle string`
 
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Type ContentBlockLocation`
 
@@ -5310,13 +5723,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `SearchResultIndex int64`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `Source string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Title string`
 
@@ -5452,13 +5879,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `DocumentIndex int64`
 
                       - `DocumentTitle string`
 
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Type ContentBlockLocation`
 
@@ -5482,13 +5919,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `SearchResultIndex int64`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `Source string`
 
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Title string`
 
@@ -5636,13 +6087,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `DocumentIndex int64`
 
                               - `DocumentTitle string`
 
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Type ContentBlockLocation`
 
@@ -5666,13 +6127,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `SearchResultIndex int64`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `Source string`
 
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Title string`
 
@@ -6130,13 +6605,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `DocumentIndex int64`
 
                               - `DocumentTitle string`
 
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Type ContentBlockLocation`
 
@@ -6160,13 +6645,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                               - `CitedText string`
 
+                                The full text of the cited block range, concatenated.
+
+                                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                               - `EndBlockIndex int64`
 
+                                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                               - `SearchResultIndex int64`
+
+                                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                Counted separately from `document_index`; server-side web search results are not included in this count.
 
                               - `Source string`
 
                               - `StartBlockIndex int64`
+
+                                0-based index of the first cited block in the source's `content` array.
 
                               - `Title string`
 
@@ -6829,13 +7328,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -6859,13 +7368,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -7794,6 +8317,87 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
         When true, guarantees schema validation on tool names and inputs
 
+    - `type WebFetchTool20260309 struct{…}`
+
+      Web fetch tool with use_cache parameter for bypassing cached content.
+
+      - `Name WebFetch`
+
+        Name of the tool.
+
+        This is how the tool will be called by the model and in `tool_use` blocks.
+
+        - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+      - `Type WebFetch20260309`
+
+        - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+      - `AllowedCallers []string`
+
+        - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+        - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+        - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+      - `AllowedDomains []string`
+
+        List of domains to allow fetching from
+
+      - `BlockedDomains []string`
+
+        List of domains to block fetching from
+
+      - `CacheControl CacheControlEphemeral`
+
+        Create a cache control breakpoint at this content block.
+
+        - `Type Ephemeral`
+
+          - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+        - `TTL CacheControlEphemeralTTL`
+
+          The time-to-live for the cache control breakpoint.
+
+          This may be one the following values:
+
+          - `5m`: 5 minutes
+          - `1h`: 1 hour
+
+          Defaults to `5m`.
+
+          - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+          - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+      - `Citations CitationsConfigParamResp`
+
+        Citations configuration for fetched documents. Citations are disabled by default.
+
+        - `Enabled bool`
+
+      - `DeferLoading bool`
+
+        If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+      - `MaxContentTokens int64`
+
+        Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+      - `MaxUses int64`
+
+        Maximum number of times the tool can be used in the API request.
+
+      - `Strict bool`
+
+        When true, guarantees schema validation on tool names and inputs
+
+      - `UseCache bool`
+
+        Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
     - `type ToolSearchToolBm25_20251119 struct{…}`
 
       - `Name ToolSearchToolBm25`
@@ -8303,15 +8907,25 @@ func main() {
 
   - `CitedText string`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `DocumentIndex int64`
 
   - `DocumentTitle string`
 
   - `EndBlockIndex int64`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `FileID string`
 
   - `StartBlockIndex int64`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Type ContentBlockLocation`
 
@@ -8323,13 +8937,23 @@ func main() {
 
   - `CitedText string`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `DocumentIndex int64`
 
   - `DocumentTitle string`
 
   - `EndBlockIndex int64`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `StartBlockIndex int64`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Type ContentBlockLocation`
 
@@ -8379,13 +9003,27 @@ func main() {
 
   - `CitedText string`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `EndBlockIndex int64`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `SearchResultIndex int64`
+
+    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+    Counted separately from `document_index`; server-side web search results are not included in this count.
 
   - `Source string`
 
   - `StartBlockIndex int64`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Title string`
 
@@ -8467,15 +9105,25 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `DocumentIndex int64`
 
       - `DocumentTitle string`
 
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `FileID string`
 
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Type ContentBlockLocation`
 
@@ -8499,13 +9147,27 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `SearchResultIndex int64`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `Source string`
 
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Title string`
 
@@ -8523,13 +9185,27 @@ func main() {
 
   - `CitedText string`
 
+    The full text of the cited block range, concatenated.
+
+    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
   - `EndBlockIndex int64`
 
+    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
   - `SearchResultIndex int64`
+
+    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+    Counted separately from `document_index`; server-side web search results are not included in this count.
 
   - `Source string`
 
   - `StartBlockIndex int64`
+
+    0-based index of the first cited block in the source's `content` array.
 
   - `Title string`
 
@@ -9243,15 +9919,25 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `DocumentIndex int64`
 
         - `DocumentTitle string`
 
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `FileID string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Type ContentBlockLocation`
 
@@ -9275,13 +9961,27 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `SearchResultIndex int64`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `Source string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Title string`
 
@@ -9926,13 +10626,23 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `DocumentIndex int64`
 
         - `DocumentTitle string`
 
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Type ContentBlockLocation`
 
@@ -9956,13 +10666,27 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `SearchResultIndex int64`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `Source string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Title string`
 
@@ -10132,13 +10856,23 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `DocumentIndex int64`
 
                   - `DocumentTitle string`
 
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Type ContentBlockLocation`
 
@@ -10162,13 +10896,27 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `SearchResultIndex int64`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `Source string`
 
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Title string`
 
@@ -10351,13 +11099,23 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -10381,13 +11139,27 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -10617,13 +11389,23 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -10647,13 +11429,27 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -10789,13 +11585,23 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -10819,13 +11625,27 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -10973,13 +11793,23 @@ func main() {
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `DocumentIndex int64`
 
                         - `DocumentTitle string`
 
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Type ContentBlockLocation`
 
@@ -11003,13 +11833,27 @@ func main() {
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `SearchResultIndex int64`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `Source string`
 
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Title string`
 
@@ -11467,13 +12311,23 @@ func main() {
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `DocumentIndex int64`
 
                         - `DocumentTitle string`
 
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Type ContentBlockLocation`
 
@@ -11497,13 +12351,27 @@ func main() {
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `SearchResultIndex int64`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `Source string`
 
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Title string`
 
@@ -12148,13 +13016,23 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -12178,13 +13056,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -12326,13 +13218,23 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `DocumentIndex int64`
 
         - `DocumentTitle string`
 
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Type ContentBlockLocation`
 
@@ -12356,13 +13258,27 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `SearchResultIndex int64`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `Source string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Title string`
 
@@ -12588,13 +13504,23 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -12618,13 +13544,27 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -13021,15 +13961,25 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `FileID string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -13053,13 +14003,27 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -13641,9 +14605,17 @@ func main() {
 
       See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+      - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+        Frontier intelligence for long-running agents and coding
+
+      - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+        New class of intelligence, strongest in coding and cybersecurity
+
       - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-        Most intelligent model for building agents and coding
+        Frontier intelligence for long-running agents and coding
 
       - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -13710,6 +14682,30 @@ func main() {
     This will always be `"assistant"`.
 
     - `const AssistantAssistant Assistant = "assistant"`
+
+  - `StopDetails RefusalStopDetails`
+
+    Structured information about a refusal.
+
+    - `Category RefusalStopDetailsCategory`
+
+      The policy category that triggered the refusal.
+
+      `null` when the refusal doesn't map to a named category.
+
+      - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+      - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+    - `Explanation string`
+
+      Human-readable explanation of the refusal.
+
+      This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+    - `Type Refusal`
+
+      - `const RefusalRefusal Refusal = "refusal"`
 
   - `StopReason StopReason`
 
@@ -14669,6 +15665,87 @@ func main() {
 
       When true, guarantees schema validation on tool names and inputs
 
+  - `type WebFetchTool20260309 struct{…}`
+
+    Web fetch tool with use_cache parameter for bypassing cached content.
+
+    - `Name WebFetch`
+
+      Name of the tool.
+
+      This is how the tool will be called by the model and in `tool_use` blocks.
+
+      - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+    - `Type WebFetch20260309`
+
+      - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+    - `AllowedCallers []string`
+
+      - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+      - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+      - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+    - `AllowedDomains []string`
+
+      List of domains to allow fetching from
+
+    - `BlockedDomains []string`
+
+      List of domains to block fetching from
+
+    - `CacheControl CacheControlEphemeral`
+
+      Create a cache control breakpoint at this content block.
+
+      - `Type Ephemeral`
+
+        - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+      - `TTL CacheControlEphemeralTTL`
+
+        The time-to-live for the cache control breakpoint.
+
+        This may be one the following values:
+
+        - `5m`: 5 minutes
+        - `1h`: 1 hour
+
+        Defaults to `5m`.
+
+        - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+        - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+    - `Citations CitationsConfigParamResp`
+
+      Citations configuration for fetched documents. Citations are disabled by default.
+
+      - `Enabled bool`
+
+    - `DeferLoading bool`
+
+      If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+    - `MaxContentTokens int64`
+
+      Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+    - `MaxUses int64`
+
+      Maximum number of times the tool can be used in the API request.
+
+    - `Strict bool`
+
+      When true, guarantees schema validation on tool names and inputs
+
+    - `UseCache bool`
+
+      Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
   - `type ToolSearchToolBm25_20251119 struct{…}`
 
     - `Name ToolSearchToolBm25`
@@ -14888,13 +15965,23 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -14918,13 +16005,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -15094,13 +16195,23 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `DocumentIndex int64`
 
                       - `DocumentTitle string`
 
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Type ContentBlockLocation`
 
@@ -15124,13 +16235,27 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `SearchResultIndex int64`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `Source string`
 
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Title string`
 
@@ -15313,13 +16438,23 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -15343,13 +16478,27 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -15579,13 +16728,23 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `DocumentIndex int64`
 
                   - `DocumentTitle string`
 
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Type ContentBlockLocation`
 
@@ -15609,13 +16768,27 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `SearchResultIndex int64`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `Source string`
 
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Title string`
 
@@ -15751,13 +16924,23 @@ func main() {
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `DocumentIndex int64`
 
                     - `DocumentTitle string`
 
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Type ContentBlockLocation`
 
@@ -15781,13 +16964,27 @@ func main() {
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `SearchResultIndex int64`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `Source string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Title string`
 
@@ -15935,13 +17132,23 @@ func main() {
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `DocumentIndex int64`
 
                             - `DocumentTitle string`
 
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Type ContentBlockLocation`
 
@@ -15965,13 +17172,27 @@ func main() {
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `SearchResultIndex int64`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `Source string`
 
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Title string`
 
@@ -16429,13 +17650,23 @@ func main() {
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `DocumentIndex int64`
 
                             - `DocumentTitle string`
 
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Type ContentBlockLocation`
 
@@ -16459,13 +17690,27 @@ func main() {
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `SearchResultIndex int64`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `Source string`
 
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Title string`
 
@@ -17069,9 +18314,17 @@ func main() {
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+    - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+      Frontier intelligence for long-running agents and coding
+
+    - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+      New class of intelligence, strongest in coding and cybersecurity
+
     - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-      Most intelligent model for building agents and coding
+      Frontier intelligence for long-running agents and coding
 
     - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -17144,6 +18397,8 @@ func main() {
     - `const OutputConfigEffortMedium OutputConfigEffort = "medium"`
 
     - `const OutputConfigEffortHigh OutputConfigEffort = "high"`
+
+    - `const OutputConfigEffortXhigh OutputConfigEffort = "xhigh"`
 
     - `const OutputConfigEffortMax OutputConfigEffort = "max"`
 
@@ -17237,15 +18492,25 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `DocumentIndex int64`
 
         - `DocumentTitle string`
 
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `FileID string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Type ContentBlockLocation`
 
@@ -17269,13 +18534,27 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `SearchResultIndex int64`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `Source string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Title string`
 
@@ -17369,15 +18648,25 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `FileID string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -17401,13 +18690,27 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -17497,15 +18800,25 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `DocumentIndex int64`
 
           - `DocumentTitle string`
 
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `FileID string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Type ContentBlockLocation`
 
@@ -17529,13 +18842,27 @@ func main() {
 
           - `CitedText string`
 
+            The full text of the cited block range, concatenated.
+
+            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
           - `EndBlockIndex int64`
 
+            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
           - `SearchResultIndex int64`
+
+            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+            Counted separately from `document_index`; server-side web search results are not included in this count.
 
           - `Source string`
 
           - `StartBlockIndex int64`
+
+            0-based index of the first cited block in the source's `content` array.
 
           - `Title string`
 
@@ -18139,6 +19466,30 @@ func main() {
 
         The time at which the container will expire.
 
+    - `StopDetails RefusalStopDetails`
+
+      Structured information about a refusal.
+
+      - `Category RefusalStopDetailsCategory`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+        - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+      - `Explanation string`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `Type Refusal`
+
+        - `const RefusalRefusal Refusal = "refusal"`
+
     - `StopReason StopReason`
 
       - `const StopReasonEndTurn StopReason = "end_turn"`
@@ -18300,15 +19651,25 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `FileID string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -18332,13 +19693,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -18920,9 +20295,17 @@ func main() {
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -18989,6 +20372,30 @@ func main() {
       This will always be `"assistant"`.
 
       - `const AssistantAssistant Assistant = "assistant"`
+
+    - `StopDetails RefusalStopDetails`
+
+      Structured information about a refusal.
+
+      - `Category RefusalStopDetailsCategory`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+        - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+      - `Explanation string`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `Type Refusal`
+
+        - `const RefusalRefusal Refusal = "refusal"`
 
     - `StopReason StopReason`
 
@@ -19212,15 +20619,25 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `FileID string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -19244,13 +20661,27 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -19832,9 +21263,17 @@ func main() {
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -19901,6 +21340,30 @@ func main() {
         This will always be `"assistant"`.
 
         - `const AssistantAssistant Assistant = "assistant"`
+
+      - `StopDetails RefusalStopDetails`
+
+        Structured information about a refusal.
+
+        - `Category RefusalStopDetailsCategory`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+          - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+        - `Explanation string`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `Type Refusal`
+
+          - `const RefusalRefusal Refusal = "refusal"`
 
       - `StopReason StopReason`
 
@@ -20029,6 +21492,30 @@ func main() {
 
           The time at which the container will expire.
 
+      - `StopDetails RefusalStopDetails`
+
+        Structured information about a refusal.
+
+        - `Category RefusalStopDetailsCategory`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+          - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+        - `Explanation string`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `Type Refusal`
+
+          - `const RefusalRefusal Refusal = "refusal"`
+
       - `StopReason StopReason`
 
         - `const StopReasonEndTurn StopReason = "end_turn"`
@@ -20149,15 +21636,25 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `FileID string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -20181,13 +21678,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -20827,15 +22338,25 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `FileID string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -20859,13 +22380,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -20926,6 +22461,32 @@ func main() {
   - `Type RedactedThinking`
 
     - `const RedactedThinkingRedactedThinking RedactedThinking = "redacted_thinking"`
+
+### Refusal Stop Details
+
+- `type RefusalStopDetails struct{…}`
+
+  Structured information about a refusal.
+
+  - `Category RefusalStopDetailsCategory`
+
+    The policy category that triggered the refusal.
+
+    `null` when the refusal doesn't map to a named category.
+
+    - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+    - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+  - `Explanation string`
+
+    Human-readable explanation of the refusal.
+
+    This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+  - `Type Refusal`
+
+    - `const RefusalRefusal Refusal = "refusal"`
 
 ### Search Result Block Param
 
@@ -21000,13 +22561,23 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `DocumentIndex int64`
 
         - `DocumentTitle string`
 
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Type ContentBlockLocation`
 
@@ -21030,13 +22601,27 @@ func main() {
 
         - `CitedText string`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `EndBlockIndex int64`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `SearchResultIndex int64`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `Source string`
 
         - `StartBlockIndex int64`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `Title string`
 
@@ -21328,15 +22913,25 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `DocumentIndex int64`
 
       - `DocumentTitle string`
 
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `FileID string`
 
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Type ContentBlockLocation`
 
@@ -21360,13 +22955,27 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `SearchResultIndex int64`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `Source string`
 
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Title string`
 
@@ -21451,13 +23060,23 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `DocumentIndex int64`
 
       - `DocumentTitle string`
 
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Type ContentBlockLocation`
 
@@ -21481,13 +23100,27 @@ func main() {
 
       - `CitedText string`
 
+        The full text of the cited block range, concatenated.
+
+        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
       - `EndBlockIndex int64`
 
+        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
       - `SearchResultIndex int64`
+
+        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+        Counted separately from `document_index`; server-side web search results are not included in this count.
 
       - `Source string`
 
       - `StartBlockIndex int64`
+
+        0-based index of the first cited block in the source's `content` array.
 
       - `Title string`
 
@@ -21539,15 +23172,25 @@ func main() {
 
     - `CitedText string`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `DocumentIndex int64`
 
     - `DocumentTitle string`
 
     - `EndBlockIndex int64`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `FileID string`
 
     - `StartBlockIndex int64`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Type ContentBlockLocation`
 
@@ -21571,13 +23214,27 @@ func main() {
 
     - `CitedText string`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `EndBlockIndex int64`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `SearchResultIndex int64`
+
+      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+      Counted separately from `document_index`; server-side web search results are not included in this count.
 
     - `Source string`
 
     - `StartBlockIndex int64`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Title string`
 
@@ -21625,13 +23282,23 @@ func main() {
 
     - `CitedText string`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `DocumentIndex int64`
 
     - `DocumentTitle string`
 
     - `EndBlockIndex int64`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `StartBlockIndex int64`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Type ContentBlockLocation`
 
@@ -21655,13 +23322,27 @@ func main() {
 
     - `CitedText string`
 
+      The full text of the cited block range, concatenated.
+
+      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
     - `EndBlockIndex int64`
 
+      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
     - `SearchResultIndex int64`
+
+      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+      Counted separately from `document_index`; server-side web search results are not included in this count.
 
     - `Source string`
 
     - `StartBlockIndex int64`
+
+      0-based index of the first cited block in the source's `content` array.
 
     - `Title string`
 
@@ -22052,6 +23733,14 @@ func main() {
 
     - `const AdaptiveAdaptive Adaptive = "adaptive"`
 
+  - `Display ThinkingConfigAdaptiveDisplay`
+
+    Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+    - `const ThinkingConfigAdaptiveDisplaySummarized ThinkingConfigAdaptiveDisplay = "summarized"`
+
+    - `const ThinkingConfigAdaptiveDisplayOmitted ThinkingConfigAdaptiveDisplay = "omitted"`
+
 ### Thinking Config Disabled
 
 - `type ThinkingConfigDisabled struct{…}`
@@ -22075,6 +23764,14 @@ func main() {
   - `Type Enabled`
 
     - `const EnabledEnabled Enabled = "enabled"`
+
+  - `Display ThinkingConfigEnabledDisplay`
+
+    Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+    - `const ThinkingConfigEnabledDisplaySummarized ThinkingConfigEnabledDisplay = "summarized"`
+
+    - `const ThinkingConfigEnabledDisplayOmitted ThinkingConfigEnabledDisplay = "omitted"`
 
 ### Thinking Config Param
 
@@ -22100,6 +23797,14 @@ func main() {
 
       - `const EnabledEnabled Enabled = "enabled"`
 
+    - `Display ThinkingConfigEnabledDisplay`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `const ThinkingConfigEnabledDisplaySummarized ThinkingConfigEnabledDisplay = "summarized"`
+
+      - `const ThinkingConfigEnabledDisplayOmitted ThinkingConfigEnabledDisplay = "omitted"`
+
   - `type ThinkingConfigDisabled struct{…}`
 
     - `Type Disabled`
@@ -22111,6 +23816,14 @@ func main() {
     - `Type Adaptive`
 
       - `const AdaptiveAdaptive Adaptive = "adaptive"`
+
+    - `Display ThinkingConfigAdaptiveDisplay`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `const ThinkingConfigAdaptiveDisplaySummarized ThinkingConfigAdaptiveDisplay = "summarized"`
+
+      - `const ThinkingConfigAdaptiveDisplayOmitted ThinkingConfigAdaptiveDisplay = "omitted"`
 
 ### Thinking Delta
 
@@ -22531,13 +24244,23 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -22561,13 +24284,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -22703,13 +24440,23 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -22733,13 +24480,27 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -22887,13 +24648,23 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `DocumentIndex int64`
 
                       - `DocumentTitle string`
 
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Type ContentBlockLocation`
 
@@ -22917,13 +24688,27 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `SearchResultIndex int64`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `Source string`
 
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Title string`
 
@@ -24447,6 +26232,87 @@ func main() {
 
       When true, guarantees schema validation on tool names and inputs
 
+  - `type WebFetchTool20260309 struct{…}`
+
+    Web fetch tool with use_cache parameter for bypassing cached content.
+
+    - `Name WebFetch`
+
+      Name of the tool.
+
+      This is how the tool will be called by the model and in `tool_use` blocks.
+
+      - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+    - `Type WebFetch20260309`
+
+      - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+    - `AllowedCallers []string`
+
+      - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+      - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+      - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+    - `AllowedDomains []string`
+
+      List of domains to allow fetching from
+
+    - `BlockedDomains []string`
+
+      List of domains to block fetching from
+
+    - `CacheControl CacheControlEphemeral`
+
+      Create a cache control breakpoint at this content block.
+
+      - `Type Ephemeral`
+
+        - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+      - `TTL CacheControlEphemeralTTL`
+
+        The time-to-live for the cache control breakpoint.
+
+        This may be one the following values:
+
+        - `5m`: 5 minutes
+        - `1h`: 1 hour
+
+        Defaults to `5m`.
+
+        - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+        - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+    - `Citations CitationsConfigParamResp`
+
+      Citations configuration for fetched documents. Citations are disabled by default.
+
+      - `Enabled bool`
+
+    - `DeferLoading bool`
+
+      If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+    - `MaxContentTokens int64`
+
+      Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+    - `MaxUses int64`
+
+      Maximum number of times the tool can be used in the API request.
+
+    - `Strict bool`
+
+      When true, guarantees schema validation on tool names and inputs
+
+    - `UseCache bool`
+
+      Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
   - `type ToolSearchToolBm25_20251119 struct{…}`
 
     - `Name ToolSearchToolBm25`
@@ -24937,13 +26803,23 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `DocumentIndex int64`
 
                   - `DocumentTitle string`
 
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Type ContentBlockLocation`
 
@@ -24967,13 +26843,27 @@ func main() {
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `SearchResultIndex int64`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `Source string`
 
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Title string`
 
@@ -25251,6 +27141,89 @@ func main() {
 
     When true, guarantees schema validation on tool names and inputs
 
+### Web Fetch Tool 20260309
+
+- `type WebFetchTool20260309 struct{…}`
+
+  Web fetch tool with use_cache parameter for bypassing cached content.
+
+  - `Name WebFetch`
+
+    Name of the tool.
+
+    This is how the tool will be called by the model and in `tool_use` blocks.
+
+    - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+  - `Type WebFetch20260309`
+
+    - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+  - `AllowedCallers []string`
+
+    - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+    - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+    - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+  - `AllowedDomains []string`
+
+    List of domains to allow fetching from
+
+  - `BlockedDomains []string`
+
+    List of domains to block fetching from
+
+  - `CacheControl CacheControlEphemeral`
+
+    Create a cache control breakpoint at this content block.
+
+    - `Type Ephemeral`
+
+      - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+    - `TTL CacheControlEphemeralTTL`
+
+      The time-to-live for the cache control breakpoint.
+
+      This may be one the following values:
+
+      - `5m`: 5 minutes
+      - `1h`: 1 hour
+
+      Defaults to `5m`.
+
+      - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+      - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+  - `Citations CitationsConfigParamResp`
+
+    Citations configuration for fetched documents. Citations are disabled by default.
+
+    - `Enabled bool`
+
+  - `DeferLoading bool`
+
+    If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+  - `MaxContentTokens int64`
+
+    Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+  - `MaxUses int64`
+
+    Maximum number of times the tool can be used in the API request.
+
+  - `Strict bool`
+
+    When true, guarantees schema validation on tool names and inputs
+
+  - `UseCache bool`
+
+    Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
 ### Web Fetch Tool Result Block
 
 - `type WebFetchToolResultBlock struct{…}`
@@ -25510,13 +27483,23 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `DocumentIndex int64`
 
                       - `DocumentTitle string`
 
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Type ContentBlockLocation`
 
@@ -25540,13 +27523,27 @@ func main() {
 
                       - `CitedText string`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `EndBlockIndex int64`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `SearchResultIndex int64`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `Source string`
 
                       - `StartBlockIndex int64`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `Title string`
 
@@ -26366,6 +28363,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+        Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
         Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
       - `Messages []MessageParamResp`
@@ -26492,13 +28491,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `DocumentIndex int64`
 
                   - `DocumentTitle string`
 
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Type ContentBlockLocation`
 
@@ -26522,13 +28531,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `CitedText string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `EndBlockIndex int64`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `SearchResultIndex int64`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `Source string`
 
                   - `StartBlockIndex int64`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `Title string`
 
@@ -26698,13 +28721,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `DocumentIndex int64`
 
                             - `DocumentTitle string`
 
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Type ContentBlockLocation`
 
@@ -26728,13 +28761,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `CitedText string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `EndBlockIndex int64`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `SearchResultIndex int64`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `Source string`
 
                             - `StartBlockIndex int64`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `Title string`
 
@@ -26917,13 +28964,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `DocumentIndex int64`
 
                     - `DocumentTitle string`
 
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Type ContentBlockLocation`
 
@@ -26947,13 +29004,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `SearchResultIndex int64`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `Source string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Title string`
 
@@ -27183,13 +29254,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `DocumentIndex int64`
 
                         - `DocumentTitle string`
 
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Type ContentBlockLocation`
 
@@ -27213,13 +29294,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `CitedText string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `EndBlockIndex int64`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `SearchResultIndex int64`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `Source string`
 
                         - `StartBlockIndex int64`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `Title string`
 
@@ -27355,13 +29450,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `CitedText string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `DocumentIndex int64`
 
                           - `DocumentTitle string`
 
                           - `EndBlockIndex int64`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `StartBlockIndex int64`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `Type ContentBlockLocation`
 
@@ -27385,13 +29490,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `CitedText string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `EndBlockIndex int64`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `SearchResultIndex int64`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `Source string`
 
                           - `StartBlockIndex int64`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `Title string`
 
@@ -27539,13 +29658,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `CitedText string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `DocumentIndex int64`
 
                                   - `DocumentTitle string`
 
                                   - `EndBlockIndex int64`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `StartBlockIndex int64`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Type ContentBlockLocation`
 
@@ -27569,13 +29698,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `CitedText string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `EndBlockIndex int64`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `SearchResultIndex int64`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `Source string`
 
                                   - `StartBlockIndex int64`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Title string`
 
@@ -28033,13 +30176,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `CitedText string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `DocumentIndex int64`
 
                                   - `DocumentTitle string`
 
                                   - `EndBlockIndex int64`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `StartBlockIndex int64`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Type ContentBlockLocation`
 
@@ -28063,13 +30216,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `CitedText string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `EndBlockIndex int64`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `SearchResultIndex int64`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `Source string`
 
                                   - `StartBlockIndex int64`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `Title string`
 
@@ -28653,9 +30820,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -28770,6 +30945,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           - `const OutputConfigEffortHigh OutputConfigEffort = "high"`
 
+          - `const OutputConfigEffortXhigh OutputConfigEffort = "xhigh"`
+
           - `const OutputConfigEffortMax OutputConfigEffort = "max"`
 
         - `Format JSONOutputFormat`
@@ -28883,13 +31060,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -28913,13 +31100,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -28957,6 +31158,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `const EnabledEnabled Enabled = "enabled"`
 
+          - `Display ThinkingConfigEnabledDisplay`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `const ThinkingConfigEnabledDisplaySummarized ThinkingConfigEnabledDisplay = "summarized"`
+
+            - `const ThinkingConfigEnabledDisplayOmitted ThinkingConfigEnabledDisplay = "omitted"`
+
         - `type ThinkingConfigDisabled struct{…}`
 
           - `Type Disabled`
@@ -28968,6 +31177,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `Type Adaptive`
 
             - `const AdaptiveAdaptive Adaptive = "adaptive"`
+
+          - `Display ThinkingConfigAdaptiveDisplay`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `const ThinkingConfigAdaptiveDisplaySummarized ThinkingConfigAdaptiveDisplay = "summarized"`
+
+            - `const ThinkingConfigAdaptiveDisplayOmitted ThinkingConfigAdaptiveDisplay = "omitted"`
 
       - `ToolChoice ToolChoiceUnion`
 
@@ -29936,6 +32153,87 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             When true, guarantees schema validation on tool names and inputs
 
+        - `type WebFetchTool20260309 struct{…}`
+
+          Web fetch tool with use_cache parameter for bypassing cached content.
+
+          - `Name WebFetch`
+
+            Name of the tool.
+
+            This is how the tool will be called by the model and in `tool_use` blocks.
+
+            - `const WebFetchWebFetch WebFetch = "web_fetch"`
+
+          - `Type WebFetch20260309`
+
+            - `const WebFetch20260309WebFetch20260309 WebFetch20260309 = "web_fetch_20260309"`
+
+          - `AllowedCallers []string`
+
+            - `const WebFetchTool20260309AllowedCallerDirect WebFetchTool20260309AllowedCaller = "direct"`
+
+            - `const WebFetchTool20260309AllowedCallerCodeExecution20250825 WebFetchTool20260309AllowedCaller = "code_execution_20250825"`
+
+            - `const WebFetchTool20260309AllowedCallerCodeExecution20260120 WebFetchTool20260309AllowedCaller = "code_execution_20260120"`
+
+          - `AllowedDomains []string`
+
+            List of domains to allow fetching from
+
+          - `BlockedDomains []string`
+
+            List of domains to block fetching from
+
+          - `CacheControl CacheControlEphemeral`
+
+            Create a cache control breakpoint at this content block.
+
+            - `Type Ephemeral`
+
+              - `const EphemeralEphemeral Ephemeral = "ephemeral"`
+
+            - `TTL CacheControlEphemeralTTL`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `const CacheControlEphemeralTTLTTL5m CacheControlEphemeralTTL = "5m"`
+
+              - `const CacheControlEphemeralTTLTTL1h CacheControlEphemeralTTL = "1h"`
+
+          - `Citations CitationsConfigParamResp`
+
+            Citations configuration for fetched documents. Citations are disabled by default.
+
+            - `Enabled bool`
+
+          - `DeferLoading bool`
+
+            If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+          - `MaxContentTokens int64`
+
+            Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+          - `MaxUses int64`
+
+            Maximum number of times the tool can be used in the API request.
+
+          - `Strict bool`
+
+            When true, guarantees schema validation on tool names and inputs
+
+          - `UseCache bool`
+
+            Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
         - `type ToolSearchToolBm25_20251119 struct{…}`
 
           - `Name ToolSearchToolBm25`
@@ -30052,15 +32350,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
       - `TopP float64`
 
         Use nucleus sampling.
 
-        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
 ### Returns
 
@@ -30796,15 +33094,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `FileID string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -30828,13 +33136,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -31416,9 +33738,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+            - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
             - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -31485,6 +33815,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `const AssistantAssistant Assistant = "assistant"`
+
+        - `StopDetails RefusalStopDetails`
+
+          Structured information about a refusal.
+
+          - `Category RefusalStopDetailsCategory`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+            - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+          - `Explanation string`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `Type Refusal`
+
+            - `const RefusalRefusal Refusal = "refusal"`
 
         - `StopReason StopReason`
 
@@ -32056,15 +34410,25 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `FileID string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -32088,13 +34452,27 @@ func main() {
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -32676,9 +35054,17 @@ func main() {
 
             See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+            - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
             - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -32745,6 +35131,30 @@ func main() {
           This will always be `"assistant"`.
 
           - `const AssistantAssistant Assistant = "assistant"`
+
+        - `StopDetails RefusalStopDetails`
+
+          Structured information about a refusal.
+
+          - `Category RefusalStopDetailsCategory`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+            - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+          - `Explanation string`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `Type Refusal`
+
+            - `const RefusalRefusal Refusal = "refusal"`
 
         - `StopReason StopReason`
 
@@ -33096,15 +35506,25 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `DocumentIndex int64`
 
               - `DocumentTitle string`
 
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `FileID string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Type ContentBlockLocation`
 
@@ -33128,13 +35548,27 @@ func main() {
 
               - `CitedText string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `EndBlockIndex int64`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `SearchResultIndex int64`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `Source string`
 
               - `StartBlockIndex int64`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `Title string`
 
@@ -33716,9 +36150,17 @@ func main() {
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -33785,6 +36227,30 @@ func main() {
         This will always be `"assistant"`.
 
         - `const AssistantAssistant Assistant = "assistant"`
+
+      - `StopDetails RefusalStopDetails`
+
+        Structured information about a refusal.
+
+        - `Category RefusalStopDetailsCategory`
+
+          The policy category that triggered the refusal.
+
+          `null` when the refusal doesn't map to a named category.
+
+          - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+          - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+        - `Explanation string`
+
+          Human-readable explanation of the refusal.
+
+          This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+        - `Type Refusal`
+
+          - `const RefusalRefusal Refusal = "refusal"`
 
       - `StopReason StopReason`
 
@@ -34098,15 +36564,25 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `DocumentIndex int64`
 
             - `DocumentTitle string`
 
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `FileID string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Type ContentBlockLocation`
 
@@ -34130,13 +36606,27 @@ func main() {
 
             - `CitedText string`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `EndBlockIndex int64`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `SearchResultIndex int64`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `Source string`
 
             - `StartBlockIndex int64`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `Title string`
 
@@ -34718,9 +37208,17 @@ func main() {
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+        - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+          Frontier intelligence for long-running agents and coding
+
+        - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+          New class of intelligence, strongest in coding and cybersecurity
+
         - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-          Most intelligent model for building agents and coding
+          Frontier intelligence for long-running agents and coding
 
         - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -34787,6 +37285,30 @@ func main() {
       This will always be `"assistant"`.
 
       - `const AssistantAssistant Assistant = "assistant"`
+
+    - `StopDetails RefusalStopDetails`
+
+      Structured information about a refusal.
+
+      - `Category RefusalStopDetailsCategory`
+
+        The policy category that triggered the refusal.
+
+        `null` when the refusal doesn't map to a named category.
+
+        - `const RefusalStopDetailsCategoryCyber RefusalStopDetailsCategory = "cyber"`
+
+        - `const RefusalStopDetailsCategoryBio RefusalStopDetailsCategory = "bio"`
+
+      - `Explanation string`
+
+        Human-readable explanation of the refusal.
+
+        This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+      - `Type Refusal`
+
+        - `const RefusalRefusal Refusal = "refusal"`
 
     - `StopReason StopReason`
 

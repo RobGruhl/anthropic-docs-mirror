@@ -1,10 +1,10 @@
 # How to gift a Claude subscription
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
-Give the gift of Claude to friends, family, or colleagues. Gift subscriptions are available for Pro, Max 5x, and Max 20x plans, and can be purchased for 1, 3, 6, or 12 months.
+Give the gift of Claude to friends, family, or colleagues.
 
  
 
@@ -12,13 +12,13 @@ Give the gift of Claude to friends, family, or colleagues. Gift subscriptions ar
 
 Gift subscriptions include full access to all features of the selected plan. Refer to the below articles for full details for each plan:
 
-- [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
-- [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+- **[What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)**
+- **[What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)**
 -  
 
 ## Who can purchase gifts?
 
-Anyone can purchase a gift subscription, so you don’t need to have a Claude account to give a subscription to someone else.
+Gift subscriptions are available for most Pro and Max plan users to purchase. Free users and members of Team and Enterprise organizations can't purchase gift subscriptions at this time.
 
  
 
@@ -38,7 +38,7 @@ After purchase, you'll receive a confirmation email with your order details.
 
  
 
-## Delivery Options
+## Delivery options
 
 **Email delivery:** The recipient receives the gift directly in their inbox. The email includes your personalized message and a redemption button.
 
@@ -48,10 +48,10 @@ After purchase, you'll receive a confirmation email with your order details.
 
  
 
-## Good to Know
+## Good to know
 
 - Gift subscriptions are available globally.
-- Recipients redeem gifts on the web at [claude.ai/gift/redeem](https://claude.ai/gift/redeem).
+- Recipients redeem gifts on the web at **[claude.ai/gift/redeem](https://claude.ai/gift/redeem)**. For more information, see **[How to redeem a Claude gift subscription](https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription)**.
 - Recipients with active mobile (iOS or Android) subscriptions will need to wait until their mobile subscription ends before redeeming.
 - No credit card is required for the recipient to redeem.
 
@@ -60,8 +60,8 @@ After purchase, you'll receive a confirmation email with your order details.
 
 ## Related Articles
 
-- [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
+- [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
+- [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
+- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [How to redeem a Claude gift subscription](https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription)
-- [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)
+- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)

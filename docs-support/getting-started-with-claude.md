@@ -1,4 +1,4 @@
-# Getting started with Claude
+# Get started with Claude
 
 *Updated this week*
 
@@ -14,14 +14,14 @@ Claude is a large language model (LLM) built by Anthropic. It's trained to be a 
 
 You can access Claude through several platforms:
 
-- **Web**: Visit [claude.ai](https://claude.ai/) to chat with Claude in a web browser.
-- **Desktop**: [Download Claude Desktop](https://claude.ai/download) for Mac or Windows.
+- **Web**: Visit **[claude.ai](https://claude.ai/)** to chat with Claude in a web browser.
+- **Desktop**: **[Download Claude Desktop](https://claude.ai/download)** for Mac or Windows.
 - **Mobile**: Download Claude for iOS or Android to chat on your mobile device.
 -  
 
 ## Supported locations
 
-You must be in one of our [supported locations](https://support.claude.com/en/articles/8461763-where-can-i-access-claude) to access Claude.
+You must be in one of our **[supported locations](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)** to access Claude.
 
  
 
@@ -42,13 +42,13 @@ You use **prompts** to communicate with Claude. The best approach is to speak to
 
  
 
-### Using the Claude chat interface
+### Use the Claude chat interface
 
 Type your prompt into the chat interface and click the submit button to start a conversation with Claude. You can click the "+" button in the lower left or type "/" to view additional options and commands:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1771884000&signature=2138f4cccb6cf19b401b73150a38b69d640893ac01129de4e0478f8f5020a2da&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4i7CvIOB9crMELaMZPz1GlmayHgEVFD6zdxa%0Azj7YiJ2z3bHIpILahtM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1778979600&signature=d6f57ced242f7b4bd10a7c5b20697665d22148def477e9bb1ffbda07d3ac9ce8&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4ifDs46H9crMELaMZPyAfy4kO8VD8kDvsWJA%0AVkRGHdltzPjcs539dz0%3D%0A)
 
  
 
@@ -60,7 +60,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
 ### Which model am I talking to?
 
-The model you're currently chatting with is displayed below your text input. Free users can’t adjust this, but users on paid plans can toggle between different models using the model selector.
+The model you're currently chatting with is displayed either below your text input (on web and desktop) or at the top of your screen (on mobile). You can click on the model you're using to open the model selector and switch to another available model.
 
  
 
@@ -80,13 +80,19 @@ While using the free Claude plan, there is a session-based usage limit that will
 
  
 
-For more information about usage and length limits, refer to **[Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)**.
+For more information about usage and length limits, refer to **[How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)**
 
  
 
-## How do I increase my usage limits?
+### How do I increase my usage limits?
 
 We also have several paid subscriptions that offer additional usage. For more information, view our guide on **[Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)**.
+
+ 
+
+### Can I import my conversation history from another AI provider?
+
+No, it's not possible to import conversation history from another AI provider into Claude at this time. However, Free, Pro, and Max users can use the memory import feature to transfer memory from other AI providers into Claude. For more information, see **[Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)**.
 
  
 
@@ -112,7 +118,7 @@ Once you've started using Claude, you can:
 
 - **[Customize your appearance settings](https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings)**
 - **[Explore Claude’s personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)**
-- Learn more about designing effective prompts in our[ prompt engineering documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview).
+- Learn more about designing effective prompts in our **[prompt engineering documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)**.
 - For additional features and more usage, consider **[upgrading to a paid plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)**.
 
 
@@ -120,8 +126,8 @@ Once you've started using Claude, you can:
 
 ## Related Articles
 
-- [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
-- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
-- [Getting started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
-- [Understanding Claude Error Messages](https://support.claude.com/en/articles/12466728-understanding-claude-error-messages)
+- [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
+- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
+- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

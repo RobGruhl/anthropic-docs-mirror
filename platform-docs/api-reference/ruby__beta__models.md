@@ -26,13 +26,13 @@ The Models API response can be used to determine which models are available for 
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -74,6 +74,14 @@ The Models API response can be used to determine which models are available for 
 
     - `:"fast-mode-2026-02-01"`
 
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `class BetaModelInfo`
@@ -82,6 +90,166 @@ The Models API response can be used to determine which models are available for 
 
     Unique model identifier.
 
+  - `capabilities: BetaModelCapabilities`
+
+    Model capability information.
+
+    - `batch: BetaCapabilitySupport`
+
+      Whether the model supports the Batch API.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `citations: BetaCapabilitySupport`
+
+      Whether the model supports citation generation.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `code_execution: BetaCapabilitySupport`
+
+      Whether the model supports code execution tools.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `context_management: BetaContextManagementCapability`
+
+      Context management support and available strategies.
+
+      - `clear_thinking_20251015: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `clear_tool_uses_20250919: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `compact_20260112: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `effort: BetaEffortCapability`
+
+      Effort (reasoning_effort) support and available levels.
+
+      - `high: BetaCapabilitySupport`
+
+        Whether the model supports high effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `low: BetaCapabilitySupport`
+
+        Whether the model supports low effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `max: BetaCapabilitySupport`
+
+        Whether the model supports max effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `medium: BetaCapabilitySupport`
+
+        Whether the model supports medium effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `xhigh: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+    - `image_input: BetaCapabilitySupport`
+
+      Whether the model accepts image content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `pdf_input: BetaCapabilitySupport`
+
+      Whether the model accepts PDF content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `structured_outputs: BetaCapabilitySupport`
+
+      Whether the model supports structured output / JSON mode / strict tool schemas.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `thinking: BetaThinkingCapability`
+
+      Thinking capability and supported type configurations.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `types: BetaThinkingTypes`
+
+        Supported thinking type configurations.
+
+        - `adaptive: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'adaptive' (auto).
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
+
+        - `enabled: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'enabled'.
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
+
   - `created_at: Time`
 
     RFC 3339 datetime string representing the time at which the model was released. May be set to an epoch value if the release date is unknown.
@@ -89,6 +257,14 @@ The Models API response can be used to determine which models are available for 
   - `display_name: String`
 
     A human-readable name for the model.
+
+  - `max_input_tokens: Integer`
+
+    Maximum input context window size in tokens for this model.
+
+  - `max_tokens: Integer`
+
+    Maximum value for the `max_tokens` parameter when using this model.
 
   - `type: :model`
 
@@ -126,13 +302,13 @@ The Models API response can be used to determine information about a specific mo
 
   Model identifier or alias.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -174,6 +350,14 @@ The Models API response can be used to determine information about a specific mo
 
     - `:"fast-mode-2026-02-01"`
 
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `class BetaModelInfo`
@@ -182,6 +366,166 @@ The Models API response can be used to determine information about a specific mo
 
     Unique model identifier.
 
+  - `capabilities: BetaModelCapabilities`
+
+    Model capability information.
+
+    - `batch: BetaCapabilitySupport`
+
+      Whether the model supports the Batch API.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `citations: BetaCapabilitySupport`
+
+      Whether the model supports citation generation.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `code_execution: BetaCapabilitySupport`
+
+      Whether the model supports code execution tools.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `context_management: BetaContextManagementCapability`
+
+      Context management support and available strategies.
+
+      - `clear_thinking_20251015: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `clear_tool_uses_20250919: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `compact_20260112: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `effort: BetaEffortCapability`
+
+      Effort (reasoning_effort) support and available levels.
+
+      - `high: BetaCapabilitySupport`
+
+        Whether the model supports high effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `low: BetaCapabilitySupport`
+
+        Whether the model supports low effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `max: BetaCapabilitySupport`
+
+        Whether the model supports max effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `medium: BetaCapabilitySupport`
+
+        Whether the model supports medium effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `xhigh: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+    - `image_input: BetaCapabilitySupport`
+
+      Whether the model accepts image content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `pdf_input: BetaCapabilitySupport`
+
+      Whether the model accepts PDF content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `structured_outputs: BetaCapabilitySupport`
+
+      Whether the model supports structured output / JSON mode / strict tool schemas.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `thinking: BetaThinkingCapability`
+
+      Thinking capability and supported type configurations.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `types: BetaThinkingTypes`
+
+        Supported thinking type configurations.
+
+        - `adaptive: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'adaptive' (auto).
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
+
+        - `enabled: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'enabled'.
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
+
   - `created_at: Time`
 
     RFC 3339 datetime string representing the time at which the model was released. May be set to an epoch value if the release date is unknown.
@@ -189,6 +533,14 @@ The Models API response can be used to determine information about a specific mo
   - `display_name: String`
 
     A human-readable name for the model.
+
+  - `max_input_tokens: Integer`
+
+    Maximum input context window size in tokens for this model.
+
+  - `max_tokens: Integer`
+
+    Maximum value for the `max_tokens` parameter when using this model.
 
   - `type: :model`
 
@@ -212,6 +564,262 @@ puts(beta_model_info)
 
 ## Domain Types
 
+### Beta Capability Support
+
+- `class BetaCapabilitySupport`
+
+  Indicates whether a capability is supported.
+
+  - `supported: bool`
+
+    Whether this capability is supported by the model.
+
+### Beta Context Management Capability
+
+- `class BetaContextManagementCapability`
+
+  Context management capability details.
+
+  - `clear_thinking_20251015: BetaCapabilitySupport`
+
+    Indicates whether a capability is supported.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `clear_tool_uses_20250919: BetaCapabilitySupport`
+
+    Indicates whether a capability is supported.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `compact_20260112: BetaCapabilitySupport`
+
+    Indicates whether a capability is supported.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `supported: bool`
+
+    Whether this capability is supported by the model.
+
+### Beta Effort Capability
+
+- `class BetaEffortCapability`
+
+  Effort (reasoning_effort) capability details.
+
+  - `high: BetaCapabilitySupport`
+
+    Whether the model supports high effort level.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `low: BetaCapabilitySupport`
+
+    Whether the model supports low effort level.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `max: BetaCapabilitySupport`
+
+    Whether the model supports max effort level.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `medium: BetaCapabilitySupport`
+
+    Whether the model supports medium effort level.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `supported: bool`
+
+    Whether this capability is supported by the model.
+
+  - `xhigh: BetaCapabilitySupport`
+
+    Indicates whether a capability is supported.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+### Beta Model Capabilities
+
+- `class BetaModelCapabilities`
+
+  Model capability information.
+
+  - `batch: BetaCapabilitySupport`
+
+    Whether the model supports the Batch API.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `citations: BetaCapabilitySupport`
+
+    Whether the model supports citation generation.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `code_execution: BetaCapabilitySupport`
+
+    Whether the model supports code execution tools.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `context_management: BetaContextManagementCapability`
+
+    Context management support and available strategies.
+
+    - `clear_thinking_20251015: BetaCapabilitySupport`
+
+      Indicates whether a capability is supported.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `clear_tool_uses_20250919: BetaCapabilitySupport`
+
+      Indicates whether a capability is supported.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `compact_20260112: BetaCapabilitySupport`
+
+      Indicates whether a capability is supported.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `effort: BetaEffortCapability`
+
+    Effort (reasoning_effort) support and available levels.
+
+    - `high: BetaCapabilitySupport`
+
+      Whether the model supports high effort level.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `low: BetaCapabilitySupport`
+
+      Whether the model supports low effort level.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `max: BetaCapabilitySupport`
+
+      Whether the model supports max effort level.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `medium: BetaCapabilitySupport`
+
+      Whether the model supports medium effort level.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+    - `xhigh: BetaCapabilitySupport`
+
+      Indicates whether a capability is supported.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+  - `image_input: BetaCapabilitySupport`
+
+    Whether the model accepts image content blocks.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `pdf_input: BetaCapabilitySupport`
+
+    Whether the model accepts PDF content blocks.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `structured_outputs: BetaCapabilitySupport`
+
+    Whether the model supports structured output / JSON mode / strict tool schemas.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `thinking: BetaThinkingCapability`
+
+    Thinking capability and supported type configurations.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+    - `types: BetaThinkingTypes`
+
+      Supported thinking type configurations.
+
+      - `adaptive: BetaCapabilitySupport`
+
+        Whether the model supports thinking with type 'adaptive' (auto).
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `enabled: BetaCapabilitySupport`
+
+        Whether the model supports thinking with type 'enabled'.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
 ### Beta Model Info
 
 - `class BetaModelInfo`
@@ -219,6 +827,166 @@ puts(beta_model_info)
   - `id: String`
 
     Unique model identifier.
+
+  - `capabilities: BetaModelCapabilities`
+
+    Model capability information.
+
+    - `batch: BetaCapabilitySupport`
+
+      Whether the model supports the Batch API.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `citations: BetaCapabilitySupport`
+
+      Whether the model supports citation generation.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `code_execution: BetaCapabilitySupport`
+
+      Whether the model supports code execution tools.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `context_management: BetaContextManagementCapability`
+
+      Context management support and available strategies.
+
+      - `clear_thinking_20251015: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `clear_tool_uses_20250919: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `compact_20260112: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `effort: BetaEffortCapability`
+
+      Effort (reasoning_effort) support and available levels.
+
+      - `high: BetaCapabilitySupport`
+
+        Whether the model supports high effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `low: BetaCapabilitySupport`
+
+        Whether the model supports low effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `max: BetaCapabilitySupport`
+
+        Whether the model supports max effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `medium: BetaCapabilitySupport`
+
+        Whether the model supports medium effort level.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `xhigh: BetaCapabilitySupport`
+
+        Indicates whether a capability is supported.
+
+        - `supported: bool`
+
+          Whether this capability is supported by the model.
+
+    - `image_input: BetaCapabilitySupport`
+
+      Whether the model accepts image content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `pdf_input: BetaCapabilitySupport`
+
+      Whether the model accepts PDF content blocks.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `structured_outputs: BetaCapabilitySupport`
+
+      Whether the model supports structured output / JSON mode / strict tool schemas.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `thinking: BetaThinkingCapability`
+
+      Thinking capability and supported type configurations.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+      - `types: BetaThinkingTypes`
+
+        Supported thinking type configurations.
+
+        - `adaptive: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'adaptive' (auto).
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
+
+        - `enabled: BetaCapabilitySupport`
+
+          Whether the model supports thinking with type 'enabled'.
+
+          - `supported: bool`
+
+            Whether this capability is supported by the model.
 
   - `created_at: Time`
 
@@ -228,6 +996,14 @@ puts(beta_model_info)
 
     A human-readable name for the model.
 
+  - `max_input_tokens: Integer`
+
+    Maximum input context window size in tokens for this model.
+
+  - `max_tokens: Integer`
+
+    Maximum value for the `max_tokens` parameter when using this model.
+
   - `type: :model`
 
     Object type.
@@ -235,6 +1011,58 @@ puts(beta_model_info)
     For Models, this is always `"model"`.
 
     - `:model`
+
+### Beta Thinking Capability
+
+- `class BetaThinkingCapability`
+
+  Thinking capability details.
+
+  - `supported: bool`
+
+    Whether this capability is supported by the model.
+
+  - `types: BetaThinkingTypes`
+
+    Supported thinking type configurations.
+
+    - `adaptive: BetaCapabilitySupport`
+
+      Whether the model supports thinking with type 'adaptive' (auto).
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+    - `enabled: BetaCapabilitySupport`
+
+      Whether the model supports thinking with type 'enabled'.
+
+      - `supported: bool`
+
+        Whether this capability is supported by the model.
+
+### Beta Thinking Types
+
+- `class BetaThinkingTypes`
+
+  Supported thinking type configurations.
+
+  - `adaptive: BetaCapabilitySupport`
+
+    Whether the model supports thinking with type 'adaptive' (auto).
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
+
+  - `enabled: BetaCapabilitySupport`
+
+    Whether the model supports thinking with type 'enabled'.
+
+    - `supported: bool`
+
+      Whether this capability is supported by the model.
 
 
 ---

@@ -138,13 +138,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
             - `cited_text: String`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `document_index: Integer`
 
             - `document_title: String`
 
             - `end_block_index: Integer`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `start_block_index: Integer`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `type: :content_block_location`
 
@@ -168,13 +178,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
             - `cited_text: String`
 
+              The full text of the cited block range, concatenated.
+
+              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
             - `end_block_index: Integer`
 
+              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
             - `search_result_index: Integer`
+
+              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+              Counted separately from `document_index`; server-side web search results are not included in this count.
 
             - `source: String`
 
             - `start_block_index: Integer`
+
+              0-based index of the first cited block in the source's `content` array.
 
             - `title: String`
 
@@ -344,13 +368,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `cited_text: String`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `document_index: Integer`
 
                       - `document_title: String`
 
                       - `end_block_index: Integer`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `start_block_index: Integer`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `type: :content_block_location`
 
@@ -374,13 +408,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                       - `cited_text: String`
 
+                        The full text of the cited block range, concatenated.
+
+                        Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                       - `end_block_index: Integer`
 
+                        Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                        Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                       - `search_result_index: Integer`
+
+                        0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                        Counted separately from `document_index`; server-side web search results are not included in this count.
 
                       - `source: String`
 
                       - `start_block_index: Integer`
+
+                        0-based index of the first cited block in the source's `content` array.
 
                       - `title: String`
 
@@ -563,13 +611,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `cited_text: String`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `document_index: Integer`
 
               - `document_title: String`
 
               - `end_block_index: Integer`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `start_block_index: Integer`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `type: :content_block_location`
 
@@ -593,13 +651,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
               - `cited_text: String`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `end_block_index: Integer`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `search_result_index: Integer`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `source: String`
 
               - `start_block_index: Integer`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `title: String`
 
@@ -831,13 +903,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                   - `cited_text: String`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `document_index: Integer`
 
                   - `document_title: String`
 
                   - `end_block_index: Integer`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `start_block_index: Integer`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `type: :content_block_location`
 
@@ -861,13 +943,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                   - `cited_text: String`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `end_block_index: Integer`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `search_result_index: Integer`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `source: String`
 
                   - `start_block_index: Integer`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `title: String`
 
@@ -1003,13 +1099,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `cited_text: String`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `document_index: Integer`
 
                     - `document_title: String`
 
                     - `end_block_index: Integer`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `start_block_index: Integer`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `type: :content_block_location`
 
@@ -1033,13 +1139,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                     - `cited_text: String`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `end_block_index: Integer`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `search_result_index: Integer`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `source: String`
 
                     - `start_block_index: Integer`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `title: String`
 
@@ -1187,13 +1307,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                             - `cited_text: String`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `document_index: Integer`
 
                             - `document_title: String`
 
                             - `end_block_index: Integer`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `start_block_index: Integer`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `type: :content_block_location`
 
@@ -1217,13 +1347,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                             - `cited_text: String`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `end_block_index: Integer`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `search_result_index: Integer`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `source: String`
 
                             - `start_block_index: Integer`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `title: String`
 
@@ -1681,13 +1825,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                             - `cited_text: String`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `document_index: Integer`
 
                             - `document_title: String`
 
                             - `end_block_index: Integer`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `start_block_index: Integer`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `type: :content_block_location`
 
@@ -1711,13 +1865,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
                             - `cited_text: String`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `end_block_index: Integer`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `search_result_index: Integer`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `source: String`
 
                             - `start_block_index: Integer`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `title: String`
 
@@ -2295,15 +2463,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
   See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-  - `:"claude-opus-4-6" | :"claude-sonnet-4-6" | :"claude-haiku-4-5" | 12 more`
+  - `:"claude-opus-4-7" | :"claude-mythos-preview" | :"claude-opus-4-6" | 14 more`
 
     The model that will complete your prompt.
 
     See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+    - `:"claude-opus-4-7"`
+
+      Frontier intelligence for long-running agents and coding
+
+    - `:"claude-mythos-preview"`
+
+      New class of intelligence, strongest in coding and cybersecurity
+
     - `:"claude-opus-4-6"`
 
-      Most intelligent model for building agents and coding
+      Frontier intelligence for long-running agents and coding
 
     - `:"claude-sonnet-4-6"`
 
@@ -2390,7 +2566,7 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
   Configuration options for the model's output, such as the output format.
 
-  - `effort: :low | :medium | :high | :max`
+  - `effort: :low | :medium | :high | 2 more`
 
     All possible effort levels.
 
@@ -2399,6 +2575,8 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
     - `:medium`
 
     - `:high`
+
+    - `:xhigh`
 
     - `:max`
 
@@ -2491,13 +2669,23 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
         - `cited_text: String`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `document_index: Integer`
 
         - `document_title: String`
 
         - `end_block_index: Integer`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `start_block_index: Integer`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `type: :content_block_location`
 
@@ -2521,13 +2709,27 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
         - `cited_text: String`
 
+          The full text of the cited block range, concatenated.
+
+          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
         - `end_block_index: Integer`
 
+          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
         - `search_result_index: Integer`
+
+          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+          Counted separately from `document_index`; server-side web search results are not included in this count.
 
         - `source: String`
 
         - `start_block_index: Integer`
+
+          0-based index of the first cited block in the source's `content` array.
 
         - `title: String`
 
@@ -2557,6 +2759,14 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
       - `:enabled`
 
+    - `display_: :summarized | :omitted`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `:summarized`
+
+      - `:omitted`
+
   - `class ThinkingConfigDisabled`
 
     - `type: :disabled`
@@ -2568,6 +2778,14 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
     - `type: :adaptive`
 
       - `:adaptive`
+
+    - `display_: :summarized | :omitted`
+
+      Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+      - `:summarized`
+
+      - `:omitted`
 
 - `tool_choice: ToolChoice`
 
@@ -3536,6 +3754,87 @@ Learn more about token counting in our [user guide](https://docs.claude.com/en/d
 
       When true, guarantees schema validation on tool names and inputs
 
+  - `class WebFetchTool20260309`
+
+    Web fetch tool with use_cache parameter for bypassing cached content.
+
+    - `name: :web_fetch`
+
+      Name of the tool.
+
+      This is how the tool will be called by the model and in `tool_use` blocks.
+
+      - `:web_fetch`
+
+    - `type: :web_fetch_20260309`
+
+      - `:web_fetch_20260309`
+
+    - `allowed_callers: Array[:direct | :code_execution_20250825 | :code_execution_20260120]`
+
+      - `:direct`
+
+      - `:code_execution_20250825`
+
+      - `:code_execution_20260120`
+
+    - `allowed_domains: Array[String]`
+
+      List of domains to allow fetching from
+
+    - `blocked_domains: Array[String]`
+
+      List of domains to block fetching from
+
+    - `cache_control: CacheControlEphemeral`
+
+      Create a cache control breakpoint at this content block.
+
+      - `type: :ephemeral`
+
+        - `:ephemeral`
+
+      - `ttl: :"5m" | :"1h"`
+
+        The time-to-live for the cache control breakpoint.
+
+        This may be one the following values:
+
+        - `5m`: 5 minutes
+        - `1h`: 1 hour
+
+        Defaults to `5m`.
+
+        - `:"5m"`
+
+        - `:"1h"`
+
+    - `citations: CitationsConfigParam`
+
+      Citations configuration for fetched documents. Citations are disabled by default.
+
+      - `enabled: bool`
+
+    - `defer_loading: bool`
+
+      If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+    - `max_content_tokens: Integer`
+
+      Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+    - `max_uses: Integer`
+
+      Maximum number of times the tool can be used in the API request.
+
+    - `strict: bool`
+
+      When true, guarantees schema validation on tool names and inputs
+
+    - `use_cache: bool`
+
+      Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
   - `class ToolSearchToolBm25_20251119`
 
     - `name: :tool_search_tool_bm25`
@@ -3661,7 +3960,10 @@ require "anthropic"
 
 anthropic = Anthropic::Client.new(api_key: "my-anthropic-api-key")
 
-message_tokens_count = anthropic.messages.count_tokens(messages: [{content: "string", role: :user}], model: :"claude-opus-4-6")
+message_tokens_count = anthropic.messages.count_tokens(
+  messages: [{content: "Hello, world", role: :user}],
+  model: :"claude-opus-4-6"
+)
 
 puts(message_tokens_count)
 ```

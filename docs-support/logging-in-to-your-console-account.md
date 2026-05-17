@@ -1,6 +1,6 @@
 # Logging in to your Console account
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ When you navigate to the [Claude Console](https://platform.claude.com), you will
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1771884000&signature=a22232b8b2d154537697600329f6971d45a5ceab221fe4b8643f3272b4f61d5e&req=dSkkE8l8m4dbX%2FMW1HO4zcrI6IjkqIQN8vUNcPt4%2B702VEk7%2Fv81FVy%2BDrDL%0ALnNDsFYG9BBcxdfebpQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1778979600&signature=c4932e709a6d058da145738f5d1857a0f0991261e9fe3091349aa5fc401fb336&req=dSkkE8l8m4dbX%2FMW1HO4zcrI6IHlp4kL8vUNcPt4%2B73E%2B%2Btnk3iczsvoVCBV%0AZUdIUNG0ZRQJ9QgUoh0%3D%0A)
 
  
 
@@ -63,7 +63,7 @@ It's not possible to create a dedicated password for your Console account at thi
 
 ### Does my organization use Single Sign-On (SSO)?
 
-If you're a member of an organization that has configured single sign-on for the Console, you'll be redirected to your SSO provider when you attempt to log in. For information about setting up SSO for your organization, see [Setting up Single Sign-On on the Claude Console](https://support.claude.com/en/articles/10280258-setting-up-single-sign-on-on-the-claude-console).
+If you're a member of an organization that has configured single sign-on for the Console, you'll be redirected to your SSO provider when you attempt to log in. For information about setting up SSO for your organization, see [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso).
 
  
 
@@ -93,8 +93,8 @@ Yes, you can have both a Claude account (for using Claude at claude.ai) and a Co
 
 ## Related Articles
 
-- [Can I have a Claude account and a Console account?](https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account)
-- [How do I log out of all active sessions?](https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions)
-- [How can I delete my Claude Console account?](https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Google Workspace SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917817-google-workspace-sso-scim-email-mismatch)
+- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
+- [SSO login](https://support.claude.com/en/articles/14503613-sso-login)

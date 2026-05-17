@@ -1,10 +1,11 @@
 # Features Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Features across all sources (3 documents)
+Documents related to Features across all sources (4 documents)
 ---
-## Claude Code Documentation (3)
+## Claude Code Documentation (4)
 - [Checkpointing](/code-claude-docs/checkpointing.md)
+- [File Checkpointing](/code-claude-docs/agent-sdk__file-checkpointing.md)
 - [Interactive Mode](/code-claude-docs/interactive-mode.md)
 - [Memory](/code-claude-docs/memory.md)
 

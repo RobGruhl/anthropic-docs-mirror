@@ -1,6 +1,6 @@
-# Introduction to Prompt Design
+# Introduction to prompt design
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ Claude is trained to be a helpful, honest, and harmless assistant. It is used to
 
  
 
-You can view [our docs](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design) for more information on effective prompt design.
+For more information on effective prompt design, refer to our **[Claude API Docs](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)**.
 
 
 ---
@@ -16,7 +16,7 @@ You can view [our docs](https://docs.anthropic.com/claude/docs/introduction-to-p
 ## Related Articles
 
 - [My prompt isn’t giving me a helpful answer.](https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer)
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Getting the most out of Sonnet 4.5 in Claude.ai](https://support.claude.com/en/articles/12439373-getting-the-most-out-of-sonnet-4-5-in-claude-ai)
-- [How to create a skill with Claude through conversation](https://support.claude.com/en/articles/12599426-how-to-create-a-skill-with-claude-through-conversation)
+- [Organization instructions in Claude for Government](https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government)
+- [Set organization instructions](https://support.claude.com/en/articles/14546867-set-organization-instructions)

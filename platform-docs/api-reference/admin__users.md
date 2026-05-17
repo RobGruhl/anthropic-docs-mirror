@@ -32,7 +32,7 @@ Get User
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -46,8 +46,6 @@ Get User
 
     - `"claude_code_user"`
 
-    - `"managed"`
-
   - `type: "user"`
 
     Object type.
@@ -55,6 +53,14 @@ Get User
     For Users, this is always `"user"`.
 
     - `"user"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## List
 
@@ -102,7 +108,7 @@ List Users
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -115,8 +121,6 @@ List Users
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `type: "user"`
 
@@ -138,6 +142,14 @@ List Users
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Update
 
 **post** `/v1/organizations/users/{user_id}`
@@ -152,7 +164,7 @@ Update User
 
 ### Body Parameters
 
-- `role: "user" or "developer" or "billing" or 2 more`
+- `role: "user" or "developer" or "billing" or "claude_code_user"`
 
   New role for the User. Cannot be "admin".
 
@@ -163,8 +175,6 @@ Update User
   - `"billing"`
 
   - `"claude_code_user"`
-
-  - `"managed"`
 
 ### Returns
 
@@ -186,7 +196,7 @@ Update User
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -200,8 +210,6 @@ Update User
 
     - `"claude_code_user"`
 
-    - `"managed"`
-
   - `type: "user"`
 
     Object type.
@@ -209,6 +217,18 @@ Update User
     For Users, this is always `"user"`.
 
     - `"user"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "role": "user"
+        }'
+```
 
 ## Delete
 
@@ -236,6 +256,15 @@ Remove User
 
   - `"user_deleted"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users/$USER_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Domain Types
 
 ### User
@@ -258,7 +287,7 @@ Remove User
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -272,8 +301,6 @@ Remove User
 
     - `"claude_code_user"`
 
-    - `"managed"`
-
   - `type: "user"`
 
     Object type.
@@ -281,6 +308,22 @@ Remove User
     For Users, this is always `"user"`.
 
     - `"user"`
+
+### User Delete Response
+
+- `UserDeleteResponse = object { id, type }`
+
+  - `id: string`
+
+    ID of the User.
+
+  - `type: "user_deleted"`
+
+    Deleted object type.
+
+    For Users, this is always `"user_deleted"`.
+
+    - `"user_deleted"`
 
 
 ---

@@ -1,10 +1,10 @@
-# Access engagement and adoption data with the Analytics API
+# Get started with the Claude Enterprise Analytics API
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
-The Analytics API gives Enterprise plan Primary Owners programmatic access to engagement and adoption data for their organization. Use it to build internal dashboards, track adoption trends, and feed Claude engagement data into your existing reporting tools.
+The Analytics API gives Enterprise plan Primary Owners programmatic access to engagement, adoption, usage, and cost data for their organization. Use it to build internal dashboards, track adoption trends, reconcile spend against your monthly bill, and feed Claude data into your existing reporting tools.
 
  
 
@@ -18,7 +18,7 @@ The **Analytics dashboard** (accessed via **[Analytics](https://claude.ai/analyt
 
  
 
-The **Analytics API** returns the same aggregated usage and engagement metrics, but programmatically—so you can pull them into BI tools, map them against org charts, or automate reporting workflows. Data is aggregated per organization, per day.
+The **Analytics API** returns the same aggregated metrics, but programmatically — so you can pull them into BI tools, map them against org charts, automate reporting workflows, and reconcile cost data against internal records. Engagement and adoption data is aggregated per organization, per day. Usage and cost data is available with finer-grained per-user and time-bucketed breakdowns.
 
  
 
@@ -45,7 +45,7 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1771884000&signature=3e7d6d4aca420e93566f405bf245ed2a3be06704829e7d8000ea446f83dc6dc6&req=diAiFc92moJYX%2FMW1HO4zUxhx6xN0q%2BP2G8yJDINvfTfGWKMWg03gWLLES3N%0AAEDrVlylUJqiyFflH48%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1778979600&signature=7526ffa275564cf9dcae2d71ca766195973c794d5737e78d8e10cc2cfc4c1418&req=diAiFc92moJYX%2FMW1HO4zUxhx6VM3aKJ2G8yJDINvfTZxvj%2BseEk1Rub9OEx%0ASGEbx%2BXyht6lpEziRZw%3D%0A)
 
  
 
@@ -59,14 +59,34 @@ For full authentication details, endpoint references, and code examples, refer t
 
 ## What data is available?
 
-The Analytics API includes five endpoints. All data is aggregated per organization, per day, and is available for up to the past 90 days (not before January 1, 2026).
+The Analytics API includes nine endpoints across two categories.
 
-- **User activity**: Per-user engagement metrics including conversation counts, messages sent, projects created, files uploaded, artifacts created, skills used, connectors used, and Claude Code metrics like commits, pull requests, and lines of code.
-- **Activity summary**: Organization-wide daily, weekly, and monthly active user counts, along with seat utilization and pending invite counts. Supports date ranges up to 31 days per request.
-- **Chat project usage**: Conversation and user counts broken down by project, for Claude projects.
-- **Skill usage**: How many users are using each skill, with breakdowns for Claude and Claude Code sessions separately.
-- **Connector usage**: Which connectors your organization is using and how many unique users have used each one.
--  
+ 
+
+### Engagement and adoption
+
+These endpoints return aggregated engagement metrics, per organization, per day. Data is available for up to the past 90 days (not before January 1, 2026).
+
+- **User activity:** Per-user engagement metrics across Claude surfaces. Includes conversation counts, messages sent, projects created, files uploaded, artifacts created, skills used, connectors used, Claude Code metrics like commits, pull requests, and lines of code, and Cowork metrics like sessions started, tool actions, dispatch turns, and skill and connector invocations.
+- **Activity summary:** Organization-wide daily, weekly, and monthly active user counts across Claude, Claude Code, and Cowork, along with seat utilization and pending invite counts. Supports date ranges up to 31 days per request.
+- **Chat project usage:** Conversation and user counts broken down by project, for Claude projects.
+- **Skill usage:** How many users are using each skill, with breakdowns for Claude, Claude Code, and Cowork sessions separately.
+- **Connector usage:** Which connectors your organization is using and how many unique users have used each one, with breakdowns for Claude, Claude Code, and Cowork sessions separately.
+
+ 
+
+### Usage and cost
+
+These endpoints (available now in beta) return token usage and USD cost data across Claude surfaces. Use them to track usage between monthly invoices, reconcile Anthropic billing against internal cost centers, and inform spend limits based on actual user behavior.
+
+- **Per-user token usage:** Users ranked by token usage across a date range, with optional breakdowns by product, model, context window, inference region, or speed.
+- **Per-user cost:** Users ranked by USD spend across a date range, with optional breakdowns by product, model, cost type (tokens, web search, code execution), or token type.
+- **Token usage over time:** Token usage bucketed by minute, hour, or day, optionally broken down by product, model, context window, inference region, or speed.
+- **Cost over time:** USD cost bucketed by minute, hour, or day, with the same grouping options plus cost type and token type.
+
+Data is refreshed every four hours, and may take up to 24 hours. Values can be revised for up to 30 days as late events reconcile, so for invoicing-grade totals, query dates at least 30 days in the past.
+
+ 
 
 ---
 
@@ -74,7 +94,11 @@ The Analytics API includes five endpoints. All data is aggregated per organizati
 
 ## Data limits
 
-All endpoints return data for a single date or date range. Data is only available after January 1, 2026, and for dates more than three days ago.
+Engagement and adoption endpoints return data for a single date or date range. **Data is only available after January 1, 2026**, and for dates more than three days ago.
+
+ 
+
+Usage and cost endpoints let you query up to a 31-day window, going back as far as 365 days from today. For invoicing-grade totals, query dates at least 30 days in the past so late events have time to reconcile.
 
  
 
@@ -85,8 +109,8 @@ The API has a default rate limit of 60 requests per minute. If this doesn't meet
 
 ## Related Articles
 
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Cost and Usage Reporting in the Claude Console](https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
-- [Usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)

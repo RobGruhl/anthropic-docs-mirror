@@ -1,6 +1,6 @@
 # How do I use the Workbench?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ The Workbench allows you to create and test prompts within your Claude Console a
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1771884000&signature=6a575fc75fc270aba85029a4e9a2f43f403e27ffb382b33df2031c81f1f48d48&req=fCgvFst%2FlYVWFb4f3HP0gKWudTME1kZbOkmmaOsi7IBl8NnBjrYZv%2BxdEf9f%0Ac5XWeUIijMbkfYshBQ%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1778979600&signature=28d49d4b5c56996b2722b0ba25162e2603fe87e14b5bfdea7b3a84c58a9ce8ac&req=fCgvFst%2FlYVWFb4f3HP0gKWufDIL20BbOkmmaOsi7IBj6Pc3TaYtvEgNAu87%0AElcDd9%2BL4BKI9q52Dg%3D%3D%0A)
 
  
 
@@ -16,7 +16,7 @@ The Workbench also allows you to configure several settings when prompting Claud
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1771884000&signature=1136236ef30b8359c7eff5b15ba962e3203233ed150340f07ab1fa82dd00b481&req=fCgvFst9nYdeFb4f3HP0gN52WNrYPYS3DUq7%2BRvcmSMJ8O6Z1lFaZyLz%2BI9b%0An5TxvQ8puDBcovuNng%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1778979600&signature=b098a90e56dbbcb8533328abb6b587656c51206f4eaff865fc1668b4075ecf3c&req=fCgvFst9nYdeFb4f3HP0gN52UdvXMIK3DUq7%2BRvcmSPgFwEFyMoA8D7sXfLc%0AOIKJ3V6BgG8ANsiYOw%3D%3D%0A)
 
  
 
@@ -24,7 +24,7 @@ After crafting your prompt, click on the "Get code" button to generate a sample 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1771884000&signature=bbf4912ba259cb2274e712bcb6f7ca0b0eea2413811e6a6782085aac2d72c09c&req=fCgvFst9mIVaFb4f3HP0gEZctTCW5uTrRWixPJbjiQcRo7RyYy4GP%2FZSm4Xa%0APbovvu5kUN%2FdY0rIRQ%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1778979600&signature=6ae40b70c569b6cdcf24ab1c55ef2f05598ea7cf20e7454efabb807542a6a908&req=fCgvFst9mIVaFb4f3HP0gEZcvDGZ6%2BLrRWixPJbjiQe92MxYsg0W6HGHYbn0%0Ah8ML1KHVt5Ys2k7IWQ%3D%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ You can access your previous Workbench prompts on your Console account by follow
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1771884000&signature=5979dbb3088d74845997dcaa3c0944a0e949aeafcba96dbf333754ff5b314e53&req=dSkjE8B3n4hXXPMW1HO4zQQ9v1ABP3e4TyGSpkcb8MW%2BjmohIDRG7h80w3zu%0AXRo6YJJUuIgIF6rwB0k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1778979600&signature=e04b47db2749a978101b31828be4dc8972994907695979149c7cf9253da1fb07&req=dSkjE8B3n4hXXPMW1HO4zQQ9v1kAMHq%2BTyGSpkcb8MX%2FLENZd%2F7HeESOmZze%0A9uzcT43SMNLu%2BevuutQ%3D%0A)
 
  
 
@@ -60,5 +60,5 @@ You can access your previous Workbench prompts on your Console account by follow
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
-- [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Google Sheets add-on](https://support.claude.com/en/articles/13162029-google-sheets-add-on)
+- [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
+- [Okta SSO setup](https://support.claude.com/en/articles/13917894-okta-sso-setup)

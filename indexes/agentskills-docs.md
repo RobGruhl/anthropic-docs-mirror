@@ -1,17 +1,22 @@
 # AgentSkills Documentation (agentskills.io) Index
-*Last updated: 2026-03-02 09:05*
-Total documents: 5
+*Last updated: 2026-05-17 00:30*
+Total documents: 6
 ---
-## Uncategorized (5 documents)
+## Uncategorized (6 documents)
+### client-implementation__adding-skills-support
+**File:** `/agentskills-docs/client-implementation__adding-skills-support.md`  
+**Source:** https://agentskills.io/client-implementation/adding-skills-support  
+**Updated:** 2026-03-07  
+
 ### home
 **File:** `/agentskills-docs/home.md`  
 **Source:** https://agentskills.io/home  
-**Updated:** 2026-03-02  
+**Updated:** 2026-03-07  
 
-### integrate-skills
-**File:** `/agentskills-docs/integrate-skills.md`  
-**Source:** https://agentskills.io/integrate-skills  
-**Updated:** 2026-02-01  
+### skill-creation__evaluating-skills
+**File:** `/agentskills-docs/skill-creation__evaluating-skills.md`  
+**Source:** https://agentskills.io/skill-creation/evaluating-skills  
+**Updated:** 2026-03-07  
 
 ### skill-creation__using-scripts
 **File:** `/agentskills-docs/skill-creation__using-scripts.md`  
@@ -26,5 +31,5 @@ Total documents: 5
 ### what-are-skills
 **File:** `/agentskills-docs/what-are-skills.md`  
 **Source:** https://agentskills.io/what-are-skills  
-**Updated:** 2026-02-01  
+**Updated:** 2026-03-07  
 

@@ -7,7 +7,6 @@ Make your first API call to Claude and build a simple web search assistant.
 ## Prerequisites
 
 - An Anthropic [Console account](/)
-- An [API key](/settings/keys)
 
 ## Call the API
 
@@ -20,18 +19,20 @@ Make your first API call to Claude and build a simple web search assistant.
         ```bash
         export ANTHROPIC_API_KEY='your-api-key-here'
         ```
+
+        To persist the key across shell sessions, add the line to your shell profile (such as `~/.zshrc` or `~/.bashrc`).
       </Step>
 
       <Step title="Make your first API call">
         Run this command to create a simple web search assistant:
 
-        ```bash
+        ```bash cURL
         curl https://api.anthropic.com/v1/messages \
           -H "Content-Type: application/json" \
           -H "x-api-key: $ANTHROPIC_API_KEY" \
           -H "anthropic-version: 2023-06-01" \
           -d '{
-            "model": "claude-opus-4-6",
+            "model": "claude-opus-4-7",
             "max_tokens": 1000,
             "messages": [
               {
@@ -43,7 +44,7 @@ Make your first API call to Claude and build a simple web search assistant.
         ```
 
         **Example output:**
-        ```json
+        ```json Output
         {
           "id": "msg_01HCDu5LRGeP2o7s2xGmxyx8",
           "type": "message",
@@ -54,7 +55,72 @@ Make your first API call to Claude and build a simple web search assistant.
               "text": "Here are some effective search strategies to find the latest renewable energy developments:\n\n## Search Terms to Use:\n- \"renewable energy news 2024\"\n- \"clean energy breakthrough\"\n- \"solar/wind/battery technology advances\"\n- \"green energy innovations\"\n- \"climate tech developments\"\n- \"energy storage solutions\"\n\n## Best Sources to Check:\n\n**News & Industry Sites:**\n- Renewable Energy World\n- GreenTech Media (now Wood Mackenzie)\n- Energy Storage News\n- CleanTechnica\n- PV Magazine (for solar)\n- WindPower Engineering & Development..."
             }
           ],
-          "model": "claude-opus-4-6",
+          "model": "claude-opus-4-7",
+          "stop_reason": "end_turn",
+          "usage": {
+            "input_tokens": 21,
+            "output_tokens": 305
+          }
+        }
+        ```
+      </Step>
+    </Steps>
+  </Tab>
+
+  <Tab title="CLI">
+    <Steps>
+      <Step title="Install the CLI">
+        Install the Anthropic CLI with Homebrew:
+
+        ```bash
+        brew install anthropics/tap/ant
+        ```
+
+        For other installation methods, see [Installation](/docs/en/api/sdks/cli#installation) in the CLI reference.
+      </Step>
+
+      <Step title="Authenticate">
+        Log in with your Anthropic account:
+
+        ```bash
+        ant auth login
+        ```
+
+        This opens a browser-based OAuth flow. After authorizing, confirm your credential with:
+
+        ```bash
+        ant auth status
+        ```
+
+        On a remote host without a browser, pass `--no-browser` to get a URL you can open on another device, then paste the returned code back into the terminal. If `ANTHROPIC_API_KEY` is set in your environment, it takes precedence over the login credentials. For non-interactive environments such as CI, see [Authentication](/docs/en/api/sdks/cli#authentication).
+      </Step>
+
+      <Step title="Make your first API call">
+        Run this command to create a simple web search assistant:
+
+        ```bash
+        ant messages create \
+          --model claude-opus-4-7 \
+          --max-tokens 1000 \
+          --message '{
+            role: user,
+            content: "What should I search for to find the latest developments in renewable energy?"
+          }'
+        ```
+
+        **Example output:**
+        ```json Output
+        {
+          "id": "msg_01HCDu5LRGeP2o7s2xGmxyx8",
+          "type": "message",
+          "role": "assistant",
+          "content": [
+            {
+              "type": "text",
+              "text": "Here are some effective search strategies to find the latest renewable energy developments:\n\n## Search Terms to Use:\n- \"renewable energy news 2024\"\n- \"clean energy breakthrough\"\n- \"solar/wind/battery technology advances\"\n- \"green energy innovations\"\n- \"climate tech developments\"\n- \"energy storage solutions\"\n\n## Best Sources to Check:\n\n**News & Industry Sites:**\n- Renewable Energy World\n- GreenTech Media (now Wood Mackenzie)\n- Energy Storage News\n- CleanTechnica\n- PV Magazine (for solar)\n- WindPower Engineering & Development..."
+            }
+          ],
+          "model": "claude-opus-4-7",
           "stop_reason": "end_turn",
           "usage": {
             "input_tokens": 21,
@@ -74,6 +140,8 @@ Make your first API call to Claude and build a simple web search assistant.
         ```bash
         export ANTHROPIC_API_KEY='your-api-key-here'
         ```
+
+        To persist the key across shell sessions, add the line to your shell profile (such as `~/.zshrc` or `~/.bashrc`).
       </Step>
 
       <Step title="Install the SDK">
@@ -93,7 +161,7 @@ Make your first API call to Claude and build a simple web search assistant.
         client = anthropic.Anthropic()
 
         message = client.messages.create(
-            model="claude-opus-4-6",
+            model="claude-opus-4-7",
             max_tokens=1000,
             messages=[
                 {
@@ -112,7 +180,7 @@ Make your first API call to Claude and build a simple web search assistant.
         ```
 
         **Example output:**
-        ```python
+        ```text Output
         [
             TextBlock(
                 text='Here are some effective search strategies for finding the latest renewable energy developments:\n\n**Search Terms to Use:**\n- "renewable energy news 2024"\n- "clean energy breakthroughs"\n- "solar/wind/battery technology advances"\n- "energy storage innovations"\n- "green hydrogen developments"\n- "renewable energy policy updates"\n\n**Reliable Sources to Check:**\n- **News & Analysis:** Reuters Energy, Bloomberg New Energy Finance, Greentech Media, Energy Storage News\n- **Industry Publications:** Renewable Energy World, PV Magazine, Wind Power Engineering\n- **Research Organizations:** International Energy Agency (IEA), National Renewable Energy Laboratory (NREL)\n- **Government Sources:** Department of Energy websites, EPA clean energy updates\n\n**Specific Topics to Explore:**\n- Perovskite and next-gen solar cells\n- Offshore wind expansion\n- Grid-scale battery storage\n- Green hydrogen production\n- Carbon capture technologies\n- Smart grid innovations\n- Energy policy changes and incentives...',
@@ -132,6 +200,8 @@ Make your first API call to Claude and build a simple web search assistant.
         ```bash
         export ANTHROPIC_API_KEY='your-api-key-here'
         ```
+
+        To persist the key across shell sessions, add the line to your shell profile (such as `~/.zshrc` or `~/.bashrc`).
       </Step>
 
       <Step title="Install the SDK">
@@ -152,7 +222,7 @@ async function main() {
   const anthropic = new Anthropic();
 
   const msg = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1000,
     messages: [
       {
@@ -175,14 +245,14 @@ main().catch(console.error);
         ```
 
         **Example output:**
-        ```javascript hidelines={1..2}
+        ```javascript Output hidelines={1..2}
         const _ =
           // output
           {
             id: "msg_01ThFHzad6Bh4TpQ6cHux9t8",
             type: "message",
             role: "assistant",
-            model: "claude-opus-4-6",
+            model: "claude-opus-4-7",
             content: [
               {
                 type: "text",
@@ -224,64 +294,115 @@ main().catch(console.error);
         ```bash
         export ANTHROPIC_API_KEY='your-api-key-here'
         ```
+
+        To persist the key across shell sessions, add the line to your shell profile (such as `~/.zshrc` or `~/.bashrc`).
       </Step>
 
-      <Step title="Install the SDK">
-        Add the Anthropic Java SDK to your project. First find the current version on [Maven Central](https://central.sonatype.com/artifact/com.anthropic/anthropic-java).
+      <Step title="Set up your project">
+        You need a JDK (25 or later) and either [Gradle](https://gradle.org/install/) or [Maven](https://maven.apache.org/install.html) on your `PATH`. Create a directory for your project with a Java source directory inside it:
 
-        **Gradle:**
-        ```groovy
-        implementation("com.anthropic:anthropic-java:2.15.0")
+        ```bash
+        mkdir -p claude-quickstart/src/main/java && cd claude-quickstart
         ```
 
-        **Maven:**
-        ```xml
-        <dependency>
-          <groupId>com.anthropic</groupId>
-          <artifactId>anthropic-java</artifactId>
-          <version>2.15.0</version>
-        </dependency>
-        ```
+        Then add a build file. Find the current SDK version on [Maven Central](https://central.sonatype.com/artifact/com.anthropic/anthropic-java).
+
+        <Tabs>
+          <Tab title="Gradle">
+            Save this as `build.gradle.kts`:
+
+            ```kotlin
+            plugins {
+                application
+            }
+
+            repositories {
+                mavenCentral()
+            }
+
+            java {
+                toolchain {
+                    languageVersion = JavaLanguageVersion.of(25)
+                }
+            }
+
+            dependencies {
+                implementation("com.anthropic:anthropic-java:2.32.0")
+            }
+
+            application {
+                mainClass = "QuickStart"
+            }
+            ```
+          </Tab>
+          <Tab title="Maven">
+            Save this as `pom.xml`:
+
+            ```xml
+            <project xmlns="http://maven.apache.org/POM/4.0.0">
+              <modelVersion>4.0.0</modelVersion>
+              <groupId>com.example</groupId>
+              <artifactId>quickstart</artifactId>
+              <version>1.0-SNAPSHOT</version>
+              <properties>
+                <maven.compiler.release>25</maven.compiler.release>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+              </properties>
+              <dependencies>
+                <dependency>
+                  <groupId>com.anthropic</groupId>
+                  <artifactId>anthropic-java</artifactId>
+                  <version>2.32.0</version>
+                </dependency>
+              </dependencies>
+            </project>
+            ```
+          </Tab>
+        </Tabs>
       </Step>
 
       <Step title="Create your code">
-        Save this as `QuickStart.java`:
+        Save this as `QuickStart.java` in your project's Java source directory (usually `src/main/java/`):
 
         ```java
-        import com.anthropic.client.AnthropicClient;
         import com.anthropic.client.okhttp.AnthropicOkHttpClient;
         import com.anthropic.models.messages.Message;
         import com.anthropic.models.messages.MessageCreateParams;
+        import com.anthropic.models.messages.Model;
 
-        public class QuickStart {
+        static void main() {
+            var client = AnthropicOkHttpClient.fromEnv();
 
-          public static void main(String[] args) {
-            AnthropicClient client = AnthropicOkHttpClient.fromEnv();
-
-            MessageCreateParams params = MessageCreateParams.builder()
-              .model("claude-opus-4-6")
-              .maxTokens(1000)
-              .addUserMessage(
-                "What should I search for to find the latest developments in renewable energy?"
-              )
-              .build();
+            var params = MessageCreateParams.builder()
+                .model(Model.CLAUDE_OPUS_4_7)
+                .maxTokens(1000)
+                .addUserMessage(
+                    "What should I search for to find the latest developments in renewable energy?"
+                )
+                .build();
 
             Message message = client.messages().create(params);
-            System.out.println(message.content());
-          }
+            IO.println(message.content());
         }
         ```
       </Step>
 
       <Step title="Run your code">
-        ```bash
-        javac QuickStart.java
-        java QuickStart
-        ```
+        <Tabs>
+          <Tab title="Gradle">
+            ```bash
+            gradle run
+            ```
+          </Tab>
+          <Tab title="Maven">
+            ```bash
+            mvn compile exec:java -Dexec.mainClass=QuickStart
+            ```
+          </Tab>
+        </Tabs>
 
         **Example output:**
-        
-        ```java nocheck
+        ```text Output
         [ContentBlock{text=TextBlock{text=Here are some effective search strategies to find the latest renewable energy developments:
 
         ## Search Terms to Use:

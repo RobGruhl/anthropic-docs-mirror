@@ -1,9 +1,10 @@
 # Hooks Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Hooks across all sources (2 documents)
+Documents related to Hooks across all sources (3 documents)
 ---
-## Claude Code Documentation (2)
+## Claude Code Documentation (3)
+- [Hooks](/code-claude-docs/agent-sdk__hooks.md)
 - [Hooks](/code-claude-docs/hooks.md)
 - [Hooks Guide](/code-claude-docs/hooks-guide.md)
 

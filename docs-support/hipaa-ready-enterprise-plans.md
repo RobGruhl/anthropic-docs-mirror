@@ -1,6 +1,6 @@
 # HIPAA-ready Enterprise plans
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -40,14 +40,69 @@ For detailed implementation requirements and technical specifications, review th
 
  
 
-## Getting started
+---
 
-The HIPAA-ready offering requires a sales-assisted Enterprise plan and is not available on self-serve Enterprise plans. To get started, your organization must execute a BAA with our Sales team.
+ 
 
-1. **[Contact our Sales team](http://claude.com/contact-sales)** to discuss your organization's needs.
-2. Review the Business Associate Agreement and the Implementation Guide.
-3. Execute the Business Associate Agreement.
-4. Work with your account team to appropriately set up and configure your HIPAA-ready Enterprise plan.
+## Get started
+
+Eligible Enterprise organizations can enable HIPAA-ready configuration directly from organization settings—no sales or legal cycle required. The Business Associate Agreement (BAA) is included in the flow as click-to-accept, so there's no separate document to sign and return. Clicking “Accept and Enable HIPAA” constitutes acceptance of the BAA.
+
+ 
+
+### Eligibility
+
+You can enable HIPAA from admin settings if your organization is on:
+
+- A sales-assisted Claude Enterprise plan with usage-based billing
+- The legacy Claude Enterprise seat-based SKU
+- Claude Enterprise on AWS Marketplace
+
+Self-serve Enterprise plans, Team plans, and individual plans (Free, Pro, and Max) can't enable HIPAA through this flow. If you fall into one of those categories and need a BAA, contact your account team.
+
+ 
+
+Only the **Primary Owner** of the organization can accept the BAA and enable HIPAA. Other Owners or Admins can't complete this flow on the org's behalf. If you're an admin but not the Primary Owner of the Enterprise organization, ask your Primary Owner to sign in and complete enablement.
+
+ 
+
+### Before you begin
+
+Two things to know up front:
+
+- **Enabling HIPAA resets certain settings across your organization.** Some configurations return to defaults as part of the transition to a HIPAA-ready state. The onboarding modal and the Implementation Guide (downloadable during the flow) detail what changes.
+- **This is a one-way decision.** Once HIPAA is enabled and the BAA is accepted, the change can't be reversed from admin settings. Contact your Anthropic account team if your needs change.
+
+We recommend reviewing the BAA and the Implementation Guide before clicking accept.
+
+ 
+
+### Enable HIPAA
+
+1. Sign in to Claude as the Primary Owner and go to **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)**.
+2. Open **HIPAA Compliance.**
+3. Click “Enable” to open the consent flow.
+4. Download the Business Associate Agreement, review it, then click “Next.”
+5. Download the Implementation Guide, review it, then click “Next.”
+6. Click “Accept and enable HIPAA.”
+
+ 
+
+### Confirmation
+
+Once enabled, you'll see a checkmark in the **HIPAA Compliance** section of organization settings, confirming your organization has been configured to process PHI through Claude in accordance with HIPAA. If you don't see this check, your organization isn't enabled.
+
+ 
+
+The onboarding modal will guide you through next steps for your team.
+
+ 
+
+For help with the BAA, the Implementation Guide, or post-enablement questions, reach out to your Anthropic account team.
+
+ 
+
+---
 
  
 

@@ -1,6 +1,6 @@
 # Inviting members to the Claude Console
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -38,7 +38,7 @@ Yes, newly-invited members have three weeks to accept the invitation via email.
 ## Related Articles
 
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Sharing Prompts in the Claude Console](https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)

@@ -1,6 +1,6 @@
 # Using Claude in Slack
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -28,7 +28,7 @@ Claude in Slack gives you AI assistance right where your team collaborates. This
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1771884000&signature=e0b1c4cb5913b5331b85904f420fc5b4916afd134955ea0f3c9cad610c36be1b&req=dSciE8h7nYdZWPMW1HO4zXK25RBG4DUeVfOC%2FRy97LW3sZlpXxZmZwLRhuM4%0AiRYuQ1919qjcLmxJqPE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1778979600&signature=d2a39ec7bef2abaeb21e21fde9add031ebb49e6e4f13055e47a15ca019256c3b&req=dSciE8h7nYdZWPMW1HO4zXK25RlH7zgYVfOC%2FRy97LVGYi3maBa5S1DVkow%2F%0AvxfBTfbHlctAy7kXYRw%3D%0A)
 
  
 
@@ -264,8 +264,8 @@ Start a new conversation to continue.
 
 ## Related Articles
 
-- [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
-- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)
 - [Using Claude in Xcode](https://support.claude.com/en/articles/12293051-using-claude-in-xcode)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
+- [Claude Code champion kit](https://support.claude.com/en/articles/14555399-claude-code-champion-kit)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

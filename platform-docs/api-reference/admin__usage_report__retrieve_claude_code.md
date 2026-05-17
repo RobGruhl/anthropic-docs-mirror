@@ -167,6 +167,14 @@ Enables organizations to analyze developer productivity and build custom dashboa
 
     Opaque cursor token for fetching the next page of results, or null if no more pages are available.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/usage_report/claude_code \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code

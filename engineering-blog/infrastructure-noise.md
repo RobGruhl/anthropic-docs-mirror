@@ -1,6 +1,6 @@
 # Quantifying infrastructure noise in agentic coding evals
 
-*Date unknown*
+*Published*
 
 ---
 

@@ -1,8 +1,9 @@
 # Caching Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Caching across all sources (1 documents)
+Documents related to Caching across all sources (2 documents)
 ---
-## Claude.com Blog Posts (1)
+## Claude.com Blog Posts (2)
+- [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
 

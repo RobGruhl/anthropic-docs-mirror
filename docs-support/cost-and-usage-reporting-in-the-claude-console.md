@@ -1,6 +1,6 @@
 # Cost and Usage Reporting in the Claude Console
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1771884000&signature=070a84dbe8a1418d8559ef37a3241e9a18efd0ead113abe815f9424a1c3c7536&req=dSUvEs97mYNeXvMW1HO4zYCWhiUQicKauqqBX2puyxSW%2BNLHxugzgG8RrleN%0ABtpjTjMFi8umv2fsiLs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1778979600&signature=e463c2a2175bae7ef124687fa7a858db74c3dcdec8da2b267d87ed14016253d0&req=dSUvEs97mYNeXvMW1HO4zYCWhiwRhs%2BcuqqBX2puyxTGTmWnUzIdS2LYeA0d%0AcY11puZia%2FGWSN9VmMI%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1771884000&signature=57fe92f12cd05e700965c019b74534bf40b0ba2001bf0245a580478a8a882693&req=dSUvEs94mYJdWPMW1HO4zQwESHIiKYtmqMITUZbanFDtZ1pN%2FbG9t6YKMIQ6%0Ast03S3sGavyjiIGOeYQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1778979600&signature=ac577f5e34af3a58908f921fcef51fb4f9adee3a9722ef2ad6fd77a2287e2658&req=dSUvEs94mYJdWPMW1HO4zQwESHsjJoZgqMITUZbanFDtrkuVJ4125wvQjBWu%0AOd0MPA%2BOuahDXPZPoUg%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1771884000&signature=9c96818d83806c15ae6fb55bce588646b0947b52dc3883adfff2552a958f604b&req=dSUvEs93noJXX%2FMW1HO4zRxEzmpF7lVs21D6pckxWMYainskYLZq8en0%2BjDJ%0A9wz1s%2FZ4l%2Fy3WCiVgkg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1778979600&signature=95f3db33b150ae094511d373fe7052b2757361e4afc3f34a70335dfff489415e&req=dSUvEs93noJXX%2FMW1HO4zRxEzmNE4Vhq21D6pckxWMYj2Ag8x3YeW1bwxCl9%0Afrp7m6RtQ%2B8Nqeubu%2BI%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1771884000&signature=4aae6154a24b3d9480a1c6edee2874b4515d17c47bf63ac1857bcc165fee89e6&req=dSUvEs95lIVfWPMW1HO4zUR%2BiJ3LW9RhCyIF5nuUsbxnRB5FEIhVtF2xv3cO%0A6tB0o9G2llu4sQMAVb4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1778979600&signature=0eefb4099ab10fcc67ed03cb62e29d2d9e2c75eec46f03a822ad3137611b6706&req=dSUvEs95lIVfWPMW1HO4zUR%2BiJTKVNlnCyIF5nuUsbwyUE%2Bt0beTG40Ivy7g%0AdNyBUsHVGfqM1Ez1lpE%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
-- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
+- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

@@ -4,35 +4,39 @@ Enable natural citations for RAG applications by providing search results with s
 
 ---
 
+<Note>
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
+</Note>
+
 Search result content blocks enable natural citations with proper source attribution, bringing web search-quality citations to your custom applications. This feature is particularly powerful for RAG (Retrieval-Augmented Generation) applications where you need Claude to cite sources accurately.
 
 The search results feature is available on the following models:
 
+- Claude Opus 4.7 (`claude-opus-4-7`)
 - Claude Opus 4.6 (`claude-opus-4-6`)
 - Claude Sonnet 4.6 (`claude-sonnet-4-6`)
 - Claude Sonnet 4.5 (`claude-sonnet-4-5-20250929`)
 - Claude Opus 4.5 (`claude-opus-4-5-20251101`)
 - Claude Opus 4.1 (`claude-opus-4-1-20250805`)
-- Claude Opus 4 (`claude-opus-4-20250514`)
-- Claude Sonnet 4 (`claude-sonnet-4-20250514`)
-- Claude Sonnet 3.7 ([deprecated](/docs/en/about-claude/model-deprecations)) (`claude-3-7-sonnet-20250219`)
+- Claude Opus 4 ([deprecated](/docs/en/about-claude/model-deprecations)) (`claude-opus-4-20250514`)
+- Claude Sonnet 4 ([deprecated](/docs/en/about-claude/model-deprecations)) (`claude-sonnet-4-20250514`)
 - Claude Haiku 4.5 (`claude-haiku-4-5-20251001`)
-- Claude Haiku 3.5 ([deprecated](/docs/en/about-claude/model-deprecations)) (`claude-3-5-haiku-20241022`)
+- Claude Haiku 3.5 ([retired, except on Bedrock and Vertex AI](/docs/en/about-claude/model-deprecations)) (`claude-3-5-haiku-20241022`)
 
 ## Key benefits
 
-- **Natural citations** - Achieve the same citation quality as web search for any content
-- **Flexible integration** - Use in tool returns for dynamic RAG or as top-level content for pre-fetched data
-- **Proper source attribution** - Each result includes source and title information for clear attribution
-- **No document workarounds needed** - Eliminates the need for document-based workarounds
-- **Consistent citation format** - Matches the citation quality and format of Claude's web search functionality
+- **Natural citations:** Achieve the same citation quality as web search for any content
+- **Flexible integration:** Use in tool returns for dynamic RAG or as top-level content for pre-fetched data
+- **Proper source attribution:** Each result includes source and title information for clear attribution
+- **No document workarounds needed:** Eliminates the need for document-based workarounds
+- **Consistent citation format:** Matches the citation quality and format of Claude's web search functionality
 
 ## How it works
 
 Search results can be provided in two ways:
 
-1. **From tool calls** - Your custom tools return search results, enabling dynamic RAG applications
-2. **As top-level content** - You provide search results directly in user messages for pre-fetched or cached content
+1. **From tool calls:** Your custom tools return search results, enabling dynamic RAG applications
+2. **As top-level content:** You provide search results directly in user messages for pre-fetched or cached content
 
 In both cases, Claude can automatically cite information from the search results with proper source attribution.
 
@@ -87,7 +91,7 @@ The most powerful use case is returning search results from your custom tools. T
 
 <CodeGroup>
 
-```python Python nocheck
+```python Python nocheck hidelines={1}
 from anthropic import Anthropic
 from anthropic.types import (
     MessageParam,
@@ -144,7 +148,7 @@ def search_knowledge_base(query):
 
 # Create a message with the tool
 response = client.messages.create(
-    model="claude-opus-4-6",  # Works with all supported models
+    model="claude-opus-4-7",  # Works with all supported models
     max_tokens=1024,
     tools=[knowledge_base_tool],
     messages=[
@@ -158,7 +162,7 @@ if response.content[0].type == "tool_use":
 
     # Send the tool result back
     final_response = client.messages.create(
-        model="claude-opus-4-6",  # Works with all supported models
+        model="claude-opus-4-7",  # Works with all supported models
         max_tokens=1024,
         messages=[
             MessageParam(
@@ -179,7 +183,7 @@ if response.content[0].type == "tool_use":
     )
 ```
 
-```typescript TypeScript nocheck hidelines={1..4}
+```typescript TypeScript nocheck hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const anthropic = new Anthropic();
@@ -234,7 +238,7 @@ function searchKnowledgeBase(query: string) {
 
 // Create a message with the tool
 const response = await anthropic.messages.create({
-  model: "claude-opus-4-6", // Works with all supported models
+  model: "claude-opus-4-7", // Works with all supported models
   max_tokens: 1024,
   tools: [knowledgeBaseTool],
   messages: [
@@ -251,7 +255,7 @@ if (response.content[0].type === "tool_use") {
   const toolResult = searchKnowledgeBase(input.query);
 
   const finalResponse = await anthropic.messages.create({
-    model: "claude-opus-4-6", // Works with all supported models
+    model: "claude-opus-4-7", // Works with all supported models
     max_tokens: 1024,
     messages: [
       { role: "user", content: "How do I configure the timeout settings?" },
@@ -305,7 +309,7 @@ public class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 1024,
             Tools = new[] { knowledgeBaseTool },
             Messages = new[]
@@ -326,7 +330,7 @@ public class Program
 
             var finalParameters = new MessageCreateParams
             {
-                Model = Model.ClaudeOpus4_6,
+                Model = Model.ClaudeOpus4_7,
                 MaxTokens = 1024,
                 Messages = new[]
                 {
@@ -387,7 +391,7 @@ public class Program
 }
 ```
 
-```go Go nocheck hidelines={1..12,-1}
+```go Go nocheck hidelines={1..12,77..78}
 package main
 
 import (
@@ -419,7 +423,7 @@ func main() {
 	}
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Tools:     []anthropic.ToolUnionParam{knowledgeBaseTool},
 		Messages: []anthropic.MessageParam{
@@ -445,7 +449,7 @@ func main() {
 			assistantParam := response.ToParam()
 
 			finalResponse, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-				Model:     anthropic.ModelClaudeOpus4_6,
+				Model:     anthropic.ModelClaudeOpus4_7,
 				MaxTokens: 1024,
 				Messages: []anthropic.MessageParam{
 					anthropic.NewUserMessage(anthropic.NewTextBlock("How do I configure the timeout settings?")),
@@ -488,7 +492,7 @@ func searchKnowledgeBase(query string) []anthropic.ToolResultBlockParamContentUn
 }
 ```
 
-```java Java nocheck hidelines={1..19,-1}
+```java Java nocheck hidelines={1..3,5..7,9..19,75..76,-1}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.ContentBlockParam;
@@ -525,7 +529,7 @@ public class SearchKnowledgeBaseExample {
             .build();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(1024L)
             .addTool(knowledgeBaseTool)
             .addUserMessage("How do I configure the timeout settings?")
@@ -539,9 +543,8 @@ public class SearchKnowledgeBaseExample {
             );
 
             MessageCreateParams finalParams = MessageCreateParams.builder()
-                .model(Model.CLAUDE_OPUS_4_6)
+                .model(Model.CLAUDE_OPUS_4_7)
                 .maxTokens(1024L)
-                .addTool(knowledgeBaseTool)
                 .addUserMessage("How do I configure the timeout settings?")
                 .addAssistantMessageOfBlockParams(List.of(
                     ContentBlockParam.ofToolUse(ToolUseBlockParam.builder()
@@ -596,7 +599,7 @@ public class SearchKnowledgeBaseExample {
 }
 ```
 
-```php PHP nocheck
+```php PHP nocheck hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -652,7 +655,7 @@ $response = $client->messages->create(
     messages: [
         ['role' => 'user', 'content' => 'How do I configure the timeout settings?']
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     tools: [$knowledgeBaseTool],
 );
 
@@ -683,7 +686,7 @@ if ($toolUseBlock !== null) {
                 ]
             ]
         ],
-        model: 'claude-opus-4-6',
+        model: 'claude-opus-4-7',
     );
     echo $finalResponse;
 } else {
@@ -691,7 +694,7 @@ if ($toolUseBlock !== null) {
 }
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
@@ -738,7 +741,7 @@ def search_knowledge_base(query)
 end
 
 response = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: [knowledge_base_tool],
   messages: [
@@ -750,7 +753,7 @@ if response.content.first.type == :tool_use
   tool_result = search_knowledge_base(response.content.first.input["query"])
 
   final_response = client.messages.create(
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       { role: "user", content: "How do I configure the timeout settings?" },
@@ -783,7 +786,7 @@ You can also provide search results directly in user messages. This is useful fo
 ### Example: Direct search results
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 #!/bin/sh
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
@@ -791,7 +794,7 @@ curl https://api.anthropic.com/v1/messages \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "messages": [
         {
@@ -835,7 +838,43 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1,3..4,-1}
+```bash CLI
+ant messages create <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+messages:
+  - role: user
+    content:
+      - type: search_result
+        source: https://docs.company.com/api-reference
+        title: API Reference - Authentication
+        content:
+          - type: text
+            text: >-
+              All API requests must include an API key in the Authorization
+              header. Keys can be generated from the dashboard. Rate limits:
+              1000 requests per hour for standard tier, 10000 for premium.
+        citations:
+          enabled: true
+      - type: search_result
+        source: https://docs.company.com/quickstart
+        title: Getting Started Guide
+        content:
+          - type: text
+            text: >-
+              To get started: 1) Sign up for an account, 2) Generate an API
+              key from the dashboard, 3) Install our SDK using pip install
+              company-sdk, 4) Initialize the client with your API key.
+        citations:
+          enabled: true
+      - type: text
+        text: >-
+          Based on these search results, how do I authenticate API requests
+          and what are the rate limits?
+YAML
+```
+
+```python Python hidelines={1}
 from anthropic import Anthropic
 from anthropic.types import MessageParam, TextBlockParam, SearchResultBlockParam
 
@@ -843,7 +882,7 @@ client = Anthropic()
 
 # Provide search results directly in the user message
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     messages=[
         MessageParam(
@@ -882,17 +921,17 @@ response = client.messages.create(
     ],
 )
 
-print(response.model_dump_json(indent=2))
+print(response)
 ```
 
-```typescript TypeScript
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const anthropic = new Anthropic();
 
 // Provide search results directly in the user message
 const response = await anthropic.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   messages: [
     {
@@ -948,7 +987,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeOpus4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 1024,
             Messages =
             [
@@ -998,7 +1037,7 @@ class Program
 }
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1013,7 +1052,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(
@@ -1044,7 +1083,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..13,-1}
+```java Java hidelines={1..3,5..7,9..13,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.ContentBlockParam;
@@ -1061,7 +1100,7 @@ public class SearchResultExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(1024L)
             .addUserMessageOfBlockParams(List.of(
                 ContentBlockParam.ofSearchResult(
@@ -1102,7 +1141,7 @@ public class SearchResultExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -1146,19 +1185,19 @@ $message = $client->messages->create(
             ]
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
 );
 
 echo json_encode($message, JSON_PRETTY_PRINT);
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   messages: [
     {
@@ -1211,46 +1250,35 @@ Regardless of how search results are provided, Claude automatically includes cit
   "content": [
     {
       "type": "text",
-      "text": "To authenticate API requests, you need to include an API key in the Authorization header",
+      "text": "All API requests must include an API key in the Authorization header. Keys can be generated from the dashboard.",
       "citations": [
         {
           "type": "search_result_location",
+          "cited_text": "All API requests must include an API key in the Authorization header. Keys can be generated from the dashboard. Rate limits: 1000 requests per hour for standard tier, 10000 for premium.",
           "source": "https://docs.company.com/api-reference",
           "title": "API Reference - Authentication",
-          "cited_text": "All API requests must include an API key in the Authorization header",
           "search_result_index": 0,
           "start_block_index": 0,
-          "end_block_index": 0
+          "end_block_index": 1
         }
       ]
     },
     {
       "type": "text",
-      "text": ". You can generate API keys from your dashboard",
-      "citations": [
-        {
-          "type": "search_result_location",
-          "source": "https://docs.company.com/api-reference",
-          "title": "API Reference - Authentication",
-          "cited_text": "Keys can be generated from the dashboard",
-          "search_result_index": 0,
-          "start_block_index": 0,
-          "end_block_index": 0
-        }
-      ]
+      "text": "\n\nTo set this up from scratch, you'll need to "
     },
     {
       "type": "text",
-      "text": ". The rate limits are 1,000 requests per hour for the standard tier and 10,000 requests per hour for the premium tier.",
+      "text": "sign up for an account, generate an API key from the dashboard, install the SDK using `pip install company-sdk`, and initialize the client with your API key.",
       "citations": [
         {
           "type": "search_result_location",
-          "source": "https://docs.company.com/api-reference",
-          "title": "API Reference - Authentication",
-          "cited_text": "Rate limits: 1000 requests per hour for standard tier, 10000 for premium",
-          "search_result_index": 0,
+          "cited_text": "To get started: 1) Sign up for an account, 2) Generate an API key from the dashboard, 3) Install our SDK using pip install company-sdk, 4) Initialize the client with your API key.",
+          "source": "https://docs.company.com/quickstart",
+          "title": "Getting Started Guide",
+          "search_result_index": 1,
           "start_block_index": 0,
-          "end_block_index": 0
+          "end_block_index": 1
         }
       ]
     }
@@ -1267,12 +1295,12 @@ Each citation includes:
 | `type` | string | Always `"search_result_location"` for search result citations |
 | `source` | string | The source from the original search result |
 | `title` | string or null | The title from the original search result |
-| `cited_text` | string | The exact text being cited |
-| `search_result_index` | integer | Index of the search result (0-based) |
-| `start_block_index` | integer | Starting position in the content array |
-| `end_block_index` | integer | Ending position in the content array |
+| `cited_text` | string | The full text of the cited block(s), concatenated. Equals the contents of `content[start_block_index:end_block_index]` joined together. Not counted toward output tokens. |
+| `search_result_index` | integer | 0-based index of the cited search result among all `search_result` blocks in the request, in the order they appear (across all messages and tool results). |
+| `start_block_index` | integer | 0-based index of the first cited block in the search result's `content` array. |
+| `end_block_index` | integer | Exclusive end index of the cited block range in the search result's `content` array. Always greater than `start_block_index`. |
 
-Note: The `search_result_index` refers to the index of the search result content block (0-based), regardless of how the search results were provided (tool call or top-level content).
+The block indices identify a slice of the search result's `content` array, and `cited_text` is the full text of that slice. The text block is the minimal citable unit: Claude cites whole blocks, not substrings within a block. To get finer-grained citations, split your search result content into smaller blocks (see [Multiple content blocks](#multiple-content-blocks)).
 
 ## Multiple content blocks
 
@@ -1300,7 +1328,21 @@ Search results can contain multiple text blocks in the `content` array:
 }
 ```
 
-Claude can cite specific blocks using the `start_block_index` and `end_block_index` fields.
+A citation referencing the rate limits block looks like:
+
+```json
+{
+  "type": "search_result_location",
+  "cited_text": "Rate Limits: The API allows 1000 requests per hour per key.",
+  "source": "https://docs.company.com/api-guide",
+  "title": "API Documentation",
+  "search_result_index": 0,
+  "start_block_index": 1,
+  "end_block_index": 2
+}
+```
+
+When this search result is cited, `start_block_index` and `end_block_index` identify which of these blocks the citation covers, and `cited_text` contains exactly those blocks' text. Splitting content into smaller, focused blocks gives Claude finer citation boundaries; combining content into one block means every citation returns the full text. This is the same model used by [custom content documents](/docs/en/build-with-claude/citations#custom-content-documents) in the Citations feature.
 
 ## Advanced usage
 
@@ -1308,7 +1350,7 @@ Claude can cite specific blocks using the `start_block_index` and `end_block_ind
 
 You can use both tool-based and top-level search results in the same conversation:
 
-```python nocheck hidelines={1..2}
+```python nocheck
 from anthropic.types import MessageParam, SearchResultBlockParam, TextBlockParam
 
 # First message with top-level search results
@@ -1343,7 +1385,7 @@ messages = [
 
 Both methods support mixing search results with other content:
 
-```python nocheck hidelines={1..2}
+```python nocheck
 from anthropic.types import SearchResultBlockParam, TextBlockParam
 
 # In tool results
@@ -1416,10 +1458,8 @@ When `citations.enabled` is set to `true`, Claude includes citation references w
 - Source attribution when interfacing with proprietary knowledge bases
 - Web search-quality citations for any custom tool that returns search results
 
-If the `citations` field is omitted, citations are disabled by default.
-
 <Warning>
-Citations are all-or-nothing: either all search results in a request must have citations enabled, or all must have them disabled. Mixing search results with different citation settings results in an error. If you need to disable citations for some sources, you must disable them for all search results in that request.
+Citations are all-or-nothing: either all search results in a request must have citations enabled, or all must have them disabled. Mixing search results with different citation settings results in an error.
 </Warning>
 
 ## Best practices
@@ -1438,17 +1478,17 @@ Citations are all-or-nothing: either all search results in a request must have c
 
 ### General best practices
 
-1. **Structure results effectively**
+1. **Structure results effectively:**
    - Use clear, permanent source URLs
    - Provide descriptive titles
-   - Break long content into logical text blocks
+   - Break long content into logical text blocks to give Claude finer citation boundaries
 
-2. **Maintain consistency**
+2. **Maintain consistency:**
    - Use consistent source formats across your application
    - Ensure titles accurately reflect content
    - Keep formatting consistent
 
-3. **Handle errors gracefully**
+3. **Handle errors gracefully:**
    
    ```python nocheck
    def search_with_fallback(query):

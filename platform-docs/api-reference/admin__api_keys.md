@@ -14,7 +14,7 @@ Get API Key
 
 ### Returns
 
-- `APIKey = object { id, created_at, created_by, 5 more }`
+- `APIKey = object { id, created_at, created_by, 6 more }`
 
   - `id: string`
 
@@ -36,6 +36,10 @@ Get API Key
 
       Type of the actor that created the object.
 
+  - `expires_at: string`
+
+    RFC 3339 datetime string indicating when the API Key expires, or `null` if it never expires.
+
   - `name: string`
 
     Name of the API key.
@@ -44,7 +48,7 @@ Get API Key
 
     Partially redacted hint for the API key.
 
-  - `status: "active" or "inactive" or "archived"`
+  - `status: "active" or "inactive" or "archived" or "expired"`
 
     Status of the API key.
 
@@ -53,6 +57,8 @@ Get API Key
     - `"inactive"`
 
     - `"archived"`
+
+    - `"expired"`
 
   - `type: "api_key"`
 
@@ -65,6 +71,14 @@ Get API Key
   - `workspace_id: string`
 
     ID of the Workspace associated with the API key, or `null` if the API key belongs to the default Workspace.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## List
 
@@ -92,7 +106,7 @@ List API Keys
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-- `status: optional "active" or "inactive" or "archived"`
+- `status: optional "active" or "inactive" or "archived" or "expired"`
 
   Filter by API key status.
 
@@ -101,6 +115,8 @@ List API Keys
   - `"inactive"`
 
   - `"archived"`
+
+  - `"expired"`
 
 - `workspace_id: optional string`
 
@@ -130,6 +146,10 @@ List API Keys
 
       Type of the actor that created the object.
 
+  - `expires_at: string`
+
+    RFC 3339 datetime string indicating when the API Key expires, or `null` if it never expires.
+
   - `name: string`
 
     Name of the API key.
@@ -138,7 +158,7 @@ List API Keys
 
     Partially redacted hint for the API key.
 
-  - `status: "active" or "inactive" or "archived"`
+  - `status: "active" or "inactive" or "archived" or "expired"`
 
     Status of the API key.
 
@@ -147,6 +167,8 @@ List API Keys
     - `"inactive"`
 
     - `"archived"`
+
+    - `"expired"`
 
   - `type: "api_key"`
 
@@ -171,6 +193,14 @@ List API Keys
 - `last_id: string`
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/api_keys \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## Update
 
@@ -202,7 +232,7 @@ Update API Key
 
 ### Returns
 
-- `APIKey = object { id, created_at, created_by, 5 more }`
+- `APIKey = object { id, created_at, created_by, 6 more }`
 
   - `id: string`
 
@@ -224,6 +254,10 @@ Update API Key
 
       Type of the actor that created the object.
 
+  - `expires_at: string`
+
+    RFC 3339 datetime string indicating when the API Key expires, or `null` if it never expires.
+
   - `name: string`
 
     Name of the API key.
@@ -232,7 +266,7 @@ Update API Key
 
     Partially redacted hint for the API key.
 
-  - `status: "active" or "inactive" or "archived"`
+  - `status: "active" or "inactive" or "archived" or "expired"`
 
     Status of the API key.
 
@@ -241,6 +275,8 @@ Update API Key
     - `"inactive"`
 
     - `"archived"`
+
+    - `"expired"`
 
   - `type: "api_key"`
 
@@ -253,6 +289,16 @@ Update API Key
   - `workspace_id: string`
 
     ID of the Workspace associated with the API key, or `null` if the API key belongs to the default Workspace.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{}'
+```
 
 
 ---

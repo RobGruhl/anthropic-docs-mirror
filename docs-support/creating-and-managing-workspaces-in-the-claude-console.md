@@ -1,6 +1,6 @@
 # Creating and managing Workspaces in the Claude Console
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -120,8 +120,8 @@ Every organization has a default Workspace that cannot be renamed, archived, or 
 
 ## Related Articles
 
-- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
 - [Cost and Usage Reporting in the Claude Console](https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Sharing Prompts in the Claude Console](https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)

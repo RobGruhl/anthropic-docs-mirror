@@ -1,6 +1,6 @@
 # How can I delete my Claude Console account?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -41,7 +41,7 @@ If you have an outstanding balance, you will see a message during the deletion f
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1771884000&signature=07b22a015158bb4cea9c828f622f5f37faad44d0152c7431609b8535115a8475&req=dSkgFcB7moZZX%2FMW1HO4zbYXXxZqVOAbFZRyvJPpBZ%2F0A0YXHq%2FIavpJ%2Bqd3%0AT%2BKazbgGwkF%2Fxw7ZoCk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1778979600&signature=8088a81e033ca5ddddb4d921209308db324ebd7638dd0d20f237b3deb865ee09&req=dSkgFcB7moZZX%2FMW1HO4zbYXXx9rW%2B0dFZRyvJPpBZ%2ByI2vaehccR9e1zFMP%0AgaG%2BjIUWt5ku%2BMzhB6A%3D%0A)
 
  
 
@@ -55,7 +55,7 @@ There are some scenarios where you will need to contact our team to delete your 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1771884000&signature=fbf453cf7027cafcfcb7d585ad1c320a7f9df956c2fe24ae6e10c227165a7f6c&req=dSkgFcB7moZZXPMW1HO4zRW11OTFcKD5ZxDZGlqR6Gg1GSTS80r4qEGe8gLX%0ApGzGZ0%2Bqq6jbEKPVaYM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1778979600&signature=b8c62cf05fbcaa33d250f35bddb36df392f7790a93a8d6d2a9e29af5fa92b442&req=dSkgFcB7moZZXPMW1HO4zRW11O3Ef63%2FZxDZGlqR6Gjxd8wqGzqDjT48qvik%0AcmGjLq5X36xsa2FUVJs%3D%0A)
 
  
 
@@ -66,8 +66,8 @@ If you are seeing this message, this indicates that your Console organization ca
 
 ## Related Articles
 
-- [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
+- [Can I have a Claude account and a Console account?](https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account)
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
 - [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)

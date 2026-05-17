@@ -1,6 +1,6 @@
-# Custom data retention controls for Enterprise plans
+# Configure custom data retention controls for Enterprise plans
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -68,7 +68,7 @@ All retention-related actions and changes are automatically tracked in **[audit 
 ## Related Articles
 
 - [Can you delete data that I sent via Team and Enterprise plans?](https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans)
-- [Using Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)
+- [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
 - [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
-- [Usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans)

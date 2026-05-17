@@ -1,6 +1,6 @@
 # What is the Max plan?
 
-*Updated over a week ago*
+*Updated over a month ago*
 
 ---
 
@@ -15,7 +15,7 @@ The Max plan is designed for users who collaborate with Claude frequently and ne
 - **Scale as needed**: Choose the usage tier that matches your workflow, with the flexibility to adjust as your needs change.
 - **Priority access**: Be among the first to experience new models, features, and products.
 - **Access to Claude Code: [Use Claude Code](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)** for your terminal-based coding workflows with one unified subscription.
-- **Cowork (research preview):** Hand off complex, multi-step tasks to Claude in Claude Desktop (on macOS only). Claude can access your local files, coordinate parallel workstreams, and deliver professional outputs like spreadsheets and presentations. See this article for more information: **[Getting Started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-local-agent-mode)**.
+- **Access to Cowork:** Hand off complex, multi-step tasks to Claude in Claude Desktop. See this article for more information: **[Get started with Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-local-agent-mode)**.
 -  
 
 ---
@@ -30,6 +30,8 @@ The Max plan is available in two tiers to match your usage needs:
 
 - **Max 5x**: $100 per month
 - **Max 20x**: $200 per month
+
+Price and plans are subject to change at Anthropic's discretion.
 
  
 
@@ -88,6 +90,6 @@ For more information about usage and length limits, refer to **[Understanding us
 
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)

@@ -1,8 +1,9 @@
 # Pricing Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Pricing across all sources (1 documents)
+Documents related to Pricing across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
+- [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
 - [Costs](/code-claude-docs/costs.md)
 

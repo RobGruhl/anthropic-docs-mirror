@@ -1,4 +1,4 @@
-# Using Claude in Microsoft Foundry
+# Use Claude in Microsoft Foundry
 
 *Updated over a week ago*
 
@@ -18,7 +18,7 @@ If you need support while using Claude through Microsoft Foundry, review the **[
 
  
 
-Refer to [our Claude Docs](https://docs.claude.com/en/docs/build-with-claude/claude-in-microsoft-foundry) for more information.
+Refer to **[our Claude Docs](https://docs.claude.com/en/docs/build-with-claude/claude-in-microsoft-foundry)** for more information.
 
 
 ---
@@ -26,7 +26,7 @@ Refer to [our Claude Docs](https://docs.claude.com/en/docs/build-with-claude/cla
 ## Related Articles
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
-- [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Claude in Chrome release notes](https://support.claude.com/en/articles/12306336-claude-in-chrome-release-notes)
-- [Applying Claude Opus 4.5’s strengths to your everyday work](https://support.claude.com/en/articles/12920969-applying-claude-opus-4-5-s-strengths-to-your-everyday-work)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

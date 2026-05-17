@@ -1,6 +1,6 @@
 # Configuring session security settings
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -13,24 +13,24 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 ### For Enterprise Admins
 
 1. Log in to your Enterprise organization as an Admin or above.
-2. Navigate to **[Organization settings > Identity and access](https://claude.ai/admin-settings/identity)**.
+2. Navigate to **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
 3. Locate the **Session security** section.
-4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 7 days, 14 days, or 28 days.
+4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 7 days, 14 days, or 28 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1771884000&signature=40bd54228e45b61963425b579df86743a809b0d7b90809c8b31444de9a30bf26&req=dSgvHs14lIVcX%2FMW1HO4zQNx5OMvS15Qg%2F6XaftFnjwfSHk0eBdFYkCrSIOj%0AQhzx1FBV%2FjjaM5Dy3No%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1778979600&signature=73e641579c70a8189a434d469d575755e4c2ab4fdddd1eb97d154ecdc7a399ca&req=dSgvHs14lIVcX%2FMW1HO4zQNx5OouRFNWg%2F6XaftFnjwkxexXARwiBZbfWtch%0A2sVG4X9z5offRG5Iapg%3D%0A)
 
  
 
 ### For Console Admins
 
 1. Log in to your Console account as an Admin.
-2. Navigate to **[Settings > Identity and access](http://platform.claude.com/settings/identity)**.
+2. Navigate to **[Settings > Organization and access](http://platform.claude.com/settings/organization)**.
 3. Locate the **Session security** section.
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 3 days, or 7 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1771884000&signature=ec004b80d45a1b528e2b54370f8e29def36f1c64e56841a35dbea1525fb069f0&req=dSgvHs14lIVcXPMW1HO4zWzx17g%2BL3shXZ5D7eVpMteZ4jagjBZAfV%2BRb3jp%0AMo7c8GVpQHSc4TrhrlM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1778979600&signature=3b17c031248edf9d6a637728c67c4449357ab2207ad68f89c272279210df9a73&req=dSgvHs14lIVcXPMW1HO4zWzx17E%2FIHYnXZ5D7eVpMteOUcqFIASaKUbXZa%2BW%0A1CTBxfOxufYvhRxfQ%2BE%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ You can change the session duration at any time by selecting a new value from th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1771884000&signature=a7b8bac3d5ec2d565af85b8f07403120a4120fb0b157b7b7c13f02489013420a&req=dSgvHs14lIVcXvMW1HO4zZ7mVcmT7z2jA00cbyPOLDU1fsORxX1%2B0qs44nCg%0AoaEjJscvKsK8Uk%2F37zA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1778979600&signature=d0ec7ff29e122aa7654364706c3712017dfbc06e249341443dff2a54dfe2bfc4&req=dSgvHs14lIVcXvMW1HO4zZ7mVcCS4DClA00cbyPOLDXpgkfQCLFWH86qMHhF%0A%2F7tkEetm9rktrg19tgs%3D%0A)
 
  
 
@@ -71,7 +71,7 @@ If a user belongs to multiple organizations with different session duration sett
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Microsoft 365 Connector: Security Guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)

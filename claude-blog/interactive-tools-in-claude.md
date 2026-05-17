@@ -1,5 +1,4 @@
 # Your favorite work tools are now interactive connectors inside Claude
-*January 26, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
 
@@ -7,15 +6,15 @@
 
 Open Asana, Slack, Figma, and more in chat with MCP Apps
 
-- CategoryProduct announcements
+- カテゴリ製品発表
 
-- ProductClaude apps
+- 製品Claudeのアプリ
 
-- DateJanuary 26, 2026
+- 日付2026-01-26
 
-- Reading time5min
+- 読了時間5分
 
-- ShareCopy linkhttps://claude.com/blog/interactive-tools-in-claude
+- 共有リンクをコピーhttps://claude.com/blog/interactive-tools-in-claude
 
 Starting today, we’re bringing interactive connectors to Claude with MCP Apps. You can open and interact with tools in Claude. Build and update project timelines in Asana. Draft, edit and send Slack messages in a formatted preview. Visualize ideas as diagrams in Figma—all without switching tabs.
 
@@ -43,7 +42,7 @@ Claude already connects to your tools and takes actions on your behalf. Now, wit
 
 Coming soon:Salesforce- Bring enterprise context to Claude with Agentforce 360, enabling teams to reason, collaborate, and act from a single, connected interface.
 
-## MCP Apps:Built on an open standard‍
+## MCP Apps: Built on an open standard‍
 
 The underlying technology is built on the[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro), the open standard for connecting tools to AI applications. MCP Apps is a new extension to MCP that lets any MCP server deliver interactive connectors with a rich user interface within any supporting AI product—not just Claude.
 
@@ -53,7 +52,7 @@ To learn more, see the announcement of[MCP Apps - The First Official MCP Extensi
 
 ## Getting started
 
-Start using interactive connectors (MCP Apps) in Claude today. Head to[claude.ai/directory](http://claude.ai/directory)and connect to apps under the "featured" section to get started. Available on web and desktop for Pro, Max, Team, Enterprise plans. Coming soon to[Claude Cowork](http://claude.com/product/cowork).‍
+Start using interactive connectors (MCP Apps) in Claude today. Head to[claude.ai/directory](http://claude.ai/directory)and connect to apps under the "featured" section to get started. Available in Claude on mobile, web and desktop for Free, Pro, Max, Team, Enterprise plans. Also now available on[Claude Cowork](http://claude.com/product/cowork).‍
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -63,34 +62,34 @@ Start using interactive connectors (MCP Apps) in Claude today. Head to[claude.ai
 
 FAQ
 
-## Related posts
+関連投稿
 
-Explore more product news and best practices for teams building with Claude.
+Claudeを活用した構築チーム向けの製品ニュースやベストプラクティスに関するその他の情報を提供します。
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Bringing automated preview, review, and merge to Claude Code on desktop
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Increase web search accuracy and efficiency with dynamic filtering
+### Claude for the legal industry
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Cowork: Claude Code for the rest of your work
+### Claude Security is now in public beta
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Claude Code and Slack
+### Built-in memory for Claude Managed Agents
 
-## Transform how your organization operates with Claude
+## 開発を始める
 
-Get the developer newsletter
+開発者向けニュースレターを入手
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイにお届けします。
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/interactive-tools-in-claude
+**Source:** https://claude.com/ja/blog/interactive-tools-in-claude
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

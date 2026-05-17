@@ -29,40 +29,43 @@ Pre-built Agent Skills extend Claude's capabilities with specialized expertise f
 
 First, check what Skills are available. Use the Skills API to list all Anthropic-managed Skills:
 
-<CodeGroup>
+<CodeGroup defaultLanguage="CLI">
+```bash cURL
+curl "https://api.anthropic.com/v1/skills?source=anthropic" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "anthropic-beta: skills-2025-10-02"
+```
+
+```bash CLI
+ant beta:skills list --source anthropic
+```
+
 ```python Python
 import anthropic
 
 client = anthropic.Anthropic()
 
 # List Anthropic-managed Skills
-skills = client.beta.skills.list(source="anthropic", betas=["skills-2025-10-02"])
+skills = client.beta.skills.list(source="anthropic")
 
 for skill in skills.data:
     print(f"{skill.id}: {skill.display_title}")
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 // List Anthropic-managed Skills
 const skills = await client.beta.skills.list({
-  source: "anthropic",
-  betas: ["skills-2025-10-02"]
+  source: "anthropic"
 });
 
 for (const skill of skills.data) {
   console.log(`${skill.id}: ${skill.display_title}`);
 }
-```
-
-```bash Shell
-curl "https://api.anthropic.com/v1/skills?source=anthropic" \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -H "anthropic-beta: skills-2025-10-02"
 ```
 </CodeGroup>
 
@@ -75,14 +78,64 @@ This API returns each Skill's metadata: its name and description. Claude loads t
 Now use the PowerPoint Skill to create a presentation about renewable energy. Specify Skills using the `container` parameter in the Messages API:
 
 <CodeGroup>
-```python Python hidelines={1..4,-1}
+```bash cURL
+curl https://api.anthropic.com/v1/messages \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
+  -H "content-type: application/json" \
+  -d '{
+    "model": "claude-opus-4-7",
+    "max_tokens": 4096,
+    "container": {
+      "skills": [
+        {
+          "type": "anthropic",
+          "skill_id": "pptx",
+          "version": "latest"
+        }
+      ]
+    },
+    "messages": [{
+      "role": "user",
+      "content": "Create a presentation about renewable energy with 5 slides"
+    }],
+    "tools": [{
+      "type": "code_execution_20250825",
+      "name": "code_execution"
+    }]
+  }'
+```
+
+```bash CLI
+ant beta:messages create \
+  --beta code-execution-2025-08-25 \
+  --beta skills-2025-10-02 \
+  --transform content <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+container:
+  skills:
+    - type: anthropic
+      skill_id: pptx
+      version: latest
+messages:
+  - role: user
+    content: Create a presentation about renewable energy with 5 slides
+tools:
+  - type: code_execution_20250825
+    name: code_execution
+YAML
+```
+
+```python Python
 import anthropic
 
 client = anthropic.Anthropic()
 
 # Create a message with the PowerPoint Skill
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     betas=["code-execution-2025-08-25", "skills-2025-10-02"],
     container={
@@ -100,14 +153,14 @@ response = client.beta.messages.create(
 print(response.content)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 // Create a message with the PowerPoint Skill
 const response = await client.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   betas: ["code-execution-2025-08-25", "skills-2025-10-02"],
   container: {
@@ -135,35 +188,6 @@ const response = await client.beta.messages.create({
 
 console.log(response.content);
 ```
-
-```bash Shell
-curl https://api.anthropic.com/v1/messages \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
-  -H "content-type: application/json" \
-  -d '{
-    "model": "claude-opus-4-6",
-    "max_tokens": 4096,
-    "container": {
-      "skills": [
-        {
-          "type": "anthropic",
-          "skill_id": "pptx",
-          "version": "latest"
-        }
-      ]
-    },
-    "messages": [{
-      "role": "user",
-      "content": "Create a presentation about renewable energy with 5 slides"
-    }],
-    "tools": [{
-      "type": "code_execution_20250825",
-      "name": "code_execution"
-    }]
-  }'
-```
 </CodeGroup>
 
 Let's break down what each part does:
@@ -183,6 +207,50 @@ The presentation was created in the code execution container and saved as a file
 
 <CodeGroup>
 
+```bash cURL nocheck
+# Extract file_id from response (using jq)
+FILE_ID=$(echo "$RESPONSE" | jq -r '.content[] | select(.type=="tool_use" and .name=="code_execution") | .content[] | select(.file_id) | .file_id')
+
+# Download the file
+curl "https://api.anthropic.com/v1/files/$FILE_ID/content" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "anthropic-beta: files-api-2025-04-14" \
+  --output renewable_energy.pptx
+
+echo "Presentation saved to renewable_energy.pptx"
+```
+
+```bash CLI nocheck
+# Extract file_id with --transform on the messages create call
+FILE_ID=$(ant beta:messages create \
+  --beta code-execution-2025-08-25 --beta skills-2025-10-02 \
+  --transform 'content.#.content.content.#.file_id|@flatten|0' \
+  --raw-output <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+container:
+  skills:
+    - type: anthropic
+      skill_id: pptx
+      version: latest
+messages:
+  - role: user
+    content: Create a presentation about renewable energy with 5 slides
+tools:
+  - type: code_execution_20250825
+    name: code_execution
+YAML
+)
+
+# Download the file
+ant beta:files download \
+  --file-id "$FILE_ID" \
+  --output renewable_energy.pptx
+
+printf 'Presentation saved to renewable_energy.pptx\n'
+```
+
 ```python Python nocheck
 from typing import Any
 
@@ -199,9 +267,7 @@ for block in response.content:
 
 if file_id:
     # Download the file
-    file_content = client.beta.files.download(
-        file_id=file_id, betas=["files-api-2025-04-14"]
-    )
+    file_content = client.beta.files.download(file_id=file_id)
 
     # Save to disk
     with open("renewable_energy.pptx", "wb") as f:
@@ -227,9 +293,7 @@ for (const block of response.content) {
 
 if (fileId) {
   // Download the file
-  const fileContent = await client.beta.files.download(fileId, {
-    betas: ["files-api-2025-04-14"]
-  });
+  const fileContent = await client.beta.files.download(fileId);
 
   // Save to disk
   const fs = require("fs/promises");
@@ -237,20 +301,6 @@ if (fileId) {
 
   console.log("Presentation saved to renewable_energy.pptx");
 }
-```
-
-```bash Shell
-# Extract file_id from response (using jq)
-FILE_ID=$(echo "$RESPONSE" | jq -r '.content[] | select(.type=="tool_use" and .name=="code_execution") | .content[] | select(.file_id) | .file_id')
-
-# Download the file
-curl "https://api.anthropic.com/v1/files/$FILE_ID/content" \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -H "anthropic-beta: files-api-2025-04-14" \
-  --output renewable_energy.pptx
-
-echo "Presentation saved to renewable_energy.pptx"
 ```
 </CodeGroup>
 
@@ -265,9 +315,58 @@ Now that you've created your first document with Skills, try these variations:
 ### Create a spreadsheet
 
 <CodeGroup>
+```bash cURL
+curl https://api.anthropic.com/v1/messages \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
+  -H "content-type: application/json" \
+  -d '{
+    "model": "claude-opus-4-7",
+    "max_tokens": 4096,
+    "container": {
+      "skills": [
+        {
+          "type": "anthropic",
+          "skill_id": "xlsx",
+          "version": "latest"
+        }
+      ]
+    },
+    "messages": [{
+      "role": "user",
+      "content": "Create a quarterly sales tracking spreadsheet with sample data"
+    }],
+    "tools": [{
+      "type": "code_execution_20250825",
+      "name": "code_execution"
+    }]
+  }'
+```
+
+```bash CLI
+ant beta:messages create \
+  --beta code-execution-2025-08-25 \
+  --beta skills-2025-10-02 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+container:
+  skills:
+    - type: anthropic
+      skill_id: xlsx
+      version: latest
+messages:
+  - role: user
+    content: Create a quarterly sales tracking spreadsheet with sample data
+tools:
+  - type: code_execution_20250825
+    name: code_execution
+YAML
+```
+
 ```python Python
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     betas=["code-execution-2025-08-25", "skills-2025-10-02"],
     container={
@@ -285,7 +384,7 @@ response = client.beta.messages.create(
 
 ```typescript TypeScript
 const response = await client.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   betas: ["code-execution-2025-08-25", "skills-2025-10-02"],
   container: {
@@ -311,28 +410,32 @@ const response = await client.beta.messages.create({
   ]
 });
 ```
+</CodeGroup>
 
-```bash Shell
+### Create a Word document
+
+<CodeGroup>
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
   -H "content-type: application/json" \
   -d '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 4096,
     "container": {
       "skills": [
         {
           "type": "anthropic",
-          "skill_id": "xlsx",
+          "skill_id": "docx",
           "version": "latest"
         }
       ]
     },
     "messages": [{
       "role": "user",
-      "content": "Create a quarterly sales tracking spreadsheet with sample data"
+      "content": "Write a 2-page report on the benefits of renewable energy"
     }],
     "tools": [{
       "type": "code_execution_20250825",
@@ -340,14 +443,30 @@ curl https://api.anthropic.com/v1/messages \
     }]
   }'
 ```
-</CodeGroup>
 
-### Create a Word document
+```bash CLI nocheck
+ant beta:messages create \
+  --beta code-execution-2025-08-25 \
+  --beta skills-2025-10-02 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+container:
+  skills:
+    - type: anthropic
+      skill_id: docx
+      version: latest
+messages:
+  - role: user
+    content: Write a 2-page report on the benefits of renewable energy
+tools:
+  - type: code_execution_20250825
+    name: code_execution
+YAML
+```
 
-<CodeGroup>
 ```python Python
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     betas=["code-execution-2025-08-25", "skills-2025-10-02"],
     container={
@@ -365,7 +484,7 @@ response = client.beta.messages.create(
 
 ```typescript TypeScript
 const response = await client.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   betas: ["code-execution-2025-08-25", "skills-2025-10-02"],
   container: {
@@ -391,28 +510,32 @@ const response = await client.beta.messages.create({
   ]
 });
 ```
+</CodeGroup>
 
-```bash Shell
+### Generate a PDF
+
+<CodeGroup>
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
   -H "content-type: application/json" \
   -d '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 4096,
     "container": {
       "skills": [
         {
           "type": "anthropic",
-          "skill_id": "docx",
+          "skill_id": "pdf",
           "version": "latest"
         }
       ]
     },
     "messages": [{
       "role": "user",
-      "content": "Write a 2-page report on the benefits of renewable energy"
+      "content": "Generate a PDF invoice template"
     }],
     "tools": [{
       "type": "code_execution_20250825",
@@ -420,14 +543,30 @@ curl https://api.anthropic.com/v1/messages \
     }]
   }'
 ```
-</CodeGroup>
 
-### Generate a PDF
+```bash CLI
+ant beta:messages create \
+  --beta code-execution-2025-08-25 \
+  --beta skills-2025-10-02 <<'YAML'
+model: claude-opus-4-7
+max_tokens: 4096
+container:
+  skills:
+    - type: anthropic
+      skill_id: pdf
+      version: latest
+messages:
+  - role: user
+    content: Generate a PDF invoice template
+tools:
+  - type: code_execution_20250825
+    name: code_execution
+YAML
+```
 
-<CodeGroup>
 ```python Python
 response = client.beta.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=4096,
     betas=["code-execution-2025-08-25", "skills-2025-10-02"],
     container={
@@ -440,7 +579,7 @@ response = client.beta.messages.create(
 
 ```typescript TypeScript
 const response = await client.beta.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 4096,
   betas: ["code-execution-2025-08-25", "skills-2025-10-02"],
   container: {
@@ -465,35 +604,6 @@ const response = await client.beta.messages.create({
     }
   ]
 });
-```
-
-```bash Shell
-curl https://api.anthropic.com/v1/messages \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -H "anthropic-beta: code-execution-2025-08-25,skills-2025-10-02" \
-  -H "content-type: application/json" \
-  -d '{
-    "model": "claude-opus-4-6",
-    "max_tokens": 4096,
-    "container": {
-      "skills": [
-        {
-          "type": "anthropic",
-          "skill_id": "pdf",
-          "version": "latest"
-        }
-      ]
-    },
-    "messages": [{
-      "role": "user",
-      "content": "Generate a PDF invoice template"
-    }],
-    "tools": [{
-      "type": "code_execution_20250825",
-      "name": "code_execution"
-    }]
-  }'
 ```
 </CodeGroup>
 
@@ -529,13 +639,6 @@ Now that you've used pre-built Agent Skills, you can:
     href="https://code.claude.com/docs/en/skills"
   >
     Learn about Skills in Claude Code
-  </Card>
-  <Card
-    title="Use Skills in the Agent SDK"
-    icon="cube"
-    href="/docs/en/agent-sdk/skills"
-  >
-    Use Skills programmatically in TypeScript and Python
   </Card>
   <Card
     title="Agent Skills Cookbook"

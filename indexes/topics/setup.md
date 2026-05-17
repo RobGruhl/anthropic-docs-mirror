@@ -1,8 +1,10 @@
 # Setup Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Setup across all sources (1 documents)
+Documents related to Setup across all sources (3 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (3)
+- [Admin Setup](/code-claude-docs/admin-setup.md)
 - [Setup](/code-claude-docs/setup.md)
+- [Troubleshoot Install](/code-claude-docs/troubleshoot-install.md)
 

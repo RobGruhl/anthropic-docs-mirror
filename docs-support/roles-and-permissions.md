@@ -1,10 +1,21 @@
 # Roles and permissions
 
-*Updated today*
+*Updated over a month ago*
 
 ---
 
 What an individual can see and do in their Team or Enterprise plan account is dictated by their role. Roles are provisioned with the following permissions.
+
+ 
+
+**About custom roles (Enterprise plans only):** Enterprise plans support custom roles, which let you control feature access at the group level. Members who are set to “Custom roles” have no default permissions—their access is determined entirely by the custom roles assigned to their groups. Because these members have no built-in permissions, they don't appear in the tables below.
+
+ 
+
+To learn more, refer to the following articles:
+
+- **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans)**
+- **[Manage groups and group spend limits on Enterprise plans](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)**
 
  
 
@@ -96,8 +107,8 @@ What an individual can see and do in their Team or Enterprise plan account is di
 
 ## Related Articles
 
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
-- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
-- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
+- [Manage groups and group spend limits on Enterprise plans](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)
+- [Set up role-based permissions on Enterprise plans](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)

@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -29,8 +29,7 @@ Common examples of artifact content include:
 - SVG images
 - Diagrams and flowcharts
 - Interactive React components
-
- 
+-  
 
 ---
 
@@ -41,7 +40,7 @@ Common examples of artifact content include:
 To adjust your artifacts preferences:
 
 1. Click your initials or name in the lower left corner.
-2. Navigate to [Settings > Capabilities](https://claude.ai/settings/capabilities).
+2. Navigate to **[Settings > Capabilities](https://claude.ai/settings/capabilities)**.
 3. Find **Artifacts** and toggle it on or off.
 
  
@@ -58,10 +57,7 @@ You can access all your artifacts through the dedicated artifacts space in your 
 - Browse Anthropic-created artifacts for inspiration
 - Create new artifacts from scratch or by customizing existing ones
 - Manage and organize your artifact collection
-
-Team and Enterprise users can also browse work-focused artifacts shared within their organization.
-
- 
+-  
 
 ---
 
@@ -80,6 +76,7 @@ When Claude creates an artifact, you'll see the content displayed in a dedicated
 - Switch between different versions using the version selector
 - Your edits won't change Claude's memory of the original content
 - Edit prior chat messages to create a different version of the conversation, with its own set of artifacts—this lets you explore different directions without losing previous work
+-  
 
 ### View and export
 
@@ -88,12 +85,14 @@ In the lower right corner of the artifact window, you can:
 - View the underlying code of any artifact
 - Copy content to your clipboard
 - Download files to use outside the conversation
+-  
 
 ### Multiple artifacts
 
 - Open and work with several artifacts in one conversation
 - Use the chat controls (slider icon in upper right) to switch between them
 - Select which artifact you want Claude to reference for updates
+-  
 
 ### Fixing errors
 
@@ -113,10 +112,11 @@ You can build artifacts that embed AI capabilities, turning them into AI-powered
 
 ### Creating AI-powered artifacts
 
-1. Describe what you want to Claude
-2. Claude writes the code
-3. The app runs on Anthropic's infrastructure
-4. Users authenticate with their Claude account and interact with their own instance of the artifact
+1. Describe what you want to Claude.
+2. Claude writes the code.
+3. The app runs on Anthropic's infrastructure.
+4. Users authenticate with their Claude account and interact with their own instance of the artifact.
+4.  
 
 ### How usage works
 
@@ -134,7 +134,7 @@ For Team and Enterprise plans, when you share AI-powered artifacts within your o
 
 ## MCP integration
 
-Artifacts can connect to external services through the Model Context Protocol (MCP), enabling interactive applications that read from and write to tools like Asana, Google Calendar, and Slack. In addition to Anthropic's official MCP integrations, artifacts can connect to any [custom MCP servers](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp) you've configured.
+Artifacts can connect to external services through the Model Context Protocol (MCP), enabling interactive applications that read from and write to tools like Asana, Google Calendar, and Slack. In addition to Anthropic's official MCP integrations, artifacts can connect to any **[custom MCP servers](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)** you've configured.
 
  
 
@@ -146,7 +146,7 @@ When an artifact needs to access an MCP tool, you'll be prompted to approve acce
 
  
 
-## Persistent Storage
+## Persistent storage
 
 Artifacts can store data across sessions, enabling stateful applications like journals, trackers, and collaborative tools. Storage can be configured as either personal or shared:
 
@@ -170,9 +170,9 @@ When you interact with an artifact that uses shared storage for the first time, 
 
  
 
-## Learn More
+## Learn more
 
-To share your artifacts publicly, embed them on websites, or discover artifacts created by others, see Publishing and sharing artifacts.
+To share your artifacts publicly, embed them on websites, or discover artifacts created by others, see **[Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)**.
 
  
 
@@ -181,8 +181,8 @@ To share your artifacts publicly, embed them on websites, or discover artifacts 
 
 ## Related Articles
 
+- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)
-- [Intro to Artifacts](https://support.claude.com/en/articles/9945615-intro-to-artifacts)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [Pre-built web connectors using remote MCP](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)
-- [Use artifacts to visualize and create AI apps, without ever writing a line of code](https://support.claude.com/en/articles/11649427-use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code)
+- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
+- [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

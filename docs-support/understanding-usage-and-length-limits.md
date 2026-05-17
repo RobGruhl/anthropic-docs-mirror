@@ -1,10 +1,10 @@
-# Understanding usage and length limits
+# How do usage and length limits work?
 
 *Updated over a week ago*
 
 ---
 
-When chatting with Claude, you may encounter two different types of limits that work in distinct ways: **usage limits **and **length limits**. Understanding the difference between these can help you use Claude more effectively.
+When working with Claude, you may encounter two different types of limits that work in distinct ways: **usage limits **and **length limits**. Understanding the difference between these can help you use Claude more effectively.
 
  
 
@@ -51,6 +51,10 @@ Your full chat history is preserved so Claude can reference it even after summar
 
  
 
+Longer conversations that trigger automatic context management consume more of your usage limit. Try starting a new conversation if you're approaching your usage limit in a longer chat.
+
+ 
+
 ## How can I increase the size of Claude’s context window?
 
 While you can't increase the fixed context window size for your plan, you can use these strategies to maximize available context space and optimize both your context window and usage limits:
@@ -79,5 +83,5 @@ If you hit your usage limit, you'll need to wait for it to reset, upgrade your p
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
-- [Understanding Claude Error Messages](https://support.claude.com/en/articles/12466728-understanding-claude-error-messages)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

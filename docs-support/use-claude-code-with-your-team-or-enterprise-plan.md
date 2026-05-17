@@ -1,6 +1,6 @@
 # Use Claude Code with your Team or Enterprise plan
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -36,9 +36,7 @@ If your organization is on an older Enterprise plan with Chat and Chat + Claude 
 
 ### Step 2: Download and install Claude Code
 
-1. Once you have Claude Code access, visit the **[Claude Code page](https://claude.com/product/claude-code)**.
-2. Click the link to install **[Node.js 18+](https://nodejs.org/en/download)**.
-3. Open your terminal, then run: <code>npm install -g @anthropic-ai/claude-code</code>
+Once you confirm you have access, follow the installation instructions in our **[Claude Code Docs](https://code.claude.com/docs/en/quickstart#step-1-install-claude-code)** for the environment you're using.
 
  
 
@@ -68,7 +66,7 @@ If you're not seeing the option to authenticate with your preferred account, fol
 
 ## What happens when you hit usage limits
 
-If your organization is on a **usage-based Enterprise plan** (including self-serve Enterprise), there are no per-seat usage limits — usage is based on consumption. See **[How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)** for details on how usage billing works.
+If your organization is on a **usage-based Enterprise plan** (including self-serve Enterprise), there are no per-seat usage limits—usage is based on consumption and billed at API rates. See **[How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)** for details on how usage billing works.
 
  
 
@@ -79,8 +77,8 @@ If your organization is on a **Team plan** or a **seat-based Enterprise plan**, 
 
 ## Related Articles
 
-- [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

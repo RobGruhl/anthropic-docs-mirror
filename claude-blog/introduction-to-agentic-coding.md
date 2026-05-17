@@ -1,177 +1,176 @@
-# Introduction to agentic coding
-*October 30, 2025*
+# Introduction au codage agentique
 ---
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-# Introduction to agentic coding
+# Introduction au codage agentique
 
-Move from fragmented AI code snippets to deploying integrated features with agentic coding that understands your entire codebase.
+Passez de bouts de code fragmentés générés par IA au déploiement de fonctionnalités intégrées avec un codage agentique qui comprend l’ensemble de votre base de code.
 
-- CategoryClaude Code
+- CatégorieClaude Code
 
-- ProductClaude Code
+- ProduitClaude Code
 
-- DateOctober 30, 2025
+- Date30/10/2025
 
-- Reading time5min
+- Temps de lecture5min
 
-- ShareCopy linkhttps://claude.com/blog/introduction-to-agentic-coding
+- PartagerCopier le lienhttps://claude.com/blog/introduction-to-agentic-coding
 
-AI-assisted coding has evolved rapidly over the last few years. Tools that once suggested the next line now predict entire functions by analyzing patterns in your code.
+Le codage assisté par l'IA a évolué rapidement au cours de ces dernières années. Des outils qui se contentaient jusqu’ici de suggérer des lignes de code une à une permettent désormais de prédire des fonctions entières en identifiant les patrons de votre code.
 
-The latest evolution takes this further: instead of predicting what you'll type next, these systems autonomously execute multi-step development tasks by reading files across your codebase, running tests, and iterating until your goal is complete.
+La dernière évolution en date va encore plus loin : au lieu de prévoir progressivement ce que vous allez taper, ces systèmes exécutent de manière autonome des tâches de développement en plusieurs étapes, en lisant des fichiers dans l'ensemble de votre base de code, en exécutant des tests et en itérant jusqu’à ce que votre objectif soit atteint.
 
-## What is agentic coding?
+## Qu'est-ce que le codage agentique ?
 
-Agentic coding shifts AI from autocomplete to autonomous task executor. Traditional coding assistants wait for you to type each line and suggest what comes next. Agentic systems take a high-level goal, break it into discrete steps, execute those steps independently, and adjust their approach based on feedback from your environment.
+Avec le codage agentique, l’IA n'est plus un simple outil d'auto-remplissage : elle exécute les tâches de manière autonome. Les assistants de codage traditionnels attendent que vous tapiez une ligne pour suggérer la suivante. Les systèmes agentiques reçoivent un objectif général, le décomposent en étapes distinctes, les exécutent de manière indépendante et ajustent leur approche en fonction des retours de votre environnement.
 
-The key distinction lies in autonomy and scope. Traditional AI tools analyze code visible in your editor and suggest the next fragment. Agentic coding tools read entire codebases, understand file relationships across directories, execute commands to verify changes work, and iterate until tests pass and requirements are met. This autonomy extends across the development cycle, with each step happening without requiring you to manually orchestrate the workflow.
+Les principales différences sont l'autonomie et le champ d’application. Les outils d'IA traditionnels analysent le code affiché dans votre éditeur et suggèrent le fragment suivant. Les outils de codage agentique lisent des bases de code entières, comprennent les relations entre des fichiers de différents répertoires, exécutent les commandes pour vérifier le fonctionnement des modifications et répètent les tests jusqu’à satisfaire les exigences. Cette autonomie s'étend à l'ensemble du cycle de développement, chaque étape se succédant sans exiger votre intervention manuelle pour diriger les flux de travail.
 
-## How AI coding tools have evolved
+## L'évolution des outils de codage par l’IA
 
-### Code prediction and completion
+### Prédiction et complétion du code
 
-Tools like IDE autocomplete extensions analyze code visible in your editor to predict what you might type next. These systems excel at repetitive patterns like generating REST endpoint boilerplate, creating test structures following established conventions, and implementing common algorithms.
+Des outils comme les extensions de saisie automatique IDE analysent le code qui s'affiche dans votre éditeur pour prédire ce que vous allez taper. Ces systèmes excellent pour les tâches répétitives, comme la génération de squelette d’endpoint REST, la création de structures de test conformes à des conventions établies et la mise en œuvre d’algorithmes communs.
 
-The prediction model considers your immediate context. When you write a function signature, the tool suggests an implementation based on the function name, parameter types, and surrounding code. When you start typing an import statement, it recommends packages based on what's already imported and common usage patterns.
+Le modèle de prédiction tient compte de votre contexte immédiat. Lorsque vous écrivez une signature de fonction, l'outil suggère une implémentation basée sur le nom de la fonction, les types de paramètres et le code environnant. Lorsque vous commencez à saisir une instruction d'import, il vous recommande des packages en fonction des produits déjà importés et de vos habitudes d'utilisation.
 
-The limitation lies in scope. Autocomplete tools work with limited context windows, typically analyzing only your current file or a small number of nearby files. They can't trace data flow through your application architecture or understand how changes in one service affect dependent services.
+La portée de cet outil est limitée. Les outils de saisie automatique fonctionnent avec des fenêtres de contexte limitées. Ils analysent généralement uniquement votre fichier en cours ou quelques fichiers voisins. Ils ne peuvent pas retracer les flux de données à travers votre architecture applicative, ni comprendre comment les modifications apportées à un service affectent les services dépendants.
 
-### Conversational AI chat interfaces
+### Interfaces de discussions conversationnelles avec l'IA
 
-Browser-based coding assistants like Claude.ai added conversational capabilities to AI coding tools. Instead of suggesting code as you type, these tools engage in conversation about your code problems through analyzing pasted snippets, bug descriptions, and optimization questions.
+Les assistants de codage basés sur un navigateur comme Claude.ai ont ajouté des capacités conversationnelles aux outils de codage basés sur l’IA. Au lieu de suggérer du code au fur et à mesure de la saisie, ces outils discutent avec vous de vos problèmes de code en analysant les extraits que vous copiez et collez, les bugs que vous décrivez et les questions d'optimisation.
 
-These interfaces excel at analysis and guidance. Paste a slow database query to get optimization recommendations. Describe an architectural decision to receive trade-off analysis. Share an error message to explore troubleshooting approaches.
+Ces interfaces excellent pour l'analyse et l'orientation. Collez une requête de base de données lente pour obtenir des recommandations d'optimisation. Décrivez une décision architecturale pour recevoir une analyse des compromis. Partagez un message d'erreur pour explorer les différentes approches de dépannage.
 
-The conversational format supports iterative refinement. You ask a general question, receive an initial response, clarify your requirements based on that response, and progressively narrow toward a specific solution. This back-and-forth works well when problems aren't fully defined or when you need to explore different approaches before committing to implementation.
+Le format conversationnel prend en charge un affinage itératif. Vous posez une question générale, recevez une première réponse, précisez vos besoins en fonction de cette réponse, puis affinez progressivement une solution spécifique. Ce va-et-vient fonctionne bien lorsque les problèmes ne sont pas entièrement définis ou lorsque vous souhaitez explorer différentes approches avant de passer à la mise en œuvre.
 
-This becomes impractical for tasks involving multiple files. Refactoring a module imported by thirty other files means pasting each file into the chat, manually tracking which files need updates, copying suggested changes back to each file, and ensuring consistency across all modifications. Chat interfaces provide guidance, but orchestrating implementation remains manual. This is the gap that agentic coding systems are designed to fill.
+Cette solution devient peu pratique pour les tâches impliquant plusieurs fichiers. La refactorisation d’un module importé par trente autres fichiers implique de coller chaque fichier dans le chat, de vérifier manuellement les fichiers à mettre à jour, de recopier les modifications suggérées dans chaque fichier et de veiller à la cohérence de toutes les modifications. Les interfaces de discussion offrent des orientations, mais l'orchestration de la mise en œuvre reste manuelle. C’est pour combler cette lacune que les systèmes de codage agentique sont conçus.
 
-## How agentic coding works
+## Fonctionnement du codage agentique
 
-### Context gathering and planning
+### Collecte de contexte et planification
 
-Agentic coding systems operate at the project level rather than the file level. When you provide a goal, the system analyzes the relevant context needed to accomplish it by reading configuration files to understand your project setup, examining test files to see existing coverage patterns, and tracing imports to map dependencies between modules.
+Les systèmes de codage agentique opèrent au niveau des projets et non à celui des fichiers. Lorsque vous fournissez un objectif, le système analyse le contexte pertinent pour l'atteindre. Il lit les fichiers qui lui permettent de comprendre la configuration de votre projet, examine les fichiers de test pour identifier les patrons de couverture existants et retrace les importations pour cartographier les dépendances entre les modules.
 
-The system then creates a plan for accomplishing the goal. This isn't a static list but an adaptive approach that evolves as the system gathers more information. If your goal is "add authentication to the API," the plan might start with analyzing existing route definitions, identifying which endpoints need protection, checking whether authentication middleware already exists, and determining where user session management should be implemented.
+Le système crée ensuite un plan pour atteindre l'objectif. Cette liste n’est pas statique, mais une approche adaptative qui évolue à mesure que le système collecte des informations. Si votre objectif est d’ajouter une authentification à l’API, il peut commencer par analyser les définitions de routage existantes, identifier les points de terminaison à protéger, vérifier s’il existe déjà un middleware d’authentification et déterminer où implémenter la gestion des sessions utilisateurs.
 
-### Implementation and coordination
+### Implémentation et coordination
 
-The implementation phase involves reading and writing files across your codebase. Unlike autocomplete tools that suggest changes within a single file, agentic systems modify multiple related files to maintain consistency. Adding authentication might require updating route handlers, creating middleware functions, modifying database schemas, adjusting API client code, updating documentation, and adding test coverage across all these changes.
+La phase d'implémentation consiste en la lecture et l'écriture de fichiers dans votre base de code. Contrairement aux outils de saisie automatique qui suggèrent des modifications dans un seul fichier, les systèmes agentiques modifient plusieurs fichiers liés pour garantir leur cohérence. L'ajout de l'authentification peut nécessiter la mise à jour des gestionnaires de routage, la création de fonctions middleware, la modification des schémas de base de données, l’ajustement du code client API, la mise à jour de la documentation et l’ajout de tests couvrant toutes ces modifications.
 
-This autonomous workflow transforms development from "write code, run tests, read errors, fix code, repeat" into "define goal, review proposed changes, approve implementation." You maintain control by reviewing plans and approving file changes while the system handles the iterative debugging cycle, research into existing code patterns, and coordination of changes across multiple files.
+Ce flux de travail autonome transforme le développement de simples tâches d’écriture de code, de tests, de lecture d’erreurs, de correction de code, de répétition, en un processus de définition d’objectifs, de révision des modifications proposées et de validation de la mise en œuvre. Vous gardez le contrôle à travers la vérification des plans et l’approbation des modifications de fichiers, tandis que le système gère le cycle de débogage itératif, la recherche de patrons de code existants et la coordination des modifications entre plusieurs fichiers.
 
-## Agentic coding with Claude Code
+## Le codage agentique avec Claude Code
 
-[Claude Code](https://claude.com/product/claude-code)brings agentic capabilities to your terminal environment. Unlike browser-based tools requiring constant code copying or IDE extensions analyzing only visible files, [Claude Code](https://claude.com/product/claude-code) operates directly within your project directory with full access to your codebase.
+[Claude Code](#)intègre des capacités agentiques dans l'environnement de votre terminal. Contrairement aux outils basés sur un navigateur nécessitant de copier constamment le code ou les extensions IDE qui analysent uniquement les fichiers visibles, [Claude Code](#) fonctionne directement dans le répertoire de vos projets et a un accès complet à votre base de code.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e957237e0e3c2bd4694735_CLI.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d4b20c9fa6a2d8579d_68e957237e0e3c2bd4694735_CLI.png)
 
-### Installation and launch
+### Installation et lancement
 
-Install Claude Code in your terminal:
+Installez Claude Code sur votre terminal :
 
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
-Then launch it in your project directory to start coding:
+Ensuite, lancez-le dans le répertoire de votre projet pour commencer le codage :
 
 ```
 claude
 ```
 
-### How Claude Code works
+### Fonctionnement de Claude Code
 
-Claude Code reads your entire project context upon request. When you ask about architecture or request changes, it analyzes file structures, understands dependencies declared in package.json or requirements.txt, traces how modules interact, and identifies existing patterns established across your codebase.
+Claude Code lit l'ensemble du contexte de votre projet à la demande. Lorsque vous avez des questions sur l'architecture ou des demandes de modification, il analyse les structures de fichiers, comprend les dépendances déclarées dans package.json ou requirements.txt, analyse les interactions entre les modules et identifie les patrons existants dans l'ensemble de votre base de code.
 
-Multi-file operations become straightforward. Request "refactor this callback-based code to use async/await," and Claude Code identifies all files using the callback pattern, updates each with async/await syntax, modifies error handling to use try/catch blocks, updates related tests to handle async patterns, and verifies your entire test suite still passes.
+Les opérations multifichiers sont simplifiées. Demandez « refactorisez ce code basé sur callback pour qu'il utilise async/await », et Claude Code identifie tous les fichiers utilisant le patron callback, les met à jour avec la syntaxe async/await, modifie le traitement des erreurs pour utiliser les blocs try/catch, met à jour les tests pertinents pour gérer les patrons async, et vérifie que l'ensemble de votre suite de tests passe toujours.
 
-### File system access and permissions
+### Accès au système de fichiers et autorisations
 
-File system access enables workflows that web-based tools can't handle. Claude Code creates new files with appropriate naming conventions, organizes code into logical directory structures, updates configuration files when adding dependencies, and maintains consistency with your existing project organization patterns.
+L'accès au système de fichiers permet de traiter des flux de travail inaccessibles aux outils basés sur le web. Claude Code crée de nouveaux fichiers avec des conventions de nommage appropriées, organise le code en structures de répertoires logiques, met à jour les fichiers de configuration lors de l'ajout de dépendances et respecte les patrons d'organisation de vos projets existants.
 
-The permission model ensures you maintain control. By default, Claude Code requests approval before modifying files and shows exactly what changes it plans to make. You review the proposed modifications, approve changes you agree with, and request revisions for changes that don't meet requirements.
+Le modèle d'autorisations garantit que vous gardez le contrôle. Par défaut, Claude Code demande l'approbation d’un utilisateur avant de modifier un fichier et affiche exactement les modifications projetées. Vous passez en revue les modifications proposées, validez les modifications acceptées et demandez la révision des modifications qui ne répondent pas à vos exigences.
 
-### Integration with development workflows
+### Intégration aux flux de travail de développement
 
-Integration with your development workflows means Claude Code interacts with tools you already use. It runs npm commands to install dependencies, executes test runners like Jest or pytest, uses Git for commits and branching, and starts development servers to verify changes work in running applications.
+Claude Code s'intègre à vos flux de travail de développement et interagit avec les outils que vous utilisez déjà. Il exécute des commandes npm pour installer les dépendances, exécute des test-runners comme Jest ou pytest, utilise Git pour les commits et les branches, et démarre les serveurs de développement pour vérifier le bon fonctionnement des modifications dans les applications en cours d’exécution.
 
-You can extend these capabilities further by connecting Model Context Protocol (MCP) servers, which provide Claude Code with comprehensive context from additional tools and systems across your development environment.
+Vous pouvez étendre ces capacités en connectant des serveurs Model Context Protocol (MCP), qui fournissent à Claude Code un contexte complet à partir d'outils et de systèmes supplémentaires pour votre environnement de développement.
 
-## Real-world applications
+## Applications pratiques
 
-### Rakuten's seven-hour autonomous implementation
+### Mise en œuvre autonome en sept heures par Rakuten
 
-[Rakuten's](https://www.claude.com/customers/rakuten)engineering team challenged Claude Code's agentic capabilities with implementing a specific activation vector extraction method in vLLM, an open-source library containing 12.5 million lines of code across Python, C++, and CUDA. Claude Code completed the entire implementation in seven hours of sustained autonomous work.
+L'équipe d'ingénierie de[Rakuten](#)a repoussé les capacités agentiques de Claude Code en implémentant une méthode spécifique d'extraction de vecteurs d'activation dans vLLM, une bibliothèque open source contenant 12,5 millions de lignes de code Python, C++ et CUDA. Claude Code a réalisé l'ensemble de la mise en œuvre en sept heures de travail autonome soutenu.
 
-> "I didn't write any code during those seven hours, I just provided occasional guidance"
+> « Je n'ai pas écrit de code pendant ces sept heures, j'ai juste fourni quelques instructions occasionnelles. »
 
-- Kenta Naruse, Machine Learning Engineer at Rakuten
+- Kenta Naruse, ingénieur en apprentissage machine chez Rakuten
 
-The final implementation achieved 99.9% numerical accuracy compared to the reference method, demonstrating the system's ability to understand complex, multi-language codebases, plan implementation approaches for sophisticated algorithms, and deliver production-quality results.
+La mise en œuvre finale a atteint une précision numérique de 99,9 % par rapport à la méthode de référence, démontrant la capacité du système à comprendre des bases de code complexes et multilingues, à planifier des approches de mise en œuvre pour des algorithmes sophistiqués et à fournir des résultats de qualité de production.
 
-Rakuten's transformation metrics:
+La transformation de Rakuten en chiffres :
 
-- 79% fasterfeature delivery (24 days → 5 days)
+- Livraison des fonctionnalités79 % plus rapide(24 jours → 5 jours)
 
-- 7-hourautonomous implementations with minimal human intervention
+- Implémentations autonomes en7 heuresavec intervention humaine minimale
 
-- 99.9%accuracy on complex algorithmic refactoring
+- Précision de99,9 %pour les refactorisations algorithmiques complexes
 
-- 5xparallel task execution capacity for engineering teams
+- Capacité d'exécution de tâches parallèlesmultipliée par 5pour les équipes d'ingénierie
 
-As Yusuke Kaji, General Manager of AI for Business at Rakuten, explained: "You can have five tasks running in parallel by delegating four to Claude Code while focusing on the remaining one."
+Comme l'explique Yusuke Kaji, General Manager of AI for Business chez Rakuten : « On peut exécuter cinq tâches en parallèle en déléguant quatre tâches à Claude Code et en se concentrant sur la dernière. »
 
-## Getting started with Claude Code
+## Démarrer avec Claude Code
 
-After installing[Claude Code](https://claude.com/product/claude-code)with npm, navigate to a project directory and start a session:
+Après avoir installé[Claude Code](#)avec npm, accédez au répertoire de projet et démarrez une session :
 
 ```
 claude
 ```
 
-Experiment with a few different tasks to see how Claude Code understands your codebase.
+Essayez différentes tâches pour voir comment Claude Code comprend votre base de code.
 
-### Understand project architecture
-
-```
-Explain the structure of this codebase and how the main components interact
-```
-
-Claude Code reads your files and provides an architectural overview, helping you or new team members understand project organization.
-
-### Analyze code quality
+### Compréhension de l'architecture du projet
 
 ```
-Review the authentication module for potential security issues
+Expliquez la structure de cette base de code et comment les principaux composants interagissent
 ```
 
-Claude Code examines the relevant code, identifies concerns like exposed credentials or insufficient validation, and suggests specific improvements.
+Claude Code lit vos fichiers et fournit une vue d’ensemble de l’architecture, pour vous aider, vous ou les nouveaux membres de l’équipe, à comprendre l’organisation du projet.
 
-### Debug and fix errors
+### Analyse de la qualité du code
 
 ```
-Find all N+1 query problems in our GraphQL resolvers and implement DataLoader batching
+Vérifiez le module d'authentification pour détecter les problèmes de sécurité potentiels
 ```
 
-Claude Code analyzes your entire codebase, identifies specific ORM patterns causing N+1 problems, and implements a fix.
+Claude Code examine le code concerné, identifie les problèmes (p. ex. identifiants exposés ou validation insuffisante) et propose des améliorations spécifiques.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e987d14948904419dfaa21_8.png)
+### Débogage et correction des erreurs
 
-## Start slow, then expand
+```
+Recherchez tous les problèmes de requête N+1 dans nos résolveurs GraphQL et implémentez le traitement par lots de DataLoader
+```
 
-As you work with Claude Code, you develop intuition for which tasks benefit most from autonomous execution versus tasks better handled with traditional development tools. Some immediate applications that provide quick wins include:
+Claude Code analyse l'ensemble de votre base de code, identifie les patrons ORM spécifiques responsables des problèmes N+1 et applique un correctif.
 
-- Test automationfor your uncovered code paths
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d5b20c9fa6a2d857a8_68e987d14948904419dfaa21_8.png)
 
-- Documentation generationfor your legacy systems
+## Commencez lentement, puis développez
 
-- Routine refactoringof your technical debt
+Au fur et à mesure que vous vous familiarisez avec Claude Code, vous saurez intuitivement quelles sont les tâches pour lesquelles l’exécution autonome est la meilleure solution, et lesquelles sont mieux gérées avec les outils de développement traditionnels. Certaines applications immédiates apportent des gains rapides, telles que :
 
-- Feature implementationfor well-understood requirements
+- L'automatisation des testspour vos chemins de code non couverts
 
-Each interaction provides an opportunity to learn how [Claude Code](https://claude.com/product/claude-code) approaches problems within your specific codebase. Get started with[Claude Code](https://claude.com/product/claude-code)or visit our[docs](https://docs.claude.com/en/docs/claude-code/overview)to learn more.
+- La génération de documentationpour vos anciens systèmes
+
+- La refactorisation de routinede votre dette technique
+
+- L'implémentation de fonctionnalitésadaptées aux besoins spécifiques
+
+Chaque interaction est l'occasion de découvrir comment [Claude Code](#) aborde les problèmes spécifiques à votre base de code. Démarrez avec[Claude Code](#)ou consultez notre[documentation](#)pour en savoir plus.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -181,62 +180,62 @@ Each interaction provides an opportunity to learn how [Claude Code](https://clau
 
 FAQ
 
-### What's the difference between agentic coding and traditional AI coding assistants?
+### Quelle est la différence entre le codage agentique et les assistants de codage IA traditionnels ?
 
-Traditional AI coding tools suggest individual functions or code snippets based on immediate context. You handle integration, testing, and ensuring the code follows your project conventions.
+Les outils de codage IA traditionnels suggèrent des fonctions ou des extraits de code individuels en fonction du contexte immédiat. Vous gérez l'intégration, les tests et la garantie que le code suit les conventions de votre projet.
 
-Agentic coding tools understand your entire project, plan implementation approaches, and execute complete workflows autonomously. They deliver tested, integrated features that follow your established patterns.
-
-‍
-
-### How long can agentic coding tools work autonomously?
-
-Agentic coding tools like Claude Code can work for extended periods maintaining context and building on previous work. Rakuten's seven-hour autonomous refactoring session demonstrates sustained technical work without human intervention. The duration depends on your task complexity and project requirements.
-
-### Do I need to change my development workflow to use agentic coding?
-
-[Claude Code](https://claude.com/product/claude-code)integrates with your existing development workflows through terminal integration. You can incorporate it into your current practices gradually, starting with specific tasks like testing or documentation before expanding to complete feature development.
-
-### What types of projects work best with agentic coding?
-
-Agentic coding works across project types and languages. It's particularly valuable for projects with established patterns and conventions, complex integration requirements, or routine development tasks that consume significant time.
-
-Your TypeScript/JavaScript, Python, Go, and Rust projects see immediate benefits, but[Claude Code](https://claude.com/product/claude-code)supports all major languages and frameworks.
+Les outils de codage agentique comprennent l'ensemble de votre projet, planifient les approches de mise en œuvre et exécutent des flux de travail complets de manière autonome. Ils offrent des fonctionnalités intégrées et testées qui suivent vos modèles établis.
 
 ‍
 
-### How does agentic coding handle project-specific requirements?
+### Pendant combien de temps les outils de codage agentique peuvent-ils fonctionner de manière autonome ?
 
-Claude Code usesCLAUDE.mdconfiguration files that document your coding standards, architectural decisions, and project-specific requirements. These files persist across your sessions, ensuring consistent implementations that follow your established practices.
+Les outils de codage agentique comme Claude Code peuvent fonctionner sur une longue période en conservant le contexte et en mettant à profit les travaux précédents. La session de refactorisation autonome de sept heures de Rakuten est la preuve d’un travail technique soutenu sans intervention humaine. La durée dépend de la complexité de votre tâche et des exigences de votre projet.
 
-## Related posts
+### Ai-je besoin de modifier mon flux de travail de développement pour utiliser le codage agentique ?
 
-Explore more product news and best practices for teams building with Claude.
+[Claude Code](https://claude.com/product/claude-code)s'intègre à vos flux de travail de développement existants grâce à l'intégration du terminal. Vous pouvez progressivement l'intégrer à vos pratiques actuelles, en commençant par des tâches spécifiques comme des tests ou de la documentation, avant de terminer le développement de fonctionnalités.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+### Quels types de projets fonctionnent le mieux avec le codage agentique ?
 
-### How AI helps break the cost barrier to COBOL modernization
+Le codage agentique fonctionne sur tous les types de projets et tous les langages. Il est particulièrement utile pour les projets avec des modèles et des conventions établis, des exigences d'intégration complexes ou des tâches de développement routinières qui prennent beaucoup de temps.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+Vos projets TypeScript/JavaScript, Python, Go et Rust présentent des avantages immédiats, mais[Claude Code](https://claude.com/product/claude-code)prend en charge tous les principaux langages et frameworks.
 
-### Bringing automated preview, review, and merge to Claude Code on desktop
+‍
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+### Comment le codage agentique gère-t-il les exigences spécifiques aux projets ?
 
-### How three YC startups built their companies with Claude Code
+Claude Code utilise des fichiers de configurationCLAUDE.mdqui documentent vos normes de codage, vos décisions architecturales et les exigences spécifiques à vos projets. Ces fichiers persistent d'une session à l'autre, ce qui garantit des implémentations cohérentes et conformes à vos pratiques établies.
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+Articles liés
 
-### What are the key benefits of transitioning to agentic coding for software development?
+Explorez d'autres actualités produits et meilleures pratiques pour les équipes qui créent avec Claude.
 
-## Transform how your organization operates with Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-Get the developer newsletter
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+### Deploying Claude across the legal industry
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
+
+### The founder's playbook: Building an AI-native startup
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+
+### Claude for the legal industry
+
+## Transformez lefonctionnement de votre organisation grâce à Claude
+
+Recevez la newsletter des développeurs
+
+Informations sur les produits, tutoriels,présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+
+Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
 
 ---
-**Source:** https://claude.com/blog/introduction-to-agentic-coding
+**Source:** https://claude.com/fr/blog/introduction-to-agentic-coding
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

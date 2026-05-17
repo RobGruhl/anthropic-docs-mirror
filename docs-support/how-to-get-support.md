@@ -8,13 +8,15 @@ This guide explains how to get support for your Claude or Console account. Diffe
 
  
 
-## Paid Plans (Pro, Max, Team, Enterprise, or Console)
+## Pro and Max plans, Team and Enterprise plan Owners, and Console Admins
 
-As a paid user of Claude or the Console, you have full access to:
+You have full access to:
 
 - All help documentation
 - Fin, our AI support bot
 - Further assistance from our Product Support team
+
+ 
 
 ### Seeking support for Claude
 
@@ -27,6 +29,7 @@ As a paid user of Claude or the Console, you have full access to:
 5. Click "Accept," then select your issue from the available options.
 6. Depending on the selected issue, provide additional details when prompted.
 7. If your issue requires additional investigation or input from our Product Support team, Fin will pass your inquiry along and someone will respond via email.
+7.  
 
 ### Seeking support for the Claude API or Console
 
@@ -40,14 +43,19 @@ As a paid user of Claude or the Console, you have full access to:
 6. Click "Accept," then select your issue from the available options.
 7. Depending on the selected issue, provide additional details when prompted.
 8. If your issue requires additional investigation or input from our Product Support team, Fin will pass your inquiry along and someone will respond via email.
+8.  
 
 ### Seeking support for any account type from the Help Center
 
 Users who are logged in to their Claude or Console accounts will be able to click the icon in the lower right corner of any Help Center page to open the support messenger and start chatting with Fin.
 
-## Enterprise plan owners
+ 
 
-If you are the Primary Owner or Owner of a Claude for Work Enterprise plan, you can also submit a request through the [Enterprise Support form](https://claude.ai/support/enterprise).
+## Team and Enterprise plan non-Owners, and Console non-Admins
+
+You’ll chat with Fin, an AI support agent, to help answer your questions. Human specialist support is not directly available for your account seat type. If Fin can't find a resolution and you need to escalate to our human team of specialists, your account's Primary Owner, Owner, or Console Admin can reach out on your behalf.
+
+  
 
 ## Free Claude users
 
@@ -65,6 +73,7 @@ To get support:
 4. Use the support messenger to:
 4. - Search help resources.
 - Chat with Fin, our AI support bot.
+   
 
 ## Unable to log in?
 
@@ -79,6 +88,7 @@ To request assistance:
 1. Click the message icon in the lower right corner of the Help Center.
 2. Start a conversation.
 3. Select "I can't login."
+3.  
 
 ## About subscription support
 
@@ -105,7 +115,7 @@ Users in the EU can find instructions on how to find the single point of contact
 ## Related Articles
 
 - [Where can I go for Claude API support and assistance?](https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance)
-- [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
+- [I'm getting an API connection error. How can I fix it?](https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)

@@ -68,6 +68,14 @@ Create Skill Version
 
     - `"fast-mode-2026-02-01"FastMode2026_02_01`
 
+    - `"output-300k-2026-03-24"Output300k2026_03_24`
+
+    - `"user-profiles-2026-03-24"UserProfiles2026_03_24`
+
+    - `"advisor-tool-2026-03-01"AdvisorTool2026_03_01`
+
+    - `"managed-agents-2026-04-01"ManagedAgents2026_04_01`
+
 ### Returns
 
 - `class VersionCreateResponse:`
@@ -197,6 +205,14 @@ List Skill Versions
     - `"skills-2025-10-02"Skills2025_10_02`
 
     - `"fast-mode-2026-02-01"FastMode2026_02_01`
+
+    - `"output-300k-2026-03-24"Output300k2026_03_24`
+
+    - `"user-profiles-2026-03-24"UserProfiles2026_03_24`
+
+    - `"advisor-tool-2026-03-01"AdvisorTool2026_03_01`
+
+    - `"managed-agents-2026-04-01"ManagedAgents2026_04_01`
 
 ### Returns
 
@@ -338,6 +354,14 @@ Get Skill Version
 
     - `"fast-mode-2026-02-01"FastMode2026_02_01`
 
+    - `"output-300k-2026-03-24"Output300k2026_03_24`
+
+    - `"user-profiles-2026-03-24"UserProfiles2026_03_24`
+
+    - `"advisor-tool-2026-03-01"AdvisorTool2026_03_01`
+
+    - `"managed-agents-2026-04-01"ManagedAgents2026_04_01`
+
 ### Returns
 
 - `class VersionRetrieveResponse:`
@@ -467,6 +491,14 @@ Delete Skill Version
     - `"skills-2025-10-02"Skills2025_10_02`
 
     - `"fast-mode-2026-02-01"FastMode2026_02_01`
+
+    - `"output-300k-2026-03-24"Output300k2026_03_24`
+
+    - `"user-profiles-2026-03-24"UserProfiles2026_03_24`
+
+    - `"advisor-tool-2026-03-01"AdvisorTool2026_03_01`
+
+    - `"managed-agents-2026-04-01"ManagedAgents2026_04_01`
 
 ### Returns
 

@@ -10,7 +10,7 @@ To learn more about refusals triggered by API safety filters for Claude Sonnet 4
 
 ## API response format
 
-When streaming classifiers detect content that violates our policies, the API returns this response:
+When streaming classifiers detect content that violates Anthropic's policies, the API returns this response:
 
 ```json
 {
@@ -31,7 +31,7 @@ No additional refusal message is included. You must handle the response and prov
 
 ## Reset context after refusal
 
-When you receive **`stop_reason`: `refusal`**, you must reset the conversation context **by removing or updating the turn that was refused** before continuing. Attempting to continue without resetting will result in continued refusals.
+When you receive **`stop_reason`: `refusal`**, you must reset the conversation context before continuing. You can remove or rephrase the turn that triggered the refusal, or clear the conversation history entirely. Attempting to continue without resetting will result in continued refusals.
 
 <Note>
 Usage metrics are still provided in the response for billing purposes, even when the response is refused.
@@ -40,7 +40,7 @@ You will be billed for output tokens up until the refusal.
 </Note>
 
 <Tip>
-If you encounter `refusal` stop reasons frequently while using Claude Sonnet 4.5 or Opus 4.1, you can try updating your API calls to use Sonnet 4 (`claude-sonnet-4-20250514`), which has different usage restrictions.
+If you encounter `refusal` stop reasons frequently while using Claude Sonnet 4.5 or Opus 4.1, you can try updating your API calls to use Haiku 4.5 (`claude-haiku-4-5-20251001`), which has different usage restrictions. Learn more about [understanding Sonnet 4.5's API safety filters](https://support.claude.com/en/articles/12449294-understanding-sonnet-4-5-s-api-safety-filters).
 </Tip>
 
 ## Implementation guide
@@ -48,16 +48,16 @@ If you encounter `refusal` stop reasons frequently while using Claude Sonnet 4.5
 Here's how to detect and handle streaming refusals in your application:
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 # Stream request and check for refusal
 response=$(curl -N https://api.anthropic.com/v1/messages \
   --header "anthropic-version: 2023-06-01" \
   --header "content-type: application/json" \
   --header "x-api-key: $ANTHROPIC_API_KEY" \
   --data '{
-    "model": "claude-sonnet-4-6",
+    "model": "claude-opus-4-7",
     "messages": [{"role": "user", "content": "Hello"}],
-    "max_tokens": 256,
+    "max_tokens": 1024,
     "stream": true
   }')
 
@@ -68,7 +68,7 @@ if echo "$response" | grep -q '"stop_reason":"refusal"'; then
 fi
 ```
 
-```python Python hidelines={1..4}
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
@@ -86,11 +86,11 @@ try:
     with client.messages.stream(
         max_tokens=1024,
         messages=messages + [{"role": "user", "content": "Hello"}],
-        model="claude-sonnet-4-6",
+        model="claude-opus-4-7",
     ) as stream:
         for event in stream:
             # Check for refusal in message delta
-            if hasattr(event, "type") and event.type == "message_delta":
+            if event.type == "message_delta":
                 if event.delta.stop_reason == "refusal":
                     reset_conversation()
                     break
@@ -98,7 +98,7 @@ except Exception as e:
     print(f"Error: {e}")
 ```
 
-```typescript TypeScript nocheck hidelines={1..3}
+```typescript TypeScript nocheck hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
@@ -113,7 +113,7 @@ function resetConversation() {
 try {
   const stream = await client.messages.stream({
     messages: [...messages, { role: "user", content: "Hello" }],
-    model: "claude-sonnet-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024
   });
 
@@ -146,7 +146,7 @@ class Program
 
         var parameters = new MessageCreateParams
         {
-            Model = Model.ClaudeSonnet4_6,
+            Model = Model.ClaudeOpus4_7,
             MaxTokens = 1024,
             Messages = [new() { Role = Role.User, Content = "Hello" }]
         };
@@ -176,7 +176,7 @@ class Program
 }
 ```
 
-```go Go nocheck hidelines={1..9,18..20,-1}
+```go Go nocheck hidelines={1..10,17..18,-1..}
 package main
 
 import (
@@ -198,7 +198,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.Model("claude-sonnet-4-6"),
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock("Hello")),
@@ -223,7 +223,7 @@ streamLoop:
 }
 ```
 
-```java Java hidelines={1..15,-1}
+```java Java hidelines={1..5,9..10}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -235,41 +235,39 @@ import com.anthropic.models.messages.StopReason;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RefusalHandling {
-    private static List<MessageParam> messages = new ArrayList<>();
+List<MessageParam> messages = new ArrayList<>();
 
-    public static void main(String[] args) {
-        AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+void main() {
+    AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
-        MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_SONNET_4_6)
-            .maxTokens(1024L)
-            .addUserMessage("Hello")
-            .build();
+    MessageCreateParams params = MessageCreateParams.builder()
+        .model(Model.CLAUDE_OPUS_4_7)
+        .maxTokens(1024L)
+        .addUserMessage("Hello")
+        .build();
 
-        try (StreamResponse<RawMessageStreamEvent> stream = client.messages().createStreaming(params)) {
-            stream.stream().forEach(event -> {
-                event.messageDelta().ifPresent(deltaEvent -> {
-                    deltaEvent.delta().stopReason().ifPresent(stopReason -> {
-                        if (stopReason.equals(StopReason.REFUSAL)) {
-                            resetConversation();
-                        }
-                    });
+    try (StreamResponse<RawMessageStreamEvent> stream = client.messages().createStreaming(params)) {
+        stream.stream().forEach(event -> {
+            event.messageDelta().ifPresent(deltaEvent -> {
+                deltaEvent.delta().stopReason().ifPresent(stopReason -> {
+                    if (stopReason.equals(StopReason.REFUSAL)) {
+                        resetConversation();
+                    }
                 });
             });
-        } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
-        }
+        });
+    } catch (Exception e) {
+        System.err.println("Error: " + e.getMessage());
     }
+}
 
-    private static void resetConversation() {
-        messages.clear();
-        System.out.println("Conversation reset due to content policy violation");
-    }
+void resetConversation() {
+    messages.clear();
+    IO.println("Conversation reset due to refusal");
 }
 ```
 
-```php PHP nocheck
+```php PHP nocheck hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -288,7 +286,7 @@ try {
         messages: [
             ['role' => 'user', 'content' => 'Hello']
         ],
-        model: 'claude-sonnet-4-6',
+        model: 'claude-opus-4-7',
     );
 
     foreach ($stream as $event) {
@@ -304,7 +302,7 @@ try {
 }
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
@@ -317,7 +315,7 @@ end
 
 begin
   stream = client.messages.stream(
-    model: :"claude-sonnet-4-6",
+    model: :"claude-opus-4-7",
     max_tokens: 1024,
     messages: [{ role: "user", content: "Hello" }]
   )
@@ -333,10 +331,6 @@ rescue => e
 end
 ```
 </CodeGroup>
-
-<Note>
-If you need to test refusal handling in your application, you can use this special test string as your prompt: `ANTHROPIC_MAGIC_STRING_TRIGGER_REFUSAL_1FAEFB6177B4672DEE07F9D3AFC62588CCD2631EDCF22E8CCC1FB35B501C9C86`
-</Note>
 
 ## Current refusal types
 

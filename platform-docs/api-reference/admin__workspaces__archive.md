@@ -8,8 +8,6 @@ Archive Workspace
 
 - `workspace_id: string`
 
-  ID of the Workspace.
-
 ### Returns
 
 - `Workspace = object { id, archived_at, created_at, 4 more }`
@@ -63,6 +61,15 @@ Archive Workspace
     For Workspaces, this is always `"workspace"`.
 
     - `"workspace"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive \
+    -X POST \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 
 ---

@@ -1,6 +1,6 @@
 # Getting Started with Local MCP Servers on Claude Desktop
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -57,7 +57,7 @@ Custom desktop extensions uploads allow Team and Enterprise plans to leverage or
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1771884000&signature=1961d40a874c85e40d0fe1b0ac73e6fad8ab0dada207efe9aa0f454443e95d09&req=dSYvF89%2BmodfXvMW1HO4zWbPy0F3PzkyHn9K2IaIG2J3PsqEZkyEG3VUPKY%2F%0A4130zJs%2B5f6ZWQOq4W0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1778979600&signature=36cf58f81fc14c3d1e02329eb967554066978622e9e50ef3e105a240adb7fe0f&req=dSYvF89%2BmodfXvMW1HO4zWbPy0h2MDQ0Hn9K2IaIG2KXAQp1n2SANW0IVgul%0Ash76aFnVBmEopG0EdBk%3D%0A)
 
  
 
@@ -157,8 +157,8 @@ If you need further guidance, visit our guide on [How to Get Support](https://su
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
-- [Using the 10x Genomics Extension in Claude](https://support.claude.com/en/articles/12614803-using-the-10x-genomics-extension-in-claude)
+- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
+- [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
 - [Deploying enterprise-grade MCP servers with desktop extensions](https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions)
-- [Building Desktop Extensions with MCPB](https://support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb)

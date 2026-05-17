@@ -36,6 +36,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Note that our models may stop _before_ reaching this maximum. This parameter only specifies the absolute maximum number of tokens to generate.
 
+        Set to `0` to populate the [prompt cache](https://docs.claude.com/en/docs/build-with-claude/prompt-caching#pre-warming-the-cache) without generating a response.
+
         Different models have different maximum values for this parameter.  See [models](https://docs.claude.com/en/docs/models-overview) for details.
 
       - `messages: Array<MessageParam>`
@@ -164,13 +166,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `cited_text: string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `document_index: number`
 
                   - `document_title: string | null`
 
                   - `end_block_index: number`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `start_block_index: number`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `type: "content_block_location"`
 
@@ -194,13 +206,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                   - `cited_text: string`
 
+                    The full text of the cited block range, concatenated.
+
+                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                   - `end_block_index: number`
 
+                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                   - `search_result_index: number`
+
+                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                   - `source: string`
 
                   - `start_block_index: number`
+
+                    0-based index of the first cited block in the source's `content` array.
 
                   - `title: string | null`
 
@@ -370,13 +396,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `cited_text: string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `document_index: number`
 
                             - `document_title: string | null`
 
                             - `end_block_index: number`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `start_block_index: number`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `type: "content_block_location"`
 
@@ -400,13 +436,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                             - `cited_text: string`
 
+                              The full text of the cited block range, concatenated.
+
+                              Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                             - `end_block_index: number`
 
+                              Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                              Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                             - `search_result_index: number`
+
+                              0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                              Counted separately from `document_index`; server-side web search results are not included in this count.
 
                             - `source: string`
 
                             - `start_block_index: number`
+
+                              0-based index of the first cited block in the source's `content` array.
 
                             - `title: string | null`
 
@@ -589,13 +639,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `document_index: number`
 
                     - `document_title: string | null`
 
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `type: "content_block_location"`
 
@@ -619,13 +679,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `search_result_index: number`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `source: string`
 
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `title: string | null`
 
@@ -857,13 +931,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `cited_text: string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `document_index: number`
 
                         - `document_title: string | null`
 
                         - `end_block_index: number`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `start_block_index: number`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `type: "content_block_location"`
 
@@ -887,13 +971,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                         - `cited_text: string`
 
+                          The full text of the cited block range, concatenated.
+
+                          Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                         - `end_block_index: number`
 
+                          Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                          Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                         - `search_result_index: number`
+
+                          0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                          Counted separately from `document_index`; server-side web search results are not included in this count.
 
                         - `source: string`
 
                         - `start_block_index: number`
+
+                          0-based index of the first cited block in the source's `content` array.
 
                         - `title: string | null`
 
@@ -1029,13 +1127,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `cited_text: string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `document_index: number`
 
                           - `document_title: string | null`
 
                           - `end_block_index: number`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `start_block_index: number`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `type: "content_block_location"`
 
@@ -1059,13 +1167,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                           - `cited_text: string`
 
+                            The full text of the cited block range, concatenated.
+
+                            Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                           - `end_block_index: number`
 
+                            Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                            Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                           - `search_result_index: number`
+
+                            0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                            Counted separately from `document_index`; server-side web search results are not included in this count.
 
                           - `source: string`
 
                           - `start_block_index: number`
+
+                            0-based index of the first cited block in the source's `content` array.
 
                           - `title: string | null`
 
@@ -1213,13 +1335,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `cited_text: string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `document_index: number`
 
                                   - `document_title: string | null`
 
                                   - `end_block_index: number`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `start_block_index: number`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `type: "content_block_location"`
 
@@ -1243,13 +1375,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `cited_text: string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `end_block_index: number`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `search_result_index: number`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `source: string`
 
                                   - `start_block_index: number`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `title: string | null`
 
@@ -1707,13 +1853,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `cited_text: string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `document_index: number`
 
                                   - `document_title: string | null`
 
                                   - `end_block_index: number`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `start_block_index: number`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `type: "content_block_location"`
 
@@ -1737,13 +1893,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                                   - `cited_text: string`
 
+                                    The full text of the cited block range, concatenated.
+
+                                    Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                                   - `end_block_index: number`
 
+                                    Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                                    Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                                   - `search_result_index: number`
+
+                                    0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                                    Counted separately from `document_index`; server-side web search results are not included in this count.
 
                                   - `source: string`
 
                                   - `start_block_index: number`
+
+                                    0-based index of the first cited block in the source's `content` array.
 
                                   - `title: string | null`
 
@@ -2321,11 +2491,19 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-        - `"claude-opus-4-6" | "claude-sonnet-4-6" | "claude-haiku-4-5" | 12 more`
+        - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+          - `"claude-opus-4-7"`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `"claude-mythos-preview"`
+
+            New class of intelligence, strongest in coding and cybersecurity
 
           - `"claude-opus-4-6"`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `"claude-sonnet-4-6"`
 
@@ -2430,7 +2608,7 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Configuration options for the model's output, such as the output format.
 
-        - `effort?: "low" | "medium" | "high" | "max" | null`
+        - `effort?: "low" | "medium" | "high" | 2 more | null`
 
           All possible effort levels.
 
@@ -2439,6 +2617,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `"medium"`
 
           - `"high"`
+
+          - `"xhigh"`
 
           - `"max"`
 
@@ -2555,13 +2735,23 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `cited_text: string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `document_index: number`
 
               - `document_title: string | null`
 
               - `end_block_index: number`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `start_block_index: number`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `type: "content_block_location"`
 
@@ -2585,13 +2775,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
               - `cited_text: string`
 
+                The full text of the cited block range, concatenated.
+
+                Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
               - `end_block_index: number`
 
+                Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
               - `search_result_index: number`
+
+                0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                Counted separately from `document_index`; server-side web search results are not included in this count.
 
               - `source: string`
 
               - `start_block_index: number`
+
+                0-based index of the first cited block in the source's `content` array.
 
               - `title: string | null`
 
@@ -2629,6 +2833,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `"enabled"`
 
+          - `display?: "summarized" | "omitted" | null`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `"summarized"`
+
+            - `"omitted"`
+
         - `ThinkingConfigDisabled`
 
           - `type: "disabled"`
@@ -2640,6 +2852,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           - `type: "adaptive"`
 
             - `"adaptive"`
+
+          - `display?: "summarized" | "omitted" | null`
+
+            Controls how thinking content appears in the response. When set to `summarized`, thinking is returned normally. When set to `omitted`, thinking content is redacted but a signature is returned for multi-turn continuity. Defaults to `summarized`.
+
+            - `"summarized"`
+
+            - `"omitted"`
 
       - `tool_choice?: ToolChoice`
 
@@ -3608,6 +3828,87 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             When true, guarantees schema validation on tool names and inputs
 
+        - `WebFetchTool20260309`
+
+          Web fetch tool with use_cache parameter for bypassing cached content.
+
+          - `name: "web_fetch"`
+
+            Name of the tool.
+
+            This is how the tool will be called by the model and in `tool_use` blocks.
+
+            - `"web_fetch"`
+
+          - `type: "web_fetch_20260309"`
+
+            - `"web_fetch_20260309"`
+
+          - `allowed_callers?: Array<"direct" | "code_execution_20250825" | "code_execution_20260120">`
+
+            - `"direct"`
+
+            - `"code_execution_20250825"`
+
+            - `"code_execution_20260120"`
+
+          - `allowed_domains?: Array<string> | null`
+
+            List of domains to allow fetching from
+
+          - `blocked_domains?: Array<string> | null`
+
+            List of domains to block fetching from
+
+          - `cache_control?: CacheControlEphemeral | null`
+
+            Create a cache control breakpoint at this content block.
+
+            - `type: "ephemeral"`
+
+              - `"ephemeral"`
+
+            - `ttl?: "5m" | "1h"`
+
+              The time-to-live for the cache control breakpoint.
+
+              This may be one the following values:
+
+              - `5m`: 5 minutes
+              - `1h`: 1 hour
+
+              Defaults to `5m`.
+
+              - `"5m"`
+
+              - `"1h"`
+
+          - `citations?: CitationsConfigParam | null`
+
+            Citations configuration for fetched documents. Citations are disabled by default.
+
+            - `enabled?: boolean`
+
+          - `defer_loading?: boolean`
+
+            If true, tool will not be included in initial system prompt. Only loaded when returned via tool_reference from tool search.
+
+          - `max_content_tokens?: number | null`
+
+            Maximum number of tokens used by including web page text content in the context. The limit is approximate and does not apply to binary content such as PDFs.
+
+          - `max_uses?: number | null`
+
+            Maximum number of times the tool can be used in the API request.
+
+          - `strict?: boolean`
+
+            When true, guarantees schema validation on tool names and inputs
+
+          - `use_cache?: boolean`
+
+            Whether to use cached content. Set to false to bypass the cache and fetch fresh content. Only set to false when the user explicitly requests fresh content or when fetching rapidly-changing sources.
+
         - `ToolSearchToolBm25_20251119`
 
           - `name: "tool_search_tool_bm25"`
@@ -3724,15 +4025,15 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
         Used to remove "long tail" low probability responses. [Learn more technical details here](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277).
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
       - `top_p?: number`
 
         Use nucleus sampling.
 
-        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`. You should either alter `temperature` or `top_p`, but not both.
+        In nucleus sampling, we compute the cumulative distribution over all the options for each subsequent token in decreasing probability order and cut it off once it reaches a particular probability specified by `top_p`.
 
-        Recommended for advanced use cases only. You usually only need to use `temperature`.
+        Recommended for advanced use cases only.
 
 ### Returns
 

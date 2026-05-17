@@ -9,7 +9,7 @@ Dynamic filtering makes Claude more accurate and efficient on complex web search
 
 - CategoryProduct announcements
 
-- ProductClaude Developer Platform
+- ProductClaude Platform
 
 - DateFebruary 17, 2026
 
@@ -91,7 +91,7 @@ We’re also graduating several tools to general availability to help agents per
 
 ### Getting started
 
-Improved web search and web fetch—as well as code execution, memory, programmatic tool calling, tool search, and tool use examples—are available now on the Claude Developer Platform. Read our[API documentation](https://platform.claude.com/docs/en/build-with-claude/overview)to get started.
+Improved web search and web fetch—as well as code execution, memory, programmatic tool calling, tool search, and tool use examples—are available now on the Claude Platform. Read our[API documentation](https://platform.claude.com/docs/en/build-with-claude/overview)to get started.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -105,21 +105,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Bringing automated preview, review, and merge to Claude Code on desktop
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Cowork: Claude Code for the rest of your work
+### Claude for the legal industry
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
-### Your favorite work tools are now interactive connectors inside Claude
+### Introducing the Claude Platform on AWS
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
-### Claude Code and Slack
+### Agent view in Claude Code
 
 ## Transform how your organization operates with Claude
 

@@ -66,6 +66,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
       - `const AnthropicBetaFastMode2026_02_01 AnthropicBeta = "fast-mode-2026-02-01"`
 
+      - `const AnthropicBetaOutput300k2026_03_24 AnthropicBeta = "output-300k-2026-03-24"`
+
+      - `const AnthropicBetaUserProfiles2026_03_24 AnthropicBeta = "user-profiles-2026-03-24"`
+
+      - `const AnthropicBetaAdvisorTool2026_03_01 AnthropicBeta = "advisor-tool-2026-03-01"`
+
+      - `const AnthropicBetaManagedAgents2026_04_01 AnthropicBeta = "managed-agents-2026-04-01"`
+
 ### Returns
 
 - `type BetaMessageBatchIndividualResponse struct{…}`
@@ -203,15 +211,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `DocumentIndex int64`
 
                 - `DocumentTitle string`
 
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `FileID string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Type ContentBlockLocation`
 
@@ -235,13 +253,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `CitedText string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `EndBlockIndex int64`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `SearchResultIndex int64`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `Source string`
 
                 - `StartBlockIndex int64`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `Title string`
 
@@ -322,6 +354,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `Input map[string, any]`
 
             - `Name BetaServerToolUseBlockName`
+
+              - `const BetaServerToolUseBlockNameAdvisor BetaServerToolUseBlockName = "advisor"`
 
               - `const BetaServerToolUseBlockNameWebSearch BetaServerToolUseBlockName = "web_search"`
 
@@ -564,6 +598,54 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 - `Type CodeExecution20260120`
 
                   - `const CodeExecution20260120CodeExecution20260120 CodeExecution20260120 = "code_execution_20260120"`
+
+          - `type BetaAdvisorToolResultBlock struct{…}`
+
+            - `Content BetaAdvisorToolResultBlockContentUnion`
+
+              - `type BetaAdvisorToolResultError struct{…}`
+
+                - `ErrorCode BetaAdvisorToolResultErrorErrorCode`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodeMaxUsesExceeded BetaAdvisorToolResultErrorErrorCode = "max_uses_exceeded"`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodePromptTooLong BetaAdvisorToolResultErrorErrorCode = "prompt_too_long"`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodeTooManyRequests BetaAdvisorToolResultErrorErrorCode = "too_many_requests"`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodeOverloaded BetaAdvisorToolResultErrorErrorCode = "overloaded"`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodeUnavailable BetaAdvisorToolResultErrorErrorCode = "unavailable"`
+
+                  - `const BetaAdvisorToolResultErrorErrorCodeExecutionTimeExceeded BetaAdvisorToolResultErrorErrorCode = "execution_time_exceeded"`
+
+                - `Type AdvisorToolResultError`
+
+                  - `const AdvisorToolResultErrorAdvisorToolResultError AdvisorToolResultError = "advisor_tool_result_error"`
+
+              - `type BetaAdvisorResultBlock struct{…}`
+
+                - `Text string`
+
+                - `Type AdvisorResult`
+
+                  - `const AdvisorResultAdvisorResult AdvisorResult = "advisor_result"`
+
+              - `type BetaAdvisorRedactedResultBlock struct{…}`
+
+                - `EncryptedContent string`
+
+                  Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+                - `Type AdvisorRedactedResult`
+
+                  - `const AdvisorRedactedResultAdvisorRedactedResult AdvisorRedactedResult = "advisor_redacted_result"`
+
+            - `ToolUseID string`
+
+            - `Type AdvisorToolResult`
+
+              - `const AdvisorToolResultAdvisorToolResult AdvisorToolResult = "advisor_tool_result"`
 
           - `type BetaCodeExecutionToolResultBlock struct{…}`
 
@@ -873,15 +955,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `DocumentIndex int64`
 
                     - `DocumentTitle string`
 
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `FileID string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Type ContentBlockLocation`
 
@@ -905,13 +997,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `CitedText string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `EndBlockIndex int64`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `SearchResultIndex int64`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `Source string`
 
                     - `StartBlockIndex int64`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `Title string`
 
@@ -954,6 +1060,10 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `Content string`
 
               Summary of compacted content, or null if compaction failed
+
+            - `EncryptedContent string`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
 
             - `Type Compaction`
 
@@ -1013,9 +1123,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+            - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
+
             - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
 
@@ -1082,6 +1200,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `const AssistantAssistant Assistant = "assistant"`
+
+        - `StopDetails BetaRefusalStopDetails`
+
+          Structured information about a refusal.
+
+          - `Category BetaRefusalStopDetailsCategory`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `const BetaRefusalStopDetailsCategoryCyber BetaRefusalStopDetailsCategory = "cyber"`
+
+            - `const BetaRefusalStopDetailsCategoryBio BetaRefusalStopDetailsCategory = "bio"`
+
+          - `Explanation string`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `Type Refusal`
+
+            - `const RefusalRefusal Refusal = "refusal"`
 
         - `StopReason BetaStopReason`
 
@@ -1253,6 +1395,126 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 Usage for a compaction iteration
 
                 - `const CompactionCompaction Compaction = "compaction"`
+
+            - `type BetaAdvisorMessageIterationUsage struct{…}`
+
+              Token usage for an advisor sub-inference iteration.
+
+              - `CacheCreation BetaCacheCreation`
+
+                Breakdown of cached tokens by TTL
+
+                - `Ephemeral1hInputTokens int64`
+
+                  The number of input tokens used to create the 1 hour cache entry.
+
+                - `Ephemeral5mInputTokens int64`
+
+                  The number of input tokens used to create the 5 minute cache entry.
+
+              - `CacheCreationInputTokens int64`
+
+                The number of input tokens used to create the cache entry.
+
+              - `CacheReadInputTokens int64`
+
+                The number of input tokens read from the cache.
+
+              - `InputTokens int64`
+
+                The number of input tokens which were used.
+
+              - `Model Model`
+
+                The model that will complete your prompt.
+
+                See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                - `type Model string`
+
+                  The model that will complete your prompt.
+
+                  See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                  - `const ModelClaudeOpus4_7 Model = "claude-opus-4-7"`
+
+                    Frontier intelligence for long-running agents and coding
+
+                  - `const ModelClaudeMythosPreview Model = "claude-mythos-preview"`
+
+                    New class of intelligence, strongest in coding and cybersecurity
+
+                  - `const ModelClaudeOpus4_6 Model = "claude-opus-4-6"`
+
+                    Frontier intelligence for long-running agents and coding
+
+                  - `const ModelClaudeSonnet4_6 Model = "claude-sonnet-4-6"`
+
+                    Best combination of speed and intelligence
+
+                  - `const ModelClaudeHaiku4_5 Model = "claude-haiku-4-5"`
+
+                    Fastest model with near-frontier intelligence
+
+                  - `const ModelClaudeHaiku4_5_20251001 Model = "claude-haiku-4-5-20251001"`
+
+                    Fastest model with near-frontier intelligence
+
+                  - `const ModelClaudeOpus4_5 Model = "claude-opus-4-5"`
+
+                    Premium model combining maximum intelligence with practical performance
+
+                  - `const ModelClaudeOpus4_5_20251101 Model = "claude-opus-4-5-20251101"`
+
+                    Premium model combining maximum intelligence with practical performance
+
+                  - `const ModelClaudeSonnet4_5 Model = "claude-sonnet-4-5"`
+
+                    High-performance model for agents and coding
+
+                  - `const ModelClaudeSonnet4_5_20250929 Model = "claude-sonnet-4-5-20250929"`
+
+                    High-performance model for agents and coding
+
+                  - `const ModelClaudeOpus4_1 Model = "claude-opus-4-1"`
+
+                    Exceptional model for specialized complex tasks
+
+                  - `const ModelClaudeOpus4_1_20250805 Model = "claude-opus-4-1-20250805"`
+
+                    Exceptional model for specialized complex tasks
+
+                  - `const ModelClaudeOpus4_0 Model = "claude-opus-4-0"`
+
+                    Powerful model for complex tasks
+
+                  - `const ModelClaudeOpus4_20250514 Model = "claude-opus-4-20250514"`
+
+                    Powerful model for complex tasks
+
+                  - `const ModelClaudeSonnet4_0 Model = "claude-sonnet-4-0"`
+
+                    High-performance model with extended thinking
+
+                  - `const ModelClaudeSonnet4_20250514 Model = "claude-sonnet-4-20250514"`
+
+                    High-performance model with extended thinking
+
+                  - `const ModelClaude_3_Haiku_20240307 Model = "claude-3-haiku-20240307"`
+
+                    Fast and cost-effective model
+
+                - `string`
+
+              - `OutputTokens int64`
+
+                The number of output tokens which were used.
+
+              - `Type AdvisorMessage`
+
+                Usage for an advisor sub-inference iteration
+
+                - `const AdvisorMessageAdvisorMessage AdvisorMessage = "advisor_message"`
 
           - `OutputTokens int64`
 

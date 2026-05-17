@@ -1,6 +1,6 @@
-# Purchasing and managing seats on Team plans
+# Purchase and manage seats on Team plans
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -162,7 +162,7 @@ For detailed billing calculations and examples, see **[How is my Team plan bill 
 ## Related Articles
 
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

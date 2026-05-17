@@ -4,6 +4,10 @@
 
 ---
 
+Originally published: February 11, 2026
+
+ 
+
 We are sharing important information about investments in Anthropic to help protect individuals from potentially invalid transfers or investment fraud.
 
  
@@ -45,20 +49,37 @@ Scammers regularly attempt to carry out fraudulent investment schemes falsely cl
 
  
 
+## Unauthorized firms
+
+We are aware of individuals or investment firms offering access to Anthropic financing rounds, or offering to purchase your Anthropic shares in violation of our transfer restrictions. To be clear, the following firms are *not* authorized to buy or sell Anthropic shares:
+
+- Open Door Partners
+- Unicorns Exchange
+- Pachamama
+- Lionheart Ventures
+- Hiive (new offerings)
+- Forge (new offerings)
+- Sydecar
+- Upmarket
+
+**Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records.**
+
+ 
+
 ## Report concerns
 
 Before investing in any opportunity claiming to offer Anthropic stock, we strongly encourage individuals to verify the legitimacy of the offering through official regulatory databases and to seek independent legal and financial advice. 
 
  
 
-If you have concerns about someone claiming to sell Anthropic stock or marketing access to Anthropic equity, please email **[legal-corporate@anthropic.com](mailto:<legal-corporate@anthropic.com>)**. 
+If you have concerns about someone claiming to sell Anthropic stock or marketing access to Anthropic equity, please email **[anthropic-equity-alerts@anthropic.com](mailto:anthropic-equity-alerts@anthropic.com)**. This inbox is only monitored for emails related to stock inquiries.
 
  
 
 If you believe you have been targeted by a stock scam:
 
 - Consider contacting your local law enforcement or securities regulator
-- In the United States, you can report suspected fraud to the **[Securities and Exchange Commission (SEC)](https://www.sec.gov/tcr)** or review investor alerts on **[Investor.gov](https://www.investor.gov/).**
+- In the United States, you can report suspected fraud to the **[Securities and Exchange Commission (SEC)](https://www.sec.gov/tcr)** or review investor alerts on **[Investor.gov](https://www.investor.gov/)**.
 - Consult with a qualified financial advisor or attorney before making any investment decision.
 -  
 
@@ -73,4 +94,7 @@ If you believe you have been targeted by a stock scam:
 
 ## Related Articles
 
+- [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
+- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

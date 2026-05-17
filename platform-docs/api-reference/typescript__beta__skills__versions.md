@@ -30,7 +30,7 @@ Create Skill Version
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -71,6 +71,14 @@ Create Skill Version
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -168,7 +176,7 @@ List Skill Versions
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -209,6 +217,14 @@ List Skill Versions
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -303,7 +319,7 @@ Get Skill Version
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -344,6 +360,14 @@ Get Skill Version
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -437,7 +461,7 @@ Delete Skill Version
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -479,6 +503,14 @@ Delete Skill Version
 
       - `"fast-mode-2026-02-01"`
 
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `VersionDeleteResponse`
@@ -508,6 +540,168 @@ const version = await client.beta.skills.versions.delete('version', { skill_id: 
 
 console.log(version.id);
 ```
+
+## Domain Types
+
+### Version Create Response
+
+- `VersionCreateResponse`
+
+  - `id: string`
+
+    Unique identifier for the skill version.
+
+    The format and length of IDs may change over time.
+
+  - `created_at: string`
+
+    ISO 8601 timestamp of when the skill version was created.
+
+  - `description: string`
+
+    Description of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `directory: string`
+
+    Directory name of the skill version.
+
+    This is the top-level directory name that was extracted from the uploaded files.
+
+  - `name: string`
+
+    Human-readable name of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `skill_id: string`
+
+    Identifier for the skill that this version belongs to.
+
+  - `type: string`
+
+    Object type.
+
+    For Skill Versions, this is always `"skill_version"`.
+
+  - `version: string`
+
+    Version identifier for the skill.
+
+    Each version is identified by a Unix epoch timestamp (e.g., "1759178010641129").
+
+### Version List Response
+
+- `VersionListResponse`
+
+  - `id: string`
+
+    Unique identifier for the skill version.
+
+    The format and length of IDs may change over time.
+
+  - `created_at: string`
+
+    ISO 8601 timestamp of when the skill version was created.
+
+  - `description: string`
+
+    Description of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `directory: string`
+
+    Directory name of the skill version.
+
+    This is the top-level directory name that was extracted from the uploaded files.
+
+  - `name: string`
+
+    Human-readable name of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `skill_id: string`
+
+    Identifier for the skill that this version belongs to.
+
+  - `type: string`
+
+    Object type.
+
+    For Skill Versions, this is always `"skill_version"`.
+
+  - `version: string`
+
+    Version identifier for the skill.
+
+    Each version is identified by a Unix epoch timestamp (e.g., "1759178010641129").
+
+### Version Retrieve Response
+
+- `VersionRetrieveResponse`
+
+  - `id: string`
+
+    Unique identifier for the skill version.
+
+    The format and length of IDs may change over time.
+
+  - `created_at: string`
+
+    ISO 8601 timestamp of when the skill version was created.
+
+  - `description: string`
+
+    Description of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `directory: string`
+
+    Directory name of the skill version.
+
+    This is the top-level directory name that was extracted from the uploaded files.
+
+  - `name: string`
+
+    Human-readable name of the skill version.
+
+    This is extracted from the SKILL.md file in the skill upload.
+
+  - `skill_id: string`
+
+    Identifier for the skill that this version belongs to.
+
+  - `type: string`
+
+    Object type.
+
+    For Skill Versions, this is always `"skill_version"`.
+
+  - `version: string`
+
+    Version identifier for the skill.
+
+    Each version is identified by a Unix epoch timestamp (e.g., "1759178010641129").
+
+### Version Delete Response
+
+- `VersionDeleteResponse`
+
+  - `id: string`
+
+    Version identifier for the skill.
+
+    Each version is identified by a Unix epoch timestamp (e.g., "1759178010641129").
+
+  - `type: string`
+
+    Deleted object type.
+
+    For Skill Versions, this is always `"skill_version_deleted"`.
 
 
 ---

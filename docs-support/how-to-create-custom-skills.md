@@ -1,6 +1,6 @@
 # How to create custom Skills
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -21,7 +21,7 @@ Skills can be as simple as a few lines of instructions or as complex as multi-fi
 
  
 
-## Creating a Skill.md file
+## Create a Skill.md file
 
 Every Skill consists of a directory containing at minimum a Skill.md file, which is the core of the Skill. This file must start with a YAML frontmatter to hold name and description fields, which are required metadata. It can also contain additional metadata, instructions for Claude or reference files, executable scripts, or tools.
 
@@ -104,18 +104,18 @@ See the resources folder for logo files and font downloads.
 
  
 
-## Adding resources
+## Add resources
 
-If you have too much information to add to a single [Skill.md](http://skill.md) file (e.g., sections that only apply to specific scenarios), you can add more content by adding files within your Skill directory. For example, add a REFERENCE.md file containing supplemental and reference information to your Skill directory. Referencing it in [Skill.md](http://skill.md) will help Claude decide if it needs to access that resource when executing the Skill.
+If you have too much information to add to a single Skill.md file (e.g., sections that only apply to specific scenarios), you can add more content by adding files within your Skill directory. For example, add a REFERENCE.md file containing supplemental and reference information to your Skill directory. Referencing it in Skill.md will help Claude decide if it needs to access that resource when executing the Skill.
 
  
 
-## Adding scripts
+## Add scripts
 
-For more advanced Skills, attach executable code files to [Skill.md](http://skill.md), allowing Claude to run code. For example, our document skills use the following programming languages and packages:
+For more advanced Skills, attach executable code files to Skill.md, allowing Claude to run code. For example, our document skills use the following programming languages and packages:
 
 - Python (pandas, numpy, matplotlib)
-- JavaScript/[Node.js](http://node.js)
+- JavaScript/Node.js
 - Packages to help with file editing
 - visualization tools
 
@@ -125,7 +125,7 @@ For more advanced Skills, attach executable code files to [Skill.md](http://skil
 
  
 
-## Packaging your skill
+## Package your skill
 
 Once your Skill folder is complete:
 
@@ -157,7 +157,7 @@ my-Skill.zip
 
  
 
-## Testing your skill
+## Test your skill
 
 ### Before uploading
 
@@ -173,7 +173,7 @@ my-Skill.zip
 
 ### After uploading to Claude
 
-1. Enable the Skill in **[Settings > Capabilities](https://claude.ai/settings/capabilities)**.
+1. Enable the Skill in **[Customize > Skills](https://claude.ai/customize/skills)**.
 
 2. Try several different prompts that should trigger it
 
@@ -223,12 +223,19 @@ For a more in-depth guide to skill creation, refer to **[Skill authoring best pr
 
  
 
+---
+
+ 
+
 ## Security considerations
 
 - Exercise caution when adding scripts to your Skill.md file.
 - Don't hardcode sensitive information (API keys, passwords).
 - Review any Skills you download before enabling them.
 - Use appropriate MCP connections for external service access.
+-  
+
+---
 
  
 
@@ -241,8 +248,8 @@ Visit our repository on GitHub for example Skills you can use as templates: **[h
 
 ## Related Articles
 
+- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
-- [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
-- [Teach Claude your way of working using skills](https://support.claude.com/en/articles/12580051-teach-claude-your-way-of-working-using-skills)
-- [How to create a skill with Claude through conversation](https://support.claude.com/en/articles/12599426-how-to-create-a-skill-with-claude-through-conversation)
-- [Claude for Financial Services Skills](https://support.claude.com/en/articles/12663107-claude-for-financial-services-skills)
+- [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [Provision and manage Skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
+- [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)

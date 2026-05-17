@@ -1,6 +1,6 @@
 # How to redeem a Claude gift subscription
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -75,8 +75,8 @@ The gift can be redeemed by any Claude account, regardless of which email receiv
 
 ## Related Articles
 
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [How to gift a Claude subscription](https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)

@@ -1,6 +1,6 @@
 # What is the Team plan?
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -25,11 +25,12 @@ Users with Standard seats on the Team plan can access the following:
 - - Pre-configured with optimized search instructions
 - Automatic provisioning for all organization members
 - Search across Slack, Microsoft 365, and custom connectors
-- For more details, see **[Using Enterprise Search](https://support.claude.com/en/articles/12489464-using-enterprise-search)**
+- For more details, see **[Use enterprise search](https://support.claude.com/en/articles/12489464)**
 - **Connectors for your workplace tools: **Connect Claude to Google Drive, Gmail, Google Calendar, GitHub, Microsoft 365, and Slack to search and retrieve context from your existing documents, emails, calendars, and team communications—without manual uploads.
 - **Everything in Pro, including:**
 - - Access to all available models.
 - Access to Claude Code to delegate coding tasks from concept to completion directly from your terminal.
+- Access to **[Cowork](https://support.claude.com/en/articles/13345190-get-started-with-cowork)**.
 - Access to projects, knowledge bases, and collaboration features.
 - 200k context window. Room to process long documents, discuss complex topics, and maintain multi-step conversations.
 - Priority access during high-traffic periods, early access to new features, more usage, and more.
@@ -49,7 +50,7 @@ Organizations can mix and match seat types, assigning Premium seats to power use
 
  
 
-Refer to this article for more information about Premium seats: **[Purchasing and managing seats on Team plans](https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats-on-team-plans)**.
+Refer to this article for more information about Premium seats: **[Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354)**.
 
  
 
@@ -82,6 +83,10 @@ For more details on billing, see **[How is my Team plan bill calculated?](https:
  
 
 Team plans support up to 150 seats. If your organization needs more than 150 seats, you can upgrade to the **[Enterprise plan](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)**. The flow for Team plans to upgrade to self-serve Enterprise isn't supported at this time, so if you are interested in upgrading, reach out to **[our Sales team](https://claude.com/contact-sales)**.
+
+ 
+
+Price and plans are subject to change at Anthropic's discretion.
 
 ## 
 
@@ -125,7 +130,7 @@ Your Team plan organization can enable extra usage to allow team members on all 
 ## Related Articles
 
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
-- [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
-- [Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
+- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

@@ -1,6 +1,6 @@
 # What Certifications has Anthropic obtained?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -24,6 +24,6 @@ For more information and to request copies of our compliance documentation, plea
 
 - [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
-- [Anthropic Connectors Directory FAQ](https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
+- [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)

@@ -54,6 +54,14 @@ Upload File
 
     - `FAST_MODE_2026_02_01("fast-mode-2026-02-01")`
 
+    - `OUTPUT_300K_2026_03_24("output-300k-2026-03-24")`
+
+    - `USER_PROFILES_2026_03_24("user-profiles-2026-03-24")`
+
+    - `ADVISOR_TOOL_2026_03_01("advisor-tool-2026-03-01")`
+
+    - `MANAGED_AGENTS_2026_04_01("managed-agents-2026-04-01")`
+
   - `String file`
 
     The file to upload
@@ -96,6 +104,20 @@ Upload File
 
     Whether the file can be downloaded.
 
+  - `Optional<BetaFileScope> scope`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `String id`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `JsonValue; type "session"constant`
+
+      The type of scope (e.g., `"session"`).
+
+      - `SESSION("session")`
+
 ### Example
 
 ```java
@@ -114,7 +136,7 @@ public final class Main {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         FileUploadParams params = FileUploadParams.builder()
-            .file(ByteArrayInputStream("some content".getBytes()))
+            .file(new ByteArrayInputStream("Example data".getBytes()))
             .build();
         FileMetadata fileMetadata = client.beta().files().upload(params);
     }

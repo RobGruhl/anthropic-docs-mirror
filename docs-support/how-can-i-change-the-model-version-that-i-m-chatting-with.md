@@ -1,6 +1,6 @@
 # How can I change the model version that I’m chatting with?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -17,8 +17,8 @@ Use the model selector to switch between available models:
 
 ## Related Articles
 
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Using extended thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
-- [Sharing and Unsharing Chats](https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats)
 - [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
-- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
+- [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

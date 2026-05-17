@@ -1,6 +1,6 @@
 # How do I change the email address associated with my account?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -45,5 +45,5 @@ After cancelling your previous subscription and unlinking your phone number, you
 - [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
 - [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
-- [How do I get started with the Team plan?](https://support.claude.com/en/articles/9267247-how-do-i-get-started-with-the-team-plan)
-- [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
+- [Get started with the Team plan](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan)
+- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)

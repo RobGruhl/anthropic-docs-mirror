@@ -1,14 +1,8 @@
-# How do I get started with the Team plan?
+# Get started with the Team plan
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
-
-## Creating a new Team organization
-
-To get started with the Team plan, navigate to **[claude.ai/login](http://claude.ai/login)** and enter your work email address. Follow the onboarding prompts and select the Team plan.
-
- 
 
 ## Requirements to sign up for a Team plan
 
@@ -17,10 +11,15 @@ To get started with the Team plan, navigate to **[claude.ai/login](http://claude
 - During sign-up, you can choose between monthly or annual billing options.
 - - Refer to this article for more information: **[How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)**
 - Team plans require a minimum of five members and are not intended for individual use.
+-  
+
+## Create a new Team organization
+
+To get started with the Team plan, navigate to **[claude.ai/login](http://claude.ai/login)** and enter your work email address. Follow the onboarding prompts and select the Team plan.
 
  
 
-## Upgrading from an individual plan to the Team plan
+## Upgrade from an individual plan to the Team plan
 
 If you already have a free or paid Claude account associated with your work email and wish to create a Team plan, sign into your account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
 
@@ -38,5 +37,5 @@ If you already have a free or paid Claude account associated with your work emai
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
+- [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)

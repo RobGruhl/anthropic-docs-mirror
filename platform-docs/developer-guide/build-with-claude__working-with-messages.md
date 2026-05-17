@@ -4,16 +4,24 @@ Practical patterns and examples for using the Messages API effectively
 
 ---
 
-This guide covers common patterns for working with the Messages API, including basic requests, multi-turn conversations, prefill techniques, and vision capabilities. For complete API specifications, see the [Messages API reference](/docs/en/api/messages).
+Anthropic offers two ways to build with Claude, each suited to different use cases:
+
+| | Messages API | Claude Managed Agents |
+|---|---|---|
+| **What it is** | Direct model prompting access | Pre-built, configurable agent harness that runs in managed infrastructure |
+| **Best for** | Custom agent loops and fine-grained control | Long-running tasks and asynchronous work |
+| **Learn more** | [Messages API docs](/docs/en/build-with-claude/working-with-messages) | [Claude Managed Agents docs](/docs/en/managed-agents/overview) |
+
+This guide covers common patterns for working with the Messages API, including basic requests, multi-turn conversations, prefill techniques, and vision capabilities. For complete API specifications, see the [Messages API reference](/docs/en/api/messages/create).
 
 <Note>
-This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/zero-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
 </Note>
 
 ## Basic request and response
 
 <CodeGroup>
-  ```bash Shell
+  ```bash cURL
   #!/bin/sh
   curl https://api.anthropic.com/v1/messages \
        --header "x-api-key: $ANTHROPIC_API_KEY" \
@@ -21,7 +29,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
        --header "content-type: application/json" \
        --data \
   '{
-      "model": "claude-opus-4-6",
+      "model": "claude-opus-4-7",
       "max_tokens": 1024,
       "messages": [
           {"role": "user", "content": "Hello, Claude"}
@@ -29,24 +37,31 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   }'
   ```
 
-  ```python Python
+  ```bash CLI
+  ant messages create \
+    --model claude-opus-4-7 \
+    --max-tokens 1024 \
+    --message '{role: user, content: "Hello, Claude"}'
+  ```
+
+  ```python Python hidelines={1..2}
   import anthropic
 
   message = anthropic.Anthropic().messages.create(
-      model="claude-opus-4-6",
+      model="claude-opus-4-7",
       max_tokens=1024,
       messages=[{"role": "user", "content": "Hello, Claude"}],
   )
   print(message)
   ```
 
-  ```typescript TypeScript hidelines={1..4}
+  ```typescript TypeScript hidelines={1..2}
   import Anthropic from "@anthropic-ai/sdk";
 
   const anthropic = new Anthropic();
 
   const message = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [{ role: "user", content: "Hello, Claude" }]
   });
@@ -54,30 +69,22 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   ```
 
   ```csharp C#
-  using System;
-  using System.Threading.Tasks;
   using Anthropic;
   using Anthropic.Models.Messages;
 
-  class Program
-  {
-      static async Task Main()
-      {
-          AnthropicClient client = new();
+  AnthropicClient client = new();
 
-          var parameters = new MessageCreateParams
-          {
-              Model = Model.ClaudeOpus4_6,
-              MaxTokens = 1024,
-              Messages = [new() { Role = Role.User, Content = "Hello, Claude" }]
-          };
-          var message = await client.Messages.Create(parameters);
-          Console.WriteLine(message);
-      }
-  }
+  var parameters = new MessageCreateParams
+  {
+      Model = Model.ClaudeOpus4_7,
+      MaxTokens = 1024,
+      Messages = [new() { Role = Role.User, Content = "Hello, Claude" }]
+  };
+  var message = await client.Messages.Create(parameters);
+  Console.WriteLine(message);
   ```
 
-  ```go Go hidelines={1..13,-1}
+  ```go Go hidelines={1..11,-1}
   package main
 
   import (
@@ -92,7 +99,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   	client := anthropic.NewClient()
 
   	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-  		Model:     anthropic.ModelClaudeOpus4_6,
+  		Model:     anthropic.ModelClaudeOpus4_7,
   		MaxTokens: 1024,
   		Messages: []anthropic.MessageParam{
   			anthropic.NewUserMessage(anthropic.NewTextBlock("Hello, Claude")),
@@ -105,7 +112,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   }
   ```
 
-  ```java Java hidelines={1..8,-1}
+  ```java Java hidelines={1..8,-2..}
   import com.anthropic.client.AnthropicClient;
   import com.anthropic.client.okhttp.AnthropicOkHttpClient;
   import com.anthropic.models.messages.MessageCreateParams;
@@ -117,7 +124,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
           AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
           MessageCreateParams params = MessageCreateParams.builder()
-              .model(Model.CLAUDE_OPUS_4_6)
+              .model(Model.CLAUDE_OPUS_4_7)
               .maxTokens(1024L)
               .addUserMessage("Hello, Claude")
               .build();
@@ -128,7 +135,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   }
   ```
 
-  ```php PHP
+  ```php PHP hidelines={1..4}
   <?php
 
   use Anthropic\Client;
@@ -138,18 +145,18 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   $message = $client->messages->create(
       maxTokens: 1024,
       messages: [['role' => 'user', 'content' => 'Hello, Claude']],
-      model: 'claude-opus-4-6',
+      model: 'claude-opus-4-7',
   );
   echo $message->content[0]->text;
   ```
 
-  ```ruby Ruby
+  ```ruby Ruby hidelines={1..2}
   require "anthropic"
 
   client = Anthropic::Client.new
 
   message = client.messages.create(
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       { role: "user", content: "Hello, Claude" }
@@ -159,7 +166,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
   ```
 </CodeGroup>
 
-```json JSON
+```json Output
 {
   "id": "msg_01XFDUDYJgAACzvnptvVoYEL",
   "type": "message",
@@ -170,7 +177,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
       "text": "Hello!"
     }
   ],
-  "model": "claude-opus-4-6",
+  "model": "claude-opus-4-7",
   "stop_reason": "end_turn",
   "stop_sequence": null,
   "usage": {
@@ -185,7 +192,7 @@ This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-cla
 The Messages API is stateless, which means that you always send the full conversational history to the API. You can use this pattern to build up a conversation over time. Earlier conversational turns don't necessarily need to actually originate from Claude. You can use synthetic `assistant` messages.
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 #!/bin/sh
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
@@ -193,7 +200,7 @@ curl https://api.anthropic.com/v1/messages \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "messages": [
         {"role": "user", "content": "Hello, Claude"},
@@ -204,11 +211,20 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..2,-1}
+```bash CLI
+ant messages create \
+  --model claude-opus-4-7 \
+  --max-tokens 1024 \
+  --message '{role: user, content: "Hello, Claude"}' \
+  --message '{role: assistant, content: "Hello!"}' \
+  --message '{role: user, content: "Can you describe LLMs to me?"}'
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 message = anthropic.Anthropic().messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     messages=[
         {"role": "user", "content": "Hello, Claude"},
@@ -219,13 +235,13 @@ message = anthropic.Anthropic().messages.create(
 print(message)
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const anthropic = new Anthropic();
 
-await anthropic.messages.create({
-  model: "claude-opus-4-6",
+const message = await anthropic.messages.create({
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   messages: [
     { role: "user", content: "Hello, Claude" },
@@ -233,39 +249,32 @@ await anthropic.messages.create({
     { role: "user", content: "Can you describe LLMs to me?" }
   ]
 });
+console.log(message);
 ```
 
 ```csharp C#
-using System;
-using System.Threading.Tasks;
 using Anthropic;
 using Anthropic.Models.Messages;
 
-class Program
+AnthropicClient client = new();
+
+var parameters = new MessageCreateParams
 {
-    static async Task Main(string[] args)
-    {
-        AnthropicClient client = new();
+    Model = Model.ClaudeOpus4_7,
+    MaxTokens = 1024,
+    Messages =
+    [
+        new() { Role = Role.User, Content = "Hello, Claude" },
+        new() { Role = Role.Assistant, Content = "Hello!" },
+        new() { Role = Role.User, Content = "Can you describe LLMs to me?" }
+    ]
+};
 
-        var parameters = new MessageCreateParams
-        {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            Messages =
-            [
-                new() { Role = Role.User, Content = "Hello, Claude" },
-                new() { Role = Role.Assistant, Content = "Hello!" },
-                new() { Role = Role.User, Content = "Can you describe LLMs to me?" }
-            ]
-        };
-
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message);
-    }
-}
+var message = await client.Messages.Create(parameters);
+Console.WriteLine(message);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -280,7 +289,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Messages: []anthropic.MessageParam{
 			anthropic.NewUserMessage(anthropic.NewTextBlock("Hello, Claude")),
@@ -295,7 +304,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..8,-1}
+```java Java hidelines={1..8,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.MessageCreateParams;
@@ -307,7 +316,7 @@ public class MultiTurnConversation {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-            .model(Model.CLAUDE_OPUS_4_6)
+            .model(Model.CLAUDE_OPUS_4_7)
             .maxTokens(1024L)
             .addUserMessage("Hello, Claude")
             .addAssistantMessage("Hello!")
@@ -320,7 +329,7 @@ public class MultiTurnConversation {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -334,19 +343,19 @@ $message = $client->messages->create(
         ['role' => 'assistant', 'content' => 'Hello!'],
         ['role' => 'user', 'content' => 'Can you describe LLMs to me?'],
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
 );
 
 echo $message->content[0]->text;
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   messages: [
     { role: "user", content: "Hello, Claude" },
@@ -358,7 +367,7 @@ puts message
 ```
 </CodeGroup>
 
-```json JSON
+```json Output
 {
   "id": "msg_018gCsTGsXkYJVqYPxTgDHBU",
   "type": "message",
@@ -369,6 +378,7 @@ puts message
       "text": "Sure, I'd be happy to provide..."
     }
   ],
+  "model": "claude-opus-4-7",
   "stop_reason": "end_turn",
   "stop_sequence": null,
   "usage": {
@@ -382,8 +392,12 @@ puts message
 
 You can pre-fill part of Claude's response in the last position of the input messages list. This can be used to shape Claude's response. The example below uses `"max_tokens": 1` to get a single multiple choice answer from Claude.
 
+<Warning>
+Prefilling is not supported on [Claude Mythos Preview](https://anthropic.com/glasswing), Claude Opus 4.7, Claude Opus 4.6, and Claude Sonnet 4.6. Requests using prefill with these models return a 400 error. Use [structured outputs](/docs/en/build-with-claude/structured-outputs) or system prompt instructions instead. See the [migration guide](/docs/en/about-claude/models/migration-guide) for migration patterns.
+</Warning>
+
 <CodeGroup>
-  ```bash Shell
+  ```bash cURL
   #!/bin/sh
   curl https://api.anthropic.com/v1/messages \
        --header "x-api-key: $ANTHROPIC_API_KEY" \
@@ -391,7 +405,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
        --header "content-type: application/json" \
        --data \
   '{
-      "model": "claude-opus-4-6",
+      "model": "claude-sonnet-4-5",
       "max_tokens": 1,
       "messages": [
           {"role": "user", "content": "What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae"},
@@ -400,11 +414,23 @@ You can pre-fill part of Claude's response in the last position of the input mes
   }'
   ```
 
-  ```python Python hidelines={1..2,-1}
+  ```bash CLI
+  ant messages create <<'YAML'
+  model: claude-sonnet-4-5
+  max_tokens: 1
+  messages:
+    - role: user
+      content: "What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae"
+    - role: assistant
+      content: "The answer is ("
+  YAML
+  ```
+
+  ```python Python hidelines={1..2}
   import anthropic
 
   message = anthropic.Anthropic().messages.create(
-      model="claude-opus-4-6",
+      model="claude-sonnet-4-5",
       max_tokens=1,
       messages=[
           {
@@ -417,13 +443,13 @@ You can pre-fill part of Claude's response in the last position of the input mes
   print(message)
   ```
 
-  ```typescript TypeScript hidelines={1..4}
+  ```typescript TypeScript hidelines={1..2}
   import Anthropic from "@anthropic-ai/sdk";
 
   const anthropic = new Anthropic();
 
   const message = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-sonnet-4-5",
     max_tokens: 1,
     messages: [
       {
@@ -437,34 +463,26 @@ You can pre-fill part of Claude's response in the last position of the input mes
   ```
 
   ```csharp C#
-  using System;
-  using System.Threading.Tasks;
   using Anthropic;
   using Anthropic.Models.Messages;
 
-  class Program
+  AnthropicClient client = new();
+
+  var parameters = new MessageCreateParams
   {
-      static async Task Main(string[] args)
-      {
-          AnthropicClient client = new();
+      Model = Model.ClaudeSonnet4_5,
+      MaxTokens = 1,
+      Messages = [
+          new() { Role = Role.User, Content = "What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae" },
+          new() { Role = Role.Assistant, Content = "The answer is (" }
+      ]
+  };
 
-          var parameters = new MessageCreateParams
-          {
-              Model = Model.ClaudeOpus4_6,
-              MaxTokens = 1,
-              Messages = [
-                  new() { Role = Role.User, Content = "What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae" },
-                  new() { Role = Role.Assistant, Content = "The answer is (" }
-              ]
-          };
-
-          var message = await client.Messages.Create(parameters);
-          Console.WriteLine(message);
-      }
-  }
+  var message = await client.Messages.Create(parameters);
+  Console.WriteLine(message);
   ```
 
-  ```go Go hidelines={1..13,-1}
+  ```go Go hidelines={1..11,-1}
   package main
 
   import (
@@ -479,7 +497,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
   	client := anthropic.NewClient()
 
   	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-  		Model:     anthropic.ModelClaudeOpus4_6,
+  		Model:     anthropic.ModelClaudeSonnet4_5,
   		MaxTokens: 1,
   		Messages: []anthropic.MessageParam{
   			anthropic.NewUserMessage(anthropic.NewTextBlock("What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae")),
@@ -493,7 +511,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
   }
   ```
 
-  ```java Java hidelines={1..8,-1}
+  ```java Java hidelines={1..8,-2..}
   import com.anthropic.client.AnthropicClient;
   import com.anthropic.client.okhttp.AnthropicOkHttpClient;
   import com.anthropic.models.messages.MessageCreateParams;
@@ -505,7 +523,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
           AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
           MessageCreateParams params = MessageCreateParams.builder()
-              .model(Model.CLAUDE_OPUS_4_6)
+              .model(Model.CLAUDE_SONNET_4_5)
               .maxTokens(1L)
               .addUserMessage("What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae")
               .addAssistantMessage("The answer is (")
@@ -517,7 +535,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
   }
   ```
 
-  ```php PHP hidelines={1..6}
+  ```php PHP hidelines={1..4}
   <?php
 
   use Anthropic\Client;
@@ -530,18 +548,18 @@ You can pre-fill part of Claude's response in the last position of the input mes
           ['role' => 'user', 'content' => 'What is latin for Ant? (A) Apoidea, (B) Rhopalocera, (C) Formicidae'],
           ['role' => 'assistant', 'content' => 'The answer is ('],
       ],
-      model: 'claude-opus-4-6',
+      model: 'claude-sonnet-4-5',
   );
   echo $message->content[0]->text;
   ```
 
-  ```ruby Ruby
+  ```ruby Ruby hidelines={1..2}
   require "anthropic"
 
   client = Anthropic::Client.new
 
   message = client.messages.create(
-    model: "claude-opus-4-6",
+    model: "claude-sonnet-4-5",
     max_tokens: 1,
     messages: [
       {
@@ -555,7 +573,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
   ```
 </CodeGroup>
 
-```json JSON
+```json Output
 {
   "id": "msg_01Q8Faay6S7QPTvEUUQARt7h",
   "type": "message",
@@ -566,7 +584,7 @@ You can pre-fill part of Claude's response in the last position of the input mes
       "text": "C"
     }
   ],
-  "model": "claude-opus-4-6",
+  "model": "claude-sonnet-4-5",
   "stop_reason": "max_tokens",
   "stop_sequence": null,
   "usage": {
@@ -576,16 +594,12 @@ You can pre-fill part of Claude's response in the last position of the input mes
 }
 ```
 
-<Warning>
-Prefilling is deprecated and not supported on Claude Opus 4.6, Claude Sonnet 4.6, and Claude Sonnet 4.5. Use [structured outputs](/docs/en/build-with-claude/structured-outputs) or system prompt instructions instead.
-</Warning>
-
 ## Vision
 
 Claude can read both text and images in requests. Images can be supplied using the `base64`, `url`, or `file` source types. The `file` source type references an image uploaded through the [Files API](/docs/en/build-with-claude/files). Supported media types are `image/jpeg`, `image/png`, `image/gif`, and `image/webp`. See the [vision guide](/docs/en/build-with-claude/vision) for more details.
 
 <CodeGroup>
-  ```bash Shell
+  ```bash cURL
   #!/bin/sh
 
   # Option 1: Base64-encoded image
@@ -599,7 +613,7 @@ Claude can read both text and images in requests. Images can be supplied using t
        --header "content-type: application/json" \
        --data \
   '{
-      "model": "claude-opus-4-6",
+      "model": "claude-opus-4-7",
       "max_tokens": 1024,
       "messages": [
           {"role": "user", "content": [
@@ -620,7 +634,7 @@ Claude can read both text and images in requests. Images can be supplied using t
        --header "content-type: application/json" \
        --data \
   '{
-      "model": "claude-opus-4-6",
+      "model": "claude-opus-4-7",
       "max_tokens": 1024,
       "messages": [
           {"role": "user", "content": [
@@ -635,7 +649,45 @@ Claude can read both text and images in requests. Images can be supplied using t
   ```
 
   
-  ```python Python nocheck hidelines={-1}
+  ```bash CLI nocheck
+  IMAGE_URL="https://upload.wikimedia.org/wikipedia/commons/a/a7/Camponotus_flavomarginatus_ant.jpg"
+
+  # Option 1: Base64-encoded image (CLI auto-encodes binary @file refs)
+  curl -s "$IMAGE_URL" -o ./ant.jpg
+
+  ant messages create <<'YAML'
+  model: claude-opus-4-7
+  max_tokens: 1024
+  messages:
+    - role: user
+      content:
+        - type: image
+          source:
+            type: base64
+            media_type: image/jpeg
+            data: "@./ant.jpg"
+        - type: text
+          text: What is in the above image?
+  YAML
+
+  # Option 2: URL-referenced image
+  ant messages create <<YAML
+  model: claude-opus-4-7
+  max_tokens: 1024
+  messages:
+    - role: user
+      content:
+        - type: image
+          source:
+            type: url
+            url: $IMAGE_URL
+        - type: text
+          text: What is in the above image?
+  YAML
+  ```
+
+  
+  ```python Python nocheck hidelines={1}
   import anthropic
   import base64
   import httpx
@@ -646,7 +698,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   image_data = base64.standard_b64encode(httpx.get(image_url).content).decode("utf-8")
 
   message = anthropic.Anthropic().messages.create(
-      model="claude-opus-4-6",
+      model="claude-opus-4-7",
       max_tokens=1024,
       messages=[
           {
@@ -669,7 +721,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
   # Option 2: URL-referenced image
   message_from_url = anthropic.Anthropic().messages.create(
-      model="claude-opus-4-6",
+      model="claude-opus-4-7",
       max_tokens=1024,
       messages=[
           {
@@ -691,7 +743,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   ```
 
   
-  ```typescript TypeScript nocheck hidelines={1..4}
+  ```typescript TypeScript nocheck hidelines={1..2}
   import Anthropic from "@anthropic-ai/sdk";
 
   const anthropic = new Anthropic();
@@ -704,7 +756,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   const image_data = Buffer.from(image_array_buffer).toString("base64");
 
   const message = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       {
@@ -730,7 +782,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
   // Option 2: URL-referenced image
   const messageFromUrl = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       {
@@ -756,81 +808,73 @@ Claude can read both text and images in requests. Images can be supplied using t
 
   
   ```csharp C# nocheck
-  using System;
   using System.Collections.Generic;
   using System.Net.Http;
-  using System.Threading.Tasks;
   using Anthropic;
   using Anthropic.Models.Messages;
 
-  public class Program
+  AnthropicClient client = new();
+
+  // Option 1: Base64-encoded image
+  string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/a/a7/Camponotus_flavomarginatus_ant.jpg";
+
+  using HttpClient httpClient = new();
+  byte[] imageBytes = await httpClient.GetByteArrayAsync(imageUrl);
+  string imageData = Convert.ToBase64String(imageBytes);
+
+  var parameters = new MessageCreateParams
   {
-      public static async Task Main(string[] args)
-      {
-          AnthropicClient client = new();
-
-          // Option 1: Base64-encoded image
-          string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/a/a7/Camponotus_flavomarginatus_ant.jpg";
-
-          using HttpClient httpClient = new();
-          byte[] imageBytes = await httpClient.GetByteArrayAsync(imageUrl);
-          string imageData = Convert.ToBase64String(imageBytes);
-
-          var parameters = new MessageCreateParams
+      Model = Model.ClaudeOpus4_7,
+      MaxTokens = 1024,
+      Messages =
+      [
+          new()
           {
-              Model = Model.ClaudeOpus4_6,
-              MaxTokens = 1024,
-              Messages =
-              [
-                  new()
-                  {
-                      Role = Role.User,
-                      Content = new MessageParamContent(new List<ContentBlockParam>
+              Role = Role.User,
+              Content = new MessageParamContent(new List<ContentBlockParam>
+              {
+                  new ContentBlockParam(new ImageBlockParam(
+                      new ImageBlockParamSource(new Base64ImageSource()
                       {
-                          new ContentBlockParam(new ImageBlockParam(
-                              new ImageBlockParamSource(new Base64ImageSource()
-                              {
-                                  Data = imageData,
-                                  MediaType = MediaType.ImageJpeg,
-                              })
-                          )),
-                          new ContentBlockParam(new TextBlockParam("What is in the above image?")),
-                      }),
-                  }
-              ]
-          };
+                          Data = imageData,
+                          MediaType = MediaType.ImageJpeg,
+                      })
+                  )),
+                  new ContentBlockParam(new TextBlockParam("What is in the above image?")),
+              }),
+          }
+      ]
+  };
 
-          var message = await client.Messages.Create(parameters);
-          Console.WriteLine(message);
+  var message = await client.Messages.Create(parameters);
+  Console.WriteLine(message);
 
-          // Option 2: URL-referenced image
-          var parametersFromUrl = new MessageCreateParams
+  // Option 2: URL-referenced image
+  var parametersFromUrl = new MessageCreateParams
+  {
+      Model = Model.ClaudeOpus4_7,
+      MaxTokens = 1024,
+      Messages =
+      [
+          new()
           {
-              Model = Model.ClaudeOpus4_6,
-              MaxTokens = 1024,
-              Messages =
-              [
-                  new()
-                  {
-                      Role = Role.User,
-                      Content = new MessageParamContent(new List<ContentBlockParam>
+              Role = Role.User,
+              Content = new MessageParamContent(new List<ContentBlockParam>
+              {
+                  new ContentBlockParam(new ImageBlockParam(
+                      new ImageBlockParamSource(new UrlImageSource()
                       {
-                          new ContentBlockParam(new ImageBlockParam(
-                              new ImageBlockParamSource(new UrlImageSource()
-                              {
-                                  Url = new Uri("https://upload.wikimedia.org/wikipedia/commons/a/a7/Camponotus_flavomarginatus_ant.jpg"),
-                              })
-                          )),
-                          new ContentBlockParam(new TextBlockParam("What is in the above image?")),
-                      }),
-                  }
-              ]
-          };
+                          Url = new Uri("https://upload.wikimedia.org/wikipedia/commons/a/a7/Camponotus_flavomarginatus_ant.jpg"),
+                      })
+                  )),
+                  new ContentBlockParam(new TextBlockParam("What is in the above image?")),
+              }),
+          }
+      ]
+  };
 
-          var messageFromUrl = await client.Messages.Create(parametersFromUrl);
-          Console.WriteLine(messageFromUrl);
-      }
-  }
+  var messageFromUrl = await client.Messages.Create(parametersFromUrl);
+  Console.WriteLine(messageFromUrl);
   ```
 
   
@@ -873,7 +917,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   	imageData := base64.StdEncoding.EncodeToString(imageBytes)
 
   	message, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-  		Model:     anthropic.ModelClaudeOpus4_6,
+  		Model:     anthropic.ModelClaudeOpus4_7,
   		MaxTokens: 1024,
   		Messages: []anthropic.MessageParam{
   			anthropic.NewUserMessage(
@@ -889,7 +933,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
   	// Option 2: URL-referenced image
   	messageFromURL, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-  		Model:     anthropic.ModelClaudeOpus4_6,
+  		Model:     anthropic.ModelClaudeOpus4_7,
   		MaxTokens: 1024,
   		Messages: []anthropic.MessageParam{
   			anthropic.NewUserMessage(
@@ -908,7 +952,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   ```
 
   
-  ```java Java nocheck hidelines={1..12,-1}
+  ```java Java nocheck hidelines={1..12,-2..}
   import com.anthropic.client.AnthropicClient;
   import com.anthropic.client.okhttp.AnthropicOkHttpClient;
   import com.anthropic.models.messages.*;
@@ -947,7 +991,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
           Message message = client.messages().create(
               MessageCreateParams.builder()
-                  .model(Model.CLAUDE_OPUS_4_6)
+                  .model(Model.CLAUDE_OPUS_4_7)
                   .maxTokens(1024L)
                   .addUserMessageOfBlockParams(base64Content)
                   .build());
@@ -969,7 +1013,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
           Message messageFromUrl = client.messages().create(
               MessageCreateParams.builder()
-                  .model(Model.CLAUDE_OPUS_4_6)
+                  .model(Model.CLAUDE_OPUS_4_7)
                   .maxTokens(1024L)
                   .addUserMessageOfBlockParams(urlContent)
                   .build());
@@ -979,7 +1023,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   ```
 
   
-  ```php PHP hidelines={1..6} nocheck
+  ```php PHP hidelines={1..4} nocheck
   <?php
 
   use Anthropic\Client;
@@ -1012,7 +1056,7 @@ Claude can read both text and images in requests. Images can be supplied using t
               ],
           ],
       ],
-      model: 'claude-opus-4-6',
+      model: 'claude-opus-4-7',
   );
   echo $message;
 
@@ -1037,13 +1081,13 @@ Claude can read both text and images in requests. Images can be supplied using t
               ],
           ],
       ],
-      model: 'claude-opus-4-6',
+      model: 'claude-opus-4-7',
   );
   echo $message_from_url;
   ```
 
   
-  ```ruby Ruby nocheck
+  ```ruby Ruby nocheck hidelines={1}
   require "anthropic"
   require "base64"
   require "net/http"
@@ -1056,7 +1100,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   image_data = Base64.strict_encode64(Net::HTTP.get(URI(image_url)))
 
   message = client.messages.create(
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       {
@@ -1082,7 +1126,7 @@ Claude can read both text and images in requests. Images can be supplied using t
 
   # Option 2: URL-referenced image
   message_from_url = client.messages.create(
-    model: "claude-opus-4-6",
+    model: "claude-opus-4-7",
     max_tokens: 1024,
     messages: [
       {
@@ -1107,7 +1151,7 @@ Claude can read both text and images in requests. Images can be supplied using t
   ```
 </CodeGroup>
 
-```json JSON
+```json Output
 {
   "id": "msg_01EcyWo6m4hyW8KHs2y2pei5",
   "type": "message",
@@ -1118,7 +1162,7 @@ Claude can read both text and images in requests. Images can be supplied using t
       "text": "This image shows an ant, specifically a close-up view of an ant. The ant is shown in detail, with its distinct head, antennae, and legs clearly visible. The image is focused on capturing the intricate details and features of the ant, likely taken with a macro lens to get an extreme close-up perspective."
     }
   ],
-  "model": "claude-opus-4-6",
+  "model": "claude-opus-4-7",
   "stop_reason": "end_turn",
   "stop_sequence": null,
   "usage": {

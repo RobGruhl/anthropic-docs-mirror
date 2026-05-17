@@ -62,6 +62,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `"fast-mode-2026-02-01"FastMode2026_02_01`
 
+    - `"output-300k-2026-03-24"Output300k2026_03_24`
+
+    - `"user-profiles-2026-03-24"UserProfiles2026_03_24`
+
+    - `"advisor-tool-2026-03-01"AdvisorTool2026_03_01`
+
+    - `"managed-agents-2026-04-01"ManagedAgents2026_04_01`
+
 ### Returns
 
 - `class BetaMessageBatchIndividualResponse:`
@@ -195,15 +203,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `required string CitedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `required Long DocumentIndex`
 
                 - `required string? DocumentTitle`
 
                 - `required Long EndBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `required string? FileID`
 
                 - `required Long StartBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `JsonElement Type "content_block_location"constant`
 
@@ -223,13 +241,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `required string CitedText`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `required Long EndBlockIndex`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `required Long SearchResultIndex`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `required string Source`
 
                 - `required Long StartBlockIndex`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `required string? Title`
 
@@ -294,6 +326,8 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `required IReadOnlyDictionary<string, JsonElement> Input`
 
             - `required Name Name`
+
+              - `"advisor"Advisor`
 
               - `"web_search"WebSearch`
 
@@ -494,6 +528,46 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 - `required string ToolID`
 
                 - `JsonElement Type "code_execution_20260120"constant`
+
+          - `class BetaAdvisorToolResultBlock:`
+
+            - `required Content Content`
+
+              - `class BetaAdvisorToolResultError:`
+
+                - `required ErrorCode ErrorCode`
+
+                  - `"max_uses_exceeded"MaxUsesExceeded`
+
+                  - `"prompt_too_long"PromptTooLong`
+
+                  - `"too_many_requests"TooManyRequests`
+
+                  - `"overloaded"Overloaded`
+
+                  - `"unavailable"Unavailable`
+
+                  - `"execution_time_exceeded"ExecutionTimeExceeded`
+
+                - `JsonElement Type "advisor_tool_result_error"constant`
+
+              - `class BetaAdvisorResultBlock:`
+
+                - `required string Text`
+
+                - `JsonElement Type "advisor_result"constant`
+
+              - `class BetaAdvisorRedactedResultBlock:`
+
+                - `required string EncryptedContent`
+
+                  Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+                - `JsonElement Type "advisor_redacted_result"constant`
+
+            - `required string ToolUseID`
+
+            - `JsonElement Type "advisor_tool_result"constant`
 
           - `class BetaCodeExecutionToolResultBlock:`
 
@@ -759,15 +833,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `required string CitedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `required Long DocumentIndex`
 
                     - `required string? DocumentTitle`
 
                     - `required Long EndBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `required string? FileID`
 
                     - `required Long StartBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `JsonElement Type "content_block_location"constant`
 
@@ -787,13 +871,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `required string CitedText`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `required Long EndBlockIndex`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `required Long SearchResultIndex`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `required string Source`
 
                     - `required Long StartBlockIndex`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `required string? Title`
 
@@ -828,6 +926,10 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `required string? Content`
 
               Summary of compacted content, or null if compaction failed
+
+            - `required string? EncryptedContent`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
 
             - `JsonElement Type "compaction"constant`
 
@@ -875,9 +977,17 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
+          - `"claude-opus-4-7"ClaudeOpus4_7`
+
+            Frontier intelligence for long-running agents and coding
+
+          - `"claude-mythos-preview"ClaudeMythosPreview`
+
+            New class of intelligence, strongest in coding and cybersecurity
+
           - `"claude-opus-4-6"ClaudeOpus4_6`
 
-            Most intelligent model for building agents and coding
+            Frontier intelligence for long-running agents and coding
 
           - `"claude-sonnet-4-6"ClaudeSonnet4_6`
 
@@ -940,6 +1050,28 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           Conversational role of the generated message.
 
           This will always be `"assistant"`.
+
+        - `required BetaRefusalStopDetails? StopDetails`
+
+          Structured information about a refusal.
+
+          - `required Category? Category`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `"cyber"Cyber`
+
+            - `"bio"Bio`
+
+          - `required string? Explanation`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `JsonElement Type "refusal"constant`
 
         - `required BetaStopReason? StopReason`
 
@@ -1105,6 +1237,116 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
               - `JsonElement Type "compaction"constant`
 
                 Usage for a compaction iteration
+
+            - `class BetaAdvisorMessageIterationUsage:`
+
+              Token usage for an advisor sub-inference iteration.
+
+              - `required BetaCacheCreation? CacheCreation`
+
+                Breakdown of cached tokens by TTL
+
+                - `required Long Ephemeral1hInputTokens`
+
+                  The number of input tokens used to create the 1 hour cache entry.
+
+                - `required Long Ephemeral5mInputTokens`
+
+                  The number of input tokens used to create the 5 minute cache entry.
+
+              - `required Long CacheCreationInputTokens`
+
+                The number of input tokens used to create the cache entry.
+
+              - `required Long CacheReadInputTokens`
+
+                The number of input tokens read from the cache.
+
+              - `required Long InputTokens`
+
+                The number of input tokens which were used.
+
+              - `required Model Model`
+
+                The model that will complete your prompt.
+
+                See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                - `"claude-opus-4-7"ClaudeOpus4_7`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `"claude-mythos-preview"ClaudeMythosPreview`
+
+                  New class of intelligence, strongest in coding and cybersecurity
+
+                - `"claude-opus-4-6"ClaudeOpus4_6`
+
+                  Frontier intelligence for long-running agents and coding
+
+                - `"claude-sonnet-4-6"ClaudeSonnet4_6`
+
+                  Best combination of speed and intelligence
+
+                - `"claude-haiku-4-5"ClaudeHaiku4_5`
+
+                  Fastest model with near-frontier intelligence
+
+                - `"claude-haiku-4-5-20251001"ClaudeHaiku4_5_20251001`
+
+                  Fastest model with near-frontier intelligence
+
+                - `"claude-opus-4-5"ClaudeOpus4_5`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `"claude-opus-4-5-20251101"ClaudeOpus4_5_20251101`
+
+                  Premium model combining maximum intelligence with practical performance
+
+                - `"claude-sonnet-4-5"ClaudeSonnet4_5`
+
+                  High-performance model for agents and coding
+
+                - `"claude-sonnet-4-5-20250929"ClaudeSonnet4_5_20250929`
+
+                  High-performance model for agents and coding
+
+                - `"claude-opus-4-1"ClaudeOpus4_1`
+
+                  Exceptional model for specialized complex tasks
+
+                - `"claude-opus-4-1-20250805"ClaudeOpus4_1_20250805`
+
+                  Exceptional model for specialized complex tasks
+
+                - `"claude-opus-4-0"ClaudeOpus4_0`
+
+                  Powerful model for complex tasks
+
+                - `"claude-opus-4-20250514"ClaudeOpus4_20250514`
+
+                  Powerful model for complex tasks
+
+                - `"claude-sonnet-4-0"ClaudeSonnet4_0`
+
+                  High-performance model with extended thinking
+
+                - `"claude-sonnet-4-20250514"ClaudeSonnet4_20250514`
+
+                  High-performance model with extended thinking
+
+                - `"claude-3-haiku-20240307"Claude_3_Haiku_20240307`
+
+                  Fast and cost-effective model
+
+              - `required Long OutputTokens`
+
+                The number of output tokens which were used.
+
+              - `JsonElement Type "advisor_message"constant`
+
+                Usage for an advisor sub-inference iteration
 
           - `required Long OutputTokens`
 

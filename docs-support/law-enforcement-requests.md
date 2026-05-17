@@ -1,6 +1,6 @@
 # Law Enforcement Requests
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -29,8 +29,8 @@ Please include the following information with your request:
 
 ## Related Articles
 
-- [Exceptions to our Usage Policy](https://support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy)
 - [I think a user is infringing my copyright or other intellectual property. How do I report it?](https://support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it)
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 - [Online Safety Contacts](https://support.claude.com/en/articles/11174660-online-safety-contacts)
+- [Enforce network-level access control with Tenant Restrictions](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
 - [Unauthorized Anthropic stock sales and investment scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams)

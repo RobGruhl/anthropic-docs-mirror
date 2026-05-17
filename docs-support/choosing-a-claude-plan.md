@@ -1,6 +1,6 @@
 # Choosing a Claude plan
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -25,6 +25,6 @@ The plans listed above are intended for individual users. Looking for a plan for
 
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
-- [How to gift a Claude subscription](https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

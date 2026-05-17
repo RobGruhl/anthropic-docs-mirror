@@ -1,6 +1,6 @@
 # Retrieval augmented generation (RAG) for projects
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -129,4 +129,4 @@ Yes. RAG works with all Claude features, including web search, extended thinking
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
-- [Using Google Drive Cataloging on the Enterprise Plan](https://support.claude.com/en/articles/11088779-using-google-drive-cataloging-on-the-enterprise-plan)
+- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)

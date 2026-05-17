@@ -1,6 +1,6 @@
 # Microsoft 365 Connector: Security Guide
 
-*Updated over a week ago*
+*Updated over a month ago*
 
 ---
 
@@ -10,7 +10,7 @@ The Microsoft 365 Connector is an **Anthropic-hosted integration** that enables 
 
  
 
-The connector operates as a **secure proxy**, and your Microsoft 365 documents, emails, and files remain in your tenant. The connector only retrieves data on-demand during active queries and does not cache file content. Credentials are encrypted and managed by Anthropic's backend infrastructure. The MCP server itself does not store or manage these credentials. Microsoft's Azure SDK handles the On-Behalf-Of token exchange and caching on a per-user basis for accessing the Graph API.
+The connector operates as a **secure proxy**, and your Microsoft 365 documents, emails, and files remain in your tenant. The connector only retrieves data on-demand during active queries and doesn’t cache file content. Credentials are encrypted and managed by Anthropic's backend infrastructure. The MCP server itself doesn’t store or manage these credentials. Microsoft's Azure SDK handles the On-Behalf-Of token exchange and caching on a per-user basis for accessing the Graph API.
 
  
 
@@ -22,24 +22,19 @@ The connector provides **multiple layers of access control** to address your sec
 
  
 
-**1. Organization-level gating**
+**1. Microsoft Entra tenant requirement**
 
-Access to the connector for Team and Enterprise plan users requires a two-step approval process. First, owners must explicitly enable the Microsoft 365 connector in Claude organization settings by navigating to Organization settings → Connectors → Browse connectors → Add "Microsoft 365". Until this approval is granted, users have no access.
+All people using the connector—regardless of Claude plan—must authenticate with a Microsoft 365 account tied to a Microsoft Entra tenant. Personal Microsoft accounts (@outlook.com, @hotmail.com) can't be used. A Microsoft Entra Global Administrator must complete a one-time consent process before anyone in the tenant can connect.
+
+ 
+
+**2. Organization-level gating (Team and Enterprise plans)**
+
+On Team and Enterprise plans, access to the connector requires a two-step approval process. First, Owners must explicitly enable the Microsoft 365 connector in Claude organization settings by navigating to Organization settings > Connectors > Browse connectors > Add "Microsoft 365." Until this approval is granted, team members have no access.
 
  
 
 Second, after the Owner enables the connector, a Microsoft Entra Global Administrator must complete individual authentication and grant consent on behalf of the whole organization before any team members can connect.
-
- 
-
-**2. Microsoft Entra Admin pre-consent requirement**
-
-Before users can access the connector, a Microsoft Entra Admin must complete a one-time setup, which will:
-
-- Add two service principals and Enterprise apps in Microsoft Entra ID (M365 MCP Client and M365 MCP Server). This establishes a service-level identity for the Microsoft 365 Connector apps in your tenant.
-- Grant admin pre-consent for your Microsoft 365 tenant.
-- Optionally restrict which Microsoft Entra ID users and groups are allowed to use the connector.
-- Optionally restrict permissions the connector is allowed to use to selectively control which Microsoft 365 services are accessible.
 
  
 
@@ -55,7 +50,7 @@ You can selectively disable specific capabilities via Microsoft Entra Admin Cent
 | Teams chat | Revoke Chat.Read permission in Entra | Blocks Teams |
 | OneDrive files | Revoke Files.Read and/or Files.Read.All | Blocks reading files from OneDrive |
 
-Changes take effect immediately for all users in your organization. Note that users can also choose to disable capabilities that they have permission to use during a chat or session by selectively toggling off the connector’s tools.
+Changes take effect immediately for all people in your organization. People can also choose to disable capabilities during a chat by selectively toggling off the connector's tools.
 
  
 
@@ -201,52 +196,51 @@ The connector provides **read-only** access to:
 
 ## Frequently asked questions
 
-### Q: Can we test with a small pilot group before enterprise-wide rollout?
+### Can we test with a small pilot group before enterprise-wide rollout?
 
-A: Yes. The recommended approach is to use app assignment to restrict who can use the connector:
+Yes. The recommended approach is to use app assignment to restrict who can use the connector:
 
-- Owner enables connector in Claude organization settings
+- Enable the connector (Team and Enterprise Owners enable it in organization settings; individual plan users can connect directly).
 - Microsoft Entra Admin completes pre-consent setup
 - Use Microsoft Entra Enterprise App assignment to restrict access to specific users or groups (e.g., assign only "IT Security Test Group" to the app).
 - Expand groups progressively for gradual deployment
+-  
 
-### Q: How do we ensure no data leakage occurs between our organization and others in the multi-tenant environment?
+### How do we ensure no data leakage occurs between our organization and others in the multi-tenant environment?
 
-**A**: Multi-tenant isolation ensures complete separation:
+Multi-tenant isolation ensures complete separation:
 
 - Server uses the common tenant configuration to accept tokens from any Microsoft Entra ID tenant
 - Each user's token contains their organization's tenant ID (tid claim) which is validated
 - Graph API tokens obtained through OBO are automatically scoped to the user and their tenant
 - Cross-tenant token access is prevented cryptographically by the design of Microsoft Graph’s OAuth 2.0 implementation.
+-  
 
-### Q: What happens if an employee tries to access company data from a personal Claude account?
+### What happens if someone tries to connect with a personal Microsoft account?
 
-**A**: The connector validates identity during authentication:
-
-- User must have access to the Team/Enterprise organization where the connector is enabled
-- Microsoft login validates user's Microsoft Entra ID credentials
-- Token validation confirms user's tenant ID
-- Graph API enforces tenant boundaries
-- Personal Claude accounts cannot access enterprise Microsoft 365 data without organization membership
-
-### Q: Do you have audit logging for compliance?
-
-**A:** Yes, audit logging is available for your compliance needs. All Graph API calls made by the connector are logged in your organization's Microsoft 365 audit log, which you can access through the M365 Compliance Center. These logs show the timestamp, user, operation performed, and resource accessed, with retention periods matching your Microsoft 365 audit policy. Additionally, Anthropic logs authentication and tool execution events.
+The connector requires a Microsoft Entra tenant tied to a Microsoft Business plan. Personal Microsoft accounts (@outlook.com, @hotmail.com) can't be used to authenticate. People attempting to connect with a personal account will receive an authentication error.
 
  
 
-### Q: Can we revoke access if we discover unauthorized usage?
+### Do you have audit logging for compliance?
 
-**A**: There are multiple revocation methods:
+Yes. All Graph API calls made by the connector are logged in your organization's Microsoft 365 audit log, which you can access through the M365 Compliance Center. These logs show the timestamp, user, operation performed, and resource accessed, with retention periods matching your Microsoft 365 audit policy. Additionally, Anthropic logs authentication and tool execution events.
 
-- **User-level**: Users disconnect via Claude Settings → Connectors
-- **Admin-level**: Disable connector in Claude organization settings (all users affected)
+ 
+
+### Can we revoke access if we discover unauthorized usage?
+
+There are multiple revocation methods:
+
+- **Individual:** Users disconnect via **Customize > Connectors**
+- **Admin-level**: On Team and Enterprise plans, Owners disable the connector in Claude organization settings (all team members affected).
 - **Permission-level**: Revoke specific permissions in Microsoft Entra Admin Center
 - **Tenant-level**: Revoke all permissions in Microsoft Entra Admin Center
+-  
 
-### Q: What certifications does Anthropic have?
+### What certifications does Anthropic have?
 
-**A:** Anthropic has the following certifications:
+Anthropic has the following certifications:
 
 - **SOC 2 Type II** (annual audit)
 - **ISO 27001** certified
@@ -265,8 +259,8 @@ A: Yes. The recommended approach is to use app assignment to restrict who can us
 
 ## Related Articles
 
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [Anthropic Connectors Directory FAQ](https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq)
-- [Use the Connectors Directory to extend Claude’s capabilities](https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities)
-- [Enabling and using the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector)
-- [Enforce network-level access control with Tenant Restrictions](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Enable and use the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365-connector)
+- [Work across Microsoft 365 apps](https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps)
+- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

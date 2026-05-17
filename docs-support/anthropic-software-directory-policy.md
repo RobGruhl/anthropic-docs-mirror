@@ -1,6 +1,6 @@
 # Anthropic Software Directory Policy
 
-*Updated this week*
+*Updated over a month ago*
 
 ---
 
@@ -90,7 +90,7 @@ E. Developers must provide at least three working examples of prompts or use cas
 
  
 
-F. Developers must verify that they own or control any API endpoint, domain, or user interface their Software connects to, as well as any external resources it retrieves or renders.
+F. Developers must verify that they own or control any API endpoint, domain, or user interface their Software connects to, as well as any external resources it retrieves or renders. Plugins are an exception, and may connect to any Connector approved in the Software Directory.
 
  
 
@@ -98,7 +98,7 @@ G. Developers must maintain their Software and address issues within reasonable 
 
  
 
-H. Developers must agree to our [Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms) and follow design guidelines Anthropic publishes applicable to Software. 
+H. Developers must agree to our [Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms) and follow design guidelines Anthropic publishes applicable to Software.
 
  
 
@@ -138,7 +138,7 @@ D. Remote MCP servers that connect to a remote service and require authenticatio
 
  
 
-E. MCP servers must provide all applicable [annotations](https://modelcontextprotocol.io/specification/draft/schema#toolannotations) for their tools, in particular *readOnlyHint*, *destructiveHint*, and *title*.
+E. MCP servers must provide all applicable [annotations](https://modelcontextprotocol.io/specification/2025-11-25/schema#toolannotations) for their tools, in particular *readOnlyHint*, *destructiveHint*, and *title*.
 
  
 
@@ -155,8 +155,8 @@ G. Local MCP servers must be built with reasonably current versions of all depen
 
 ## Related Articles
 
-- [Anthropic Connectors Directory FAQ](https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq)
-- [Remote MCP Server Submission Guide](https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide)
-- [Local MCP Server Submission Guide](https://support.claude.com/en/articles/12922832-local-mcp-server-submission-guide)
-- [Building Desktop Extensions with MCPB](https://support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb)
+- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+- [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
+- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)

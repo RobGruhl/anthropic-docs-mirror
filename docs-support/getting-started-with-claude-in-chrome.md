@@ -1,6 +1,6 @@
-# Getting started with Claude in Chrome
+# Get started with Claude in Chrome
 
-*Updated this week*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -33,11 +33,11 @@ Start a task in Claude Desktop and let it handle work in the browser without swi
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1771884000&signature=de3ba4eb58cfa4d9bcf64871060af70bc626dee3a01f5988c11330fe33f60524&req=dSguFM93m4RfW%2FMW1HO4zdOew4pU4Ld5hnw73Y7ib%2BdE0yCZV4AMF1KQEP8A%0Abbj0hCYbrxNCmGrS5Po%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1778979600&signature=6ccaaf8129c03574a99c2ea0043da5f9b2ac671e42f9d29633358642113d687d&req=dSguFM93m4RfW%2FMW1HO4zdOew4NV77p%2Fhnw73Y7ib%2BeClI0S7sheU5irIp%2BO%0A5ELn0owFrv4KnrXZ7u8%3D%0A)
 
  
 
-Completing these steps will add Claude in Chrome to the “Connectors” drop-down on your chats with Claude. This is disabled by default, so you’ll need to enable it manually for each conversation. Note that this connector only works with Haiku 4.5, Sonnet 4.5, or Opus 4.5; if you select another model in your chat window, the connector will be disabled.
+Completing these steps will add Claude in Chrome to the “Connectors” drop-down on your chats with Claude. This is disabled by default, so you’ll need to enable it manually for each conversation.
 
  
 
@@ -60,9 +60,7 @@ Claude can now read browser console output, including errors, network requests, 
 
 ### Scheduled tasks
 
-Set recurring browser tasks to run automatically on your schedule. Set it once and Claude handles it from there—daily, weekly, monthly, or annually.
-
-You can schedule your Claude in Chrome shortcuts to run automatically by clicking the clock icon in the upper right corner of the extension panel.
+Set recurring browser tasks to run automatically on your schedule. Set it once and Claude handles it from there—daily, weekly, monthly, or annually. You can schedule your Claude in Chrome shortcuts to run automatically by clicking the clock icon in the upper right corner of the extension panel.
 
  
 
@@ -80,8 +78,8 @@ Use “Ask before acting” to have Claude create a plan for your approval, then
 
 **Max, Team, and Enterprise plans:** Choose the model that best fits your task.
 
-- **Opus 4.6**: Maximum reasoning power for the most demanding workflows
-- **Sonnet 4.5**: Best for complex, multi-step tasks
+- **Opus 4.7**: Maximum reasoning power for the most demanding workflows
+- **Sonnet 4.6**: Best for complex, multi-step tasks
 - **Haiku 4.5**: Optimized for speed and responsiveness
 
 Switch between models anytime based on what you need.
@@ -170,7 +168,7 @@ Give Claude an image and tell it where to upload, whether it's an expense report
 
 ### Shortcuts
 
-Save your best-working prompts as shortcuts (also called /slash commands) and reuse these proven workflows instantly:
+Save your best-working prompts as shortcuts and reuse these proven workflows instantly:
 
 1. After crafting a prompt that works well, save it as a shortcut.
 2. Access your saved shortcuts by typing "/" in the chat.
@@ -218,8 +216,8 @@ If you're unable to install or use the extension, contact your organization's ad
 
 ## Related Articles
 
-- [Claude in Chrome release notes](https://support.claude.com/en/articles/12306336-claude-in-chrome-release-notes)
-- [Simplify your browsing experience with Claude in Chrome](https://support.claude.com/en/articles/12431227-simplify-your-browsing-experience-with-claude-in-chrome)
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
-- [Using Claude in Chrome Safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

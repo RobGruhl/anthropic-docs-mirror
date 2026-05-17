@@ -9,7 +9,7 @@ AI agents are delivering measurable results in healthcare and life sciences whil
 
 - CategoryAgentsEnterprise AI
 
-- ProductClaude Developer Platform
+- ProductClaude Platform
 
 - DateOctober 30, 2025
 
@@ -211,21 +211,21 @@ Learn how life sciences organizations are driving impact with Claude for Life Sc
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
-### Cowork: Claude Code for the rest of your work
+### Deploying Claude across the legal industry
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### How Claude Code works in large codebases: Best practices and where to start
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+
+### Best practices for computer and browser use with Claude
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
-### Building multi-agent systems: When and how to use them
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
-
-### Claude Enterprise, now available self-serve
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-### How three YC startups built their companies with Claude Code
+### How Anthropic's legal team cut review times from days to hours with Claude
 
 ## Transform how your organization operates with Claude
 

@@ -1,6 +1,6 @@
 # Paid Plan Billing FAQs
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -34,7 +34,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1771884000&signature=a28af7165b6064bae84c26ade3ccb59e0d265e0be81cd7fc271dce247a314568&req=dSklFMh6nIZXXPMW1HO4zVXW%2F2yjYzfMQoNvNFTb5cfqU3TgLZttkIb5cwMB%0AxeK0Xwt%2BdTqhqnP2%2F%2Bw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1778979600&signature=e284d5ae1da74ff6db817783b19613068b88c193b6902421618a6fb7a90f7bb3&req=dSklFMh6nIZXXPMW1HO4zVXW%2F2WibDrKQoNvNFTb5cdMkhdVVOlqjN3ydwRd%0A1jJbcLUL26LeHZgp%2Byw%3D%0A)
 
  
 
@@ -68,8 +68,8 @@ If you've paid for a Pro or Max plan but are not seeing this reflected in your a
 
 ## Related Articles
 
-- [I need to add or update my paid Claude account’s Tax or VAT ID](https://support.claude.com/en/articles/9889408-i-need-to-add-or-update-my-paid-claude-account-s-tax-or-vat-id)
+- [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

@@ -1,6 +1,6 @@
-# Using Enterprise Search
+# Use enterprise search
 
-*Updated today*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -10,7 +10,7 @@ Enterprise search adds a dedicated project for searching across your organizatio
 
 ## What is enterprise search?
 
-We’ve added a pre-configured “Ask Your Org” [project](https://support.claude.com/en/articles/9517075-what-are-projects) that appears in your sidebar. This project is designed specifically for unified knowledge access across your company's tools and data sources. This dedicated workspace provides:
+We’ve added a pre-configured “Ask Your Org” **[project](https://support.claude.com/en/articles/9517075-what-are-projects)** that appears in your sidebar. This project is designed specifically for unified knowledge access across your company's tools and data sources. This dedicated workspace provides:
 
 - **Guided setup:** Easy onboarding flow for connecting your work apps.
 - **Organization-wide availability:** Available to all members of your organization after an Owner completes the initial setup process.
@@ -24,9 +24,9 @@ We’ve added a pre-configured “Ask Your Org” [project](https://support.clau
 
  
 
-## Getting Started
+## Get started
 
-### For Owners
+### For owners
 
 The enterprise search project is enabled by default for all Team and Enterprise plan organizations within Admin settings, but Owners will need to complete this initial setup process before other members can use it:
 
@@ -43,7 +43,7 @@ The enterprise search project is enabled by default for all Team and Enterprise 
 
 If you decide to stop using the project after setting it up, an Owner will need to manually disable this feature organization-wide to remove it from users’ accounts:
 
-1. Navigate to [Admin settings > Capabilities](https://claude.ai/admin-settings/capabilities).
+1. Navigate to **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**.
 2. Locate "Ask Your Org"
 3. Click the “Disable” button to turn the feature off.
 
@@ -65,7 +65,7 @@ The enterprise search project will be starred in your sidebar by default when th
 
  
 
-## Customizing your enterprise search project
+## Customize your enterprise search project
 
 **Connecting additional tools:** 
 
@@ -108,7 +108,7 @@ Claude will search your connected tools—such as SharePoint documents, Slack co
 
  
 
-## Comparing enterprise search to standard projects
+## Compare enterprise search to standard projects
 
 |  | **Projects** | **Enterprise Search** |
 | --- | --- | --- |
@@ -118,9 +118,9 @@ Claude will search your connected tools—such as SharePoint documents, Slack co
 | **Availability** | User-created | Automatically provisioned for organization |
 | **Updates** | Static unless manually changed | Automatic improvements from Anthropic |
 
-## Use Cases
+## Use cases
 
-Enterprise Search is particularly valuable for:
+Enterprise search is particularly valuable for:
 
  
 
@@ -154,7 +154,7 @@ Enterprise Search is particularly valuable for:
 
  
 
-## Privacy and Permissions
+## Privacy and permissions
 
 - **Permission-aware:** You only see search results from data you have permission to access in the original systems.
 - **User-level authentication for connectors:** Each user authenticates with their own credentials to enable connectors.
@@ -163,7 +163,7 @@ Enterprise Search is particularly valuable for:
 
  
 
-## Best Practices
+## Best practices
 
 **Be specific about sources:** Instead of "Find information about the product launch,” try "Search Slack and Google Drive for discussions about the Q4 product launch."
 
@@ -189,15 +189,15 @@ Enterprise Search is particularly valuable for:
 
 ### The search project isn't appearing in my sidebar
 
-- Verify you’re using a Team or Enterprise plan..
-- Have an Owner check that the feature is enabled for your organization.
+- Verify you’re using a Team or Enterprise plan.
+- Have an owner check that the feature is enabled for your organization.
 - Try refreshing your browser or signing out and back in.
 
  
 
 ### I can't connect a recommended connector
 
-- Check that an Owner has enabled the connector at the organization level.
+- Check that an owner has enabled the connector at the organization level.
 - Confirm that you have an active account with the service.
 - Ensure your organization's policies don't block third-party integrations.
 - Make sure you've completed the authentication flow properly.
@@ -218,7 +218,7 @@ Enterprise Search is particularly valuable for:
 
 ### Connected tools aren't working
 
-- Revisit [Settings > Connectors](http://claude.ai/settings/connectors) to verify authentication status.
+- Revisit **[Settings > Connectors](http://claude.ai/settings/connectors)** to verify authentication status.
 - Try disconnecting and reconnecting the problematic connector.
 - Check if the connector was recently disabled at the organization level.
 
@@ -246,8 +246,8 @@ If a connector fails:
 
 1. The dedicated project will search remaining connected tools.
 2. You'll see a notice about the failed connector.
-3. Try reconnecting the tool through [Settings > Connectors](http://claude.ai/settings/connectors).
-4. Contact an organization Owner if the issue persists.
+3. Try reconnecting the tool through **[Settings > Connectors](http://claude.ai/settings/connectors)**.
+4. Contact an organization owner if the issue persists.
 
 ## 
 
@@ -255,19 +255,21 @@ If a connector fails:
 
  
 
-## FAQ
+## Frequently asked questions
 
 ### Can I add my own custom connectors to the search project?
 
-Yes. You can add connectors available through [Settings > Connectors](http://claude.ai/settings/connectors), and you can also add  custom connectors if permitted by your organization. The guided onboarding recommends a few connectors, but you're not limited to those.
+Yes. You can add connectors available through **[Settings > Connectors](http://claude.ai/settings/connectors)**, and you can also add  custom connectors if permitted by your organization. The guided onboarding recommends a few connectors, but you're not limited to those.
 
-For more information, refer to[ Getting Started with Custom Connectors Using Remote MCP](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+ 
+
+For more information, refer to **[Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)**.
 
  
 
 ### Can I use enterprise search on mobile or desktop apps?
 
-The search project mirrors the availability of regular projects and is fully functional on the Claude web app, Claude Desktop, and Claude Mobile (iOS/Android).
+The search project is fully functional on Claude Desktop, but not available on Claude Mobile (iOS/Android).
 
  
 
@@ -293,7 +295,7 @@ Yes. Search queries within the project count toward your plan's standard usage l
 - Faster responses for finding specific information
 - Best for everyday knowledge access
 
-See [When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361) for more guidance.
+For more guidance, see **[When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361)**
 
  
 
@@ -313,21 +315,21 @@ No. Search results are permission-aware. You only see data that you have permiss
 
 ### Is my search history visible to others?
 
-No. Conversations within your search project are private to you unless you choose to manually share them, just like other conversations with Claude. However, on Enterprise plans, conversations follow your [organization's data retention policies](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans).
+No. Conversations within your search project are private to you unless you choose to manually share them, just like other conversations with Claude. However, on Enterprise plans, conversations follow your **[organization's data retention policies](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans)**.
 
  
 
 ### How long are search results retained?
 
-Search results are retained with their associated chats. You can delete search data by deleting the associated conversation. Enterprise organizations may have custom data retention policies that apply to all conversations, including those within the search project. Check with your organization Owner for details.
+Search results are retained with their associated chats. You can delete search data by deleting the associated conversation. Enterprise organizations may have custom data retention policies that apply to all conversations, including those within the search project. Check with your organization owner for details.
 
 
 ---
 
 ## Related Articles
 
-- [Setting up Claude integrations](https://support.claude.com/en/articles/10168395-setting-up-claude-integrations)
+- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [Pre-built web connectors using remote MCP](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)
-- [Enabling and using the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector)
-- [Using interactive connectors in Claude](https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Enable and use the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365-connector)
+- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)

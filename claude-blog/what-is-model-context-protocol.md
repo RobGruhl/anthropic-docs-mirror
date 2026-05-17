@@ -1,21 +1,20 @@
-# What is Model Context Protocol? Connect AI to your world
-*October 31, 2025*
+# モデルコンテキストプロトコルとは？AIをあなたの世界に接続
 ---
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-# What is Model Context Protocol? Connect AI to your world
+# モデルコンテキストプロトコルとは？AIをあなたの世界に接続
 
-Connect AI assistants to your tools without custom integrations using Model Context Protocol.
+モデルコンテキストプロトコルを使え​​ばカスタム統合なしで、AIアシスタントをツールに接続できます。
 
-- CategoryAgents
+- カテゴリエージェント
 
-- ProductClaude apps
+- 製品Claudeのアプリ
 
-- DateOctober 31, 2025
+- 日付2025-10-31
 
-- Reading time5min
+- 読了時間5分
 
-- ShareCopy linkhttps://claude.com/blog/what-is-model-context-protocol
+- 共有リンクをコピーhttps://claude.com/blog/what-is-model-context-protocol
 
 AI models are only as good as the context provided to them. AI assistants like[Claude](https://claude.ai)can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
@@ -29,7 +28,7 @@ Think of MCP asUSB-C for LLMs. Just as USB-C provides a universal connector for 
 
 MCP brings this same simplicity to AI integrations. Before MCP, every application and database required custom code to connect with LLMs. Google Drive needed its own integration, Slack needed another, Figma yet another. Now, MCP provides a single, standardized format for connecting these tools to Claude and other AI applications.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f64b7d51a1d57549b3ad8e_What%20is%20MCP_%20Final%402x.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d8382558e1ff64db41_68f64b7d51a1d57549b3ad8e_What%2520is%2520MCP_%2520Final%25402x.png)
 
 ## Where did MCP come from?
 
@@ -119,7 +118,7 @@ Claude Connectors include integrations for:
 
 Each connector takes just a few seconds to configure to become part of Claude's working context. Outside of Claude, there is an ecosystem of MCP servers on the[open-source MCP Registry](https://modelcontextprotocol.io).
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e948c50eec666207cdd811_2.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d8382558e1ff64db3e_68e948c50eec666207cdd811_2.png)
 
 ## Start exploring MCP
 
@@ -147,50 +146,50 @@ If an existing MCP server doesn't already exist, creating your own takes some wo
 
 FAQ
 
-### Is MCP only for Claude?
+### MCP は Claude 専用ですか？
 
-No. MCP is an open-source protocol. While Claude pioneered adoption of MCP, other AI providers have now adopted the same protocol, allowing anyone to connect to the same ecosystem of MCP servers.
+いいえ。MCP はオープンソースのプロトコルです。Claude が MCP 採用の先駆けですが、現在では他の AI プロバイダーも同じプロトコルを採用しているため、誰でも MCP サーバーの同じエコシステムに接続できます。
 
-### Do I need programming skills to use MCP?
+### MCP を使用するにはプログラミングスキルが必要ですか？
 
-Not for using[connectors](https://claude.com/partners/mcp). Browse, install, authenticate. That's it. Building custom MCP servers requires TypeScript or Python knowledge, but the growing[connector library](https://claude.com/partners/mcp)covers most mainstream tools.
+[コネクタ](https://claude.com/partners/mcp)を使用する場合は不要です。参照、インストール、認証を行います。以上です。カスタム MCP サーバーを構築するには TypeScript または Python の知識が必要ですが、拡大中の[コネクタ](https://claude.com/partners/mcp)ライブラリはほとんどの主要なツールに対応しています。
 
-### How does security work for MCP?
+### MCP のセキュリティはどのように機能しますか？
 
-Each server requests specific permissions to allow Claude to access it. You can approve or deny access and revoke permissions at any time.
+各サーバーは、Claude にアクセスを許可する特定の権限を要求します。アクセスの承認または拒否が可能で、また、許可はいつでも取り消すことができます。
 
-### What is the performance like for MCP?
+### MCP でのパフォーマンスはどのようなものですか？
 
-MCP uses efficient protocols. Stdio transport for local servers provides minimal overhead. Server-sent events (SSE) and Streamable HTTP for remote servers maintain persistent connections. Response streaming prevents timeouts on large data operations. The protocol supports pagination, filtering, and partial responses to handle large datasets efficiently.
+MCP は効率的なプロトコルを使用しています。ローカルサーバー用の stdio トランスポートにより、オーバーヘッドが最小化できます。リモートサーバー用のサーバー送信イベント (SSE) と Streamable HTTP により、永続的な接続が維持されます。レスポンスストリーミングにより、大量のデータ操作でのタイムアウトを防止します。このプロトコルにより、ページネーション、フィルタリング、パーシャルレスポンスをサポートし、大規模なデータセットを効率的に処理します。
 
-## Related posts
+関連投稿
 
-Explore more product news and best practices for teams building with Claude.
+Claudeを活用した構築チーム向けの製品ニュースやベストプラクティスに関するその他の情報を提供します。
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
-### Cowork: Claude Code for the rest of your work
+### 企業全体のチームに向けた Cowork とプラグイン
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### Building multi-agent systems: When and how to use them
+### Building agents that reach production systems with MCP
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-### Best practices for prompt engineering
+### Harnessing Claude’s intelligence
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
 
-## Transform how your organization operates with Claude
+## 開発を始める
 
-Get the developer newsletter
+開発者向けニュースレターを入手
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイにお届けします。
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/what-is-model-context-protocol
+**Source:** https://claude.com/ja/blog/what-is-model-context-protocol
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

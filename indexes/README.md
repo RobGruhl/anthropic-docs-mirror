@@ -1,56 +1,56 @@
 # Claude Documentation Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
 ## Quick Stats
-- **Total Documents:** 1496
-- **Platform Docs:** 530
-- **Claude Code Docs:** 56
+- **Total Documents:** 2203
+- **Platform Docs:** 1166
+- **Claude Code Docs:** 132
 - **MCP Docs:** 168
-- **AgentSkills Docs:** 5
-- **Anthropic Research:** 101
-- **Anthropic News:** 190
+- **AgentSkills Docs:** 6
+- **Anthropic Research:** 102
+- **Anthropic News:** 192
 - **MCP Blog:** 13
-- **Engineering Blog:** 18
-- **Claude.com Blog:** 92
-- **Support Articles:** 323
-- **Topics:** 82
+- **Engineering Blog:** 24
+- **Claude.com Blog:** 132
+- **Support Articles:** 268
+- **Topics:** 83
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 530 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 56 docs from code.claude.com
+- [Platform Documentation](platform-docs.md) - 1166 docs from platform.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 132 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
-- [AgentSkills Documentation](agentskills-docs.md) - 5 docs from agentskills.io
-- [Anthropic Research](anthropic-research.md) - 101 research papers from anthropic.com/research
-- [Anthropic News](anthropic-news.md) - 190 news articles from anthropic.com/news
+- [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
+- [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
+- [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
-- [Engineering Blog](engineering-blog.md) - 18 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 92 product/API posts from claude.com/blog
-- [Support Articles](support-articles.md) - 323 help articles from support.claude.com
+- [Engineering Blog](engineering-blog.md) - 24 technical posts from anthropic.com/engineering
+- [Claude.com Blog](claude-blog.md) - 132 product/API posts from claude.com/blog
+- [Support Articles](support-articles.md) - 268 help articles from support.claude.com
 
 ### By Topic
-- [Mcp](topics/mcp.md) - 208 documents
-- [Products](topics/products.md) - 190 documents
-- [Announcements](topics/announcements.md) - 175 documents
-- [Company](topics/company.md) - 156 documents
-- [Partnerships](topics/partnerships.md) - 151 documents
+- [Mcp](topics/mcp.md) - 218 documents
+- [Claude Code](topics/claude-code.md) - 212 documents
+- [Partnerships](topics/partnerships.md) - 191 documents
+- [Products](topics/products.md) - 187 documents
+- [Announcements](topics/announcements.md) - 177 documents
+- [Company](topics/company.md) - 157 documents
 - [Policy](topics/policy.md) - 127 documents
-- [Claude Code](topics/claude-code.md) - 114 documents
+- [Api](topics/api.md) - 116 documents
+- [Skills](topics/skills.md) - 108 documents
 - [Specification](topics/specification.md) - 103 documents
-- [Societal Impacts](topics/societal-impacts.md) - 99 documents
-- [Api](topics/api.md) - 93 documents
-- [Skills](topics/skills.md) - 91 documents
-- [Capabilities](topics/capabilities.md) - 76 documents
-- [Evaluations](topics/evaluations.md) - 71 documents
-- [Safety](topics/safety.md) - 68 documents
-- [Agents](topics/agents.md) - 64 documents
-- [Alignment](topics/alignment.md) - 61 documents
+- [Agents](topics/agents.md) - 102 documents
+- [Evaluations](topics/evaluations.md) - 101 documents
+- [Societal Impacts](topics/societal-impacts.md) - 100 documents
+- [Capabilities](topics/capabilities.md) - 77 documents
+- [Tools](topics/tools.md) - 73 documents
+- [Safety](topics/safety.md) - 69 documents
+- [Alignment](topics/alignment.md) - 62 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
-- [Tools](topics/tools.md) - 44 documents
+- [Agent Sdk](topics/agent-sdk.md) - 33 documents
 - [Community](topics/community.md) - 32 documents
-- [Agent Sdk](topics/agent-sdk.md) - 29 documents
-- [View all 82 topics](topics/)
+- [View all 83 topics](topics/)
 
 ## How to Use This Index
 

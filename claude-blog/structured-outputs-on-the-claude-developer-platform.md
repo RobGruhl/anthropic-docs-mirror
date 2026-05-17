@@ -1,53 +1,50 @@
-# Structured outputs on the Claude Developer Platform
-*November 14, 2025*
+# Claude Developer Platform の構造化出力
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-# Structured outputs on the Claude Developer Platform
+# Claude Developer Platform の構造化出力
 
-Guarantee responses match your JSON schemas and tool definitions with structured outputs.
+構造化出力により、応答が JSON スキーマおよびツール定義と一致することを保証。
 
-- CategoryProduct announcements
+- カテゴリ製品発表
 
-- ProductClaude Developer Platform
+- 製品Claude Platform
 
-- DateNovember 14, 2025
+- 日付2025-11-14
 
-- Reading time5min
+- 読了時間5分
 
-- ShareCopy linkhttps://claude.com/blog/structured-outputs-on-the-claude-developer-platform
+- 共有リンクをコピーhttps://claude.com/blog/structured-outputs-on-the-claude-developer-platform
 
-Update:Now generally available (GA) natively on the Claude Developer Platform and in Amazon Bedrock for Claude Sonnet 4.5, Opus 4.5, and Haiku 4.5. GA adds support for more complex schemas. (Feb 4, 2026)
+最新情報：Claude Haiku 4.5で利用可能になりました。Claude Developer Platform（Claude Developer Platform）上でネイティブおよび Microsoft Foundry でサポートされています。 （2025年12月4日）
 
-Update:Now available on Claude Haiku 4.5—supported on the Claude Developer Platform, natively and in Microsoft Foundry. (Dec 4, 2025)
+Claude Developer Platform は、Claude Sonnet 4.5 と Opus 4.1 の構造化出力をサポートするようになりました。この機能は公開ベータ版として利用可能で、API レスポンスが常に指定された JSON スキーマまたはツール定義と一致するようにします。
 
-The Claude Developer Platform now supports structured outputs for Claude Sonnet 4.5 and Opus 4.1. Available in public beta, this feature ensures API responses always match your specified JSON schemas or tool definitions.
+構造化された出力により Claude の応答が定義されたスキーマに準拠していることが保証され、開発者はスキーマ関連の解析エラーやツール呼び出しの失敗を排除できます。画像からのデータ抽出、エージェントのオーケストレーション、外部APIとの統合など、あらゆる場面で有効です。
 
-With structured outputs, developers can eliminate schema-related parsing errors and failed tool calls by ensuring that Claude's responses conform to a defined schema—whether you're extracting data from images, orchestrating agents, or integrating with external APIs.
+### 信頼性の高いアプリケーションの構築
 
-### Building reliable applications
+本番環境でアプリケーションやエージェントを構築する開発者にとって、データ形式の単一エラーが連鎖的な障害を引き起こす可能性があります。構造化出力は、モデルの性能に影響を与えることなく、定義した構造と完全に一致する応答を保証することでこの問題を解決します。これにより、正確性が極めて重要なアプリケーションやエージェントにおいて、Claude は信頼性の高い選択肢となります。具体的には下記の例が挙げられます。
 
-For developers building applications and agents in production, a single error in data formatting can cause cascading failures. Structured outputs solves this by guaranteeing your response matches the exact structure you define, without any impact to model performance. This makes Claude dependable for applications and agents where accuracy is critical, including:
+- データ抽出：下流システムがエラーのない一貫したフォーマットに依存する場合。
 
-- Data extractionwhen downstream systems rely on error-free, consistent formats.
+- マルチエージェントアーキテクチャ：エージェント間の安定した通信が、パフォーマンスと安定性に不可欠な場合。
 
-- Multi-agent architectureswhere consistent communication between agents is critical for a performant, stable experience.
+- 複雑な検索ツール：複数の検索フィールドを正確に入力し、特定のパターンに準拠する必要がある場合。
 
-- Complex search toolswhere multiple search fields must be filled in accurately and conform to specific patterns.
+構造化出力は、JSON またはツールの 2 つの方法で利用できます。JSON と併用する場合、API リクエスト内にスキーマ定義を提供していただく必要があります。ツールに関しては、ツール仕様の定義を提供してくだだくと、Claude の出力は自動的にこれらのツール定義に準拠します。
 
-Structured outputs can be used two ways: with JSON or tools. When used with JSON, you provide your schema definition in the API request. For tools, you define your tool specifications, and Claude's output conforms to those tool definitions automatically.
+その結果、信頼性の高い出力が得られ、再試行回数が削減され、フェイルオーバーロジックや複雑なエラー処理が不要となる簡素化されたコードベースが実現します。
 
-The end result is a reliable output, reduced retries, and a simplified codebase that no longer needs failover logic or complex error handling.
+### お客様の事例：OpenRouter
 
-### Customer Spotlight: OpenRouter
+OpenRouter は 400 万以上の開発者に、単一の統合ンターフェイスを通じて主要 AI モデルすべてへのアクセスを提供しています。
 
-OpenRouter provides 4M+ developers access to all major AI models through a single, unified interface.
+「構造化出力はエージェント AI スタックにおいて非常に価値ある構成要素になりました。エージェントは常に構造化データを取り込み生成するため、Anthropic の構造化出力は開発者にとって真の課題を解決します。エージェントワークフローは常に安定して実行され、チームはツール呼び出しのデバッグを行うよりもお客様に集中できます」と OpenRouter の COO である Chris Clark 氏は述べています。
 
-"Structured outputs have become a really valuable part of the agentic AI stack. Agents constantly ingest and produce structured data, so Anthropic’s structured outputs close a real gap for developers. Agent workflows run reliably, every time, and teams can focus on their customers rather than debugging tool calls,” said Chris Clark, COO, OpenRouter.
+### 開始方法
 
-### Getting started
-
-Structured outputs is now available in public beta for Sonnet 4.5 and Opus 4.1 on the Claude Developer Platform, with support for Haiku 4.5 coming soon. Explore our[documentation](https://docs.claude.com/en/docs/build-with-claude/structured-outputs)for supported JSON schema types, implementation examples, and best practices.
+構造化出力はパブリックベータ版として、Claude Developer Platform において Sonnet 4.5 および Opus 4.1 で利用できるようになりました。Haiku 4.5 のサポートもまもなく開始される予定です。サポートされる JSON スキーマタイプ、実装例、ベストプラクティスの詳細は[ドキュメント](#)をご覧ください。
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -57,34 +54,34 @@ Structured outputs is now available in public beta for Sonnet 4.5 and Opus 4.1 o
 
 FAQ
 
-## Related posts
+関連投稿
 
-Explore more product news and best practices for teams building with Claude.
+Claudeを活用した構築チーム向けの製品ニュースやベストプラクティスに関するその他の情報を提供します。
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Bringing automated preview, review, and merge to Claude Code on desktop
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Increase web search accuracy and efficiency with dynamic filtering
+### Claude for the legal industry
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Cowork: Claude Code for the rest of your work
+### Claude Security is now in public beta
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Your favorite work tools are now interactive connectors inside Claude
+### Built-in memory for Claude Managed Agents
 
-## Transform how your organization operates with Claude
+## 開発を始める
 
-Get the developer newsletter
+開発者向けニュースレターを入手
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイにお届けします。
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/structured-outputs-on-the-claude-developer-platform
+**Source:** https://claude.com/ja/blog/structured-outputs-on-the-claude-developer-platform
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

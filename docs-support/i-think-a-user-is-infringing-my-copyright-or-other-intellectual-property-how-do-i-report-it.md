@@ -1,10 +1,10 @@
 # I think a user is infringing my copyright or other intellectual property. How do I report it?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
-If you believe someone is infringing your intellectual property rights, you can send us notice of the infringement and we’ll take appropriate action, which may include suspension or termination of the accounts of repeat copyright infringers. Notices can be submitted through [this form](https://docs.google.com/forms/d/e/1FAIpQLSeO9Hzkyf_hQ2fYkfP_cqAcJG5kdlkg1wF4drQEFK9Z6db7jg/viewform?usp=dialog) or by mail to the address below:
+If you believe someone is infringing your intellectual property rights, you can send us notice of the infringement and we’ll take appropriate action, which may include suspension or termination of the accounts of repeat copyright infringers. Notices can be submitted through [this form](https://claude.com/form/anthropic-content-reporting) or by mail to the address below:
 
  
 

@@ -64,6 +64,14 @@ Get Workspace
 
     - `"workspace"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/retrieve

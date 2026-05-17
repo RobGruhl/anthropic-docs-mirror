@@ -1,4 +1,5 @@
 # Claude Code와 Slack
+*May 12, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
@@ -54,21 +55,21 @@ FAQ
 
 Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Claude in Chrome 시범 실행하기
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### 웹용 Claude Code
+### Claude for the legal industry
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Claude에 메모리 도입하기
+### Claude Security is now in public beta
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2307f9555d7c1bc46cb_77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Agent Skills 소개
+### Built-in memory for Claude Managed Agents
 
 Claude와 함께 조직의 운영 방식을 혁신하세요
 
@@ -76,10 +77,10 @@ Claude와 함께 조직의 운영 방식을 혁신하세요
 
 개발자 뉴스레터 구독
 
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 이 소식을 받아보세요.
 
 월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 
 ---
-**Source:** https://claude.com/ko-kr/blog/claude-code-and-slack
+**Source:** https://claude.com/ko/blog/claude-code-and-slack
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

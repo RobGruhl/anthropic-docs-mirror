@@ -1,6 +1,6 @@
 # Understanding your billing address and tax calculation
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -49,7 +49,7 @@ Once verified, your billing address won't automatically update when you change p
 ## Related Articles
 
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
-- [I need to add or update my paid Claude account’s Tax or VAT ID](https://support.claude.com/en/articles/9889408-i-need-to-add-or-update-my-paid-claude-account-s-tax-or-vat-id)
-- [I need to add or update my Claude Console organization's tax or VAT ID](https://support.claude.com/en/articles/9889428-i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id)
-- [Claude Console Roles and Permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
+- [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
+- [Add or update your Claude Console organization's tax or VAT ID](https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id)
+- [Add or update your Team plan's tax or VAT ID](https://support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id)
+- [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

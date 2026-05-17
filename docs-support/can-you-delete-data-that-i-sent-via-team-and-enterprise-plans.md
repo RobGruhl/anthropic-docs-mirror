@@ -1,6 +1,6 @@
 # Can you delete data that I sent via Team and Enterprise plans?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -27,8 +27,8 @@ Enterprise plan customers can also set [custom retention timelines](https://supp
 
 ## Related Articles
 
-- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
 - [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
-- [Custom data retention controls for Enterprise plans](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans)
-- [Cowork for Team and Enterprise plans](https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans)
+- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
+- [Configure custom data retention controls for Enterprise plans](https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans)
+- [Claude Design admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans)

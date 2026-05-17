@@ -1,9 +1,9 @@
 # Api Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Api across all sources (93 documents)
+Documents related to Api across all sources (116 documents)
 ---
-## Platform Documentation (platform.claude.com) (70)
+## Platform Documentation (platform.claude.com) (80)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
 - [beta__skills__create](/platform-docs/api-reference/beta__skills__create.md)
 - [beta__skills__delete](/platform-docs/api-reference/beta__skills__delete.md)
@@ -14,6 +14,16 @@ Documents related to Api across all sources (93 documents)
 - [beta__skills__versions__delete](/platform-docs/api-reference/beta__skills__versions__delete.md)
 - [beta__skills__versions__list](/platform-docs/api-reference/beta__skills__versions__list.md)
 - [beta__skills__versions__retrieve](/platform-docs/api-reference/beta__skills__versions__retrieve.md)
+- [cli__beta__skills](/platform-docs/api-reference/cli__beta__skills.md)
+- [cli__beta__skills__create](/platform-docs/api-reference/cli__beta__skills__create.md)
+- [cli__beta__skills__delete](/platform-docs/api-reference/cli__beta__skills__delete.md)
+- [cli__beta__skills__list](/platform-docs/api-reference/cli__beta__skills__list.md)
+- [cli__beta__skills__retrieve](/platform-docs/api-reference/cli__beta__skills__retrieve.md)
+- [cli__beta__skills__versions](/platform-docs/api-reference/cli__beta__skills__versions.md)
+- [cli__beta__skills__versions__create](/platform-docs/api-reference/cli__beta__skills__versions__create.md)
+- [cli__beta__skills__versions__delete](/platform-docs/api-reference/cli__beta__skills__versions__delete.md)
+- [cli__beta__skills__versions__list](/platform-docs/api-reference/cli__beta__skills__versions__list.md)
+- [cli__beta__skills__versions__retrieve](/platform-docs/api-reference/cli__beta__skills__versions__retrieve.md)
 - [csharp__beta__skills](/platform-docs/api-reference/csharp__beta__skills.md)
 - [csharp__beta__skills__create](/platform-docs/api-reference/csharp__beta__skills__create.md)
 - [csharp__beta__skills__delete](/platform-docs/api-reference/csharp__beta__skills__delete.md)
@@ -75,28 +85,41 @@ Documents related to Api across all sources (93 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (23)
+## Claude.com Blog Posts (36)
+- [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
+- [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
+- [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Claude 2 on Amazon Bedrock](/claude-blog/claude-2-amazon-bedrock.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
+- [Claude Developer Platform の構造化出力](/claude-blog/structured-outputs-on-the-claude-developer-platform.md) - ![](https://cdn
+- [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude Sonnet 4 now supports 1M tokens of context](/claude-blog/1m-context.md) - ![](https://cdn
 - [Claude can now use tools](/claude-blog/tool-use-ga.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
+- [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
+- [Fine-tune Claude 3 Haiku in Amazon Bedrock](/claude-blog/fine-tune-claude-3-haiku.md) - ![](https://cdn
 - [Get to production faster with the upgraded Anthropic Console](/claude-blog/upgraded-anthropic-console.md) - ![](https://cdn
 - [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing Citations on the Anthropic API](/claude-blog/introducing-citations-api.md) - ![](https://cdn
+- [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Introducing the Message Batches API](/claude-blog/message-batches-api.md) - ![](https://cdn
 - [Introducing web search on the Anthropic API](/claude-blog/web-search-api.md) - ![](https://cdn
-- [Introduction to agentic coding](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
+- [Preparing your security program for AI-accelerated offense](/claude-blog/preparing-your-security-program-for-ai-accelerated-offense.md) - ![](https://cdn
+- [Product management on the AI exponential](/claude-blog/product-management-on-the-ai-exponential.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
-- [Skills가 프롬프트, 프로젝트, MCP, 서브 에이전트와 다른 점](/claude-blog/skills-explained.md) - ![](https://cdn
-- [Structured outputs on the Claude Developer Platform](/claude-blog/structured-outputs-on-the-claude-developer-platform.md) - ![](https://cdn
+- [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
+- [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
+- [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Token-saving updates on the Anthropic API](/claude-blog/token-saving-updates.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Workspaces in the Anthropic API Console](/claude-blog/workspaces.md) - ![](https://cdn
+- [スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較](/claude-blog/skills-explained.md) - ![](https://cdn
 

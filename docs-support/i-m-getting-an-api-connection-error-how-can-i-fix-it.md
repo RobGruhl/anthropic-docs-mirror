@@ -1,6 +1,6 @@
 # I'm getting an API connection error. How can I fix it?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -19,6 +19,6 @@ If you need to [contact our Support team](https://support.claude.com/en/articles
 
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [Where can I go for Claude API support and assistance?](https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance)
-- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
-- [Deploying enterprise-grade MCP servers with desktop extensions](https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions)
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [How can I check connectivity to the Claude API?](https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api)

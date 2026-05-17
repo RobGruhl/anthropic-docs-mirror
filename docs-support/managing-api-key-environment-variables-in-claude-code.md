@@ -1,10 +1,8 @@
-# Managing API key environment variables in Claude Code
+# Manage API key environment variables in Claude Code
 
 *Updated over a week ago*
 
 ---
-
-## Understanding authentication priority in Claude Code
 
 When using Claude Code, it's important to understand how authentication methods are prioritized to avoid unexpected API charges and ensure you're using your intended account.
 
@@ -36,7 +34,7 @@ Claude Code will notify you when there's a conflict between your authenticated s
 
  
 
-## Checking your current configuration
+## Check your current configuration
 
 To verify if an API key is set as an environment variable, run /status in Claude Code. This will show you which authentication method is currently active.
 
@@ -66,7 +64,7 @@ echo $env:ANTHROPIC_API_KEY
 
  
 
-## Setting an API key temporarily
+## Set an API key temporarily
 
 If you need to use an API key for the current terminal session only:
 
@@ -92,7 +90,7 @@ $env:ANTHROPIC_API_KEY="your-api-key-here"
 
  
 
-## Setting an API key environment variable permanently
+## Set an API key environment variable permanently
 
 macOS/Linux:
 
@@ -125,7 +123,7 @@ Windows:
 
  
 
-## Removing an API key environment variable
+## Remove an API key environment variable
 
 macOS/Linux (temporary):
 
@@ -179,15 +177,15 @@ Windows (permanent): Delete the variable from System Environment Variables setti
 - Not restarting your terminal after changing environment variables.
 - Assuming you're using your subscription when an API key is configured in your environment.
 
-If you have any questions, please [contact our Support team](https://support.claude.com/en/articles/9015913-how-to-get-support).
+If you have any questions, please **[contact our Support team](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
 
 
 ---
 
 ## Related Articles
 
-- [API Key Best Practices: Keeping Your Keys Safe and Secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
+- [Your first day in Claude Code](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code)
+- [Troubleshoot Claude Code installation and authentication](https://support.claude.com/en/articles/14552646-troubleshoot-claude-code-installation-and-authentication)

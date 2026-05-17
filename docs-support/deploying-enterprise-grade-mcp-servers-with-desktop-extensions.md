@@ -1,6 +1,6 @@
 # Deploying enterprise-grade MCP servers with desktop extensions
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -59,8 +59,8 @@ Desktop extensions eliminate the traditional tradeoff between security and usabi
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Enabling and using the desktop extension allowlist](https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist)
 - [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
-- [Building Desktop Extensions with MCPB](https://support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb)

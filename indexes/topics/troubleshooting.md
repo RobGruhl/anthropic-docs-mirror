@@ -1,8 +1,9 @@
 # Troubleshooting Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Troubleshooting across all sources (1 documents)
+Documents related to Troubleshooting across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
+- [Troubleshoot Install](/code-claude-docs/troubleshoot-install.md)
 - [Troubleshooting](/code-claude-docs/troubleshooting.md)
 

@@ -1,6 +1,6 @@
 # Claude for Nonprofits Partnership Guide for All Users
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -95,8 +95,8 @@ There's no single "right" way to integrate Claude into your work. Some team memb
 
 ## Related Articles
 
-- [Getting started with Claude](https://support.claude.com/en/articles/8114491-getting-started-with-claude)
-- [Claude for Marketing](https://support.claude.com/en/articles/9945697-claude-for-marketing)
-- [Claude for Sales](https://support.claude.com/en/articles/9945703-claude-for-sales)
-- [Prototype AI-Powered Apps with Claude artifacts](https://support.claude.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
+- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Claude for Nonprofits Partnership Success Guide for Admins](https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins)
+- [Claude Code user FAQ](https://support.claude.com/en/articles/14554922-claude-code-user-faq)
+- [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

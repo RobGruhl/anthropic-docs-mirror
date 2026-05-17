@@ -1,6 +1,6 @@
 # Holiday 2025 Usage Promotion
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -56,6 +56,6 @@ Additional usage is available from December 25, 2025 at 12:00 AM UTC through Dec
 
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Using Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
-- [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Claude March 2026 usage promotion](https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion)
+- [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)

@@ -1,6 +1,6 @@
 # Switching to a different Identity Provider (IdP)
 
-*Updated today*
+*Updated over a month ago*
 
 ---
 
@@ -23,22 +23,22 @@ This guide walks you through the process of migrating your Claude or Console org
 
 1. **Disable SCIM pushes from your current IdP** (if applicable): Stop Create/Update events on your current IdP's side to prevent any sync signals from being sent during the migration.
 1. 1. For more information about SCIM, see **[Setting up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)**.
-2. **Switch provisioning mode to Manual** (if applicable): Wait approximately one hour after disabling SCIM pushes, then navigate to the "Identity and access" page on **all** connected Claude (claude.ai/admin-settings/identity) or Console (platform.claude.com/settings/identity) organizations. Under **Global SSO Configuration**, set the provisioning mode to Manual.
+2. **Switch provisioning mode to "Invite only"** (if applicable): Wait approximately one hour after disabling SCIM pushes, then navigate to the "Identity and access" page on **all** connected Claude (claude.ai/admin-settings/organization) or Console (platform.claude.com/settings/identity) organizations. Under **Global SSO Configuration**, set the provisioning mode to "Invite only."
 2. 1. This stops SCIM from automatically managing users—users remain in the organization but are no longer subject to SCIM events.
-3. **Delete the SCIM directory** (if applicable): Click "Manage SCIM" > "Delete Directory." When in Manual mode, deleting the directory will not trigger directory sync events, including user deprovisioning.
+3. **Delete the SCIM directory** (if applicable): Click "Manage SCIM" > "Delete Directory." When in invite only mode, deleting the directory will not trigger directory sync events, including user deprovisioning.
 4. **Reset the SSO connection**: Click "Manage SSO" > "Reset Connection."
 4. 1. **Important:** This will sign out all users. They will be able to **[sign in via email link](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account#h_869b162f56)** until the new IdP is configured for SSO.
 5. **Verify the reset**: Refresh the "Identity and access" page and confirm that the button state has changed from "Manage SSO" to "Setup SSO."
 6. **Set up your new IdP for SSO and provisioning**: Follow the **[SSO setup steps](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso)** and **[configure JIT or SCIM](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)** with group mappings enabled (if needed) to ensure all users are assigned in the new IdP with the correct groups for all your connected Claude and/or Console organizations. If applicable, after setup you can click "Manage SCIM" to verify which users have synced to the directory and confirm they're associated with the correct groups.
-7. **Re-enable provisioning** (if applicable): Switch the provisioning mode to Just-in-Time (JIT) or Directory Sync (SCIM) and click "Save Changes" to apply.
+7. **Re-enable provisioning** (if applicable): Select "Approve automatically (JIT)" or "Sync with SCIM" to switch the provisioning mode and click "Save Changes" to apply.
 
 
 ---
 
 ## Related Articles
 
-- [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Getting Started with Claude for Education at Your University (for Owners/Admins)](https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
-- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
+- [Ping Identity SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917875-ping-identity-sso-scim-email-mismatch)
+- [Ping Identity SSO setup](https://support.claude.com/en/articles/13917902-ping-identity-sso-setup)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

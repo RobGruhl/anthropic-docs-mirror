@@ -1,6 +1,6 @@
 # Using Claude with iOS Apps
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -254,6 +254,6 @@ Claude will only request permissions if needed for specific features, and you ca
 
 - [Installing Claude for iOS](https://support.claude.com/en/articles/9266462-installing-claude-for-ios)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
-- [Use the Connectors Directory to extend Claude’s capabilities](https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities)
 - [Using Claude with Android Apps](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps)
-- [Using the Blackbaud Connector in Claude](https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

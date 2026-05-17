@@ -1,6 +1,6 @@
 # Claude is providing incorrect or misleading responses. What’s going on?
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -31,8 +31,8 @@ To learn more about how Anthropic’s technology works and our research on devel
 
 ## Related Articles
 
+- [Understanding Claude's personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
-- [Getting Started with Claude for Financial Services](https://support.claude.com/en/articles/11771619-getting-started-with-claude-for-financial-services)
-- [Claude for Financial Services Overview](https://support.claude.com/en/articles/12219959-claude-for-financial-services-overview)
-- [Teach Claude your way of working using skills](https://support.claude.com/en/articles/12580051-teach-claude-your-way-of-working-using-skills)
-- [Getting Started with Claude for Life Sciences](https://support.claude.com/en/articles/12614768-getting-started-with-claude-for-life-sciences)
+- [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
+- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
+- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)

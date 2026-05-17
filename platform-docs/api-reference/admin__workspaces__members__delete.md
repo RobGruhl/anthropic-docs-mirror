@@ -32,6 +32,15 @@ Delete Workspace Member
 
   ID of the Workspace.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/members/delete

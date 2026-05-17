@@ -44,7 +44,7 @@ List Users
 
     Name of the User.
 
-  - `role: "user" or "developer" or "billing" or 3 more`
+  - `role: "user" or "developer" or "billing" or 2 more`
 
     Organization role of the User.
 
@@ -57,8 +57,6 @@ List Users
     - `"admin"`
 
     - `"claude_code_user"`
-
-    - `"managed"`
 
   - `type: "user"`
 
@@ -79,6 +77,14 @@ List Users
 - `last_id: string`
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/users \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 
 ---

@@ -1,16 +1,12 @@
 # Create and edit files with Claude
 
-*Updated this week*
+*Updated over 2 weeks ago*
 
 ---
 
 Claude can execute code to create and work with files directly in your conversations. Prompt Claude using natural language to generate Excel spreadsheets, PowerPoint presentations, Word documents, and PDF files that you can download and use immediately.
 
 These capabilities make it easy to produce professional documents by simply chatting with Claude. You can create financial models in Excel with working formulas, perform advanced analyses on uploaded data, produce reports with charts and visualizations, and generate presentations from your documents—all without specialized software skills.
-
- 
-
-Claude's file creation abilities are powered by Sonnet 4.6, which excels at working with documents, spreadsheets, and presentations. You can expect accurate Excel formulas, better document formatting, and more reliable file manipulation overall.
 
  
 
@@ -24,18 +20,20 @@ Claude's file creation abilities are powered by Sonnet 4.6, which excels at work
 
 - Code execution and file creation is enabled by default
 - Network access is enabled, allowing Claude to install packages from approved sources
+-  
 
 **Team plan:**
 
-- Code execution and file creation is enabled by default for all members once an organization owner turns it on
+- Code execution and file creation is enabled by default for Team plan organizations
+- Organization owners can disable it in organization settings
 - Network access is disabled by default; owners can enable it in organization settings
-- New organizations have this feature disabled by default
+-  
 
 **Enterprise plan:**
 
-- Code execution and file creation is disabled by default
-- Organization owners must enable it in Settings
-- Network access is disabled by default
+- Code execution and file creation is enabled by default for new Enterprise plan organizations
+- Organization owners can disable it in organization settings
+- Network access is disabled by default; owners can enable it in organization settings
 - Owners can configure network access controls, including domain whitelisting 
 
  
@@ -48,11 +46,11 @@ Claude's file creation abilities are powered by Sonnet 4.6, which excels at work
 
 ### Enabling on web and desktop
 
-**Enterprise plans: **This capability is disabled by default at the organization level. Owners can manually enable it in **[Organization settings > Capabilities](http://claude.ai/admin-settings/capabilities)** by toggling **Code execution and file creation** on. Individual members still need to opt in to file creation in **[Settings > Capabilities](http://claude.ai/settings/capabilities)** before using this feature.
+**Enterprise plans: **This capability is enabled by default at the organization level with **Allow network egress** toggled off for new Enterprise organizations. Owners can adjust this in **[Organization settings > Capabilities](http://claude.ai/admin-settings/capabilities)** using the **Code execution and file creation** toggle.
 
  
 
-**Team plans: **This capability is enabled by default at the organization level with **Allow network egress** toggled on with access to package managers only. An organization owner can manually disable this for the organization in **[Organization settings > Capabilities](http://claude.ai/admin-settings/capabilities)** if needed, or individual members can disable it in **[Settings > Capabilities](http://claude.ai/settings/capabilities)** for their accounts.
+**Team plans: **This capability is enabled by default at the organization level with **Allow network egress** toggled on with access to package managers only. An organization owner can manually disable this for the organization in **[Organization settings > Capabilities](http://claude.ai/admin-settings/capabilities)** if needed.
 
  
 
@@ -64,7 +62,7 @@ To give Claude access to external data sources, toggle **Allow network egress** 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1771884000&signature=395a80686a86143059e22fcfd6b70e5d648f991a4d6c55b40d1869b7fceab20f&req=diAiEs55mYFfXPMW1HO4zYFJxAxNBJ3OPQVowIiib2lE2rRVF%2FD6PSOoZbMY%0Af1vtpQnZ%2FPdE7T26iK4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1778979600&signature=726c35ee5c18923059413f7ce30c3ba1a91e0ca6cfc154781f9dc47005f19049&req=diAiEs55mYFfXPMW1HO4zYFJxAVMC5DIPQVowIiib2nMCQ5pLQmmVKc0tBUx%0Ay0wqdyAwoub6DJvi0sM%3D%0A)
 
  
 
@@ -88,7 +86,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1771884000&signature=edc04e817c44d9463a1f488f7784c0b597c5155f8ebd3e488ee7c4df57a3c788&req=dScvH8B6mIJZW%2FMW1HO4zXJcCWxLnS1LpMW6Iph6YZf4SB7AeYwKRbXbflyz%0AqtnQwreCS%2BDW2Cg%2FhQs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1778979600&signature=a8e83a836f5fc29158c0660a91fca6dda4679b9e0e8727f4dc8d7afe82d97308&req=dScvH8B6mIJZW%2FMW1HO4zXJcCWVKkiBNpMW6Iph6YZeA6rQrfIvyUqBMpl7w%0A1x92M3NgmJHgk8xAI1U%3D%0A)
 
  
 
@@ -96,7 +94,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1771884000&signature=5b3ef75f5b4abe9cd0be0b4fa4684908d24021eb425704d82900aa66d1548b42&req=dScvH8B6mIJZWPMW1HO4zdnsdxWa5juiqgKIA6CM1trhV19d6H46RMfEscwL%0Ahd4mozKCQa0K5Uj9DbE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1778979600&signature=22340830611cec95a5d25f01f90df5d86c5039ed45949baca961338a84ff75b3&req=dScvH8B6mIJZWPMW1HO4zdnsdxyb6TakqgKIA6CM1toXY7lREuEBNeB8XRzp%0AKkL2GaNghupP%2Fbe13o0%3D%0A)
 
  
 
@@ -343,7 +341,7 @@ Claude will pull the data, organize it in spreadsheet format, and add visualizat
 
  
 
-### Perform Complex Analyses
+### Perform complex analyses
 
 Upload a CSV with data and ask Claude to build a machine learning model to predict a particular outcome. Have Claude output a report summarizing what it did and the results. Claude will use python to train a model on your data, and provide an explanation of what it did, including the quality of the model, and the results.
 
@@ -388,8 +386,8 @@ Yes you are still able to create artifacts (e.g., HTML or react apps, markdown d
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
-- [Create and edit files with Claude to eliminate hours of busy work](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)
-- [Create professional results across tools with Claude Sonnet 4.5](https://support.claude.com/en/articles/12439380-create-professional-results-across-tools-with-claude-sonnet-4-5)
-- [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
-- [Claude for Financial Services Skills](https://support.claude.com/en/articles/12663107-claude-for-financial-services-skills)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
+- [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)

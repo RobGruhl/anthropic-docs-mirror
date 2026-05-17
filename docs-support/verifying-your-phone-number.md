@@ -1,6 +1,6 @@
 # Verifying your phone number
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ When you first create a Claude account, you’ll be asked to enter your phone nu
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1771884000&signature=f2c0947d8840e5152f0b18fce832d08f8435de31f39c7437b0677b42ecac75b2&req=dSguFch5noBbWvMW1HO4zVIf%2F5Fr1C56oTnI%2BoMZk7egA0aY3Azgp8JL%2FZyF%0AmJSL8RAe9vnUORGlBnM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1778979600&signature=94b72abd081bcf97abfd0650433669b5742bc810ccce2f3b1da7f07176b4beef&req=dSguFch5noBbWvMW1HO4zVIf%2F5hq2yN8oTnI%2BoMZk7cjJjmfpJB0BOlRkShj%0AyiHTCR3ixDRg7szDDmA%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ There isn’t a way to change your phone number associated with your Claude acco
 ## Related Articles
 
 - [How do I change the email address associated with my account?](https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account)
-- [Why am I being asked to verify my payment method?](https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method)
-- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
+- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

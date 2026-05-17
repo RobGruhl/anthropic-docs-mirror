@@ -1,8 +1,9 @@
 # Checkpointing Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Checkpointing across all sources (1 documents)
+Documents related to Checkpointing across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
 - [Checkpointing](/code-claude-docs/checkpointing.md)
+- [File Checkpointing](/code-claude-docs/agent-sdk__file-checkpointing.md)
 

@@ -1,6 +1,6 @@
 # Usage limit best practices
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -135,7 +135,7 @@ By following these best practices, you can make the most efficient use of your C
 ## Related Articles
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
-- [Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)
+- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

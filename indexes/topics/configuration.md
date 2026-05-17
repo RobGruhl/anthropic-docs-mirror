@@ -1,9 +1,11 @@
 # Configuration Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Configuration across all sources (8 documents)
+Documents related to Configuration across all sources (10 documents)
 ---
-## Claude Code Documentation (8)
+## Claude Code Documentation (10)
+- [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
+- [Debug Your Config](/code-claude-docs/debug-your-config.md)
 - [Model Config](/code-claude-docs/model-config.md)
 - [Network Config](/code-claude-docs/network-config.md)
 - [Output Styles](/code-claude-docs/output-styles.md)

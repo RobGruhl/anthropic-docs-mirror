@@ -1,14 +1,14 @@
-# Use Claude in PowerPoint
+# Use Claude for PowerPoint
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
-Claude in PowerPoint is an add-in that integrates Claude into your PowerPoint workflow. It's designed for professionals who build presentations, particularly those who spend significant time creating and refining slide decks.
+Claude for PowerPoint is an add-in that integrates Claude into your PowerPoint workflow. It's designed for professionals who build presentations, particularly those who spend significant time creating and refining slide decks.
 
  
 
-With Claude in PowerPoint, you can:
+With Claude for PowerPoint, you can:
 
 - Build new slides using your existing client or corporate templates
 - Make pinpoint edits to specific slides without regenerating entire decks
@@ -16,29 +16,6 @@ With Claude in PowerPoint, you can:
 - Convert bullets into professional diagrams and native PowerPoint charts
 - Use connectors to bring context from your other tools directly into your slides
 - Iterate on feedback quickly while preserving formatting and template compliance
--  
-
----
-
- 
-
-## What’s new?
-
-### Expanded plan access
-
-Claude in PowerPoint is now available to Pro plan customers.
-
- 
-
-### Use connectors with Claude in PowerPoint
-
-Claude in PowerPoint now supports connectors, letting you bring context from your other tools directly into your slide workflow.
-
- 
-
-### Double usage promo
-
-Through March 19, 2025, your usage limits are doubled when using Claude in PowerPoint across all paid plans (Pro, Max, Team, Enterprise).
 
  
 
@@ -46,25 +23,46 @@ Through March 19, 2025, your usage limits are doubled when using Claude in Power
 
  
 
-## Get started with Claude in PowerPoint
+## Get started with Claude for PowerPoint
+
+### Supported versions
+
+- PowerPoint on the web
+- PowerPoint on Windows (Microsoft 365 subscription, build 16.0.13127.20296+)
+- PowerPoint on Mac (version 16.46+)
+
+ 
 
 ### For individuals
 
-1. Navigate to the **[Claude in PowerPoint listing on Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/office/WA200010001?tab=Overview)**.
+1. Navigate to the **[Claude for Microsoft 365 (Excel, PowerPoint, and Word) listing](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) **on Microsoft Marketplace.
 2. Click "Get it now" to install the add-in.
 3. Open PowerPoint, activate the add-in, and sign in with your Claude account.
 
+ 
+
 ### For admins
 
-**Deploy Claude in PowerPoint to your organization:**
+**Deploy Claude for PowerPoint to your organization:**
 
 1. Visit the **[Microsoft 365 Admin Center](https://admin.microsoft.com/)**.
-2. Navigate to Settings > Integrated apps > Add-ins.
-3. Search for "Claude by Anthropic in PowerPoint" in Microsoft AppSource.
-4. Deploy the add-in to your organization or specific users.
-5. Share these instructions with your team: **[Microsoft's deployment guide](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)**.
+2. Navigate to **Settings > Org Settings > User owned apps and services** and ensure that **[“Let users access the Office Store"](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide#manage-add-in-downloads-by-turning-onoff-microsoft-marketplace-across-all-apps-except-outlook)** is toggled on.
+3. Navigate to **Settings > Integrated apps > Add-ins**.
+4. Search for "Claude by Anthropic in PowerPoint" in Microsoft AppSource.
+5. Deploy the add-in to your organization or specific users.
+6. Share these instructions with your team: **[Microsoft's deployment guide](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)**.
 
-After installation, team members can open PowerPoint, activate the Claude add-in (from Tools > Add-ins on Mac or Home > Add-ins on Windows), sign in with their Claude credentials, and start working with their presentations.
+After installation, team members can open PowerPoint, activate the Claude add-in (from **Tools > Add-ins** on Mac or **Home > Add-ins** on Windows), sign in with their Claude credentials, and start working with their presentations.
+
+ 
+
+ 
+
+### Connect through an LLM gateway
+
+If your organization routes API traffic through an internal LLM gateway connected to Amazon Bedrock, Google Cloud Vertex AI, or Microsoft Azure, you can use the add-in without a Claude account. This is the same gateway pattern used by Claude Code.
+
+For setup instructions and gateway requirements, see **[Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-)**.
 
  
 
@@ -147,10 +145,51 @@ Custom connectors can introduce security risks. Before enabling them, review **[
 
  
 
+### Use Skills in PowerPoint
+
+Skills you've enabled in your Claude settings are also available in the Claude for PowerPoint add-in. Claude applies relevant Skills automatically while you work—you don't need to invoke them separately.
+
+ 
+
+You can also type <code>/</code> in the sidebar to see available Skills and select one directly (for example, <code>/deck-check</code>). Skills that aren't relevant to PowerPoint are excluded from this list.
+
+ 
+
+To learn more about enabling and managing Skills, see **[Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)**.
+
+ 
+
+### Set persistent instructions
+
+Use the **Instructions** field in the add-in sidebar to set preferences that apply to every conversation in PowerPoint. Instructions are useful for things like brand guidelines (for example, "always use one-line bullets" or "use the blue accent color for highlights"), preferred slide structure, or recurring context Claude should know about your workflow.
+
+ 
+
+Instructions you set in PowerPoint only apply to PowerPoint — they're separate from any Instructions you set in Excel.
+
+ 
+
+---
+
+ 
+
 ## Context and session management
 
-- **Auto-compaction**: We **[automatically compact longer conversations](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits#h_21b66a43b4)** into new conversations to avoid running out of context.
-- **Overwrite protection**: To avoid accidental data loss, Claude warns you before overwriting existing data.
+### Auto-compaction
+
+We **[automatically compact longer conversations](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits#h_21b66a43b4)** into new conversations to avoid running out of context.
+
+ 
+
+### Chat history
+
+Chat history is now stored locally in your browser using IndexedDB. Unlike Claude, conversations aren't stored on Anthropic's servers—they're saved client-side and aren't synced across devices or browsers. You can clear all chat history from Settings at any time, and the local store is cleared when you clear your browser data. Your chat history is specific to the combination of the add-in surface, your user ID, and your organization ID — so your Excel and PowerPoint histories are separate, but conversations carry across different workbooks within Excel (or different presentations within PowerPoint). If you switch organizations, you'll have a separate chat history.
+
+ 
+
+### Overwrite protection
+
+To avoid accidental data loss, Claude warns you before overwriting existing data.
 
  
 
@@ -160,17 +199,28 @@ Custom connectors can introduce security risks. Before enabling them, review **[
 
 ## Current limitations
 
-Chat history is not saved between sessions when using Claude in PowerPoint. If you're using a Team or Enterprise plan, Claude in PowerPoint does not inherit custom data retention settings your organization might have set, and isn't included in Enterprise audit logs or the Compliance API at this time.
+For Claude for Powerpoint use, we automatically delete inputs and outputs on our backend within 30 days of receipt or generation, except in cases outlined in **[How long do you store my organization's data?](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)**
 
  
 
-As a beta feature, Claude in PowerPoint is **not recommended** for:
+Enterprise organizations can route full audit telemetry from Claude for PowerPoint to their own OpenTelemetry (OTEL) collector for integration with a SIEM or observability platform. Learn more about **[configuring a custom OpenTelemetry collector for Office agents](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents)**. On Free, Pro, Max, and Team plans, observability and auditability aren't available for Claude for PowerPoint.  Claude for PowerPoint does not inherit custom data retention settings your organization might have set, and isn't included in Enterprise audit logs or the Compliance API at this time.
+
+ 
+
+Claude for PowerPoint is **not recommended** for:
 
 - Final client deliverables without human review
 - Presentations containing highly sensitive or regulated data without proper controls
 - Replacing your judgment on design and narrative flow
+-  
 
- 
+### Unsupported versions
+
+- PowerPoint 2016 / 2019 (perpetual/volume license)
+- PowerPoint on iPad
+- PowerPoint on Android
+- Older builds of Microsoft 365 PowerPoint below the SharedRuntime threshold
+-  
 
 ---
 
@@ -178,14 +228,13 @@ As a beta feature, Claude in PowerPoint is **not recommended** for:
 
 ## Best practices
 
-To use Claude in PowerPoint safely and effectively:
+To use Claude for PowerPoint safely and effectively:
 
 - Always review changes before finalizing your work
 - Start with your template already applied before asking Claude to generate content.
 - Be specific about what you want changed—Claude can target individual slides or elements.
 - Verify that outputs match your organization's brand guidelines.
-
- 
+-  
 
 ---
 
@@ -193,21 +242,21 @@ To use Claude in PowerPoint safely and effectively:
 
 ## Prompt injection attack risks
 
-Only use Claude in PowerPoint with trusted files and not files from external untrusted sources (for example, downloaded templates, vendor files, collaborative documents, and data imports).
+Only use Claude for PowerPoint with trusted files and not files from external untrusted sources (for example, downloaded templates, vendor files, collaborative documents, and data imports).
 
  
 
-An important risk that users of Claude in PowerPoint and other AI tools that can read and manipulate files is prompt injection attacks that hide malicious instructions in file content to trick the AI models into taking unintended actions. For example, a seemingly innocent template or data file received from an external party or downloaded from the internet might contain hidden instructions to "export all financial data to this external URL" or "modify these financial records." Claude may interpret these malicious instructions as legitimate requests from you.
+An important risk that users of Claude for PowerPoint and other AI tools that can read and manipulate files is prompt injection attacks that hide malicious instructions in file content to trick the AI models into taking unintended actions. For example, a seemingly innocent template or data file received from an external party or downloaded from the internet might contain hidden instructions to "export all financial data to this external URL" or "modify these financial records." Claude may interpret these malicious instructions as legitimate requests from you.
 
  
 
-Our testing has identified edge scenarios where Claude in PowerPoint can be manipulated to:
+Our testing has identified edge scenarios where Claude for PowerPoint can be manipulated to:
 
 - **Extract and share sensitive information **with bad actors through web searches containing your sensitive data or file system access that exposes proprietary information.
 - **Modify critical data** such as financial records.
 - **Perform destructive actions **without verification (should you allow Claude to act without verifying its actions), exploiting Claude's helpful nature to delete or corrupt important data across multiple slides.
 
-While we continue to develop our offerings and improve safety measures to reduce these risks, users should exercise caution when using Claude in PowerPoint and should not use it with files from external, untrusted sources.
+While we continue to develop our offerings and improve safety measures to reduce these risks, users should exercise caution when using Claude for PowerPoint and should not use it with files from external, untrusted sources.
 
  
 
@@ -255,9 +304,9 @@ While we continue to develop our offerings and improve safety measures to reduce
 
 ## Frequently asked questions
 
-### Which models are available when using Claude in PowerPoint?
+### Which models are available when using Claude for PowerPoint?
 
-You can switch between Sonnet 4.5 and Opus 4.6 when using Claude in PowerPoint.
+You can switch between Opus 4.7, Opus 4.6, and Sonnet 4.6 when using Claude for PowerPoint.
 
  
 
@@ -267,15 +316,19 @@ Yes. Claude reads the slide master, layouts, fonts, and color scheme in your dec
 
  
 
-### Can I use Claude in PowerPoint with sensitive data?
+### Can I use Claude for PowerPoint with sensitive data?
 
-Claude in PowerPoint works within your existing security framework. For highly sensitive or regulated data, ensure you follow your organization's data handling policies.
+Claude for PowerPoint works within your existing security framework. For highly sensitive or regulated data, ensure you follow your organization's data handling policies.
 
  
 
 ### What happens to my chat history?
 
-Currently, chat history is not saved between sessions. Each time you open the add-in, you start a fresh conversation with Claude.
+Your chat history is stored locally in your browser using IndexedDB. It persists between sessions, so you can return to previous conversations. Chat history is not automatically deleted, but you can clear all of it manually from Settings.
+
+ 
+
+Your history is specific to each add-in surface, your user ID, and your organization. This means your Excel and PowerPoint chat histories are separate. Within a single surface, your chat history is shared across files—for example, conversations in one PowerPoint deck appear in another. If you log in to a different organization, you'll see a separate chat history.
 
  
 
@@ -294,8 +347,8 @@ Review Claude's changes carefully before saving or sharing your file. You can al
 
 ## Related Articles
 
-- [Create and edit files with Claude to eliminate hours of busy work](https://support.claude.com/en/articles/12143746-create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)
-- [Claude for Financial Services Overview](https://support.claude.com/en/articles/12219959-claude-for-financial-services-overview)
-- [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)
-- [Use Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel)
-- [Claude for Financial Services Skills](https://support.claude.com/en/articles/12663107-claude-for-financial-services-skills)
+- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
+- [Work across Microsoft 365 apps](https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps)
+- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

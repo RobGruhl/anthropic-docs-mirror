@@ -1,6 +1,6 @@
 # Configure and use styles
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -90,7 +90,7 @@ Your writing samples help Claude understand and match your preferred communicati
 ## Related Articles
 
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [Understanding Claude's Personalization Features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)
-- [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
-- [Using Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)
-- [Use Claude in PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint)
+- [Understanding Claude's personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)
+- [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
+- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Organization instructions in Claude for Government](https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government)

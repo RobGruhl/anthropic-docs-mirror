@@ -1,6 +1,6 @@
 # Claude Code usage analytics
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -45,7 +45,7 @@ The Claude Code Usage page displays the following metrics for your organization:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1771884000&signature=c103c53432130050fc23c5864d90c80c33b6d6c7764505279c4f66d521d169da&req=dScmEcx5lINYXvMW1HO4zfiEMKdYh33OCX9h5MbdDjOtDRqaqj2tNBnpM87t%0AKtrwg3NvPDG9ZKVhMYo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1778979600&signature=65d41eb38f53fcfb840f4805e64d3b17b0229dd74af3950b5069f6ccbafc4637&req=dScmEcx5lINYXvMW1HO4zfiEMK5ZiHDICX9h5MbdDjNQSuyS7LuMGy4eMeDE%0Aj6Kr84QSPQggNSmCggQ%3D%0A)
 
  
 
@@ -164,7 +164,7 @@ See **[Analytics](https://code.claude.com/docs/en/analytics)** in our Claude Cod
 ## Related Articles
 
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
-- [Usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans)
-- [Access engagement and adoption data with the Analytics API](https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
+- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

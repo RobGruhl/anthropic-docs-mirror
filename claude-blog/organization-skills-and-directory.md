@@ -51,9 +51,9 @@ With Skills, Claude now understands how to work within Canva - not just connect 
 
 Skills have made it possible to one-shot deploying AI Agents and MCP servers onto Cloudflare. We're really excited for people to deploy the apps onto Region:Earth from a quick chat.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69851682c256c9a95ee72602_logo_figma-light-mode.png)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d1ee4cb7c69d15a44ec7d6_Figma%20Dark.svg)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aabef4062d2b887afbad_Figma_dark.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d1ee481c19e67f332ef755_Figma%20Light.svg)
 
 Figma skills help teams build higher quality, differentiated products with Claude Code. Now, Claude can better understand the context, details, and intent of designs in Figma and translate those designs into code with accuracy and consistency.
 
@@ -101,21 +101,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Bringing automated preview, review, and merge to Claude Code on desktop
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
-### Increase web search accuracy and efficiency with dynamic filtering
+### Deploying Claude across the legal industry
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Cowork: Claude Code for the rest of your work
+### How Claude Code works in large codebases: Best practices and where to start
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Building multi-agent systems: When and how to use them
+### Claude for the legal industry
 
 ## Transform how your organization operates with Claude
 

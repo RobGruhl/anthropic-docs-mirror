@@ -1,75 +1,113 @@
 # Agents Topic Index
-*Last updated: 2026-03-02 09:05*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Agents across all sources (64 documents)
+Documents related to Agents across all sources (102 documents)
 ---
-## Platform Documentation (platform.claude.com) (18)
+## Platform Documentation (platform.claude.com) (31)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
 - [agents-and-tools__agent-skills__quickstart](/platform-docs/developer-guide/agents-and-tools__agent-skills__quickstart.md)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
+- [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
 - [agents-and-tools__tool-use__bash-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__bash-tool.md)
+- [agents-and-tools__tool-use__build-a-tool-using-agent](/platform-docs/developer-guide/agents-and-tools__tool-use__build-a-tool-using-agent.md)
 - [agents-and-tools__tool-use__code-execution-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__code-execution-tool.md)
 - [agents-and-tools__tool-use__computer-use-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__computer-use-tool.md)
+- [agents-and-tools__tool-use__define-tools](/platform-docs/developer-guide/agents-and-tools__tool-use__define-tools.md)
 - [agents-and-tools__tool-use__fine-grained-tool-streaming](/platform-docs/developer-guide/agents-and-tools__tool-use__fine-grained-tool-streaming.md)
-- [agents-and-tools__tool-use__implement-tool-use](/platform-docs/developer-guide/agents-and-tools__tool-use__implement-tool-use.md)
+- [agents-and-tools__tool-use__handle-tool-calls](/platform-docs/developer-guide/agents-and-tools__tool-use__handle-tool-calls.md)
+- [agents-and-tools__tool-use__how-tool-use-works](/platform-docs/developer-guide/agents-and-tools__tool-use__how-tool-use-works.md)
+- [agents-and-tools__tool-use__manage-tool-context](/platform-docs/developer-guide/agents-and-tools__tool-use__manage-tool-context.md)
 - [agents-and-tools__tool-use__memory-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__memory-tool.md)
 - [agents-and-tools__tool-use__overview](/platform-docs/developer-guide/agents-and-tools__tool-use__overview.md)
+- [agents-and-tools__tool-use__parallel-tool-use](/platform-docs/developer-guide/agents-and-tools__tool-use__parallel-tool-use.md)
 - [agents-and-tools__tool-use__programmatic-tool-calling](/platform-docs/developer-guide/agents-and-tools__tool-use__programmatic-tool-calling.md)
+- [agents-and-tools__tool-use__server-tools](/platform-docs/developer-guide/agents-and-tools__tool-use__server-tools.md)
+- [agents-and-tools__tool-use__strict-tool-use](/platform-docs/developer-guide/agents-and-tools__tool-use__strict-tool-use.md)
 - [agents-and-tools__tool-use__text-editor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__text-editor-tool.md)
+- [agents-and-tools__tool-use__tool-combinations](/platform-docs/developer-guide/agents-and-tools__tool-use__tool-combinations.md)
+- [agents-and-tools__tool-use__tool-reference](/platform-docs/developer-guide/agents-and-tools__tool-use__tool-reference.md)
+- [agents-and-tools__tool-use__tool-runner](/platform-docs/developer-guide/agents-and-tools__tool-use__tool-runner.md)
 - [agents-and-tools__tool-use__tool-search-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__tool-search-tool.md)
+- [agents-and-tools__tool-use__tool-use-with-prompt-caching](/platform-docs/developer-guide/agents-and-tools__tool-use__tool-use-with-prompt-caching.md)
+- [agents-and-tools__tool-use__troubleshooting-tool-use](/platform-docs/developer-guide/agents-and-tools__tool-use__troubleshooting-tool-use.md)
 - [agents-and-tools__tool-use__web-fetch-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__web-fetch-tool.md)
 - [agents-and-tools__tool-use__web-search-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__web-search-tool.md)
 
-## Engineering Blog Posts (12)
+## Engineering Blog Posts (16)
+- [An update on recent Claude Code quality reports](/engineering-blog/april-23-postmortem.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Building a C compiler with a team of parallel Claudes](/engineering-blog/building-c-compiler.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Building effective agents](/engineering-blog/building-effective-agents.md) - Discover how Anthropic approaches the development of reliable AI agents
-- [Claude Code overview](/engineering-blog/claude-code-best-practices.md) - Claude Code is an agentic coding tool that reads your codebase, edits files, ...
 - [Code execution with MCP: Building more efficient agents](/engineering-blog/code-execution-with-mcp.md) - Learn how code execution with the Model Context Protocol enables agents to ha...
 - [Demystifying evals for AI agents](/engineering-blog/demystifying-evals-for-ai-agents.md) - Demystifying evals for AI agents
 - [Effective context engineering for AI agents](/engineering-blog/effective-context-engineering-for-ai-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Effective harnesses for long-running agents](/engineering-blog/effective-harnesses-for-long-running-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
+- [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
+- [Eval awareness in Claude Opus 4.6’s BrowseComp performance](/engineering-blog/eval-awareness-browsecomp.md) - Anthropic is an AI safety and research company that's working to build reliab...
+- [Harness design for long-running application development](/engineering-blog/harness-design-long-running-apps.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [How we built our multi-agent research system](/engineering-blog/multi-agent-research-system.md) - On the the engineering challenges and lessons learned from building Claude's ...
 - [Introducing advanced tool use on the Claude Developer Platform](/engineering-blog/advanced-tool-use.md) - Claude can now discover, learn, and execute tools dynamically to enable agent...
 - [Quantifying infrastructure noise in agentic coding evals](/engineering-blog/infrastructure-noise.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet](/engineering-blog/swe-bench-sonnet.md) - Explore Claude's breakthrough performance on SWE-Bench, demonstrating advance...
+- [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (34)
-- [2026년에 기업이 AI 에이전트를 구축하는 방법](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
+## Claude.com Blog Posts (55)
+- [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
+- [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for prompt engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
 - [Building AI agents for financial services](/claude-blog/building-ai-agents-in-financial-services.md) - ![](https://cdn
 - [Building AI agents for healthcare and life sciences](/claude-blog/building-ai-agents-in-healthcare-and-life-sciences.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
+- [Building AI agents for the enterprise](/claude-blog/building-ai-agents-for-the-enterprise.md) - ![](https://cdn
+- [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
+- [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude Sonnet 4 now supports 1M tokens of context](/claude-blog/1m-context.md) - ![](https://cdn
 - [Claude is now available in Microsoft 365 Copilot](/claude-blog/claude-now-available-in-microsoft-365-copilot.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
 - [Claude takes research to new places](/claude-blog/research.md) - ![](https://cdn
-- [Cowork: Claude Code for the rest of your work](/claude-blog/cowork-research-preview.md) - ![](https://cdn
+- [Common workflow patterns for AI agents—and when to use them](/claude-blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them.md) - ![](https://cdn
+- [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
+- [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
+- [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
+- [Deploying Claude across the legal industry](/claude-blog/deploying-claude-across-the-legal-industry.md) - ![](https://cdn
+- [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [Eight trends defining how software gets built in 2026](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
-- [Equipping agents for the real world with Agent Skills](/claude-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - ![](https://cdn
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
+- [Harnessing Claude’s intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
+- [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
+- [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
+- [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Introducing web search on the Anthropic API](/claude-blog/web-search-api.md) - ![](https://cdn
-- [Introduction to agentic coding](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
+- [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
+- [New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration](/claude-blog/new-in-claude-managed-agents.md) - ![](https://cdn
+- [Preparing your security program for AI-accelerated offense](/claude-blog/preparing-your-security-program-for-ai-accelerated-offense.md) - ![](https://cdn
+- [Product development in the agentic era](/claude-blog/product-development-in-the-agentic-era.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
+- [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
+- [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
-- [Structured outputs on the Claude Developer Platform](/claude-blog/structured-outputs-on-the-claude-developer-platform.md) - ![](https://cdn
+- [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [Using CLAUDE.md files: Customizing Claude Code for your codebase](/claude-blog/using-claude-md-files.md) - ![](https://cdn
+- [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
-- [What is Model Context Protocol? Connect AI to your world](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
+- [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
 

@@ -1,34 +1,35 @@
 # Deploy Claude Desktop for Windows
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
-Administrators on Team or Enterprise plans can deploy Claude Desktop automatically across their organization to manage installations and updates centrally. We offer an installer and an MSIX package for Windows deployments, enabling secure, scalable distribution.
-
- 
-
-## Available installation formats
-
-- **Installer (recommended):** Downloads and installs Claude Desktop. On compatible systems, installs as an MSIX package with full features including Cowork. Requires administrator credentials, which are requested automatically during setup. If admin access is not available, installs Claude with all features except Cowork.
-- **MSIX package:** For enterprise deployment via Microsoft Intune, SCCM, Group Policy, or PowerShell. Use this if you are managing installations centrally rather than having users install individually.
+Administrators on Team or Enterprise plans can deploy Claude Desktop automatically across their organization to manage installations and updates centrally. We offer MSIX packages for Windows deployments via Microsoft Intune, SCCM, Group Policy, or PowerShell, enabling secure, scalable distribution.
 
  
 
 ## Installation requirements
 
-- The recommended installer requires Windows 10 version 2004 or later (build 19041+). Windows S Mode must be disabled.
-- For full feature support including Cowork, administrator privileges are required. Users will see a Windows UAC prompt during installation. Users without admin access can still install Claude but Cowork will not be available.
+- For individual installations with full feature support including Cowork, administrator privileges are required. Users will see a Windows UAC prompt during installation. Users without admin access can still install Claude, but Cowork will not be available. Access the user-friendly installer from **[our download page](https://claude.com/download)**.
 - For silent deployment without user interaction, use the MSIX package directly with your enterprise management tool.
--  
+
+ 
+
+## Cowork requirements
+
+Claude Desktop for Windows requires the **[Virtual Machine Platform](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)** to use Cowork. You can automate installation of this feature via most endpoint management solutions, but you may also run the following command to install it manually:
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All -NoRestart
+```
+
+ 
 
 ## Download
 
-- **[Claude Desktop Installer](https://downloads.claude.ai/releases/win32/ClaudeSetup.exe)**
 - **[Claude MSIX (x64)](https://claude.ai/api/desktop/win32/x64/msix/latest/redirect)**
-- **[ARM64 Claude MSIX Installer](https://claude.ai/api/desktop/win32/arm64/msix/latest/redirect)**
-
- 
+- **[Claude MSIX (arm64)](https://claude.ai/api/desktop/win32/arm64/msix/latest/redirect)**
+-  
 
 ## Installation commands
 
@@ -89,8 +90,8 @@ By default, packaged apps may be restricted by AppLocker policies. Ensure your A
 
 ## Related Articles
 
-- [Installing Claude Desktop](https://support.claude.com/en/articles/10065433-installing-claude-desktop)
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
-- [Deploying enterprise-grade MCP servers with desktop extensions](https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions)
-- [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
+- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)

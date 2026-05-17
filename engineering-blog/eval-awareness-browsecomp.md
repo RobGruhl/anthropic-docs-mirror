@@ -1,6 +1,6 @@
 # Eval awareness in Claude Opus 4.6’s BrowseComp performance
 
-*Date unknown*
+*Published*
 
 ---
 

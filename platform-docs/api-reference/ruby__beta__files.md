@@ -14,13 +14,13 @@ Upload File
 
   The file to upload
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -62,6 +62,14 @@ Upload File
 
     - `:"fast-mode-2026-02-01"`
 
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `class FileMetadata`
@@ -100,6 +108,20 @@ Upload File
 
     Whether the file can be downloaded.
 
+  - `scope: BetaFileScope`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: String`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: :session`
+
+      The type of scope (e.g., `"session"`).
+
+      - `:session`
+
 ### Example
 
 ```ruby
@@ -107,7 +129,7 @@ require "anthropic"
 
 anthropic = Anthropic::Client.new(api_key: "my-anthropic-api-key")
 
-file_metadata = anthropic.beta.files.upload(file: Pathname(__FILE__))
+file_metadata = anthropic.beta.files.upload(file: StringIO.new("Example data"))
 
 puts(file_metadata)
 ```
@@ -136,13 +158,17 @@ List Files
 
   Defaults to `20`. Ranges from `1` to `1000`.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `scope_id: String`
+
+  Filter by scope ID. Only returns files associated with the specified scope (e.g., a session ID).
+
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -183,6 +209,14 @@ List Files
     - `:"skills-2025-10-02"`
 
     - `:"fast-mode-2026-02-01"`
+
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -222,6 +256,20 @@ List Files
 
     Whether the file can be downloaded.
 
+  - `scope: BetaFileScope`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: String`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: :session`
+
+      The type of scope (e.g., `"session"`).
+
+      - `:session`
+
 ### Example
 
 ```ruby
@@ -248,13 +296,13 @@ Download File
 
   ID of the File.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -295,6 +343,14 @@ Download File
     - `:"skills-2025-10-02"`
 
     - `:"fast-mode-2026-02-01"`
+
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -326,13 +382,13 @@ Get File Metadata
 
   ID of the File.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -373,6 +429,14 @@ Get File Metadata
     - `:"skills-2025-10-02"`
 
     - `:"fast-mode-2026-02-01"`
+
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -412,6 +476,20 @@ Get File Metadata
 
     Whether the file can be downloaded.
 
+  - `scope: BetaFileScope`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: String`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: :session`
+
+      The type of scope (e.g., `"session"`).
+
+      - `:session`
+
 ### Example
 
 ```ruby
@@ -438,13 +516,13 @@ Delete File
 
   ID of the File.
 
-- `anthropic_beta: Array[AnthropicBeta]`
+- `betas: Array[AnthropicBeta]`
 
   Optional header to specify the beta version(s) you want to use.
 
   - `String`
 
-  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 17 more`
+  - `:"message-batches-2024-09-24" | :"prompt-caching-2024-07-31" | :"computer-use-2024-10-22" | 21 more`
 
     - `:"message-batches-2024-09-24"`
 
@@ -486,6 +564,14 @@ Delete File
 
     - `:"fast-mode-2026-02-01"`
 
+    - `:"output-300k-2026-03-24"`
+
+    - `:"user-profiles-2026-03-24"`
+
+    - `:"advisor-tool-2026-03-01"`
+
+    - `:"managed-agents-2026-04-01"`
+
 ### Returns
 
 - `class DeletedFile`
@@ -515,6 +601,20 @@ puts(deleted_file)
 ```
 
 ## Domain Types
+
+### Beta File Scope
+
+- `class BetaFileScope`
+
+  - `id: String`
+
+    The ID of the scoping resource (e.g., the session ID).
+
+  - `type: :session`
+
+    The type of scope (e.g., `"session"`).
+
+    - `:session`
 
 ### Deleted File
 
@@ -569,6 +669,20 @@ puts(deleted_file)
   - `downloadable: bool`
 
     Whether the file can be downloaded.
+
+  - `scope: BetaFileScope`
+
+    The scope of this file, indicating the context in which it was created (e.g., a session).
+
+    - `id: String`
+
+      The ID of the scoping resource (e.g., the session ID).
+
+    - `type: :session`
+
+      The type of scope (e.g., `"session"`).
+
+      - `:session`
 
 
 ---

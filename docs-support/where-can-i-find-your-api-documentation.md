@@ -1,6 +1,6 @@
 # Where can I find your API documentation?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -13,6 +13,6 @@ You can access our API documentation by visiting our Claude Docs: [https://docs.
 
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [Where can I go for Claude API support and assistance?](https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance)
-- [Using the Google Drive integration](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration)
-- [How can I access the Compliance API?](https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api)
+- [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
+- [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [How can I check connectivity to the Claude API?](https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api)

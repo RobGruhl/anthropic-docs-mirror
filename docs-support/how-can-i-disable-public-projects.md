@@ -1,6 +1,6 @@
-# How can I disable public projects?
+# Disable public projects for your organization
 
-*Updated this week*
+*Updated over 2 months ago*
 
 ---
 
@@ -13,7 +13,7 @@ Follow these steps:
 1. Navigate to **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)**.
 2. Find **Public projects** and toggle it off
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1771884000&signature=e7e8e970578340788355f9d80e2e004bf925e5025a0e032d8b11eecf2ed8539f&req=diAiFcB%2Bn4NWWPMW1HO4zfGiYGasYwRfYabJlVJ9VPxPwB4mklg52TgMOQ4W%0A2aO6At%2Fi8CPNLigYPeg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1778979600&signature=9eeaec19be9c328abf484a8dd12605b6f22b49a8d84a0d76709c2fdd7eb65dc5&req=diAiFcB%2Bn4NWWPMW1HO4zfGiYG%2BtbAlZYabJlVJ9VPzsnS7%2BKjEiX1LO%2BA%2FL%0AOYHt%2BNgKU0LJ8NEualo%3D%0A)
 
  
 
@@ -39,7 +39,7 @@ This setting specifically controls external public sharing while preserving all 
 
  
 
-## Re-enabling public projects
+## Re-enable public projects
 
 If you choose to re-enable public projects after disabling them:
 
@@ -53,7 +53,7 @@ If you choose to re-enable public projects after disabling them:
 ## Related Articles
 
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
-- [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [Project visibility and sharing](https://support.claude.com/en/articles/9519189-project-visibility-and-sharing)
+- [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 - [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)
-- [Using Enterprise Search](https://support.claude.com/en/articles/12489464-using-enterprise-search)
+- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
+- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)

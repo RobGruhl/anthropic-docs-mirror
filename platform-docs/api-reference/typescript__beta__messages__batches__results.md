@@ -24,7 +24,7 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
     - `(string & {})`
 
-    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 17 more`
+    - `"message-batches-2024-09-24" | "prompt-caching-2024-07-31" | "computer-use-2024-10-22" | 21 more`
 
       - `"message-batches-2024-09-24"`
 
@@ -65,6 +65,14 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
       - `"skills-2025-10-02"`
 
       - `"fast-mode-2026-02-01"`
+
+      - `"output-300k-2026-03-24"`
+
+      - `"user-profiles-2026-03-24"`
+
+      - `"advisor-tool-2026-03-01"`
+
+      - `"managed-agents-2026-04-01"`
 
 ### Returns
 
@@ -203,15 +211,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `document_index: number`
 
                 - `document_title: string | null`
 
                 - `end_block_index: number`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `file_id: string | null`
 
                 - `start_block_index: number`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `type: "content_block_location"`
 
@@ -235,13 +253,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                 - `cited_text: string`
 
+                  The full text of the cited block range, concatenated.
+
+                  Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                 - `end_block_index: number`
 
+                  Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                  Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                 - `search_result_index: number`
+
+                  0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                  Counted separately from `document_index`; server-side web search results are not included in this count.
 
                 - `source: string`
 
                 - `start_block_index: number`
+
+                  0-based index of the first cited block in the source's `content` array.
 
                 - `title: string | null`
 
@@ -321,7 +353,9 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
             - `input: Record<string, unknown>`
 
-            - `name: "web_search" | "web_fetch" | "code_execution" | 4 more`
+            - `name: "advisor" | "web_search" | "web_fetch" | 5 more`
+
+              - `"advisor"`
 
               - `"web_search"`
 
@@ -564,6 +598,54 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 - `type: "code_execution_20260120"`
 
                   - `"code_execution_20260120"`
+
+          - `BetaAdvisorToolResultBlock`
+
+            - `content: BetaAdvisorToolResultError | BetaAdvisorResultBlock | BetaAdvisorRedactedResultBlock`
+
+              - `BetaAdvisorToolResultError`
+
+                - `error_code: "max_uses_exceeded" | "prompt_too_long" | "too_many_requests" | 3 more`
+
+                  - `"max_uses_exceeded"`
+
+                  - `"prompt_too_long"`
+
+                  - `"too_many_requests"`
+
+                  - `"overloaded"`
+
+                  - `"unavailable"`
+
+                  - `"execution_time_exceeded"`
+
+                - `type: "advisor_tool_result_error"`
+
+                  - `"advisor_tool_result_error"`
+
+              - `BetaAdvisorResultBlock`
+
+                - `text: string`
+
+                - `type: "advisor_result"`
+
+                  - `"advisor_result"`
+
+              - `BetaAdvisorRedactedResultBlock`
+
+                - `encrypted_content: string`
+
+                  Opaque blob containing the advisor's output. Round-trip verbatim; do not inspect or modify.
+
+                - `type: "advisor_redacted_result"`
+
+                  - `"advisor_redacted_result"`
+
+            - `tool_use_id: string`
+
+            - `type: "advisor_tool_result"`
+
+              - `"advisor_tool_result"`
 
           - `BetaCodeExecutionToolResultBlock`
 
@@ -873,15 +955,25 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `document_index: number`
 
                     - `document_title: string | null`
 
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `file_id: string | null`
 
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `type: "content_block_location"`
 
@@ -905,13 +997,27 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
                     - `cited_text: string`
 
+                      The full text of the cited block range, concatenated.
+
+                      Always equals the contents of `content[start_block_index:end_block_index]` joined together. The text block is the minimal citable unit; this field is never a substring of a single block. Not counted toward output tokens, and not counted toward input tokens when sent back in subsequent turns.
+
                     - `end_block_index: number`
 
+                      Exclusive 0-based end index of the cited block range in the source's `content` array.
+
+                      Always greater than `start_block_index`; a single-block citation has `end_block_index = start_block_index + 1`.
+
                     - `search_result_index: number`
+
+                      0-based index of the cited search result among all `search_result` content blocks in the request, in the order they appear across messages and tool results.
+
+                      Counted separately from `document_index`; server-side web search results are not included in this count.
 
                     - `source: string`
 
                     - `start_block_index: number`
+
+                      0-based index of the first cited block in the source's `content` array.
 
                     - `title: string | null`
 
@@ -954,6 +1060,10 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
             - `content: string | null`
 
               Summary of compacted content, or null if compaction failed
+
+            - `encrypted_content: string | null`
+
+              Opaque metadata from prior compaction, to be round-tripped verbatim
 
             - `type: "compaction"`
 
@@ -1007,11 +1117,19 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
 
           See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
 
-          - `"claude-opus-4-6" | "claude-sonnet-4-6" | "claude-haiku-4-5" | 12 more`
+          - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+            - `"claude-opus-4-7"`
+
+              Frontier intelligence for long-running agents and coding
+
+            - `"claude-mythos-preview"`
+
+              New class of intelligence, strongest in coding and cybersecurity
 
             - `"claude-opus-4-6"`
 
-              Most intelligent model for building agents and coding
+              Frontier intelligence for long-running agents and coding
 
             - `"claude-sonnet-4-6"`
 
@@ -1078,6 +1196,30 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
           This will always be `"assistant"`.
 
           - `"assistant"`
+
+        - `stop_details: BetaRefusalStopDetails | null`
+
+          Structured information about a refusal.
+
+          - `category: "cyber" | "bio" | null`
+
+            The policy category that triggered the refusal.
+
+            `null` when the refusal doesn't map to a named category.
+
+            - `"cyber"`
+
+            - `"bio"`
+
+          - `explanation: string | null`
+
+            Human-readable explanation of the refusal.
+
+            This text is not guaranteed to be stable. `null` when no explanation is available for the category.
+
+          - `type: "refusal"`
+
+            - `"refusal"`
 
         - `stop_reason: BetaStopReason | null`
 
@@ -1249,6 +1391,122 @@ Learn more about the Message Batches API in our [user guide](https://docs.claude
                 Usage for a compaction iteration
 
                 - `"compaction"`
+
+            - `BetaAdvisorMessageIterationUsage`
+
+              Token usage for an advisor sub-inference iteration.
+
+              - `cache_creation: BetaCacheCreation | null`
+
+                Breakdown of cached tokens by TTL
+
+                - `ephemeral_1h_input_tokens: number`
+
+                  The number of input tokens used to create the 1 hour cache entry.
+
+                - `ephemeral_5m_input_tokens: number`
+
+                  The number of input tokens used to create the 5 minute cache entry.
+
+              - `cache_creation_input_tokens: number`
+
+                The number of input tokens used to create the cache entry.
+
+              - `cache_read_input_tokens: number`
+
+                The number of input tokens read from the cache.
+
+              - `input_tokens: number`
+
+                The number of input tokens which were used.
+
+              - `model: Model`
+
+                The model that will complete your prompt.
+
+                See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+                - `"claude-opus-4-7" | "claude-mythos-preview" | "claude-opus-4-6" | 14 more`
+
+                  - `"claude-opus-4-7"`
+
+                    Frontier intelligence for long-running agents and coding
+
+                  - `"claude-mythos-preview"`
+
+                    New class of intelligence, strongest in coding and cybersecurity
+
+                  - `"claude-opus-4-6"`
+
+                    Frontier intelligence for long-running agents and coding
+
+                  - `"claude-sonnet-4-6"`
+
+                    Best combination of speed and intelligence
+
+                  - `"claude-haiku-4-5"`
+
+                    Fastest model with near-frontier intelligence
+
+                  - `"claude-haiku-4-5-20251001"`
+
+                    Fastest model with near-frontier intelligence
+
+                  - `"claude-opus-4-5"`
+
+                    Premium model combining maximum intelligence with practical performance
+
+                  - `"claude-opus-4-5-20251101"`
+
+                    Premium model combining maximum intelligence with practical performance
+
+                  - `"claude-sonnet-4-5"`
+
+                    High-performance model for agents and coding
+
+                  - `"claude-sonnet-4-5-20250929"`
+
+                    High-performance model for agents and coding
+
+                  - `"claude-opus-4-1"`
+
+                    Exceptional model for specialized complex tasks
+
+                  - `"claude-opus-4-1-20250805"`
+
+                    Exceptional model for specialized complex tasks
+
+                  - `"claude-opus-4-0"`
+
+                    Powerful model for complex tasks
+
+                  - `"claude-opus-4-20250514"`
+
+                    Powerful model for complex tasks
+
+                  - `"claude-sonnet-4-0"`
+
+                    High-performance model with extended thinking
+
+                  - `"claude-sonnet-4-20250514"`
+
+                    High-performance model with extended thinking
+
+                  - `"claude-3-haiku-20240307"`
+
+                    Fast and cost-effective model
+
+                - `(string & {})`
+
+              - `output_tokens: number`
+
+                The number of output tokens which were used.
+
+              - `type: "advisor_message"`
+
+                Usage for an advisor sub-inference iteration
+
+                - `"advisor_message"`
 
           - `output_tokens: number`
 

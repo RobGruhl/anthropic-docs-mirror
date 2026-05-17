@@ -5,7 +5,7 @@
 Prompt caching optimizes your API usage by allowing resuming from specific prefixes in your prompts. This significantly reduces processing time and costs for repetitive tasks or prompts with consistent elements.
 
 <Note>
-Prompt caching stores KV cache representations and cryptographic hashes of cached content, but does not store the raw text of prompts or responses. This may be suitable for customers who require [ZDR-type data retention](/docs/en/build-with-claude/zero-data-retention) commitments. See [cache lifetime](/docs/en/build-with-claude/prompt-caching#what-is-the-cache-lifetime) for details.
+This feature is eligible for [Zero Data Retention (ZDR)](/docs/en/build-with-claude/api-and-data-retention). When your organization has a ZDR arrangement, data sent through this feature is not stored after the API response is returned.
 </Note>
 
 There are two ways to enable prompt caching:
@@ -17,13 +17,13 @@ The simplest way to start is with automatic caching:
 
 <CodeGroup>
 
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
   -H "content-type: application/json" \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -d '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "cache_control": {"type": "ephemeral"},
     "system": "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
@@ -36,13 +36,28 @@ curl https://api.anthropic.com/v1/messages \
   }'
 ```
 
-```python Python
+```bash CLI
+ant messages create --transform usage <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+cache_control:
+  type: ephemeral
+system: >-
+  You are an AI assistant tasked with analyzing literary works. Your goal is
+  to provide insightful commentary on themes, characters, and writing style.
+messages:
+  - role: user
+    content: Analyze the major themes in Pride and Prejudice.
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     cache_control={"type": "ephemeral"},
     system="You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
@@ -56,13 +71,13 @@ response = client.messages.create(
 print(response.usage.model_dump_json())
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   cache_control: { type: "ephemeral" },
   system:
@@ -77,41 +92,33 @@ const response = await client.messages.create({
 console.log(response.usage);
 ```
 
-```csharp C# hidelines={1..8,-1}
-using System;
-using System.Threading.Tasks;
+```csharp C# hidelines={1..3}
 using Anthropic;
 using Anthropic.Models.Messages;
 
-class Program
+AnthropicClient client = new();
+
+var parameters = new MessageCreateParams
 {
-    static async Task Main(string[] args)
-    {
-        AnthropicClient client = new();
-
-        var parameters = new MessageCreateParams
+    Model = Model.ClaudeOpus4_7,
+    MaxTokens = 1024,
+    CacheControl = new CacheControlEphemeral(),
+    System = "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
+    Messages =
+    [
+        new()
         {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            CacheControl = new CacheControlEphemeral(),
-            System = "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
-            Messages =
-            [
-                new()
-                {
-                    Role = Role.User,
-                    Content = "Analyze the major themes in 'Pride and Prejudice'."
-                }
-            ]
-        };
+            Role = Role.User,
+            Content = "Analyze the major themes in 'Pride and Prejudice'."
+        }
+    ]
+};
 
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message.Usage);
-    }
-}
+var message = await client.Messages.Create(parameters);
+Console.WriteLine(message.Usage);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -126,7 +133,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:        anthropic.ModelClaudeOpus4_6,
+		Model:        anthropic.ModelClaudeOpus4_7,
 		MaxTokens:    1024,
 		CacheControl: anthropic.NewCacheControlEphemeralParam(),
 		System: []anthropic.TextBlockParam{
@@ -143,7 +150,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..10,-1}
+```java Java hidelines={1..2,4..10,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.CacheControlEphemeral;
@@ -157,7 +164,7 @@ public class PromptCachingExample {
     AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
     MessageCreateParams params = MessageCreateParams.builder()
-        .model(Model.CLAUDE_OPUS_4_6)
+        .model(Model.CLAUDE_OPUS_4_7)
         .maxTokens(1024)
         .cacheControl(CacheControlEphemeral.builder().build())
         .system("You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.")
@@ -170,7 +177,7 @@ public class PromptCachingExample {
 }
 ```
 
-```php PHP
+```php PHP hidelines={1..3,5}
 <?php
 
 use Anthropic\Client;
@@ -183,20 +190,20 @@ $response = $client->messages->create(
     messages: [
         ['role' => 'user', 'content' => "Analyze the major themes in 'Pride and Prejudice'."]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     cacheControl: CacheControlEphemeral::with(),
     system: "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
 );
 echo json_encode($response->usage);
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   cache_control: {type: "ephemeral"},
   system: "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
@@ -252,18 +259,16 @@ Prompt caching introduces a new pricing structure. The table below shows the pri
 
 | Model             | Base Input Tokens | 5m Cache Writes | 1h Cache Writes | Cache Hits & Refreshes | Output Tokens |
 |-------------------|-------------------|-----------------|-----------------|----------------------|---------------|
+| Claude Opus 4.7     | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok | $25 / MTok    |
 | Claude Opus 4.6     | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok | $25 / MTok    |
 | Claude Opus 4.5   | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok | $25 / MTok    |
 | Claude Opus 4.1   | $15 / MTok        | $18.75 / MTok   | $30 / MTok      | $1.50 / MTok | $75 / MTok    |
-| Claude Opus 4     | $15 / MTok        | $18.75 / MTok   | $30 / MTok      | $1.50 / MTok | $75 / MTok    |
+| Claude Opus 4 ([deprecated](/docs/en/about-claude/model-deprecations)) | $15 / MTok        | $18.75 / MTok   | $30 / MTok      | $1.50 / MTok | $75 / MTok    |
 | Claude Sonnet 4.6   | $3 / MTok         | $3.75 / MTok    | $6 / MTok       | $0.30 / MTok | $15 / MTok    |
 | Claude Sonnet 4.5   | $3 / MTok         | $3.75 / MTok    | $6 / MTok       | $0.30 / MTok | $15 / MTok    |
-| Claude Sonnet 4   | $3 / MTok         | $3.75 / MTok    | $6 / MTok       | $0.30 / MTok | $15 / MTok    |
-| Claude Sonnet 3.7 ([deprecated](/docs/en/about-claude/model-deprecations)) | $3 / MTok         | $3.75 / MTok    | $6 / MTok       | $0.30 / MTok | $15 / MTok    |
+| Claude Sonnet 4 ([deprecated](/docs/en/about-claude/model-deprecations)) | $3 / MTok         | $3.75 / MTok    | $6 / MTok       | $0.30 / MTok | $15 / MTok    |
 | Claude Haiku 4.5  | $1 / MTok         | $1.25 / MTok    | $2 / MTok       | $0.10 / MTok | $5 / MTok     |
-| Claude Haiku 3.5  | $0.80 / MTok      | $1 / MTok       | $1.6 / MTok     | $0.08 / MTok | $4 / MTok     |
-| Claude Opus 3 ([deprecated](/docs/en/about-claude/model-deprecations))    | $15 / MTok        | $18.75 / MTok   | $30 / MTok      | $1.50 / MTok | $75 / MTok    |
-| Claude Haiku 3    | $0.25 / MTok      | $0.30 / MTok    | $0.50 / MTok    | $0.03 / MTok | $1.25 / MTok  |
+| Claude Haiku 3.5 ([retired, except on Bedrock and Vertex AI](/docs/en/about-claude/model-deprecations)) | $0.80 / MTok      | $1 / MTok       | $1.60 / MTok     | $0.08 / MTok | $4 / MTok     |
 
 <Note>
 The table above reflects the following pricing multipliers for prompt caching:
@@ -271,25 +276,14 @@ The table above reflects the following pricing multipliers for prompt caching:
 - 1-hour cache write tokens are 2 times the base input tokens price
 - Cache read tokens are 0.1 times the base input tokens price
 
-These multipliers stack with other pricing modifiers such as the Batch API discount, long context pricing, and data residency. See [pricing](/docs/en/about-claude/pricing) for full details.
+These multipliers stack with other pricing modifiers such as the Batch API discount and data residency. See [pricing](/docs/en/about-claude/pricing) for full details.
 </Note>
 
 ---
 
 ## Supported models
 
-Prompt caching (both automatic and explicit) is currently supported on:
-- Claude Opus 4.6
-- Claude Opus 4.5
-- Claude Opus 4.1
-- Claude Opus 4
-- Claude Sonnet 4.6
-- Claude Sonnet 4.5
-- Claude Sonnet 4
-- Claude Sonnet 3.7 ([deprecated](/docs/en/about-claude/model-deprecations))
-- Claude Haiku 4.5
-- Claude Haiku 3.5 ([deprecated](/docs/en/about-claude/model-deprecations))
-- Claude Haiku 3
+Prompt caching (both automatic and explicit) is supported on all [active Claude models](/docs/en/about-claude/models/overview).
 
 ---
 
@@ -299,13 +293,13 @@ Automatic caching is the simplest way to enable prompt caching. Instead of placi
 
 <CodeGroup>
 
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
   -H "content-type: application/json" \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -d '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "cache_control": {"type": "ephemeral"},
     "system": "You are a helpful assistant that remembers our conversation.",
@@ -317,13 +311,30 @@ curl https://api.anthropic.com/v1/messages \
   }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create --transform usage <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+cache_control:
+  type: ephemeral
+system: You are a helpful assistant that remembers our conversation.
+messages:
+  - role: user
+    content: My name is Alex. I work on machine learning.
+  - role: assistant
+    content: Nice to meet you, Alex! How can I help with your ML work today?
+  - role: user
+    content: What did I say I work on?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     cache_control={"type": "ephemeral"},
     system="You are a helpful assistant that remembers our conversation.",
@@ -339,13 +350,13 @@ response = client.messages.create(
 print(response.usage.model_dump_json())
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   cache_control: { type: "ephemeral" },
   system: "You are a helpful assistant that remembers our conversation.",
@@ -361,51 +372,43 @@ const response = await client.messages.create({
 console.log(response.usage);
 ```
 
-```csharp C# hidelines={1..8,-1}
-using System;
-using System.Threading.Tasks;
+```csharp C# hidelines={1..3}
 using Anthropic;
 using Anthropic.Models.Messages;
 
-class Program
+AnthropicClient client = new();
+
+var parameters = new MessageCreateParams
 {
-    static async Task Main(string[] args)
-    {
-        AnthropicClient client = new();
-
-        var parameters = new MessageCreateParams
+    Model = Model.ClaudeOpus4_7,
+    MaxTokens = 1024,
+    CacheControl = new CacheControlEphemeral(),
+    System = "You are a helpful assistant that remembers our conversation.",
+    Messages =
+    [
+        new()
         {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            CacheControl = new CacheControlEphemeral(),
-            System = "You are a helpful assistant that remembers our conversation.",
-            Messages =
-            [
-                new()
-                {
-                    Role = Role.User,
-                    Content = "My name is Alex. I work on machine learning."
-                },
-                new()
-                {
-                    Role = Role.Assistant,
-                    Content = "Nice to meet you, Alex! How can I help with your ML work today?"
-                },
-                new()
-                {
-                    Role = Role.User,
-                    Content = "What did I say I work on?"
-                }
-            ]
-        };
+            Role = Role.User,
+            Content = "My name is Alex. I work on machine learning."
+        },
+        new()
+        {
+            Role = Role.Assistant,
+            Content = "Nice to meet you, Alex! How can I help with your ML work today?"
+        },
+        new()
+        {
+            Role = Role.User,
+            Content = "What did I say I work on?"
+        }
+    ]
+};
 
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message.Usage);
-    }
-}
+var message = await client.Messages.Create(parameters);
+Console.WriteLine(message.Usage);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -420,7 +423,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:        anthropic.ModelClaudeOpus4_6,
+		Model:        anthropic.ModelClaudeOpus4_7,
 		MaxTokens:    1024,
 		CacheControl: anthropic.NewCacheControlEphemeralParam(),
 		System: []anthropic.TextBlockParam{
@@ -439,7 +442,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..10,-1}
+```java Java hidelines={1..2,4..10,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.CacheControlEphemeral;
@@ -453,7 +456,7 @@ public class AutomaticCachingExample {
         AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
         MessageCreateParams params = MessageCreateParams.builder()
-                .model(Model.CLAUDE_OPUS_4_6)
+                .model(Model.CLAUDE_OPUS_4_7)
                 .maxTokens(1024)
                 .cacheControl(CacheControlEphemeral.builder().build())
                 .system("You are a helpful assistant that remembers our conversation.")
@@ -468,7 +471,7 @@ public class AutomaticCachingExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..3,5}
 <?php
 
 use Anthropic\Client;
@@ -483,20 +486,20 @@ $response = $client->messages->create(
         ['role' => 'assistant', 'content' => 'Nice to meet you, Alex! How can I help with your ML work today?'],
         ['role' => 'user', 'content' => 'What did I say I work on?'],
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     cacheControl: CacheControlEphemeral::with(),
     system: 'You are a helpful assistant that remembers our conversation.',
 );
 echo json_encode($response->usage);
 ```
 
-```ruby Ruby
+```ruby Ruby hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 response = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   cache_control: {type: "ephemeral"},
   system: "You are a helpful assistant that remembers our conversation.",
@@ -534,11 +537,11 @@ By default, automatic caching uses a 5-minute TTL. You can specify a 1-hour TTL 
 
 Automatic caching is compatible with [explicit cache breakpoints](#explicit-cache-breakpoints). When used together, the automatic cache breakpoint uses one of the 4 available breakpoint slots.
 
-This lets you combine both approaches. For example, use explicit breakpoints to cache your system prompt and tools independently, while automatic caching handles the conversation:
+This lets you combine both approaches. For example, use an explicit breakpoint to cache your system prompt, while automatic caching handles the conversation:
 
 ```json
 {
-  "model": "claude-opus-4-6",
+  "model": "claude-opus-4-7",
   "max_tokens": 1024,
   "cache_control": { "type": "ephemeral" },
   "system": [
@@ -564,7 +567,7 @@ Automatic caching uses the same underlying caching infrastructure. Pricing, mini
 - If the last block is not eligible as an automatic cache breakpoint target, the system silently walks backwards to find the nearest eligible block. If none is found, caching is skipped.
 
 <Note>
-Automatic caching is available on the Claude API and Azure AI Foundry (preview). Support for Amazon Bedrock and Google Vertex AI is coming later.
+Automatic caching is available on the Claude API, [Claude Platform on AWS](/docs/en/build-with-claude/claude-platform-on-aws), and [Microsoft Foundry](/docs/en/build-with-claude/claude-in-microsoft-foundry) (beta). Bedrock and Vertex AI do not support automatic caching.
 </Note>
 
 ---
@@ -581,38 +584,44 @@ Cache prefixes are created in the following order: `tools`, `system`, then `mess
 
 #### How automatic prefix checking works
 
-You can use just one cache breakpoint at the end of your static content, and the system will automatically find the longest matching sequence of cached blocks. Understanding how this works helps you optimize your caching strategy.
+You can use just one cache breakpoint at the end of your static content, and the system will automatically find the longest prefix that a prior request already wrote to the cache. Understanding how this works helps you optimize your caching strategy.
 
 **Three core principles:**
 
-1. **Cache keys are cumulative**: When you explicitly cache a block with `cache_control`, the cache hash key is generated by hashing all previous blocks in the conversation sequentially. This means the cache for each block depends on all content that came before it.
+1. **Cache writes happen only at your breakpoint.** Marking a block with `cache_control` writes exactly one cache entry: a hash of the prefix ending at that block. The system does not write entries for any earlier position. Because the hash is cumulative, covering everything up to and including the breakpoint, changing any block at or before the breakpoint produces a different hash on the next request.
 
-2. **Backward sequential checking**: The system checks for cache hits by working backwards from your explicit breakpoint, checking each previous block in reverse order. This ensures you get the longest possible cache hit.
+2. **Cache reads look backward for entries that prior requests wrote.** On each request the system computes the prefix hash at your breakpoint and checks for a matching cache entry. If none exists, it walks backward one block at a time, checking whether the prefix hash at each earlier position matches something already in the cache. It is looking for prior writes, not for stable content.
 
-3. **20-block lookback window**: The system only checks up to 20 blocks before each explicit `cache_control` breakpoint. After checking 20 blocks without a match, it stops checking and moves to the next explicit breakpoint (if any).
+3. **The lookback window is 20 blocks.** The system checks at most 20 positions per breakpoint, counting the breakpoint itself as the first. If the system finds no matching entry in that window, checking stops (or resumes from the next explicit breakpoint, if any).
 
-**Example: Understanding the lookback window**
+**Example: Lookback in a growing conversation**
 
-Consider a conversation with 30 content blocks where you set `cache_control` only on block 30:
+You append new blocks each turn and set `cache_control` on the final block of each request:
 
-- **If you send block 31 with no changes to previous blocks**: The system checks block 30 (match!). You get a cache hit at block 30, and only block 31 needs processing.
+- **Turn 1:** 10 blocks, breakpoint on block 10. No prior cache entries exist. The system writes an entry at block 10.
+- **Turn 2:** 15 blocks, breakpoint on block 15. Block 15 has no entry, so the system walks back to block 10 and finds the turn-1 entry. Cache hit at block 10; the system processes only blocks 11 through 15 fresh and writes a new entry at block 15.
+- **Turn 3:** 35 blocks, breakpoint on block 35. The system checks 20 positions (blocks 35 through 16) and finds nothing. The turn-2 entry at block 15 is one position outside the window, so there is no cache hit. Adding a second breakpoint at block 15 starts a second lookback window there, which finds the turn-2 entry.
 
-- **If you modify block 25 and send block 31**: The system checks backwards from block 30 → 29 → 28... → 25 (no match) → 24 (match!). Since block 24 hasn't changed, you get a cache hit at block 24, and only blocks 25-30 need reprocessing.
+**Common mistake: Breakpoint on content that changes every request**
 
-- **If you modify block 5 and send block 31**: The system checks backwards from block 30 → 29 → 28... → 11 (check #20). After 20 checks without finding a match, it stops looking. Since block 5 is beyond the 20-block window, no cache hit occurs and all blocks need reprocessing. However, if you had set an explicit `cache_control` breakpoint on block 5, the system would continue checking from that breakpoint: block 5 (no match) → block 4 (match!). This allows a cache hit at block 4, demonstrating why you should place breakpoints before editable content.
+Your prompt has a large static system context (blocks 1 through 5) followed by a per-request block containing a timestamp and the user message (block 6). You set `cache_control` on block 6:
 
-**Key takeaway**: Always set an explicit cache breakpoint at the end of your conversation to maximize your chances of cache hits. Additionally, set breakpoints just before content blocks that might be editable to ensure those sections can be cached independently.
+- **Request 1:** Cache write at block 6. The hash includes the timestamp.
+- **Request 2:** The timestamp differs, so the prefix hash at block 6 differs. The lookback walks through blocks 5, 4, 3, 2, and 1, but the system never wrote an entry at any of those positions. No cache hit. You pay for a fresh cache write on every request and never get a read.
+
+The lookback does not find stable content behind your breakpoint and cache it. It finds entries that prior requests already wrote, and writes happen only at breakpoints. Move `cache_control` to block 5, the last block that stays the same across requests, and every subsequent request reads the cached prefix. [Automatic caching](#automatic-caching) hits the same trap: it places the breakpoint on the last cacheable block, which in this structure is the one that changes every request, so use an explicit breakpoint on block 5 instead.
+
+**Key takeaway:** Place `cache_control` on the last block whose prefix is identical across the requests you want to share a cache. In a growing conversation the final block works as long as each turn adds fewer than 20 blocks: earlier content never changes, so the next request's lookback finds the prior write. For a prompt with a varying suffix (timestamps, per-request context, the incoming message), place the breakpoint at the end of the static prefix, not on the varying block.
 
 #### When to use multiple breakpoints
 
 You can define up to 4 cache breakpoints if you want to:
 - Cache different sections that change at different frequencies (for example, tools rarely change, but context updates daily)
 - Have more control over exactly what gets cached
-- Ensure caching for content more than 20 blocks before your final breakpoint
-- Place breakpoints before editable content to guarantee cache hits even when changes occur beyond the 20-block window
+- Ensure a cache hit when a growing conversation pushes your breakpoint 20 or more blocks past the last cache write
 
 <Note>
-**Important limitation**: If your prompt has more than 20 content blocks before your cache breakpoint, and you modify content earlier than those 20 blocks, you won't get a cache hit unless you add additional explicit breakpoints closer to that content.
+**Important limitation:** The lookback can only find entries that earlier requests already wrote. If a growing conversation pushes your breakpoint 20 or more blocks past the last write, the lookback window misses it. Add a second breakpoint closer to that position from the start so a write accumulates there before you need it.
 </Note>
 
 ### Understanding cache breakpoint costs
@@ -629,14 +638,23 @@ Adding more `cache_control` breakpoints doesn't increase your costs - you still 
 ## Caching strategies and considerations
 
 ### Cache limitations
-The minimum cacheable prompt length is:
-- 4096 tokens for Claude Opus 4.6, Claude Opus 4.5
-- 2048 tokens for Claude Sonnet 4.6
-- 1024 tokens for Claude Sonnet 4.5, Claude Opus 4.1, Claude Opus 4, Claude Sonnet 4, and Claude Sonnet 3.7 ([deprecated](/docs/en/about-claude/model-deprecations))
-- 4096 tokens for Claude Haiku 4.5
-- 2048 tokens for Claude Haiku 3.5 ([deprecated](/docs/en/about-claude/model-deprecations)) and Claude Haiku 3
 
-Shorter prompts cannot be cached, even if marked with `cache_control`. Any requests to cache fewer than this number of tokens will be processed without caching. To see if a prompt was cached, see the response usage [fields](/docs/en/build-with-claude/prompt-caching#tracking-cache-performance).
+On the Claude API, [Claude Platform on AWS](/docs/en/build-with-claude/claude-platform-on-aws), [Vertex AI](/docs/en/build-with-claude/claude-on-vertex-ai), and [Microsoft Foundry](/docs/en/build-with-claude/claude-in-microsoft-foundry) (beta), the minimum cacheable prompt length is:
+
+- 4,096 tokens for [Claude Mythos Preview](https://anthropic.com/glasswing), Claude Opus 4.7, Claude Opus 4.6, and Claude Opus 4.5
+- 1,024 tokens for Claude Sonnet 4.6, Claude Sonnet 4.5, Claude Opus 4.1, Claude Opus 4 ([deprecated](/docs/en/about-claude/model-deprecations)), and Claude Sonnet 4 ([deprecated](/docs/en/about-claude/model-deprecations))
+- 4,096 tokens for Claude Haiku 4.5
+- 2,048 tokens for Claude Haiku 3.5 ([retired, except on Vertex AI](/docs/en/about-claude/model-deprecations))
+
+Model availability varies by platform.
+
+Shorter prompts cannot be cached, even if marked with `cache_control`. Any requests to cache fewer than this number of tokens will be processed without caching, and no error is returned. To verify whether a prompt was cached, check the response usage [fields](/docs/en/build-with-claude/prompt-caching#tracking-cache-performance): if both `cache_creation_input_tokens` and `cache_read_input_tokens` are 0, the prompt was not cached (likely because it did not meet the minimum length requirement).
+
+If your prompt falls just short of the minimum for your model and platform, expanding the cached content to reach the threshold is often worthwhile. Cache reads cost significantly less than uncached input tokens, so reaching the minimum can reduce costs for frequently reused prompts.
+
+<Note>
+[Bedrock](/docs/en/build-with-claude/claude-in-amazon-bedrock) is an AWS-operated platform. On Bedrock, see the [Bedrock prompt caching documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html) for the per-model minimums, failure behavior, and usage-field names that apply.
+</Note>
 
 For concurrent requests, note that a cache entry only becomes available after the first response begins. If you need cache hits for parallel requests, wait for the first response before sending subsequent requests.
 
@@ -679,7 +697,7 @@ The following table shows which parts of the cache are invalidated by different 
 | **Tool choice** | ✓ | ✓ | ✘ | Changes to `tool_choice` parameter only affect message blocks |
 | **Images** | ✓ | ✓ | ✘ | Adding/removing images anywhere in the prompt affects message blocks |
 | **Thinking parameters** | ✓ | ✓ | ✘ | Changes to extended thinking settings (enable/disable, budget) affect message blocks |
-| **Non-tool results passed to extended thinking requests** | ✓ | ✓ | ✘ | When non-tool results are passed in requests while extended thinking is enabled, all previously-cached thinking blocks are stripped from context, and any messages in context that follow those thinking blocks are removed from the cache. For more details, see [Caching with thinking blocks](#caching-with-thinking-blocks). |
+| **Non-tool results passed to extended thinking requests** | ✓ | ✓ | Model-specific | On Opus 4.5+ and Sonnet 4.6+, thinking blocks are preserved by default, so the cache remains valid (✓). On earlier Opus/Sonnet models and all Haiku models, all previously-cached thinking blocks are stripped from context, and any messages that follow those thinking blocks are removed from the cache (✘). For more details, see [Caching with thinking blocks](#caching-with-thinking-blocks). |
 
 ### Tracking cache performance
 
@@ -723,7 +741,8 @@ When using [extended thinking](/docs/en/build-with-claude/extended-thinking) wit
 
 **Cache invalidation patterns**:
 - Cache remains valid when only tool results are provided as user messages
-- Cache gets invalidated when non-tool-result user content is added, causing all previous thinking blocks to be stripped
+- On Opus 4.5+ and Sonnet 4.6+, thinking blocks are preserved by default even when non-tool-result user content is added, so the cache remains valid
+- On earlier Opus/Sonnet models and all Haiku models, cache gets invalidated when non-tool-result user content is added, causing all previous thinking blocks to be stripped from context
 - This caching behavior occurs even without explicit `cache_control` markers
 
 For more details on cache invalidation, see [What invalidates the cache](#what-invalidates-the-cache).
@@ -747,25 +766,24 @@ Assistant: [thinking_block_1] + [tool_use block 1],
 User: [tool_result_1, cache=True],
 Assistant: [thinking_block_2] + [text block 2],
 User: [Text response, cache=True]
-# Non-tool-result user block causes all thinking blocks to be ignored
-# This request is processed as if thinking blocks were never present
+# On earlier Opus/Sonnet and all Haiku models, non-tool-result user block causes prior thinking blocks to be stripped; on Opus 4.5+/Sonnet 4.6+ they are kept
 ```
 
-When a non-tool-result user block is included, it designates a new assistant loop and all previous thinking blocks are removed from context.
+On earlier Opus/Sonnet models and all Haiku models, all previous thinking blocks are removed from context at this point. On Opus 4.5+ and Sonnet 4.6+, prior thinking blocks are kept by default and remain part of the cached prefix.
 
 For more detailed information, see the [extended thinking documentation](/docs/en/build-with-claude/extended-thinking#understanding-thinking-block-caching-behavior).
 
 ### Cache storage and sharing
 
 <Warning>
-Starting February 5, 2026, prompt caching will use workspace-level isolation instead of organization-level isolation. Caches will be isolated per workspace, ensuring data separation between workspaces within the same organization. This change applies to the Claude API and Azure AI Foundry (preview); Amazon Bedrock and Google Vertex AI will maintain organization-level cache isolation. If you use multiple workspaces, review your caching strategy to account for this change.
+As of February 5, 2026, prompt caching uses [workspace](/docs/en/manage-claude/workspaces)-level isolation instead of organization-level isolation. Caches are isolated per workspace, ensuring data separation between workspaces within the same organization. This applies to the Claude API, Claude Platform on AWS, and Microsoft Foundry (beta); Bedrock and Vertex AI maintain organization-level cache isolation. If you use multiple workspaces, review your caching strategy to account for this difference.
 </Warning>
 
-- **Organization Isolation**: Caches are isolated between organizations. Different organizations never share caches, even if they use identical prompts.
+- **Organization and workspace isolation:** Caches are isolated between organizations. Different organizations never share caches, even if they use identical prompts. As of February 5, 2026, caches are also isolated per workspace within an organization on the Claude API, Claude Platform on AWS, and Microsoft Foundry (beta); Bedrock and Vertex AI continue to use organization-level isolation only.
 
-- **Exact Matching**: Cache hits require 100% identical prompt segments, including all text and images up to and including the block marked with cache control.
+- **Exact matching:** Cache hits require 100% identical prompt segments, including all text and images up to and including the block marked with cache control.
 
-- **Output Token Generation**: Prompt caching has no effect on output token generation. The response you receive will be identical to what you would get if prompt caching was not used.
+- **Output token generation:** Prompt caching has no effect on output token generation. The response you receive is identical to what you would get if prompt caching were not used.
 
 ### Best practices for effective caching
 
@@ -776,7 +794,7 @@ To optimize prompt caching performance:
 - Cache stable, reusable content like system instructions, background information, large contexts, or frequent tool definitions.
 - Place cached content at the prompt's beginning for best performance.
 - Use cache breakpoints strategically to separate different cacheable prefix sections.
-- Set cache breakpoints at the end of conversations and just before editable content to maximize cache hit rates, especially when working with prompts that have more than 20 content blocks.
+- Place the breakpoint on the last block that stays identical across requests. For a prompt with a static prefix and a varying suffix (timestamps, per-request context, the incoming message), that is the end of the prefix, not the varying block.
 - Regularly analyze cache hit rates and adjust your strategy as needed.
 
 ### Optimizing for different use cases
@@ -797,8 +815,8 @@ If experiencing unexpected behavior:
 - Ensure cached sections are identical across calls. For explicit breakpoints, verify that `cache_control` markers are in the same locations
 - Check that calls are made within the cache lifetime (5 minutes by default)
 - Verify that `tool_choice` and image usage remain consistent between calls
-- Validate that you are caching at least the minimum number of tokens
-- The system automatically checks for cache hits at previous content block boundaries (up to ~20 blocks before your breakpoint). For prompts with more than 20 content blocks, you may need additional `cache_control` parameters earlier in the prompt to ensure all content can be cached
+- Validate that you are caching at least the minimum number of tokens for your model and platform (see [Cache limitations](#cache-limitations))
+- Confirm your breakpoint is on a block that stays identical across requests. Cache writes happen only at the breakpoint, and if that block changes (timestamps, per-request context, the incoming message), the prefix hash never matches. The lookback does not find stable content behind the breakpoint; it only finds entries that earlier requests wrote at their own breakpoints
 - Verify that the keys in your `tool_use` content blocks have stable ordering as some languages (for example, Swift, Go) randomize key order during JSON conversion, breaking caches
 
 <Note>
@@ -809,6 +827,10 @@ Changes to `tool_choice` or the presence/absence of images anywhere in the promp
 ## 1-hour cache duration
 
 If you find that 5 minutes is too short, Anthropic also offers a 1-hour cache duration [at additional cost](#pricing).
+
+<Note>
+The 1-hour cache duration is available on the Claude API, [Claude Platform on AWS](/docs/en/build-with-claude/claude-platform-on-aws), [Vertex AI](/docs/en/build-with-claude/claude-on-vertex-ai), and [Microsoft Foundry](/docs/en/build-with-claude/claude-in-microsoft-foundry) (beta). Bedrock does not support the 1-hour cache duration.
+</Note>
 
 To use the extended cache, include `ttl` in the `cache_control` definition like this:
 ```json hidelines={1,-1}
@@ -821,7 +843,7 @@ To use the extended cache, include `ttl` in the `cache_control` definition like 
 ```
 
 The response will include detailed cache information like the following:
-```json
+```json Output
 {
   "usage": {
     "input_tokens": 2048,
@@ -830,7 +852,7 @@ The response will include detailed cache information like the following:
     "output_tokens": 503,
 
     "cache_creation": {
-      "ephemeral_5m_input_tokens": 456,
+      "ephemeral_5m_input_tokens": 148,
       "ephemeral_1h_input_tokens": 100
     }
   }
@@ -874,6 +896,352 @@ Here are 3 examples. This depicts the input tokens of 3 requests, each of which 
 ![Mixing TTLs Diagram](/docs/images/prompt-cache-mixed-ttl.svg)
 
 ---
+## Pre-warming the cache
+
+Cache pre-warming lets you load your system prompt or tool definitions into the prompt cache before a user triggers a real request. This eliminates the cache-miss latency penalty on the first user interaction, reducing time-to-first-token (TTFT) for latency-sensitive applications.
+
+### How it works
+
+Set `max_tokens: 0` in your request. The API runs the full prefill phase (reading your prompt into the model and writing the cache at any `cache_control` breakpoint), then returns immediately without generating any output. The response has an empty `content` array, `stop_reason: "max_tokens"`, and a fully populated `usage` block.
+
+Place the `cache_control` breakpoint on the last block that is shared with the follow-up request (typically your system prompt or tool definitions), not on the placeholder user message. Otherwise the cache entry is keyed to the placeholder and the follow-up request won't hit it. This means using an [explicit cache breakpoint](#explicit-cache-breakpoints) rather than [automatic caching](#automatic-caching), since automatic caching places the breakpoint on the last block, which here is the placeholder. The placeholder user message can be any string with non-whitespace content (the examples here use `"warmup"`); its content is read during prefill but never answered.
+
+<Note>
+A pre-warm request incurs a **cache write** charge if the prefix is not already cached, the same as any other request. Check `usage.cache_creation_input_tokens` in the response to confirm a write occurred. Zero output tokens are billed.
+</Note>
+
+<CodeGroup>
+
+```bash cURL
+curl https://api.anthropic.com/v1/messages \
+  -H "content-type: application/json" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -d '{
+    "model": "claude-opus-4-7",
+    "max_tokens": 0,
+    "system": [
+      {
+        "type": "text",
+        "text": "You are an expert software engineer with deep knowledge of distributed systems...",
+        "cache_control": {"type": "ephemeral"}
+      }
+    ],
+    "messages": [{"role": "user", "content": "warmup"}]
+  }'
+```
+
+```bash CLI
+ant messages create \
+  --transform '{stop_reason,content,usage}' --format yaml <<'YAML'
+model: claude-opus-4-7
+max_tokens: 0
+system:
+  - type: text
+    text: >-
+      You are an expert software engineer with deep knowledge of
+      distributed systems...
+    cache_control:
+      type: ephemeral
+messages:
+  - role: user
+    content: warmup
+YAML
+```
+
+```python Python hidelines={1..2}
+import anthropic
+
+client = anthropic.Anthropic()
+
+# Fire this before users arrive to warm the shared system-prompt cache.
+prewarm = client.messages.create(
+    model="claude-opus-4-7",
+    max_tokens=0,
+    system=[
+        {
+            "type": "text",
+            "text": "You are an expert software engineer with deep knowledge of distributed systems...",
+            "cache_control": {"type": "ephemeral"},
+        }
+    ],
+    messages=[{"role": "user", "content": "warmup"}],
+)
+print(prewarm.stop_reason)  # "max_tokens"
+print(prewarm.content)  # []
+print(prewarm.usage)
+```
+
+```typescript TypeScript hidelines={1..2}
+import Anthropic from "@anthropic-ai/sdk";
+
+const client = new Anthropic();
+
+// Fire this before users arrive to warm the shared system-prompt cache.
+const prewarm = await client.messages.create({
+  model: "claude-opus-4-7",
+  max_tokens: 0,
+  system: [
+    {
+      type: "text",
+      text: "You are an expert software engineer with deep knowledge of distributed systems...",
+      cache_control: { type: "ephemeral" }
+    }
+  ],
+  messages: [{ role: "user", content: "warmup" }]
+});
+console.log(prewarm.stop_reason); // "max_tokens"
+console.log(prewarm.content); // []
+console.log(prewarm.usage);
+```
+
+```csharp C# hidelines={1..3}
+using Anthropic;
+using Anthropic.Models.Messages;
+
+AnthropicClient client = new();
+
+var prewarm = await client.Messages.Create(
+    new()
+    {
+        Model = Model.ClaudeOpus4_7,
+        MaxTokens = 0,
+        System = new(
+            [
+                new TextBlockParam
+                {
+                    Text = "You are an expert software engineer with deep knowledge of distributed systems...",
+                    CacheControl = new(),
+                },
+            ]
+        ),
+        Messages = [new() { Role = Role.User, Content = "warmup" }],
+    }
+);
+
+Console.WriteLine(prewarm.StopReason?.Raw()); // "max_tokens"
+Console.WriteLine(prewarm.Content.Count); // 0
+Console.WriteLine(prewarm.Usage);
+```
+
+```go Go hidelines={1..10,-1}
+package main
+
+import (
+	"context"
+	"fmt"
+
+	"github.com/anthropics/anthropic-sdk-go"
+)
+
+func main() {
+	client := anthropic.NewClient()
+
+	prewarm, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
+		Model:     anthropic.ModelClaudeOpus4_7,
+		MaxTokens: 0,
+		System: []anthropic.TextBlockParam{
+			{
+				Text:         "You are an expert software engineer with deep knowledge of distributed systems...",
+				CacheControl: anthropic.NewCacheControlEphemeralParam(),
+			},
+		},
+		Messages: []anthropic.MessageParam{
+			anthropic.NewUserMessage(anthropic.NewTextBlock("warmup")),
+		},
+	})
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(prewarm.StopReason) // "max_tokens"
+	fmt.Println(prewarm.Content)    // []
+	fmt.Println(prewarm.Usage.RawJSON())
+}
+```
+
+```java Java hidelines={1..9,-1..}
+import com.anthropic.client.AnthropicClient;
+import com.anthropic.client.okhttp.AnthropicOkHttpClient;
+import com.anthropic.models.messages.CacheControlEphemeral;
+import com.anthropic.models.messages.Message;
+import com.anthropic.models.messages.MessageCreateParams;
+import com.anthropic.models.messages.Model;
+import com.anthropic.models.messages.TextBlockParam;
+
+void main() {
+    AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+
+    Message prewarm = client.messages().create(MessageCreateParams.builder()
+            .model(Model.CLAUDE_OPUS_4_7)
+            .maxTokens(0)
+            .systemOfTextBlockParams(List.of(TextBlockParam.builder()
+                    .text("You are an expert software engineer with deep knowledge of distributed systems...")
+                    .cacheControl(CacheControlEphemeral.builder().build())
+                    .build()))
+            .addUserMessage("warmup")
+            .build());
+
+    IO.println(prewarm.stopReason()); // Optional[max_tokens]
+    IO.println(prewarm.content());    // []
+    IO.println(prewarm.usage());
+}
+```
+
+```php PHP hidelines={1..5}
+<?php
+
+use Anthropic\Client;
+use Anthropic\Messages\Model;
+
+$client = new Client();
+
+$prewarm = $client->messages->create(
+    model: Model::CLAUDE_OPUS_4_7,
+    maxTokens: 0,
+    system: [
+        [
+            'type' => 'text',
+            'text' => 'You are an expert software engineer with deep knowledge of distributed systems...',
+            'cache_control' => ['type' => 'ephemeral'],
+        ],
+    ],
+    messages: [['role' => 'user', 'content' => 'warmup']],
+);
+
+echo $prewarm->stopReason->value, PHP_EOL; // "max_tokens"
+echo json_encode($prewarm->content), PHP_EOL; // []
+echo json_encode($prewarm->usage), PHP_EOL;
+```
+
+```ruby Ruby hidelines={1..2}
+require "anthropic"
+
+client = Anthropic::Client.new
+
+prewarm = client.messages.create(
+  model: Anthropic::Model::CLAUDE_OPUS_4_7,
+  max_tokens: 0,
+  system_: [
+    {
+      type: "text",
+      text: "You are an expert software engineer with deep knowledge of distributed systems...",
+      cache_control: {type: "ephemeral"}
+    }
+  ],
+  messages: [{role: "user", content: "warmup"}]
+)
+
+puts prewarm.stop_reason # :max_tokens
+puts prewarm.content # []
+puts prewarm.usage
+```
+
+</CodeGroup>
+
+The API returns an empty `content` array:
+
+```json Output
+{
+  "id": "msg_01XFDUDYJgAACzvnptvVoYEL",
+  "type": "message",
+  "role": "assistant",
+  "content": [],
+  "model": "claude-opus-4-7-20251101",
+  "stop_reason": "max_tokens",
+  "stop_sequence": null,
+  "usage": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 5120,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 5120,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 5120,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 5120,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message"
+      }
+    ],
+    "output_tokens": 0,
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}
+```
+
+### Typical usage pattern
+
+Fire a pre-warm request when your application starts (or on a scheduled interval), then send real user requests after the pre-warm completes:
+
+```python Python hidelines={1..2}
+import anthropic
+
+client = anthropic.Anthropic()
+
+SYSTEM_PROMPT = [
+    {
+        "type": "text",
+        "text": "You are an expert software engineer with deep knowledge of distributed systems...",
+        "cache_control": {"type": "ephemeral"},
+    }
+]
+
+
+def prewarm_cache() -> None:
+    """Call this at application startup or on a scheduled interval."""
+    client.messages.create(
+        model="claude-opus-4-7",
+        max_tokens=0,
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": "warmup"}],
+    )
+
+
+def respond(user_message: str) -> anthropic.types.Message:
+    """The real user request; benefits from a warm cache."""
+    return client.messages.create(
+        model="claude-opus-4-7",
+        max_tokens=1024,
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": user_message}],
+    )
+
+
+# Warm the cache before any user traffic arrives.
+prewarm_cache()
+
+# Later, when the user submits a message, the system-prompt prefix is already cached.
+response = respond("How do I implement a binary search tree?")
+print(response.content[0].text)
+```
+
+Keep in mind that the cache TTL still applies. For the default 5-minute cache, send a new pre-warm request at least every 5 minutes to keep the cache warm. For longer gaps between user requests, use the [1-hour cache duration](#1-hour-cache-duration) instead.
+
+### Limitations
+
+A `max_tokens: 0` request is rejected with an `invalid_request_error` if any of the following are set, since each implies output that a zero-token budget cannot produce:
+
+- `stream: true`
+- [Extended thinking](/docs/en/build-with-claude/extended-thinking) (`thinking.type: "enabled"`)
+- [Structured outputs](/docs/en/build-with-claude/structured-outputs) (`output_config.format`)
+- `tool_choice` of `{"type": "tool", ...}` or `{"type": "any"}`
+
+`max_tokens: 0` is also rejected inside a [Message Batches](/docs/en/build-with-claude/batch-processing) request. Pre-warming targets time-to-first-token, which does not apply to batch processing, and a cache entry written during batch processing would likely expire before the follow-up request runs.
+
+### Replacing the max_tokens=1 workaround
+
+Before `max_tokens: 0` was available, some applications used `max_tokens: 1` warm-up calls to achieve the same effect. The `max_tokens: 0` approach is preferred: no output is produced, so there is no single-token reply to discard, no output tokens are billed, and the intent of the request is unambiguous.
+
+---
 ## Prompt caching examples
 
 To help you get started with prompt caching, the [prompt caching cookbook](https://platform.claude.com/cookbook/misc-prompt-caching) provides detailed examples and best practices.
@@ -883,14 +1251,14 @@ The following code snippets showcase various prompt caching patterns. These exam
 <section title="Large context caching example">
 
 <CodeGroup>
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "system": [
         {
@@ -912,13 +1280,32 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+system:
+  - type: text
+    text: You are an AI assistant tasked with analyzing legal documents.
+  - type: text
+    text: >-
+      Here is the full text of a complex legal agreement:
+      [Insert full text of a 50-page legal agreement here]
+    cache_control:
+      type: ephemeral
+messages:
+  - role: user
+    content: What are the key terms and conditions in this agreement?
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     system=[
         {
@@ -938,16 +1325,16 @@ response = client.messages.create(
         }
     ],
 )
-print(response.model_dump_json())
+print(response.usage.model_dump_json())
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   system: [
     {
@@ -970,55 +1357,46 @@ const response = await client.messages.create({
 console.log(response);
 ```
 
-```csharp C# hidelines={1..9,-1}
-using System;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+```csharp C# hidelines={1..3}
 using Anthropic;
 using Anthropic.Models.Messages;
 
-public class Program
+AnthropicClient client = new()
 {
-    public static async Task Main(string[] args)
+    ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+};
+
+var parameters = new MessageCreateParams
+{
+    Model = Model.ClaudeOpus4_7,
+    MaxTokens = 1024,
+    System = new MessageCreateParamsSystem(new List<TextBlockParam>
     {
-        AnthropicClient client = new()
+        new TextBlockParam()
         {
-            ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
-        };
-
-        var parameters = new MessageCreateParams
+            Text = "You are an AI assistant tasked with analyzing legal documents.",
+        },
+        new TextBlockParam()
         {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            System = new MessageCreateParamsSystem(new List<TextBlockParam>
-            {
-                new TextBlockParam()
-                {
-                    Text = "You are an AI assistant tasked with analyzing legal documents.",
-                },
-                new TextBlockParam()
-                {
-                    Text = "Here is the full text of a complex legal agreement: [Insert full text of a 50-page legal agreement here]",
-                    CacheControl = new CacheControlEphemeral(),
-                },
-            }),
-            Messages =
-            [
-                new()
-                {
-                    Role = Role.User,
-                    Content = "What are the key terms and conditions in this agreement?"
-                }
-            ]
-        };
+            Text = "Here is the full text of a complex legal agreement: [Insert full text of a 50-page legal agreement here]",
+            CacheControl = new CacheControlEphemeral(),
+        },
+    }),
+    Messages =
+    [
+        new()
+        {
+            Role = Role.User,
+            Content = "What are the key terms and conditions in this agreement?"
+        }
+    ]
+};
 
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message);
-    }
-}
+var message = await client.Messages.Create(parameters);
+Console.WriteLine(message);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1033,7 +1411,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		System: []anthropic.TextBlockParam{
 			{
@@ -1051,11 +1429,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%+v\n", response)
+	fmt.Println(response.Usage)
 }
 ```
 
-```java Java hidelines={1..12,-1}
+```java Java hidelines={1..2,4..12,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.CacheControlEphemeral;
@@ -1071,7 +1449,7 @@ public class LegalDocumentAnalysisExample {
     AnthropicClient client = AnthropicOkHttpClient.fromEnv();
 
     MessageCreateParams params = MessageCreateParams.builder()
-      .model(Model.CLAUDE_OPUS_4_6)
+      .model(Model.CLAUDE_OPUS_4_7)
       .maxTokens(1024)
       .systemOfTextBlockParams(
         List.of(
@@ -1095,7 +1473,7 @@ public class LegalDocumentAnalysisExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -1110,7 +1488,7 @@ $message = $client->messages->create(
             'content' => 'What are the key terms and conditions in this agreement?'
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     system: [
         [
             'type' => 'text',
@@ -1127,13 +1505,13 @@ $message = $client->messages->create(
 echo $message->content[0]->text;
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   system: [
     {
@@ -1169,507 +1547,43 @@ For subsequent requests within the cache lifetime:
 - `cache_read_input_tokens`: Number of tokens in the entire cached system message
 
 </section>
+
 <section title="Caching tool definitions">
 
-<CodeGroup>
+Tool definitions can be cached by placing `cache_control` on the last tool in your `tools` array. All tools defined before and including that tool are cached as a single prefix.
 
-```bash Shell
-curl https://api.anthropic.com/v1/messages \
-     --header "x-api-key: $ANTHROPIC_API_KEY" \
-     --header "anthropic-version: 2023-06-01" \
-     --header "content-type: application/json" \
-     --data \
-'{
-    "model": "claude-opus-4-6",
-    "max_tokens": 1024,
-    "tools": [
-        {
-            "name": "get_weather",
-            "description": "Get the current weather in a given location",
-            "input_schema": {
-                "type": "object",
-                "properties": {
-                    "location": {
-                        "type": "string",
-                        "description": "The city and state, e.g. San Francisco, CA"
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": ["celsius", "fahrenheit"],
-                        "description": "The unit of temperature, either celsius or fahrenheit"
-                    }
-                },
-                "required": ["location"]
-            }
-        },
-        {
-            "name": "get_time",
-            "description": "Get the current time in a given time zone",
-            "input_schema": {
-                "type": "object",
-                "properties": {
-                    "timezone": {
-                        "type": "string",
-                        "description": "The IANA time zone name, e.g. America/Los_Angeles"
-                    }
-                },
-                "required": ["timezone"]
-            },
-            "cache_control": {"type": "ephemeral"}
-        }
-    ],
-    "messages": [
-        {
-            "role": "user",
-            "content": "What is the weather and time in New York?"
-        }
-    ]
-}'
-```
-
-```python Python hidelines={1..4,-1}
-import anthropic
-
-client = anthropic.Anthropic()
-
-response = client.messages.create(
-    model="claude-opus-4-6",
-    max_tokens=1024,
-    tools=[
-        {
-            "name": "get_weather",
-            "description": "Get the current weather in a given location",
-            "input_schema": {
-                "type": "object",
-                "properties": {
-                    "location": {
-                        "type": "string",
-                        "description": "The city and state, e.g. San Francisco, CA",
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": ["celsius", "fahrenheit"],
-                        "description": "The unit of temperature, either 'celsius' or 'fahrenheit'",
-                    },
-                },
-                "required": ["location"],
-            },
-        },
-        # many more tools
-        {
-            "name": "get_time",
-            "description": "Get the current time in a given time zone",
-            "input_schema": {
-                "type": "object",
-                "properties": {
-                    "timezone": {
-                        "type": "string",
-                        "description": "The IANA time zone name, e.g. America/Los_Angeles",
-                    }
-                },
-                "required": ["timezone"],
-            },
-            "cache_control": {"type": "ephemeral"},
-        },
-    ],
-    messages=[{"role": "user", "content": "What's the weather and time in New York?"}],
-)
-print(response.model_dump_json())
-```
-
-```typescript TypeScript hidelines={1..4}
-import Anthropic from "@anthropic-ai/sdk";
-
-const client = new Anthropic();
-
-const response = await client.messages.create({
-  model: "claude-opus-4-6",
-  max_tokens: 1024,
-  tools: [
-    {
-      name: "get_weather",
-      description: "Get the current weather in a given location",
-      input_schema: {
-        type: "object",
-        properties: {
-          location: {
-            type: "string",
-            description: "The city and state, e.g. San Francisco, CA"
-          },
-          unit: {
-            type: "string",
-            enum: ["celsius", "fahrenheit"],
-            description: "The unit of temperature, either 'celsius' or 'fahrenheit'"
-          }
-        },
-        required: ["location"]
-      }
-    },
-    // many more tools
-    {
-      name: "get_time",
-      description: "Get the current time in a given time zone",
-      input_schema: {
-        type: "object",
-        properties: {
-          timezone: {
-            type: "string",
-            description: "The IANA time zone name, e.g. America/Los_Angeles"
-          }
-        },
-        required: ["timezone"]
-      },
-      cache_control: { type: "ephemeral" }
-    }
-  ],
-  messages: [
-    {
-      role: "user",
-      content: "What's the weather and time in New York?"
-    }
-  ]
-});
-console.log(response);
-```
-
-```csharp C# hidelines={1..9,-1}
-using System;
-using System.Text.Json;
-using System.Threading.Tasks;
-using Anthropic;
-using Anthropic.Models.Messages;
-
-public class Program
+```json
 {
-    public static async Task Main(string[] args)
+  "model": "claude-opus-4-7",
+  "max_tokens": 1024,
+  "tools": [
     {
-        AnthropicClient client = new()
-        {
-            ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
-        };
-
-        var parameters = new MessageCreateParams
-        {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            Tools =
-            [
-                new ToolUnion(new Tool()
-                {
-                    Name = "get_weather",
-                    Description = "Get the current weather in a given location",
-                    InputSchema = new InputSchema()
-                    {
-                        Properties = new Dictionary<string, JsonElement>
-                        {
-                            ["location"] = JsonSerializer.SerializeToElement(new { type = "string", description = "The city and state, e.g. San Francisco, CA" }),
-                            ["unit"] = JsonSerializer.SerializeToElement(new { type = "string", @enum = new[] { "celsius", "fahrenheit" }, description = "The unit of temperature, either celsius or fahrenheit" }),
-                        },
-                        Required = ["location"],
-                    },
-                }),
-                new ToolUnion(new Tool()
-                {
-                    Name = "get_time",
-                    Description = "Get the current time in a given time zone",
-                    InputSchema = new InputSchema()
-                    {
-                        Properties = new Dictionary<string, JsonElement>
-                        {
-                            ["timezone"] = JsonSerializer.SerializeToElement(new { type = "string", description = "The IANA time zone name, e.g. America/Los_Angeles" }),
-                        },
-                        Required = ["timezone"],
-                    },
-                    CacheControl = new CacheControlEphemeral(),
-                }),
-            ],
-            Messages =
-            [
-                new() { Role = Role.User, Content = "What is the weather and time in New York?" }
-            ]
-        };
-
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message);
-    }
-}
-```
-
-```go Go hidelines={1..13,-1}
-package main
-
-import (
-	"context"
-	"fmt"
-	"log"
-
-	"github.com/anthropics/anthropic-sdk-go"
-)
-
-func main() {
-	client := anthropic.NewClient()
-
-	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
-		MaxTokens: 1024,
-		Tools: []anthropic.ToolUnionParam{
-			{OfTool: &anthropic.ToolParam{
-				Name:        "get_weather",
-				Description: anthropic.String("Get the current weather in a given location"),
-				InputSchema: anthropic.ToolInputSchemaParam{
-					Properties: map[string]any{
-						"location": map[string]any{
-							"type":        "string",
-							"description": "The city and state, e.g. San Francisco, CA",
-						},
-						"unit": map[string]any{
-							"type":        "string",
-							"enum":        []string{"celsius", "fahrenheit"},
-							"description": "The unit of temperature, either celsius or fahrenheit",
-						},
-					},
-					Required: []string{"location"},
-				},
-			}},
-			{OfTool: &anthropic.ToolParam{
-				Name:        "get_time",
-				Description: anthropic.String("Get the current time in a given time zone"),
-				InputSchema: anthropic.ToolInputSchemaParam{
-					Properties: map[string]any{
-						"timezone": map[string]any{
-							"type":        "string",
-							"description": "The IANA time zone name, e.g. America/Los_Angeles",
-						},
-					},
-					Required: []string{"timezone"},
-				},
-				CacheControl: anthropic.NewCacheControlEphemeralParam(),
-			}},
-		},
-		Messages: []anthropic.MessageParam{
-			anthropic.NewUserMessage(anthropic.NewTextBlock("What is the weather and time in New York?")),
-		},
-	})
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(response)
-}
-```
-
-```java Java hidelines={1..15,-1}
-import com.anthropic.client.AnthropicClient;
-import com.anthropic.client.okhttp.AnthropicOkHttpClient;
-import com.anthropic.core.JsonValue;
-import com.anthropic.models.messages.CacheControlEphemeral;
-import com.anthropic.models.messages.Message;
-import com.anthropic.models.messages.MessageCreateParams;
-import com.anthropic.models.messages.Model;
-import com.anthropic.models.messages.Tool;
-import com.anthropic.models.messages.Tool.InputSchema;
-import java.util.List;
-import java.util.Map;
-
-public class ToolsWithCacheControlExample {
-
-  public static void main(String[] args) {
-    AnthropicClient client = AnthropicOkHttpClient.fromEnv();
-
-    // Weather tool schema
-    InputSchema weatherSchema = InputSchema.builder()
-      .properties(
-        JsonValue.from(
-          Map.of(
-            "location",
-            Map.of(
-              "type",
-              "string",
-              "description",
-              "The city and state, e.g. San Francisco, CA"
-            ),
-            "unit",
-            Map.of(
-              "type",
-              "string",
-              "enum",
-              List.of("celsius", "fahrenheit"),
-              "description",
-              "The unit of temperature, either celsius or fahrenheit"
-            )
-          )
-        )
-      )
-      .putAdditionalProperty("required", JsonValue.from(List.of("location")))
-      .build();
-
-    // Time tool schema
-    InputSchema timeSchema = InputSchema.builder()
-      .properties(
-        JsonValue.from(
-          Map.of(
-            "timezone",
-            Map.of(
-              "type",
-              "string",
-              "description",
-              "The IANA time zone name, e.g. America/Los_Angeles"
-            )
-          )
-        )
-      )
-      .putAdditionalProperty("required", JsonValue.from(List.of("timezone")))
-      .build();
-
-    MessageCreateParams params = MessageCreateParams.builder()
-      .model(Model.CLAUDE_OPUS_4_6)
-      .maxTokens(1024)
-      .addTool(
-        Tool.builder()
-          .name("get_weather")
-          .description("Get the current weather in a given location")
-          .inputSchema(weatherSchema)
-          .build()
-      )
-      .addTool(
-        Tool.builder()
-          .name("get_time")
-          .description("Get the current time in a given time zone")
-          .inputSchema(timeSchema)
-          .cacheControl(CacheControlEphemeral.builder().build())
-          .build()
-      )
-      .addUserMessage("What is the weather and time in New York?")
-      .build();
-
-    Message message = client.messages().create(params);
-    System.out.println(message);
-  }
-}
-```
-
-```php PHP hidelines={1..6}
-<?php
-
-use Anthropic\Client;
-
-$client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
-
-$message = $client->messages->create(
-    maxTokens: 1024,
-    messages: [
-        ['role' => 'user', 'content' => 'What is the weather and time in New York?']
-    ],
-    model: 'claude-opus-4-6',
-    tools: [
-        [
-            'name' => 'get_weather',
-            'description' => 'Get the current weather in a given location',
-            'input_schema' => [
-                'type' => 'object',
-                'properties' => [
-                    'location' => [
-                        'type' => 'string',
-                        'description' => 'The city and state, e.g. San Francisco, CA'
-                    ],
-                    'unit' => [
-                        'type' => 'string',
-                        'enum' => ['celsius', 'fahrenheit'],
-                        'description' => 'The unit of temperature, either celsius or fahrenheit'
-                    ]
-                ],
-                'required' => ['location']
-            ]
-        ],
-        [
-            'name' => 'get_time',
-            'description' => 'Get the current time in a given time zone',
-            'input_schema' => [
-                'type' => 'object',
-                'properties' => [
-                    'timezone' => [
-                        'type' => 'string',
-                        'description' => 'The IANA time zone name, e.g. America/Los_Angeles'
-                    ]
-                ],
-                'required' => ['timezone']
-            ],
-            'cache_control' => ['type' => 'ephemeral']
-        ]
-    ],
-);
-
-echo $message;
-```
-
-```ruby Ruby nocheck
-require "anthropic"
-
-client = Anthropic::Client.new
-
-message = client.messages.create(
-  model: "claude-opus-4-6",
-  max_tokens: 1024,
-  tools: [
-    {
-      name: "get_weather",
-      description: "Get the current weather in a given location",
-      input_schema: {
-        type: "object",
-        properties: {
-          location: {
-            type: "string",
-            description: "The city and state, e.g. San Francisco, CA"
-          },
-          unit: {
-            type: "string",
-            enum: ["celsius", "fahrenheit"],
-            description: "The unit of temperature, either celsius or fahrenheit"
-          }
-        },
-        required: ["location"]
+      "name": "get_weather",
+      "description": "Get the current weather in a given location",
+      "input_schema": {
+        "type": "object",
+        "properties": { "location": { "type": "string" } },
+        "required": ["location"]
       }
     },
     {
-      name: "get_time",
-      description: "Get the current time in a given time zone",
-      input_schema: {
-        type: "object",
-        properties: {
-          timezone: {
-            type: "string",
-            description: "The IANA time zone name, e.g. America/Los_Angeles"
-          }
-        },
-        required: ["timezone"]
+      "name": "get_time",
+      "description": "Get the current time in a given time zone",
+      "input_schema": {
+        "type": "object",
+        "properties": { "timezone": { "type": "string" } },
+        "required": ["timezone"]
       },
-      cache_control: { type: "ephemeral" }
+      "cache_control": { "type": "ephemeral" }
     }
   ],
-  messages: [
-    { role: "user", content: "What is the weather and time in New York?" }
-  ]
-)
-puts message
+  "messages": [{ "role": "user", "content": "What is the weather and time in New York?" }]
+}
 ```
-</CodeGroup>
 
-This example demonstrates caching tool definitions.
+On the first request, `cache_creation_input_tokens` reflects the token count of all tool definitions. On subsequent requests within the cache lifetime, those tokens appear under `cache_read_input_tokens` instead.
 
-The `cache_control` parameter is placed on the final tool (`get_time`) to designate all of the tools as part of the static prefix.
-
-This means that all tool definitions, including `get_weather` and any other tools defined before `get_time`, will be cached as a single prefix.
-
-This approach is useful when you have a consistent set of tools that you want to reuse across multiple requests without re-processing them each time.
-
-For the first request:
-- `input_tokens`: Number of tokens in the user message
-- `cache_creation_input_tokens`: Number of tokens in all tool definitions and system prompt
-- `cache_read_input_tokens`: 0 (no cache hit on first request)
-
-For subsequent requests within the cache lifetime:
-- `input_tokens`: Number of tokens in the user message
-- `cache_creation_input_tokens`: 0 (no new cache creation)
-- `cache_read_input_tokens`: Number of tokens in all cached tool definitions and system prompt
+For detailed interaction between tool definitions, `defer_loading`, and cache invalidation, see [Tool use with prompt caching](/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching).
 
 </section>
 
@@ -1677,14 +1591,14 @@ For subsequent requests within the cache lifetime:
 
 <CodeGroup>
 
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "system": [
         {
@@ -1725,13 +1639,47 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+system:
+  - type: text
+    text: "...long system prompt"
+    cache_control:
+      type: ephemeral
+messages:
+  - role: user
+    content:
+      - type: text
+        text: Hello, can you tell me more about the solar system?
+  - role: assistant
+    content: >-
+      Certainly! The solar system is the collection of celestial bodies that
+      orbit our Sun. It consists of eight planets, numerous moons, asteroids,
+      comets, and other objects. The planets, in order from closest to farthest
+      from the Sun, are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus,
+      and Neptune. Each planet has its own unique characteristics and features.
+      Is there a specific aspect of the solar system you would like to know
+      more about?
+  - role: user
+    content:
+      - type: text
+        text: Good to know.
+      - type: text
+        text: Tell me more about Mars.
+        cache_control:
+          type: ephemeral
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     system=[
         {
@@ -1771,13 +1719,13 @@ response = client.messages.create(
 print(response.model_dump_json())
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   system: [
     {
@@ -1821,7 +1769,7 @@ const response = await client.messages.create({
 console.log(response);
 ```
 
-```csharp C# hidelines={1..5}
+```csharp C# hidelines={1..6}
 using Anthropic;
 using Anthropic.Models.Messages;
 using System.Collections.Generic;
@@ -1830,7 +1778,7 @@ AnthropicClient client = new();
 
 var parameters = new MessageCreateParams
 {
-    Model = Model.ClaudeOpus4_6,
+    Model = Model.ClaudeOpus4_7,
     MaxTokens = 1024,
     System = new MessageCreateParamsSystem(new List<TextBlockParam>
     {
@@ -1875,7 +1823,7 @@ var message = await client.Messages.Create(parameters);
 Console.WriteLine(message);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -1890,7 +1838,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		System: []anthropic.TextBlockParam{
 			{
@@ -1920,7 +1868,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..13,-1}
+```java Java hidelines={1..2,4..13,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.models.messages.CacheControlEphemeral;
@@ -1944,7 +1892,7 @@ public class ConversationWithCacheControlExample {
 
     // Create message params
     MessageCreateParams params = MessageCreateParams.builder()
-      .model(Model.CLAUDE_OPUS_4_6)
+      .model(Model.CLAUDE_OPUS_4_7)
       .maxTokens(1024)
       .systemOfTextBlockParams(List.of(systemPrompt))
       // First user message (without cache control)
@@ -1973,7 +1921,7 @@ public class ConversationWithCacheControlExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -2008,7 +1956,7 @@ $message = $client->messages->create(
             ]
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     system: [
         [
             'type' => 'text',
@@ -2021,13 +1969,13 @@ $message = $client->messages->create(
 echo $message->content[0]->text;
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   system: [
     {
@@ -2086,14 +2034,14 @@ When this is set up properly, you should see the following in the usage response
 
 <CodeGroup>
 
-```bash Shell
+```bash cURL
 curl https://api.anthropic.com/v1/messages \
      --header "x-api-key: $ANTHROPIC_API_KEY" \
      --header "anthropic-version: 2023-06-01" \
      --header "content-type: application/json" \
      --data \
 '{
-    "model": "claude-opus-4-6",
+    "model": "claude-opus-4-7",
     "max_tokens": 1024,
     "tools": [
         {
@@ -2187,13 +2135,101 @@ curl https://api.anthropic.com/v1/messages \
 }'
 ```
 
-```python Python hidelines={1..4,-1}
+```bash CLI
+ant messages create <<'YAML'
+model: claude-opus-4-7
+max_tokens: 1024
+tools:
+  - name: search_documents
+    description: Search through the knowledge base
+    input_schema:
+      type: object
+      properties:
+        query:
+          type: string
+          description: Search query
+      required: [query]
+  - name: get_document
+    description: Retrieve a specific document by ID
+    input_schema:
+      type: object
+      properties:
+        doc_id:
+          type: string
+          description: Document ID
+      required: [doc_id]
+    cache_control:
+      type: ephemeral
+system:
+  - type: text
+    text: |-
+      You are a helpful research assistant with access to a document knowledge base.
+
+      # Instructions
+      - Always search for relevant documents before answering
+      - Provide citations for your sources
+      - Be objective and accurate in your responses
+      - If multiple documents contain relevant information, synthesize them
+      - Acknowledge when information is not available in the knowledge base
+    cache_control:
+      type: ephemeral
+  - type: text
+    text: |-
+      # Knowledge Base Context
+
+      Here are the relevant documents for this conversation:
+
+      ## Document 1: Solar System Overview
+      The solar system consists of the Sun and all objects that orbit it...
+
+      ## Document 2: Planetary Characteristics
+      Each planet has unique features. Mercury is the smallest planet...
+
+      ## Document 3: Mars Exploration
+      Mars has been a target of exploration for decades...
+
+      [Additional documents...]
+    cache_control:
+      type: ephemeral
+messages:
+  - role: user
+    content: Can you search for information about Mars rovers?
+  - role: assistant
+    content:
+      - type: tool_use
+        id: tool_1
+        name: search_documents
+        input:
+          query: Mars rovers
+  - role: user
+    content:
+      - type: tool_result
+        tool_use_id: tool_1
+        content: >-
+          Found 3 relevant documents: Document 3 (Mars Exploration),
+          Document 7 (Rover Technology), Document 9 (Mission History)
+  - role: assistant
+    content:
+      - type: text
+        text: >-
+          I found 3 relevant documents about Mars rovers. Let me get more
+          details from the Mars Exploration document.
+  - role: user
+    content:
+      - type: text
+        text: Yes, please tell me about the Perseverance rover specifically.
+        cache_control:
+          type: ephemeral
+YAML
+```
+
+```python Python hidelines={1..2}
 import anthropic
 
 client = anthropic.Anthropic()
 
 response = client.messages.create(
-    model="claude-opus-4-6",
+    model="claude-opus-4-7",
     max_tokens=1024,
     tools=[
         {
@@ -2282,13 +2318,13 @@ response = client.messages.create(
 print(response.model_dump_json())
 ```
 
-```typescript TypeScript hidelines={1..4}
+```typescript TypeScript hidelines={1..2}
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: [
     {
@@ -2384,128 +2420,119 @@ const response = await client.messages.create({
 console.log(response);
 ```
 
-```csharp C# hidelines={1..10,-1}
-using System;
-using System.Collections.Generic;
+```csharp C# hidelines={1..4}
 using System.Text.Json;
-using System.Threading.Tasks;
 using Anthropic;
 using Anthropic.Models.Messages;
 
-public class Program
+AnthropicClient client = new()
 {
-    public static async Task Main(string[] args)
-    {
-        AnthropicClient client = new()
-        {
-            ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
-        };
+    ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+};
 
-        var parameters = new MessageCreateParams
+var parameters = new MessageCreateParams
+{
+    Model = Model.ClaudeOpus4_7,
+    MaxTokens = 1024,
+    Tools =
+    [
+        new ToolUnion(new Tool()
         {
-            Model = Model.ClaudeOpus4_6,
-            MaxTokens = 1024,
-            Tools =
-            [
-                new ToolUnion(new Tool()
-                {
-                    Name = "search_documents",
-                    Description = "Search through the knowledge base",
-                    InputSchema = new InputSchema()
-                    {
-                        Properties = new Dictionary<string, JsonElement>
-                        {
-                            ["query"] = JsonSerializer.SerializeToElement(new { type = "string", description = "Search query" }),
-                        },
-                        Required = ["query"],
-                    },
-                }),
-                new ToolUnion(new Tool()
-                {
-                    Name = "get_document",
-                    Description = "Retrieve a specific document by ID",
-                    InputSchema = new InputSchema()
-                    {
-                        Properties = new Dictionary<string, JsonElement>
-                        {
-                            ["doc_id"] = JsonSerializer.SerializeToElement(new { type = "string", description = "Document ID" }),
-                        },
-                        Required = ["doc_id"],
-                    },
-                    CacheControl = new CacheControlEphemeral(),
-                }),
-            ],
-            System = new MessageCreateParamsSystem(new List<TextBlockParam>
+            Name = "search_documents",
+            Description = "Search through the knowledge base",
+            InputSchema = new InputSchema()
             {
-                new TextBlockParam()
+                Properties = new Dictionary<string, JsonElement>
                 {
-                    Text = "You are a helpful research assistant with access to a document knowledge base.\n\n# Instructions\n- Always search for relevant documents before answering\n- Provide citations for your sources\n- Be objective and accurate in your responses\n- If multiple documents contain relevant information, synthesize them\n- Acknowledge when information is not available in the knowledge base",
-                    CacheControl = new CacheControlEphemeral(),
+                    ["query"] = JsonSerializer.SerializeToElement(new { type = "string", description = "Search query" }),
                 },
-                new TextBlockParam()
+                Required = ["query"],
+            },
+        }),
+        new ToolUnion(new Tool()
+        {
+            Name = "get_document",
+            Description = "Retrieve a specific document by ID",
+            InputSchema = new InputSchema()
+            {
+                Properties = new Dictionary<string, JsonElement>
                 {
-                    Text = "# Knowledge Base Context\n\nHere are the relevant documents for this conversation:\n\n## Document 1: Solar System Overview\nThe solar system consists of the Sun and all objects that orbit it...\n\n## Document 2: Planetary Characteristics\nEach planet has unique features. Mercury is the smallest planet...\n\n## Document 3: Mars Exploration\nMars has been a target of exploration for decades...\n\n[Additional documents...]",
-                    CacheControl = new CacheControlEphemeral(),
+                    ["doc_id"] = JsonSerializer.SerializeToElement(new { type = "string", description = "Document ID" }),
                 },
+                Required = ["doc_id"],
+            },
+            CacheControl = new CacheControlEphemeral(),
+        }),
+    ],
+    System = new MessageCreateParamsSystem(new List<TextBlockParam>
+    {
+        new TextBlockParam()
+        {
+            Text = "You are a helpful research assistant with access to a document knowledge base.\n\n# Instructions\n- Always search for relevant documents before answering\n- Provide citations for your sources\n- Be objective and accurate in your responses\n- If multiple documents contain relevant information, synthesize them\n- Acknowledge when information is not available in the knowledge base",
+            CacheControl = new CacheControlEphemeral(),
+        },
+        new TextBlockParam()
+        {
+            Text = "# Knowledge Base Context\n\nHere are the relevant documents for this conversation:\n\n## Document 1: Solar System Overview\nThe solar system consists of the Sun and all objects that orbit it...\n\n## Document 2: Planetary Characteristics\nEach planet has unique features. Mercury is the smallest planet...\n\n## Document 3: Mars Exploration\nMars has been a target of exploration for decades...\n\n[Additional documents...]",
+            CacheControl = new CacheControlEphemeral(),
+        },
+    }),
+    Messages =
+    [
+        new() { Role = Role.User, Content = "Can you search for information about Mars rovers?" },
+        new()
+        {
+            Role = Role.Assistant,
+            Content = new MessageParamContent(new List<ContentBlockParam>
+            {
+                new ContentBlockParam(new ToolUseBlockParam()
+                {
+                    ID = "tool_1",
+                    Name = "search_documents",
+                    Input = new Dictionary<string, JsonElement>
+                    {
+                        ["query"] = JsonSerializer.SerializeToElement("Mars rovers"),
+                    },
+                }),
             }),
-            Messages =
-            [
-                new() { Role = Role.User, Content = "Can you search for information about Mars rovers?" },
-                new()
+        },
+        new()
+        {
+            Role = Role.User,
+            Content = new MessageParamContent(new List<ContentBlockParam>
+            {
+                new ContentBlockParam(new ToolResultBlockParam()
                 {
-                    Role = Role.Assistant,
-                    Content = new MessageParamContent(new List<ContentBlockParam>
-                    {
-                        new ContentBlockParam(new ToolUseBlockParam()
-                        {
-                            ID = "tool_1",
-                            Name = "search_documents",
-                            Input = new Dictionary<string, JsonElement>
-                            {
-                                ["query"] = JsonSerializer.SerializeToElement("Mars rovers"),
-                            },
-                        }),
-                    }),
-                },
-                new()
+                    ToolUseID = "tool_1",
+                    Content = "Found 3 relevant documents: Document 3 (Mars Exploration), Document 7 (Rover Technology), Document 9 (Mission History)",
+                }),
+            }),
+        },
+        new()
+        {
+            Role = Role.Assistant,
+            Content = "I found 3 relevant documents about Mars rovers. Let me get more details from the Mars Exploration document.",
+        },
+        new()
+        {
+            Role = Role.User,
+            Content = new MessageParamContent(new List<ContentBlockParam>
+            {
+                new ContentBlockParam(new TextBlockParam()
                 {
-                    Role = Role.User,
-                    Content = new MessageParamContent(new List<ContentBlockParam>
-                    {
-                        new ContentBlockParam(new ToolResultBlockParam()
-                        {
-                            ToolUseID = "tool_1",
-                            Content = "Found 3 relevant documents: Document 3 (Mars Exploration), Document 7 (Rover Technology), Document 9 (Mission History)",
-                        }),
-                    }),
-                },
-                new()
-                {
-                    Role = Role.Assistant,
-                    Content = "I found 3 relevant documents about Mars rovers. Let me get more details from the Mars Exploration document.",
-                },
-                new()
-                {
-                    Role = Role.User,
-                    Content = new MessageParamContent(new List<ContentBlockParam>
-                    {
-                        new ContentBlockParam(new TextBlockParam()
-                        {
-                            Text = "Yes, please tell me about the Perseverance rover specifically.",
-                            CacheControl = new CacheControlEphemeral(),
-                        }),
-                    }),
-                },
-            ]
-        };
+                    Text = "Yes, please tell me about the Perseverance rover specifically.",
+                    CacheControl = new CacheControlEphemeral(),
+                }),
+            }),
+        },
+    ]
+};
 
-        var message = await client.Messages.Create(parameters);
-        Console.WriteLine(message);
-    }
-}
+var message = await client.Messages.Create(parameters);
+Console.WriteLine(message);
 ```
 
-```go Go hidelines={1..13,-1}
+```go Go hidelines={1..11,-1}
 package main
 
 import (
@@ -2520,7 +2547,7 @@ func main() {
 	client := anthropic.NewClient()
 
 	response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-		Model:     anthropic.ModelClaudeOpus4_6,
+		Model:     anthropic.ModelClaudeOpus4_7,
 		MaxTokens: 1024,
 		Tools: []anthropic.ToolUnionParam{
 			{OfTool: &anthropic.ToolParam{
@@ -2592,7 +2619,7 @@ func main() {
 }
 ```
 
-```java Java hidelines={1..19,-1}
+```java Java hidelines={1..3,5..19,-2..}
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.core.JsonValue;
@@ -2635,7 +2662,7 @@ public class MultipleCacheBreakpointsExample {
       .build();
 
     MessageCreateParams params = MessageCreateParams.builder()
-      .model(Model.CLAUDE_OPUS_4_6)
+      .model(Model.CLAUDE_OPUS_4_7)
       .maxTokens(1024)
       // Tools with cache control on the last one
       .addTool(
@@ -2724,7 +2751,7 @@ public class MultipleCacheBreakpointsExample {
 }
 ```
 
-```php PHP hidelines={1..6}
+```php PHP hidelines={1..4}
 <?php
 
 use Anthropic\Client;
@@ -2779,7 +2806,7 @@ $message = $client->messages->create(
             ]
         ]
     ],
-    model: 'claude-opus-4-6',
+    model: 'claude-opus-4-7',
     system: [
         [
             'type' => 'text',
@@ -2825,16 +2852,16 @@ $message = $client->messages->create(
     ],
 );
 
-echo $message;
+echo json_encode($message->usage), PHP_EOL;
 ```
 
-```ruby Ruby nocheck
+```ruby Ruby nocheck hidelines={1..2}
 require "anthropic"
 
 client = Anthropic::Client.new
 
 message = client.messages.create(
-  model: "claude-opus-4-6",
+  model: "claude-opus-4-7",
   max_tokens: 1024,
   tools: [
     {
@@ -2938,22 +2965,22 @@ This comprehensive example demonstrates how to use all 4 available cache breakpo
 
 3. **RAG context cache** (cache breakpoint 3): The knowledge base documents are cached independently, allowing you to update the RAG documents without invalidating the tools or instructions cache.
 
-4. **Conversation history cache** (cache breakpoint 4): The assistant's response is marked with `cache_control` to enable incremental caching of the conversation as it progresses.
+4. **Conversation history cache** (cache breakpoint 4): The final user message is marked with `cache_control` to enable incremental caching of the conversation as it progresses.
 
 This approach provides maximum flexibility:
-- If you only update the final user message, all four cache segments are reused
+- If you append a new turn to the conversation without changing earlier content, all four cache segments are reused
 - If you update the RAG documents but keep the same tools and instructions, the first two cache segments are reused
 - If you change the conversation but keep the same tools, instructions, and documents, the first three segments are reused
-- Each cache breakpoint can be invalidated independently based on what changes in your application
+- Changes at any breakpoint invalidate that segment and everything after it, while earlier cached segments remain valid
 
 For the first request:
-- `input_tokens`: Tokens in the final user message
+- `input_tokens`: Minimal (tokens after the final cache breakpoint, near 0 in this example)
 - `cache_creation_input_tokens`: Tokens in all cached segments (tools + instructions + RAG documents + conversation history)
 - `cache_read_input_tokens`: 0 (no cache hits)
 
-For subsequent requests with only a new user message:
-- `input_tokens`: Tokens in the new user message only
-- `cache_creation_input_tokens`: Any new tokens added to conversation history
+For subsequent requests with only a new user message (and the fourth breakpoint moved to that new final message, as in the example):
+- `input_tokens`: Minimal (tokens after the final cache breakpoint, near 0 in this example)
+- `cache_creation_input_tokens`: Tokens in the new user message and the previous assistant turn (the new conversation segment being cached)
 - `cache_read_input_tokens`: All previously cached tokens (tools + instructions + RAG documents + previous conversation)
 
 This pattern is especially powerful for:
@@ -2964,15 +2991,23 @@ This pattern is especially powerful for:
 
 </section>
 
+## Data retention
+
+Prompt caching (both automatic and explicit) is ZDR eligible. Anthropic does not store the raw text of your prompts or Claude's responses.
+
+KV (key-value) cache representations and cryptographic hashes of cached content are held in memory only and are not stored at rest. Cached entries have a minimum lifetime of 5 minutes (standard) or 1 hour (extended), after which they are promptly, though not immediately, deleted. Cache entries are isolated between organizations and, on the Claude API, Claude Platform on AWS, and Microsoft Foundry (beta), between workspaces within an organization.
+
+For ZDR eligibility across all features, see [API and data retention](/docs/en/manage-claude/api-and-data-retention).
+
 ---
 ## FAQ
 
   <section title="Do I need multiple cache breakpoints or is one at the end sufficient?">
 
-    **In most cases, a single cache breakpoint at the end of your static content is sufficient.** The system automatically checks for cache hits at all previous content block boundaries (up to 20 blocks before your breakpoint) and uses the longest matching sequence of cached blocks.
+    **In most cases, a single cache breakpoint at the end of your static content is sufficient.** Cache writes happen only at the block you mark. Place it on the last block that stays identical across requests, and every subsequent request reads that same entry. If a later block varies per request (a timestamp, the incoming message), keep the breakpoint before it, on the last stable block.
 
     You only need multiple breakpoints if:
-    - You have more than 20 content blocks before your desired cache point
+    - A growing conversation pushes your breakpoint 20 or more blocks past the last cache write, putting the prior entry outside the lookback window
     - You want to cache sections that update at different frequencies independently
     - You need explicit control over what gets cached for cost optimization
 
@@ -3005,7 +3040,7 @@ This pattern is especially powerful for:
 
     **Important:** `input_tokens` does NOT represent all input tokens - only the portion after your last cache breakpoint. If you have cached content, `input_tokens` will typically be much smaller than your total input.
 
-    **Example:** With a 200K token document cached and a 50 token user question:
+    **Example:** With a 200k token document cached and a 50 token user question:
     - `cache_read_input_tokens`: 200,000
     - `cache_creation_input_tokens`: 0
     - `input_tokens`: 50
@@ -3031,7 +3066,7 @@ This pattern is especially powerful for:
 
   <section title="Is prompt caching available for all models?">
 
-    No, prompt caching is currently only available for Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.6, Claude Sonnet 4.5, Claude Opus 4.1, Claude Opus 4, Claude Sonnet 4, Claude Sonnet 3.7 ([deprecated](/docs/en/about-claude/model-deprecations)), Claude Haiku 4.5, Claude Haiku 3.5 ([deprecated](/docs/en/about-claude/model-deprecations)), and Claude Haiku 3.
+    Prompt caching is supported on all [active Claude models](/docs/en/about-claude/models/overview).
   
 </section>
 
@@ -3061,7 +3096,7 @@ This pattern is especially powerful for:
 
   <section title="How does prompt caching affect pricing?">
 
-    Prompt caching introduces a new pricing structure where cache writes cost 25% more than base input tokens, while cache hits cost only 10% of the base input token price.
+    Prompt caching introduces a new pricing structure where 5-minute cache writes cost 25% more than base input tokens, 1-hour cache writes cost 2x base input tokens, and cache hits cost only 10% of the base input token price.
   
 </section>
 
@@ -3089,15 +3124,13 @@ Prompt caching is designed with strong privacy and data separation measures:
 
 1. Cache keys are generated using a cryptographic hash of the prompts up to the cache control point. This means only requests with identical prompts can access a specific cache.
 
-2. Caches are organization-specific. Users within the same organization can access the same cache if they use identical prompts, but caches are not shared across different organizations, even for identical prompts.
+2. On the Claude API, Claude Platform on AWS, and Microsoft Foundry (beta), caches are isolated per workspace within an organization. On Bedrock and Vertex AI, caches are isolated per organization. In every case, caches are never shared across organizations, even for identical prompts. See [Cache storage and sharing](#cache-storage-and-sharing) for details.
 
 3. The caching mechanism is designed to maintain the integrity and privacy of each unique conversation or context.
 
-4. It's safe to use `cache_control` anywhere in your prompts. For cost efficiency, it's better to exclude highly variable parts (for example, user's arbitrary input) from caching.
+4. It's safe to use `cache_control` anywhere in your prompts. For caching to produce reads, place the breakpoint at the end of a stable prefix: placing it on a block that changes every request (such as a timestamp or the user's arbitrary input) writes a fresh entry each time and never hits.
 
 These measures ensure that prompt caching maintains data privacy and security while offering performance benefits.
-
-Note: Starting February 5, 2026, caches will be isolated per workspace instead of per organization. This change applies to the Claude API and Azure AI Foundry (preview). See [Cache storage and sharing](#cache-storage-and-sharing) for details.
 
   
 </section>
@@ -3107,15 +3140,15 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
 
     The [1-hour cache](#1-hour-cache-duration) can help improve your cache hits. The most cost effective way of using it is the following:
     - Gather a set of message requests that have a shared prefix.
-    - Send a batch request with just a single request that has this shared prefix and a 1-hour cache block. This will get written to the 1-hour cache.
+    - Send a batch request with a single request that has this shared prefix and a 1-hour cache block. This writes the prefix to the 1-hour cache.
     - As soon as this is complete, submit the rest of the requests. You will have to monitor the job to know when it completes.
 
-    This is typically better than using the 5-minute cache simply because it's common for batch requests to take between 5 minutes and 1 hour to complete. Anthropic is considering ways to improve these cache hit rates and making this process more straightforward.
+    This is typically better than using the 5-minute cache because it's common for batch requests to take between 5 minutes and 1 hour to complete.
   
 </section>
   <section title="Why am I seeing the error `AttributeError: 'Beta' object has no attribute 'prompt_caching'` in Python?">
 
-  This error typically appears when you have upgraded your SDK or you are using outdated code examples. Prompt caching is now generally available, so you no longer need the beta prefix. Instead of:
+  This error typically appears when you have upgraded your SDK or you are using outdated code examples. Prompt caching no longer requires the beta prefix. Instead of:
     <CodeGroup>
       
       ```python Python nocheck
@@ -3123,13 +3156,13 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
       ```
 
       
-      ```typescript TypeScript nocheck hidelines={1..4}
+      ```typescript TypeScript nocheck hidelines={1..2}
       import Anthropic from "@anthropic-ai/sdk";
 
       const client = new Anthropic();
 
       const response = await client.beta.promptCaching.messages.create({
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 1024,
         system: [
           {
@@ -3145,7 +3178,7 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
       ```
 
       
-      ```php PHP hidelines={1..6} nocheck
+      ```php PHP hidelines={1..4} nocheck
       <?php
 
       use Anthropic\Client;
@@ -3157,7 +3190,7 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
           messages: [
               ['role' => 'user', 'content' => 'Summarize the key points']
           ],
-          model: 'claude-opus-4-6',
+          model: 'claude-opus-4-7',
           system: [
               [
                   'type' => 'text',
@@ -3169,21 +3202,44 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
 
       echo $message->content[0]->text;
       ```
+
+      
+      ```ruby Ruby nocheck hidelines={1..2}
+      require "anthropic"
+
+      client = Anthropic::Client.new
+
+      message = client.beta.prompt_caching.messages.create(
+        model: "claude-opus-4-7",
+        max_tokens: 1024,
+        system: [
+          {
+            type: "text",
+            text: "You are an expert on this large document...",
+            cache_control: { type: "ephemeral" }
+          }
+        ],
+        messages: [
+          { role: "user", content: "Summarize the key points" }
+        ]
+      )
+      puts message.content.first.text
+      ```
     </CodeGroup>
-    Simply use:
+    Use:
     <CodeGroup>
       
       ```python Python nocheck
       client.messages.create(**params)
       ```
 
-      ```typescript TypeScript hidelines={1..4}
+      ```typescript TypeScript hidelines={1..2}
       import Anthropic from "@anthropic-ai/sdk";
 
       const client = new Anthropic();
 
       const response = await client.messages.create({
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 1024,
         system: [
           {
@@ -3198,7 +3254,7 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
       console.log(response);
       ```
 
-      ```php PHP hidelines={1..6}
+      ```php PHP hidelines={1..4}
       <?php
 
       use Anthropic\Client;
@@ -3210,7 +3266,7 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
           messages: [
               ['role' => 'user', 'content' => 'Summarize the key points']
           ],
-          model: 'claude-opus-4-6',
+          model: 'claude-opus-4-7',
           system: [
               [
                   'type' => 'text',
@@ -3223,13 +3279,13 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
       echo $message->content[0]->text;
       ```
 
-      ```ruby Ruby
+      ```ruby Ruby hidelines={1..2}
       require "anthropic"
 
       client = Anthropic::Client.new
 
       message = client.messages.create(
-        model: "claude-opus-4-6",
+        model: "claude-opus-4-7",
         max_tokens: 1024,
         system: [
           {
@@ -3249,7 +3305,7 @@ Note: Starting February 5, 2026, caches will be isolated per workspace instead o
 </section>
   <section title="Why am I seeing 'TypeError: Cannot read properties of undefined (reading 'messages')'?">
 
-  This error typically appears when you have upgraded your SDK or you are using outdated code examples. Prompt caching is now generally available, so you no longer need the beta prefix. Instead of:
+  This error typically appears when you have upgraded your SDK or you are using outdated code examples. Prompt caching no longer requires the beta prefix. Instead of:
 
       ```typescript TypeScript
       client.beta.promptCaching.messages.create(/* ... */);

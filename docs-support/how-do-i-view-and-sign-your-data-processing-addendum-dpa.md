@@ -1,6 +1,6 @@
 # How do I view and sign your Data Processing Addendum (DPA)?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -21,6 +21,6 @@ Anthropic’s DPA with Standard Contractual Clauses (SCCs) is automatically inco
 
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
 - [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
-- [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
-- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
+- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)

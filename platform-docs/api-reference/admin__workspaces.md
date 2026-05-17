@@ -88,6 +88,18 @@ Create Workspace
 
     - `"workspace"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "name": "x"
+        }'
+```
+
 ## Retrieve
 
 **get** `/v1/organizations/workspaces/{workspace_id}`
@@ -153,6 +165,14 @@ Get Workspace
     For Workspaces, this is always `"workspace"`.
 
     - `"workspace"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## List
 
@@ -246,6 +266,14 @@ List Workspaces
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Update
 
 **post** `/v1/organizations/workspaces/{workspace_id}`
@@ -255,8 +283,6 @@ Update Workspace
 ### Path Parameters
 
 - `workspace_id: string`
-
-  ID of the Workspace.
 
 ### Body Parameters
 
@@ -336,6 +362,18 @@ Update Workspace
 
     - `"workspace"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "name": "x"
+        }'
+```
+
 ## Archive
 
 **post** `/v1/organizations/workspaces/{workspace_id}/archive`
@@ -345,8 +383,6 @@ Archive Workspace
 ### Path Parameters
 
 - `workspace_id: string`
-
-  ID of the Workspace.
 
 ### Returns
 
@@ -402,6 +438,15 @@ Archive Workspace
 
     - `"workspace"`
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/archive \
+    -X POST \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 # Members
 
 ## Create
@@ -422,13 +467,15 @@ Create Workspace Member
 
   ID of the User.
 
-- `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin"`
+- `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or "workspace_admin"`
 
   Role of the new Workspace Member. Cannot be "workspace_billing".
 
   - `"workspace_user"`
 
   - `"workspace_developer"`
+
+  - `"workspace_restricted_developer"`
 
   - `"workspace_admin"`
 
@@ -452,7 +499,7 @@ Create Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
     Role of the Workspace Member.
 
@@ -460,9 +507,24 @@ Create Workspace Member
 
     - `"workspace_developer"`
 
+    - `"workspace_restricted_developer"`
+
     - `"workspace_admin"`
 
     - `"workspace_billing"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+          "workspace_role": "workspace_user"
+        }'
+```
 
 ## Retrieve
 
@@ -500,7 +562,7 @@ Get Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
     Role of the Workspace Member.
 
@@ -508,9 +570,19 @@ Get Workspace Member
 
     - `"workspace_developer"`
 
+    - `"workspace_restricted_developer"`
+
     - `"workspace_admin"`
 
     - `"workspace_billing"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## List
 
@@ -560,13 +632,15 @@ List Workspace Members
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
     Role of the Workspace Member.
 
     - `"workspace_user"`
 
     - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
 
     - `"workspace_admin"`
 
@@ -583,6 +657,14 @@ List Workspace Members
 - `last_id: string`
 
   Last ID in the `data` list. Can be used as the `after_id` for the next page.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
 
 ## Update
 
@@ -602,13 +684,15 @@ Update Workspace Member
 
 ### Body Parameters
 
-- `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+- `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
   New workspace role for the User.
 
   - `"workspace_user"`
 
   - `"workspace_developer"`
+
+  - `"workspace_restricted_developer"`
 
   - `"workspace_admin"`
 
@@ -634,7 +718,7 @@ Update Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
     Role of the Workspace Member.
 
@@ -642,9 +726,23 @@ Update Workspace Member
 
     - `"workspace_developer"`
 
+    - `"workspace_restricted_developer"`
+
     - `"workspace_admin"`
 
     - `"workspace_billing"`
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'Content-Type: application/json' \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY" \
+    -d '{
+          "workspace_role": "workspace_user"
+        }'
+```
 
 ## Delete
 
@@ -680,6 +778,15 @@ Delete Workspace Member
 
   ID of the Workspace.
 
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -X DELETE \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
 ## Domain Types
 
 ### Workspace Member
@@ -702,7 +809,7 @@ Delete Workspace Member
 
     ID of the Workspace.
 
-  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_admin" or "workspace_billing"`
+  - `workspace_role: "workspace_user" or "workspace_developer" or "workspace_restricted_developer" or 2 more`
 
     Role of the Workspace Member.
 
@@ -710,9 +817,187 @@ Delete Workspace Member
 
     - `"workspace_developer"`
 
+    - `"workspace_restricted_developer"`
+
     - `"workspace_admin"`
 
     - `"workspace_billing"`
+
+### Member Delete Response
+
+- `MemberDeleteResponse = object { type, user_id, workspace_id }`
+
+  - `type: "workspace_member_deleted"`
+
+    Deleted object type.
+
+    For Workspace Members, this is always `"workspace_member_deleted"`.
+
+    - `"workspace_member_deleted"`
+
+  - `user_id: string`
+
+    ID of the User.
+
+  - `workspace_id: string`
+
+    ID of the Workspace.
+
+# Rate Limits
+
+## List
+
+**get** `/v1/organizations/workspaces/{workspace_id}/rate_limits`
+
+List rate-limit overrides configured for a workspace.
+
+Returns only the groups and limiter types that have a workspace-level
+override. Groups without overrides inherit the organization limits and
+are not listed; use `GET /v1/organizations/rate_limits` to see those.
+
+### Path Parameters
+
+- `workspace_id: string`
+
+  The ID of the workspace.
+
+### Query Parameters
+
+- `group_type: optional "model_group" or "batch" or "token_count" or 3 more`
+
+  Filter by group type.
+
+  - `"model_group"`
+
+  - `"batch"`
+
+  - `"token_count"`
+
+  - `"files"`
+
+  - `"skills"`
+
+  - `"web_search"`
+
+- `page: optional string`
+
+  Opaque cursor from a previous response's `next_page`.
+
+### Returns
+
+- `data: array of object { group_type, limits, models, type }`
+
+  Rate-limit entries for the workspace, one per group that has at least one override.
+
+  - `group_type: "model_group" or "batch" or "token_count" or 3 more`
+
+    The kind of rate-limit group this entry represents. `model_group` entries apply to a family of models (listed in `models`); other values apply to an API-surface category and have `models` set to `null`.
+
+    - `"model_group"`
+
+    - `"batch"`
+
+    - `"token_count"`
+
+    - `"files"`
+
+    - `"skills"`
+
+    - `"web_search"`
+
+  - `limits: array of object { org_limit, type, value }`
+
+    The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
+
+    - `org_limit: number`
+
+      The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
+
+    - `type: string`
+
+      The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+    - `value: number`
+
+      The workspace-level override value for this limiter type.
+
+  - `models: array of string`
+
+    Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
+
+  - `type: "workspace_rate_limit"`
+
+    Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+    - `"workspace_rate_limit"`
+
+- `next_page: string`
+
+  Token to provide in as `page` in the subsequent request to retrieve the next page of data.
+
+### Example
+
+```http
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/rate_limits \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+```
+
+## Domain Types
+
+### Rate Limit List Response
+
+- `RateLimitListResponse = object { data, next_page }`
+
+  - `data: array of object { group_type, limits, models, type }`
+
+    Rate-limit entries for the workspace, one per group that has at least one override.
+
+    - `group_type: "model_group" or "batch" or "token_count" or 3 more`
+
+      The kind of rate-limit group this entry represents. `model_group` entries apply to a family of models (listed in `models`); other values apply to an API-surface category and have `models` set to `null`.
+
+      - `"model_group"`
+
+      - `"batch"`
+
+      - `"token_count"`
+
+      - `"files"`
+
+      - `"skills"`
+
+      - `"web_search"`
+
+    - `limits: array of object { org_limit, type, value }`
+
+      The limiter values overridden for this group in this workspace. Limiter types without a workspace override are omitted and inherit the organization value.
+
+      - `org_limit: number`
+
+        The organization-level value for the same limiter type, for reference. `null` when the organization has no limit configured for this limiter type.
+
+      - `type: string`
+
+        The limiter type (for example, `requests_per_minute` or `input_tokens_per_minute`).
+
+      - `value: number`
+
+        The workspace-level override value for this limiter type.
+
+    - `models: array of string`
+
+      Model names this entry's limits apply to, including aliases. `null` when `group_type` is not `"model_group"`.
+
+    - `type: "workspace_rate_limit"`
+
+      Object type. Always `workspace_rate_limit` for workspace rate-limit entries.
+
+      - `"workspace_rate_limit"`
+
+  - `next_page: string`
+
+    Token to provide in as `page` in the subsequent request to retrieve the next page of data.
 
 
 ---

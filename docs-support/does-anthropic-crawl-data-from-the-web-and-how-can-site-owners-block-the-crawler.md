@@ -1,6 +1,6 @@
 # Does Anthropic crawl data from the web, and how can site owners block the crawler?
 
-*Updated over a week ago*
+*Updated over a month ago*
 
 ---
 
@@ -39,11 +39,11 @@ Disallow: /
 
  
 
-Opting out of being crawled by Anthropic Bots requires modifying the robots.txt file in the manner above. Alternate methods like blocking IP address(es) from which Anthropic Bots operates may not work correctly or persistently guarantee an opt-out, as doing so impedes our ability to read your robots.txt file. Additionally, we do not currently publish IP ranges, as we use service provider public IPs. This may change in the future.
+Opting out of being crawled by Anthropic Bots requires modifying the robots.txt file in the manner above. Alternate methods like blocking IP address(es) from which Anthropic Bots operates may not work correctly or persistently guarantee an opt-out, as doing so impedes our ability to read your robots.txt file. If a crawler has a source IP address on **[this list](https://claude.com/crawling/bots.json)**, it indicates that the crawler is coming from Anthropic.
 
  
 
-You can learn more about our data handling practices and commitments at our[ Help Center](https://support.anthropic.com/en/collections/4078534-privacy-legal). If you have further questions, or believe that our Bots may be malfunctioning, please reach out to [claudebot@anthropic.com](mailto:claudebot@anthropic.com). Please reach out from an email that includes the domain you are contacting us about, as it is otherwise difficult to verify reports.
+You can learn more about our data handling practices and commitments at our **[Help Center](https://support.claude.com/en/collections/4078534-privacy-and-legal)**. If you have further questions, or believe that our Bots may be malfunctioning, please reach out to [claudebot@anthropic.com](mailto:claudebot@anthropic.com). Please reach out from an email that includes the domain you are contacting us about, as it is otherwise difficult to verify reports.
 
 
 ---
@@ -52,6 +52,6 @@ You can learn more about our data handling practices and commitments at our[ Hel
 
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
-- [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
+- [How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
-- [Anthropic Connectors Directory FAQ](https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq)
+- [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)

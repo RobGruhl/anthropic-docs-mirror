@@ -1,6 +1,6 @@
 # Creating a new account after deletion
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -15,7 +15,7 @@ If your previous account was disabled for [Usage Policy violations](https://www.
 
 ## Related Articles
 
-- [Safeguards Warnings and Appeals](https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals)
+- [Safeguards warnings and appeals](https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals)
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
 - [How to redeem a Claude gift subscription](https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)

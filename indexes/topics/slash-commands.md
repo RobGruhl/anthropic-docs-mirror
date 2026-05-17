@@ -1,8 +1,9 @@
 # Slash Commands Topic Index
-*Last updated: 2026-01-14 11:27*
+*Last updated: 2026-05-17 00:30*
 
-Documents related to Slash Commands across all sources (1 documents)
+Documents related to Slash Commands across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
-- [Slash Commands](/code-claude-docs/slash-commands.md)
+## Claude Code Documentation (2)
+- [Commands](/code-claude-docs/commands.md)
+- [Slash Commands](/code-claude-docs/agent-sdk__slash-commands.md)
 

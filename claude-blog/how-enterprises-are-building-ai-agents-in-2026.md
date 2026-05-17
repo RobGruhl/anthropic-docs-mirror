@@ -1,58 +1,58 @@
-# 2026년에 기업이 AI 에이전트를 구축하는 방법
+# Wie Unternehmen 2026 KI-Agenten entwickeln
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b2403b092e0358cbd_5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
 
-# 2026년에 기업이 AI 에이전트를 구축하는 방법
+# Wie Unternehmen 2026 KI-Agenten entwickeln
 
-현재 조직은 AI 에이전트를 어떻게 배포하고 있으며, 미래에는 어떤 변화가 있을까요? 이를 위해 다양한 산업 분야의 기술 리더 500명 이상을 대상으로 설문조사를 진행했습니다.
+Wie setzen Unternehmen heute KI-Agenten ein – und was erwartet uns in Zukunft?  Wir haben über 500 technische Führungskräfte aus allen Branchen befragt, um dies herauszufinden.
 
-- 카테고리엔터프라이즈 AI
+- KategorieKI für Unternehmen
 
-- 제품No items found.
+- ProduktNo items found.
 
-- 게시일2025-12-09
+- Datum9.12.2025
 
-- 예상 읽기 시간5분
+- Lesezeit5Min.
 
-- 공유하기링크 복사https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
+- TeilenLink kopierenhttps://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
 
-AI 에이전트는 실험적인 단계를 넘어 조직 기술 스택의 필수적인 부분으로 자리 잡았습니다. 그러나 기업들은 이를 실제로 어떻게 활용하고 있을까요?
+KI-Agenten haben sich vom experimentellen Einsatz zu einem wesentlichen Bestandteil des Technologie-Stacks eines Unternehmens entwickelt. Aber wie nutzen Unternehmen sie tatsächlich?
 
-리서치 회사인 Material과 협력하여, 업계와 기업 규모에 걸쳐 500명 이상의 기술 리더를 대상으로 설문조사를 진행하여, 현재 조직이 에이전트를 어떻게 배포하고 있는지, 앞으로 어떤 기회를 놓고 있는지 이해했습니다.
+In Zusammenarbeit mit dem Forschungsunternehmen Material haben wir über 500 technische Führungskräfte aus allen Branchen und Unternehmensgrößen befragt, um zu verstehen, wie Unternehmen heute Agenten einsetzen und wo sie Chancen sehen.
 
-조사 결과는 명확한 패턴을 보여줍니다. 조직은 단순 작업 자동화에서 팀과 비즈니스 부서를 아우르는 복잡한 다단계 워크플로우로 전환하고 있습니다.
+Die Ergebnisse zeigen ein klares Muster: Unternehmen wechseln von der einfachen Automatisierung von Aufgaben zu komplexen, mehrstufigen Workflows, die Teams und Geschäftsfunktionen umfassen.
 
-## 데이터가 보여주는 결과
+## Was die Daten zeigen
 
-이제 조직의 절반 이상(57%)이 다단계 워크플로우를 위해 에이전트를 배포하고, 16%는 여러 팀 전반에서 교차 부서 프로세스를 실행하고 있습니다. 2026년, 81%는 더 복잡한 사용 사례를 해결할 계획이며, 39%는 다단계 프로세스를 위한 에이전트 개발을, 29%는 교차 부서 프로젝트에 배포할 계획입니다.
+Über die Hälfte der Unternehmen (57 %) stellen jetzt Agenten für mehrstufige Workflows bereit, wobei 16 % funktionsübergreifende Prozesse in mehreren Teams verwenden. Im Jahr 2026 planen 81 % komplexere Anwendungsfälle, wobei 39 % Agenten für mehrstufige Prozesse entwickeln und 29 % sie für funktionsübergreifende Projekte bereitstellen.
 
-코딩이 도입을 주도합니다. 약 90%의 조직이 AI를 개발 지원으로 활용하고, 86%가 프로덕션 코드를 위해 에이전트를 배포하고 있습니다. 조직은 계획 및 아이디어 구상(58%), 코드 생성(59%), 문서화(59%), 코드 검토 및 테스트(59%) 등 개발 라이프사이클 전반에서 시간을 절약했다고 보고합니다.
+Programmieren fördert die Akzeptanz. Fast 90 % der Unternehmen nutzen KI zur Unterstützung bei der Entwicklung, und 86 % stellen Agenten für den Produktionscode bereit. Unternehmen berichten von Zeitersparnissen im gesamten Entwicklungszyklus: Planung und Ideenentwicklung (58 %), Codegenerierung (59 %), Dokumentation (59 %) sowie Codeüberprüfung und Tests (59 %).
 
-그러나 그 영향은 엔지니어링 그 이상으로 확장됩니다. 데이터 분석 및 보고서 생성(60%), 내부 프로세스 자동화(48%)가 가장 큰 영향을 미치는 사용 사례로 꼽혔습니다. 미래를 내다보면, 56%가 내년에 리서치 및 보고를 위한 에이전트를 도입할 계획입니다.
+Aber die Auswirkungen gehen über das Engineering hinaus. Datenanalyse und Berichtserstellung (60 %) sowie die Automatisierung interner Prozesse (48 %) gehören zu den Anwendungsfällen mit dem größten Einfluss. Mit Blick auf die Zukunft planen 56 % die Implementierung von Agenten für Recherchen und Reporting im Laufe des nächsten Jahres.
 
-가장 주목할 만한 사실은 AI 에이전트 투자가 이미 가치 있는 경제적 수익을 창출하고 있다고 응답한 것입니다.
+80 % der Unternehmen berichten, dass ihre Investitionen in KI-Agenten bereits messbare wirtschaftliche Renditen erzielen.
 
-## 실제로 어떤 모습일까요?
+## Wie das in der Praxis aussieht
 
-성과를 거두는 조직들은 에이전트를 실험 대상이 아닌 인프라 구성의 핵심 부분으로 다루고 있습니다.
+Die Unternehmen, die Ergebnisse erzielen, behandeln Agenten als Kernbestandteil ihrer Infrastruktur, nicht als Experimente.
 
-[Thomson Reuters](https://www.claude.com/customers/thomson-reuters)는 AI 법률 플랫폼인 CoCounsel에 Claude를 활용하고 있습니다. 이전에는 수동으로 문서를 검색하는 데 많은 시간을 투자했던 변호사들이 이제 단 몇 분 만에 150년간의 사례 기록과 3,000명의 도메인 전문가들의 정보를 확인할 수 있습니다.
+[Thomson Reuters](https://www.claude.com/customers/thomson-reuters)verwendet Claude für CoCounsel, die KI-Plattform für Rechtsfragen. Anwälte, die früher stundenlang Dokumente durchsuchen mussten, können jetzt in Minutenschnelle auf die Rechtsprechung von 150 Jahren und 3.000 Experten zugreifen.
 
-사이버 보안 기업인[eSentile](https://www.claude.com/customers/esentire)은 전문가 위협 분석 시간을 5시간에서 7분으로 단축했으며, AI 기반 분석은 수석 보안 전문가의 95%의 승률을 보였습니다. 헬스케어 분야에서[Doctolib](https://claude.com/customers/doctolib)은 전체 엔지니어링팀에 Claude Code를 도입했으며, 몇 주가 아닌 몇 시간 만에 레거시 테스트 인프라를 교체했으며, 기능 출시 속도를 40% 향상했습니다.
+Das Cybersicherheitsunternehmen[eSentire](https://www.claude.com/customers/esentire)komprimierte die Bedrohungsanalyse von 5 Stunden auf 7 Minuten, wobei die KI-gestützte Analyse in 95 % der Fälle mit den leitenden Sicherheitsexperten übereinstimmte. Im Gesundheitswesen hat[Doctolib](https://claude.com/customers/doctolib)Claude Code für das gesamte Engineering-Team bereitgestellt, um die Legacy-Testinfrastruktur innerhalb von Stunden statt Wochen zu ersetzen und die Funktionen 40 % schneller bereitzustellen.
 
-소매 부문도 비슷한 성과를 거두고 있습니다.[L'Oréal](https://claude.com/customers/loreal)은 대화 분석에서 99.9%의 정확도를 달성하여, 월간 44,000명의 사용자가 맞춤형 대시보드를 기다리지 않고 직접 데이터를 쿼리할 수 있도록 지원합니다.
+Der Einzelhandel verzeichnet ähnliche Gewinne.[L'Oréal](https://claude.com/customers/loreal)erzielte eine Genauigkeit von 99,9 % bei Konversationsanalysen, sodass 44.000 Benutzer pro Monat Daten direkt abfragen konnten, anstatt auf benutzerdefinierte Dashboards zu warten.
 
-## 앞으로 나아갈 방향
+## Der Weg nach vorn
 
-2026년 리더들이 던져야 할 과제는 AI 에이전트를 도입할지 여부가 아니라, 이를 전략적으로 어떻게 확장할 것인가입니다. 이 데이터는 기존 시스템과의 통합(46%), 데이터 액세스 및 품질(42%), 변경 관리 요구 사항(39%)이라는 세 가지 주요 과제를 보여줍니다.
+Die Frage für Führungskräfte im Jahr 2026 ist nicht, ob sie KI-Agenten einführen sollen, sondern wie sie strategisch skalieren können. Die Daten weisen auf drei Hauptprobleme hin: die Integration in vorhandene Systeme (46 %), Datenzugriff und -qualität (42 %) sowie Anforderungen an das Änderungsmanagement (39 %).
 
-리더 10명 중 9명은 팀의 업무 방식을 바꾸고 있으며, 직원들이 일상적인 업무보다 전략 활동, 관계 구축, 기술 개발에 더 많은 시간을 할애하고 있다고 보고합니다.
+Neun von zehn Führungskräften berichten, dass Agenten die Arbeitsweise ihrer Teams verändern, wobei die Mitarbeiter mehr Zeit mit strategischen Aktivitäten, dem Aufbau von Beziehungen und der Entwicklung von Fähigkeiten verbringen als mit Routinearbeiten.
 
-이러한 전환은 코딩 및 엔터프라이즈 워크플로우에 최적화된 모델, Agent SDK와 같은 프레임워크, 팀이 프로토타입에서 프로덕션으로 더 빠르게 이동할 수 있도록 지원하는 Claude Code와 같은 도구를 위한 목적에 맞는 인프라가 필요합니다.
+Dieser Übergang erfordert eine speziell entwickelte Infrastruktur: Modelle, die für Programmierung und Unternehmens-Workflows optimiert sind, Frameworks wie das Agent SDK und Tools wie Claude Code, die Teams dabei unterstützen, schneller vom Prototyp in die Produktion zu gelangen.
 
-또한, 코딩은 AI 에이전트의 실험 공간이었지만, 시작에 불과하다는 사실을 발견했습니다. 에이전트가 리서치, 고객 서비스, 재무 계획, 공급망 운영 분야로 사업을 확장하면서, 이제 전문성을 쌓은 조직은 기술이 성숙됨에 따라 엄청난 가치를 창출할 것입니다.
+Wir stellen auch fest, dass Programmieren zwar das Testgelände für KI-Agenten ist – aber das ist erst der Anfang. Da Agenten in die Bereiche Forschung, Kundenservice, Finanzplanung und Lieferkettenbetrieb expandieren, erhalten die Unternehmen, die jetzt Know-how aufbauen, einen unverhältnismäßigen Mehrwert mit der Reife der Technologie.
 
-여기에서 2026년 AI 에이전트 현황 보고서 전체를 읽어보세요.
+Lesen Sie[hier](https://cdn.sanity.io/files/4zrzovbb/website/cd77281ebc251e6b860543d8943ede8d06c4ef50.pdf)den vollständigen Bericht über den Stand der KI-Agenten 2026.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -62,36 +62,34 @@ AI 에이전트는 실험적인 단계를 넘어 조직 기술 스택의 필수�
 
 FAQ
 
-관련 게시물
+Ähnliche Beiträge
 
-Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+Erfahren Sie mehr über aktuelle Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### 세 곳의 YC 스타트업이 Claude Code로 회사를 세운 방법
+### Code w/ Claude SF 2026 recap: Building on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
-### Anthropic 팀의 Claude Code 사용법
+### Deploying Claude across the legal industry
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
-### Anthropic이 법률 사무에 Claude를 활용하는 방법
+### The founder's playbook: Building an AI-native startup
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Brex가 Claude Code로 코드 품질과 생산성을 개선하는 방법
+### Claude for the legal industry
 
-Claude와 함께 조직의 운영 방식을 혁신하세요
+Transformieren Sie mit Claude die Arbeitsweise in Ihrem Unternehmen
 
-## ‍
+Entwickler-Newsletter abonnieren
 
-개발자 뉴스레터 구독
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
 
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
-
-월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/ko-kr/blog/how-enterprises-are-building-ai-agents-in-2026
+**Source:** https://claude.com/de/blog/how-enterprises-are-building-ai-agents-in-2026
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
