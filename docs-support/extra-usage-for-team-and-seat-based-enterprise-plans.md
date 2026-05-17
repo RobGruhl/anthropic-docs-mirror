@@ -85,7 +85,7 @@ The **Usage and spend limits** section will show the current limit (if any) or *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1778993100&signature=f418c770b0ba4983b1cd7155afd2164d1050a6161ac1899577d7630f5d5c87ba&req=diEjH8p6modfXfMW1HO4zQHwjKneny2n6DwhVVpk1mBLAVoyVQBgPIpBhOWo%0AlbsQ1QyGFmwpSxRPNno%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1779003000&signature=6df58899f14284519e79283083dfdefb94b1aeceb3be0112d3a19ecc2473ef7e&req=diEjH8p6modfXfMW1HO4zQHwjKjXli2m6DwhVVpk1mBuF7pFEzdQV52pbE0f%0AQmVm%2BcH6kuKTuBQEy7s%3D%0A)
 
  
 
@@ -99,7 +99,7 @@ Owners and Primary Owners on **seat-based Enterprise plans only** can set spend 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149351600/c5b979c366ac2738f60ea84e85b3/CleanShot+2026-03-10+at+15_37_41%402x.png?expires=1778993100&signature=62772a6b37a34086aa680cf5853113cafadfd7b8fa35eb8adc00b60ec9937fd7&req=diEjH8p7nIdfWfMW1HO4zYnqP42dKnOI0wfO62ivdG%2FZFX%2ByATN29afFAOwr%0A67v4hvYh31qralyCS1w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149351600/c5b979c366ac2738f60ea84e85b3/CleanShot+2026-03-10+at+15_37_41%402x.png?expires=1779003000&signature=086c27718a8f32c372e3ebd688e7e333e3bd22803e4bcf181ba6ae54b5c6292a&req=diEjH8p7nIdfWfMW1HO4zYnqP4yUI3OJ0wfO62ivdG9M3ZTxmiRTOgaT%2BCSH%0AyV2A2RGCqDA1FbAOMG0%3D%0A)
 
  
 
@@ -107,7 +107,7 @@ Select the “By group” tab to see **Standard seats** and **Premium seats** gr
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149362056/44993661ca2db771fe924d0346f6/image.png?expires=1778993100&signature=876fed7e5cc511d06e335bdc68d7ff38a2c6b14165325f1b4861fb1f69d2f277&req=diEjH8p4n4FaX%2FMW1HO4zRzvs40CeU5Hq7nEDCGq9G5U4RfxZzscV197R23O%0AQFzy5yoFSyIngBs%2Fx5E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149362056/44993661ca2db771fe924d0346f6/image.png?expires=1779003000&signature=55a60daf6b7b61c1ff16672ddcc8a1fc458b449ec48c9ad8d2804919e6c6e7a4&req=diEjH8p4n4FaX%2FMW1HO4zRzvs4wLcE5Gq7nEDCGq9G6ydIsGtfOAr%2B9qjf9p%0An1s72jK9T9O8ExaTfNM%3D%0A)
 
  
 
@@ -121,7 +121,7 @@ Owners and Primary Owners can also set individual monthly spend limits for each 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149370853/db66f5cd03683b9cc119d0dcd6b8/image.png?expires=1778993100&signature=8241dbd614e3c73af011407938b691cce4ce7559e2683ecbdde54d242f6839e9&req=diEjH8p5nYlaWvMW1HO4zaPdFg9eXCxHe9HwvwG7ubhv%2BAxRmOn6MtIE5E2Y%0AyyHQYsjTjaUoMsyHq4A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149370853/db66f5cd03683b9cc119d0dcd6b8/image.png?expires=1779003000&signature=7dd0b783902dcb6355a1463e3772f0aa4317a882de287b77260e0ad16ddb7e10&req=diEjH8p5nYlaWvMW1HO4zaPdFg5XVSxGe9HwvwG7ubgKjB6MfCdWPyjZUkaY%0ADtj1WnSETB0iQ%2BTNnoY%3D%0A)
 
  
 
@@ -129,7 +129,7 @@ Enter the amount and click “Set limit.” Alternatively, selecting “Set to u
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149374028/97813fe3b515c2e839d8d92abd79/image.png?expires=1778993100&signature=dfbe8084c043fff513016423707e98fa751b275e87398328e9fd83c2bad02e21&req=diEjH8p5mYFdUfMW1HO4zevsDf%2BDOuiLw6z2wGSwkbs9p01oOeZT9Sq9wUpd%0AGAT1YK9CTuzkWvDLxtk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149374028/97813fe3b515c2e839d8d92abd79/image.png?expires=1779003000&signature=a4be95a0db9085055654009a706d7ac570fbebe1934dd397a595b9f0f0240fef&req=diEjH8p5mYFdUfMW1HO4zevsDf6KM%2BiKw6z2wGSwkbvwTsZIkoq2l5UkUKsA%0AtYLFbQhKc4R6bsE4l2k%3D%0A)
 
  
 
@@ -165,7 +165,7 @@ Members of seat-based Enterprise plans will see a "Request extra usage" link upo
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1890802390/d7ea7057886f58e9cf4f1429e724/CleanShot%2B2025-12-17%2Bat%2B11_10_45-402x.png?expires=1778993100&signature=b587afe0e1645eb81245b3c16edf407ebb332de87f6e9cb06a2381456f417e18&req=dSguFsF%2Bn4JWWfMW1HO4zRIqaFWAn9Attd0CAHZGpNiaKHvdAagtxcFmPLBE%0AO2NF3sjGHEJ7hTDFTKc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1890802390/d7ea7057886f58e9cf4f1429e724/CleanShot%2B2025-12-17%2Bat%2B11_10_45-402x.png?expires=1779003000&signature=cf9804e3bd2adf6832161deaf4da41f1f9d738a4a42a3e0e82fe980f26e5317a&req=dSguFsF%2Bn4JWWfMW1HO4zRIqaFSJltAstd0CAHZGpNhafPWOdqEF5LDJh%2BR%2F%0ArvbGhHAZO%2BAHxo3TVyU%3D%0A)
 
  
 

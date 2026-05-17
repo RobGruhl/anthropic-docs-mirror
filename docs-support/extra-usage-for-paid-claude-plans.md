@@ -191,8 +191,8 @@ No, extra usage is billed at **[standard API rates](https://claude.com/pricing#a
 
 ## Related Articles
 
-- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
 - [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Buy usage bundles](https://support.claude.com/en/articles/14246112-buy-usage-bundles)
 - [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)

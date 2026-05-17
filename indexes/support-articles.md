@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-17 04:27*
+*Last updated: 2026-05-17 06:58*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -446,7 +446,7 @@ Total documents: 268
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-17  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -886,7 +886,7 @@ Total documents: 268
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-02-20  
+**Updated:** 2026-05-17  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  

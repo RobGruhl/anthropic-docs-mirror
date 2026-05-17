@@ -53,8 +53,8 @@ Research is subject to the same limits as standard Claude conversations. However
 
 ## Related Articles
 
-- [Claude is providing incorrect or misleading responses. What’s going on?](https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on)
 - [When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
 - [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
