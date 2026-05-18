@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-05-18 07:21*
+*Last updated: 2026-05-18 10:36*
 
 ## Quick Stats
-- **Total Documents:** 2203
+- **Total Documents:** 2204
 - **Platform Docs:** 1166
 - **Claude Code Docs:** 132
 - **MCP Docs:** 168
@@ -11,7 +11,7 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 24
-- **Claude.com Blog:** 132
+- **Claude.com Blog:** 133
 - **Support Articles:** 268
 - **Topics:** 83
 
@@ -26,19 +26,19 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 24 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 132 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 133 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 268 help articles from support.claude.com
 
 ### By Topic
 - [Mcp](topics/mcp.md) - 218 documents
-- [Claude Code](topics/claude-code.md) - 212 documents
+- [Claude Code](topics/claude-code.md) - 213 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Api](topics/api.md) - 116 documents
-- [Skills](topics/skills.md) - 108 documents
+- [Skills](topics/skills.md) - 109 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Agents](topics/agents.md) - 102 documents
 - [Evaluations](topics/evaluations.md) - 101 documents

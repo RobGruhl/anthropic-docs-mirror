@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-05-18 07:21*
+*Last updated: 2026-05-18 10:36*
 
-Documents related to Skills across all sources (108 documents)
+Documents related to Skills across all sources (109 documents)
 ---
 ## Platform Documentation (platform.claude.com) (84)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -104,11 +104,12 @@ Documents related to Skills across all sources (108 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (15)
+## Claude.com Blog Posts (16)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [Advancing Claude for Excel and PowerPoint](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
+- [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
