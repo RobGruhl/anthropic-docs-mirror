@@ -49,9 +49,9 @@
       ],
       "keywords": [
         "code",
-        "agent",
+        "features",
         "claude",
-        "features"
+        "agent"
       ],
       "title": "Claude Code Features"
     },
@@ -65,8 +65,8 @@
       "source": "code-claude-docs",
       "categories": [
         "costs",
-        "administration",
         "agent-sdk",
+        "administration",
         "sdk"
       ],
       "keywords": [
@@ -104,15 +104,15 @@
       "last_updated": "2026-05-17T00:26:22.413804",
       "source": "code-claude-docs",
       "categories": [
+        "features",
         "agent-sdk",
-        "sdk",
         "checkpointing",
-        "features"
+        "sdk"
       ],
       "keywords": [
-        "agent",
         "file",
-        "checkpointing"
+        "checkpointing",
+        "agent"
       ],
       "title": "File Checkpointing"
     },
@@ -125,8 +125,8 @@
       "last_updated": "2026-05-17T00:26:22.450766",
       "source": "code-claude-docs",
       "categories": [
-        "hooks",
         "agent-sdk",
+        "hooks",
         "sdk"
       ],
       "keywords": [
@@ -148,8 +148,8 @@
         "sdk"
       ],
       "keywords": [
-        "agent",
-        "hosting"
+        "hosting",
+        "agent"
       ],
       "title": "Hosting"
     },
@@ -185,8 +185,8 @@
       ],
       "keywords": [
         "migration",
-        "agent",
-        "guide"
+        "guide",
+        "agent"
       ],
       "title": "Migration Guide"
     },
@@ -203,10 +203,10 @@
         "sdk"
       ],
       "keywords": [
-        "prompts",
+        "system",
         "modifying",
-        "agent",
-        "system"
+        "prompts",
+        "agent"
       ],
       "title": "Modifying System Prompts"
     },
@@ -223,8 +223,8 @@
         "sdk"
       ],
       "keywords": [
-        "agent",
-        "observability"
+        "observability",
+        "agent"
       ],
       "title": "Observability"
     },
@@ -274,8 +274,8 @@
       "last_updated": "2026-05-17T00:26:22.751311",
       "source": "code-claude-docs",
       "categories": [
-        "agent-sdk",
         "plugins",
+        "agent-sdk",
         "sdk"
       ],
       "keywords": [
@@ -311,8 +311,8 @@
       "last_updated": "2026-05-17T00:26:22.833089",
       "source": "code-claude-docs",
       "categories": [
-        "agent-sdk",
         "getting-started",
+        "agent-sdk",
         "sdk"
       ],
       "keywords": [
@@ -335,8 +335,8 @@
       ],
       "keywords": [
         "secure",
-        "agent",
-        "deployment"
+        "deployment",
+        "agent"
       ],
       "title": "Secure Deployment"
     },
@@ -363,17 +363,17 @@
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/skills.md",
       "hash": "e69be49ac55ca0331c3d6831c96155eedd615c48e02595c3005a4043d9f06fe7",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:00:41 GMT",
+      "last_modified": "Mon, 18 May 2026 04:26:47 GMT",
       "last_updated": "2026-05-17T00:26:22.952873",
       "source": "code-claude-docs",
       "categories": [
+        "skills",
         "agent-sdk",
-        "sdk",
-        "skills"
+        "sdk"
       ],
       "keywords": [
-        "agent",
-        "skills"
+        "skills",
+        "agent"
       ],
       "title": "Skills"
     },
@@ -386,9 +386,9 @@
       "last_updated": "2026-05-17T00:26:22.993269",
       "source": "code-claude-docs",
       "categories": [
-        "sdk",
+        "slash-commands",
         "agent-sdk",
-        "slash-commands"
+        "sdk"
       ],
       "keywords": [
         "commands",
@@ -410,9 +410,9 @@
         "sdk"
       ],
       "keywords": [
+        "streaming",
         "output",
-        "agent",
-        "streaming"
+        "agent"
       ],
       "title": "Streaming Output"
     },
@@ -429,10 +429,10 @@
         "sdk"
       ],
       "keywords": [
+        "streaming",
         "single",
-        "agent",
         "mode",
-        "streaming"
+        "agent"
       ],
       "title": "Streaming Vs Single Mode"
     },
@@ -450,8 +450,8 @@
       ],
       "keywords": [
         "structured",
-        "agent",
-        "outputs"
+        "outputs",
+        "agent"
       ],
       "title": "Structured Outputs"
     },
@@ -464,8 +464,8 @@
       "last_updated": "2026-05-17T00:26:23.147643",
       "source": "code-claude-docs",
       "categories": [
-        "sub-agents",
         "agent-sdk",
+        "sub-agents",
         "sdk"
       ],
       "keywords": [
@@ -506,8 +506,8 @@
         "sdk"
       ],
       "keywords": [
-        "search",
         "tool",
+        "search",
         "agent"
       ],
       "title": "Tool Search"
@@ -525,8 +525,8 @@
         "sdk"
       ],
       "keywords": [
-        "agent",
-        "typescript"
+        "typescript",
+        "agent"
       ],
       "title": "Typescript"
     },
@@ -544,8 +544,8 @@
       ],
       "keywords": [
         "preview",
-        "agent",
-        "typescript"
+        "typescript",
+        "agent"
       ],
       "title": "Typescript V2 Preview"
     },
@@ -562,8 +562,8 @@
         "sdk"
       ],
       "keywords": [
-        "input",
         "user",
+        "input",
         "agent"
       ],
       "title": "User Input"
@@ -580,8 +580,8 @@
         "claude-code"
       ],
       "keywords": [
-        "agent",
-        "teams"
+        "teams",
+        "agent"
       ],
       "title": "Agent Teams"
     },
@@ -682,8 +682,8 @@
       ],
       "keywords": [
         "config",
-        "mode",
-        "auto"
+        "auto",
+        "mode"
       ],
       "title": "Auto Mode Config"
     },
@@ -699,8 +699,8 @@
         "claude-code"
       ],
       "keywords": [
-        "best",
-        "practices"
+        "practices",
+        "best"
       ],
       "title": "Best Practices"
     },
@@ -778,8 +778,8 @@
       "last_updated": "2026-05-17T00:26:23.869333",
       "source": "code-claude-docs",
       "categories": [
-        "checkpointing",
-        "features"
+        "features",
+        "checkpointing"
       ],
       "keywords": [
         "checkpointing"
@@ -882,8 +882,8 @@
         "claude-code"
       ],
       "keywords": [
-        "review",
-        "code"
+        "code",
+        "review"
       ],
       "title": "Code Review"
     },
@@ -915,8 +915,8 @@
         "workflows"
       ],
       "keywords": [
-        "common",
-        "workflows"
+        "workflows",
+        "common"
       ],
       "title": "Common Workflows"
     },
@@ -964,8 +964,8 @@
         "claude-code"
       ],
       "keywords": [
-        "context",
-        "window"
+        "window",
+        "context"
       ],
       "title": "Context Window"
     },
@@ -1000,8 +1000,8 @@
         "monitoring"
       ],
       "keywords": [
-        "usage",
-        "data"
+        "data",
+        "usage"
       ],
       "title": "Data Usage"
     },
@@ -1010,15 +1010,15 @@
       "original_md_url": "https://code.claude.com/docs/en/debug-your-config.md",
       "hash": "467fb9685d5cb753b7ae0d2dccde7f67405820d0748dbad9b573b30f893f4138",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:50:03 GMT",
+      "last_modified": "Mon, 18 May 2026 06:57:48 GMT",
       "last_updated": "2026-05-17T00:26:24.469850",
       "source": "code-claude-docs",
       "categories": [
         "configuration"
       ],
       "keywords": [
-        "debug",
-        "config"
+        "config",
+        "debug"
       ],
       "title": "Debug Your Config"
     },
@@ -1084,8 +1084,8 @@
         "getting-started"
       ],
       "keywords": [
-        "desktop",
-        "quickstart"
+        "quickstart",
+        "desktop"
       ],
       "title": "Desktop Quickstart"
     },
@@ -1102,8 +1102,8 @@
       ],
       "keywords": [
         "tasks",
-        "desktop",
-        "scheduled"
+        "scheduled",
+        "desktop"
       ],
       "title": "Desktop Scheduled Tasks"
     },
@@ -1201,8 +1201,8 @@
         "overview"
       ],
       "keywords": [
-        "overview",
-        "features"
+        "features",
+        "overview"
       ],
       "title": "Features Overview"
     },
@@ -1235,8 +1235,8 @@
         "github-actions"
       ],
       "keywords": [
-        "github",
-        "actions"
+        "actions",
+        "github"
       ],
       "title": "Github Actions"
     },
@@ -1316,8 +1316,8 @@
       "last_updated": "2026-05-17T00:26:25.231729",
       "source": "code-claude-docs",
       "categories": [
-        "google-vertex-ai",
-        "cloud-platforms"
+        "cloud-platforms",
+        "google-vertex-ai"
       ],
       "keywords": [
         "google",
@@ -1363,15 +1363,15 @@
       "original_md_url": "https://code.claude.com/docs/en/hooks-guide.md",
       "hash": "1f41a23c6aeab0c27ce824f6908c46fa753a83c366a89ec81366bfb483b49e85",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:00:21 GMT",
+      "last_modified": "Mon, 18 May 2026 07:14:27 GMT",
       "last_updated": "2026-05-17T00:26:25.352280",
       "source": "code-claude-docs",
       "categories": [
         "hooks"
       ],
       "keywords": [
-        "hooks",
-        "guide"
+        "guide",
+        "hooks"
       ],
       "title": "Hooks Guide"
     },
@@ -1388,8 +1388,8 @@
       ],
       "keywords": [
         "code",
-        "works",
-        "claude"
+        "claude",
+        "works"
       ],
       "title": "How Claude Code Works"
     },
@@ -1432,7 +1432,7 @@
       "original_md_url": "https://code.claude.com/docs/en/keybindings.md",
       "hash": "a038d2aea47a9152b0e936187acd90addf1ebc8ac17baa9b294a26c3918f15ff",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:05:01 GMT",
+      "last_modified": "Mon, 18 May 2026 04:11:49 GMT",
       "last_updated": "2026-05-17T00:26:25.502245",
       "source": "code-claude-docs",
       "categories": [
@@ -1496,12 +1496,12 @@
       "original_md_url": "https://code.claude.com/docs/en/memory.md",
       "hash": "796b8b94217c15a92d726a0f4e7c78135bd9642ca45fdc543922b291fa427bc5",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 00:57:30 GMT",
+      "last_modified": "Mon, 18 May 2026 05:31:26 GMT",
       "last_updated": "2026-05-17T00:26:25.665317",
       "source": "code-claude-docs",
       "categories": [
-        "memory",
-        "features"
+        "features",
+        "memory"
       ],
       "keywords": [
         "memory"
@@ -1517,12 +1517,12 @@
       "last_updated": "2026-05-17T00:26:25.700950",
       "source": "code-claude-docs",
       "categories": [
-        "microsoft-foundry",
-        "cloud-platforms"
+        "cloud-platforms",
+        "microsoft-foundry"
       ],
       "keywords": [
-        "foundry",
-        "microsoft"
+        "microsoft",
+        "foundry"
       ],
       "title": "Microsoft Foundry"
     },
@@ -1571,12 +1571,12 @@
       "last_updated": "2026-05-17T00:26:25.822733",
       "source": "code-claude-docs",
       "categories": [
-        "networking",
-        "configuration"
+        "configuration",
+        "networking"
       ],
       "keywords": [
-        "network",
-        "config"
+        "config",
+        "network"
       ],
       "title": "Network Config"
     },
@@ -1589,8 +1589,8 @@
       "last_updated": "2026-05-17T00:26:25.857889",
       "source": "code-claude-docs",
       "categories": [
-        "configuration",
-        "output-styles"
+        "output-styles",
+        "configuration"
       ],
       "keywords": [
         "styles",
@@ -1603,7 +1603,7 @@
       "original_md_url": "https://code.claude.com/docs/en/overview.md",
       "hash": "2b83720a77ead7ef60673e5bb0c6678a4168e03c899c2882d5f3af21232e1ff6",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 00:51:12 GMT",
+      "last_modified": "Mon, 18 May 2026 07:13:06 GMT",
       "last_updated": "2026-05-17T00:26:25.896174",
       "source": "code-claude-docs",
       "categories": [
@@ -1626,8 +1626,8 @@
         "claude-code"
       ],
       "keywords": [
-        "permission",
-        "modes"
+        "modes",
+        "permission"
       ],
       "title": "Permission Modes"
     },
@@ -1736,7 +1736,7 @@
       "original_md_url": "https://code.claude.com/docs/en/quickstart.md",
       "hash": "707d0ad98382f381e65811f0fc43ed3700f979064b6a8e3041e5a0e9079814d1",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:06:39 GMT",
+      "last_modified": "Mon, 18 May 2026 07:14:14 GMT",
       "last_updated": "2026-05-17T00:26:26.217603",
       "source": "code-claude-docs",
       "categories": [
@@ -1789,8 +1789,8 @@
       "last_updated": "2026-05-17T00:26:26.342506",
       "source": "code-claude-docs",
       "categories": [
-        "configuration",
-        "sandboxing"
+        "sandboxing",
+        "configuration"
       ],
       "keywords": [
         "sandboxing"
@@ -1809,8 +1809,8 @@
         "claude-code"
       ],
       "keywords": [
-        "tasks",
-        "scheduled"
+        "scheduled",
+        "tasks"
       ],
       "title": "Scheduled Tasks"
     },
@@ -1843,9 +1843,9 @@
         "configuration"
       ],
       "keywords": [
-        "managed",
         "settings",
-        "server"
+        "server",
+        "managed"
       ],
       "title": "Server Managed Settings"
     },
@@ -1955,8 +1955,8 @@
       "last_updated": "2026-05-17T00:26:26.715989",
       "source": "code-claude-docs",
       "categories": [
-        "configuration",
-        "terminal"
+        "terminal",
+        "configuration"
       ],
       "keywords": [
         "config",
@@ -2009,12 +2009,12 @@
       "last_updated": "2026-05-17T00:26:26.827668",
       "source": "code-claude-docs",
       "categories": [
-        "setup",
-        "troubleshooting"
+        "troubleshooting",
+        "setup"
       ],
       "keywords": [
-        "troubleshoot",
-        "install"
+        "install",
+        "troubleshoot"
       ],
       "title": "Troubleshoot Install"
     },
@@ -2078,8 +2078,8 @@
         "claude-code"
       ],
       "keywords": [
-        "voice",
-        "dictation"
+        "dictation",
+        "voice"
       ],
       "title": "Voice Dictation"
     },
@@ -2088,7 +2088,7 @@
       "original_md_url": "https://code.claude.com/docs/en/vs-code.md",
       "hash": "0ac6bd183a2c74cd23242f58a5f282682bd6889dc5857dbf932b539ee40d2662",
       "etag": null,
-      "last_modified": "Mon, 18 May 2026 01:05:01 GMT",
+      "last_modified": "Mon, 18 May 2026 07:13:09 GMT",
       "last_updated": "2026-05-17T00:26:27.014796",
       "source": "code-claude-docs",
       "categories": [
@@ -2278,23 +2278,23 @@
         "claude-code"
       ],
       "keywords": [
-        "zero",
+        "data",
         "retention",
-        "data"
+        "zero"
       ],
       "title": "Zero Data Retention"
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-18T04:28:38.529449",
-    "fetch_duration_seconds": 5.074529,
+    "last_fetch_completed": "2026-05-18T07:17:54.367538",
+    "fetch_duration_seconds": 4.370922,
     "total_pages_discovered": 132,
     "pages_fetched_successfully": 132,
     "pages_failed": 0,
     "pages_unchanged": 132,
     "pages_updated": 0,
     "pages_new": 0,
-    "pages_skipped_304": 0,
+    "pages_skipped_304": 124,
     "failed_pages": [],
     "source_sitemap": "https://code.claude.com/docs/sitemap.xml",
     "fetch_tool_version": "5.0",
@@ -2304,7 +2304,7 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "code.claude.com",
-  "last_updated": "2026-05-18T04:28:38.529618",
+  "last_updated": "2026-05-18T07:17:54.367722",
   "source": "code-claude-documentation",
   "description": "Official Claude Code documentation from code.claude.com"
 }
