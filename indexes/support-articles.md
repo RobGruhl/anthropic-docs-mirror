@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-18 16:12*
+*Last updated: 2026-05-18 18:37*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -111,7 +111,7 @@ Total documents: 268
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -341,7 +341,7 @@ Total documents: 268
 ### Examples of projects you can create
 **File:** `/docs-support/examples-of-projects-you-can-create.md`  
 **Source:** https://support.claude.com/en/articles/9529781-examples-of-projects-you-can-create  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -491,7 +491,7 @@ Total documents: 268
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
 **Source:** https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-18  
 
 ### How can I uninstall Claude for Android?
 **File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
@@ -671,7 +671,7 @@ Total documents: 268
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -786,7 +786,7 @@ Total documents: 268
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Microsoft 365 Connector: Security Guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -801,7 +801,7 @@ Total documents: 268
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -1016,7 +1016,7 @@ Total documents: 268
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  

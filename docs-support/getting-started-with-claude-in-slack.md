@@ -1,6 +1,6 @@
 # Getting started with Claude in Slack
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -18,7 +18,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1779122700&signature=cfd7f04c7f5a91ee85fe1df134d74e47db89ecd6e839d4f30ad12557591b18a0&req=dSciE8h6noZYXPMW1HO4zb2WBQwCFIZw5mlLMjhGEMFZ5Dw2Ri%2BoV5dAc9am%0Ajqp7Vy7sq5J5P3fLP1o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1779278400&signature=41797f712031d207438b676101fc9ed1e3664e66f270d6740eb2edc168614a69&req=dSciE8h6noZYXPMW3nq%2BgQ5%2B22MBc6e0v%2FL%2B%2B4cKS2BfYZoGIPXbrsn6DMom%0A1c2H2r8adlDpH6Js8tzku1WkUfU%3D%0A)
 
  
 
@@ -26,11 +26,11 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1779122700&signature=ba476871dfaa8d1c817aad0afcb3bababc86135220f7fc24a28011997d354781&req=dSciE8h6mYZdWfMW1HO4zUifwjjYFaGjPUSeDntyEuWQMN%2FmDSxz4FjsXj%2BV%0A5jg97HRxFgzeY01P7%2Bk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1779278400&signature=462efbf191ed6e7b76654f1ada2a0f2e2cf1523013426d06e2e27102be31b030&req=dSciE8h6mYZdWfMW3nq%2BgUcrX4%2B5WoQUYEPr6YH3x%2BaPvZ9JvFJp2FpxB09V%0ACrNGiTiCIlGkuiG6xu7YGEYkcGk%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1779122700&signature=bb09a7bdbf891a8416d1763960af41e3eb5c672346a9fcb11729baab5bc7cb83&req=dSciE8h6mIRaX%2FMW1HO4zXrVXdF98o3EBGejWRiWDiIIInOiowh%2B9sTaciih%0A7mKVuNJ7BU8s%2F%2FXs%2Bcs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1779278400&signature=4db7092e3875bf123c324b52ae92af1a1347ca1010c403d895df05bde28737e7&req=dSciE8h6mIRaX%2FMW3nq%2BgYu0mghwyHA5pnnAhWmW5A5YiIhl3SN8TUxAnBBJ%0AXz%2BsKZO0dfewbwqsZX9AVNLY4Sw%3D%0A)
 
  
 
@@ -38,9 +38,9 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755146282/dd7e489f38bd786346478a9b286e/c3e07137-64e6-470c-9f3f-1db2632a784e?expires=1779122700&signature=f5adf74b85704ee68e4cbf95e57a2eedf0c97f1f7212fdba3a32ba8d5649f614&req=dSciE8h6m4NXW%2FMW1HO4za6vkdnlAAcgdk%2ByK9LXwIJin4I64rBDVnrgq9br%0A1f%2BWeSuDqQzZx%2B4PDi4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1779130800&signature=27eeb410386caf4e7702c3c6f77a3ce8e5cd301c462d9b790c345b5427920bd4&req=diMuHsB7lYNfXfMW1HO4zdOLhpIsL%2BugZVaROjZUqrgAbpC2fo1mKdb8qHJq%0ARGLy%0A)
 
- 
+  
 
 All surfaces provide the same capabilities that you have enabled in Claude, including web search and connections to your integrated tools, allowing you to seamlessly integrate AI assistance into your existing workflow.
 
@@ -141,7 +141,7 @@ To disconnect your Claude account from Slack:
 2. Under **Disconnect Claude Account**, click the red "Disconnect" button.
 3. Confirm the disconnection.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1779122700&signature=aef508690615a4c37e2fc0a7c4b3d9b5aa27188b41aaf28d02247d2c4fe38f56&req=dSciE8h6lIZbXfMW1HO4zdIAspxKbLOXQgg7UiXQlE0QVoqKa0eDyvqRNyFs%0AiSfGOJgtSbQp0j9515s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1779278400&signature=60d9a4f5f539c1d9e75501c61c7be4070b7632645aea4bef01101dfbc45486d6&req=dSciE8h6lIZbXfMW3nq%2BgUVJn1BVvDUixtA9r3Xumbd%2BGpdfAgN%2Bc5IliGZ4%0ARba8XnKtLzcxxykhfaMYfk6vvuU%3D%0A)
 
  
 

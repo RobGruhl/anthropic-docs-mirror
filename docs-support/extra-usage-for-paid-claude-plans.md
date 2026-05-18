@@ -49,7 +49,7 @@ To enable extra usage on your paid Claude plan:
 7. You’ll then need to prepay to cover usage beyond your plan limits. Click “Add funds,” enter the amount you want to purchase in the modal, then click “Purchase.”
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1779122700&signature=0c4de7f8bc501a2ff178b26951d8e157f676cf1553114d4004f3e73534824efd&req=dSgnE8F%2FlIZXXPMW1HO4zYj2DhuYp%2FI%2FopE7m38YdfckJHbe35SaO%2BgAqTGZ%0AbjcI2PBmZsYNzN4wD%2Fk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1779130800&signature=a021cd7e1ab580bb1b26e50b7baf0b3beffe49e3161aa06e4b8f316712e19a47&req=dSgnE8F%2FlIZXXPMW1HO4zYj2DhuYpvAwopE7m38Ydfc4Pf90ahn0GGjC%2FnYP%0AteVVZue33FwHUWN4BNo%3D%0A)
 
  
 
@@ -194,5 +194,5 @@ No, extra usage is billed at **[standard API rates](https://claude.com/pricing#a
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
 - [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
-- [Buy usage bundles](https://support.claude.com/en/articles/14246112-buy-usage-bundles)
 - [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)
