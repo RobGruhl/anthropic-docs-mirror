@@ -139,6 +139,6 @@ For more details about how Skills work, see **[Agent Skills](https://platform.cl
 
 - [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [How to create custom Skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
+- [Provision and manage Skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
-- [Use plugins in Claude Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)

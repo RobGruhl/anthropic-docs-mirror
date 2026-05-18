@@ -7,25 +7,25 @@
 
 - 카테고리엔터프라이즈 AI
 
-- 제품No items found.
+- 제품항목을 찾을 수 없습니다.
 
-- 게시일2025-10-09
+- 날짜2025-10-09
 
-- 예상 읽기 시간5분
+- 읽는 시간5분
 
-- 공유하기링크 복사https://claude.com/blog/how-anthropic-uses-claude-for-legal
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+- 공유링크 복사https://claude.com/blog/how-anthropic-uses-claude-for-legal
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-관련 게시물
+자주 묻는 질문
 
-Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+## 관련 게시물
+
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
@@ -43,13 +43,11 @@ Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례�
 
 ### 세 곳의 YC 스타트업이 Claude Code로 회사를 세운 방법
 
-Claude와 함께 조직의 운영 방식을 혁신하세요
-
-## ‍
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
 개발자 뉴스레터 구독
 
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 이 소식을 받아보세요.
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
 
 월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 

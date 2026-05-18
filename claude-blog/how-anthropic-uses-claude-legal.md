@@ -130,9 +130,9 @@ Démarrez avec[Claude for Enterprise](https://www.claude.com/pricing/enterprise)
 
 FAQ
 
-Articles liés
+## Articles associés
 
-Explorez d'autres actualités produits et meilleures pratiques pour les équipes qui créent avec Claude.
+Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -150,11 +150,11 @@ Explorez d'autres actualités produits et meilleures pratiques pour les équipes
 
 ### Claude for the legal industry
 
-## Transformez lefonctionnement de votre organisation grâce à Claude
+## Transformez le fonctionnement de votre organisation avec Claude
 
 Recevez la newsletter des développeurs
 
-Informations sur les produits, tutoriels,présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
 
 Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
 

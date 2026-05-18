@@ -12,7 +12,7 @@ Missed our SF Code w/ Claude developer conference? Keynotes and breakout sessio
 
 - 日付2026-05-12
 
-- 読了時間5分
+- 所要時間5分
 
 - 共有リンクをコピーhttps://claude.com/blog/code-w-claude-sf-2026-sf
 
@@ -58,11 +58,11 @@ Stay tuned for technical tutorials, guides, and customer stories inspired by our
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+よくある質問
 
-関連投稿
+## 関連する投稿
 
-Claudeを活用した構築チーム向けの製品ニュースやベストプラクティスに関するその他の情報を提供します。
+Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
@@ -80,11 +80,11 @@ Claudeを活用した構築チーム向けの製品ニュースやベストプ�
 
 ### Your favorite work tools are now interactive connectors inside Claude
 
-## 開発を始める
+## Claude を活用して組織運営の方法を変革
 
 開発者向けニュースレターを入手
 
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイにお届けします。
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
 
 毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 

@@ -8,11 +8,11 @@ Wie setzen Unternehmen heute KI-Agenten ein – und was erwartet uns in Zukunft?
 
 - KategorieKI für Unternehmen
 
-- ProduktNo items found.
+- ProduktKeine Elemente gefunden.
 
 - Datum9.12.2025
 
-- Lesezeit5Min.
+- Lesezeit5Min
 
 - TeilenLink kopierenhttps://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
 
@@ -60,11 +60,11 @@ Lesen Sie[hier](https://cdn.sanity.io/files/4zrzovbb/website/cd77281ebc251e6b860
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-Ähnliche Beiträge
+## Ähnliche Beiträge
 
-Erfahren Sie mehr über aktuelle Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -82,7 +82,7 @@ Erfahren Sie mehr über aktuelle Produktneuheiten und Best Practices für Teams,
 
 ### Claude for the legal industry
 
-Transformieren Sie mit Claude die Arbeitsweise in Ihrem Unternehmen
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
 Entwickler-Newsletter abonnieren
 

@@ -31,7 +31,7 @@ Your age information is managed through your Google account or Apple Account. If
 ## Related Articles
 
 - [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
-- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
 - [Requesting a refund for a paid Claude plan](https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan)
+- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)

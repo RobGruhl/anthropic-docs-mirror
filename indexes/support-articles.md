@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-18 18:37*
+*Last updated: 2026-05-18 21:29*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -31,7 +31,7 @@ Total documents: 268
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-18  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -116,7 +116,7 @@ Total documents: 268
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
 **Source:** https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Can I use the Claude API for individual use?
 **File:** `/docs-support/can-i-use-the-claude-api-for-individual-use.md`  
@@ -226,7 +226,7 @@ Total documents: 268
 ### Configure and use styles
 **File:** `/docs-support/configure-and-use-styles.md`  
 **Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -501,7 +501,7 @@ Total documents: 268
 ### How do I cancel my paid Claude subscription?
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
@@ -616,7 +616,7 @@ Total documents: 268
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
@@ -921,7 +921,7 @@ Total documents: 268
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
 **Source:** https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
@@ -971,7 +971,7 @@ Total documents: 268
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -1191,7 +1191,7 @@ Total documents: 268
 ### What are Skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  

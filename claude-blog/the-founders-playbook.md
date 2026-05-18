@@ -12,7 +12,7 @@ We share how founders are using AI at every stage of the startup journey, with p
 
 - Datum14.5.2026
 
-- Lesezeit5Min.
+- Lesezeit5Min
 
 - TeilenLink kopierenhttps://claude.com/blog/the-founders-playbook
 
@@ -48,11 +48,11 @@ Get started with[Claude](https://claude.com/programs/startups)today.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-Ähnliche Beiträge
+## Ähnliche Beiträge
 
-Erfahren Sie mehr über aktuelle Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -70,7 +70,7 @@ Erfahren Sie mehr über aktuelle Produktneuheiten und Best Practices für Teams,
 
 ### Best practices for computer and browser use with Claude
 
-Transformieren Sie mit Claude die Arbeitsweise in Ihrem Unternehmen
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
 Entwickler-Newsletter abonnieren
 

@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-18 18:37*
+*Last updated: 2026-05-18 21:29*
 Total documents: 1167
 ---
 ## Uncategorized (1167 documents)
@@ -936,7 +936,7 @@ Total documents: 1167
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/compaction  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-18  
 
 ### build-with-claude__context-editing
 **File:** `/platform-docs/build-with-claude__context-editing.md`  

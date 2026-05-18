@@ -1,6 +1,6 @@
 # Using Claude in Slack
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -264,6 +264,6 @@ Start a new conversation to continue.
 
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)
-- [Using Claude in Xcode](https://support.claude.com/en/articles/12293051-using-claude-in-xcode)
-- [Claude Code champion kit](https://support.claude.com/en/articles/14555399-claude-code-champion-kit)
+- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
+- [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

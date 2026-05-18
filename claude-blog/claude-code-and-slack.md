@@ -9,11 +9,11 @@
 
 - 제품Claude Code
 
-- 게시일2025-12-08
+- 날짜2025-12-08
 
-- 예상 읽기 시간5분
+- 읽는 시간5분
 
-- 공유하기링크 복사https://claude.com/blog/claude-code-and-slack
+- 공유링크 복사https://claude.com/blog/claude-code-and-slack
 
 오늘 Slack에서 바로 Claude Code에 작업을 위임할 수 있는 기능이 도입되었습니다. 이제 리서치 프리뷰 형태로 제공되는 이 베타 버전으로, Claude는 Slack 대화에서의 맥락을 코딩 세션으로 손쉽게 옮길 수 있습니다.
 
@@ -49,11 +49,11 @@ Claude Code 세션이 진행되면서, Claude는 Slack 스레드에 상태 업�
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+자주 묻는 질문
 
-관련 게시물
+## 관련 게시물
 
-Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -71,13 +71,11 @@ Claude와 함께 구축할 수 있는 더 많은 제품 뉴스와 모범 사례�
 
 ### Built-in memory for Claude Managed Agents
 
-Claude와 함께 조직의 운영 방식을 혁신하세요
-
-## ‍
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
 개발자 뉴스레터 구독
 
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 이 소식을 받아보세요.
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
 
 월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 

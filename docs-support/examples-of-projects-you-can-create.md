@@ -109,7 +109,7 @@ These examples demonstrate the flexibility of projects. Whether you're working o
 
 ## Related Articles
 
-- [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
+- [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
