@@ -18,5 +18,5 @@ You can programmatically verify your connection to the Claude API by following t
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [How will I be billed for Claude API use?](https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
-- [Manage API key environment variables in Claude Code](https://support.claude.com/en/articles/12304248-manage-api-key-environment-variables-in-claude-code)
+- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)

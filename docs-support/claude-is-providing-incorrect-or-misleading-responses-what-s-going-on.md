@@ -31,7 +31,7 @@ To learn more about how Anthropic’s technology works and our research on devel
 
 ## Related Articles
 
-- [Understanding Claude's personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)
+- [I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?](https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy)
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)

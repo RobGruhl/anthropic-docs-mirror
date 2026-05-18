@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779102000&signature=127eaf9544bad8e4675643c434cc0f1ec5687fecbf995b9a4ed3c5c81cdc9f44&req=diAiFc97mIRZX%2FMW1HO4zXfNQFABchTbFbDaBcaxqj5ZDE4vwnUHmLNnVQAg%0AO8UtR4w%2BOdJVcTaM68c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779111000&signature=ec2584bac96b3160a8260123dc77aa923464015bcd44b1caf615f1ec793dee9a&req=diAiFc97mIRZX%2FMW1HO4zXfNQFABcxfbFbDaBcaxqj5PsZ0HqORDX3HPGy%2B%2F%0AdYQy3z%2BtMTghh8jflE4%3D%0A)
 
  
 
@@ -743,8 +743,8 @@ curl "https://api.anthropic.com/v1/organizations/analytics/cost_report?starting_
 
 ## Related Articles
 
+- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
-- [Manage Claude’s tool access](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access)
 - [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
