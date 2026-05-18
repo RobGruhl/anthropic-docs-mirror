@@ -1,5 +1,5 @@
 # Headless Topic Index
-*Last updated: 2026-05-17 21:21*
+*Last updated: 2026-05-18 00:31*
 
 Documents related to Headless across all sources (1 documents)
 ---
