@@ -1,6 +1,6 @@
 # Claude Code FAQ
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -52,7 +52,7 @@ Yes. Our setup guides for **[Bedrock](https://docs.claude.com/en/docs/claude-cod
 
 ## Is the 1M context window available in Claude Code, and will users be warned about higher pricing?
 
-1M context, which previously required extra usage, is now included in Claude Code for Max, Team, and Enterprise users with Opus 4.6 or 4.7. Sessions using these models can use the full 1M context window automatically, meaning fewer compactions and more of the conversation kept intact.
+1M context, which previously required usage credits, is now included in Claude Code for Max, Team, and Enterprise users with Opus 4.6 or 4.7. Sessions using these models can use the full 1M context window automatically, meaning fewer compactions and more of the conversation kept intact.
 
  
 

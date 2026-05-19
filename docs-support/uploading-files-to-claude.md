@@ -108,8 +108,8 @@ Claude models can analyze both text and visual elements (like images, charts, an
 
 ## Related Articles
 
+- [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
 - [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
 - [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)

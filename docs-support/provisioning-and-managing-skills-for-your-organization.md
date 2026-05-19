@@ -142,5 +142,5 @@ To remove a skill from your organization, locate it in the **Organization skills
 - [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
-- [Manage Claude Cowork plugins for your organization](https://support.claude.com/en/articles/13837433-manage-claude-cowork-plugins-for-your-organization)
+- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)

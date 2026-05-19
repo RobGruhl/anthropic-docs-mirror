@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-19 00:34*
+*Last updated: 2026-05-19 04:28*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -156,7 +156,7 @@ Total documents: 268
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -191,7 +191,7 @@ Total documents: 268
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
 **Source:** https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Claude in Chrome Permissions Guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -316,7 +316,7 @@ Total documents: 268
 ### Enable and use the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -461,7 +461,7 @@ Total documents: 268
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -641,12 +641,12 @@ Total documents: 268
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
 **Source:** https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### I created a Claude Console organization - how do I start using the Claude API?
 **File:** `/docs-support/i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?
 **File:** `/docs-support/i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console.md`  
@@ -676,7 +676,7 @@ Total documents: 268
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -791,7 +791,7 @@ Total documents: 268
 ### Microsoft 365 Connector: Security Guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
 **Source:** https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
@@ -846,7 +846,7 @@ Total documents: 268
 ### Provision and manage Skills for your organization
 **File:** `/docs-support/provisioning-and-managing-skills-for-your-organization.md`  
 **Source:** https://support.claude.com/en/articles/13119606-provisioning-and-managing-skills-for-your-organization  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Public Sector FAQs
 **File:** `/docs-support/public-sector-faqs.md`  
@@ -976,7 +976,7 @@ Total documents: 268
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
 **Source:** https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
@@ -1201,7 +1201,7 @@ Total documents: 268
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1316,7 +1316,7 @@ Total documents: 268
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  

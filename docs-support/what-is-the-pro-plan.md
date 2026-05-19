@@ -1,6 +1,6 @@
 # What is the Pro plan?
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -95,4 +95,4 @@ Pro subscribers can also enable usage credits to continue working with Claude be
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
