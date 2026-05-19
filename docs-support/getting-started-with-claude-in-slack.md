@@ -38,7 +38,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1779176700&signature=839bfc754bb63441b696239080dce5bd7051874e2f2c1f9b60fd8cc2464e572f&req=diMuHsB7lYNfXfMW1HO4zdOLhpIsK%2B2vZVaRIDJSo4JLdL%2BUpULUHhfo26NE%0Afnuc%2Bs%2Fje5b8IfYgy%2Bg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1779187500&signature=051a2dcb4a14cbd8240dc201761851b0efd3de2d23e65e5eda104ae4d4573ad4&req=diMuHsB7lYNfXfMW1HO4zdOLhpIsJOytZVaRIDJSo4LNqUw69qMZKvvjjPqN%0A7mREU0UtQtzfVuz%2FNjc%3D%0A)
 
   
 

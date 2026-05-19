@@ -1,14 +1,22 @@
 # Agents Topic Index
-*Last updated: 2026-05-19 07:12*
+*Last updated: 2026-05-19 10:19*
 
-Documents related to Agents across all sources (101 documents)
+Documents related to Agents across all sources (109 documents)
 ---
-## Platform Documentation (platform.claude.com) (31)
+## Platform Documentation (platform.claude.com) (39)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
 - [agents-and-tools__agent-skills__quickstart](/platform-docs/developer-guide/agents-and-tools__agent-skills__quickstart.md)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
+- [agents-and-tools__mcp-tunnels__console](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__console.md)
+- [agents-and-tools__mcp-tunnels__deploy-compose](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-compose.md)
+- [agents-and-tools__mcp-tunnels__deploy-helm](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-helm.md)
+- [agents-and-tools__mcp-tunnels__overview](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__overview.md)
+- [agents-and-tools__mcp-tunnels__quickstart](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__quickstart.md)
+- [agents-and-tools__mcp-tunnels__reference](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__reference.md)
+- [agents-and-tools__mcp-tunnels__security](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__security.md)
+- [agents-and-tools__mcp-tunnels__troubleshooting](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__troubleshooting.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
 - [agents-and-tools__tool-use__bash-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__bash-tool.md)

@@ -64,6 +64,10 @@ Stay tuned for technical tutorials, guides, and customer stories inspired by our
 
 Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
+
+### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
 ### Claude for the legal industry
@@ -75,10 +79,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品ニ�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
 ### Built-in memory for Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
-
-### Your favorite work tools are now interactive connectors inside Claude
 
 ## Claude を活用して組織運営の方法を変革
 

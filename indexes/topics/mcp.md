@@ -1,10 +1,29 @@
 # Mcp Topic Index
-*Last updated: 2026-05-19 07:12*
+*Last updated: 2026-05-19 10:19*
 
-Documents related to Mcp across all sources (218 documents)
+Documents related to Mcp across all sources (237 documents)
 ---
-## Platform Documentation (platform.claude.com) (11)
+## Platform Documentation (platform.claude.com) (30)
+- [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
+- [admin__mcp_tunnels__archive](/platform-docs/api-reference/admin__mcp_tunnels__archive.md)
+- [admin__mcp_tunnels__list](/platform-docs/api-reference/admin__mcp_tunnels__list.md)
+- [admin__mcp_tunnels__retrieve](/platform-docs/api-reference/admin__mcp_tunnels__retrieve.md)
+- [admin__mcp_tunnels__reveal_token](/platform-docs/api-reference/admin__mcp_tunnels__reveal_token.md)
+- [admin__mcp_tunnels__rotate_token](/platform-docs/api-reference/admin__mcp_tunnels__rotate_token.md)
+- [admin__mcp_tunnels__tunnel_certificates](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates.md)
+- [admin__mcp_tunnels__tunnel_certificates__archive](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__archive.md)
+- [admin__mcp_tunnels__tunnel_certificates__create](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__create.md)
+- [admin__mcp_tunnels__tunnel_certificates__list](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__list.md)
+- [admin__mcp_tunnels__tunnel_certificates__retrieve](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__retrieve.md)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
+- [agents-and-tools__mcp-tunnels__console](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__console.md)
+- [agents-and-tools__mcp-tunnels__deploy-compose](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-compose.md)
+- [agents-and-tools__mcp-tunnels__deploy-helm](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-helm.md)
+- [agents-and-tools__mcp-tunnels__overview](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__overview.md)
+- [agents-and-tools__mcp-tunnels__quickstart](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__quickstart.md)
+- [agents-and-tools__mcp-tunnels__reference](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__reference.md)
+- [agents-and-tools__mcp-tunnels__security](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__security.md)
+- [agents-and-tools__mcp-tunnels__troubleshooting](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__troubleshooting.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/beta__vaults__credentials__mcp_oauth_validate.md)
 - [cli__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/cli__beta__vaults__credentials__mcp_oauth_validate.md)
