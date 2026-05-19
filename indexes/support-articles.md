@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-19 04:28*
+*Last updated: 2026-05-19 07:12*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -136,7 +136,7 @@ Total documents: 268
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### Choosing a Claude plan
 **File:** `/docs-support/choosing-a-claude-plan.md`  
