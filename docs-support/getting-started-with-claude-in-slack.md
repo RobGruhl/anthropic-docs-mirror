@@ -1,6 +1,6 @@
 # Getting started with Claude in Slack
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -38,7 +38,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1779208200&signature=94131c914ca3a7919147de343152ffa7e6da00c1414a266b81944db883606de8&req=diMuHsB7lYNfXfMW1HO4zdOLhpIvLOOqZVaRIDJSo4KTbJ7AipivunoOMvJ4%0AeCs%2BcSGVl%2F0I6YV%2Fzak%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1779218100&signature=b9aae8a7bf767802ffedeb3c5dfb5f0f0144b00f6f9ba00fddaeb932234c709c&req=diMuHsB7lYNfXfMW1HO4zdOLhpIvLeOpZVaRIDJSo4K2X00%2FIfOn74Oiwcnr%0AK4tq%2F73R7IE45tA9IGM%3D%0A)
 
   
 

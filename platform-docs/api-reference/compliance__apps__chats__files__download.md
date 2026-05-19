@@ -1,4 +1,4 @@
-## Content
+## Download
 
 **get** `/v1/compliance/apps/chats/files/{claude_file_id}/content`
 
@@ -23,5 +23,5 @@ curl https://api.anthropic.com/v1/compliance/apps/chats/files/$CLAUDE_FILE_ID/co
 
 
 ---
-📖 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/files/content
+📖 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/files/download
 *Mirrored from platform.claude.com for local access.*

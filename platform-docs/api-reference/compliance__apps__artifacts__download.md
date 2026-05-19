@@ -1,4 +1,4 @@
-## Content
+## Download
 
 **get** `/v1/compliance/apps/artifacts/{artifact_version_id}/content`
 
@@ -25,5 +25,5 @@ curl https://api.anthropic.com/v1/compliance/apps/artifacts/$ARTIFACT_VERSION_ID
 
 
 ---
-📖 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/artifacts/content
+📖 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/artifacts/download
 *Mirrored from platform.claude.com for local access.*
