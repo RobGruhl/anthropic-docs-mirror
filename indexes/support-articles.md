@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-19 13:04*
+*Last updated: 2026-05-19 16:10*
 Total documents: 268
 ---
 ## Uncategorized (268 documents)
@@ -41,7 +41,7 @@ Total documents: 268
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -71,7 +71,7 @@ Total documents: 268
 ### Anthropic Software Directory Terms
 **File:** `/docs-support/anthropic-software-directory-terms.md`  
 **Source:** https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
@@ -101,7 +101,7 @@ Total documents: 268
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
 **Source:** https://support.claude.com/en/articles/9020328-csam-detection-and-reporting  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
@@ -241,7 +241,7 @@ Total documents: 268
 ### Consumer Terms of Service Updates
 **File:** `/docs-support/consumer-terms-of-service-updates.md`  
 **Source:** https://support.claude.com/en/articles/9264813-consumer-terms-of-service-updates  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Cost and Usage Reporting in the Claude Console
 **File:** `/docs-support/cost-and-usage-reporting-in-the-claude-console.md`  
@@ -971,7 +971,7 @@ Total documents: 268
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-19  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -1216,7 +1216,7 @@ Total documents: 268
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1296,7 +1296,7 @@ Total documents: 268
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
 **Source:** https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-19  
 
 ### Where do I find Claude in Amazon Bedrock documentation?
 **File:** `/docs-support/where-do-i-find-claude-in-amazon-bedrock-documentation.md`  

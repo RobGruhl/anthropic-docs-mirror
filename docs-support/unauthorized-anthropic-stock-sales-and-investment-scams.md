@@ -1,6 +1,6 @@
 # Unauthorized Anthropic stock sales and investment scams
 
-*Updated in the last hour*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -43,7 +43,6 @@ We are aware of individuals or investment firms purportedly offering access to A
 - Pachamama
 - Lionheart Ventures
 - Hiive (new offerings)
-- Forge (new offerings)
 - Sydecar
 - Upmarket
 

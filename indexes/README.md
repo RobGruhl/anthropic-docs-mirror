@@ -1,10 +1,10 @@
 # Claude Documentation Index
-*Last updated: 2026-05-19 13:04*
+*Last updated: 2026-05-19 16:10*
 
 ## Quick Stats
-- **Total Documents:** 2305
+- **Total Documents:** 2306
 - **Platform Docs:** 1268
-- **Claude Code Docs:** 132
+- **Claude Code Docs:** 133
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
@@ -19,7 +19,7 @@
 
 ### By Content Type
 - [Platform Documentation](platform-docs.md) - 1268 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 132 docs from code.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 133 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
@@ -31,7 +31,7 @@
 
 ### By Topic
 - [Mcp](topics/mcp.md) - 237 documents
-- [Claude Code](topics/claude-code.md) - 213 documents
+- [Claude Code](topics/claude-code.md) - 214 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
