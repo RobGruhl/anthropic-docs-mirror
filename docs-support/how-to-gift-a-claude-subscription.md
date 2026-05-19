@@ -64,4 +64,4 @@ After purchase, you'll receive a confirmation email with your order details.
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [How to redeem a Claude gift subscription](https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription)
-- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)

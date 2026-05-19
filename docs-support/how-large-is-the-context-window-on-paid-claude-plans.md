@@ -1,6 +1,6 @@
 # How large is the context window on paid Claude plans?
 
-*Updated this week*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -8,7 +8,7 @@ Sonnet 4.6, Opus 4.6, and Opus 4.7 support a 500K token context window on all pa
 
  
 
-When using Claude Code with a Pro, Max, Team, or Enterprise plan, Opus 4.7 supports a 1M token context window. Pro users need to enable extra usage to access Opus 4.7 in Claude Code. Sonnet 4.6 also supports a 1M context window for all paid Claude plans on Claude Code, but extra usage must be enabled to access it (except for usage-based Enterprise plans).
+When using Claude Code with a Pro, Max, Team, or Enterprise plan, Opus 4.7 supports a 1M token context window. Pro users need to enable usage credits to access Opus 4.7 in Claude Code. Sonnet 4.6 also supports a 1M context window for all paid Claude plans on Claude Code, but usage credits must be enabled to access it (except for usage-based Enterprise plans).
 
  
 

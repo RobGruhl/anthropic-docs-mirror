@@ -1,6 +1,6 @@
 # Use Claude Code with your Pro or Max plan
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -68,7 +68,7 @@ When you reach your usage limits, you can select from a few options based on you
 ### Pro plan users
 
 - Consider upgrading to the Max 5x plan if you consistently hit limits and need more capacity for larger repositories.
-- **[Enable extra usage](https://support.claude.com/en/articles/12429409-extra-usage-for-max-20x-plans)** to continue using Claude with your Pro plan after hitting the included usage limit.
+- **[Enable usage credits](https://support.claude.com/en/articles/12429409-)** to continue using Claude with your Pro plan after hitting the included usage limit.
 - You will have the flexibility to switch to **[pay-as-you-go usage](https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use)** with a Claude Console account for intensive coding sprints.
 - Wait until your usage limits reset.
 
@@ -77,7 +77,7 @@ When you reach your usage limits, you can select from a few options based on you
 ### Max plan users
 
 - If you're on the Max 5x plan, consider upgrading to the Max 20x plan if you consistently hit limits.
-- **[Enable extra usage](https://support.claude.com/en/articles/12429409-extra-usage-for-max-20x-plans)** to continue using Claude with your Max plan after hitting the included usage limit.
+- **[Enable usage credits](https://support.claude.com/en/articles/12429409-)** to continue using Claude with your Max plan after hitting the included usage limit.
 - You will have the flexibility to switch to **[pay-as-you-go usage](https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use)** with a Claude Console account for intensive coding sprints.
 - Wait until your usage limits reset.
 
@@ -156,5 +156,5 @@ Auto-reload functionality is managed within your Claude Console account, not thr
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

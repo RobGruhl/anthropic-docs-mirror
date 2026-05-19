@@ -1,6 +1,6 @@
 # Purchase and manage seats on Enterprise plans
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -224,9 +224,9 @@ If all your Premium seats are assigned and you need to move one user to Premium 
 4. Find User A and change their seat type to "Standard."
 4.  
 
-### Billing and extra usage
+### Billing and usage credits
 
-Seat-based Enterprise plans charge a flat monthly fee per seat that includes usage limits. Owners can enable extra usage to allow team members to continue working after reaching their seat's usage limits. For details, see **[Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)**.
+Seat-based Enterprise plans charge a flat monthly fee per seat that includes usage limits. Owners can enable usage credits to allow team members to continue working after reaching their seat's usage limits. For details, see **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**.
 
  
 
@@ -247,4 +247,4 @@ At your next contract renewal, your plan will transition to the usage-based sing
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
-- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)

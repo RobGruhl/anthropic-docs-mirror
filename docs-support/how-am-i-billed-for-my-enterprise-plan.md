@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -187,7 +187,7 @@ If you see "Standard" and "Premium" seats in **[Organization settings > Organiza
 
  
 
-On seat-based plans, extra usage is available to allow team members to continue working after reaching their seat’s included limits. See **[Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)** for details on how extra usage works and how it's billed on your plan.
+On seat-based plans, usage credits are available to allow team members to continue working after reaching their seat's included limits. For details on how usage credits work and how they're billed on your plan, see **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**.
 
  
 
@@ -202,6 +202,6 @@ At your next contract renewal, your plan will transition to the usage-based sing
 
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
-- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

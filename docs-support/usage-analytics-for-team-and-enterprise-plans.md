@@ -1,6 +1,6 @@
 # View usage analytics for Team and Enterprise plans
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -33,7 +33,7 @@ This page includes the following analytics:
 - Top connectors
 -  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1779141600&signature=774197ccd29c8d5b1e8037e28be4f5fe26ceaf3c18d7fccf7c93f67ed1cb93b1&req=diEiFcp3mYhfUPMW1HO4zbQxH8owCyNkSPAYazQ9kuI9O5CVK16ts46%2Fngyy%0AxXXvkjv4W2lUD8fNBZo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1779278400&signature=aa25b8c07c2daf909c9895b357010914142abb873d9998f73589d8fce768addf&req=diEiFcp3mYhfUPMW3nq%2BgVa3KItcRNy0atmAza8BkibPXz2YEBByzp5NfalI%0APdJskg2BH1Ge7lFmRGNuYXBnJE4%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ This section includes the following analytics:
 - Spend by model (1 month, 3 months, 1 year)
 - Top 10 users by spend leaderboard
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153417518/03accc4372c7fd4582e6c3978d9d/CleanShot%2B2026-03-11%2Bat%2B15_02_52-402x.png?expires=1779141600&signature=45cf7c8a025b427d464aa40b41a60b4331e5dbd98bac6bcd76700d708d07246e&req=diEiFc1%2FmoReUfMW1HO4zdUtwHUGPCxIuwPrchh43EqSzZhzBBT3Q3iMoQ%2B5%0Ap0LWfw1nro%2BNyjhxGbU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153417518/03accc4372c7fd4582e6c3978d9d/CleanShot%2B2026-03-11%2Bat%2B15_02_52-402x.png?expires=1779278400&signature=39216f1e82f69d4ea65b2e02f369b346c1360a414471fc04629f23b0ea1974aa&req=diEiFc1%2FmoReUfMW3nq%2Bgd9p18W981jA7wox30yGBX77y9FtU4LQ54B%2FRo3y%0AhsJsnjOU%2FL2zvSwPfQ3gMjg%2Bec4%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1779141600&signature=939ed8f62c7a68de5c897a1a4e15750057af61ec748542201d09ca5820f1446f&req=diEiFc1%2FlIRdXvMW1HO4zdGt9S2pD%2F5vP9LVpsbj5Ndn6FPZpcMuaBgxsUq%2F%0AVpDjqr3wnMXqdJkyB0I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1779278400&signature=bf541f528d67a7850975fcf720b8fbc913aad53942875840f6fafd5754d8d82e&req=diEiFc1%2FlIRdXvMW3nq%2BgVR6VlqyKnxozZ%2BvlcWHNJLE5bqMh%2FkMZWm6QDlr%0As33UF7F3Cg17P6nwt3CLgyZNlVg%3D%0A)
 
  
 
@@ -108,7 +108,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more chat
 - Total number of chats (1 week, 1 month, 3 months, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1779141600&signature=f03a1a2ddba6eb60a61d0569852f641ee35f78e24687a26ddfe82da302e961d3&req=dSkmEMh4lIFcXfMW1HO4zZyh%2Bjqf%2Boh9RyyyIe2wZ0UCO8nejK5gOc%2BYHOrB%0AxETU%2BA84gAaxfmVHJbo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1779278400&signature=adaeeb11409c53e00fe6f3b46aa098c036815b1bf8ca422e1b14e69cef7e9934&req=dSkmEMh4lIFcXfMW3nq%2BgYIAdWDx2UL5%2F93OIYw1L7S%2Fhs37%2FOPnc5ZfujBy%0AMR78oFtVwO9aQVxhdjz%2FFSD3AOI%3D%0A)
 
  
 
@@ -118,7 +118,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more project
 - Top 10 users by projects used (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1779141600&signature=edad301bd5dd258081a58b338ebf3ea14af039769f8c1d27fa7cd18f998f639c&req=dSkmEMh5nYBcWvMW1HO4zed15S3v2RlcqVPXIl8sPeajAZ8omTVd%2BGaoy6fz%0AC2v8aX0wmaXypbjij1A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1779278400&signature=9e13b70f48be07a4a5975301cee43fbe842e8453aa88c7cd6f87eb6ce17e4059&req=dSkmEMh5nYBcWvMW3nq%2BgQNdCwIQ%2FKaiuK8OrOhg8MVRhaDtSj87jtrobuHo%0AhG1eRWZTfxYgVqRzhsemf8chJvA%3D%0A)
 
  
 
@@ -128,7 +128,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more artifact
 - Top 10 users by artifacts generated (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1779141600&signature=d8ae50d62d855d10420d1468317cd505e17b174be6d09c4c8603c2b8697123c5&req=dSkmEMh5nIBZWfMW1HO4zXYF3lDjuQH%2F4Jgm1Axxim36J4ULqKmAMcbMzOmk%0ADVW8svpc0jg3Giojsjs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1779278400&signature=6f9ffc84dd2765de05eacb9c8b99830c0815c0e1f67b1165ba59a53d74ebd720&req=dSkmEMh5nIBZWfMW3nq%2Bgfwbrc%2BMUq%2BkCtHWvsyqBVHGd2ciiw0bCsZ4gMbA%0A%2B8EB%2Baq5%2BbL4SQv0%2F7K7GTGm97w%3D%0A)
 
  
 
@@ -156,7 +156,7 @@ Navigate to **[Analytics > Cowork](https://claude.ai/analytics/cowork)** to view
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1779141600&signature=e3ce00997c4ff3f21774fa2a6d85ed9c10f85f1192944a1d6fc24e0e15dfef7e&req=diIiFc9%2BmYNeUPMW1HO4zSCqqK0GEH4Y8zs2pRdG0k6d6vdMIKdV1o6xBMF0%0AgbBOGapD1m0V%2F3X0Tc0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1779278400&signature=133afa112e810caa83212dc7e9a3951f3c1d78625193361a446dd0035b486730&req=diIiFc9%2BmYNeUPMW3nq%2BgTXDaiYIQcJ6GSALrFRvXzeNof2CqMXbFIvP%2BBBV%0AWBMa%2Fng0WWfYahFadWds%2FsMc93w%3D%0A)
 
  
 
@@ -177,6 +177,6 @@ If you’re on an Enterprise plan and want to pull analytics data into your own 
 
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
-- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

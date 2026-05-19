@@ -1,6 +1,6 @@
 # What is the Pro plan?
 
-*Updated over 3 weeks ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -84,7 +84,7 @@ Our Max plans offer more usage for individuals than Pro plans. For additional in
 
  
 
-Pro subscribers can also enable extra usage to continue working with Claude beyond the plan’s included usage limits. For more information and instructions for enabling this feature, see **[Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)**.
+Pro subscribers can also enable usage credits to continue working with Claude beyond the plan’s included usage limits. For more information and instructions for enabling this feature, see **[Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-)**.
 
 
 ---

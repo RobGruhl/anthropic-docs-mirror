@@ -95,8 +95,8 @@ There's no single "right" way to integrate Claude into your work. Some team memb
 
 ## Related Articles
 
-- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
-- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
+- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
+- [Using the Candid Connector in Claude](https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude)
 - [Claude for Nonprofits Partnership Success Guide for Admins](https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins)
 - [Claude Code user FAQ](https://support.claude.com/en/articles/14554922-claude-code-user-faq)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

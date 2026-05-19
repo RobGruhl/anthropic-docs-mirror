@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-18 21:29*
+*Last updated: 2026-05-19 00:34*
 Total documents: 1167
 ---
 ## Uncategorized (1167 documents)
@@ -246,7 +246,7 @@ Total documents: 1167
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  

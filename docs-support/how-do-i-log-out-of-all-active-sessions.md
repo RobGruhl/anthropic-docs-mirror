@@ -38,7 +38,7 @@ If you used your Claude account to authenticate into Claude Code, you can manage
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1779141600&signature=cdb0d16aa4832eb9c3c003f75389853a8d102a3f286dc1f1fb2bfb03252f9dcb&req=dSYnHst4nohdWvMW1HO4zVuHhRX80ma9AQofdwM8qVfTCEicGOEQiVrLU1mS%0AXyfE4r1IuI7%2BN9KwUx0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1779152400&signature=e4258e0ba417c75ba3730b49cd1f8d9bef6d44e45f1ec76f5dac34f98ca88b92&req=dSYnHst4nohdWvMW1HO4zVuHhRX802W%2FAQofdwM8qVdkqWzdL10veLOuC78P%0ANaEIw6jLdFMgx6JHu9A%3D%0A)
 
  
 
@@ -53,6 +53,6 @@ If you're unable to sign into your account to log out of all sessions, contact o
 
 - [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
 - [Managing your active sessions](https://support.claude.com/en/articles/13124001-managing-your-active-sessions)
-- [Logging in to your Claude account](https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account)
+- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
 - [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

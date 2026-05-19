@@ -1,6 +1,6 @@
 # What is the Team plan?
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -13,8 +13,8 @@ The Team plan is a paid plan for our Claude chat experience built for ambitious 
 Users with Standard seats on the Team plan can access the following:
 
 - **Increased usage:** More usage than the Pro plan per five-hour session, so every team member can get what they need from Claude.
-- **Option to purchase extra usage:** Prepay for extra usage, allowing team members to continue working after reaching limits.
-- - Read more here: **[Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)**
+- **Option to purchase usage credits:** Prepay for usage credits, allowing team members to continue working after reaching limits.
+- - Read more here: **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**
 - **Admin tools and billing management:** Manage access and billing in a centralized place.
 - **Advanced identity and access management:**
 - - **Single-Sign-On (SSO) and Domain Capture:** Enhance authentication security and user experience.
@@ -122,7 +122,7 @@ Usage limits on Team plans are per-member, rather than applied to the team as a 
 
 ### How do I increase my Team plan usage limits?
 
-Your Team plan organization can enable extra usage to allow team members on all seat types to continue working with Claude and Claude Code after reaching their included usage limits. See this article for more information: **[Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans).**
+Your Team plan organization can enable usage credits to allow team members on all seat types to continue working with Claude, Cowork, and Claude Code after reaching their included usage limits. For more information, see **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**.
 
 
 ---
@@ -132,5 +132,5 @@ Your Team plan organization can enable extra usage to allow team members on all 
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
-- [Manage extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-extra-usage-for-team-and-seat-based-enterprise-plans)
+- [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

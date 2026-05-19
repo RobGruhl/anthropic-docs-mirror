@@ -34,7 +34,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1779141600&signature=54fcc736af3b6453c30b2055357bed9fe082ad5063d29f946cef9818f62e127b&req=dSklFMh6nIZXXPMW1HO4zVXW%2F2SqbzLKQoNvNFTb5cfPuTf214SFmVuX43YZ%0AS5e%2BIzRM3AKLuZgeJbY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1779152400&signature=de9b035eab2fb9b8ca351f62324cd0aa00c6b7058e90d90da28d4da4e4cbba7a&req=dSklFMh6nIZXXPMW1HO4zVXW%2F2SqbjHIQoNvNFTb5cfTn2e8rc7LTzjxvpnr%0ARr0KfHF%2BxKEgx499t2w%3D%0A)
 
  
 
@@ -70,6 +70,6 @@ If you've paid for a Pro or Max plan but are not seeing this reflected in your a
 
 - [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

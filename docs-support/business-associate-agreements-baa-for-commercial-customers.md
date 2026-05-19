@@ -151,7 +151,7 @@ Please see our **[Trust Portal](https://trust.anthropic.com/resources?s=rgirr4qe
 ## Related Articles
 
 - [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
 - [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
+- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)

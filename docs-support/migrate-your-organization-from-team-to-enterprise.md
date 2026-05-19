@@ -1,6 +1,6 @@
 # Migrate your organization from Team to Enterprise
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -73,7 +73,7 @@ For usage-based Enterprise plans, usage is billed based on actual consumption. F
 
  
 
-If you had purchased extra usage for your Team plan, any unused credits will roll over and become available on your new usage-based Enterprise plan.
+If you had purchased usage credits for your Team plan, any unused balance will roll over and become available on your new usage-based Enterprise plan.
 
  
 
@@ -114,7 +114,7 @@ Read more about groups, group spend limits, and custom roles here:
 ## Related Articles
 
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
-- [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)
+- [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
+- [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)

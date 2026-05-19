@@ -1,6 +1,6 @@
 # Usage limit best practices
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -92,9 +92,9 @@ Projects offer significant caching benefits:
 - The **Plan usage limits** section at the top shows your progress towards both your session limit and weekly limits.
 - - **Current session:** How much of your plan’s five-hour session limit you’ve used thus far, plus the amount of time remaining in the session.
 - **Weekly limits:** Check when your plan’s weekly usage limit resets for Opus only and all other models.
-- **Extra usage:** If you are using a Pro, Max, Team, or seat-based Enterprise plan, your Usage settings page will also show how much of your plan's limit you've used. Refer to these articles for more information about enabling extra usage depending on your plan:
-- - **[Extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)**
-- **[Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)**
+- **Usage credits:** If you are using a Pro, Max, Team, or seat-based Enterprise plan, your Usage settings page will also show how much of your plan's limit you've used. Refer to these articles for more information about enabling usage credits depending on your plan:
+- - **[Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-)**
+- **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**
 - If your organization is on a usage-based Enterprise plan, you won’t have specific usage limits, but will be charged based on consumption. You can also track this in **[Settings > Usage](https://claude.ai/settings/usage)**.
 
  
@@ -136,6 +136,6 @@ By following these best practices, you can make the most efficient use of your C
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

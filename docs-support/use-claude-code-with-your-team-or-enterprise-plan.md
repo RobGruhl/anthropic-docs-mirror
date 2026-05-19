@@ -1,6 +1,6 @@
 # Use Claude Code with your Team or Enterprise plan
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -70,7 +70,7 @@ If your organization is on a **usage-based Enterprise plan** (including self-ser
 
  
 
-If your organization is on a **Team plan** or a **seat-based Enterprise plan**, you can enable extra usage to allow team members to continue working with Claude and Claude Code after reaching their included usage limits. See **[Extra usage for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans)** for more information.
+If your organization is on a Team plan or a seat-based Enterprise plan, you can enable usage credits to allow team members to continue working with Claude, Cowork, and Claude Code after reaching their included usage limits. For more information, see **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**.
 
 
 ---

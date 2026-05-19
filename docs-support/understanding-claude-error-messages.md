@@ -22,16 +22,16 @@ Looking for ways to maximize your Claude usage? Refer to **[Usage limit best pra
 
  
 
-### Extra usage
+### Usage credits
 
-Paid Claude users with extra usage enabled in Usage settings will see a slightly different usage limit error:* “5-hour limit resets [time] - continuing with extra usage.”* Note that this will only appear for members with access to extra usage.
+Paid Claude users with usage credits enabled in Usage settings will see a slightly different usage limit error: *"5-hour limit resets [time] - continuing with usage credits."* Note that this will only appear for members with access to usage credits.
 
  
 
 Refer to these articles for more information about this feature depending on your plan:
 
-- **[Extra usage for paid Claude Plans](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans)**
-- **[Extra usage for Team and Enterprise plans](https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-enterprise-plans)**
+- **[Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-)**
+- **[Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-)**
 
  
 
@@ -76,7 +76,7 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1779141600&signature=5fa1d290dbd20b86fbb30720cfdc8c2f93b94ffb56324d04526a42bbf48d197f&req=dSciFc53m4NbXvMW1HO4za4BUaYi1rPC7y68oYp%2BYg%2F%2FCtiXbYS1wTGYH52e%0ANyTUvk8sqat%2BVRYmtsQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1779278400&signature=4794bf68db777af4a3e60f73eb39977339ec54147bcc04e999c4cb7b5ebac0c0&req=dSciFc53m4NbXvMW3nq%2Bgapop7wmIjgSVc23C2DfPC9C9%2Br5wW%2BFhty8YZLr%0AETffuDAvbzEE0MqPxoR%2Bd%2FPHL3Y%3D%0A)
 
  
 
@@ -87,6 +87,6 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
 - [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)

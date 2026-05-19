@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1779141600&signature=ac25ed5f62c208898bbc29ccc76289a70cf08247371b78f40f824301197c0faa&req=dSUvEs97mYNeXvMW1HO4zYCWhi0ZhcecuqqBX2puyxTWIVYaL7ISpmhGylDO%0AkINyfeYPSn2bxpUSkxI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1779152400&signature=e36a1b4b6779b0ca2bd05fc88635d54e574a771c855e143bf4b5c5ca26ec23e3&req=dSUvEs97mYNeXvMW1HO4zYCWhi0ZhMSeuqqBX2puyxSgwig18WLNSiPHBXBH%0A1gcT45qWB%2BziQ9vceC8%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1779141600&signature=acd2e8bf12fc8158b6c399d34af43e3001ba81468c2214bb94b5c844417d23a2&req=dSUvEs94mYJdWPMW1HO4zQwESHorJY5gqMITUZbanFBP7HfRGfDY5G1gY5if%0AyxOQM%2B0ZlLnmLbH0rdc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1779152400&signature=b807815509b78906975e32cb8489b775f19ee2d7f2e142572e54370a5f5a09a9&req=dSUvEs94mYJdWPMW1HO4zQwESHorJI1iqMITUZbanFCFJfAm%2F6L6qhYdEO5B%0AqKH9pVwMY2%2F3d8IR%2FGs%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1779141600&signature=d9194f0004a4fc9d62b36873b17b5c7175a6242676321d33a92606bf4a15b95c&req=dSUvEs93noJXX%2FMW1HO4zRxEzmJM4lBq21D6pckxWMY8jiH7Xx7dB4oKxITk%0Arn%2FL8fCTcCBkPluOezM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1779152400&signature=9734c8cef94d016b427e527d13f3adf5916840000dee0b7a2b3008ee59f73b8f&req=dSUvEs93noJXX%2FMW1HO4zRxEzmJM41No21D6pckxWMbrQLUMoC1LL9CK%2FQYl%0AdmeZm9ZGXJ6ITncpeRY%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1779141600&signature=07856724af3be01ca1e9be16a9bb22562b0cc1502b920151c1463d8c2e68173f&req=dSUvEs95lIVfWPMW1HO4zUR%2BiJXCV9FnCyIF5nuUsbwnblepdq21JA1Wia8z%0AJ2gKwvBQQwcgOZocMGg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1779152400&signature=86d7322fb8fd15c65bbda6a23ef27f346954632ad7888fc37ddcbe41debf868c&req=dSUvEs95lIVfWPMW1HO4zUR%2BiJXCVtJlCyIF5nuUsbzwg4yzjfnYt40jCooe%0AVZEWEWEXYJEiKuLMIR4%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 ## Related Articles
 
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
-- [Manage extra usage for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-extra-usage-for-paid-claude-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
 - [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

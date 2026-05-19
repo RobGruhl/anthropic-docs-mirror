@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://platform.claude.com/settings/appearance).
 3. Select from Light, System, or Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1779141600&signature=030a23005c2e22c85f3be9388852a1cdf309a17611ec24a4b6ba6e2629c6a9cc&req=dSklFMx5lIBfWPMW1HO4zRpFBMEFSRNwO9Kw38RlAYJZZBSn2b5P%2B%2BhoZCYU%0A4EjstuFQaUpDdpgA%2F%2Fg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1779152400&signature=8b0b3e50c787e60bdacbcb9633495d60b21e41aaf3f99f031080f35959b6de97&req=dSklFMx5lIBfWPMW1HO4zRpFBMEFSBByO9Kw38RlAYImB2yW3Ycu9p8ourUx%0AZh%2FoHi6l2FfnwCNhL%2Bs%3D%0A)
 
 
 ---
