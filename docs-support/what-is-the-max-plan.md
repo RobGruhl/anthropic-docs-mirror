@@ -89,7 +89,7 @@ For more information about usage and length limits, refer to **[Understanding us
 ## Related Articles
 
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
+- [Choose a Claude plan](https://support.claude.com/en/articles/11049762-choose-a-claude-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)

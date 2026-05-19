@@ -8,7 +8,7 @@ If you see the following pop-up when you log in to your Claude account, you’ll
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1779218100&signature=8176bee82d2822fb041d4518170fd627892b54f45b27c29af9dbc6c8cadcb134&req=dSYkF81%2FnolZWPMW1HO4zf7%2Bg03s6Yjzn6MrEicvimClFj83%2F7sWyf1HPJea%0AUmtXW%2BI004VLit4lOcE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1779228000&signature=4229a47973ef18c64dd405a2d61de677bbc8f6f5752decdb67ba7035d86a0715&req=dSYkF81%2FnolZWPMW1HO4zf7%2Bg03s6ojyn6MrEicvimAIOBiwRUS0buzNyowV%0AOKr8if3yNeWY42wAjws%3D%0A)
 
  
 
@@ -21,7 +21,7 @@ Clicking “Remind me later” will dismiss the verification modal for 24 hours,
 
 ## Related Articles
 
-- [Verifying your phone number](https://support.claude.com/en/articles/8287232-verifying-your-phone-number)
+- [Verify your phone number](https://support.claude.com/en/articles/8287232-verify-your-phone-number)
 - [Using Claude with iOS Apps](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps)
 - [Using Claude with Android Apps](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)

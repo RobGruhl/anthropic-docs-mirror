@@ -1,6 +1,6 @@
-# Using Claude in Xcode
+# Use Claude in Xcode
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -34,11 +34,11 @@ Ask questions about your code in natural language. Claude understands your proje
 
 To start using Claude in Xcode:
 
-1. [Download Xcode 26](https://apps.apple.com/us/app/xcode/id497799835?mt=12) from the Mac App Store.
+1. **[Download Xcode 26](https://apps.apple.com/us/app/xcode/id497799835?mt=12)** from the Mac App Store.
 2. Open Xcode preferences and navigate to the Intelligence settings.
 3. Log in with your Claude account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1779217200&signature=5a3c6c9ba199117bb25ad0067f0acf6e88aa578a9fb4faaf743c96e0b048ecd0&req=dSclEcp5nIRXXPMW1HO4zUAXLMUAU6%2FWFalhp3bugHL6TBtR97mJ7aJDm3nP%0AQpx7PP8c13NZgKMXMso%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1779343200&signature=2dd7afc56608f7011c545a38cb3d798bcecc3ba288deb903bcdec90045d6c610&req=dSclEcp5nIRXXPMW3nq%2BgYh8eoJ%2BIcVxLuqyAQaLivm5HD7wn3zZowJ9KDMX%0AFHK9LaiKz7yR6c5twMisULQG1oM%3D%0A)
 
  
 

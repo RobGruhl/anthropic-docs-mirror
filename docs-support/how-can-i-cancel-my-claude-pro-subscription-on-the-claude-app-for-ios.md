@@ -1,6 +1,6 @@
 # How can I cancel my Claude Pro subscription on the Claude app for iOS?
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -20,7 +20,7 @@ You may cancel your Claude Pro subscription at any time from the platform you si
 ## Related Articles
 
 - [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
-- [Installing Claude for iOS](https://support.claude.com/en/articles/9266462-installing-claude-for-ios)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [How do I sign up for Claude Pro on the Claude app for iOS?](https://support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios)
 - [How can I uninstall Claude for Android?](https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android)
 - [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)

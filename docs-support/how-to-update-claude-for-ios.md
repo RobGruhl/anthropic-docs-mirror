@@ -1,6 +1,6 @@
 # How to update Claude for iOS
 
-*Updated over a week ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -16,7 +16,7 @@ If you aren’t seeing the latest features on Claude for iOS, you may need to [u
 
 ## Related Articles
 
-- [Installing Claude for iOS](https://support.claude.com/en/articles/9266462-installing-claude-for-ios)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [Accessing Claude app on iOS Lock Screen, Control Center, and Action Button](https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button)
 - [How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)

@@ -252,7 +252,7 @@ Claude will only request permissions if needed for specific features, and you ca
 
 ## Related Articles
 
-- [Installing Claude for iOS](https://support.claude.com/en/articles/9266462-installing-claude-for-ios)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Using Claude with Android Apps](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps)

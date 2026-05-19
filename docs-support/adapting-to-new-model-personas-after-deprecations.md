@@ -28,7 +28,7 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 ## Related Articles
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
-- [Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
 - [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

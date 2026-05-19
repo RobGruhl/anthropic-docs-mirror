@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-05-19 18:39*
-Total documents: 268
+*Last updated: 2026-05-19 21:34*
+Total documents: 267
 ---
-## Uncategorized (268 documents)
+## Uncategorized (267 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -138,7 +138,7 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
 **Updated:** 2026-05-19  
 
-### Choosing a Claude plan
+### Choose a Claude plan
 **File:** `/docs-support/choosing-a-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/11049762-choosing-a-claude-plan  
 **Updated:** 2026-05-19  
@@ -146,7 +146,7 @@ Total documents: 268
 ### Claude 4 Invite Contest
 **File:** `/docs-support/claude-4-invite-contest.md`  
 **Source:** https://support.claude.com/en/articles/11408405-claude-4-invite-contest  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
@@ -338,11 +338,6 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
 **Updated:** 2026-05-17  
 
-### Examples of projects you can create
-**File:** `/docs-support/examples-of-projects-you-can-create.md`  
-**Source:** https://support.claude.com/en/articles/9529781-examples-of-projects-you-can-create  
-**Updated:** 2026-05-19  
-
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy  
@@ -451,7 +446,7 @@ Total documents: 268
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-19  
 
 ### How can I change the model version that I’m chatting with?
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -496,7 +491,7 @@ Total documents: 268
 ### How can I uninstall Claude for Android?
 **File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-19  
 
 ### How do I cancel my paid Claude subscription?
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
@@ -512,11 +507,6 @@ Total documents: 268
 **File:** `/docs-support/how-do-i-get-access-to-claude-in-amazon-bedrock.md`  
 **Source:** https://support.claude.com/en/articles/7996920-how-do-i-get-access-to-claude-in-amazon-bedrock  
 **Updated:** 2026-02-18  
-
-### How do I install Claude for Android?
-**File:** `/docs-support/how-do-i-install-claude-for-android.md`  
-**Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-05-17  
 
 ### How do I learn more about Amazon and Anthropic’s strategic collaboration?
 **File:** `/docs-support/how-do-i-learn-more-about-amazon-and-anthropic-s-strategic-collaboration.md`  
@@ -626,7 +616,7 @@ Total documents: 268
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-19  
 
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
@@ -688,7 +678,12 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/10065433-installing-claude-desktop  
 **Updated:** 2026-05-17  
 
-### Installing Claude for iOS
+### Install Claude for Android
+**File:** `/docs-support/how-do-i-install-claude-for-android.md`  
+**Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
+**Updated:** 2026-05-19  
+
+### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9266462-installing-claude-for-ios  
 **Updated:** 2026-05-19  
@@ -1033,6 +1028,11 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry  
 **Updated:** 2026-05-17  
 
+### Use Claude in Xcode
+**File:** `/docs-support/using-claude-in-xcode.md`  
+**Source:** https://support.claude.com/en/articles/12293051-using-claude-in-xcode  
+**Updated:** 2026-05-19  
+
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
 **Source:** https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context  
@@ -1098,11 +1098,6 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
 **Updated:** 2026-05-18  
 
-### Using Claude in Xcode
-**File:** `/docs-support/using-claude-in-xcode.md`  
-**Source:** https://support.claude.com/en/articles/12293051-using-claude-in-xcode  
-**Updated:** 2026-05-19  
-
 ### Using Claude with Android Apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
@@ -1111,7 +1106,7 @@ Total documents: 268
 ### Using Claude with iOS Apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-19  
 
 ### Using Research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
@@ -1163,7 +1158,7 @@ Total documents: 268
 **Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
 **Updated:** 2026-05-19  
 
-### Verifying your phone number
+### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
 **Source:** https://support.claude.com/en/articles/8287232-verifying-your-phone-number  
 **Updated:** 2026-05-19  
@@ -1331,7 +1326,7 @@ Total documents: 268
 ### Why can’t I find Claude for Android in the Play Store?
 **File:** `/docs-support/why-can-t-i-find-claude-for-android-in-the-play-store.md`  
 **Source:** https://support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-19  
 
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  

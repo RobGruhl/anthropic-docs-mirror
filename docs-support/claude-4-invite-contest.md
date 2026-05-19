@@ -118,7 +118,7 @@ After the four months expire, you will be put back into the original subscriptio
 ## Related Articles
 
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
-- [Choosing a Claude plan](https://support.claude.com/en/articles/11049762-choosing-a-claude-plan)
+- [Choose a Claude plan](https://support.claude.com/en/articles/11049762-choose-a-claude-plan)
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 - [How to gift a Claude subscription](https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription)
 - [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

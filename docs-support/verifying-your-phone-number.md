@@ -1,14 +1,14 @@
-# Verifying your phone number
+# Verify your phone number
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
-When you first create a Claude account, you’ll be asked to enter your phone number from a [supported location](https://support.claude.com/en/articles/8461763-where-can-i-access-claude) to receive a verification code via text message:
+When you first create a Claude account, you’ll be asked to enter your phone number from a **[supported location](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)** to receive a verification code via text message:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1779217200&signature=61b89e6171bc1e9ce77742350fef1662d4338d2777817f7211c5d036139aec46&req=dSguFch5noBbWvMW1HO4zVIf%2F5lh3S14oTnI%2BoMZk7dRRHu1W%2FpnNdwdMhOF%0AdXVDeTSi1448ZVhEZvs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1779343200&signature=660226862ed906eab1e47cf82cb603a47f1d37dd617d56499e49aadc9fcd7e6f&req=dSguFch5noBbWvMW3nq%2BgZj7Pd8WwDQCGAzvDLONi1PC4ogo%2BwVAVinJygLw%0AANOmPsgQNLYfcN5ffDzlJd248IM%3D%0A)
 
  
 
