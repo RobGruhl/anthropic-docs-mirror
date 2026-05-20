@@ -1,6 +1,6 @@
 # Unauthorized Anthropic stock sales and investment scams
 
-*Updated in the last 15 minutes*
+*Updated in the last hour*
 
 ---
 
@@ -41,12 +41,14 @@ We are aware of individuals or investment firms purportedly offering access to A
 - Open Door Partners
 - Unicorns Exchange
 - Pachamama
-- Lionheart Ventures
 - Hiive (new offerings)
-- Sydecar
 - Upmarket
 
 **Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records.**
+
+ 
+
+We periodically update the website based on current information. Removing a firm does not mean Anthropic recognizes or approves any related investment vehicles. Investors should continue to independently validate any purported Anthropic investment, as we do not recognize unapproved transfers or SPV-based interests.
 
  
 
@@ -97,8 +99,8 @@ If you believe you have been targeted by a stock scam:
 
 ## Related Articles
 
+- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
 - [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [Install financial services plugins for Cowork](https://support.claude.com/en/articles/13851150-install-financial-services-plugins-for-cowork)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
-- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)
