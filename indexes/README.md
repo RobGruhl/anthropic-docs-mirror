@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-05-20 07:12*
+*Last updated: 2026-05-20 10:11*
 
 ## Quick Stats
-- **Total Documents:** 2311
+- **Total Documents:** 2313
 - **Platform Docs:** 1273
 - **Claude Code Docs:** 134
 - **MCP Docs:** 168
@@ -11,7 +11,7 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 24
-- **Claude.com Blog:** 132
+- **Claude.com Blog:** 134
 - **Support Articles:** 267
 - **Topics:** 83
 
@@ -26,12 +26,12 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 24 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 132 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 134 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 267 help articles from support.claude.com
 
 ### By Topic
-- [Mcp](topics/mcp.md) - 237 documents
-- [Claude Code](topics/claude-code.md) - 215 documents
+- [Mcp](topics/mcp.md) - 238 documents
+- [Claude Code](topics/claude-code.md) - 216 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
@@ -39,12 +39,12 @@
 - [Policy](topics/policy.md) - 127 documents
 - [Api](topics/api.md) - 124 documents
 - [Skills](topics/skills.md) - 117 documents
-- [Agents](topics/agents.md) - 109 documents
+- [Agents](topics/agents.md) - 111 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
-- [Tools](topics/tools.md) - 73 documents
+- [Tools](topics/tools.md) - 74 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
