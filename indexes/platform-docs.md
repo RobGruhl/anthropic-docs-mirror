@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-20 00:35*
+*Last updated: 2026-05-20 04:30*
 Total documents: 1273
 ---
 ## Uncategorized (1273 documents)
@@ -281,7 +281,7 @@ Total documents: 1273
 ### agents-and-tools__mcp-tunnels__deploy-compose
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-compose.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-compose  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-20  
 
 ### agents-and-tools__mcp-tunnels__deploy-helm
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-helm.md`  
@@ -306,7 +306,7 @@ Total documents: 1273
 ### agents-and-tools__mcp-tunnels__security
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__security.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-20  
 
 ### agents-and-tools__mcp-tunnels__troubleshooting
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__troubleshooting.md`  
@@ -1066,7 +1066,7 @@ Total documents: 1273
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-20  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
@@ -2731,7 +2731,7 @@ Total documents: 1273
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-20  
 
 ### go__beta
 **File:** `/platform-docs/go__beta.md`  
@@ -4266,7 +4266,7 @@ Total documents: 1273
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-20  
 
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  
@@ -4276,7 +4276,7 @@ Total documents: 1273
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-20  
 
 ### managed-agents__sessions
 **File:** `/platform-docs/managed-agents__sessions.md`  
