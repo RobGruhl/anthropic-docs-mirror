@@ -1,6 +1,6 @@
 # Access the Compliance API
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -12,7 +12,7 @@ Once the Compliance API is enabled, create new compliance access keys by clickin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1779295500&signature=ca0d50f722eb572132d580aba2dff85854594ca5a99470f728f2a1168b79e3d4&req=dSghEc5%2BnIJfWfMW1HO4zdjcNEE%2B0MgWLb9AVN3cSSFIQCiS5BHqDDt%2Bbrv%2F%0AdyVl36Z094mZDabJ49A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1779304500&signature=c4618f33898075e32cd3bf9890c6bccbc4c4cd1ee81817073d327a3f9f1d4c9c&req=dSghEc5%2BnIJfWfMW1HO4zdjcNEE%2F2ckWLb9AVN3cSSH7Jd%2FtbLYkd9mHzA5g%0Axx12ZFJ%2FSuByWndGdKQ%3D%0A)
 
  
 

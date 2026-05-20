@@ -1,11 +1,12 @@
 # Plugins Topic Index
-*Last updated: 2026-05-20 16:17*
+*Last updated: 2026-05-20 18:48*
 
-Documents related to Plugins across all sources (10 documents)
+Documents related to Plugins across all sources (11 documents)
 ---
-## Claude Code Documentation (6)
+## Claude Code Documentation (7)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
 - [Plugin Dependencies](/code-claude-docs/plugin-dependencies.md)
+- [Plugin Hints](/code-claude-docs/plugin-hints.md)
 - [Plugin Marketplaces](/code-claude-docs/plugin-marketplaces.md)
 - [Plugins](/code-claude-docs/agent-sdk__plugins.md)
 - [Plugins](/code-claude-docs/plugins.md)

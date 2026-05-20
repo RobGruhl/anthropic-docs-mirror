@@ -1,6 +1,6 @@
 # Claude Console roles and permissions
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -13,6 +13,7 @@ The Claude Console uses a role-based access system with six distinct roles: User
 ### User
 
 - Can only use Workbench
+- Can view MCP tunnels
 - Cannot view API keys, usage logs, or billing details
 -  
 
@@ -20,14 +21,16 @@ The Claude Console uses a role-based access system with six distinct roles: User
 
 - Can use Workbench and **[Claude Code](https://code.claude.com/docs/en/overview)**
 - Can access Claude Code workspace in your org
+- Can view MCP tunnels
 -  
 
 ### Limited Developer
 
 - Can use Workbench and Claude Code
 - Can manage API keys and webhook endpoints
-- Can view usage and cost data 
-- Can manage vaults and credentials <br>​
+- Can view usage and cost data
+- Can manage vaults and credentials
+- Can view MCP tunnels<br>​
 
 ### Developer
 
@@ -37,6 +40,7 @@ The Claude Console uses a role-based access system with six distinct roles: User
 - Can manage vaults and credentials 
 - Can view sessions traces 
 - Can download files
+- Can view MCP tunnels
 -  
 
 ### Billing
@@ -44,6 +48,7 @@ The Claude Console uses a role-based access system with six distinct roles: User
 - Can use Workbench
 - Can manage billing details
 - Can view usage and cost data
+- Can view MCP tunnels
 - Cannot access Claude Code workspace in your org
 -  
 
@@ -52,6 +57,7 @@ The Claude Console uses a role-based access system with six distinct roles: User
 - Can perform all actions available to User, Developer, and Billing roles
 - Can manage users and their role assignments
 - Can send events to active (non-archived) sessions
+- Can create MCP tunnels
 -  
 
 ## Workspace-Level Permissions
@@ -75,5 +81,5 @@ The Claude Console uses a role-based access system with six distinct roles: User
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [Cost and Usage Reporting in the Claude Console](https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console)
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
-- [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
+- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
+- [Claude Code user FAQ](https://support.claude.com/en/articles/14554922-claude-code-user-faq)

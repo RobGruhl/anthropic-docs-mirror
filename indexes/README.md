@@ -1,10 +1,10 @@
 # Claude Documentation Index
-*Last updated: 2026-05-20 16:17*
+*Last updated: 2026-05-20 18:48*
 
 ## Quick Stats
-- **Total Documents:** 2313
+- **Total Documents:** 2317
 - **Platform Docs:** 1273
-- **Claude Code Docs:** 134
+- **Claude Code Docs:** 138
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
@@ -19,7 +19,7 @@
 
 ### By Content Type
 - [Platform Documentation](platform-docs.md) - 1273 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 134 docs from code.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 138 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
@@ -31,7 +31,7 @@
 
 ### By Topic
 - [Mcp](topics/mcp.md) - 238 documents
-- [Claude Code](topics/claude-code.md) - 216 documents
+- [Claude Code](topics/claude-code.md) - 220 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
@@ -48,7 +48,7 @@
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
-- [Agent Sdk](topics/agent-sdk.md) - 33 documents
+- [Agent Sdk](topics/agent-sdk.md) - 34 documents
 - [Community](topics/community.md) - 32 documents
 - [View all 83 topics](topics/)
 

@@ -1,9 +1,9 @@
 # Sdk Topic Index
-*Last updated: 2026-05-20 16:17*
+*Last updated: 2026-05-20 18:48*
 
-Documents related to Sdk across all sources (29 documents)
+Documents related to Sdk across all sources (30 documents)
 ---
-## Claude Code Documentation (29)
+## Claude Code Documentation (30)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
@@ -21,6 +21,7 @@ Documents related to Sdk across all sources (29 documents)
 - [Python](/code-claude-docs/agent-sdk__python.md)
 - [Quickstart](/code-claude-docs/agent-sdk__quickstart.md)
 - [Secure Deployment](/code-claude-docs/agent-sdk__secure-deployment.md)
+- [Session Storage](/code-claude-docs/agent-sdk__session-storage.md)
 - [Sessions](/code-claude-docs/agent-sdk__sessions.md)
 - [Skills](/code-claude-docs/agent-sdk__skills.md)
 - [Slash Commands](/code-claude-docs/agent-sdk__slash-commands.md)
