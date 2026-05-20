@@ -1,6 +1,6 @@
-# Microsoft 365 Connector: Security Guide
+# Microsoft 365 connector security guide
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 

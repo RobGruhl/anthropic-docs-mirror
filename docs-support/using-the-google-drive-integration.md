@@ -267,5 +267,5 @@ Browse all available connectors in the **[Connectors Directory](https://claude.a
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Using Claude in Slack](https://support.claude.com/en/articles/12461605-using-claude-in-slack)
 - [Enable and use the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365-connector)
-- [Microsoft 365 Connector: Security Guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
+- [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

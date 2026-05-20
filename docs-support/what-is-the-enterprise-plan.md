@@ -9,7 +9,7 @@ The Enterprise plan is designed for organizations that need advanced security, c
 Enterprise plans are available two ways:
 
 - **[Self-serve](https://claude.ai/create/enterprise?utm_source=support&utm_medium=article&utm_content=enterprise-plan_self-serve_intro)** — purchase directly online without sales involvement.
-- **[Sales-assisted](https://claude.com/contact-sales?utm_source=support&utm_medium=article&utm_content=enterprise-plan_contact-sales_intro)** — work with our Sales team for custom contracts, advanced options, and dedicated support.
+- **[Sales-assisted](https://claude.com/contact-sales?utm_source=support&utm_medium=article&utm_content=enterprise-plan_contact-sales_intro)** — work with our Sales team for advanced options and dedicated support.
 
  
 
@@ -90,13 +90,12 @@ Both self-serve and sales-assisted Enterprise plans include the same features an
 | **Usage billing** | Credits purchased upfront | Billed monthly in arrears |
 | **Trials** | Not available | Available |
 | **HIPAA-readiness / BAA** | Not available | Available |
-| **Tailored terms or MSA** | Not available | Available |
 
 *ACH bank transfers are only available when creating new self-serve Enterprise organizations, not when upgrading a Team organization to Enterprise.
 
  
 
-**When to contact Sales:** If your organization needs invoicing, HIPAA-readiness and a Business Associate Agreement (BAA), tailored contract terms, trials, dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
+**When to contact Sales:** If your organization needs invoicing, HIPAA-readiness and a Business Associate Agreement (BAA), trials, dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
 
  
 
