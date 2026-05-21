@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-21 04:34*
+*Last updated: 2026-05-21 07:16*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -286,7 +286,7 @@ Total documents: 267
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
@@ -786,7 +786,7 @@ Total documents: 267
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
 **Source:** https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
@@ -1006,7 +1006,7 @@ Total documents: 267
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1161,7 +1161,7 @@ Total documents: 267
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
 **Source:** https://support.claude.com/en/articles/8287232-verifying-your-phone-number  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### View usage analytics for Team and Enterprise plans
 **File:** `/docs-support/usage-analytics-for-team-and-enterprise-plans.md`  

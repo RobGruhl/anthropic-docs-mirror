@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1779339600&signature=eae35450fb89c27af632b63228b98650e007ae9e23892113df8be1592b7360a9&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4ibJt46H9crMELaMZPyDaXEUJw03wjJEdiPL%0AyHpLl6JuB53fEwT7RDA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1779349500&signature=11cf062d82adcb5f2868dacb55c8091d353c7520c2d86e97ab366987bf5c8d55&req=dSkmEMt%2BlYRYUfMW1HO4zV2J4ibJsI6E9crMELaMZPy9BvpjAphFLUhAfaSF%0ALc1SdGH5DEyAUvPzSOc%3D%0A)
 
  
 
@@ -128,6 +128,6 @@ Once you've started using Claude, you can:
 
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
+- [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

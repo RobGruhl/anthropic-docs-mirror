@@ -30,5 +30,5 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?](https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude)
 - [I would like to input sensitive data into my chats with Claude. Who can view my conversations?](https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations)
-- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
+- [Configure and use styles](https://support.claude.com/en/articles/10181068-configure-and-use-styles)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
