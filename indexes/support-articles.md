@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-21 13:05*
+*Last updated: 2026-05-21 16:10*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -291,7 +291,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Designated Point of Contact for Users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -316,7 +316,7 @@ Total documents: 267
 ### Enable and use the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -416,7 +416,7 @@ Total documents: 267
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
 **Source:** https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### How am I billed for my Enterprise plan?
 **File:** `/docs-support/how-am-i-billed-for-my-enterprise-plan.md`  
@@ -481,12 +481,12 @@ Total documents: 267
 ### How can I export my Claude data?
 **File:** `/docs-support/how-can-i-export-my-claude-data.md`  
 **Source:** https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
 **Source:** https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### How can I uninstall Claude for Android?
 **File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
@@ -496,7 +496,7 @@ Total documents: 267
 ### How do I cancel my paid Claude subscription?
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
-**Updated:** 2026-05-18  
+**Updated:** 2026-05-21  
 
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
@@ -661,7 +661,7 @@ Total documents: 267
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -1196,7 +1196,7 @@ Total documents: 267
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1211,7 +1211,7 @@ Total documents: 267
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
