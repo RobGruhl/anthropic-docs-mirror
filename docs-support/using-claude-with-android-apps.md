@@ -1,10 +1,10 @@
-# Using Claude with Android Apps
+# Use Claude with Android apps
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
-Claude can now connect with your Android device's system apps to help you take action directly from your conversations. When you chat with Claude, it can draft messages, emails, calendar events, set alarms and timers, find locations, and more — all through your everyday apps without copy-paste.
+Claude can now connect with your Android device's system apps to help you take action directly from your conversations. When you chat with Claude, it can draft messages, emails, calendar events, set alarms and timers, find locations, and more—all through your everyday apps without copy-paste.
 
  
 
@@ -20,6 +20,7 @@ Claude can help you:
 - **Set alarms** directly through your Clock app.
 - **Set timers** directly for cooking, workouts, or any activity.
 - **Read and analyze your health data** through Health Connect to help you understand fitness patterns, track progress toward goals, and visualize trends with native charts.
+-  
 
 ### Limitations
 
@@ -134,6 +135,7 @@ With your permission, Claude can read the following types of data from Health Co
 2. Claude will request access to your health data through Health Connect if not already granted.
 3. Review the permission prompt and select the data types you want to share.
 4. Claude analyzes your data and provides insights, often with visual charts to help you understand trends.
+4.  
 
 ### Example prompts
 
@@ -142,6 +144,7 @@ With your permission, Claude can read the following types of data from Health Co
 - "Show me how my daily step count compares week over week."
 - "What's my average resting heart rate, and how has it changed recently?"
 - "Create a summary of my fitness activity for the past 30 days."
+-  
 
 ### Understanding health visualizations
 
@@ -193,7 +196,7 @@ For features requiring permissions (like location or calendar access), Claude wi
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779381000&signature=67babdef4c0cf83601af89a4a7aba8c7784f5d8bfab567e10e2b517d2b5e2654&req=dScnEcp7nIdeXfMW1HO4zQe5FVaM0yT0S5x65TIld%2FD%2BCXYHQUlCIad3zIB1%0AwqRQo5aq6Bxrt5LRS3Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779537600&signature=a05ffd3542b8bfca3304f96997d777f5554ea42a248296874e629ad3a63ed829&req=dScnEcp7nIdeXfMW3nq%2BgT%2BIyd%2FyogaT6D%2FKikGn3FVZUqHVpxD%2FZxxoY3cs%0ATgMIotiKVa%2Bc965%2FiHOiCtFbCxU%3D%0A)
 
  
 
@@ -213,15 +216,17 @@ Health Connect permissions are managed separately from other app permissions. Wh
 
 ### Claude isn't offering to use my apps
 
-- Make sure you're using the latest version of Claude for Android. See[ How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android) for instructions.
+- Make sure you're using the latest version of Claude for Android. For instructions, see **[How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)**.
 - Try being more specific about wanting to send a message, create an event, or set a timer (see examples above).
 - Restart Claude for Android and try again.
+-  
 
 ### Permission prompts don't appear
 
 - Check that the app for which Claude needs permissions is installed and set up on your phone.
 - Navigate to Settings > Apps > Claude to verify that Claude for Android has the required permissions.
 - Ensure your Android OS is up to date.
+-  
 
 ### Sharing options don't appear for messages or emails
 
@@ -230,23 +235,27 @@ Health Connect permissions are managed separately from other app permissions. Wh
 - - Navigate to your app settings and select "Claude" from the list.
 - Select "Storage & cache."
 - Tap "Clear cache."
+   
 
 ### Calendar events aren't opening correctly
 
 - Verify you have a calendar app installed.
 - Check that your preferred calendar app is set as the default for calendar events.
 - Make sure the calendar app you’re trying to use is up to date.
+-  
 
 ### Alarms or timers aren't being created
 
 - Ensure your device's Clock app is enabled and up to date.
-- Check that "Do Not Disturb" settings aren't preventing alarms. 
+- Check that "Do Not Disturb" settings aren't preventing alarms.
+-  
 
 ### Content appears different than expected
 
 - Your Android mobile apps may format content slightly differently than Claude.
 - You can always edit the content in the destination app before sending or saving.
 - Some features may vary depending on your specific Android version and device manufacturer.
+-  
 
 ### Health data isn't appearing or seems incomplete
 
@@ -259,7 +268,7 @@ Health Connect permissions are managed separately from other app permissions. Wh
 - Health Connect isn’t supported when using work profiles on Android devices.
 -  
 
-**Need more help?** If you're experiencing issues with these features, try restarting Claude for Android or [updating the app to the latest version from the Google Play Store](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android).
+**Need more help?** If you're experiencing issues with these features, try restarting Claude for Android or **[updating the app to the latest version from the Google Play Store](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)**.
 
 
 ---
@@ -268,6 +277,6 @@ Health Connect permissions are managed separately from other app permissions. Wh
 
 - [Using the Claude Widget on Android](https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android)
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
-- [Using Claude with iOS Apps](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps)
+- [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
 - [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

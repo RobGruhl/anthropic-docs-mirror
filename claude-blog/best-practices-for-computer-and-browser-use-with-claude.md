@@ -1011,7 +1011,9 @@ Acknowledgements: This article & corresponding demo were written by Lucas Gonzal
 
 ## 関連する投稿
 
-Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
+Claude を活用して構築を行うチーム向けの、その他の製品
+
+ニュースとベストプラクティスをご覧ください。
 
 ## Claude を活用して組織運営の方法を変革
 

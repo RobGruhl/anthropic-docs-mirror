@@ -1,6 +1,6 @@
-# Using Claude with iOS Apps
+# Use Claude with iOS apps
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -210,7 +210,7 @@ Claude will only request permissions if needed for specific features, and you ca
 
 ### Claude isn't offering to use my apps
 
-- Make sure you're using the latest version of the Claude iOS app. See [How to update Claude for iOS](https://support.anthropic.com/en/articles/11825384-how-to-update-claude-for-ios) for instructions.
+- Make sure you're using the latest version of the Claude iOS app. For instructions, see **[How to update Claude for iOS](https://support.claude.com/en/articles/11825384-).**
 - Try being more specific in your request (refer to the examples listed above).
 - Restart Claude for iOS and try again.
 -  
@@ -245,7 +245,7 @@ Claude will only request permissions if needed for specific features, and you ca
 - Try asking about a specific data type to confirm which categories Claude can access.
 -  
 
-**Need more help?** If you're experiencing issues with these features, try restarting Claude for iOS or [updating to the latest version from the App Store](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios).
+**Need more help?** If you're experiencing issues with these features, try restarting Claude for iOS or **[updating to the latest version from the App Store](https://support.claude.com/en/articles/11825384-)**.
 
 
 ---
@@ -255,5 +255,5 @@ Claude will only request permissions if needed for specific features, and you ca
 - [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
-- [Using Claude with Android Apps](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps)
+- [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

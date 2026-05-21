@@ -64,7 +64,9 @@ Start using interactive connectors (MCP Apps) in Claude today. Head to[claude.ai
 
 ## 関連する投稿
 
-Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
+Claude を活用して構築を行うチーム向けの、その他の製品
+
+ニュースとベストプラクティスをご覧ください。
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 

@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-05-21 16:10*
+*Last updated: 2026-05-21 18:39*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -151,7 +151,7 @@ Total documents: 267
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -221,7 +221,7 @@ Total documents: 267
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
 **Source:** https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Configure and use styles
 **File:** `/docs-support/configure-and-use-styles.md`  
@@ -313,11 +313,6 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
 **Updated:** 2026-05-17  
 
-### Enable and use the Microsoft 365 connector
-**File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
-**Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-21  
-
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
 **Source:** https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist  
@@ -346,7 +341,7 @@ Total documents: 267
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -371,6 +366,11 @@ Total documents: 267
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
 **Source:** https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome  
+**Updated:** 2026-05-21  
+
+### Get started with Claude in Slack
+**File:** `/docs-support/getting-started-with-claude-in-slack.md`  
+**Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
 **Updated:** 2026-05-21  
 
 ### Get started with custom connectors using remote MCP
@@ -402,11 +402,6 @@ Total documents: 267
 **File:** `/docs-support/getting-started-with-claude-for-nonprofits.md`  
 **Source:** https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits  
 **Updated:** 2026-05-17  
-
-### Getting started with Claude in Slack
-**File:** `/docs-support/getting-started-with-claude-in-slack.md`  
-**Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-05-21  
 
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
@@ -551,7 +546,7 @@ Total documents: 267
 ### How do I view and sign your Data Processing Addendum (DPA)?
 **File:** `/docs-support/how-do-i-view-and-sign-your-data-processing-addendum-dpa.md`  
 **Source:** https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### How do usage and length limits work?
 **File:** `/docs-support/understanding-usage-and-length-limits.md`  
@@ -616,7 +611,7 @@ Total documents: 267
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
@@ -666,7 +661,7 @@ Total documents: 267
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -681,7 +676,7 @@ Total documents: 267
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
@@ -691,7 +686,7 @@ Total documents: 267
 ### Introduction to prompt design
 **File:** `/docs-support/introduction-to-prompt-design.md`  
 **Source:** https://support.claude.com/en/articles/7996853-introduction-to-prompt-design  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Inviting members to the Claude Console
 **File:** `/docs-support/inviting-members-to-the-claude-console.md`  
@@ -746,7 +741,7 @@ Total documents: 267
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
 **Source:** https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
@@ -796,7 +791,7 @@ Total documents: 267
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -933,6 +928,11 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure  
 **Updated:** 2026-05-21  
 
+### Set up the Microsoft 365 connector
+**File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
+**Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
+**Updated:** 2026-05-21  
+
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console  
@@ -986,7 +986,7 @@ Total documents: 267
 ### Upload files to Claude
 **File:** `/docs-support/uploading-files-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8241126-uploading-files-to-claude  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Usage limit best practices
 **File:** `/docs-support/usage-limit-best-practices.md`  
@@ -1028,9 +1028,24 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry  
 **Updated:** 2026-05-17  
 
+### Use Claude in Slack
+**File:** `/docs-support/using-claude-in-slack.md`  
+**Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
+**Updated:** 2026-05-21  
+
 ### Use Claude in Xcode
 **File:** `/docs-support/using-claude-in-xcode.md`  
 **Source:** https://support.claude.com/en/articles/12293051-using-claude-in-xcode  
+**Updated:** 2026-05-21  
+
+### Use Claude with Android apps
+**File:** `/docs-support/using-claude-with-android-apps.md`  
+**Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
+**Updated:** 2026-05-21  
+
+### Use Claude with iOS apps
+**File:** `/docs-support/using-claude-with-ios-apps.md`  
+**Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
 **Updated:** 2026-05-21  
 
 ### Use Claude’s chat search and memory to build on previous context
@@ -1041,7 +1056,7 @@ Total documents: 267
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
 **Source:** https://support.claude.com/en/articles/10166901-using-the-google-drive-integration  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Use Skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
@@ -1061,7 +1076,7 @@ Total documents: 267
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
@@ -1078,6 +1093,11 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/13663666-visual-and-interactive-content-for-team-and-enterprise-plans  
 **Updated:** 2026-05-17  
 
+### Use voice mode
+**File:** `/docs-support/using-voice-mode.md`  
+**Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
+**Updated:** 2026-05-21  
+
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy  
@@ -1086,42 +1106,27 @@ Total documents: 267
 ### Using Claude App Intents, Shortcuts, and Widgets on iOS
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
 **Source:** https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-21  
 
 ### Using Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
 **Updated:** 2026-05-17  
 
-### Using Claude in Slack
-**File:** `/docs-support/using-claude-in-slack.md`  
-**Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
-**Updated:** 2026-05-21  
-
-### Using Claude with Android Apps
-**File:** `/docs-support/using-claude-with-android-apps.md`  
-**Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-05-21  
-
-### Using Claude with iOS Apps
-**File:** `/docs-support/using-claude-with-ios-apps.md`  
-**Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-05-19  
-
 ### Using Research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
 **Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Using dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Using extended thinking
 **File:** `/docs-support/using-extended-thinking.md`  
 **Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Using incognito chats
 **File:** `/docs-support/using-incognito-chats.md`  
@@ -1146,17 +1151,12 @@ Total documents: 267
 ### Using the Claude Widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  
 **Source:** https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-21  
 
 ### Using the GitHub Integration
 **File:** `/docs-support/using-the-github-integration.md`  
 **Source:** https://support.claude.com/en/articles/10167454-using-the-github-integration  
 **Updated:** 2026-05-17  
-
-### Using voice mode
-**File:** `/docs-support/using-voice-mode.md`  
-**Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
-**Updated:** 2026-05-21  
 
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
@@ -1251,12 +1251,12 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
 **Source:** https://support.claude.com/en/articles/9612904-what-versions-of-android-are-supported  
-**Updated:** 2026-02-18  
+**Updated:** 2026-05-21  
 
 ### When should I use web search, extended thinking, and Research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
@@ -1281,7 +1281,7 @@ Total documents: 267
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  
 **Source:** https://support.claude.com/en/articles/8114490-where-can-i-find-your-api-documentation  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
@@ -1326,7 +1326,7 @@ Total documents: 267
 ### Why can’t I find Claude for Android in the Play Store?
 **File:** `/docs-support/why-can-t-i-find-claude-for-android-in-the-play-store.md`  
 **Source:** https://support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-21  
 
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  

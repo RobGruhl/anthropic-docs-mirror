@@ -20,4 +20,4 @@ If you aren’t seeing the latest features on Claude for iOS, you may need to [u
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [Accessing Claude app on iOS Lock Screen, Control Center, and Action Button](https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button)
 - [How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)
-- [Using Claude with iOS Apps](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps)
+- [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)

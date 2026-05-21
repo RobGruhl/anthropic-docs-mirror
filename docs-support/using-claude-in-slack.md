@@ -1,6 +1,6 @@
-# Using Claude in Slack
+# Use Claude in Slack
 
-*Updated this week*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -28,7 +28,7 @@ Claude in Slack gives you AI assistance right where your team collaborates. This
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1779381900&signature=9e21fa8b35c5f0cd969ad7c9e9bd052cf1d0c42143cd56c23aab0191bf290953&req=dSciE8h7nYdZWPMW1HO4zXK25RhN4DAXVfOC%2FRy97LVSMyewO07IZFF5v0c%2B%0A3WzHZT0S%2BxGBd7m%2FPv8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1779537600&signature=92c0a76f7bc67556a85d633d8dbc592728f86f8b5996dbc10b0131b0af5de03d&req=dSciE8h7nYdZWPMW3nq%2BgSbBB%2FwNJYpForHVjIWXpK%2Flg0RCgQXuuZFhp6D5%0ACLGXmScQ6X%2Bfh1f%2FYsxnnNzfs1I%3D%0A)
 
  
 
@@ -132,7 +132,7 @@ The following features are not available when using Claude in Slack:
 
  
 
-## Using integrations across multiple Slack workspaces
+## Use integrations across multiple Slack workspaces
 
 If you use Claude across more than one Slack workspace, it's important to understand that your integrations (like the Slack connector) are tied to your **Claude account**, not to a specific Slack workspace.<br>​<br>​**To avoid unexpected results:**
 
@@ -195,7 +195,7 @@ Get instant answers during team discussions. Ask Claude about industry trends, t
 - **Use clear prompts**: Be specific about what you need to get the best results.
 - **Request web search**: Add "search the web" to your prompt when you need current information.
 
-### Managing conversations
+### Manage conversations
 
 - Each Claude DM maintains full chat history.
 - In the AI assistant panel, conversations move to history when you close the panel.
@@ -263,7 +263,7 @@ Start a new conversation to continue.
 ## Related Articles
 
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
-- [Getting started with Claude in Slack](https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack)
+- [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

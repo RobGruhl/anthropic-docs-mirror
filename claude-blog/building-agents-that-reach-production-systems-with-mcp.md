@@ -120,7 +120,9 @@ Thanks to Den Delimarsky, David Soria Parra, Henry Shi, Felix Rieseberg, Conor K
 
 ## 関連する投稿
 
-Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
+Claude を活用して構築を行うチーム向けの、その他の製品
+
+ニュースとベストプラクティスをご覧ください。
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 

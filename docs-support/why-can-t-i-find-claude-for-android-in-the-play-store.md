@@ -15,4 +15,4 @@ If you’re unable to locate the Claude app in your Play Store, you may be locat
 - [Install Claude for Android](https://support.claude.com/en/articles/9612887-install-claude-for-android)
 - [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
 - [How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)
-- [Using Claude with Android Apps](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps)
+- [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)

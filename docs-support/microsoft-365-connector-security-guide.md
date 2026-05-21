@@ -1,6 +1,6 @@
 # Microsoft 365 connector security guide
 
-*Updated yesterday*
+*Updated in the last hour*
 
 ---
 
@@ -18,7 +18,7 @@ The connector operates as a **secure proxy**, and your Microsoft 365 documents, 
 
 ### Access can be fully restricted
 
-The connector provides **multiple layers of access control** to address your security requirements. For detailed information on administration of the Microsoft 365 Connector see **[Enabling and using the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector)**.
+The connector provides **multiple layers of access control** to address your security requirements. For detailed information on administration of the Microsoft 365 connector, see **[Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-)**.
 
  
 
@@ -122,13 +122,13 @@ The connector provides **read-only** access to:
 
 | **Tool** | **Description** | **Required permission** |
 | --- | --- | --- |
-| sharepoint_search | Search SharePoint documents and pages | Sites.Read.All |
-| sharepoint_folder_search | Find SharePoint folders by name | Sites.Read.All |
-| outlook_email_search | Search email with sender/date filters | Mail.Read |
-| outlook_calendar_search | Search calendar events | Calendars.Read |
-| find_meeting_availability | Find available meeting times | Calendars.Read |
-| chat_message_search | Search Teams chat messages | Chat.Read |
-| read_resource | Read files, emails, or chat by URI | Varies by resource type |
+| `sharepoint_search` | Search SharePoint documents and pages | Sites.Read.All |
+| `sharepoint_folder_search` | Find SharePoint folders by name | Sites.Read.All |
+| `outlook_email_search` | Search email with sender/date filters | Mail.Read |
+| `outlook_calendar_search` | Search calendar events | Calendars.Read |
+| `find_meeting_availability` | Find available meeting times | Calendars.Read |
+| `chat_message_search` | Search Teams chat messages | Chat.Read |
+| `read_resource` | Read files, emails, or chat by URI | Varies by resource type |
 
  
 
@@ -136,54 +136,53 @@ The connector provides **read-only** access to:
 
 **Basic permissions**
 
-- [User.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#userread) - Sign in and read user profile (basic requirement)
+- **[User.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#userread)** - Sign in and read user profile (basic requirement)
 
 **Mail permissions**
 
-- [Mail.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailread) - Read user mail (required for email tools/resources)
-- [Mail.ReadBasic](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadbasic) - Read user mail metadata (alternative for limited functionality)
-- [Mail.Read.Shared](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadshared) - Read user and shared mail
-- [MailboxFolder.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mail-permissions) - Read a user's mailbox folders
-- [MailboxItem.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mail-permissions) - Read a user's mailbox items
+- **[Mail.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mailread)** - Read user mail (required for email tools/resources)
+- **[Mail.ReadBasic](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadbasic)** - Read user mail metadata (alternative for limited functionality)
+- **[Mail.Read.Shared](https://learn.microsoft.com/en-us/graph/permissions-reference#mailreadshared)** - Read user and shared mail
+- **[MailboxFolder.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mail-permissions)** - Read a user's mailbox folders
+- **[MailboxItem.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#mail-permissions)** - Read a user's mailbox items
 
 **Calendar permissions**
 
-- [Calendars.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#calendarsread) - Read user calendars and events
-- [Calendars.Read.Shared](https://learn.microsoft.com/en-us/graph/permissions-reference#calendarsreadshared) - Read calendars user can access, including shared
+- **[Calendars.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#calendarsread)** - Read user calendars and events
+- **[Calendars.Read.Shared](https://learn.microsoft.com/en-us/graph/permissions-reference#calendarsreadshared)** - Read calendars user can access, including shared
 
 **User directory**
 
-- [User.ReadBasic.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadbasicall) - Read basic profiles of all users (for meeting availability)
+- **[User.ReadBasic.All](https://learn.microsoft.com/en-us/graph/permissions-reference#userreadbasicall)** - Read basic profiles of all users (for meeting availability)
 
 **Chat permissions**
 
-- [Chat.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatread) - Read user chat messages
-- [Chat.ReadBasic](https://learn.microsoft.com/en-us/graph/permissions-reference#chatreadbasic) - Read user chat metadata (alternative for limited functionality)
-- [ChatMember.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatmemberread) - Read the members of chats
-- [ChatMessage.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatmessageread) - Read user chat messages (more specific than Chat.Read)
+- **[Chat.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatread)** - Read user chat messages
+- **[Chat.ReadBasic](https://learn.microsoft.com/en-us/graph/permissions-reference#chatreadbasic)** - Read user chat metadata (alternative for limited functionality)
+- **[ChatMember.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatmemberread)** - Read the members of chats
+- **[ChatMessage.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#chatmessageread)** - Read user chat messages (more specific than Chat.Read)
 
 **Channel permissions**
 
-- [Channel.ReadBasic.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelreadbasicall) - Read the names and descriptions of channels
-- [ChannelMessage.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmessagereadall) - Read channel messages
+- **[Channel.ReadBasic.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelreadbasicall)** - Read the names and descriptions of channels
+- **[ChannelMessage.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#channelmessagereadall)** - Read channel messages
 
 **Meeting permissions**
 
-- [OnlineMeetings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingsread) - Read online meetings
-- [OnlineMeetingTranscript.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingtranscriptreadall) - Read meeting transcripts
-- [OnlineMeetingAiInsight.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingaiinsightread) - Read all AI Insights for online meetings
-- [OnlineMeetingArtifact.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingartifactreadall) - Read user's online meeting artifacts
-- [OnlineMeetingRecording.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingrecordingreadall) - Read all recordings of online meetings
+- **[OnlineMeetings.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingsread)** - Read online meetings
+- **[OnlineMeetingTranscript.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingtranscriptreadall)** - Read meeting transcripts
+- **[OnlineMeetingAiInsight.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingaiinsightread)** - Read all AI Insights for online meetings
+- **[OnlineMeetingArtifact.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingartifactreadall)** - Read user's online meeting artifacts
+- **[OnlineMeetingRecording.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#onlinemeetingrecordingreadall)** - Read all recordings of online meetings
 
 **Files permissions**
 
-- [Files.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#filesread) - Read user files
-- [Files.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#filesreadall) - Read all files user can access
+- **[Files.Read](https://learn.microsoft.com/en-us/graph/permissions-reference#filesread)** - Read user files
+- **[Files.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#filesreadall)** - Read all files user can access
 
 **Sites permissions**
 
-- [Sites.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#sitesreadall) - Read items in all site collections
-- [Sites.Selected](https://learn.microsoft.com/en-us/graph/permissions-reference#sitesselected) – Manages application access at the site collection level, providing access to a specific site collection
+- **[Sites.Read.All](https://learn.microsoft.com/en-us/graph/permissions-reference#sitesreadall)** - Read items in all site collections
 
  
 
@@ -251,7 +250,8 @@ Anthropic has the following certifications:
 
 ## Additional resources
 
-- Claude Help Center: **[Enabling and using the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector)**
+- **[Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-)**
+- **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/12542951-)**
 - **[Overview of Microsoft Graph permissions: Delegated permissions](https://learn.microsoft.com/en-us/graph/permissions-overview?tabs=http#delegated-permissions)**
 
 
@@ -259,8 +259,8 @@ Anthropic has the following certifications:
 
 ## Related Articles
 
-- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
-- [Enable and use the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365-connector)
+- [Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector)
 - [Work across Microsoft 365 apps](https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
+- [Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365)
