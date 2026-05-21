@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-21 00:35*
+*Last updated: 2026-05-21 04:34*
 Total documents: 1273
 ---
 ## Uncategorized (1273 documents)
@@ -351,7 +351,7 @@ Total documents: 1273
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-21  
 
 ### agents-and-tools__tool-use__handle-tool-calls
 **File:** `/platform-docs/agents-and-tools__tool-use__handle-tool-calls.md`  
@@ -4221,7 +4221,7 @@ Total documents: 1273
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/events-and-streaming  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
