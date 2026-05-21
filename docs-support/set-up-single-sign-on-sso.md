@@ -1,6 +1,6 @@
 # Set up single sign-on (SSO)
 
-*Updated over 3 weeks ago*
+*Updated over a month ago*
 
 ---
 
@@ -64,7 +64,7 @@ You can verify multiple domains for a single organization, but all domains must 
 10. If your domain shows as "Pending," use the "Refresh" button.
 10.  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1779314400&signature=6bff3d4a40f3e35ad90b7bcd3b51563368bdb03a13f0a3feb9871bc1f479ec6e&req=diAjEcl6mYVWX%2FMW1HO4zVjmViADbnC9PM2D8ZcdgrhqjisLpmqQMlXBWI7m%0AsQ8LB8wBE1z8TowSHRc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1779325200&signature=f6f944848ce9e1ae85541c580af5e68dd34a5534f6f5bafaea169324c0105d40&req=diAjEcl6mYVWX%2FMW1HO4zVjmViADbXG7PM2D8Zcdgrhhomr8QOf86wN04fSl%0Ada16Dk%2FglrheOAry7sA%3D%0A)
 
  
 
@@ -102,7 +102,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1779314400&signature=97648186133c4522279b6d1fe50f29f555dcb0987af5786e09722618898d17d0&req=diMmFM93nYNfWfMW1HO4zdAIBAaiA3gOItXtKivx6ZFiPXJZY8vAoaKuaR0V%0AKyStII1cLIt%2FC705GTw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1779325200&signature=3ffaf5617b364bf54b523bbf4e329f4bdf0906789a8253255ba1bae49480a18e&req=diMmFM93nYNfWfMW1HO4zdAIBAaiAHkIItXtKivx6ZESTcCMZfWOBUrFr3GJ%0AzMe5judBCZbbIifoRcc%3D%0A)
 
  
 

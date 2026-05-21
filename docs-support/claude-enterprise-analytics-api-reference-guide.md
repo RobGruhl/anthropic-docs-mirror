@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779314400&signature=eb1a0bd713f76cd52f4483b4541233ab7a66c0b8159c4b8dab7c17bd18ca6c1b&req=diAiFc97mIRZX%2FMW1HO4zXfNQFADcxLfFbDaBcaxqj7dN2z5%2F8R1sGIJa7tF%0AhZ6JNFlqNc34lrUzNio%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779325200&signature=aab8ef9cb0f94cf4e071878cac00f66e5c2cef3a9c55d4d702a5c7c80b19d0b9&req=diAiFc97mIRZX%2FMW1HO4zXfNQFADcBPZFbDaBcaxqj5vbJ8okJnW%2F9zrO%2B41%0AaXjPzsw8rD%2FDK3re1iE%3D%0A)
 
  
 
@@ -743,8 +743,8 @@ curl "https://api.anthropic.com/v1/organizations/analytics/cost_report?starting_
 
 ## Related Articles
 
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
 - [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
+- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

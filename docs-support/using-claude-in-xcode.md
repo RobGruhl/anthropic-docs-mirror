@@ -1,6 +1,6 @@
 # Use Claude in Xcode
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -54,5 +54,5 @@ Your Claude usage limits are shared across all platforms, so your chats with Cla
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

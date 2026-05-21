@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1779314400&signature=8c64764c1ba309e772f692e98122d191a7f4cc64bc10f75ded94edeb5c00a9c1&req=diAjFMp7n4FZWfMW1HO4zU6VSvTJSbhtxNdRzYWrfF5FxMOnFWiwfWjcj%2BuV%0Ajg92pvJhvzlUbTp%2FHJE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1779325200&signature=4aef5f5f774eb46e2ab7d8cf0d1a3b2d1b111b1c8717569ba49e48c0091c6116&req=diAjFMp7n4FZWfMW1HO4zU6VSvTJSrlrxNdRzYWrfF7NyQ0I%2FIfNj2hAXDSA%0AnMGmVF4d8O23%2FAvMVCg%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1779314400&signature=df67a288825c9585861a356db57e318ebccb1acbb5f2650dcc97ee894f22e168&req=diAjFMp7n4FZWvMW1HO4zZ3%2FF2OWYVQOy8OQfYsvK3wGJwIFCJYN1BV%2FDP7T%0ApfCeU%2BG9%2FkwCfkN%2FuUw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1779325200&signature=ed809baeaf6ec9f3b635aaf80e0e6cfc6143c9cbd0c20cbcff0f11b163dfbd60&req=diAjFMp7n4FZWvMW1HO4zZ3%2FF2OWYlUIy8OQfYsvK3zHfWhdxA%2FPPKkZmaHm%0A0qMGICfHux7mQRdlZIg%3D%0A)
 
  
 

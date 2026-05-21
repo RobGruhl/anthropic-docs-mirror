@@ -166,6 +166,10 @@ MCP は効率的なプロトコルを使用しています。ローカルサー�
 
 Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
 ### 企業全体のチームに向けた Cowork とプラグイン
@@ -177,10 +181,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品ニ�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### Harnessing Claude’s intelligence
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
 
 ## Claude を活用して組織運営の方法を変革
 
