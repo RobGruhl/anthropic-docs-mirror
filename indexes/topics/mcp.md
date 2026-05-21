@@ -1,7 +1,7 @@
 # Mcp Topic Index
-*Last updated: 2026-05-21 18:39*
+*Last updated: 2026-05-21 21:34*
 
-Documents related to Mcp across all sources (238 documents)
+Documents related to Mcp across all sources (239 documents)
 ---
 ## Platform Documentation (platform.claude.com) (30)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
@@ -35,7 +35,8 @@ Documents related to Mcp across all sources (238 documents)
 - [ruby__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/ruby__beta__vaults__credentials__mcp_oauth_validate.md)
 - [typescript__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/typescript__beta__vaults__credentials__mcp_oauth_validate.md)
 
-## Claude Code Documentation (2)
+## Claude Code Documentation (3)
+- [Managed Mcp](/code-claude-docs/managed-mcp.md)
 - [Mcp](/code-claude-docs/agent-sdk__mcp.md)
 - [Mcp](/code-claude-docs/mcp.md)
 

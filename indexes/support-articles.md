@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-21 18:39*
+*Last updated: 2026-05-21 21:34*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -216,7 +216,7 @@ Total documents: 267
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-21  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -1088,6 +1088,11 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac  
 **Updated:** 2026-05-21  
 
+### Use the GitHub integration
+**File:** `/docs-support/using-the-github-integration.md`  
+**Source:** https://support.claude.com/en/articles/10167454-using-the-github-integration  
+**Updated:** 2026-05-21  
+
 ### Use visual and interactive content on Team and Enterprise plans
 **File:** `/docs-support/visual-and-interactive-content-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13663666-visual-and-interactive-content-for-team-and-enterprise-plans  
@@ -1152,11 +1157,6 @@ Total documents: 267
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  
 **Source:** https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android  
 **Updated:** 2026-05-21  
-
-### Using the GitHub Integration
-**File:** `/docs-support/using-the-github-integration.md`  
-**Source:** https://support.claude.com/en/articles/10167454-using-the-github-integration  
-**Updated:** 2026-05-17  
 
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  

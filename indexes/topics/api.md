@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-05-21 18:39*
+*Last updated: 2026-05-21 21:34*
 
-Documents related to Api across all sources (125 documents)
+Documents related to Api across all sources (126 documents)
 ---
 ## Platform Documentation (platform.claude.com) (88)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -93,7 +93,7 @@ Documents related to Api across all sources (125 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (37)
+## Claude.com Blog Posts (38)
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
@@ -106,6 +106,7 @@ Documents related to Api across all sources (125 documents)
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude Sonnet 4 now supports 1M tokens of context](/claude-blog/1m-context.md) - ![](https://cdn
 - [Claude can now use tools](/claude-blog/tool-use-ga.md) - ![](https://cdn
+- [Claude now works with more security and compliance tools](/claude-blog/compliance-api-security-partners.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Fine-tune Claude 3 Haiku in Amazon Bedrock](/claude-blog/fine-tune-claude-3-haiku.md) - ![](https://cdn

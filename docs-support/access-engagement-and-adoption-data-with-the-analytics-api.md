@@ -45,7 +45,7 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1779390900&signature=6e40e00db1e60f59c469dca30d02dad3ea4aafeddbb8c73f80ca0a58bf09e964&req=diAiFc92moJYX%2FMW1HO4zUxhx6RG06uG2G8yJDINvfQkvu6Gr6oOV51eXykE%0AqThd9sZMQpzQZotFLE4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1779400800&signature=f3442bed2fc602dfb1b16ca6ecb7bb0e00bffd08ece608129bcdc147cb38e005&req=diAiFc92moJYX%2FMW1HO4zUxhx6RB2quH2G8yJDINvfRtlf3z2xDfzts0wFMZ%0AcbONWo6PBFtl6IRCIFw%3D%0A)
 
  
 
