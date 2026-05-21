@@ -1,330 +1,330 @@
-# スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+# Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-# スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+# Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
-スキルはカスタムAIワークフローやエージェントを作成するための強力なツールとしてますます重要になっていますが、Claudeのスタック内ではどこに当てはまるのでしょうか？どのツールをいつ使用すべきか、そしてそれらがどのように連携するかについて説明していきましょう。
+Skills sind ein immer leistungsfähigeres Tool zur Erstellung benutzerdefinierter KI-Workflows und Agenten, aber wo passen sie in den Claude-Stack? Wir erklären, welches Tool wann verwendet werden soll – und wie sie alle zusammenarbeiten.
 
-- カテゴリエージェント
+- KategorieAgenten
 
-- 製品ClaudeのアプリClaude Platform
+- ProduktClaude AppsClaude Platform
 
-- 日付2026-03-05
+- Datum5.3.2026
 
-- 所要時間5分
+- Lesezeit5Min
 
-- 共有リンクをコピーhttps://claude.com/blog/skills-explained
+- TeilenLink kopierenhttps://claude.com/blog/skills-explained
 
-[スキル](https://www.anthropic.com/news/skills)の導入以来、Claudeのエージェントエコシステムのさまざまなコンポーネントがどのように連携するかを理解したいという関心が寄せられています。
+Seit der Einführung von[Skills](https://www.anthropic.com/news/skills)ist das Interesse daran gewachsen, wie die verschiedenen Komponenten des agentischen Ökosystems von Claude zusammenarbeiten.
 
-[Claude Code](https://www.claude.com/product/claude-code)を活用した高度なワークフローの構築、APIを用いたエンタープライズソリューションの作成、[Claude.ai](http://claude.ai)での生産性の最大化のいずれの場合においても、どのツールをいつ活用すべきかを知ることは、Claudeとの作業方法を変革する可能性があります。
+Egal ob Sie anspruchsvolle Workflows in[Claude Code](https://www.claude.com/product/claude-code)entwickeln, Unternehmenslösungen mit der API erstellen oder Ihre Produktivität mit[Claude.ai](http://claude.ai)maximieren möchten – wenn Sie wissen, welches Tool Sie wann nutzen möchten, können Sie Ihre Arbeitsweise mit Claude verändern.
 
-このガイドでは、各構成要素を分解し、それぞれの使用のタイミングを説明するとともに、強力なエージェントワークフローを実現するための組み合わせ方を紹介します。
+In diesem Leitfaden werden die einzelnen Bausteine dargestellt und erklärt, wann sie verwendet werden können, und es wird gezeigt, wie Sie sie für leistungsstarke agentische Workflows kombinieren.
 
-## エージェント型構築の構成要素を理解する
+## Ihre agentischen Bausteine verstehen
 
-### スキルとは？
+### Was sind Skills?
 
-スキルとは、タスクに関連する場合にClaudeが動的に発見・読み込む指示、スクリプト、リソースを収めたフォルダーです。Excelスプレッドシートの操作から組織のブランドガイドラインの遵守まで、特定の分野における専門知識をClaudeに提供する専門的なトレーニングマニュアルとお考えください。
+Skills sind Ordner mit Anweisungen, Skripten und Ressourcen, die Claude entdeckt und dynamisch lädt, wenn sie für eine Aufgabe relevant sind. Stellen Sie sich diese als spezielle Schulungshandbücher vor, in denen Claude Fachwissen in bestimmten Bereichen vermittelt wird – von der Arbeit mit Excel-Tabellen bis hin zur Einhaltung der Markenrichtlinien Ihres Unternehmens.
 
-スキルの仕組み：Claudeはタスクを処理する際、利用可能なスキルをスキャンして関連するスキルを見つけます。スキルは段階的な開示を用いており、メタデータが最初に読み込まれ（約100トークン）、スキルが関連するタイミングをClaudeが判断するのに十分な情報を提供します。必要に応じてすべての指示が読み込まれ（5000トークン未満）、バンドルされたファイルまたはスクリプトは必要な時のみ読み込まれます。
+Funktionsweise von Skills:Wenn Claude auf eine Aufgabe stößt, durchsucht es verfügbare Skills nach relevanten Übereinstimmungen. Skills verwenden eine progressive Offenlegung: Metadaten werden zuerst geladen (~100 Tokens). Sie enthalten gerade genug Informationen, damit Claude weiß, wann ein Skill relevant ist. Vollständige Anweisungen werden bei Bedarf geladen (<5.000 Tokens), und gebündelte Dateien oder Skripte werden nur auf Anforderung geladen.
 
-スキルを使用するタイミング：Claudeに専門的な作業を確実かつ効率的に実行させる必要がある場合はスキルを選択します。以下の用途に最適です。
+Wann Skills eingesetzt werden können:Wählen Sie Skills, wenn Claude zur konsistenten und effizienten Durchführung spezieller Aufgaben benötigt wird. Sie sind ideal für:
 
-- 組織のワークフロー：ブランドガイドライン、コンプライアンス手順、文書テンプレート
+- Organisatorische Workflows: Markenrichtlinien, Compliance-Verfahren, Dokumentvorlagen
 
-- 分野の専門知識：Excelの数式、PDF操作、データ分析
+- Fachwissen:Excel-Formeln, PDF-Bearbeitung, Datenanalyse
 
-- 個人用の設定：メモ取りシステム、コーディングパターン、研究方法
+- Persönliche Präferenzen:Notizsysteme, Programmiermuster, Forschungsmethoden
 
-例：会社のカラーパレット、タイポグラフィのルール、レイアウト仕様を含む[ブランドガイドラインスキル](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)を作成します。プレゼンテーションや文書を作成する際には、毎回説明しなくてもこれらの基準が自動的に適用されます。
+Beispiel:Erstellen Sie[einen Markenrichtlinien-Skill](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines), der die Farbpalette, Typografieregeln und Layout-Spezifikationen Ihres Unternehmens enthält. Wenn Claude Präsentationen oder Dokumente erstellt, werden diese Standards automatisch angewendet, ohne dass Sie sie jedes Mal erklären müssen.
 
-スキルに関する詳細は[こちら](https://support.claude.com/en/articles/12512176-what-are-skills)です。[拡大を続けるスキルライブラリ](https://github.com/anthropics/skills)もご覧ください。
+[Erfahren Sie mehr](https://support.claude.com/en/articles/12512176-what-are-skills)über Skills und sehen Sie sich[unsere wachsende Skills-Bibliothek](https://github.com/anthropics/skills)an.
 
-### プロンプトについて
+### Was sind Prompts?
 
-[プロンプト](https://docs.claude.com/en/prompt-library/library)とは、会話中に自然言語でClaudeに与える指示のことです。それらは一時的で、会話的で、反応的です。その場その場でコンテキスと方向性を提供します。
+[Prompts](https://docs.claude.com/en/prompt-library/library)sind die Anweisungen, die Sie Claude während einer Unterhaltung in natürlicher Sprache geben. Sie sind kurzlebig, konversationsbasiert und reaktiv. Sie stellen Kontext und Richtung im Moment bereit.
 
-プロンプトを使用するタイミング：以下の目的でプロンプトを使用します。
+Wann Prompts verwendet werden:Verwenden Sie Prompts für:
 
-- 一回限りの要求：「この記事を要約してください」
+- Einmalige Anfragen: „Fasse diesen Artikel zusammen“
 
-- 会話の改善：「言い回しをもっと自然にしてください」
+- Konversationsverfeinerung: „Gestalte den Tonfall professioneller“
 
-- 即時のコンテキスト：「このデータを分析し、傾向を示してください」
+- Direkter Kontext: „Analysiere diese Daten und identifiziere Trends
 
-- その場限りの指示：「これを箇条書きリストとしてフォーマットしてください」
+- Ad-hoc-Anweisungen: „Formatiere das als Aufzählung"
 
-例：
+Beispiel:
 
-このコードの包括的なセキュリティレビューを実施してください。以下の点について確認してください。
+Führe bitte eine umfassende Sicherheitsüberprüfung dieses Codes durch. Ich suche nach:
 
-1. 次のものを含む一般的な脆弱性：
+1. häufigen Schwachstellen, einschließlich:
 
-- インジェクションの欠陥（SQL、コマンド、XSSなど）
+- Injection-Fehler (SQL, Befehl, XSS usw.)
 
-- 認証と承認に関する問題
+- Authentifizierungs- und Autorisierungsprobleme
 
-- 機密データの漏えい
+- Vertrauliche Daten
 
-- セキュリティの設定ミス
+- Sicherheitsfehlkonfigurationen
 
-- アクセス制御の不備
+- Defekte Zugriffskontrolle
 
-- 暗号化エラー
+- Kryptografische Fehler
 
-- 入力検証の問題
+- Probleme mit der Eingabevalidierung
 
-- エラー処理とログ記録に関する問題
+- Probleme mit der Fehlerbehandlung und Protokollierung
 
-2. 発見した問題ごとに、以下の情報を提供してください。
+2. Gib für jedes gefundene Problem Folgendes an:
 
-- 重大度（重大/高/中/低）
+- Schweregrad (Kritisch/Hoch/Mittel/Niedrig)
 
-- コード内の位置（行番号または関数名）
+- Position im Code (Zeilennummern oder Funktionsnamen)
 
-- セキュリティ上のリスクとなる理由とどのように悪用され得るのかについての説明
+- Erklärung, warum es ein Sicherheitsrisiko darstellt und wie es ausgenutzt werden könnte
 
-- 可能な限り、コード例を含む具体的な修正提案
+- Spezifische Lösungsempfehlung nach Möglichkeit mit Codebeispielen
 
-- 同様の問題を防止するためのベストプラクティスに関するガイダンス
+- Best Practices zur Vermeidung ähnlicher Probleme
 
-3. コードのコンテキスト：［コードの内容、言語/フレームワーク、実行環境について説明（例：「これはユーザー認証と決済データを処理するNode.js REST APIです」）］
+3. Code-Kontext: [Beschreiben Sie die Aufgaben des Codes, die Sprache/das Framework und die Umgebung, in der es ausgeführt wird – z. B. „Dies ist eine Node.js-REST-API, die die Benutzerauthentifizierung übernimmt und Zahlungsdaten verarbeitet“]
 
-4. その他の考慮事項：
+4. Zusätzliche Überlegungen:
 
-- OWASP上位10の脆弱性はあるか？
+- Gibt es Schwachstellen in der OWASP-Liste der Top 10?
 
-- コードは、［特定のフレームワーク/言語］のセキュリティベストプラクティスに従っているか？
+- Folgt der Code Best Practices für Sicherheit für [spezifisches Framework/Sprache]?
 
-- 既知の脆弱性を含む依存関係はあるか？
+- Gibt es Abhängigkeiten mit bekannten Schwachstellen?
 
-重大度と潜在的な影響別に調査結果の優先順位を付けてください。
+Priorisiere die Ergebnisse nach Schweregrad und potenziellen Auswirkungen.
 
-ヒント：プロンプトはClaudeとのやり取りの主な手段ですが、会話間で持続されるものではありません。繰り返されるワークフローや専門知識については、プロンプトをスキルやプロジェクトの指示として記録することをご検討ください。
+Pro-Tipp:Prompts sind Ihre primäre Art der Interaktion mit Claude, aber die Unterhaltungen werden nicht gespeichert. Für sich wiederholende Workflows oder Fachwissen können Sie Prompts als Skills oder Projektanweisungen erfassen.
 
-代わりにスキルを使用するタイミング：複数の会話で同じプロンプトを繰り返し入力している場合には、スキルの作成をお勧めします。「OWASP基準を使用してこのコードのセキュリティ脆弱性をレビューする」や「この分析をエグゼクティブサマリー、主な発見事項、推奨事項で構成する」といった反復的な指示をスキルに変換します。これにより、手順を毎回説明し直す必要がなくなり、実行に一貫性が保たれるようになります。
+Wann stattdessen ein Skill verwendet wird:Wenn Sie wiederholt denselben Prompt in mehreren Unterhaltungen eingeben, ist es an der Zeit, einen Skill zu erstellen. Wandeln Sie wiederkehrende Anweisungen wie „Diesen Code mit OWASP-Standards auf Sicherheitsschwachstellen überprüfen“ oder „Diese Analyse mit Zusammenfassung, wichtigsten Ergebnissen und Empfehlungen formatieren“ in Skills um. So müssen Sie Prozeduren nicht jedes Mal neu erklären und können eine konsistente Ausführung sicherstellen.
 
-[プロンプトライブラリ](https://docs.claude.com/en/prompt-library/library)、[プロンプトのベストプラクティス](http://claude.com/blog/prompt-engineering-best-practices)、[スマートプロンプトメーカー](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec)を確認してから開始しましょう。
+Informieren Sie sich in unserer[Prompt-Bibliothek](https://docs.claude.com/en/prompt-library/library)mit[Best Practices](http://claude.com/blog/prompt-engineering-best-practices)oder[unserem intelligenten Prompt-Maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec)über die ersten Schritte.
 
-### プロジェクトとは？
+### Was sind Projekte?
 
-すべての有料Claude planで利用可能な[プロジェクト](https://support.claude.com/en/articles/9517075-what-are-projects)は、独自のチャット履歴とナレッジベースを備えた自己完結型のワークスペースです。各[プロジェクト](https://support.claude.com/en/articles/9517075-what-are-projects)には20万のコンテキストウィンドウが含まれており、文書のアップロード、コンテキストの指定、その[プロジェクト](https://support.claude.com/en/articles/9517075-what-are-projects)内のすべての会話に適用されるカスタム指示の設定などができます。
+[Projekte](https://support.claude.com/en/articles/9517075-what-are-projects)sind in allen kostenpflichtigen Claude-Plänen verfügbar und sind eigenständige Workspaces mit eigenem Chat-Verlauf und Wissensdatenbanken. Jedes Projekt enthält ein Kontextfenster mit 200.000 Ressourcen, in dem Sie Dokumente hochladen, Kontext angeben und benutzerdefinierte Anweisungen festlegen können, die für alle Unterhaltungen innerhalb dieses Projekts gelten.
 
-プロジェクトの仕組み：プロジェクトのナレッジベースにアップロードした内容はすべて、そのプロジェクト内のすべてのチャットで利用可能になります。Claudeは自動的にこのコンテキストを活用して、より情報に基づいた関連性の高い回答を提供します。プロジェクトナレッジがコンテキスト制限に近づくと、Claudeはシームレスに検索拡張生成（RAG）モードを有効にして、容量を最大10倍に拡大します。
+Projekte funktionieren:Alles, was Sie in die Wissensdatenbank eines Projekts hochladen, ist in allen Chats innerhalb dieses Projekts verfügbar. Claude nutzt diesen Kontext automatisch, um fundiertere und relevantere Antworten bereitzustellen. Wenn Ihr Projektwissen sich den Kontextgrenzen nähert, aktiviert Claude nahtlos den Modus Retrieval Augmented Generation (RAG), um die Kapazität um das bis zu 10-Fache zu erweitern.
 
-プロジェクト使用のタイミング：必要なときにプロジェクトを選択します。
+Wann Projekte verwendet werden:Wählen Sie Projekte, wenn Sie Folgendes benötigen:
 
-- 持続的なコンテキスト：あらゆる会話に役立つ背景知識
+- Beständiger Kontext:Hintergrundwissen, das jeder Unterhaltung zugute kommt
 
-- ワークスペースの整理：異なる取り組みごとにコンテキストを分離
+- Workspace-Organisation:Separate Kontexte für verschiedene Initiativen
 
-- チームのコラボレーション：共有された知識と会話履歴（Team planおよびEnterprise plan）
+- Teamzusammenarbeit:Gemeinsamer Wissensaustausch und Konversationsverlauf (bei Team- und Enterprise-Plänen)
 
-- カスタム指示：プロジェクト固有のトーン、視点、アプローチ
+- Benutzerdefinierte Anweisungen:Projektspezifischer Ton, Perspektive oder Ansatz
 
-例：市場調査、競合他社分析、製品仕様書を含む「第4四半期の製品発売」プロジェクトを作成します。このプロジェクト内のすべてのチャットで、コンテキストを再アップロードしたり再度説明したりする必要なく、このナレッジデータにアクセスできます。
+Beispiel:Erstellen Sie ein Projekt "Produkteinführung im 4. Quartal", das Marktforschung, Mitbewerberanalyse und Produktspezifikationen enthält. Jeder Chat in diesem Projekt hat Zugriff auf dieses Wissen, ohne dass Sie den Kontext erneut hochladen oder neu erklären müssen.
 
-代わりにスキルを使用するタイミング：プロジェクトは、特定の作業（会社のコードベース、研究イニシアチブ、継続的な顧客エンゲージメント）に対してClaudeに持続的なコンテキストを提供します。 スキルは、Claudeに何かをする方法を教えます。 プロジェクトには、製品発売に関する背景すべてが含まれている場合があります。一方、スキルでは、チームの文書作成基準やコードレビューのプロセスをClaudeに教えることが可能です。 複数のプロジェクトで同じ指示を繰り返していることに気づいたとき、それは代わりにスキルを作成すべきという合図です。
+Wann Sie lieber ein Skill verwenden sollten:Durch Projekte erhält Claude einen spezifischen Kontext für eine bestimmte Arbeit – die Codebasis Ihres Unternehmens, eine Forschungsinitiative, ein laufendes Kundenprojekt. Skills bringen Claude bei, wie man etwas tut. In einem Projekt können alle Informationen zu Ihrer Produkteinführung enthalten sein, während ein Skill Claude die Schreibstandards oder den Codeüberprüfungsprozess Ihres Teams beibringen kann. Wenn Sie dieselben Anweisungen in mehrere Projekte kopieren, ist das ein Signal dafür, lieber einen Skill zu entwickeln.
 
-プロジェクトの詳細は[こちら](https://support.claude.com/en/articles/9517075-what-are-projects)です。
+[Erfahren Sie mehr](https://support.claude.com/en/articles/9517075-what-are-projects)über Projekte.
 
-### サブエージェントとは？
+### Was sind Subagenten?
 
-[サブエージェント](https://docs.claude.com/en/docs/claude-code/sub-agents)は、独自のコンテキストウィンドウ、カスタムシステムプロンプト、特定のツール権限を備えた専門のAIアシスタントです。Claude CodeとClaude Agent SDKで利用可能であり、[サブエージェント](https://docs.claude.com/en/docs/claude-code/sub-agents)は個別のタスクを独立して処理し、結果をメインエージェントに返します。
+[Subagenten](https://docs.claude.com/en/docs/claude-code/sub-agents)sind spezielle KI-Assistenten mit eigenen Kontextfenstern, benutzerdefinierten Systemprompts und spezifischen Tool-Berechtigungen. In Claude Code und dem Claude Agenten SDK sind [Subagenten](https://docs.claude.com/en/docs/claude-code/sub-agents) verfügbar. Sie können gesonderte Aufgaben unabhängig voneinander verarbeiten und Ergebnisse an den Hauptagenten zurückgeben.
 
-サブエージェントの仕組み：それぞれのサブエージェントは独自の構成で動作します。つまりその動作、問題へのアプローチ方法、アクセス可能なツールを定義します。Claudeが適切なサブエージェントの説明に基づいてタスクを自動的に委任するか、ユーザーが特定のサブエージェントを明示的にリクエストすることもできます。
+Funktionsweise von Subagenten:Jeder Subagent hat seine eigene Konfiguration. Sie definieren, was er tut, wie er Probleme löst und auf welche Tools er zugreifen kann. Claude delegiert Aufgaben automatisch basierend auf deren Beschreibungen an die entsprechenden Subagenten, oder Sie können explizit einen bestimmten Subagenten anfordern.
 
-サブエージェントを使用するタイミング：以下の目的でサブエージェントを使用します。
+Wann Subagenten verwendet werden sollen:Subagenten verwenden Sie für:
 
-- タスクの専門化：コードレビュー、テスト生成、セキュリティ監査
+- Aufgaben-Spezialisierung:Codeüberprüfung, Testerstellung, Sicherheitsaudits
 
-- コンテキスト管理：専門的な作業の負荷を軽減しながら、本来の会話に集中
+- Kontextverwaltung:Konzentration auf das Hauptgespräch und spezialisierte Arbeiten auslagern
 
-- 並行処理：複数のサブエージェントが同時に異なる側面で作業可能
+- Parallele Verarbeitung:Mehrere Subagenten können gleichzeitig an verschiedenen Aspekten arbeiten
 
-- ツール制限：特定のサブエージェントを安全な操作に制限（読み取り専用アクセスなど）
+- Tool-Einschränkung:Bestimmte Unteragenten auf sichere Vorgänge beschränken (z. B. schreibgeschützter Zugriff)
 
-例：
+Beispiel:
 
 ```
 
 ```
 
-代わりにスキルを使用するタイミング：複数のエージェントや会話が同じ専門知識（セキュリティレビュー手順やデータ分析手法など）を必要とする場合、その知識を個々のサブエージェントに組み込むのではなく、スキルを作成ます。サブエージェントが特定のワークフロー向けに専用に構築されている一方で、スキルは移植性と再利用性が高いものになっています。あらゆるエージェントが適用できる専門知識を教えるときはスキルを活用し、特定のツール権限とコンテキスト分離を伴う独立したタスク実行が必要な場合には、サブエージェントを利用します。
+Wann stattdessen ein Skill verwendet wird:Wenn mehrere Agenten oder Konversationen dasselbe Know-how benötigen – z. B. Verfahren zur Überprüfung der Sicherheit oder Datenanalysemethoden –, erstellen Sie einen Skill, anstatt dieses Wissen in einzelne Subagenten einzubetten. Skills sind übertragbar und wiederverwendbar, während Subagenten speziell für bestimmte Workflows entwickelt sind. Verwenden Sie Skills, um Fachwissen zu vermitteln, das jeder Agent nutzen kann. Verwenden Sie Subagenten, wenn Sie eine unabhängige Aufgabenausführung mit bestimmten Tool-Berechtigungen und Kontextisolierung benötigen.
 
-サブエージェントの詳細は[こちら](https://code.claude.com/docs/en/sub-agents)です。
+[Mehr erfahren](https://code.claude.com/docs/en/sub-agents)über Subagenten.
 
-### MCPとは？
+### Was ist MCP?
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69141f0993d68ff4c536f316_619a5262.png)
 
-Model Context Protocol（MCP）は、AIアシスタントをデータが存在する外部システム（コンテンツリポジトリ、ビジネスツール、データベース、開発環境）に接続するためのオープンスタンダードです。
+Das Model Context Protocol (MCP) ist ein offener Standard zur Verbindung von KI-Assistenten mit externen Systemen, in denen Daten gespeichert sind – Content-Repositorys, Geschäftstools, Datenbanken und Entwicklungsumgebungen.
 
-MCPの仕組み：MCPは、Claudeをお客様のツールやデータソースに接続するための標準化された方法を提供します。それぞれのデータソース用にカスタム統合を構築するのではなく、単一のプロトコルをベースに構築します。MCPサーバーはデータと機能を公開し、MCPクライアント（Claudeなど）がこれらのサーバーに接続します。
+Funktionsweise von MCP:MCP bietet eine standardisierte Möglichkeit, Claude mit Ihren Tools und Datenquellen zu verbinden. Anstatt für jede Datenquelle benutzerdefinierte Integrationen zu erstellen, können Sie ein einzelnes Protokoll als Basis verwenden und darauf aufbauen. MCP-Server stellen Daten und Funktionen bereit. MCP-Clients (wie Claude) stellen eine Verbindung zu diesen Servern her.
 
-MCPを使用するタイミング：Claudeに次のことをさせたい場合はMCPを選択します。
+Wann MCP-Nutzung:Wählen Sie MCP, wenn Claude für folgende Zwecke benötigt wird:
 
-- 外部データへのアクセス：Googleドライブ、Slack、GitHub、データベース
+- Zugriff auf externe Daten: Google Drive, Slack, GitHub, Datenbanken
 
-- ビジネスツールの使用：CRMシステム、プロジェクト管理プラットフォーム
+- Geschäftstools nutzen: CRM-Systeme, Projektmanagementplattformen
 
-- 開発環境への接続：ローカルファイル、IDE、バージョン管理
+- Verbindung zu Entwicklungsumgebungen: Lokale Dateien, IDEs, Versionskontrolle
 
-- カスタムシステムとの統合：組織独自のツールとデータソース
+- Integration in benutzerdefinierte Systeme: Ihre eigenen Tools und Datenquellen
 
-例：MCPを介してClaudeを社内のGoogleドライブに接続します。現在、Claudeは手動でアップロードすることなくドキュメントの検索、ファイルの読み込み、社内ナレッジの参照が可能になっています。接続は維持され、自動的に更新されます。
+Beispiel:Verknüpfung von Claude über MCP mit Google Drive Ihres Unternehmens. Claude kann jetzt Dokumente durchsuchen, Dateien lesen und auf interne Informationen verweisen, ohne manuelle Uploads - die Verbindung bleibt bestehen und wird automatisch aktualisiert.
 
-代わりにスキルを使用するタイミング：MCPがClaudeをデータに接続し、スキルがそのデータをどのように処理すべきかをClaudeに指示します。「データベースへのクエリを実行する際には、常に日付範囲を最初に絞り込む」や「これらの特定の数式を使用してExcelレポートのフォーマットを整える」など、ツールの使用方法や手順に従う方法を説明する場合にはスキルを使用します。最初にデータベースまたはExcelファイルにアクセスするためにClaudeが必要な場合は、MCPを利用します。接続にはMCP、手順に関する知識にはスキルの両方を併用します。
+Wann stattdessen ein Skill verwendet wird:MCP verbindet Claude mit Daten; Skills bringen Claude bei, was mit diesen Daten getan werden soll. Wenn Sie erklären möchten,wieein Tool verwendet wird oder Verfahren befolgt wird – z. B. „Bei Abfragen unserer Datenbank immer zuerst nach Datumsbereich filtern“ oder „Excel-Berichte mit diesen spezifischen Formeln formatieren“ – ist dies ein Skill. Wenn Sie Claude für denZugriffauf die Datenbank oder Excel-Dateien benötigen, ist dies MCP. Nutzen Sie beides gemeinsam: MCP für Konnektivität, Skills für Verfahrenswissen.
 
-MCPに関する詳細は[こちら](https://www.anthropic.com/news/model-context-protocol)です。MCPサーバーの構築方法に関する[ドキュメント](https://modelcontextprotocol.io/docs/develop/build-server)もご覧ください。
+[Erfahren Sie mehr](https://www.anthropic.com/news/model-context-protocol)über MCP und lesen Sie die[Dokumentation](https://modelcontextprotocol.io/docs/develop/build-server)zur Erstellung eines MCP-Servers.
 
-## ツールの組み合わせ方法
+## Wie sie zusammenarbeiten
 
-これらの構成要素を組み合わせることで真の力が生まれます。それぞれが異なる目的を果たし、それらを組み合わせることで高度なエージェントワークフローを構築します。
+Die wahre Leistung entsteht, wenn Sie diese Bausteine kombinieren. Jedes Produkt erfüllt einen anderen Zweck und erstellt gemeinsam anspruchsvolle agentische Workflows.
 
-### 比較：適切なツールの選択
+### Vergleich: Auswahl des richtigen Tools
 
-### エージェント型ワークフローの例：リサーチエージェント
+### Beispiel für einen agentischen Workflow: Recherchieragent
 
-複数の構成要素を組み合わせた包括的なリサーチエージェントを構築しましょう。この例は、競合分析のためにエージェントを構築して有効化する方法を示しています。
+Wir möchten einen umfassenden Recherchieragent erstellen, der mehrere Bausteine kombiniert. Dieses Beispiel zeigt, wie ein Agent für die Wettbewerbsanalyse zusammengestellt und aktiviert wird.
 
-ステップ1：プロジェクトを設定
+Schritt 1: Projekt einrichten
 
-「競合インテリジェンス」プロジェクトを作成して以下をアップロードします。
+Erstellen Sie ein Projekt "Competitive Intelligence" und laden Sie es hoch:
 
-- 業界レポートと市場分析
+- Branchenberichte und Marktanalysen
 
-- 競合製品に関するドキュメント
+- Produktdokumentation von Mitbewerbern
 
-- CRMからの顧客フィードバック
+- Kundenfeedback aus Ihrem CRM
 
-- これまでの調査の要約
+- Zusammenfassungen früherer Forschungen
 
-プロジェクト手順を追加します。
+Fügen Sie Projektanweisungen hinzu:
 
-当社の製品戦略の観点から競合他社を分析してください。次に、差別化の機会と新興市場の動向に焦点を当ててください。具体的な証拠と実行可能な推奨事項ともに、調査結果を提示してください。
+Analysiere die Konkurrenz im Rahmen unserer Produktstrategie. Konzentriere dich auf Differenzierungsmöglichkeiten und neue Markttrends. Präsentiere die Ergebnisse mit spezifischen Nachweisen und umsetzbaren Empfehlungen.
 
-ステップ2：MCPを介してデータソースを接続
+Schritt 2: Verknüpfung von Datenquellen über MCP
 
-次のMCPサーバーを有効化します。
+Aktivieren Sie einen MCP-Server für:
 
-- Googleドライブ（共有された調査文書へのアクセスのため）
+- Google Drive (für den Zugriff auf gemeinsame Forschungsdokumente)
 
-- GitHub（競合のオープンソースリポジトリのレビューのため）
+- GitHub (zur Überprüfung von Open-Source-Repositorys von Mitbewerbern)
 
-- ウェブ検索（リアルタイムの市場情報取得のため）
+- Websuche (für Marktinformationen in Echtzeit)
 
-ステップ3：専門スキルを作成
+Schritt 3: Spezielle Skills erstellen
 
-「競合分析」スキルを作成します。
-
-```
-
-```
-
-ステップ4：サブエージェントを構成（Claude Code/SDKのみ）
-
-専門のサブエージェントを作成します。
-
-market-researcherサブエージェント：
+Erstellen Sie einen Skill für die Wettbewerbsanalyse:
 
 ```
 
 ```
 
-technical-analystサブエージェント：
+Schritt 4: Konfigurieren von Subagenten (nur Claude Code/SDK)
+
+Erstellen Sie spezialisierte Subagenten:
+
+market-researchersubagent:
 
 ```
 
 ```
 
-ステップ5：調査エージェントを有効化
+technical-analystsubagent:
 
-ここでClaudeに次のように依頼します。「主要な競合他社3社が、新たに導入したAI機能をどのように位置付けているかを分析し、当社が活用できるギャップを特定してください」
+```
 
-次のようなことが起こります。
+```
 
-- プロジェクトのコンテキストの読み込み：Claudeはアップロードした調査文書にアクセスし、プロジェクトの指示に従います。
+Schritt 5: Recherchieragenten aktivieren
 
-- MCP接続の有効化：ClaudeはGoogleドライブ内で競合他社の最近の概要を検索し、GitHubのデータを抽出します。
+Jetzt fragen Sie Claude: „Analysiere, wie unsere drei wichtigsten Konkurrenten ihre neuen KI-Funktionen einsetzen, und identifiziere Lücken, die wir nutzen können.“
 
-- スキルの起動：「競合分析」スキルが分析フレームワークを提供します。
+Jetzt passiert Folgendes:
 
-- サブエージェントの実行（Claude Codeにて）：「市場調査担当者」サブエージェントは業界データを収集し、「技術アナリスト」サブエージェントは技術的な実装内容を検証します。
+- Projektkontext wird geladen: Claude greift auf Ihre hochgeladenen Recherchedokumente zu und folgt den Projektanweisungen
 
-- プロンプトの微調整：「特に医療分野の法人顧客に焦点を当ててください」という対話型ガイダンスを提供します。
+- MCP-Verbindungen aktivieren: Claude durchsucht Google Drive nach aktuellen Mitbewerberbeschreibungen und ruft GitHub-Daten ab
 
-結果：複数のデータソースから抽出し、自社の分析フレームワークに沿って専門知識を活用し、調査プロジェクト全体を通じて一貫したコンテキストを維持する、包括的な競合分析が得られます。
+- Skills aktivieren: Der Skill zur Wettbewerbsanalyse stellt den analytischen Rahmen bereit
 
-## よくある質問
+- Subagenten ausführen(in Claude Code): Der Marktforscher sammelt Branchendaten, während der technische Analyst technische Implementierungen überprüft
 
-#### スキルはどのように機能しますか？
+- Prompts verfeinern: Sie stellen Anleitungen zur Verfügung: „Konzentriere dich insbesondere auf Unternehmenskunden im Gesundheitswesen“
 
-スキルは、Claudeの効率性を維持するために[段階的な開示](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)を用います。タスクに取り組む際、Claudeはまずスキルのメタデータ（説明と要約）をスキャンして関連性の高い一致項目を特定します。スキルが一致した場合、Claudeはすべての指示を読み込みます。最後に、スキルに実行可能なコードまたは参照ファイルが含まれている場合は、必要な場合のみ読み込みを行います。
+Das Ergebnis:Eine umfassende Wettbewerbsanalyse, die aus mehreren Datenquellen stammt, Ihrem analytischen Framework folgt, spezialisiertes Know-how nutzt und während Ihres gesamten Rechercheprojekts Kontext beibehält.
 
-このアーキテクチャにより、Claudeのコンテキストウィンドウを圧迫することなく多くのスキルを利用可能にできます。Claudeは、必要なときに必要な情報のみに正確にアクセスします。
+## Häufige Fragen
 
-#### スキルとサブエージェント、いつどちらを使用するか？
+#### Wie funktionieren Skills?
 
-スキルを使用するタイミング：あらゆるClaudeインスタンスが読み込んで使用できる機能が求められる場合。スキルは教材のようなもので、Claudeがあらゆる会話において特定のタスクで効果的に機能するようにします。
+Skills nutzen die[progressive Offenlegung](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills), um Claude effizient zu halten. Bei der Arbeit an Aufgaben durchsucht Claude zunächst Skill-Metadaten (Beschreibungen und Zusammenfassungen), um relevante Übereinstimmungen zu identifizieren. Wenn ein Skill übereinstimmt, lädt Claude die vollständigen Anweisungen. Wenn der Skill ausführbaren Code- oder Referenzdateien enthält, werden diese nur bei Bedarf geladen.
 
-サブエージェントを使用するタイミング：特定の目的向けに設計され、ワークフローを独立して処理する自己完結型の完全なエージェントが必要な場合。サブエージェントは、独自のコンテキストとツールの権限を持つ専門職の従業員のようなものです。
+Diese Architektur bedeutet, dass Sie viele Skills zur Verfügung haben können, ohne das Kontextfenster von Claude zu überfordern. Claude greift genau dann auf die Daten zu, wenn sie benötigt werden.
 
-併用するタイミング：専門知識を備えたサブエージェントが必要な場合。たとえば、コードレビューのサブエージェントは、言語固有のベストプラクティスとしてスキルを使用し、サブエージェントの独立性と、スキルに関する移植可能な専門知識とを組み合わせることができます。
+#### Skills vs. Subagenten: Wann was verwendet werden sollte
 
-#### スキルとプロンプト、いつどちらを使用するか？
+Verwenden Sie Skills, wenn:Sie Funktionen möchten, die jede Claude-Instanz laden und verwenden kann. Skills sind wie Schulungsmaterialien: Sie helfen Claude dabei, bestimmte Aufgaben in allen Konversationen besser zu bewältigen.
 
-プロンプトを使用するタイミング：一度きりの指示を行う場合、直近のコンテキストを説明している場合、あるいは会話のやり取りを行っている場合。プロンプトは反応的で一時的なものです。
+Verwenden Sie Subagenten, wenn:Sie vollständige, eigenständige Agenten benötigen , die für bestimmte Zwecke entwickelt wurden und Workflows unabhängig voneinander verarbeiten. Subagenten sind wie spezialisierte Mitarbeiter mit eigenem Kontext und Tool-Berechtigungen.
 
-スキルを使用するタイミング：繰り返し必要となる手順または専門知識がある場合。スキルは能動的に活用され（Claudeは適切なタイミングを見極めます）、会話全体を通じて持続的に利用されます。
+Nutzen Sie sie gemeinsam, wenn:Sie Subagenten mit speziellem Know-how benötigen. Ein Subagent zur Codeüberprüfung kann beispielsweise Skills für sprachspezifische Best Practices nutzen und dabei die Unabhängigkeit eines Subagenten mit dem übertragbaren Know-how von Skills kombinieren.
 
-併用するタイミング：プロンプトとスキルが自然に互いに補完し合う関係にある場合。スキルを活用して基礎的な専門知識を提供し、その後プロンプトを用いて各タスクごとに具体的なコンテキストの提供と調整を行います。
+#### Skills vs. Prompts: wann Sie was verwenden
 
-#### スキルとプロジェクト、いつどちらを使用するか？
+Verwenden Sie Prompts wenn:Sie Anweisungen einmalig eingeben, einen unmittelbaren Kontext bereitstellen oder eine Konversation führen. Prompts sind reaktiv und kurzlebig.
 
-プロジェクトを使用するタイミング：特定のイニシアチブに関するすべての会話において、背景知識やコンテキストが必要とされる場合。プロジェクトは常に読み込まれる静的な参照資料を提供します。
+Verwenden Sie Skills, wenn:Sie Verfahren oder Fachwissen haben, die Sie wiederholt benötigen. Skills sind proaktiv – Claude weiß, wann sie angewendet werden sollen – und werden über Unterhaltungen hinweg beibehalten.
 
-スキルを使用するタイミング：手続きに関する知識と関連する状況でのみ作動する実行可能コードが必要な場合。スキルは動的な専門知識を提供し、必要に応じて読み込まれるため、コンテキストウィンドウを節約します。
+Verwenden Sie sie gemeinsam:Prompts und Skills ergänzen sich auf natürliche Weise. Verwenden Sie Skills, um grundlegendes Know-how bereitzustellen, und geben Sie dann Prompts für jede Aufgabe spezifischen Kontext und Feinabstimmung an.
 
-併用するタイミング：持続的なコンテキストと専門的な機能の両方が必要な場合。例えば、「製品開発」プロジェクトでは、製品仕様書やユーザー調査が含まれ、技術文書作成スキルやユーザーフィードバックデータの分析スキルと組み合わされます。
+#### Skills vs. Projekte: wann Sie was verwenden
 
-主な違い：プロジェクトは「知る必要がある内容」を示します。スキルは「実行する方法」を示します。プロジェクトはその枠組みの中で作業を行うためのナレッジベースを提供し、スキルはあらゆる会話、あらゆるプロジェクトで役立つ機能を提供します。
+Verwenden Sie Projekte, wenn:Sie Hintergrundwissen und Kontext benötigen, der in alle Gespräche über eine bestimmte Initiative einfließen sollte. Projekte stellen statisches Referenzmaterial bereit, das immer geladen wird.
 
-#### サブエージェントはスキルを使用できるか？
+Verwenden Sie Skills, wenn:Sie prozedurales Wissen und ausführbaren Code benötigen, der nur bei Bedarf aktiviert wird. Skills bieten dynamisches Know-how, das nach Bedarf geladen wird und in Ihrem Kontextfenster gespeichert wird.
 
-はい。Claude CodeおよびエージェントSDKでは、サブエージェントはメインエージェントと同様にスキルにアクセスして使用できます。これにより、専門的なサブエージェントが移植可能な専門知識を活用するという強力な組み合わせが生まれます。
+Nutzen Sie sie gemeinsam, wenn:Sie sowohl konsistenten Kontext als auch spezielle Funktionen benötigen. Beispiel: Ein Projekt zur Produktentwicklung mit Produktspezifikationen und Benutzerrecherchen in Kombination mit Skills zur Erstellung technischer Dokumentation und Analyse von Benutzerfeedbackdaten.
 
-たとえば、python-developerサブエージェントは、pandas-analysisスキルを使用してチームの規則に従ってデータ変換を実行できます。一方、documentation-writerサブエージェントは、technical-writingスキルを使用してAPIドキュメントのフォーマットを一貫して実行できます。
+Hauptunterschied:Projekte sagen: „Hier ist alles,was man wissen muss." Skills sagen: „So macht man das.“ Projekte stellen eine Wissensdatenbank bereit, in der Sie arbeiten. Skills bieten Funktionen, die überall eingesetzt werden können – in jeder Unterhaltung, in jedem Projekt.
 
-## ご利用にあたって
+#### Können Subagenten Skills verwenden?
 
-スキルを活用した構築の準備はできましたか？ 利用を始めるには
+Ja. In Claude Code und dem Agenten-SDK können Unteragenten genau wie der Hauptagent auf Skills zugreifen und diese verwenden. Dadurch entstehen leistungsstarke Kombinationen, in denen spezialisierte Subagenten portables Know-how nutzen.
 
-[Claude.ai](https://Claude.ai)ユーザー：
+Beispielsweise kann Ihr Python-Entwickler-Subagent den Pandas-Analyse-Skill verwenden, um Datentransformationen gemäß den Konventionen Ihres Teams durchzuführen, während Ihr Dokumentations-Writer den Skill für technisches Schreiben verwendet, um die API-Dokumentation konsistent zu formatieren.
 
-- 設定→機能でスキルを有効にします
+## Erste Schritte
 
-- claude.ai/projectsで最初のプロジェクトを作成します
+Möchten Sie Skills erstellen? So klappt der Einstieg:
 
-- 次の分析タスクでは、プロジェクトのナレッジとスキルの組み合わせを試してみてください
+[Claude.ai](https://Claude.ai)-Benutzer:
 
-API開発者：
+- Skills in Einstellungen → Funktionen aktivieren
 
-- ドキュメント内のスキルのエンドポイントを確認します
+- Erstellen Sie Ihr erstes Projekt unter claude.ai/projects
 
-- スキルクックブックを確認します
+- Kombinieren Sie Projektwissen mit Skills für Ihre nächste Analyseaufgabe
 
-Claude Codeユーザー：
+API-Entwickler:
 
-- プラグインマーケットプレイスを介してスキルをインストールします
+- Entdecken Sie den Skills-Endpunkt in derDokumentation
 
-- スキルクックブックをチェックする
+- Lesen Sie unserenSkills-Leitfaden
 
-## エージェントスキル
+Claude Code-Benutzer:
 
-今すぐClaudeでのスキル活用を開始して、より強力なアプリケーションを構築しましょう。
+- Installation von Skills überPlugin-Marktplätze
+
+- Lesen Sie unserenSkills-Leitfaden
+
+## Agentische Skills
+
+Nutzen Sie Skills mit Claude, um noch heute leistungsstärkere Anwendungen zu entwickeln.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -332,36 +332,36 @@ Claude Codeユーザー：
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691503928e574d7dc8407b4a_Hand-NodeWeb-1.svg)
 
-よくある質問
+Häufig gestellte Fragen
 
-## 関連する投稿
+## Ähnliche Beiträge
 
-Claude を活用して構築を行うチーム向けの、その他の製品ニュースとベストプラクティスをご覧ください。
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### 企業全体のチームに向けた Cowork とプラグイン
+### Claude für die Rechtsbranche
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
+
+### Das kann der Max Plan
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+### Wir testen Claude in Chrome
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### Building agents that reach production systems with MCP
+### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
-### Harnessing Claude’s intelligence
+Entwickler-Newsletter abonnieren
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
 
-### スキルの作成方法：主なステップ、制限事項、および事例
-
-## Claude を活用して組織運営の方法を変革
-
-開発者向けニュースレターを入手
-
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
-
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/ja/blog/skills-explained
+**Source:** https://claude.com/de/blog/skills-explained
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

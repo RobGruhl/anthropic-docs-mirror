@@ -1,5 +1,5 @@
 # Mcp Topic Index
-*Last updated: 2026-05-21 10:18*
+*Last updated: 2026-05-21 13:05*
 
 Documents related to Mcp across all sources (238 documents)
 ---
@@ -241,7 +241,7 @@ Documents related to Mcp across all sources (238 documents)
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels](/claude-blog/claude-managed-agents-updates.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
-- [スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
 ## Support Articles (11)

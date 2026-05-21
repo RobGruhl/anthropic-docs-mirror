@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-21 10:18*
+*Last updated: 2026-05-21 13:05*
 
 Documents related to Claude Code across all sources (220 documents)
 ---
@@ -216,6 +216,7 @@ Documents related to Claude Code across all sources (220 documents)
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
+- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
 - [Updates to Claude Team](/claude-blog/claude-team-updates.md) - ![](https://cdn
@@ -223,7 +224,6 @@ Documents related to Claude Code across all sources (220 documents)
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
-- [スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較](/claude-blog/skills-explained.md) - ![](https://cdn
 
 ## Support Articles (8)
 - [Automated Security Reviews in Claude Code](/docs-support/automated-security-reviews-in-claude-code.md)
