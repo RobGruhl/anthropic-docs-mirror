@@ -1,8 +1,9 @@
 # Sandboxing Topic Index
-*Last updated: 2026-05-21 21:34*
+*Last updated: 2026-05-22 00:33*
 
-Documents related to Sandboxing across all sources (1 documents)
+Documents related to Sandboxing across all sources (2 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
+- [Sandbox Environments](/code-claude-docs/sandbox-environments.md)
 - [Sandboxing](/code-claude-docs/sandboxing.md)
 

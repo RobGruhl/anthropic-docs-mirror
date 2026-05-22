@@ -4,8 +4,8 @@
       "original_url": "https://support.claude.com/en/articles/12138966-release-notes",
       "title": "Release notes",
       "collection": "Claude",
-      "hash": "4753ba639d68ef500b0585e4862e23b2690bb3b81bc6a6956dfdcecea87a154d",
-      "last_updated": "2026-05-21T00:33:48.631512"
+      "hash": "b610735a5c459a15c098c2851bd6afa507ce1d31a6057f924ae91b768672ee56",
+      "last_updated": "2026-05-22T00:31:50.805950"
     },
     "how-to-get-support.md": {
       "original_url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
@@ -18,8 +18,8 @@
       "original_url": "https://support.claude.com/en/articles/8114491-getting-started-with-claude",
       "title": "Get started with Claude",
       "collection": "Claude",
-      "hash": "b61ffafb0dacf28a143ad9e5aaf8c771b04c54f36102557eeff838eba9d11507",
-      "last_updated": "2026-05-21T21:32:55.664749"
+      "hash": "759db9aafad5d078ca1761b6ae720d3a8fe540afe859957bf9206df9877de123",
+      "last_updated": "2026-05-22T00:31:51.375219"
     },
     "what-are-some-things-i-can-use-claude-for.md": {
       "original_url": "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for",
@@ -60,15 +60,15 @@
       "original_url": "https://support.claude.com/en/articles/8287232-verifying-your-phone-number",
       "title": "Verify your phone number",
       "collection": "Claude",
-      "hash": "335ae168f11198ee504a72b56bb947789e321da7973f81682551c8a6756e5b8f",
-      "last_updated": "2026-05-21T21:32:58.112267"
+      "hash": "4eaa6e600985121f901223ac9c526f404c061fd640f1a4ccacf6ffd464d692a8",
+      "last_updated": "2026-05-22T00:31:53.042207"
     },
     "how-to-gift-a-claude-subscription.md": {
       "original_url": "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription",
       "title": "How to gift a Claude subscription",
       "collection": "Claude",
-      "hash": "7893b15cfc50c4936719519768734bfc812e6ce94dce33cb135eaaa4b7116453",
-      "last_updated": "2026-05-21T21:32:58.450110"
+      "hash": "e5cbe497aae48a541b1bff74e9a5cfe382edf16ad3868ef24fb60cdc3153971d",
+      "last_updated": "2026-05-22T00:31:53.283675"
     },
     "how-to-redeem-a-claude-gift-subscription.md": {
       "original_url": "https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription",
@@ -81,8 +81,8 @@
       "original_url": "https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account",
       "title": "Log in to your Claude account",
       "collection": "Claude",
-      "hash": "e5b4777d7d3e5cdd40689a51f97160bbfbae13b4ffe1eaf259e2527f3d979e60",
-      "last_updated": "2026-05-21T21:32:59.342831"
+      "hash": "159e55d14b97e60bce169e0c62458a37891da735031dfb50e725b7754003d1ae",
+      "last_updated": "2026-05-22T00:31:53.908038"
     },
     "how-do-i-change-the-email-address-associated-with-my-account.md": {
       "original_url": "https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account",
@@ -102,22 +102,22 @@
       "original_url": "https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions",
       "title": "How do I log out of all active sessions?",
       "collection": "Claude",
-      "hash": "0325a593c511bbc91f5c2570e1a0dbaf074010dfd6a36a36742182640e7eb8fd",
-      "last_updated": "2026-05-21T21:33:00.298040"
+      "hash": "227dfe4d7abd704740f39056f4466f16cece63fda004411812178fb0fd028359",
+      "last_updated": "2026-05-22T00:31:54.735228"
     },
     "how-can-i-export-my-claude-data.md": {
       "original_url": "https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data",
       "title": "How can I export my Claude data?",
       "collection": "Claude",
-      "hash": "2e5ee2356d6613e1dbd02f8ca1172633192887c39c7b2b838e54ed14b8027a7f",
-      "last_updated": "2026-05-21T21:33:00.670802"
+      "hash": "2f5a64063f0dfc3895eb16967f8eb4f33effb041bca85206fdc049fc04411c24",
+      "last_updated": "2026-05-22T00:31:54.979295"
     },
     "how-can-i-delete-my-claude-account.md": {
       "original_url": "https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account",
       "title": "How can I delete my Claude account?",
       "collection": "Claude",
-      "hash": "b32af64f110ab12bf203acb07735be4d7693dc5a64c01d0f6130da51c6c8f4a5",
-      "last_updated": "2026-05-21T21:33:00.972656"
+      "hash": "f8b7b95e3fddd676a89ab3d256390fa71bdce81784482f992bc46f50dc1e0793",
+      "last_updated": "2026-05-22T00:31:55.188883"
     },
     "why-is-a-coupon-or-promotion-not-available-for-my-account.md": {
       "original_url": "https://support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account",
@@ -130,8 +130,8 @@
       "original_url": "https://support.claude.com/en/articles/13124001-managing-your-active-sessions",
       "title": "Managing your active sessions",
       "collection": "Claude",
-      "hash": "27fa8e9815dea8bee878507a689fb27061bef089881e04a92bdbb8473ba18294",
-      "last_updated": "2026-05-21T21:33:01.665538"
+      "hash": "5cd330340732d2abcb17b64717a32e8d7c4bf1058ecfb8a3585903c0d423c4ae",
+      "last_updated": "2026-05-22T00:31:55.691522"
     },
     "understanding-your-billing-address-and-tax-calculation.md": {
       "original_url": "https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation",
@@ -144,8 +144,8 @@
       "original_url": "https://support.claude.com/en/articles/13163631-configuring-session-security-settings",
       "title": "Configuring session security settings",
       "collection": "Claude",
-      "hash": "f3e384eeb015e810bde7b77c4299bc009be4050c38697eb3fb73e9b6a8c1f28d",
-      "last_updated": "2026-05-21T21:33:02.296066"
+      "hash": "970896535863fa79744e2f622f3cd3991defbfaa423707bcd6198b7c84aac2b4",
+      "last_updated": "2026-05-22T00:31:56.160824"
     },
     "how-to-get-support-for-claude-for-government.md": {
       "original_url": "https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government",
@@ -158,8 +158,8 @@
       "original_url": "https://support.claude.com/en/articles/13756069-public-sector-faqs",
       "title": "Public Sector FAQs",
       "collection": "Claude",
-      "hash": "2755b096073892e28cb1b0d7dfa1fefe4082abda179aa108e21451eb38d95164",
-      "last_updated": "2026-05-21T21:33:03.000921"
+      "hash": "53ed55fa5e81e6d6d9e1cc49cdc4a9896098a382637263a3bf7912eb8536aa04",
+      "last_updated": "2026-05-22T00:31:56.691817"
     },
     "claude-4-invite-contest.md": {
       "original_url": "https://support.claude.com/en/articles/11408405-claude-4-invite-contest",
@@ -172,29 +172,29 @@
       "original_url": "https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation",
       "title": "How can I delete or rename a conversation?",
       "collection": "Claude",
-      "hash": "fe89ff1ae30c422c4fb69633357a9ba591a332a7a75e01d0eba7a8de65d1be38",
-      "last_updated": "2026-05-21T21:33:03.630191"
+      "hash": "36b46414f634a5018477ff97794d05821a814b5f5cd4b4a1e65b01e940f83578",
+      "last_updated": "2026-05-22T00:31:57.172740"
     },
     "sharing-and-unsharing-chats.md": {
       "original_url": "https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats",
       "title": "Sharing and Unsharing Chats",
       "collection": "Claude",
-      "hash": "133f47ebf18f2f4500eea4cee96c2365927fb9d2c9a8b1565b3b640866e48aec",
-      "last_updated": "2026-05-21T21:33:03.990786"
+      "hash": "aa56b1cfc054d74b7a0441bd7a819a9134691f42682815f7912510ab9940f23e",
+      "last_updated": "2026-05-22T00:31:57.431635"
     },
     "using-incognito-chats.md": {
       "original_url": "https://support.claude.com/en/articles/12260368-using-incognito-chats",
       "title": "Using incognito chats",
       "collection": "Claude",
-      "hash": "575504cfd22c92fd1e62b30d3805ea26ccb81c8bd8e402b1934c44a1c0d7665e",
-      "last_updated": "2026-05-21T21:33:04.392801"
+      "hash": "fafc307451fd93192eec3ab8e99d4ec4c8fd32e449b6e4efac433ee10ccc4e22",
+      "last_updated": "2026-05-22T00:31:57.795463"
     },
     "using-claude-s-chat-search-and-memory-to-build-on-previous-context.md": {
       "original_url": "https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context",
       "title": "Use Claude\u2019s chat search and memory to build on previous context",
       "collection": "Claude",
-      "hash": "89dd17949660c1a6420a1fe7fd6f3c2283d8fcb742a5098180c7b5d0afb9976f",
-      "last_updated": "2026-05-21T21:33:04.989504"
+      "hash": "e7991c1f240ac9a7e3b3066458f2482c439c6dde6b447a5b8c7131ab94ebfd9d",
+      "last_updated": "2026-05-22T00:31:58.195722"
     },
     "what-are-artifacts-and-how-do-i-use-them.md": {
       "original_url": "https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them",
@@ -207,8 +207,8 @@
       "original_url": "https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts",
       "title": "Publishing and sharing artifacts",
       "collection": "Claude",
-      "hash": "d9088bf523bbcd41a1c70540b7c833c81c5c22f2faf00f1d3fb32862de5bc954",
-      "last_updated": "2026-05-21T21:33:05.755223"
+      "hash": "cd9d41e75fda1148674e5c943fad15bf64d689e8498ab182017f73e8aff94728",
+      "last_updated": "2026-05-22T00:31:58.735889"
     },
     "using-extended-thinking.md": {
       "original_url": "https://support.claude.com/en/articles/10574485-using-extended-thinking",
@@ -256,8 +256,8 @@
       "original_url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
       "title": "Create and edit files with Claude",
       "collection": "Claude",
-      "hash": "2bc992a8667c96e36c6c6d400f6102e65068d1fb18d168a05bfbda350efa4124",
-      "last_updated": "2026-05-21T21:33:08.401065"
+      "hash": "95b8e046d8b4d894261c0083a652dc1874998985660cc38e925a252aa20a2beb",
+      "last_updated": "2026-05-22T00:32:00.542328"
     },
     "how-does-claude-handle-mathematical-equations-and-calculations.md": {
       "original_url": "https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations",
@@ -319,22 +319,22 @@
       "original_url": "https://support.claude.com/en/articles/13364135-using-cowork-safely",
       "title": "Use Claude Cowork safely",
       "collection": "Claude",
-      "hash": "e5cc129e34a8ad08d97d1ea7fc17cb4dc5864dd830d4e4af9ae6195bc01bd917",
-      "last_updated": "2026-05-20T18:47:13.237798"
+      "hash": "5d27c01c0588b302b21d3d07ccaa4171667e3a5af839e64c583774322af81179",
+      "last_updated": "2026-05-22T00:32:03.401961"
     },
     "use-claude-in-excel.md": {
       "original_url": "https://support.claude.com/en/articles/12650343-use-claude-in-excel",
       "title": "Use Claude for Excel",
       "collection": "Claude",
-      "hash": "28c5a50580aea6a8ff1a0c8f6318d806fea3afe3cb9bdf16fdfe19515a637413",
-      "last_updated": "2026-05-21T21:33:13.102002"
+      "hash": "bc2b2e09c8c6d4571b31b678548837e5dbd1884b62c7c2c5cabff1b5231f1ae1",
+      "last_updated": "2026-05-22T00:32:03.789756"
     },
     "using-claude-in-xcode.md": {
       "original_url": "https://support.claude.com/en/articles/12293051-using-claude-in-xcode",
       "title": "Use Claude in Xcode",
       "collection": "Claude",
-      "hash": "868194912fbc2d28837b47bc8f4e815e1ffe2f7dd58b15c3832ee6943046a2c1",
-      "last_updated": "2026-05-21T21:33:13.658233"
+      "hash": "2f89e9f564e15918e000d3cb30dfe4c39125927b0b779427f149c68c0f2eeab6",
+      "last_updated": "2026-05-22T00:32:04.141913"
     },
     "using-claude-in-microsoft-foundry.md": {
       "original_url": "https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry",
@@ -354,8 +354,8 @@
       "original_url": "https://support.claude.com/en/articles/13641943-visual-and-interactive-content",
       "title": "Visual and interactive content",
       "collection": "Claude",
-      "hash": "541db596f8858a23e0c1bb0a4bfb81f5b2f4c4e31766ab23ec9bafce53749c49",
-      "last_updated": "2026-05-21T21:33:15.474202"
+      "hash": "0c4f7087a8716baeb5f985f2fee86a1e0f1b0103439ca67a9122c983be22fffb",
+      "last_updated": "2026-05-22T00:32:05.184004"
     },
     "understanding-claude-s-personalization-features.md": {
       "original_url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
@@ -375,8 +375,8 @@
       "original_url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings",
       "title": "Customizing your appearance settings",
       "collection": "Claude",
-      "hash": "b269eaa2f5434f1aee4974195a10b876f9b12009d7f47aad74d4f55f230a610a",
-      "last_updated": "2026-05-21T21:33:16.545530"
+      "hash": "d5572f9e19045749463fd4109c0218052f07eede8134a08472dab206257350e5",
+      "last_updated": "2026-05-22T00:32:06.026899"
     },
     "how-to-use-claude-in-your-preferred-language.md": {
       "original_url": "https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language",
@@ -396,8 +396,8 @@
       "original_url": "https://support.claude.com/en/articles/12466728-understanding-claude-error-messages",
       "title": "Troubleshoot Claude error messages",
       "collection": "Claude",
-      "hash": "23531123c7746e1602b92e2bcdf571978994639eb5362dab471614c55566e913",
-      "last_updated": "2026-05-21T21:33:17.746807"
+      "hash": "81ee73fa821f6da5caea9c7f14b2f4a2b902f5abdcb403cadb1bc2aa1490e24f",
+      "last_updated": "2026-05-22T00:32:06.858577"
     },
     "claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md": {
       "original_url": "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on",
@@ -445,8 +445,8 @@
       "original_url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs",
       "title": "Paid Plan Billing FAQs",
       "collection": "Paid Claude Plans",
-      "hash": "4963cedc86e7c98bb0ff9e22c2199fabd3c60d5895bfbb978912176f5405a447",
-      "last_updated": "2026-05-21T21:33:20.474207"
+      "hash": "9707fe3fd023bdb2c821f2ec53bfe9396e246563144f626bdb7a17375228a525",
+      "last_updated": "2026-05-22T00:32:08.836472"
     },
     "why-was-my-card-declined.md": {
       "original_url": "https://support.claude.com/en/articles/9402418-why-was-my-card-declined",
@@ -466,8 +466,8 @@
       "original_url": "https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method",
       "title": "Why am I being asked to verify my payment method?",
       "collection": "Paid Claude Plans",
-      "hash": "d9ddca8721d24577db6bfd1d3b20f3374eb4c54bcfa1be7c69c5a24619f128b6",
-      "last_updated": "2026-05-21T21:33:21.805959"
+      "hash": "b6a2596d553124b1a4e7935ec19f47a1a4aa43eddc0675f9187b01353a78447d",
+      "last_updated": "2026-05-22T00:32:09.624108"
     },
     "how-do-i-cancel-my-paid-claude-subscription.md": {
       "original_url": "https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription",
@@ -480,8 +480,8 @@
       "original_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
       "title": "How can I create and manage projects?",
       "collection": "Paid Claude Plans",
-      "hash": "02bc697e800fce3f238313077eadd56d5b67353f543b41c251bdabe4eef352c5",
-      "last_updated": "2026-05-21T21:33:22.482934"
+      "hash": "b23f042a34c9912f04232b349c6799f05a4289cd9988ea812b0140e0fe0748a5",
+      "last_updated": "2026-05-22T00:32:10.135472"
     },
     "requesting-a-refund-for-a-paid-claude-plan.md": {
       "original_url": "https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan",
@@ -494,8 +494,8 @@
       "original_url": "https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans",
       "title": "Manage usage credits for paid Claude plans",
       "collection": "Paid Claude Plans",
-      "hash": "6b3dede4f27fc5dddaf6dc7041b65a2f61507857274694dbbf2e0c80eb41c919",
-      "last_updated": "2026-05-21T21:33:23.773854"
+      "hash": "e0d641f239a1db0d446b9b44a06fc9e7a41f321b5dd8aa2d22dd33e833f8edb1",
+      "last_updated": "2026-05-22T00:32:11.001490"
     },
     "holiday-2025-usage-promotion.md": {
       "original_url": "https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion",
@@ -557,22 +557,22 @@
       "original_url": "https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans",
       "title": "Manage usage credits for Team and seat-based Enterprise plans",
       "collection": "Team and Enterprise Plans",
-      "hash": "d8275acdf2f296fe4906d05f6e05acc7636b566bfba69496341655854b8e7c36",
-      "last_updated": "2026-05-21T21:33:27.110398"
+      "hash": "6ad48bf453206bffeb3435e44c41f75c37e900a5bc90796cd69b08586a55f16b",
+      "last_updated": "2026-05-22T00:32:13.741113"
     },
     "account-management-faqs.md": {
       "original_url": "https://support.claude.com/en/articles/13325567-account-management-faqs",
       "title": "Account management FAQs",
       "collection": "Team and Enterprise Plans",
-      "hash": "e0d6ba6abce62cc4c19ad0822b7e1a463490ff9657f7541446aa7fadf7645b21",
-      "last_updated": "2026-05-21T21:33:27.411611"
+      "hash": "18220eb2c6830e854f100cbada8d7ca13109034221af44eff7e1e1d8f21992fe",
+      "last_updated": "2026-05-22T00:32:13.990883"
     },
     "can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md": {
       "original_url": "https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations",
       "title": "Move your personal Claude account to a Team or Enterprise organization",
       "collection": "Team and Enterprise Plans",
-      "hash": "08c5b1e73667427aa045deb402dbcd15a747888c06315c8bff94b9ed412c1ba6",
-      "last_updated": "2026-05-21T21:33:27.933183"
+      "hash": "e9c8cdf0481ce5444a115e8b0979836966f6f9e3c0bf21fd6af18d814fd56bf0",
+      "last_updated": "2026-05-22T00:32:14.360309"
     },
     "what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md": {
       "original_url": "https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization",
@@ -585,8 +585,8 @@
       "original_url": "https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data",
       "title": "Export your organization's data",
       "collection": "Team and Enterprise Plans",
-      "hash": "9cb47c5031f87c86bdb715f517f9aad8e38f4e58a9674556ae8602a2df9eebe5",
-      "last_updated": "2026-05-21T21:33:28.821031"
+      "hash": "b2e14d1747efa0327e47ee08f1c122f532d8101c82fe70a70a2d8fd903ce945e",
+      "last_updated": "2026-05-22T00:32:14.989035"
     },
     "find-and-join-a-team-or-enterprise-organization.md": {
       "original_url": "https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization",
@@ -613,22 +613,22 @@
       "original_url": "https://support.claude.com/en/articles/9519189-project-visibility-and-sharing",
       "title": "Manage project visibility and sharing",
       "collection": "Team and Enterprise Plans",
-      "hash": "ba1e97461bcb8a3b7033b4e9acc3d3f7edcb773aeed8be171aac059026ecf553",
-      "last_updated": "2026-05-21T21:33:30.337117"
+      "hash": "4aa8463cebc1585f0b7254977a0043c7c2187e04a9454f3c85f5a203f66a35c2",
+      "last_updated": "2026-05-22T00:32:16.326659"
     },
     "how-can-i-disable-public-projects.md": {
       "original_url": "https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects",
       "title": "Disable public projects for your organization",
       "collection": "Team and Enterprise Plans",
-      "hash": "50cf9d77a0c5950817b16b302345600c17524960652881f95d87a4b49359baa4",
-      "last_updated": "2026-05-21T21:33:30.910565"
+      "hash": "f52a30c7cc602dc2766549e1f7739c616d2e07ab24f428df481ada197722becd",
+      "last_updated": "2026-05-22T00:32:16.715676"
     },
     "managing-user-feedback-settings-on-team-and-enterprise-plans.md": {
       "original_url": "https://support.claude.com/en/articles/10504844-managing-user-feedback-settings-on-team-and-enterprise-plans",
       "title": "Manage user feedback settings on Team and Enterprise plans",
       "collection": "Team and Enterprise Plans",
-      "hash": "7c5236e8374f1b0e4e9a4efb137e60311b63e5d1850b2f040d5b462d634d4c88",
-      "last_updated": "2026-05-21T21:33:31.501397"
+      "hash": "f8e8ef749f9ccde476279affdf52236f45444c51222c5ab2d4fc932df6558775",
+      "last_updated": "2026-05-22T00:32:17.058531"
     },
     "importing-and-exporting-your-memory-from-claude.md": {
       "original_url": "https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude",
@@ -683,8 +683,8 @@
       "original_url": "https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans",
       "title": "View usage analytics for Team and Enterprise plans",
       "collection": "Team and Enterprise Plans",
-      "hash": "0ad8517c9d2c67f4edfdf15acb45b9e96dc964b63f591df355f5070d05fc0364",
-      "last_updated": "2026-05-21T21:33:35.179666"
+      "hash": "4bd745a936e968ad5d683e2e1a7e5817fbfd611adfd73b10f8007a4b12a8b574",
+      "last_updated": "2026-05-22T00:32:19.617937"
     },
     "visual-and-interactive-content-for-team-and-enterprise-plans.md": {
       "original_url": "https://support.claude.com/en/articles/13663666-visual-and-interactive-content-for-team-and-enterprise-plans",
@@ -725,8 +725,8 @@
       "original_url": "https://support.claude.com/en/articles/12997503-team-plan-billing-faqs",
       "title": "Team plan billing FAQs",
       "collection": "Team and Enterprise Plans",
-      "hash": "00d5a487ce92714676a407eef5806cc5ce5ac0d9f8ee32b091d41082b66977d1",
-      "last_updated": "2026-05-21T21:33:37.994668"
+      "hash": "c48a342cc932ecf9bf17daff0ea31bd2bf92541726e70cef81729a3811f408a1",
+      "last_updated": "2026-05-22T00:32:22.343635"
     },
     "how-to-change-your-team-plan-from-monthly-to-annual-billing.md": {
       "original_url": "https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing",
@@ -802,15 +802,15 @@
       "original_url": "https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api",
       "title": "Get started with the Claude Enterprise Analytics API",
       "collection": "Team and Enterprise Plans",
-      "hash": "0ec16db8e9082d1fd49cd4fb323d90c0f1f601c6a01d8aebc5f332532a6610a3",
-      "last_updated": "2026-05-21T21:33:43.306678"
+      "hash": "1c8d8edf2b14e459c327ac31b22bfbfecbfac125f32f064f4820544e42b9e0d0",
+      "last_updated": "2026-05-22T00:32:26.342641"
     },
     "claude-enterprise-analytics-api-reference-guide.md": {
       "original_url": "https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide",
       "title": "Claude Enterprise Analytics API reference guide",
       "collection": "Team and Enterprise Plans",
-      "hash": "6956ff8c69990181d5e0e1c2a03702f329eb3497ecb0cfa49a1d3d3343c895d8",
-      "last_updated": "2026-05-21T21:33:43.724032"
+      "hash": "c8b98fa20483b720a585dfe85088bfbe45ed522f8b5e3885b700f584e0023341",
+      "last_updated": "2026-05-22T00:32:27.189244"
     },
     "restrict-access-to-claude-with-ip-allowlisting.md": {
       "original_url": "https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting",
@@ -844,29 +844,29 @@
       "original_url": "https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account",
       "title": "Logging in to your Console account",
       "collection": "Claude API and Console",
-      "hash": "0af0e313b41cc0503576ceed8577bfdf85beec06b4e04cfcc9e526e204cd6629",
-      "last_updated": "2026-05-21T21:33:45.696530"
+      "hash": "9d103d59ac21bd0897bcbff2d777c4723273100ca9adbb9a52ff159d3e14164d",
+      "last_updated": "2026-05-22T00:32:28.717471"
     },
     "i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md": {
       "original_url": "https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api",
       "title": "I created a Claude Console organization - how do I start using the Claude API?",
       "collection": "Claude API and Console",
-      "hash": "1d80cae7829d2931ad361a54b4aeaffdf45a9b0344fbc137e97af2f425c59350",
-      "last_updated": "2026-05-21T21:33:45.984994"
+      "hash": "5da13b6efa4f7ca330c9cb444df5c3316edb48f46a2d255d2e347f3cb3a3d343",
+      "last_updated": "2026-05-22T00:32:28.931008"
     },
     "how-do-i-use-the-workbench.md": {
       "original_url": "https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench",
       "title": "How do I use the Workbench?",
       "collection": "Claude API and Console",
-      "hash": "f35f2d024d85bcfca700d56e7cf823ea6fc33a97bac97f2cfcf182b922c66b87",
-      "last_updated": "2026-05-21T21:33:46.395830"
+      "hash": "6c4594cda877e2fc57c132dbd8740d5638b936c8a5b35371f32c68243ca96306",
+      "last_updated": "2026-05-22T00:32:29.194614"
     },
     "cost-and-usage-reporting-in-the-claude-console.md": {
       "original_url": "https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console",
       "title": "Cost and Usage Reporting in the Claude Console",
       "collection": "Claude API and Console",
-      "hash": "ff26ffd1bdd2a7d6d0d956a73948faebe2c2409a568780680fec2676fe0a37d8",
-      "last_updated": "2026-05-21T21:33:46.723653"
+      "hash": "68853241316af4f99a7af13592bd7deb3dc0901739712d19776e6256e9245a2f",
+      "last_updated": "2026-05-22T00:32:29.500378"
     },
     "creating-and-managing-workspaces-in-the-claude-console.md": {
       "original_url": "https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console",
@@ -893,15 +893,15 @@
       "original_url": "https://support.claude.com/en/articles/10504853-managing-user-feedback-settings-on-claude-console",
       "title": "Manage user feedback settings on Claude Console",
       "collection": "Claude API and Console",
-      "hash": "f6316cb0ca12f84565a1c04619eebde10f446962722f34fe77e9d7677755f2fc",
-      "last_updated": "2026-05-21T21:33:48.417369"
+      "hash": "418cc3a07c5ab5269caafbfc55fa753ccf686c5c097cbd9f7746d8c8a398b67f",
+      "last_updated": "2026-05-22T00:32:30.667586"
     },
     "sharing-prompts-in-the-claude-console.md": {
       "original_url": "https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console",
       "title": "Sharing Prompts in the Claude Console",
       "collection": "Claude API and Console",
-      "hash": "a4d232adb0b431d18f2f9ec8a98d6a0542cc7b8caea4c0e82f5f404e323bb63c",
-      "last_updated": "2026-05-21T21:33:48.868163"
+      "hash": "3b90795a83a705f5e114b453d8e108ef47c261a4c4a08aa0ddd73773a6f4afe2",
+      "last_updated": "2026-05-22T00:32:30.879824"
     },
     "about-the-development-partner-program.md": {
       "original_url": "https://support.claude.com/en/articles/11174108-about-the-development-partner-program",
@@ -921,8 +921,8 @@
       "original_url": "https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings",
       "title": "Customizing your Console appearance settings",
       "collection": "Claude API and Console",
-      "hash": "2b67302d5e3b1c703d0d0bfcbe3a2594f1f01c5ddc10d8567a0adec8f443bcc3",
-      "last_updated": "2026-05-21T21:33:50.081529"
+      "hash": "9fa930462b4cb8476616df04c1349ed537ae00ac85a6af655d3eb95bc32b606f",
+      "last_updated": "2026-05-22T00:32:31.837569"
     },
     "inviting-members-to-the-claude-console.md": {
       "original_url": "https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console",
@@ -963,8 +963,8 @@
       "original_url": "https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure",
       "title": "API Key Best Practices: Keeping Your Keys Safe and Secure",
       "collection": "Claude API and Console",
-      "hash": "9b22c4c0ade93b406bf417503e3816dde0abd86fea972cb871ae297de8c148ee",
-      "last_updated": "2026-05-21T21:33:52.232529"
+      "hash": "6fa267b43822e334ed463e22ec01bc4f216cbc1dde090587dbd2a578d3ecf07e",
+      "last_updated": "2026-05-22T00:32:33.236814"
     },
     "how-can-i-advance-my-claude-api-usage-to-tier-2.md": {
       "original_url": "https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2",
@@ -1033,15 +1033,15 @@
       "original_url": "https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it",
       "title": "I'm getting an API connection error. How can I fix it?",
       "collection": "Claude API and Console",
-      "hash": "f6bedd5aafc7a7eede167df097ae4d7dc52226d2ec2c0c0597760b8e1ab06c40",
-      "last_updated": "2026-05-21T21:33:55.802788"
+      "hash": "4644c2c79a3f011cdeac8feda13af2f53815af8dc9853595631d148e6c997e06",
+      "last_updated": "2026-05-22T00:32:35.850394"
     },
     "how-can-i-check-connectivity-to-the-claude-api.md": {
       "original_url": "https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api",
       "title": "How can I check connectivity to the Claude API?",
       "collection": "Claude API and Console",
-      "hash": "42cdb899267c12819f4e374f0959fc1675a15380f5368fbf150b1fc205648a86",
-      "last_updated": "2026-05-21T21:33:56.100379"
+      "hash": "b8613e4623572387dfac39cd7a7c89f4199266964efdfc85fa27964efb84a246",
+      "last_updated": "2026-05-22T00:32:36.099826"
     },
     "how-large-is-the-claude-api-s-context-window.md": {
       "original_url": "https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window",
@@ -1075,8 +1075,8 @@
       "original_url": "https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account",
       "title": "How can I delete my Claude Console account?",
       "collection": "Claude API and Console",
-      "hash": "46c788911a81841ad4a98dd915f2490fb0504127480089014456718a3395aad1",
-      "last_updated": "2026-05-21T21:33:57.745012"
+      "hash": "a79cf85edb8743500ac45d2cbd517a55bcb7857425314c67513f98b5a870d40b",
+      "last_updated": "2026-05-22T00:32:37.384382"
     },
     "introduction-to-prompt-design.md": {
       "original_url": "https://support.claude.com/en/articles/7996853-introduction-to-prompt-design",
@@ -1110,15 +1110,15 @@
       "original_url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso",
       "title": "Set up single sign-on (SSO)",
       "collection": "Identity Management (SSO, JIT, SCIM)",
-      "hash": "4858622089a9cb18ec2ac4f5384ce48bea3ce93132a2a257ad5a99baea3113df",
-      "last_updated": "2026-05-21T21:33:59.763304"
+      "hash": "d88ab85839b98fad7280a239a7fbd537ebdf96759c3c82ede46d3ae5bd88fca6",
+      "last_updated": "2026-05-22T00:32:38.892777"
     },
     "set-up-jit-or-scim-provisioning.md": {
       "original_url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning",
       "title": "Set up JIT or SCIM provisioning",
       "collection": "Identity Management (SSO, JIT, SCIM)",
-      "hash": "b13b852ad5b7bc470ad11e04227df3800ff258a2790dae8a80fad9cd7ff69524",
-      "last_updated": "2026-05-21T21:34:00.361154"
+      "hash": "67d3de50262acefb242229cf530f173793b42c2d42beaa9753642e4770339da1",
+      "last_updated": "2026-05-22T00:32:39.191993"
     },
     "switching-to-a-different-identity-provider-idp.md": {
       "original_url": "https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp",
@@ -1159,8 +1159,8 @@
       "original_url": "https://support.claude.com/en/articles/12157520-claude-code-usage-analytics",
       "title": "Claude Code usage analytics",
       "collection": "Claude Code",
-      "hash": "772fe251648cb68f4727d6bb634f0f9da99aed02e03dd29f8052c3ad143a0fa8",
-      "last_updated": "2026-05-21T21:34:02.627069"
+      "hash": "36c43b14bcbe5f30ae351e459c361a46367ae26340c1ca6bc80f98b1a99ac335",
+      "last_updated": "2026-05-22T00:32:40.869436"
     },
     "managing-api-key-environment-variables-in-claude-code.md": {
       "original_url": "https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code",
@@ -1180,8 +1180,8 @@
       "original_url": "https://support.claude.com/en/articles/12618689-claude-code-on-the-web",
       "title": "Claude Code on the web",
       "collection": "Claude Code",
-      "hash": "1068795a2b797655fdff936f863c78ec3ce06ceec0da86af9f5e36d565061c9e",
-      "last_updated": "2026-05-21T21:34:03.795660"
+      "hash": "74104a88034af6362ea6cd6816cd983f47b606a6c220087bc491fd7346b176ac",
+      "last_updated": "2026-05-22T00:32:41.811547"
     },
     "installing-claude-desktop.md": {
       "original_url": "https://support.claude.com/en/articles/10065433-installing-claude-desktop",
@@ -1215,29 +1215,29 @@
       "original_url": "https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac",
       "title": "Use quick entry with Claude Desktop on Mac",
       "collection": "Claude Desktop",
-      "hash": "76bfde785b9819380ab10ed93f79aff1b2d8274833bd5ffa7d0e5b78c444ebd1",
-      "last_updated": "2026-05-21T21:34:05.873368"
+      "hash": "ac9985223c6322f639a8694d7875f0ec0481152f2ece3c5e9897d63b806e68b1",
+      "last_updated": "2026-05-22T00:32:43.280041"
     },
     "enabling-and-using-the-desktop-extension-allowlist.md": {
       "original_url": "https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist",
       "title": "Enabling and using the desktop extension allowlist",
       "collection": "Claude Desktop",
-      "hash": "8dcc2556cea9a844ffbdc33419bd06cc5a6137f9ad83821ffb543e9411b29a6c",
-      "last_updated": "2026-05-21T21:34:06.264457"
+      "hash": "5efed10bcf68404273e84c1246d30720869bfa653f583fd27d1852a000b72d1a",
+      "last_updated": "2026-05-22T00:32:43.544318"
     },
     "deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md": {
       "original_url": "https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions",
       "title": "Deploying enterprise-grade MCP servers with desktop extensions",
       "collection": "Claude Desktop",
-      "hash": "88d5009d464dac94ef5f8efe1758446878feea06abeca9e5c76c451eb8e3febd",
-      "last_updated": "2026-05-21T21:34:06.685372"
+      "hash": "9b85057a8abc1a67daf2fa30cd34dd1ad0cf0970dc90928f69acc51ad405fc95",
+      "last_updated": "2026-05-22T00:32:43.779343"
     },
     "getting-started-with-local-mcp-servers-on-claude-desktop.md": {
       "original_url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop",
       "title": "Getting Started with Local MCP Servers on Claude Desktop",
       "collection": "Claude Desktop",
-      "hash": "069aa7f33221dc42a50c23d004f11532555c794580455dfe131c6a760c519dbf",
-      "last_updated": "2026-05-21T21:34:07.017164"
+      "hash": "a0e22de59e3b0198cbf709672cfbdfeebf7bb382b1f5755c16dc1a40117a29c9",
+      "last_updated": "2026-05-22T00:32:44.065397"
     },
     "using-dictation-on-claude-mobile.md": {
       "original_url": "https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile",
@@ -1362,15 +1362,15 @@
       "original_url": "https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android",
       "title": "How to update Claude for Android",
       "collection": "Claude Mobile Apps",
-      "hash": "2334f9fe25f05cbefec290a437e50653b8ffe56c319e9e0ad4a05479e43dcb7a",
-      "last_updated": "2026-05-21T18:38:58.261510"
+      "hash": "5eb136b4636339ab14b99b7f6d3b7884860af2a742486a258108f3db8596af7f",
+      "last_updated": "2026-05-22T00:32:49.186243"
     },
     "using-claude-with-android-apps.md": {
       "original_url": "https://support.claude.com/en/articles/11869629-using-claude-with-android-apps",
       "title": "Use Claude with Android apps",
       "collection": "Claude Mobile Apps",
-      "hash": "b430a671b8d440dd1d39597b230cef0a9c1fdd1c798be13d6d31ea4c619372e3",
-      "last_updated": "2026-05-21T21:34:14.465574"
+      "hash": "d9de00ecc9448904dfc1fa40835b4dbb3840b9611c071b22128f5d01cc9b5974",
+      "last_updated": "2026-05-22T00:32:49.618628"
     },
     "building-custom-connectors-via-remote-mcp-servers.md": {
       "original_url": "https://support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers",
@@ -1509,15 +1509,15 @@
       "original_url": "https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome",
       "title": "Get started with Claude in Chrome",
       "collection": "Claude in Chrome",
-      "hash": "4f0b460d4b6cd754674833284d6244e81de5c9ec95bdb98c31cbdbf39ac3a7bc",
-      "last_updated": "2026-05-21T21:34:24.289544"
+      "hash": "a22c8934f2f6e2ad85d817050a5d09ba7ff661ff160d20e99f428d95a60c508c",
+      "last_updated": "2026-05-22T00:32:56.355747"
     },
     "claude-in-chrome-permissions-guide.md": {
       "original_url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
       "title": "Claude in Chrome Permissions Guide",
       "collection": "Claude in Chrome",
-      "hash": "502cb8ab3d8868748ad66bb6e35b14756a049c1a109a5618b7f201885ab57311",
-      "last_updated": "2026-05-21T21:34:24.637958"
+      "hash": "0ec194c9e5c5ab2789eb81a8dcde657069f8923523b7e3c9485f8ed460a680e6",
+      "last_updated": "2026-05-22T00:32:56.606870"
     },
     "using-claude-in-chrome-safely.md": {
       "original_url": "https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely",
@@ -1558,8 +1558,8 @@
       "original_url": "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure",
       "title": "Set up the Claude LTI in Canvas by Instructure",
       "collection": "Claude for Education",
-      "hash": "61753ad1b58ab1f78003d71875ea5ef5edca839c8ee54e4c888a7e435437dcc8",
-      "last_updated": "2026-05-21T21:34:28.493133"
+      "hash": "cfdd251f03702da869c5720d04014d0cb616411679de69c2ed569700b9440cff",
+      "last_updated": "2026-05-22T00:32:59.470020"
     },
     "who-owns-and-manages-the-data-of-my-claude-for-education-account.md": {
       "original_url": "https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account",
@@ -1656,8 +1656,8 @@
       "original_url": "https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa",
       "title": "How do I view and sign your Data Processing Addendum (DPA)?",
       "collection": "Privacy and Legal",
-      "hash": "f3d8d65bb2cfbf2d8a9b4eee6efb01cc46cc843585e860d8bca05ba8dc4d0b4e",
-      "last_updated": "2026-05-21T18:39:20.916087"
+      "hash": "b560ab03f17e814b0360f24ad189ae6d25c13456ab424bd8ac3b1fa7d83a50a9",
+      "last_updated": "2026-05-22T00:33:05.554548"
     },
     "updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md": {
       "original_url": "https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy",
@@ -1712,8 +1712,8 @@
       "original_url": "https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules",
       "title": "Claude 4 Invite Sweepstakes Official Rules",
       "collection": "Privacy and Legal",
-      "hash": "54f030b20a268ecb1b63aa3e251aa1c9f6991409362ac0960d0fe7ee36ba8a38",
-      "last_updated": "2026-05-21T21:34:39.311082"
+      "hash": "2d09c8cddc2c2d0e04a765d9139b2958f17ee04054b73f68c6f8b04c108744d5",
+      "last_updated": "2026-05-22T00:33:07.791275"
     },
     "designated-point-of-contact-for-users-in-the-eu.md": {
       "original_url": "https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu",
@@ -1871,13 +1871,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-21T21:34:51.463495",
-    "fetch_duration_seconds": 117.059081,
+    "last_fetch_completed": "2026-05-22T00:33:17.307805",
+    "fetch_duration_seconds": 86.777047,
     "total_articles_discovered": 326,
     "articles_fetched_successfully": 269,
     "articles_failed": 57,
-    "articles_unchanged": 196,
-    "articles_updated": 73,
+    "articles_unchanged": 203,
+    "articles_updated": 66,
     "articles_new": 0,
     "failed_articles": [
       "Examples of projects you can create",
@@ -1909,5 +1909,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "support.claude.com",
-  "last_updated": "2026-05-21T21:34:51.463670"
+  "last_updated": "2026-05-22T00:33:17.307975"
 }

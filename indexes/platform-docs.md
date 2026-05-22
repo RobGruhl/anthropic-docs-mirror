@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-21 21:34*
+*Last updated: 2026-05-22 00:33*
 Total documents: 1273
 ---
 ## Uncategorized (1273 documents)
@@ -276,17 +276,17 @@ Total documents: 1273
 ### agents-and-tools__mcp-tunnels__console
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__console.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/console  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__deploy-compose
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-compose.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-compose  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__deploy-helm
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-helm.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-helm  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__overview
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__overview.md`  
@@ -296,22 +296,22 @@ Total documents: 1273
 ### agents-and-tools__mcp-tunnels__quickstart
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/quickstart  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__reference
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__reference.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/reference  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__security
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__security.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__mcp-tunnels__troubleshooting
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__troubleshooting.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### agents-and-tools__remote-mcp-servers
 **File:** `/platform-docs/agents-and-tools__remote-mcp-servers.md`  

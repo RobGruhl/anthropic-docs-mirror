@@ -1,8 +1,18 @@
 # Release notes
 
-*Updated over a month ago*
+*Updated today*
 
 ---
+
+## May 2026
+
+### May 21, 2026
+
+**Claude now works with more security and compliance tools**
+
+We introduced Claude Compliance API integrations with notable security and compliance tools. Now IT and security teams can govern Claude across our platform and suite of products, the same way they govern other applications in their stack. Learn how to **[get started with Claude Compliance API integrations](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)**. 
+
+ 
 
 ## April 2026
 
