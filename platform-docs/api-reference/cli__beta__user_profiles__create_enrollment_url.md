@@ -42,6 +42,16 @@ ant beta:user-profiles create-enrollment-url \
   --user-profile-id uprof_011CZkZCu8hGbp5mYRQgUmz9
 ```
 
+#### Response
+
+```json
+{
+  "expires_at": "2026-03-15T10:15:00Z",
+  "type": "enrollment_url",
+  "url": "https://platform.claude.com/user-profiles/enrollment/M3J0bGJxZ2ppMnptbnB1"
+}
+```
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/api/cli/beta/user_profiles/create_enrollment_url

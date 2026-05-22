@@ -1,4 +1,4 @@
-## Delete
+## Delete Skill
 
 `SkillDeleteResponse Beta.Skills.Delete(SkillDeleteParamsparameters, CancellationTokencancellationToken = default)`
 
@@ -94,6 +94,15 @@ SkillDeleteParams parameters = new() { SkillID = "skill_id" };
 var skill = await client.Beta.Skills.Delete(parameters);
 
 Console.WriteLine(skill);
+```
+
+#### Response
+
+```json
+{
+  "id": "skill_01JAbcdefghijklmnopqrstuvw",
+  "type": "type"
+}
 ```
 
 

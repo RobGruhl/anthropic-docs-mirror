@@ -1,4 +1,4 @@
-## Delete
+## Delete Environment
 
 `client.beta.environments.delete(stringenvironmentID, EnvironmentDeleteParamsparams?, RequestOptionsoptions?): BetaEnvironmentDeleteResponse`
 
@@ -100,6 +100,15 @@ const betaEnvironmentDeleteResponse = await client.beta.environments.delete(
 );
 
 console.log(betaEnvironmentDeleteResponse.id);
+```
+
+#### Response
+
+```json
+{
+  "id": "env_011CZkZ9X2dpNyB7HsEFoRfW",
+  "type": "environment_deleted"
+}
 ```
 
 

@@ -1,9 +1,9 @@
 # Mcp Topic Index
-*Last updated: 2026-05-22 18:37*
+*Last updated: 2026-05-22 21:29*
 
-Documents related to Mcp across all sources (239 documents)
+Documents related to Mcp across all sources (240 documents)
 ---
-## Platform Documentation (platform.claude.com) (30)
+## Platform Documentation (platform.claude.com) (31)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
 - [admin__mcp_tunnels__archive](/platform-docs/api-reference/admin__mcp_tunnels__archive.md)
 - [admin__mcp_tunnels__list](/platform-docs/api-reference/admin__mcp_tunnels__list.md)
@@ -31,6 +31,7 @@ Documents related to Mcp across all sources (239 documents)
 - [go__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/go__beta__vaults__credentials__mcp_oauth_validate.md)
 - [java__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/java__beta__vaults__credentials__mcp_oauth_validate.md)
 - [managed-agents__mcp-connector](/platform-docs/developer-guide/managed-agents__mcp-connector.md)
+- [php__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/php__beta__vaults__credentials__mcp_oauth_validate.md)
 - [python__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/python__beta__vaults__credentials__mcp_oauth_validate.md)
 - [ruby__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/ruby__beta__vaults__credentials__mcp_oauth_validate.md)
 - [typescript__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/typescript__beta__vaults__credentials__mcp_oauth_validate.md)

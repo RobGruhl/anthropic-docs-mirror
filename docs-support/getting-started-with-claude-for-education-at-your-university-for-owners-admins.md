@@ -1,6 +1,6 @@
-# Getting Started with Claude for Education at Your University (for Owners/Admins)
+# Get started with Claude for Education at your university (for Owners/Admins)
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -12,7 +12,7 @@ This guide helps Admins, Owners, and Primary Owners set up and manage Claude for
 
  
 
-## Getting started
+## Get started
 
 Before setting up your Claude for Education account, review these essential resources:
 
@@ -24,12 +24,11 @@ Note the following information from [Important Considerations Before Enabling Si
 
  
 
-## Enabling and Using Education Features
+## Enable and use Education features
 
 After getting started with your plan, choose which Education features you’d like use and configure them in your account:
 
 - [Project visibility and sharing](https://support.claude.com/en/articles/9519189-project-visibility-and-sharing)
-- [Using Google Drive Cataloging](https://support.claude.com/en/articles/11088779-using-google-drive-cataloging-on-the-enterprise-plan)
 - [Setting Up Claude Integrations](https://support.claude.com/en/articles/10168395-setting-up-claude-integrations)
 - [Enabling and Using Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
 
@@ -42,7 +41,7 @@ Familiarize yourself with audit logs, data retention controls, and other adminis
 - [How can I disable public projects?](https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects)
 -  
 
-## Setting Up Support Paths
+## Set up support paths
 
 Anthropic Support assists Primary Owners and Owners directly. See [How to Get Support](https://support.claude.com/en/articles/9015913-how-to-get-support) for more information on your support options. 
 
@@ -61,7 +60,7 @@ In addition, share the [FAQs on using Claude for Education at your university](h
 
  
 
-## Privacy and Data Retention
+## Privacy and data retention
 
 Visit our [Privacy Center](https://privacy.claude.com/en/collections/10663361-commercial-customers) for comprehensive information about your account's data retention and handling. The Privacy Center includes:
 

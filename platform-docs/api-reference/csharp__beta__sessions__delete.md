@@ -1,4 +1,4 @@
-## Delete
+## Delete Session
 
 `BetaManagedAgentsDeletedSession Beta.Sessions.Delete(SessionDeleteParamsparameters, CancellationTokencancellationToken = default)`
 
@@ -91,6 +91,15 @@ SessionDeleteParams parameters = new()
 var betaManagedAgentsDeletedSession = await client.Beta.Sessions.Delete(parameters);
 
 Console.WriteLine(betaManagedAgentsDeletedSession);
+```
+
+#### Response
+
+```json
+{
+  "id": "sesn_011CZkZAtmR3yMPDzynEDxu7",
+  "type": "session_deleted"
+}
 ```
 
 

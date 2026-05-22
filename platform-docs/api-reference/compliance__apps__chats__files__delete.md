@@ -1,4 +1,4 @@
-## Delete
+## Delete file
 
 **delete** `/v1/compliance/apps/chats/files/{claude_file_id}`
 
@@ -33,6 +33,15 @@ operation that cannot be undone.
 curl https://api.anthropic.com/v1/compliance/apps/chats/files/$CLAUDE_FILE_ID \
     -X DELETE \
     -H "Authorization: Bearer $ANTHROPIC_COMPLIANCE_API_KEY"
+```
+
+#### Response
+
+```json
+{
+  "id": "claude_file_xyz789",
+  "type": "claude_file_deleted"
+}
 ```
 
 

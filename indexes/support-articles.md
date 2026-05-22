@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-22 18:37*
+*Last updated: 2026-05-22 21:29*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -16,7 +16,7 @@ Total documents: 267
 ### About the Development Partner Program
 **File:** `/docs-support/about-the-development-partner-program.md`  
 **Source:** https://support.claude.com/en/articles/11174108-about-the-development-partner-program  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### Access audit logs
 **File:** `/docs-support/how-to-access-audit-logs.md`  
@@ -266,7 +266,7 @@ Total documents: 267
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -346,7 +346,7 @@ Total documents: 267
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
 **Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -362,6 +362,11 @@ Total documents: 267
 **File:** `/docs-support/getting-started-with-cowork.md`  
 **Source:** https://support.claude.com/en/articles/13345190-getting-started-with-cowork  
 **Updated:** 2026-05-17  
+
+### Get started with Claude for Education at your university (for Owners/Admins)
+**File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
+**Source:** https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins  
+**Updated:** 2026-05-22  
 
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
@@ -387,11 +392,6 @@ Total documents: 267
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9267247-how-do-i-get-started-with-the-team-plan  
 **Updated:** 2026-05-17  
-
-### Getting Started with Claude for Education at Your University (for Owners/Admins)
-**File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
-**Source:** https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins  
-**Updated:** 2026-05-20  
 
 ### Getting Started with Local MCP Servers on Claude Desktop
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
@@ -481,7 +481,7 @@ Total documents: 267
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
 **Source:** https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### How can I uninstall Claude for Android?
 **File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
@@ -651,7 +651,7 @@ Total documents: 267
 ### I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 **File:** `/docs-support/i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md`  
 **Source:** https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-22  
 
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
@@ -706,7 +706,7 @@ Total documents: 267
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -791,7 +791,7 @@ Total documents: 267
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -1056,7 +1056,7 @@ Total documents: 267
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
 **Source:** https://support.claude.com/en/articles/10166901-using-the-google-drive-integration  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### Use Skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
@@ -1081,7 +1081,7 @@ Total documents: 267
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-22  
 
 ### Use quick entry with Claude Desktop on Mac
 **File:** `/docs-support/use-quick-entry-with-claude-desktop-on-mac.md`  
@@ -1251,7 +1251,7 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1306,12 +1306,12 @@ Total documents: 267
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-22  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-22  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  

@@ -1,4 +1,4 @@
-## Delete
+## Delete Vault
 
 `client.beta.vaults.delete(stringvaultID, VaultDeleteParamsparams?, RequestOptionsoptions?): BetaManagedAgentsDeletedVault`
 
@@ -98,6 +98,15 @@ const betaManagedAgentsDeletedVault = await client.beta.vaults.delete(
 );
 
 console.log(betaManagedAgentsDeletedVault.id);
+```
+
+#### Response
+
+```json
+{
+  "id": "vlt_011CZkZDLs7fYzm1hXNPeRjv",
+  "type": "vault_deleted"
+}
 ```
 
 

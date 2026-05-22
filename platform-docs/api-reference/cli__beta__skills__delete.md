@@ -1,4 +1,4 @@
-## Delete
+## Delete Skill
 
 `$ ant beta:skills delete`
 
@@ -40,6 +40,15 @@ Delete Skill
 ant beta:skills delete \
   --api-key my-anthropic-api-key \
   --skill-id skill_id
+```
+
+#### Response
+
+```json
+{
+  "id": "skill_01JAbcdefghijklmnopqrstuvw",
+  "type": "type"
+}
 ```
 
 

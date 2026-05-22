@@ -1,9 +1,9 @@
 # Skills Topic Index
-*Last updated: 2026-05-22 18:37*
+*Last updated: 2026-05-22 21:29*
 
-Documents related to Skills across all sources (117 documents)
+Documents related to Skills across all sources (128 documents)
 ---
-## Platform Documentation (platform.claude.com) (92)
+## Platform Documentation (platform.claude.com) (103)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
@@ -63,6 +63,17 @@ Documents related to Skills across all sources (117 documents)
 - [java__beta__skills__versions__download](/platform-docs/api-reference/java__beta__skills__versions__download.md)
 - [java__beta__skills__versions__list](/platform-docs/api-reference/java__beta__skills__versions__list.md)
 - [java__beta__skills__versions__retrieve](/platform-docs/api-reference/java__beta__skills__versions__retrieve.md)
+- [php__beta__skills](/platform-docs/api-reference/php__beta__skills.md)
+- [php__beta__skills__create](/platform-docs/api-reference/php__beta__skills__create.md)
+- [php__beta__skills__delete](/platform-docs/api-reference/php__beta__skills__delete.md)
+- [php__beta__skills__list](/platform-docs/api-reference/php__beta__skills__list.md)
+- [php__beta__skills__retrieve](/platform-docs/api-reference/php__beta__skills__retrieve.md)
+- [php__beta__skills__versions](/platform-docs/api-reference/php__beta__skills__versions.md)
+- [php__beta__skills__versions__create](/platform-docs/api-reference/php__beta__skills__versions__create.md)
+- [php__beta__skills__versions__delete](/platform-docs/api-reference/php__beta__skills__versions__delete.md)
+- [php__beta__skills__versions__download](/platform-docs/api-reference/php__beta__skills__versions__download.md)
+- [php__beta__skills__versions__list](/platform-docs/api-reference/php__beta__skills__versions__list.md)
+- [php__beta__skills__versions__retrieve](/platform-docs/api-reference/php__beta__skills__versions__retrieve.md)
 - [python__beta__skills](/platform-docs/api-reference/python__beta__skills.md)
 - [python__beta__skills__create](/platform-docs/api-reference/python__beta__skills__create.md)
 - [python__beta__skills__delete](/platform-docs/api-reference/python__beta__skills__delete.md)

@@ -1,9 +1,9 @@
 # Api Topic Index
-*Last updated: 2026-05-22 18:37*
+*Last updated: 2026-05-22 21:29*
 
-Documents related to Api across all sources (126 documents)
+Documents related to Api across all sources (137 documents)
 ---
-## Platform Documentation (platform.claude.com) (88)
+## Platform Documentation (platform.claude.com) (99)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
 - [beta__skills__create](/platform-docs/api-reference/beta__skills__create.md)
 - [beta__skills__delete](/platform-docs/api-reference/beta__skills__delete.md)
@@ -59,6 +59,17 @@ Documents related to Api across all sources (126 documents)
 - [java__beta__skills__versions__download](/platform-docs/api-reference/java__beta__skills__versions__download.md)
 - [java__beta__skills__versions__list](/platform-docs/api-reference/java__beta__skills__versions__list.md)
 - [java__beta__skills__versions__retrieve](/platform-docs/api-reference/java__beta__skills__versions__retrieve.md)
+- [php__beta__skills](/platform-docs/api-reference/php__beta__skills.md)
+- [php__beta__skills__create](/platform-docs/api-reference/php__beta__skills__create.md)
+- [php__beta__skills__delete](/platform-docs/api-reference/php__beta__skills__delete.md)
+- [php__beta__skills__list](/platform-docs/api-reference/php__beta__skills__list.md)
+- [php__beta__skills__retrieve](/platform-docs/api-reference/php__beta__skills__retrieve.md)
+- [php__beta__skills__versions](/platform-docs/api-reference/php__beta__skills__versions.md)
+- [php__beta__skills__versions__create](/platform-docs/api-reference/php__beta__skills__versions__create.md)
+- [php__beta__skills__versions__delete](/platform-docs/api-reference/php__beta__skills__versions__delete.md)
+- [php__beta__skills__versions__download](/platform-docs/api-reference/php__beta__skills__versions__download.md)
+- [php__beta__skills__versions__list](/platform-docs/api-reference/php__beta__skills__versions__list.md)
+- [php__beta__skills__versions__retrieve](/platform-docs/api-reference/php__beta__skills__versions__retrieve.md)
 - [python__beta__skills](/platform-docs/api-reference/python__beta__skills.md)
 - [python__beta__skills__create](/platform-docs/api-reference/python__beta__skills__create.md)
 - [python__beta__skills__delete](/platform-docs/api-reference/python__beta__skills__delete.md)

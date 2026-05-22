@@ -1,4 +1,4 @@
-## Delete
+## Delete Skill Version
 
 `VersionDeleteResponse Beta.Skills.Versions.Delete(VersionDeleteParamsparameters, CancellationTokencancellationToken = default)`
 
@@ -104,6 +104,15 @@ VersionDeleteParams parameters = new()
 var version = await client.Beta.Skills.Versions.Delete(parameters);
 
 Console.WriteLine(version);
+```
+
+#### Response
+
+```json
+{
+  "id": "1759178010641129",
+  "type": "type"
+}
 ```
 
 
