@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-22 10:08*
+*Last updated: 2026-05-22 12:49*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
