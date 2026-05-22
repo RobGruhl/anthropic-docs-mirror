@@ -1,10 +1,12 @@
 # Enterprise configuration for Claude Desktop
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
 Administrators on Team or Enterprise plans can control Claude Desktop through system policies.
+
+ 
 
 ---
 
@@ -54,13 +56,15 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Claude" -Name "isClaudeCodeForDe
 
 | **Key** | **Type** | **Default** | **Description** |
 | --- | --- | --- | --- |
-| disableAutoUpdates | Boolean | false | Disable automatic updates |
-| autoUpdaterEnforcementHours | Integer (1-72) | 72 | Hours before forcefully restarting Claude to apply a prepared update |
-| isClaudeCodeForDesktopEnabled | Boolean | true | Enable Claude code access in desktop |
-| isDesktopExtensionEnabled | Boolean | true | Enable/disable extensions |
-| isDesktopExtensionDirectoryEnabled | Boolean | true | Enable extension directory access |
-| isLocalDevMcpEnabled | Boolean | true | Enable local MCP servers |
-| secureVmFeaturesEnabled | Boolean | true | Enable **[Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)** access in desktop |
+| `allowedWorkspaceFolders` | string[] (JSON) | Unrestricted | Filepath or filepaths the user can mount to Cowork |
+| `autoUpdaterEnforcementHours` | Integer (1-72) | 72 | Hours before forcefully restarting Claude to apply a prepared update |
+| `disableAutoUpdates` | Boolean | false | Disable automatic updates |
+| `forceloginOrgUUID` | string / array | null | Require login to belong to a specific organization. Accepts a single UUID string, which also pre-selects that organization during login, or an array of UUIDs where any listed organization is accepted without pre-selection. Login fails if the authenticated account does not belong to a listed organization. |
+| `isClaudeCodeForDesktopEnabled` | Boolean | true | Enable Claude code access in desktop |
+| `isDesktopExtensionEnabled` | Boolean | true | Enable/disable extensions |
+| `isDesktopExtensionDirectoryEnabled` | Boolean | true | Enable extension directory access |
+| `isLocalDevMcpEnabled` | Boolean | true | Enable local MCP servers |
+| `secureVmFeaturesEnabled` | Boolean | true | Enable **[Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)** access in desktop |
 
 
 ---
