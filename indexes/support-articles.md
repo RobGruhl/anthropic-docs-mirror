@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-23 09:36*
+*Last updated: 2026-05-23 12:20*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -376,7 +376,7 @@ Total documents: 267
 ### Get started with Claude in Slack
 **File:** `/docs-support/getting-started-with-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-23  
 
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
@@ -1031,7 +1031,7 @@ Total documents: 267
 ### Use Claude in Slack
 **File:** `/docs-support/using-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-23  
 
 ### Use Claude in Xcode
 **File:** `/docs-support/using-claude-in-xcode.md`  
@@ -1041,7 +1041,7 @@ Total documents: 267
 ### Use Claude with Android apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-05-22  
+**Updated:** 2026-05-23  
 
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
@@ -1101,7 +1101,7 @@ Total documents: 267
 ### Use voice mode
 **File:** `/docs-support/using-voice-mode.md`  
 **Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
-**Updated:** 2026-05-22  
+**Updated:** 2026-05-23  
 
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
