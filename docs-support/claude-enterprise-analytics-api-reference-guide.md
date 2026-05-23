@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779561900&signature=7a6b90c25d2b275c45a804729ac61a3371cb1101815cc1b2ab628403b377bc64&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAFdBfSFbDaBcaxqj4z%2Ffysy1FU8jjDiHFu%0AMykrycsAQEju4uT81oY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779572700&signature=d58e4895f67edd4cffeb5011d67d5bf34b3ca6e78a8f1acec72b9a63364ce92a&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAFdRTcFbDaBcaxqj6F86TkbJrDMq4jpRpl%0Ani2MRELWg7XdYKvhVwk%3D%0A)
 
  
 
