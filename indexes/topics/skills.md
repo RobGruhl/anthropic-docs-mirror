@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-05-22 21:29*
+*Last updated: 2026-05-23 00:32*
 
-Documents related to Skills across all sources (128 documents)
+Documents related to Skills across all sources (127 documents)
 ---
 ## Platform Documentation (platform.claude.com) (103)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -123,7 +123,7 @@ Documents related to Skills across all sources (128 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (16)
+## Claude.com Blog Posts (15)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [Advancing Claude for Excel and PowerPoint](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
@@ -138,6 +138,5 @@ Documents related to Skills across all sources (128 documents)
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 

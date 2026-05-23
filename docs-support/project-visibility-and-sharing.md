@@ -11,7 +11,7 @@ When creating a project on a Team or Enterprise plan, you can choose between two
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1779487200&signature=7b21e72bf95b404bdd0179fa91ea4a51aedcc1902fab4a9928c6d5221eb85beb&req=dScjFsp5nYhWWPMW1HO4zd3a1lUgLImlHK95%2FTFaPylCPlG8OCBtStMDNt0A%0A8CU4LCeqlx%2BBZMQt4f4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1779498000&signature=1de47f53bd3b0921673b691a611e718109fa33e5267a683d2f9f6e20fc5bdbab&req=dScjFsp5nYhWWPMW1HO4zd3a1lUgLYanHK95%2FTFaPyl5AR7KqKMFehTaD78y%0Aok3aucvODnJ9xzehhIo%3D%0A)
 
  
 
@@ -27,7 +27,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1779487200&signature=44b48552ac375730249ecdb5132474803eb1d36deef1f2d1e966fefbcdba62bd&req=dScjFsp5nYhXXvMW1HO4zUiDrSDziQErE8Kp5wh0MSCK18N2fucs6fv3Az%2FZ%0ARHMV1e6hmsPiHCrHAB8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1779498000&signature=02d9ddb834c5f0daa31a62acf1d91bcde6301f660fb7d2a187b6818a1d555e43&req=dScjFsp5nYhXXvMW1HO4zUiDrSDziA4pE8Kp5wh0MSDL9erMuoZYU1q3vZU7%0AteQvRBtmprzdllNfllA%3D%0A)
 
  
 
@@ -35,7 +35,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1779487200&signature=a6eef38ed192fd1059a14ae7cea8e11f8752471d9851135045badf57538b2fef&req=dScjFsp5nYhXUfMW1HO4zckCLvtmaiWml3XeGelDRW3xsDrFDKyIADXBEz7%2F%0APa5BRNizwq6FTFb1VUY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1779498000&signature=f7db94c85f3e49047a43a1ede8201e4b4869674a384dcd8b580cf818e62c2bf7&req=dScjFsp5nYhXUfMW1HO4zckCLvtmayqkl3XeGelDRW1%2BCG7gbsIORIH9RVpd%0A92vt4mpIze1k%2BF5ib9U%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1779487200&signature=10c677954c60c67afa515ccf0a00a3a077b34ab11846d8cfff22b7ea381e73b8&req=dScjFsp5nYhXUPMW1HO4zaSEFVqYQr8P2JrJefVtywkU18BkC57I21o0%2FtW%2F%0AwwE%2FnJ3dYX7yRdMCf1k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1779498000&signature=b35e488ad714be2a81dd322a9583f213baeb4a964bd3748463c257abe81a47ec&req=dScjFsp5nYhXUPMW1HO4zaSEFVqYQ7AN2JrJefVtywkBLuwTctluxNA7R3WG%0AaKGYVvxiL1%2FGrLAiElU%3D%0A)
 
  
 
@@ -59,7 +59,7 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1779487200&signature=10dc4597e53a49036fef4a4de7b67f130a9a046f1a84cc5eacb9dfcc91cafdc4&req=dScjFsp5nYhWWfMW1HO4zT7Q3MG%2FtQsUAmYRPrgMBZnYkYNOFNQPbmJXIBlU%0A%2FN1woCwG1DNknraQGx8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1779498000&signature=afa1b0574ff77335b3afa7a0c396e807c1572f36bd6d59e932cb7fb60a8a25c8&req=dScjFsp5nYhWWfMW1HO4zT7Q3MG%2FtAQWAmYRPrgMBZkbZRJlzxh0zQxTEPVb%0ATSWdpH8zYXD9mvAr%2FG4%3D%0A)
 
  
 
@@ -90,7 +90,7 @@ You can add multiple users at once by copying and pasting a list of email addres
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1779487200&signature=03809274907098017e97eb839c6ba027fe65b1a81443f612d60f9ce39ec91576&req=dScjFsp5nYhWW%2FMW1HO4zb8C2HTQRgex3jdyj4AFq6Y3uf8trufpsjM7pMIE%0AjhU%2FgliJ1TXBh0h0QpM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1779498000&signature=5466631e82ad77721e6e0cd912d3f2dfe9c261d3a9e1971271f10cd0cc604442&req=dScjFsp5nYhWW%2FMW1HO4zb8C2HTQRwiz3jdyj4AFq6bN2KHX5B2Qp3MkVKy%2F%0Adz5a0znvQOat1GuJukM%3D%0A)
 
  
 

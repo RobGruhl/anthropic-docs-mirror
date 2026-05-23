@@ -1,7 +1,7 @@
 # Mcp Topic Index
-*Last updated: 2026-05-22 21:29*
+*Last updated: 2026-05-23 00:32*
 
-Documents related to Mcp across all sources (240 documents)
+Documents related to Mcp across all sources (239 documents)
 ---
 ## Platform Documentation (platform.claude.com) (31)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
@@ -235,7 +235,7 @@ Documents related to Mcp across all sources (240 documents)
 - [Desktop Extensions: One-click MCP server installation for Claude Desktop](/engineering-blog/desktop-extensions.md) - Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (9)
+## Claude.com Blog Posts (8)
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Claude can now connect to your world](/claude-blog/integrations.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
@@ -243,7 +243,6 @@ Documents related to Mcp across all sources (240 documents)
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels](/claude-blog/claude-managed-agents-updates.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
 ## Support Articles (11)
