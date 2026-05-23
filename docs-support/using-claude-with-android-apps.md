@@ -1,6 +1,6 @@
 # Use Claude with Android apps
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -196,7 +196,7 @@ For features requiring permissions (like location or calendar access), Claude wi
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779552000&signature=0c93bf04626b908de67911e29301ed0364b5134ff9d71a079c36a2cd769d64c5&req=dScnEcp7nIdeXfMW1HO4zQe5FVaK3if0S5x65TIld%2FBhLr8oFX21XqRdJss7%0AZ6%2Fp4snY%2BkUTc9rvc1s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779561900&signature=fab0fdd8e43e2b15a709ebbdf796dc62bd187352961327d2b7bc1122eca03739&req=dScnEcp7nIdeXfMW1HO4zQe5FVaK3ST9S5x65TIld%2FDqhpRs%2BYVHtuKbtymZ%0AuyDwSpHovQir%2F9cVHbc%3D%0A)
 
  
 

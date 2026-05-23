@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1779552000&signature=7a66bba3e5e78a8b890a4a18bccd0a73bbb46cead6aa045ae2882c3efa5c5e50&req=diAjFMp7n4FZWfMW1HO4zU6VSvTPTb5pxNdRzYWrfF6sMw4vM%2Blqk30Am6zm%0AqpGJWqT5DpyGScMB1jc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1779561900&signature=87fcebef4ca03841ee0181475a442315408bd58be2f208ceb5d1572d96f3072b&req=diAjFMp7n4FZWfMW1HO4zU6VSvTPTr1gxNdRzYWrfF79iOGjK8hGpAVb%2B%2Bfh%0AAVE%2BPbk0vw0Gc2LmkBY%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1779552000&signature=bb6112887309af01ae83b9cee168521d06b60c7693091edf260df1e1319312eb&req=diAjFMp7n4FZWvMW1HO4zZ3%2FF2OQZVIKy8OQfYsvK3xR1V3htLCzQ2aCWdGW%0Awzu1bhJwV8oo0lT%2FLKo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1779561900&signature=86b9e3f7cddc13b0700ebf8c8b6ab169416e41bbdd825dde799c85c9e8272692&req=diAjFMp7n4FZWvMW1HO4zZ3%2FF2OQZlEDy8OQfYsvK3zRPjWSZn%2F7lyEe3ccp%0AIS4e5TlLzaRsg%2FEwspw%3D%0A)
 
  
 
