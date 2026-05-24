@@ -34,7 +34,7 @@ If your organization is on a Team plan (or hasn't initiated domain claiming), yo
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1779648300&signature=e6385fb4cc2506e33b328ddd24c407b67ea958b12dce57c90a855e61556abd8d&req=diMmFMh3noJbXvMW1HO4zXhPktkwzBdiufhmlOXMdYY84SGbvk7TjVAdg%2BYj%0ArxiI3KfILZGOyleVnlo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1779659100&signature=c952725f74560d0ba8dde5a6d35443c9cb5885290411ee26825894b32ae74f19&req=diMmFMh3noJbXvMW1HO4zXhPktkwzRZgufhmlOXMdYaJgrGkOFceSIh2zBhF%0A1AnFj52igT0uDIIFnXI%3D%0A)
 
  
 
