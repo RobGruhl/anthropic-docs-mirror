@@ -1,6 +1,6 @@
-# Enabling and using web search
+# Enable and use web search
 
-*Updated over a week ago*
+*Updated in the last hour*
 
 ---
 
@@ -11,9 +11,6 @@ You can have Claude search the internet to provide you with up-to-date informati
 - Opus 4.6
 - Opus 4.5
 - Haiku 4.5 
-- Sonnet 4.5
-
- 
 
 Web search expands Claude's knowledge with real-time data, helping you make better-informed decisions with current information.
 
@@ -130,8 +127,8 @@ You can re-enable it anytime you need current information.
 
 ## Related Articles
 
-- [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
-- [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
-- [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)
+- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
+- [MCP: Web Search](https://support.claude.com/en/articles/14503775-mcp-web-search)

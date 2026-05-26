@@ -32,7 +32,7 @@ Interactive inputs don't involve third-party services.
 ## Related Articles
 
 - [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
-- [Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
+- [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Visual and interactive content](https://support.claude.com/en/articles/13641943-visual-and-interactive-content)

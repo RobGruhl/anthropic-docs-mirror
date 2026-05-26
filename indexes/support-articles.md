@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-05-26 16:20*
-Total documents: 267
+*Last updated: 2026-05-26 18:49*
+Total documents: 266
 ---
-## Uncategorized (267 documents)
+## Uncategorized (266 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -96,7 +96,7 @@ Total documents: 267
 ### Business Associate Agreements (BAA) for Commercial Customers
 **File:** `/docs-support/business-associate-agreements-baa-for-commercial-customers.md`  
 **Source:** https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-26  
 
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
@@ -131,7 +131,7 @@ Total documents: 267
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-05-24  
+**Updated:** 2026-05-26  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -226,7 +226,7 @@ Total documents: 267
 ### Configure and use styles
 **File:** `/docs-support/configure-and-use-styles.md`  
 **Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-26  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -256,7 +256,7 @@ Total documents: 267
 ### Creating a new account after deletion
 **File:** `/docs-support/creating-a-new-account-after-deletion.md`  
 **Source:** https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-26  
 
 ### Creating and managing Workspaces in the Claude Console
 **File:** `/docs-support/creating-and-managing-workspaces-in-the-claude-console.md`  
@@ -293,10 +293,10 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
 **Updated:** 2026-05-26  
 
-### Designated Point of Contact for Users in the EU
+### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
 **Source:** https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-26  
 
 ### Disable public projects for your organization
 **File:** `/docs-support/how-can-i-disable-public-projects.md`  
@@ -313,15 +313,15 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
 **Updated:** 2026-05-17  
 
+### Enable and use web search
+**File:** `/docs-support/enabling-and-using-web-search.md`  
+**Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
+**Updated:** 2026-05-26  
+
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
 **Source:** https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist  
 **Updated:** 2026-05-26  
-
-### Enabling and using web search
-**File:** `/docs-support/enabling-and-using-web-search.md`  
-**Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-05-17  
 
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
@@ -451,7 +451,7 @@ Total documents: 267
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-26  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -606,7 +606,7 @@ Total documents: 267
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android  
-**Updated:** 2026-05-24  
+**Updated:** 2026-05-26  
 
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
@@ -621,7 +621,7 @@ Total documents: 267
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
 **Source:** https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-26  
 
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
@@ -666,7 +666,7 @@ Total documents: 267
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-26  
 
 ### Install Claude Desktop
 **File:** `/docs-support/installing-claude-desktop.md`  
@@ -876,7 +876,7 @@ Total documents: 267
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-26  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
@@ -931,7 +931,7 @@ Total documents: 267
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-26  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
@@ -1066,17 +1066,12 @@ Total documents: 267
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-26  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
-**Updated:** 2026-05-25  
-
-### Use enterprise search
-**File:** `/docs-support/using-enterprise-search.md`  
-**Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-26  
 
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
@@ -1096,7 +1091,7 @@ Total documents: 267
 ### Use visual and interactive content on Team and Enterprise plans
 **File:** `/docs-support/visual-and-interactive-content-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13663666-visual-and-interactive-content-for-team-and-enterprise-plans  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-26  
 
 ### Use voice mode
 **File:** `/docs-support/using-voice-mode.md`  
@@ -1211,7 +1206,7 @@ Total documents: 267
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-05-24  
+**Updated:** 2026-05-26  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1261,7 +1256,7 @@ Total documents: 267
 ### When should I use web search, extended thinking, and Research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
 **Source:** https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-26  
 
 ### When to use desktop and web connectors
 **File:** `/docs-support/when-to-use-desktop-and-web-connectors.md`  

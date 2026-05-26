@@ -28,7 +28,7 @@ Claude automatically displays temperatures in Fahrenheit for US locations and Ce
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1779813900&signature=62ed4cf91ecd5de05989d62ae66370d2b24032e973f598896800c6c27b22319f&req=diAjFsx6mYhdXvMW1HO4zXlB4jey1BuBdgndksVD5R0Ze%2BhNkcN%2Bf0rEPK1S%0A1OZEQXabrpwT9oGJIwg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1779822900&signature=5001da4f5af8affd2770c7975ec3c03f659fd2b86f128dc55b0799cf33317c03&req=diAjFsx6mYhdXvMW1HO4zXlB4jey1xqBdgndksVD5R2ACrSQtn9%2FuVaBW0p%2F%0AbymlSHFppcSKOAQg6bs%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ When you ask about recipes, Claude can display formatted recipe cards that are e
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1779813900&signature=777f86ee37359c6047ec252db108a53902ef0f9224c9a8b15ff2aff56d4957ae&req=diAjFsx6mYhdUPMW1HO4zUQpdLkd01eerIPm%2FImZVg3kiEPwFRuF6poVUOrv%0ARUyfj6IxvvbPquMwvlY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1779822900&signature=3aaf8bdcf63175c991a39077f32ee214982d73f7fd9519a9fcf8a4c9eb02f8fa&req=diAjFsx6mYhdUPMW1HO4zUQpdLkd0FaerIPm%2FImZVg3YkSDRvsVdJUg4ux%2F4%0AucwQDW%2Fe1reLIMs%2FUEA%3D%0A)
 
  
 
@@ -101,7 +101,7 @@ For example, if you ask Claude to help you plan a trip, it might ask you to:
 
 This content appears at the bottom of the chat. You can still type a response if you prefer.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1779813900&signature=68cf637b24ab525046a1ae2a7f1905614c0ce9d4c49cf64fd5b8a21b30f1c03c&req=diAjFsx6mYhcWfMW1HO4zWmF6Py2aB2rx4wz0C7CTAJivA8m%2BObmh%2FwOka1O%0ApMmOLUlwj1kH4%2BU3aYM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1779822900&signature=1ae08deb1e63c719d70bb6b681a982d35e4a302b0d2330a5f8ceac4b05a7df17&req=diAjFsx6mYhcWfMW1HO4zWmF6Py2axyrx4wz0C7CTAI%2BG5isnFlVwWb%2B73QY%0AUc1O05d%2Bqk57ddzQYck%3D%0A)
 
  
 
@@ -144,7 +144,7 @@ This content appears at the bottom of the chat. You can still type a response if
 ## Related Articles
 
 - [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
-- [Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
+- [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
 - [Use visual and interactive content on Team and Enterprise plans](https://support.claude.com/en/articles/13663666-use-visual-and-interactive-content-on-team-and-enterprise-plans)
 - [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)

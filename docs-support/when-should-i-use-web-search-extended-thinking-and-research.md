@@ -55,7 +55,7 @@ Combining extended thinking with Research allows Claude to both plan its approac
 ## Related Articles
 
 - [Using extended thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
-- [Enabling and using web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
+- [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search)
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
