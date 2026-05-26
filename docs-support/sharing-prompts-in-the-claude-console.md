@@ -57,7 +57,7 @@ To see previous versions of a prompt:
 2. Select "Share" from the dropdown menu.
 3. Change the access settings from "Shared" to "Private":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1779746400&signature=ee1d1281f136e048cbdb40eb9c00ae1e2137f4f16bb4eff412101c4a4bc438c8&req=dSQnH8F3lYBZX%2FMW1HO4zZMvu17ZQPBlH68akkuAPm3VGdPuqTARCd9mif09%0A%2B1JZLL8F1FEo4txhBY0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1779757200&signature=9ebd244013e53e099e42c574c22c07a0f1a1ffb0dded8d4e2f0d661e3cd5a906&req=dSQnH8F3lYBZX%2FMW1HO4zZMvu17ZQfFjH68akkuAPm0mMH4v1ljVMJLD1f3K%0A%2BSkzk4QbgFLjRPZGGgc%3D%0A)
 
 
 ---
