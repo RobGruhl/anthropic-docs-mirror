@@ -1,10 +1,11 @@
 # Security Topic Index
-*Last updated: 2026-05-26 18:49*
+*Last updated: 2026-05-26 21:36*
 
-Documents related to Security across all sources (8 documents)
+Documents related to Security across all sources (9 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
 - [Security](/code-claude-docs/security.md)
+- [Security Guidance](/code-claude-docs/security-guidance.md)
 
 ## Engineering Blog Posts (1)
 - [Beyond permission prompts: making Claude Code more secure and autonomous](/engineering-blog/claude-code-sandboxing.md) - Learn how Claude Code's new sandboxing feature protects developers with files...

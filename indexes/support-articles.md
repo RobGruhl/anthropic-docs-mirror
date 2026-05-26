@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-05-26 18:49*
-Total documents: 266
+*Last updated: 2026-05-26 21:36*
+Total documents: 267
 ---
-## Uncategorized (266 documents)
+## Uncategorized (267 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -1071,6 +1071,11 @@ Total documents: 266
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
+**Updated:** 2026-05-26  
+
+### Use enterprise search
+**File:** `/docs-support/using-enterprise-search.md`  
+**Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
 **Updated:** 2026-05-26  
 
 ### Use interactive connectors in Claude

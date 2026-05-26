@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-26 18:49*
+*Last updated: 2026-05-26 21:36*
 
 Documents related to Claude Code across all sources (221 documents)
 ---
@@ -49,7 +49,6 @@ Documents related to Claude Code across all sources (221 documents)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
 - [Deep Links](/code-claude-docs/deep-links.md)
 - [Desktop](/code-claude-docs/desktop.md)
-- [Desktop Changelog](/code-claude-docs/desktop-changelog.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
 - [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)
 - [Devcontainer](/code-claude-docs/devcontainer.md)
@@ -113,6 +112,7 @@ Documents related to Claude Code across all sources (221 documents)
 - [Scheduled Tasks](/code-claude-docs/scheduled-tasks.md)
 - [Secure Deployment](/code-claude-docs/agent-sdk__secure-deployment.md)
 - [Security](/code-claude-docs/security.md)
+- [Security Guidance](/code-claude-docs/security-guidance.md)
 - [Server Managed Settings](/code-claude-docs/server-managed-settings.md)
 - [Session Storage](/code-claude-docs/agent-sdk__session-storage.md)
 - [Sessions](/code-claude-docs/agent-sdk__sessions.md)
