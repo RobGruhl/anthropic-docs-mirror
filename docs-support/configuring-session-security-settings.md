@@ -18,7 +18,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 7 days, 14 days, or 28 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1779802200&signature=51fb738011f325baa978c5dbf12263608290f1dd6b9211012fd21f279744b094&req=dSgvHs14lIVcX%2FMW1HO4zQNx5OsvQ1hSg%2F6XaftFnjxmhMCfDDq3XlEsgklN%0ACgfYDbmAJxp23o6ovc8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1779813900&signature=689c2603c10171d6566499b5acca38b5cd83b6c8b85018b952959028fc80e0ac&req=dSgvHs14lIVcX%2FMW1HO4zQNx5OsvQllZg%2F6XaftFnjzZBABHCEcO%2BMR0W8q0%0A%2FuxQcPgQVu3qZQp6voo%3D%0A)
 
  
 
@@ -30,7 +30,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 3 days, or 7 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1779802200&signature=866c2fe0a7dd0ed51dc197bfed44e8f727c9cce95c26fa460424fd816dfbd3f4&req=dSgvHs14lIVcXPMW1HO4zWzx17A%2BJ30jXZ5D7eVpMtfySDFwi8SmADw5QldL%0Ankj%2Fjmo93WUsxJ8hArw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1779813900&signature=c0fb84f75f3bdca0cb363b6f9fd090910a0307b60586e9d3f6cfc57895fc9cc7&req=dSgvHs14lIVcXPMW1HO4zWzx17A%2BJnwoXZ5D7eVpMtdJCAxi5i7unRBwMkvA%0AVH8PmoBpvKiGS%2Fz%2BKtw%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ You can change the session duration at any time by selecting a new value from th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1779802200&signature=6f96550a66029e23b21341cf8cff47412cb238016c010086529c04a198db08be&req=dSgvHs14lIVcXvMW1HO4zZ7mVcGT5zuhA00cbyPOLDUKOIc3sRerJQWblNqu%0AMujFg9PvvP1YZw1Z2EI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1779813900&signature=5b3912e953f33f13740729c803e4b30b75910b3ef7d740ca1fa30ecce0b4b4d0&req=dSgvHs14lIVcXvMW1HO4zZ7mVcGT5jqqA00cbyPOLDVquiXYIys0YT%2BnRRcz%0AN7f9LRGILQz55TXyoak%3D%0A)
 
  
 
@@ -71,7 +71,7 @@ If a user belongs to multiple organizations with different session duration sett
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
-- [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
