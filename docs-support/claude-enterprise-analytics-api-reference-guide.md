@@ -1,6 +1,6 @@
 # Claude Enterprise Analytics API reference guide
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779757200&signature=dcf8d588fd7e7f7a71aa44c2695244b8e67ceb05e1603ac51299fbb9ab7e8cf8&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAHdxHZFbDaBcaxqj6VqZfNcTK1PmZ1bUa1%0AntBTAqbmr%2B%2BtvipuQ84%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779771600&signature=6f3766f0df83ded2eac8caab29d20b5b9b9d1a14ced384a43791278fa689878c&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAHdRfdFbDaBcaxqj7iDsfDrG7zbHMqOono%0A6OJ4p3QT4euzmyOAFuA%3D%0A)
 
  
 
