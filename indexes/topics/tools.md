@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-05-27 13:06*
+*Last updated: 2026-05-27 16:22*
 
-Documents related to Tools across all sources (74 documents)
+Documents related to Tools across all sources (75 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,7 +40,7 @@ Documents related to Tools across all sources (74 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (41)
+## Claude.com Blog Posts (42)
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
@@ -49,6 +49,7 @@ Documents related to Tools across all sources (74 documents)
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude can now connect to your world](/claude-blog/integrations.md) - ![](https://cdn
 - [Claude can now use tools](/claude-blog/tool-use-ga.md) - ![](https://cdn
+- [Claude für die Rechtsbranche](/claude-blog/claude-for-the-legal-industry.md) - ![](https://cdn
 - [Claude now creates interactive charts, diagrams and visualizations](/claude-blog/claude-builds-visuals.md) - ![](https://cdn
 - [Claude now works with more security and compliance tools](/claude-blog/compliance-api-security-partners.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn

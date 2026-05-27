@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-05-27 13:06*
+*Last updated: 2026-05-27 16:22*
 
-Documents related to Agents across all sources (112 documents)
+Documents related to Agents across all sources (113 documents)
 ---
 ## Platform Documentation (platform.claude.com) (39)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -63,7 +63,7 @@ Documents related to Agents across all sources (112 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (56)
+## Claude.com Blog Posts (57)
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for prompt engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
@@ -82,6 +82,7 @@ Documents related to Agents across all sources (112 documents)
 - [Claude is now available in Microsoft 365 Copilot](/claude-blog/claude-now-available-in-microsoft-365-copilot.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
 - [Claude takes research to new places](/claude-blog/research.md) - ![](https://cdn
+- [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Common workflow patterns for AI agents—and when to use them](/claude-blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn

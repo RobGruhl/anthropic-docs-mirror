@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-27 13:06*
+*Last updated: 2026-05-27 16:22*
 
-Documents related to Claude Code across all sources (222 documents)
+Documents related to Claude Code across all sources (223 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -164,7 +164,7 @@ Documents related to Claude Code across all sources (222 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (61)
+## Claude.com Blog Posts (62)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
@@ -182,6 +182,7 @@ Documents related to Claude Code across all sources (222 documents)
 - [Claude Code power user customization: How to configure hooks](/claude-blog/how-to-configure-hooks.md) - ![](https://cdn
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
+- [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Code with Claude comes to San Francisco, London, and Tokyo](/claude-blog/code-with-claude-san-francisco-london-tokyo.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn

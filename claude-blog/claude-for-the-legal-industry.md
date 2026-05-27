@@ -1,201 +1,201 @@
-# Claude pour le secteur juridique
+# Claude für die Rechtsbranche
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-# Claude pour le secteur juridique
+# Claude für die Rechtsbranche
 
-Nous lançons plus de 20 nouveaux connecteurs MCP reliant Claude aux logiciels utilisés par le secteur juridique, ainsi que 12 nouveaux plug-ins conçus pour des tâches juridiques et des domaines de pratique spécifiques.
+Wir veröffentlichen über 20 neue MCP-Konnektoren, die Claude mit der Software verbinden, auf die die Rechtsbranche angewiesen ist, und 12 neue Plugins, die auf bestimmte juristische Arbeits- und Praxisbereiche zugeschnitten sind.
 
-- CatégorieAnnonces de produits
+- KategorieProduktankündigungen
 
-- ProduitAucun élément trouvé.
+- ProduktKeine Elemente gefunden.
 
-- Date12/5/2026
+- Datum12.5.2026
 
-- Temps de lecture5min
+- Lesezeit5Min
 
-- PartagerCopier le lienhttps://claude.com/blog/claude-for-the-legal-industry
+- TeilenLink kopierenhttps://claude.com/blog/claude-for-the-legal-industry
 
-Plus tôt cette année, nous avons lancé notre premier plug-in juridique, et depuis, les professionnels du droit sont devenus les utilisateurs de Claude Cowork les plus engagés parmi toutes les fonctions liées au travail de la connaissance. Nous poursuivons désormais sur cette lancée avec un ensemble d'outils beaucoup plus vaste.
+Anfang dieses Jahres haben wir unser erstes juristisches Plugin veröffentlicht, und seither sind Juristen die engagiertesten Nutzer von Claude Cowork unter allen Wissensarbeitsfunktionen. Wir bauen jetzt auf dieser Grundlage mit einem viel größeren Set von Tools auf.
 
-Le travail juridique repose sur une pile technologique spécifique : systèmes de gestion du cycle de vie des contrats, plateformes de recherche juridique, gestion documentaire, e-discovery, data rooms, précédents documentaires internes, etc. Claude peut désormais se connecter à l’ensemble de cet environnement grâce à plusieurs briques essentielles. Tout d'abord,[les connecteurs MCP](https://claude.ai/directory/connectors)permettent d’intégrer dans Claude les éléments liés au travail juridique : documents, communications et dossiers associés à des affaires spécifiques. Ensuite, les plug-ins spécialisés par domaine de pratique regroupent les tâches que les juristes exécutent le plus fréquemment. Enfin, ces deux éléments reposant sur des protocoles ouverts, les cabinets et les équipes internes peuvent adapter Claude à leurs méthodes de travail réelles.
+Die juristische Arbeit basiert auf einem bestimmten Technologie-Stack: Systeme für den Lebenszyklus von Verträgen, Forschungsplattformen, Dokumentenmanagement, E-Discovery, Datenräume, firmenspezifische Präzedenzfälle und vieles mehr. Claude verbindet sich jetzt mit all dem über mehrere wichtige Bausteine. Zunächst bringen[MCP-Konnektoren](https://claude.ai/directory/connectors)Ihre juristische Arbeit (die Dokumente, Kommunikationen und Aufzeichnungen, die an bestimmte Angelegenheiten gebunden sind) in Claude ein. Dann bündeln Plugins für Fachbereiche die Aufgaben, die Anwälte am häufigsten ausführen. Und schließlich können Unternehmen und interne Teams, da beide auf offenen Protokollen basieren, Claude an ihre tatsächliche Praxis anpassen.
 
-Aujourd'hui, nous présentons plus de 20 nouveaux connecteurs MCP reliant Claude aux logiciels déjà utilisés par le secteur juridique, ainsi que 12 nouveaux plug-ins adaptés à des tâches juridiques et domaines de pratique spécifiques. Enfin, nous collaborons avec le Free Law Project, la Justice Technology Association et à d'autres organisations œuvrant à rendre l’assistance juridique accessible aux personnes qui en sont aujourd’hui privées.
+Heute stellen wir über 20 neue MCP-Konnektoren vor, die Claude mit der Software verbinden, die die Rechtsbranche bereits verwendet, und 12 neue Plugins, die auf bestimmte juristische Arbeits- und Praxisbereiche zugeschnitten sind. Und schließlich arbeiten wir mit dem Free Law Project, der Justice Technology Association und anderen Organisationen zusammen, die daran arbeiten, juristische Hilfe für Menschen zugänglich zu machen, die derzeit keinen Zugang dazu haben.
 
 ‍
 
-## Claude s’intègre aux méthodes de travail des équipes juridiques
+## Claude arbeitet genau dort, wo Rechtsteams ihn brauchen
 
-Claude s’intègre directement aux méthodes de travail des équipes juridiques, en fonctionnant directement dans Microsoft Word, Outlook, Excel et PowerPoint tout en conservant le contexte d’une application à l'autre. Plus besoin de réexpliquer une révision en suivi de modifications finalisée dans Word pour en faire une note d’accompagnement dans Outlook, une checklist de clôture de dossier dans Excel ou une synthèse destinée au conseil d’administration dans PowerPoint.
+Claude holt Rechtsteams ab: Er arbeitet direkt in Microsoft Word, Outlook, Excel und PowerPoint und überträgt den Kontext über alle vier Apps hinweg. Eine in Word abgeschlossene Redline muss nicht erneut erklärt werden, wenn sie zu einer Begleitnotiz in Outlook, einer Abschluss-Checkliste in Excel oder einer Vorstandszusammenfassung in PowerPoint wird.
 
-DansWord, les skills Claude, instructions réutilisables intégrant les playbooks et standards d'une équipe, prennent en charge la rédaction, les révisions en suivi de modifications et les comparaisons clause par clause avec ces playbooks, en assurant le suivi de chaque modification et en expliquant la logique sous-jacente. Elles s’occupent également des tâches répétitives entre chaque étape : suppression des commentaires internes avant l’envoi d’un projet à la partie adverse, vérification finale de la mise en forme d’une version d’exécution ou encore récupération de formulations de secours dans les playbooks approuvés
+InWordübernehmen Claude-Skills – wiederverwendbare Anweisungen, die die Playbooks und Standards eines Teams kodieren – das Entwerfen, das Redlining und die Klausel-für-Klausel-Vergleiche mit diesen Playbooks, wobei jede Änderung verfolgt und die Gründe dafür erläutert werden. Sie übernehmen auch die Routinearbeit zwischen den einzelnen Schritten: sie entfernen interne Kommentare, bevor ein Entwurf an die Gegenpartei weitergeleitet wird, führen eine abschließende Formatierungsprüfung bei einer Ausführungskopie durch und ziehen Fallback-Formulierungen aus genehmigten Playbooks.
 
-DansOutlook, Claude trie les nouveaux dossiers entrants : il identifie les demandes contractuelles, rédige des réponses et notes d’accompagnement, puis planifie les relances afin d’éviter l’accumulation de dossiers.
+InOutlooktriagiert Claude eingehende mandatsbezogene Arbeit: Claude meldet Vertragsanfragen, verfasst Antworten und Begleitnotizen und plant Folgearbeiten, sodass sich nichts stapelt.
 
-DansClaude Cowork, les mêmes connecteurs et plug-ins sont disponibles pour les travaux impliquant de nombreux documents : tri d’un lot de contrats, validation d’une fonctionnalité produit avant lancement ou rédaction d’une note destinée au conseil d’administration sur des évolutions réglementaires. Les tâches planifiées permettent d’automatiser les travaux récurrents, comme les revues hebdomadaires des évolutions réglementaires ou le tri des demandes entrantes.
+InClaude Coworksind dieselben Konnektoren und Plugins für Arbeiten verfügbar, die viele Dokumente umfassen: die Sichtung mehrerer Verträge, die Freigabe einer Produktfunktion zur Einführung und die Erstellung einer Notiz zu regulatorischen Entwicklungen für den Vorstand. Geplante Aufgaben können wiederkehrende Arbeiten wie die wöchentlichen Sweeps von regulatorischen Updates oder die Eingangs-Triage automatisieren.
 
-Enfin, avecProjects, les équipes travaillant sur un dossier disposent d’un espace de travail persistant dans lequel les modèles, précédents documentaires et versions antérieures sont conservés au fil des conversations.
+Und mitProjektenerhalten Mandatsteams einen beständigen Arbeitsbereich, in dem Präzedenzfälle und frühere Entwürfe bei jedem Gespräch beibehalten werden.
 
-## Nouveaux connecteurs couvrant l'ensemble de la pile technologique juridique
+## Neue Konnektoren für den Rechts-Stack
 
-De nouveaux connecteurs MCP permettent à Claude d'interagir avec les systèmes déjà utilisés par les équipes juridiques.
+Dank der neuen MCP-Konnektoren kann Claude mit den Systemen interagieren, auf die sich Rechtsabteilungen bereits verlassen.
 
-Gestion du cycle de vie et rédaction des contrats
+Vertragslebenszyklus und Entwurf
 
-- Definely, qui donne un accès déterministe en temps réel à la structure des contrats pour les besoins de révision : résolution des définitions, validation des renvois croisés, cartographie des dépendances et comparaison structurelle des versions afin de visualiser la propagation des modifications dans un accord ;
+- Definely, das einen deterministischen Live-Zugriff auf die Vertragsstruktur zur Überprüfung bietet: Auflösung von Definitionen, Validierung von Querverweisen, Zuordnung von Abhängigkeiten und Ausführung von strukturellen Diffs, um zu sehen, wie sich Änderungen durch eine Vereinbarung auswirken;‍
 
-- Docusign,qui connecte Claude à vos données contractuelles afin de faire ressortir les clauses clés, comme les dates de renouvellement et d’obligations, et orchestrer les flux de travail contractuels tout au long du cycle de vie des contrats, de la rédaction à la signature puis à la gestion post-signature ;
+- Docusign,das Claude mit Ihren Vertragsdaten verbindet, sodass Sie schnell wichtige Vertragsbedingungen wie Verlängerungsdaten und Verpflichtungen auffinden und Vertrags-Workflows über den gesamten Vertragslebenszyklus orchestrieren können, vom Entwurf über die Unterzeichnung bis hin zur Verwaltung nach der Unterzeichnung;
 
-- Ironclad, qui permet à Claude d'accéder à votre référentiel de contrats et à vos flux de travail, puis de poser des questions sur les contrats en langage clair, avec des résultats automatiquement limités aux autorisations de chaque utilisateur.
+- Ironclad, mit dem Claude auf Ihr Vertrags-Repository und Ihre Workflows zugreifen und in einfacher Sprache Fragen zu Verträgen stellen kann, wobei die Ergebnisse automatisch den Berechtigungen der einzelnen Nutzer entsprechen.
 
-Data rooms et documents transactionnels:
+Deal-Räume und Transaktionsdokumente:
 
-- Box, qui connecte Claude au contenu stocké dans Box pour rechercher et consulter des fichiers, interroger des documents, créer ou mettre à jour du contenu, et extraire des métadonnées, tout en appliquant les politiques de sécurité et d'accès existantes de Box ;
+- Box, das Claude mit den in Box gespeicherten Inhalten verbindet, um Dateien zu suchen und darauf zuzugreifen, Dokumente abzufragen, Inhalte zu erstellen oder zu aktualisieren und Metadatenfelder zu extrahieren, während die vorhandenen Sicherheits- und Zugriffsrichtlinien von Box durchgesetzt werden;
 
-- Datasite, qui connecte Claude à votre data room virtuelle Datasite, l'espace de travail sécurisé où des milliers de transactions de fusion-acquisition sont réalisées chaque année, afin de configurer des arborescences de dossiers, d’inviter des utilisateurs, de rechercher des documents, de suivre les questions-réponses des acquéreurs et d’auditer l’état de préparation de la data room.
+- Datasite, das Claude mit Ihrem virtuellen Datenraum von Datasite verbindet – dem sicheren Arbeitsbereich, in dem jährlich Tausende von M&A-Deals durchgeführt werden –, um Ordnerstrukturen einzurichten, Nutzer einzuladen, Dokumente zu durchsuchen, Fragen und Antworten von Käufern zu verfolgen und die Bereitschaft des Datenraums zu überprüfen.
 
-Gestion documentaire :
+Dokumentenverwaltung:
 
-- iManage,plateforme de gestion de travail d’acquisition de connaissances, fournit à Claude un accès auditable et limité par les autorisations aux contenus gouvernés dans iManage, notamment l'historique des dossiers, les documents et les connaissances institutionnelles, sans nécessiter d'exportations massives ni d'intégrations personnalisées ;‍
+- iManage,eine Plattform für die Wissensarbeit, gewährt Claude berechtigungsgebundenen, überprüfbaren Zugriff auf verwaltete iManage-Inhalte, einschließlich des Vorgangsverlaufs, Dokumente und institutionelles Wissen, sodass Massenexporte oder benutzerdefinierte Integrationen überflüssig sind;‍
 
-- NetDocuments, qui permet à Claude de rechercher et récupérer des documents depuis votre référentiel NetDocuments et de rédiger de nouveaux documents à partir de vos modèles et précédents documentaires, dans le plein respect des politiques de gouvernance et d’autorisation de votre organisation.
+- NetDocuments, mit dem Claude Dokumente in Ihrem NetDocuments-Repository suchen und abrufen und neue Dokumente auf Grundlage Ihrer Vorlagen entwerfen kann – unter voller Berücksichtigung der Berechtigungs- und Governance-Richtlinien Ihres Unternehmens.
 
-Réseaux d'experts et compétences spécialisées :
+Expertennetzwerke und Skills:
 
-- Lawve AI,qui propose une bibliothèque organisée de compétences en IA juridique rédigées par des avocats en exercice, des juristes d'entreprise et des technologues spécialisés en droit, consultable directement depuis Claude ;
+- Lawve AI,das eine kuratierte Bibliothek mit rechtlichen KI-Skills bietet, die von praktizierenden Anwälten, Unternehmensjuristen und Rechtstechnologen entwickelt wurden und in Claude durchsucht werden können;
 
-- The L Suite,qui propose dconnecteurs MCP issus de sa principale communauté de juristes d’entreprise : (1) Lloyd, qui permet aux membres de The L Suite de connecter Claude à la plateforme communautaire Braintrust ; et (2) TopCounsel, qui aide les juristes d'entreprise à trouver le cabinet externe le plus adapté à un dossier donné grâce au jeu de données propriétaire et à l'algorithme de classement de The L Suite.
+- The L Suite,die zwei MCP-Konnektoren von der führenden Unternehmensjuristen-Community anbietet: (1) Lloyd, über den die Mitglieder von The L Suite Claude mit der Braintrust-Mitgliederplattform verbinden können, und (2) TopCounsel, über den jeder Unternehmensjurist auf der Grundlage des proprietären Datensatzes und des Ranking-Algorithmus von The L Suite den richtigen externen Anwalt für eine bestimmte Angelegenheit finden kann.
 
-Recherche d'informations et revue documentaire en ligne :
+E-Discovery und Überprüfung:
 
-- Consilio, qui met à disposition dans Claude les affaires en cours du client et Aurora Legal AI de Consilio, chaque réponse étant strictement limitée aux informations que l'utilisateur est autorisé à consulter ;
+- Consilio, das Claude die aktuellen Angelegenheiten eines Kunden und Consilios Aurora Legal KI zur Verfügung stellt, wobei jede Antwort auf das beschränkt ist, was der Nutzer bereits sehen darf;
 
-- Everlaw, plateforme de contentieux, permettant à Claude de rechercher, d'organiser et de récupérer des documents issus de projets Everlaw à l'aide de métadonnées, de mots-clés et de types de documents, avec des liens directs vers les éléments à organiser ;
+- Everlaw, das eine Litigation-Plattform bereitstellt, ermöglicht es Claude, Dokumente aus Everlaw-Projekten unter Verwendung von Metadaten, Schlüsselwörtern und Dokumententypen mit direkten Überprüfungslinks zu suchen, zu organisieren und abzurufen;
 
-- Relativity, qui permet à Claude de créer des dossiers, de structurer des schémas d'espaces de travail, de gérer les accès et d'analyser l'usage au sein de sa plateforme d'intelligence des données juridiques, RelativityOne.
+- Relativity, mit dem Claude Angelegenheiten einrichten, Workspace-Schemata gestalten, den Zugriff steuern und die Nutzung auf der KI-Plattform für Legal Data Intelligence, RelativityOne, analysieren kann.
 
-Flux de travail de niveau fiduciaire :
+Workflows auf Treuhand-Niveau:
 
-- Thomson Reuters,qui connecte Claude à CoCounsel Legal, système de niveau fiduciaire destiné à la rédaction, la recherche, la revue et la validation juridiques de bout en bout dans tous les grands domaines de pratique. Le système sert d'assistant IA pour les travaux juridiques à forts enjeux, fondé sur les ressources primaires de Westlaw, les guides Practical Law, KeyCite et vos propres documents, avec des résultats transparents et vérifiables.
+- Thomson Reuters,das Claude mit CoCounsel Legal verbindet, einem treuhänderischen System für End-to-End-Entwurfserstellung, Forschung, Überprüfung und Validierung in allen wichtigen Praxisbereichen, das als KI-Assistent für anspruchsvolle juristische Arbeiten dient, basierend auf dem Primärrecht von Westlaw, den Leitlinien von Practical Law, KeyCite und Ihren eigenen Dokumenten, mit transparenten und überprüfbaren Ausgaben.
 
-Recherche juridique et jurisprudence :
+Rechtsforschung und Rechtsprechung:
 
-- Legal Data Hunter, qui permet à Claude d'accéder au corpus juridique qui connaît la croissance la plus rapide au monde : plus de 31 millions de documents provenant de plus de 160 juridictions, incluant le droit consolidé de l'UE, la jurisprudence des cours suprêmes et constitutionnelles, ainsi que la doctrine officielle ;
+- Legal Data Hunter, der Claude Zugriff auf den am schnellsten wachsenden Rechtskorpus der Welt gibt: über 31 Millionen Dokumente aus über 160 Rechtsordnungen, darunter das konsolidierte EU-Recht, die Rechtsprechung der obersten Gerichte und Verfassungsgerichte sowie die offizielle Doktrin;
 
-- Midpage, qui connecte Claude à une base de jurisprudence destinée à la recherche juridique complexe, à l'analyse d'avis et aux travaux juridiques, avec des liens hypertextes vers les sources réelles pour faciliter la vérification ;
+- Midpage, das Claude mit einer Rechtsprechungsdatenbank für komplexe Rechtsforschung, die Überprüfung von Gutachten und Arbeitsergebnisse verbindet, wobei alles zur einfachen Überprüfung mit echten Quellen verknüpft ist;
 
-- Trellis, qui donne à Claude un accès direct à la plus vaste base de données américaine de juridictions de première instance aux niveau des États, incluant rôles d'audience, décisions verdicts et actes de procédure, afin d'effectuer des analyses sur les juges et les avocats adverses et de rédiger des requêtes.
+- Trellis, das Claude direkten Zugriff auf den größten Datensatz einzelstaatlicher erstinstanzlicher Gerichte in den USA gibt, einschließlich Aktenverzeichnissen, Entscheidungen, Urteilen und Schriftsätzen, für Analysen zu Richtern und gegnerischen Anwälten sowie die Erstellung von Anträgen.
 
-Assistants juridiques IA :
+KI-Assistenten für das Rechtswesen:
 
-- Harvey, qui intègre l'intelligence juridique de Harvey dans Claude, avec prise en charge des questions juridiques générales, lesdesanalyses sur les Projets Vault et des recherches ciblées pour certaines bases de connaissances ;
+- Harvey, das die juristische Intelligenz von Harvey in Claude einbindet und allgemeine rechtliche Anfragen, Analysen über Vault-Projekte und Forschungsfragen für ausgewählte Wissensquellen unterstützt;
 
-- Solve Intelligence, qui connecte Claude à la documentation brevet et non-brevets, aux textes juridiques, aux normes techniques SEP et au web ouvert pour la recherche d'antériorités, la cartographie de revendications et la rédaction de brevets.
+- Solve Intelligence, das Claude mit Patent- und Nicht-Patentliteratur, Rechtstexten, technischen SEP-Standards und dem offenen Web verbindet, um nach dem Stand der Technik zu suchen, Anspruchszuordnungen vorzunehmen und Patente zu entwerfen.
 
-Service public
+Öffentlicher Dienst
 
-- BoardWise, qui accompagnes les professionnels titulaires d'une licence confrontés à des procédures devant des ordres ou autorités professionnelles : compréhension des délais, orientation dans la procédure et rédaction de lettres de réponse adaptées à leur juridiction ;
+- BoardWise, das lizenzierte Fachkräfte bei Angelegenheiten der staatlichen Zulassungsbehörden unterstützt: indem es ihnen hilft, Fristen zu verstehen, sich in ihrer Situation zurechtzufinden und strukturierte, auf ihren Zuständigkeitsbereich zugeschnittene AntwortKurzdarstellunge zu entwerfen;
 
-- Courtroom5, qui fournit une assistance juridique aux quelque 80 % de justiciables civils qui comparaissent sans avocat, avec prise en charge des dossiers, un calcul des délais et recommandations sur les étapes à venir dans les 50 États américains ;
+- Courtroom5, das den etwa 80 % der zivilrechtlichen Prozessbeteiligten, die ohne Anwalt vor Gericht erscheinen, rechtliche Orientierung bietet, mit zuständigkeitsbezogener Fallaufnahme, Fristenberechnung und Anleitung zu den nächsten Schritten in allen 50 Bundesstaaten;
 
-- Descrybe, qui fournit à Claude des outils de recherche juridique pour travailler sur les sources primaires : recherche d'affaires par concept ou citation, vérification du traitement jurisprudentiel, identification des autorités citantes et validation des citations ;
+- Descrybe, das Claude Rechtsrecherche-Tools für die Arbeit mit Primärrecht zur Verfügung stellt: Suche nach Fällen nach Konzept oder Zitat, Überprüfung des Zitierungsstatus, Suche nach zitierenden Quellen und Überprüfung der zitierten Formulierungen;
 
-- Free Law Project, qui connecte Claude aux millions de décisions judiciaires, dossiers PACER, profils de juges, plaidoiries orales et données de citations.
+- Free Law Project, das Claude mit den Millionen von US-Gerichtsentscheidungen, PACER-Dokumenten, Richterprofilen, mündlichen Verhandlungen und Zitationsdaten von CourtListener verbindet.
 
-## Plug-ins par domaine de pratique
+## Plugins für Rechtsgebiete
 
-Le travail juridique varie fortement selon le la fonction occupée. Nous publions 12 plug-ins spécialisés par domaine de pratique (téléchargeables depuis la Legal Marketplace,[ici](https://github.com/anthropics/claude-for-legal)), chacun conçu autour d'un rôle juridique précis. Chaque plug-in commence par un court entretien de configuration qui permet de comprendre votre pratique : vos playbooks, votre chaîne d'escalade, votre niveau de tolérance au risque, votre style rédactionnel interne. Les réponses de Claude ne sont donc pas génériques, mais adaptées à votre équipe. Ces plug-ins incluent notamment :
+Juristische Arbeit sieht je nach Position anders aus. Wir veröffentlichen 12 Plugins für Rechtsgebiete ([hier](https://github.com/anthropics/claude-for-legal)vom Legal Marketplace herunterladen), die jeweils für eine bestimmte juristische Rolle entwickelt wurden. Jedes Plugin beginnt mit einem kurzen Einrichtungsgespräch, das Ihre Arbeitsweise kennenlernt: Ihr Playbook, Ihre Eskalationskette, Ihre Risikokalibrierung, Ihr Hausstil, sodass die Antworten von Claude nicht generisch, sondern auf Ihr Team zugeschnitten sind. Dazu gehören:
 
-- Commercial Legalexamine les contrats fournisseurs et les accords de confidentialité à l'aune de vos playbooks et transmet les points nécessitant une escalade, accompagnés d'un résumé en langage clair destinées aux parties prenantes métier.
+- Commercial Legalüberprüft Lieferantenvereinbarungen und NDAs anhand Ihrer Playbooks und leitet Eskalationen mit einer allgemeinverständlichen Zusammenfassung für geschäftliche Stakeholder weiter.
 
-- Corporate Legalprend en charge les opération de fusions et acquisition : due diligence dans la data room, annexes de divulgation, consentements du conseil d'administration et checklist de closing. Il peut être configuré pour les travaux du conseil d'administration, la gouvernance de sociétés cotées ou la conformité des entités juridiques.
+- Corporate Legalübernimmt die M&A-Prüfung: Due Diligence im gesamten Datenraum, Offenlegungspläne, Zustimmungen des Vorstands und die Checkliste zum Abschluss. Es kann für Vorstandsarbeiten, die Governance von börsennotierten Unternehmen oder die Entity-Compliance konfiguriert werden.
 
-- Employment Legalcouvre les recrutements, les licenciements, la classification des travailleurs, les délais liés aux congés et les enquêtes internes, et rédige des politiques RH intégrant les règles propres à chaque État américain.
+- Employment Legaldeckt Einstellungen, Kündigungen, die Klassifizierung von Mitarbeitern, Urlaubsfristen und Untersuchungen ab und entwirft Richtlinien mit integrierten länderspezifischen Regeln.
 
-- Privacy Legalexamine les DPA au regard de vos playbook, trie les PIA et DPIA, prépare les réponses aux DSAR dans les délais légaux et identifie les écarts entre les politiques écrites et les pratiques réelles.
+- Privacy Legalüberprüft DPAs anhand Ihres Playbooks, triagiert PIAs und DPIAs, bereitet DSAR-Antworten innerhalb der gesetzlich vorgeschriebenen Fristen vor und meldet Lücken zwischen schriftlicher Richtlinie und tatsächlicher Praxis.
 
-- Product Legaleffectue des revues de lancement produit selon votre cadre interne, vérifie l'étayage des allégations marketing et répond aux questions de risque émanant des équipes métier.
+- Product Legalführt Launch-Reviews anhand Ihres internen Frameworks durch, prüft Marketingaussagen auf Nachweis und beantwortet Risikofragen von Teams im gesamten Unternehmen.
 
-- Regulatory Legalsurveille les évolutions réglementaires, les filtres selon votre seuil de matérialité, compare les nouvelles règles à votre bibliothèque de politiques internes et suit les écarts ainsi que les échéances pour la soumission de commentaires.
+- Regulatory Legalüberwacht die regulatorischen Entwicklungen, filtert sie nach Ihrer Wesentlichkeitsschwelle, vergleicht neue Regeln mit Ihrer Richtlinienbibliothek und verfolgt Lücken und Kommentierungsfristen.
 
-- AI Governance Legalanalyse les cas d'usage de l'IA selon vos niveaux de gouvernance, réalise des analyses d'impact, examine les clausss IA des fournisseurs et peut rédiger une première politique interne sur l'IA.
+- AI Governance Legalprüft KI-Anwendungsfälle anhand Ihrer Governance-Ebenen, führt Folgenabschätzungen durch, überprüft die KI-Bedingungen der Anbieter und kann einen ersten Entwurf einer KI-Richtlinie erstellen.
 
-- IP Legaleffectue la recherche d'antériorité des marques et de liberté d'exploitation (freedom to operate), rédige et traite des lettres de mise en demeure, gère les notifications DMCA et la conformité open-source, et examine les déclarations d'invention.
+- IP Legalführt Markenrecherchen und Freedom-to-Operate-Triage durch, entwirft und beantwortet Abmahnschreiben, kümmert sich um DMCA-Takedowns und Open-Source-Compliance und prüft Erfindungsmeldungen.
 
-- Litigation Legalgère l'ouverture et le suivi des dossiers contentieux, les legal holds, les lettres de mise en demeure, le triage des assignations à comparaître, les chronologies, la préparation des dépositions, les registres de privilège et la rédaction de conclusions.
+- Litigation Legalverwaltet die Fallaufnahme und Portfolioverfolgung, Legal Holds, Forderungsschreiben, Vorladungs-Triage, Chronologien, Depositionsvorbereitung, Privilege-Logs und die Erstellung von Schriftsätzen.
 
-- Law Studentpropose des exercices socratiques, des résumés d'affaires, l'évaluation de raisonnements IRAC et la préparation à l'examen du barreau avec des distinctions propres à chaque juridiction.
+- Law Studentbietet sokratisches Üben, Fallzusammenfassungen, IRAC-Bewertungen und Vorbereitung auf die Anwaltsprüfung mit jurisdiktionsspezifischen Unterscheidungen an.
 
-- Legal Clinicgère l'accueil des clients, le suivi des délais, les notes de dossier et la file de relecture des superviseurs.
+- Legal Clinicverwaltet den Kundeneingang, die Fristverfolgung, Fallmemos und die Warteschlange für die Überprüfung durch den Betreuer.
 
-- Legal Builder Hubpermet de rechercher et d'installer des compétences juridiques développées par la communauté à partir de registres publics, avec vérification de sécurité, contrôle des licences et validation de l'actualité des modules à chaque installation ou mise à jour.
+- Legal Builder Hubfindet und installiert die von der Community entwickelten rechtlichen Skills aus öffentlichen Registern und führt eine Sicherheitsüberprüfung, eine Lizenzüberprüfung und eine Aktualitätsprüfung bei jeder Installation und Aktualisierung durch.
 
-Chaque modèle d'agent peut être installé dans Cowork ou Claude Code en un clic et génère des documents conformes aux standards rédactionnels institutionnels.[Une partie de ces modules](https://github.com/anthropics/claude-for-legal)(Commercial Legal, Corporate Legal, Litigation Legal, Product Legal, Litigation Legal) est également disponible sous forme de cookbook pouvant être déployés en tant qu'agents gérés sur Claude Platform pour un usage programmatique. Les équipes peuvent y intégrer leurs propres précédents et playbooks pour personnaliser les skills.
+Jede Agentenvorlage kann in Cowork oder Claude Code mit einem Klick installiert werden und liefert Ausgaben, die den institutionellen Entwurfsstandards entsprechen.[Eine Teilmenge davon](https://github.com/anthropics/claude-for-legal)(Commercial Legal, Corporate Legal, Litigation Legal, Product Legal, Litigation Legal) ist auch als Leitfäden verfügbar, die als verwaltete Agenten auf der Claude Platform zur programmatischen Verwendung bereitgestellt werden können. Teams können auf Basis ihrer eigenen Präzedenzfälle und Playbooks die Skills anpassen.
 
-Chaque organisation juridique fonctionnant différemment, aucun ensemble de plug-ins ne peut couvrir l'ensemble des pratiques. L'écosystème de plug-ins et de skills est repose donc sur des protocoles ouverts, et les premiers contributeurs, dontBox, Legal Quants, Lawve AIetThomson Reuters, ont déjà fourni leurs propres skills, plug-ins et conventions rédactionnelles. Tout partenaire peut soumettre des connecteurs et des skills via le[répertoire](https://preview.claude.ai/local_sessions/link).
+Jede Rechtsorganisation arbeitet anders, und kein einzelnes Plug-in kann jede Praxis abdecken. Das Plugin- und das Skill-Ökosystem sind offene Protokolle, und die ersten Mitwirkenden, darunterBox, Legal Quants, Lawve AIundThomson Reuters, haben bereits eigene Skills, Plugins und Stilkonventionen bereitgestellt. Jeder Partner kann über das Verzeichnis[Konnektoren](https://preview.claude.ai/local_sessions/link)und Skills einreichen.
 
-## Démocratiser l'accès aux services juridiques grâce à l'IA
+## Demokratisierung des Zugangs zu Rechtsdienstleistungen mit KI
 
-Les services juridiques sont hors de portée pour de nombreuses personnes et petites entreprises, et cette situation ne cesse de se dégrader. Nous travaillons avec leFree Law Project, laJustice Technology Associationainsi que d'autres organisations d'aide juridique et de service public afin de rendre les services juridiques plus abordables et accessibles.
+Rechtsdienstleistungen sind für viele Menschen und kleine Unternehmen unerreichbar, und die Kluft wird größer. Wir arbeiten mit demFree Law Project, derJustice Technology Associationund anderen Organisationen der Rechtshilfe und des öffentlichen Dienstes zusammen, um Rechtsdienstleistungen erschwinglicher und verfügbar zu machen.
 
-Les cliniques juridiques éligibles, les services de défense publique et les organisations juridiques à but non lucratif éligibles peuvent bénéficier de tarifs considérablement réduits dans le cadre du[programme Claude réservé aux associations](https://claude.com/solutions/nonprofits). Des outils gratuits ou à faible coût proposés par BoardWise, Courtroom5, Descrybe et le Free Law Project sont également accessibles aux utilisateurs de Claude via des connecteurs MCP.
+Qualifizierende Rechtshilfekliniken, öffentliche Verteidiger und gemeinnützige Rechtsdienstleister können über das[Programm Claude for Nonprofits](https://claude.com/solutions/nonprofits)Zugang zu deutlich vergünstigten Preisen erhalten. Kostenlose und günstige Tools von BoardWise, Courtroom5, Descrybe und Free Law Project stehen Nutzern von Claude auch über MCP-Konnektoren zur Verfügung.
 
-> « La plupart des gens ignorent qu'ils ont des droits jusqu'au moment où il est trop tard pour les faire valoir. Claude peut désormais aller à leur rencontrr là où ils se trouvent, au moment précis où ils ont peur et cherchent des réponses. »- Sonja Ebron, CEO et cofondatrice de Courtroom5
+> „Die meisten Menschen wissen erst, dass sie gesetzliche Rechte haben, wenn es zu spät ist, sie zu nutzen. Claude kann sie jetzt dort ansprechen, wo sie sind – in dem Moment, in dem sie Angst haben und nach Antworten suchen."– Sonja Ebron, CEO & Mitgründerin, Courtroom5
 
-## Une technologie reconnue dans l'ensemble du secteur juridique
+## In der Rechtsbranche vertrauenswürdig
 
-Cabinets d'avocats et équipes internes sont passés de la phase d'expérimentation de Claude à une utilisation intégrée à leur pratique quotidienne, et les outils juridiques sur lesquels ils s'appuient eux aussi sont de plus en plus construits autour de Claude. Lors de notre événement[Briefing : Enterprise Agents](https://www.anthropic.com/events/the-briefing-enterprise-agents-virtual-event)en février, Thomson Reuters a présenté une nouvelle version de CoCounsel reconstruite sur le SDK Claude Agent ; avec la sortie d'aujourd'hui, cette intégration devient bidirectionnelle. Harvey, Solve Intelligence et les autres acteurs mentionnés ci-dessous suivent la même approche.
+Kanzleien und interne Teams sind vom Testen von Claude dazu übergegangen, ihre Praxis darauf zu betreiben – und die juristischen Tools, auf die sie sich verlassen, basieren zunehmend auch auf Claude. Bei unserem[Kurzdarstellunging: Enterpr](https://www.anthropic.com/events/the-briefing-enterprise-agents-virtual-event)ise Agents im Februar hat Thomson Reuters CoCounsel vorgestellt, das auf dem Claude Agent SDK neu aufgebaut wurde; mit der heutigen Version funktioniert die Integration in beide Richtungen. Harvey, Solve Intelligence und andere unten tun dasselbe.
 
-Ces évolutions s'appuient sur Claude Opus 4.7, notre modèle public le plus performant à ce jour pour le raisonnement juridique et le traitement de documents longs.
+Diese Aktualisierungen basieren auf Claude Opus 4.7, unserem leistungsfähigsten öffentlich verfügbaren Modell für rechtliche Argumentation und Arbeit mit langen Dokumenten.
 
-Voici ce que les équipes juridiques et les partenaires de l'écosystème nous ont indiqué au sujet de leur utilisation de Claude :
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+Folgendes haben uns Rechtsteams und Ökosystempartner über die Zusammenarbeit mit Claude mitgeteilt:
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Premiers pas
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-Les[nouveaux connecteurs](https://claude.ai/directory/connectors)et[plug-ins par domaines de pratique](https://github.com/anthropics/claude-for-legal)sont open source et disponibles dans Claude Cowork. Les administrateurs de chaque entreprise peuvent les activer dans les paramètres de votre espace de travail.[En savoir plus ici](http://www.claude.com/solutions/legal)ou[contacter notre équipe commerciale](https://claude.com/contact-sales).
+## Erste Schritte
 
-Inscrivez-vous à notre[webinaire de lancement](http://website.anthropic.com/webinars/how-legal-teams-put-claude-to-work)pour découvrir les nouvelles fonctionnalités en action : nous présenterons les produits en direct et expliquerons comment cabinets d'avocats et équipes internes peuvent tirer le meilleur parti de Claude et de son écosystème connecté. Les développeurs peuvent également explorer les skills développées par la communauté via Legal Quants et Lawvable.
+Die[neuen Konnektoren](https://claude.ai/directory/connectors)und[Fachbereichs-Plugins](https://github.com/anthropics/claude-for-legal)sind Open Source und in Claude Cowork verfügbar. Unternehmensadministratoren können sie in Ihren Workspace-Einstellungen aktivieren.[Hier mehr erfahren](http://www.claude.com/solutions/legal), oder[wenden Sie sich an unser Vertriebsteam](https://claude.com/contact-sales).
 
-Pour les organisations spécialisées dans l'aide juridique et l'accès à la justice souhaitant mettre en place un partenariat, veuillez nous contacter via notre[programme destinés aux associations](https://claude.com/solutions/nonprofits).
+Melden Sie sich für unser[Webinar zur Einführung](http://website.anthropic.com/webinars/how-legal-teams-put-claude-to-work)an, um die neuen Funktionen in Aktion zu sehen – wir zeigen Ihnen Live-Produktführungen und erklären, wie Anwaltskanzleien und interne Teams Claude und das verbundene Ökosystem optimal nutzen können. Entwickler können auch über Legal Quants und Lawvable von der Community verwaltete Skills erkunden.
+
+Wenn Sie eine Organisation im Bereich Rechtshilfe und Zugang zur Justiz sind und an einer Partnerschaft interessiert sind, wenden Sie sich über unser[Programm für gemeinnützige Organisationen an uns](https://claude.com/solutions/nonprofits).
 
 ‍
 
-FAQ
+Häufig gestellte Fragen
 
-## Articles associés
+## Ähnliche Beiträge
 
-Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Explication des Skills : comparaison des Skills avec les requêtes, les Projets, MCP et les Sous-agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
-
-### Claude Code sur le Web
+### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
-### Présentation du plan Max
+### Das kann der Max Plan
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-### Pilotage de Claude dans Chrome
+### Wir testen Claude in Chrome
 
-## Transformez le fonctionnement de votre organisation avec Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-Recevez la newsletter des développeurs
+### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
-Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
-Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
+Entwickler-Newsletter abonnieren
+
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/fr/blog/claude-for-the-legal-industry
+**Source:** https://claude.com/de/blog/claude-for-the-legal-industry
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
