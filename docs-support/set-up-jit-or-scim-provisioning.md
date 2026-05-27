@@ -50,7 +50,7 @@ Both JIT and SCIM can be combined with **Enable group mappings** to control role
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1779858000&signature=ca2d5e9e7c20126e6942e508977a67aed9612c41a68e733d5af6feb77b49b01a&req=diMmFM5%2Bm4FWUPMW1HO4zXBDTKJcCFJ2xFMG%2BIEvQSeWJoff0m55iNK3pll7%0APm%2BRNTOxzoGvn9HHQVE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1779868800&signature=778561eb6219bfd11ee0b30dcf7cf46b320d54a3ff1a21d8a750eaa8bbf95a0e&req=diMmFM5%2Bm4FWUPMW1HO4zXBDTKJcC1J%2BxFMG%2BIEvQSdi1hNCTeFwc0oKdAg3%0AdSaAtO6s5aG3ZNOnAfY%3D%0A)
 
  
 
