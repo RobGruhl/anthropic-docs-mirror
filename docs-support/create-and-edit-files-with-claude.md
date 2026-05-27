@@ -1,6 +1,6 @@
 # Create and edit files with Claude
 
-*Updated over 3 weeks ago*
+*Updated over a month ago*
 
 ---
 
@@ -62,7 +62,7 @@ To give Claude access to external data sources, toggle **Allow network egress** 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1779832800&signature=fa824c819443b6bdce4c23a22b455a789a08e84b2febc557405bb384c0797c9e&req=diAiEs55mYFfXPMW1HO4zYFJxARND5vGPQVowIiib2lvHGuKVapj811ydKRr%0AdaocdcqCnvAV%2BFot800%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1779843600&signature=42f36b5f108e2e318a459bb7fecfab7829ab6231158c440c48f6c210fab16dbf&req=diAiEs55mYFfXPMW1HO4zYFJxARNCJrIPQVowIiib2mQcavssCFWfheqiii0%0AO3Vskvbvefi3ifUYcMY%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1779832800&signature=1af594ec12352b2a9c3aa495ce9347c4e5bf764adef1102a0e3476ea5ede5bc7&req=dScvH8B6mIJZW%2FMW1HO4zXJcCWRLlitDpMW6Iph6YZeXymEZnfyMinrnqt1b%0A%2F1IhUkK83LSrL9xKg5o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1779843600&signature=798aac724de37ead0473f20f6cf93e82a9ed895fbfbcb8930d03da0a09ccb416&req=dScvH8B6mIJZW%2FMW1HO4zXJcCWRLkSpNpMW6Iph6YZe9XreQ2VTXwhB1PQxD%0AJWR6Q8dgHY7rVD9H4OQ%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1779832800&signature=ad4ab2c83948dc109b648456fcd8dea45d15ad28561071d0ccf033754c2470f1&req=dScvH8B6mIJZWPMW1HO4zdnsdx2a7T2qqgKIA6CM1trFKdvAu0tPt%2Bct1TS%2B%0Av3uhW3mWW0e%2FcvrK0io%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1779843600&signature=4e65ed5e79243991d4de6af92dc959496524e05eb31b57e55289e8c957e526a0&req=dScvH8B6mIJZWPMW1HO4zdnsdx2a6jykqgKIA6CM1toJKFbiMErMFfS0QPGC%0ASER7hv%2BvWKnUesmb3GQ%3D%0A)
 
  
 

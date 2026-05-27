@@ -1,6 +1,6 @@
 # Claude Enterprise Analytics API reference guide
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779832800&signature=09d876e55b901e0dcbab600a3c52172c783fc232deea8cf5849e82298fc3ba16&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAIcRTTFbDaBcaxqj5xxqG0e2VetLa1bx6%2B%0A9GFfpp2r1apz0dK1MoU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779926400&signature=ca187a616a93af0b2d6ae742654e66a8b3f3805a138f8e41fabccc4de33419cf&req=diAiFc97mIRZX%2FMW3nq%2BgWEPcs4AYt2sDgHoRCT9zFyM0CQtEqtq0fJ3ZnBv%0Am7o%2BwoBGlT7mqDtcnoZQUb%2FPaO0%3D%0A)
 
  
 
@@ -166,15 +166,11 @@ Returns per-user engagement metrics for a single day. Each item in the response 
 
 **Office Agent metrics (per user)**
 
-Each user record also includes an <code>office_metrics</code> object with per-product breakdowns for Excel and PowerPoint. This block is always present on every record—organizations without Office Agent usage see all-zero values rather than null.
+Each user record also includes an <code>office_metrics</code> object with per-product breakdowns for Excel, PowerPoint, Word, and Outlook. This block is always present on every record—organizations without Office Agent usage see all-zero values rather than null.
 
  
 
-The office_metrics object contains two keys: <code>excel</code> and <code>powerpoint</code>.
-
- 
-
-Each key contains the same six fields:
+The office_metrics object contains four keys: <code>excel</code>, <code>powerpoint</code>, <code>word</code>, and <code>outlook</code>. Each key contains the same six fields:
 
 | **Field** | **Description** |
 | --- | --- |
@@ -185,13 +181,13 @@ Each key contains the same six fields:
 | `office_metrics.[product].connectors_used_count` | Total connector invocations. A single connector used three times counts as three. |
 | `office_metrics.[product].distinct_connectors_used_count` | Number of distinct connectors used. |
 
-***Note:** Where <code>[product]</code> is one of <code>excel</code> or <code>powerpoint</code>.
+***Note:** Where <code>[product]</code> is one of <code>excel</code>, <code>powerpoint</code>, <code>word</code>, or <code>outlook</code>.
 
  
 
 **Claude Cowork metrics (per user)**
 
-Each user record also includes a cowork_metrics object with per-user Cowork engagement. This block is always present on every record—organizations without Cowork usage see all-zero values rather than null.
+Each user record also includes a <code>cowork_metrics</code> object with per-user Cowork engagement. This block is always present on every record—organizations without Cowork usage see all-zero values rather than null.
 
 | **Field** | **Description** |
 | --- | --- |
@@ -293,7 +289,7 @@ Returns usage data broken down by chat project for a given date. Projects are sp
 | **Field** | **Description** |
 | --- | --- |
 | `project_name` | The name of the project. |
-| `project_id` | The tagged project id, i.e. “claude_proj_{ID}” |
+| `project_id` | The tagged project id, i.e. “`claude_proj_{ID}`” |
 | `distinct_user_count` | Number of unique users who used this project on the given date. |
 | `distinct_conversation_count` | Number of conversations in this project on the given date. |
 | `message_count` | Total number of messages sent within this project on the given date. |
@@ -342,12 +338,14 @@ Returns skill usage data across both Claude (chat) and Claude Code within your o
 
 **Office Agent metrics (per skill)**
 
-Each skill record also includes an office_metrics object that reports how many Office Agent sessions used the skill, broken down by product. This block is always present—organizations without Office Agent usage see all-zero values.
+Each skill record also includes an <code>office_metrics</code> object that reports how many Office Agent sessions used the skill, broken down by product. This block is always present—organizations without Office Agent usage see all-zero values.
 
 | **Field** | **Description** |
 | --- | --- |
 | `office_metrics.excel.distinct_session_skill_used_count` | Number of distinct Office Agent sessions in Excel in which this skill was used. |
 | `office_metrics.powerpoint.distinct_session_skill_used_count` | Number of distinct Office Agent sessions in PowerPoint in which this skill was used. |
+| `office_metrics.word.distinct_session_skill_used_count` | Number of distinct Office Agent sessions in Word in which this skill was used. |
+| `office_metrics.outlook.distinct_session_skill_used_count` | Number of distinct Office Agent sessions in Outlook in which this skill was used. |
 
  
 
@@ -406,6 +404,8 @@ Each connector record also includes an office_metrics object that reports how ma
 | --- | --- |
 | `office_metrics.excel.distinct_session_connector_used_count` | Number of distinct Office Agent sessions in Excel in which this connector was used. |
 | `office_metrics.powerpoint.distinct_session_connector_used_count` | Number of distinct Office Agent sessions in PowerPoint in which this connector was used. |
+| `office_metrics.word.distinct_session_connector_used_count` | Number of distinct Office Agent sessions in Word in which this connector was used. |
+| `office_metrics.outlook.distinct_session_connector_used_count` | Number of distinct Office Agent sessions in Outlook in which this connector was used. |
 
  
 
@@ -442,8 +442,8 @@ There are four endpoints in two shapes:
 
 | **Shape** | **Endpoints** | **Returns** |
 | --- | --- | --- |
-| **Per-user** (one row per user, sorted) | user_usage_report, user_cost_report | Users ranked by tokens or spend across a date range. |
-| **Bucketed** (one row per time bucket, optionally grouped) | usage_report, cost_report | Usage or cost over time, broken down by product, model, or other dimensions. |
+| **Per-user** (one row per user, sorted) | `user_usage_report`, `user_cost_report` | Users ranked by tokens or spend across a date range. |
+| **Bucketed** (one row per time bucket, optionally grouped) | `usage_report`, `cost_report` | Usage or cost over time, broken down by product, model, or other dimensions. |
 
 Use the **per-user** endpoints to answer "who are my top spenders?" Use the **bucketed** endpoints to answer "how is usage trending day over day, broken down by product?"
 
@@ -451,7 +451,7 @@ Use the **per-user** endpoints to answer "who are my top spenders?" Use the **bu
 
 ### Data freshness and finality
 
-Data is typically available within four hours of the underlying usage, but may take up to 24 hours. Each response includes a data_refreshed_at timestamp indicating the export the response was served from; usage that occurred after that watermark is not yet reflected.
+Data is typically available within four hours of the underlying usage, but may take up to 24 hours. Each response includes a <code>data_refreshed_at</code> timestamp indicating the export the response was served from; usage that occurred after that watermark is not yet reflected.
 
  
 
@@ -459,27 +459,27 @@ Values for a given date may be revised for up to 30 days as late events arrive a
 
  
 
-When ending_at is omitted (the default is "now"), the response will include a tail of data **after** data_refreshed_at that is incomplete. For stable results across repeated calls, set ending_at to a value at or before a previously returned data_refreshed_at.
+When ending_at is omitted (the default is "now"), the response will include a tail of data **after** <code>data_refreshed_at</code> that is incomplete. For stable results across repeated calls, set <code>ending_at</code> to a value at or before a previously returned <code>data_refreshed_at</code>.
 
  
 
 ### Date range limits
 
-starting_at may be up to **365 days** in the past, and a single query may span **at most 31 days** (ending_at - starting_at). To cover a longer period, issue multiple queries with adjacent windows. **No data is available prior to** **2026-01-01**.
+<code>starting_at</code> may be up to **365 days** in the past, and a single query may span **at most 31 days** (<code>ending_at</code> - <code>starting_at</code>). To cover a longer period, issue multiple queries with adjacent windows. **No data is available prior to** **2026-01-01**.
 
  
 
 ### Pagination
 
-All four cost and usage endpoints are paginated with an opaque cursor. The first request returns up to limit rows plus a next_page cursor; pass that cursor unchanged as the page parameter on the next request, and repeat until has_more is false.
+All four cost and usage endpoints are paginated with an opaque cursor. The first request returns up to limit rows plus a <code>next_page</code> cursor; pass that cursor unchanged as the page parameter on the next request, and repeat until <code>has_more</code> is false.
 
  
 
-Treat next_page as opaque: pass it back unchanged on the next request and send the same query parameters on every page. If a request returns 400 or 410 with a message about the page cursor, discard it and start again from the first page.
+Treat <code>next_page</code> as opaque: pass it back unchanged on the next request and send the same query parameters on every page. If a request returns 400 or 410 with a message about the page cursor, discard it and start again from the first page.
 
  
 
-**Do not change query parameters mid-sequence.** Cursors are bound to the filters and date range that issued them. If you change products[], order_by, group_by[], the date range, or any filter and pass an old cursor, you'll get a 400 error.
+**Do not change query parameters mid-sequence.** Cursors are bound to the filters and date range that issued them. If you change <code>products[]</code>, <code>order_by</code>, <code>group_by[]</code>, the date range, or any filter and pass an old cursor, you'll get a 400 error.
 
  
 
@@ -508,11 +508,11 @@ Each per-user result row identifies the user who generated the usage.
 
 | **Field** | **Type** | **Description** |
 | --- | --- | --- |
-| type | string | Always "user_actor". |
-| user_id | string | The user's ID. Same value accepted by user_ids[]. |
-| name | string or null | The user's name. “Deleted User” if the user was deleted. |
-| email | string or null | The user's email address. Null when user deleted. |
-| deleted | boolean | True if the account has been deleted. |
+| `type` | string | Always "user_actor". |
+| `user_id` | string | The user's ID. Same value accepted by `user_ids[]`. |
+| `name` | string or null | The user's name. “Deleted User” if the user was deleted. |
+| `email` | string or null | The user's email address. Null when user deleted. |
+| `deleted` | boolean | True if the account has been deleted. |
 
  
 
@@ -530,20 +530,20 @@ Returns per-user **token usage** across a date range, sorted by the chosen token
 
 | **Field** | **Type** | **Required** | **Default** | **Description** |
 | --- | --- | --- | --- | --- |
-| starting_at | RFC 3339 datetime | Yes | — | Start of range, inclusive. Floored to the start of the hour in UTC. Must be within the last 365 days. |
-| ending_at | RFC 3339 datetime | No | now | End of range, exclusive. The range may span at most 31 days. |
-| products[] | one or more of chat, claude_code, cowork, office_agent, claude_in_chrome,claude_design | No | all seat-based products | Seat-based product surfaces only. Repeat the parameter for multiple values. |
-| models[] | string, max 100 entries | No | all | Filter to specific model names (e.g., claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5-20251001). |
-| user_ids[] | string, max 100 entries | No | all | Filter to specific users. Useful for looking up a known set of users without paginating the whole organization. |
-| context_windows[] | one or more of 0-200k, 200k-1M | No | all | Filter to specific context-window pricing tiers. Use group_by[]=context_window to break out per-tier values. |
-| inference_geos[] | one or more of global, us, not_available | No | all | Filter to specific inference regions. not_available matches rows where the region is unset. Use group_by[]=inference_geo to break out per-region values. |
-| speeds[] | one or more of fast, standard | No | all | Filter to fast or standard inference mode. Use group_by[]=speed to break out per-mode values. |
-| group_by[] | one or more of product, model, context_window, inference_geo, speed | No | none | Break each user's row out by the given dimensions. With dimensions present, one user may span several rows. |
-| order_by | total_tokens, output_tokens, uncached_input_tokens | No | total_tokens | Metric to sort by. |
-| exclude_deleted_users | boolean | No | false | When true, rows for deleted users are omitted. |
-| order | desc, asc | No | desc | Sort direction. |
-| limit | integer 1–1000 | No | 20 | Rows per page. |
-| page | opaque cursor string | No | — | The next_page value from a previous response. |
+| `starting_at` | RFC 3339 datetime | Yes | — | Start of range, inclusive. Floored to the start of the hour in UTC. Must be within the last 365 days. |
+| `ending_at` | RFC 3339 datetime | No | now | End of range, exclusive. The range may span at most 31 days. |
+| `products[]` | one or more of chat, claude_code, cowork, office_agent, claude_in_chrome,claude_design | No | all seat-based products | Seat-based product surfaces only. Repeat the parameter for multiple values. |
+| `models[]` | string, max 100 entries | No | all | Filter to specific model names (e.g., `claude-opus-4-6`, `claude-sonnet-4-6`, `claude-haiku-4-5-20251001`). |
+| `user_ids[]` | string, max 100 entries | No | all | Filter to specific users. Useful for looking up a known set of users without paginating the whole organization. |
+| `context_windows[]` | one or more of 0-200k, 200k-1M | No | all | Filter to specific context-window pricing tiers. Use `group_by[]=context_window` to break out per-tier values. |
+| `inference_geos[]` | one or more of global, us, not_available | No | all | Filter to specific inference regions. not_available matches rows where the region is unset. Use `group_by[]=inference_geo` to break out per-region values. |
+| `speeds[]` | one or more of fast, standard | No | all | Filter to fast or standard inference mode. Use `group_by[]=speed` to break out per-mode values. |
+| `group_by[]` | one or more of product, model, context_window, inference_geo, speed | No | none | Break each user's row out by the given dimensions. With dimensions present, one user may span several rows. |
+| `order_by` | total_tokens, output_tokens, uncached_input_tokens | No | total_tokens | Metric to sort by. |
+| `exclude_deleted_users` | boolean | No | false | When true, rows for deleted users are omitted. |
+| `order` | desc, asc | No | desc | Sort direction. |
+| `limit` | integer 1–1000 | No | 20 | Rows per page. |
+| `page` | opaque cursor string | No | — | The `next_page` value from a previous response. |
 
  
 
@@ -551,25 +551,25 @@ Returns per-user **token usage** across a date range, sorted by the chosen token
 
 | **Field** | **Description** |
 | --- | --- |
-| organization_id | ID of the organization the API key belongs to. |
-| data | Array of entries, sorted by order_by in order direction. |
-| data[].actor | The Actor object for the user who generated the usage. |
-| data[].product | When group_by[] includes product, the product surface. Otherwise null. |
-| data[].model | When group_by[] includes model, the model name. Otherwise null. |
-| data[].context_window | When group_by[] includes context_window, the context tier (0-200k or 200k-1M). Otherwise null. |
-| data[].inference_geo | When group_by[] includes inference_geo, the inference region. Otherwise null. |
-| data[].speed | When group_by[] includes speed: fast or standard. Otherwise null. |
-| data[].uncached_input_tokens | Input tokens that were not served from the prompt cache. |
-| data[].cache_creation.ephemeral_5m_input_tokens | Tokens written to the 5-minute prompt cache. |
-| data[].cache_creation.ephemeral_1h_input_tokens | Tokens written to the 1-hour prompt cache. |
-| data[].cache_read_input_tokens | Input tokens served from the prompt cache. |
-| data[].output_tokens | Output tokens generated. |
-| data[].total_tokens | Sum of all token components above. The default order_by=total_tokens sorts on this value. |
-| data[].server_tool_use.web_search_requests | Number of web search tool calls. |
-| data[].requests | Number of API requests |
-| has_more | Whether another page exists. |
-| next_page | Opaque cursor for the next page; null when has_more is false. |
-| data_refreshed_at | Timestamp of the data export this response was served from. |
+| `organization_id` | ID of the organization the API key belongs to. |
+| `data` | Array of entries, sorted by `order_by` in order direction. |
+| `data[].actor` | The Actor object for the user who generated the usage. |
+| `data[].product` | When `group_by[]` includes product, the product surface. Otherwise null. |
+| `data[].model` | When `group_by[]` includes model, the model name. Otherwise null. |
+| `data[].context_window` | When `group_by[]` includes `context_window`, the context tier (0-200k or 200k-1M). Otherwise null. |
+| `data[].inference_geo` | When `group_by[]` includes `inference_geo`, the inference region. Otherwise null. |
+| `data[].speed` | When `group_by[]` includes `speed: fast` or `standard`. Otherwise null. |
+| `data[].uncached_input_tokens` | Input tokens that were not served from the prompt cache. |
+| `data[].cache_creation.ephemeral_5m_input_tokens` | Tokens written to the 5-minute prompt cache. |
+| `data[].cache_creation.ephemeral_1h_input_tokens` | Tokens written to the 1-hour prompt cache. |
+| `data[].cache_read_input_tokens` | Input tokens served from the prompt cache. |
+| `data[].output_tokens` | Output tokens generated. |
+| `data[].total_tokens` | Sum of all token components above. The default `order_by=total_tokens` sorts on this value. |
+| `data[].server_tool_use.web_search_requests` | Number of web search tool calls. |
+| `data[].requests` | Number of API requests |
+| `has_more` | Whether another page exists. |
+| `next_page` | Opaque cursor for the next page; null when `has_more` is false. |
+| `data_refreshed_at` | Timestamp of the data export this response was served from. |
 
  
 
@@ -597,14 +597,14 @@ Returns per-user **USD cost** across a date range, sorted by discounted or list-
 
 **Query parameters**
 
-Same as user_usage_report, with these differences:
+Same as <code>user_usage_report</code>, with these differences:
 
 | **Field** | **Type** | **Required** | **Default** | **Description** |
 | --- | --- | --- | --- | --- |
-| order_by | amount, list_amount | No | amount | Metric to sort by. |
-| group_by[] | one or more of product, model, context_window, inference_geo, speed, cost_type, token_type | No | none | Break each user's row out by the given dimensions. cost_type returns one row per cost component (tokens, web search, code execution); token_type returns one row per token type. |
+| `order_by` | amount, list_amount | No | amount | Metric to sort by. |
+| `group_by[]` | one or more of product, model, context_window, inference_geo, speed, cost_type, token_type | No | none | Break each user's row out by the given dimensions. `cost_type` returns one row per cost component (tokens, web search, code execution); `token_type` returns one row per token type. |
 
-All other parameters (starting_at, ending_at, products[], models[], user_ids[], order, limit, page) are identical.
+All other parameters (<code>starting_at</code>, <code>ending_at</code>, <code>products[]</code>, <code>models[]</code>, <code>user_ids[]</code>, <code>order</code>, <code>limit</code>, <code>page</code>) are identical.
 
  
 
@@ -612,19 +612,19 @@ All other parameters (starting_at, ending_at, products[], models[], user_ids[], 
 
 | **Field** | **Description** |
 | --- | --- |
-| organization_id | ID of the organization the API key belongs to. |
-| data | Array of entries, sorted by order_by in order direction. |
-| data[].actor | The Actor object for the user who generated the cost. |
-| data[].product, data[].model, data[].context_window, data[].inference_geo, data[].speed | When the corresponding group_by[] value is set, the dimension value. Otherwise null. |
-| data[].currency | Always "USD". |
-| data[].amount | Amount in fractional cents — raw consumption cost after negotiated discounts. For example, "41280.000000" is $412.80. The value is summed across all products in the products[] filter. |
-| data[].list_amount | List-price amount (pre-discount) in fractional cents, same format. |
-| data[].cost_type | When group_by[] includes cost_type: one of tokens, web_search, code_execution. null when not set. |
-| data[].token_type | When group_by[] includes token_type: one of uncached_input_tokens, output_tokens, cache_read_input_tokens, cache_creation.ephemeral_5m_input_tokens, cache_creation.ephemeral_1h_input_tokens. Only non-null on rows where cost_type is tokens. |
-| data[].requests | Number of API requests |
-| has_more | Whether another page exists. |
-| next_page | Opaque cursor for the next page. |
-| data_refreshed_at | Timestamp of the data export this response was served from. |
+| `organization_id` | ID of the organization the API key belongs to. |
+| `data` | Array of entries, sorted by `order_by` in order direction. |
+| `data[].actor` | The Actor object for the user who generated the cost. |
+| `data[].product, data[].model`, `data[].context_window`, `data[].inference_geo`, `data[].speed` | When the corresponding `group_by[]` value is set, the dimension value. Otherwise null. |
+| `data[].currency` | Always "USD". |
+| `data[].amount` | Amount in fractional cents —raw consumption cost after negotiated discounts. For example, "41280.000000" is $412.80. The value is summed across all products in the `products[]` filter. |
+| `data[].list_amount` | List-price amount (pre-discount) in fractional cents, same format. |
+| `data[].cost_type` | When `group_by[]` includes `cost_type:` one of `tokens`, `web_search`, `code_execution`. null when not set. |
+| `data[].token_type` | When `group_by[]` includes `token_type:` one of `uncached_input_tokens`, `output_tokens`, `cache_read_input_tokens`, `cache_creation.ephemeral_5m_input_tokens`, `cache_creation.ephemeral_1h_input_tokens`. Only non-null on rows where `cost_type` is tokens. |
+| `data[].requests` | Number of API requests |
+| `has_more` | Whether another page exists. |
+| `next_page` | Opaque cursor for the next page. |
+| `data_refreshed_at` | Timestamp of the data export this response was served from. |
 
 **Parsing amounts**
 
@@ -646,7 +646,9 @@ curl "https://api.anthropic.com/v1/organizations/analytics/user_cost_report?star
 
 ### 8. Token usage over time
 
-GET /v1/organizations/analytics/usage_report
+<code>GET /v1/organizations/analytics/usage_report</code>
+
+ 
 
 Returns **token usage over time**, bucketed by minute, hour, or day, optionally broken down by product, model, context window, inference region, or speed.
 
@@ -656,18 +658,18 @@ Returns **token usage over time**, bucketed by minute, hour, or day, optionally 
 
 | **Field** | **Type** | **Required** | **Default** | **Description** |
 | --- | --- | --- | --- | --- |
-| starting_at | RFC 3339 datetime | Yes | — | Start of range, inclusive. Must be within the last 365 days. Floored to the nearest bucket_width boundary in UTC. |
-| ending_at | RFC 3339 datetime | No | now | End of range, exclusive. The range may span at most 31 days. Floored to the nearest bucket_width boundary in UTC. |
-| bucket_width | 1m, 1h, 1d | No | 1d | Time bucket granularity: minute, hour, or day. |
-| group_by[] | one or more of product, model, context_window, inference_geo, speed | No | none | Dimensions to break down within each bucket. Omit for a single aggregate per bucket. |
-| products[] | one or more of chat, claude_code, cowork, office_agent, claude_in_chrome,claude_design | No | all | Filter to specific product surfaces. |
-| models[] | string, max 100 entries | No | all | Filter to specific model names. |
-| context_windows[] | one or more of 0-200k, 200k-1M | No | all | Filter to specific context-window pricing tiers. Use group_by[]=context_window to break out per-tier values. |
-| inference_geos[] | one or more of global, us, not_available | No | all | Filter to specific inference regions. not_available matches rows where the region is unset. Use group_by[]=inference_geo to break out per-region values. |
-| speeds[] | one or more of fast, standard | No | all | Filter to fast or standard inference mode. |
-| user_ids[] | string, max 100 entries | No | all | Filter to specific users. |
-| limit | integer | No | varies | Buckets per page. Default and maximum vary by bucket_width: 1d → 7 (max 31); 1h → 24 (max 168); 1m → 60 (max 256). |
-| page | opaque cursor string | No | — | The next_page value from a previous response. |
+| `starting_at` | RFC 3339 datetime | Yes | — | Start of range, inclusive. Must be within the last 365 days. Floored to the nearest `bucket_width` boundary in UTC. |
+| `ending_at` | RFC 3339 datetime | No | now | End of range, exclusive. The range may span at most 31 days. Floored to the nearest `bucket_width` boundary in UTC. |
+| `bucket_width` | 1m, 1h, 1d | No | 1d | Time bucket granularity: minute, hour, or day. |
+| `group_by[]` | one or more of product, model, context_window, inference_geo, speed | No | none | Dimensions to break down within each bucket. Omit for a single aggregate per bucket. |
+| `products[]` | one or more of chat, claude_code, cowork, office_agent, claude_in_chrome,claude_design | No | all | Filter to specific product surfaces. |
+| `models[]` | string, max 100 entries | No | all | Filter to specific model names. |
+| `context_windows[]` | one or more of 0-200k, 200k-1M | No | all | Filter to specific context-window pricing tiers. Use `group_by[]=context_window` to break out per-tier values. |
+| `inference_geos[]` | one or more of global, us, not_available | No | all | Filter to specific inference regions. `not_available` matches rows where the region is unset. Use `group_by[]=inference_geo` to break out per-region values. |
+| `speeds[]` | one or more of fast, standard | No | all | Filter to fast or standard inference mode. |
+| `user_ids[]` | string, max 100 entries | No | all | Filter to specific users. |
+| `limit` | integer | No | varies | Buckets per page. Default and maximum vary by bucket_width: 1d → 7 (max 31); 1h → 24 (max 168); 1m → 60 (max 256). |
+| `page` | opaque cursor string | No | — | The `next_page` value from a previous response. |
 
  
 
@@ -675,58 +677,66 @@ Returns **token usage over time**, bucketed by minute, hour, or day, optionally 
 
 | **Field** | **Description** |
 | --- | --- |
-| organization_id | ID of the organization the API key belongs to. |
-| data | Array of entries, one per time bucket. |
-| data[].starting_at | Bucket start. |
-| data[].ending_at | Bucket end. |
-| data[].results | Array of entries, one per group within the bucket. A single entry with all dimension fields null when group_by[] is omitted. |
-| data[].results[].product, .model, .context_window, .inference_geo, .speed | When the corresponding group_by[] value is set, the dimension value. Otherwise null. |
-| data[].results[].uncached_input_tokens | Input tokens that were not served from the prompt cache. |
-| data[].results[].cache_creation.ephemeral_5m_input_tokens | Tokens written to the 5-minute prompt cache. |
-| data[].results[].cache_creation.ephemeral_1h_input_tokens | Tokens written to the 1-hour prompt cache. |
-| data[].results[].cache_read_input_tokens | Input tokens served from the prompt cache. |
-| data[].results[].output_tokens | Output tokens generated. |
-| data[].results[].server_tool_use.web_search_requests | Number of web search tool calls. |
-| has_more | Whether more buckets exist. |
-| next_page | Opaque cursor for the next page. |
-| data_refreshed_at | Timestamp of the data export this response was served from. |
+| `organization_id` | ID of the organization the API key belongs to. |
+| `data` | Array of entries, one per time bucket. |
+| `data[].starting_at` | Bucket start. |
+| `data[].ending_at` | Bucket end. |
+| `data[].results` | Array of entries, one per group within the bucket. A single entry with all dimension fields null when `group_by[]` is omitted. |
+| `data[].results[].product, .model, .context_window, .inference_geo, .speed` | When the corresponding `group_by[]` value is set, the dimension value. Otherwise null. |
+| `data[].results[].uncached_input_tokens` | Input tokens that were not served from the prompt cache. |
+| `data[].results[].cache_creation.ephemeral_5m_input_tokens` | Tokens written to the 5-minute prompt cache. |
+| `data[].results[].cache_creation.ephemeral_1h_input_tokens` | Tokens written to the 1-hour prompt cache. |
+| `data[].results[].cache_read_input_tokens` | Input tokens served from the prompt cache. |
+| `data[].results[].output_tokens` | Output tokens generated. |
+| `data[].results[].server_tool_use.web_search_requests` | Number of web search tool calls. |
+| `has_more` | Whether more buckets exist. |
+| `next_page` | Opaque cursor for the next page. |
+| `data_refreshed_at` | Timestamp of the data export this response was served from. |
 
 **Example request**
 
-curl "[https://api.anthropic.com/v1/organizations/analytics/usage_report?starting_at=2026-03-01T00:00:00Z&bucket_width=1d&group_by[]=product](https://api.anthropic.com/v1/organizations/analytics/usage_report?starting_at=2026-03-01T00:00:00Z&bucket_width=1d&group_by[]=product)" \
+```
+curl "https://api.anthropic.com/v1/organizations/analytics/usage_report?starting_at=2026-03-01T00:00:00Z&bucket_width=1d&group_by[]=product" \
 
-  --header "x-api-key: $YOUR_API_KEY"
+--header "x-api-key: $YOUR_API_KEY"
+```
 
  
 
 ### 9. Cost over time
 
-GET /v1/organizations/analytics/cost_report
+<code>GET /v1/organizations/analytics/cost_report</code>
 
-Returns **USD cost over time**, bucketed and grouped the same way as usage_report.
+ 
+
+Returns **USD cost over time**, bucketed and grouped the same way as <code>usage_report</code>.
+
+ 
 
 **Query parameters**
 
-Same as usage_report (bucket_width, group_by[], filters, limit, page). The group_by[] values additionally accept cost_type and token_type on this endpoint.
+Same as <code>usage_report</code> (<code>bucket_width</code>, <code>group_by[]</code>, <code>filters</code>, <code>limit</code>, <code>page</code>). The <code>group_by[]</code> values additionally accept <code>cost_type</code> and <code>token_type</code> on this endpoint.
+
+ 
 
 **Response fields**
 
 | **Field** | **Description** |
 | --- | --- |
-| organization_id | ID of the organization the API key belongs to. |
-| data | Array of entries, one per time bucket. |
-| data[].starting_at | Bucket start. |
-| data[].ending_at | Bucket end. |
-| data[].results | Array of entries, one per group within the bucket. |
-| data[].results[].product, .model, .context_window, .inference_geo, .speed | When the corresponding group_by[] value is set, the dimension value. Otherwise null. |
-| data[].results[].cost_type | When group_by[] includes cost_type: tokens, web_search, or code_execution. null when not set. |
-| data[].results[].token_type | When group_by[] includes token_type: one of the token types listed under endpoint 7. Cost endpoint only — token_type is rejected on usage_report. |
-| data[].results[].currency | Always "USD". |
-| data[].results[].amount | Amount in fractional cents — raw consumption cost after negotiated discounts. |
-| data[].results[].list_amount | List-price amount (pre-discount) in fractional cents. |
-| has_more | Whether more buckets exist. |
-| next_page | Opaque cursor for the next page. |
-| data_refreshed_at | Timestamp of the data export this response was served from. |
+| `organization_id` | ID of the organization the API key belongs to. |
+| `data` | Array of entries, one per time bucket. |
+| `data[].starting_at` | Bucket start. |
+| `data[].ending_at` | Bucket end. |
+| `data[].results` | Array of entries, one per group within the bucket. |
+| `data[].results[].product, .model, .context_window, .inference_geo, .speed` | When the corresponding `group_by[]` value is set, the dimension value. Otherwise null. |
+| `data[].results[].cost_type` | When `group_by[]` includes `cost_type: tokens`, `web_search`, or `code_execution`. null when not set. |
+| `data[].results[].token_type` | When `group_by[]` includes `token_type:` one of the token types listed under endpoint 7. Cost endpoint only — `token_type` is rejected on `usage_report`. |
+| `data[].results[].currency` | Always "USD". |
+| `data[].results[].amount` | Amount in fractional cents — raw consumption cost after negotiated discounts. |
+| `data[].results[].list_amount` | List-price amount (pre-discount) in fractional cents. |
+| `has_more` | Whether more buckets exist. |
+| `next_page` | Opaque cursor for the next page. |
+| `data_refreshed_at` | Timestamp of the data export this response was served from. |
 
  
 
@@ -745,6 +755,6 @@ curl "https://api.anthropic.com/v1/organizations/analytics/cost_report?starting_
 
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
-- [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
+- [Use plugins in Claude Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

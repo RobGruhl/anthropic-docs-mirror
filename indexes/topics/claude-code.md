@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-26 21:36*
+*Last updated: 2026-05-27 00:35*
 
-Documents related to Claude Code across all sources (221 documents)
+Documents related to Claude Code across all sources (222 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (140)
+## Claude Code Documentation (141)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -74,6 +74,7 @@ Documents related to Claude Code across all sources (221 documents)
 - [Interactive Mode](/code-claude-docs/interactive-mode.md)
 - [Jetbrains](/code-claude-docs/jetbrains.md)
 - [Keybindings](/code-claude-docs/keybindings.md)
+- [Large Codebases](/code-claude-docs/large-codebases.md)
 - [Legal And Compliance](/code-claude-docs/legal-and-compliance.md)
 - [Llm Gateway](/code-claude-docs/llm-gateway.md)
 - [Managed Mcp](/code-claude-docs/managed-mcp.md)
