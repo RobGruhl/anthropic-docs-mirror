@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-27 18:48*
+*Last updated: 2026-05-27 21:38*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -66,7 +66,7 @@ Total documents: 267
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
 **Source:** https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-27  
 
 ### Anthropic Software Directory Terms
 **File:** `/docs-support/anthropic-software-directory-terms.md`  
@@ -156,7 +156,7 @@ Total documents: 267
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-27  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -186,7 +186,7 @@ Total documents: 267
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
 **Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
@@ -226,7 +226,7 @@ Total documents: 267
 ### Configure and use styles
 **File:** `/docs-support/configure-and-use-styles.md`  
 **Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -286,7 +286,7 @@ Total documents: 267
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-27  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
 **Source:** https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### Disable public projects for your organization
 **File:** `/docs-support/how-can-i-disable-public-projects.md`  
@@ -416,12 +416,12 @@ Total documents: 267
 ### How am I billed for my Enterprise plan?
 **File:** `/docs-support/how-am-i-billed-for-my-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-27  
 
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### How can I access the personal information that Anthropic has on my account?
 **File:** `/docs-support/how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md`  
@@ -436,7 +436,7 @@ Total documents: 267
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -481,7 +481,7 @@ Total documents: 267
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
 **Source:** https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### How can I uninstall Claude for Android?
 **File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
@@ -566,7 +566,7 @@ Total documents: 267
 ### How large is the Claude API’s context window?
 **File:** `/docs-support/how-large-is-the-claude-api-s-context-window.md`  
 **Source:** https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### How large is the context window on paid Claude plans?
 **File:** `/docs-support/how-large-is-the-context-window-on-paid-claude-plans.md`  
@@ -578,10 +578,10 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing  
 **Updated:** 2026-05-17  
 
-### How to create custom Skills
+### How to create custom skills
 **File:** `/docs-support/how-to-create-custom-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512198-how-to-create-custom-skills  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### How to get support
 **File:** `/docs-support/how-to-get-support.md`  
@@ -606,7 +606,7 @@ Total documents: 267
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
@@ -661,7 +661,7 @@ Total documents: 267
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -706,7 +706,7 @@ Total documents: 267
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-05-25  
+**Updated:** 2026-05-27  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -836,7 +836,7 @@ Total documents: 267
 ### Provision and manage Skills for your organization
 **File:** `/docs-support/provisioning-and-managing-skills-for-your-organization.md`  
 **Source:** https://support.claude.com/en/articles/13119606-provisioning-and-managing-skills-for-your-organization  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-27  
 
 ### Public Sector FAQs
 **File:** `/docs-support/public-sector-faqs.md`  
@@ -931,7 +931,7 @@ Total documents: 267
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-27  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
@@ -1021,7 +1021,7 @@ Total documents: 267
 ### Use Claude for PowerPoint
 **File:** `/docs-support/use-claude-in-powerpoint.md`  
 **Source:** https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1061,7 +1061,7 @@ Total documents: 267
 ### Use Skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-27  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
@@ -1183,11 +1183,6 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained  
 **Updated:** 2026-05-17  
 
-### What are Skills?
-**File:** `/docs-support/what-are-skills.md`  
-**Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-05-18  
-
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
@@ -1196,6 +1191,11 @@ Total documents: 267
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
+**Updated:** 2026-05-27  
+
+### What are skills?
+**File:** `/docs-support/what-are-skills.md`  
+**Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
 **Updated:** 2026-05-27  
 
 ### What are some things I can use Claude for?

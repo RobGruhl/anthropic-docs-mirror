@@ -1,6 +1,6 @@
 # Provision and manage Skills for your organization
 
-*Updated this week*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -139,7 +139,7 @@ To remove a skill from your organization, locate it in the **Organization skills
 
 ## Related Articles
 
-- [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)

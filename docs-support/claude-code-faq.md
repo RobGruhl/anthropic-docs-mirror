@@ -1,6 +1,6 @@
 # Claude Code FAQ
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -47,12 +47,6 @@ When configured with Bedrock/Vertex and CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC
 ## Is there a way to access Claude Code via Bedrock/Vertex without exposing a secret key/access key?
 
 Yes. Our setup guides for **[Bedrock](https://docs.claude.com/en/docs/claude-code/amazon-bedrock)** and **[Vertex](https://docs.claude.com/en/docs/claude-code/google-vertex-ai)** show how you can enable this. For example, in the Bedrock case you can run `aws configure` to configure the AWS CLI before adding the necessary **[configs](https://docs.claude.com/en/docs/claude-code/amazon-bedrock#3-configure-claude-code)** and running Claude Code with the Bedrock, or you can use Bedrock API keys, which is a new feature from AWS that enables API keys for Bedrock usage that don’t require full AWS credentials.
-
- 
-
-## Is the 1M context window available in Claude Code, and will users be warned about higher pricing?
-
-1M context, which previously required usage credits, is now included in Claude Code for Max, Team, and Enterprise users with Opus 4.6 or 4.7. Sessions using these models can use the full 1M context window automatically, meaning fewer compactions and more of the conversation kept intact.
 
  
 
@@ -132,7 +126,7 @@ This typically occurs with reusable workflows. Check that your workflow syntax i
 
 ## Related Articles
 
-- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
 - [Your first day in Claude Code](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
 - [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)

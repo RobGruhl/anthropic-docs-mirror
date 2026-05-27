@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -54,7 +54,10 @@ Usage is purchased **upfront in credits**. Your credits draw down as your team u
 
 - After setup, Owners and Primary Owners can purchase additional credits at any time from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
 - All credits are shared across your organization — any team member can draw from the same pool.
--  
+
+**Note:** If you purchased your Enterprise plan through AWS Marketplace, billing works like sales-assisted plans. You're billed monthly in arrears based on your organization's consumption rather than purchasing credits upfront.
+
+ 
 
 ### Sales-assisted Enterprise
 

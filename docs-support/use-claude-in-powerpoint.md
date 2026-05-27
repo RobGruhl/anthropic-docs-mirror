@@ -1,6 +1,6 @@
 # Use Claude for PowerPoint
 
-*Updated over a week ago*
+*Updated in the last hour*
 
 ---
 
@@ -303,10 +303,6 @@ While we continue to develop our offerings and improve safety measures to reduce
  
 
 ## Frequently asked questions
-
-### Which models are available when using Claude for PowerPoint?
-
-You can switch between Opus 4.7, Opus 4.6, and Sonnet 4.6 when using Claude for PowerPoint.
 
  
 

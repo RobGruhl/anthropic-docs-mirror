@@ -1,6 +1,6 @@
 # Use Claude for Excel
 
-*Updated over 2 weeks ago*
+*Updated in the last hour*
 
 ---
 
@@ -313,7 +313,7 @@ Users can approve all of Claude’s actions via a confirmation pop-up that appea
 - File system access: IMAGE, FILES, DIRECTORY, FOPEN, FWRITE, FCLOSE
 - System information: REGISTER.ID, RTD, INFO
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1779909300&signature=48eb1bd0d57fb28e62ae7ef107e6ad57271269e6329dce79a6dc2722b40651fc&req=dSgjH819nIJeWfMW1HO4zYWKZ%2BtiItNxqAsRdssXCyD4IV%2BtwqMwcVwvQciX%0Aoi7Huo8VJJCRp%2BOvduw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1780056000&signature=5c58ebac77205b87f1dcf3f8e3d93746eea1f4f15071b12d462731c108711f68&req=dSgjH819nIJeWfMW3nq%2BgfAvMWKD9bCZDwbF3Y2%2BSQ8M7VQc%2FQ59cRAYIR9f%0A3jGBKYpyCWakJlYMYoHohfGbvjI%3D%0A)
 
  
 
@@ -490,10 +490,6 @@ While we continue to develop our offerings and improve safety measures to reduce
  
 
 ## Frequently asked questions
-
-### Which models are available when using Claude for Excel?
-
-You can switch between Opus 4.7, Opus 4.6, and Sonnet 4.6 when using Claude for Excel.
 
  
 

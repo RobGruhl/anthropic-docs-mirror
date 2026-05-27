@@ -28,7 +28,7 @@ Claude in Slack gives you AI assistance right where your team collaborates. This
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1779909300&signature=95fd4cbbefced6157601bd8653f0809f0f1d70e2d8fa7eeacfbb82e7d8a3a1ba&req=dSciE8h7nYdZWPMW1HO4zXK25RhH6DgdVfOC%2FRy97LUkQ6jO2QwcYDX7SkgM%0AQSoUSV2gaAwlK9Jh9bQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1779920100&signature=cf8387060d0369eae1bbc1961c28e659b90b98b8e1cea075c9b29cd4f40a8b36&req=dSciE8h7nYdZWPMW1HO4zXK25RhH6jEfVfOC%2FRy97LWZMZp3rq5SYNT%2B6HC%2F%0AhGvRtnFklFARrSwy8BU%3D%0A)
 
  
 
@@ -264,6 +264,6 @@ Start a new conversation to continue.
 
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
+- [Use Claude in Xcode](https://support.claude.com/en/articles/12293051-use-claude-in-xcode)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

@@ -295,7 +295,7 @@ Refer to **[Teach Claude your way of working using Skills](https://support.claud
 ## Related Articles
 
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
-- [What are Skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Provision and manage Skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
 - [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
