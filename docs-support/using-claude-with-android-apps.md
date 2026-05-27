@@ -196,7 +196,7 @@ For features requiring permissions (like location or calendar access), Claude wi
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779879600&signature=ce27cd335f028656b6e8e10079d5ac7274d3fe7d761c827364a39a7a2e37362c&req=dScnEcp7nIdeXfMW1HO4zQe5FVaH3CzyS5x65TIld%2FA7rGDd1Y1s%2BXWfwgjq%0AaG6Pc3pxZ77q%2FedKmro%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1779888600&signature=a5334d40cb9591ffd11fa0b222a1478404be5efe208361cc8ddc75d7710108d1&req=dScnEcp7nIdeXfMW1HO4zQe5FVaH0y3yS5x65TIld%2FBSe9AlvJlxRcsSQCon%0A6Lulz3epwX5T0ynkbic%3D%0A)
 
  
 

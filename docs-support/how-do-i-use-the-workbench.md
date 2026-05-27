@@ -8,7 +8,7 @@ The Workbench allows you to create and test prompts within your Claude Console a
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1779879600&signature=f2509519477ed268b0adb87a21de08ef2f1c5b3b84aeff3ccfc22f0707802a4d&req=fCgvFst%2FlYVWFb4f3HP0gKWufTML20BbOkmmaOsi7IBVRry8oC5novNfPopE%0Az7wymGA0%2FfcBdFkkmg%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1779888600&signature=557b4682999d12ae3c9adbbabeb9da93987dfcd36414d4e7742f875fe9e6d426&req=fCgvFst%2FlYVWFb4f3HP0gKWufTME2kBbOkmmaOsi7IAoIcPZFazgoxeYWuuQ%0AkhxIMWKGP5Ig%2FSlmww%3D%3D%0A)
 
  
 
@@ -16,7 +16,7 @@ The Workbench also allows you to configure several settings when prompting Claud
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1779879600&signature=b74beff48c9d7b3ca2939a006448e162b0352e7812c4f03c4fb31c65804a60f1&req=fCgvFst9nYdeFb4f3HP0gN52UNrXMIK3DUq7%2BRvcmSMiBNbAJdlDEiNYwYGx%0Ah63HMBzKkn779y4TFg%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1779888600&signature=6a6ab02af438869b44814ca60240e5db85dee66f99310cae8d480844b6566583&req=fCgvFst9nYdeFb4f3HP0gN52UNrYMYK3DUq7%2BRvcmSPgv8YCiIbXD92vArSs%0AIvyb%2Fv4RNVtXZNow5Q%3D%3D%0A)
 
  
 
@@ -24,7 +24,7 @@ After crafting your prompt, click on the "Get code" button to generate a sample 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1779879600&signature=764f904e565e06e2a6b1590459f10e5b058668d74069aaceb07f7efd68d9f2c4&req=fCgvFst9mIVaFb4f3HP0gEZcvTCZ6%2BLrRWixPJbjiQeHygrElKywVPJ5je3W%0AfgOUBYuh2%2BhAc5%2BrgA%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1779888600&signature=132920392e8c27bf61e6bb4bb0f3c8f28aedc8e647203c59c3b604c913c2cb01&req=fCgvFst9mIVaFb4f3HP0gEZcvTCW6uLrRWixPJbjiQfdxn318FDJNycvJlt7%0Ab6y8U5yEm4CCFejPdQ%3D%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ You can access your previous Workbench prompts on your Console account by follow
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1779879600&signature=c3a40f4df9a26cb0318391009aea4539418f7f2074036782a30514c7d9a0907d&req=dSkjE8B3n4hXXPMW1HO4zQQ9v1gBMHq%2BTyGSpkcb8MXOKW%2F2rDu5PLRDq1kd%0AV0f%2FbeHceaC8f4gf760%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1779888600&signature=4c8c0ae2ca417700042278a657b205093fefa854273df3c5fbbfbffdd3cd9949&req=dSkjE8B3n4hXXPMW1HO4zQQ9v1gBP3u%2BTyGSpkcb8MUDEpiA3L5Pu5pye%2BRZ%0AiqOOYL0DKzjNr%2Fv1M1M%3D%0A)
 
  
 

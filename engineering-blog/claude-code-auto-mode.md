@@ -1,4 +1,4 @@
-# Claude Code auto mode: a safer way to skip permissions
+# How we built Claude Code auto mode: a safer way to skip permissions
 
 *Published*
 
