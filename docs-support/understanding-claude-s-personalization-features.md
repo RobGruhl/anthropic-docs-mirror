@@ -1,6 +1,6 @@
 # Understanding Claude's personalization features
 
-*Updated over 2 weeks ago*
+*Updated over a month ago*
 
 ---
 
@@ -88,7 +88,7 @@ You can use these features independently or in combination to create the most ef
 
 ## Related Articles
 
-- [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
+- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Organization instructions in Claude for Government](https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)

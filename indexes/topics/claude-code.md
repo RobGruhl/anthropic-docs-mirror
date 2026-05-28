@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-27 21:38*
+*Last updated: 2026-05-28 00:33*
 
-Documents related to Claude Code across all sources (223 documents)
+Documents related to Claude Code across all sources (222 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (141)
+## Claude Code Documentation (140)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -27,7 +27,6 @@ Documents related to Claude Code across all sources (223 documents)
 - [Best Practices](/code-claude-docs/best-practices.md)
 - [Champion Kit](/code-claude-docs/champion-kit.md)
 - [Changelog](/code-claude-docs/changelog.md)
-- [Channels](/code-claude-docs/channels.md)
 - [Channels Reference](/code-claude-docs/channels-reference.md)
 - [Checkpointing](/code-claude-docs/checkpointing.md)
 - [Chrome](/code-claude-docs/chrome.md)

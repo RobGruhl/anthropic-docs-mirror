@@ -1,6 +1,6 @@
 # How to create custom skills
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -250,6 +250,6 @@ Visit our repository on GitHub for example skills you can use as templates: **[h
 
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
-- [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-- [Provision and manage Skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
+- [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [Provision and manage skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)

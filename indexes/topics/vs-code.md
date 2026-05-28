@@ -1,5 +1,5 @@
 # Vs Code Topic Index
-*Last updated: 2026-05-27 21:38*
+*Last updated: 2026-05-28 00:33*
 
 Documents related to Vs Code across all sources (1 documents)
 ---

@@ -1,12 +1,10 @@
-# Provision and manage Skills for your organization
+# Provision and manage skills for your organization
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
 This article explains how organization owners can provision skills for all users in their organization. Provisioning skills to your team allows you to distribute approved workflows and capabilities across your entire organization from a central location.
-
- 
 
 ## Prerequisites
 
@@ -118,7 +116,7 @@ The **Organization skills** section in **[Organization settings > Skills](https:
 
  
 
-To remove a skill from your organization, locate it in the **Organization skills** list and select the option to remove it. Once removed, the skill will no longer appear in users' Skills lists in **[Customize > Skills](https://claude.ai/customize/skills).**
+To remove a skill from your organization, locate it in the **Organization skills** list and select the option to remove it. Once removed, the skill will no longer appear in users' skills lists in **[Customize > Skills](https://claude.ai/customize/skills).**
 
  
 
@@ -140,7 +138,7 @@ To remove a skill from your organization, locate it in the **Organization skills
 ## Related Articles
 
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
-- [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
