@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-05-28 07:19*
+*Last updated: 2026-05-28 10:31*
 
-Documents related to Agents across all sources (113 documents)
+Documents related to Agents across all sources (115 documents)
 ---
 ## Platform Documentation (platform.claude.com) (39)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -63,7 +63,7 @@ Documents related to Agents across all sources (113 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (57)
+## Claude.com Blog Posts (59)
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for prompt engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
@@ -95,6 +95,7 @@ Documents related to Agents across all sources (113 documents)
 - [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Harnessing Claude’s intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
+- [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
@@ -121,4 +122,5 @@ Documents related to Agents across all sources (113 documents)
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
+- [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
 

@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-05-28 07:19*
+*Last updated: 2026-05-28 10:31*
 
-Documents related to Claude Code across all sources (223 documents)
+Documents related to Claude Code across all sources (224 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -164,7 +164,7 @@ Documents related to Claude Code across all sources (223 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (62)
+## Claude.com Blog Posts (63)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
@@ -199,6 +199,7 @@ Documents related to Claude Code across all sources (223 documents)
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How Brex improves code quality and productivity with Claude Code](/claude-blog/how-brex-improves-code-quality-and-productivity-with-claude-code.md) - ![](https://cdn
 - [How Claude Code works in large codebases: Best practices and where to start](/claude-blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md) - ![](https://cdn
+- [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How three YC startups built their companies with Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn

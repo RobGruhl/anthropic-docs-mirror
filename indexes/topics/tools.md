@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-05-28 07:19*
+*Last updated: 2026-05-28 10:31*
 
-Documents related to Tools across all sources (75 documents)
+Documents related to Tools across all sources (77 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,7 +40,7 @@ Documents related to Tools across all sources (75 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (42)
+## Claude.com Blog Posts (44)
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
@@ -62,6 +62,7 @@ Documents related to Tools across all sources (75 documents)
 - [Harnessing Claude’s intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
+- [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How Kepler built verifiable AI for financial services with Claude](/claude-blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude.md) - ![](https://cdn
 - [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
@@ -82,5 +83,6 @@ Documents related to Tools across all sources (75 documents)
 - [Turn ideas into interactive AI-powered apps](/claude-blog/build-artifacts.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Your favorite work tools are now interactive connectors inside Claude](/claude-blog/interactive-tools-in-claude.md) - ![](https://cdn
+- [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
 - [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
