@@ -6,6 +6,14 @@
 
 ## May 2026
 
+### May 28, 2026
+
+**Claude Opus 4.8 launch**
+
+We’ve upgraded Claude Opus to a new version. Claude Opus 4.8 shows improvements over Opus 4.7 in coding, agentic skills, reasoning, and practical knowledge work tasks.  For more information, see our blog post: **[Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)**.
+
+ 
+
 ### May 21, 2026
 
 **Claude now works with more security and compliance tools**

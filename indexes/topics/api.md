@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-05-28 16:31*
+*Last updated: 2026-05-28 18:53*
 
-Documents related to Api across all sources (136 documents)
+Documents related to Api across all sources (137 documents)
 ---
 ## Platform Documentation (platform.claude.com) (99)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -104,7 +104,7 @@ Documents related to Api across all sources (136 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (37)
+## Claude.com Blog Posts (38)
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
@@ -127,6 +127,7 @@ Documents related to Api across all sources (136 documents)
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing Citations on the Anthropic API](/claude-blog/introducing-citations-api.md) - ![](https://cdn
+- [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Introducing the Message Batches API](/claude-blog/message-batches-api.md) - ![](https://cdn
 - [Introducing web search on the Anthropic API](/claude-blog/web-search-api.md) - ![](https://cdn

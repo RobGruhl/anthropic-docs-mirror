@@ -1,6 +1,6 @@
 # Claude Enterprise Analytics API reference guide
 
-*Updated yesterday*
+*Updated today*
 
 ---
 
@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1779987600&signature=27316a349eed7944ca556826ba30182b365fc1ea8e822709884d1f7cb3454a73&req=diAiFc97mIRZX%2FMW1HO4zXfNQFAJehHdFbDaBcaxqj66XMXRUrNBeC6fIbu5%0ArSAXF4%2BRdnMTXRYzr6Y%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1780120800&signature=0b264b3d3ef354e66d0ad366759877a4937a4c02c5d5dea5d644e064306b865a&req=diAiFc97mIRZX%2FMW3nq%2BgWEPcs4Pa9WsCA3oRCT9zFx2B1Dk%2BfkARkrl1mK5%0AhYuDCai8%2B%2FUwLi2wsZzKAwXMrfg%3D%0A)
 
  
 
@@ -434,7 +434,7 @@ curl -X GET "https://api.anthropic.com/v1/organizations/analytics/connectors?dat
 
 ## Cost and usage endpoints
 
-The cost and usage endpoints (available now in beta) give your organization programmatic access to token and USD cost data for Claude (chat), Claude Code, Cowork, Office Agent, and Claude in Chrome.
+The cost and usage endpoints give your organization programmatic access to token and USD cost data for Claude (chat), Claude Code, Cowork, Office Agent, and Claude in Chrome.
 
  
 

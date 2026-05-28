@@ -1,11 +1,12 @@
 # Enable and use web search
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
 You can have Claude search the internet to provide you with up-to-date information and insights when using the following models:
 
+- Opus 4.8
 - Opus 4.7
 - Sonnet 4.6
 - Opus 4.6

@@ -1,45 +1,45 @@
 # Claude Documentation Index
-*Last updated: 2026-05-28 16:31*
+*Last updated: 2026-05-28 18:53*
 
 ## Quick Stats
-- **Total Documents:** 2458
-- **Platform Docs:** 1404
-- **Claude Code Docs:** 141
+- **Total Documents:** 2462
+- **Platform Docs:** 1405
+- **Claude Code Docs:** 142
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 140
+- **Claude.com Blog:** 142
 - **Support Articles:** 267
 - **Topics:** 83
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 1404 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 141 docs from code.claude.com
+- [Platform Documentation](platform-docs.md) - 1405 docs from platform.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 142 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 140 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 142 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 267 help articles from support.claude.com
 
 ### By Topic
 - [Mcp](topics/mcp.md) - 239 documents
-- [Claude Code](topics/claude-code.md) - 224 documents
+- [Claude Code](topics/claude-code.md) - 226 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
-- [Api](topics/api.md) - 136 documents
+- [Api](topics/api.md) - 137 documents
 - [Skills](topics/skills.md) - 127 documents
 - [Policy](topics/policy.md) - 127 documents
-- [Agents](topics/agents.md) - 115 documents
+- [Agents](topics/agents.md) - 116 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents

@@ -1,6 +1,6 @@
 # Get started with the Claude Enterprise Analytics API
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -14,11 +14,11 @@ All three options give you different views into your organization's data:
 
  
 
-The **Analytics dashboard** (accessed via **[Analytics](https://claude.ai/analytics/activity)**) shows visualized usage data in the product. It's the right tool for day-to-day monitoring when you don't need to integrate data elsewhere.
+The **Analytics dashboard** (accessed via **[Analytics](https://claude.ai/analytics/activity)**) shows visualized usage data in the product. It's the right tool for day-to-day monitoring when you don't need to integrate data elsewhere. You can also leverage the analytics chat feature to ask questions of the underlying data.
 
  
 
-The **Analytics API** returns the same aggregated metrics, but programmatically — so you can pull them into BI tools, map them against org charts, automate reporting workflows, and reconcile cost data against internal records. Engagement and adoption data is aggregated per organization, per day. Usage and cost data is available with finer-grained per-user and time-bucketed breakdowns.
+The **Analytics API** returns the more comprehensive, aggregated metrics, but programmatically. You can pull them into BI tools, map them against org charts, automate reporting workflows, and reconcile cost data against internal records. Engagement and adoption data is aggregated per organization, per day. Usage and cost data is available with finer-grained per-user and time-bucketed breakdowns.
 
  
 
@@ -45,13 +45,20 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1779987600&signature=9bb6aed0a63596f4992ad694ef77f99b7fc34efc5fb3d87d9a885c371d06587c&req=diAiFc92moJYX%2FMW1HO4zUxhx6RM0qyJ2G8yJDINvfTs2bwkBHaQGl4kxXU5%0A19VouuZdiGGJKWbMG1o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1780120800&signature=2beafdd12849277abd7c7a3fc774a31aae31e8914f513a42a137bba3064074de&req=diAiFc92moJYX%2FMW3nq%2BgYLO6CNnet3n4%2FapQClpxmmeMICDnmOP60J9lK%2Bi%0A1SPb2gzIm7hZB4lXMTNsZvay3UI%3D%0A)
 
  
 
 For full authentication details, endpoint references, and code examples, refer to our **[Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)**.
 
  
+
+## Partner solutions
+
+Leading observability platforms offer ready-to-use integrations for monitoring your Claude API usage and cost, without writing custom code. These integrations provide dashboards, alerting, and analytics to help you manage your API usage effectively.
+
+- [Datadog](https://docs.datadoghq.com/integrations/anthropic/)
+- [CloudZero](https://docs.cloudzero.com/docs/connections-anthropic)
 
 ---
 
@@ -77,7 +84,7 @@ These endpoints return aggregated engagement metrics, per organization, per day.
 
 ### Usage and cost
 
-These endpoints (available now in beta) return token usage and USD cost data across Claude surfaces. Use them to track usage between monthly invoices, reconcile Anthropic billing against internal cost centers, and inform spend limits based on actual user behavior.
+These endpoints return token usage and USD cost data across Claude surfaces. Use them to track usage between monthly invoices, reconcile Anthropic billing against internal cost centers, and inform spend limits based on actual user behavior.
 
 - **Per-user token usage:** Users ranked by token usage across a date range, with optional breakdowns by product, model, context window, inference region, or speed.
 - **Per-user cost:** Users ranked by USD spend across a date range, with optional breakdowns by product, model, cost type (tokens, web search, code execution), or token type.
@@ -85,6 +92,10 @@ These endpoints (available now in beta) return token usage and USD cost data acr
 - **Cost over time:** USD cost bucketed by minute, hour, or day, with the same grouping options plus cost type and token type.
 
 Data is refreshed every four hours, and may take up to 24 hours. Values can be revised for up to 30 days as late events reconcile, so for invoicing-grade totals, query dates at least 30 days in the past.
+
+ 
+
+**Note:** The cost and usage endpoints of the Analytics API export include both discounted price and list price.
 
  
 
@@ -109,7 +120,7 @@ The API has a default rate limit of 60 requests per minute. If this doesn't meet
 
 ## Related Articles
 
-- [Cost and Usage Reporting in the Claude Console](https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)

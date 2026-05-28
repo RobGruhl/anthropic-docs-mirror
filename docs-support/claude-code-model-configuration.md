@@ -1,6 +1,6 @@
 # Claude Code model configuration
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -18,6 +18,7 @@ The simplest way to change models is to use the /model command directly within C
 
 ## Supported models
 
+- Opus 4.8, <code>claude-opus-4-8</code>
 - Opus 4.7, <code>claude-opus-4-7</code>
 - Sonnet 4.6, <code>claude-sonnet-4-6</code>
 - Opus 4.6, <code>claude-opus-4-6</code>
@@ -33,12 +34,13 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 1. Start a fresh Terminal session.
 2. Enter the following commands (depending on the model you’d like to use for that session):
-2. - **For Opus 4.7:** <code>claude --model claude-opus-4-7</code>
-- **For Sonnet 4.6: **<code>claude --model claude-sonnet-4-6</code>
-- **For Opus 4.6: **<code>claude --model claude-opus-4-6</code>
-- **For Opus 4.5: **<code>claude --model claude-opus-4-5-20251101</code>
+2. - **For Opus 4.8**: <code>claude --model claude-opus-4-8</code>
+- **For Opus 4.7**: <code>claude --model claude-opus-4-7</code>
+- **For Sonnet 4.6**:** **<code>claude --model claude-sonnet-4-6</code>
+- **For Opus 4.6**:** **<code>claude --model claude-opus-4-6</code>
+- **For Opus 4.5**:** **<code>claude --model claude-opus-4-5-20251101</code>
 - **For Haiku 4.5: **<code>claude --model** **claude-haiku-4-5-20251001</code>
-- **For Sonnet 4.5:** <code>claude --model claude-sonnet-4-5-20250929</code>
+- **For Sonnet 4.5**: <code>claude --model claude-sonnet-4-5-20250929</code>
 
  
 
@@ -55,6 +57,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For ZSH users (macOS)
 
+- Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.zshrc</code> 
 - Opus 4.7: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-7"' >> ~/.zshrc</code> 
 - Sonnet 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-4-6"' >> ~/.zshrc</code>
 - Opus 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-6"' >> ~/.zshrc</code>
@@ -66,6 +69,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For BASH users (Linux)
 
+- Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.bashrc</code>
 - Opus 4.7: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-7"' >> ~/.bashrc</code>
 - Sonnet 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-4-6"' >> ~/.bashrc</code>
 - Opus 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-6"' >> ~/.bashrc</code>
