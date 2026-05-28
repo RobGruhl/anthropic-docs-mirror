@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-28 18:53*
+*Last updated: 2026-05-28 21:43*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-05-27  
+**Updated:** 2026-05-28  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -151,7 +151,7 @@ Total documents: 267
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-05-27  
+**Updated:** 2026-05-28  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -222,11 +222,6 @@ Total documents: 267
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
 **Source:** https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief  
 **Updated:** 2026-05-21  
-
-### Configure and use styles
-**File:** `/docs-support/configure-and-use-styles.md`  
-**Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
-**Updated:** 2026-05-28  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -341,7 +336,7 @@ Total documents: 267
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-28  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -901,7 +896,7 @@ Total documents: 267
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-05-26  
+**Updated:** 2026-05-28  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -941,6 +936,11 @@ Total documents: 267
 ### Sharing and Unsharing Chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
 **Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
+**Updated:** 2026-05-28  
+
+### Styles are moving to skills
+**File:** `/docs-support/configure-and-use-styles.md`  
+**Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
 **Updated:** 2026-05-28  
 
 ### Switching to a different Identity Provider (IdP)

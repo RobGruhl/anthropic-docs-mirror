@@ -14,6 +14,12 @@ We’ve upgraded Claude Opus to a new version. Claude Opus 4.8 shows improvement
 
  
 
+**Enterprise plans can manage connector access with custom roles**
+
+We added connector permissions to extend the existing custom roles framework and allow administrators to control which connectors, and which individual tools on those connectors, are available to each custom role. For more information, see **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans#h_979e558d00)**.
+
+ 
+
 ### May 21, 2026
 
 **Claude now works with more security and compliance tools**

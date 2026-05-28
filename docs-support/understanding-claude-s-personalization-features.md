@@ -1,6 +1,6 @@
 # Understanding Claude's personalization features
 
-*Updated over a month ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -47,7 +47,7 @@ Project instructions are particularly useful when you're working on focused task
 
  
 
-For detailed information on using projects, see our article on [creating and managing projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects).
+For detailed information on using projects, see our article on **[creating and managing projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)**.
 
  
 
@@ -55,19 +55,19 @@ For detailed information on using projects, see our article on [creating and man
 
  
 
-## Styles
+## Skills
 
-Styles customize how Claude communicates with you. Unlike profile instructions and project instructions which provide context and guidance, styles focus specifically on how Claude formats and delivers its responses.
+Skills add specific behaviors or capabilities to your conversations with Claude. They can customize how Claude communicates, apply specialized expertise, or define repeatable behaviors you activate on demand.
 
  
 
-Use styles when you want to:
+Use skills when you want to:
 
-- Adjust the tone and format of Claude's responses.
-- Switch between different communication styles (e.g., concise for quick answers, explanatory for learning).
-- Create custom communication patterns based on your own writing.
+- Adjust the tone and format of Claude's responses
+- Apply communication patterns based on your own writing or preferences
+- Add specialized capabilities for particular tasks or topics
 
-For detailed information on using styles, see our article on [configuring and using styles](https://support.claude.com/en/articles/10181068-configuring-and-using-styles).
+For more information, see **[What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)**
 
  
 
@@ -88,8 +88,8 @@ You can use these features independently or in combination to create the most ef
 
 ## Related Articles
 
-- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
-- [Organization instructions in Claude for Government](https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
-- [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
+- [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)

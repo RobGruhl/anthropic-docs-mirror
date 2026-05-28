@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-28 18:53*
+*Last updated: 2026-05-28 21:43*
 Total documents: 1405
 ---
 ## Uncategorized (1405 documents)
@@ -4216,7 +4216,7 @@ Total documents: 1405
 ### managed-agents__dreams
 **File:** `/platform-docs/managed-agents__dreams.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/dreams  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-28  
 
 ### managed-agents__environments
 **File:** `/platform-docs/managed-agents__environments.md`  

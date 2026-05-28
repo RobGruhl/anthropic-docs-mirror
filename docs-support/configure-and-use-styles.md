@@ -1,96 +1,74 @@
-# Configure and use styles
+# Styles are moving to skills
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
-Styles allow you to customize how Claude communicates, helping you achieve more while working in a way that feels natural to you.
+Styles in Claude are becoming skills. This article explains what's changing, how your existing styles will be handled, and what to do if you used one of the default styles.
 
  
 
-## Using preset styles
+## What's changing
 
-### Selecting a style
-
-1. Click the "Search and tools" menu in the lower left corner of the chat interface.
-2. Select "Use style."
-3. Click one of the four available preset styles in the menu.
-4. Claude will adapt its responses according to your selected style.
-
-Available preset styles include:
-
-- **Normal:** Default responses from Claude.
-- **Concise:** Shorter and more direct responses.
-- **Formal:** Clear and polished responses
-- **Explanatory:** Educational responses for learning new concepts.
+**Your custom styles will become skills. **Any custom styles you've created will be migrated to skills automatically. You don't need to take any action—your styles will be available as skills in your account when the migration runs. If you have more than 30 skills after the migration, the overflow skills will be disabled to prevent your prompt from bloating.
 
  
 
-## Managing preset styles
-
-You can customize which preset styles appear in your menu:
-
-1. From the "Use style" dropdown, click "Create & edit styles."
-2. Select the preset style you want to hide from the "Customize your styles" modal.
-3. Click "Options" in the top-right corner.
-4. Select "Hide preset style."
-5. To unhide preset styles, click “Reset preset styles” in the bottom right corner of the "Customize your styles" modal.
+**Most default styles are being removed. **The Concise, Explanatory, and Formal default styles will no longer be available after the migration. The Learning style is being preserved as a skill (see **[The Learning skill](#h_87710ea950)** below).
 
  
 
-## Creating custom styles
-
-### Method 1: Upload writing samples
-
-1. From the "Use style" dropdown, click "Create & edit styles."
-2. Click “Create custom style.”
-3. Select "Add Writing Example" to choose between uploading a file from your device, or pasting the text content directly
-4. Click "Create style"
-5. Claude will analyze your writing and generate a matching style
-
-Your writing samples help Claude understand and match your preferred communication approach. You can upload documents in various formats including pdf, doc, and txt files.
+**The styles menu will be removed. **Once the migration is complete, the styles menu will no longer appear in Claude. Until that point, your existing styles remain available alongside the new skills, so you can switch over at your own pace.
 
  
 
-### Method 2: Describe your style
+## Using your migrated style
 
-1. From the "Use style" dropdown, click "Create & edit styles."
-2. Click “Create custom style" in the bottom left corner of the "Customize your styles" modal.
-3. Choose "Describe style instead."
-4. Select a starting point that best matches your goal.
-4. 1. Claude will use the selected starting point to help create an effective style.
-2. Click on "Use custom instructions (advanced)" to provide your own specific style instructions that Claude will follow exactly.
-5. Click "Generate style."
+To activate one of your migrated styles in a conversation, type a slash command in the chat input using this format: <code>/{style-name}-style</code>
 
  
 
-## Managing your custom styles
+When your custom styles are migrated to skills, the style names are automatically converted into commands by:
 
-- From the "Use style" dropdown, click "Create & edit styles" to:
-- - Reorder styles using the icon (:::) next to each style.
-- From the "Create & edit styles" modal, click into individual styles to:
-- - Rename styles by clicking into the style name or options menu.
-- Preview how the style affects Claude's responses.
-- Delete styles you no longer need through the options menu.
-- Edit style instructions to fine-tune Claude's responses.
-- Editing styles can be done with Claude (“Edit Style”) or by clicking “Set Instructions Manually” in the options menu to edit the instructions directly.
+- Switching letters to lowercase
+- Replacing spaces with hyphens
+- Removing punctuation, emoji, and accent marks
+- Adding -style to the end
+
+If the resulting command runs past the length limit, it's trimmed. If two of your styles would otherwise produce the same command, a number will be added to one of them.
 
  
 
-## Tips for success
+For example, if you had a custom style named “concise pirate,” you'd type "/concise-pirate-style" to apply it.
 
-- Be specific when describing your desired communication style.
-- Use the preview feature to ensure the style matches your expectations.
-- Switch between styles based on different conversation needs.
-- Consider your audience and purpose when selecting or creating styles.
+ 
+
+## The Learning skill
+
+Learning, formerly a default style, is now available as a skill. To use it, add the Learning skill from the skills marketplace and activate it in any conversation.
+
+1. Navigate to **[Customize > Skills](http://claude.ai/customize/skills)**.
+2. Click the “+” button to add a skill.
+3. Select “Browse skills” to open the directory.
+4. Search for the “Learning” skill.
+5. Click “+” or “Install” to add it.
+5.  
+
+## Update your instructions instead
+
+If you'd rather not use skills, you can describe the same response behavior in your instructions for Claude. Instructions apply to all your conversations and can describe the same tone, format, and approach guidance you would have set with a style.
+
+ 
+
+Learn more about **[Claude's personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)**.
 
 
 ---
 
 ## Related Articles
 
-- [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [Understanding Claude's personalization features](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)
-- [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
-- [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
+- [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
+- [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
+- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)

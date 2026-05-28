@@ -1,6 +1,6 @@
 # Provision and manage skills for your organization
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -89,20 +89,6 @@ Owner-provisioned skills are marked with a visual indicator so members can disti
  
 
 For more on how members browse and install from the directory, see **[Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)**.
-
- 
-
----
-
- 
-
-## How users see provisioned skills
-
-Skills provisioned by an organization owner will appear for each user in **[Customize > Skills](https://claude.ai/customize/skills)** alongside Anthropic skills and any skills they've uploaded themselves.
-
- 
-
-These skills are marked with a visual indicator so users can distinguish them from other skill types. Users can click on any skill to preview its contents and description.
 
  
 
