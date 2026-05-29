@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-29 18:56*
+*Last updated: 2026-05-29 21:39*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -61,7 +61,7 @@ Total documents: 267
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-05-22  
+**Updated:** 2026-05-29  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -326,7 +326,7 @@ Total documents: 267
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-05-22  
+**Updated:** 2026-05-29  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -671,7 +671,7 @@ Total documents: 267
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  

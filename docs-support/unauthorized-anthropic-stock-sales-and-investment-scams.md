@@ -1,6 +1,6 @@
 # Unauthorized Anthropic stock sales and investment scams
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -41,7 +41,6 @@ We are aware of individuals or investment firms purportedly offering access to A
 - Open Door Partners
 - Unicorns Exchange
 - Pachamama
-- Hiive (new offerings)
 - Upmarket
 
 **Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records.**
