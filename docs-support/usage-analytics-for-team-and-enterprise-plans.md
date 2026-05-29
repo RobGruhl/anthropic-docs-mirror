@@ -49,7 +49,7 @@ This section includes the following analytics:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1780040700&signature=e84d8b97f00a83c6075d24838a5125324e2ca5c1bdb46b4b50b57382eb5887ca&req=diQkEs56molfW%2FMW1HO4zfK6rvvtOJAIHjVUKeN2QU8XKscr%2BR1af4zz6vFI%0AAS0iaQyHdprnPzk9%2FP0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1780051500&signature=5cffb0b022fdf9c90bb5cbba1e189d0ec85a7357d6f4d2de06870f2677021f96&req=diQkEs56molfW%2FMW1HO4zfK6rvvtOZEKHjVUKeN2QU9XQGqELI397qVn1o5s%0AZiuakJNQhTxumP1O1Mc%3D%0A)
 
  
 
