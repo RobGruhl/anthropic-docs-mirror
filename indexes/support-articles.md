@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-29 16:22*
+*Last updated: 2026-05-29 18:56*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -131,7 +131,7 @@ Total documents: 267
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -346,7 +346,7 @@ Total documents: 267
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
 **Source:** https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-29  
 
 ### Get started with Claude
 **File:** `/docs-support/getting-started-with-claude.md`  
@@ -381,7 +381,7 @@ Total documents: 267
 ### Get started with the Claude Enterprise Analytics API
 **File:** `/docs-support/access-engagement-and-adoption-data-with-the-analytics-api.md`  
 **Source:** https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
@@ -431,7 +431,7 @@ Total documents: 267
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -591,7 +591,7 @@ Total documents: 267
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-05-27  
+**Updated:** 2026-05-29  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -651,7 +651,7 @@ Total documents: 267
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -661,7 +661,7 @@ Total documents: 267
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Install Claude Desktop
 **File:** `/docs-support/installing-claude-desktop.md`  
@@ -741,7 +741,7 @@ Total documents: 267
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-29  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -926,7 +926,7 @@ Total documents: 267
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
@@ -1191,7 +1191,7 @@ Total documents: 267
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
@@ -1311,7 +1311,7 @@ Total documents: 267
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  

@@ -1,6 +1,6 @@
 # View usage analytics for Team and Enterprise plans
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -49,7 +49,7 @@ This section includes the following analytics:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1780073100&signature=0b263573601cfffe56b29c469da0f306c9783625abea50bfbbead933f00a8af9&req=diQkEs56molfW%2FMW1HO4zfK6rvvtO5MOHjVUKeN2QU8HTMWLT3OKAUQq%2Fy%2Bj%0AR9ploLhjwB6xxGwSlME%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1780083000&signature=a29c7a77be32761b7e4a5d199dcfa7127a48bcd3ef9ece1810936c6890c28690&req=diQkEs56molfW%2FMW1HO4zfK6rvvtNJMPHjVUKeN2QU89yihVfYZKV%2FUaXctB%0Az%2Bq8S%2FPkVToAUAJgFfY%3D%0A)
 
  
 

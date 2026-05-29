@@ -1,6 +1,6 @@
 # Set up JIT or SCIM provisioning
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -16,7 +16,7 @@ This guide covers how to configure user provisioning and role assignment for you
 
 ## Step 1: Choose your provisioning mode
 
-Once SSO is configured, you need to decide how users will be provisioned to your organization. This is controlled via the **User provisioning **section in[ Organization settings > Organization and access](https://claude.ai/admin-settings/organization).
+Once SSO is configured, you need to decide how users will be provisioned to your organization. This is controlled via the **User provisioning **section in **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
 
  
 
@@ -50,7 +50,7 @@ Both JIT and SCIM can be combined with **Enable group mappings** to control role
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1780073100&signature=071b915b3dc0ba05ee6d499312d9a64cb073fd78856585fed53f4797f83c5a22&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6tUCll3xFMG%2BIEvQSe%2BIOAcYBHTPKAWPvCr%0Aue1fU5Y0Yg0e3MquSnw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1780185600&signature=bb6764b887e666fa6dcba17f47ca16da0a675afbafc431c6b5e06b379c51cff7&req=diMmFM5%2Bm4FWUPMW3nq%2BgfvyY15K8QhNiL449Ml26XQ937PB8IkkmOJYzEXP%0A2qHD%2F%2BR9BSPD8eIGQfncHu%2FogMQ%3D%0A)
 
  
 
@@ -140,6 +140,14 @@ Once your IdP is connected, continue to Step 3.
 
  
 
+### How the Primary Owner role works with SCIM
+
+- Your organization's Primary Owner is exempt from SCIM reconciliation. If the Primary Owner account is not present in the IdP directory, or is not a member of any group mapped to a role, it will be skipped when SCIM syncs. The Primary Owner's membership and role are preserved.
+- This exemption applies only to the single Primary Owner role. Owner and Admin roles are **not** exempt and **must** be in a group mapped to a role, or they will be removed when SCIM group mappings are enabled.
+- The Primary Owner role cannot be assigned via SCIM group mappings. It can only be transferred manually from **[Organization settings > Members](https://claude.ai/admin-settings/members)**. Set your intended Primary Owner before enabling SCIM.
+- The Primary Owner is not exempt from SSO sign-in enforcement. SSO enforcement is applied by email domain; if the Primary Owner's email is on an enforced domain, they must authenticate through SSO.
+-  
+
 ---
 
  
@@ -150,7 +158,7 @@ Once your IdP is connected, continue to Step 3.
 
 Verify you have enough seats purchased and available to add members to your org.
 
-1. Check the number of available seats shown in[ Organization settings > Organization and access](https://claude.ai/admin-settings/organization) and purchase additional seats if needed (see our guides for[ Team plans](https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats) and[ Enterprise plans](https://support.claude.com/en/articles/13393991-purchasing-and-managing-seats-on-enterprise-plans)).
+1. Check the number of available seats shown in **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)** and purchase additional seats if needed (see our guides for **[Team plans](https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats)** and **[Enterprise plans](https://support.claude.com/en/articles/13393991-purchasing-and-managing-seats-on-enterprise-plans)**).
 2. Once you have available seats, go back to the Organization and access page and click “Sync now,” next to **Directory sync (SCIM)**. This will trigger a sync to provision accounts for those users not yet added as members.
 
  
