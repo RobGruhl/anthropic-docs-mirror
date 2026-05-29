@@ -1,6 +1,6 @@
 # Unauthorized Anthropic stock sales and investment scams
 
-*Updated in the last hour*
+*Updated over a week ago*
 
 ---
 
@@ -102,5 +102,5 @@ If you believe you have been targeted by a stock scam:
 - [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
 - [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
-- [Install financial services plugins for Cowork](https://support.claude.com/en/articles/13851150-install-financial-services-plugins-for-cowork)
+- [Install financial services plugins](https://support.claude.com/en/articles/13851150-install-financial-services-plugins)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)

@@ -4,16 +4,13 @@
 
 ---
 
-This article explains how organization owners can provision skills for all users in their organization. Provisioning skills to your team allows you to distribute approved workflows and capabilities across your entire organization from a central location.
+This article explains how organization owners can provision skills for everyone in their organization, and how to scope skills to specific groups using plugins. Provisioning skills lets you distribute approved workflows and capabilities across your organization from one place.
+
+ 
 
 ## Prerequisites
 
-Before you can provision skills for your organization, you must enable two capabilities by toggling them on:
-
-1. **Code execution and file creation** in **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**
-2. **Skills** in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)**
-
-Skills require code execution to function, so if code execution is disabled, skills will not be available.
+Before you can provision skills for your organization, you must navigate to **[Organization settings > Skills](https://claude.ai/admin-settings/skills)** and enable both **Code execution and file creation** and **Skills** by toggling them on. Skills require code execution to function, so if code execution is disabled, skills will not be available.
 
  
 
@@ -21,9 +18,9 @@ Skills require code execution to function, so if code execution is disabled, ski
 
  
 
-## Provision skills for your organization
+## Provision skills for everyone
 
-When you upload a skill through organization settings, it automatically becomes available to all users in your organization in **[Customize > Skills](https://claude.ai/customize/skills)**. This means that individual users no longer need to manually upload the same skills.
+When you upload a skill through organization settings, it becomes available to everyone in your organization in **[Customize > Skills](https://claude.ai/customize/skills)**. Individual members no longer need to upload the same skill themselves.
 
  
 
@@ -34,7 +31,27 @@ When you upload a skill through organization settings, it automatically becomes 
 3. Select a .zip file containing your skill (must include a SKILL.md file).
 4. The skill is immediately provisioned to all users in your organization.
 
-Admin-provisioned skills are enabled by default for everyone in your organization, but users can still toggle individual skills off if they choose. This gives organizations consistent, approved workflows across teams while letting individual users customize their experience.
+Admin-provisioned skills are enabled by default for everyone, but members can toggle individual skills off if they choose. This gives your organization consistent, approved workflows while letting members customize their own experience.
+
+ 
+
+---
+
+ 
+
+## Provision skills to specific groups
+
+Provisioning a skill through **[Organization settings > Skills](https://claude.ai/admin-settings/skills)** gives it to everyone. To give a skill to only some members, bundle your skills into a plugin and assign that plugin to a group. The group's members see those skills, and members outside the group don't.
+
+ 
+
+For example, if you have 10 skills for your marketing team, add them to a plugin and assign it to the marketing group. Only that group gets those skills.
+
+Skills provisioned this way appear in chat, on the web and the Chat tab in Claude Desktop, as well as in Cowork. Group targeting you've already set up for Cowork carries over to chat with no extra steps.
+
+ 
+
+To set this up, see **[Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-claude-cowork-plugins-for-your-organization)**.
 
  
 
@@ -98,11 +115,11 @@ For more on how members browse and install from the directory, see **[Browse ski
 
 ## Manage and remove provisioned skills
 
-The **Organization skills** section in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)** displays all skills that have been provisioned for your organization. You can use search and section headings to navigate your provisioned skills.
+The **Organization skills** section in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)** displays all skills provisioned for your organization. Use search and the section headings to navigate them.
 
  
 
-To remove a skill from your organization, locate it in the **Organization skills** list and select the option to remove it. Once removed, the skill will no longer appear in users' skills lists in **[Customize > Skills](https://claude.ai/customize/skills).**
+To remove a skill from your organization, locate it in the **Organization skills** list and select the option to remove it. Once removed, the skill will no longer appear in members' skills lists in **[Customize > Skills](https://claude.ai/customize/skills).**
 
  
 
@@ -113,10 +130,10 @@ To remove a skill from your organization, locate it in the **Organization skills
 ## Best practices
 
 - **Test skills before provisioning: **Upload and test skills on your own account first to verify they work as expected before distributing them organization-wide.
-- **Use descriptive names: **Give skills clear names that help users understand their purpose at a glance.
+- **Scope specialized skills to groups:** When a skill is only relevant to one team, bundle it into a plugin and assign it to that group instead of provisioning it to everyone.**Use descriptive names: **Give skills clear names that help users understand their purpose at a glance.
 - **Write clear descriptions: **The skill's description helps Claude determine when to use it automatically. Ensure descriptions accurately reflect what the skill does.
-- **Consider default status carefully: **Enable skills by default when they're broadly useful to most users. Use disabled by default for specialized skills that only some team members need.
-- **Decide on sharing deliberately:** Peer-to-org sharing has no approval step. If you want to review skills before they reach everyone, keep org-wide sharing off and ask members to submit skills to an owner for provisioning instead.
+- **Consider default status carefully: **Enable skills by default when they're broadly useful to most users.Keep specialized skills disabled by default for the members who don't need them.
+- **Decide on sharing deliberately:** Organization-wide sharing has no approval step. If you want to review skills before they reach everyone, keep organization-wide sharing off and ask members to submit skills to an owner for provisioning instead.
 
 
 ---
@@ -126,5 +143,5 @@ To remove a skill from your organization, locate it in the **Organization skills
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
-- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
+- [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)

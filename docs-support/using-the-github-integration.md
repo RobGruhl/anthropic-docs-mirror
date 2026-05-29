@@ -1,6 +1,6 @@
 # Use the GitHub integration
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -86,7 +86,7 @@ Browse all available connectors in the **[Connectors Directory](https://claude.a
 
 ## Related Articles
 
-- [Manage Claude Cowork plugins for your organization](https://support.claude.com/en/articles/13837433-manage-claude-cowork-plugins-for-your-organization)
+- [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 - [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
 - [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
 - [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
