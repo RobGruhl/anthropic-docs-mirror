@@ -1,10 +1,10 @@
-# Cloud container reference
+# Cloud sandbox reference
 
-Pre-installed packages, databases, and utilities available in cloud containers.
+Pre-installed packages, databases, and utilities available in cloud sandboxes.
 
 ---
 
-Cloud containers in Claude Managed Agents come pre-installed with a comprehensive set of programming languages, databases, and utilities. The agent can use these immediately without any installation steps.
+Cloud sandboxes run as isolated Linux containers on Anthropic-managed infrastructure. They come pre-installed with a comprehensive set of programming languages, databases, and utilities. The agent can use these immediately without any installation steps.
 
 These specifications apply to `cloud` environments. Self-hosted sandboxes run on your infrastructure with whatever your worker provides.
 
@@ -34,7 +34,7 @@ All Managed Agents API requests require the `managed-agents-2026-04-01` beta hea
 | Redis client | `redis-cli` for connecting to external instances |
 
 <Note>
-Database servers (PostgreSQL, Redis, etc.) are not running in the container by default. The container includes client tools for connecting to external database instances. SQLite is fully available for local use.
+Database servers (PostgreSQL, Redis, etc.) are not running in the sandbox by default. The sandbox includes client tools for connecting to external database instances. SQLite is fully available for local use.
 </Note>
 
 ## Utilities
@@ -62,7 +62,7 @@ Database servers (PostgreSQL, Redis, etc.) are not running in the container by d
 - `vim`, `nano` - Text editors
 - `diff`, `patch` - File comparison
 
-## Container specifications
+## Sandbox specifications
 
 | Property | Value |
 |----------|-------|
@@ -73,5 +73,5 @@ Database servers (PostgreSQL, Redis, etc.) are not running in the container by d
 | Network | Disabled by default (enable in environment config) |
 
 ---
-📖 **Source:** https://platform.claude.com/docs/en/managed-agents/cloud-containers
+📖 **Source:** https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference
 *Mirrored from platform.claude.com for local access.*

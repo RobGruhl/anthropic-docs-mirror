@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-29 10:25*
+*Last updated: 2026-05-29 13:04*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -1016,7 +1016,7 @@ Total documents: 267
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
 **Source:** https://support.claude.com/en/articles/12650343-use-claude-in-excel  
-**Updated:** 2026-05-27  
+**Updated:** 2026-05-29  
 
 ### Use Claude for PowerPoint
 **File:** `/docs-support/use-claude-in-powerpoint.md`  

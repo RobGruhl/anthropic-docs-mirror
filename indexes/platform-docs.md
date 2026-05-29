@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-29 10:25*
+*Last updated: 2026-05-29 13:04*
 Total documents: 1406
 ---
 ## Uncategorized (1406 documents)
@@ -1036,7 +1036,7 @@ Total documents: 1406
 ### build-with-claude__adaptive-thinking
 **File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
@@ -4208,15 +4208,15 @@ Total documents: 1406
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
 **Updated:** 2026-05-29  
 
-### managed-agents__cloud-containers
-**File:** `/platform-docs/managed-agents__cloud-containers.md`  
-**Source:** https://platform.claude.com/docs/en/managed-agents/cloud-containers  
-**Updated:** 2026-05-19  
+### managed-agents__cloud-sandboxes-reference
+**File:** `/platform-docs/managed-agents__cloud-sandboxes-reference.md`  
+**Source:** https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference  
+**Updated:** 2026-05-29  
 
 ### managed-agents__define-outcomes
 **File:** `/platform-docs/managed-agents__define-outcomes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/define-outcomes  
-**Updated:** 2026-05-17  
+**Updated:** 2026-05-29  
 
 ### managed-agents__dreams
 **File:** `/platform-docs/managed-agents__dreams.md`  
@@ -4226,22 +4226,22 @@ Total documents: 1406
 ### managed-agents__environments
 **File:** `/platform-docs/managed-agents__environments.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/environments  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-29  
 
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/events-and-streaming  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-29  
 
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/files  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-29  
 
 ### managed-agents__github
 **File:** `/platform-docs/managed-agents__github.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/github  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### managed-agents__mcp-connector
 **File:** `/platform-docs/managed-agents__mcp-connector.md`  
@@ -4251,12 +4251,12 @@ Total documents: 1406
 ### managed-agents__memory
 **File:** `/platform-docs/managed-agents__memory.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/memory  
-**Updated:** 2026-05-20  
+**Updated:** 2026-05-29  
 
 ### managed-agents__multi-agent
 **File:** `/platform-docs/managed-agents__multi-agent.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/multi-agent  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
@@ -4266,7 +4266,7 @@ Total documents: 1406
 ### managed-agents__overview
 **File:** `/platform-docs/managed-agents__overview.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/overview  
-**Updated:** 2026-05-21  
+**Updated:** 2026-05-29  
 
 ### managed-agents__permission-policies
 **File:** `/platform-docs/managed-agents__permission-policies.md`  
@@ -4276,12 +4276,12 @@ Total documents: 1406
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-29  
 
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-29  
 
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
@@ -4291,7 +4291,7 @@ Total documents: 1406
 ### managed-agents__sessions
 **File:** `/platform-docs/managed-agents__sessions.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/sessions  
-**Updated:** 2026-05-19  
+**Updated:** 2026-05-29  
 
 ### managed-agents__skills
 **File:** `/platform-docs/managed-agents__skills.md`  
