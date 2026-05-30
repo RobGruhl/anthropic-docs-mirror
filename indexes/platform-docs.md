@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-05-30 00:35*
+*Last updated: 2026-05-30 04:26*
 Total documents: 1406
 ---
 ## Uncategorized (1406 documents)
@@ -271,7 +271,7 @@ Total documents: 1406
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-connector  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__mcp-tunnels__console
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__console.md`  
@@ -316,12 +316,12 @@ Total documents: 1406
 ### agents-and-tools__remote-mcp-servers
 **File:** `/platform-docs/agents-and-tools__remote-mcp-servers.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers  
-**Updated:** 2025-12-01  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -341,7 +341,7 @@ Total documents: 1406
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
@@ -376,7 +376,7 @@ Total documents: 1406
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
@@ -436,7 +436,7 @@ Total documents: 1406
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool  
-**Updated:** 2026-05-28  
+**Updated:** 2026-05-30  
 
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
@@ -1036,7 +1036,7 @@ Total documents: 1406
 ### build-with-claude__adaptive-thinking
 **File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
@@ -1091,7 +1091,7 @@ Total documents: 1406
 ### build-with-claude__context-windows
 **File:** `/platform-docs/build-with-claude__context-windows.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-windows  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
@@ -4206,7 +4206,7 @@ Total documents: 1406
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### managed-agents__cloud-sandboxes-reference
 **File:** `/platform-docs/managed-agents__cloud-sandboxes-reference.md`  
@@ -4251,12 +4251,12 @@ Total documents: 1406
 ### managed-agents__memory
 **File:** `/platform-docs/managed-agents__memory.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/memory  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### managed-agents__multi-agent
 **File:** `/platform-docs/managed-agents__multi-agent.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/multi-agent  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
