@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1780167600&signature=22ffb82deffe7f97f6c417791b449099ae9a61ef03e42f1fcd6c50a6bb5cb470&req=diAiFcF5nolaW%2FMW1HO4zUrhFuuZbw8ckeFUnrkrQZgDrUhow5vSjyzSNpMS%0AsevrHROeHLXkOCvoDtQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1780177500&signature=2b5b0222f0ecc157daa24380215747d87f454281620c691a65fcee58b979cfe0&req=diAiFcF5nolaW%2FMW1HO4zUrhFuuZbg8fkeFUnrkrQZiNUSLYnRWMxELig4zj%0ALFsghtSrHzAjQYnvJVA%3D%0A)
 
   
 
