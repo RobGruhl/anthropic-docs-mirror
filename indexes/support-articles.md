@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-05-30 04:26*
+*Last updated: 2026-05-30 07:02*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -181,7 +181,7 @@ Total documents: 267
 ### Claude Enterprise Analytics API reference guide
 **File:** `/docs-support/claude-enterprise-analytics-api-reference-guide.md`  
 **Source:** https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
@@ -381,7 +381,7 @@ Total documents: 267
 ### Get started with the Claude Enterprise Analytics API
 **File:** `/docs-support/access-engagement-and-adoption-data-with-the-analytics-api.md`  
 **Source:** https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api  
-**Updated:** 2026-05-29  
+**Updated:** 2026-05-30  
 
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
