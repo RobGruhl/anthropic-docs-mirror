@@ -48,7 +48,7 @@ You’ll now be able to Hold to Open the [Action Button](https://support.apple.c
 
 ## Related Articles
 
-- [How do I sign up for Claude Pro on the Claude app for iOS?](https://support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
