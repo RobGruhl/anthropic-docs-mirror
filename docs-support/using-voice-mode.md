@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780290000&signature=dde55b3c2105f7b774c5b268fabacc9ea138183d66863313a5b4b42d58625cba&req=diAjFMp7n4FZWfMW1HO4zU6VRf3IQbxpxNdRzYWrfF77hHgby3WtsqcvLQgG%0AqpU4Oztc4%2B4Juh2Nig8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780301700&signature=6ba4711b2e5105f3f51ec22fc7b245f96255608d44e06e8b6ab5e381e559f0f0&req=diAjFMp7n4FZWfMW1HO4zU6VRf3JSL1uxNdRzYWrfF73CQqQTV3SVeKZ69PQ%0A%2BXgknbVOx4vBx9CfsUg%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780290000&signature=cf767bc06bd4322c77279102e81c046c534e556a65dbb0601b31aa785b1b3f7f&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqXaVAKy8OQfYsvK3xQV1umpbao%2FkzPkj7n%0AgWr4PJZGPQKGC3D8K%2Fw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780301700&signature=d25fa92a0d456a0a657677ea7a3e70d9553ce6cbcea477a51d6da935ff8d9207&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqWYFENy8OQfYsvK3wLx0iae%2Bng5CG%2FnUdC%0A60%2Ba3ptSfudgqKNpreA%3D%0A)
 
  
 
