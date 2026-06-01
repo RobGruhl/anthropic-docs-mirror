@@ -1,6 +1,6 @@
 # How to get support
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -15,6 +15,8 @@ You have full access to:
 - All help documentation
 - Fin, our AI support bot
 - Further assistance from our Product Support team
+
+While we don't offer phone or live chat support, our Product Support team will gladly assist you through our support messenger.
 
  
 
@@ -53,7 +55,23 @@ Users who are logged in to their Claude or Console accounts will be able to clic
 
 ## Team and Enterprise plan non-Owners, and Console non-Admins
 
-You’ll chat with Fin, an AI support agent, to help answer your questions. Human specialist support is not directly available for your account seat type. If Fin can't find a resolution and you need to escalate to our human team of specialists, your account's Primary Owner, Owner, or Console Admin can reach out on your behalf.
+You’ll chat with Fin, an AI support agent, to help answer your questions.
+
+ 
+
+### Team plans and Console organizations
+
+Human specialist support is not directly available for your account seat type. If Fin can't find a resolution and you need to escalate to our human team of specialists, your account's Primary Owner, Owner, or Console Admin can reach out on your behalf.
+
+ 
+
+### Enterprise plans
+
+Primary Owners and Owners can designate support contacts: members who can reach human support without holding an Owner role. If you're a designated support contact, you'll have the option to wait for a human when chatting with Fin. Otherwise, Fin will handle your conversation, and if escalation is needed, your account's Primary Owner, Owner, or a designated support contact can reach out on your behalf.
+
+ 
+
+For configuration details, see **[Designate support contacts for human support](https://support.claude.com/en/articles/15263885-)**.
 
   
 
@@ -98,16 +116,18 @@ If you're a paid subscriber having trouble accessing your account, our team can:
 - Process subscription cancellations
 - Check refund eligibility
 
+ 
+
 ## Designated point of contact for users in the EU 
 
-Users in the EU can find instructions on how to find the single point of contact for users in the EU under the DSA [here](https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu).
+Users in the EU can find instructions on how to find the single point of contact for users in the EU under the DSA here: **[Designated point of contact for users in the EU](https://support.claude.com/en/articles/11595103-)**.
 
  
 
 ## Report compliance concerns - UK and Australian users
 
-- Users in the UK can find instructions to report non-compliance with UK OSA duties [here](https://docs.google.com/forms/d/e/1FAIpQLSfdo76veqg3pHZTh_nI14j1DyRO8coz6ocTa9mEuF5DcYgxuA/viewform?usp=dialog). This includes reporting related to illegal content safety duties, content reporting obligations, freedom of expression and privacy, or the use of proactive technology by Anthropic in breach of Anthropic’s Terms of Service.
-- Users in Australia can find instructions to report non-compliance with the DIS Standard and information about the role and functions of the eSafety Commissioner [here](https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance).
+- Users in the UK can find instructions to report non-compliance with UK OSA duties here: **[Report a concern](https://docs.google.com/forms/d/e/1FAIpQLSfdo76veqg3pHZTh_nI14j1DyRO8coz6ocTa9mEuF5DcYgxuA/viewform)**. This includes reporting related to illegal content safety duties, content reporting obligations, freedom of expression and privacy, or the use of proactive technology by Anthropic in breach of Anthropic’s Terms of Service.
+- Users in Australia can find instructions to report non-compliance with the DIS Standard and information about the role and functions of the eSafety Commissioner here: **[Report a Concern: Australian DIS Standard compliance](https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance)**.
 
 
 ---
@@ -115,7 +135,7 @@ Users in the EU can find instructions on how to find the single point of contact
 ## Related Articles
 
 - [Where can I go for Claude API support and assistance?](https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance)
-- [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
 - [I'm getting an API connection error. How can I fix it?](https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it)
+- [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)

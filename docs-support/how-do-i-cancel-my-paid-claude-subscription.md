@@ -1,6 +1,6 @@
 # How do I cancel my paid Claude subscription?
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -30,7 +30,7 @@ If you signed up for a paid plan via the Android app, your subscription and paym
 ## Related Articles
 
 - [How can I cancel my Claude Pro subscription on the Claude app for iOS?](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)
-- [How can I uninstall Claude for Android?](https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
 - [I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?](https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console)
 - [Requesting a refund for a paid Claude plan](https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan)
