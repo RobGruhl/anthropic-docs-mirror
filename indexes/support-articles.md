@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-01 16:55*
+*Last updated: 2026-06-01 19:41*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -106,7 +106,7 @@ Total documents: 267
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
 **Source:** https://support.claude.com/en/articles/9002504-can-claude-produce-images  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-01  
 
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
@@ -286,7 +286,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-01  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -771,7 +771,7 @@ Total documents: 267
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-05-25  
+**Updated:** 2026-06-01  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -821,7 +821,7 @@ Total documents: 267
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-01  
 
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
@@ -1011,7 +1011,7 @@ Total documents: 267
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-01  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
@@ -1286,7 +1286,7 @@ Total documents: 267
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-01  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
