@@ -1,6 +1,6 @@
 # What are projects?
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -72,4 +72,4 @@ For more information on private projects and visibility settings on Team and Ent
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [Retrieval augmented generation (RAG) for projects](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects)
-- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
