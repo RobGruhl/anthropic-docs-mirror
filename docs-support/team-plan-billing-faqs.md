@@ -1,6 +1,6 @@
 # Team plan billing FAQs
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -26,7 +26,7 @@ If you want to use a name other than the one tied to your payment method, an org
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1780263900&signature=48a27ed6ddb269d4a503f2daec0a152506f2a5273a793dd6bc0297ebf1db0468&req=dSklFMh6mINaWvMW1HO4zRZTxFrDvcjaKAqLF4ERnlWJDj2BV%2F6M%2FXrTtFKW%0AkX8XdZkndyptuP0GY08%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1780275600&signature=08b2355eb5e557c27c8db3c45e66f6eb6dd2b8c42e3563e6edbc23250cf7e7f5&req=dSklFMh6mINaWvMW1HO4zRZTxFrDvM7VKAqLF4ERnlVvhXf6C89PC5fcJCHj%0AvKFqO6oc6VIAFjg31Qw%3D%0A)
 
  
 

@@ -1,6 +1,6 @@
 # Enabling and using the desktop extension allowlist
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -59,7 +59,7 @@ If you want to remove an extension from the allowlist, click the “...” butto
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1780264800&signature=ae50ec2ddd1163778538e09a3956689d44c598df85f57934ea6c92941fb27f15&req=dScvF857nINaWfMW1HO4zTrxBagr%2BVOdqXridZhfx1IxB16xMy4wWxDT86bD%0AJFRmbOcMF%2FKPOtY4WCM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1780275600&signature=f70c7c936dd4eb6be71df8fa76bc69cf09f54638bd78b712aa1fd34484f15ead&req=dScvF857nINaWfMW1HO4zTrxBagr%2BFKTqXridZhfx1IL5BtRwEXdDhHrMuzD%0AG1wrvMcjxVPPKlp8S8k%3D%0A)
 
  
 

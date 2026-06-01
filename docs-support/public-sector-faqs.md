@@ -1,6 +1,6 @@
 # Public Sector FAQs
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -10,7 +10,7 @@
 
 Select your product based on both your technical/functional requirements, and also your compliance/security/deployment environment requirements. Here is a list of options:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1780264800&signature=6e1d47494af6638c1704ce9536a239d45fabd7af0c6cebe62e81b45d5bfd7ffa&req=diEuEc5%2FmoBZWPMW1HO4zU94LlknG9k42WxtU42UVC3uwiYpi9s%2BAuho2VAZ%0AAJgFOUKruC5AhD%2BKcnQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1780275600&signature=b0ce2706fc6f093354419d3708bb48d1e1eaf15d4e95d2799d07c57ee0f14f65&req=diEuEc5%2FmoBZWPMW1HO4zU94LlknGtg22WxtU42UVC1nHfh6I0PLz4VAzws6%0ARwC9VO4OeMBe4TtmYDE%3D%0A)
 
  
 

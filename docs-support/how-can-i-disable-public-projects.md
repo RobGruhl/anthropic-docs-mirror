@@ -1,6 +1,6 @@
 # Disable public projects for your organization
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -13,7 +13,7 @@ Follow these steps:
 1. Navigate to **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)**.
 2. Find **Public projects** and toggle it off
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1780264800&signature=79b6ca2240a7f05a877aae09319fc6f94730d0108606b18401b752d878b631c5&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2embQRXYabJlVJ9VPyvg8SJKO6XHEGgjw5D%0AGyJWCOmSXyJojAjjaaI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1780275600&signature=3a08a39d82f041cdc99bae521e06a10c673775e92db2db6427ef71fd6cd41a1a&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2embAVZYabJlVJ9VPz6Bpmczo%2BC0Bvz23rM%0A0DTuKdk2sis57Ww3%2BqU%3D%0A)
 
  
 

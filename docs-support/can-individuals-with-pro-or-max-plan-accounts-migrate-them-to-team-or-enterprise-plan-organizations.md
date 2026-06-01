@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -34,7 +34,7 @@ If your organization is on a Team plan (or hasn't initiated domain claiming), yo
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1780264800&signature=52e96cfc7da0b793544aa0be3413072f28bfbc6ce1a91f206da7b4cc6cb228d1&req=diMmFMh3noJbXvMW1HO4zXhPndA0zhtpufhmlOXMdYYcksWbCC2y30PPLat%2B%0AbRaf%2B8ZYEhtOnt8IMxw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1780275600&signature=925ed3523ca075be0c694b28c1117210d73cdb5f0b58f4c710a11c0664c89f91&req=diMmFMh3noJbXvMW1HO4zXhPndA0zxpnufhmlOXMdYYK3LzV%2Fb429nmbJij8%0AmHSUlTvLYlsbu30tNUk%3D%0A)
 
  
 

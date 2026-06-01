@@ -1,6 +1,6 @@
 # How can I delete my Claude Console account?
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -41,7 +41,7 @@ If you have an outstanding balance, you will see a message during the deletion f
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1780264800&signature=e2e4d03f1b3c72e4cb79bae26b2688d71fb4eb72ce470c3348a9c050e8beea28&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBdgWuATFZRyvJPpBZ%2BZcyQW3NUPmjH6%2FpNX%0AUElT7xlPgbiuJbNNjrM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1780275600&signature=70534bd545567d9a3e95b176cb40efa873be7c253fc1e96b29732fd10949cefa&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBdgW%2BEdFZRyvJPpBZ%2B5JF29kkbcOo47w2wj%0AgJMoYgxqdOJAB4GEiEE%3D%0A)
 
  
 
@@ -55,7 +55,7 @@ There are some scenarios where you will need to contact our team to delete your 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1780264800&signature=f254990ba221ac05af50c176fe4d2d7b8af3a8ab8613fc2267f3fbbba4c911b6&req=dSkgFcB7moZZXPMW1HO4zRW12%2BXPfqDxZxDZGlqR6Gih2%2FQWfu5vvTF3%2BfeE%0ACGsv9yc52coT1TcIa5c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1780275600&signature=986147770a32d7770371b61c4862152d1553c965aa7e9c39d868c5c2fcc77d68&req=dSkgFcB7moZZXPMW1HO4zRW12%2BXPf6H%2FZxDZGlqR6GgWwt%2Bq3%2Bcqqn8aLo%2Fn%0AJIv53cA2JbTFAw1NALY%3D%0A)
 
  
 

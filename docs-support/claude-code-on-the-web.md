@@ -1,6 +1,6 @@
 # Claude Code on the web
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -20,7 +20,7 @@ Claude Code for web enables asynchronous development workflows. With Claude Code
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1780264800&signature=495451aa3b789a4df9f2377e3be7d4d92515b85b97c4e0761c1a8567bb26c74c&req=dScvEM16m4BaXvMW1HO4zR8%2BAFOCRJl%2B7XrRA1YwWGva%2BlzxpltXY%2BuR%2BFjM%0Aq7tUXrSFvW9y5pQN4MU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1780275600&signature=95764304692c220b302dc50f8849563cdb845f8a7297b5b6588d6651c6315fc1&req=dScvEM16m4BaXvMW1HO4zR8%2BAFOCRZhw7XrRA1YwWGtBhNODvX9x0EEu2YXb%0AGCKk4TeITgFpqqaJ8nw%3D%0A)
 
  
 
@@ -34,7 +34,7 @@ When you start a task, Claude Code on the web creates an isolated virtual machin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1780264800&signature=f4a2bce66efc4d44d7538861a1c04e1a91f8b4ceb55ddd50778fbf288000e272&req=dScvEM16m4BaUfMW1HO4zcR0rZY2ie3I7DtpMiX%2FBYkVbxx8Mma7%2BuNfucsU%0AbNv0bKGXVxZkTrCoqLc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1780275600&signature=b67e8dc196f7b823ec4e2eafce10f74ba5a79f1cc515b1a8dfbf23cd27b114e6&req=dScvEM16m4BaUfMW1HO4zcR0rZY2iOzG7DtpMiX%2FBYklWcvsyF9LdDw30fRk%0AUz1NIi%2FzxJYY3WUTThY%3D%0A)
 
  
 
@@ -46,7 +46,7 @@ Once the environment is ready, Claude begins working on your task. Claude reads 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1780264800&signature=5f9632a52e57c773955221ea8341ab81fd55c96647fa5754884aa80c54371575&req=dScvEM16m4BaX%2FMW1HO4zVbcTGOB5cDGUQl3YqgIJdao2%2B1xfoiTPf2Pkybj%0AObICOx5WYhtfSdAIFXM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1780275600&signature=72059c6f8139266ffeae9032161de8fbc458c23aa0c51ad71b7c177511616cfc&req=dScvEM16m4BaX%2FMW1HO4zVbcTGOB5MHIUQl3YqgIJdZ5NAkzgbx6RtU9yOWe%0Axe5GsdkQohQlxE2VDGs%3D%0A)
 
  
 
