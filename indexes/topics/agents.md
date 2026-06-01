@@ -1,14 +1,15 @@
 # Agents Topic Index
-*Last updated: 2026-06-01 19:41*
+*Last updated: 2026-06-01 22:06*
 
-Documents related to Agents across all sources (116 documents)
+Documents related to Agents across all sources (117 documents)
 ---
-## Platform Documentation (platform.claude.com) (39)
+## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
 - [agents-and-tools__agent-skills__quickstart](/platform-docs/developer-guide/agents-and-tools__agent-skills__quickstart.md)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
+- [agents-and-tools__mcp-tunnels__concepts](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__concepts.md)
 - [agents-and-tools__mcp-tunnels__console](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__console.md)
 - [agents-and-tools__mcp-tunnels__deploy-compose](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-compose.md)
 - [agents-and-tools__mcp-tunnels__deploy-helm](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-helm.md)

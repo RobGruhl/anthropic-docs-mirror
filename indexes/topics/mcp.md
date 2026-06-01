@@ -1,9 +1,9 @@
 # Mcp Topic Index
-*Last updated: 2026-06-01 19:41*
+*Last updated: 2026-06-01 22:06*
 
-Documents related to Mcp across all sources (239 documents)
+Documents related to Mcp across all sources (240 documents)
 ---
-## Platform Documentation (platform.claude.com) (31)
+## Platform Documentation (platform.claude.com) (32)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
 - [admin__mcp_tunnels__archive](/platform-docs/api-reference/admin__mcp_tunnels__archive.md)
 - [admin__mcp_tunnels__list](/platform-docs/api-reference/admin__mcp_tunnels__list.md)
@@ -16,6 +16,7 @@ Documents related to Mcp across all sources (239 documents)
 - [admin__mcp_tunnels__tunnel_certificates__list](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__list.md)
 - [admin__mcp_tunnels__tunnel_certificates__retrieve](/platform-docs/api-reference/admin__mcp_tunnels__tunnel_certificates__retrieve.md)
 - [agents-and-tools__mcp-connector](/platform-docs/developer-guide/agents-and-tools__mcp-connector.md)
+- [agents-and-tools__mcp-tunnels__concepts](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__concepts.md)
 - [agents-and-tools__mcp-tunnels__console](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__console.md)
 - [agents-and-tools__mcp-tunnels__deploy-compose](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-compose.md)
 - [agents-and-tools__mcp-tunnels__deploy-helm](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__deploy-helm.md)

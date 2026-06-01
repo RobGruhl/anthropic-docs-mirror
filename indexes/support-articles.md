@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-01 19:41*
+*Last updated: 2026-06-01 22:06*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -156,7 +156,7 @@ Total documents: 267
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-05-27  
+**Updated:** 2026-06-01  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -251,7 +251,7 @@ Total documents: 267
 ### Creating a new account after deletion
 **File:** `/docs-support/creating-a-new-account-after-deletion.md`  
 **Source:** https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-01  
 
 ### Creating and managing Workspaces in the Claude Console
 **File:** `/docs-support/creating-and-managing-workspaces-in-the-claude-console.md`  
@@ -416,7 +416,7 @@ Total documents: 267
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api  
-**Updated:** 2026-05-27  
+**Updated:** 2026-06-01  
 
 ### How can I access the personal information that Anthropic has on my account?
 **File:** `/docs-support/how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md`  
@@ -686,7 +686,7 @@ Total documents: 267
 ### Inviting members to the Claude Console
 **File:** `/docs-support/inviting-members-to-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-01  
 
 ### I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?
 **File:** `/docs-support/i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do.md`  

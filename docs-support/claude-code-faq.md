@@ -1,6 +1,6 @@
 # Claude Code FAQ
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -17,6 +17,22 @@ We have detailed instructions for setting up single sign-on on a Team, Enterpris
 ## Is there a way to disable Opus model access across our entire organization in Claude Code?
 
 If you are a Claude Console user, this can be configured through rate limiting in your Console organization. If you are using Bedrock or Vertex, set the Opus rate limit to 0 in your Vertex/Bedrock project settings. Note that even if disabled in Vertex, users may be able to switch models in Claude Code, so rate limiting is the most effective approach.
+
+ 
+
+## What are Claude Code dynamic workflows, and how do we control access?
+
+Dynamic workflows (available for Claude Enterprise plans) let Claude run large engineering tasks—migrations, audits, codebase-wide bug hunts—from start to finish in a single Claude Code session. They become available and turn on by default for your whole Enterprise organization on June 8, 2026. Because a single run can last for hours and use more tokens than a typical session, admins should decide who has access before that date.
+
+ 
+
+You have three ways to control access:
+
+1. **At the role level (Enterprise plans with custom roles):** Grant or restrict the Claude Code dynamic workflows capability per group. This only affects members whose role is set to "Custom roles." See **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452)**.
+2. **Disable org-wide via <code>managed-settings.json</code>:** Add <code>"disableWorkflows": true</code> to your managed settings. This holds before and after June 8.
+3. **Organization-wide:** After June 8, an owner can disable dynamic workflows for everyone by going to **[Organization settings > Claude Code](https://claude.ai/admin-settings/claude-code)** and toggling **Workflows** off.
+
+We apply the more restrictive of your managed settings and custom role permissions on a per-user basis. If either one disables workflows for a given user, that user won't have access.
 
  
 
@@ -126,7 +142,7 @@ This typically occurs with reusable workflows. Check that your workflow syntax i
 
 ## Related Articles
 
-- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
 - [Your first day in Claude Code](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
 - [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
