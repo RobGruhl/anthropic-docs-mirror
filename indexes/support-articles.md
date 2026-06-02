@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-02 16:36*
+*Last updated: 2026-06-02 19:15*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-05-31  
+**Updated:** 2026-06-02  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -106,7 +106,7 @@ Total documents: 267
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
 **Source:** https://support.claude.com/en/articles/9002504-can-claude-produce-images  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
@@ -132,6 +132,16 @@ Total documents: 267
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
 **Updated:** 2026-06-01  
+
+### Change the model, effort, and thinking settings
+**File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
+**Source:** https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with  
+**Updated:** 2026-06-02  
+
+### Change the model, effort, and thinking settings
+**File:** `/docs-support/using-extended-thinking.md`  
+**Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
+**Updated:** 2026-06-02  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -311,7 +321,7 @@ Total documents: 267
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-02  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -336,7 +346,7 @@ Total documents: 267
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -437,11 +447,6 @@ Total documents: 267
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios  
 **Updated:** 2026-05-19  
-
-### How can I change the model version that I’m chatting with?
-**File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
-**Source:** https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with  
-**Updated:** 2026-05-17  
 
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
@@ -546,7 +551,7 @@ Total documents: 267
 ### How do usage and length limits work?
 **File:** `/docs-support/understanding-usage-and-length-limits.md`  
 **Source:** https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-02  
 
 ### How does Claude handle mathematical equations and calculations?
 **File:** `/docs-support/how-does-claude-handle-mathematical-equations-and-calculations.md`  
@@ -591,7 +596,7 @@ Total documents: 267
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-05-31  
+**Updated:** 2026-06-02  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -616,7 +621,7 @@ Total documents: 267
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
 **Source:** https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-02  
 
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
@@ -731,7 +736,7 @@ Total documents: 267
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-02  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -871,7 +876,7 @@ Total documents: 267
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
@@ -896,12 +901,12 @@ Total documents: 267
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-02  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
 **Source:** https://support.claude.com/en/articles/9267276-roles-and-permissions  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-02  
 
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
@@ -991,7 +996,7 @@ Total documents: 267
 ### Usage limit best practices
 **File:** `/docs-support/usage-limit-best-practices.md`  
 **Source:** https://support.claude.com/en/articles/9797557-usage-limit-best-practices  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-02  
 
 ### Use Claude Code with your Pro or Max plan
 **File:** `/docs-support/using-claude-code-with-your-pro-or-max-plan.md`  
@@ -1006,7 +1011,7 @@ Total documents: 267
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-02  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1121,16 +1126,11 @@ Total documents: 267
 ### Using Research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
 **Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-05-21  
+**Updated:** 2026-06-02  
 
 ### Using dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
-**Updated:** 2026-05-21  
-
-### Using extended thinking
-**File:** `/docs-support/using-extended-thinking.md`  
-**Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
 **Updated:** 2026-05-21  
 
 ### Using incognito chats
@@ -1258,10 +1258,10 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/9612904-what-versions-of-android-are-supported  
 **Updated:** 2026-05-21  
 
-### When should I use web search, extended thinking, and Research?
+### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
 **Source:** https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research  
-**Updated:** 2026-05-26  
+**Updated:** 2026-06-02  
 
 ### When to use desktop and web connectors
 **File:** `/docs-support/when-to-use-desktop-and-web-connectors.md`  
@@ -1276,7 +1276,7 @@ Total documents: 267
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-02  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  

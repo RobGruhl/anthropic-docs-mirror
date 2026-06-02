@@ -1,6 +1,6 @@
 # How up-to-date is Claude's training data?
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -10,7 +10,6 @@ While we're constantly updating Claude's data, each model has a knowledge cutoff
 - Claude Opus 4.7 was trained on data up until January 2026.
 - Claude Sonnet 4.6 was trained on data up until August 2025.
 - Claude Opus 4.6 was trained on data up until August 2025.
-- Claude Opus 4.5 was trained on data up until August 2025.
 - Claude Haiku 4.5 was trained on data up until July 2025.
 - Claude Opus 3 was trained on data up until August 2023.
 
@@ -29,4 +28,4 @@ You can refer to **[Models overview](https://docs.claude.com/en/docs/about-claud
 - [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)
+- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)

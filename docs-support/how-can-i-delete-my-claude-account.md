@@ -8,7 +8,7 @@ Once you are logged in, click your initials or name in the lower left corner and
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1780419600&signature=dd8a7ba8eece561095b3168a0e234d77ccf1298978350790775442948bc1d8ae&req=diIgEst4moRcXfMW1HO4zeqzlXwKJ4j6oVDupr7i4TFjQsjZCGrUttdm%2F97s%0AfwqOvUAuIRFvjDFXZVw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1780429500&signature=45290ec0759751082a802a6b8fe7f7a2acc7dc9f16fc52736571ebc049f3941e&req=diIgEst4moRcXfMW1HO4zeqzlXwKJIj5oVDupr7i4TFL7Nx5TdfE4QH65G3M%0AMb67Tdoq6QEVnDT8oVc%3D%0A)
 
  
 
@@ -32,7 +32,7 @@ There are some scenarios where you will need to **[contact our team](https://sup
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1780419600&signature=d41e6ef9d8bcbd5f3cdb74e1694b4a069fa83172197daf0bdaa677b1ee35c029&req=dSUvEs53m4leWPMW1HO4zXW0qxUPGoNdVOsMorzl%2B%2FRukUxcq1NvE%2FOtz%2BRp%0AlRifS3bcZEjfSVnQwyg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1780429500&signature=cb6b22080b74bf91bd1d4a698897f9fa5cad59d0b111a851a99c589d15738692&req=dSUvEs53m4leWPMW1HO4zXW0qxUPGYNeVOsMorzl%2B%2FT%2Fp%2FRtAJW8a0bL0imu%0Avm3U8NCM01YZy5Zbszw%3D%0A)
 
 
 ---
@@ -41,6 +41,6 @@ There are some scenarios where you will need to **[contact our team](https://sup
 
 - [How do I change the email address associated with my account?](https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account)
 - [How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)
-- [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
 - [How can I delete my Claude Console account?](https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account)
+- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)

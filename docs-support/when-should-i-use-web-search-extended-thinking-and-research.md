@@ -1,31 +1,31 @@
-# When should I use web search, extended thinking, and Research?
+# When should I use web search, extended thinking, and research?
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
-Claude offers several powerful capabilities to help you find information and solve problems. Understanding when to use each option—web search, extended thinking, and Research—can help you get the best results for your specific needs. This guide explains the ideal use cases for each feature and how they can work together to enhance your experience. 
+Claude offers several powerful capabilities to help you find information and solve problems. Understanding when to use each option—web search, extended thinking, and research—can help you get the best results for your specific needs. This guide explains the ideal use cases for each feature and how they can work together to enhance your experience. 
 
  
 
 For more information on availability, enabling, and using each feature, explore the resources below:
 
-- [Web search](https://support.anthropic.com/en/articles/10684626-enabling-and-using-web-search)
-- [Extended thinking](https://support.anthropic.com/en/articles/10574485-using-extended-thinking-on-claude-3-7-sonnet)
-- [Research](https://support.anthropic.com/en/articles/11088861-using-research-on-claude-ai)
+- **[Web search](https://support.claude.com/en/articles/10684626)**
+- **[Extended thinking](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings#h_fe39272335)**
+- **[Research](https://support.claude.com/en/articles/11088861)**
 -  
 
-## Web Search 
+## Web search 
 
-Web search is best for straightforward, factual queries that can be answered with 1-2 tool calls, such as checking the weather, getting info about a specific company, retrieving recent news headlines, or getting up-to-date details like "who won the Lakers' game last night?"
-
- 
-
-It's also helpful if you want to steer Claude more - you want to tell it generally what to search, but also want it to handle the process of actually running the web searches and analyzing the results.
+Web search is best for straightforward, factual queries that can be answered with one or two tool calls, such as checking the weather, getting info about a specific company, retrieving recent news headlines, or getting up-to-date details like "who won the Lakers game last night?"
 
  
 
-## Extended Thinking 
+It's also helpful if you want to steer Claude more—you want to tell it generally what to search, but also want it to handle the process of actually running the web searches and analyzing the results.
+
+ 
+
+## Extended thinking 
 
 Extended thinking shines when tackling complex reasoning tasks that don't require recent info from the web—like solving mathematical problems, debugging code, or analyzing philosophical concepts—allowing Claude to explore multiple angles before reaching a conclusion. For example, "optimize this algorithm for better performance," or "analyze the bioethics of organ donation from multiple perspectives."
 
@@ -41,21 +41,17 @@ Research is optimal for comprehensive information gathering requiring five or mo
 
  
 
-## Using Research and Extended Thinking Together
+## Use research and extended thinking together
 
-Research and extended thinking work best together, and by default when you enable Research it automatically enables extended thinking. 
-
- 
-
-Combining extended thinking with Research allows Claude to both plan its approach thoughtfully and execute comprehensive information gathering, as when researching emerging technologies for a business proposal or analyzing multiple scientific papers for a research project. The Research feature can synthesize information across multiple sources with proper citations and produces a longer final report.
+Combining extended thinking with research allows Claude to both plan its approach thoughtfully and execute comprehensive information gathering, as when researching emerging technologies for a business proposal or analyzing multiple scientific papers for a research project. The research feature can synthesize information across multiple sources with proper citations and produces a longer final report.
 
 
 ---
 
 ## Related Articles
 
-- [Using extended thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
 - [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search)
 - [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
+- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)

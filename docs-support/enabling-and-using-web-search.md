@@ -1,6 +1,6 @@
 # Enable and use web search
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -10,7 +10,6 @@ You can have Claude search the internet to provide you with up-to-date informati
 - Opus 4.7
 - Sonnet 4.6
 - Opus 4.6
-- Opus 4.5
 - Haiku 4.5 
 
 Web search expands Claude's knowledge with real-time data, helping you make better-informed decisions with current information.
@@ -129,7 +128,7 @@ You can re-enable it anytime you need current information.
 ## Related Articles
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
-- [When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
+- [When should I use web search, extended thinking, and research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [MCP: Web Search](https://support.claude.com/en/articles/14503775-mcp-web-search)

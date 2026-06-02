@@ -33,7 +33,7 @@ If you're an Enterprise Primary Owner looking to export audit logs, see **[How t
 ## Related Articles
 
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
-- [How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)
+- [Roles and permissions](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 - [Access audit logs](https://support.claude.com/en/articles/9970975-access-audit-logs)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)

@@ -1,6 +1,6 @@
 # Get started with Claude
 
-*Updated over 3 weeks ago*
+*Updated in the last hour*
 
 ---
 
@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1780419600&signature=7a0cee8a66697ef5a575d7a6f32c5612b71a42ad665dbb61dbdbfb54ea5501c4&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7S%2FOtY6H9crMELaMZPxVKxdDVxLVr6fB9c5J%0ALzsbN8Aj6OISYzokEzI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1780574400&signature=067584426544c615248586f9702a512857bf6bfb769643c6fa34185c7a15d009&req=dSkmEMt%2BlYRYUfMW3nq%2Bgehpi5whB1hL2rNyx%2BM3b7cJdDIBLngkaxxO2YtT%0AC2VMZfagw%2FG7hM%2BxyPzDzn4qRGU%3D%0A)
 
  
 
@@ -60,7 +60,11 @@ Type your prompt into the chat interface and click the submit button to start a 
 
 ### Which model am I talking to?
 
-The model you're currently chatting with is displayed either below your text input (on web and desktop) or at the top of your screen (on mobile). You can click on the model you're using to open the model selector and switch to another available model.
+The model you're currently chatting with is displayed either below your text input (on web and desktop) or at the top of your screen (on mobile). You can click on the model you're using to open the model selector and switch to another available model. 
+
+ 
+
+You can also choose how much effort Claude puts into each response and whether it uses extended thinking. Learn more about **[changing the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678)**.
 
  
 
@@ -126,8 +130,8 @@ Once you've started using Claude, you can:
 
 ## Related Articles
 
+- [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
