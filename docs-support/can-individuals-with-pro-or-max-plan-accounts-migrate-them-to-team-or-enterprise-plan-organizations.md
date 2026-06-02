@@ -34,7 +34,7 @@ If your organization is on a Team plan (or hasn't initiated domain claiming), yo
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1780407900&signature=fa5b966715cd395112b681a3df42f2fb6fcff810057c566ccf26ed0ce6db97ee&req=diMmFMh3noJbXvMW1HO4zXhPndAyyBhoufhmlOXMdYbNqJ%2FHXMz%2F301I6Hxe%0Aoh9%2FgTThuY2zAWjVoIE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1780419600&signature=34d281180e29da4ab419b71e5b1d62d2b8c84c5070f2468de14fd5f3839da486&req=diMmFMh3noJbXvMW1HO4zXhPndAyyRZnufhmlOXMdYaf4sOHAYw0CXnMSjXM%0ANhBen8ac6PooWbP2Ebk%3D%0A)
 
  
 
@@ -57,6 +57,6 @@ If you'd rather not wait for a domain claim, you can discontinue your personal a
 
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
-- [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)
 - [Claim and migrate accounts on your domain](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain)
 - [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)
+- [Claude Enterprise activation promo for Claude Code and Cowork](https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork)

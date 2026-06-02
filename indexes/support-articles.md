@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-02 13:15*
+*Last updated: 2026-06-02 16:36*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -186,12 +186,12 @@ Total documents: 267
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
 **Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
 **Source:** https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins  
-**Updated:** 2026-05-21  
+**Updated:** 2026-06-02  
 
 ### Claude in Chrome Permissions Guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -216,7 +216,7 @@ Total documents: 267
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -881,7 +881,7 @@ Total documents: 267
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-02  
 
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
@@ -1011,7 +1011,7 @@ Total documents: 267
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
@@ -1251,7 +1251,7 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1301,7 +1301,7 @@ Total documents: 267
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-02  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
