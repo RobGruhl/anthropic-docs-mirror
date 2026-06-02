@@ -1,6 +1,6 @@
 # Get started with Claude
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -130,7 +130,7 @@ Once you've started using Claude, you can:
 
 ## Related Articles
 
-- [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
+- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

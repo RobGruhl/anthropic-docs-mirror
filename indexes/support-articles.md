@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-02 19:15*
+*Last updated: 2026-06-02 22:01*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -261,7 +261,7 @@ Total documents: 267
 ### Creating a new account after deletion
 **File:** `/docs-support/creating-a-new-account-after-deletion.md`  
 **Source:** https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Creating and managing Workspaces in the Claude Console
 **File:** `/docs-support/creating-and-managing-workspaces-in-the-claude-console.md`  
@@ -351,7 +351,7 @@ Total documents: 267
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
 **Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-02  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -606,7 +606,7 @@ Total documents: 267
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
@@ -616,7 +616,7 @@ Total documents: 267
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-02  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -661,7 +661,7 @@ Total documents: 267
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-02  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -746,7 +746,7 @@ Total documents: 267
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-02  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -1088,6 +1088,11 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac  
 **Updated:** 2026-06-02  
 
+### Use research on Claude
+**File:** `/docs-support/using-research-on-claude.md`  
+**Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
+**Updated:** 2026-06-02  
+
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
@@ -1123,11 +1128,6 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
 **Updated:** 2026-05-17  
 
-### Using Research on Claude
-**File:** `/docs-support/using-research-on-claude.md`  
-**Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-06-02  
-
 ### Using dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
@@ -1151,7 +1151,7 @@ Total documents: 267
 ### Using the Candid Connector in Claude
 **File:** `/docs-support/using-the-candid-connector-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-02  
 
 ### Using the Claude Widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  

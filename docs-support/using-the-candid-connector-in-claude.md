@@ -1,6 +1,6 @@
 # Using the Candid Connector in Claude
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -459,7 +459,7 @@ If you’re experiencing issues with the Candid integration or have questions no
 
 ## Related Articles
 
-- [Using Research on Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude)
+- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
 - [Using the Blackbaud Connector in Claude](https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude)
 - [Using the Benevity Connector in Claude](https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude)

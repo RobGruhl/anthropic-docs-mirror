@@ -129,4 +129,4 @@ Yes. RAG works with all Claude features, including web search, extended thinking
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
-- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+- [Use the GitHub integration](https://support.claude.com/en/articles/10167454-use-the-github-integration)

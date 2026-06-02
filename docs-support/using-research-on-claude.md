@@ -1,6 +1,6 @@
-# Using Research on Claude
+# Use research on Claude
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -8,45 +8,45 @@ Research transforms how Claude finds and analyzes information. Claude operates a
 
  
 
-With Research, Claude delivers thorough answers in minutes, complete with easy-to-check citations so you can trust Claude's findings.
+With research, Claude delivers thorough answers in minutes, complete with easy-to-check citations so you can trust Claude's findings.
 
-## How to enable or disable Research
+## How to enable or disable research
 
-Find the “Research” button on the bottom left of your chat interface. If the button is white, Research is disabled. Click the “Research” button to enable the feature and turn the button blue. Click the button again to disable Research.
-
- 
-
-## Using Research
-
-Once Research is turned on, you can ask Claude a question. Claude will kick off the Research process across your internal context (such as [Gmail, Google Calendar, and Google Docs when connected](https://support.claude.com/en/articles/10168395-setting-up-claude-integrations)) and the web.
+Click the “+” button on the bottom left of your chat interface, then "Research." A blue indicator will appear on the bottom of the chat window. Click the indicator again to disable research.
 
  
 
-To see an example of using Claude's Research feature to plan a team offsite, watch the video here: [Using Research](https://support.claude.com/en/articles/11106443-using-research).
+## Use research
+
+Once research is turned on, you can ask Claude a question. Claude will kick off the research process across your internal context (such as **[Gmail, Google Calendar, and Google Docs when connected](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)**) and the web.
 
  
 
-## FAQs
-
-### I have the Research button on, but Claude doesn’t seem to be researching. What should I do?
-
-In this case, you can steer and prompt Claude to use Research by saying “Claude, please use the Research tool to…”
+To see an example of using Claude's Research feature to plan a team offsite, watch the video here: **[Using Research](https://claude.com/resources/tutorials/using-research)**.
 
  
 
-### I have the Research button on, and Research should be pulling against my internal documentation via the Google integrations I have turned on, but isn’t. What should I do? 
+## Frequently asked questions
+
+### I enabled research, but Claude doesn’t seem to be researching. What should I do?
+
+In this case, you can steer and prompt Claude to use Research by saying “Claude, please use the research tool to…”
+
+ 
+
+### I have research on, which should be pulling against my internal documentation via the Google integrations I have turned on, but isn’t. What should I do? 
 
 In this case, you should steer and prompt Claude to “Pull relevant context from [relevant internal knowledge source].”
 
  
 
-To see an overview of Claude's Research capabilities with the Google Workspace integration, watch the video here: [Using Research and Google Workspace](https://support.claude.com/en/articles/11101545-using-research-and-google-workspace).
+To see an overview of Claude's research capabilities with the Google Workspace integration, watch the video here: **[Using research and Google Workspace](https://claude.com/resources/tutorials/using-research-and-google-workspace)**.
 
  
 
-### Does Research count against usage limits differently than normal conversations?
+### Does research count against usage limits differently than normal conversations?
 
-Research is subject to the same limits as standard Claude conversations. However, Research sessions can use up your limits faster due to Claude retrieving multiple sources and providing comprehensive responses.
+Research is subject to the same limits as standard Claude conversations. However, research sessions can use up your limits faster due to Claude retrieving multiple sources and providing comprehensive responses.
 
 
 ---
