@@ -1,6 +1,6 @@
 # Verify your phone number
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -8,7 +8,7 @@ When you first create a Claude account, you’ll be asked to enter your phone nu
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1780353000&signature=25261b821a480512c3612f269c9d44ea26683f167c761ff2500385a6f1edfe26&req=dSguFch5noBbWvMW1HO4zVIf8JBg2Sl6oTnI%2BoMZk7f5XgTmpeErgcDhgL5L%0AvzXDr4raIk81HErhUTI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1780362900&signature=835c5068975a8b646ed9bd05542ea608d354c296f64209418f5d2e89cab566ec&req=dSguFch5noBbWvMW1HO4zVIf8JBg2ihzoTnI%2BoMZk7cRshg4OTIsarxzKGPn%0A8jRB3tBxrXvH5TaJXVo%3D%0A)
 
  
 

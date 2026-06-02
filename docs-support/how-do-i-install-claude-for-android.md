@@ -1,6 +1,6 @@
 # Install Claude for Android
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -12,7 +12,7 @@ You can install the Claude app onto your device by navigating to the Play Store 
 ## Related Articles
 
 - [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
-- [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
 - [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
+- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

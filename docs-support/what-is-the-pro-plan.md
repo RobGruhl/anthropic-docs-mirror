@@ -1,6 +1,6 @@
 # What is the Pro plan?
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -15,8 +15,6 @@ The benefits of the Pro plan are:
 - At least five times the usage per session compared to our free service.
 - Priority access to Claude during high-traffic periods.
 - Early access to new features that help you get the most out of Claude.
-- Ability to choose another model with the **[model selector](https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with)**.
-- Access to **[projects and knowledge bases](https://support.claude.com/en/articles/9517075-what-are-projects)**.
 - **[Claude Code access](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)**
 - **[Cowork access](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)**
 
@@ -91,8 +89,8 @@ Pro subscribers can also enable usage credits to continue working with Claude be
 
 ## Related Articles
 
-- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)

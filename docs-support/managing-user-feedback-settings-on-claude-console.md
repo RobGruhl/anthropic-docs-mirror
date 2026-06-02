@@ -13,7 +13,7 @@ To manage feedback for your Console organization:
 1. Navigate to [Settings > Privacy controls](https://platform.claude.com/settings/privacy).
 2. Toggle the feedback switch on or off.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1729186182/ebf4032a12a8c56959ca927726ce/Screenshot+2025-09-16+at+12_32_31%E2%80%AFPM.png?expires=1780353000&signature=b29a9a7ae49c9691801aa2413323f7f84bc0d5331ad19305ff751456f2b8e88f&req=dSclH8h2m4BXW%2FMW1HO4zVpN5HceXGtFJ%2FadMup7FQeNKsF6lYimcnSzdwlH%0AvgX%2BF%2F4ArUVZnc%2BpvxU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1729186182/ebf4032a12a8c56959ca927726ce/Screenshot+2025-09-16+at+12_32_31%E2%80%AFPM.png?expires=1780362900&signature=d121e0075f08beb775c4522983a9c2a288d2d32288d33aea202aa51438d093bf&req=dSclH8h2m4BXW%2FMW1HO4zVpN5HceX2pMJ%2FadMup7FQet0U18T%2FBSa4NMg2ON%0ATl8Lp9ZyFxA9iBTvQTE%3D%0A)
 
  
 
@@ -26,6 +26,6 @@ More information on how Anthropic collects, uses, and stores feedback data can b
 
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
 - [Manage user feedback settings on Team and Enterprise plans](https://support.claude.com/en/articles/10504844-manage-user-feedback-settings-on-team-and-enterprise-plans)
-- [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
+- [Get started with Claude for Education at your university (for Owners/Admins)](https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Claude Design admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans)
