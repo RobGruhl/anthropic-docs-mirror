@@ -40,7 +40,6 @@ We are aware of individuals or investment firms purportedly offering access to A
 
 - Open Door Partners
 - Unicorns Exchange
-- Pachamama
 - Upmarket
 
 **Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records.**
