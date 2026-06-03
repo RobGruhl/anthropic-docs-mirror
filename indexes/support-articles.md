@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-03 16:37*
+*Last updated: 2026-06-03 19:21*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -246,7 +246,7 @@ Total documents: 267
 ### Consumer Terms of Service Updates
 **File:** `/docs-support/consumer-terms-of-service-updates.md`  
 **Source:** https://support.claude.com/en/articles/9264813-consumer-terms-of-service-updates  
-**Updated:** 2026-05-21  
+**Updated:** 2026-06-03  
 
 ### Cost and Usage Reporting in the Claude Console
 **File:** `/docs-support/cost-and-usage-reporting-in-the-claude-console.md`  

@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-03 16:37*
+*Last updated: 2026-06-03 19:21*
 Total documents: 1420
 ---
 ## Uncategorized (1420 documents)
@@ -1166,7 +1166,7 @@ Total documents: 1420
 ### build-with-claude__mid-conversation-effort-example
 **File:** `/platform-docs/build-with-claude__mid-conversation-effort-example.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-03  
 
 ### build-with-claude__mid-conversation-system-messages
 **File:** `/platform-docs/build-with-claude__mid-conversation-system-messages.md`  
@@ -1226,7 +1226,7 @@ Total documents: 1420
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-03  
 
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
@@ -4351,7 +4351,7 @@ Total documents: 1420
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-03  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
