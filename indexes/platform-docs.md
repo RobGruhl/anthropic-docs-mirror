@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-04 13:03*
+*Last updated: 2026-06-04 16:11*
 Total documents: 1420
 ---
 ## Uncategorized (1420 documents)
@@ -376,7 +376,7 @@ Total documents: 1420
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-04  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
@@ -1091,7 +1091,7 @@ Total documents: 1420
 ### build-with-claude__citations
 **File:** `/platform-docs/build-with-claude__citations.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/citations  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-04  
 
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
@@ -3451,7 +3451,7 @@ Total documents: 1420
 ### intro
 **File:** `/platform-docs/intro.md`  
 **Source:** https://platform.claude.com/docs/en/intro  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-04  
 
 ### java__beta
 **File:** `/platform-docs/java__beta.md`  
