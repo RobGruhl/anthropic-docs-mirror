@@ -88,14 +88,13 @@ Both self-serve and sales-assisted Enterprise plans include the same features an
 | **Payment methods** | Credit card, ACH* | Credit card, ACH, invoicing |
 | **Accepted currency** | USD only | Multi-currency supported |
 | **Usage billing** | Credits purchased upfront | Billed monthly in arrears |
-| **Trials** | Not available | Available |
 | **HIPAA-readiness / BAA** | Not available | Available |
 
 *ACH bank transfers are only available when creating new self-serve Enterprise organizations, not when upgrading a Team organization to Enterprise.
 
  
 
-**When to contact Sales:** If your organization needs invoicing, HIPAA-readiness and a Business Associate Agreement (BAA), trials, dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
+**When to contact Sales:** If your organization needs invoicing, HIPAA-readiness and a Business Associate Agreement (BAA), dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
 
  
 
