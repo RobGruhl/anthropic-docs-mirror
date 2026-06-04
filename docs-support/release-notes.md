@@ -1,8 +1,18 @@
 # Release notes
 
-*Updated this week*
+*Updated in the last hour*
 
 ---
+
+## June 2026
+
+### June 2, 2026
+
+**Enterprise plans can manage admin permissions with custom roles**
+
+We extended the existing custom roles framework by adding admin permissions. Admin permissions give members access to specific administrative areas, like billing or privacy, without the need to make them Owners. For more information, see **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans#h_fde60b08bd)**.
+
+ 
 
 ## May 2026
 
