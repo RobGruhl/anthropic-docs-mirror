@@ -1,5 +1,5 @@
 # Getting Started Topic Index
-*Last updated: 2026-06-04 16:11*
+*Last updated: 2026-06-04 18:47*
 
 Documents related to Getting Started across all sources (5 documents)
 ---

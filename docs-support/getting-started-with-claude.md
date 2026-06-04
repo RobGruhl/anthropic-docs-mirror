@@ -1,6 +1,6 @@
 # Get started with Claude
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1780590600&signature=f17606e29532e9d35c93b490de9c5488a1a17684aa35b8997960f7a174974274&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7S%2FPvYeH9crMELaMZPxEczUz7Jfg6yPyFAHL%0ASXypdQT6LIgjzOczN8A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1780600500&signature=85474b4dc02674d63a2e14f92aab1b975656ddce91ce22b1e9b84dd53d74c807&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7S%2FMtIeE9crMELaMZPyjxThM2z1fHS6dvKcS%0AE587iNiRjrnGqg%2FXHOU%3D%0A)
 
  
 

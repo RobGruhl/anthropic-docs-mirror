@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-04 16:11*
+*Last updated: 2026-06-04 18:47*
 Total documents: 1420
 ---
 ## Uncategorized (1420 documents)
@@ -4166,7 +4166,7 @@ Total documents: 1420
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-05-18  
+**Updated:** 2026-06-04  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
