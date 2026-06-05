@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-05 04:33*
+*Last updated: 2026-06-05 07:29*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -26,7 +26,7 @@ Total documents: 267
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-05  
 
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
