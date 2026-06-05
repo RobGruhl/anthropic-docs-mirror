@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-06-05 16:04*
+*Last updated: 2026-06-05 18:42*
 
-Documents related to Api across all sources (138 documents)
+Documents related to Api across all sources (139 documents)
 ---
 ## Platform Documentation (platform.claude.com) (99)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -104,7 +104,7 @@ Documents related to Api across all sources (138 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (39)
+## Claude.com Blog Posts (40)
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
@@ -123,6 +123,7 @@ Documents related to Api across all sources (138 documents)
 - [Fine-tune Claude 3 Haiku in Amazon Bedrock](/claude-blog/fine-tune-claude-3-haiku.md) - ![](https://cdn
 - [Get to production faster with the upgraded Anthropic Console](/claude-blog/upgraded-anthropic-console.md) - ![](https://cdn
 - [How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book](/claude-blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book.md) - ![](https://cdn
+- [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
 - [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn

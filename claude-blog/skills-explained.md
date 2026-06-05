@@ -322,14 +322,6 @@ Start using Skills with Claude to build more powerful applications today.
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### 모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
-### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
 
 ### Skills MCP 서버로 Claude의 역량 확장
@@ -337,6 +329,14 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
 ### 조직, 파트너, 그리고 생태계를 위한 Skills
+
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### 모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+
+### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 
