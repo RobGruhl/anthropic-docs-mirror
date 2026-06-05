@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-06-04 21:35*
+*Last updated: 2026-06-05 00:38*
 
-Documents related to Skills across all sources (127 documents)
+Documents related to Skills across all sources (128 documents)
 ---
 ## Platform Documentation (platform.claude.com) (103)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -123,7 +123,7 @@ Documents related to Skills across all sources (127 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (15)
+## Claude.com Blog Posts (16)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [Advancing Claude for Excel and PowerPoint](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
@@ -137,6 +137,7 @@ Documents related to Skills across all sources (127 documents)
 - [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
+- [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 

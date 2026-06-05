@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-04 21:35*
+*Last updated: 2026-06-05 00:38*
 
-Documents related to Claude Code across all sources (230 documents)
+Documents related to Claude Code across all sources (233 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -168,12 +168,14 @@ Documents related to Claude Code across all sources (230 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (65)
+## Claude.com Blog Posts (68)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
+- [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Automate security reviews with Claude Code](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
+- [Best practices for getting started with Claude Cowork](/claude-blog/best-practices-for-getting-started-with-claude-cowork.md) - ![](https://cdn
 - [Beyond permission prompts: making Claude Code more secure and autonomous](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 - [Bringing automated preview, review, and merge to Claude Code on desktop](/claude-blog/preview-review-and-merge-with-claude-code.md) - ![](https://cdn
 - [Build responsive web layouts](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
@@ -198,6 +200,7 @@ Documents related to Claude Code across all sources (230 documents)
 - [Eight trends defining how software gets built in 2026](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
 - [How AI helps break the cost barrier to COBOL modernization](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
+- [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
@@ -215,6 +218,7 @@ Documents related to Claude Code across all sources (230 documents)
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
@@ -225,7 +229,6 @@ Documents related to Claude Code across all sources (230 documents)
 - [Put Claude to work on your computer](/claude-blog/dispatch-and-computer-use.md) - ![](https://cdn
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
-- [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn

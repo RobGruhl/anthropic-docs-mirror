@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-04 21:35*
-Total documents: 1420
+*Last updated: 2026-06-05 00:38*
+Total documents: 1419
 ---
-## Uncategorized (1420 documents)
+## Uncategorized (1419 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -1901,11 +1901,6 @@ Total documents: 1420
 ### completions
 **File:** `/platform-docs/completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions  
-**Updated:** 2026-06-02  
-
-### completions__create
-**File:** `/platform-docs/completions__create.md`  
-**Source:** https://platform.claude.com/docs/en/api/completions/create  
 **Updated:** 2026-06-02  
 
 ### compliance
@@ -4281,7 +4276,7 @@ Total documents: 1420
 ### managed-agents__dreams
 **File:** `/platform-docs/managed-agents__dreams.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/dreams  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-05  
 
 ### managed-agents__environments
 **File:** `/platform-docs/managed-agents__environments.md`  
