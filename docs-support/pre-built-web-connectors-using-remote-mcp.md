@@ -1,6 +1,6 @@
 # Use connectors to extend Claude's capabilities
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -78,6 +78,8 @@ Once enabled at the org level, individual users follow the same steps described 
 
  
 
+ 
+
 ### Restrict actions within connected services
 
 Owners on Team and Enterprise plans can limit which actions a connected service can take across your organization. For example, you can allow a connector to read data from a service while preventing it from writing any changes back. This applies org-wide to everyone using the connector—individual users can't override it.
@@ -92,11 +94,10 @@ Common use cases:
 
 To configure action restrictions:
 
-1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors)**
+1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors).**
 2. Select the connector to see **Tool permissions**.
-3. The permissions will be categorized by type (for example, read-only tools, write/delete tools)
-4. You
-5. For each permission category or individual permission, select Always allow, Needs approval, or Blocked.
+3. The permissions will be categorized by type (for example, read-only tools, write/delete tools).
+4. For each permission category or individual permission, select Always allow, Needs approval, or Blocked.
 
  
 
@@ -204,7 +205,16 @@ If you're having trouble connecting to a service, try these steps:
 2. Verify you have an active account with the service.
 3. Review any permissions or account type requirements for the service.
 4. If authentication fails, try disconnecting and reconnecting from **[Customize > Connectors](http://claude.ai/customize/connectors)**.
-4.  
+
+### See a message that says, "This corporate identity belongs to an Enterprise that manages access through their own Claude account"?
+
+The service you're trying to connect uses an email address on a domain that an Enterprise organization has verified, and that organization restricts connections to its own Claude accounts only. To use this connection, sign in to your organization's Claude account and connect the service there. If you don't have a Claude account in that organization, contact your admin for access.
+
+ 
+
+Admins can learn more about **[restricting verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)**.
+
+ 
 
 ### Custom connector not connecting or timing out?
 
@@ -219,8 +229,8 @@ To resolve this, you can either allowlist Anthropic's IP ranges in your firewall
 
 ## Related Articles
 
+- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
-- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
