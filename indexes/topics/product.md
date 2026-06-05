@@ -1,12 +1,13 @@
 # Product Topic Index
-*Last updated: 2026-06-05 13:01*
+*Last updated: 2026-06-05 16:04*
 
-Documents related to Product across all sources (12 documents)
+Documents related to Product across all sources (13 documents)
 ---
-## Claude.com Blog Posts (12)
+## Claude.com Blog Posts (13)
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](/claude-blog/trainium2-and-distillation.md) - ![](https://cdn
 - [Claude Android app](/claude-blog/android-app.md) - ![](https://cdn
+- [Claude Opus 4.6으로 재무 관련 작업 개선](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Claude can now create and edit files](/claude-blog/create-files.md) - ![](https://cdn
 - [Claudeへのメモリの導入](/claude-blog/memory.md) - ![](https://cdn
 - [Comment l'équipe juridique d'Anthropic a réduit les délais de révision, qui sont passés de plusieurs jours à quelques heures avec Claude](/claude-blog/how-anthropic-uses-claude-legal.md) - ![](https://cdn
