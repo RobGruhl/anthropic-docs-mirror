@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-05 00:38*
-Total documents: 1419
+*Last updated: 2026-06-05 04:33*
+Total documents: 1420
 ---
-## Uncategorized (1419 documents)
+## Uncategorized (1420 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -1902,6 +1902,11 @@ Total documents: 1419
 **File:** `/platform-docs/completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions  
 **Updated:** 2026-06-02  
+
+### completions__create
+**File:** `/platform-docs/completions__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/completions/create  
+**Updated:** 2026-06-05  
 
 ### compliance
 **File:** `/platform-docs/compliance.md`  

@@ -3080,6 +3080,16 @@
       "last_modified": "Thu, 04 Jun 2026 23:13:48 GMT",
       "last_updated": "2026-06-02T19:10:39.015856"
     },
+    "completions__create.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/completions/create",
+      "original_md_url": "https://platform.claude.com/docs/en/api/completions/create.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/completions/create",
+      "hash": "488378a7dae88c8d4307e775508530f0126be338b4f05c4ba12ec5b9c1356728",
+      "etag": "W/\"2620-19e94ea0fe0\"",
+      "last_modified": "Thu, 04 Jun 2026 23:13:48 GMT",
+      "last_updated": "2026-06-05T04:29:54.789676"
+    },
     "compliance.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance",
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance.md",
@@ -14192,17 +14202,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-05T00:34:56.015777",
-    "fetch_duration_seconds": 99.893686,
+    "last_fetch_completed": "2026-06-05T04:29:54.796622",
+    "fetch_duration_seconds": 21.318162,
     "total_pages_discovered": 1557,
-    "pages_fetched_successfully": 1419,
-    "pages_failed": 138,
-    "pages_unchanged": 1418,
-    "pages_updated": 1,
-    "pages_new": 0,
-    "pages_skipped_304": 0,
+    "pages_fetched_successfully": 1420,
+    "pages_failed": 137,
+    "pages_unchanged": 1419,
+    "pages_updated": 0,
+    "pages_new": 1,
+    "pages_skipped_304": 1419,
     "failed_pages": [
-      "/docs/en/api/completions/create",
       "/docs/en/api/csharp/completions",
       "/docs/en/api/csharp/completions/create",
       "/docs/en/api/php/completions",
@@ -14343,7 +14352,7 @@
     ],
     "by_category": {
       "developer-guide": 128,
-      "api-reference": 1291,
+      "api-reference": 1292,
       "resources": 0
     },
     "source_sitemap": "https://platform.claude.com/sitemap.xml",
@@ -14354,5 +14363,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-05T00:34:56.015960"
+  "last_updated": "2026-06-05T04:29:54.796801"
 }
