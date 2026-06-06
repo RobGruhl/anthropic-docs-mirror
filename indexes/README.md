@@ -1,5 +1,5 @@
 # Claude Documentation Index
-*Last updated: 2026-06-05 21:35*
+*Last updated: 2026-06-06 00:35*
 
 ## Quick Stats
 - **Total Documents:** 2485
@@ -30,21 +30,21 @@
 - [Support Articles](support-articles.md) - 267 help articles from support.claude.com
 
 ### By Topic
-- [Mcp](topics/mcp.md) - 242 documents
+- [Mcp](topics/mcp.md) - 241 documents
 - [Claude Code](topics/claude-code.md) - 233 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
 - [Api](topics/api.md) - 138 documents
-- [Skills](topics/skills.md) - 130 documents
+- [Skills](topics/skills.md) - 129 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Agents](topics/agents.md) - 120 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
+- [Tools](topics/tools.md) - 77 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
-- [Tools](topics/tools.md) - 76 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents
 - [Interpretability](topics/interpretability.md) - 53 documents

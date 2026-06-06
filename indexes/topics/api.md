@@ -1,5 +1,5 @@
 # Api Topic Index
-*Last updated: 2026-06-05 21:35*
+*Last updated: 2026-06-06 00:35*
 
 Documents related to Api across all sources (138 documents)
 ---
@@ -123,6 +123,7 @@ Documents related to Api across all sources (138 documents)
 - [Fine-tune Claude 3 Haiku in Amazon Bedrock](/claude-blog/fine-tune-claude-3-haiku.md) - ![](https://cdn
 - [Get to production faster with the upgraded Anthropic Console](/claude-blog/upgraded-anthropic-console.md) - ![](https://cdn
 - [How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book](/claude-blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book.md) - ![](https://cdn
+- [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
 - [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
@@ -138,7 +139,6 @@ Documents related to Api across all sources (138 documents)
 - [Product management on the AI exponential](/claude-blog/product-management-on-the-ai-exponential.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills가 프롬프트, 프로젝트, MCP, 서브에이전트와 다른 점](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Token-saving updates on the Anthropic API](/claude-blog/token-saving-updates.md) - ![](https://cdn

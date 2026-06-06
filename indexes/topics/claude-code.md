@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-05 21:35*
+*Last updated: 2026-06-06 00:35*
 
 Documents related to Claude Code across all sources (233 documents)
 ---
@@ -207,6 +207,7 @@ Documents related to Claude Code across all sources (233 documents)
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
+- [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
 - [How three YC startups built their companies with Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
@@ -228,7 +229,6 @@ Documents related to Claude Code across all sources (233 documents)
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills가 프롬프트, 프로젝트, MCP, 서브에이전트와 다른 점](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
 - [Updates to Claude Team](/claude-blog/claude-team-updates.md) - ![](https://cdn

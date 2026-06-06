@@ -29,6 +29,6 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 
 - [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
 - [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

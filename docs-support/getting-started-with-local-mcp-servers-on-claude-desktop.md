@@ -57,7 +57,7 @@ Custom desktop extensions uploads allow Team and Enterprise plans to leverage or
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1780696800&signature=0c1e5f0d91f1e0a1e1db8b8233fe36840bc712a1a6695b74c4dbe75e0a7d4576&req=dSYvF89%2BmodfXvMW1HO4zWbPxEB5Pjs6Hn9K2IaIG2L4qYwrZ2SQqJje0LxY%0AeJ2zQkRdJ7d3tJPOnFg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1780707600&signature=672e32de4845ce3c6defc8152cef3fbc124e1b62bdf39cde498c6b5317eddef7&req=dSYvF89%2BmodfXvMW1HO4zWbPxEB4Nzo0Hn9K2IaIG2KIA0GiKH4yuyGQeyRr%0AI8pLv9Ufy%2Bcs7RgaI%2B4%3D%0A)
 
  
 
@@ -158,7 +158,7 @@ If you need further guidance, visit our guide on [How to Get Support](https://su
 ## Related Articles
 
 - [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
+- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
 - [Deploying enterprise-grade MCP servers with desktop extensions](https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions)
