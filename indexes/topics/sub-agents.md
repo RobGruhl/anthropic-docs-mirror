@@ -1,5 +1,5 @@
 # Sub Agents Topic Index
-*Last updated: 2026-06-06 21:26*
+*Last updated: 2026-06-07 00:36*
 
 Documents related to Sub Agents across all sources (2 documents)
 ---
