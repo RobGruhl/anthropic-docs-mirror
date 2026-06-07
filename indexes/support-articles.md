@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-07 00:36*
+*Last updated: 2026-06-07 04:35*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-07  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -41,7 +41,7 @@ Total documents: 267
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -196,7 +196,7 @@ Total documents: 267
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
 **Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -336,7 +336,7 @@ Total documents: 267
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-07  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -441,7 +441,7 @@ Total documents: 267
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-07  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -476,7 +476,7 @@ Total documents: 267
 ### How can I export my Claude data?
 **File:** `/docs-support/how-can-i-export-my-claude-data.md`  
 **Source:** https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-07  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
@@ -656,12 +656,12 @@ Total documents: 267
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-07  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -676,7 +676,7 @@ Total documents: 267
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
@@ -716,7 +716,7 @@ Total documents: 267
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-07  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
@@ -736,7 +736,7 @@ Total documents: 267
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-07  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -976,7 +976,7 @@ Total documents: 267
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
 **Source:** https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-07  
 
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
@@ -1016,7 +1016,7 @@ Total documents: 267
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-07  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
@@ -1191,7 +1191,7 @@ Total documents: 267
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-07  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
@@ -1251,7 +1251,7 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-06-03  
+**Updated:** 2026-06-07  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1286,7 +1286,7 @@ Total documents: 267
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-07  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  

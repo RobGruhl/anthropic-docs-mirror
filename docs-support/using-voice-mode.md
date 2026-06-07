@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780794000&signature=6d36b6f27ff0ad34747671b61fe5c3cd3189daf52f60e8a2a04228d8e1541367&req=diAjFMp7n4FZWfMW1HO4zU6VRf3NQbhpxNdRzYWrfF41QnKzek2jPp2idIOd%0AY3BCr2Ud3TzmqDC8eCo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780808400&signature=cc21b84cb642521ee724753375cc81fdb68295238deadf6dde99991dfc43e4c1&req=diAjFMp7n4FZWfMW1HO4zU6VRf3CSLRtxNdRzYWrfF6JRSHYV6KL4O8L763X%0AMgrjqGN0C6HmUR2vMg8%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780794000&signature=9969213d7d1688409c793d6c0ef8113bc808bdb608b82968045ad005d68bd75a&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqSaVQKy8OQfYsvK3xs0g49QkUNJT82cakB%0Ak4NX7R3A%2BLXD0IFK3AM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780808400&signature=57161c8bb50d88fffa06eec4d1b8272f7b27acca8a1d86cf97cf1b633afd6c60&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqdYFgOy8OQfYsvK3x82YwoTEWRYwBQmRJj%0ANmk4SiLo%2Bsz%2FJBe581s%3D%0A)
 
  
 
