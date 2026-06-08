@@ -1,6 +1,6 @@
 # How large is the Claude API’s context window?
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -19,4 +19,4 @@ For more detailed information, see our **[Claude API Docs](https://platform.clau
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)

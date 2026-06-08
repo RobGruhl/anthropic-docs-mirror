@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-08 13:28*
+*Last updated: 2026-06-08 16:29*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -101,7 +101,7 @@ Total documents: 267
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
 **Source:** https://support.claude.com/en/articles/9020328-csam-detection-and-reporting  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-08  
 
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
@@ -171,7 +171,7 @@ Total documents: 267
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-08  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -346,7 +346,7 @@ Total documents: 267
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -476,7 +476,7 @@ Total documents: 267
 ### How can I export my Claude data?
 **File:** `/docs-support/how-can-i-export-my-claude-data.md`  
 **Source:** https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-08  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
@@ -566,7 +566,7 @@ Total documents: 267
 ### How large is the Claude API’s context window?
 **File:** `/docs-support/how-large-is-the-claude-api-s-context-window.md`  
 **Source:** https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### How large is the context window on paid Claude plans?
 **File:** `/docs-support/how-large-is-the-context-window-on-paid-claude-plans.md`  
@@ -606,7 +606,7 @@ Total documents: 267
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-08  
 
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
@@ -716,7 +716,7 @@ Total documents: 267
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-08  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
@@ -821,7 +821,7 @@ Total documents: 267
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-08  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -911,7 +911,7 @@ Total documents: 267
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
 **Source:** https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-08  
 
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
@@ -1186,7 +1186,7 @@ Total documents: 267
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-06  
+**Updated:** 2026-06-08  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1251,7 +1251,7 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-08  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1311,7 +1311,7 @@ Total documents: 267
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-08  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  
