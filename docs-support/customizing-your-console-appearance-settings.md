@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://platform.claude.com/settings/appearance).
 3. Select from Light, System, or Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1780905600&signature=24869936d225e75127d6563ac0945859fed675ff644ac4ae28ef64498cbc4a93&req=dSklFMx5lIBfWPMW1HO4zRpFC8gNTRdwO9Kw38RlAYLvegEHZa0Ltz38LKht%0AB%2Bs9Gf%2Fli3qS2EZH7ZQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1780917300&signature=2ec77584a1a2a0ef5e68beeb0d451cd71f41b21f549b258ddaee53e0c1c377ef&req=dSklFMx5lIBfWPMW1HO4zRpFC8gNTBV1O9Kw38RlAYJu%2FNA4aYwjx3LaV%2B3O%0A5KeWTwYO9ORHlhedn%2FE%3D%0A)
 
 
 ---
@@ -19,6 +19,6 @@
 
 - [Customizing your appearance settings](https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings)
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
-- [Add or update your Claude Console organization's tax or VAT ID](https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
 - [Find and join a Console organization](https://support.claude.com/en/articles/14793921-find-and-join-a-console-organization)

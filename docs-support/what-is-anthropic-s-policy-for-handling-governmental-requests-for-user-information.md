@@ -1,6 +1,6 @@
 # What is Anthropic’s policy for handling governmental requests for user information?
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -15,8 +15,8 @@ Trust and transparency are paramount values.  Accordingly:
 
 ## Related Articles
 
-- [Law Enforcement Requests](https://support.claude.com/en/articles/9035075-law-enforcement-requests)
-- [Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors](https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors)
+- [Does Anthropic crawl data from the web, and how can site owners block the crawler?](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
+- [Crisis Helpline Support in Claude](https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude)
 - [Unauthorized Anthropic stock sales and investment scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams)
