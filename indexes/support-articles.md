@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-08 16:29*
+*Last updated: 2026-06-08 18:53*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -106,7 +106,7 @@ Total documents: 267
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
 **Source:** https://support.claude.com/en/articles/9002504-can-claude-produce-images  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
@@ -226,7 +226,7 @@ Total documents: 267
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -971,7 +971,7 @@ Total documents: 267
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-06-03  
+**Updated:** 2026-06-08  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -1066,12 +1066,12 @@ Total documents: 267
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  

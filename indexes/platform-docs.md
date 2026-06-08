@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-08 16:29*
+*Last updated: 2026-06-08 18:53*
 Total documents: 1420
 ---
 ## Uncategorized (1420 documents)
@@ -301,7 +301,7 @@ Total documents: 1420
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
@@ -361,7 +361,7 @@ Total documents: 1420
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-08  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -1096,27 +1096,27 @@ Total documents: 1420
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1126,7 +1126,7 @@ Total documents: 1420
 ### build-with-claude__context-editing
 **File:** `/platform-docs/build-with-claude__context-editing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-editing  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__context-windows
 **File:** `/platform-docs/build-with-claude__context-windows.md`  
@@ -1206,17 +1206,17 @@ Total documents: 1420
 ### build-with-claude__streaming
 **File:** `/platform-docs/build-with-claude__streaming.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/streaming  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/task-budgets  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-08  
 
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
@@ -2781,7 +2781,7 @@ Total documents: 1420
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-05-29  
+**Updated:** 2026-06-08  
 
 ### go__beta
 **File:** `/platform-docs/go__beta.md`  
@@ -4131,7 +4131,7 @@ Total documents: 1420
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/authentication  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### manage-claude__claude-code-analytics-api
 **File:** `/platform-docs/manage-claude__claude-code-analytics-api.md`  
@@ -4201,7 +4201,7 @@ Total documents: 1420
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/data-residency  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-08  
 
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
@@ -4256,7 +4256,7 @@ Total documents: 1420
 ### manage-claude__workload-identity-federation
 **File:** `/platform-docs/manage-claude__workload-identity-federation.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workload-identity-federation  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-08  
 
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
@@ -4281,7 +4281,7 @@ Total documents: 1420
 ### managed-agents__dreams
 **File:** `/platform-docs/managed-agents__dreams.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/dreams  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-08  
 
 ### managed-agents__environments
 **File:** `/platform-docs/managed-agents__environments.md`  

@@ -74,6 +74,10 @@ Häufig gestellte Fragen
 
 Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Observability for developers building connectors
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
 ### Claude für die Rechtsbranche
@@ -85,10 +89,6 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
 ### Wir testen Claude in Chrome
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
-### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
