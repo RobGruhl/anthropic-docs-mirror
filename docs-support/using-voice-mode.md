@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780869600&signature=b6e7f885c871ef5ac92fe14fc7d0755dc01ff193d73ad58e3f6d11a049a7b544&req=diAjFMp7n4FZWfMW1HO4zU6VRf3CTrVvxNdRzYWrfF40BasQWob%2F8ajDBYeA%0AzGLmQ3Rar%2FAx5X9lZQk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1780880400&signature=19d7ab27c61163657bd7f44bfc0eed9fe49438f9629bd0542ae28ad3535abe67&req=diAjFMp7n4FZWfMW1HO4zU6VRf3CQLxtxNdRzYWrfF4eHcSo5iGDKA3qXd0s%0AdVf5evIslz9uZH1dM2A%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780869600&signature=269b50a4d6b42c9267fc1018a8b7fbe22bc18f7ed2f72a164abfd09f4401abf4&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqdZlkMy8OQfYsvK3xY4CqG%2F%2Bv4bySR%2FRXF%0AUwan7E1AitM%2BMLa%2FUns%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1780880400&signature=3bd068e51f767421dfb73995b1bd731747b9387bec7fa4cf6925b1764a852e32&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGqdaFAOy8OQfYsvK3xr5kO%2Bm5PBm7f2L8PP%0A%2BHuGRY%2B7ZOL50p2BrPk%3D%0A)
 
  
 

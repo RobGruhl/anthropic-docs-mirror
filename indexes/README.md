@@ -1,5 +1,5 @@
 # Claude Documentation Index
-*Last updated: 2026-06-07 21:29*
+*Last updated: 2026-06-08 00:37*
 
 ## Quick Stats
 - **Total Documents:** 2486
