@@ -32,7 +32,7 @@ To learn more about how Anthropic’s technology works and our research on devel
 ## Related Articles
 
 - [Claude is producing links that don’t work and falsely claiming that it has sent emails or produced external documents. What’s going on?](https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on)
+- [I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?](https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy)
 - [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
-- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)

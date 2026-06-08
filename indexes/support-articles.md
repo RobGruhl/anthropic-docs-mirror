@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-08 18:53*
+*Last updated: 2026-06-08 21:38*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-08  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -406,7 +406,7 @@ Total documents: 267
 ### Getting started with Claude for Nonprofits
 **File:** `/docs-support/getting-started-with-claude-for-nonprofits.md`  
 **Source:** https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-08  
 
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
@@ -901,7 +901,7 @@ Total documents: 267
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-08  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -1276,7 +1276,7 @@ Total documents: 267
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-03  
+**Updated:** 2026-06-08  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  

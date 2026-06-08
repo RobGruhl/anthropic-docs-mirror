@@ -1,6 +1,6 @@
 # Getting started with Claude for Nonprofits
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -124,7 +124,7 @@ At this time, the following organizations are not eligible:
 1. 
 1.  
 2. If you match our nonprofit eligibility criteria, you should receive an email from Anthropic confirming your eligibility.
-3. Follow the link in the email to sign up on this page using your Goodstack verified email address. You must sign up using the email you verified with Goodstack.
+3. Follow the link in the email to sign up on this page using your Goodstack verified email address. You must sign up using the organization email address you verified with Goodstack.
 3.  
 3. 
 3.  
@@ -169,7 +169,7 @@ Yes, the nonprofit discount can be applied to an existing Team plan. If your org
 
 ### Do all of the email addresses added to the Team plan need to use the same domain?
 
-No, Team plans do not require all members to have the same email domain. Admins can invite users with any email address to join their Team plan, as long the [domain is added in Allowed email domains](https://support.claude.com/en/articles/13325567-account-management-faqs#h_b54c41c86c)**. **This is helpful for nonprofits that work with volunteers, contractors, or partner organizations who may use different email domains. However, we recommend using organizational emails when possible for security and administrative purposes.
+No, Team plans do not require all members to have the same email domain, but the account creator must use an organization email address to verify with Goodstack. **It's not possible to verify your organization using public domains like @gmail.com, @yahoo.com, and @hotmail.com, but you can [add them as permitted domains](https://support.claude.com/en/articles/13325567-account-management-faqs#h_b54c41c86c) for other members of your organization.** This is helpful for nonprofits that work with volunteers, contractors, or partner organizations who may use different email domains. However, we recommend using organization emails when possible for security and administrative purposes.
 
  
 
@@ -277,8 +277,8 @@ When the Team plan option appears greyed out, this typically indicates one of th
 
 ## Related Articles
 
+- [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
 - [Using the Benevity Connector in Claude](https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude)
 - [Using the Candid Connector in Claude](https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude)
 - [Claude for Nonprofits Partnership Success Guide for Admins](https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins)
 - [Claude for Nonprofits Partnership Guide for All Users](https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users)
-- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)

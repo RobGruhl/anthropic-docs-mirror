@@ -7386,8 +7386,8 @@
       "category": "api-reference",
       "path": "/docs/en/api/java/messages/batches/cancel",
       "hash": "772b1cd453a8283412e6a142493483f8b11c1b953b30c2ce43fe06b6d6d73dc5",
-      "etag": "W/\"137a-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
+      "etag": null,
+      "last_modified": null,
       "last_updated": "2026-05-22T21:25:32.711593"
     },
     "java__messages__batches__create.md": {
@@ -9796,8 +9796,8 @@
       "category": "api-reference",
       "path": "/docs/en/api/python/beta/skills/create",
       "hash": "f50ba90774b78ff8385aea7b4bbf9de6302e6ed71b933930e549e2d2a112f6f6",
-      "etag": "W/\"c36-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
+      "etag": null,
+      "last_modified": null,
       "last_updated": "2026-06-02T19:10:39.160483"
     },
     "python__beta__skills__delete.md": {
@@ -14202,15 +14202,15 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-08T18:47:05.982506",
-    "fetch_duration_seconds": 23.001791,
+    "last_fetch_completed": "2026-06-08T21:33:27.679446",
+    "fetch_duration_seconds": 22.246405,
     "total_pages_discovered": 1557,
     "pages_fetched_successfully": 1420,
     "pages_failed": 137,
-    "pages_unchanged": 1404,
-    "pages_updated": 16,
+    "pages_unchanged": 1420,
+    "pages_updated": 0,
     "pages_new": 0,
-    "pages_skipped_304": 2,
+    "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/csharp/completions",
       "/docs/en/api/csharp/completions/create",
@@ -14363,5 +14363,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-08T18:47:05.982695"
+  "last_updated": "2026-06-08T21:33:27.679626"
 }
