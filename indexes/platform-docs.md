@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-09 18:44*
-Total documents: 1422
+*Last updated: 2026-06-09 21:39*
+Total documents: 1531
 ---
-## Uncategorized (1422 documents)
+## Uncategorized (1531 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -526,6 +526,66 @@ Total documents: 1422
 ### beta__agents__versions__list
 **File:** `/platform-docs/beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### beta__deployment_runs
+**File:** `/platform-docs/beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### beta__deployment_runs__list
+**File:** `/platform-docs/beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### beta__deployment_runs__retrieve
+**File:** `/platform-docs/beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### beta__deployments
+**File:** `/platform-docs/beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments  
+**Updated:** 2026-06-09  
+
+### beta__deployments__archive
+**File:** `/platform-docs/beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### beta__deployments__create
+**File:** `/platform-docs/beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### beta__deployments__list
+**File:** `/platform-docs/beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### beta__deployments__pause
+**File:** `/platform-docs/beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### beta__deployments__retrieve
+**File:** `/platform-docs/beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### beta__deployments__run
+**File:** `/platform-docs/beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### beta__deployments__unpause
+**File:** `/platform-docs/beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### beta__deployments__update
+**File:** `/platform-docs/beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### beta__environments
@@ -1288,6 +1348,66 @@ Total documents: 1422
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/agents/versions/list  
 **Updated:** 2026-06-09  
 
+### cli__beta__deployment_runs
+**File:** `/platform-docs/cli__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployment_runs__list
+**File:** `/platform-docs/cli__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployment_runs__retrieve
+**File:** `/platform-docs/cli__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments
+**File:** `/platform-docs/cli__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__archive
+**File:** `/platform-docs/cli__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__create
+**File:** `/platform-docs/cli__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__list
+**File:** `/platform-docs/cli__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__pause
+**File:** `/platform-docs/cli__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__retrieve
+**File:** `/platform-docs/cli__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__run
+**File:** `/platform-docs/cli__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__unpause
+**File:** `/platform-docs/cli__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### cli__beta__deployments__update
+**File:** `/platform-docs/cli__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/deployments/update  
+**Updated:** 2026-06-09  
+
 ### cli__beta__environments
 **File:** `/platform-docs/cli__beta__environments.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/environments  
@@ -1581,7 +1701,7 @@ Total documents: 1422
 ### cli__beta__sessions__events__send
 **File:** `/platform-docs/cli__beta__sessions__events__send.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/sessions/events/send  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__sessions__events__stream
 **File:** `/platform-docs/cli__beta__sessions__events__stream.md`  
@@ -1756,7 +1876,7 @@ Total documents: 1422
 ### cli__beta__vaults
 **File:** `/platform-docs/cli__beta__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__archive
 **File:** `/platform-docs/cli__beta__vaults__archive.md`  
@@ -1771,17 +1891,17 @@ Total documents: 1422
 ### cli__beta__vaults__credentials
 **File:** `/platform-docs/cli__beta__vaults__credentials.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__credentials__archive
 **File:** `/platform-docs/cli__beta__vaults__credentials__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/archive  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__credentials__create
 **File:** `/platform-docs/cli__beta__vaults__credentials__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/create  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__credentials__delete
 **File:** `/platform-docs/cli__beta__vaults__credentials__delete.md`  
@@ -1791,7 +1911,7 @@ Total documents: 1422
 ### cli__beta__vaults__credentials__list
 **File:** `/platform-docs/cli__beta__vaults__credentials__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/list  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__credentials__mcp_oauth_validate
 **File:** `/platform-docs/cli__beta__vaults__credentials__mcp_oauth_validate.md`  
@@ -1801,12 +1921,12 @@ Total documents: 1422
 ### cli__beta__vaults__credentials__retrieve
 **File:** `/platform-docs/cli__beta__vaults__credentials__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/retrieve  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__credentials__update
 **File:** `/platform-docs/cli__beta__vaults__credentials__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/update  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### cli__beta__vaults__delete
 **File:** `/platform-docs/cli__beta__vaults__delete.md`  
@@ -2176,6 +2296,66 @@ Total documents: 1422
 ### csharp__beta__agents__versions__list
 **File:** `/platform-docs/csharp__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployment_runs
+**File:** `/platform-docs/csharp__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployment_runs__list
+**File:** `/platform-docs/csharp__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployment_runs__retrieve
+**File:** `/platform-docs/csharp__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments
+**File:** `/platform-docs/csharp__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__archive
+**File:** `/platform-docs/csharp__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__create
+**File:** `/platform-docs/csharp__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__list
+**File:** `/platform-docs/csharp__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__pause
+**File:** `/platform-docs/csharp__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__retrieve
+**File:** `/platform-docs/csharp__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__run
+**File:** `/platform-docs/csharp__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__unpause
+**File:** `/platform-docs/csharp__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### csharp__beta__deployments__update
+**File:** `/platform-docs/csharp__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### csharp__beta__environments
@@ -2836,6 +3016,66 @@ Total documents: 1422
 ### go__beta__agents__versions__list
 **File:** `/platform-docs/go__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### go__beta__deployment_runs
+**File:** `/platform-docs/go__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### go__beta__deployment_runs__list
+**File:** `/platform-docs/go__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### go__beta__deployment_runs__retrieve
+**File:** `/platform-docs/go__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments
+**File:** `/platform-docs/go__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__archive
+**File:** `/platform-docs/go__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__create
+**File:** `/platform-docs/go__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__list
+**File:** `/platform-docs/go__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__pause
+**File:** `/platform-docs/go__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__retrieve
+**File:** `/platform-docs/go__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__run
+**File:** `/platform-docs/go__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__unpause
+**File:** `/platform-docs/go__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### go__beta__deployments__update
+**File:** `/platform-docs/go__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### go__beta__environments
@@ -3506,6 +3746,66 @@ Total documents: 1422
 ### java__beta__agents__versions__list
 **File:** `/platform-docs/java__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### java__beta__deployment_runs
+**File:** `/platform-docs/java__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### java__beta__deployment_runs__list
+**File:** `/platform-docs/java__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### java__beta__deployment_runs__retrieve
+**File:** `/platform-docs/java__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments
+**File:** `/platform-docs/java__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__archive
+**File:** `/platform-docs/java__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__create
+**File:** `/platform-docs/java__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__list
+**File:** `/platform-docs/java__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__pause
+**File:** `/platform-docs/java__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__retrieve
+**File:** `/platform-docs/java__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__run
+**File:** `/platform-docs/java__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__unpause
+**File:** `/platform-docs/java__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### java__beta__deployments__update
+**File:** `/platform-docs/java__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### java__beta__environments
@@ -4301,7 +4601,7 @@ Total documents: 1422
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/events-and-streaming  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-09  
 
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
@@ -4351,7 +4651,12 @@ Total documents: 1422
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/reference  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-09  
+
+### managed-agents__scheduled-deployments
+**File:** `/platform-docs/managed-agents__scheduled-deployments.md`  
+**Source:** https://platform.claude.com/docs/en/managed-agents/scheduled-deployments  
+**Updated:** 2026-06-09  
 
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  
@@ -4386,7 +4691,7 @@ Total documents: 1422
 ### managed-agents__vaults
 **File:** `/platform-docs/managed-agents__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/vaults  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-09  
 
 ### managed-agents__webhooks
 **File:** `/platform-docs/managed-agents__webhooks.md`  
@@ -4502,6 +4807,66 @@ Total documents: 1422
 **File:** `/platform-docs/php__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/agents/versions/list  
 **Updated:** 2026-05-22  
+
+### php__beta__deployment_runs
+**File:** `/platform-docs/php__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### php__beta__deployment_runs__list
+**File:** `/platform-docs/php__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### php__beta__deployment_runs__retrieve
+**File:** `/platform-docs/php__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments
+**File:** `/platform-docs/php__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__archive
+**File:** `/platform-docs/php__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__create
+**File:** `/platform-docs/php__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__list
+**File:** `/platform-docs/php__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__pause
+**File:** `/platform-docs/php__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__retrieve
+**File:** `/platform-docs/php__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__run
+**File:** `/platform-docs/php__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__unpause
+**File:** `/platform-docs/php__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### php__beta__deployments__update
+**File:** `/platform-docs/php__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/php/beta/deployments/update  
+**Updated:** 2026-06-09  
 
 ### php__beta__environments
 **File:** `/platform-docs/php__beta__environments.md`  
@@ -4771,12 +5136,12 @@ Total documents: 1422
 ### php__beta__sessions__archive
 **File:** `/platform-docs/php__beta__sessions__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/archive  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__create
 **File:** `/platform-docs/php__beta__sessions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/create  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__delete
 **File:** `/platform-docs/php__beta__sessions__delete.md`  
@@ -4786,12 +5151,12 @@ Total documents: 1422
 ### php__beta__sessions__events
 **File:** `/platform-docs/php__beta__sessions__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/events  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__events__list
 **File:** `/platform-docs/php__beta__sessions__events__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/events/list  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__events__send
 **File:** `/platform-docs/php__beta__sessions__events__send.md`  
@@ -4801,7 +5166,7 @@ Total documents: 1422
 ### php__beta__sessions__events__stream
 **File:** `/platform-docs/php__beta__sessions__events__stream.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/events/stream  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__list
 **File:** `/platform-docs/php__beta__sessions__list.md`  
@@ -4841,12 +5206,12 @@ Total documents: 1422
 ### php__beta__sessions__retrieve
 **File:** `/platform-docs/php__beta__sessions__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/retrieve  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__threads
 **File:** `/platform-docs/php__beta__sessions__threads.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/threads  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__threads__archive
 **File:** `/platform-docs/php__beta__sessions__threads__archive.md`  
@@ -4856,17 +5221,17 @@ Total documents: 1422
 ### php__beta__sessions__threads__events
 **File:** `/platform-docs/php__beta__sessions__threads__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/threads/events  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__threads__events__list
 **File:** `/platform-docs/php__beta__sessions__threads__events__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/threads/events/list  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__threads__events__stream
 **File:** `/platform-docs/php__beta__sessions__threads__events__stream.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/threads/events/stream  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__sessions__threads__list
 **File:** `/platform-docs/php__beta__sessions__threads__list.md`  
@@ -4881,7 +5246,7 @@ Total documents: 1422
 ### php__beta__sessions__update
 **File:** `/platform-docs/php__beta__sessions__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/sessions/update  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__skills
 **File:** `/platform-docs/php__beta__skills.md`  
@@ -4971,7 +5336,7 @@ Total documents: 1422
 ### php__beta__vaults
 **File:** `/platform-docs/php__beta__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/vaults  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__vaults__archive
 **File:** `/platform-docs/php__beta__vaults__archive.md`  
@@ -4986,7 +5351,7 @@ Total documents: 1422
 ### php__beta__vaults__credentials
 **File:** `/platform-docs/php__beta__vaults__credentials.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/vaults/credentials  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-09  
 
 ### php__beta__vaults__credentials__archive
 **File:** `/platform-docs/php__beta__vaults__credentials__archive.md`  
@@ -5156,6 +5521,66 @@ Total documents: 1422
 ### python__beta__agents__versions__list
 **File:** `/platform-docs/python__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### python__beta__deployment_runs
+**File:** `/platform-docs/python__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### python__beta__deployment_runs__list
+**File:** `/platform-docs/python__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### python__beta__deployment_runs__retrieve
+**File:** `/platform-docs/python__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments
+**File:** `/platform-docs/python__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__archive
+**File:** `/platform-docs/python__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__create
+**File:** `/platform-docs/python__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__list
+**File:** `/platform-docs/python__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__pause
+**File:** `/platform-docs/python__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__retrieve
+**File:** `/platform-docs/python__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__run
+**File:** `/platform-docs/python__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__unpause
+**File:** `/platform-docs/python__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### python__beta__deployments__update
+**File:** `/platform-docs/python__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/python/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### python__beta__environments
@@ -5821,6 +6246,66 @@ Total documents: 1422
 ### ruby__beta__agents__versions__list
 **File:** `/platform-docs/ruby__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployment_runs
+**File:** `/platform-docs/ruby__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployment_runs__list
+**File:** `/platform-docs/ruby__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployment_runs__retrieve
+**File:** `/platform-docs/ruby__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments
+**File:** `/platform-docs/ruby__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__archive
+**File:** `/platform-docs/ruby__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__create
+**File:** `/platform-docs/ruby__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__list
+**File:** `/platform-docs/ruby__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__pause
+**File:** `/platform-docs/ruby__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__retrieve
+**File:** `/platform-docs/ruby__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__run
+**File:** `/platform-docs/ruby__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__unpause
+**File:** `/platform-docs/ruby__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### ruby__beta__deployments__update
+**File:** `/platform-docs/ruby__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/ruby/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### ruby__beta__environments
@@ -6491,6 +6976,66 @@ Total documents: 1422
 ### typescript__beta__agents__versions__list
 **File:** `/platform-docs/typescript__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/agents/versions/list  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployment_runs
+**File:** `/platform-docs/typescript__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployment_runs  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployment_runs__list
+**File:** `/platform-docs/typescript__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployment_runs/list  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployment_runs__retrieve
+**File:** `/platform-docs/typescript__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployment_runs/retrieve  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments
+**File:** `/platform-docs/typescript__beta__deployments.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__archive
+**File:** `/platform-docs/typescript__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/archive  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__create
+**File:** `/platform-docs/typescript__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/create  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__list
+**File:** `/platform-docs/typescript__beta__deployments__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/list  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__pause
+**File:** `/platform-docs/typescript__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/pause  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__retrieve
+**File:** `/platform-docs/typescript__beta__deployments__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/retrieve  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__run
+**File:** `/platform-docs/typescript__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/run  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__unpause
+**File:** `/platform-docs/typescript__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/unpause  
+**Updated:** 2026-06-09  
+
+### typescript__beta__deployments__update
+**File:** `/platform-docs/typescript__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/deployments/update  
 **Updated:** 2026-06-09  
 
 ### typescript__beta__environments
