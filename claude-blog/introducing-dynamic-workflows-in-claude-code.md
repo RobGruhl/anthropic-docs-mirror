@@ -15,6 +15,8 @@
 
 - ShareCopy linkhttps://claude.com/blog/introducing-dynamic-workflows-in-claude-code
 
+Update:Dynamic workflows are now generally available.
+
 Today we're introducing dynamic workflows in Claude Code, helping Claude take on the most challenging tasks end-to-end. Work you'd normally plan in quarters now finishes in days. Claude dynamically writes orchestration scripts that run tens to hundreds of parallel subagents in a single session, checking its work before anything reaches you.
 
 Some problems are too big for one pass by a single agent, especially in complex, legacy codebases: a bug hunt across an entire service, a migration that touches hundreds of files, a plan you want stress-tested from every angle before you commit to it. Dynamic workflows can handle all of these end-to-end.
