@@ -48,9 +48,9 @@ MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is 
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fdc9749bb31acafa95b_MCP%20tunnel%20(1).png)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699dfac701ab4fcb02c3d870_rogo-light.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a277c3714419cc7f58a9342_logo_rogo-light.svg)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/699dfacb9075a218012e1f11_rogo-dark.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a277c483b67dd0f46bcdb09_logo_rogo-dark.svg)
 
 Claude Managed Agents handles the agent loop, Vercel's sandboxes give us an environment we can configure for our workloads. This gives us the option to leverage best-in-class infrastructure while we focus on what compounds for a financial AI platform: depth and breadth of tools and data, and a product surface built for how investors and bankers actually work.
 
