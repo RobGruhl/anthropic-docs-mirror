@@ -1,11 +1,12 @@
 # How up-to-date is Claude's training data?
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
 While we're constantly updating Claude's data, each model has a knowledge cutoff:
 
+- Claude Fable 5 was trained on data up until January 2026.
 - Claude Opus 4.8 was trained on data up until January 2026.
 - Claude Opus 4.7 was trained on data up until January 2026.
 - Claude Sonnet 4.6 was trained on data up until August 2025.

@@ -1,6 +1,6 @@
 # What is the External Researcher Access Program?
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -114,8 +114,8 @@ Thank you for your interest in our Researcher Access Program and for taking the 
 
 ## Related Articles
 
-- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
-- [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
 - [Anthropic's AI for Science Program](https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)
+- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)

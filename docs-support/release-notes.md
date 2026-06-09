@@ -1,10 +1,18 @@
 # Release notes
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
 ## June 2026
+
+### June 9, 2026
+
+**Claude Fable 5 launch**
+
+We launched Claude Fable 5, a Mythos-class model that we’ve made safe for general use. For more information, see our blog post: **[Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)**.
+
+ 
 
 ### June 2, 2026
 

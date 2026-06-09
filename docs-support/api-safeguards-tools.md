@@ -1,6 +1,6 @@
 # API Safeguards Tools
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -48,5 +48,5 @@ Whether you are just starting the process of setting up safeguards for your API 
 - [Our Approach to User Safety](https://support.claude.com/en/articles/8106465-our-approach-to-user-safety)
 - [Safeguards warnings and appeals](https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals)
 - [Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors](https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors)
-- [Report a Concern: Australian DIS Standard compliance](https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance)
 - [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)
+- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)

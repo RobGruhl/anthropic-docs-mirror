@@ -1,6 +1,6 @@
 # Configure custom data retention controls for Enterprise plans
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -71,4 +71,4 @@ All retention-related actions and changes are automatically tracked in **[audit 
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
 - [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
+- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)

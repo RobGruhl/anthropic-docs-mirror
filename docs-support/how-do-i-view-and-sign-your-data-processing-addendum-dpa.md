@@ -19,8 +19,8 @@ Anthropic’s DPA with Standard Contractual Clauses (SCCs) is automatically inco
 
 ## Related Articles
 
-- [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
 - [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)

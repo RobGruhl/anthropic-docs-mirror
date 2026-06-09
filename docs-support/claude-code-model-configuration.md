@@ -1,6 +1,6 @@
 # Claude Code model configuration
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -18,6 +18,7 @@ The simplest way to change models is to use the /model command directly within C
 
 ## Supported models
 
+- Fable 5, <code>claude-fable-5</code>
 - Opus 4.8, <code>claude-opus-4-8</code>
 - Opus 4.7, <code>claude-opus-4-7</code>
 - Sonnet 4.6, <code>claude-sonnet-4-6</code>
@@ -34,7 +35,8 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 1. Start a fresh Terminal session.
 2. Enter the following commands (depending on the model you’d like to use for that session):
-2. - **For Opus 4.8**: <code>claude --model claude-opus-4-8</code>
+2. - **For Fable 5**: <code>claude --model claude-fable-5</code>
+- **For Opus 4.8**: <code>claude --model claude-opus-4-8</code>
 - **For Opus 4.7**: <code>claude --model claude-opus-4-7</code>
 - **For Sonnet 4.6**:** **<code>claude --model claude-sonnet-4-6</code>
 - **For Opus 4.6**:** **<code>claude --model claude-opus-4-6</code>
@@ -57,6 +59,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For ZSH users (macOS)
 
+- Fable 5: <code>echo 'export ANTHROPIC_MODEL="claude-fable-5"' >> ~/.zshrc</code>
 - Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.zshrc</code> 
 - Opus 4.7: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-7"' >> ~/.zshrc</code> 
 - Sonnet 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-4-6"' >> ~/.zshrc</code>
@@ -69,6 +72,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For BASH users (Linux)
 
+- Fable 5: <code>echo 'export ANTHROPIC_MODEL="claude-fable-5"' >> ~/.bashrc</code>
 - Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.bashrc</code>
 - Opus 4.7: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-7"' >> ~/.bashrc</code>
 - Sonnet 4.6: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-4-6"' >> ~/.bashrc</code>
@@ -100,7 +104,7 @@ Now your chosen model will be the default for all future Claude Code sessions.
 ## Related Articles
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
-- [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)
-- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

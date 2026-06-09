@@ -33,7 +33,7 @@ This page includes the following analytics:
 - Top connectors
 -  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1781022600&signature=51e817a517c7d9d6ddfe18c51c8bbae88d71cd9d4943fd28c09f6d493fbecb12&req=diEiFcp3mYhfUPMW1HO4zbQxEMIxDSBkSPAYazQ9kuKi7g0nX19Jl3J%2B8a9H%0AiZY4Sh2N4fNQyTjPdaE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1781032500&signature=c15d33a22e612e91acf886f89582dc7be8ad380d3712799e63a52b3602fbdc30&req=diEiFcp3mYhfUPMW1HO4zbQxEMIxDCBnSPAYazQ9kuIx%2B%2FjcRAH3JLKkd15k%0AIuvKJx8ooauDlTtdTGo%3D%0A)
 
  
 
@@ -49,11 +49,11 @@ This section includes the following analytics:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1781022600&signature=16877a3b6760414decdd637381cdebafb71d7e0dfe8fa2151c7a82857daa1a7f&req=diQkEs56molfW%2FMW1HO4zfK6rvrtPpIJHjVUKeN2QU%2FSjz9JiN8TYdYB%2F4rZ%0AdkfuJ5isaD2%2BvCHnU2E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1781032500&signature=776ffd471617862599dc9a60f853005de601e7c4e7c238a4d0c7953048a87be1&req=diQkEs56molfW%2FMW1HO4zfK6rvrtP5IKHjVUKeN2QU%2FOGZwZOy%2B7vtabWvrl%0A6c%2BLyITtD8tqhtyR65Y%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1781022600&signature=05ead5dbc7a466138389c29838a88ab6a2b0d7e7aaa6cd7ad2ab91c85009b048&req=diEiFc1%2FlIRdXvMW1HO4zdGt%2BiWoCf1vP9LVpsbj5NcB3rqGhGiDv4n3t26p%0ANPoLJcEsZs4x3jfoGko%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1781032500&signature=7fffa6381d27151e5913d79ba9e010aa3eec0565bdb9157dbcae15c9dc7ed5eb&req=diEiFc1%2FlIRdXvMW1HO4zdGt%2BiWoCP1sP9LVpsbj5NcKjzrlSMtMs4NDJGev%0APOSlCFS9dksnrxOYpxc%3D%0A)
 
  
 
@@ -118,7 +118,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more chat
 - Total number of chats (1 week, 1 month, 3 months, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1781022600&signature=23d6120d57768550cb339d9301a778aedc40f82f441b76a76f94b962c06bfb40&req=dSkmEMh4lIFcXfMW1HO4zZyh9TKe%2FIt9RyyyIe2wZ0XEC9Lvr5hCSN%2FZoiZk%0AMHs1CsD9vG5Cmp4EU5A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1781032500&signature=fc8845e42f58a9f61c2eeb087fc76ead1430d9ae8aab5bd398306a7aabe3c1c0&req=dSkmEMh4lIFcXfMW1HO4zZyh9TKe%2FYt%2BRyyyIe2wZ0XwEgoozr0Z%2BNlJW1Bb%0A8ubDbXM2AZkK7SNOQkg%3D%0A)
 
  
 
@@ -128,7 +128,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more project
 - Top 10 users by projects used (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1781022600&signature=1a7fdaff188335e2bfc71e557c0ef0c2f9c10c5a53cf6dbae4521aec84eb6586&req=dSkmEMh5nYBcWvMW1HO4zed16iXu3xpcqVPXIl8sPeZbfu8gG4VPcSVFXWM2%0A14OlgoQwQVbRK9ODmUs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1781032500&signature=a3b69dceeb27cb22822c775684198635d33d6daf52b9c26a9b3616f5673a94e7&req=dSkmEMh5nYBcWvMW1HO4zed16iXu3hpfqVPXIl8sPeatnn9a4QvWsGWtn3sD%0A5jW0p1e2Fe3FS0h0Mp0%3D%0A)
 
  
 
@@ -138,7 +138,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more artifact
 - Top 10 users by artifacts generated (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1781022600&signature=e590bfb85be305e481293bf748a3865cb3848147916bfb7685a91a7dfab046d2&req=dSkmEMh5nIBZWfMW1HO4zXYF0VjivwL%2F4Jgm1Axxim35p3tONLmUX4%2FWm8wN%0AQefh2GT9iC2SV23Ijxg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1781032500&signature=10e31d69dbef20fa534b649985bc069deab6c4aaefa9f992145194730cb87953&req=dSkmEMh5nIBZWfMW1HO4zXYF0VjivgL84Jgm1Axxim2J3dAogqhjJNaY6%2FTZ%0AmfBOKPhx%2FH0gETHP6ng%3D%0A)
 
  
 
@@ -166,7 +166,7 @@ Navigate to **[Analytics > Cowork](https://claude.ai/analytics/cowork)** to view
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1781022600&signature=ddbe57c2262197f8fbd400fe31dbbc6266eb4e29ab034d5571fc371a46f7dbe3&req=diIiFc9%2BmYNeUPMW1HO4zSCqp6UHFn0Y8zs2pRdG0k7LCpWJ4ihFYrXX7gJ5%0ANNXiSJ9J0Xrix%2BMCtGE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1781032500&signature=6785bc3a032593ec3df9191bb6bcc69637d563e3ffd9286713e8f810ccb336d9&req=diIiFc9%2BmYNeUPMW1HO4zSCqp6UHF30b8zs2pRdG0k4wbZPnS84XWiw8X7%2BG%0Aja6CYiQxnUTC0mCSQ9U%3D%0A)
 
  
 
