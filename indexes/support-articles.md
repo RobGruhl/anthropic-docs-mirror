@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-09 13:00*
+*Last updated: 2026-06-09 16:05*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -131,7 +131,7 @@ Total documents: 267
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-09  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -171,7 +171,7 @@ Total documents: 267
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-09  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-09  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -356,7 +356,7 @@ Total documents: 267
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
 **Source:** https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-09  
 
 ### Get started with Claude
 **File:** `/docs-support/getting-started-with-claude.md`  
@@ -901,7 +901,7 @@ Total documents: 267
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-09  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -1011,7 +1011,7 @@ Total documents: 267
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-09  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
