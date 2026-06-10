@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-09 21:39*
+*Last updated: 2026-06-10 00:39*
 
-Documents related to Claude Code across all sources (233 documents)
+Documents related to Claude Code across all sources (235 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (145)
+## Claude Code Documentation (146)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -18,6 +18,7 @@ Documents related to Claude Code across all sources (233 documents)
 - [2026 W21](/code-claude-docs/whats-new__2026-w21.md)
 - [2026 W22](/code-claude-docs/whats-new__2026-w22.md)
 - [Admin Setup](/code-claude-docs/admin-setup.md)
+- [Advisor](/code-claude-docs/advisor.md)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Agent Teams](/code-claude-docs/agent-teams.md)
 - [Agent View](/code-claude-docs/agent-view.md)
@@ -168,7 +169,7 @@ Documents related to Claude Code across all sources (233 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (68)
+## Claude.com Blog Posts (69)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
@@ -221,6 +222,7 @@ Documents related to Claude Code across all sources (233 documents)
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
+- [Observability for developers building connectors](/claude-blog/observability-for-developers-building-connectors.md) - ![](https://cdn
 - [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
 - [Piloting Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn

@@ -1,10 +1,11 @@
 # Product Topic Index
-*Last updated: 2026-06-09 21:39*
+*Last updated: 2026-06-10 00:39*
 
-Documents related to Product across all sources (13 documents)
+Documents related to Product across all sources (14 documents)
 ---
-## Claude.com Blog Posts (13)
+## Claude.com Blog Posts (14)
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
+- [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn
 - [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](/claude-blog/trainium2-and-distillation.md) - ![](https://cdn
 - [Claude Android app](/claude-blog/android-app.md) - ![](https://cdn
 - [Claude Opus 4.6으로 재무 관련 작업 개선](/claude-blog/opus-4-6-finance.md) - ![](https://cdn

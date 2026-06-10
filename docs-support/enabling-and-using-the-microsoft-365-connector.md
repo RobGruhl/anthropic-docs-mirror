@@ -1,6 +1,6 @@
 # Set up the Microsoft 365 connector
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -286,7 +286,7 @@ No. All permissions are read-only. Claude can search and analyze Microsoft 365 d
 
 ## Related Articles
 
-- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

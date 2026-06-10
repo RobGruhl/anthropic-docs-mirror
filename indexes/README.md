@@ -1,17 +1,17 @@
 # Claude Documentation Index
-*Last updated: 2026-06-09 21:39*
+*Last updated: 2026-06-10 00:39*
 
 ## Quick Stats
-- **Total Documents:** 2597
+- **Total Documents:** 2601
 - **Platform Docs:** 1531
-- **Claude Code Docs:** 145
+- **Claude Code Docs:** 146
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 148
+- **Claude.com Blog:** 151
 - **Support Articles:** 267
 - **Topics:** 83
 
@@ -19,19 +19,19 @@
 
 ### By Content Type
 - [Platform Documentation](platform-docs.md) - 1531 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 145 docs from code.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 146 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 148 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 151 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 267 help articles from support.claude.com
 
 ### By Topic
 - [Mcp](topics/mcp.md) - 241 documents
-- [Claude Code](topics/claude-code.md) - 233 documents
+- [Claude Code](topics/claude-code.md) - 235 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
@@ -39,11 +39,11 @@
 - [Api](topics/api.md) - 138 documents
 - [Skills](topics/skills.md) - 129 documents
 - [Policy](topics/policy.md) - 127 documents
-- [Agents](topics/agents.md) - 121 documents
+- [Agents](topics/agents.md) - 122 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 78 documents
+- [Tools](topics/tools.md) - 79 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents

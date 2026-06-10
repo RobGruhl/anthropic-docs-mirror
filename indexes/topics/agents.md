@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-06-09 21:39*
+*Last updated: 2026-06-10 00:39*
 
-Documents related to Agents across all sources (121 documents)
+Documents related to Agents across all sources (122 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,7 +64,7 @@ Documents related to Agents across all sources (121 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (64)
+## Claude.com Blog Posts (65)
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
@@ -114,6 +114,7 @@ Documents related to Agents across all sources (121 documents)
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
 - [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
+- [New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults](/claude-blog/whats-new-in-claude-managed-agents.md) - ![](https://cdn
 - [New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels](/claude-blog/claude-managed-agents-updates.md) - ![](https://cdn
 - [Preparing your security program for AI-accelerated offense](/claude-blog/preparing-your-security-program-for-ai-accelerated-offense.md) - ![](https://cdn
 - [Product development in the agentic era](/claude-blog/product-development-in-the-agentic-era.md) - ![](https://cdn
