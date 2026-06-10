@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-10 16:21*
+*Last updated: 2026-06-10 18:54*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -336,7 +336,7 @@ Total documents: 267
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-10  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -1011,7 +1011,7 @@ Total documents: 267
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1246,7 +1246,7 @@ Total documents: 267
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9266767-what-is-the-team-plan  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-10  
 
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
