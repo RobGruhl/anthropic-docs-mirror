@@ -84,7 +84,7 @@ Starring a project allows for quick access from your projects and chats list, vi
 2. Click on the three dots ("..." button) on the upper right corner of the project.
 3. Select "Star" from the menu that appears.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571648/2a3c5e2ea9f13a61365e02cb3d54/Screenshot+2025-06-23+at+11_19_50%E2%80%AFAM.png?expires=1781078400&signature=22541a305c2dddc25fa95baa81aeaf45a6734b46e3bce1edb0f99c6602429f5d&req=dSUvEsx5nIdbUfMW1HO4zYgMo0WL4FNf9NE33p2Jnb8TyZN32zPWYjLYl%2F5g%0A2m%2Fp4D5Wnn8%2FivFnWuA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571648/2a3c5e2ea9f13a61365e02cb3d54/Screenshot+2025-06-23+at+11_19_50%E2%80%AFAM.png?expires=1781089200&signature=2846f117b6208b30010b2e35049af9720614b898563d22bb7711dbe180f4ae50&req=dSUvEsx5nIdbUfMW1HO4zYgMo0WL71JZ9NE33p2Jnb99BONgSjHsg4EinS7F%0A4KwncoI8b%2BpF%2BZBXe0I%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ Starring a project allows for quick access from your projects and chats list, vi
 2. Click on the star icon in the upper right corner.
 3. The project will now appear in your starred items in the left side panel of your account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571995/a5c91a7ee55606f5006e9c023696/Screenshot+2025-06-23+at+11_20_28%E2%80%AFAM.png?expires=1781078400&signature=c8f18aedf7c2b840c2085d6789323db7b029babf7e303017d171328178cee8e3&req=dSUvEsx5nIhWXPMW1HO4zZOc0IJuzHnjOGS2ma2coPwUQZDDWMK%2FYIo5moYl%0AhRYiNBTUV8YCbKna7UQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571995/a5c91a7ee55606f5006e9c023696/Screenshot+2025-06-23+at+11_20_28%E2%80%AFAM.png?expires=1781089200&signature=cc561441f4fcd670f166bd9f2d29f44d32a60754e0414456c9fa9b6c99a76d61&req=dSUvEsx5nIhWXPMW1HO4zZOc0IJuw3jlOGS2ma2coPyoDh8J8%2FKpTCS1BJPX%0ANozhwC2zFoKbJxhw8Bs%3D%0A)
 
  
 
@@ -108,7 +108,7 @@ You can move a standalone chat into a project by clicking on the dropdown arrow 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1781078400&signature=d2302ed99a1f13cf22726a07d481e1c752022b09cea9f162c15152546d82a112&req=dScvEsh3nYNbUfMW1HO4zQABaWBsTagRBSXNVFXQ%2FVFLP5K7gmr5uIXzSl%2BI%0ACtimuP%2BN6THPyhgmvr8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1781089200&signature=24c71470867da984dd9a990807242de51fffec03abf2156d6775755e7925afd4&req=dScvEsh3nYNbUfMW1HO4zQABaWBsQqkXBSXNVFXQ%2FVE22xWiOcxs%2FKeHxFHg%0ASQ02DSMSBpgtiYf8zWY%3D%0A)
 
  
 
@@ -116,7 +116,7 @@ Browse or search for the correct project in the **Move chat** modal that appears
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1781078400&signature=8eeb1c44c76377ac3e53d807be90232a9722068154949e8736fb1cd93d7d6104&req=dScvEsh3nYhaWPMW1HO4zSMECiGwzAEFgYbpTjViBxAwTtBr2BClH%2Fp7gNoW%0AQFXSydrQd3%2Bkk9J%2FWvI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1781089200&signature=93efd06300a9b59147fb7a988bd7f59ed2918356be0ec702d5977dc1511bb8f2&req=dScvEsh3nYhaWPMW1HO4zSMECiGwwwADgYbpTjViBxBjTsA4NLC6ZltqgrXH%0ATb0slg57cMTsAG3L4VA%3D%0A)
 
  
 
@@ -124,7 +124,7 @@ You can also remove chats from projects, or move them between projects, using th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1781078400&signature=1ff320d7009ebe3cc883a818ccc617338a96029baf07f7cdecbf8aa8388e9eb4&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPYsCU0OS2r1%2FGRlqOT2hwvSTbFIhDukqweN%0AzrT7Px7FD5K9hLt8pWE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1781089200&signature=dc9d968223f78708547e1bb34d8a02250f5532ed8896d13a46cc1c8605d0d412&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPYsBkwIS2r1%2FGRlqOTT4MlB%2FnxBlJRzVUfD%0AAAxp58R%2FWCLKoptKodU%3D%0A)
 
  
 
@@ -132,7 +132,7 @@ You can move chats into projects in bulk from [Your chat history page](https://c
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1781078400&signature=6b8cd11782370904347efae1bb596bc839303f8c5f4227f8e8c56d9730ce2373&req=dScvEsh2mIdXXPMW1HO4zbParU1J7vKnuQSB0Ebsw9cpfXxRv5CXpYhnU6mN%0AttTXjHbe7xj8EMMC5PY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1781089200&signature=540edb972de3e39f3b0581750fe1ef9af39e50f1fe85eb8cae9f9fb7313aee93&req=dScvEsh2mIdXXPMW1HO4zbParU1J4fOhuQSB0Ebsw9cJrodwa%2BzWRkrkn90s%0AhNTmwFdxOkKl3wAt3UA%3D%0A)
 
  
 
@@ -204,7 +204,7 @@ There are two ways to make archived project active again:
 2. Click on the three dots ("..." button) in the upper right corner.
 3. Confirm that you want to unarchive the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584543869/87d1308b507e2f62827757ec0b61/Screenshot+2025-06-23+at+10_59_50%E2%80%AFAM.png?expires=1781078400&signature=0ab705aea46dd9eec7cf1cb1250a00f123b8477c6019ec620af8c1fabc937b07&req=dSUvEsx6nolZUPMW1HO4zVDg%2Fd0LSKdl%2BOxOx8zCzkbjJJEd%2BGxrK%2B1kBVS%2B%0AMi53%2BJyUw1OijQ%2F%2BP0E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584543869/87d1308b507e2f62827757ec0b61/Screenshot+2025-06-23+at+10_59_50%E2%80%AFAM.png?expires=1781089200&signature=36a9ef053351146377aedfd48eb7626ed39ea11eca6c618a1c2853ea09eaf48e&req=dSUvEsx6nolZUPMW1HO4zVDg%2Fd0LR6Zj%2BOxOx8zCzkZ8%2BBL%2BbkRCTdiaDUx%2F%0AcKxNYZPbDIYGU9J5mIw%3D%0A)
 
  
 
@@ -221,7 +221,7 @@ There are two ways to make archived project active again:
 3. Select "Delete" from the menu that appears.
 4. Confirm deletion in the pop-up by clicking "Yes, delete."
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784203814/66200261afca3b2d6533a0ec8de9/Screenshot%2B2025-07-09%2Bat%2B11_34_02-E2-80-AFAM.png?expires=1781078400&signature=36d24c56f05651602cf07bf2180f50087a468ad80c126f9084f02d60deeb3d4f&req=dScvEst%2BnoleXfMW1HO4zUvE4tbPNSF%2BgwQJrerRpXckUWI1skxv5ljk%2BoRh%0AIEWqTA54orq99LMbMEw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784203814/66200261afca3b2d6533a0ec8de9/Screenshot%2B2025-07-09%2Bat%2B11_34_02-E2-80-AFAM.png?expires=1781089200&signature=3e32ba7dfcd11f98db094b043130957ea17604e15f3540f79af110448d2e4b3e&req=dScvEst%2BnoleXfMW1HO4zUvE4tbPOiB4gwQJrerRpXeJXSBkGWmB3iFicZEL%0A0pOC8OX9EmjUXnX%2BKbM%3D%0A)
 
  
 
@@ -232,7 +232,7 @@ There are two ways to make archived project active again:
 3. Select "Delete."
 4. Confirm deletion in the pop-up by clicking "Yes, delete."
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611821522/4a3423380f3cf55e2f1540387743/Screenshot+2025-07-09+at+11_34_52%E2%80%AFAM.png?expires=1781078400&signature=944cf1fd841c3c1b2f8ea76b0c9b8b6d36923ffc2b5efdcaacc37a8f71b0aa79&req=dSYmF8F8nIRdW%2FMW1HO4zdEk%2BZ0KDAVOH0VF4IAuZvhsCTm8404N%2FrZwxcZI%0Ae6HOYLarOH09SqI4%2BO4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611821522/4a3423380f3cf55e2f1540387743/Screenshot+2025-07-09+at+11_34_52%E2%80%AFAM.png?expires=1781089200&signature=ce8e59b35bee3575c32172d2b977415c5ad02166d16bded3111f3531025d5d72&req=dSYmF8F8nIRdW%2FMW1HO4zdEk%2BZ0KAwRIH0VF4IAuZviNzw2qXXMXvTXsOzWV%0AINpK4Ukr0y4xLQHklhQ%3D%0A)
 
 
 ---
