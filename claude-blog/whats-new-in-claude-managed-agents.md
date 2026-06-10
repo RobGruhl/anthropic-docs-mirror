@@ -45,7 +45,9 @@ Teams are using environment variables in vaults to give agents secure access to 
 
 - Notionuses environment variables in vaults to roll out its CLI alongside MCP tools, adding file-upload capabilities to its agents without API tokens ever being handed to the model.
 
-- Browserbasebuilt its public catalog of browser skills using thebrowse CLI, authenticated through vaults. A scheduled deployment periodically validates the catalog to keep it accurate.‍
+- Browserbasebuilt its public catalog of browser skills using thebrowse CLI, authenticated through vaults. A scheduled deployment periodically validates the catalog to keep it accurate.
+
+- KERNELuses environment variables in vaults to securely connect agents to the databases where it tracks usage and customer conversations. The agent flags usage surges as they happen, so the team can confirm with customers if the activity is intended.‍
 
 - Milanauses environment variables in vaults to securely connect its AI product engineer to a customer's codebase. The agent finds and fixes bugs automatically, with large-scale data analysis running faster than before.
 
@@ -84,6 +86,12 @@ Teams are using environment variables in vaults to give agents secure access to 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a17891ccfcb6c4d6dcb3ce0_logo_browserbase-dark.svg)
 
 “Environment variables in vaults enabled our engineering team to combine two major compute primitives: the agent and the browser. At Browserbase, we used Claude Managed Agents with the browse CLI to generate our public catalog of browser skills that help agents navigate the web, and scheduled deployments run periodic validation on our public catalog.”
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a28b0dd0f38383998beeebe_logo-kernel-light.svg)
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a28b0e712c7ce11a06c9665_logo-kernel-dark.svg)
+
+Usage on Kernel's browser infrastructure can surge quickly, often right after a customer deploys. With environment variables in vaults, our agent now connects directly to the databases where we track usage and customer conversations. It pulls 30 days of daily usage in seconds, flags surges as they happen, and helps our team confirm with customers that the activity is intended.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
