@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-10 13:07*
+*Last updated: 2026-06-10 16:21*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -196,7 +196,7 @@ Total documents: 267
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
 **Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -476,7 +476,7 @@ Total documents: 267
 ### How can I export my Claude data?
 **File:** `/docs-support/how-can-i-export-my-claude-data.md`  
 **Source:** https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
@@ -716,7 +716,7 @@ Total documents: 267
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-10  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
@@ -1236,12 +1236,12 @@ Total documents: 267
 ### What is the Max plan?
 **File:** `/docs-support/what-is-the-max-plan.md`  
 **Source:** https://support.claude.com/en/articles/11049741-what-is-the-max-plan  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-10  
 
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-10  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
@@ -1251,7 +1251,7 @@ Total documents: 267
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1276,7 +1276,7 @@ Total documents: 267
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-10  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  

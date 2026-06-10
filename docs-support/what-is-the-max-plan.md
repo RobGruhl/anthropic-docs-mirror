@@ -1,6 +1,6 @@
 # What is the Max plan?
 
-*Updated over a month ago*
+*Updated in the last hour*
 
 ---
 
@@ -73,7 +73,7 @@ Yes. The Max plan offers substantially higher usage compared to our Pro plan and
 
  
 
-Max plans also have two weekly usage limits: one that applies across all models and another for Sonnet models only. Both limits reset seven days after your session starts.
+Max plans also have two weekly usage limits: one that applies across all models and another for Sonnet models only. Weekly limits reset at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.
 
  
 
@@ -91,5 +91,5 @@ For more information about usage and length limits, refer to **[Understanding us
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Choose a Claude plan](https://support.claude.com/en/articles/11049762-choose-a-claude-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

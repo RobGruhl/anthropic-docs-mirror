@@ -1,6 +1,6 @@
 # What is the Pro plan?
 
-*Updated in the last 15 minutes*
+*Updated in the last hour*
 
 ---
 
@@ -64,7 +64,7 @@ Yes. During peak hours, the Pro plan offers at least five times the usage per se
 
  
 
-Pro plans also have a weekly usage limit that applies across all models and resets seven days after your session starts.
+Pro plans also have a weekly usage limit that applies across all models. Weekly limits reset at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.
 
  
 
@@ -93,4 +93,4 @@ Pro subscribers can also enable usage credits to continue working with Claude be
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
