@@ -1,9 +1,9 @@
 # Product Topic Index
-*Last updated: 2026-06-10 18:54*
+*Last updated: 2026-06-10 21:46*
 
-Documents related to Product across all sources (14 documents)
+Documents related to Product across all sources (15 documents)
 ---
-## Claude.com Blog Posts (14)
+## Claude.com Blog Posts (15)
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn
 - [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](/claude-blog/trainium2-and-distillation.md) - ![](https://cdn
@@ -11,6 +11,7 @@ Documents related to Product across all sources (14 documents)
 - [Claude Opus 4.6으로 재무 관련 작업 개선](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Claude can now create and edit files](/claude-blog/create-files.md) - ![](https://cdn
 - [Claudeへのメモリの導入](/claude-blog/memory.md) - ![](https://cdn
+- [Collaborate with Claude across Excel, PowerPoint, Word and Outlook](/claude-blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook.md) - ![](https://cdn
 - [Comment l'équipe juridique d'Anthropic a réduit les délais de révision, qui sont passés de plusieurs jours à quelques heures avec Claude](/claude-blog/how-anthropic-uses-claude-legal.md) - ![](https://cdn
 - [Das kann der Max Plan](/claude-blog/max-plan.md) - ![](https://cdn
 - [How Anthropic's finance team uses Claude to shape the narrative behind the numbers](/claude-blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers.md) - ![](https://cdn

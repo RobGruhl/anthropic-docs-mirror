@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -18,13 +18,22 @@ For the full walkthrough of your options, deadlines, and what happens to your su
 
  
 
-## Team plan
+## Team plan: voluntary migration when accepting an invite
 
-Team plan organizations can't claim or migrate existing personal accounts. If you're joining a Team organization, you'll be added as a new member with a separate account. **There's no way to merge data between a personal account and a Team account at this time.**
+When you have a personal Claude account and accept an invite to your organization's Team plan, you'll be prompted to choose how to handle your existing account:
+
+- **Keep both accounts:** Your personal account stays active. You can switch between it and the Team org from your account menu. This is the historical behavior.
+- **Use your Team account only:** You’ll see two migration option after selecting this.
+- - **Bring your data with you:** Your personal data—chats, projects, files, memory, connectors, and skills—moves into the Team workspace. Your personal account closes, and any active Pro or Max subscription is cancelled automatically with a prorated refund.
+- **Delete your data:** Your personal account closes (with a prorated refund if you had a paid subscription), but no content moves into the Team. You start with a clean Team account. You can choose to download your account data before deleting it.
+
+If you don't pick an option right away, you'll see a reminder banner for about seven days. You can take this action any time during that window. If you don’t take action during that timeframe, you can also go to **[Settings > Account](http://claude.ai/settings/account)** to initiate the migration.
 
  
 
-Team admins can block new personal account creation on their verified domain, but they can't claim accounts that already exist.
+## Apple App Store subscribers
+
+If you subscribed to Claude Pro or Max through the Apple App Store, **Keep both accounts** is your only option. Apple doesn't allow third-party cancellation of App Store subscriptions, so we can't auto-cancel your iOS plan as part of the migration. If you'd rather move your work into the Team, **[cancel your iOS subscription](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)** through your Apple ID settings first, then re-accept the Team invite to see all three options.
 
  
 
@@ -34,7 +43,7 @@ If your organization is on a Team plan (or hasn't initiated domain claiming), yo
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1781119800&signature=9d91b981d1d7e562bf9b1882b253d9308aa6e69ae98d25851a4292488ffeb823&req=diMmFMh3noJbXvMW1HO4zXhPndE3yRZpufhmlOXMdYakm9NF3GmUeX5%2FFbnn%0A0W28vN%2BD4B2Bs32Sbas%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1781222400&signature=d09e4363e59b6b650c6f70009f0e67bdab16444bf21a9d9c1cb1a17d747bce07&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U7UUMAehl6PawEbnpSvcLUeTQC1K7SH%2Fr%0AGPPjwDGDxS%2Bk5Bl9htp2eL0wYSc%3D%0A)
 
  
 
@@ -58,5 +67,5 @@ If you'd rather not wait for a domain claim, you can discontinue your personal a
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Claim and migrate accounts on your domain](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain)
 - [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)
-- [Claude Enterprise activation promo for Claude Code and Cowork](https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)

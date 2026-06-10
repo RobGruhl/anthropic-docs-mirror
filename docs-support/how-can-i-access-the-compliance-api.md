@@ -1,12 +1,12 @@
 # Access the Compliance API
 
-*Updated this week*
+*Updated today*
 
 ---
 
 ## Claude Enterprise plan customers
 
-Enterprise plan Primary Owners can enable the Compliance API by navigating to **[Organization settings > API](Dor%20Fledel%20%C2%B7%2036%20minutes%20ago%20Ashley%20Kim%20https://claude.ai/admin-settings/api-access)** and clicking "Enable" under **Compliance API**.
+Enterprise plan Primary Owners can enable the Compliance API by navigating to **[Organization settings > API](https://claude.ai/admin-settings/api-access)** and clicking "Enable" under **Compliance API**.
 
   
 
@@ -14,7 +14,7 @@ Once the Compliance API is enabled, create new compliance access keys by clickin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1781118900&signature=798a7fd686fc0b4b32fbc192225a7d5d51f247bda35fa7bb2341627207cb1c16&req=dSghEc5%2BnIJfWfMW1HO4zdjcO0k92MUaLb9AVN3cSSFQikI4XOikipgKNCyf%0Als739HciSN9bqSx%2FICc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1781222400&signature=f1bd9d8be2eb594770dfd3fc2d0ac0124af19199409c6221489619e257497f3c&req=dSghEc5%2BnIJfWfMW3nq%2BgbpgCPlExy%2FG%2FvGqagu2V1MHcSncbdDENjQcODeY%0AmAGKXPLaJ96sKDKX1imAYzHpbjA%3D%0A)
 
  
 

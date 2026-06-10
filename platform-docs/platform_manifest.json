@@ -1525,10 +1525,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/beta/sessions/update.md",
       "category": "api-reference",
       "path": "/docs/en/api/beta/sessions/update",
-      "hash": "950c1a1df33399de30f6e5c7d0cb3e515a8409cdfddb8932548d22e158c5d3da",
-      "etag": "W/\"6864-19e99379fe0\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:00 GMT",
-      "last_updated": "2026-06-10T18:49:50.745087"
+      "hash": "cfe8e421cf5e09a1a0bfbbb622ad6b3843adee911fc158fd944600056be22dec",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-10T21:40:26.556393"
     },
     "beta__skills.md": {
       "original_url": "https://platform.claude.com/docs/en/api/beta/skills",
@@ -1925,10 +1925,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/cli/beta/agents/update.md",
       "category": "api-reference",
       "path": "/docs/en/api/cli/beta/agents/update",
-      "hash": "4a8f2676d10ef0397c1c1c3d104aa9ad33480082f92f5dd16953a01f98095bdf",
-      "etag": "W/\"2bbd-19e99379fe0\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:00 GMT",
-      "last_updated": "2026-06-10T18:49:50.755874"
+      "hash": "6122692d720c8d4324890507ffa675509fdfa252f5123967fa785f98b6a59059",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-10T21:40:26.567198"
     },
     "cli__beta__agents__versions.md": {
       "original_url": "https://platform.claude.com/docs/en/api/cli/beta/agents/versions",
@@ -8095,10 +8095,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/messages.md",
       "category": "api-reference",
       "path": "/docs/en/api/messages",
-      "hash": "da74f5284f413292ef24fd997121255403a379e39678299416e44a2f76d90ea2",
-      "etag": "W/\"b0800-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
-      "last_updated": "2026-06-10T18:49:50.909988"
+      "hash": "f7a2dc46e6b9e2282f2647c3788717b06c6f937d8d826364cfe253ebcc2177cb",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-10T21:40:26.718461"
     },
     "messages__batches.md": {
       "original_url": "https://platform.claude.com/docs/en/api/messages/batches",
@@ -15312,13 +15312,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-10T18:49:51.064929",
-    "fetch_duration_seconds": 23.326324,
+    "last_fetch_completed": "2026-06-10T21:40:26.876663",
+    "fetch_duration_seconds": 30.298905,
     "total_pages_discovered": 1680,
     "pages_fetched_successfully": 1531,
     "pages_failed": 149,
-    "pages_unchanged": 1497,
-    "pages_updated": 34,
+    "pages_unchanged": 1528,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15485,5 +15485,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-10T18:49:51.065173"
+  "last_updated": "2026-06-10T21:40:26.876909"
 }
