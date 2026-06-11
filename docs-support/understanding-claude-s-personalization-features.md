@@ -1,6 +1,6 @@
 # Understanding Claude's personalization features
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -92,4 +92,4 @@ You can use these features independently or in combination to create the most ef
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
-- [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
+- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
