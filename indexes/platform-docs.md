@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-11 00:48*
-Total documents: 1530
+*Last updated: 2026-06-11 04:35*
+Total documents: 1531
 ---
-## Uncategorized (1530 documents)
+## Uncategorized (1531 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -1296,7 +1296,7 @@ Total documents: 1530
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
@@ -2917,6 +2917,11 @@ Total documents: 1530
 **File:** `/platform-docs/csharp__messages__batches__cancel.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/cancel  
 **Updated:** 2026-05-22  
+
+### csharp__messages__batches__create
+**File:** `/platform-docs/csharp__messages__batches__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/create  
+**Updated:** 2026-06-11  
 
 ### csharp__messages__batches__delete
 **File:** `/platform-docs/csharp__messages__batches__delete.md`  

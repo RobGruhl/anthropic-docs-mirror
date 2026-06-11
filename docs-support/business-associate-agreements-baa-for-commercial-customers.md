@@ -1,6 +1,6 @@
 # Business Associate Agreements (BAA) for Commercial Customers
 
-*Updated over a month ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -25,6 +25,10 @@ For clarity, the BAA does not cover Workbench and Console, Claude Free, Pro, Max
  
 
 Not all API features are covered; see the [Implementation Guide](https://trust.anthropic.com/resources?s=2zblcrsgb00l3x9l2tpjf&name=[anthropic]-2025-type-1-hipaa-report-(-1-p-api).pdf) for the full list of eligible and non-eligible features.
+
+ 
+
+ 
 
  
 
@@ -152,6 +156,6 @@ Please see our **[Trust Portal](https://trust.anthropic.com/resources?s=rgirr4qe
 
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
 - [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
-- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Real-time cyber safeguards on Claude](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)
 - [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)
+- [Covered Models under a Business Associate Agreement (BAA)](https://support.claude.com/en/articles/15455031-covered-models-under-a-business-associate-agreement-baa)

@@ -5090,6 +5090,16 @@
       "last_modified": null,
       "last_updated": "2026-05-22T21:25:32.647802"
     },
+    "csharp__messages__batches__create.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/messages/batches/create",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/messages/batches/create.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/messages/batches/create",
+      "hash": "e6f895855c7478ff641c905add93e35f0feb5baf0843a81871fa5a1552e9b805",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-11T04:30:29.250621"
+    },
     "csharp__messages__batches__delete.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/messages/batches/delete",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/messages/batches/delete.md",
@@ -14715,10 +14725,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/vision.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/vision",
-      "hash": "2fc625e3942a9c154aa5dea0bf6d2d081c8b1b92a82d0b2b5214053fd86f8720",
+      "hash": "07dc4b90d2b9edadb735db0afb72dc3498076daca07ccea1e1ea1ed2f5ec1405",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-09T18:41:07.094763"
+      "last_updated": "2026-06-11T04:30:29.459370"
     },
     "build-with-claude__working-with-messages.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages",
@@ -15302,19 +15312,18 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-11T00:38:22.546206",
-    "fetch_duration_seconds": 139.698052,
+    "last_fetch_completed": "2026-06-11T04:30:29.472145",
+    "fetch_duration_seconds": 24.911533,
     "total_pages_discovered": 1680,
-    "pages_fetched_successfully": 1530,
-    "pages_failed": 150,
-    "pages_unchanged": 1530,
-    "pages_updated": 0,
-    "pages_new": 0,
+    "pages_fetched_successfully": 1531,
+    "pages_failed": 149,
+    "pages_unchanged": 1529,
+    "pages_updated": 1,
+    "pages_new": 1,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/csharp/completions",
       "/docs/en/api/csharp/completions/create",
-      "/docs/en/api/csharp/messages/batches/create",
       "/docs/en/api/php/completions",
       "/docs/en/api/php/completions/create",
       "/docs/en/api/terraform/beta",
@@ -15465,7 +15474,7 @@
     ],
     "by_category": {
       "developer-guide": 131,
-      "api-reference": 1399,
+      "api-reference": 1400,
       "resources": 0
     },
     "source_sitemap": "https://platform.claude.com/sitemap.xml",
@@ -15476,5 +15485,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-11T00:38:22.546377"
+  "last_updated": "2026-06-11T04:30:29.472324"
 }

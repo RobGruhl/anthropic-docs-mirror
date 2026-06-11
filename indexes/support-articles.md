@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-11 00:48*
+*Last updated: 2026-06-11 04:35*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -16,7 +16,7 @@ Total documents: 267
 ### About the Development Partner Program
 **File:** `/docs-support/about-the-development-partner-program.md`  
 **Source:** https://support.claude.com/en/articles/11174108-about-the-development-partner-program  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Access audit logs
 **File:** `/docs-support/how-to-access-audit-logs.md`  
@@ -31,7 +31,7 @@ Total documents: 267
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
 **Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -41,7 +41,7 @@ Total documents: 267
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-11  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -96,12 +96,12 @@ Total documents: 267
 ### Business Associate Agreements (BAA) for Commercial Customers
 **File:** `/docs-support/business-associate-agreements-baa-for-commercial-customers.md`  
 **Source:** https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
 **Source:** https://support.claude.com/en/articles/9020328-csam-detection-and-reporting  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-11  
 
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
@@ -126,7 +126,7 @@ Total documents: 267
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -161,7 +161,7 @@ Total documents: 267
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -311,7 +311,7 @@ Total documents: 267
 ### Does Anthropic Act as a Data Processor or Controller?
 **File:** `/docs-support/does-anthropic-act-as-a-data-processor-or-controller.md`  
 **Source:** https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
@@ -336,7 +336,7 @@ Total documents: 267
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -411,7 +411,7 @@ Total documents: 267
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-11  
 
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
@@ -476,7 +476,7 @@ Total documents: 267
 ### How can I export my Claude data?
 **File:** `/docs-support/how-can-i-export-my-claude-data.md`  
 **Source:** https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
@@ -521,7 +521,7 @@ Total documents: 267
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android  
-**Updated:** 2026-02-18  
+**Updated:** 2026-06-11  
 
 ### How do I sign up for Claude Pro on the Claude app for iOS?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md`  
@@ -891,7 +891,7 @@ Total documents: 267
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
 **Source:** https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
@@ -911,7 +911,7 @@ Total documents: 267
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
 **Source:** https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-11  
 
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
@@ -931,7 +931,7 @@ Total documents: 267
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
@@ -1181,7 +1181,7 @@ Total documents: 267
 ### What Certifications has Anthropic obtained?
 **File:** `/docs-support/what-certifications-has-anthropic-obtained.md`  
 **Source:** https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-11  
 
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
@@ -1211,7 +1211,7 @@ Total documents: 267
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-11  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1231,7 +1231,7 @@ Total documents: 267
 ### What is the External Researcher Access Program?
 **File:** `/docs-support/what-is-the-external-researcher-access-program.md`  
 **Source:** https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### What is the Max plan?
 **File:** `/docs-support/what-is-the-max-plan.md`  
@@ -1276,7 +1276,7 @@ Total documents: 267
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  
