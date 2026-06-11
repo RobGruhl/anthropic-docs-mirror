@@ -1,6 +1,6 @@
 # Get started with the Claude Enterprise Analytics API
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -45,7 +45,7 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1781129700&signature=cffdbf3eb7a659ce31cd7f5da789a1959a9980d076933881e63ce22fa1634add&req=diAiFc92moJYX%2FMW1HO4zUxhyKxE2KKI2G8yJDINvfRVYseZpm%2FxqOjkMYDp%0AgGjOIO0agEyAjTA%2FYG8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1781140500&signature=c90da2acd1f5d0f4b95e39bcb3f120f22c571fe9ea6255a7f83194f9a0841509&req=diAiFc92moJYX%2FMW1HO4zUxhyKxE3quK2G8yJDINvfR6AeL7TzmMikRIzYyO%0AgS%2FRGbZjnZnjeaLgY78%3D%0A)
 
  
 

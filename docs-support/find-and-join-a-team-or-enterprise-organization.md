@@ -1,10 +1,10 @@
 # Find and join a Team or Enterprise organization
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
-Organization discovery allows you to find and join your company's existing Team or Enterprise plan organization when you start the sign-up flow with a business email address. Instead of creating a separate personal account, you can request to join—or be added automatically—depending on your organization's configuration.
+Organization discovery allows you to find and join your company's existing Team or Enterprise plan organization when you start the sign-up flow with a work email address. Instead of creating a separate personal account, you can request to join—or be added automatically—depending on your organization's configuration.
 
  
 
@@ -63,7 +63,7 @@ This approval mode also applies to invitations sent by existing members of your 
 
 ## How to find and join an organization
 
-When someone signs up for Claude with a business email address that matches a discoverable organization, they'll see the option to join during the signup flow. They can choose to join or continue with a personal account.
+When someone signs up for Claude with a work email address that matches a discoverable organization, they'll see the option to join during the signup flow. They can choose to join or continue with a personal account.
 
 - If the organization uses **instant approval**, they're added right away.
 - If the organization uses **request + approve**, a request is sent to the admin. The requester can choose to continue with a personal account (as long as "Restrict organization creation" is disabled)  until the request is approved or denied.
@@ -78,7 +78,7 @@ If multiple organizations share the same email domain and are all discoverable, 
 
 ## Join when you already have a personal Claude account
 
-If you have a Free, Pro, or Max account on the same email address as the organization you're joining, you'll be prompted to choose what to do with it—keep both accounts or bring your work into the organization. For details on each option, refund handling, and Apple App Store limitations, see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)**.
+If you have a Free, Pro, or Max account on the same email address as the organization you're joining, you can choose what to do with it: keep both accounts or bring your work into the organization. On Team plans, you're prompted when you accept the invite. On Enterprise plans, you can start the migration from **[Settings > Account](https://claude.ai/settings/account)** after joining. For details on each option, refund handling, and Apple App Store limitations, see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)**.
 
  
 
@@ -113,7 +113,7 @@ If you'd like to enable organization discovery, SSO must be turned off first.
 
 ## Related Articles
 
-- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
+- [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
 - [Join an organization via invite link](https://support.claude.com/en/articles/13776697-join-an-organization-via-invite-link)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)

@@ -52,9 +52,9 @@ Claude Code는 Datadog, Braintrust, 데이터베이스, 소스 코드를 검색�
 
 Opus 4.6의 1M 컨텍스트 창이 나오기 전에는 사용자가 대용량 PDF, 데이터셋, 이미지를 불러오자마자 컨텍스트를 압축해야 했고, 그 결과 가장 중요한 작업에서 충실도를 잃었습니다. 이제는 압축 이벤트가 15% 감소했습니다. 저희 에이전트는 모든 것을 그대로 유지한 채 첫 페이지에서 읽은 내용을 잊지 않고 몇 시간 동안 실행됩니다.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a96fc452118ce3fff64d_Cognition_light.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a29deb8193497afd3b2cd24_brand-logo-cognition-black.svg)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a96abcdb567698a5166a_Cognition_dark.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a29deb952fed1bad85c342c_brand-logo-cognition-white.svg)
 
 1M 컨텍스트 창을 갖춘 Opus 4.6은 저희 Devin Review 에이전트를 훨씬 더 효과적으로 만들어 주었습니다. 200K 컨텍스트 창에는 대규모 diff가 들어가지 않아 에이전트가 컨텍스트를 분할 처리해야 했고, 이로 인해 더 많은 패스와 파일 간 종속성 손실이 발생했습니다. 1M 컨텍스트에서는 전체 diff를 한 번에 투입해, 더 단순하고 토큰 효율적인 하니스로도 더 높은 품질의 리뷰를 얻을 수 있습니다.
 

@@ -23,7 +23,7 @@ Some problems are too big for one pass by a single agent, especially in complex,
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186b2e070156fbb2df90ad_166befe7.png)
 
-Dynamic workflows are available today in research preview in the Claude Code CLI, Desktop, and the VS code extension for Max, Team, and Enterprise (if admin enabled) plans, as well as on the Claude API, on Amazon Bedrock, Vertex AI, and Microsoft Foundry.
+Dynamic workflows are generally available in the Claude Code CLI, Desktop, and the VS code extension for Pro, Max, Team, and Enterprise plans, as well as on the Claude API, on Amazon Bedrock, Vertex AI, and Microsoft Foundry.
 
 Note: Dynamic workflows can consume substantially more tokens than a typical Claude Code session, so we recommend starting on a scoped task to get a feel for usage in your work.
 
@@ -75,7 +75,7 @@ It’s important to note that dynamic workflows consume meaningfully more usage 
 
 ## Getting started
 
-If you're on a Max or Team plan, or using Claude Code via the API, dynamic workflows are on by default. Ask Claude to create a workflow or turn on the Claude Code-specific settingultracodeto get started. If you’re on an Enterprise plan, dynamic workflows are off by default at launch. Your admin can easily change this in the Claude Code[settings](https://code.claude.com/docs/en/settings).
+Dynamic workflows are on by default for Max, Team, and Enterprise plans, and when using Claude Code via the API. Pro plan users can enable them in/config. Ask Claude to create a workflow or turn on the Claude Code-specific settingultracodeto get started. Admins can manage availability in[settings](https://code.claude.com/docs/en/settings).
 
 Read the[documentation](https://code.claude.com/docs/en/workflows)to learn more.
 
