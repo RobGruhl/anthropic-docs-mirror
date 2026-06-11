@@ -1,6 +1,6 @@
 # Get started with the Team plan
 
-*Updated in the last 15 minutes*
+*Updated in the last hour*
 
 ---
 
@@ -21,11 +21,11 @@ To get started with the Team plan, navigate to **[claude.ai/login](http://claude
 
 ## Upgrade from an individual plan to the Team plan
 
-If you already have a free or paid Claude account associated with your work email and wish to create a Team plan, sign into your account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
+If you already have a free or paid individual Claude account associated with your work email and wish to create a Team plan, sign into your individual account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
 
  
 
-Upgrading to the Team plan creates a new Claude organization. Your individual Free or paid account (Pro or Max) remains a separate account, and you can toggle between the two by clicking your initials or name in the lower left and selecting the account you'd like to access.
+Upgrading to the Team plan creates a new Claude organization. Your individual Free, Pro, or Max account remains separate, and you can toggle between the two by clicking your initials or name in the lower left and selecting the account you'd like to access.
 
  
 
@@ -36,8 +36,8 @@ If you'd rather use a single account, you can migrate your personal account into
 
 ## Related Articles
 
-- [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
+- [Claim and migrate accounts on your domain](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain)
 - [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)

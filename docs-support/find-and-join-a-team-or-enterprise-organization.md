@@ -1,6 +1,6 @@
 # Find and join a Team or Enterprise organization
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -78,7 +78,11 @@ If multiple organizations share the same email domain and are all discoverable, 
 
 ## Join when you already have a personal Claude account
 
-If you have a Free, Pro, or Max account on the same email address as the organization you're joining, you can choose what to do with it: keep both accounts or bring your work into the organization. On Team plans, you're prompted when you accept the invite. On Enterprise plans, you can start the migration from **[Settings > Account](https://claude.ai/settings/account)** after joining. For details on each option, refund handling, and Apple App Store limitations, see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)**.
+If you have a Free, Pro, or Max account on the same email address as the organization you're joining, you can choose what to do with it: keep both accounts or bring your work into the organization. On Team plans, you're prompted when you accept the invite. On Team and Enterprise plans, you can start the migration from **[Settings > Account](https://claude.ai/settings/account)** at any time after joining.
+
+ 
+
+For details on each option, refund handling, and Apple App Store limitations, see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)**.
 
  
 
