@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-11 19:02*
+*Last updated: 2026-06-11 21:46*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -61,7 +61,7 @@ Total documents: 267
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-11  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -621,7 +621,7 @@ Total documents: 267
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
 **Source:** https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
@@ -676,7 +676,7 @@ Total documents: 267
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-06-07  
+**Updated:** 2026-06-11  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
@@ -991,7 +991,7 @@ Total documents: 267
 ### Upload files to Claude
 **File:** `/docs-support/uploading-files-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8241126-uploading-files-to-claude  
-**Updated:** 2026-05-21  
+**Updated:** 2026-06-11  
 
 ### Usage limit best practices
 **File:** `/docs-support/usage-limit-best-practices.md`  

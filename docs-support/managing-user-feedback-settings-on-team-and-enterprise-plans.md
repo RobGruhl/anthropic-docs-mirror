@@ -9,7 +9,7 @@ As a Primary Owner or Owner of a Team or Enterprise plan, you can manage the abi
 1. Navigate to **[Organization settings > Data and Privacy](https://claude.ai/admin-settings/data-privacy-controls).**
 2. Use the toggle to change the **Rate chats **setting for your organization:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1781206200&signature=da1c0354cd4dc0cd4d88e7ee5534ca970304f5a0a15d39121d3ca2d2ce573df6&req=diAiHst3n4dfWvMW1HO4zYGm8iYeEK7O085gFtEpvcQeIaAoaIKt8uRnMgVB%0A7%2BdSl6aYIvzl0%2BXMYDQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1781216100&signature=a03623d06d2183294842564ef3c94773029abe8e08a58eff4f97494dcf67ae1d&req=diAiHst3n4dfWvMW1HO4zYGm8iYeEa7N085gFtEpvcQPBrdLVyTEP2yj7X%2FG%0ASrmJ4ExOHiZ6f3MlskY%3D%0A)
 
  
 
@@ -24,4 +24,4 @@ More information on how Anthropic collects, uses, and stores feedback data can b
 - [Manage user feedback settings on Claude Console](https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
-- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
+- [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)

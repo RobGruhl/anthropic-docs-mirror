@@ -114,21 +114,21 @@ Opus의 컨텍스트 창을 200k에서 500k로 늘렸더니 에이전트가 더 
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
-### 조직, 파트너, 그리고 생태계를 위한 Skills
+### 클로드 코드 자동 모드
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
 
-### Claude를 더 유능한 전기 엔지니어로 만들기
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
-
-### Anthropic의 법무팀이 Claude로 검토 시간을 며칠에서 몇 시간으로 단축하는 방법
+### 클로드 코드의 루틴 소개
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-### Claude in Chrome 시범 실행하기
+### 병렬 에이전트를 위한 데스크톱용 Claude Code 재설계
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+
+### 조직, 파트너, 그리고 생태계를 위한 Skills
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 
