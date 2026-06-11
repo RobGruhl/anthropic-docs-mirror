@@ -1,6 +1,6 @@
 # Get started with the Team plan
 
-*Updated over 3 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -23,19 +23,21 @@ To get started with the Team plan, navigate to **[claude.ai/login](http://claude
 
 If you already have a free or paid Claude account associated with your work email and wish to create a Team plan, sign into your account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
 
-- Upgrading to the Team plan will create a new Claude organization, and your individual free or paid account (Pro or Max) will remain separate. You can toggle between them by clicking your initials or name in the lower left, then selecting the account you'd like to access.
-- Team plan organizations are separate from free and paid individual Claude accounts. Data cannot be transferred between the separate instances.
-- If you only want to use your Team plan after upgrading, you'll need to cancel your paid subscription and/or delete your free or paid individual Claude account separately.
-- - **[How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)**
-- **[How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)**
+ 
+
+Upgrading to the Team plan creates a new Claude organization. Your individual Free or paid account (Pro or Max) remains a separate account, and you can toggle between the two by clicking your initials or name in the lower left and selecting the account you'd like to access.
+
+ 
+
+If you'd rather use a single account, you can migrate your personal account into your Team organization. Migration moves your chats, projects, files, memory, connectors, and skills into the organization's workspace, and your paid individual subscription is canceled automatically as part of the migration (subscriptions purchased through the Apple App Store must be canceled separately first). To get started, go to **[Settings > Account](https://claude.ai/settings/account)**, or see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)** for details.
 
 
 ---
 
 ## Related Articles
 
-- [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
+- [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
+- [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)

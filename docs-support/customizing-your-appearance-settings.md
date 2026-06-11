@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://claude.ai/settings/appearance).
 3. Select from Light, Match System, and Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1781185500&signature=868369c0c17218770c9edef52fd949c3f70a8edd049ebb517f24432da200516a&req=dSYjHst4nYVeXvMW1HO4zc2jJ6M8iI7hSBkgeTglJrrak0He7D8n55k0T6XU%0Ap4kVgtWnqXb66uCk5UQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1781197200&signature=073649b9e91854d818fc3566dddb67210917cbde4153782568840b6f649e8ea0&req=dSYjHst4nYVeXvMW1HO4zc2jJ6M8iYzmSBkgeTglJrpwI7FoRmVb%2FDu5YMAI%0AnRk2HswNeKrnndIz4D4%3D%0A)
 
  
 
@@ -19,7 +19,7 @@
 1. In [Settings > Appearance](https://claude.ai/settings/appearance), find **Chat font**.
 2. Select from Default, Match System, and Dyslexic Friendly.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1781185500&signature=8dd5f3c6331502f5a0cf0701c09ccdb600ff1a54592c1f48d02cbdc8d6cae47c&req=dSYjHst4nYVeX%2FMW1HO4zc8962HkVXQ5QtNFlF5%2FHEc8uV9uSZY622yrdFLM%0AtUXM3Xe38he8EZMo6Gg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1781197200&signature=841d08a4cfdd28d7cccf101c0bb1ff1e057e05785daaca10ac4f6c7b659feaea&req=dSYjHst4nYVeX%2FMW1HO4zc8962HkVHY%2BQtNFlF5%2FHEeKrIM9PITZccxPbdp1%0AHH733JdOgF%2FktXN1MdM%3D%0A)
 
  
 
@@ -29,7 +29,7 @@ It's not currently possible to completely disable the sidebar. You can click the
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1781185500&signature=f40378e55a1c53f2fcbae2e54f6766b8e632376512467098172695cfecfca03d&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB173UX7qylfYa7uDb9mx5jJ6VIqYhI9Pq6ub%0AE%2FX2zYCu%2FzAzEuskuTg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1781197200&signature=934810477657e27b39cf75823dd89db0e65de491db9d066b164550df136d9996&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB173UHztylfYa7uDb9lL9E%2BqV4MJ5uEM4qpl%0AA1LhC5E2C%2BGZDZSR1Is%3D%0A)
 
  
 
@@ -39,7 +39,7 @@ It's not currently possible to completely disable the sidebar. You can click the
 ## Related Articles
 
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
+- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Customizing your Console appearance settings](https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings)
 - [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
-- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
 - [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)

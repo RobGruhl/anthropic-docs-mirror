@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-11 13:17*
+*Last updated: 2026-06-11 16:28*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -106,7 +106,7 @@ Total documents: 267
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
 **Source:** https://support.claude.com/en/articles/9002504-can-claude-produce-images  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-11  
 
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
@@ -271,7 +271,7 @@ Total documents: 267
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-05-24  
+**Updated:** 2026-06-11  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -396,7 +396,7 @@ Total documents: 267
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9267247-how-do-i-get-started-with-the-team-plan  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-11  
 
 ### Getting Started with Local MCP Servers on Claude Desktop
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
@@ -496,7 +496,7 @@ Total documents: 267
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
 **Source:** https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-11  
 
 ### How do I get access to Claude in Amazon Bedrock?
 **File:** `/docs-support/how-do-i-get-access-to-claude-in-amazon-bedrock.md`  
@@ -826,7 +826,7 @@ Total documents: 267
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
@@ -1066,12 +1066,12 @@ Total documents: 267
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-11  
 
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
