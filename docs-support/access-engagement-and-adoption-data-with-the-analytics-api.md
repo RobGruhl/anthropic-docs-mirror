@@ -45,7 +45,7 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1781291700&signature=2df6af81e094dd0f8e329d3d55f8ebb51418aee6c0fe9327f0e4603ab06eb98c&req=diAiFc92moJYX%2FMW1HO4zUxhyKxH06qI2G8yJDINvfSrGVDhmY0p1S6PCGIh%0AqAWzyvTNs%2FkdDjqECGA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1781301600&signature=f2d216b538dfd3836679b74865594cf4751b463cb41d46674ea5bb2861486b4b&req=diAiFc92moJYX%2FMW1HO4zUxhyKxG2qqJ2G8yJDINvfStbPG4UBE2ByulHkRF%0AB%2FWDxDe3stdR8Dz4k8I%3D%0A)
 
  
 
@@ -120,7 +120,7 @@ The API has a default rate limit of 60 requests per minute. If this doesn't meet
 
 ## Related Articles
 
-- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
