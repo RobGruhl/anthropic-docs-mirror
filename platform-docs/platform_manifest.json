@@ -14575,10 +14575,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/claude-platform-on-aws",
-      "hash": "b6c4fd33e45e172742efe2fb9bd0f7c84c3d4cc2e9b587739332f65c24d8eee1",
+      "hash": "f42a72eed50007e2b2be29867b732eb54e74615e498da7645545dcb5074ec6a0",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-11T21:40:06.099154"
+      "last_updated": "2026-06-12T00:36:58.357169"
     },
     "build-with-claude__compaction.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
@@ -15335,10 +15335,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/self-hosted-sandboxes",
-      "hash": "e6b9c6ece06dcb25f4264c9c701bd6d0a89fd7d7e257df2dd9e1faa3e789a53e",
+      "hash": "52c732694b211eabf93af2d96f0a92e49a7f492cfd48f9868f585a11cd64a905",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-10T18:49:51.058379"
+      "last_updated": "2026-06-12T00:36:58.369150"
     },
     "managed-agents__self-hosted-sandboxes-security.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security",
@@ -15422,14 +15422,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-11T21:40:06.119372",
-    "fetch_duration_seconds": 25.159545,
+    "last_fetch_completed": "2026-06-12T00:36:58.376114",
+    "fetch_duration_seconds": 25.750578,
     "total_pages_discovered": 1697,
     "pages_fetched_successfully": 1542,
     "pages_failed": 155,
-    "pages_unchanged": 1434,
-    "pages_updated": 97,
-    "pages_new": 11,
+    "pages_unchanged": 1540,
+    "pages_updated": 2,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/admin/federation_issuers",
@@ -15601,5 +15601,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-11T21:40:06.119588"
+  "last_updated": "2026-06-12T00:36:58.376336"
 }

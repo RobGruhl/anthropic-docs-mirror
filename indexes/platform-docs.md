@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-11 21:46*
+*Last updated: 2026-06-12 00:42*
 Total documents: 1542
 ---
 ## Uncategorized (1542 documents)
@@ -1176,7 +1176,7 @@ Total documents: 1542
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-12  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -4721,7 +4721,7 @@ Total documents: 1542
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-12  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  

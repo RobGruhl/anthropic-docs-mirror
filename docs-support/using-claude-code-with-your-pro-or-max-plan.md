@@ -10,7 +10,7 @@ This article applies to individual consumers using Pro or Max plan subscriptions
 
 ## What is Claude Code?
 
-Claude Code is a command line tool that gives you access to Claude models directly in your terminal, allowing you to delegate complex coding tasks while maintaining transparency and control. With Pro and Max plans, you now have access to both Claude on the web, desktop, and mobile apps and Claude Code in your terminal with one unified subscription.
+Claude Code is a coding tool that gives you access to Claude models directly in your terminal or supported IDE, allowing you to delegate complex coding tasks while maintaining transparency and control. With Pro and Max plans, you now have access to both Claude on the web, desktop, and mobile apps and Claude Code in your terminal with one unified subscription.
 
  
 
@@ -18,7 +18,7 @@ Claude Code is a command line tool that gives you access to Claude models direct
 
 Use two powerful AI products in one simple subscription.
 
-- Use Claude for writing, research, analysis, and more — at work and at home.
+- Use Claude for writing, research, analysis, and more—at work and at home.
 - Use Claude Code for your terminal-based coding workflows.
 -  
 
@@ -48,6 +48,16 @@ If you're not seeing the option to authenticate with your preferred account, fol
 2. Run <code>claude update</code>.
 3. Restart your terminal completely for the change to take effect.
 4. Run <code>claude</code> and select the correct account to use Claude Code.
+
+ 
+
+## Use Claude Code in your IDE
+
+Your Pro or Max plan also covers Claude Code in supported IDEs, including VS Code, Cursor and other VS Code forks, and JetBrains IDEs like IntelliJ and PyCharm. Log in with the same Claude credentials you use in the terminal. IDE usage counts toward the same usage limits shared across Claude and Claude Code.
+
+ 
+
+To install and set up the extension for your IDE, see **[Platforms and integrations](https://code.claude.com/docs/en/platforms)** in our Claude Code Docs.
 
  
 
@@ -154,7 +164,7 @@ Auto-reload functionality is managed within your Claude Console account, not thr
 ## Related Articles
 
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
-- [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

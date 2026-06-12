@@ -1,6 +1,6 @@
 # Set up the Microsoft 365 connector
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -183,7 +183,8 @@ During authentication, the integration requests the following permissions:
 - <code>Mail.Read.Shared</code>: Read emails in mailboxes the user has access to
 - <code>MailboxFolder.Read</code>: Read mailbox folder structure
 - <code>MailboxItem.Read</code>: Read items in mailbox
--  
+
+ 
 
 **Calendar**
 
@@ -286,7 +287,7 @@ No. All permissions are read-only. Claude can search and analyze Microsoft 365 d
 
 ## Related Articles
 
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

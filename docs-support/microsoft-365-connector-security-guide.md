@@ -1,6 +1,6 @@
 # Microsoft 365 connector security guide
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -70,18 +70,18 @@ The connector fully supports your existing Entra (Azure AD) policies:
 - The Microsoft 365 Connector uses **[delegated permissions](https://learn.microsoft.com/en-us/graph/permissions-overview?tabs=http#delegated-permissions)**.
 - Users can only access Microsoft 365 data **they already have permission** for
 - SharePoint search requires Sites.Read.All permission. Site-specific permissioning (using *.Selected permissions) is not supported because the underlying search is tenant-wide.
-- Users cannot bypass SharePoint sharing settings or folder permissions
-- Users cannot access other users' private files or emails
-- Delegated permissions inherently respect Microsoft 365 data loss prevention (DLP) policies
+- Users cannot bypass SharePoint sharing settings or folder permissions.
+- Users cannot access other users' private files or emails. Users can search shared mailboxes they've been granted delegate access to in Microsoft 365, including full access and folder-level delegation. Shared mailbox access is read-only and uses the <code>Mail.Read.Shared</code> permission.
+- Delegated permissions inherently respect Microsoft 365 data loss prevention (DLP) policies.
 
  
 
 **6. Token management**
 
 - Refresh tokens expire after 90 days of inactivity by default, requiring re-authentication. This can be customized in Microsoft Entra ID using a token lifetime policy.
-- Access tokens typically expire within 60-90 minutes per Microsoft Entra ID defaults and are automatically refreshed
-- Admins or users can revoke access anytime via Microsoft Entra ID
-- The Microsoft 365 Connector never sees or stores passwords
+- Access tokens typically expire within 60-90 minutes per Microsoft Entra ID defaults and are automatically refreshed.
+- Admins or users can revoke access anytime via Microsoft Entra ID.
+- The Microsoft 365 Connector never sees or stores passwords.
 
  
 
