@@ -15335,10 +15335,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/self-hosted-sandboxes",
-      "hash": "52c732694b211eabf93af2d96f0a92e49a7f492cfd48f9868f585a11cd64a905",
+      "hash": "560e641528c64f8a5b29eee3b1926d130802b34d5f97802ce24a93e2db13fa85",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-12T00:36:58.369150"
+      "last_updated": "2026-06-12T16:04:05.242808"
     },
     "managed-agents__self-hosted-sandboxes-security.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security",
@@ -15422,13 +15422,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-12T13:04:05.155067",
-    "fetch_duration_seconds": 32.338278,
+    "last_fetch_completed": "2026-06-12T16:04:05.250303",
+    "fetch_duration_seconds": 30.534877,
     "total_pages_discovered": 1697,
     "pages_fetched_successfully": 1542,
     "pages_failed": 155,
-    "pages_unchanged": 1542,
-    "pages_updated": 0,
+    "pages_unchanged": 1541,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15601,5 +15601,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-12T13:04:05.155276"
+  "last_updated": "2026-06-12T16:04:05.250495"
 }
