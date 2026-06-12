@@ -1,6 +1,6 @@
 # How to create custom skills
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -182,6 +182,8 @@ my-skill.zip
 4. Iterate on the description if Claude isn't using it when expected.
 
  
+
+When you're iterating on a skill with Claude in chat, you can edit the skill files directly where they open beside the conversation. Highlight the text you want changed, click "Edit with Claude," and type your request. For skills with multiple files, leave edit requests across the files and send them together, and Claude applies them in one pass. Learn more about **[editing artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them#h_9cbf05e668)**.
 
  
 

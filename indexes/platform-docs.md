@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-12 16:12*
+*Last updated: 2026-06-12 18:42*
 Total documents: 1542
 ---
 ## Uncategorized (1542 documents)
@@ -4596,7 +4596,7 @@ Total documents: 1542
 ### manage-claude__wif-providers__github-actions
 **File:** `/platform-docs/manage-claude__wif-providers__github-actions.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-12  
 
 ### manage-claude__wif-providers__kubernetes
 **File:** `/platform-docs/manage-claude__wif-providers__kubernetes.md`  

@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated in the last hour*
 
 ---
 
@@ -64,6 +64,7 @@ For important limitations and considerations for Team and Enterprise organizatio
 - **Direct local file access:** Claude can read from and write to your local files without manual uploads or downloads.
 - **Sub-agent coordination:** Claude breaks complex work into smaller tasks and coordinates parallel workstreams to complete them.
 - **Professional outputs:** Generate polished deliverables like Excel spreadsheets with working formulas, PowerPoint presentations, and formatted documents.
+- **Edit drafts in place:** When Claude drafts a Markdown document, highlight the text you want changed, click "Edit with Claude," and type your request. Claude makes the edit right where you marked it, with no need to describe the section in your task thread.
 - **Long-running tasks:** Work on complex tasks for extended periods without conversation timeouts or context limits interrupting your progress.
 - **Scheduled tasks:** Create and save tasks that you can have Claude run on-demand, or automatically on a cadence of your choosing.
 - **Spreadsheets and presentations:** Cowork can produce spreadsheets and slides that can be further edited with Claude for Excel and Powerpoint.

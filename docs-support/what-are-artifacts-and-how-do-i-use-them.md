@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-*Updated over 3 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -71,12 +71,14 @@ When Claude creates an artifact, you'll see the content displayed in a dedicated
 
 ### Edit and iterate
 
-- Ask Claude to modify or update the artifact content
-- Changes appear directly in the artifact window
-- Switch between different versions using the version selector
-- Your edits won't change Claude's memory of the original content
-- Edit prior chat messages to create a different version of the conversation, with its own set of artifacts—this lets you explore different directions without losing previous work
--  
+- Ask Claude to modify or update the artifact content.
+- For Markdown documents, you can edit in place: highlight the text you want changed, click "Edit with Claude," and type your request. Claude makes the edit right where you marked it, so you don't have to describe which section you mean in the chat.
+- Changes appear directly in the artifact window.
+- Switch between different versions using the version selector.
+- Your edits won't change Claude's memory of the original content.
+- Edit prior chat messages to create a different version of the conversation, with its own set of artifacts—this lets you explore different directions without losing previous work. 
+
+ 
 
 ### View and export
 
@@ -181,8 +183,8 @@ To share your artifacts publicly, embed them on websites, or discover artifacts 
 
 ## Related Articles
 
-- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

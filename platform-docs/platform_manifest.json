@@ -15075,10 +15075,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/azure",
-      "hash": "57f1948bb30f3641cf635a7a204fc34d0b7bef19a9282e26e8b1749aaf77b2d5",
+      "hash": "cc0d9ed4e0cfce311c764f681aeb2a6adae558cced34419eebd98e146e136d9e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-12T07:33:16.429086"
+      "last_updated": "2026-06-12T18:37:33.319980"
     },
     "manage-claude__wif-providers__gcp.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp",
@@ -15095,10 +15095,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/github-actions",
-      "hash": "1ccb684b3cc18c74f893745928b8c9be1a9baef82e01223c97185f44ea6ea9e9",
+      "hash": "2e398761940b85af0ff8a00206c6e0d94b90f215b24a188281c0f121d2195050",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-11T21:40:06.108943"
+      "last_updated": "2026-06-12T18:37:33.320292"
     },
     "manage-claude__wif-providers__kubernetes.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes",
@@ -15422,13 +15422,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-12T16:04:05.250303",
-    "fetch_duration_seconds": 30.534877,
+    "last_fetch_completed": "2026-06-12T18:37:33.330609",
+    "fetch_duration_seconds": 22.009343,
     "total_pages_discovered": 1697,
     "pages_fetched_successfully": 1542,
     "pages_failed": 155,
-    "pages_unchanged": 1541,
-    "pages_updated": 1,
+    "pages_unchanged": 1540,
+    "pages_updated": 2,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15601,5 +15601,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-12T16:04:05.250495"
+  "last_updated": "2026-06-12T18:37:33.330795"
 }
