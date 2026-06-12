@@ -45,7 +45,7 @@ The Claude Code Usage page displays the following metrics for your organization:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1781240400&signature=7274479e4fbe35ce6d940029a87e9f2e02e19021f5b4ba48eca40ab6ce479176&req=dScmEcx5lINYXvMW1HO4zfiEP6dSi3nKCX9h5MbdDjNcarfWV1msbFsJDjdo%0AvIrnYYkK3NXA2u9SoE4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1781251200&signature=c83ec33ec0375fb7f676ddf4c67aa0f4eacd2a825faef6f502e28ca958dfc93f&req=dScmEcx5lINYXvMW1HO4zfiEP6dSinjMCX9h5MbdDjNv%2BXpG7LuPsQHhXGEZ%0AQJA0zTZhsj7ATP3TMck%3D%0A)
 
  
 

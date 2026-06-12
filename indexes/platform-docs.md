@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-12 04:36*
+*Last updated: 2026-06-12 07:38*
 Total documents: 1542
 ---
 ## Uncategorized (1542 documents)
@@ -4586,7 +4586,7 @@ Total documents: 1542
 ### manage-claude__wif-providers__azure
 **File:** `/platform-docs/manage-claude__wif-providers__azure.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/azure  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-12  
 
 ### manage-claude__wif-providers__gcp
 **File:** `/platform-docs/manage-claude__wif-providers__gcp.md`  

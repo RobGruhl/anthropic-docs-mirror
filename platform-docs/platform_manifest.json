@@ -15075,10 +15075,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/azure",
-      "hash": "4ac35976cece9e8fdd76a3edba00c59d77611bffa7756321de3bff71b7f1a566",
+      "hash": "57f1948bb30f3641cf635a7a204fc34d0b7bef19a9282e26e8b1749aaf77b2d5",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-11T21:40:06.108618"
+      "last_updated": "2026-06-12T07:33:16.429086"
     },
     "manage-claude__wif-providers__gcp.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp",
@@ -15422,13 +15422,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-12T04:30:39.544819",
-    "fetch_duration_seconds": 28.966375,
+    "last_fetch_completed": "2026-06-12T07:33:16.439743",
+    "fetch_duration_seconds": 24.917624,
     "total_pages_discovered": 1697,
     "pages_fetched_successfully": 1542,
     "pages_failed": 155,
-    "pages_unchanged": 1542,
-    "pages_updated": 0,
+    "pages_unchanged": 1541,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15601,5 +15601,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-12T04:30:39.545002"
+  "last_updated": "2026-06-12T07:33:16.439977"
 }
