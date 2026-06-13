@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-13 07:18*
+*Last updated: 2026-06-13 10:04*
 
 Documents related to Claude Code across all sources (242 documents)
 ---
@@ -177,7 +177,6 @@ Documents related to Claude Code across all sources (242 documents)
 - [Automate security reviews with Claude Code](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
 - [Best practices for getting started with Claude Cowork](/claude-blog/best-practices-for-getting-started-with-claude-cowork.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
-- [Beyond permission prompts: making Claude Code more secure and autonomous](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
 - [Bringing automated preview, review, and merge to Claude Code on desktop](/claude-blog/preview-review-and-merge-with-claude-code.md) - ![](https://cdn
 - [Build responsive web layouts](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
@@ -245,6 +244,7 @@ Documents related to Claude Code across all sources (242 documents)
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
+- [권한 프롬프트를 넘어서: Claude Code를 더 안전하고 자율적으로 만들기](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 - [이제 Opus 4.6과 Sonnet 4.6에서 1M 컨텍스트를 정식 지원합니다](/claude-blog/1m-context-ga.md) - ![](https://cdn
 
 ## Support Articles (8)
