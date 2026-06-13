@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-13 00:41*
-Total documents: 1542
+*Last updated: 2026-06-13 04:34*
+Total documents: 1543
 ---
-## Uncategorized (1542 documents)
+## Uncategorized (1543 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -4483,6 +4483,11 @@ Total documents: 1542
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api  
 **Updated:** 2026-06-11  
 
+### manage-claude__analytics-api
+**File:** `/platform-docs/manage-claude__analytics-api.md`  
+**Source:** https://platform.claude.com/docs/en/manage-claude/analytics-api  
+**Updated:** 2026-06-13  
+
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
@@ -4496,7 +4501,7 @@ Total documents: 1542
 ### manage-claude__claude-code-analytics-api
 **File:** `/platform-docs/manage-claude__claude-code-analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-13  
 
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
@@ -4526,7 +4531,7 @@ Total documents: 1542
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-13  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
@@ -4571,7 +4576,7 @@ Total documents: 1542
 ### manage-claude__usage-cost-api
 **File:** `/platform-docs/manage-claude__usage-cost-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/usage-cost-api  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-13  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  

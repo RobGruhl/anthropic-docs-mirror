@@ -14870,6 +14870,16 @@
       "last_modified": null,
       "last_updated": "2026-06-11T21:40:06.105670"
     },
+    "manage-claude__analytics-api.md": {
+      "original_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api",
+      "original_md_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api.md",
+      "category": "developer-guide",
+      "path": "/docs/en/manage-claude/analytics-api",
+      "hash": "ac01234bd58760f3696cb0aaded9fd53d1d7e6ab4c03c013f4b3e507da191a3b",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-13T04:29:49.381974"
+    },
     "manage-claude__api-and-data-retention.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention.md",
@@ -14895,10 +14905,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/claude-code-analytics-api",
-      "hash": "90653e45b688d106d4dd7769b43f5a5bd326edd77ef75f37720b5c21a4072874",
+      "hash": "132906d62bec683d5c56c927f0cf0dce503b77b86f80987a9ba2ddee62ef8776",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-05-28T21:37:53.605614"
+      "last_updated": "2026-06-13T04:29:49.382324"
     },
     "manage-claude__cmek.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek",
@@ -14965,10 +14975,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/compliance-api-access",
-      "hash": "cfec74f6d9b85f67c058abb39a9eebf84425abe5ba518f4809a28be6fa541ec6",
+      "hash": "edd825e75aceac9279d09b5a98d65a5cbacfe3280ab51855dace9effdd478fc3",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-11T21:40:06.107005"
+      "last_updated": "2026-06-13T04:29:49.383075"
     },
     "manage-claude__compliance-content-data.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/compliance-content-data",
@@ -15045,10 +15055,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/usage-cost-api",
-      "hash": "5fbb7a1b65148951e0af8861dcd59970918a221795d7804af831cee309d6f15d",
+      "hash": "a688755482cfe34880d4e406a3a16bf7e8f279911ae03f471760a466a465d094",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-05-28T18:49:18.762772"
+      "last_updated": "2026-06-13T04:29:49.384017"
     },
     "manage-claude__wif-admin-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-admin-api",
@@ -15422,14 +15432,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-13T00:36:49.098000",
-    "fetch_duration_seconds": 25.316865,
-    "total_pages_discovered": 1697,
-    "pages_fetched_successfully": 1542,
+    "last_fetch_completed": "2026-06-13T04:29:49.394630",
+    "fetch_duration_seconds": 20.544782,
+    "total_pages_discovered": 1698,
+    "pages_fetched_successfully": 1543,
     "pages_failed": 155,
-    "pages_unchanged": 1542,
-    "pages_updated": 0,
-    "pages_new": 0,
+    "pages_unchanged": 1539,
+    "pages_updated": 3,
+    "pages_new": 1,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/admin/federation_issuers",
@@ -15589,7 +15599,7 @@
       "/docs/en/api/terraform/models/retrieve"
     ],
     "by_category": {
-      "developer-guide": 133,
+      "developer-guide": 134,
       "api-reference": 1409,
       "resources": 0
     },
@@ -15601,5 +15611,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-13T00:36:49.098164"
+  "last_updated": "2026-06-13T04:29:49.394819"
 }

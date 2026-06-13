@@ -1,6 +1,6 @@
 # Use Claude in Microsoft Foundry
 
-*Updated over a week ago*
+*Updated over a month ago*
 
 ---
 
@@ -27,6 +27,6 @@ Refer to **[our Claude Docs](https://docs.claude.com/en/docs/build-with-claude/c
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

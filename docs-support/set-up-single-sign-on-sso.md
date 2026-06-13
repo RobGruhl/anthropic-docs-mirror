@@ -64,7 +64,7 @@ You can verify multiple domains for a single organization, but all domains must 
 10. If your domain shows as "Pending," use the "Refresh" button.
 10.  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1781313300&signature=e32d5a2cecca2e14091b2a50f2389e52633c478136a15e2d4dcdb5dd58d340d4&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSgDbne6PM2D8Zcdgrhkkny2GVJcgTqRn%2BhK%0AtezLSqdUm517Z7cekoY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1781326800&signature=5b820e334a3bdf100463131453daa70ce8f97024aff769154331765a972de888&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSgDbXKxPM2D8ZcdgrjNZNm9MM6bp19Zi1Hh%0ATTAQtZ0C3%2FNdNjlmc0M%3D%0A)
 
  
 
@@ -102,7 +102,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1781313300&signature=005e85768bc35323bb80523507fac58b4cfd75f8eecf0a4501779526d1e8bbf8&req=diMmFM93nYNfWfMW1HO4zdAICw6iA38JItXtKivx6ZE5ElGmoQUeAroXIohu%0AdxSxSxr%2BzNDkbcL8iRU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1781326800&signature=80c7402218032a25df10de603d222504f5143803676a5ac2dfa88ecd7e2736d7&req=diMmFM93nYNfWfMW1HO4zdAICw6iAHoCItXtKivx6ZF%2FZeOGKKi1nhdH43h4%0A0Hhmtr6aC45b0%2FO7Nu0%3D%0A)
 
  
 

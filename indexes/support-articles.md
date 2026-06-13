@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-13 00:41*
+*Last updated: 2026-06-13 04:34*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -126,7 +126,7 @@ Total documents: 267
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-13  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -171,7 +171,7 @@ Total documents: 267
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-13  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -311,7 +311,7 @@ Total documents: 267
 ### Does Anthropic Act as a Data Processor or Controller?
 **File:** `/docs-support/does-anthropic-act-as-a-data-processor-or-controller.md`  
 **Source:** https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-13  
 
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
@@ -321,7 +321,7 @@ Total documents: 267
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-13  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -456,7 +456,7 @@ Total documents: 267
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-13  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -571,7 +571,7 @@ Total documents: 267
 ### How large is the context window on paid Claude plans?
 **File:** `/docs-support/how-large-is-the-context-window-on-paid-claude-plans.md`  
 **Source:** https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-13  
 
 ### How to change your Pro plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-pro-plan-from-monthly-to-annual-billing.md`  
@@ -776,7 +776,7 @@ Total documents: 267
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-13  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -866,7 +866,7 @@ Total documents: 267
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-13  
 
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
@@ -1031,7 +1031,7 @@ Total documents: 267
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
 **Source:** https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-13  
 
 ### Use Claude in Slack
 **File:** `/docs-support/using-claude-in-slack.md`  
@@ -1241,7 +1241,7 @@ Total documents: 267
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-13  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
@@ -1311,7 +1311,7 @@ Total documents: 267
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-13  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  
