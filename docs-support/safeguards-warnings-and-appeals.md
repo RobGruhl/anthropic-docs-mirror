@@ -1,6 +1,6 @@
 # Safeguards warnings and appeals
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -16,7 +16,7 @@ As part of our safety process, we may ban an account for a variety of reasons:
 - Account creation from an **[unsupported location](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)**
 - **[Terms of Service](https://www.anthropic.com/legal/consumer-terms)** violations
 
-If you feel your account has been wrongly suspended or terminated, please fill out the appeal form linked below with your account information so our Safeguards team can further investigate why your account was disabled.
+If you feel your account has been wrongly suspended or terminated, please go to **[claude.ai](http://claude.ai)**, log in with your banned account, and fill out the appeal form linked below. Our Safeguards team can further investigate why your account was disabled.
 
  
 
@@ -36,7 +36,7 @@ If you believe we’ve made a mistake in issuing you a warning, please email **[
 ## Related Articles
 
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
+- [Our Approach to User Safety](https://support.claude.com/en/articles/8106465-our-approach-to-user-safety)
 - [I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?](https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy)
 - [CSAM Detection and Reporting](https://support.claude.com/en/articles/9020328-csam-detection-and-reporting)
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
-- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)

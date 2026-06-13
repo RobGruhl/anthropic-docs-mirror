@@ -1,6 +1,6 @@
 # Does Anthropic crawl data from the web, and how can site owners block the crawler?
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -52,6 +52,6 @@ You can learn more about our data handling practices and commitments at our **[H
 
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
-- [How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
+- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)

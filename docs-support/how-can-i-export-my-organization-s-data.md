@@ -1,10 +1,10 @@
 # Export your organization's data
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
-Primary Owners of Team and Enterprise plans can export organization data from **[Organization settings > Data and Privacy](https://claude.ai/admin-settings/data-privacy-controls)** on the web app or Claude Desktop.
+Primary Owners of Team and Enterprise plans can export organization data from **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)** on the web app or Claude Desktop.
 
  
 
@@ -33,7 +33,7 @@ If you're an Enterprise Primary Owner looking to export audit logs, see **[How t
 ## Related Articles
 
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
-- [How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)
-- [Access audit logs](https://support.claude.com/en/articles/9970975-access-audit-logs)
-- [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
-- [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)
+- [Export your Claude data](https://support.claude.com/en/articles/9450526-export-your-claude-data)
+- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
