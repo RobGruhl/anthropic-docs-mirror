@@ -80,7 +80,7 @@ After publishing, you'll see a “Get embed code” button.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1781424000&signature=4c655ba8f21068e9a14df305771edbe9a79c94d87ed2fb93355a4da69c4323e1&req=dSkiF892mYhZWfMW1HO4zdcpD1dW5weBR8xgMH3ra8iqz53xDzosOfEybY1k%0AZ0HhjNyvdFEmUXS7GqY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1781433900&signature=72d3aa9e2395bb2cf8faa254489ed2507947e1d2b277bc7831a684b76aa57c6e&req=dSkiF892mYhZWfMW1HO4zdcpD1dW5gCIR8xgMH3ra8hz5F%2BMPdJx%2Bp8FCHtm%0A7Ftar4INtWg2ZieeZl0%3D%0A)
 
  
 
@@ -88,7 +88,7 @@ Click it to open a modal with automatically generated code you can copy and past
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1781424000&signature=ac4651a7f7e9d5a5d152ea64856f507eb8c07ca83d5d15241b3ff0417e7efdc6&req=dSkiF892mIlZWfMW1HO4zcqH79iHy4Btf3CUbx4Ru6X3%2FOwTQNyj16QZKq%2Fr%0AFDsZNHvtdIkAJOh6wso%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1781433900&signature=90a5ddf0193e6a58ffd65ada711488692ff116406b5e5931a520acf119c98c3d&req=dSkiF892mIlZWfMW1HO4zcqH79iHyodkf3CUbx4Ru6VKt%2F9QFZLGtPhXLSHF%0AcuWP6D0GxUv%2BZSWuMI4%3D%0A)
 
  
 
@@ -119,7 +119,7 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 3. Click the “Share” button.
 4. Click “Share & copy link” to make this version shareable.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1781424000&signature=0aac5da90579ac7a7e7906a19cee1977d03bb1fe25249e34f5c75c89640380ac&req=dSkiF892nYBZWfMW1HO4zbvYOlDhL32TK6hAzMpXfmMn43K50sQsEZVxlHir%0A%2BQ1e05KcOU9FcGqHyjA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1781433900&signature=5fe8e05f7d656855e5f46aaed7bb6f60f56e93bbf1772eb3233dd9135eb04155&req=dSkiF892nYBZWfMW1HO4zbvYOlDhLnqaK6hAzMpXfmPnVhunkR4JtSA6vR%2Bb%0ADok5hqHfuG%2B9IIjtNTA%3D%0A)
 
  
 
@@ -143,7 +143,7 @@ When you share an artifact, viewers also gain access to any attachments and file
 1. Click the “Share” button in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click “Unshare.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1781424000&signature=4008cbfaee5bf2273f4b9f83bc09015b8ce6fe1799282e405962bbdb3cbb6078&req=dSkiF895m4hdXvMW1HO4zW9Ewgi5%2B3Czgj8mTHivCKbIz%2BN5JKFVYOlAahmD%0AJCHFtmB7o7SpWrsqMXA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1781433900&signature=c0547f388db163d1f9be32e0e30af0342a6f8cd38641bf0105fbc0e20832f100&req=dSkiF895m4hdXvMW1HO4zW9Ewgi5%2Bne6gj8mTHivCKZh00kTb5qcVYYz8gcz%0AIBmcovI24KQHiFASsVo%3D%0A)
 
  
 
@@ -182,7 +182,7 @@ For information about creating artifacts, AI-powered capabilities, MCP integrati
 ## Related Articles
 
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
+- [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [Sharing and Unsharing Chats](https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
