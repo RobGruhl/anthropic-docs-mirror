@@ -14275,10 +14275,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/code-execution-tool",
-      "hash": "5fc8368a91e3f467df6f17754dd88b210dd7d114d9360ed769f98f5959a96ac1",
+      "hash": "6316566e25a4e32a832d025e7678f2d2b1e585249624fe27f491f24e931e0b93",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-15T19:17:29.666439"
+      "last_updated": "2026-06-15T21:51:45.903250"
     },
     "agents-and-tools__tool-use__computer-use-tool.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
@@ -14605,10 +14605,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/context-windows.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/context-windows",
-      "hash": "4745e4634994f3b6a59fb477db2e03f360a81207f45c2c37d5a08f4e0c03aec0",
+      "hash": "f022032af16708dc159f79d89273928f41b4d5daa2742c8f461e814b1c8e987a",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-15T19:17:29.671971"
+      "last_updated": "2026-06-15T21:51:45.909720"
     },
     "build-with-claude__effort.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/effort",
@@ -14845,10 +14845,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/intro.md",
       "category": "developer-guide",
       "path": "/docs/en/intro",
-      "hash": "cc2c955bcda12d72c2bcddd00f976f13938aea18c34c9e067e56b40933eb65ca",
+      "hash": "bb87265a67438cc7b74179acba168458263e98fe75b271a715b88388ea2b808b",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-09T18:41:07.095316"
+      "last_updated": "2026-06-15T21:51:45.915421"
     },
     "manage-claude__access-transparency.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/access-transparency",
@@ -14875,10 +14875,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/analytics-api",
-      "hash": "ac01234bd58760f3696cb0aaded9fd53d1d7e6ab4c03c013f4b3e507da191a3b",
+      "hash": "ca916be2667ea97fe6b77c7dd20149c0488495b45c61af41e13e4bf95c839124",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-13T04:29:49.381974"
+      "last_updated": "2026-06-15T21:51:45.915848"
     },
     "manage-claude__api-and-data-retention.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
@@ -14915,40 +14915,40 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek",
-      "hash": "0bd25dbf9c9a3fe64d591900b53b677c6d7ec7d30b5d87a24f33b5f2643380dd",
+      "hash": "e72a123389ef22ca80919427f8c8779259bc26699e54d22946f1d40b8b5c6988",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-10T00:35:01.176299"
+      "last_updated": "2026-06-15T21:51:45.916460"
     },
     "manage-claude__cmek-aws-kms.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek-aws-kms",
-      "hash": "133e53fc950386ebd2361303b4e8eb71bbac75ee0e727dc1b47dd11a6303a639",
+      "hash": "e82304e5f58287f72505702ffef8f26a74fdd3e3c6f65139278217e1519fe04e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-10T00:35:01.176405"
+      "last_updated": "2026-06-15T21:51:45.916617"
     },
     "manage-claude__cmek-azure-key-vault.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek-azure-key-vault",
-      "hash": "4853992d8afe1dc37e613b4c8d99a33dd5d5246ed499a0d89baeb7f55541c4b3",
+      "hash": "92d9252062a13972bf638315a26fe2abaf47379f016eb56a7fe4dec677babade",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-02T19:10:39.244040"
+      "last_updated": "2026-06-15T21:51:45.916739"
     },
     "manage-claude__cmek-google-cloud-kms.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek-google-cloud-kms",
-      "hash": "753fb22f4a88f8ca59a65186c13a0dd0199af661d2967d431a8eb3f38e072540",
+      "hash": "f73ae2827a15317c51e0398eb54bf17c8677b4f3afbc13c2b6c8155e7edc30fb",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-01T22:01:45.625435"
+      "last_updated": "2026-06-15T21:51:45.916899"
     },
     "manage-claude__compliance-activity-feed.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed",
@@ -14975,10 +14975,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/compliance-api-access",
-      "hash": "edd825e75aceac9279d09b5a98d65a5cbacfe3280ab51855dace9effdd478fc3",
+      "hash": "8e56060d0b33bdd8f17bd973b55a2eec2d228f852b50d87f28e6a452e78a46af",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-13T04:29:49.383075"
+      "last_updated": "2026-06-15T21:51:45.917304"
     },
     "manage-claude__compliance-content-data.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/compliance-content-data",
@@ -15432,13 +15432,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-15T19:17:29.690171",
-    "fetch_duration_seconds": 25.26686,
+    "last_fetch_completed": "2026-06-15T21:51:45.930451",
+    "fetch_duration_seconds": 25.419602,
     "total_pages_discovered": 1698,
     "pages_fetched_successfully": 1543,
     "pages_failed": 155,
-    "pages_unchanged": 1531,
-    "pages_updated": 12,
+    "pages_unchanged": 1534,
+    "pages_updated": 9,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15611,5 +15611,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-15T19:17:29.690351"
+  "last_updated": "2026-06-15T21:51:45.930662"
 }

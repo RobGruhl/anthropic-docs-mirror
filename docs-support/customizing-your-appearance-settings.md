@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://claude.ai/settings/appearance).
 3. Select from Light, Match System, and Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1781552700&signature=6701f5bdd782f9ec4edfc61ca897a401702bae7b532476cc2a1ee0f0ad0c920d&req=dSYjHst4nYVeXvMW1HO4zc2jJ6M4hYnjSBkgeTglJroFaCLTW6LXiv62qgCT%0AApHPFSqNdWeY6WAl3TE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1781562600&signature=281534801b18546610c8cac6f70517cf8e0bad106be2849c432a2169d039c082&req=dSYjHst4nYVeXvMW1HO4zc2jJ6M4honiSBkgeTglJrqf3wOQ45%2FG3Nbs%2Fw7U%0AkurQ19oLjclrPaLCJ1w%3D%0A)
 
  
 
@@ -19,7 +19,7 @@
 1. In [Settings > Appearance](https://claude.ai/settings/appearance), find **Chat font**.
 2. Select from Default, Match System, and Dyslexic Friendly.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1781552700&signature=d8be1bf93e6a26abcf67c8ca86ae48d8da980672c5a3b69a26e4c6071bde7d01&req=dSYjHst4nYVeX%2FMW1HO4zc8962HgWHM7QtNFlF5%2FHEfOgujYOul0iB7xF1ie%0AZrSyktQcq5535j1rmGw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1781562600&signature=99e03493db44f03d8490387b07b19da531568a8f35b65e5b29c52749b889d63b&req=dSYjHst4nYVeX%2FMW1HO4zc8962HgW3M6QtNFlF5%2FHEc88hX%2BZglUFUA722Fu%0AqjvbMIBQsIxnAnlJx7o%3D%0A)
 
  
 
@@ -29,7 +29,7 @@ It's not currently possible to completely disable the sidebar. You can click the
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1781552700&signature=24c4e08445bd383d2ef148a4e27734a62a82d920e1b37fa60835f125f43ccdd1&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB17zXHnoylfYa7uDb9m1dOhioApRPwRhY6zA%0AFk1AxvP4GXQQHRpZAb8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1781562600&signature=b76fb14edeca3e5ecbaaa9d12051cf5aa24493e7902a1b0fa3001555f97ca079&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB17zX3npylfYa7uDb9nNgvV0dDzrV07rEXCC%0ALf2kdbgxqyaVycCvchY%3D%0A)
 
  
 
@@ -38,7 +38,7 @@ It's not currently possible to completely disable the sidebar. You can click the
 
 ## Related Articles
 
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
+- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 - [Customizing your Console appearance settings](https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings)
 - [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)

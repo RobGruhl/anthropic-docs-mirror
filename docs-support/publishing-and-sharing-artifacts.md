@@ -1,6 +1,6 @@
-# Publishing and sharing artifacts
+# Publish and share artifacts
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -25,7 +25,7 @@ Claude uses different terms depending on your plan:
 
  
 
-## Discovering artifacts
+## Discover artifacts
 
 Access a curated collection of artifacts directly from the artifacts space in your Claude sidebar by clicking **[Artifacts > Inspiration](http://claude.ai/artifacts)** (or the "Get inspired" banner on mobile).
 
@@ -46,7 +46,7 @@ Artifacts are organized into categories such as Learn something, Life hacks, and
 
  
 
-## Publishing artifacts
+## Publish artifacts
 
 **To publish an artifact:**
 
@@ -74,13 +74,13 @@ Artifacts are organized into categories such as Learn something, Life hacks, and
 
  
 
-### Embedding artifacts
+### Embed artifacts
 
 After publishing, you'll see a “Get embed code” button.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1781552700&signature=1bfcb9e75b56fba841d1f7789259dc820e4ab6b560feb8f84d02b39aafeb3f02&req=dSkiF892mYhZWfMW1HO4zdcpD1dX4AGGR8xgMH3ra8j51W1BkdhJUlNi0GC7%0ATppHtlhqHC%2F8Dxve28I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1781676000&signature=86cee5fec14be89616ac4b11b544a53ca4176a3ca4c001d3698d01a73110dd82&req=dSkiF892mYhZWfMW3nq%2BgQxRyjIgyrxwScdx3jtA%2BiDgnPDub0XGpjmbYqpm%0AjdDwCCcgIl0bfdp%2FO0Sxs75BK6A%3D%0A)
 
  
 
@@ -88,7 +88,7 @@ Click it to open a modal with automatically generated code you can copy and past
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1781552700&signature=b130f142fb5255b588869cd2a0c369d0067b5613a2e48af7c4f13f5bc62dc8aa&req=dSkiF892mIlZWfMW1HO4zcqH79iGzIZqf3CUbx4Ru6X3KfyVVAX%2Be06wx5lY%0AIjRdSA6gJAzuo%2B%2FCWqg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1781676000&signature=773ab57f0a408ddaa2a016714464290b949a191785ba6d65f6961c2fcc158bcc&req=dSkiF892mIlZWfMW3nq%2BgdMIqXCHpfjVUswVxhrsVKzUsg8SqqIoxIhqWOrR%0AtO0Zjm3gx3D0vt%2F9C5MjvlOFFD0%3D%0A)
 
  
 
@@ -96,7 +96,7 @@ You must specify which websites can embed your artifact by entering URLs in the 
 
  
 
-### Unpublishing artifacts
+### Unpublish artifacts
 
 After publishing an artifact, an “Unpublish” button appears, giving you the option to revoke access.
 
@@ -106,7 +106,7 @@ After publishing an artifact, an “Unpublish” button appears, giving you the 
 
  
 
-## Sharing artifacts within your organization
+## Share artifacts within your organization
 
 Artifacts created on Team or Enterprise accounts can only be shared within your organization—they cannot be published publicly.
 
@@ -119,7 +119,7 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 3. Click the “Share” button.
 4. Click “Share & copy link” to make this version shareable.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1781552700&signature=b542baa513dcbfadfa9647c92dec23cac0f6eb2008889a5698422cd3c3772071&req=dSkiF892nYBZWfMW1HO4zbvYOlDgKHuUK6hAzMpXfmMkMt1KKip%2FVbzlxbLd%0AZpOTf%2BqOoIsGW6b0rFw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1781676000&signature=2934afd072312dbf0d314da557615ea854af956dcd61fe89d1cb234fe259221c&req=dSkiF892nYBZWfMW3nq%2BgTxzBck2wPDyO%2BZZKxojvpntXAWjL%2FpPD1n9lxQT%0AO77ZA08dMzugZlAd9Z7eaMNibDA%3D%0A)
 
  
 
@@ -130,20 +130,20 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 - If the artifact was created from a project, viewers must also have access to that project.
 -  
 
-### Sharing artifacts with attachments
+### Share artifacts with attachments
 
 When you share an artifact, viewers also gain access to any attachments and files in the conversation that created it. Consider this before sharing artifacts from conversations containing sensitive documents.
 
  
 
-### Unsharing artifacts
+### Unshare artifacts
 
 **To unshare an artifact:**
 
 1. Click the “Share” button in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click “Unshare.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1781552700&signature=fa328c89dfe7796ef917fd2faba2546ac2114ac35379c4f84045d9902cba95d7&req=dSkiF895m4hdXvMW1HO4zW9Ewgi4%2FHa0gj8mTHivCKYKAt8ub7dlYUCFwo7G%0AbmTkseWTvudwezKTSck%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1781676000&signature=69f717e3d3acfc985347bfffd643866f53b215085055efb39a85fd83343ee46b&req=dSkiF895m4hdXvMW3nq%2BgYEYQxJAK7qknUhxKTaHQUW4x5SaqM16ELFsA3QP%0A9O2bNH%2FylIgeTQbF0fSqqafa2dg%3D%0A)
 
  
 
@@ -151,7 +151,7 @@ When you share an artifact, viewers also gain access to any attachments and file
 
  
 
-## Customizing artifacts
+## Customize artifacts
 
 Customizing allows you to build upon and modify artifacts created by others:
 
@@ -172,7 +172,7 @@ Customizing allows you to build upon and modify artifacts created by others:
 
  
 
-## Learn More
+## Learn more
 
 For information about creating artifacts, AI-powered capabilities, MCP integration, and persistent storage, see **[What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)**
 
@@ -182,7 +182,7 @@ For information about creating artifacts, AI-powered capabilities, MCP integrati
 ## Related Articles
 
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
-- [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
-- [Sharing and Unsharing Chats](https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats)
-- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [Share and unshare chats](https://support.claude.com/en/articles/10593882-share-and-unshare-chats)
+- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

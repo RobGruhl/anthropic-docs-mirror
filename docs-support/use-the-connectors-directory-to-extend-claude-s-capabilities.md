@@ -1,6 +1,6 @@
 # Use connectors to extend Claude's capabilities
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -182,6 +182,10 @@ All data transfers are encrypted. When using connectors, you can only sync conte
 
  
 
+Connected services process data on their own infrastructure, under their own terms, which may be located outside the United States. Settings that control where Claude's inference runs, like the US-only inference setting on Enterprise plans, don't change where third-party services operate.
+
+ 
+
 When connecting to services from the directory, review what access the service is requesting during the connection process. Disconnect services you no longer need or use.
 
  
@@ -232,5 +236,5 @@ To resolve this, you can either allowlist Anthropic's IP ranges in your firewall
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
-- [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
+- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)

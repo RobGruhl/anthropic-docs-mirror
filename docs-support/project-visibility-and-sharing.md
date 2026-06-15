@@ -11,7 +11,7 @@ When creating a project on a Team or Enterprise plan, you can choose between two
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1781552700&signature=f30faf77780e3a3e1c7860b4d1e6d8419da2677c1e2c813d2b907d586d2cb9a2&req=dScjFsp5nYhWWPMW1HO4zd3a2V0hIYygHK95%2FTFaPym2cBPK7oDkXtLbs4Ku%0AvIpKrdJ%2BUd8ORNAhvzM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1781562600&signature=4a92755fc71e876775d78096516bd5d436e0ee480b929505151943dd01a35376&req=dScjFsp5nYhWWPMW1HO4zd3a2V0hIoyhHK95%2FTFaPykAu%2BkgiH6ULtkDdNcV%0A0PPKTdpoT4e3xobMYIk%3D%0A)
 
  
 
@@ -27,7 +27,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1781552700&signature=cee361c1e11832e7b29cfa0d79d9fa28ddfd30392837530c9c0a50b6af160475&req=dScjFsp5nYhXXvMW1HO4zUiDoijyhAQuE8Kp5wh0MSBRG2I%2FP56OQYrPs4q%2F%0AYhkm9zRTk2sGWC7ZTko%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1781562600&signature=358326da277e81ed338d865d809ea2e947e8f9cf6a31cadc51517cf93ea3e904&req=dScjFsp5nYhXXvMW1HO4zUiDoijyhwQvE8Kp5wh0MSAjtvVsbCgqOcjnj4w7%0APtpvFvMNO%2Fpwg6l%2FiRE%3D%0A)
 
  
 
@@ -35,7 +35,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1781552700&signature=4ca7846b5b6d6701e340caffe7b2a0e51223dabdd3aa16ae0249c5629d8c4dc6&req=dScjFsp5nYhXUfMW1HO4zckCIfNnZyCjl3XeGelDRW2vZ4bUp0F9R4FRp3d8%0A4VcNi%2B1ObfjP4rhmxnk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1781562600&signature=af007c746943a8e5028f0ef82e595f28c29068c3f37452331476c8df78caa5c9&req=dScjFsp5nYhXUfMW1HO4zckCIfNnZCCil3XeGelDRW2os3gaswB%2BQNEuXPU5%0AHGyLvYUqjWkttMtQvFI%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1781552700&signature=673ba981f66ee529b1e8e530486360a6185d3b9b2f69294aff18642416ea4fd5&req=dScjFsp5nYhXUPMW1HO4zaSEGlKZT7oK2JrJefVtywlwwSgbh%2B90t%2FsPUxCd%0ALmNouT5gty9AkKkT4YE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1781562600&signature=19c56f371188bfc6b972de62afc299e28ec4c0dae0f5dd878a07f7281dfe2269&req=dScjFsp5nYhXUPMW1HO4zaSEGlKZTLoL2JrJefVtywnLSXbn8x3Z%2BBt8phY8%0AuteUVC0ll190JrsP%2Bb8%3D%0A)
 
  
 
@@ -59,7 +59,7 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1781552700&signature=133e1a301fc09334d5d45c6057c2a323c50065048a46d865f4dc3a862808fe25&req=dScjFsp5nYhWWfMW1HO4zT7Q08m%2BuA4RAmYRPrgMBZm%2Bj11klCfbqE%2B%2BUBs3%0Ab0wvJ7ZSQ5qiiWilJM4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1781562600&signature=e891dddf5ff3890801155a208153688af2bf8edf117697b4f03c4a22cd5f2713&req=dScjFsp5nYhWWfMW1HO4zT7Q08m%2Buw4QAmYRPrgMBZmzldHLdnNJ3ZaJS3aQ%0AYmfLGuCzf6OFw9Dzy%2FM%3D%0A)
 
  
 
@@ -90,7 +90,7 @@ You can add multiple users at once by copying and pasting a list of email addres
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1781552700&signature=d42035c25dcd661a6238a01f9995d170bcb4a68be363220e7d66d05c255c1111&req=dScjFsp5nYhWW%2FMW1HO4zb8C13zRSwK03jdyj4AFq6ZY5EQg6J0fmEQPaQ3x%0Aml0jEJjir0stb6eO0tY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1781562600&signature=4868e8dffcfbf6e590ea92093c75067f6c0f211ce4cb1b4473f05209bd5c2a91&req=dScjFsp5nYhWW%2FMW1HO4zb8C13zRSAK13jdyj4AFq6axvbP94rKX9Q%2BWlf7K%0AEXZXcpxUz0gwdeWVB78%3D%0A)
 
  
 
@@ -144,5 +144,5 @@ The chat snapshot includes all messages that were sent prior to sharing the chat
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Disable public projects for your organization](https://support.claude.com/en/articles/9927533-disable-public-projects-for-your-organization)
-- [Sharing and Unsharing Chats](https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats)
+- [Share and unshare chats](https://support.claude.com/en/articles/10593882-share-and-unshare-chats)
 - [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)

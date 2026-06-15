@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -35,13 +35,14 @@ Common examples of artifact content include:
 
  
 
-## Enabling or disabling artifacts
+## Enable or disable artifacts
 
 To adjust your artifacts preferences:
 
 1. Click your initials or name in the lower left corner.
 2. Navigate to **[Settings > Capabilities](https://claude.ai/settings/capabilities)**.
 3. Find **Artifacts** and toggle it on or off.
+4. If toggling **Artifacts** on, you'll also need to enable **Code execution and file creation** to create and use artifacts in the VM-based environment.
 
  
 
@@ -49,7 +50,7 @@ To adjust your artifacts preferences:
 
  
 
-## Accessing your artifacts
+## Access your artifacts
 
 You can access all your artifacts through the dedicated artifacts space in your Claude sidebar. This space allows you to:
 
@@ -63,7 +64,7 @@ You can access all your artifacts through the dedicated artifacts space in your 
 
  
 
-## Working with artifacts
+## Work with artifacts
 
 When Claude creates an artifact, you'll see the content displayed in a dedicated window to the right of the main chat.
 
@@ -112,7 +113,7 @@ You can build artifacts that embed AI capabilities, turning them into AI-powered
 
  
 
-### Creating AI-powered artifacts
+### Create AI-powered artifacts
 
 1. Describe what you want to Claude.
 2. Claude writes the code.
@@ -174,16 +175,14 @@ When you interact with an artifact that uses shared storage for the first time, 
 
 ## Learn more
 
-To share your artifacts publicly, embed them on websites, or discover artifacts created by others, see **[Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)**.
-
- 
+To share your artifacts publicly, embed them on websites, or discover artifacts created by others, see **[Publish and share artifacts](https://support.claude.com/en/articles/9547008)**.
 
 
 ---
 
 ## Related Articles
 
-- [Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)
+- [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)

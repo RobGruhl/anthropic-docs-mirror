@@ -1,6 +1,6 @@
-# Sharing and Unsharing Chats
+# Share and unshare chats
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -8,7 +8,7 @@ Learn how to create shareable links to your chats with Claude. While chats are a
 
  
 
-## Sharing Chats
+## Share chats
 
 To share a chat:
 
@@ -19,7 +19,7 @@ Once a chat has been shared, anyone with the link can view the chat snapshot. Th
 
  
 
-### Sharing Chats with Files or MCP Integrations
+### Share chats with files or MCP integrations
 
 When sharing chats that include uploaded files or MCP (Model Context Protocol) integrations, it's important to understand what information is included in the shared snapshot.
 
@@ -37,7 +37,7 @@ This ensures that sensitive information from your files and connected tools is p
 
  
 
-## Unsharing Chats
+## Unshare chats
 
 To unshare a chat:
 
@@ -47,13 +47,13 @@ To unshare a chat:
 
  
 
-## Managing Shared Chats
+## Manage shared chats
 
-Users on free, Pro, or Max plans can review a log of shared chats by navigating to [Settings > Privacy](https://claude.ai/settings/data-privacy-controls). Find the **Privacy settings** section and click “Manage” next to **Shared chats:**
+Users on free, Pro, or Max plans can review a log of shared chats by navigating to **[Settings > Privacy](https://claude.ai/settings/data-privacy-controls)**. Find the **Privacy settings** section and click “Manage” next to **Shared chats:**
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1781552700&signature=cfb78e00d3a3ce60f1e42e31ff5cb283cbda2528f03d5c91de4880d93afa79f4&req=dSklF894lIheWvMW1HO4zWn5HzIYZ0dsc9cNIYuX0GEkYjtMIzn95d6ZS5pq%0A7ImuliRjAtTEOtBzU48%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1781676000&signature=968c44fcdc984ac4eb33ec99d0dac77a31c21bd2fdf8c6c5b9d80ad9de817bd5&req=dSklF894lIheWvMW3nq%2Bgf%2BHUFYbgtEiql3jKjOzfKZtdW6IvizdC8hnfjlS%0A88BY9Abx37qlTs%2BKCxsGv0kwjzs%3D%0A)
 
  
 
@@ -61,7 +61,7 @@ This will open a **Shared chats** modal listing the title, date shared, and link
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1781552700&signature=b1d5e29b3393cdfc7ac8ae7764553626eff6d92c3749b4d036af5c43072325a8&req=dSYlEst6noleWfMW1HO4ze44eCZkkRA5guvTv9woD7bRX7Qar0M09wCOyzDF%0AhasYz89lDJBx0YLSwUk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1781676000&signature=023bff4a8f1bc2c198d30302fa0ddd4a48603cffcd02cd244fd40e5c0fb4184e&req=dSYlEst6noleWfMW3nq%2BgRse9HKnluFawBfgQ8VJ8zcVdYoMK0mSbsgNEqsr%0AzC0q41OgVvnmobQsE6Q8fQOMg%2Fk%3D%0A)
 
  
 
@@ -69,7 +69,7 @@ If you don’t have any shared chat snapshots, the **Shared chats** modal will s
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1781552700&signature=5d695d26fde7af1950b48f29016c3a38518f4f31f42175d68c052c0f01d2b981&req=dSYlEst6nolfUfMW1HO4zdaFncRxhIu2DeZsm0Gz1HsvVlURDcF5UkZj678f%0AQ9jW5yFfsJJ2qz1tf0M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1781676000&signature=73bf419fc679c72fdebf3614b55c0b7796440566da9bed626cbdc5ff7ff91c67&req=dSYlEst6nolfUfMW3nq%2BgX8ECo7qw5WYJrzrJPHbnxq3c9fk1%2BQKDi%2B1MaKv%0Ak9rfSGej%2BEyoKQBjJsitvrtfqlY%3D%0A)
 
 
 ---
@@ -78,6 +78,6 @@ If you don’t have any shared chat snapshots, the **Shared chats** modal will s
 
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
-- [Publishing and sharing artifacts](https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts)
+- [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
 - [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)

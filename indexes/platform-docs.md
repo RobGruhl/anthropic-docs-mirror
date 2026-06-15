@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-15 19:21*
+*Last updated: 2026-06-15 21:56*
 Total documents: 1543
 ---
 ## Uncategorized (1543 documents)
@@ -3746,7 +3746,7 @@ Total documents: 1543
 ### intro
 **File:** `/platform-docs/intro.md`  
 **Source:** https://platform.claude.com/docs/en/intro  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-15  
 
 ### java__beta
 **File:** `/platform-docs/java__beta.md`  
@@ -4486,7 +4486,7 @@ Total documents: 1543
 ### manage-claude__analytics-api
 **File:** `/platform-docs/manage-claude__analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/analytics-api  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
@@ -4506,22 +4506,22 @@ Total documents: 1543
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-15  
 
 ### manage-claude__cmek-azure-key-vault
 **File:** `/platform-docs/manage-claude__cmek-azure-key-vault.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-15  
 
 ### manage-claude__cmek-google-cloud-kms
 **File:** `/platform-docs/manage-claude__cmek-google-cloud-kms.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-15  
 
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-15  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -4531,7 +4531,7 @@ Total documents: 1543
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  

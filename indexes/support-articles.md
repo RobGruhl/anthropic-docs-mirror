@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-15 19:21*
+*Last updated: 2026-06-15 21:56*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -296,7 +296,7 @@ Total documents: 267
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-14  
+**Updated:** 2026-06-15  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -351,7 +351,7 @@ Total documents: 267
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -426,7 +426,7 @@ Total documents: 267
 ### How am I billed for my Enterprise plan?
 **File:** `/docs-support/how-am-i-billed-for-my-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-15  
 
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
@@ -848,7 +848,7 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/11427875-public-vulnerability-reporting  
 **Updated:** 2026-02-20  
 
-### Publishing and sharing artifacts
+### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
 **Source:** https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts  
 **Updated:** 2026-06-15  
@@ -866,7 +866,7 @@ Total documents: 267
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
@@ -933,14 +933,14 @@ Total documents: 267
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
 **Updated:** 2026-06-15  
 
+### Share and unshare chats
+**File:** `/docs-support/sharing-and-unsharing-chats.md`  
+**Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
+**Updated:** 2026-06-15  
+
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console  
-**Updated:** 2026-06-15  
-
-### Sharing and Unsharing Chats
-**File:** `/docs-support/sharing-and-unsharing-chats.md`  
-**Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
 **Updated:** 2026-06-15  
 
 ### Styles are moving to skills
@@ -1051,7 +1051,7 @@ Total documents: 267
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-05-21  
+**Updated:** 2026-06-15  
 
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
@@ -1186,7 +1186,7 @@ Total documents: 267
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-15  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  

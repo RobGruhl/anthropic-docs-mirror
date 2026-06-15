@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -41,6 +41,8 @@ You're charged for the number of seats on your plan at the start of your annual 
 ## Usage billing
 
 On usage-based Enterprise plans, usage is charged separately from your seat fee and is based on actual token consumption at standard API rates. For current per-model pricing, see our **[API pricing page](https://www.anthropic.com/pricing#api)**.
+
+ 
 
  
 
