@@ -14675,10 +14675,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/handling-stop-reasons",
-      "hash": "75b8f67c00ead6e6e75698bd8c5a7599c116bd61f92b6db9a9433c7527be30f1",
+      "hash": "9f76c7b86444d9c3ef61982c7aa637caaf7c56790762204519e2f15041f090ff",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-09T18:41:07.091461"
+      "last_updated": "2026-06-15T16:36:02.402208"
     },
     "build-with-claude__mid-conversation-effort-example.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example",
@@ -15432,13 +15432,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-15T14:03:41.714489",
-    "fetch_duration_seconds": 37.250091,
+    "last_fetch_completed": "2026-06-15T16:36:02.421168",
+    "fetch_duration_seconds": 24.005978,
     "total_pages_discovered": 1698,
     "pages_fetched_successfully": 1543,
     "pages_failed": 155,
-    "pages_unchanged": 1543,
-    "pages_updated": 0,
+    "pages_unchanged": 1542,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -15611,5 +15611,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-15T14:03:41.714669"
+  "last_updated": "2026-06-15T16:36:02.421365"
 }

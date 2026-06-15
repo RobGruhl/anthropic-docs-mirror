@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-15 14:07*
+*Last updated: 2026-06-15 16:40*
 Total documents: 1543
 ---
 ## Uncategorized (1543 documents)
@@ -1226,7 +1226,7 @@ Total documents: 1543
 ### build-with-claude__handling-stop-reasons
 **File:** `/platform-docs/build-with-claude__handling-stop-reasons.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-15  
 
 ### build-with-claude__mid-conversation-effort-example
 **File:** `/platform-docs/build-with-claude__mid-conversation-effort-example.md`  
