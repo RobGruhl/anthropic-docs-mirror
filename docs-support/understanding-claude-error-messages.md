@@ -1,6 +1,6 @@
 # Troubleshoot Claude error messages
 
-*Updated over 3 weeks ago*
+*Updated over a month ago*
 
 ---
 
@@ -76,7 +76,7 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1781474400&signature=8005d69a1ff01315ce7f21e26d522bc0c8bcb6ba02b3d8d9f35ce043c2b2cdef&req=dSciFc53m4NbXvMW1HO4za4BXq4n1bbA7y68oYp%2BYg%2FQiQ%2B5GCdl2ha4ySQH%0AU5o1AJe69i80KNEBQ9A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1781486100&signature=4a9a9e47c832f11264025e98303f2cbbd8aac8d2883ba9533f7844c1b00a7d30&req=dSciFc53m4NbXvMW1HO4za4BXq4n2rTF7y68oYp%2BYg%2BYdEQZXV0xSflaOqbw%0AS%2BMKldPMSmJBn%2FgbTCg%3D%0A)
 
  
 
