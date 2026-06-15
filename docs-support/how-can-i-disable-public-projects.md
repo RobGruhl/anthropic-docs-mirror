@@ -13,7 +13,7 @@ Follow these steps:
 1. Navigate to **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)**.
 2. Find **Public projects** and toggle it off
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1781512200&signature=0163d2f5e5f4112cee6ae4c1d1614089852f83719d8b07e7308b02c102201e2b&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2ahagJdYabJlVJ9VPxL5E4i2kyt4IrttIBA%0AcF1kbyDNK6wGjK9xYyQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1781523000&signature=e184359422666e328d09948d50068762434e7d2004e7d59fea187f893057dd94&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2ahaQNfYabJlVJ9VPxnkxQAbxBkJE8e9NU7%0AHHVV389keCbM8RYX6fk%3D%0A)
 
  
 
