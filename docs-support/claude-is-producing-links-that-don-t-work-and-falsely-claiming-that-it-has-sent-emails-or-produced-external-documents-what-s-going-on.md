@@ -1,6 +1,6 @@
 # Claude is producing links that don’t work and falsely claiming that it has sent emails or produced external documents. What’s going on?
 
-*Updated over a week ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -9,3 +9,10 @@ In an attempt to be a helpful assistant, Claude can sometimes hallucinate its ca
  
 
 More information on hallucinations can be found [here](https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on). 
+
+
+---
+
+## Related Articles
+
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

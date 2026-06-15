@@ -14,7 +14,7 @@ Once the Compliance API is enabled, create new compliance access keys by clickin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1781543700&signature=4cf63e328299de90eb8d8ff46c91465969378eca8d60b34892dc992ee3d55b64&req=dSghEc5%2BnIJfWfMW1HO4zdjcO0k53c4ULb9AVN3cSSEHIKhh68n9HsW%2BJKdR%0A%2BmxgVaXt1Xk2ndhlV6A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1867701300/8a148e524f7ac2b1295d87005656/bd069690-3edf-4c51-ab66-09c73db81328?expires=1781552700&signature=5c19065724e007dce90fba215096e2353f721238bb21e90a656fe9165c8bc83b&req=dSghEc5%2BnIJfWfMW1HO4zdjcO0k53M8ULb9AVN3cSSG82vPdnq37ua4U0PVI%0AKr28qtbv%2F5j9eNMLRhk%3D%0A)
 
  
 
@@ -51,6 +51,6 @@ For setup instructions and endpoint details, see the **[Compliance API guide](ht
 
 - [Enforce network-level access control with Tenant Restrictions](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
-- [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 - [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)
 - [Get started with Claude Compliance API integrations](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)
+- [What are customer-managed encryption keys (CMEK)?](https://support.claude.com/en/articles/15505325-what-are-customer-managed-encryption-keys-cmek)

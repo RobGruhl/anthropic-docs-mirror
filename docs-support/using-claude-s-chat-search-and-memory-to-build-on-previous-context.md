@@ -1,6 +1,6 @@
 # Use Claude’s chat search and memory to build on previous context
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -44,7 +44,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1781542800&signature=a20e4acebfb74f40996a91167fe73c1cac00d2fea0993222b84e0d7d8d984535&req=dScmH859nYlXUPMW1HO4zRzXH141JzPKJG68qZhl782IpuGRPB2OFyhBiOK4%0AhU3XopliFx%2BmCL6dGgk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1781676000&signature=7af9a990b2911741468ef3ab2b740e5b1cdf33deb2e124746928b8339617a123&req=dScmH859nYlXUPMW3nq%2BgZWAenTwynm7QRCiEHajSERonq1XFz6h4BLVUmol%0A4phgrXn2V4VneEfRtdX0fWCd5y0%3D%0A)
 
  
 
@@ -54,7 +54,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1781542800&signature=b09a52135078342b6ff5a83f2cfa34a339d69147c9cab0a7190766eee3500016&req=dScmH859nYlWWvMW1HO4za54sKJpOISzXDpzhlKsgjPcpNhwILDUWRGpzOeh%0AH%2B3G82ehdJi8KgXBxXI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1781676000&signature=54f57627d34e5c348697306cc5a8ca6130159c5080c26a32496a525322232aa1&req=dScmH859nYlWWvMW3nq%2Bgf44pcp9q%2Bv1Mm11mzkyUm1ZAI2ttunKE8Y9tC7R%0AIc5Uwo1ALo%2ByegU9nmMBr4nXzuM%3D%0A)
 
  
 
@@ -96,7 +96,7 @@ You can toggle Claude’s memory on by navigating to [Settings > Capabilities](h
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1781542800&signature=135301e3ece153ceee213226dc0e99670fcee1e5b1010c42cd6433c6d4a97df3&req=dScmH859nYlWW%2FMW1HO4zTD5MMDjc%2BZNBq9N9dRTKYdfZsW6Cejn39IZ6een%0AIN%2BsA4f4KpyfTGhRp6k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1781676000&signature=039e5b9c3707d861f7fc0797571c043307a24f35e0797c32e7b1e250cbc8ea1b&req=dScmH859nYlWW%2FMW3nq%2BgRexfslS1XQ%2FUG%2FBdWCMNKM0BtFychYWaCu2hjNG%0A4tDoJ9xm6pWL%2BRff0AiYqIYu2UA%3D%0A)
 
  
 
@@ -213,6 +213,6 @@ Team plans do not have organization-level controls for memory features. Individu
 
 - [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
-- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
+- [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

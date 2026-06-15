@@ -130,6 +130,6 @@ You can re-enable it anytime you need current information.
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Change the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [MCP: Web Search](https://support.claude.com/en/articles/14503775-mcp-web-search)
+- [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)

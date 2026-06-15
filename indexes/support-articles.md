@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-15 16:40*
+*Last updated: 2026-06-15 19:21*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -126,7 +126,7 @@ Total documents: 267
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -211,7 +211,7 @@ Total documents: 267
 ### Claude in Chrome Troubleshooting
 **File:** `/docs-support/claude-in-chrome-troubleshooting.md`  
 **Source:** https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-15  
 
 ### Claude in Chrome admin controls
 **File:** `/docs-support/claude-in-chrome-admin-controls.md`  
@@ -221,12 +221,12 @@ Total documents: 267
 ### Claude is producing links that don’t work and falsely claiming that it has sent emails or produced external documents. What’s going on?
 **File:** `/docs-support/claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on  
-**Updated:** 2026-02-18  
+**Updated:** 2026-06-15  
 
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-15  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -616,7 +616,7 @@ Total documents: 267
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-15  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -791,7 +791,7 @@ Total documents: 267
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-15  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -806,7 +806,7 @@ Total documents: 267
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
 **Source:** https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-15  
 
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
@@ -861,7 +861,7 @@ Total documents: 267
 ### Purchase and manage seats on Team plans
 **File:** `/docs-support/purchasing-and-managing-seats-on-team-plans.md`  
 **Source:** https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats-on-team-plans  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-15  
 
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
@@ -1016,7 +1016,7 @@ Total documents: 267
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-15  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
@@ -1211,7 +1211,7 @@ Total documents: 267
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-15  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1226,7 +1226,7 @@ Total documents: 267
 ### What is the Enterprise plan?
 **File:** `/docs-support/what-is-the-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan  
-**Updated:** 2026-06-04  
+**Updated:** 2026-06-15  
 
 ### What is the External Researcher Access Program?
 **File:** `/docs-support/what-is-the-external-researcher-access-program.md`  
@@ -1301,7 +1301,7 @@ Total documents: 267
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-15  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
@@ -1311,7 +1311,7 @@ Total documents: 267
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-06-14  
+**Updated:** 2026-06-15  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  

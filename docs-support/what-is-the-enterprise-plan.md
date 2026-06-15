@@ -27,6 +27,7 @@ Enterprise includes everything in the Team plan, plus the following:
 - **Custom data retention controls**
 - **Compliance API:** programmatically access Claude usage data including activity logs, chat histories, and file content, with filtering capabilities by user and time range.
 - **Analytics API:** Programmatically access aggregated engagement and adoption metrics for your organization.
+- **Customer-managed encryption keys:** Provision an encryption key in your own cloud provider that your organization controls, and have Anthropic use it to protect your team's chats, projects, and files in Claude.
 - **Usage-based pricing**
 - - The seat fee only covers access to the platform and doesn't include any usage. All usage across Claude, Claude Code, and Cowork is billed separately at standard API rates, based on what your team actually consumes. There are no per-seat usage limits and no included token allowance.
 - Admins can set spend limits at the organization and individual user levels to manage costs.
