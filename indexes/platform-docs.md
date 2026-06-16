@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-16 16:38*
-Total documents: 1543
+*Last updated: 2026-06-16 19:16*
+Total documents: 1544
 ---
-## Uncategorized (1543 documents)
+## Uncategorized (1544 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -4572,6 +4572,11 @@ Total documents: 1543
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/rate-limits-api  
 **Updated:** 2026-05-28  
+
+### manage-claude__spend-limits-api
+**File:** `/platform-docs/manage-claude__spend-limits-api.md`  
+**Source:** https://platform.claude.com/docs/en/manage-claude/spend-limits-api  
+**Updated:** 2026-06-16  
 
 ### manage-claude__usage-cost-api
 **File:** `/platform-docs/manage-claude__usage-cost-api.md`  

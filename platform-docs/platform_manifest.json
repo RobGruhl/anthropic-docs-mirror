@@ -15050,6 +15050,16 @@
       "last_modified": null,
       "last_updated": "2026-05-28T18:49:18.762683"
     },
+    "manage-claude__spend-limits-api.md": {
+      "original_url": "https://platform.claude.com/docs/en/manage-claude/spend-limits-api",
+      "original_md_url": "https://platform.claude.com/docs/en/manage-claude/spend-limits-api.md",
+      "category": "developer-guide",
+      "path": "/docs/en/manage-claude/spend-limits-api",
+      "hash": "f4ee027537f0564da9f32c76581d235afbfed79ea8b9e8775e9c2bbfae645943",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-06-16T19:10:59.851108"
+    },
     "manage-claude__usage-cost-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md",
@@ -15432,14 +15442,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-16T16:32:46.415421",
-    "fetch_duration_seconds": 31.165264,
-    "total_pages_discovered": 1698,
-    "pages_fetched_successfully": 1543,
+    "last_fetch_completed": "2026-06-16T19:10:59.859317",
+    "fetch_duration_seconds": 27.131023,
+    "total_pages_discovered": 1699,
+    "pages_fetched_successfully": 1544,
     "pages_failed": 155,
     "pages_unchanged": 1543,
     "pages_updated": 0,
-    "pages_new": 0,
+    "pages_new": 1,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/admin/federation_issuers",
@@ -15599,7 +15609,7 @@
       "/docs/en/api/terraform/models/retrieve"
     ],
     "by_category": {
-      "developer-guide": 134,
+      "developer-guide": 135,
       "api-reference": 1409,
       "resources": 0
     },
@@ -15611,5 +15621,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-16T16:32:46.415593"
+  "last_updated": "2026-06-16T19:10:59.859514"
 }
