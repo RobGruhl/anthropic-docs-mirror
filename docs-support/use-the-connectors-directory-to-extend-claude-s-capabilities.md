@@ -233,8 +233,8 @@ To resolve this, you can either allowlist Anthropic's IP ranges in your firewall
 
 ## Related Articles
 
+- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
-- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
