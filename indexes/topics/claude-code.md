@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-16 07:57*
+*Last updated: 2026-06-16 10:39*
 
-Documents related to Claude Code across all sources (244 documents)
+Documents related to Claude Code across all sources (245 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -171,7 +171,7 @@ Documents related to Claude Code across all sources (244 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (76)
+## Claude.com Blog Posts (77)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
@@ -228,6 +228,7 @@ Documents related to Claude Code across all sources (244 documents)
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
+- [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Observability for developers building connectors](/claude-blog/observability-for-developers-building-connectors.md) - ![](https://cdn
 - [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn

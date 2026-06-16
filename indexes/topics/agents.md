@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-06-16 07:57*
+*Last updated: 2026-06-16 10:39*
 
-Documents related to Agents across all sources (129 documents)
+Documents related to Agents across all sources (130 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,7 +64,7 @@ Documents related to Agents across all sources (129 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (72)
+## Claude.com Blog Posts (73)
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
@@ -115,6 +115,7 @@ Documents related to Agents across all sources (129 documents)
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
+- [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
 - [New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration](/claude-blog/new-in-claude-managed-agents.md) - ![](https://cdn
