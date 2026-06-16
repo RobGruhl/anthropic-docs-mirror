@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-16 19:16*
+*Last updated: 2026-06-16 21:56*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -196,7 +196,7 @@ Total documents: 267
 ### Claude for Nonprofits Partnership Guide for All Users
 **File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
 **Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-16  
 
 ### Claude for Nonprofits Partnership Success Guide for Admins
 **File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
@@ -226,7 +226,7 @@ Total documents: 267
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-16  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -1241,7 +1241,7 @@ Total documents: 267
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-16  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
@@ -1326,7 +1326,7 @@ Total documents: 267
 ### Why can’t I find Claude for Android in the Play Store?
 **File:** `/docs-support/why-can-t-i-find-claude-for-android-in-the-play-store.md`  
 **Source:** https://support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-16  
 
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  

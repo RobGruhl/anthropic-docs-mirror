@@ -15442,14 +15442,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-16T19:10:59.859317",
-    "fetch_duration_seconds": 27.131023,
+    "last_fetch_completed": "2026-06-16T21:51:32.145986",
+    "fetch_duration_seconds": 62.777962,
     "total_pages_discovered": 1699,
     "pages_fetched_successfully": 1544,
     "pages_failed": 155,
-    "pages_unchanged": 1543,
+    "pages_unchanged": 1544,
     "pages_updated": 0,
-    "pages_new": 1,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/admin/federation_issuers",
@@ -15621,5 +15621,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-16T19:10:59.859514"
+  "last_updated": "2026-06-16T21:51:32.146176"
 }

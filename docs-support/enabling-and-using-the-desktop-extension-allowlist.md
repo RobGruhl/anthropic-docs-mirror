@@ -59,7 +59,7 @@ If you want to remove an extension from the allowlist, click the “...” butto
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1781639100&signature=08573ebd5be1b528b8f08bcdcb6bf7eccc9d2df79118e4fa43d649907780586b&req=dScvF857nINaWfMW1HO4zTrxBakv%2FF6UqXridZhfx1JqBBHfY2jgF2LZSdJC%0Atd%2B0kGdVrn1rONx0dBI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1781649000&signature=cae11a75351bb3c82172a0a453d373efac8d615795ae4a475eed2fb43d57f7ce&req=dScvF857nINaWfMW1HO4zTrxBakv%2B16VqXridZhfx1Ib%2BktXjwstiNlf6gMi%0ABf7%2BxHIXam0x8Vf739o%3D%0A)
 
  
 
@@ -91,6 +91,6 @@ You can update a new MCPB version by making changes to manifest.json, ensuring t
 
 - [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
+- [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Deploying enterprise-grade MCP servers with desktop extensions](https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions)
-- [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
