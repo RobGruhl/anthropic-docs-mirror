@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-16 13:41*
+*Last updated: 2026-06-16 16:38*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -321,7 +321,7 @@ Total documents: 267
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-16  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -656,7 +656,7 @@ Total documents: 267
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-16  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -1196,7 +1196,7 @@ Total documents: 267
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-16  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
