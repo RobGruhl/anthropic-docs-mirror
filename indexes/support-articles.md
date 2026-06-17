@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-06-17 16:20*
-Total documents: 267
+*Last updated: 2026-06-17 18:52*
+Total documents: 261
 ---
-## Uncategorized (267 documents)
+## Uncategorized (261 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -192,16 +192,6 @@ Total documents: 267
 **File:** `/docs-support/claude-enterprise-analytics-api-reference-guide.md`  
 **Source:** https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide  
 **Updated:** 2026-06-17  
-
-### Claude for Nonprofits Partnership Guide for All Users
-**File:** `/docs-support/claude-for-nonprofits-partnership-guide-for-all-users.md`  
-**Source:** https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users  
-**Updated:** 2026-06-17  
-
-### Claude for Nonprofits Partnership Success Guide for Admins
-**File:** `/docs-support/claude-for-nonprofits-partnership-success-guide-for-admins.md`  
-**Source:** https://support.claude.com/en/articles/12923668-claude-for-nonprofits-partnership-success-guide-for-admins  
-**Updated:** 2026-06-02  
 
 ### Claude in Chrome Permissions Guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -407,11 +397,6 @@ Total documents: 267
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
 **Source:** https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop  
 **Updated:** 2026-06-17  
-
-### Getting started with Claude for Nonprofits
-**File:** `/docs-support/getting-started-with-claude-for-nonprofits.md`  
-**Source:** https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits  
-**Updated:** 2026-06-08  
 
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
@@ -1137,21 +1122,6 @@ Total documents: 267
 **File:** `/docs-support/using-incognito-chats.md`  
 **Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
 **Updated:** 2026-06-17  
-
-### Using the Benevity Connector in Claude
-**File:** `/docs-support/using-the-benevity-connector-in-claude.md`  
-**Source:** https://support.claude.com/en/articles/12923227-using-the-benevity-connector-in-claude  
-**Updated:** 2026-05-17  
-
-### Using the Blackbaud Connector in Claude
-**File:** `/docs-support/using-the-blackbaud-connector-in-claude.md`  
-**Source:** https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude  
-**Updated:** 2026-06-08  
-
-### Using the Candid Connector in Claude
-**File:** `/docs-support/using-the-candid-connector-in-claude.md`  
-**Source:** https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude  
-**Updated:** 2026-06-02  
 
 ### Using the Claude Widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  

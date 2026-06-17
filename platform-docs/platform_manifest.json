@@ -15455,10 +15455,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/analytics-api",
-      "hash": "ca916be2667ea97fe6b77c7dd20149c0488495b45c61af41e13e4bf95c839124",
+      "hash": "30a74026e4f46e103c32346f4b3a7a668d2cef1d8b9753d76af4a18abd246fde",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-15T21:51:45.915848"
+      "last_updated": "2026-06-17T18:46:36.301169"
     },
     "manage-claude__api-and-data-retention.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
@@ -15485,10 +15485,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/claude-code-analytics-api",
-      "hash": "132906d62bec683d5c56c927f0cf0dce503b77b86f80987a9ba2ddee62ef8776",
+      "hash": "d40066e6637ab2c3ebe4220e15e4e556cb6e68645ec924cd938ae439cbaf682b",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-13T04:29:49.382324"
+      "last_updated": "2026-06-17T18:46:36.301567"
     },
     "manage-claude__cmek.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek",
@@ -15645,10 +15645,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/usage-cost-api",
-      "hash": "a688755482cfe34880d4e406a3a16bf7e8f279911ae03f471760a466a465d094",
+      "hash": "8784bdcb0d5388c4599267698ed4f3af4d20ab311a41a3f56ab0f4a0e5cd664f",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-13T04:29:49.384017"
+      "last_updated": "2026-06-17T18:46:36.303696"
     },
     "manage-claude__wif-admin-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-admin-api",
@@ -16022,13 +16022,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-17T16:16:16.398900",
-    "fetch_duration_seconds": 27.764741,
+    "last_fetch_completed": "2026-06-17T18:46:36.315145",
+    "fetch_duration_seconds": 24.839087,
     "total_pages_discovered": 1751,
     "pages_fetched_successfully": 1602,
     "pages_failed": 149,
-    "pages_unchanged": 1602,
-    "pages_updated": 0,
+    "pages_unchanged": 1599,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16195,5 +16195,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-17T16:16:16.399087"
+  "last_updated": "2026-06-17T18:46:36.315332"
 }
