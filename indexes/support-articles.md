@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-17 18:52*
+*Last updated: 2026-06-17 21:43*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -106,7 +106,7 @@ Total documents: 261
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
 **Source:** https://support.claude.com/en/articles/9002504-can-claude-produce-images  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-17  
 
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
@@ -261,7 +261,7 @@ Total documents: 261
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-06-14  
+**Updated:** 2026-06-17  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -866,7 +866,7 @@ Total documents: 261
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-17  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -1001,7 +1001,7 @@ Total documents: 261
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-17  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
@@ -1161,7 +1161,7 @@ Total documents: 261
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-17  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  

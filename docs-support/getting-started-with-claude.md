@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1781723700&signature=404626aa1f96a3920e1f764082818db11334034a7ba3a357edecad47a92bab4c&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7S7NtoSG9crMELaMZPxoUVee2N5gI4uuX2vk%0A2oUUGyTSZ3qceLKZHJg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1781733600&signature=556397349897174ada38b1c02490fe05c6c95aa5ebb5554b5c7edd02327077f3&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7S7Nt4SH9crMELaMZPy0ttb5Bn5Bj%2FfQUcOO%0ABh42H9%2FFNqQigjtVYj8%3D%0A)
 
  
 
@@ -134,4 +134,4 @@ Once you've started using Claude, you can:
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
-- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
+- [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)

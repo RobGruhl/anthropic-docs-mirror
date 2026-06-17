@@ -20,7 +20,7 @@ Claude can also view and analyze images you upload. For more, see **[Uploading f
 ## Related Articles
 
 - [Upload files to Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude)
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
 - [Visual and interactive content](https://support.claude.com/en/articles/13641943-visual-and-interactive-content)
 - [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)
+- [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
