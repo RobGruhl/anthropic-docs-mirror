@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-17 00:41*
+*Last updated: 2026-06-17 04:34*
 Total documents: 1602
 ---
 ## Uncategorized (1602 documents)
@@ -1591,7 +1591,7 @@ Total documents: 1602
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/working-with-messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-17  
 
 ### cli__beta
 **File:** `/platform-docs/cli__beta.md`  

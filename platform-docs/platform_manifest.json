@@ -15405,10 +15405,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/working-with-messages",
-      "hash": "4b923222f551081fb00b9585f475a13458e6731f5c51a6027f6b683ce445425d",
+      "hash": "f24ab2ff0a528fedbbfe2eae517ac0e7e03d5be5fbffebb3ce30082fc386897f",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-09T18:41:07.094978"
+      "last_updated": "2026-06-17T04:30:59.940648"
     },
     "get-started.md": {
       "original_url": "https://platform.claude.com/docs/en/get-started",
@@ -16022,14 +16022,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-17T00:36:52.519973",
-    "fetch_duration_seconds": 26.876332,
+    "last_fetch_completed": "2026-06-17T04:30:59.953942",
+    "fetch_duration_seconds": 23.844456,
     "total_pages_discovered": 1751,
     "pages_fetched_successfully": 1602,
     "pages_failed": 149,
-    "pages_unchanged": 1532,
-    "pages_updated": 12,
-    "pages_new": 58,
+    "pages_unchanged": 1601,
+    "pages_updated": 1,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/csharp/completions",
@@ -16195,5 +16195,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-17T00:36:52.520151"
+  "last_updated": "2026-06-17T04:30:59.954139"
 }
