@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1781672400&signature=dddef8410d6a677bb02a1f7237096872b11af7380d3c40ac9449315b7e5fb35e&req=diAjFMp7n4FZWfMW1HO4zU6VRfzMT75txNdRzYWrfF6oBh%2BhGgGz%2FmB1qz7v%0ApC1ILZfYMVr%2B5AEvIys%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1781684100&signature=dfd30361a46780ff70cb3b999cee7f22138a7970cc5d906ddfdcbf23041b16af&req=diAjFMp7n4FZWfMW1HO4zU6VRfzMQLhoxNdRzYWrfF4m%2BUdIW%2F%2BB1k9LKyOQ%0AaCGtxoX5WNLAUQ6k5DQ%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1781672400&signature=d097ceba2d03676b71b85ae3c738081c6928a97bbd46d518058e5c5cd7f76764&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGuTZ1IOy8OQfYsvK3z0ho%2BiwS2ij%2BwpSfj%2F%0AUbaxqDRTvzaU6tKJDFk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1781684100&signature=410d4697fe17d6cc92b7f3f2c80033dc3d3bb13aca969dc7aca61e3e532e0fce&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGuTaFQLy8OQfYsvK3xN0PCaYNJWhzu6kT8%2B%0Aeu8B1CPS62Dygsd44Xs%3D%0A)
 
  
 

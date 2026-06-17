@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-17 04:34*
+*Last updated: 2026-06-17 07:48*
 Total documents: 267
 ---
 ## Uncategorized (267 documents)
@@ -851,7 +851,7 @@ Total documents: 267
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
 **Source:** https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-17  
 
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
@@ -936,7 +936,7 @@ Total documents: 267
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
 **Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-17  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
@@ -1056,7 +1056,7 @@ Total documents: 267
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
 **Source:** https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-17  
 
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
