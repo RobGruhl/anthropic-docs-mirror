@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-18 18:56*
+*Last updated: 2026-06-18 21:44*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
@@ -2331,22 +2331,22 @@ Total documents: 1603
 ### compliance
 **File:** `/platform-docs/compliance.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__activities__list
 **File:** `/platform-docs/compliance__activities__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps
 **File:** `/platform-docs/compliance__apps.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__artifacts
 **File:** `/platform-docs/compliance__apps__artifacts.md`  
@@ -2366,7 +2366,7 @@ Total documents: 1603
 ### compliance__apps__chats
 **File:** `/platform-docs/compliance__apps__chats.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__chats__delete
 **File:** `/platform-docs/compliance__apps__chats__delete.md`  
@@ -2396,7 +2396,7 @@ Total documents: 1603
 ### compliance__apps__chats__generated_files
 **File:** `/platform-docs/compliance__apps__chats__generated_files.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__chats__generated_files__download
 **File:** `/platform-docs/compliance__apps__chats__generated_files__download.md`  
@@ -2406,37 +2406,37 @@ Total documents: 1603
 ### compliance__apps__chats__generated_files__retrieve
 **File:** `/platform-docs/compliance__apps__chats__generated_files__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/retrieve  
-**Updated:** 2026-05-22  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__chats__list
 **File:** `/platform-docs/compliance__apps__chats__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/list  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__chats__messages
 **File:** `/platform-docs/compliance__apps__chats__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/messages  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__chats__messages__list
 **File:** `/platform-docs/compliance__apps__chats__messages__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/messages/list  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__projects
 **File:** `/platform-docs/compliance__apps__projects.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__projects__attachments
 **File:** `/platform-docs/compliance__apps__projects__attachments.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__projects__attachments__list
 **File:** `/platform-docs/compliance__apps__projects__attachments__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments/list  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__projects__collaborators
 **File:** `/platform-docs/compliance__apps__projects__collaborators.md`  
@@ -2476,7 +2476,7 @@ Total documents: 1603
 ### compliance__apps__projects__list
 **File:** `/platform-docs/compliance__apps__projects__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/list  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-18  
 
 ### compliance__apps__projects__retrieve
 **File:** `/platform-docs/compliance__apps__projects__retrieve.md`  
@@ -2536,7 +2536,7 @@ Total documents: 1603
 ### compliance__organizations
 **File:** `/platform-docs/compliance__organizations.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__organizations__list
 **File:** `/platform-docs/compliance__organizations__list.md`  
@@ -2571,12 +2571,12 @@ Total documents: 1603
 ### compliance__organizations__settings
 **File:** `/platform-docs/compliance__organizations__settings.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__organizations__settings__retrieve
 **File:** `/platform-docs/compliance__organizations__settings__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### compliance__organizations__users
 **File:** `/platform-docs/compliance__organizations__users.md`  
