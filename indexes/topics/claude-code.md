@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-18 00:41*
+*Last updated: 2026-06-18 04:35*
 
-Documents related to Claude Code across all sources (245 documents)
+Documents related to Claude Code across all sources (248 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -171,7 +171,7 @@ Documents related to Claude Code across all sources (245 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (77)
+## Claude.com Blog Posts (80)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
@@ -190,6 +190,7 @@ Documents related to Claude Code across all sources (245 documents)
 - [Claude Code on the web](/claude-blog/claude-code-on-the-web.md) - ![](https://cdn
 - [Claude Code power user customization: How to configure hooks](/claude-blog/how-to-configure-hooks.md) - ![](https://cdn
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
+- [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
 - [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
@@ -228,6 +229,7 @@ Documents related to Claude Code across all sources (245 documents)
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
+- [Meet the winners of our Claude Opus 4.8 Build Day hackathon](/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Observability for developers building connectors](/claude-blog/observability-for-developers-building-connectors.md) - ![](https://cdn
 - [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
@@ -238,6 +240,7 @@ Documents related to Claude Code across all sources (245 documents)
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
+- [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn

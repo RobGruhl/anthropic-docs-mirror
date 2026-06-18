@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-06-18 00:41*
+*Last updated: 2026-06-18 04:35*
 
-Documents related to Tools across all sources (82 documents)
+Documents related to Tools across all sources (83 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,12 +40,13 @@ Documents related to Tools across all sources (82 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (49)
+## Claude.com Blog Posts (50)
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
+- [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude and your productivity platforms](/claude-blog/productivity-platforms.md) - ![](https://cdn

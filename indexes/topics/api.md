@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-06-18 00:41*
+*Last updated: 2026-06-18 04:35*
 
-Documents related to Api across all sources (143 documents)
+Documents related to Api across all sources (145 documents)
 ---
 ## Platform Documentation (platform.claude.com) (99)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -104,7 +104,7 @@ Documents related to Api across all sources (143 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (44)
+## Claude.com Blog Posts (46)
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
@@ -114,6 +114,7 @@ Documents related to Api across all sources (143 documents)
 - [Claude 2 on Amazon Bedrock](/claude-blog/claude-2-amazon-bedrock.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
+- [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Developer Platform の構造化出力](/claude-blog/structured-outputs-on-the-claude-developer-platform.md) - ![](https://cdn
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude Sonnet 4 now supports 1M tokens of context](/claude-blog/1m-context.md) - ![](https://cdn
@@ -141,6 +142,7 @@ Documents related to Api across all sources (143 documents)
 - [Preparing your security program for AI-accelerated offense](/claude-blog/preparing-your-security-program-for-ai-accelerated-offense.md) - ![](https://cdn
 - [Product management on the AI exponential](/claude-blog/product-management-on-the-ai-exponential.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
+- [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
