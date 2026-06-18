@@ -1,6 +1,6 @@
 # Roles and permissions
 
-*Updated over 2 weeks ago*
+*Updated in the last hour*
 
 ---
 
@@ -8,7 +8,7 @@ What an individual can see and do in their Team or Enterprise plan account is di
 
  
 
-**About custom roles (Enterprise plans only):** Enterprise plans support custom roles, which let you control feature access at the group level. Members who are set to “Custom roles” have no default permissions—their access is determined entirely by the custom roles assigned to their groups. Because these members have no built-in permissions, they don't appear in the tables below.
+**About custom roles (Enterprise plans only):** Enterprise plans support custom roles, which let you control feature access at the group level. Members with roles set to “Custom” have no default permissions—their access is determined entirely by the custom roles assigned to their groups. Because these members have no built-in permissions, they don't appear in the tables below.
 
  
 
