@@ -1,7 +1,7 @@
 # Mcp Topic Index
-*Last updated: 2026-06-18 16:19*
+*Last updated: 2026-06-18 18:56*
 
-Documents related to Mcp across all sources (242 documents)
+Documents related to Mcp across all sources (243 documents)
 ---
 ## Platform Documentation (platform.claude.com) (32)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
@@ -237,8 +237,9 @@ Documents related to Mcp across all sources (242 documents)
 - [Desktop Extensions: One-click MCP server installation for Claude Desktop](/engineering-blog/desktop-extensions.md) - Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (9)
+## Claude.com Blog Posts (10)
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
+- [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
 - [Claude can now connect to your world](/claude-blog/integrations.md) - ![](https://cdn
 - [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Discover tools that work with Claude](/claude-blog/connectors-directory.md) - ![](https://cdn

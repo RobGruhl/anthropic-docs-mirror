@@ -1,10 +1,14 @@
 # What are artifacts and how do I use them?
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
 Artifacts allow you to turn ideas into shareable apps, tools, or content—build tools, visualizations, and experiences by simply describing what you need. Claude can share substantial, standalone content with you in a dedicated window separate from the main conversation. This makes it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.
+
+ 
+
+Artifacts work in three places: Claude and Claude Desktop, where this article focuses, and Claude Code, where Claude publishes session output as a shareable page. To learn how to create, update, and share artifacts in Claude Code, see the **[artifacts documentation on Claude Code Docs](https://code.claude.com/docs/en/artifacts).**
 
  
 
@@ -173,6 +177,24 @@ When you interact with an artifact that uses shared storage for the first time, 
 
  
 
+## **Artifacts in Claude Code**
+
+Claude Code can publish its session output as an artifact—a live, interactive page at a private URL. The page updates in place as your session continues, and you can share it with people in your organization. An artifact might be a pull-request walkthrough with annotated diffs, a dashboard built from session data, or an investigation timeline that fills in as Claude works.
+
+ 
+
+Artifacts in Claude Code are viewable only by members of the organization that published them.
+
+ 
+
+To learn how to create, update, and share artifacts in Claude Code, see the **[artifacts documentation on Claude Code Docs](https://code.claude.com/docs/en/artifacts).**
+
+ 
+
+---
+
+ 
+
 ## Learn more
 
 To share your artifacts publicly, embed them on websites, or discover artifacts created by others, see **[Publish and share artifacts](https://support.claude.com/en/articles/9547008)**.
@@ -182,8 +204,8 @@ To share your artifacts publicly, embed them on websites, or discover artifacts 
 
 ## Related Articles
 
+- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-18 16:19*
+*Last updated: 2026-06-18 18:56*
 
-Documents related to Claude Code across all sources (248 documents)
+Documents related to Claude Code across all sources (251 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (148)
+## Claude Code Documentation (149)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -27,6 +27,7 @@ Documents related to Claude Code across all sources (248 documents)
 - [Agents](/code-claude-docs/agents.md)
 - [Amazon Bedrock](/code-claude-docs/amazon-bedrock.md)
 - [Analytics](/code-claude-docs/analytics.md)
+- [Artifacts](/code-claude-docs/artifacts.md)
 - [Authentication](/code-claude-docs/authentication.md)
 - [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
 - [Best Practices](/code-claude-docs/best-practices.md)
@@ -171,7 +172,7 @@ Documents related to Claude Code across all sources (248 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (80)
+## Claude.com Blog Posts (82)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
@@ -187,6 +188,7 @@ Documents related to Claude Code across all sources (248 documents)
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
+- [Claude Code now supports artifacts](/claude-blog/artifacts-in-claude-code.md) - ![](https://cdn
 - [Claude Code on the web](/claude-blog/claude-code-on-the-web.md) - ![](https://cdn
 - [Claude Code power user customization: How to configure hooks](/claude-blog/how-to-configure-hooks.md) - ![](https://cdn
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
@@ -244,6 +246,7 @@ Documents related to Claude Code across all sources (248 documents)
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
 - [Updates to Claude Team](/claude-blog/claude-team-updates.md) - ![](https://cdn

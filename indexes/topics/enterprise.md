@@ -1,10 +1,11 @@
 # Enterprise Topic Index
-*Last updated: 2026-06-18 16:19*
+*Last updated: 2026-06-18 18:56*
 
-Documents related to Enterprise across all sources (9 documents)
+Documents related to Enterprise across all sources (10 documents)
 ---
-## Claude.com Blog Posts (9)
+## Claude.com Blog Posts (10)
 - [Building AI agents for the enterprise](/claude-blog/building-ai-agents-for-the-enterprise.md) - ![](https://cdn
+- [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
 - [Claude for Enterprise](/claude-blog/claude-for-enterprise.md) - ![](https://cdn

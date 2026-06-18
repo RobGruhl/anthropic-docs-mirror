@@ -121,6 +121,10 @@ Accedi alle altre novità sui prodotti e scopri le best practice per i team che 
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
 ### Building agents with the Claude Agent SDK
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
@@ -130,10 +134,6 @@ Accedi alle altre novità sui prodotti e scopri le best practice per i team che 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Using CLAUDE.md files: Customizing Claude Code for your codebase
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### What are the key benefits of transitioning to agentic coding for software development?
 
 ## Trasforma le operazioni della tua azienda con Claude
 

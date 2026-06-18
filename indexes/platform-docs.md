@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-18 16:19*
-Total documents: 1602
+*Last updated: 2026-06-18 18:56*
+Total documents: 1603
 ---
-## Uncategorized (1602 documents)
+## Uncategorized (1603 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -706,7 +706,7 @@ Total documents: 1602
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
@@ -4768,20 +4768,25 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/manage-claude/access-transparency  
 **Updated:** 2026-06-11  
 
+### manage-claude__admin-api-keys
+**File:** `/platform-docs/manage-claude__admin-api-keys.md`  
+**Source:** https://platform.claude.com/docs/en/manage-claude/admin-api-keys  
+**Updated:** 2026-06-18  
+
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-18  
 
 ### manage-claude__analytics-api
 **File:** `/platform-docs/manage-claude__analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/analytics-api  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-18  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
@@ -4791,7 +4796,7 @@ Total documents: 1602
 ### manage-claude__claude-code-analytics-api
 **File:** `/platform-docs/manage-claude__claude-code-analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
@@ -4811,7 +4816,7 @@ Total documents: 1602
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -4821,7 +4826,7 @@ Total documents: 1602
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
@@ -4861,17 +4866,17 @@ Total documents: 1602
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/rate-limits-api  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-18  
 
 ### manage-claude__spend-limits-api
 **File:** `/platform-docs/manage-claude__spend-limits-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/spend-limits-api  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-18  
 
 ### manage-claude__usage-cost-api
 **File:** `/platform-docs/manage-claude__usage-cost-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/usage-cost-api  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  
@@ -4926,7 +4931,7 @@ Total documents: 1602
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workspaces  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-18  
 
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  

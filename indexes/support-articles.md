@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-18 16:19*
+*Last updated: 2026-06-18 18:56*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -61,7 +61,7 @@ Total documents: 261
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-18  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -131,17 +131,17 @@ Total documents: 261
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
 **Source:** https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/using-extended-thinking.md`  
 **Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -311,7 +311,7 @@ Total documents: 261
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-18  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -441,7 +441,7 @@ Total documents: 261
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-06-14  
+**Updated:** 2026-06-18  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -776,7 +776,7 @@ Total documents: 261
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -811,7 +811,7 @@ Total documents: 261
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
@@ -866,7 +866,7 @@ Total documents: 261
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -916,7 +916,7 @@ Total documents: 261
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-18  
 
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
@@ -1036,7 +1036,7 @@ Total documents: 261
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
@@ -1156,17 +1156,17 @@ Total documents: 261
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-18  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-18  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1181,7 +1181,7 @@ Total documents: 261
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-18  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1276,7 +1276,7 @@ Total documents: 261
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-18  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  

@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-06-18 16:19*
+*Last updated: 2026-06-18 18:56*
 
-Documents related to Agents across all sources (130 documents)
+Documents related to Agents across all sources (131 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,7 +64,7 @@ Documents related to Agents across all sources (130 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (73)
+## Claude.com Blog Posts (74)
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
@@ -130,6 +130,7 @@ Documents related to Agents across all sources (130 documents)
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
+- [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
 - [Using CLAUDE.md files: Customizing Claude Code for your codebase](/claude-blog/using-claude-md-files.md) - ![](https://cdn

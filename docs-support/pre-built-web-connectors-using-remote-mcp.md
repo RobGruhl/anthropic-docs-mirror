@@ -1,6 +1,6 @@
 # Use connectors to extend Claude's capabilities
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -68,6 +68,10 @@ To connect a service from the directory:
 ## Connect a service on Team and Enterprise plans
 
 Before members of Team and Enterprise plans can use connectors, an Owner or Primary Owner needs to enable them for the organization. Enabling a connector makes it available to your team, but it doesn't automatically grant anyone access. Each person still needs to authenticate individually before they can use it.
+
+ 
+
+ 
 
 1. Navigate to **[Organization settings > Connectors](https://claude.ai/admin-settings/connectors)**.
 2. Click “Browse connectors” at the bottom of the page.
@@ -233,8 +237,8 @@ To resolve this, you can either allowlist Anthropic's IP ranges in your firewall
 
 ## Related Articles
 
+- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
+- [Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
-- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
-- [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
