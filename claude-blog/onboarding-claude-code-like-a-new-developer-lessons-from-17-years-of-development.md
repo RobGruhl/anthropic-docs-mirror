@@ -1,21 +1,21 @@
-# Onboarding Claude Code like a new developer: Lessons from 17 years of development
+# Inserimento di Claude Code come un nuovo sviluppatore: lezioni dopo 17 anni di sviluppo
 *April 28, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-# Onboarding Claude Code like a new developer: Lessons from 17 years of development
+# Inserimento di Claude Code come un nuovo sviluppatore: lezioni dopo 17 anni di sviluppo
 
 The methodology that onboards new developers to MacCoss Lab's 700,000-line codebase works on Claude Code, too. Here's how Brendan MacLean, a Claude Developer Ambassador whose lab is part of our[Claude for Open Source](https://claude.com/contact-sales/claude-for-oss)program, did it.
 
-- CategoryClaude Code
+- CategoriaClaude Code
 
-- ProductClaude Code
+- ProdottoClaude Code
 
-- DateApril 28, 2026
+- DataApril 28, 2026
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
+- CondividiCopia linkhttps://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
 
 [Skyline](https://skyline.ms/home/software/Skyline/wiki-page.view?name=team), the open source protein analysis software maintained by principal developer Brendan MacLean at the University of Washington's MacCoss Lab, has been in active development since 2008. [Skyline](https://skyline.ms/home/software/Skyline/wiki-page.view?name=team) helps researchers detect and quantify proteins in things like blood plasma and tissue, which is vital for biomarker discovery, disease research, and drug development. The MacCoss Lab codebase contains 700,000+ lines of C#, maintained for 17 years by a small team running 200,000+ automated nightly tests.
 
@@ -115,34 +115,34 @@ Once knowledgeable enough about a codebase, engineers can work across branches a
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Meet the winners of our Claude Opus 4.8 Build Day hackathon
+### Building agents with the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
 
-### Meet the winners of the Built with Opus 4.7 Claude Code hackathon
+### Claude Code power user customization: How to configure hooks
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Using CLAUDE.md files: Customizing Claude Code for your codebase
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### Beyond permission prompts: making Claude Code more secure and autonomous
+### What are the key benefits of transitioning to agentic coding for software development?
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+## Trasforma le operazioni della tua azienda con Claude
 
-### How one Anthropic seller rebuilt his team's workflows with Claude Code
+Ricevi la newsletter sullo sviluppo
 
-## Transform how your organization operates with Claude
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
+**Source:** https://claude.com/it/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

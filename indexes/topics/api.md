@@ -1,5 +1,5 @@
 # Api Topic Index
-*Last updated: 2026-06-18 13:08*
+*Last updated: 2026-06-18 16:19*
 
 Documents related to Api across all sources (145 documents)
 ---
@@ -112,7 +112,6 @@ Documents related to Api across all sources (145 documents)
 - [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
 - [Claude 2 on Amazon Bedrock](/claude-blog/claude-2-amazon-bedrock.md) - ![](https://cdn
-- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
 - [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Developer Platform の構造化出力](/claude-blog/structured-outputs-on-the-claude-developer-platform.md) - ![](https://cdn
@@ -136,6 +135,8 @@ Documents related to Api across all sources (145 documents)
 - [Introducing the Message Batches API](/claude-blog/message-batches-api.md) - ![](https://cdn
 - [Introducing web search on the Anthropic API](/claude-blog/web-search-api.md) - ![](https://cdn
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
+- [La competenza Claude API adesso è su CodeRabbit, JetBrains, Resolve AI e Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
+- [La strategia del consulente: aumentare l'intelligenza degli agenti](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
@@ -145,7 +146,6 @@ Documents related to Api across all sources (145 documents)
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
-- [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Token-saving updates on the Anthropic API](/claude-blog/token-saving-updates.md) - ![](https://cdn

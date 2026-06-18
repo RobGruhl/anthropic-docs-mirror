@@ -1,5 +1,5 @@
 # Prompt Engineering Topic Index
-*Last updated: 2026-06-18 13:08*
+*Last updated: 2026-06-18 16:19*
 
 Documents related to Prompt Engineering across all sources (12 documents)
 ---
@@ -8,6 +8,7 @@ Documents related to Prompt Engineering across all sources (12 documents)
 
 ## Claude.com Blog Posts (11)
 - [Best practices for prompt engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
+- [Beyond permission prompts: making Claude Code more secure and autonomous](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Evaluate prompts in the developer console](/claude-blog/evaluate-prompts.md) - ![](https://cdn
 - [Generate better prompts in the developer console](/claude-blog/prompt-generator.md) - ![](https://cdn
@@ -17,5 +18,4 @@ Documents related to Prompt Engineering across all sources (12 documents)
 - [Long context prompting for Claude 2.1](/claude-blog/claude-2-1-prompting.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
-- [권한 프롬프트를 넘어서: Claude Code를 더 안전하고 자율적으로 만들기](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
 

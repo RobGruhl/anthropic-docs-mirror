@@ -1,19 +1,19 @@
-# Making Claude Cowork ready for enterprise
+# Mettere Claude Cowork a disposizione delle aziende
 *April 9, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-# Making Claude Cowork ready for enterprise
+# Mettere Claude Cowork a disposizione delle aziende
 
-- CategoryProduct announcements
+- CategoriaAnnunci sul prodotto
 
-- ProductClaude Enterprise
+- ProdottoClaude Enterprise
 
-- DateApril 9, 2026
+- DataApril 9, 2026
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/cowork-for-enterprise
+- CondividiCopia linkhttps://claude.com/blog/cowork-for-enterprise
 
 Claude Cowork is now generally available on all paid plans. Within companies, Claude Cowork has become a key part of how teams operate: handling tasks, drafting project deliverables, and keeping teams up to date.
 
@@ -49,25 +49,25 @@ Per tool connector controls.Admins can now restrict which actions are available 
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aed89af0a9a659d820f0_zapier_dark.svg)
 
-“The barrier between "having an idea" and "shipping something" has collapsed. The skill that matters now isn't knowing how to do every step. It's knowing clearly what you're trying to accomplish and being able to direct toward that outcome. Execution is still real work, but the ceiling on what one person can ship has moved dramatically. I genuinely cannot remember doing my job without it.”
+"La barriera tra "avere un'idea" e "rilasciare qualcosa" è crollata. La competenza che conta ora non è sapere come svolgere ogni singolo passaggio. È avere ben chiaro ciò che si vuole ottenere ed essere in grado di indirizzare il lavoro verso quel risultato. L'esecuzione resta lavoro reale, ma il limite di ciò che una sola persona può rilasciare si è spostato in modo radicale. Sinceramente non riesco più a ricordarmi di fare il mio lavoro senza."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b45499ebd143bd2c52765a_logo_jamf-light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b454a6ceaa3ebddb228495_logo_jamf-dark.svg)
 
-“People across the org are using Cowork for data blending, analysis, and dashboard building. Bespoke dashboarding has been huge. Tasks that previously required a BI tool or an engineer's help, people are now doing themselves in minutes.”
+"In tutta l'organizzazione le persone usano Cowork per combinare dati, fare analisi e costruire dashboard. La creazione di dashboard su misura ha avuto un impatto enorme. Attività che prima richiedevano uno strumento di BI o l'aiuto di un ingegnere, ora le persone le svolgono in pochi minuti da sole."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69c4c1998c3401934f20e29f_logo_airtree-light-mode.png)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69c4c19b37fe50b8853f38b3_logo_airtree-dark-mode.png)
 
-“Using Claude Cowork across teams multiplied its value. Skills built by one person could be used by everyone. Claude Cowork became shared firm infrastructure rather than just an individual productivity tool.”
+"L'utilizzo di Claude Cowork tra i team ne ha moltiplicato il valore. Le competenze sviluppate da una persona potevano essere usate da tutti. Claude Cowork è diventato un'infrastruttura condivisa dell'azienda, non solo uno strumento di produttività individuale."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba1577e91d8296653388ca_Group%202055245285.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a186e574d077d020536326e_thomson_reuters_logo_white.svg)
 
-“Claude Cowork helps teams do work at a scale that was hard to justify before. The human role becomes validation, refinement, and decision-making. Not repetitive rework.”
+"Claude Cowork aiuta i team a svolgere il lavoro a una scala che prima era difficile da giustificare. Il ruolo della persona diventa la convalida, la rifinitura e il processo decisionale. Non un lavoro ripetitivo."
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -85,34 +85,34 @@ For a deployment walkthrough, join our April 16th[webinar](https://www.anthropic
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-### Secure access to the Claude Platform with Workload Identity Federation
+### Updates to Claude Team
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
 
-### Claude Design now stays on brand for daily work
+### Your favorite work tools are now interactive connectors inside Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-### Introducing routines in Claude Code
+### Claude Code and Slack
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-### Introducing dynamic workflows in Claude Code
+### Structured outputs on the Claude Developer Platform
 
-## Transform how your organization operates with Claude
+## Trasforma le operazioni della tua azienda con Claude
 
-Get the developer newsletter
+Ricevi la newsletter sullo sviluppo
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/cowork-for-enterprise
+**Source:** https://claude.com/it/blog/cowork-for-enterprise
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

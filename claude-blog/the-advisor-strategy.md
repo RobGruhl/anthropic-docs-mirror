@@ -1,21 +1,21 @@
-# The advisor strategy: Give agents an intelligence boost
+# La strategia del consulente: aumentare l'intelligenza degli agenti
 *April 9, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c7f111435762ad994_1b398dbdfa4995ce5ce943aa87d8b78b2c2ba065-1000x1000.svg)
 
-# The advisor strategy: Give agents an intelligence boost
+# La strategia del consulente: aumentare l'intelligenza degli agenti
 
 Pair Opus as an advisor with Sonnet or Haiku as an executor, and get near Opus-level intelligence in your agents at a fraction of the cost.
 
-- CategoryProduct announcements
+- CategoriaAnnunci sul prodotto
 
-- ProductClaude Platform
+- ProdottoPiattaforma Claude
 
-- DateApril 9, 2026
+- DataApril 9, 2026
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/the-advisor-strategy
+- CondividiCopia linkhttps://claude.com/blog/the-advisor-strategy
 
 Developers who want to better balance intelligence and cost have converged on what we call the advisor strategy: pair Opus as an advisor with Sonnet or Haiku as an executor. This brings near Opus-level intelligence to your agents while keeping costs near Sonnet levels.
 
@@ -74,19 +74,19 @@ Works alongside your existing tools.The advisor tool is just another entry in yo
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f26e76cdf0245458a77c3f_logo_boltupdatedlogo-dark-mode.svg)
 
-“It makes better architectural decisions on complex tasks while adding no overhead on simple ones. The plans and trajectories are night and day different.”
+"Prende decisioni architetturali migliori sui compiti complessi senza aggiungere alcun sovraccarico su quelli semplici. I piani e le traiettorie sono completamente diversi."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c33d3cb4813a779adb7133_cs-logo-genspark-light-theme.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c33d3e748405bce1e71684_cs-logo-genspark-dark-theme.svg)
 
-“We saw clear improvements in agent turns, tool calls, and overall score — better than a planning tool we built ourselves.”
+"Abbiamo riscontrato miglioramenti netti nei turni dell'agente, nelle chiamate agli strumenti e nel punteggio complessivo, risultati migliori di uno strumento di pianificazione che avevamo sviluppato internamente."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbdde1a3d17f2d9e91607_eve-light-mode.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbde617bb08ba0d0157b8_eve-dark-mode.svg)
 
-“On structured document extraction tasks, the advisor tool enables Haiku 4.5 to dynamically scale intelligence by consulting Opus 4.6 as complexity demands, matching frontier-model quality at 5× lower cost.”
+"Nelle attività di estrazione da documenti strutturati, lo strumento advisor permette a Haiku 4.5 di scalare dinamicamente l'intelligenza consultando Opus 4.6 quando la complessità lo richiede, raggiungendo la qualità dei modelli di frontiera a un costo cinque volte inferiore."
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -116,34 +116,34 @@ We recommend running your existing eval suite against Sonnet solo, Sonnet execut
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-### Secure access to the Claude Platform with Workload Identity Federation
+### Updates to Claude Team
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
 
-### Claude Design now stays on brand for daily work
+### Your favorite work tools are now interactive connectors inside Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-### Introducing routines in Claude Code
+### Claude Code and Slack
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-### Introducing dynamic workflows in Claude Code
+### Structured outputs on the Claude Developer Platform
 
-## Transform how your organization operates with Claude
+## Trasforma le operazioni della tua azienda con Claude
 
-Get the developer newsletter
+Ricevi la newsletter sullo sviluppo
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/the-advisor-strategy
+**Source:** https://claude.com/it/blog/the-advisor-strategy
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

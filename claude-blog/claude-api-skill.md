@@ -1,19 +1,19 @@
-# Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp
+# La competenza Claude API adesso è su CodeRabbit, JetBrains, Resolve AI e Warp
 *April 29, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-# Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp
+# La competenza Claude API adesso è su CodeRabbit, JetBrains, Resolve AI e Warp
 
-- CategoryAgentsClaude Code
+- CategoriaAgentiClaude Code
 
-- ProductClaude EnterpriseClaude Code
+- ProdottoClaude EnterpriseClaude Code
 
-- DateApril 29, 2026
+- DataApril 29, 2026
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/claude-api-skill
+- CondividiCopia linkhttps://claude.com/blog/claude-api-skill
 
 Today, CodeRabbit, JetBrains, Resolve AI, and Warp are bundling the[claude-api skill](https://github.com/anthropics/skills/tree/main/skills/claude-api), giving developers production-ready Claude API code wherever they build. First introduced in Claude Code in March, the skill is now in more of the tools developers already use.
 
@@ -33,9 +33,9 @@ Anywhere the skill is available, ask Claude to:
 
 - "Build a deep research agent for my industry."Claude walks you through configuringClaude Managed Agents, so long-running research is a few prompts, not a custom project. In Claude Code, you can also run this directly with/claude-api managed-agents-onboard.
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa025bc189d96f44b5bfc1_Orange_Typemark_43bf516c9d.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68c02555494a06a2d8a9cbb0_logo-orange.svg)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fa0261a5b6253465bd45be_White_Typemark_79b9189d19%20(1).svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68bb5e8c0ed40050ce0a934d_Code%20Rabbit-dark-theme.svg)
 
 "At CodeRabbit, we review millions of PRs a week and see how often stale API knowledge causes production issues. The Claude API skill keeps Claude current as our SDKs change, so developers building agents run into fewer review-time surprises."
 
@@ -43,19 +43,19 @@ Anywhere the skill is available, ask Claude to:
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e54425a3fe2aed4f88910e_logo_jetbrains_dark.svg)
 
-"With the Claude API skill, developers on JetBrains IDEs and Junie can turn a Claude API upgrade into a guided IDE workflow. A good example is migrating to Claude Opus 4.7, where the skill can update model references, move manual thinking settings to adaptive thinking, clean up outdated parameters and beta headers, and suggest the right effort level inline. That gives teams a stronger first pass and helps avoid version-specific mistakes that normally show up in cleanup rounds."
+"Con la Claude API skill, chi sviluppa su IDE JetBrains e su Junie può trasformare un upgrade della Claude API in un flusso di lavoro guidato all'interno dell'IDE. Un buon esempio è la migrazione a Claude Opus 4.7: la skill può aggiornare i riferimenti ai modelli, spostare le impostazioni di thinking manuale verso l'adaptive thinking, ripulire parametri e header beta obsoleti e suggerire inline il livello di effort più adatto. Tutto questo offre ai team un primo passaggio più solido e aiuta a evitare gli errori legati a versioni specifiche che di solito emergono nelle fasi di pulizia."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b31397615d221067e19bda_Resolve%20SVG%20original%20color.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b31393431c1a52a589e3a9_Resolve%20SVG%20light%20color.svg)
 
-“The Claude API skill helps Resolve AI engineers adopt new model capabilities faster. Instead of manually parsing migration guides and chasing every small API change, our team can move from model release to implementation in a single guided pass."
+"La Claude API skill aiuta gli ingegneri di Resolve AI ad adottare più rapidamente le nuove capacità dei modelli. Invece di analizzare manualmente le guide di migrazione e inseguire ogni piccolo cambiamento dell'API, il nostro team può passare dal rilascio del modello all'implementazione in un unico percorso guidato."
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692481a076d768db9276c4d9_warp-black.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692481a493eb0f6f4ca5b90a_warp-white.svg)
 
-"Developers shouldn't have to leave Warp to look up Claude API parameters or caching rules. With the Claude API skill built in, that knowledge is already there, so engineers stay in flow and ship faster."
+"Chi sviluppa non dovrebbe essere costretto a uscire da Warp per consultare i parametri della Claude API o le regole di caching. Con la Claude API skill integrata, quella conoscenza è già lì: il team di ingegneria resta in flow e rilascia più velocemente."
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -73,34 +73,34 @@ The skill is already in[Claude Code](https://code.claude.com/docs/en/overview),[
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Meet the winners of our Claude Opus 4.8 Build Day hackathon
+### Building agents with the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
 
-### Meet the winners of the Built with Opus 4.7 Claude Code hackathon
+### Claude Code power user customization: How to configure hooks
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Using CLAUDE.md files: Customizing Claude Code for your codebase
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### Beyond permission prompts: making Claude Code more secure and autonomous
+### What are the key benefits of transitioning to agentic coding for software development?
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+## Trasforma le operazioni della tua azienda con Claude
 
-### The evolution of agentic surfaces: building with Claude Managed Agents
+Ricevi la newsletter sullo sviluppo
 
-## Transform how your organization operates with Claude
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/claude-api-skill
+**Source:** https://claude.com/it/blog/claude-api-skill
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

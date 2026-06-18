@@ -1,5 +1,5 @@
 # Enterprise Topic Index
-*Last updated: 2026-06-18 13:08*
+*Last updated: 2026-06-18 16:19*
 
 Documents related to Enterprise across all sources (9 documents)
 ---
@@ -11,6 +11,6 @@ Documents related to Enterprise across all sources (9 documents)
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [How leading retailers are turning AI pilots into enterprise-wide transformation](/claude-blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation.md) - ![](https://cdn
-- [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
+- [Mettere Claude Cowork a disposizione delle aziende](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
 
