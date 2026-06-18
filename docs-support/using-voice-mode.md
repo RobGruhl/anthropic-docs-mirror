@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1781758800&signature=cbe964f3b0ef0636d14e576e5528166e5bcfd09c3837c1614d5a3fa2249d532d&req=diAjFMp7n4FZWfMW1HO4zU6VRfzNTbRhxNdRzYWrfF7%2Fzu09RAfs6Mg4Iu66%0A%2F%2B%2Fn4f2c3Iuif9sBn58%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1781770500&signature=515c71b4077d7051b569d926221588d34d5cd0e4b7c54fe8dbf1ae3b53c56c2e&req=diAjFMp7n4FZWfMW1HO4zU6VRfzNT7xsxNdRzYWrfF423%2FJFuAf898KW05of%0AtCoOLxvoE3Pt%2FFqp3AQ%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1781758800&signature=516bcc158019b0fbc63c5adab3824ca0acaa8fc77f95a0551fd6cd2217ebfa16&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGuSZVgCy8OQfYsvK3yQdD8TV3X3CH%2B9zDtb%0AR3dg2DxKSET%2FIlyqQGo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1781770500&signature=295c8a4341f0e070c8277a2306f0643b2f3f74b8256e7dc83f13facaaa4a8667&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGuSZ1APy8OQfYsvK3wG%2FgyoyRV6OeP2jHIN%0AgijAEveYlQDypd5LHKo%3D%0A)
 
  
 
