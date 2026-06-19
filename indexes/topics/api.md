@@ -1,5 +1,5 @@
 # Api Topic Index
-*Last updated: 2026-06-19 04:36*
+*Last updated: 2026-06-19 07:51*
 
 Documents related to Api across all sources (145 documents)
 ---
@@ -145,7 +145,7 @@ Documents related to Api across all sources (145 documents)
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Token-saving updates on the Anthropic API](/claude-blog/token-saving-updates.md) - ![](https://cdn

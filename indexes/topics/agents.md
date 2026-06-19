@@ -1,5 +1,5 @@
 # Agents Topic Index
-*Last updated: 2026-06-19 04:36*
+*Last updated: 2026-06-19 07:51*
 
 Documents related to Agents across all sources (131 documents)
 ---
@@ -128,7 +128,7 @@ Documents related to Agents across all sources (131 documents)
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn

@@ -1,5 +1,5 @@
 # Skills Topic Index
-*Last updated: 2026-06-19 04:36*
+*Last updated: 2026-06-19 07:51*
 
 Documents related to Skills across all sources (131 documents)
 ---
@@ -140,7 +140,7 @@ Documents related to Skills across all sources (131 documents)
 - [La competenza Claude API adesso è su CodeRabbit, JetBrains, Resolve AI e Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 

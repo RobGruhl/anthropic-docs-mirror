@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-19 04:36*
+*Last updated: 2026-06-19 07:51*
 
 Documents related to Claude Code across all sources (251 documents)
 ---
@@ -245,7 +245,7 @@ Documents related to Claude Code across all sources (251 documents)
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
-- [Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn

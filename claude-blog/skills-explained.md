@@ -1,330 +1,388 @@
-# Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
+# Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+*November 13, 2025*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-# Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
+# Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
 
-Skills sind ein immer leistungsfähigeres Tool zur Erstellung benutzerdefinierter KI-Workflows und Agenten, aber wo passen sie in den Claude-Stack? Wir erklären, welches Tool wann verwendet werden soll – und wie sie alle zusammenarbeiten.
+Skills are an increasingly powerful tool for creating custom AI workflows and agents, but where do they fit in the Claude stack? We explain what tool to use when - and how they all work together.
 
-- KategorieAgenten
+- CategoryAgents
 
-- ProduktClaude AppsClaude Platform
+- ProductClaude appsClaude Platform
 
-- Datum5.3.2026
+- DateNovember 13, 2025
 
-- Lesezeit5Min
+- Reading time5min
 
-- TeilenLink kopierenhttps://claude.com/blog/skills-explained
+- ShareCopy linkhttps://claude.com/blog/skills-explained
 
-Seit der Einführung von[Skills](https://www.anthropic.com/news/skills)ist das Interesse daran gewachsen, wie die verschiedenen Komponenten des agentischen Ökosystems von Claude zusammenarbeiten.
+Since introducing[Skills](https://www.anthropic.com/news/skills), there's been interest in understanding how the various components of Claude's agentic ecosystem work together.
 
-Egal ob Sie anspruchsvolle Workflows in[Claude Code](https://www.claude.com/product/claude-code)entwickeln, Unternehmenslösungen mit der API erstellen oder Ihre Produktivität mit[Claude.ai](http://claude.ai)maximieren möchten – wenn Sie wissen, welches Tool Sie wann nutzen möchten, können Sie Ihre Arbeitsweise mit Claude verändern.
+Whether you're building sophisticated workflows in[Claude Code](https://www.claude.com/product/claude-code), creating enterprise solutions with the API, or maximizing your productivity on[Claude.ai](http://claude.ai), knowing which tool to reach for—and when—can transform how you work with Claude.
 
-In diesem Leitfaden werden die einzelnen Bausteine dargestellt und erklärt, wann sie verwendet werden können, und es wird gezeigt, wie Sie sie für leistungsstarke agentische Workflows kombinieren.
+This guide breaks down each building block, explains when to use what, and shows you how to combine them for powerful agentic workflows.
 
-## Ihre agentischen Bausteine verstehen
+## Understanding your agentic building blocks
 
-### Was sind Skills?
+### What are Skills?
 
-Skills sind Ordner mit Anweisungen, Skripten und Ressourcen, die Claude entdeckt und dynamisch lädt, wenn sie für eine Aufgabe relevant sind. Stellen Sie sich diese als spezielle Schulungshandbücher vor, in denen Claude Fachwissen in bestimmten Bereichen vermittelt wird – von der Arbeit mit Excel-Tabellen bis hin zur Einhaltung der Markenrichtlinien Ihres Unternehmens.
+Skills are folders containing instructions, scripts, and resources that Claude discovers and loads dynamically when relevant to a task. Think of them as specialized training manuals that give Claude expertise in specific domains—from working with Excel spreadsheets to following your organization's brand guidelines.
 
-Funktionsweise von Skills:Wenn Claude auf eine Aufgabe stößt, durchsucht es verfügbare Skills nach relevanten Übereinstimmungen. Skills verwenden eine progressive Offenlegung: Metadaten werden zuerst geladen (~100 Tokens). Sie enthalten gerade genug Informationen, damit Claude weiß, wann ein Skill relevant ist. Vollständige Anweisungen werden bei Bedarf geladen (<5.000 Tokens), und gebündelte Dateien oder Skripte werden nur auf Anforderung geladen.
+How Skills work:When Claude encounters a task, it scans available Skills to find relevant matches. Skills use progressive disclosure: metadata loads first (~100 tokens), providing just enough information for Claude to know when a Skill is relevant. Full instructions load when needed (<5k tokens), and bundled files or scripts load only as required.
 
-Wann Skills eingesetzt werden können:Wählen Sie Skills, wenn Claude zur konsistenten und effizienten Durchführung spezieller Aufgaben benötigt wird. Sie sind ideal für:
+When to use Skills:Choose Skills when you need Claude to perform specialized tasks consistently and efficiently. They're ideal for:
 
-- Organisatorische Workflows: Markenrichtlinien, Compliance-Verfahren, Dokumentvorlagen
+- Organizational workflows: Brand guidelines, compliance procedures, document templates
 
-- Fachwissen:Excel-Formeln, PDF-Bearbeitung, Datenanalyse
+- Domain expertise:Excel formulas, PDF manipulation, data analysis
 
-- Persönliche Präferenzen:Notizsysteme, Programmiermuster, Forschungsmethoden
+- Personal preferences:Note-taking systems, coding patterns, research methods
 
-Beispiel:Erstellen Sie[einen Markenrichtlinien-Skill](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines), der die Farbpalette, Typografieregeln und Layout-Spezifikationen Ihres Unternehmens enthält. Wenn Claude Präsentationen oder Dokumente erstellt, werden diese Standards automatisch angewendet, ohne dass Sie sie jedes Mal erklären müssen.
+Example:Create[a brand guidelines Skill](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)that includes your company's color palette, typography rules, and layout specifications. When Claude creates presentations or documents, it automatically applies these standards without you needing to explain them each time.
 
-[Erfahren Sie mehr](https://support.claude.com/en/articles/12512176-what-are-skills)über Skills und sehen Sie sich[unsere wachsende Skills-Bibliothek](https://github.com/anthropics/skills)an.
+[Learn more](https://support.claude.com/en/articles/12512176-what-are-skills)about Skills and check out[our growing Skills library](https://github.com/anthropics/skills).
 
-### Was sind Prompts?
+### What are prompts?
 
-[Prompts](https://docs.claude.com/en/prompt-library/library)sind die Anweisungen, die Sie Claude während einer Unterhaltung in natürlicher Sprache geben. Sie sind kurzlebig, konversationsbasiert und reaktiv. Sie stellen Kontext und Richtung im Moment bereit.
+[Prompts](https://docs.claude.com/en/prompt-library/library)are the instructions you provide to Claude in natural language during a conversation. They're ephemeral, conversational, and reactive—you provide context and direction in the moment.
 
-Wann Prompts verwendet werden:Verwenden Sie Prompts für:
+When to use prompts:Use prompts for:
 
-- Einmalige Anfragen: „Fasse diesen Artikel zusammen“
+- One-off requests: "Summarize this article"
 
-- Konversationsverfeinerung: „Gestalte den Tonfall professioneller“
+- Conversational refinement: "Make that tone more professional"
 
-- Direkter Kontext: „Analysiere diese Daten und identifiziere Trends
+- Immediate context: "Analyze this data and identify trends"
 
-- Ad-hoc-Anweisungen: „Formatiere das als Aufzählung"
+- Ad-hoc instructions: "Format this as a bulleted list"
 
-Beispiel:
+Example:
 
-Führe bitte eine umfassende Sicherheitsüberprüfung dieses Codes durch. Ich suche nach:
+Please conduct a comprehensive security review of this code. I'm looking for:
 
-1. häufigen Schwachstellen, einschließlich:
+1. Common vulnerabilities including:
 
-- Injection-Fehler (SQL, Befehl, XSS usw.)
+- Injection flaws (SQL, command, XSS, etc.)
 
-- Authentifizierungs- und Autorisierungsprobleme
+- Authentication and authorization issues
 
-- Vertrauliche Daten
+- Sensitive data exposure
 
-- Sicherheitsfehlkonfigurationen
+- Security misconfigurations
 
-- Defekte Zugriffskontrolle
+- Broken access control
 
-- Kryptografische Fehler
+- Cryptographic failures
 
-- Probleme mit der Eingabevalidierung
+- Input validation problems
 
-- Probleme mit der Fehlerbehandlung und Protokollierung
+- Error handling and logging issues
 
-2. Gib für jedes gefundene Problem Folgendes an:
+2. For each issue you find, please provide:
 
-- Schweregrad (Kritisch/Hoch/Mittel/Niedrig)
+- Severity level (Critical/High/Medium/Low)
 
-- Position im Code (Zeilennummern oder Funktionsnamen)
+- Location in the code (line numbers or function names)
 
-- Erklärung, warum es ein Sicherheitsrisiko darstellt und wie es ausgenutzt werden könnte
+- Explanation of why it's a security risk and how it could be exploited
 
-- Spezifische Lösungsempfehlung nach Möglichkeit mit Codebeispielen
+- Specific fix recommendation with code examples where possible
 
-- Best Practices zur Vermeidung ähnlicher Probleme
+- Best practice guidance to prevent similar issues
 
-3. Code-Kontext: [Beschreiben Sie die Aufgaben des Codes, die Sprache/das Framework und die Umgebung, in der es ausgeführt wird – z. B. „Dies ist eine Node.js-REST-API, die die Benutzerauthentifizierung übernimmt und Zahlungsdaten verarbeitet“]
+3. Code context: [Describe what the code does, the language/framework, and the environment it runs in - e.g., "This is a Node.js REST API that handles user authentication and processes payment data"]
 
-4. Zusätzliche Überlegungen:
+4. Additional considerations:
 
-- Gibt es Schwachstellen in der OWASP-Liste der Top 10?
+- Are there any OWASP Top 10 vulnerabilities present?
 
-- Folgt der Code Best Practices für Sicherheit für [spezifisches Framework/Sprache]?
+- Does the code follow security best practices for [specific framework/language]?
 
-- Gibt es Abhängigkeiten mit bekannten Schwachstellen?
+- Are there any dependencies with known vulnerabilities?
 
-Priorisiere die Ergebnisse nach Schweregrad und potenziellen Auswirkungen.
+Please prioritize findings by severity and potential impact.
 
-Pro-Tipp:Prompts sind Ihre primäre Art der Interaktion mit Claude, aber die Unterhaltungen werden nicht gespeichert. Für sich wiederholende Workflows oder Fachwissen können Sie Prompts als Skills oder Projektanweisungen erfassen.
+Pro-tip:Prompts are your primary way of interacting with Claude, but they don't persist across conversations. For repeated workflows or specialized knowledge, consider capturing prompts as Skills or project instructions.
 
-Wann stattdessen ein Skill verwendet wird:Wenn Sie wiederholt denselben Prompt in mehreren Unterhaltungen eingeben, ist es an der Zeit, einen Skill zu erstellen. Wandeln Sie wiederkehrende Anweisungen wie „Diesen Code mit OWASP-Standards auf Sicherheitsschwachstellen überprüfen“ oder „Diese Analyse mit Zusammenfassung, wichtigsten Ergebnissen und Empfehlungen formatieren“ in Skills um. So müssen Sie Prozeduren nicht jedes Mal neu erklären und können eine konsistente Ausführung sicherstellen.
+When to use a Skill instead:If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill. Transform recurring instructions like "review this code for security vulnerabilities using OWASP standards" or "format this analysis with executive summary, key findings, and recommendations" into Skills. This saves you from re-explaining procedures each time and ensures consistent execution.
 
-Informieren Sie sich in unserer[Prompt-Bibliothek](https://docs.claude.com/en/prompt-library/library)mit[Best Practices](http://claude.com/blog/prompt-engineering-best-practices)oder[unserem intelligenten Prompt-Maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec)über die ersten Schritte.
+Check out our[prompt library](https://docs.claude.com/en/prompt-library/library),[prompting best practices](http://claude.com/blog/prompt-engineering-best-practices), or[our smart prompt maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec)to get started.
 
-### Was sind Projekte?
+### What are Projects?
 
-[Projekte](https://support.claude.com/en/articles/9517075-what-are-projects)sind in allen kostenpflichtigen Claude-Plänen verfügbar und sind eigenständige Workspaces mit eigenem Chat-Verlauf und Wissensdatenbanken. Jedes Projekt enthält ein Kontextfenster mit 200.000 Ressourcen, in dem Sie Dokumente hochladen, Kontext angeben und benutzerdefinierte Anweisungen festlegen können, die für alle Unterhaltungen innerhalb dieses Projekts gelten.
+Available on all paid Claude plans,[Projects](https://support.claude.com/en/articles/9517075-what-are-projects)are self-contained workspaces with their own chat histories and knowledge bases. Each project includes a 200K context window where you can upload documents, provide context, and set custom instructions that apply to all conversations within that project.
 
-Projekte funktionieren:Alles, was Sie in die Wissensdatenbank eines Projekts hochladen, ist in allen Chats innerhalb dieses Projekts verfügbar. Claude nutzt diesen Kontext automatisch, um fundiertere und relevantere Antworten bereitzustellen. Wenn Ihr Projektwissen sich den Kontextgrenzen nähert, aktiviert Claude nahtlos den Modus Retrieval Augmented Generation (RAG), um die Kapazität um das bis zu 10-Fache zu erweitern.
+How Projects work:Everything you upload to a project's knowledge base becomes available across all chats within that project. Claude automatically uses this context to provide more informed, relevant responses. When your project knowledge approaches context limits, Claude seamlessly enables Retrieval Augmented Generation (RAG) mode to expand capacity by up to 10x.
 
-Wann Projekte verwendet werden:Wählen Sie Projekte, wenn Sie Folgendes benötigen:
+When to use Projects:Choose Projects when you need:
 
-- Beständiger Kontext:Hintergrundwissen, das jeder Unterhaltung zugute kommt
+- Persistent context:Background knowledge that should inform every conversation
 
-- Workspace-Organisation:Separate Kontexte für verschiedene Initiativen
+- Workspace organization:Separate contexts for different initiatives
 
-- Teamzusammenarbeit:Gemeinsamer Wissensaustausch und Konversationsverlauf (bei Team- und Enterprise-Plänen)
+- Team collaboration:Shared knowledge and conversation history (on Team and Enterprise plans)
 
-- Benutzerdefinierte Anweisungen:Projektspezifischer Ton, Perspektive oder Ansatz
+- Custom instructions:Project-specific tone, perspective, or approach
 
-Beispiel:Erstellen Sie ein Projekt "Produkteinführung im 4. Quartal", das Marktforschung, Mitbewerberanalyse und Produktspezifikationen enthält. Jeder Chat in diesem Projekt hat Zugriff auf dieses Wissen, ohne dass Sie den Kontext erneut hochladen oder neu erklären müssen.
+Example:Create a "Q4 Product Launch" project containing market research, competitor analysis, and product specifications. Every chat in this project has access to this knowledge without you needing to re-upload or re-explain the context.
 
-Wann Sie lieber ein Skill verwenden sollten:Durch Projekte erhält Claude einen spezifischen Kontext für eine bestimmte Arbeit – die Codebasis Ihres Unternehmens, eine Forschungsinitiative, ein laufendes Kundenprojekt. Skills bringen Claude bei, wie man etwas tut. In einem Projekt können alle Informationen zu Ihrer Produkteinführung enthalten sein, während ein Skill Claude die Schreibstandards oder den Codeüberprüfungsprozess Ihres Teams beibringen kann. Wenn Sie dieselben Anweisungen in mehrere Projekte kopieren, ist das ein Signal dafür, lieber einen Skill zu entwickeln.
+When to use a Skill instead:Projects give Claude persistent context for a specific body of work—your company's codebase, a research initiative, an ongoing client engagement. Skills teach Claude how to do something. A Project might contain all the background on your product launch, while a skill could teach Claude your team's writing standards or code review process. If you find yourself copying the same instructions across multiple Projects, that's a signal to create a skill instead.
 
-[Erfahren Sie mehr](https://support.claude.com/en/articles/9517075-what-are-projects)über Projekte.
+[Learn](https://support.claude.com/en/articles/9517075-what-are-projects)more about Projects.
 
-### Was sind Subagenten?
+### What are subagents?
 
-[Subagenten](https://docs.claude.com/en/docs/claude-code/sub-agents)sind spezielle KI-Assistenten mit eigenen Kontextfenstern, benutzerdefinierten Systemprompts und spezifischen Tool-Berechtigungen. In Claude Code und dem Claude Agenten SDK sind [Subagenten](https://docs.claude.com/en/docs/claude-code/sub-agents) verfügbar. Sie können gesonderte Aufgaben unabhängig voneinander verarbeiten und Ergebnisse an den Hauptagenten zurückgeben.
+[Subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)are specialized AI assistants with their own context windows, custom system prompts, and specific tool permissions. Available in Claude Code and the Claude Agent SDK, subagents handle discrete tasks independently and return results to the main agent.
 
-Funktionsweise von Subagenten:Jeder Subagent hat seine eigene Konfiguration. Sie definieren, was er tut, wie er Probleme löst und auf welche Tools er zugreifen kann. Claude delegiert Aufgaben automatisch basierend auf deren Beschreibungen an die entsprechenden Subagenten, oder Sie können explizit einen bestimmten Subagenten anfordern.
+How subagents work:Each subagent operates with its own configuration—you define what it does, how it approaches problems, and which tools it can access. Claude automatically delegates tasks to appropriate subagents based on their descriptions, or you can explicitly request a specific subagent.
 
-Wann Subagenten verwendet werden sollen:Subagenten verwenden Sie für:
+When to use subagents:Use subagents for:
 
-- Aufgaben-Spezialisierung:Codeüberprüfung, Testerstellung, Sicherheitsaudits
+- Task specialization:Code review, test generation, security audits
 
-- Kontextverwaltung:Konzentration auf das Hauptgespräch und spezialisierte Arbeiten auslagern
+- Context management:Keep the main conversation focused while offloading specialized work
 
-- Parallele Verarbeitung:Mehrere Subagenten können gleichzeitig an verschiedenen Aspekten arbeiten
+- Parallel processing:Multiple subagents can work on different aspects simultaneously
 
-- Tool-Einschränkung:Bestimmte Unteragenten auf sichere Vorgänge beschränken (z. B. schreibgeschützter Zugriff)
+- Tool restriction:Limit specific subagents to safe operations (e.g., read-only access)
 
-Beispiel:
+Example:
 
 ```
-
+Create a code-reviewer subagent with access to Read, Grep, and Glob tools but not Write or Edit. When you modify code, Claude automatically delegates to this subagent for quality and security review without risking unintended code changes.
 ```
 
-Wann stattdessen ein Skill verwendet wird:Wenn mehrere Agenten oder Konversationen dasselbe Know-how benötigen – z. B. Verfahren zur Überprüfung der Sicherheit oder Datenanalysemethoden –, erstellen Sie einen Skill, anstatt dieses Wissen in einzelne Subagenten einzubetten. Skills sind übertragbar und wiederverwendbar, während Subagenten speziell für bestimmte Workflows entwickelt sind. Verwenden Sie Skills, um Fachwissen zu vermitteln, das jeder Agent nutzen kann. Verwenden Sie Subagenten, wenn Sie eine unabhängige Aufgabenausführung mit bestimmten Tool-Berechtigungen und Kontextisolierung benötigen.
+When to use a Skill instead:If multiple agents or conversations need the same expertise—like security review procedures or data analysis methods—create a Skill rather than building that knowledge into individual subagents. Skills are portable and reusable, while subagents are purpose-built for specific workflows. Use Skills to teach expertise that any agent can apply; use subagents when you need independent task execution with specific tool permissions and context isolation.
 
-[Mehr erfahren](https://code.claude.com/docs/en/sub-agents)über Subagenten.
+[Learn more](https://code.claude.com/docs/en/sub-agents)about subagents.
 
-### Was ist MCP?
+### What is MCP?
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69141f0993d68ff4c536f316_619a5262.png)
 
-Das Model Context Protocol (MCP) ist ein offener Standard zur Verbindung von KI-Assistenten mit externen Systemen, in denen Daten gespeichert sind – Content-Repositorys, Geschäftstools, Datenbanken und Entwicklungsumgebungen.
+The Model Context Protocol (MCP) is an open standard for connecting AI assistants to external systems where data lives—content repositories, business tools, databases, and development environments.
 
-Funktionsweise von MCP:MCP bietet eine standardisierte Möglichkeit, Claude mit Ihren Tools und Datenquellen zu verbinden. Anstatt für jede Datenquelle benutzerdefinierte Integrationen zu erstellen, können Sie ein einzelnes Protokoll als Basis verwenden und darauf aufbauen. MCP-Server stellen Daten und Funktionen bereit. MCP-Clients (wie Claude) stellen eine Verbindung zu diesen Servern her.
+How MCP works:MCP provides a standardized way to connect Claude to your tools and data sources. Instead of building custom integrations for each data source, you build against a single protocol. MCP servers expose data and capabilities; MCP clients (like Claude) connect to these servers.
 
-Wann MCP-Nutzung:Wählen Sie MCP, wenn Claude für folgende Zwecke benötigt wird:
+When to use MCP:Choose MCP when you need Claude to:
 
-- Zugriff auf externe Daten: Google Drive, Slack, GitHub, Datenbanken
+- Access external data: Google Drive, Slack, GitHub, databases
 
-- Geschäftstools nutzen: CRM-Systeme, Projektmanagementplattformen
+- Use business tools: CRM systems, project management platforms
 
-- Verbindung zu Entwicklungsumgebungen: Lokale Dateien, IDEs, Versionskontrolle
+- Connect to development environments: Local files, IDEs, version control
 
-- Integration in benutzerdefinierte Systeme: Ihre eigenen Tools und Datenquellen
+- Integrate with custom systems: Your proprietary tools and data sources
 
-Beispiel:Verknüpfung von Claude über MCP mit Google Drive Ihres Unternehmens. Claude kann jetzt Dokumente durchsuchen, Dateien lesen und auf interne Informationen verweisen, ohne manuelle Uploads - die Verbindung bleibt bestehen und wird automatisch aktualisiert.
+Example:Connect Claude to your company's Google Drive via MCP. Now Claude can search documents, read files, and reference internal knowledge without manual uploads—the connection persists and updates automatically.
 
-Wann stattdessen ein Skill verwendet wird:MCP verbindet Claude mit Daten; Skills bringen Claude bei, was mit diesen Daten getan werden soll. Wenn Sie erklären möchten,wieein Tool verwendet wird oder Verfahren befolgt wird – z. B. „Bei Abfragen unserer Datenbank immer zuerst nach Datumsbereich filtern“ oder „Excel-Berichte mit diesen spezifischen Formeln formatieren“ – ist dies ein Skill. Wenn Sie Claude für denZugriffauf die Datenbank oder Excel-Dateien benötigen, ist dies MCP. Nutzen Sie beides gemeinsam: MCP für Konnektivität, Skills für Verfahrenswissen.
+When to use a Skill instead:MCP connects Claude to data; Skills teach Claude what to do with that data. If you're explaininghowto use a tool or follow procedures—like "when querying our database, always filter by date range first" or "format Excel reports with these specific formulas"—that's a Skill. If you need Claude toaccessthe database or Excel files in the first place, that's MCP. Use both together: MCP for connectivity, Skills for procedural knowledge.
 
-[Erfahren Sie mehr](https://www.anthropic.com/news/model-context-protocol)über MCP und lesen Sie die[Dokumentation](https://modelcontextprotocol.io/docs/develop/build-server)zur Erstellung eines MCP-Servers.
+[Learn more](https://www.anthropic.com/news/model-context-protocol)about MCP and check out[documentation](https://modelcontextprotocol.io/docs/develop/build-server)on how to build an MCP server.
 
-## Wie sie zusammenarbeiten
+## How they work together
 
-Die wahre Leistung entsteht, wenn Sie diese Bausteine kombinieren. Jedes Produkt erfüllt einen anderen Zweck und erstellt gemeinsam anspruchsvolle agentische Workflows.
+The real power emerges when you combine these building blocks. Each serves a distinct purpose, and together they create sophisticated agentic workflows.
 
-### Vergleich: Auswahl des richtigen Tools
+### Comparison: choosing the right tool
 
-### Beispiel für einen agentischen Workflow: Recherchieragent
+### Example agentic workflow: research agent
 
-Wir möchten einen umfassenden Recherchieragent erstellen, der mehrere Bausteine kombiniert. Dieses Beispiel zeigt, wie ein Agent für die Wettbewerbsanalyse zusammengestellt und aktiviert wird.
+Let's build a comprehensive research agent that combines multiple building blocks. This example shows how to assemble and activate an agent for competitive analysis.
 
-Schritt 1: Projekt einrichten
+Step 1: Set up your Project
 
-Erstellen Sie ein Projekt "Competitive Intelligence" und laden Sie es hoch:
+Create a "Competitive Intelligence" project and upload:
 
-- Branchenberichte und Marktanalysen
+- Industry reports and market analyses
 
-- Produktdokumentation von Mitbewerbern
+- Competitor product documentation
 
-- Kundenfeedback aus Ihrem CRM
+- Customer feedback from your CRM
 
-- Zusammenfassungen früherer Forschungen
+- Previous research summaries
 
-Fügen Sie Projektanweisungen hinzu:
+Add project instructions:
 
-Analysiere die Konkurrenz im Rahmen unserer Produktstrategie. Konzentriere dich auf Differenzierungsmöglichkeiten und neue Markttrends. Präsentiere die Ergebnisse mit spezifischen Nachweisen und umsetzbaren Empfehlungen.
+Analyze competitors through the lens of our product strategy. Focus on differentiation opportunities and emerging market trends. Present findings with specific evidence and actionable recommendations.
 
-Schritt 2: Verknüpfung von Datenquellen über MCP
+Step 2: Connect data sources via MCP
 
-Aktivieren Sie einen MCP-Server für:
+Enable MCP servers for:
 
-- Google Drive (für den Zugriff auf gemeinsame Forschungsdokumente)
+- Google Drive (to access shared research documents)
 
-- GitHub (zur Überprüfung von Open-Source-Repositorys von Mitbewerbern)
+- GitHub (to review competitor open-source repositories)
 
-- Websuche (für Marktinformationen in Echtzeit)
+- Web search (for real-time market information)
 
-Schritt 3: Spezielle Skills erstellen
+Step 3: Create specialized Skills
 
-Erstellen Sie einen Skill für die Wettbewerbsanalyse:
-
-```
+Create a "competitive-analysis" skill:
 
 ```
+# My Company GDrive Navigation Skill
 
-Schritt 4: Konfigurieren von Subagenten (nur Claude Code/SDK)
+## Overview
+Optimized search and retrieval strategy for Meridian Tech's Google Drive structure. Use this skill to efficiently locate internal documents, research, and strategic materials.
 
-Erstellen Sie spezialisierte Subagenten:
+## Drive Organization
+
+**Top-level structure:**
+- `/Strategy & Planning/` - OKRs, quarterly plans, board decks
+- `/Product/` - PRDs, roadmaps, technical specs
+- `/Research/` - Market research, competitive intel, user studies
+- `/Sales & Marketing/` - Case studies, pitch decks, campaign materials
+- `/Customer Success/` - Implementation guides, success metrics
+- `/Company Ops/` - Policies, org charts, team directories
+
+**Naming conventions:**
+- Format: `YYYY-MM-DD_DocumentName_vX`
+- Final versions marked with `_FINAL`
+- Drafts include `_DRAFT` or `_WIP`
+
+## Search Best Practices
+
+1. **Start broad, then filter** - Use folder context + keywords
+2. **Target document owners** - Sales materials from Sales/, not root
+3. **Check recency** - Prioritize documents from last 6 months for current strategy
+4. **Look for "source of truth"** - Files with `_FINAL`, `_APPROVED`, or in `/Archives/Official/`
+
+## Research Agent Workflow
+
+1. Identify topic category (product, market, customer)
+2. Search relevant folder with targeted keywords
+3. Retrieve 3-5 most recent/relevant documents
+4. Cross-reference with `/Strategy & Planning/` for context
+5. Cite sources with file names and dates
+```
+
+Step 4: Configure subagents (Claude Code/SDK only)
+
+Create specialized subagents:
 
 market-researchersubagent:
 
 ```
+name: market-researcher
+description: Research market trends, industry reports, and competitive landscape data. Use proactively for competitive analysis.
+tools: Read, Grep, Web-search
+---
+You are a market research analyst specializing in competitive intelligence.
 
+When researching:
+1. Identify authoritative sources (Gartner, Forrester, industry reports)
+2. Gather quantitative data (market share, growth rates, funding)
+3. Analyze qualitative insights (analyst opinions, customer reviews)
+4. Synthesize trends and patterns
+
+Present findings with citations and confidence levels.
 ```
 
 technical-analystsubagent:
 
 ```
+name: technical-analyst
+description: Analyze technical architecture, implementation approaches, and engineering decisions. Use for technical competitive analysis.
+tools: Read, Bash, Grep
+---
+You are a technical architect analyzing competitor technology choices.
 
+When analyzing:
+1. Review public repositories and technical documentation
+2. Assess architecture patterns and technology stack
+3. Evaluate scalability and performance approaches
+4. Identify technical strengths and limitations
+
+Focus on actionable technical insights that inform our product decisions.
 ```
 
-Schritt 5: Recherchieragenten aktivieren
+Step 5: Activate your research agent
 
-Jetzt fragen Sie Claude: „Analysiere, wie unsere drei wichtigsten Konkurrenten ihre neuen KI-Funktionen einsetzen, und identifiziere Lücken, die wir nutzen können.“
+Now when you ask Claude: "Analyze how our top three competitors are positioning their new AI features and identify gaps we can exploit"
 
-Jetzt passiert Folgendes:
+Here's what happens:
 
-- Projektkontext wird geladen: Claude greift auf Ihre hochgeladenen Recherchedokumente zu und folgt den Projektanweisungen
+- Project context loads: Claude accesses your uploaded research documents and follows project instructions
 
-- MCP-Verbindungen aktivieren: Claude durchsucht Google Drive nach aktuellen Mitbewerberbeschreibungen und ruft GitHub-Daten ab
+- MCP connections activate: Claude searches your Google Drive for recent competitor briefs and pulls GitHub data
 
-- Skills aktivieren: Der Skill zur Wettbewerbsanalyse stellt den analytischen Rahmen bereit
+- Skills engage: The competitive-analysis Skill provides the analytical framework
 
-- Subagenten ausführen(in Claude Code): Der Marktforscher sammelt Branchendaten, während der technische Analyst technische Implementierungen überprüft
+- Subagents execute(in Claude Code): The market-researcher gathers industry data while the technical-analyst reviews technical implementations
 
-- Prompts verfeinern: Sie stellen Anleitungen zur Verfügung: „Konzentriere dich insbesondere auf Unternehmenskunden im Gesundheitswesen“
+- Prompts refine: You provide conversational guidance: "Focus especially on enterprise customers in healthcare"
 
-Das Ergebnis:Eine umfassende Wettbewerbsanalyse, die aus mehreren Datenquellen stammt, Ihrem analytischen Framework folgt, spezialisiertes Know-how nutzt und während Ihres gesamten Rechercheprojekts Kontext beibehält.
+The result:A comprehensive competitive analysis that draws from multiple data sources, follows your analytical framework, leverages specialized expertise, and maintains context throughout your research project.
 
-## Häufige Fragen
+## Common questions
 
-#### Wie funktionieren Skills?
+#### How do Skills work?
 
-Skills nutzen die[progressive Offenlegung](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills), um Claude effizient zu halten. Bei der Arbeit an Aufgaben durchsucht Claude zunächst Skill-Metadaten (Beschreibungen und Zusammenfassungen), um relevante Übereinstimmungen zu identifizieren. Wenn ein Skill übereinstimmt, lädt Claude die vollständigen Anweisungen. Wenn der Skill ausführbaren Code- oder Referenzdateien enthält, werden diese nur bei Bedarf geladen.
+Skills use[progressive disclosure](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)to keep Claude efficient. When working on tasks, Claude first scans Skill metadata (descriptions and summaries) to identify relevant matches. If a Skill matches, Claude loads the full instructions. Finally, if the Skill includes executable code or reference files, those load only when needed.
 
-Diese Architektur bedeutet, dass Sie viele Skills zur Verfügung haben können, ohne das Kontextfenster von Claude zu überfordern. Claude greift genau dann auf die Daten zu, wenn sie benötigt werden.
+This architecture means you can have many Skills available without overwhelming Claude's context window. Claude accesses exactly what it needs, when it needs it.
 
-#### Skills vs. Subagenten: Wann was verwendet werden sollte
+#### Skills vs. subagents: when to use what
 
-Verwenden Sie Skills, wenn:Sie Funktionen möchten, die jede Claude-Instanz laden und verwenden kann. Skills sind wie Schulungsmaterialien: Sie helfen Claude dabei, bestimmte Aufgaben in allen Konversationen besser zu bewältigen.
+Use Skills when:You want capabilities that any Claude instance can load and use. Skills are like training materials—they make Claude better at specific tasks across all conversations.
 
-Verwenden Sie Subagenten, wenn:Sie vollständige, eigenständige Agenten benötigen , die für bestimmte Zwecke entwickelt wurden und Workflows unabhängig voneinander verarbeiten. Subagenten sind wie spezialisierte Mitarbeiter mit eigenem Kontext und Tool-Berechtigungen.
+Use subagents when:You need complete, self-contained agents designed for specific purposes that handle workflows independently. Subagents are like specialized employees with their own context and tool permissions.
 
-Nutzen Sie sie gemeinsam, wenn:Sie Subagenten mit speziellem Know-how benötigen. Ein Subagent zur Codeüberprüfung kann beispielsweise Skills für sprachspezifische Best Practices nutzen und dabei die Unabhängigkeit eines Subagenten mit dem übertragbaren Know-how von Skills kombinieren.
+Use them together when:You want subagents with specialized expertise. For example, a code-review subagent can use Skills for language-specific best practices, combining the independence of a subagent with the portable expertise of Skills.
 
-#### Skills vs. Prompts: wann Sie was verwenden
+#### Skills vs. prompts: when to use what
 
-Verwenden Sie Prompts wenn:Sie Anweisungen einmalig eingeben, einen unmittelbaren Kontext bereitstellen oder eine Konversation führen. Prompts sind reaktiv und kurzlebig.
+Use prompts when:You're giving one-time instructions, providing immediate context, or having a conversational back-and-forth. Prompts are reactive and ephemeral.
 
-Verwenden Sie Skills, wenn:Sie Verfahren oder Fachwissen haben, die Sie wiederholt benötigen. Skills sind proaktiv – Claude weiß, wann sie angewendet werden sollen – und werden über Unterhaltungen hinweg beibehalten.
+Use Skills when:You have procedures or expertise that you'll need repeatedly. Skills are proactive—Claude knows when to apply them—and persistent across conversations.
 
-Verwenden Sie sie gemeinsam:Prompts und Skills ergänzen sich auf natürliche Weise. Verwenden Sie Skills, um grundlegendes Know-how bereitzustellen, und geben Sie dann Prompts für jede Aufgabe spezifischen Kontext und Feinabstimmung an.
+Use them together:Prompts and Skills complement each other naturally. Use Skills to provide foundational expertise, then use prompts to provide specific context and refinement for each task.
 
-#### Skills vs. Projekte: wann Sie was verwenden
+#### Skills vs. Projects: when to use what
 
-Verwenden Sie Projekte, wenn:Sie Hintergrundwissen und Kontext benötigen, der in alle Gespräche über eine bestimmte Initiative einfließen sollte. Projekte stellen statisches Referenzmaterial bereit, das immer geladen wird.
+Use Projects when:You need background knowledge and context that should inform all conversations about a specific initiative. Projects provide static reference material that's always loaded.
 
-Verwenden Sie Skills, wenn:Sie prozedurales Wissen und ausführbaren Code benötigen, der nur bei Bedarf aktiviert wird. Skills bieten dynamisches Know-how, das nach Bedarf geladen wird und in Ihrem Kontextfenster gespeichert wird.
+Use Skills when:You need procedural knowledge and executable code that activates only when relevant. Skills provide dynamic expertise that loads on-demand, saving your context window.
 
-Nutzen Sie sie gemeinsam, wenn:Sie sowohl konsistenten Kontext als auch spezielle Funktionen benötigen. Beispiel: Ein Projekt zur Produktentwicklung mit Produktspezifikationen und Benutzerrecherchen in Kombination mit Skills zur Erstellung technischer Dokumentation und Analyse von Benutzerfeedbackdaten.
+Use them together when:You want both persistent context and specialized capabilities. For example, a "Product Development" project containing product specs and user research, combined with Skills for creating technical documentation and analyzing user feedback data.
 
-Hauptunterschied:Projekte sagen: „Hier ist alles,was man wissen muss." Skills sagen: „So macht man das.“ Projekte stellen eine Wissensdatenbank bereit, in der Sie arbeiten. Skills bieten Funktionen, die überall eingesetzt werden können – in jeder Unterhaltung, in jedem Projekt.
+Key difference:Projects say "here's what you need to know." Skills say "here's how to do things." Projects provide a knowledge base you work within. Skills provide capabilities that work everywhere—any conversation, any project.
 
-#### Können Subagenten Skills verwenden?
+#### Can subagents use Skills?
 
-Ja. In Claude Code und dem Agenten-SDK können Unteragenten genau wie der Hauptagent auf Skills zugreifen und diese verwenden. Dadurch entstehen leistungsstarke Kombinationen, in denen spezialisierte Subagenten portables Know-how nutzen.
+Yes. In Claude Code and the Agent SDK, subagents can access and use Skills just like the main agent. This creates powerful combinations where specialized subagents leverage portable expertise.
 
-Beispielsweise kann Ihr Python-Entwickler-Subagent den Pandas-Analyse-Skill verwenden, um Datentransformationen gemäß den Konventionen Ihres Teams durchzuführen, während Ihr Dokumentations-Writer den Skill für technisches Schreiben verwendet, um die API-Dokumentation konsistent zu formatieren.
+For example, your python-developer subagent can use the pandas-analysis Skill to perform data transformations following your team's conventions, while your documentation-writer subagent uses the technical-writing skill to format API documentation consistently.
 
-## Erste Schritte
+## Getting started
 
-Möchten Sie Skills erstellen? So klappt der Einstieg:
+Ready to build with Skills? Here's how to start:
 
-[Claude.ai](https://Claude.ai)-Benutzer:
+[Claude.ai](https://Claude.ai)users:
 
-- Skills in Einstellungen → Funktionen aktivieren
+- Enable Skills in Settings → Features
 
-- Erstellen Sie Ihr erstes Projekt unter claude.ai/projects
+- Create your first project at claude.ai/projects
 
-- Kombinieren Sie Projektwissen mit Skills für Ihre nächste Analyseaufgabe
+- Try combining project knowledge with Skills for your next analysis task
 
-API-Entwickler:
+API developers:
 
-- Entdecken Sie den Skills-Endpunkt in derDokumentation
+- Explore the Skills endpoint indocumentation
 
-- Lesen Sie unserenSkills-Leitfaden
+- Check out ourskills cookbook
 
-Claude Code-Benutzer:
+Claude Code users:
 
-- Installation von Skills überPlugin-Marktplätze
+- Install Skills viaplugin marketplaces
 
-- Lesen Sie unserenSkills-Leitfaden
+- Check out ourskills cookbook
 
-## Agentische Skills
+## Agent Skills
 
-Nutzen Sie Skills mit Claude, um noch heute leistungsstärkere Anwendungen zu entwickeln.
+Start using Skills with Claude to build more powerful applications today.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -332,36 +390,36 @@ Nutzen Sie Skills mit Claude, um noch heute leistungsstärkere Anwendungen zu en
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/691503928e574d7dc8407b4a_Hand-NodeWeb-1.svg)
 
-Häufig gestellte Fragen
+FAQ
 
-## Ähnliche Beiträge
+## Related posts
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+### The evolution of agentic surfaces: building with Claude Managed Agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Observability for developers building connectors
+### Zero Trust for AI agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
-### Claude für die Rechtsbranche
+### Best practices for computer and browser use with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
 
-### Das kann der Max Plan
+### Building AI agents for the enterprise
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+## Transform how your organization operates with Claude
 
-Entwickler-Newsletter abonnieren
+Get the developer newsletter
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/de/blog/skills-explained
+**Source:** https://claude.com/blog/skills-explained
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

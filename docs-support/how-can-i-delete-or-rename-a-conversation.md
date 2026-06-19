@@ -16,7 +16,7 @@ To delete or rename an individual conversation:
 2. Click on the name of the conversation at the top of the screen.
 3. Select either "Delete" or "Rename" from the options that appear:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1621955348/4844057e0f0847b580b95bc01625/Screenshot+2025-07-15+at+11_43_18%E2%80%AFAM.png?expires=1781845200&signature=087b876a0c7a7f1b338ecb83846761758c089e4dbee02848f222510cb767f73f&req=dSYlF8B7mIJbUfMW1HO4zVBo5OL%2FaYVYt5RK2C3E1TfqKOi6pUD6nrbENqgA%0Ak75qxv0kw6GBtR3XA6k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1621955348/4844057e0f0847b580b95bc01625/Screenshot+2025-07-15+at+11_43_18%E2%80%AFAM.png?expires=1781856900&signature=5cb9abbba03276ccfd3b9e6b9b2f309aa1c6692f83d17bde9e26fa0c13943ec7&req=dSYlF8B7mIJbUfMW1HO4zVBo5OL%2FaIZTt5RK2C3E1TeJ7XaQvxpy0YCXVYHU%0APUQDEx2dt1FI3BVNzLg%3D%0A)
 
  
 
