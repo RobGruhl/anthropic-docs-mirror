@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -207,5 +207,5 @@ To share your artifacts publicly, embed them on websites, or discover artifacts 
 - [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)
-- [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
