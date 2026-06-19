@@ -1,6 +1,6 @@
 # Requesting a refund for a paid Claude plan
 
-*Updated over 3 weeks ago*
+*Updated in the last hour*
 
 ---
 
@@ -17,7 +17,13 @@ To request a refund for a payment defined as refundable in our Terms of Service,
 
 ---
 
+## Refunds for customers in the European Economic Area (EEA) and the United Kingdom (UK)
+
+In the European Economic Area and the United Kingdom, you may receive a refund within 14 days of purchase. You may find this option available in your **Settings**. Your refunds will be prorated according to your use.
+
  
+
+---
 
 ## What should I do if I can't access the account I'm requesting a refund for?
 

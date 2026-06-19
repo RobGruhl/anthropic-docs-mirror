@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-19 13:12*
+*Last updated: 2026-06-19 16:05*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -41,7 +41,7 @@ Total documents: 261
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-06-16  
+**Updated:** 2026-06-19  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -506,7 +506,7 @@ Total documents: 261
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-19  
 
 ### How do I sign up for Claude Pro on the Claude app for iOS?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md`  
@@ -721,7 +721,7 @@ Total documents: 261
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-19  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -731,7 +731,7 @@ Total documents: 261
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-19  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -776,7 +776,7 @@ Total documents: 261
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-19  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -806,12 +806,12 @@ Total documents: 261
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-19  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-19  
 
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
@@ -871,7 +871,7 @@ Total documents: 261
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-19  
 
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
@@ -916,7 +916,7 @@ Total documents: 261
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-19  
 
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
@@ -1161,7 +1161,7 @@ Total documents: 261
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-19  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
