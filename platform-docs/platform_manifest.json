@@ -15195,10 +15195,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/effort.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/effort",
-      "hash": "c3dc56fce453ca3643ab9bbe2824e8210653bea9d8d70a9279cf1166a5f6b921",
+      "hash": "13c36b200bb07320b71ef73c9eeae5506e9e8d755e75b5399d7c2c19785a5d4e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-09T18:41:07.090325"
+      "last_updated": "2026-06-19T18:33:58.097251"
     },
     "build-with-claude__embeddings.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/embeddings",
@@ -15285,10 +15285,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/multilingual-support",
-      "hash": "b74ad32f36aa0bfebf9c0a90c189e7f7bd6d16c974b6566e89d68f9b02178f67",
+      "hash": "893e78b04898c1456bf144511bbe9ee17e8a7209914e083ece5f377ac6b01c30",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-15T19:17:29.674052"
+      "last_updated": "2026-06-19T18:33:58.099282"
     },
     "build-with-claude__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/overview",
@@ -15365,10 +15365,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/structured-outputs",
-      "hash": "8e75f173d1db10ebb759b109c9aaa97e218f90b9ec7535ee86335e6b968dd958",
+      "hash": "effaac64b888878fccea1bf6ecfc36534432df51337a0a82defeb03596635f82",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-11T21:40:06.104112"
+      "last_updated": "2026-06-19T18:33:58.101134"
     },
     "build-with-claude__task-budgets.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
@@ -16032,13 +16032,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-19T16:00:26.245061",
-    "fetch_duration_seconds": 33.481736,
+    "last_fetch_completed": "2026-06-19T18:33:58.116395",
+    "fetch_duration_seconds": 23.839255,
     "total_pages_discovered": 1752,
     "pages_fetched_successfully": 1603,
     "pages_failed": 149,
-    "pages_unchanged": 1603,
-    "pages_updated": 0,
+    "pages_unchanged": 1600,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16205,5 +16205,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-19T16:00:26.245248"
+  "last_updated": "2026-06-19T18:33:58.116578"
 }

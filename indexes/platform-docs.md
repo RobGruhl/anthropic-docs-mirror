@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-19 16:05*
+*Last updated: 2026-06-19 18:38*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
@@ -1486,7 +1486,7 @@ Total documents: 1603
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/effort  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-19  
 
 ### build-with-claude__embeddings
 **File:** `/platform-docs/build-with-claude__embeddings.md`  
@@ -1531,7 +1531,7 @@ Total documents: 1603
 ### build-with-claude__multilingual-support
 **File:** `/platform-docs/build-with-claude__multilingual-support.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/multilingual-support  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-19  
 
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
@@ -1571,7 +1571,7 @@ Total documents: 1603
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-19  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
