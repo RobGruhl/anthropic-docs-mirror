@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-19 10:35*
+*Last updated: 2026-06-19 13:12*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -901,7 +901,7 @@ Total documents: 261
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-19  
 
 ### Set up single sign-on (SSO)
 **File:** `/docs-support/set-up-single-sign-on-sso.md`  
