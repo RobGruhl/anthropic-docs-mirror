@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-18 21:44*
+*Last updated: 2026-06-19 00:44*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
@@ -666,12 +666,12 @@ Total documents: 1603
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
@@ -711,17 +711,17 @@ Total documents: 1603
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__server-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__server-tools.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__strict-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__strict-tool-use.md`  
@@ -741,7 +741,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__tool-reference
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-reference.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__tool-runner
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-runner.md`  
@@ -756,7 +756,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__tool-use-with-prompt-caching
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-use-with-prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__troubleshooting-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__troubleshooting-tool-use.md`  
@@ -766,12 +766,12 @@ Total documents: 1603
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-19  
 
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-19  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
@@ -1546,7 +1546,7 @@ Total documents: 1603
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-19  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
