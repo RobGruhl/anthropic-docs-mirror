@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-20 15:37*
+*Last updated: 2026-06-20 18:31*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -131,7 +131,7 @@ Total documents: 261
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -286,7 +286,7 @@ Total documents: 261
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -326,7 +326,7 @@ Total documents: 261
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-20  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -341,7 +341,7 @@ Total documents: 261
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-20  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -481,7 +481,7 @@ Total documents: 261
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
 **Source:** https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-20  
 
 ### How do I get access to Claude in Amazon Bedrock?
 **File:** `/docs-support/how-do-i-get-access-to-claude-in-amazon-bedrock.md`  
@@ -506,7 +506,7 @@ Total documents: 261
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### How do I sign up for Claude Pro on the Claude app for iOS?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md`  
@@ -731,7 +731,7 @@ Total documents: 261
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -806,7 +806,7 @@ Total documents: 261
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -866,7 +866,7 @@ Total documents: 261
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -916,7 +916,7 @@ Total documents: 261
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
@@ -996,7 +996,7 @@ Total documents: 261
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1166,7 +1166,7 @@ Total documents: 261
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1221,7 +1221,7 @@ Total documents: 261
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-20  
 
 ### What versions of Android are supported?
 **File:** `/docs-support/what-versions-of-android-are-supported.md`  
@@ -1246,7 +1246,7 @@ Total documents: 261
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-20  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  
@@ -1281,7 +1281,7 @@ Total documents: 261
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-20  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  
