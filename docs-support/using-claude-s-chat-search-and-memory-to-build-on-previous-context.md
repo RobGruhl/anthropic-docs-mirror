@@ -44,7 +44,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1781960400&signature=a0360264ddcc24e931cb5c33bf57b882214ed601cc46bc984eba8a1c01f56228&req=dScmH859nYlXUPMW1HO4zRzXH145JTHGJG68qZhl780yl57EG4y9u5klQB8Z%0AJmBDod8bngWj4mEp2e4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1781971200&signature=c70736719d747fc5cecb6d760cf269b44e3c8be9f64f4a85ca907f7950015c17&req=dScmH859nYlXUPMW1HO4zRzXH145JDDAJG68qZhl781%2FhgAk2toPUmLCP4ZW%0AvG0V3tTJrRTsnpPVArI%3D%0A)
 
  
 
@@ -54,7 +54,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1781960400&signature=6755d038f62a15f6fd2f1a2e7a69e6431131d762c0493b5e1feca3a5fab26980&req=dScmH859nYlWWvMW1HO4za54sKJlOoa%2FXDpzhlKsgjOAwHw4Fn%2Bz6hVxCqJD%0AvQ%2BRE2QCF14DbRrJRiE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1781971200&signature=20776c99b5a3e97e16cd6d5d42da2609b88411617308d04389cfa28636bff1a0&req=dScmH859nYlWWvMW1HO4za54sKJlO4e5XDpzhlKsgjOo0itM98GOiaJGNIwA%0ALA%2B6XjL9oRTsFUjBt2E%3D%0A)
 
  
 
@@ -96,7 +96,7 @@ You can toggle Claude’s memory on by navigating to [Settings > Capabilities](h
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1781960400&signature=6acaade9437106aabb774de97e35545021fa326bb900b39a6c745831bc12e84c&req=dScmH859nYlWW%2FMW1HO4zTD5MMDvceRBBq9N9dRTKYeV7bzAKv1N2B4SNWkJ%0AJz%2BFn6Crm%2B8JhRZLT5s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1781971200&signature=31e0b1fd7e095ca67c5ead20825aced67bba574516fc4342b48a6dd82827e072&req=dScmH859nYlWW%2FMW1HO4zTD5MMDvcOVHBq9N9dRTKYdN%2FD2vVG26dRfyrS5e%0AcaKd2YAxWz%2FDrWJonW8%3D%0A)
 
  
 

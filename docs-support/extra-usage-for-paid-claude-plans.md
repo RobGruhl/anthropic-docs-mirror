@@ -44,7 +44,7 @@ To enable usage credits on your paid Claude plan:
 7. You’ll then need to prepay to cover usage beyond your plan limits. Click “Add funds,” enter the amount you want to purchase in the modal, then click “Purchase.”
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1781960400&signature=edf646d755c62ab8cafcc056d9a32e3994ba124f2b8a8a3f1f22bae5a0353b5e&req=dSgnE8F%2FlIZXXPMW1HO4zYj2AROQo%2FA8opE7m38Ydfd8x%2F%2FHGXBg05TbTPCB%0A7QznvSIr5cGNGDqQkVk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1781971200&signature=20a3eef6f225b5c712f9d4721a8687146326ed3c80523559f97e9384d5d9cd66&req=dSgnE8F%2FlIZXXPMW1HO4zYj2AROQovE6opE7m38YdfdCpKWMcIbhSdhY0sa7%0AR1SykwAhDWoxYBKIWKU%3D%0A)
 
  
 
