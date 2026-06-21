@@ -44,7 +44,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1782038700&signature=7eaa6f2fc29fde89c042bd88807979272805185bffe4539e59ddef865af7e30c&req=dScmH859nYlXUPMW1HO4zRzXH10wIDnFJG68qZhl783XRvpW75C748y1rl59%0A4Uwq0NUUPEBDSeFxoMI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1782047700&signature=2985b8f41f85617d6f210b8645f216cd9fbd31fbae1814da5de9a4e0a3453916&req=dScmH859nYlXUPMW1HO4zRzXH10wJzbFJG68qZhl7830UMNUcfqb4qgHLIWc%0As1JSMJSK9fwo2MLywu0%3D%0A)
 
  
 
@@ -54,7 +54,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1782038700&signature=1cae777078590c462f28466d4cd5b64d968a07a955c3d1868bd695043e65c2e0&req=dScmH859nYlWWvMW1HO4za54sKFsP468XDpzhlKsgjPKIsSTCA9MTa6R9ei6%0AxNv5IelFaMK2MKmltcY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1782047700&signature=3729f5650205a06e21b279163446f40d9c08e5021545a6edfce6b9fc9dab01d2&req=dScmH859nYlWWvMW1HO4za54sKFsOIG8XDpzhlKsgjOWOgXEbL1hzXv4nOMj%0AyvRzDevmpe4N2ruXY6M%3D%0A)
 
  
 
@@ -96,7 +96,7 @@ You can toggle Claude’s memory on by navigating to [Settings > Capabilities](h
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1782038700&signature=9575d6e1d7f6d270e36866f85d3f6d4c4e2e854f3e139f2ba2a7fe514a8e696f&req=dScmH859nYlWW%2FMW1HO4zTD5MMPmdOxCBq9N9dRTKYcNYb8v%2FW4RRx8n36ne%0AlJBN7TxFbzA6J%2BoyXx4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1782047700&signature=e59e888324ecbde47f2e19923de45cd3bb618c3891c799db88494f2fc2597451&req=dScmH859nYlWW%2FMW1HO4zTD5MMPmc%2BNCBq9N9dRTKYepwb7pYgjyMuYZ%2BKpd%0ADctoJME%2BVDyRc29LSng%3D%0A)
 
  
 
