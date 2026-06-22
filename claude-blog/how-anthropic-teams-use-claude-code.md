@@ -1,136 +1,131 @@
-# How Anthropic teams use Claude Code
-*July 24, 2025*
+# Wie Anthropic-Teams Claude Code verwenden
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-# How Anthropic teams use Claude Code
+# Wie Anthropic-Teams Claude Code verwenden
 
-Teams across Anthropic use Claude Code for everything from debugging production issues and navigating unfamiliar codebases to building custom automation tools. Here's how.
+Teams bei Anthropic nutzen Claude Code für alles – von der Fehlersuche in der Produktion über die Navigation unbekannter Codebasen bis hin zur Erstellung benutzerdefinierter Automatisierungstools. So geht's.
 
-- CategoryEnterprise AI
+- KategorieKI für Unternehmen
 
-- ProductClaude Code
+- ProduktClaude Code
 
-- DateJuly 24, 2025
+- Datum24.7.2025
 
-- Reading time5min
+- Lesezeit5Min
 
-- ShareCopy linkhttps://claude.com/blog/how-anthropic-teams-use-claude-code
+- TeilenLink kopierenhttps://claude.com/blog/how-anthropic-teams-use-claude-code
 
-Agentic coding tools like[Claude Code](https://www.anthropic.com/claude-code)help developers accelerate workflows, automate repetitive tasks, and tackle complex programming projects. As the field evolves, we're learning about new applications everyday from users, including our own employees.
+Tools für agentisches Coding wie[Claude Code](https://www.anthropic.com/claude-code)helfen Entwicklern dabei, Workflows zu beschleunigen, sich wiederholende Aufgaben zu automatisieren und komplexe Programmierprojekte in Angriff zu nehmen. Da sich der Bereich weiterentwickelt, erfahren wir täglich etwas über neue Anwendungen durch die Nutzer, einschließlich unserer eigenen Mitarbeiter.
 
-To learn more, we sat down with employees across Anthropic to understand how they use Claude Code at work.
+Um mehr Informationen darüber zu erhalten, haben wir uns mit Mitarbeitern in Anthropic unterhalten, um herauszufinden, wie sie Claude Code bei der Arbeit nutzen.
 
-While many of their use cases were predictable—debugging, navigating codebases, managing workflows—others surprised us. Lawyers built phone tree systems. Marketers generated hundreds of ad variations in seconds. Data scientists created complex visualizations without knowing JavaScript.
+Während viele ihrer Anwendungsfälle vorhersehbar waren – Debugging, Navigation in Codebasen, Verwaltung von Workflows – haben uns andere überrascht. Anwälte haben Telefonstruktursysteme erstellt. Marketingexperten generierten in Sekundenschnelle Hunderte von Anzeigenvariationen. Datenwissenschaftler haben komplexe Visualisierungen ohne Kenntnisse von JavaScript erstellt.
 
-The pattern became clear: agentic coding isn't just accelerating traditional development. It's dissolving the boundary between technical and non-technical work, turning anyone who can describe a problem into someone who can build a solution.
+Das Muster wurde klar: agentisches Coding dient nicht nur zur Beschleunigung der herkömmlichen Entwicklung. Die Grenze zwischen technischer und nichttechnischer Arbeit verschwimmt und jeder, der ein Problem beschreiben kann, wird zu jemandem, der eine Lösung erstellen kann.
 
-Here’s what we learned.
+Folgendes haben wir in Erfahrung gebracht.
 
-### Codebase navigation and understanding
+### Navigation und Verständnis der Codebasis
 
-Teams across the company use Claude Code to help new hires and even long-time employees get up to speed on our codebases.
+Teams im gesamten Unternehmen nutzen Claude Code, um neuen und langjährigen Mitarbeitern den Einstieg in unsere Codebasen zu erleichtern.
 
-New data scientists on our Infrastructure team feed Claude Code their entire codebase to get productive quickly. Claude reads the codebase’s[CLAUDE.md](http://claude.md)files, identifies relevant ones, explains data pipeline dependencies, and shows which upstream sources feed into dashboards, replacing traditional data catalog tools.
+Neue Data Scientists in unserem Infrastrukturteam speisen ihre gesamte Codebasis in Claude Code  ein, um schnell produktiv zu sein. Claude liest die[CLAUDE.md](http://claude.md)-Dateien der Codebasis, identifiziert relevante Dateien, erklärt Datenpipeline-Abhängigkeiten und zeigt, welche vorgelagerten Quellen in Dashboards eingespeist werden und ersetzen herkömmliche Datenkatalog-Tools.
 
-Our Product Engineering team refers to Claude Code as their "first stop" for any programming task. They ask it to identify which files to examine for bug fixes, features, or analysis, eliminating the time-consuming process of manually gathering context before building new features.
+Unser Produktentwicklungsteam nutzt Claude Code als erste Anlaufstelle für Programmieraufgaben. Sie bitten es, herauszufinden, welche Dateien auf Fehlerbehebungen, Funktionen oder Analysen untersucht werden sollen, wodurch der zeitaufwändige Prozess der manuellen Erfassung von Kontext vor der Erstellung neuer Funktionen entfällt.
 
-### Testing and code review
+### Testen und Codeüberprüfung
 
-Agentic coding tools are particularly popular for their ability to automate two critical but tedious programming tasks: writing unit tests and reviewing code.
+Tools für agentisches Coding sind besonders beliebt wegen ihrer Fähigkeit, zwei kritische, aber mühsame Programmieraufgaben zu automatisieren: das Schreiben von Unit-Tests und die Überprüfung von Code.
 
-The Product Design team uses Claude Code to write comprehensive tests for new features. They've automated Pull Request comments through GitHub Actions, with Claude handling formatting issues and test case refactoring automatically.
+Das Produktdesign-Team verwendet Claude Code zum Schreiben umfassender Tests für neue Funktionen. Sie haben Pull-Request-Kommentare über GitHub-Aktionen automatisiert, wobei Claude Formatierungsprobleme und das Refactoring von Testfällen automatisch übernimmt.
 
-The Security Engineering team transformed their workflow from "design doc → janky code → refactor → give up on tests" to asking Claude for pseudocode, guiding it through test-driven development, and checking in periodically. This results in more reliable, testable code.
+Das Sicherheitstechnik-Team hat seinen Workflow von "Designdokument → Janky Code → refactor → aufgeben von Tests" umgewandelt und kann Claude um Pseudocode bitten, ihn durch die testgesteuerte Entwicklung führen und regelmäßig einchecken. Dadurch wird zuverlässiger, testbarer Code.
 
-Agentic coding can also be used to translate tests into other programming languages. For instance, when the Inference team needs to test functionality in unfamiliar languages like Rust, they explain what they want to test and Claude writes the logic in the native language of the codebase.
+Agentisches Coding kann auch zur Übersetzung von Tests in andere Programmiersprachen verwendet werden. Wenn das Inferenz-Team beispielsweise Funktionen in unbekannten Sprachen wie Rust testen muss, erklärt es, was getestet werden soll, und Claude schreibt die Logik in der systemeigenen Sprache der Codebasis
 
-### Debugging and troubleshooting
+### Debugging und Fehlerbehebung
 
-Production issues demand quick resolution, but trying to reason about unfamiliar code under pressure often leads to delays. For many teams at the company, Claude Code accelerates diagnosis and fixes by analyzing stack traces, documentation, and system behavior in real-time.
+Produktionsprobleme erfordern eine schnelle Lösung, aber der Versuch, unter Druck unbekannten Code zu analysieren, führt oft zu Verzögerungen. Für viele Teams im Unternehmen beschleunigt Claude Code die Diagnose und Korrekturen durch die Analyse von Stack-Traces, Dokumentation und Systemverhalten in Echtzeit.
 
-During incidents, the Security Engineering team feeds Claude Code stack traces and documentation to trace control flow through the codebase. Problems that typically take 10-15 minutes of manual scanning now resolve 3x as quickly.
+Bei Vorfällen speist das Security Engineering-Team Claude Code Stack-Traces und Dokumentationen in den Kontrollfluss durch die Codebasis ein. Probleme, die normalerweise 10 bis 15 Minuten manuell scannen würden, werden jetzt 3-mal schneller gelöst.
 
-With Claude Code, the Product Engineering team gained confidence to tackle bugs in unfamiliar codebases. They ask Claude: "Can you fix this bug? This is the behavior I'm seeing" and review the proposed solution without needing to rely on other engineering teams for assistance.
+Mit Claude Code gewann das Produktengineering-Team das Vertrauen, Fehler in unbekannten Codebasen zu beheben. Sie fragen Claude: „Können Sie diesen Fehler beheben? Dies ist das Verhalten, das ich sehe", und überprüfen Sie die vorgeschlagene Lösung, ohne dass andere Engineering-Teams um Unterstützung bitten müssen.
 
-In one instance, when Kubernetes clusters stopped scheduling pods, the Data Infrastructure team used Claude Code to diagnose the issue. They fed it dashboard screenshots, and Claude guided them menu-by-menu through Google Cloud's UI until they found pod IP address exhaustion. Claude then provided the exact commands to create a new IP pool and add it to the cluster, saving them 20 minutes of valuable time during a system outage.
+Als Kubernetes-Cluster die Planung von Pods stoppte, verwendete das Dateninfrastruktur-Team Claude Code zur Diagnose des Problems. Sie gaben Dashboard-Screenshots ein und Claude führte sie Menü für Menü durch die Benutzeroberfläche von Google Cloud, bis sie feststellten, dass die IP-Adressen nicht mehr verfügbar waren. Claude stellte dann die genauen Befehle bereit, um einen neuen IP-Pool zu erstellen und dem Cluster hinzuzufügen, was ihnen bei einem Systemausfall 20 Minuten wertvolle Zeit einspart.
 
-### Prototyping and feature development
+### Prototyping und Funktionsentwicklung
 
-Building new features traditionally requires deep technical knowledge and significant time investment. Claude Code enables rapid prototyping and even full application development, letting teams validate ideas quickly regardless of their programming expertise.
+Die Erstellung neuer Funktionen erfordert traditionell tiefgreifendes technisches Wissen und erhebliche Zeitinvestition. Claude Code ermöglicht die schnelle Prototypenerstellung und sogar die vollständige Anwendungsentwicklung, sodass Teams unabhängig von ihrem Programmierwissen Ideen schnell validieren können.
 
-Members of the Product Design team would feed Figma design files to Claude Code and then set up autonomous loops where Claude Code writes the code for the new feature, runs tests, and iterates continuously. They give Claude abstract problems, let it work autonomously, then review solutions before final refinements. In one case, they had Claude build Vim key bindings for itself with minimal human review.
+Mitglieder des Produktdesign-Teams würden Figma-Designdateien an Claude Code weiterleiten und dann autonome Schleifen einrichten, in denen Claude Code den Code für die neue Funktion schreibt, Tests ausführt und kontinuierlich iteriert. Sie stellen Claude abstrakte Probleme zu, lassen es autonom arbeiten und überprüfen dann die Lösungen, bevor sie endgültige Verfeinerungen vornehmen. In einem Fall ließ Claude Vim-Key-Bindungen mit minimaler Überprüfung durch Menschen selbst erstellen.
 
-With Claude Code, the Product Design team discovered an unexpected use: mapping out error states, logic flows, and system statuses to identify edge cases during design rather than discovering them in development. This fundamentally improves their initial design quality and saves them hours of debugging later on.
+Mit Claude Code entdeckte das Produktdesign-Team eine unerwartete Nutzung: Zuordnung von Fehlerzuständen, Logikabläufen und Systemstatus zur Identifizierung von Randfällen während des Designs, anstatt sie während der Entwicklung zu entdecken. Dies verbessert die anfängliche Designqualität grundlegend und erspart später stundenlange Debugging.
 
-Despite not being fluent in TypeScript, data scientists use Claude Code to build entire React applications for visualizing RL model performance. After one-shot prompting in a sandbox environment, the tool writes entire TypeScript visualizations from scratch without understanding the code themselves. Given the simplicity of the task, if the first prompt isn’t sufficient, they’ll make slight tweaks and try again.
+Obwohl Data Scientists nicht fließend mit TypeScript sprechen, verwenden sie Claude Code zur Erstellung ganzer React-Anwendungen zur Visualisierung der RL-Modellleistung. Nach einmaliger Eingabe in einer Sandbox-Umgebung schreibt das Tool ganze TypeScript-Visualisierungen von Grund auf neu, ohne den Code selbst zu verstehen. Wenn die Aufgabe so einfach ist, nimmt der Mitarbeiter kleine Anpassungen vor und versucht es erneut, wenn der erste Prompt nicht ausreicht, wenn er die Aufgabe so einfach ist und es nicht ausreicht.
 
-### Documentation and knowledge management
+### Dokumentation und Wissensmanagement
 
-Technical documentation often sits scattered across wikis, code comments, and team members' heads. Claude Code consolidates this knowledge via MCP and CLAUDE.md files into accessible formats, making expertise available to everyone who needs it.
+Technische Dokumentationen sind oft verteilt auf Wikis, Codekommentare und Kopfzeilen der Teammitglieder. Claude Code konsolidiert dieses Wissen über MCP- und CLAUDE.md-Dateien in zugänglichen Formaten und stellt so jedem Fachmann zur Verfügung, der es benötigt.
 
-Inference team members without ML backgrounds depend on Claude to explain model-specific functions. What normally requires an hour of Google searching now takes 10-20 minutes—an 80% reduction in research time.
+Mitglieder von Inferenzteams ohne ML-Hintergrund verlassen sich auf Claude, um modellspezifische Funktionen zu erläutern. Was normalerweise eine Stunde dauert, dauert jetzt 10 bis 20 Minuten – eine 80 % weniger Forschungszeit.
 
-The Security Engineering team has Claude ingest multiple documentation sources to create markdown runbooks and troubleshooting guides. These condensed documents become context for debugging real production issues, which is often more efficient than searching through full knowledge bases.
+Das Security Engineering-Team kann Claude mehrere Dokumentationsquellen einbeziehen, um Markdown-Runbooks und Fehlerbehebungshandbücher zu erstellen. Diese komprimierten Dokumente werden zum Kontext für das Debuggen echter Produktionsprobleme, was oft effizienter ist als das Durchsuchen vollständiger Wissensdatenbanken.
 
-### Automation and workflow optimization
+### Automatisierung und Workflow-Optimierung
 
-Agentic coding tools help teams build custom automation that would traditionally require dedicated developer resources or expensive software.
+Mit Tools für agentisches Coding können Teams benutzerdefinierte Automatisierungen erstellen, die normalerweise spezielle Entwicklerressourcen oder teure Software erfordern würden.
 
-The Growth Marketing team built an agentic workflow that processes CSV files with hundreds of ads, identifies underperformers, and generates new variations within strict character limits. Using two specialized sub-agents, the system generates hundreds of new ads in minutes instead of hours.
+Das Growth Marketing-Team hat einen agentischen Workflow entwickelt, der CSV-Dateien mit Hunderten von Anzeigen verarbeitet, Performance-Unterschiede identifiziert und neue Variationen innerhalb einer strikten Zeichenbegrenzung generiert. Mithilfe von zwei speziellen Subagenten generiert das System Hunderte von neuen Anzeigen in Minuten statt Stunden.
 
-They also developed a Figma plugin that identifies frames and programmatically generates up to 100 ad variations by swapping headlines and descriptions, reducing hours of copy-pasting to half a second per batch of ads.
+Sie entwickelten außerdem ein Figma-Plugin, das Frames identifiziert und programmgesteuert bis zu 100 Anzeigenvariationen generiert, indem Überschriften und Beschreibungen getauscht werden. Dadurch wird der stundenlange Zeitaufwand für das Einfügen von Kopien auf eine halbe Sekunde pro Anzeigenstapel reduziert.
 
-In a particularly unique use case, the Legal team created prototype "phone tree" systems to help team members connect with the right lawyer at Anthropic, demonstrating how departments can build custom tools without traditional development resources.
+In einem besonders einzigartigen Anwendungsfall erstellte das Rechtsteam Prototypen von "Telefonbaumsystemen", um Teammitgliedern die Verbindung mit dem richtigen Anwalt in Anthropic zu erleichtern. Dabei wurde gezeigt, wie Abteilungen ohne herkömmliche Entwicklungsressourcen benutzerdefinierte Tools erstellen können.
 
-### Unlocking new possibilities with Claude Code
+### Neue Möglichkeiten mit Claude Code
 
-These stories reveal a pattern: Claude Code works best when you focus on the human workflows that it can augment. The most successful teams treat Claude Code as a thought partner rather than a code generator.
+Diese Berichte zeigen ein Muster: Claude Code funktioniert am besten, wenn Sie sich auf die Workflows konzentrieren, die es erweitern kann. Die erfolgreichsten Teams sehen Claude Code eher als Gedankenpartner als als als als Code-Generator.
 
-They explore possibilities, prototype rapidly, and share discoveries across technical and non-technical users. This collaborative approach between humans and AI creates opportunities we're only beginning to understand.
-
-## Building trusted AI in the enterprise
-
-Anthropic’s guide to starting, scaling, and succeeding based on real-world examples and best practices
+Sie erkunden Möglichkeiten, erstellen schnell Prototypen und teilen ihre Erkenntnisse mit technischen und nichttechnischen Benutzern. Dieser Ansatz der Zusammenarbeit zwischen Mensch und KI eröffnet Möglichkeiten, die wir erst zu verstehen beginnen.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9140968560c6fe367e267_Hand-City-light.svg)
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9140d1a23dfc2e7405210_Hand-City-dark.svg)
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-Get started with Claude Code.
+Erste Schritte mit Claude Code.
 
-## Related posts
+## Ähnliche Beiträge
 
-Explore more product news and best practices for teams building with Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### 1M context is now generally available for Opus 4.6 and Sonnet 4.6
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-### Advancing finance with Claude Opus 4.6
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-### How Brex improves code quality and productivity with Claude Code
+### Observability for developers building connectors
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Building AI agents for startups
+### Claude für die Rechtsbranche
 
-## Transform how your organization operates with Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-Get the developer newsletter
+### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Entwickler-Newsletter abonnieren
+
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/blog/how-anthropic-teams-use-claude-code
+**Source:** https://claude.com/de/blog/how-anthropic-teams-use-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

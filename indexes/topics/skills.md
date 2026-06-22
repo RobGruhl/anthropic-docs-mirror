@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
-Documents related to Skills across all sources (129 documents)
+Documents related to Skills across all sources (130 documents)
 ---
 ## Platform Documentation (platform.claude.com) (103)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -123,22 +123,23 @@ Documents related to Skills across all sources (129 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (17)
+## Claude.com Blog Posts (18)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
-- [Advancing Claude for Excel and PowerPoint](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
-- [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
+- [Claude for Excel 및 Claude for PowerPoint 향상](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
-- [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
-- [Improving frontend design through Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
-- [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
-- [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
+- [Skills MCP 서버로 Claude의 역량 확장](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
+- [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [Verbesserung des Frontend-Designs durch Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
+- [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
+- [エージェントスキルの紹介](/claude-blog/skills.md) - ![](https://cdn
 

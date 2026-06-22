@@ -1,65 +1,64 @@
-# Introducing Agent Skills
-*October 16, 2025*
+# エージェントスキルの紹介
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2307f9555d7c1bc46cb_77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
 
-# Introducing Agent Skills
+# エージェントスキルの紹介
 
-- CategoryProduct announcements
+- カテゴリ製品発表
 
-- ProductClaude Platform
+- 製品Claude Platform
 
-- DateOctober 16, 2025
+- 日付2025-10-16
 
-- Reading time5min
+- 所要時間5分
 
-- ShareCopy linkhttps://claude.com/blog/skills
+- 共有リンクをコピーhttps://claude.com/blog/skills
 
-Update:We've added[organization-wide management for skills](/blog/organization-skills-and-[directory](https://claude.com/connectors)), a[directory](https://claude.com/connectors)featuring partner-built skills, and published[Agent Skills](https://agentskills.io)as an open standard for cross-platform portability. (December 18, 2025)
+最新情報：[組織全体でのスキル管理機能](#)、パートナーが構築したスキルを紹介するディレクトリを追加しました。またエージェントスキルをプラットフォーム間で移植可能なオープンスタンダードとして公開しました。（2025年12月18日）
 
-Claude can now useSkillsto improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.
+Claudeは、スキルを活用して特定のタスクの実行方法を改善できるようになりました。 スキルとは、Claudeが必要に応じて読み込むことができる、指示、スクリプト、リソースが格納されたフォルダーです。
 
-Claude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.
+Claudeは、目の前のタスクに関連するスキルのみ利用します。スキルを活用することで、Excelの操作や組織のブランドガイドラインに従うといった専門的なタスクにおいてClaudeがより効果的にパフォーマンスを発揮できるようになります。
 
-You've already seen Skills at work in Claude apps, where Claude uses them to create files like spreadsheets and presentations. Now, you can build your own skills and use them across Claude apps, Claude Code, and our API.
+すでにスキルは、Claudeのアプリで動作しています。Claudeはこれらを活用してスプレッドシートやプレゼンテーションなどのファイルを作成しています。今後は、独自のスキルを構築し、Claudeアプリ、Claude Code、API全体でそれらを活用できるようになります。
 
-## How Skills work
+## スキルの仕組み
 
-While working on tasks, Claude scans available skills to find relevant matches. When one matches, it loads only the minimal information and files needed—keeping Claude fast while accessing specialized expertise.
+Claudeはタスクに取り組む際、利用可能なスキルをスキャンして関連性の高いものを見つけます。 条件が合致すると、必要な最小限の情報とファイルのみを読み込み、専門知識にアクセスしながらClaudeの動作を高速に維持します。
 
-Skills are:
+スキルの特長は以下の通りです。
 
-- Composable: Skills stack together. Claude automatically identifies which skills are needed and coordinates their use.
+- 組み合わせ可能：スキルを組み合わせることができます。 Claudeは必要なスキルを自動的に特定し、その使用を調整します。
 
-- Portable: Skills use the same format everywhere. Build once, use across Claude apps, Claude Code, and API.
+- 移植可能：スキルはどこでも同じフォーマットを使用します。 一度構築すれば、Claudeアプリ、Claude Code、API全体で使用できます。
 
-- Efficient: Only loads what's needed, when it's needed.
+- 効率的：必要なときに必要なものだけを読み込みます。
 
-- Powerful: Skills can include executable code for tasks where traditional programming is more reliable than token generation.
+- 強力：スキルには、従来のプログラミングがトークン生成よりも信頼性の高いタスク向けに、実行可能なコードを含めることができます。
 
-Think of Skills as custom onboarding materials that let you package expertise, making Claude a specialist on what matters most to you. For a technical deep-dive on the Agent Skills design pattern, architecture, and development best practices, read our[engineering blog.](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+スキルを、専門知識をパッケージ化できるカスタムオンボーディング教材とみなし、Claudeをユーザーにとって最も重要な分野の専門家に育成できます。エージェントスキルの設計パターン、アーキテクチャ、開発のベストプラクティスに関する技術的な詳細は、[エンジニアリングブログ](#)をご覧ください。
 
-## Skills work with every Claude product
+## スキルはすべてのClaude製品で機能
 
-### Claude apps
+### Claudeのアプリ
 
-Skills are available to Pro, Max, Team and Enterprise users. We provide skills for common tasks like document creation, examples you can customize, and the ability to create your own custom skills.
+Pro、Max、Team、Enterpriseのユーザーは、スキルを利用できます。文書作成、カスタマイズ可能なサンプル、独自のカスタムスキルを作成する機能など、一般的なタスク向けのスキルを提供します。
 
-![The Skills capabilities interface in Claude.ai with example Skills toggled on. ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690267e194f8fd4618cb330e_image.webp)
+![Claude.aiのスキル機能インターフェイス（スキルが有効化されている状態の例）](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/696bc306edc0bf4d2a7f273a_69338018ff630211cebe56f2_690267e194f8fd4618cb330e_image.webp)
 
-Claude automatically invokes relevant skills based on your task—no manual selection needed. You'll even see skills in Claude's chain of thought as it works.Creating skills is simple. The "skill-creator" skill provides interactive guidance: Claude asks about your workflow, generates the folder structure, formats the SKILL.md file, and bundles the resources you need. No manual file editing required.
+Claudeは、タスクに基づいて関連するスキルを自動的に呼び出します。手動で選択する必要はありません。 作業中にClaudeの思考プロセス内でスキルを確認することも可能です。スキルの作成は簡単です。 「スキル作成」スキルでは、インタラクティブなガイダンスを提供します。Claudeはワークフローについての質問、フォルダー構造を生成し、SKILL.mdファイルのフォーマットを行い、必要なリソースをまとめてパッケージ化します。手作業でファイル編集する必要はありません。
 
-Enable Skills in[Settings](https://claude.ai/redirect/website.v1.51f73c97-b077-44e7-85ba-8b27a025dfdf/settings/features). For Team and Enterprise users, admins must first enable Skills organization-wide.
+[設定](#)でスキルを有効にします。 TeamおよびEnterpriseユーザーの場合、管理者はまず組織全体でスキルを有効にする必要があります。
 
-### Claude Developer Platform (API)
+### Claude Developer Platform（API）
 
-Agent Skills, which we often refer to simply as Skills, can now be added to Messages API requests and the new/v1/skillsendpoint gives developers programmatic control over custom skill versioning and management. Skills require the[Code Execution Tool](https://docs.claude.com/en/docs/agents-and-tools/tool-use/code-execution-tool)beta, which provides the secure environment they need to run.
+エージェントスキル（単にスキルと呼ぶことが多いです）を、Messages APIリクエストに追加できるようになりました。新たな/v1/skillsエンドポイントにより、開発者はカスタムスキルのバージョン管理や運用をプログラムで制御できるようになります。スキルには、[コード実行ツール](#)のベータ版が必要で、これはスキル実行に必要な安全な環境を提供します。
 
-Use Anthropic-created skills to have Claude read and generate professional Excel spreadsheets with formulas, PowerPoint presentations, Word documents, and fillable PDFs. Developers can create custom Skills to extend Claude's capabilities for their specific use cases.
+Anthropicが開発したスキルを活用してClaudeに、数式付きの専門的なExcelスプレッドシート、PowerPointプレゼンテーション、Word文書、入力可能なPDFファイルの読み取りおよび生成を行わせることができます。開発者は、カスタムスキルを作成して、特定のユースケース向けにClaudeの機能を拡張できます。
 
-Developers can also easily create, view, and upgrade skill versions through the Claude Console.
+また、開発者はClaude Consoleを通じてスキルのバージョンを簡単に作成、表示、アップグレードできます。
 
-Explore the[documentation](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview), our[skills cookbook](https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction), or[Anthropic Academy](https://www.anthropic.com/learn/build-with-claude)to learn more.
+詳細については、[ドキュメント](#)、スキルのクックブック、[Anthropic Academy](#)をご覧ください。
 
 ‍
 
@@ -67,25 +66,25 @@ Explore the[documentation](https://docs.claude.com/en/docs/agents-and-tools/agen
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a8bdc1ea299a1a768655_box_dark.svg)
 
-Skills teaches Claude how to work with Box content. Users can transform stored files into PowerPoint presentations, Excel spreadsheets, and Word documents that follow their organization's standards—saving hours of effort.
+「スキルは、ClaudeにBox上のコンテンツの扱い方を教えます。ユーザーは、保存されているファイルを、自社の標準に準拠したPowerPointプレゼンテーション、Excelスプレッドシート、Word文書へと変換でき、何時間分もの作業時間を節約できます。」
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94f6f82b1f84f489887_Canva_light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a94baddb6685c1e5410d_Canva_dark.svg)
 
-Canva plans to leverage Skills to customize agents and expand what they can do. This unlocks new ways to bring Canva deeper into agentic workflows—helping teams capture their unique context and create stunning, high-quality designs effortlessly.
+「Canvaはスキルを活用してエージェントをカスタマイズし、できる範囲を拡大する予定です。これにより、Canvaをエージェントのワークフローに深く浸透させる新しい方法が開かれ、チームが独自のコンテキストを把握し、驚くほど高品質なデザインを簡単に作成できるようになります。」
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba17a186e44af7d97dae57_Frame.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68ba179c1c4432fa78b2f126_Frame-1.svg)
 
-With Skills, Claude works seamlessly with Notion - taking users from questions to action faster. Less prompt wrangling on complex tasks, more predictable results.
+「スキルを使えば、ClaudeはNotionとシームレスに連携し、ユーザーを“質問”から“実行”へとより迅速に導きます。複雑なタスクにおけるプロンプト調整の手間を減らし、より予測可能な結果を実現します。」
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d5faa6352b26bf7542cb9b_logo_rakuten-light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68d5fab610bf0d091b541153_logo_rakuten-dark.svg)
 
-Skills streamline our management accounting and finance workflows. Claude processes multiple spreadsheets, catches critical anomalies, and generates reports using our procedures. What once took a day, we can now accomplish in an hour.
+Skills により、管理会計と財務のワークフローが効率化されます。Claude が複数のスプレッドシートを処理し、重大な異常を検出し、当社の業務プロセスに従ってレポートを生成します。以前は 1 日を要していた作業が、現在では 1 時間で完了します。
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -95,54 +94,56 @@ Skills streamline our management accounting and finance workflows. Claude proces
 
 ### Claude Code
 
-Skills extend Claude Code with your team's expertise and workflows. Install skills via plugins from the anthropics/skills marketplace. Claude loads them automatically when relevant. Share skills through version control with your team. You can also manually install skills by adding them to~/.claude/skills. The Claude Agent SDK provides the same Agent Skills support for building custom agents.
+スキルは、チームの専門知識とワークフローでClaude Codeを強化します。 anthropics/skillsマーケットプレイスのプラグインを介してスキルをインストールできます。Claudeは関連性の高いスキルを自動的に読み込みます。 バージョン管理を通じてチーム内でスキルを共有できます。 また、~/.claude/skillsにスキルを追加することで、手動でインストールすることもできます。 Claude Agent SDKは、カスタムエージェントの構築においても、同様のエージェントスキルサポートを提供します。
 
-## Getting started
+## 開始方法
 
-- Claude apps:User Guide&Help Center
+- Claudeアプリ：ユーザーガイドとヘルプセンター
 
-- API developers:Documentation
+- API開発者：ドキュメント
 
-- Claude Code:Documentation
+- Claude Code：ドキュメント
 
-- Example Skills to customize:GitHub repository
+- カスタマイズするスキル例：GitHubリポジトリ
 
-## What's next
+## 今後の予定
 
-We're working toward simplified skill creation workflows and enterprise-wide deployment capabilities, making it easier for organizations to distribute skills across teams.
+当社は、スキル作成ワークフローの簡素化と全社的な導入機能の実現に向けた取り組みを進めており、これにより組織がチーム間でスキルを分配しやすくなります。
 
-Keep in mind, this feature gives Claude access to execute code. While powerful, it means being mindful about which skills you use—stick to trusted sources to keep your data safe.[Learn more](https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_2746475e70).
+なお、この機能によりClaudeはコードを実行する権限を得ることに留意してください。強力な機能ではありますが、どのスキルを使用するかには十分ご注意ください。お客様のデータの安全性を保つために信頼できるソースに限定してご利用ください。[詳細はこちら](https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_2746475e70)。
 
-FAQ
+よくある質問
 
-## Related posts
+## 関連する投稿
 
-Explore more product news and best practices for teams building with Claude.
+Claude を活用して構築を行うチーム向けの、その他の製品
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+ニュースとベストプラクティスをご覧ください。
 
-### Secure access to the Claude Platform with Workload Identity Federation
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+### 法務業界向けの Claude
 
-### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
+### ウェブ上のClaude Code
 
-### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### Max planの紹介
 
-### Claude Security is now in public beta
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-## Transform how your organization operates with Claude
+### Claude in Chrome のパイロット試験
 
-Get the developer newsletter
+## Claude を活用して組織運営の方法を変革
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+開発者向けニュースレターを入手
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/skills
+**Source:** https://claude.com/ja/blog/skills
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

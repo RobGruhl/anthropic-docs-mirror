@@ -1,104 +1,105 @@
-# Claude can now create and edit files
-*September 9, 2025*
+# Claudeでファイルの作成と編集が可能になりました
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228e9c51800dde13958_6507d83d1197bb8630131d363fb8bea838d79ca7-1000x1000.svg)
 
-# Claude can now create and edit files
+# Claudeでファイルの作成と編集が可能になりました
 
-Describe what you need and get back ready-to-use spreadsheets, documents, presentations, and PDFs instead of just text responses.
+必要事項を説明すると、単なるテキストによる回答ではなく、すぐに使用できるスプレッドシート、ドキュメント、プレゼンテーション、PDFを返します。
 
-- CategoryProduct announcements
+- カテゴリ製品発表
 
-- ProductClaude appsClaude Enterprise
+- 製品ClaudeのアプリClaude Enterprise
 
-- DateSeptember 9, 2025
+- 日付2025-09-09
 
-- Reading time5min
+- 所要時間5分
 
-- ShareCopy linkhttps://claude.com/blog/create-files
+- 共有リンクをコピーhttps://claude.com/blog/create-files
 
-Update:Now generally available for paid plans with network and egress controls (October 21, 2025).
+最新情報：有料プラン向けにネットワークとエグレス制御の一般提供を開始（2025年10月21日）。
 
-Claude can now create and edit Excel spreadsheets, documents, PowerPoint slide decks, and PDFs directly in[Claude.ai](https://claude.ai/)and the desktop app. This transforms how you work with Claude—instead of only receiving text responses or in-app artifacts, you can describe what you need, upload relevant data, and get ready-to-use files in return.
+Claudeは、Excelスプレッドシート、ドキュメント、PowerPointスライド、PDFを[Claude.ai](https://claude.ai/)とデスクトップアプリで直接作成および編集できるようになりました。 これにより、Claudeとの作業方法が大きく変わります。テキストでの回答やアプリ内のアーティファクトを受け取るだけではなく、代わりに必要事項を説明し、関連データをアップロードすることで、すぐに使用できるファイルを取得することが可能になります。
 
-File creation is now available as a preview for Max, Team, and Enterprise plan users. Pro users will get access in the coming weeks.
+ファイル作成機能がプレビュー版として、Max、Team、Enterprise planのユーザー向けに提供開始されました。Proユーザーは、今後数週間のうちに利用可能となります。
 
-### What you can do
+### Claudeで実現できること
 
-Claude creates actual files from your instructions—whether working from uploaded data, researching information, or building from scratch. Here are just a few examples:
+アップロードしたデータからの作業、情報の調査、ゼロからの構築など、Claudeはユーザーの指示に基づいて実際のファイルを作成します。 以下にいくつかの例を挙げます。
 
-- Turn data into insights: Give Claude raw data and get back polished outputs with cleaned data, statistical analysis, charts, and written insights explaining what matters.
+- データを洞察に変換：Claudeに生データを提供すれば、クリーニングされたデータ、統計分析、チャート、重要な事項を説明する文書による洞察を含む洗練された成果物を得ることができます。
 
-- Build spreadsheets: Describe what you need—financial models with scenario analysis, project trackers with automated dashboards, or budget templates with variance calculations. Claude creates it with working formulas and multiple sheets.
+- スプレッドシートの構築：シナリオ分析付きの財務モデル、自動ダッシュボードを備えたプロジェクトトラッカー、差異計算付きの予算テンプレートなど、必要とするものをご説明ください。Claudeは、機能する数式と複数のシートを使用して、これらを作成します。
 
-- Cross-format work: Upload a PDF report and get PowerPoint slides. Share meeting notes and get a formatted document. Upload invoices and get organized spreadsheets with calculations. Claude handles the tedious work and presents information how you need it.
+- クロスフォーマット作業：PDFレポートをアップロードすると、PowerPointスライドを入手できます。 会議ノートを共有すると、書式設定済みのドキュメントを入手できます。 請求書をアップロードすると、計算内容を含む整理されたスプレッドシートを取得できます。Claudeは煩雑な作業を処理し、ユーザーが必要とする形で情報を提供します
 
-![Image of three prompts with the resulting Excel, Document, and PDF files. ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690119799b711efd0a404392_image.webp)
+![3つのプロンプトと、生成されたExcel、ドキュメントおよびPDFファイルの画像。 ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f21bdb03ba38246876e1b_690119799b711efd0a404392_image.webp)
 
 ‍
 
-Whether you need a customer segmentation analysis, sales forecasting, or budget tracking, Claude handles the technical work and produces the files you need. File creation turns projects that normally require programming expertise, statistical knowledge, and hours of effort into minutes of conversation.
+顧客セグメンテーション分析、売上予測、予算追跡のいづれが必要であっても、Claudeは技術的な作業を処理し、お客様が必要とするファイルを作成します。 ファイル作成機能により、通常はプログラミングの専門知識、統計知識、数時間もの労力を必要とするプロジェクトが、わずか数分の会話で実現できるようになります。
 
-### How it works: Claude’s computer
+### 使い方：Claudeのコンピューター
 
-Over the past year we've seen Claude move from answering questions to completing entire projects, and now we're making that power more accessible. We've given Claude access to a private computer environment where it can write code and run programs to produce the files and analyses you need.
+この1年間で、Claudeは質問に回答することからプロジェクト全体の遂行へと移行し、現在はその能力をより利用しやすくする取り組みを社内で進めています。 Claudeにプライベートコンピューター環境へのアクセスを提供したことで、コードを記述しプログラムを実行して必要なファイルや分析を生成することが可能になりました。
 
-This transforms Claude from an advisor into an active collaborator. You bring the context and strategy; Claude handles the technical implementation behind the scenes. This shows where we’re headed: making sophisticated multi-step work accessible through conversation. As these capabilities expand, the gap between idea and execution will keep shrinking.
+これにより、Claudeはアドバイザーから積極的な協力者へと変わります。ユーザーはコンテキストと戦略を提供し、Claudeは裏方として技術的な実装を処理します。 これは、対話を通じて高度な多段階の作業を利用可能にするという当社が目指す方向を示しています。こうした能力が拡大するにつれて、構想と実行のギャップは縮まり続けるでしょう。
 
-### Getting started
+### 開始方法
 
-To start creating files:
+ファイル作成を開始する方法。
 
-- Enable "Upgraded file creation and analysis" underSettings > Features > Experimental
+- 設定>機能>実験的の下にある「アップグレードされたファイルの作成と分析」を有効にします
 
-- Upload relevant files or describe what you need
+- 関連するファイルをアップロードするか、必要事項を説明します
 
-- Guide Claude through the work via chat
+- チャットを通じてClaudeに作業内容を指示します
 
-- Download your completed files or save directly to Google Drive
+- 完成したファイルをダウンロードするか、Googleドライブに直接保存します
 
-![Image of toggle to turn on ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d910d03dc12cdc4df7c_1cbf5333ab0784b215a2450fb8dd95cd2e207aea-3840x2160.png)
+![オンにするトグルの画像 ](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f21bea2a50b2dfda0d0b7_68e95d910d03dc12cdc4df7c_1cbf5333ab0784b215a2450fb8dd95cd2e207aea-3840x2160.png)
 
-Start with straightforward tasks like data cleaning or simple reports, then work up to complex projects like financial models once you're comfortable with how Claude handles files.
+まずはデータクリーンや簡単なレポート作成など単純なタスクから始め、Claudeがファイルを扱う方法に慣れてきたら、財務モデルの構築などの複雑なプロジェクトへと段階的に進めます。
 
-This feature gives Claude internet access to create and analyze files, which may put your data at risk. Monitor chats closely when using this feature.[Learn more](https://support.anthropic.com/en/articles/12111783-create-and-edit-files-with-claude).
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+この機能により、Claudeはインターネットにアクセスしてファイルの作成および分析が可能になりますが、ユーザーのデータが危険にさらされる可能性があります。 この機能を使用する場合は、チャットを注意深く監視してください。[詳細はこちら](https://support.anthropic.com/en/articles/12111783-create-and-edit-files-with-claude)。
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Related posts
+よくある質問
 
-Explore more product news and best practices for teams building with Claude.
+## 関連する投稿
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+Claude を活用して構築を行うチーム向けの、その他の製品
 
-### Claude Security is now in public beta
+ニュースとベストプラクティスをご覧ください。
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Secure access to the Claude Platform with Workload Identity Federation
+### 法務業界向けの Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
-### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
+### ウェブ上のClaude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
-### Built-in memory for Claude Managed Agents
+### Max planの紹介
 
-## Transform how your organization operates with Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Get the developer newsletter
+### Claude in Chrome のパイロット試験
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+## Claude を活用して組織運営の方法を変革
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+開発者向けニュースレターを入手
+
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/create-files
+**Source:** https://claude.com/ja/blog/create-files
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

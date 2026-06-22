@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
-Documents related to Tools across all sources (82 documents)
+Documents related to Tools across all sources (83 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,41 +40,38 @@ Documents related to Tools across all sources (82 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (49)
+## Claude.com Blog Posts (50)
+- [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
 - [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
+- [Claude Code mit Plugins anpassen](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude and your productivity platforms](/claude-blog/productivity-platforms.md) - ![](https://cdn
 - [Claude can now connect to your world](/claude-blog/integrations.md) - ![](https://cdn
 - [Claude can now use tools](/claude-blog/tool-use-ga.md) - ![](https://cdn
-- [Claude für die Rechtsbranche](/claude-blog/claude-for-the-legal-industry.md) - ![](https://cdn
+- [Claude for the legal industry](/claude-blog/claude-for-the-legal-industry.md) - ![](https://cdn
 - [Claude now creates interactive charts, diagrams and visualizations](/claude-blog/claude-builds-visuals.md) - ![](https://cdn
 - [Claude now works with more security and compliance tools](/claude-blog/compliance-api-security-partners.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
-- [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
 - [Discover tools that work with Claude](/claude-blog/connectors-directory.md) - ![](https://cdn
-- [Extending Claude’s capabilities with skills and MCP servers](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Get to production faster with the upgraded Anthropic Console](/claude-blog/upgraded-anthropic-console.md) - ![](https://cdn
 - [Harnessing Claude’s intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
-- [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How Kepler built verifiable AI for financial services with Claude](/claude-blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude.md) - ![](https://cdn
 - [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
-- [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
-- [Increase web search accuracy and efficiency with dynamic filtering](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Introducing the Claude Team plan and iOS app](/claude-blog/team-plan-and-ios.md) - ![](https://cdn
 - [Introducing the analysis tool in Claude.ai](/claude-blog/analysis-tool.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
-- [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
 - [New connectors in Claude for everyday life](/claude-blog/connectors-for-everyday-life.md) - ![](https://cdn
 - [New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults](/claude-blog/whats-new-in-claude-managed-agents.md) - ![](https://cdn
@@ -84,10 +81,14 @@ Documents related to Tools across all sources (82 documents)
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
+- [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Turn ideas into interactive AI-powered apps](/claude-blog/build-artifacts.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
+- [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Your favorite work tools are now interactive connectors inside Claude](/claude-blog/interactive-tools-in-claude.md) - ![](https://cdn
 - [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
 - [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
+- [レスポンシブWebレイアウトを構築](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
+- [동적 필터링을 통해 웹 검색 정확도와 효율성 향상](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 

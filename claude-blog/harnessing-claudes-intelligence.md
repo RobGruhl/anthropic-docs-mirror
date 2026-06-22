@@ -1,4 +1,5 @@
 # Harnessing Claude’s intelligence
+*April 2, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 Building applications that balance intelligence, latency, and cost.
 
-- カテゴリエージェント
+- CategoryAgents
 
-- 製品Claude Platform
+- ProductClaude Platform
 
-- 日付2026-04-02
+- DateApril 2, 2026
 
-- 所要時間5分
+- Reading time5min
 
-- 共有リンクをコピーhttps://claude.com/blog/harnessing-claudes-intelligence
+- ShareCopy linkhttps://claude.com/blog/harnessing-claudes-intelligence
 
 One of Anthropic’s co-founders, Chris Olah,[says](https://www.darioamodei.com/post/the-urgency-of-interpretability)that generative AI systems like Claude are grown more than they are built. Researchers set the conditions to direct growth, but the exact structure or capabilities that emerge aren’t always predictable.
 
@@ -144,38 +145,36 @@ Written by Lance Martin, member of technical staff on the Claude Platform team. 
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-よくある質問
+FAQ
 
-## 関連する投稿
+## Related posts
 
-Claude を活用して構築を行うチーム向けの、その他の製品
-
-ニュースとベストプラクティスをご覧ください。
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
-
-### 企業全体のチームに向けた Cowork とプラグイン
+Explore more product news and best practices for teams building with Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### Building agents that reach production systems with MCP
+### What is Model Context Protocol? Connect AI to your world
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
-### スキルの作成方法：主なステップ、制限事項、および事例
+### Building AI agents for financial services
 
-## Claude を活用して組織運営の方法を変革
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
 
-開発者向けニュースレターを入手
+### Building AI agents for healthcare and life sciences
 
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+## Transform how your organization operates with Claude
 
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ja/blog/harnessing-claudes-intelligence
+**Source:** https://claude.com/blog/harnessing-claudes-intelligence
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

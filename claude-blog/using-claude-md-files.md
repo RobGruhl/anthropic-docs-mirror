@@ -1,82 +1,79 @@
-# Using CLAUDE.md files: Customizing Claude Code for your codebase
-*November 25, 2025*
+# CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-# Using CLAUDE.md files: Customizing Claude Code for your codebase
+# CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기
 
-A practical guide for using CLAUDE.md files to optimize your use of Claude Code.
+CLAUDE.md 파일을 활용해 Claude Code 활용을 최적화하는 실제 가이드입니다.
 
-- CategoryClaude Code
+- 카테고리Claude Code
 
-- ProductClaude Code
+- 제품Claude Code
 
-- DateNovember 25, 2025
+- 날짜2025-11-25
 
-- Reading time5min
+- 읽는 시간5분
 
-- ShareCopy linkhttps://claude.com/blog/using-claude-md-files
+- 공유링크 복사https://claude.com/blog/using-claude-md-files
 
-If you use AI coding agents, you face the same challenge: how do you give them enough context to understand your architecture, conventions, and workflows without repeating yourself?
+AI 코딩 에이전트를 사용하고 있다면, 동일한 과제에 직면하게 됩니다. 즉, 매번 같은 설명을 반복하지 않고도 아키텍처, 규칙, 워크플로우를 이해할 수 있는 충분한 맥락을 제공하려면 어떻게 해야 할까요?
 
-The problem compounds as your codebase grows. Complex module relationships, domain-specific patterns, and team conventions don't surface easily. You end up explaining the same architectural decisions, testing requirements, and code style preferences at the start of every conversation.
+코드베이스가 커지면서 문제는 더욱 복잡해졌습니다. 복잡한 모듈 관계, 도메인별 패턴, 팀 규칙은 쉽게 드러나지 않습니다. 대화를 시작할 때마다 동일한 아키텍처 결정, 테스트 요구 사항, 코드 스타일 선호도를 설명해야 합니다.
 
-[CLAUDE.md](https://www.anthropic.com/engineering/claude-code-best-practices)files solve this by giving Claude persistent context about your project. Think of it as a configuration file that Claude automatically incorporates into every conversation, ensuring it always knows your project structure, coding standards, and preferred workflows.
+[CLAUDE.md](https://www.anthropic.com/engineering/claude-code-best-practices)파일은 Claude에 프로젝트에 대한 지속적인 맥락을 제공하여, 이 문제를 해결합니다. Claude가 모든 대화에 자동으로 통합하는 구성 파일처럼 작동해, 항상 프로젝트 구조, 코딩 표준, 선호하는 워크플로우를 파악할 수 있도록 합니다.
 
-In this article, we walk through how to structure your[CLAUDE.md](http://claude.md), share best practices, and tips for using them to get the most out of Claude Code.
+이 글에서는[CLAUDE.md](http://claude.md)를 구성하는 방법과 모범 사례, 그리고 Claude Code를 최대한 활용하기 위한 팁을 제공합니다.
 
-## What is a CLAUDE.md file?
+## CLAUDE.md 파일은 무엇인가요?
 
-CLAUDE.md is a special configuration file that lives in your repository and provides Claude with project-specific context. You can place it in your repository root to share with your team, in parent directories for monorepo setups, or in your home folder for universal application across all projects.
+CLAUDE.md는 리포지토리에 상주하는 특수 설정 파일로, Claude에 프로젝트별 맥락을 제공합니다. 팀과 공유하기 위해 리포지토리 루트에 배치할 수 있고, 모노레포 설정을 위해 상위 디렉토리에 둘 수 있으며, 모든 프로젝트에 공통으로 적용하도록 홈 폴더에 배치할 수도 있습니다.
 
-Here’s an example CLAUDE.md that you might have in your repository:
+다음은 리포지토리에 둘 수 있는 CLAUDE.md 예제입니다:
 
 ```
-# Project Context
+# 프로젝트 컨텍스트
 
-When working with this codebase, prioritize readability over cleverness. Ask clarifying questions before making architectural changes.
+이 코드베이스로 작업할 때는 기교보다 가독성을 우선시하세요. 아키텍처를 변경하기 전에는 먼저 명확화 질문을 하세요.
 
-## About This Project
+## 이 프로젝트 관련 정보
 
-FastAPI REST API for user authentication and profiles. Uses SQLAlchemy for database operations and Pydantic for validation.
+사용자 인증 및 프로필을 위한 FastAPI REST API입니다. 데이터베이스 작업에는 SQLAlchemy, 검증에는 Pydantic을 사용합니다.
 
-## Key Directories
+## 주요 디렉터리
 
-- `app/models/` - database models
-- `app/api/` - route handlers
-- `app/core/` - configuration and utilities
+- `app/models/` - 데이터베이스 모델
+- `app/api/` - 경로 핸들러
+- `app/core/` - 구성 및 유틸리티
 
-## Standards
+## 표준
 
-- Type hints required on all functions
-- pytest for testing (fixtures in `tests/conftest.py`)
-- PEP 8 with 100 character lines
+- 모든 함수에 타입 힌트 필수
+- 테스트에는 pytest 사용(`tests/conftest.py`에 fixture 있음)
+- PEP 8 준수, 한 줄 최대 100자
 
-## Common Commands
+## 공통 명령어
 ```bash
-uvicorn app.main:app --reload  # dev server
-pytest tests/ -v               # run tests
+uvicorn app.main:app --reload  # 개발 서버
+pytest tests/ -v               # 테스트 실행
 ```
 
-## Notes
+## 참고 사항
 
-All routes use `/api/v1` prefix. JWT tokens expire after 24 hours.
+모든 경로는 `/api/v1` 접두사를 사용합니다. JWT 토큰은 24시간 후에 만료됩니다.
 
 ```
 
-A well-configured CLAUDE.md transforms how Claude works with your specific project. The file serves multiple purposes: providing architectural context, establishing workflows, and connecting Claude to your development tools. Each addition should solve a real problem you have encountered, not theoretical concerns about what Claude might need.
+제대로 구성된 CLAUDE.md는 Claude가 구체적인 프로젝트와 연동되는 방식을 혁신적으로 변화시킵니다. 이 파일은 아키텍처 맥락을 제공하고, 워크플로우를 정리하며, Claude를 개발 도구와 연결하는 등 여러 가지 역할을 수행합니다. 각 항목은 Claude가 필요할 것이라고 추측해 추가하는 것이 아니라, 실제 작업 과정에서 마주한 문제를 해결하는 데 주안점을 두어야 합니다.이 파일에는 일반적인 bash 명령어, 핵심 유틸리티, 코드 스타일 가이드라인, 테스트 지침, 리포지토리 규칙, 개발자 환경 설정, 프로젝트별 경고 사항을 기록 할 수 있습니다. 정해진 형식은 없습니다. 이 파일을 간결하고 사람이 읽기 쉬운 형태로 유지하고, 사람과 Claude 모두 빠르게 이해할 수 있는 문서처럼 작성하는 것이 좋습니다.
 
-This file can document common bash commands, core utilities, code style guidelines, testing instructions, repository conventions, developer environment setup, and project-specific warnings. There is no required format. The recommendation is to keep this file concise and human-readable, treating it like documentation that both humans and Claude need to understand quickly.
+이 CLAUDE.md 파일이 Claude의 시스템 프롬프트 일부가 됩니다. 모든 대화는 이미 이 맥락이 로드된 상태에서 시작되므로, 기본 프로젝트 정보를 반복적으로 설명할 필요가 없습니다.
 
-Your CLAUDE.md file becomes part of Claude's system prompt. Every conversation starts with this context already loaded, eliminating the need to explain basic project information repeatedly.
+## /init로 시작하기‍
 
-## Getting started with /init
+익숙하지 않은 코드베이스에서 CLAUDE.md를 처음부터 작성하는 것은 쉽지 않은 작업일 수 있습니다.
 
-Creating a CLAUDE.md from scratch can feel daunting, especially in an unfamiliar codebase.
+/init명령어는 프로젝트를 분석하고 시작 구성 파일을 생성하여 이 프로세스를 자동화합니다.
 
-The/initcommand automates this process by analyzing your project and generating a starter configuration.
-
-Run/initin any Claude Code session:
+Claude Code 세션에서/init을 실행하세요:
 
 ```
 cd your-project
@@ -84,35 +81,35 @@ claude
 /init
 ```
 
-Claude examines your codebase—reading package files, existing documentation, configuration files, and code structure—then generates a CLAUDE.md tailored to your project. The generated file typically includes build commands, test instructions, key directories, and coding conventions it detected.
+Claude는 패키지 파일, 기존 문서, 구성 파일, 코드 구조를 읽어 코드베이스를 분석한 뒤, 프로젝트에 적합한 CLAUDE.md를 생성합니다. 일반적으로 생성된 파일에는 빌드 명령, 테스트 지침, 주요 디렉토리, 그리고 감지된 코딩 규칙이 포함됩니다.
 
-Think of/initas a starting point, not a finished product. The generated CLAUDE.md captures obvious patterns but may miss nuances specific to your workflow. Review what Claude produces and refine it based on your team's actual practices.
+/init를 완성본이 아니라 출발점으로 생각하세요. 생성된 CLAUDE.md는 명확한 패턴은 포착하지만, 워크플로우에 특화된 세밀한 뉘앙스는 놓칠 수 있습니다. Claude가 작성한 결과를 검토하고, 팀의 실제 작업 방식에 맞게 다듬어 주세요.
 
-You can also use/initon existing projects that already have a CLAUDE.md. Claude will review the current file and suggest improvements based on what it learns from exploring your codebase.
+또한 CLAUDE.md가 이미 있는 기존 프로젝트에서도/init을 사용할 수 있습니다. Claude는 현재 파일을 검토하고, 코드베이스 분석을 토대로 개선 사항을 제안합니다.
 
-After running/init, consider these next steps:
+/init을 실행한 후, 다음 단계를 고려하세요.
 
-- Review the generated content for accuracy
+- 생성된 콘텐츠의 정확성을 검토합니다.
 
-- Add workflow instructions Claude couldn't infer (branch naming conventions, deployment processes, code review requirements)
+- Claude가 추론하지 못했던 워크플로우 지침(브랜치 네이밍 규칙, 배포 프로세스, 코드 리뷰 요구 사항)을 추가합니다.
 
-- Remove generic guidance that doesn't apply to your project
+- 프로젝트에 적용되지 않는 일반 지침은 삭제합니다
 
-- Commit the file to version control so your team benefits
+- 팀원들이 활용할 수 있도록 파일을 버전 관리에 커밋합니다
 
-The/initcommand works well for getting oriented quickly, but the real value comes from iterating on the generated file over time. As you work with Claude Code, use the#key to add instructions you find yourself repeating—these additions accumulate into a CLAUDE.md that genuinely reflects how your team works.
+/init명령어는 빠르게 방향을 결정하는 데 유용하지만, 진정한 가치는 시간이 지남에 따라 생성된 파일을 반복해서 개선하는 것에서 나옵니다. Claude Code로 작업하면서 자주 반복하게 되는 지침이 있다면,#키를 활용해 추가하세요. 이러한 누적된 내용이 팀의 업무 방식을 정확하게 반영하는 CLAUDE.md로 발전합니다.
 
-## How to structure your CLAUDE.md
+## CLAUDE.md를 구성하는 방법
 
-The following sections show you how to structure content for maximum impact: navigating complex architectures, tracking progress on multi-step tasks, integrating custom tools, and preventing rework through consistent workflows.
+다음 섹션은 복잡한 아키텍처 탐색, 다단계 작업의 진행 상황 추적, 맞춤형 도구 통합, 일관된 워크플로우를 통해 재작업 방지와 같은 효과를 극대화할 수 있도록 콘텐츠를 구조화하는 방법을 보여줍니다.
 
-### Give Claude a map
+### Claude에 지도를 제공하세요
 
-Explaining your project architecture, key libraries, and coding styles becomes tedious when you do it for every new task. You need Claude to maintain consistent context about your codebase structure without manual reinforcement.
+매번 새로운 작업을 할 때마다 프로젝트 아키텍처, 주요 라이브러리, 코딩 스타일을 설명하는 것은 번거로운 일이 될 것입니다. 매번 수동으로 반복해서 상기시키지 않고도 코드베이스 구조에 대한 일관된 맥락을 유지할 수 있도록 Claude가 필요합니다.
 
-Add a project summary and high-level directory structure to your CLAUDE.md. This gives Claude immediate orientation when navigating your codebase.
+CLAUDE.md에 프로젝트 요약과 개요 디렉토리 구조를 추가하세요. 이를 통해 Claude는 코드베이스를 탐색할 때 즉각적인 방향을 제시합니다.
 
-A simple tree output showing key directories helps Claude understand where different components live:
+Claude는 주요 디렉토리를 보여주는 간단한 트리 출력만으로도, 다양한 구성 요소가 어디에 있는지 이해하는 데 도움이 됩니다:
 
 ```
 main.py
@@ -125,225 +122,226 @@ main.py
 │   ├── player.py
 ```
 
-Include information about your main dependencies, architectural patterns, and any non-standard organizational choices. If you use domain-driven design, microservices, or specific frameworks, document that. Claude uses this map to make better decisions about where to find code and where to make changes.
+주요 의존성 요소, 아키텍처 패턴, 비표준 구조적 결정에 대한 정보까지 포함해야 합니다. 도메인 중심 설계, 마이크로서비스, 특정 프레임워크를 사용하는 경우, 이를 문서화하세요. Claude는 이 지도를 활용해 코드 위치와 변변경을 적용해야 할 지점을 더 정확하게 판단합니다.
 
-### Connect Claude to your tools
+### Claude를 도구에 연결하세요
 
-Claude inherits your complete environment but needs guidance on which custom tools and scripts to use. Your team likely has specialized utilities for deployment, testing, or code generation that Claude should know about.
+Claude는 전체 환경을 그대로 물려받지만, 어떤 맞춤형 도구와 스크립트를 사용할지에 대한 지침이 필요합니다. 대부분의 팀은 배포, 테스트, 코드 생성 전문 유틸리티를 보유하고 있을 것이며, Claude 역시 이러한 도구를 인지하고 있어야 합니다.
 
-Document your custom tools in CLAUDE.md with usage examples. Include tool names, basic usage patterns, and when to invoke them. If your tool provides help documentation through a--helpflag, mention that so Claude knows to check it. For complex tools, add examples of common invocations your team uses regularly.
+맞춤형 도구는 사용 사례와 함께 CLAUDE.md에 기록해 두세요. 도구 이름, 기본 사용 패턴, 그리고 언제 사용해야 하는지 포함하는 것이 좋습니다. 만약 도구가--help플래그를 통해 도움말 문서를 제공한다면, Claude가 확인할 수 있도록 해당 정보를 언급하세요. 복잡한 도구의 경우, 팀이 자주 사용하는 일반적인 호출 예시를 추가해 두세요.
 
-Claude functions as an MCP (Model Context Protocol) client, connecting to MCP servers that extend its capabilities. Configure these through project settings, global configuration, or checked-in.mcp.jsonfiles. The--mcp-debugflag helps troubleshoot connection issues when tools don't appear as expected.
+Claude는 MCP(모델 컨텍스트 프로토콜) 클라이언트 역할을 하며, 기능을 확장하는 MCP 서버에 연결합니다. 이러한 연결은 프로젝트 설정, 글로벌 구성 또는 체크인된.mcp.json파일을 통해 구성합니다. 도구가 예상대로 작동하지 않을 경우--mcp-debug플래그를 통해 연결 문제를 해결할 수 있습니다.
 
-For example, if you have a Slack MCP server configured for your organization and you need Claude to understand how to use it, include something like this in CLAUDE.md:
+예를 들어, 조직에 맞게 Slack MCP 서버를 구성하고 Claude가 그 사용 방법을 이해해야 한다면, CLAUDE.md에 다음과 같은 내용을 포함시킵니다:
 
 ```
 ### Slack MCP
-- Posts to #dev-notifications channel only
-- Use for deployment notifications and build failures
-- Do not use for individual PR updates (those go through GitHub webhooks)
-- Rate limited to 10 messages per hour
+- #dev-notifications 채널에만 게시합니다
+- 배포 알림 및 빌드 실패 시 사용하세요
+- 개별 PR 업데이트에는 사용하지 마세요(해당 업데이트는 GitHub 웹훅을 통해 처리됩니다)
+- 시간당 10개의 메시지로 속도가 제한됩니다
 ```
 
-Learn more about MCP[fundamentals and best practices](https://www.anthropic.com/engineering/building-effective-mcp-servers).
+MCP[기본 사항과 모범 사례](https://www.anthropic.com/engineering/building-effective-mcp-servers)에 대해 자세히 알아보세요.
 
-For more information on setting permissions for Claude Code, see settings.json documentation at[code.claude.com](https://code.claude.com/docs/en/settings).
+Claude Code의 권한 설정에 대한 자세한 내용은[code.claude.com](https://code.claude.com/docs/en/settings)의 settings.json 문서를 참조하세요.
 
-### Define standard workflows
+### 표준 워크플로우 정의
 
-Having Claude jump straight into code changes without planning creates rework. Claude might implement a solution that misses requirements, choose the wrong architectural approach, or make changes that break existing functionality.
+Claude가 계획 없이 바로 코드 변경을 수행하게 되면 재작업을 해야 합니다. Claude는 요구 사항을 충족하지 못하는 솔루션을 구현하거나, 잘못된 아키텍처 접근 방식을 선택하거나, 기존 기능을 방해하는 변경을 할 수 있습니다.
 
-You need Claude to think before acting. Define standard workflows in your CLAUDE.md that Claude should follow for different types of tasks. A solid default workflow addresses four questions before making changes:
+Claude가 행동하기 전에 먼저 생각하도록 만들어야 합니다. 작업 유형별로 Claude가 따라야 할 표준 워크플로우를 CLAUDE.md에 정의하세요. 안정적인 기본 워크플로우는 변경 사항을 적용하기 전에 다음 네 가지 질문을 해결합니다.
 
-- Is this a question about current state that requires investigation first?
+- 현재 상태를 파악하기 위해 사전 조사가 필요한 질문인가요?
 
-- Does this need a detailed plan before implementation?
+- 구현 전에 세부적인 계획이 필요한가요?
 
-- What additional information is missing?
+- 어떤 추가 정보가 더 필요한가요?
 
-- How will effectiveness be tested?
+- 효과는 어떻게 테스트되나요?
 
-Specific workflows might include explore-plan-code-commit for features, test-driven development for algorithmic work, or visual iteration for UI changes. Document your testing requirements, commit message format, and any approval steps. When Claude knows your workflow upfront, it structures work to match your team's actual process rather than guessing.
+구체적인 워크플로우에는 기능 개발을 위한 탐색–계획–코드–커밋 흐름, 알고리즘 작업을 위한 테스트 주도 개발, UI 변경을 위한 시각적 반복 방식 등이 포함될 수 있습니다. 테스트 요구 사항, 커밋 메시지 형식, 승인 단계를 문서화하세요. Claude가 사전에 워크플로우를 파악하면, 추측이 아닌 팀의 실제 프로세스에 맞게 작업을 구조화할 수 있습니다.
 
-An example workflow instruction might be:
-
-```
-1) Before modifying code in the following locations: X, Y, Z
-	- Consider how it might affect A, B, C
-	- Construct an implementation plan
-	- Develop a test plan that will validate the following functions...
-```
-
-## ‍Additional tips for working with Claude Code
-
-Beyond configuring your CLAUDE.md file, three additional techniques improve how you work with Claude Code.
-
-### Keep context fresh
-
-Working with Claude Code over time accumulates irrelevant context. File contents from earlier tasks, command outputs that no longer matter, and tangential conversations fill Claude's context window. As the signal-to-noise ratio drops, Claude struggles to maintain focus on the current task.
-
-Use/clearbetween distinct tasks to reset the context window. This removes accumulated history while preserving your CLAUDE.md configuration and Claude's ability to address new problems with fresh context. Think of it as closing one work session and opening another.
-
-When you finish debugging authentication and switch to implementing a new API endpoint, clear the context. The authentication details no longer matter and distract from the new work.
-
-### Use subagents for distinct phases
-
-Long conversations accumulate context that interferes with new tasks. You've debugged a complex authentication flow, and now you need a security review of that same code. The debugging details color Claude's security analysis, potentially causing it to overlook issues or focus on already-resolved concerns.
-
-Tell Claude to use a[subagent](https://code.claude.com/docs/en/sub-agents)for distinct phases of work. Subagents maintain isolated context, preventing information from earlier tasks from interfering with new analysis. After implementing a payment processor, instruct Claude to "use a sub-agent to perform a security review of that code" rather than continuing in the same conversation.
-
-Subagents work best for multistep workflows where each phase requires different perspectives. Implementation needs architectural context and feature requirements; security review needs fresh eyes focused solely on vulnerabilities. Context separation keeps both analyses sharp.
-
-### Create custom commands
-
-Repetitive prompts waste time. You find yourself typing "review this code for security issues" or "analyze this for performance problems" over and over. Each time you need to remember the exact phrasing that gets good results.
-
-Custom slash commands store these as markdown files in your.claude/commands/directory. Create a file namedperformance-optimization.mmwith your preferred performance optimization prompt, and it becomes available as/performance-optimizationin any conversation. Commands support arguments through $ARGUMENTS or numbered placeholders like$1and$2, letting you pass specific files or parameters.
-
-For example,performance-optimization.mdmight look like this:
+워크플로우 지침의 예시는 다음과 같습니다:
 
 ```
-# Performance Optimization
+1) 다음 위치의 코드를 수정하기 전: X, Y, Z
+	- A, B, C에 어떤 영향을 미칠 수 있는지 고려하세요
+	- 구현 계획을 수립하세요
+	- 다음 함수들을 검증할 테스트 계획을 개발하세요...
+```
 
-Analyze the provided code for performance bottlenecks and optimization opportunities. Conduct a thorough review covering:
+## Claude Code 작업을 위한 추가 팁
 
-## Areas to Analyze
+CLAUDE.md 파일 구성 외에도 Claude Code 작업 방식을 개선하는 세 가지 추가 기법이 있습니다.
 
-### Database & Data Access
-- N+1 query problems and missing eager loading
-- Lack of database indexes on frequently queried columns
-- Inefficient joins or subqueries
-- Missing pagination on large result sets
-- Absence of query result caching
-- Connection pooling issues
+### 맥락을 최신 상태로 유지하세요
 
-### Algorithm Efficiency
-- Time complexity issues (O(n²) or worse when better exists)
-- Nested loops that could be optimized
-- Redundant calculations or repeated work
-- Inefficient data structure choices
-- Missing memoization or dynamic programming opportunities
+Claude Code를 계속 사용하다 보면 불필요한 맥락이 누적됩니다. 이전 작업에서 가져온 파일 내용, 더 이상 중요하지 않은 명령어 출력, 부차적인 대화들이 컨텍스트 창을 채우게 됩니다. 신호 대비 잡음 비율이 낮아질수록, Claude는 현재 작업에 집중하기 어려워집니다.
 
-### Memory Management
-- Memory leaks or retained references
-- Loading entire datasets when streaming is possible
-- Excessive object instantiation in loops
-- Large data structures kept in memory unnecessarily
-- Missing garbage collection opportunities
+개별 작업 간에/clear를 사용하여 컨텍스트 창을 재설정하세요. 이렇게 하면 누적된 기록을 삭제하면서, CLAUDE.md 구성과 새로운 문제를 신선한 맥락에서 처리하는 Claude의 능력은 그대로 유지됩니다. 한 작업 세션을 마무리하고 새로운 세션을 시작하는 것으로 생각하세요.
 
-### Async & Concurrency
-- Blocking I/O operations that should be async
-- Sequential operations that could run in parallel
-- Missing Promise.all() or concurrent execution patterns
-- Synchronous file operations
-- Unoptimized worker thread usage
+디버깅 인증을 완료하고 새 API 엔드포인트 구현으로 전환할 때는 기존 맥락을 정리하세요. 인증 세부 사항은 더 이상 중요하지 않으며, 새로운 작업에 방해가 됩니다.
 
-### Network & I/O
-- Excessive API calls (missing request batching)
-- No response caching strategy
-- Large payloads without compression
-- Missing CDN usage for static assets
-- Lack of connection reuse
+### 서로 다른 단계에는 서브에이전트를 활용하세요
 
-### Frontend Performance
-- Render-blocking JavaScript or CSS
-- Missing code splitting or lazy loading
-- Unoptimized images or assets
-- Excessive DOM manipulations or reflows
-- Missing virtualization for long lists
-- No debouncing/throttling on expensive operations
+긴 대화는 새로운 작업에 방해가 되는 맥락을 누적시킵니다. 복잡한 인증 흐름을 디버깅한 뒤 동일한 코드에 대한 보안 검토를 진행하면 디버깅 세부 정보가 Claude의 보안 분석에 영향을 미쳐, 문제를 간과하거나 이미 해결된 문제에 매달릴 수 있습니다.
 
-### Caching
-- Missing HTTP caching headers
-- No application-level caching layer
-- Absence of memoization for pure functions
-- Static assets without cache busting
+Claude에게 각 단계의 업무에 서브 에이전트를 사용하도록[전하세요.](https://code.claude.com/docs/en/sub-agents)서브 에이전트는 컨텍스트를 격리시키고, 이전 작업의 정보가 새로운 분석을 방해하지 않도록 합니다. 결제 프로세서 구현 후, Claude에 동일한 대화를 계속하는 대신 "하위 에이전트를 활용해 코드의 보안 검토를 수행하도록" 지시했습니다.
 
-## Output Format
+서브에이전트는 각 단계마다 다른 관점이 필요한 다단계 워크플로우에 가장 적합합니다. 구현은 아키텍처 컨텍스트와 기능 요구 사항이 필요하고, 보안 검토는 취약점에만 집중된 새로운 시선이 필요합니다. 두 가지 분석 모두 정확한 상태로 유지, 컨텍스트 분리
 
-For each issue identified:
-1. **Issue**: Describe the performance problem
-2. **Location**: Specify file/function/line numbers
-3. **Impact**: Rate severity (Critical/High/Medium/Low) and explain expected performance degradation
-4. **Current Complexity**: Include time/space complexity where applicable
-5. **Recommendation**: Provide specific optimization strategy
-6. **Code Example**: Show optimized version when possible
-7. **Expected Improvement**: Quantify performance gains if measurable
+### 맞춤형 명령 생성
 
-If code is well-optimized:
-- Confirm optimization status
-- List performance best practices properly implemented
-- Note any minor improvements possible
+반복적인 프롬프트는 시간 낭비입니다. "이 코드에서 보안 문제가 있는지 검토하세요", "성능 문제가 있는지 분석하세요"라는 말을 반복해서 입력하고 있습니다. 매번 좋은 결과를 얻었던 정확한 표현을 기억해야 합니다.
 
-**Code to review:**
+커스텀 슬래시 명령은 이를.claude/commands/디렉토리에 마크다운 파일로 저장합니다. 원하는 성능 최적화 프롬프트로performance-optimization.mm라는 파일을 생성하고, 모든 대화에서/performance-optimization으로 설정할 수 있습니다. 명령어는$1,$2와 같은 자리 번호를 통해 인수를 뒷받침하며, 특정 파일이나 매개변수를 전달할 수 있도록 합니다.
+
+예를 들어,performance-optimization.md는 다음과 같습니다:
+
+```
+# 성능 최적화
+
+제공된 코드를 분석해 성능 병목 지점과 최적화 기회를 찾으세요.
+다음을 포괄하는 철저한 검토를 수행하세요:
+
+## 분석 영역
+
+### 데이터베이스 및 데이터 액세스
+- N+1 쿼리 문제 및 누락된 eager loading
+- 자주 조회되는 컬럼의 데이터베이스 인덱스 부족
+- 비효율적인 조인 또는 서브쿼리
+- 대규모 결과 집합에 대한 페이지네이션 누락
+- 쿼리 결과 캐싱 부재
+- 커넥션 풀링 문제
+
+### 알고리즘 효율성
+- 시간 복잡도 문제(더 나은 대안이 있음에도 O(n²) 이상인 경우)
+- 최적화 가능한 중첩 루프
+- 중복 계산 또는 반복 작업
+- 비효율적인 데이터 구조 선택
+- 메모이제이션 또는 동적 프로그래밍 기회 누락
+
+### 메모리 관리
+- 메모리 누수 또는 해제되지 않는 참조
+- 스트리밍이 가능함에도 전체 데이터셋을 로드하는 경우
+- 루프 내 과도한 객체 인스턴스화
+- 불필요하게 메모리에 유지되는 대규모 데이터 구조
+- 가비지 컬렉션 기회 누락
+
+### 비동기 및 동시성
+- 비동기로 처리해야 하는 블로킹 I/O 작업
+- 병렬로 실행 가능함에도 순차적으로 수행되는 작업
+- Promise.all() 또는 동시 실행 패턴 누락
+- 동기식 파일 작업
+- 최적화되지 않은 워커 스레드 사용
+
+### 네트워크 및 I/O
+- 과도한 API 호출(요청 일괄 처리 누락)
+- 응답 캐싱 전략 부재
+- 압축되지 않은 대용량 페이로드
+- 정적 자산에 대한 CDN 사용 누락
+- 커넥션 재사용 부족
+
+### 프런트엔드 성능
+- 렌더링을 차단하는 JavaScript 또는 CSS
+- 코드 분할 또는 지연 로딩 누락
+- 최적화되지 않은 이미지 또는 자산
+- 과도한 DOM 조작 또는 리플로우
+- 긴 목록에 대한 가상화 누락
+- 고비용 작업에 대한 디바운싱/스로틀링 부재
+
+### 캐싱
+- HTTP 캐싱 헤더 누락
+- 애플리케이션 레벨의 캐싱 레이어 부재
+- 순수 함수에 대한 메모이제이션 부재
+- 캐시 무효화가 적용되지 않은 정적 자산
+
+## 출력 형식
+
+식별된 각 문제를 다음 형식으로 작성하세요:
+
+1. **문제**: 성능 문제 설명
+2. **위치**: 파일/함수/라인 번호 명시
+3. **영향**: 심각도(위급/높음/중간/낮음)를 평가하고 예상되는 성능 저하 설명
+4. **현재 복잡도**: 해당하는 경우 시간/공간 복잡도 포함
+5. **권장 사항**: 구체적인 최적화 전략 제시
+6. **코드 예시**: 가능한 경우 최적화된 버전 제시
+7. **예상 개선 효과**: 측정 가능한 경우 성능 향상 수치화
+
+코드가 잘 최적화된 경우:
+- 최적화 상태 확인
+- 적절히 구현된 성능 모범 사례 나열
+- 가능한 사소한 개선 사항이 있는 경우 언급
+
+**검토할 코드:**
 ```
 $ARGUMENTS
 ```
 ```
 
-You don't need to write custom command files manually. Ask Claude to create them for you:
+수동으로 맞춤형 명령 파일을 작성할 필요가 없습니다. Claude에 요청하세요:
 
 ```
-Create a custom slash command called /performance-optimization that analyzes code for database query issues, algorithm efficiency, memory management, and caching opportunities.
-
+코드를 분석해 데이터베이스 쿼리 문제, 알고리즘 효율성, 메모리 관리 및 캐싱 기회를 평가하는 사용자 정의 슬래시 명령어 /performance-optimization을 생성하세요.
 ```
 
-Claude will write the markdown file to.claude/commands/performance-optimization.md, and the command will be available immediately.
+Claude가 마크다운 파일을.claude/commands/performance-optimization.md에 기록하고, 즉시 명령을 사용할 수 있습니다.
 
-## Start simple, expand deliberately
+## 간단하게 시작하고, 신중하게 확장하세요
 
-It's tempting to create a comprehensive CLAUDE.md right away. Resist that urge.
+처음부터 모든 것을 담은 CLAUDE.md를 만들고 싶은 유혹이 들 수 있지만, 그 충동은 피하는 것이 좋습니다.
 
-CLAUDE.md is added to Claude Code's context every time, so from a[context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)and[prompt engineering](https://www.anthropic.com/engineering/prompt-engineering-overview)standpoint, keep it concise. One option: break up information into separate markdown files and reference them inside the CLAUDE.md file.
+CLAUDE.md는 매번 Claude Code의 맥락에 추가되므로,[컨텍스트 엔지니어링](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)과[프롬프트 엔지니어링](https://www.anthropic.com/engineering/prompt-engineering-overview)관점에서 간결하게 유지되어야 합니다. 한 가지 옵션은 정보를 별도의 마크다운 파일로 나누고, CLAUDE.md 파일 내에서 참조하는 것입니다.
 
-Don't include sensitive information, API keys, credentials, database connection strings, or detailed security vulnerability information—especially if you commit to version control. Since CLAUDE.md becomes part of Claude's system prompt, treat it as documentation that could be shared publicly.
+중요한 정보, API 키, 자격 증명, 데이터베이스 연결 문자열, 보안 취약점 상세 정보는 포함하지 않아야 합니다. 특히 버전 관리를 위해 커밋하는 경우에는 더욱 주의해야 합니다. CLAUDE.md는 Claude의 시스템 프롬프트 일부가 되므로, 공개적으로 공유될 수 있는 문서임을 염두에 두고 작성해야 합니다.
 
-## Make CLAUDE.md work for you
+## CLAUDE.md를 활용하세요
 
-CLAUDE.md files turn Claude Code from a general-purpose assistant into a tool configured specifically for your codebase. Start simple with basic project structure and build documentation, then expand based on actual friction points in your workflow.
+CLAUDE.md 파일은 Claude Code를 범용 보조 도구에서 코드베이스에 맞게 특별히 구성된 도구로 전환합니다. 기본 프로젝트 구조와 빌드 문서 같은 간단한 요소부터 시작하여, 워크플로우의 실제 문제점을 기준으로 확장해야 합니다.
 
-The most effective CLAUDE.md files solve real problems: they document the commands you type repeatedly, capture the architectural context that takes ten minutes to explain, and establish workflows that prevent rework. Your file should reflect how your team actually develops software—not theoretical best practices that sound good but don't match reality.
+가장 효과적인 CLAUDE.md 파일은 실제 문제를 해결합니다. 반복적으로 입력하는 명령어를 기록하고, 설명하는 데 오래 걸리던 아키텍처 맥락을 포착하며, 재작업을 방지하는 워크플로우를 수립합니다. 파일은 그럴듯해 보이는 이론적 모범 사례가 아니라 팀이 소프트웨어를 개발하는 방식을 실제 현실에 맞게 그대로 반영해야 합니다.
 
-Treat customization as an ongoing practice rather than a one-time setup task. Projects change, teams learn better patterns, and new tools enter your workflow. A well-maintained CLAUDE.md evolves with your codebase, continuously reducing the friction of working with AI assistance on complex software.
+맞춤 설정을 일회성 작업이 아니라, 지속적으로 다듬어 가는 과정으로 생각해 보세요. 프로젝트는 변하고, 팀은 더 나은 패턴을 배우며, 새로운 도구가 워크플로우에 도입됩니다. 잘 관리되는 CLAUDE.md는 코드베이스와 함께 진화하며, 복잡한 소프트웨어에서 AI 지원을 받을 때 발생하는 불필요한 부담을 지속적으로 줄여줍니다.
 
-Get started with[Claude Code](https://www.claude.com/product/claude-code)today.
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+지금 바로[Claude Code](https://www.claude.com/product/claude-code)를 시작해 보세요
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Related posts
+자주 묻는 질문
 
-Explore more product news and best practices for teams building with Claude.
+## 관련 게시물
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-### Running an AI-native engineering org
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
 
-### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+### AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
 
-### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
 
-### Best practices for using Claude Opus 4.7 with Claude Code
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-## Transform how your organization operates with Claude
+### Claude용 Skills 구축을 위한 완벽한 가이드
 
-Get the developer newsletter
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+개발자 뉴스레터 구독
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
+
+월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 
 ---
-**Source:** https://claude.com/blog/using-claude-md-files
+**Source:** https://claude.com/ko/blog/using-claude-md-files
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

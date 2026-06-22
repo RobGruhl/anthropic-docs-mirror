@@ -1,18 +1,19 @@
 # Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+*June 18, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 # Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
-- CatégorieClaude Code
+- CategoryClaude Code
 
-- ProduitClaude Code
+- ProductClaude Code
 
-- Date18/6/2026
+- DateJune 18, 2026
 
-- Temps de lecture5min
+- Reading time5min
 
-- PartagerCopier le lienhttps://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
+- ShareCopy linkhttps://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
 
 Claude is built to work the way you work, and in Claude Code you can customize it.
 
@@ -193,34 +194,34 @@ Once you have a few of these working, you can bundle many of them (skills, subag
 
 FAQ
 
-## Articles associés
+## Related posts
 
-Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-### Observability for developers building connectors
+### Running an AI-native engineering org
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Claude pour le secteur juridique
+### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
-### Explication des Skills : comparaison des Skills avec les requêtes, les Projets, MCP et les Sous-agents
+### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Claude Code sur le Web
+### Best practices for using Claude Opus 4.7 with Claude Code
 
-## Transformez le fonctionnement de votre organisation avec Claude
+## Transform how your organization operates with Claude
 
-Recevez la newsletter des développeurs
+Get the developer newsletter
 
-Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/fr/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
+**Source:** https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

@@ -1,193 +1,192 @@
-# Extending Claude’s capabilities with skills and MCP servers
-*December 19, 2025*
+# Skills MCP 서버로 Claude의 역량 확장
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
 
-# Extending Claude’s capabilities with skills and MCP servers
+# Skills MCP 서버로 Claude의 역량 확장
 
-Learn how skills and MCP work together to build agents that follow your workflows and use external systems and platforms effectively.
+Skill과 MCP가 함께 작동해 워크플로우를 따르고 외부 시스템과 플랫폼을 효과적으로 사용하는 에이전트를 빌드하는 방법을 알아보세요.
 
-- CategoryAgents
+- 카테고리에이전트
 
-- ProductClaude appsClaude Platform
+- 제품Claude 앱Claude Platform
 
-- DateDecember 19, 2025
+- 날짜2025-12-19
 
-- Reading time5min
+- 읽는 시간5분
 
-- ShareCopy linkhttps://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers
+- 공유링크 복사https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers
 
-Update:We've published[Agent Skills](https://agentskills.io)as an open standard for cross-platform portability. (December 18, 2025)Since[launching Skills](https://claude.com/blog/skills), two of the biggest questions we’ve heard from customers are: "How do skills and MCP work together? When should I use one versus the other?"
+업데이트:플랫폼 간 이식성을 위해[Agent Skills](https://agentskills.io)를개방형 표준으로 공개했습니다. (2025년 12월 18일)[Skills를 출시](https://claude.com/blog/skills)한 이후 고객으로부터 가장 많이 받은 두 가지 질문은 다음과 같습니다. "Skills와 MCP는 어떻게 상호 작용하나요? 언제 다른 하나 대신 하나를 사용해야 하나요?"
 
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro)connects Claude to third-party tools, and skills teach Claude how to use them well. When you combine both, you can build agents that follow your team’s workflows, not generic processes that require constant correction.
+[MCP(모델 컨텍스트 프로토콜)](https://modelcontextprotocol.io/docs/getting-started/intro)는 Claude를 타사 도구와 연결하며, Skills는 Claude에 Skills를 잘 사용하는 방법을 가르칩니다. 이 두 가지를 결합하면 지속적인 수정이 필요한 일반적인 프로세스가 아니라 팀의 워크플로우를 따르는 에이전트를 구축할 수 있습니다.
 
-For example, an MCP connection to Notion lets Claude search your workspace. Add a skill for meeting prep, and Claude knowswhichpages to pull from,howto format the prep document, andwhatyour team’s standards are for delivering meeting notes. The connection becomes useful instead of just available.
+예를 들어, MCP를 통해 Notion에 연결하면 Claude가 사용자의 워크스페이스를 검색할 수 있습니다. 회의 준비를 위한 Skill을 추가하면, Claude는어떤페이지에서 가져올지, 준비 문서를어떻게형식화할지, 회의 메모를 전달하기 위한 팀의 표준이무엇인지알게 됩니다. 이러한 연결은 단순히 사용할 수 있는 것을 뛰어넘어 유용하게 됩니다.
 
-In this article, we break down the relationship between skills and MCP, how to combine them to build agents that follow your workflows to produce consistent outputs, and walk through a few real-world examples of how they work together in practice.
+이 문서에서는 Skills와 MCP 간의 관계를 분석하고, 워크플로우에 따라 일관된 결과물을 생성하는 에이전트를 구축하기 위해 이를 어떻게 결합할 수 있는지, 그리고 실제로 어떻게 함께 작동하는지에 대한 몇 가지 실제 사례를 살펴보겠습니다.
 
-## Understanding skills and MCP
+## Skills와 MCP 이해
 
-You walk into a hardware store looking to fix a broken cabinet. The store has everything you need (wood glue, clamps, replacement hinges) but knowing what items to buy and how to use them is a different problem.
+망가진 캐비닛을 고치려고 하드웨어 매장을 방문합니다. 매장에는 필요한 모든 것(목제 접착제, 클램프, 교체용 힌지)이 갖춰져 있지만, 어떤 물건을 구매해야 하는지, 어떻게 사용하는지 아는 것은 다른 문제입니다.
 
-MCP is like having access to the aisles. Skills, meanwhile, are like an employee's expertise. All the inventory in the world won't help if you don't know which items you need or how to use them. A skill is like the helpful employee who walks you through the repair process, points you to the right supplies, and shows you proper technique.
+MCP는 매장의 통로에 다가가는 것과 같습니다. 한편 Skills는 직원의 전문 지식과 같습니다. 어떤 항목이 필요한지 혹은 항목을 어떻게 사용해야 할지 모른다면 전 세계의 모든 인벤토리는 무용지물입니다. Skill은 수리 프로세스를 안내하고, 올바른 용품을 안내하며, 적절한 기법을 보여주며 도움을 주는 직원과 같습니다.
 
-Put more concretely, an MCP server gives Claude access to your external systems, services, and platforms, while skills provide the context Claude needs to use those connections effectively, teaching Claude what to do now that it has this access.Without the context that skills provide, Claude has to guess at what you want. With a skill, Claude can follow your playbook instead.
+더 구체적으로 설명하면, MCP 서버는 Claude에게 외부 시스템, 서비스, 플랫폼에 대한 액세스 권한을 제공하고, Skills는 Claude가 이러한 연결을 효과적으로 활용하는 데 필요한 컨텍스트를 제공하며, 이 액세스 권한이 있으면 Claude가 무엇을 해야 하는지 가르쳐줍니다.Skills가 제공하는 컨텍스트가 없으면 Claude는 사용자가 원하는 내용을 추측해야 합니다. Skills을 사용하면 Claude가 사용자의 플레이북을 대신 따라 수행할 수 있습니다.
 
-## Why skills and MCP work well together
+## Skills와 MCP가 함께 잘 작동하는 이유
 
-MCP handles connectivity: secure, standardized access to external systems. Whether you're connecting to GitHub, Salesforce, Notion, or your own internal APIs, MCP servers give Claude the ability to reach your tools and data.
+MCP는 외부 시스템에 대한 안전하고 표준화된 액세스인 연결성을 처리합니다. GitHub, Salesforce, Notion 또는 자체 내부 API에 연결하든, MCP 서버는 Claude가 도구와 데이터에 접근할 수 있는 기능을 제공합니다.
 
-Skills handle expertise: the domain knowledge and workflow logic that turn raw tool access into reliable outcomes. A skill knows when to query your CRM, what to look for in the results, how to format the output, and which edge cases require different handling.This separation keeps the architecture composable. A single skill can orchestrate multiple MCP servers, while a single MCP server can support dozens of different skills. Add a new connection, and existing skills can incorporate it. Refine a skill, and it works across all your connected tools.
+Skills는 원시 도구 액세스를 신뢰할 수 있는 결과로 전환하는 도메인 지식과 워크플로우 로직인 전문성을 처리합니다. Skills는 CRM을 언제 쿼리해야 하고, 결과에서 무엇을 찾아야 하며, 출력 형식을 어떻게 지정해야 하는지, 어떤 에지 사례에 다른 처리가 필요한지를 알고 있습니다.이러한 분리는 아키텍처를 구성 가능하게 유지합니다. 단일 Skill이 여러 MCP 서버를 조정할 수 있으며, 단일 MCP 서버는 수십 개의 서로 다른 Skill을 지원할 수 있습니다. 새로운 연결을 추가하면 기존 Skill이 새 연결을 통합할 수 있습니다. Skills을 다듬으면 연결된 모든 도구에서 작동합니다.
 
-#### When you combine skills and MCP, you get:
+#### Skills와 MCP를 결합하면 다음과 같은 이점을 얻을 수 있습니다.
 
-Clear discovery: Claude stops guessing where to look. A meeting prep skill might specify: check the project page first, then previous meeting notes, then stakeholder profiles. A research skill might say: start with the shared drive, cross-reference against the CRM, then fill gaps with web search. The skill encodes institutional knowledge about which sources matter for which tasks.
+명확한 발견: Claude는 어디를 찾아야 할지 더 이상 추측하지 않습니다. 회의 준비 Skill은 먼저 프로젝트 페이지를 확인하고 이전 회의 메모를 확인한 다음 이해관계자 프로필을 확인하도록 지정할 수 있습니다. 리서치 Skills은 공유 드라이브로 시작하고, CRM과 상호 참조한 다음, 웹 검색으로 빈 부분을 메우라고 지정할 수 있습니다. 이 Skill은 어떤 작업에 어떤 소스가 중요한지에 대한 조직의 지식을 담고 있습니다.
 
-Reliable orchestration: Multi-step workflows become predictable. Without a skill, Claude might pull data and format it before checking whether it has everything. Skills define the sequence explicitly, so Claude executes the workflow the same way every time.
+안정적인 오케스트레이션: 다단계 워크플로우가 예측 가능하게 됩니다. Skill이 없으면 Claude는 모든 것이 포함되어 있는지 확인하기 전에 데이터를 가져와 서식을 지정할 수도 있습니다. Skills는 시퀀스를 명시적으로 정의하므로, Claude 매번 동일한 방식으로 워크플로우를 실행합니다.
 
-Consistent performance: Outputs actually meet standards. Generic results need editing. Skills define what "done" looks like for your team: the right structure, the right level of detail, the right tone for your audience.
+일관된 성능: 결과물이 실제로 표준을 충족합니다. 일반적인 결과에는 편집이 필요합니다. Skills는 팀을 위해 적합한 구조, 올바른 세부 정보 수준, 청중에게 적합한 어조 등 '완료'란 어떤 상태인지 정의합니다.
 
-Over time, teams build up collections of interrelated skills and connections that give Claude expertise in their specific domain.
+시간이 지남에 따라 팀이 상호 연관된 Skills과 연결을 쌓아가면 Claude가 특정 도메인에서 전문성을 갖출 수 있게 됩니다.
 
-Further reading: Tim O'Reilly on what[MCP and skills mean for open source AI](https://www.oreilly.com/radar/what-mcp-and-claude-skills-teach-us-about-open-source-for-ai/)
+추가 자료: Tim O'Reilly의[오픈 소스 AI에서 MCP와 Skills가 의미하는 바](https://www.oreilly.com/radar/what-mcp-and-claude-skills-teach-us-about-open-source-for-ai/)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6945b3dfa8f134d0104e4e23_How%20Skills%20and%20MCP%20work%20together%20-%20v3B%402x%20(2).png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6945b3dfa8f134d0104e4e23_How%20Skills%20and%20MCP%20work%20together%20-%20v3B%402x%20(2).png)
 
-#### Where skills and MCP may overlap‍
+#### Skills와 MCP가 겹칠 수 있는 부분
 
-MCP servers may contain instructions in the form of tool usage hints and prompts for common tasks. This keeps tool-specific knowledge close to the tool. However, these instructions should be kept generic by design.
+MCP 서버에는 일반적인 작업에 대한 도구 사용 힌트와 프롬프트 형식의 지침이 포함될 수 있습니다. 이를 통해 도구별 지식을 도구에 가까이 유지할 수 있습니다. 그러나 이러한 지침은 설계상 일반적이어야 합니다.
 
-The rule of thumb: MCP instructions cover how to use the server and its tools correctly. Skill instructions cover how to use them for a given process or in a multiserver workflow.
+기본 원칙: MCP 지침은 서버와 도구를 올바르게 사용하는 방법을 설명합니다. Skill 지침은 지정된 프로세스나 멀티서버 워크플로우에서 Skill을 사용하는 방법을 설명합니다.
 
-For example, a Salesforce MCP server might specify query syntax and API formats. A skill would specify which records to check first, how to cross-reference them against Slack conversations for recent context, and how to structure the output for your team's pipeline review.When combining MCP servers and skills, watch for conflicting instructions. If your MCP server says to return JSON and your skill says to format as markdown tables, Claude has to guess which one is right. Let MCP handle connectivity, and let skills handle presentation, sequencing, and workflow logic.
+예를 들어, Salesforce MCP 서버는 쿼리 구문과 API 형식을 지정할 수 있습니다. Skill은 먼저 확인할 기록을 지정하고 최근 컨텍스트를 위해 Slack 대화와 상호 참조하는 방법과 팀의 파이프라인 검토를 위해 결과물을 구성하는 방법을 지정합니다.MCP 서버와 Skills를 조합할 때 지침이 충돌하지 않는지 확인하세요. MCP 서버가 JSON을 반환하라고 지시하고 Skill이 마크다운 테이블로 형식을 지정하라고 지시하면, Claude는 어느 지침이 옳은지 추측해야 합니다. MCP가 연결성을 처리하게 하고 Skills가 표시, 시퀀싱, 워크플로우 로직을 처리하게 하세요.
 
-Further reading:Learn how skills use[progressive disclosure](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)to load context on-demand and[programmatic tool calling](https://www.anthropic.com/engineering/advanced-tool-use)to orchestrate MCP tools efficiently.
+추가 자료:Skills가[점진적 공개](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)를 활용해 온디맨드로 컨텍스트를 로드하고,[프로그래밍 방식 도구 호출](https://www.anthropic.com/engineering/advanced-tool-use)을 활용해 MCP 도구를 효율적으로 조정하는 방법을 알아보세요.
 
-## Real-world examples of using skills and MCP together
+## Skills와 MCP를 함께 사용한 실제 사례
 
-Now let's look at how skills and MCP combine in real workflows. We'll walk through two examples: financial analysts pulling live market data for company valuations, and project managers using Notion's Meeting Intelligence skill for meeting prep.
+이제 실제 워크플로우에서 Skills와 MCP가 어떻게 결합되는지 살펴보겠습니다. 다음 두 가지 사례를 살펴보겠습니다. 회사 평가를 위해 실시간 시장 데이터를 가져오는 재무 분석가와 회의 준비를 위해 Notion의 회의 인텔리전스 Skill을 사용하는 프로젝트 관리자입니다.
 
-In both cases, MCP servers provide access to the tools and the skills define what to do with them.
+두 경우 모두 MCP 서버는 도구에 대한 액세스를 제공하고 Skills는 도구로 할 일을 정의합니다.
 
-#### Financial analysis: Automating company valuations skill
+#### 재무 분석: 회사 평가 자동화 Skill
 
-[Anthropic released a set of pre-built skills](https://www.anthropic.com/news/advancing-claude-for-financial-services)for common financial workflows, including comparable company analysis. Comparable company analysis is a standard valuation method. Analysts doing comparable company analysis spend hours pulling financial metrics from multiple sources, applying the same valuation methodology, and formatting outputs to meet compliance standards. It's repetitive, error-prone, and exactly the kind of workflow that benefits from skills and MCP working together.
+Anthropic은 유사 기업 분석을 포함해 일반적인 재무 워크플로우를 위한[사전 빌드된 Skill 세트를 출시했습니다](https://www.anthropic.com/news/advancing-claude-for-financial-services). 유사 기업 분석은 표준 평가 방법입니다. 유사 기업 분석을 수행하는 분석가는 몇 시간을 들여 여러 소스에서 재무 지표를 가져오고, 동일한 평가 방법론을 적용하며, 규정 준수 표준을 충족하도록 결과물의 형식을 지정합니다. 이는 반복적이고 오류가 발생하기 쉬우며, Skills와 MCP가 함께 작동할 때 정확히 이점을 얻는 종류의 워크플로우입니다.
 
-Skill:[Comparable company analysis](https://www.anthropic.com/news/advancing-claude-for-financial-services)automates this valuation workflow, pulling data from multiple sources, applying consistent methodology, and formatting outputs to specific standards.
+Skill:[유사 기업 분석](https://www.anthropic.com/news/advancing-claude-for-financial-services)은 이 평가 워크플로우를 자동화하고 여러 소스에서 데이터를 가져오며, 일관된 방법론을 적용하고, 결과물을 특정 표준에 맞게 형식을 지정합니다.
 
-MCP servers: Connections to S&P Capital IQ, Daloopa, and Morningstar for live market data
+MCP 서버: 실시간 시장 데이터를 얻기 위한 S&P Capital IQ, Daloopa, Morningstar에 대한 연결
 
-Workflow:
+워크플로우:
 
-- Skill identifies which data sources to query (Discovery)
+- Skills는 쿼리할 데이터 소스를 식별합니다(발견).
 
-- MCP connections pull live financial data
+- MCP 연결은 실시간 재무 데이터를 가져옵니다
 
-- Skill applies methodology and formats output (Orchestration)
+- Skill은 방법론을 적용하고 출력 형식을 지정합니다(오케스트레이션).
 
-- Skill validates against compliance requirements (Performance)
+- Skill은 규정 준수 요구 사항에 따라 검증합니다(수행).
 
-#### Meeting preparation: Notion's Meeting Intelligence skill
+#### 회의 준비: Notion의 회의 인텔리전스 Skill
 
-Meeting prep is tedious. You need to pull context from multiple places, such as project docs, previous meeting notes, and stakeholder info, then synthesize it into a pre-read and an agenda. It's the kind of multi-step process you end up re-explaining every time.
+회의 준비는 지루한 작업입니다. 프로젝트 문서, 이전 회의 메모, 이해관계자 정보 등 여러 곳에서 컨텍스트를 가져온 다음, 미리 읽을 자료와 의제로 종합해 정리해야 합니다. 매번 다시 설명하게 되는 여러 단계로 구성된 프로세스입니다.
 
-Skill:[Meeting Intelligence](https://notiondevs.notion.site/notion-skills-for-claude)defines which pages to search, how to structure outputs, what sections to include
+Skill:[회의 인텔리전스](https://notiondevs.notion.site/notion-skills-for-claude)는 검색할 페이지, 결과물을 구성하는 방법, 포함할 섹션을 정의합니다.
 
-MCP server: Notion connection that searches, reads, and creates pages
+MCP 서버: 페이지를 검색, 읽기, 생성하는 Notion 연결
 
-Workflow:
+워크플로우:
 
-- Skill identifies relevant pages to search, including projects, previous meetings, stakeholder info (Discovery)
+- Skill은 프로젝트, 이전 회의, 이해관계자 정보 등 검색할 관련 페이지를 식별합니다(발견).
 
-- MCP connection searches and retrieves content from Notion
+- MCP 연결은 Notion에서 콘텐츠를 검색하고 가져옵니다.
 
-- Skill structures two documents: internal pre-read and external agenda (Orchestration)
+- Skill은 내부 사전 검토 자료 및 외부 의제의 두 문서를 구성합니다(오케스트레이션).
 
-- MCP connection saves both documents to Notion, organized and linked
+- MCP 연결을 통해 두 문서가 Notion에 저장되면 내용이 정리되고 연결됩니다.
 
-- Skill ensures outputs match formatting standards (Performance)
+- Skill은 결과물이 서식 표준에 부합하도록 보장합니다(수행).
 
-## When to use skills vs. MCP
+## Skills과 MCP를 각각 사용해야 할 때
 
-‍Skills and MCP solve different problems, but deciding which to use for a specific workflow isn't always obvious.
+Skills와 MCP는 서로 다른 문제를 해결하지만, 특정 워크플로우에 어떤 것을 사용할지 항상 명확하게 결정되는 것은 아닙니다.
 
-#### What to use skills for
+#### Skills를 사용하는 목적
 
-Skills capture the knowledge that would otherwise live in your head, or that gets re-explained every time someone new joins the team. They work best for:
+Skills는 머리 속에만 남아 있는 지식이나 새로운 인원이 팀에 합류할 때마다 다시 설명해야 하는 지식을 캡처합니다. Skills는 다음과 같은 경우에 가장 적합합니다.
 
-- Multi-step workflows involving tools: Meeting prep that pulls from multiple sources, then creates structured documents
+- 도구가 포함된 다단계 워크플로우: 여러 소스에서 가져온 다음 구조화된 문서를 생성하는 회의 준비
 
-- Processes where consistency matters: Quarterly financial analyses that must follow the same methodology every time, compliance reviews with mandatory checkpoints
+- 일관성이 중요한 프로세스: 매번 동일한 방법론을 반드시 따라야 하는 분기별 재무 분석, 필수 체크포인트가 포함된 규정 준수 검토
 
-- Domain expertise you want to capture and share: Research methodologies, code review standards, writing guidelines
+- 캡처 및 공유하려는 분야 전문성: 리서치 방법론, 코드 검토 표준, 작성 가이드라인
 
-- Workflows that should survive when team members leave: Institutional knowledge encoded in reusable instructions
+- 팀원이 퇴사하더라도 유지해야 하는 워크플로우: 재사용 가능한 지침으로 인코딩된 조직 내 지식
 
-#### What to use MCP servers for
+#### MCP 서버를 사용하는 목적
 
-MCP extends what Claude can access and use. Use an MCP when you need:
+MCP는 Claude가 접근하고 사용할 수 있는 내용을 확장합니다. MCP는 다음과 같은 필요에 따라 사용합니다.
 
-- Real-time data access: Searching Notion pages, reading Slack messages, querying databases
+- 실시간 데이터 액세스: Notion 페이지 검색, Slack 메시지 읽기, 데이터베이스 쿼리
 
-- Actions in external systems: Creating GitHub issues, updating project management tools, sending notifications
+- 외부 시스템에서 작업: GitHub 이슈 생성, 프로젝트 관리 도구 업데이트, 알림 전송
 
-- File operations: Reading from and writing to Google Drive, accessing local filesystems
+- 파일 작업: Google Drive에서 읽기 및 쓰기, 로컬 파일 시스템에 액세스
 
-- API integrations: Connecting to services that don't have native Claude support
+- API 통합: 기본 Claude 지원이 없는 서비스에 연결
 
-If you're explaininghowto do something, that's a skill. If you need Claude toaccesssomething, that's MCP.
+무언가를 수행하는방법을 설명하고 있다면 그것은 Skill입니다. Claude가 무언가에액세스해야 한다면 그것은 바로 MCP입니다.
 
 ‍
 
-#### Quick reference table: How skills and MCP differ
+#### 빠른 참조표: Skills와 MCP의 차이점
 
-## Common questions
+## 일반적인 질문
 
-#### Do skills replace MCP?
+#### Skills가 MCP를 대체하나요?
 
-No. Skills and MCP solve different problems. MCP provides connectivity to external tools and data. Skills provide procedural knowledge for how to use that connectivity effectively. Most powerful workflows use both.
+아니요. Skills는 MCP는 다른 문제를 해결합니다. MCP는 외부 도구와 데이터에 대한 연결을 제공합니다. Skills는 해당 연결성을 효과적으로 활용하는 방법에 대한 절차 지식을 제공합니다. 대부분의 강력한 워크플로우에서는 둘 다 사용합니다.
 
-#### Can one skill use multiple MCP servers?
+#### 하나의 Skill이 MCP 서버를 여러 개 사용할 수 있나요?
 
-Yes. A single skill can coordinate multiple MCP servers at once. A technical competitive analysis skill might search Google Drive for internal research, pull competitor repos from GitHub, and gather market data via web search.
+네, 단일 Skill이 여러 MCP 서버를 한 번에 조정할 수 있습니다. 기술 경쟁 분석 Skill은 Google Drive에서 내부 리서치를 검색하고, GitHub에서 경쟁사 리포지토리를 가져오며, 웹 검색을 통해 시장 데이터를 수집할 수 있습니다.
 
-#### Can I build multiple skills for one MCP server?
+#### MCP 서버 하나에 Skill을 여러 개 빌드할 수 있나요?
 
-Yes. A skill can enhance the value you get from a single MCP connection. Notion demonstrates this pattern with separate skills for meeting prep, research, knowledge capture, and spec-to-implementation—check them out[here](https://claude.com/connectors/notion).
+네, Skill은 단일 MCP 연결에서 얻는 가치를 높일 수 있습니다. Notion은 회의 준비, 리서치, 지식 캡처, 사양에서 구현으로의 전환을 위한 별도의 Skill로 이 패턴을 입증합니다.[여기](https://claude.com/connectors/notion)에서 확인하세요.
 
-## Getting started
+## 시작하기
 
-Ready to build with skillsandMCP? Here's how to start:
+Skill과MCP를 사용해 빌드할 준비가 되셨나요? 시작하는 방법은 다음과 같습니다.
 
-With skills:
+Skill 사용 시:
 
-- Enable skills in Settings → Capabilities onclaude.ai
+- Claude.ai의 설정 → 기능에서 Skill 활성화
 
-- Browse theskills libraryfor pre-built examples
+- 사전 빌드된 예시를 살펴보려면Skills 라이브러리둘러보기
 
-- Read theskills documentation
+- Skills 문서읽기
 
-With MCP:
+MCP 사용 시:
 
-- BrowseMCP serversfor your tools
+- 도구에 맞는MCP 서버찾아보기
 
-- Read theMCP documentation
+- MCP 문서읽기
 
-- Build your own server with theMCP quick start
+- MCP 빠른 시작으로 나만의 서버 빌드
 
-Combine both:
+둘 다 사용 시:
 
-- Connect an MCP server, then add a skill that uses it
+- MCP 서버를 연결한 후 이 서버를 사용하는 Skill을 추가합니다.
 
-## Related articles
+## 관련 문서
 
-Explore more insights on building with Claude's agentic capabilities.
+Claude의 에이전틱 기능을 사용하여 빌드에 대한 더 많은 인사이트를 살펴보세요.
 
-- Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+- Skills 설명: Skills와 프롬프트, 프로젝트, MCP, 서브 에이전트의 차이
 
-- Improving frontend design through Skills
+- Skills를 통한 프론트엔드 디자인 개선
 
-- Equipping agents for the real world with Agent Skills
+- 에이전트 스킬(Agent Skills), 실제 환경에 바로 활용할 수 있는 에이전트
 
 ‍
 
@@ -201,36 +200,36 @@ Explore more insights on building with Claude's agentic capabilities.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+자주 묻는 질문
 
-## Related posts
+## 관련 게시물
 
-Explore more product news and best practices for teams building with Claude.
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
-### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
-### What is Model Context Protocol? Connect AI to your world
+### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
-### Building AI agents for financial services
+### 멀티 에이전트 시스템 구축: 사용해야 할 시점 및 사용 방법
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
 
-### Building AI agents for healthcare and life sciences
+### Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기
 
-## Transform how your organization operates with Claude
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
-Get the developer newsletter
+개발자 뉴스레터 구독
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 
 ---
-**Source:** https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers
+**Source:** https://claude.com/ko/blog/extending-claude-capabilities-with-skills-mcp-servers
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

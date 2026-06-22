@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-06-22 14:24*
-Total documents: 256
+*Last updated: 2026-06-22 16:37*
+Total documents: 261
 ---
-## Uncategorized (256 documents)
+## Uncategorized (261 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -146,6 +146,11 @@ Total documents: 256
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
+**Updated:** 2026-06-22  
+
+### Choose a Claude plan
+**File:** `/docs-support/choosing-a-claude-plan.md`  
+**Source:** https://support.claude.com/en/articles/11049762-choosing-a-claude-plan  
 **Updated:** 2026-06-22  
 
 ### Claude 4 Invite Contest
@@ -913,6 +918,11 @@ Total documents: 256
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
 **Updated:** 2026-06-22  
 
+### Share and unshare chats
+**File:** `/docs-support/sharing-and-unsharing-chats.md`  
+**Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
+**Updated:** 2026-06-22  
+
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console  
@@ -1108,10 +1118,20 @@ Total documents: 256
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
 **Updated:** 2026-05-21  
 
+### Using incognito chats
+**File:** `/docs-support/using-incognito-chats.md`  
+**Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
+**Updated:** 2026-06-22  
+
 ### Using the Claude Widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  
 **Source:** https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android  
 **Updated:** 2026-05-21  
+
+### Verify your phone number
+**File:** `/docs-support/verifying-your-phone-number.md`  
+**Source:** https://support.claude.com/en/articles/8287232-verifying-your-phone-number  
+**Updated:** 2026-06-22  
 
 ### View usage analytics for Team and Enterprise plans
 **File:** `/docs-support/usage-analytics-for-team-and-enterprise-plans.md`  
@@ -1217,6 +1237,11 @@ Total documents: 256
 **File:** `/docs-support/when-to-use-desktop-and-web-connectors.md`  
 **Source:** https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors  
 **Updated:** 2026-05-17  
+
+### Where can I access Claude?
+**File:** `/docs-support/where-can-i-access-claude.md`  
+**Source:** https://support.claude.com/en/articles/8461763-where-can-i-access-claude  
+**Updated:** 2026-06-22  
 
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  

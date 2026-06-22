@@ -1,4 +1,5 @@
 # Observability for developers building connectors
+*June 8, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 Developers can now monitor their connectors' performance across Claude products and submit connectors to the directory in-app.
 
-- カテゴリアイテムが見つかりません。
+- CategoryProduct announcements
 
-- 製品Claudeのアプリ
+- ProductClaude apps
 
-- 日付2026-06-08
+- DateJune 8, 2026
 
-- 所要時間5分
+- Reading time5min
 
-- 共有リンクをコピーhttps://claude.com/blog/observability-for-developers-building-connectors
+- ShareCopy linkhttps://claude.com/blog/observability-for-developers-building-connectors
 
 ## Monitor, debug, and improve connectors
 
@@ -40,22 +41,36 @@ Connectors are built on the[Model Context Protocol (MCP)](https://modelcontextpr
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-よくある質問
+FAQ
 
-## 関連する投稿
+## Related posts
 
-Claude を活用して構築を行うチーム向けの、その他の製品
+Explore more product news and best practices for teams building with Claude.
 
-ニュースとベストプラクティスをご覧ください。
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-## Claude を活用して組織運営の方法を変革
+### Secure access to the Claude Platform with Workload Identity Federation
 
-開発者向けニュースレターを入手
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
 
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
+
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Claude Security is now in public beta
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ja/blog/observability-for-developers-building-connectors
+**Source:** https://claude.com/blog/observability-for-developers-building-connectors
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

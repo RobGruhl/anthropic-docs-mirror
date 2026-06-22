@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
-Documents related to Claude Code across all sources (247 documents)
+Documents related to Claude Code across all sources (250 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -172,68 +172,63 @@ Documents related to Claude Code across all sources (247 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (78)
+## Claude.com Blog Posts (81)
+- [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
+- [AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
+- [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
-- [Automate security reviews with Claude Code](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
 - [Best practices for getting started with Claude Cowork](/claude-blog/best-practices-for-getting-started-with-claude-cowork.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
+- [BrexがClaude Codeを活用してコードの品質と生産性を向上させた方法](/claude-blog/how-brex-improves-code-quality-and-productivity-with-claude-code.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
-- [Bringing automated preview, review, and merge to Claude Code on desktop](/claude-blog/preview-review-and-merge-with-claude-code.md) - ![](https://cdn
-- [Build responsive web layouts](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
-- [Building agents with Skills: Equipping agents for specialized work](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
+- [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn
+- [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
+- [Claude Code mit Plugins anpassen](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Claude Code now supports artifacts](/claude-blog/artifacts-in-claude-code.md) - ![](https://cdn
-- [Claude Code on the web](/claude-blog/claude-code-on-the-web.md) - ![](https://cdn
 - [Claude Code power user customization: How to configure hooks](/claude-blog/how-to-configure-hooks.md) - ![](https://cdn
+- [Claude Codeでセキュリティレビューを自動化](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
 - [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
+- [Claude를 더 유능한 전기 엔지니어로 만들기](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
 - [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Code with Claude comes to San Francisco, London, and Tokyo](/claude-blog/code-with-claude-san-francisco-london-tokyo.md) - ![](https://cdn
+- [Comment trois startups d'YC ont développé leurs entreprises avec Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
-- [Customize Claude Code with plugins](/claude-blog/claude-code-plugins.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
 - [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
-- [Eight trends defining how software gets built in 2026](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
-- [How AI helps break the cost barrier to COBOL modernization](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
-- [How Anthropic teams use Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
-- [How Brex improves code quality and productivity with Claude Code](/claude-blog/how-brex-improves-code-quality-and-productivity-with-claude-code.md) - ![](https://cdn
 - [How Claude Code works in large codebases: Best practices and where to start](/claude-blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
-- [How three YC startups built their companies with Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
-- [How to integrate APIs seamlessly](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
-- [Improving frontend design through Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
-- [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
-- [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing routines in Claude Code](/claude-blog/introducing-routines-in-claude-code.md) - ![](https://cdn
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
-- [Making Claude a better electrical engineer](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
+- [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
 - [Meet the winners of our Claude Opus 4.8 Build Day hackathon](/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Observability for developers building connectors](/claude-blog/observability-for-developers-building-connectors.md) - ![](https://cdn
+- [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
-- [Piloting Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
 - [Product management on the AI exponential](/claude-blog/product-management-on-the-ai-exponential.md) - ![](https://cdn
 - [Put Claude to work on your computer](/claude-blog/dispatch-and-computer-use.md) - ![](https://cdn
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
@@ -242,14 +237,22 @@ Documents related to Claude Code across all sources (247 documents)
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
+- [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
 - [Updates to Claude Team](/claude-blog/claude-team-updates.md) - ![](https://cdn
-- [Using CLAUDE.md files: Customizing Claude Code for your codebase](/claude-blog/using-claude-md-files.md) - ![](https://cdn
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
+- [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
+- [Wir testen Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
+- [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
+- [エージェントスキルの紹介](/claude-blog/skills.md) - ![](https://cdn
+- [レスポンシブWebレイアウトを構築](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
+- [권한 프롬프트를 넘어서: Claude Code를 더 안전하고 자율적으로 만들기](/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md) - ![](https://cdn
+- [데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입](/claude-blog/preview-review-and-merge-with-claude-code.md) - ![](https://cdn
+- [웹용 Claude Code](/claude-blog/claude-code-on-the-web.md) - ![](https://cdn
 - [이제 Opus 4.6과 Sonnet 4.6에서 1M 컨텍스트를 정식 지원합니다](/claude-blog/1m-context-ga.md) - ![](https://cdn
 
 ## Support Articles (8)

@@ -1,4 +1,5 @@
 # Code w/ Claude SF 2026 recap: Building on the AI exponential
+*May 12, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 Missed our SF Code w/ Claude developer conference? Keynotes and breakout sessions are now on YouTube.
 
-- カテゴリ製品発表
+- CategoryProduct announcements
 
-- 製品Claude CodeClaude Platform
+- ProductClaude CodeClaude Platform
 
-- 日付2026-05-12
+- DateMay 12, 2026
 
-- 所要時間5分
+- Reading time5min
 
-- 共有リンクをコピーhttps://claude.com/blog/code-w-claude-sf-2026-sf
+- ShareCopy linkhttps://claude.com/blog/code-w-claude-sf-2026-sf
 
 This week in San Francisco, we hosted[Code w/ Claude](https://claude.com/code-with-claude/san-francisco#agenda), our annual developer conference. The event brought together developers, engineers, and founders for two days of keynotes, breakout sessions, and workshops with the teams building Claude.
 
@@ -58,38 +59,36 @@ Stay tuned for technical tutorials, guides, and customer stories inspired by our
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-よくある質問
+FAQ
 
-## 関連する投稿
+## Related posts
 
-Claude を活用して構築を行うチーム向けの、その他の製品
+Explore more product news and best practices for teams building with Claude.
 
-ニュースとベストプラクティスをご覧ください。
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+### Secure access to the Claude Platform with Workload Identity Federation
 
-### 法務業界向けの Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
 
-### ウェブ上のClaude Code
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-### Max planの紹介
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+### Claude Security is now in public beta
 
-### Claude in Chrome のパイロット試験
+## Transform how your organization operates with Claude
 
-## Claude を活用して組織運営の方法を変革
+Get the developer newsletter
 
-開発者向けニュースレターを入手
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
-
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ja/blog/code-w-claude-sf-2026-sf
+**Source:** https://claude.com/blog/code-w-claude-sf-2026-sf
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

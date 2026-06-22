@@ -1,134 +1,113 @@
-# Increase web search accuracy and efficiency with dynamic filtering
-*February 17, 2026*
+# 동적 필터링을 통해 웹 검색 정확도와 효율성 향상
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-# Increase web search accuracy and efficiency with dynamic filtering
+# 동적 필터링을 통해 웹 검색 정확도와 효율성 향상
 
-Dynamic filtering makes Claude more accurate and efficient on complex web search tasks. Here’s how it works, and how to enable it on the API.
+동적 필터링 덕분에 Claude는 복잡한 웹 검색 작업에서 더 정확하고 효율적으로 작동합니다. 다음은 Claude의 작동 방식과 API에서 Claude를 활성화하는 방법입니다.
 
-- CategoryProduct announcements
+- 카테고리제품 발표
 
-- ProductClaude Platform
+- 제품Claude Platform
 
-- DateFebruary 17, 2026
+- 날짜2026-02-17
 
-- Reading time5min
+- 읽는 시간5분
 
-- ShareCopy linkhttps://claude.com/blog/improved-web-search-with-dynamic-filtering
+- 공유링크 복사https://claude.com/blog/improved-web-search-with-dynamic-filtering
 
-Alongside Claude[Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)and[Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6), we’re releasing new versions of our[web search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool)and[web fetch](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool)tools. Claude can now natively write and execute code during [web search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool)es to filter results before they reach the context window, improving its accuracy and token efficiency.
+Claude[Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)및[Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)과 함께[웹 검색](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool)및[웹 가져오기](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool)도구의 새 버전을 출시합니다. 이제 Claude는 [웹 검색](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool) 중에 기본적으로 코드를 작성하고 실행하여 결과가 컨텍스트 창에 도달하기 전에 필터링할 수 있으므로 정확도와 토큰 효율성이 향상됩니다.
 
-## Web search with dynamic filtering
+## 동적 필터링을 사용한 웹 검색
 
-Web search is a highly token-intensive task. Agents using basic web search tools need to make a query, pull search results into context, fetch full HTML files from multiple websites, and reason over it all before responding. But the context being pulled in from search is often irrelevant, which degrades the quality of the response.To improve Claude’s performance on web searches, our web search and web fetch tools now automatically write and execute code to post-process query results. Instead of reasoning over full HTML files, Claude can dynamically filter the search results before loading them into context, keeping only what’s relevant and discarding the rest.We’ve[previously found](https://www.anthropic.com/engineering/advanced-tool-use)this technique to be effective across other agentic workflows, and we’ve added tools such as[code execution](http://docs.anthropic.com/en/docs/agents-and-tools/tool-use/code-execution-tool)and[programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)for native support on our API. We’re now bringing these same techniques to web search and web fetch.
+웹 검색은 토큰을 많이 사용하는 작업입니다. 기본 웹 검색 도구를 사용하는 에[이전](https://www.anthropic.com/engineering/advanced-tool-use)트는 쿼리를 작성하고 검색 결과를 컨텍스트로 가져오고 여러 웹사이트에서 전체 HTML 파일을 가져온 다음 응답하기 전에 이 모든 것을 추론해야 합니다. 그러나 검색에서 가져오는 컨텍스트는 관련성이 없는 경우가 빈번해 응답의 품질이 저하되는 경우가 많습니다.웹 검색에서 Claude의 성능을 향상시키기 위해 이제 웹 검색과 웹 가져오기 도구는 쿼리 결과를 후처리하기 위한 코드를 자동으로 작성하고 실행합니다. Claude는 전체 HTML 파일을 추론하는 대신, 컨텍스트에 로드하기 전에 검색 결과를 동적으로 필터링하여 관련 항목만 유지하고 나머지는 버릴 수 있습니다.이 기법이 다른 에[이전](https://www.anthropic.com/engineering/advanced-tool-use)틱 워크플로우에서 효과적인 것으로[이전](https://www.anthropic.com/engineering/advanced-tool-use)에 확인했으며, API에서 네이티브 지원을 위해[코드 실행](http://docs.anthropic.com/en/docs/agents-and-tools/tool-use/code-execution-tool)과[프로그래밍 방식의 도구 호출](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)과 같은 도구를 추가했습니다. 이제 웹 검색과 웹 가져오기에 동일한 기법을 적용하고 있습니다.
 
-## Evaluating Claude’s ability to search the web‍
+## Claude의 웹 검색 기능 평가
 
-We evaluated web search on Sonnet 4.6 and Opus 4.6 with and without dynamic filtering and no other tools enabled. Across two benchmarks,[BrowseComp](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf)and[DeepsearchQA](https://storage.googleapis.com/deepmind-media/DeepSearchQA/DeepSearchQA_benchmark_paper.pdf), dynamic filtering improved performance by an average of 11% while using 24% fewer input tokens.[BrowseComp](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf): Searching the web to find one answer‍
+다른 도구는 활성화하지 않은 상태에서 동적 필터링을 적용한 경우와 적용하지 않은 경우로 나누어 Sonnet 4.6과 Opus 4.6에서 웹 검색을 평가했습니다.[BrowseComp](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf)와[DeepsearchQA](https://storage.googleapis.com/deepmind-media/DeepSearchQA/DeepSearchQA_benchmark_paper.pdf)라는 두 가지 벤치마크에서 동적 필터링은 성능은 평균 11% 향상되었고 동시에 입력 토큰 사용량은 24% 줄었습니다.[BrowseComp](https://cdn.openai.com/pdf/5e10f4ab-d6f7-442e-9508-59515c65e35d/browsecomp.pdf): 웹을 검색해 하나의 답변 찾기
 
-BrowseComp tests whether an agent can navigate many websites to find a specific piece of information that is deliberately hard to find online. Dynamic filtering improved Claude’s accuracy significantly, bringing Sonnet 4.6 from 33.3% to 46.6% and Opus 4.6 from 45.3% to 61.6%.‍
+BrowseComp는 에이전트가 여러 웹사이트를 탐색해 고의적으로 찾기 어렵게 만든 특정 정보를 온라인에서 찾을 수 있는지 테스트합니다. 동적 필터링을 통해 Claude의 정확도가 크게 향상되어 Sonnet 4.6은 33.3%에서 46.6%로, Opus 4.6은 45.3%에서 61.6%로 향상되었습니다.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69937fbbb7eec8e454d86c9d_Dynamic-filtering-on-browsecomp.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69937fbbb7eec8e454d86c9d_Dynamic-filtering-on-browsecomp.png)
 
-DeepsearchQA: Searching the web to find many answers‍
+DeepsearchQA: 웹을 검색해 다양한 답변 찾기
 
-DeepsearchQA presents agents with research queries that have many correct answers, all of which must be found via web search. It tests whether an agent can systematically plan and execute multi-step searches without missing any answers. It’s measured by an “F1 score,” which balances precision and recall—capturing both the accuracy of returned answers and the completeness of the search.
+DeepsearchQA는 에이전트에게 많은 정답이 포함된 리서치 쿼리를 제공하며 모든 정답은 웹 검색을 통해 찾을 수 있어야 합니다. 에이전트가 답변을 놓치지 않으면서 다단계 검색을 체계적으로 계획하고 실행할 수 있는지 테스트합니다. 이는 정밀도와 재현율의 균형을 나타내는 'F1 점수'로 측정되며, 반환된 답변의 정확도와 검색의 완전성을 모두 포착합니다.
 
-Dynamic filtering improved Claude’s F1 score from 52.6% to 59.4% for Sonnet 4.6 and from 69.8% to 77.3% for Opus 4.6.
+동적 필터링 덕분에 Claude의 F1 점수는 Sonnet 4.6의 경우 52.6%에서 59.4%로, Opus 4.6의 경우 69.8%에서 77.3%로 개선되었습니다.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69937fcede000ba1d5aab33d_Dynamic-filtering-on-DeepsearchQA.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69937fcede000ba1d5aab33d_Dynamic-filtering-on-DeepsearchQA.png)
 
-Token costs will vary depending on how much code the model needs to write to filter context. Price-weighted tokens decreased for Sonnet 4.6 on both benchmarks but increased for Opus 4.6. To better understand your own costs, we recommend evaluating this tool against a representative set of web search queries your agent is likely to encounter in production.
+토큰 비용은 모델이 컨텍스트를 필터링하기 위해 작성해야 하는 코드의 양에 따라 달라질 수 있습니다. 가격 가중 토큰은 두 벤치마크에서 Sonnet 4.6의 경우 감소했지만, Opus 4.6의 경우 증가했습니다. 비용을 더 잘 이해하기 위해, 에이전트가 프로덕션 환경에서 접할 가능성이 있는 대표적인 웹 검색 쿼리 세트와 비교해 이 도구를 평가하는 것이 좋습니다.
 
-## Customer spotlight: Quora
+## 고객 사례 소개: Quora
 
-[Poe](https://poe.com)by[Quora](https://quora.com)is one of the largest multi-model AI platforms, giving millions of users access to over 200 models through a single interface. Internal teams at [Quora](https://quora.com) found that Opus 4.6 with dynamic filtering “achieved the highest accuracy on our internal evals when tested against other frontier models,” said Gareth Jones, Product and Research Lead. “The model behaves like an actual researcher, writing Python to parse, filter, and cross-reference results rather than reasoning over raw HTML in context.”
+[Poe](https://poe.com)by[Quora](https://quora.com)는 최대 규모의 멀티 모델 AI 플랫폼 중 하나로, 수백만 명의 사용자가 단일 인터페이스를 통해 200개가 넘는 모델에 액세스할 수 있도록 지원합니다. [Quora](https://quora.com)의 내부팀은 동적 필터링이 적용된 Opus 4.6이 "다른 최첨단 모델과 비교해 테스트했을 때 내부 평가에서 가장 높은 정확도를 달성했다"는 사실을 발견했다고 제품 및 리서치 리드인 Gareth Jones가 말했습니다. "모델은 실제 연구원처럼 작동하며 컨텍스트에서 원시 HTML을 추론하기보다는 결과를 분석하고 필터링하고 상호 참조하도록 Python을 작성합니다."
 
-## Dynamic filtering in the web search and fetch tools
+## 웹 검색 및 가져오기 도구에서 동적 필터링
 
-Dynamic filtering will be turned on by default when using our new web search and web fetch tools with Sonnet 4.6and Opus 4.6 on the Claude API. For complex web search queries, such as sifting through technical documentation or verifying citations, you can expect similar performance improvements to those shown above.
+Claude API에서 Sonnet 4.6과Opus 4.6과 함께 새로운 웹 검색 및 웹 가져오기 도구를 사용할 때는 동적 필터링이 기본적으로 켜집니다. 기술 문서를 선별하거나 인용 검증과 같은 복잡한 웹 검색 쿼리의 경우에는 위 그림과 유사한 성능 향상을 기대할 수 있습니다.
 
-Here’s how to use it in the API:
-
-```
-{
-  "model": "claude-opus-4-6",
-  "max_tokens": 4096,
-  "tools": [
-    {
-      "type": "web_search_20260209",
-      "name": "web_search"
-    },
-    {
-      "type": "web_fetch_20260209",
-      "name": "web_fetch"
-    }
-  ],
-  "messages": [
-    {
-      "role": "user",
-      "content": "Search for the current prices of AAPL and GOOGL, then calculate which has a better P/E ratio."
-    }
-  ]
-}
+API에서 동적 필터링을 사용하는 방법은 다음과 같습니다.
 
 ```
 
-## Code execution, memory, and more tools are now generally available
+```
 
-We’re also graduating several tools to general availability to help agents perform better across token-intensive tasks:
+## 이제 코드 실행, 메모리 등 더 많은 도구가 제공됨
 
-- Code execution:Provides a sandbox for agents to run code during a conversation to filter context, analyze data, or perform calculations.
+또한 여러 도구를 정식 출시하여 토큰 사용량 많은 작업에서 에이전트가 더 뛰어난 성능을 발휘할 수 있도록 지원합니다.
 
-- Memory: Store and retrieve information across conversations through a persistent file directory, so agents can retain context without keeping everything in the context window.
+- 코드 실행:에이전트가 컨텍스트 필터링, 데이터 분석 또는 계산을 위해 대화 중에 코드를 실행할 수 있는 샌드박스를 제공합니다.
 
-- Programmatic tool calling:Execute complex multi-tool workflows in code, keeping intermediate results out of the context window.
+- 메모리: 영구 파일 디렉터리를 통해 여러 대화 간 정보를 저장하고 검색하므로 에이전트가 컨텍스트 창에 모든 정보를 저장하지 않아도 컨텍스트를 유지할 수 있습니다.
 
-- Tool search:Dynamically discover tools from large libraries without loading all definitions into the context window.‍
+- 프로그래밍 방식 도구 호출:복잡한 멀티 도구 워크플로우를 코드에서 실행하고 중간 결과는 컨텍스트 창 외부로 유지합니다.
 
-- Tool use examples:Provide sample tool calls directly in your tool definitions to demonstrate usage patterns and reduce parameter errors.
+- 도구 검색:모든 정의를 컨텍스트 창에 로드하지 않고 대규모 라이브러리에서 도구를 동적으로 검색할 수 있습니다.‍
 
-### Getting started
+- 도구 사용 예시:도구 정의에 직접 도구 호출 샘플을 포함하여 사용 패턴을 보여줘 매개변수 오류를 줄일 수 있습니다.
 
-Improved web search and web fetch—as well as code execution, memory, programmatic tool calling, tool search, and tool use examples—are available now on the Claude Platform. Read our[API documentation](https://platform.claude.com/docs/en/build-with-claude/overview)to get started.
+### 시작하기
+
+이제 Claude Platform에서 향상된 웹 검색 및 웹 가져오기와 코드 실행, 메모리, 프로그래밍 방식 도구 호출, 도구 검색, 도구 사용 예시를 사용할 수 있습니다.[API 문서](https://platform.claude.com/docs/en/build-with-claude/overview)를 읽고 시작해 보세요.
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+자주 묻는 질문
 
-FAQ
+## 관련 게시물
 
-## Related posts
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-Explore more product news and best practices for teams building with Claude.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### 이제 Opus 4.6과 Sonnet 4.6에서 1M 컨텍스트를 정식 지원합니다
 
-### Secure access to the Claude Platform with Workload Identity Federation
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
 
-### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
+### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
 
-### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+### 조직, 파트너, 그리고 생태계를 위한 Skills
 
-### Claude Security is now in public beta
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
-## Transform how your organization operates with Claude
+개발자 뉴스레터 구독
 
-Get the developer newsletter
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 
 ---
-**Source:** https://claude.com/blog/improved-web-search-with-dynamic-filtering
+**Source:** https://claude.com/ko/blog/improved-web-search-with-dynamic-filtering
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

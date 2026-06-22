@@ -1,21 +1,20 @@
 # Product Topic Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
-Documents related to Product across all sources (16 documents)
+Documents related to Product across all sources (15 documents)
 ---
-## Claude.com Blog Posts (16)
+## Claude.com Blog Posts (15)
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn
 - [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](/claude-blog/trainium2-and-distillation.md) - ![](https://cdn
 - [Claude Android app](/claude-blog/android-app.md) - ![](https://cdn
-- [Claude Opus 4.6으로 재무 관련 작업 개선](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
-- [Claude can now create and edit files](/claude-blog/create-files.md) - ![](https://cdn
+- [Claudeでファイルの作成と編集が可能になりました](/claude-blog/create-files.md) - ![](https://cdn
 - [Claudeへのメモリの導入](/claude-blog/memory.md) - ![](https://cdn
 - [Collaborate with Claude across Excel, PowerPoint, Word and Outlook](/claude-blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook.md) - ![](https://cdn
-- [Comment l'équipe juridique d'Anthropic a réduit les délais de révision, qui sont passés de plusieurs jours à quelques heures avec Claude](/claude-blog/how-anthropic-uses-claude-legal.md) - ![](https://cdn
 - [Das kann der Max Plan](/claude-blog/max-plan.md) - ![](https://cdn
 - [How Anthropic's finance team uses Claude to shape the narrative behind the numbers](/claude-blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers.md) - ![](https://cdn
+- [How Anthropic's legal team cut review times from days to hours with Claude](/claude-blog/how-anthropic-uses-claude-legal.md) - ![](https://cdn
 - [How Carta Healthcare gets AI to reason like a clinical abstractor](/claude-blog/carta-healthcare-clinical-abstractor.md) - ![](https://cdn
 - [How enterprises are driving AI transformation with Claude](/claude-blog/driving-ai-transformation-with-claude.md) - ![](https://cdn
 - [Using LLMs to secure source code](/claude-blog/using-llms-to-secure-source-code.md) - ![](https://cdn

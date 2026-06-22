@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
 ## Quick Stats
-- **Total Documents:** 2680
+- **Total Documents:** 2690
 - **Platform Docs:** 1603
 - **Claude Code Docs:** 149
 - **MCP Docs:** 168
@@ -11,8 +11,8 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 166
-- **Support Articles:** 256
+- **Claude.com Blog:** 171
+- **Support Articles:** 261
 - **Topics:** 83
 
 ## Quick Navigation
@@ -26,24 +26,24 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 166 product/API posts from claude.com/blog
-- [Support Articles](support-articles.md) - 256 help articles from support.claude.com
+- [Claude.com Blog](claude-blog.md) - 171 product/API posts from claude.com/blog
+- [Support Articles](support-articles.md) - 261 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 247 documents
+- [Claude Code](topics/claude-code.md) - 250 documents
 - [Mcp](topics/mcp.md) - 243 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
-- [Api](topics/api.md) - 143 documents
-- [Skills](topics/skills.md) - 129 documents
+- [Api](topics/api.md) - 145 documents
+- [Skills](topics/skills.md) - 130 documents
 - [Agents](topics/agents.md) - 129 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 82 documents
+- [Tools](topics/tools.md) - 83 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents

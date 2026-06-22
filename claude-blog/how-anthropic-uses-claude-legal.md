@@ -1,126 +1,125 @@
-# Comment l'équipe juridique d'Anthropic a réduit les délais de révision, qui sont passés de plusieurs jours à quelques heures avec Claude
+# How Anthropic's legal team cut review times from days to hours with Claude
+*December 8, 2025*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
-# Comment l'équipe juridique d'Anthropic a réduit les délais de révision, qui sont passés de plusieurs jours à quelques heures avec Claude
+# How Anthropic's legal team cut review times from days to hours with Claude
 
-Mark Pike, conseiller général associé, explique comment notre équipe juridique utilise Claude pour créer des flux de travail qui automatisent des tâches répétitives, comme la révision de contenu marketing et la mise en place de contrats, sans aucun codage nécessaire.
+Mark Pike, Associate General Counsel, shares how our legal team uses Claude to build workflows that automate repetitive tasks like reviewing marketing content and redlining contracts—no coding required.
 
-- CatégorieIA d'entreprise
+- CategoryEnterprise AI
 
-- ProduitClaude Enterprise
+- ProductClaude Enterprise
 
-- Date8/12/2025
+- DateDecember 8, 2025
 
-- Temps de lecture5min
+- Reading time5min
 
-- PartagerCopier le lienhttps://claude.com/blog/how-anthropic-uses-claude-legal
+- ShareCopy linkhttps://claude.com/blog/how-anthropic-uses-claude-legal
 
-Sur le bureau de Mark Pike à Anthropic se trouve un téléphone payant vintage extraordinairement anachronique. Tapotez une « pièce de défi juridique » dessus et, oui, il sonne. Un bot d'IA répond, détermine ce dont vous avez besoin et vous oriente vers le bon avocat.
+There's a comically anachronistic vintage payphone on Mark Pike's desk at Anthropic. Tap a "legal challenge coin" against it—yes, really—and it rings. An AI bot answers, figures out what you need, and routes you to the right attorney.
 
-Mark l'a créé. Il ne sait pas coder.
+Mark built it. He doesn't know how to code.
 
-« Je ne dirais pas que je suis en train d'apprendre à coder », explique Mark, avocat spécialiste des produits chez Anthropic. « Je m'associe à Claude pour m'attaquer à certains projets qui impliquent du codage, mais je ne suis pas celui qui code. Je suis simplement très doué pour le dépannage. »
+"I wouldn't say what I'm doing is learning to code," says Mark, a product lawyer at Anthropic. "I partner with Claude to tackle certain projects that involve coding, but I am not the one coding. I'm just very good at troubleshooting."
 
-## Le problème : un travail tactique astronomique
+## The problem: Drowning in tactical work
 
-Avant Claude, la journée de Mark ressemblait à celle de n'importe quel autre avocat. Répondre aux documents de conformité et aux questionnaires client. Rédiger et mettre à jour des conditions d'utilisation et des politiques de confidentialité. Vérifier des articles de blog et des e-mails quelques heures avant leur lancement.
+Before Claude, Mark's day looked like any other in-house lawyer's. Responding to  compliance documents and customer questionnaires. Drafting and updating terms of service and privacy policies. Reviewing blog posts and email copy in the hours before a launch.
 
-« Avant Claude, je faisais énormément de travail tactique », explique Mark. « J'attendais la fin de la journée pour effectuer ces tâches, parce que je savais qu'elles me prendraient beaucoup de temps, mais qu'elles n'utiliseraient pas les meilleures parties de mon cerveau. »
+"Before Claude, I had a ton of tactical busy work," Mark says. "Things I would put off until the end of the day because I just knew it would take a lot of time, but not using the best parts of my brain."
 
-Le flux a toujours été le même : recevoir un ping sur Slack ou un e-mail, accéder au document Google, le lire, insérer des commentaires, indiquer au client ce qu'il doit faire, puis recommencer deux ou trois fois afin que tout soit bien en place.
+The flow was always the same: get a ping on Slack or an email, pull up the Google document, read it, insert comments, go back to the client to let them know what they need, then do two or three more back-and-forths to get things to a good place.
 
-L'équipe juridique d'Anthropic a décidé de faire quelque chose pour y remédier. Elle s'est regroupée dans une salle de conférence et a présenté ses problèmes : Qu'est-ce qui draine notre énergie ? Qu'est-ce qui est répétitif ? Qu'est-ce qui nous empêche de réaliser des tâches importantes ?
+Anthropic’s Legal team decided to do something about it. They got into a conference room and whiteboarded their pain points: What's draining our energy? What feels repetitive? What prevents us from doing impactful work?
 
-La liste était longue. Les révisions marketing duraient plusieurs jours. Les corrections de contrats consommaient des heures de comparaison manuelle. Des analyses d'impact sur la vie privée suivaient des modèles similaires, mais nécessitaient de recréer des formats à partir de zéro. Même le triage physique du courrier.
+The list was long. Marketing review turnaround that stretched for days. Contract redlining that ate up hours of manual comparison. Privacy impact assessments that followed similar patterns but required recreating formats from scratch. Even physical mail triage.
 
-« L'objectif était de faire de l'équipe juridique des partenaires de réflexion interfonctionnels », explique Mark. « Lorsque les équipes juridiques se passionnent pour l'IA, nous cessons de faire obstacle à une adoption plus large. Les autres équipes voient ce que nous faisons et réalisent qu'elles peuvent le faire aussi. »
+"The goal was to turn the legal team from 'the department of no' into cross-functional thought partners," Mark explains. "When legal teams get excited about AI, we stop being the blocker for wider adoption. Other teams see what we're doing and they realize they can do it too."
 
-## Les solutions : quatre flux de travail en action
+## The solutions: Four workflows in action
 
-En l'espace de plusieurs mois et après de nombreuses expérimentations, certains des principaux problèmes de l'équipe juridique ont évolué en flux de travail reproductibles.
+Over the course of several months and lots of experimentation, some of the legal team's biggest pain points have evolved into repeatable workflows.
 
-### Flux de travail de révision marketing
+### Marketing review workflow
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6933cb87c77bc5806f6cce36_f995b27a.png)
 
-Le problème était familier à toute équipe juridique travaillant sur le marketing : des révisions de dernière minute de publications de blog avec des délais serrés.
+The problem was familiar to any legal team supporting marketing: last-minute blog post reviews with tight turnarounds.
 
-La solution développée par Mark et son équipe est un outil de révision en libre-service intégré à Slack. Les spécialistes du marketing collent leur contenu, que Claude analyse à l'aide d'une « Skill » (un fichier contenant les orientations historiques et le cadre de révision de l'équipe juridique). L'outil identifie des problèmes tels que les droits de publicité, les revendications surestimées et la précision statistique, en les signalant comme étant à risque faible, moyen ou élevé. Il suggère des correctifs avant même que le spécialiste du marketing ne soumette un ticket.
+The solution Mark and his team built is a self-service review tool pinned in Slack. Marketers paste their content, and Claude analyzes it using a "skill" (a file containing the legal team's historical guidance and review framework). The tool identifies issues like publicity rights concerns, overstated claims, and statistical accuracy problems, flagging them as low, medium, or high risk. It suggests fixes before the marketer even submits a ticket.
 
-« Il signale des choses comme : "Hé, avez-vous les droits sur ce logo ? Cette statistique est-elle précise ? Cette marque nécessite un symbole." », explique Mark. « Une fois cela fait, vous soumettez un ticket dans la file d'attente juridique. »
+"It flags things like 'Hey, do you have rights to this logo? Is this statistic accurate? This trademark needs a symbol,'" Mark explains. "Once you've done that, submit a ticket in the legal queue."
 
-Lorsque le contenu est soumis pour une révision formelle, il est trié et transmis au bon avocat avec les problèmes pré-marqués. Depuis la mise en œuvre de cet outil dans leurs files d'attente, le délai d'exécution est passé de deux à trois jours à 24 heures.
+When content does get submitted for formal review, it's triaged to the right lawyer with pre-flagged issues. Since implementing this tool in their queues, turnaround dropped from two to three days down to 24 hours.
 
-« Je lis quand même l'article de blog. Je révise toujours le document », explique Mark. « Mais nous allons plus vite. »
+"I still read the blog post. I'm still reviewing the work," Mark notes. "But this is helping us move with more speed."
 
-### Outil de reddition de contrats
+### Contract redlining tool
 
-Comparer les versions de contrats et suggérer un langage alternatif est une tâche fastidieuse.
+Comparing contract versions and suggesting fallback language is time-consuming work.
 
-Claude compare désormais les versions de documents dans des outils comme Google Docs et Office 365, met en évidence les modifications et recommande des langages à partir des playbooks commerciaux. Les membres de l'équipe ont trouvé comment faire travailler Claude dans Google Docs, en commentant avec des suggestions de modifications en temps réel. Une personne révisant un contrat peut demander directement dans le document : « Salut Claude, pensez-vous que ce langage répondrait à nos besoins ? » et obtenir des retours immédiats.
+Claude now compares document versions in tools like Google Docs and Office 365, highlights changes, and recommends language from the commercial playbook. Team members figured out how to have Claude work inside Google Docs, commenting with suggested edits in real time. Someone reviewing a contract can ask directly in the document: "Hey Claude, do you think this language would meet our needs?" and get immediate feedback.
 
-« Souligner des erreurs dans des contrats est le cas d'utilisation que tout le monde attend de l'IA », explique Mark. « Et Claude est vraiment doué : il nous permet de gagner des heures de comparaisons manuelles. »
+"Contract redlining is the use case everybody expects from AI," Mark says. "And Claude's really good at it – it saves us hours of manual comparison."
 
-Mark et ses collègues écrivent également des[Skills](https://www.claude.com/blog/skills), des instructions spécialisées et des bonnes pratiques stockées dans des fichiers que Claude lit en fonction de la tâche, pour rationaliser encore plus la révision de types de documents spécifiques, des accords de confidentialité aux contrats de fournisseurs tiers.
+Mark and his colleagues also write[Skills](https://www.claude.com/blog/skills)– specialized instructions and best practices stored in files Claude reads depending on the task –  to further streamline the review of specific types of documents, from NDAs to third-party vendor agreements.
 
-### Examen des activités commerciales extérieures
+### Outside business activity review
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6933cb87c77bc5806f6cce33_d4c84677.jpeg)
 
-Chez Anthropic, si un employé souhaite consulter ou rejoindre le conseil d'administration d'une association à but non lucratif, il remplit un formulaire pour éviter tout conflit. Les avocats spécialisés consacraient beaucoup de temps à l'examen routinier des conflits d'intérêts.
+At Anthropic, if an employee wants to consult or join a nonprofit board, they fill out a form to clear conflicts. Employment lawyers were spending significant time on routine conflict-of-interest form reviews.
 
-Leur flux de travail alimenté par Claude permet aux employés de remplir un formulaire avec leur service, leur responsable et une description de l'activité proposée. Claude analyse les soumissions en fonction du cadre de la politique des conflits d'intérêt et envoie des recommandations aux avocats via Slack pour approbation.
+Their Claude-powered workflow has employees fill out a form with their department, manager, and description of the proposed activity. Claude analyzes submissions against the COI policy framework and sends recommendations to lawyers via Slack for approval.
 
-« Auparavant, il fallait poser de nombreuses questions aux employés pour comprendre les détails et identifier les conflits potentiels. Grâce à ce flux de travail, Claude lit le formulaire, demande plus d'informations si nécessaire et suggère un résultat », explique Mark. « Il rejoint ensuite notre file d'attente avec une recommandation. »
+"It used to be that you'd have to interview employees with a bit of back-and-forth to figure out the details and what conflicts might exist. With this workflow, Claude reads the form, asks for more information if it needs to, and suggests an outcome," Mark explains. "Then it goes to our queue with a recommendation."
 
-Les avocats peuvent désormais se concentrer sur les cas extrêmes plutôt que sur les approbations de routine. L'humain reste le décideur. Claude gère l'analyse qui prenait des heures auparavant.
+### Privacy impact assessments (PIAs)
 
-### Analyses d'impact sur la vie privée (PIA)
+Writing privacy impact assessments from scratch was tedious, even when they followed similar patterns. The team now uses[MCP (Model Context Protocol)](https://modelcontextprotocol.io/)servers to connect Claude to a Google Drive folder of previous PIAs and a Skill to instruct Claude on format and concerns.
 
-Il était fastidieux de rédiger des analyses d'impact sur la vie privée à partir de zéro, même avec des modèles similaires. L'équipe utilise désormais des serveurs[MCP (Model Context Protocol)](https://modelcontextprotocol.io/)pour connecter Claude à un dossier Google Drive contenant les PIA précédents et une Skill pour communiquer à Claude les instructions de mise en forme et les préoccupations.
+For instance, a lawyer might ask Claude to write a new PIA based on a folder of previous ones.
 
-Par exemple, un avocat peut poser la question à Claude, en tenant compte de ce qui m'a intéressé dans les lancements précédents et m'aider à rédiger un nouveau PIA à l'aide de ce dossier contenant les précédents PIA.
+"Claude is so good at reading that context and using that skill to create a new template and help me move on with my day,” Mark says.
 
-« Claude est vraiment doué pour lire ce contexte et utiliser cette Skill afin de créer un nouveau modèle et m'aider à poursuivre ma journée », explique Mark.
+## Best practices for using Claude for legal work
 
-## Bonnes pratiques d'utilisation de Claude pour les tâches juridiques
+Mark's experience offers practical guidance for lawyers and legal professionals adopting AI.
 
-L'expérience de Mark offre des conseils pratiques aux avocats et aux professionnels du droit qui adoptent l'IA.
+Start with pain points, not technology
 
-Commencez par les problèmes, pas par la technologie
+Ask yourself: what’s the busiest work we're dealing with? What's draining our energy? What feels repetitive? "Don't start with 'what can AI do?'" Mark advises. "Start with 'what do we wish we didn't have to do?'"
 
-« Posez-vous la question : quel est le travail le plus intense ? Qu'est-ce qui draine notre énergie ? Qu'est-ce qui est répétitif ? Ne commencez pas par dire : "Que peut faire l'IA ?" » Mark nous conseille. « Commencez par vous demander ce que vous préféreriez ne pas avoir à faire. »
+Use natural language to describe what you need
 
-Utilisez un langage naturel pour décrire ce dont vous avez besoin
+"The first time I saw Claude Code, it looked like something from the Matrix," Mark recalls. "Lines of code scrolling by, intimidating at first glance. But then I just typed a normal sentence, describing what I wanted. And it worked."
 
-« La première fois que j'ai vu Claude Code, j'ai pensé à Matrix », se souvient Mark. « Les lignes de code défilaient, ce qui est intimidant à première vue. Mais j'ai ensuite saisi une phrase normale pour décrire ce que je voulais. Et ça a fonctionné. »
+Build in human oversight
 
-Intégrez la supervision humaine
+AI can still hallucinate. Always verify citations and outputs. Use AI for the first pass, triage, and drafting, not final judgment. Mark's workflows route to lawyers for approval, not around them. "We know that AI systems can still hallucinate, and we want to make sure that we're verifying and checking citations to make sure the AI is not making things up."
 
-L'IA peut halluciner. Vérifiez toujours les citations et les résultats. Utilisez l'IA pour le premier jet, le triage et la rédaction, mais pas pour la décision finale. Les flux de travail de Mark sont acheminés vers les avocats pour approbation, sans les contourner. « Nous savons que les systèmes d'IA peuvent halluciner et nous voulons nous assurer de vérifier les citations et que l'IA n'invente pas. »
+Use Skills for consistency and voice
 
-Utilisez les Skills pour la cohérence et la voix
+[Skills](https://www.anthropic.com/news/skills)are files containing instructions, scripts, and resources that Claude loads dynamically when relevant to a task. They package expertise into reusable workflows that make Claude better at specialized tasks.
 
-Les[Skills](https://www.anthropic.com/news/skills)sont des fichiers contenant des instructions, des scripts et des ressources que Claude charge dynamiquement lorsqu'ils sont pertinents pour une tâche. Ils regroupent son expertise dans des flux de travail réutilisables qui permettent à Claude de mieux exécuter les tâches spécialisées.
+Mark uses Skills in two ways. First, for workflow consistency: his marketing review skill contains the legal team's guidance, helping Claude identify issues and coach marketers on how to fix them before submitting to legal.
 
-Mark utilise les Skills de deux façons. Tout d'abord, pour garantir la cohérence des flux de travail : sa Skill de révision marketing contient les conseils de l'équipe juridique, ce qui aide Claude à identifier les problèmes et à coacher les spécialistes du marketing sur la manière de les corriger avant de les soumettre au juriste.
+Second, for voice and writing style: Mark had Claude analyze ten of his recent memos to learn his formatting preferences and what he typically includes in a product legal brief. Now he can upload a product roadmap into a Claude project, invoke his skill, and get a first draft in his voice.
 
-Deuxièmement, pour la voix et le style d'écriture : Mark a demandé à Claude d'analyser dix de ses récents mémos pour connaître ses préférences de mise en forme et ce qu'il inclut généralement dans la présentation juridique d'un produit. Il peut désormais télécharger une feuille de route de produit dans un projet Claude, invoquer sa Skill et obtenir une première ébauche de voix.
+Different skills serve different specialties: employment, commercial, privacy, corporate. A skill can teach Claude to write like an employment lawyer or format memos the way a product lawyer would.
 
-Différentes Skills sont destinées à différentes spécialités : emploi, commerce, confidentialité, entreprise. Une Skill peut apprendre à Claude à écrire comme un avocat spécialiste ou à formater des mémos comme le ferait un juriste.
+Leverage MCP to connect your knowledge sources.
 
-Exploitez MCP pour connecter vos sources de connaissances.
+MCP allows you to pull information from other systems into Claude. The Anthropic legal team uses MCP to connect Claude to Google Drive, JIRA tickets, Slack messages, and Google Calendar. Pulling in all this information means surfacing the right context at the right time.
 
-MCP vous permet d'extraire des informations d'autres systèmes dans Claude. L'équipe juridique d'Anthropic utilise MCP pour connecter Claude à Google Drive, aux tickets JIRA, aux messages Slack et à Google Agenda. L'intégration de toutes ces informations permet de mettre en évidence le bon contexte au bon moment.
+## The bigger picture
 
-## Le mot de la fin
+Mark envisions a future where new lawyers inherit their team's accumulated knowledge through prompt libraries and skills. Instead of reading through old memos to learn the house style, a new hire could invoke a skill that teaches Claude how to write like the team's product lawyer or format board minutes the way the corporate group prefers.
 
-Mark envisage un avenir où les nouveaux avocats hériteront des connaissances accumulées de leur équipe grâce aux bibliothèques de requêtes et aux compétences de leur équipe. Au lieu de lire d'anciens mémos pour connaître le style de l'entreprise, un nouvel employé pourrait faire appel à une Skill qui apprend à Claude à rédiger comme l'avocat spécialisé dans les produits de l'équipe ou à formater les procès-verbaux du conseil d'administration selon les préférences du groupe.
+"We're not replacing lawyers," he says. "We're pushing out the frontier of what's possible. We're empowering them with the skills and tools they need to get their best work done."
 
-« Nous ne remplaçons pas les avocats », explique-t-il. « Nous repoussons les limites de ce qui est possible. Nous leur fournissons les compétences et les outils dont ils ont besoin pour effectuer leur travail au mieux. »
-
-Démarrez avec[Claude for Enterprise](https://www.claude.com/pricing/enterprise)dès aujourd'hui. Restez à l'écoute pour plus de témoignages dans la série « Comment Anthropic utilise Claude ».
+Get started with[Claude for Enterprise](https://www.claude.com/pricing/enterprise)today. Stay tuned for more stories in the "How Anthropic uses Claude" series.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -130,34 +129,34 @@ Démarrez avec[Claude for Enterprise](https://www.claude.com/pricing/enterprise)
 
 FAQ
 
-## Articles associés
+## Related posts
 
-Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+### 1M context is now generally available for Opus 4.6 and Sonnet 4.6
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+
+### Advancing finance with Claude Opus 4.6
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+
+### How Anthropic teams use Claude Code
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-### Observability for developers building connectors
+### How Brex improves code quality and productivity with Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+## Transform how your organization operates with Claude
 
-### Claude pour le secteur juridique
+Get the developer newsletter
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-### Explication des Skills : comparaison des Skills avec les requêtes, les Projets, MCP et les Sous-agents
-
-## Transformez le fonctionnement de votre organisation avec Claude
-
-Recevez la newsletter des développeurs
-
-Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
-
-Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/fr/blog/how-anthropic-uses-claude-legal
+**Source:** https://claude.com/blog/how-anthropic-uses-claude-legal
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

@@ -1,86 +1,85 @@
-# Customize Claude Code with plugins
-*October 9, 2025*
+# Claude Code mit Plugins anpassen
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-# Customize Claude Code with plugins
+# Claude Code mit Plugins anpassen
 
-Claude Code now supports plugins: custom collections of slash commands, agents, MCP servers, and hooks that install with a single command.
+Claude Code unterstützt jetzt Plugins: benutzerdefinierte Sammlungen von Slash-Befehlen, Agenten, MCP-Servern und Hooks, die mit einem einzigen Befehl installiert werden können.
 
-- CategoryProduct announcements
+- KategorieProduktankündigungen
 
-- ProductClaude Code
+- ProduktClaude Code
 
-- DateOctober 9, 2025
+- Datum9.10.2025
 
-- Reading time5min
+- Lesezeit5Min
 
-- ShareCopy linkhttps://claude.com/blog/claude-code-plugins
+- TeilenLink kopierenhttps://claude.com/blog/claude-code-plugins
 
-### Share your Claude Code setup with plugins
+### Claude Code-Setup mit Plugins freigeben
 
-Slash commands, agents, MCP servers, and hooks are all extension points you can use to customize your experience with Claude Code. As we've rolled them out, we've seen users build increasingly powerful setups that they want to share with teammates and the broader community. We built plugins to make this easier.
+Slash-Befehle, Agenten, MCP-Server und Hooks sind Erweiterungspunkte, mit denen Sie Claude Code anpassen können. Während der Einführung haben wir gesehen, dass Benutzer immer leistungsfähigere Setups erstellen, die sie mit Teamkollegen und der breiteren Community teilen möchten. Wir haben Plugins entwickelt, um dies zu vereinfachen.
 
-Plugins are a lightweight way to package and share any combination of:
+Plugins sind eine einfache Möglichkeit, eine beliebige Kombination aus folgenden Elementen zu paketieren und freizugeben:
 
-- Slash commands: Create custom shortcuts for frequently-used operations
+- Slash-Befehle: Benutzerdefinierte Verknüpfungen für häufig verwendete Vorgänge erstellen
 
-- Subagents: Install purpose-built agents for specialized development tasks
+- Subagenten: Installation spezieller Agenten für spezielle Entwicklungsaufgaben
 
-- MCP servers: Connect to tools and data sources through the Model Context Protocol
+- MCP-Server: Verbindung zu Tools und Datenquellen über das Model Context Protocol
 
-- Hooks: Customize Claude Code's behavior at key points in its workflow
+- Hooks: Anpassung des Verhaltens von Claude Code an wichtigen Punkten im Workflow
 
-You can install plugins directly within Claude Code using the/plugincommand, now in public beta. They’re designed to toggle on and off as needed. Enable them when you need specific capabilities and disable them when you don’t to reduce system prompt context and complexity.
+Sie können Plugins direkt in Claude Code mit dem Befehl/plugininstallieren, jetzt in der öffentlichen Betaversion. Sie können je nach Bedarf ein- und ausgeschaltet werden. Aktivieren Sie sie, wenn Sie bestimmte Funktionen benötigen, und deaktivieren Sie sie, wenn Sie sie nicht benötigen, um den Kontext und die Komplexität des Systemprompts zu reduzieren.
 
-![Product screenshot showing Claude Code plugin menu](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d95ecae26885bafdfde_81805a2d45f087f2cc153168759f8bf015706b04-1920x1035.png)
+![Produkt-Screenshot mit dem Plugin-Menü von Claude Code](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f21bb6846b72134967ebe_68e95d95ecae26885bafdfde_81805a2d45f087f2cc153168759f8bf015706b04-1920x1035.png)
 
-Moving forward, plugins will be our standard way to bundle and share Claude Code customizations, and we’ll continue to evolve the format as we add more extension points.
+Künftig werden Plugins zur Standardmethode für die Zusammenstellung und gemeinsame Nutzung von Claude Code-Anpassungen gehören. Wir werden das Format mit weiteren Erweiterungspunkten weiterentwickeln.
 
-### Use cases
+### Anwendungsfälle
 
-Plugins help you standardize Claude Code environments around a set of shared best practices. Common plugin use cases include:
+Plugins helfen Ihnen bei der Standardisierung von Claude Code-Umgebungen anhand gemeinsamer Best Practices. Häufige Plugin-Anwendungsfälle sind:
 
-- Enforcing standards:Engineering leaders can maintain consistency across their team by using plugins to ensure specific hooks run for code reviews or testing workflows
+- Durchsetzung von Standards:Engineering-Führungskräfte können Team-weite Konsistenz gewährleisten, indem sie Plugins verwenden, um sicherzustellen, dass bestimmte Hooks für Codeüberprüfungen oder Test-Workflows ausgeführt werden
 
-- Supporting users: Open source maintainers, for example, can provide slash commands that help developers use their packages correctly
+- Unterstützung für Benutzer: Open-Source-Betreuer können beispielsweise Slash-Befehle bereitstellen, die Entwicklern helfen, ihre Pakete korrekt zu verwenden
 
-- Sharing workflows:Developers who build productivity-boosting workflows—like debugging setups, deployment pipelines, or testing harnesses—can easily share them with others
+- Freigabe von Workflows:Entwickler, die produktivitätssteigernde Workflows erstellen – z. B. Debugging-Setups, Bereitstellungspipelines oder Testen von Harnesses – können diese problemlos für andere freigeben
 
-- Connecting tools:Teams that need to connect internal tools and data sources through MCP servers can use plugins with the same security and configuration protocols to speed up the process
+- Verbindung von Tools:Teams, die interne Tools und Datenquellen über MCP-Server verbinden müssen, können Plugins mit denselben Sicherheits- und Konfigurationsprotokollen verwenden, um den Prozess zu beschleunigen
 
-- Bundling customizations:Framework authors or technical leads can package multiple customizations that work together for specific use cases
+- Anpassungen bündeln:Framework-Autoren oder technische Leiter können mehrere Anpassungen zusammenstellen, die für bestimmte Anwendungsfälle zusammengestellt werden
 
-### Plugin marketplaces
+### Plugin-Marktplätze
 
-To make it easier to share these customizations, anyone can build and host plugins and create plugin marketplaces—curated collections where other developers can discover and install plugins.
+Um die gemeinsame Nutzung dieser Anpassungen zu erleichtern, kann jeder Plugins erstellen und hosten und Plugin-Marktplätze erstellen – kuratierte Sammlungen, in denen andere Entwickler Plugins entdecken und installieren können.
 
-You can use plugin marketplaces to share plugins with the community, distribute approved plugins across your organization, and build on existing solutions for common development challenges.
+Sie können Plugin-Marktplätze nutzen, um Plugins für die Community freizugeben, genehmigte Plugins im gesamten Unternehmen zu verteilen und vorhandene Lösungen für häufige Entwicklungsherausforderungen zu nutzen.
 
-To host a marketplace, all you need is a git repository, GitHub repository, or URL with a properly formatted.claude-plugin/marketplace.jsonfile. See our documentation for details.
+Zum Hosten eines Marketplaces benötigen Sie lediglich ein Git-Repository, ein GitHub-Repository oder eine URL mit einer korrekt formatierten Datei.claude-plugin/marketplace.json. Weitere Informationen finden Sie in unserer Dokumentation.
 
-To use plugins from a marketplace, run/plugin marketplace add user-or-org/repo-name, then browse and install plugins using the/pluginmenu.
+Um Plugins von einem Marktplatz zu verwenden, führen Sie/plugin marketplace add user-or-org/repo-nameaus und suchen und installieren Sie Plugins über das Menü/plugin.
 
-### Discover new marketplaces
+### Entdecken Sie neue Marktplätze
 
-Plugin marketplaces amplify the best practices our community has already developed, and community members are leading the way. For instance, engineer Dan Ávila's[plugin marketplace](https://www.aitmpl.com/plugins)offers plugins for DevOps automation, documentation generation, project management, and testing suites, while engineer Seth Hobson has curated over 80 specialized sub-agents in his[GitHub repository](https://github.com/wshobson/agents), giving developers instant access via plugins.
+Plugin-Marktplätze erweitern die Best Practices, die unsere Community bereits entwickelt hat, und Community-Mitglieder ebnen den Weg. Der[Plugin-Marktplatz](https://www.aitmpl.com/plugins)von Ingenieur Dan Ávila beispielsweise bietet Plugins für die DevOps-Automatisierung, Dokumentationserstellung, Projektmanagement und Testsuites, während Ingenieur Seth Hobson in seinem[GitHub-Repository](https://github.com/wshobson/agents)über 80 spezialisierte Subagenten zusammengestellt hat, auf die Entwickler über Plugins sofortigen Zugriff haben.
 
-You can also check out a few[example plugins](https://github.com/anthropics/claude-code)we've developed for PR reviews, security guidance,[Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)development, and even a meta-plugin for creating new plugins.
+Sie können auch einige[Beispiel-Plugins](https://github.com/anthropics/claude-code)ansehen, die wir für PR-Reviews, Sicherheitsleitfäden, die Entwicklung des[Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)und sogar ein Meta-Plugin zur Erstellung neuer Plugins entwickelt haben.
 
-### Getting started
+### Erste Schritte
 
-Plugins are now in public beta for all Claude Code users. Install them with the/plugincommand and they'll work across your terminal and VS Code.
+Plugins stehen jetzt für alle Claude-Code-Benutzer als öffentliche Betaversion zur Verfügung. Installieren Sie sie mit dem Befehl/plugin, und sie funktionieren in Ihrem Terminal und VS Code.
 
-Check out our documentation to[get started](https://docs.claude.com/en/docs/claude-code/plugins-reference),[build your own plugins](https://docs.claude.com/en/docs/claude-code/plugins), or[publish a marketplace](https://docs.claude.com/en/docs/claude-code/plugin-marketplaces). To see plugins in action, try this multi-agent workflow we use to develop Claude Code:
+Lesen Sie unsere Dokumentation für[Erste Schritte](https://docs.claude.com/en/docs/claude-code/plugins-reference),[erstellen Sie eigene Plugins](https://docs.claude.com/en/docs/claude-code/plugins)oder[veröffentlichen Sie einen Marktplatz](https://docs.claude.com/en/docs/claude-code/plugin-marketplaces). Testen Sie diesen Multiagent-Workflow, den wir für die Entwicklung von Claude Code verwenden, um Plugins in Aktion zu sehen:
 
 /plugin marketplace add anthropics/claude-code
 
 ```
-/plugin marketplace add anthropics/claude-code
+
 ```
 
 ```
-/plugin install feature-dev
+
 ```
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
@@ -89,36 +88,36 @@ Check out our documentation to[get started](https://docs.claude.com/en/docs/clau
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-## Related posts
+## Ähnliche Beiträge
 
-Explore more product news and best practices for teams building with Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Secure access to the Claude Platform with Workload Identity Federation
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
+### Observability for developers building connectors
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+### Claude für die Rechtsbranche
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Claude Security is now in public beta
+### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
-## Transform how your organization operates with Claude
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
-Get the developer newsletter
+Entwickler-Newsletter abonnieren
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/blog/claude-code-plugins
+**Source:** https://claude.com/de/blog/claude-code-plugins
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

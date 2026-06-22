@@ -1,226 +1,146 @@
-# Build responsive web layouts
-*October 10, 2025*
+# レスポンシブWebレイアウトを構築
 ---
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-# Build responsive web layouts
+# レスポンシブWebレイアウトを構築
 
-Generate responsive designs that work across all devices, without the trial and error.
+試行錯誤なしに、あらゆるデバイスで動作するレスポンシブデザインを生成します。
 
-- CategoryClaude Code
+- カテゴリコーディング
 
-- ProductClaude appsClaude Code
+- 製品ClaudeのアプリClaude Code
 
-- DateOctober 10, 2025
+- 日付2025-10-10
 
-- Reading time5min
+- 所要時間5分
 
-- ShareCopy linkhttps://claude.com/blog/build-responsive-web-layouts
+- 共有リンクをコピーhttps://claude.com/blog/build-responsive-web-layouts
 
-Responsive layouts often behave unpredictably across viewport sizes. A three-column card grid that displays perfectly on desktop can become illegible on tablets, with text overflowing containers and navigation elements colliding. These layout failures typically surface during late-stage testing or, worse, in production.
+レスポンシブレイアウトは、ビューポートのサイズによって予期せぬ動作をすることがあります。デスクトップでは完璧に表示される3列のカードグリッドがタブレットでは読みにくくなり、テキストがコンテナからはみ出し、ナビゲーション要素が干渉してしまうことがあります。こうしたレイアウトの不具合は、通常はテストの最終段階で、あるいは最悪の場合、本番環境で表面化します。
 
-The challenge isn't just making layouts work across different screen sizes. Predicting how flexbox, grid, and media queries interact across the full spectrum of devices requires experience that takes years to develop. Most developers handle responsive design through iteration: write base styles, add media queries for common breakpoints, test manually across devices, fix what breaks, then repeat. The process works but consumes significant time, and edge cases still slip through.
+課題は、異なる画面サイズでレイアウトを機能させることだけではありません。フレックスボックス、グリッド、メディアクエリがあらゆるデバイスでどのように相互作用するかを予測するには、何年もかけて培う経験が必要です。ほとんどの開発者は反復作業を通じてレスポンシブデザインを扱います。つまり、基本スタイルを作成し、一般的なブレークポイントにメディアクエリを追加し、複数のデバイスで手動でテストを行い、問題箇所を修正し、これを繰り返すのです。このプロセスは機能しますが、かなりの時間がかかり、エッジケースは依然として見落とされることがあります。
 
-## How developers typically build responsive layouts
+## 開発者がレスポンシブレイアウトを構築する一般的な方法
 
-Most responsive design workflows rely on manual media query authoring, extensive device testing, and framework utilities that provide shortcuts but don't eliminate the underlying complexity.
+レスポンシブデザインのワークフローの多くは、手動によるメディアクエリの作成、広範なデバイステスト、そして簡単な方法を提供するものの根本的な複雑さは解消しないフレームワークユーティリティに依存しています。
 
-### Write media queries manually
+### メディアクエリを手動で記述
 
-You typically start with base styles, then add breakpoints at common device widths: 768px for tablets, 1024px for desktop, maybe 1440px for large screens. CSS media queries override properties at each breakpoint to adjust layouts, typography, and spacing.
+通常は基本スタイルから始め、一般的なデバイスの幅（タブレットの場合は768px、デスクトップの場合は1024px、大画面の場合は1440pxなど）にブレークポイントを追加します。CSSメディアクエリは各ブレークポイントでプロパティを上書きし、レイアウト、タイポグラフィ、間隔を調整します。
 
-```
-1.container {
-2  width: 100%;
-3  padding: 1rem;
-4}
-5
-6@media (min-width: 768px) {
-7  .container {
-8    padding: 2rem;
-9  }
-10}
-11
-12@media (min-width: 1024px) {
-13  .container {
-14    max-width: 1200px;
-15    margin: 0 auto;
-16  }
-17}
-```
+この手法により、特定のビューポート幅におけるレイアウト動作を精密に制御できます。ただし、適切なブレークポイントを選択するには、一般的なデバイス分類だけでなく、具体的なコンテンツを理解する必要があります。ナビゲーションメニューの場合、デバイス仕様で推奨されているからではなく、メニュー項目が折り返されるため、920pxにブレークポイントが必要になる場合があります。手動でのメディアクエリは、重複したスタイルや上書きされたスタイルの維持を意味し、大規模なスタイルシートでは追跡が困難になります。
 
-This approach gives you precise control over layout behavior at specific viewport widths. However, choosing the right breakpoints requires understanding your specific content, not just generic device categories. A navigation menu might need a breakpoint at 920px because that's where menu items wrap, not because any device specification suggests it. Manual media queries also mean maintaining duplicate or overridden styles that become difficult to track across large stylesheets.
+### 物理デバイスとシミュレーターでテスト
 
-### Test across physical devices and simulators
+メディアクエリを実装した後、開発者はブラウザの開発ツールを開き、プリセットされたデバイスサイズを切り替えて使用します。Chrome DevToolsは、一般的なデバイスサイズに対応したレスポンシブデザインモードを提供しています。多くのチームでは、実際の端末テスト用に実機のスマートフォンやタブレットを複数台用意し、iOS SafariやAndroid Chrome、様々な画面密度でのレイアウト表示を確認しています。
 
-After implementing media queries, developers open browser dev tools and cycle through preset device sizes. Chrome DevTools offers responsive design mode with common device dimensions. Many teams also maintain collections of actual phones and tablets for real device testing, checking how layouts render across iOS Safari, Android Chrome, and various screen densities.
+ブラウザシミュレーターは有用な概算を提供しますが、実際のデバイスの動作を完全に再現するわけではありません。デスクトップ開発ツールでは適切に見えるタッチターゲットも、実際のスマートフォンでは窮屈に感じられることがよくあります。ノッチ、ダイナミックツールバー、ソフトキーボードによって生じるビューポートの高さの変化は、シミュレーターでは全く検出されないレイアウトの問題を引き起こす可能性があります。Chromeのデバイスエミュレーターでは問題なく表示される固定位置のフッターも、iOS Safariのアドレスバーが拡大すると重要なコンテンツを覆い隠す場合があります。
 
-Browser simulators provide a useful approximation but don't perfectly replicate actual device behavior. Touch targets that seem adequate in desktop dev tools often feel cramped on real phones. Viewport height variations introduced by notches, dynamic toolbars, and soft keyboards can cause layout issues that simulators miss entirely. A fixed-position footer that looks fine in Chrome's device emulator might cover important content when the iOS Safari address bar expands.
+デバイステストは現実世界のレンダリング問題を多く検出しますが、そのプロセスには時間がかかります。すべてのレイアウト変更を6台または8台のデバイスでテストすると、開発サイクルに支障をきたし、ユーザーが実際に使用する数百ものデバイスとブラウザの組み合わせにおけるすべてのエッジケースを検出することはできません。
 
-Device testing catches many real-world rendering issues, but the process is time-consuming. Testing every layout change across six or eight devices adds friction to the development cycle, and it still can't catch every edge case across the hundreds of device and browser combinations users actually have.
+### フレームワーク固有のレスポンシブユーティリティを使用
 
-### Use framework-specific responsive utilities
-
-Modern CSS frameworks like Bootstrap and Tailwind provide responsive class systems that abstract away media query logic. Developers add classes like col-md-6 or lg:flex-row that automatically apply styles at predefined breakpoints.
-
-```
-1<div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-2  <div class="card">...</div>
-3  <div class="card">...</div>
-4  <div class="card">...</div>
-5</div>
-```
+BootstrapやTailwindといった最新のCSSフレームワークは、メディアクエリロジックを抽象化するレスポンシブなクラスシステムを提供しています。開発者は、col-md-6やlg:flex-rowといったクラスを追加することで、定義済みのブレークポイントで自動的にスタイルを適用できます。
 
 ‍
 
-Framework utilities speed up development by providing consistent breakpoint conventions and pre-tested responsive patterns. However, they lock you into predefined breakpoint systems that may not align with specific design needs. A framework's tablet breakpoint might trigger at 768px when content actually needs adjustment at 850px. Customizing these breakpoints usually requires project-wide configuration changes that affect every responsive utility across the codebase.
+フレームワークユーティリティは、一貫したブレークポイント規則と事前テスト済みのレスポンシブパターンを提供することで開発をスピードアップします。しかし、これらのユーティリティは定義済みのブレークポイントシステムに縛られ、特定のデザインニーズに合わない場合があります。フレームワークのタブレットブレークポイントは、実際には850pxで調整が必要なコンテンツに対して、768pxでトリガーされる可能性があります。これらのブレークポイントをカスタマイズするには、通常、プロジェクト全体の構成変更が必要になり、コードベース全体のすべてのレスポンシブユーティリティに影響します。
 
-Frameworks also abstract away the underlying CSS, which can make debugging layout issues more difficult. When a Tailwind layout breaks at a specific viewport width, understanding why requires translating utility classes back to their underlying CSS properties and understanding how those properties interact.
+また、フレームワークは基盤となるCSSを抽象化するため、レイアウトの問題のデバッグが困難になる可能性があります。Tailwindレイアウトが特定のビューポート幅で途切れる場合、その理由を理解するには、ユーティリティクラスを基盤となるCSSプロパティに変換し、それらのプロパティがどのように相互作用するかを理解する必要があります。
 
-### Debug in browser responsive mode
+### ブラウザレスポンシブモードでデバッグ
 
-When layouts break, you open browser dev tools, switch to responsive design mode, and manually drag viewport width to find the exact pixel where things go wrong. They inspect elements, examine computed styles, and trace how parent container constraints affect child elements.
+レイアウトが崩れた場合、ブラウザの開発ツールを開き、レスポンシブデザインモードに切り替えて、ビューポートの幅を手動でドラッグし、問題が発生しているピクセルを正確に特定します。要素を検査し、計算されたスタイルを検証し、親コンテナの制約が子要素にどのように影響するかを追跡します。
 
-Browser dev tools are essential for responsive debugging, but finding the root cause of layout issues requires deep understanding of CSS specificity, the box model, and how flexbox or grid behaves under different constraints. A layout that overflows at 843px might not result from a single CSS rule but from the interplay of parent container widths, child element padding, and font-size calculations that only surface in combination.
+ブラウザ開発ツールはレスポンシブなデバッグに不可欠ですが、レイアウト問題の根本原因を見つけるには、CSSの特殊性、ボックスモデル、そして様々な制約下でのフレックスボックスやグリッドの挙動を深く理解する必要があります。843pxでオーバーフローするレイアウトは、単一のCSSルールではなく、親コンテナの幅、子要素のパディング、そして組み合わせて初めて明らかになるフォントサイズの計算の相互作用によって生じている可能性があります。
 
-This debugging process is iterative and can be tedious. Each fix requires re-testing across multiple viewport widths to ensure it doesn't introduce new issues elsewhere in the responsive range.
+このデバッグプロセスは反復的であり、煩雑になる可能性があります。修正のたびに、レスポンシブ範囲内の他の箇所に新たな問題が生じていないことを確認するため、複数のビューポート幅で再テストが必要です。
 
-## Generate and refine responsive layouts with Claude
+## Claudeでレスポンシブレイアウトを生成し改良
 
-You can integrate AI into your responsive design workflow for immediate layout generation and systematic refactoring. Claude works in two ways depending on your needs:
+AI をレスポンシブデザインワークフローに統合することで、瞬時にレイアウトを生成し、体系的なリファクタリングを行うことができます。Claude はニーズに応じて 2 つの方法で動作します。
 
-- ‍Claude.ai:Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.‍
+- ‍Claude.ai:ブラウザベースのインターフェースで、レイアウト要件を貼り付けるだけで、適切なビューポート設定とメディアクエリを含む、レスポンシブな HTML/CSS が生成されます。どのブラウザからでもアクセスでき、インストールは不要です。レスポンシブパターンの学習やボイラープレートの生成に最適です。‍
 
-- Claude Code:Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
+- Claude Code:コードベース全体の既存のスタイルシートを分析し、ビューポート固有の問題を特定し、修正をファイルに直接実装するコマンドラインツールです。npm のインストールと API アクセスが必要です。大規模なコードベースにおけるレスポンシブレイアウトのリファクタリング向けに構築されています。
 
-### Start with Claude.ai
+### Claude.aiで始めましょう
 
-Before spending hours hand-coding media queries or restructuring layouts, you can validate whether a design pattern adapts well across devices. Claude.ai provides immediate feedback that supports responsive design decisions during development rather than discovering broken layouts during testing or after release.
+メディアクエリを手作業で何時間もコーディングしたり、レイアウトを再構築したりする前に、デザインパターンがデバイス間で適切に適応するかどうかを検証できます。Claude.aiは、テスト中やリリース後にレイアウトの不具合を発見するのではなく、開発中にレスポンシブデザインの判断を支援する即時フィードバックを提供します。
 
-#### Generate responsive foundations quickly
+#### レスポンシブ対応の基盤を素早く生成
 
-The Claude.ai web interface lets you describe layout requirements and receive working code with proper viewport meta tags, mobile-first CSS, and semantic HTML structure. This initial generation provides working examples of responsive patterns before customizing for specific project needs.
+Claude.ai のウェブインターフェースでは、レイアウト要件を記述するだけで、適切なビューポートメタタグ、モバイルファーストの CSS、セマンティック HTML 構造を備えた実用的なコードを受け取ることができます。この初期生成では、プロジェクトのニーズに合わせてカスタマイズする前に、レスポンシブパターンの実用的なサンプルを入手できます。
 
-Common layout generation requests:
+一般的なレイアウト生成リクエスト：
 
-- "Create a three-column card layout that becomes single-column on mobile"
+- 「モバイルでは1列になる3列のカードレイアウトを作成してください」
 
-- "Build a navigation that collapses to hamburger menu under 768px"
+- 「768px未満でハンバーガーメニューに折りたたまれるナビゲーションを構築してください」
 
-- "Generate a dashboard with responsive sidebar that hides on tablets"
+- 「タブレットでは非表示になるレスポンシブサイドバー付きダッシュボードを生成してください」
 
-These requests provide working examples that demonstrate responsive techniques you can adapt to your projects.
+これらのリクエストは、プロジェクトに適用できるレスポンシブ技術を示す実用例を提供します
 
-Example request:"Create a product landing page with fixed header, hero section, three feature cards, and footer. Cards should display in a row on desktop and stack on mobile."
+リクエスト例：固定ヘッダー、ヒーローセクション、3つの機能カード、フッターを含む商品ランディングページを作成してください。カードはデスクトップでは横一列に表示され、モバイルで重ねて表示されるようにしてください」
 
-Claude.ai returns semantic HTML5 with responsive CSS that handles multiple viewport sizes. The generated code includes comments explaining breakpoint choices and layout decisions:
-
-```
-1<head>
-2  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-3  <style>
-4    .header {
-5      position: fixed;
-6      top: 0;
-7      width: 100%;
-8      background: #fff;
-9      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-10      z-index: 100;
-11    }
-12
-13    .feature-grid {
-14      display: grid;
-15      grid-template-columns: 1fr;
-16      gap: 2rem;
-17      padding: 2rem 1rem;
-18    }
-19
-20    /* Tablet and up: 2 columns */
-21    @media (min-width: 768px) {
-22      .feature-grid {
-23        grid-template-columns: repeat(2, 1fr);
-24        padding: 3rem 2rem;
-25      }
-26    }
-27
-28    /* Desktop: 3 columns */
-29    @media (min-width: 1024px) {
-30      .feature-grid {
-31        grid-template-columns: repeat(3, 1fr);
-32        padding: 4rem 2rem;
-33      }
-34    }
-35  </style>
-36</head>
-```
+Claude.aiは、複数のビューポートサイズに対応するレスポンシブCSSを含むセマンティックHTML5を返します。生成されたコードには、ブレークポイントの選択とレイアウトの決定を説明するコメントが含まれています。
 
 ‍
 
-#### Understand responsive design decisions
+#### レスポンシブデザインの意思決定を理解
 
-Beyond code generation, you can ask Claude.ai to explain why specific approaches work for responsive layouts.
+コード生成以外にも、Claude.ai に、レスポンシブレイアウトに適した特定のアプローチの理由を説明してもらうことができます。
 
-Try:"Why use flexbox with flex-wrap instead of CSS Grid for this navigation?"
+例：このナビゲーションに、CSS Gridではなくflexboxとflex-wrapを使うのはなぜですか？」
 
-Claude.ai breaks down trade-offs between different layout methods, explaining browser support considerations, layout flexibility, and when each approach makes sense for specific use cases. This builds understanding of the underlying principles rather than just copying patterns.
+Claude.ai は、異なるレイアウト手法間のトレードオフを分析し、ブラウザのサポート状況、レイアウトの柔軟性、そして各手法が特定のユースケースで有効となるタイミングを解説します。これにより、単にパターンをコピーするのではなく、根底にある原則を理解することができます。
 
-### Scale up with Claude Code for existing codebases
+### Claude Codeで既存のコードベースをスケールアップ
 
-When responsive issues span multiple stylesheets or affect an entire application, Claude Code acts as a systematic refactoring partner. Unlike browser-based tools, Claude Code explores project file structure, identifies viewport-specific problems across multiple files, and proposes fixes that maintain existing architecture.
+レスポンシブに関する問題が複数のスタイルシートにまたがる場合やアプリケーション全体に影響を与える場合、Claude Codeは体系的なリファクタリングのパートナーとして機能します。ブラウザベースのツールとは異なり、Claude Codeはプロジェクトのファイル構造を調査し、複数のファイルにまたがるビューポート固有の問題を特定し、既存のアーキテクチャを維持する修正案を提案します。
 
-Installation:
+インストール：
 
-```
-npm install -g @anthropic-ai/claude-code
-```
+プロジェクトで起動：
 
-Launch in your project:
+### レイアウトを体系的にリファクタリング
 
-```
-claude
-```
+タブレットのビューポートで表示が崩れる製品ダッシュボードを例に考えてみましょう。ナビゲーションがコンテンツと重なり、カードが正しくリフローされず、サイドバーがメインコンテンツを画面外に押し出しています。[Claude Code](https://claude.com/product/claude-code)は監査から修正まで、調査を次のように進めています。‍
 
-### Refactor layouts systematically
+#### 既存のレイアウトを監査
 
-Consider a product dashboard that breaks on tablet viewports. Navigation overlaps content, cards don't reflow properly, and the sidebar pushes main content off-screen. Here's how[Claude Code](https://claude.com/product/claude-code)handles the investigation, from audit to fixing:‍
+既存レイアウトの監査Claude Codeはlayout.cssをスキャンし、小画面でオーバーフローを引き起こす固定幅スタイルとレイアウトパターンを特定します。3つの具体的な問題点を行番号付きで指摘し、改善策を提案します。
 
-#### Audit existing layouts
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9cb7c6723a20361b357_68e9916bd14e952c94b20fc3_9.png)
 
-Claude Code scans layout.css to identify fixed-width styles and layout patterns that cause overflow on smaller screens, finding 3 specific issues with line numbers and recommendations.
+#### 対象を絞った修正を実施
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9916bd14e952c94b20fc3_9.png)
+次に、固定幅をレスポンシブな代替要素（max-width、flex basis、auto-fit を設定した grid-template-columns）に置き換え、ブレークポイント固有を調整するためのメディアクエリを追加することで、CSSを更新します。
 
-#### Implement targeted fixes
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9cb7c6723a20361b35d_68e99333b9e2f7f78d4fcaf4_10.png)
 
-It then updates the CSS by replacing fixed widths with responsive alternatives (max-width, flex basis, grid-template-columns with auto-fit), adding media queries for breakpoint-specific adjustments.
+#### 修正が機能していることを確認
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e99333b9e2f7f78d4fcaf4_10.png)
+次に、コードは更新されたスタイルをビューポートサイズ320pxと512pxでテストし、水平方向のオーバーフローがなく、各ブレークポイントでレイアウトが正しく反応することを確認します。
 
-#### Verify the fixes work
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9cb7c6723a20361b363_68e993488eb39e32bd3735ed_11.png)
 
-The code then tests the updated styles at viewport sizes 320px and 512px to confirm there's no horizontal overflow and the layout responds correctly at each breakpoint.
+#### ビューポート範囲全体でテスト
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e993488eb39e32bd3735ed_11.png)
+最後に、Claude Codeは実際のデバイスサイズ（iPhone SE、iPhone 12、iPad、iPad Pro、デスクトップ）全体でレスポンシブ動作を検証し、将来の不具合を防ぐ包括的なPlaywrightテストスイートを生成します。
 
-#### Test across viewport ranges
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9cb7c6723a20361b360_68e9948ce3a73be65bc92b00_12.png)
 
-Finally, Claude Code generates a comprehensive Playwright test suite that validates responsive behavior across real device sizes (iPhone SE, iPhone 12, iPad, iPad Pro, Desktop) to prevent future regressions.
+## ‍始めましょう
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9948ce3a73be65bc92b00_12.png)
+クイックプロトタイピング：[Claude.ai](https://claude.ai)にアクセスして、セットアップ不要でレスポンシブレイアウトを生成し、デザインパターンを学びましょう。レイアウト要件（例：モバイルでは縦に重ねられる3列カードグリッド）を記述するだけで、適切なビューポート設定とメディアクエリを含む完全なHTMLとCSSを受け取れます。レスポンシブ技術を理解し、プロジェクトに適用できるベースコードを作成するのに最適です。
 
-## ‍Get started
+コードベースのリファクタリング：レスポンシブに関する問題が複数のスタイルシートにまたがる場合やアプリケーション全体に影響を与える場合、[Claude Code](https://claude.com/product/claude-code)をインストールして、プロジェクト全体のレイアウトの問題を体系的に分析して修正しましょう。
 
-Quick prototyping:Visit[Claude.ai](https://claude.ai)to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
+インストール後、レイアウトの問題点を説明すると、Claude Codeがスタイルシートをスキャンし、ビューポート固有の問題を特定し、対象ファイルに直接修正を適用します。システム的なリファクタリング作業を処理するため、開発者は機能構築に集中できます。
 
-Codebase refactoring:When responsive issues span multiple stylesheets or affect your entire application, install[Claude Code](https://claude.com/product/claude-code)to systematically analyze and fix layout problems across your project:
-
-```
-npm install -g @anthropic-ai/claude-code
-```
-
-Once installed, describe the layout issues you're facing and Claude Code scans your stylesheets, identifies viewport-specific problems, and implements targeted fixes directly in your files. It handles the systematic refactoring work while you focus on building features.
-
-Stop guessing at breakpoints and testing layouts manually across dozens of devices. Whether you're learning responsive patterns or refactoring an existing codebase, Claude helps you build layouts that work predictably across every viewport.
+ブレークポイントの推測や、数十種類のデバイスでの手動レイアウトテストはもうやめましょう。レスポンシブパターンを学ぶ場合でも、既存のコードベースをリファクタリングする場合でも、Claudeはあらゆるビューポートで予測可能な動作をするレイアウト構築を支援します。
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -228,52 +148,54 @@ Stop guessing at breakpoints and testing layouts manually across dozens of devic
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+よくある質問
 
-### Should I use CSS Grid or Flexbox for responsive card layouts?
+### レスポンシブなカードレイアウトに CSS Grid または Flexbox を使用すべきですか？
 
-CSS Grid works better for two-dimensional layouts where you need precise control over both rows and columns. Use Grid when cards need to align in both directions or when you want items to automatically fill available space with auto-fit and minmax(). Flexbox excels at one-dimensional layouts where cards should wrap naturally based on available width. For most card grids, Grid withgrid-template-columns: repeat(auto-fit, minmax(300px, 1fr))provides the most flexible responsive behavior without media queries. Claude can analyze your specific layout requirements and recommend which approach fits your design constraints.
+CSS グリッドは、行と列の両方を正確にコントロールする必要のある 2 次元レイアウトにより適しています。カードを縦と横の両方向に整列させる必要がある場合や、auto-fit と minmax() を使用して利用できるスペースを自動的にアイテムで埋めたい場合に、グリッドを使用します。Flexbox は、利用できる幅を基にカードが自然に折り返す 1 次元のレイアウトに優れています。ほとんどのカードグリッドでは、grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))を使用したグリッドが、メディアクエリを使用しなくとも、最も柔軟なレスポンス動作を提供してくれます。Claude は、特定のレイアウト要件を分析し、デザインの制約に見合ったアプローチを提案できます。
 
-### What causes layouts to break at specific viewport widths?
+### 特定のビューポート幅でレイアウトが切れる原因は何ですか？
 
-Layout breakpoints occur when fixed-width elements, inflexible grid configurations, or rigid container constraints can't adapt to narrower screens. Common culprits include containers with fixed pixel widths instead of max-width values, CSS Grid configurations using repeat() with fixed pixel columns, and absolute positioning that assumes specific viewport dimensions.[Claude Code](https://claude.com/product/claude-code)can analyze your stylesheets to identify these patterns and suggest fluid alternatives like max-width with percentage-based constraints or auto-fit Grid columns with minmax() functions.
+レイアウトのブレークポイントは、固定幅の要素や柔軟性の低いグリッド構成、柔軟性に欠けるコンテナ制約が幅の狭い画面に対応できない場合に生じます。一般的な原因には、最大幅の値ではなくピクセル幅を固定したコンテナ、固定ピクセル列に repeat() を使用した CSS グリッドの設定、特定のビューポートの大きさを想定した固定配置などがあります。[Claude Code](https://claude.com/product/claude-code)はスタイルシートを分析してこれらのパターンを特定し、パーセントベースの制約、または minmax() 関数を備えた auto-fit グリッド列などの柔軟な代替案を提案できます。
 
-### What's the fastest way to fix responsive navigation that breaks on tablets?
+### どうすればタブレットで途切れてしまうレスポンシブナビゲーションを最も早く修正する方法できますか？
 
-Start by identifying the exact viewport width where navigation breaks using browser responsive mode. Common issues include navigation items wrapping unexpectedly, insufficient space for menu text, or dropdown menus extending beyond viewport boundaries. Ask[Claude](https://claude.com/product/claude-code)to analyze your navigation structure and it can suggest approaches like converting to hamburger menu with breakpoint, adjusting padding and font sizes to prevent wrapping, or restructuring navigation hierarchy to reduce horizontal space requirements. The solution depends on whether your navigation has too many items, items that are too wide, or container constraints that don't flex properly.
+まず、ブラウザのレスポンシブモードを使用して、ナビゲーションが途切れる正確なビューポート幅を特定します。一般的な問題として、ナビゲーション項目が予想外のところで折り返される、メニューテキスト用スペースが不十分である、ドロップダウンメニューがビューポートの境界を越えてしまうなどがあります。[Claude](https://claude.com/product/claude-code)に指示してナビゲーション構造を分析させると、ブレークポイントを使用したハンバーガーメニューへの変換や、パディングやフォントサイズを調整して折り返しを防止、ナビゲーション階層を再構築して横幅のスペース要件を減らすなどのアプローチが提案できます。解決策は、ナビゲーションに項目が多すぎるのか、項目の幅が広すぎるのか、コンテナの制約が適切に調整されていないのかにより異なります。
 
-### How can I improve responsive designs?
+### どうすればレスポンシブデザインを改善できますか？
 
-Start by auditing your breakpoints to ensure they align with your content needs rather than generic device widths. Many responsive layouts use standard breakpoints (768px, 1024px) but actually need adjustments at different widths where specific content wraps or overflows. For existing codebases with multiple stylesheets, Claude Code can systematically audit your responsive patterns and identify improvements. Ask it to "find rigid layouts and suggest flexible alternatives" and it examines grid configurations, fixed-width containers, and inflexible flexbox patterns across your project.
+まず、ブレークポイントを監査し、汎用的なデバイス幅ではなく、コンテンツのニーズに合っていることを確認します。レスポンシブレイアウトの多くは標準的なブレークポイント (768px、1024px) を使用していますが、実際には特定のコンテンツが折り返したりオーバーフローしたりする場所では、さまざまな幅での調整が必要です。複数のスタイルシートを含む既存のコードベースに対して、Claude Code はレスポンスパターンを体系的に監査し、改善点を特定できます。「柔軟性に欠けるレイアウトを見つけ、柔軟な代替案を提案してください」と指示すると、プロジェクト全体のグリッド構成、固定幅のコンテナ、柔軟性の低いフレックスボックスのパターンを検証します。
 
-## Related posts
+## 関連する投稿
 
-Explore more product news and best practices for teams building with Claude.
+Claude を活用して構築を行うチーム向けの、その他の製品
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
-
-### Running an AI-native engineering org
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
+ニュースとベストプラクティスをご覧ください。
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Best practices for using Claude Opus 4.7 with Claude Code
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
-## Transform how your organization operates with Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
-Get the developer newsletter
+### The founder's playbook: Building an AI-native startup
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+### Auto mode for Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+### Product management on the AI exponential
+
+## Claude を活用して組織運営の方法を変革
+
+開発者向けニュースレターを入手
+
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/build-responsive-web-layouts
+**Source:** https://claude.com/ja/blog/build-responsive-web-layouts
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

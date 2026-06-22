@@ -1,5 +1,5 @@
 # Security Topic Index
-*Last updated: 2026-06-22 14:24*
+*Last updated: 2026-06-22 16:37*
 
 Documents related to Security across all sources (9 documents)
 ---
@@ -11,7 +11,7 @@ Documents related to Security across all sources (9 documents)
 - [Beyond permission prompts: making Claude Code more secure and autonomous](/engineering-blog/claude-code-sandboxing.md) - Learn how Claude Code's new sandboxing feature protects developers with files...
 
 ## Claude.com Blog Posts (6)
-- [Automate security reviews with Claude Code](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
+- [Claude Codeでセキュリティレビューを自動化](/claude-blog/automate-security-reviews-with-claude-code.md) - ![](https://cdn
 - [Claude Security is now in public beta](/claude-blog/claude-security-public-beta.md) - ![](https://cdn
 - [Claude now works with more security and compliance tools](/claude-blog/compliance-api-security-partners.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn

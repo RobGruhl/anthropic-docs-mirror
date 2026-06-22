@@ -1,481 +1,436 @@
-# Best practices for prompt engineering
-*November 10, 2025*
+# Best Practices für Prompt-Engineering
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
 
-# Best practices for prompt engineering
+# Best Practices für Prompt-Engineering
 
-Get better AI results with prompt engineering techniques from the team behind Claude.
+Mit den Prompt-Engineering-Techniken des Teams von Claude erzielen Sie noch bessere KI-Ergebnisse.
 
-- CategoryAgents
+- KategorieAgenten
 
-- ProductClaude apps
+- ProduktClaude Apps
 
-- DateNovember 10, 2025
+- Datum10.11.2025
 
-- Reading time5min
+- Lesezeit5Min
 
-- ShareCopy linkhttps://claude.com/blog/best-practices-for-prompt-engineering
+- TeilenLink kopierenhttps://claude.com/blog/best-practices-for-prompt-engineering
 
-[Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)has emerged as an increasingly important part of working with LLMs, with prompt engineering as its essential building block.
+[Kontext-Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)hat sich als immer wichtigerer Bestandteil von LLMs herausgestellt, wobei das Prompt-Engineering ein wesentlicher Baustein ist.
 
-[Prompt engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)is the craft of structuring instructions to get better outputs from AI models. It's how you phrase queries, specify style, provide context, and guide the model's behavior to achieve your goals.
+[Prompt-Engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)ist die Strukturierung von Anweisungen, um bessere Ergebnisse aus den KI-Modellen zu erhalten. Es beschäftigt sich damit, wie man Abfragen formuliert, einen Stil spezifiziert, den Kontext bereitstellt und das Verhalten des Modells steuert, um seine Ziele zu erreichen.
 
-The difference between a vague instruction and a well-crafted prompt can mean the gap between generic outputs and exactly what you need. A poorly structured prompt might require multiple back-and-forth exchanges to clarify intent, while a well-engineered prompt gets you there in one shot.
+Der Unterschied zwischen einer vagen Anweisung und einem gut erstellten Prompt kann darüber bestimmen, ob Sie generische Ergebnisse oder genau das erhalten, was Sie brauchen. Ein schlecht strukturierter Prompt erfordert möglicherweise mehrere Anläufe, um die Absicht zu klären, während ein gut formulierter Prompt beim ersten Mal das gewünschte Ergebnis erzielt.
 
-To help you get started, we've assembled some of our team's best practices, including practical methods designed to improve your results right away. We'll start with simple habits you can use today, then scale up to advanced methods for complex projects.
+Um Ihnen den Start zu erleichtern, haben wir einige Best Practices unseres Teams zusammengestellt, einschließlich praktischer Methoden, die Ihre Ergebnisse sofort verbessern können. Wir beginnen mit einfachen Gewohnheiten, die Sie direkt anwenden und später auf erweiterte Methoden für komplexe Projekte ausweiten können.
 
-## How to use prompt engineering
+## So wenden Sie Prompt-Engineering an
 
-At its most basic level, prompt engineering is just modifying the query you pass your LLM. Often it's simply adding information to the query before you make your actual request—but knowingwhichinformation is therightinformation to share is the secret to engineering a great and effective prompt.
+Prompt-Engineering modifiziert quasi die Abfrage an Ihr LLM. Oft geht es darum, Informationen zur Abfrage hinzuzufügen, bevor Sie Ihre eigentliche Abfrage stellen. Aber zu wissen,welcheInformationen dierichtigensind, ist das Geheimnis für die Entwicklung eines großartigen und effektiven Prompts.
 
-### Core techniques
+### Kerntechniken
 
-These prompt engineering techniques form the foundation of effective AI interactions. Use them consistently to see immediate improvements in response quality.
+Diese Prompt-Engineering-Techniken bilden die Grundlage für effektive KI-Interaktionen. Verwenden Sie sie konsequent, um sofortige Verbesserungen in der Antwortqualität zu erzielen.
 
-#### Be explicit and clear
+#### Drücken Sie sich klar und deutlich aus
 
-Modern AI models respond exceptionally well to clear, explicit instructions. Don't assume the model will infer what you want—state it directly. Use simple language that states exactly what you want without ambiguity.
+Moderne KI-Modelle reagieren außergewöhnlich gut auf klare, explizite Anweisungen. Gehen Sie nicht davon aus, dass das Modell sich herleitet, was Sie wollen, sondern geben Sie es konkret an. Verwenden Sie einfache Sprache, die genau sagt, was Sie wollen, ohne Mehrdeutigkeit.
 
-The key principle: Tell the model exactly what you want to see. If you want comprehensive output, ask for it. If you want specific features, list them. Modern models like Claude benefit especially from explicit direction.
+Das Schlüsselprinzip: Sagen Sie dem Modell genau, was Sie haben möchten. Wenn Sie einen umfassenden Bericht wünschen, fragen Sie danach. Wenn Sie bestimmte Funktionen benötigen, listen Sie diese auf. Moderne Modelle wie Claude profitieren insbesondere von expliziten Anweisungen.
 
-Example: Creating an analytics dashboard
+Beispiel: Erstellung eines Analyse-Dashboards
 
-Vague: "Create an analytics dashboard"
+Vage: „Erstelle eine Analyse-Dashboard“
 
-Explicit: "Create an analytics dashboard. Include as many relevant features and interactions as possible. Go beyond the basics to create a fully-featured implementation."
+Explizit: „Erstellen ein Analyse-Dashboard. Fügen Sie so viele relevante Funktionen und Interaktionen wie möglich hinzu. Gehe über die Grundlagen hinaus, um eine Implementierung mit allen Funktionen zu erstellen."
 
-The second version explicitly requests comprehensive features and signals that you want the model to go above and beyond the minimum.
+Die zweite Version fordert explizit umfassende Funktionen und signalisiert, dass das Modell über das Minimum hinausgeht.
 
-Best practices:
+Best Practices:
 
-- Lead with direct action verbs: "Write," "Analyze," "Generate," "Create"
+- Führe Aktionsverben ein: „Schreiben“, „Analysieren“, „Generieren“, „Erstellen“
 
-- Skip preambles and get straight to the request
+- Präambel überspringen und direkt zur Anfrage kommen
 
-- State what you want the output to include, not just what to work on
+- Geben Sie an, was die Ergebnisse enthalten sollen, nicht nur woran gearbeitet werden soll
 
-- Be specific about quality and depth expectations
+- Geben Sie genaue Angaben zu Qualität und Tiefe an
 
-#### Provide context and motivation
+#### Kontext und Motivation liefern
 
-Explainingwhysomething matters helps AI models better understand your goals and deliver more targeted responses. This is particularly effective with newer models that can reason about your underlying objectives.
+Zu erklären,warumetwas wichtig ist, hilft KI-Modellen, Ihre Ziele besser zu verstehen und gezieltere Antworten zu liefern. Dies ist besonders effektiv bei neueren Modellen, die über die Ziele nachdenken können.
 
-Example: Formatting preferences
+Beispiel: Formatierungseinstellungen
 
-Less effective: "NEVER use bullet points"
+Weniger effektiv: „NIEMALS Bulletins verwenden“
 
-More effective: "I prefer responses in natural paragraph form rather than bullet points because I find flowing prose easier to read and more conversational. Bullet points feel too formal and list-like for my casual learning style."
+Effektiver: „Ich bevorzuge Antworten in natürlicher Absätze, da ich Prosa leichter lesbar und konversationsfreundlicher finde. Bulletpoints wirken sich zu formell und listenähnlich für meinen legeren Lernstil an.“
 
-The second version helps the model understand the reasoning behind the rule, which allows it to make better decisions about related formatting choices.
+Die zweite Version hilft dem Modell, die Gründe für die Regel zu verstehen, sodass bessere Entscheidungen über die Formatierung getroffen werden können.
 
-When to provide context:
+Um den Kontext zu erläutern:
 
-- Explaining the purpose or audience for the output
+- Zweck oder Zielgruppe des Produkts erklären
 
-- Clarifying why certain constraints exist
+- Klärung, warum bestimmte Einschränkungen bestehen
 
-- Describing how the output will be used
+- Beschreibung, wie die Ergebnisse verwendet werden
 
-- Indicating what problem you're trying to solve
+- Angabe des Problems, das Sie lösen möchten
 
-#### Be specific
+#### Spezifisch sein
 
-Specificity in prompt engineering means structuring your instructions with explicit guidelines and requirements. The more specific you are about what you want, the better the results.
+Prompt-Engineering erfordert die Strukturierung Ihrer Anweisungen mit expliziten Richtlinien und Anforderungen. Je genauer man seine Wünsche formuliert, desto besser sind die Ergebnisse.
 
-Example: Meal planning
+Beispiel: Essensplanung
 
-Vague: "Create a meal plan for a Mediterranean diet"
+Vague: „Einen Speiseplan für eine mediterrane Ernährung erstellen“
 
-Specific: "Design a Mediterranean diet meal plan for pre-diabetic management. 1,800 calories daily, emphasis on low glycemic foods. List breakfast, lunch, dinner, and one snack with complete nutritional breakdowns."
+Spezifisch: „Entwickeln Sie einen mediterranen Ernährungsplan für die Behandlung von Prädiabetikern. 1.800 Kalorien täglich, Schwerpunkt auf Lebensmitteln mit niedrigem glykämischen Wert. Ich nenne Frühstück, Mittagessen, Abendessen und einen Snack mit vollständigen Nährwertangaben.“
 
-What makes a prompt specific enough?
+Was macht einen Prompt spezifisch genug?
 
-Include:
+Anforderungen:
 
-- Clear constraints (word count, format, timeline)
+- Klare Einschränkungen (Wortzahl, Format, Zeitplan)
 
-- Relevant context (who's the audience, what's the goal)
+- Relevanter Kontext (wer ist die Zielgruppe, was ist das Ziel)
 
-- Desired output structure (table, list, paragraph)
+- Gewünschte Ausgabestruktur (Tabelle, Liste, Absatz)
 
-- Any requirements or restrictions (dietary needs, budget limits, technical constraints)
+- Anforderungen oder Einschränkungen (diätetische Anforderungen, Budgetlimits, technische Einschränkungen)
 
-#### Use examples
+#### Beispiele verwenden
 
-Examples aren't always necessary, but they shine when explaining concepts or demonstrating specific formats. Also known as one-shot or few-shot prompting, examples show rather than tell, clarifying subtle requirements that are difficult to express through description alone.
+Beispiele sind nicht immer notwendig, aber sie eignen sich hervorragend, um Konzepte zu erklären oder bestimmte Formate zu demonstrieren. Beispiele, die auch als One-Shot-Prompt bezeichnet werden, zeigen statt zu erzählen, und verdeutlichen subtile Anforderungen, die schwer allein in Beschreibung auszudrücken sind.
 
-Important note for modern models: Claude 4.x and similar advanced models pay very close attention to details in examples. Ensure your examples align with the behaviors you want to encourage and minimize any patterns you want to avoid.
+Wichtiger Hinweis für moderne Modelle: Claude 4.x und ähnliche erweiterte Modelle achten sehr genau auf Details in Beispielen. Stellen Sie sicher, dass Ihre Beispiele an den Verhaltensweisen ausgerichtet sind, die Sie fördern möchten, und minimieren Sie alle Muster, die Sie vermeiden möchten.
 
-Example: Article summarization
+Beispiel: Artikelzusammenfassung
 
-Without example: "Summarize this article"
+Ohne Beispiel: „Fasse diesen Artikel zusammen“
 
 ```
-Here's an example of the summary style I want:
-
-Article: [link to article about AI regulation]
-Summary: EU passes comprehensive AI Act targeting high-risk systems. Key provisions include transparency requirements and human oversight mandates. Takes effect 2026.
-
-Now summarize this article in the same style: [link to your new article]
-```
-
-When to use examples:
-
-- The desired format is easier to show than describe
-
-- You need a specific tone or style
-
-- The task involves subtle patterns or conventions
-
-- Simple instructions haven't produced consistent results
-
-Pro tip: Start with one example (one-shot). Only add more examples (few-shot) if the output still doesn't match your needs.
-
-#### Give permission to Claude to express uncertainty
-
-Give the AI explicit permission to express uncertainty rather than guessing. This reduces hallucinations and increases reliability.
-
-Example: "Analyze this financial data and identify trends. If the data is insufficient to draw conclusions, say so rather than speculating."
-
-This simple addition makes responses more trustworthy by allowing the model to acknowledge limitations.
-
-[Try](https://claude.ai/)these in Claude.
-
-## Advanced prompt engineering techniques
-
-These core habits will get you pretty far, but you may still encounter situations that require more sophisticated approaches. Advanced prompt engineering techniques shine when you're building agentic solutions, working with complex data structures, or need to break down multi-stage problems.
-
-### Prefill the AI's response
-
-Prefilling lets you start the AI's response for it, guiding format, tone, or structure. This technique is particularly powerful for enforcing output formats or skipping preambles.
-
-When to use prefilling:
-
-- You need the AI to output JSON, XML, or other structured formats
-
-- You want to skip conversational preambles and get straight to content
-
-- You need to maintain a specific voice or character
-
-- You want to control how the AI begins its response
-
-Example: Enforcing JSON output
-
-Without prefill, Claude might say: "Here's the JSON you requested: {...}"
-
-With prefill (API usage):
 
 ```
-messages=[
-    {"role": "user", "content": "Extract the name and price from this product description into JSON."},
-    {"role": "assistant", "content": "{"}
-]
-```
 
-The AI will continue from the opening brace, outputting only valid JSON.
+Beispiele für diese Anwendung:
 
-Note: In chat interfaces, you can approximate this by being very explicit: "Output only valid JSON with no preamble. Begin your response with an opening brace."
+- Das gewünschte Format ist einfacher darzustellen als zu beschreiben
 
-### Chain of thought prompting
+- Sie benötigen einen bestimmten Ton oder Stil
 
-Chain of thought (CoT) prompting involves requesting step-by-step reasoning before answering. This technique helps with complex analytical tasks that benefit from structured thinking.
+- Die Aufgabe beinhaltet subtile Muster oder Konventionen
 
-Modern approach: Claude offers an[extended thinking](https://www.anthropic.com/news/visible-extended-thinking)feature that automates structured reasoning. When available, [extended thinking](https://www.anthropic.com/news/visible-extended-thinking) is generally preferable to manual chain of thought prompting. However, understanding manual CoT remains valuable for situations where [extended thinking](https://www.anthropic.com/news/visible-extended-thinking) isn't available or when you need transparent reasoning you can review.
+- Einfache Anweisungen führten nicht zu konsistenten Ergebnissen
 
-When to use chain of thought:
+Pro-Tipp: Beginnen Sie mit einem Beispiel (einmalig). Füge nur dann weitere Beispiele hinzu, wenn das Ergebnis immer noch nicht deinen Anforderungen entspricht.
 
-- Extended thinking isn't available (i.e. the freeClaude.aiplan)
+#### Claude die Erlaubnis geben, Unsicherheit auszudrücken
 
-- You need transparent reasoning that you can review
+Geben Sie der KI die ausdrückliche Erlaubnis, Unsicherheit auszudrücken, anstatt zu raten. Dies reduziert Halluzinationen und erhöht die Zuverlässigkeit.
 
-- The task requires multiple analytical steps
+Beispiel: „Analysieren Sie diese Finanzdaten und identifizieren Sie Trends. Wenn die Daten nicht ausreichen, um Schlussfolgerungen zu ziehen, sollte man dies sagen, anstatt zu spekulieren.“
 
-- You want to ensure the AI considers specific factors
+Diese einfache Ergänzung macht die Antworten vertrauenswürdiger, da das Modell die Einschränkungen berücksichtigen kann.
 
-There are three common implementations of chain of thought:
+[Versuchen](https://claude.ai/)Sie es in Claude.
 
-Basic chain of thought
+## Erweiterte Prompt-Engineering-Techniken
 
-Simply add "Think step-by-step" to your instructions.
+Diese Kerngewohnheiten bringen Sie ziemlich weit, aber Sie können immer noch Situationen finden, die anspruchsvollere Ansätze erfordern. Fortschrittliche Prompt-Engineering-Techniken eignen sich hervorragend, wenn Sie agentische Lösungen entwickeln, mit komplexen Datenstrukturen arbeiten oder mehrstufige Probleme lösen müssen.
 
-```
-Draft personalized emails to donors asking for contributions to this year's Care for Kids program.
+### Antwort der KI im Voraus ausfüllen
 
-Program information:
-<program>
-{{PROGRAM_DETAILS}}
-</program>
+Im Vorfeld können Sie die Antwort der KI erstellen, wobei Sie Format, Ton oder Struktur festlegen. Diese Technik ist besonders leistungsfähig, um Ausgabeformate durchzusetzen oder Präambel zu überspringen.
 
-Donor information:
-<donor>
-{{DONOR_DETAILS}}
-</donor>
+Für die Vorauszahlung:
 
-Think step-by-step before you write the email.
-```
+- Sie benötigen die KI, um JSON, XML oder andere strukturierte Formate auszugeben
 
-Guided chain of thought
+- Sie möchten die Präambel überspringen und direkt zum Inhalt kommen
 
-Structure your prompt to provide specific reasoning stages.
+- Sie müssen eine bestimmte Stimme oder Figur beibehalten
+
+- Sie möchten steuern, wie die KI mit der Reaktion beginnt
+
+Beispiel: Durchsetzung der JSON-Ausgabe
+
+Claude könnte ohne Vorankündigung sagen: „Hier ist der angeforderte JSON: {...}“
+
+Mit Vorabfüllen (API-Nutzung):
 
 ```
-Think before you write the email. First, think through what messaging might appeal to this donor given their donation history. Then, consider which aspects of the Care for Kids program would resonate with them. Finally, write the personalized donor email using your analysis.
-```
-
-Structured chain of thought
-
-Use tags to separate reasoning from the final answer.
 
 ```
-Think before you write the email in <thinking> tags. First, analyze what messaging would appeal to this donor. Then, identify relevant program aspects. Finally, write the personalized donor email in <email> tags, using your analysis.
-```
 
-Note: Even when extended thinking is available, explicit CoT prompting can still be beneficial for complex tasks. The two approaches are complementary, not mutually exclusive.
+Die KI wird aus dem ersten Rang bestehen und nur gültiges JSON liefern.
 
-### Control the output format
+Hinweis: In Chat-Oberflächen kann dies annähernd angegeben werden, indem es sehr explizit formuliert: „Ausgabe nur als JSON ohne Präambel. Beginnen Sie Ihre Antwort mit einem ersten Satz.“
 
-For modern AI models, there are several effective ways to control response formatting:
+### Denkkette
 
-1. Tell the AI what TO do instead of what NOT to do
+Bei der Gedankenkette (Chain of Thought, CoT) wird vor der Beantwortung eine Schritt-für-Schritt-Argumentation abgefragt. Diese Technik hilft bei komplexen analytischen Aufgaben, die vom strukturierten Denken profitieren.
 
-Instead of: "Do not use markdown in your response" Try: "Your response should be composed of smoothly flowing prose paragraphs"
+Moderner Ansatz: Claude bietet eine[erweiterte Denkfunktion](https://www.anthropic.com/news/visible-extended-thinking), die strukturiertes Denken automatisiert. Wenn es möglich ist, ist erweitertes Denken in der Regel der manuellen Denkkette vorzuziehen. Das Verständnis des manuellen CoT bleibt jedoch nützlich, wenn kein erweitertes Denken verfügbar ist oder wenn Sie transparente Argumente benötigen, die Sie überprüfen können.
 
-2. Match your prompt style to the desired output
+Wenn wir es in Gedanken verwenden:
 
-The formatting style used in your prompt may influence the AI's response style. If you want minimal markdown, reduce markdown in your prompt.
+- Erweitertes Denken ist nicht verfügbar (z. B. der kostenloseClaude.ai-Plan)
 
-3. Be explicit about formatting preferences
+- Sie benötigen transparente Argumente, die Sie überprüfen können
 
-For detailed control over formatting:
+- Die Aufgabe erfordert mehrere Analyseschritte
 
-```
-When writing reports or analyses, write in clear, flowing prose using complete paragraphs. Use standard paragraph breaks for organization. Reserve markdown primarily for inline code, code blocks, and simple headings.
+- Sie möchten sicherstellen, dass die KI bestimmte Faktoren berücksichtigt
 
-DO NOT use ordered lists or unordered lists unless you're presenting truly discrete items where a list format is the best option, or the user explicitly requests a list.
+Es gibt drei gängige Implementierungen der Gedankenkette:
 
-Instead of listing items with bullets, incorporate them naturally into sentences. Your goal is readable, flowing text that guides the reader naturally through ideas.
-```
+Grundlegende Denkkette
 
-### Prompt chaining
-
-Unlike the previous techniques, prompt chaining cannot be implemented in a single prompt. Chaining breaks down complex tasks into smaller sequential steps with separate prompts. Each prompt handles one stage, and the output feeds into the next instruction.
-
-This approach trades latency for higher accuracy by making each individual task easier. Typically this technique would be implemented using workflows or programmatically, but you could manually provide the prompts after receiving responses.
-
-Example: Research summary
-
-- First prompt: "Summarize this medical paper covering methodology, findings, and clinical implications."
-
-- Second prompt: "Review the summary above for accuracy, clarity, and completeness. Provide graded feedback."
-
-- Third prompt: "Improve the summary based on this feedback: [feedback from step 2]"
-
-Each stage adds refinement through focused instruction.
-
-When to use prompt chaining:
-
-- You have a complex request that needs breaking down into steps
-
-- You need iterative refinement
-
-- You're doing multi-stage analysis
-
-- Intermediate validation adds value
-
-- A single prompt produces inconsistent results
-
-Trade-offs: Chaining increases latency (multiple API calls) but often dramatically improves accuracy and reliability for complex tasks.
-
-## Techniques you might have heard about
-
-Some prompt engineering techniques that were popular with earlier AI models are less necessary with models like Claude. However, you may still encounter them in older documentation or find them useful in specific situations.
-
-### XML tags for structure
-
-XML tags were once a recommended way to add structure and clarity to prompts, especially when incorporating large amounts of data. While modern models are better at understanding structure without XML tags, they can still be useful in specific situations.
-
-Example:
+Fügen Sie Ihren Anweisungen einfach „Schritt für Schritt denken“ hinzu.
 
 ```
-<athlete_information>
-- Height: 6'2"
-- Weight: 180 lbs
-- Goal: Build muscle
-- Dietary restrictions: Vegetarian
-</athlete_information>
-
-Generate a meal plan based on the athlete information above.
-```
-
-When XML tags might still be helpful:
-
-- You're working with extremely complex prompts mixing multiple types of content
-
-- You need to be absolutely certain about content boundaries
-
-- You're working with older model versions
-
-Modern alternative: For most use cases, clear headings, whitespace, and explicit language ("Using the athlete information below...") work just as well with less overhead.
-
-### Role prompting
-
-Role prompting defines expert personas and perspectives in how you phrase your query. While this can be effective, modern models are sophisticated enough that heavy-handed role prompting is often unnecessary.
-
-Example: "You are a financial advisor. Analyze this investment portfolio..."
-
-Important caveat: Don't over-constrain the role. "You are a helpful assistant" is often better than "You are a world-renowned expert who only speaks in technical jargon and never makes mistakes." Overly specific roles can limit the AI's helpfulness.
-
-When role prompting might help:
-
-- You need consistent tone across many outputs
-
-- You're building an application that requires a specific persona
-
-- You want domain expertise framing for complex topics
-
-Modern alternative: Often, being explicit about what perspective you want is more effective: "Analyze this investment portfolio, focusing on risk tolerance and long-term growth potential" rather than assigning a role.
-
-[Try](https://preview.claude.ai/new)in Claude.
-
-## Putting it all together
-
-You've now seen individual techniques in isolation, but their real power emerges when you combine them strategically. The art of prompt engineering isn't using every technique available—it's selecting the right combination for your specific need.
-
-Example combining multiple techniques:
 
 ```
-xtract key financial metrics from this quarterly report and present them in JSON format.
 
-I need this data for automated processing, so it's critical that your response contains ONLY valid JSON with no preamble or explanation.
+Gedankengänge
 
-Use this structure:
-{
-  "revenue": "value with units",
-  "profit_margin": "percentage",
-  "growth_rate": "percentage"
-}
+Strukturieren Sie Ihren Prompt so, dass er bestimmte Reasoning-Phasen bereitstellt.
 
-If any metric is not clearly stated in the report, use null rather than guessing.
-
-Begin your response with an opening brace: {
 ```
 
-This prompt combines:
+```
 
-- Explicit instructions (exactly what to extract)
+Strukturierte Denkkette
 
-- Context (why format matters)
+Verwenden Sie Tags, um die Gründe von der endgültigen Antwort zu trennen.
 
-- Example structure (showing the format)
+```
 
-- Permission to express uncertainty (use null if unsure)
+```
 
-- Format control (begin with opening brace)
+Hinweis: Selbst wenn erweitertes Denken verfügbar ist, kann ein explizites CoT-Prompt für komplexe Aufgaben immer noch von Vorteil sein. Die beiden Ansätze ergänzen sich, schließen sich nicht aus.
 
-## Choosing the right techniques
+### Steuerung des Ausgabeformats
 
-Not every prompt needs every technique. Here's a decision framework:
+Für moderne KI-Modelle gibt es mehrere effektive Methoden, die Antwortformatierung zu kontrollieren:
 
-Start here:
+1. Sagen Sie der KI, was SIE NICHT machen soll
 
-- Is your request clear and explicit? If no, work on clarity first
+Anstatt: „Verwenden Sie keinen Markdown in Ihrer Antwort“ Versuchen Sie: „Ihre Antwort sollte aus Prosabsätzen bestehen, die reibungslos fließen“
 
-- Is the task simple? Use core techniques only (be specific, be clear, provide context)
+2. Stimmen Sie den Prompt-Stil an die gewünschte Ausgabe ab
 
-- Does the task require specific formatting? Use examples or prefilling
+Der Formatierungsstil, der in Ihrem Prompt verwendet wird, kann den Antwortstil der KI beeinflussen. Wenn Sie den Markdown minimieren möchten, reduzieren Sie den Markdown im Prompt
 
-- Is the task complex? Consider breaking it down (chaining)
+3. Geben Sie die Formatierungspräferenzen an
 
-- Does it need reasoning? Use extended thinking (if available) or chain of thought
+Zur detaillierten Kontrolle der Formatierung:
 
-‍Technique selection guide:
+```
 
-## Troubleshooting common prompt issues
+```
 
-Even well-intentioned prompts can produce unexpected results. Here are common issues and how to fix them:
+### Prompte Verkettung
 
-- Problem: Response is too generic→ Solution: Add specificity, examples, or explicit requests for comprehensive output. Ask the AI to "go beyond the basics."
+Im Gegensatz zu den vorherigen Techniken kann das Prompt-Kettening nicht in einem einzigen Prompt implementiert werden. Die Kette zerlegt komplexe Aufgaben in kleinere sequentielle Schritte mit separaten Prompts. Jeder Prompt verarbeitet eine Stufe, und die Ausgabe wird in die nächste Anweisung eingearbeitet.
 
-- Problem: Response is off-topic or misses the point→ Solution: Be more explicit about your actual goal. Provide context about why you're asking.
+Dieser Ansatz tauscht die Latenz gegen eine höhere Genauigkeit aus, indem jede einzelne Aufgabe vereinfacht wird. Normalerweise würde diese Technik über Workflows oder programmgesteuert implementiert, aber Sie könnten die Prompts manuell bereitstellen, nachdem Sie die Antworten erhalten haben.
 
-- Problem: Response format is inconsistent→ Solution: Add examples (few-shot) or use prefilling to control the start of the response.
+Beispiel: Forschungszusammenfassung
 
-- Problem: Task is too complex, results are unreliable→ Solution: Break into multiple prompts (chaining). Each prompt should do one thing well.
+- Erster Prompt: „Fassen Sie dieses medizinische Papier zusammen, das Methodik, Ergebnisse und klinische Auswirkungen enthält.“
 
-- Problem: AI includes unnecessary preambles→ Solution: Use prefilling or explicitly request: "Skip the preamble and get straight to the answer."
+- Zweite Aufforderung: „Überprüfen Sie die obige Zusammenfassung auf Genauigkeit, Klarheit und Vollständigkeit. Geben Sie bewertetes Feedback.“
 
-- Problem: AI makes up information→ Solution: Explicitly give permission to say "I don't know" when uncertain.
+- Dritter Prompt: „Verbessern Sie die Zusammenfassung anhand des folgenden Feedbacks: [Feedback aus Schritt 2]“
 
-- Problem: AI suggests changes when you wanted implementation→ Solution: Be explicit about action: "Change this function" rather than "Can you suggest changes?"
+Jede Stufe verbessert die Kenntnisse durch fokussierten Unterricht.
 
-Pro tip: Start simple and add complexity only when needed. Test each addition to see if it actually improves results.
+Wenn es das Prompt-Chaining verwendet:
 
-## Common mistakes to avoid
+- Sie haben eine komplexe Anfrage, die in mehrere Schritte aufgegliedert werden muss
 
-Learn from these common pitfalls to save time and improve your prompts:
+- Sie benötigen eine iterative Verfeinerung
 
-- Don't over-engineer: Longer, more complex prompts are NOT always better.
+- Sie führen eine mehrstufige Analyse durch
 
-- Don't ignore the basics: Advanced techniques won't help if your core prompt is unclear or vague.
+- Zwischenvalidierung bietet Mehrwert
 
-- Don't assume the AI reads minds: Be specific about what you want. Leaving things ambiguous gives the AI room to misinterpret.
+- Ein einziger Prompt liefert inkonsistente Ergebnisse
 
-- Don't use every technique at once: Select techniques that address your specific challenge.
+Nachteil: Die Verkettung erhöht die Latenz (mehrere API-Aufrufe), verbessert jedoch oft die Genauigkeit und Zuverlässigkeit für komplexe Aufgaben erheblich.
 
-- Don't forget to iterate: The first prompt rarely works perfectly. Test and refine.
+## Techniken, von denen Sie vielleicht gehört haben
 
-- Don't rely on outdated techniques: XML tags and heavy role prompting are less necessary with modern models. Start with explicit, clear instructions.
+Einige Prompt-Engineering-Techniken, die bei früheren KI-Modellen populär waren, sind bei Modellen wie Claude weniger notwendig. Sie finden sie jedoch möglicherweise immer noch in älteren Dokumentationen oder in bestimmten Situationen nützlich.
 
-## Prompt engineering considerations
+### XML-Tags zur Struktur
 
-### Working with long content
+XML-Tags wurden einst empfohlen, um Prompts Struktur und Klarheit zu verleihen, insbesondere bei der Integration großer Datenmengen. Obwohl moderne Modelle Strukturen ohne XML-Tags besser verstehen, können sie in bestimmten Situationen immer noch nützlich sein.
 
-One of the challenges of implementing advanced prompt engineering is that it adds context overhead through additional token usage. Examples, multiple prompts, detailed instructions—they all consume tokens, and context management is a skill in its own right.
+Beispiel:
 
-Remember to use prompt engineering techniques when they make sense and justify their usage. For comprehensive guidance on managing context effectively, check out our blog post on[context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents).
+```
 
-Context awareness improvements: Modern AI models, including Claude 4.x, have significantly improved context awareness capabilities that help address historical "lost-in-the-middle" issues where models struggled to attend equally to all parts of long contexts.
+```
 
-Why task-splitting still helps: Even with these improvements, breaking large tasks into smaller, discrete chunks remains a valuable technique—not because of context limitations, but because it helps the model focus on doing its best work within a very specific set of requirements and scope. A focused task with clear boundaries consistently produces higher quality results than trying to accomplish multiple objectives in a single prompt.
+Wenn XML-Tags immer noch nützlich sind:
 
-Strategy: When working with long contexts, structure your information clearly with the most critical details at the beginning or end. When working with complex tasks, consider whether breaking them into focused subtasks would improve the quality and reliability of each component.
+- Sie arbeiten mit extrem komplexen Prompts und mischen mehrere Content-Typen
 
-### What does a good prompt look like?
+- Sie müssen sich der Content-Grenzen absolut sicher sein
 
-Prompt engineering is a skill, and it's going to take a few tries before you master it. The only way to know if you're doing it right is to test it and see. The first step is to just try it yourself. You'll see right away the differences between queries with and without the prompting techniques we covered here.
+- Sie arbeiten mit älteren Modellversionen
 
-To really hone your prompt engineering skills, you'll need to objectively measure the effectiveness of your prompts. The good news is that is exactly what is covered in our prompt engineering course at[anthropic.skilljar.com](https://anthropic.skilljar.com/claude-with-the-anthropic-api).
+Moderne Alternative: In den meisten Anwendungsfällen funktionieren klare Überschriften, Leerräume und explizite Sprache („Unter Verwendung der Athleteninformationen unten…“) mit weniger Overhead genauso gut.
 
-Quick evaluation tips:
+### Rollenabfrage
 
-- Does the output match your specific requirements?
+Die Rollenabfrage definiert die Experten und ihre Perspektiven bei der Formulierung Ihrer Frage. Dies kann effektiv sein, aber moderne Modelle sind so ausgefeilt, dass eine aufwändige Rollenabfrage oft überflüssig ist.
 
-- Did you get the result in one attempt or need multiple iterations?
+Beispiel: „Sie sind Finanzberater. Analysieren Sie dieses Anlageportfolio..."
 
-- Is the format consistent across multiple attempts?
+Wichtiger Vorbehalt: Überlasten Sie die Rolle nicht. „Sie sind ein hilfreicher Assistent“ ist oft besser als „Sie sind ein weltbekannter Experte, der nur technischen Fachjargon spricht und niemals Fehler macht.“ Zu spezifische Rollen können den Nutzen der KI einschränken.
 
-- Are you avoiding the common mistakes listed above?
+Wenn die Rollenabfrage hilfreich sein könnte:
 
-## Final words of advice
+- Sie benötigen einen konsistenten Ton für viele Ausgaben
 
-Prompt engineering is ultimately about communication: speaking the language that helps AI most clearly understand your intent. Start with the core techniques covered early in this guide. Use them consistently until they become second nature. Only layer in advanced techniques when they solve a specific problem.
+- Sie erstellen eine Bewerbung, die eine bestimmte Person benötigt
 
-Remember: the best prompt isn't the longest or most complex. It's the one that achieves your goals reliably with the minimum necessary structure. As you practice, you'll develop an intuition for which techniques suit which situations.
+- Sie möchten Fachwissen für komplexe Themen zusammenstellen
 
-The shift toward context engineering doesn't diminish prompt engineering's importance. In fact, prompt engineering is a fundamental building block within context engineering. Every well-crafted prompt becomes part of the larger context that shapes AI behavior, working alongside conversation history, attached files, and system instructions to create better outcomes.
+Moderne Alternative: Oft ist es effektiver, die gewünschte Perspektive explizit anzugeben: „Analysieren Sie dieses Anlageportfolio und konzentrieren Sie sich auf die Risikotoleranz und das langfristige Wachstumspotenzial“, als eine Rolle zuzuweisen.
 
-[Start prompting](https://preview.claude.ai/new)in Claude today.
+[Versuchen Sie](https://preview.claude.ai/new)es mit Claude.
 
-## Additional resources
+## Alles zusammenfassen
 
-- Prompt engineering documentation
+Man hat die einzelnen Techniken isoliert betrachtet, aber ihre wahre Leistungsfähigkeit kommt zum Tragen, wenn man sie strategisch kombiniert. Prompt-Engineering verwendet nicht jede verfügbare Technik, sondern die Auswahl der richtigen Kombination für Ihre spezifischen Anforderungen.
 
-- Interactive prompt engineering tutorial
+Beispiel für die Kombination mehrerer Techniken:
 
-- Prompt engineering course
+```
 
-- Context engineering guide
+```
+
+Dieser Prompt kombiniert:
+
+- Explizite Anweisungen (exakt zu extrahieren)
+
+- Kontext (warum das Format wichtig ist)
+
+- Beispielstruktur (Format)
+
+- Erlaubnis zur Ausdrucksform der Unsicherheit (Null verwenden, wenn unsicher)
+
+- Formatsteuerung (mit dem ersten Teil beginnen)
+
+## Auswahl der richtigen Techniken
+
+Nicht jeder Prompt benötigt jede Technik. Hier ist ein Entscheidungsrahmen:
+
+Hier beginnen:
+
+- Ist Ihre Anfrage klar und explizit? Wenn nicht, dann erst Klarheit schaffen
+
+- Ist die Aufgabe einfach? Nur Kerntechniken verwenden (spezifisch, klar und im Kontext angeben)
+
+- Benötigt die Aufgabe eine bestimmte Formatierung? Beispiele oder Vorfüllen verwenden
+
+- Ist die Aufgabe komplex? Zersetzen (Ketten)
+
+- Muss es begründet werden? Verwenden Sie erweitertes Denken (falls verfügbar) oder Denkkette
+
+‍Leitfaden zur Auswahl von Techniken:
+
+## Fehlerbehebung bei Prompt-Problemen
+
+Selbst gut gemeinte Prompts können unerwartete Ergebnisse liefern. Hier sind häufige Probleme und wie sie behoben werden:
+
+- Problem: Die Antwort ist zu allgemein→ Lösung: Fügen Sie Spezifischkeiten, Beispiele oder explizite Anforderungen hinzu, um umfassende Ergebnisse zu erzielen. Bitten Sie die KI, „über die Grundlagen hinauszugehen“.
+
+- Problem: Die Antwort ist offtopic oder verfehlt den Punkt→ Lösung: Geben Sie Ihr tatsächliches Ziel an. Geben Sie den Kontext an, warum Sie fragen.
+
+- Problem: Antwortformat ist inkonsistent→ Lösung: Fügen Sie Beispiele hinzu (wenige) oder verwenden Sie das Prefill zur Steuerung des Beginns der Antwort.
+
+- Problem: Aufgabe ist zu komplex, die Ergebnisse sind unzuverlässig→ Lösung: Mehrere Prompts erstellen (Ketten), Jeder Prompt sollte eine Aufgabe erfüllen.
+
+- Problem: KI enthält unnötige Präambel→ Lösung: Vorfüllen verwenden oder explizit fragen: „Überspringen Sie die Präambel und kommen Sie direkt zur Antwort.“
+
+- Problem: KI erfindet Informationen→ Lösung: Erlauben Sie explizit die Angabe, „Ich weiß nicht“ zu sagen, wenn es unsicher ist.
+
+- Problem: KI schlägt Änderungen vor, wenn sie implementiert werden sollten→ Lösung: Geben Sie die Aktion an: „Ändern Sie diese Funktion“ anstatt „Können Sie Änderungen vorschlagen?“
+
+Pro-Tipp: Starten Sie einfach und fügen Sie Komplexität hinzu, wenn es nötig ist. Testen Sie jede Ergänzung, um zu sehen, ob sie die Ergebnisse tatsächlich verbessert.
+
+## Häufige Fehler zu vermeiden
+
+Lernen Sie aus diesen häufigen Fallen, um Zeit zu sparen und Ihre Prompts zu verbessern:
+
+- Nicht übertreiben: Länger, komplexere Prompts sind NICHT immer besser.
+
+- Vergessen Sie nicht, dass erweiterte Techniken nicht helfen, wenn Ihr Kernprompt unklar oder vage ist.
+
+- Gehen Sie nicht davon aus, dass die KI Gedanken liest: Geben Sie genau an, was Sie möchten. Wenn die Dinge mehrdeutig sind, kann die KI falsch interpretieren.
+
+- Verwenden Sie nicht alle Techniken gleichzeitig: Wählen Sie Techniken aus, die Ihre spezifischen Herausforderungen erfüllen.
+
+- Vergessen Sie nicht, es zu wiederholen: Der erste Prompt funktioniert selten perfekt. Testen und verfeinern.
+
+- Verlassen Sie sich nicht auf veraltete Techniken: XML-Tags und umfangreiche Rollenabfragen sind bei modernen Modellen weniger notwendig. Beginnen Sie mit klaren Anweisungen.
+
+## Prompt-Engineering
+
+### Mit langen Inhalten arbeiten
+
+Eine der Herausforderungen bei der Implementierung von Prompt-Engineering besteht darin, dass es durch die Verwendung zusätzlicher Token Kontext schafft. Beispiele, mehrere Prompts, detaillierte Anweisungen – sie alle verbrauchen Tokens, und das Kontextmanagement ist eine Fähigkeit für sich.
+
+Prompt-Engineering sollte verwendet werden, wenn es sinnvoll ist und die Verwendung rechtfertigt. Eine umfassende Anleitung zur effektiven Verwaltung von Kontext finden Sie in unserem Blogbeitrag über[Kontext Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents).
+
+Verbesserungen der Kontextbewusstsein: Moderne KI-Modelle, einschließlich Claude 4.x, haben die Funktionen zur Kontextbewusstsein deutlich verbessert, um historische Probleme zu lösen, bei denen die Modelle Schwierigkeiten hatten, alle Teile des langen Kontexts gleichermaßen zu berücksichtigen.
+
+Warum Aufgabenaufteilung immer noch hilft: Selbst mit diesen Verbesserungen bleibt die Aufteilung großer Aufgaben in kleinere, diskrete Teile eine wertvolle Technik – nicht aufgrund von Kontextbeschränkungen, sondern weil das Modell sich so darauf konzentriert, seine Arbeit innerhalb eines sehr spezifischen Rahmens und Anforderungen optimal zu erbringen. Eine fokussierte Aufgabe mit klaren Grenzen führt zu qualitativ hochwertigeren Ergebnissen als der Versuch, mehrere Ziele auf einmal zu erreichen.
+
+Strategie: Strukturieren Sie Ihre Informationen bei langen Zusammenhängen klar und deutlich mit den wichtigsten Details am Anfang oder am Ende. Bei komplexen Aufgaben sollte man überlegen, ob die Aufteilung in zielgerichtete Teilaufgaben die Qualität und Zuverlässigkeit jeder Komponente verbessern würde.
+
+### Wie sieht ein guter Prompt aus?
+
+Prompt-Engineering ist eine Fähigkeit, und es dauert ein paar Versuche, bis Sie es beherrschen. Der einzige Weg, um zu wissen, ob es richtig ist, ist, es zu testen. Der erste Schritt ist, es selbst auszuprobieren. Sie sehen sofort die Unterschiede zwischen Abfragen mit und ohne die hier beschriebenen Prompting-Techniken.
+
+Um Ihre Prompt-Engineering-Fähigkeiten wirklich zu verbessern, müssen Sie die Effektivität Ihrer Prompts objektiv messen. Die gute Nachricht ist, dass es genau das ist, was in unserem Prompt-Engineering-Kurs auf[anthropic.skilljar.com](https://anthropic.skilljar.com/claude-with-the-anthropic-api)behandelt wird.
+
+Tipps zur Bewertung:
+
+- Entspricht das Ergebnis Ihren spezifischen Anforderungen?
+
+- Sie haben das Ergebnis in einem Versuch erhalten oder benötigen mehrere Iterationen?
+
+- Ist das Format über mehrere Versuche hinweg einheitlich?
+
+- Vermeiden Sie die oben genannten Fehler?
+
+## Letzte Worte
+
+Prompt-Engineering bedeutet letztendlich Kommunikation: Es muss die Sprache gesprochen werden, die es der KI ermöglicht, Ihre Absicht am besten zu verstehen. Beginnen Sie mit den Kerntechniken, die bereits zu Beginn dieses Leitfadens behandelt wurden. Verwenden Sie sie konstant, bis sie zur zweiten Natur werden. Nur in fortschrittlichen Techniken integriert, wenn sie ein bestimmtes Problem lösen.
+
+Denken Sie daran: Der beste Prompt ist nicht der längste oder komplexeste. Es ist es, das Ihre Ziele zuverlässig erreicht, mit der erforderlichen Mindeststruktur. Während Sie üben, entwickeln Sie eine Intuition für die Techniken, die für die jeweilige Situation geeignet sind.
+
+Die Verlagerung zum Kontext-Engineering mindert nicht die Bedeutung des Prompt Engineering. Prompt-Engineering ist ein grundlegender Baustein im Kontext-Engineering. Jeder gut gestaltete Prompt wird Teil des größeren Kontexts, der das KI-Verhalten prägt und mit dem Konversationsverlauf, angehängten Dateien und Systemanweisungen zusammenarbeitet, um bessere Ergebnisse zu erzielen.
+
+[Claude ist noch heute dabei](https://preview.claude.ai/new).
+
+## Zusätzliche Ressourcen
+
+- Prompt-Engineering Dokumentation
+
+- Interaktives Prompt-Engineering-Tutorial
+
+- Prompt-Engineering-Kurs
+
+- Leitfaden für Kontext
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -483,36 +438,36 @@ The shift toward context engineering doesn't diminish prompt engineering's impor
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-## Related posts
+## Ähnliche Beiträge
 
-Explore more product news and best practices for teams building with Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Observability for developers building connectors
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+
+### Claude für die Rechtsbranche
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
+### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 
-### What is Model Context Protocol? Connect AI to your world
+Entwickler-Newsletter abonnieren
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
 
-### Building AI agents for financial services
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
-
-### Building AI agents for healthcare and life sciences
-
-## Transform how your organization operates with Claude
-
-Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/blog/best-practices-for-prompt-engineering
+**Source:** https://claude.com/de/blog/best-practices-for-prompt-engineering
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

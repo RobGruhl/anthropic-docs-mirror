@@ -1,114 +1,115 @@
-# Automate security reviews with Claude Code
-*August 6, 2025*
+# Claude Codeでセキュリティレビューを自動化
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
-# Automate security reviews with Claude Code
+# Claude Codeでセキュリティレビューを自動化
 
-- CategoryProduct announcements
+- カテゴリ製品発表
 
-- ProductClaude Code
+- 製品Claude Code
 
-- DateAugust 6, 2025
+- 日付2025-08-06
 
-- Reading time5min
+- 所要時間5分
 
-- ShareCopy linkhttps://claude.com/blog/automate-security-reviews-with-claude-code
+- 共有リンクをコピーhttps://claude.com/blog/automate-security-reviews-with-claude-code
 
-Today we're introducing automated security reviews in Claude Code. Using our GitHub Actions integration and a new /security-review command, developers can easily ask Claude to identify security concerns—and then have it fix them.
+本日は、Claude Code の自動セキュリティレビューについて説明します。GitHub Actions 統合と新しい /security-review コマンドを使用して、開発者は容易に Claude にセキュリティ上の懸念事項を特定するよう指示でき、その後それらを修正をしてもらえます。
 
-As developers increasingly rely on AI to ship faster and build more complex systems, ensuring code security becomes even more critical. These new features let you integrate security reviews into your existing workflows, helping you catch vulnerabilities before they reach production.
+開発者がより迅速なリリースと複雑なシステム構築のために AI への依存度を高めるにつれ、コードのセキュリティ確保はこれまで以上に重要となります。今回の新機能により、セキュリティレビューを既存のワークフローに統合することが可能になり、本番環境に到達する前に脆弱性を検出するのに役立ちます。
 
-### Review code for vulnerabilities from your terminal
+### ターミナルからコードの脆弱性を確認
 
-The new /security-review command lets you run ad-hoc security analyses from your terminal before committing code. Run the command in Claude Code, and Claude will search your codebase for potential vulnerabilities and provide detailed explanations of any issues found.
+新しい /security-review コマンドを使用すると、コードをコミットする前にターミナルからアドホックなセキュリティ分析を実行できます。Claude Code でコマンドを実行すると、Claude はコードベース内の潜在的な脆弱性を検索し、発見した問題について詳細な説明を提供します。
 
-This command uses a specialized security-focused prompt that checks for common vulnerability patterns including:
+このコマンドは、セキュリティに特化した専用のプロンプトを使用し、以下を含む一般的な脆弱性パターンをチェックします。
 
-- SQL injection risks
+- SQL インジェクションリスク
 
-- Cross-site scripting (XSS) vulnerabilities
+- クロスサイトスクリプティング（XSS）脆弱性
 
-- Authentication and authorization flaws
+- 認証と承認の欠陥
 
-- Insecure data handling
+- 安全でないデータ処理
 
-- Dependency vulnerabilities
+- 依存関係の脆弱性
 
-You can also ask Claude Code to implement fixes for each issue after they’re identified. This keeps security reviews in your inner development loop, catching issues early when they're easiest to fix.
+また、各問題が特定された後、Claude Code に各問題の修正を指示することもできます。これにより、セキュリティレビューを継続的に内部の開発プロセスに組み込むことができ、修正が最も容易な早い段階で問題を発見することが可能となります。
 
-### Automate security reviews for new pull requests
+### 新しいプルリクエストに対するセキュリティレビューを自動化
 
-The new GitHub action for Claude Code takes security reviews a step further by automatically analyzing every pull request when it's opened. When configured, the action:
+Claude Code 用の新しい GitHub Action は、プルリクエストが作成されるたびに自動的に解析を行うことで、セキュリティレビューをさらに上のレベルに引き上げます。設定後、GitHub Action は以下を実行します。
 
-- Triggers automatically on new pull requests
+- 新しいプルリクエストが開かれたときに自動的にトリガー
 
-- Reviews code changes for security vulnerabilities
+- セキュリティ脆弱性についてコード変更をレビュー
 
-- Applies customizable rules to filter out false-positives and known issues
+- カスタマイズ可能なルールを適用し、誤検知や既知の問題を除外
 
-- Posts comments inline on the PR with any concerns found, including recommendations for fixes
+- 特定された懸念事項と推奨される修正について PR にインラインコメントを投稿
 
-This creates a consistent security review process across your entire team, ensuring no code reaches production without a baseline security review. The action integrates with your existing CI/CD pipeline and can be customized to match your team's security policies.
+これによりチーム全体で一貫したセキュリティレビュープロセスが確立され、最低限の基礎水準のセキュリティレビューなしにコードが本番環境に到達することがないよう保証されます。このアクションは既存の CI/CD パイプラインと連帯しチームのセキュリティポリシーに合わせてカスタマイズ可能です。
 
-![2 screenshots showing vulnerabilities that were caught by Claude Code, leaving comments in GitHub.](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcbe_37aa77df52f1a4e8d81f398f48dbb98a5ba1d5ec-1920x1080.png)
+![2 つのスクリーンショット、Claude Code が検出した脆弱性を示し、GitHub にコメントを残す。](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcbe_37aa77df52f1a4e8d81f398f48dbb98a5ba1d5ec-1920x1080.png)
 
-### Improving product security at Anthropic
+### Anthropic における製品セキュリティの向上
 
-We're using these features ourselves to help secure the code our team ships to production, including Claude Code itself. Since setting up the GitHub action, this has already caught security vulnerabilities in our own code and prevented them from being shipped.
+当社では、Claude Code 自体を含む、チームが本番環境にリリースするコードのセキュリティ確保に、これらの機能を自ら活用しています。GitHub Action の導入以来、これまでに自社コード内のセキュリティ脆弱性を検出・特定し、リリースする前に防止することができました。
 
-For example, last week, our team built a new feature for an internal tool that relied on starting a local HTTP server meant to accept local connections. The GitHub action identified a remote code execution vulnerability exploitable through DNS rebinding and it was fixed before the PR was ever merged.
+例えば先週、チームが内部ツール向けに開発した新機能では、ローカル接続を受け付けるローカル HTTP サーバーの起動が必要でした。GitHub Action は、DNS リバインディングを通じて悪用可能なリモートコード実行の脆弱性を特定し、PR がマージされる前に修正されました。
 
-![A GitHub comment showing a remote code execution vulnerability](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcc2_a370dba2f6e5095cdbcb23ef878dda4befd61d95-1920x1080.png)
+![リモートコード実行の脆弱性を示す GitHub のコメント](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcc2_a370dba2f6e5095cdbcb23ef878dda4befd61d95-1920x1080.png)
 
-In another case, an engineer built a proxy system to enable secure management of internal credentials. The GitHub action automatically flagged that this proxy was vulnerable to SSRF attacks, and we promptly fixed this issue.
+別の事例では、エンジニアがプロキシシステムを構築して社内認証情報を安全に管理できるようにしました。 GitHub Action は、自動的にこのプロキシが SSRF 攻撃に対して脆弱であるとフラグを立て、直ちにこの問題を修正しました。
 
-![A GitHub comment showing a SSRF attack vulnerability](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcb8_23dd3b5404c6f7dc812df83a7de95babab286865-1920x1080.png)
+![SSRF 攻撃の脆弱性を示す GitHub のコメント](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e95d9257ab1dfc1937fcb8_23dd3b5404c6f7dc812df83a7de95babab286865-1920x1080.png)
 
-### Getting started
+### 開始方法
 
-Both features are available now for all Claude Code users. To start using automated security reviews:
+両方の機能は現在、すべての Claude Code ユーザーに提供されます。自動セキュリティレビューの使用を開始する方法。
 
-- For the /security-review command: Simply update Claude Code to the latest version and run /security-review in your project directory.See the documentationto customize your own version of the command
+- /security-review　コマンドの場：Claude Code を最新バージョンに更新し、プロジェクトディレクトリで　/security-review を実行します。コマンドをカスタマイズする方法については、ドキュメントを参照ください。
 
-- For the GitHub action:See the documentationfor step-by-step installation and configuration instructions
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
+- GitHub Action の場合：ステップバイステップのインストールおよび構成の手順についてはドキュメントを参照ください。
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Related posts
+よくある質問
 
-Explore more product news and best practices for teams building with Claude.
+## 関連する投稿
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+Claude を活用して構築を行うチーム向けの、その他の製品
 
-### Secure access to the Claude Platform with Workload Identity Federation
+ニュースとベストプラクティスをご覧ください。
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
+### 法務業界向けの Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
-### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+### ウェブ上のClaude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
-### Claude Security is now in public beta
+### Max planの紹介
 
-## Transform how your organization operates with Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
-Get the developer newsletter
+### Claude in Chrome のパイロット試験
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+## Claude を活用して組織運営の方法を変革
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+開発者向けニュースレターを入手
+
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/blog/automate-security-reviews-with-claude-code
+**Source:** https://claude.com/ja/blog/automate-security-reviews-with-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

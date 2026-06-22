@@ -1,18 +1,19 @@
 # New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
+*May 19, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
 # New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
-- KategorieProduktankündigungen
+- CategoryProduct announcements
 
-- ProduktClaude Platform
+- ProductClaude Platform
 
-- Datum19.5.2026
+- DateMay 19, 2026
 
-- Lesezeit5Min
+- Reading time5min
 
-- TeilenLink kopierenhttps://claude.com/blog/claude-managed-agents-updates
+- ShareCopy linkhttps://claude.com/blog/claude-managed-agents-updates
 
 Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls.
 
@@ -48,21 +49,35 @@ MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is 
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fdc9749bb31acafa95b_MCP%20tunnel%20(1).png)
 
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010941df4d50c5b91b2ba1_Clay-light-theme.svg)
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69010943d7b5a7bb5f07d8d6_Clay-dark-theme.svg)
+
+“When building Sculptor, Clay's GTM engineering agent for building and testing GTM workflows autonomously, we wanted to give it a more flexible and powerful way to take actions than just tools in a loop. Claude Managed Agents let us replicate the power of a local agent with the reliability, versioning, and background execution of a cloud agent. And running it with our sandboxes, like Daytona, gives us control over the filesystem, so we can mount external file stores and install packages on the fly.”
+
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a277c3714419cc7f58a9342_logo_rogo-light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a277c483b67dd0f46bcdb09_logo_rogo-dark.svg)
 
-Claude Managed Agents handles the agent loop, Vercel's sandboxes give us an environment we can configure for our workloads. This gives us the option to leverage best-in-class infrastructure while we focus on what compounds for a financial AI platform: depth and breadth of tools and data, and a product surface built for how investors and bankers actually work.
+“Claude Managed Agents handles the agent loop, Vercel's sandboxes give us an environment we can configure for our workloads. This gives us the option to leverage best-in-class infrastructure while we focus on what compounds for a financial AI platform: depth and breadth of tools and data, and a product surface built for how investors and bankers actually work.”
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0c15dc2d99d53c20667cf5_mason-light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0c15e9d43b72bc8726b778_mason-dark.svg)
 
-Our use cases require secure orchestration of internal tools across a complex product surface. Modal's sandbox gives us the security boundary our enterprise customers need, and combining it with Claude Managed Agents gives us a powerful harness without hand-rolling extra complexity. We had a working version up in under a week, raising reliability for our customers.
+“Our use cases require secure orchestration of internal tools across a complex product surface. Modal's sandbox gives us the security boundary our enterprise customers need, and combining it with Claude Managed Agents gives us a powerful harness without hand-rolling extra complexity. We had a working version up in under a week, raising reliability for our customers.”
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f90d548130a5b392eef2bb_logo_amplitude-light.svg)
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f90d57fa27a4ce120cdf71_logo_amplitude-dark.svg)
+
+“Claude Managed Agents and Cloudflare let us get the first useful version of our design agent running in two days on infrastructure we already know and trust.”
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aa585b66f744445eaec7_Doordash_light.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5aa5e900d8af5fd782dd2_Doordash_dark.svg)
+
+“As we scale agentic commerce for local businesses, we need a highly efficient path to production with full harness control, scale, and reliability. We're excited to evaluate Claude Managed Agents for this next step, building on our Al infrastructure with Modal!”
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -76,36 +91,36 @@ Both self-hosted sandboxes and MCP tunnels work within the same core primitives 
 
 Explore our[docs](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes)to learn more, follow our[cookbooks](https://github.com/anthropics/claude-cookbooks/tree/main/managed_agents/self_hosted_sandboxes)to set up your sandbox provider, or deploy your first agent in the[Claude Console](https://platform.claude.com/).
 
-Häufig gestellte Fragen
+FAQ
 
-## Ähnliche Beiträge
+## Related posts
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+### Secure access to the Claude Platform with Workload Identity Federation
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-### Observability for developers building connectors
+### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
-### Claude für die Rechtsbranche
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
+### Claude Security is now in public beta
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+## Transform how your organization operates with Claude
 
-Entwickler-Newsletter abonnieren
+Get the developer newsletter
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/de/blog/claude-managed-agents-updates
+**Source:** https://claude.com/blog/claude-managed-agents-updates
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
