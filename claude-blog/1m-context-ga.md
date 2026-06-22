@@ -36,7 +36,7 @@
 
 100만 토큰 컨텍스트는 모델이 필요한 정보를 정확히 기억하고, 이를 바탕으로 추론할 수 있을 때만 의미가 있습니다. Opus 4.6은 해댕 컨텍스트 길이의 MRCR v2에서 78.3%를 기록했으며, 이는 프론티어 모델 중 가장 높은 점수입니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a7842c1e8570d607c2b5_69b49c06e1c573f3ce50276b_image%2520(3).png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69b49c06e1c573f3ce50276b_image%20(3).png)
 
 즉, 전체 코드베이스, 수천 페이지의 계약서, 또는 장시간 실행되는 에이전트의 전체 추적 기록(도구 호출, 관찰 결과, 중간 추론)을 불러와 그대로 활용할 수 있다는 의미입니다. 이전에 장문 컨텍스트 작업에 필요했던 엔지니어링 작업, 손실이 발생하는 요약, 컨텍스트 정리는 더 이상 필요하지 않습니다. 전체 대화가 그대로 유지됩니다.
 
@@ -114,21 +114,21 @@ Opus의 컨텍스트 창을 200k에서 500k로 늘렸더니 에이전트가 더 
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
-### 병렬 에이전트를 위한 데스크톱용 Claude Code 재설계
+### Claude for Excel 및 Claude for PowerPoint 향상
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-### 클로드 코드의 루틴 소개
+### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
-### 클로드 코드 자동 모드
+### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
 
-### 조직, 파트너, 그리고 생태계를 위한 Skills
+### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

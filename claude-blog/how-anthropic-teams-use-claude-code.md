@@ -119,9 +119,9 @@ Explore more product news and best practices for teams building with Claude.
 
 ### How Brex improves code quality and productivity with Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
 
-### How enterprises are driving AI transformation with Claude
+### Building AI agents for startups
 
 ## Transform how your organization operates with Claude
 

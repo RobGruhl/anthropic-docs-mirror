@@ -408,9 +408,9 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Building AI agents for healthcare and life sciences
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
 
-### Eight trends defining how software gets built in 2026
+### How to create Skills: Key steps, limitations, and examples
 
 ## Transform how your organization operates with Claude
 

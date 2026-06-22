@@ -1,9 +1,9 @@
 # Enterprise Topic Index
-*Last updated: 2026-06-22 10:56*
+*Last updated: 2026-06-22 14:24*
 
-Documents related to Enterprise across all sources (10 documents)
+Documents related to Enterprise across all sources (9 documents)
 ---
-## Claude.com Blog Posts (10)
+## Claude.com Blog Posts (9)
 - [Building AI agents for the enterprise](/claude-blog/building-ai-agents-for-the-enterprise.md) - ![](https://cdn
 - [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
@@ -12,6 +12,5 @@ Documents related to Enterprise across all sources (10 documents)
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [How leading retailers are turning AI pilots into enterprise-wide transformation](/claude-blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation.md) - ![](https://cdn
-- [Mettere Claude Cowork a disposizione delle aziende](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
 

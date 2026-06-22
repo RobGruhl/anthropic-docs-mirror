@@ -22,7 +22,7 @@ Claude Opus 4.6과 더불어 기존 제품 중 일부를 업데이트하고 새�
 
 Claude의 내부 Real-World Finance 평가는 스프레드시트, 슬라이드 덱, 워드 문서 생성 및 검토에 이르는 약 50개의 투자 및 재무 분석 사용 사례에서 Claude의 성능을 측정합니다. 이러한 사용 사례는 투자 은행, 사모 펀드, 상장사 투자, 기업 재무 전반에서 분석가가 일반적으로 수행하는 작업입니다. Claude Opus 4.6은 불과 몇 달 전 최첨단 모델이었던 Claude Sonnet 4.5보다 23% 포인트 이상 성능이 개선되었습니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a799c6c67b40c8cb9f5e_6984b66b95b2a1a24ab26f64_Opus-4-6-Chart-Real-world-finance-no-subtext%25402x%2520(1).png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984b66b95b2a1a24ab26f64_Opus-4-6-Chart-Real-world-finance-no-subtext%402x%20(1).png)
 
 이러한 업데이트로 인해 Claude는 금융 서비스와 기업 재무 전반에 종사하는 이들에게 훨씬 강력한 파트너가 되었습니다.
 
@@ -30,7 +30,7 @@ Claude의 내부 Real-World Finance 평가는 스프레드시트, 슬라이드 �
 
 금융 전문가는 AI를 활용해 여러 데이터 소스를 효율적으로 리서치하고 재무 분석을 지원하고 팀과 고객이 작업을 수행할 수 있는 결과물을 생성합니다. Claude Opus 4.6은 3가지 측면 모두에서 동급 최고의 성능을 자랑합니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a799c6c67b40c8cb9f61_6984ad0f7e9fc5edd808036e_Opus_4-6_Finance-Tasks-Benchmark.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ad0f7e9fc5edd808036e_Opus_4-6_Finance-Tasks-Benchmark.png)
 
 리서치 측면에서 Claude Opus 4.6은 대규모 비정형 데이터 소스에서 구체적인 정보를 추출하는 모델의 능력을 테스트하는 두 가지 벤치마크인 BrowseComp와 DeepSearchQA를 모두 개선했습니다. 실제로 이는 사용자가 Claude에 밀집된 문서 세트를 전달하면 간단한 요약이 아니라 핵심적인 내용이 담긴 구체적인 답변을 받을 수 있다는 것을 의미합니다.
 
@@ -38,9 +38,9 @@ Claude의 내부 Real-World Finance 평가는 스프레드시트, 슬라이드 �
 
 생성 측면에서는 Real-World Finance 평가 외에도 GDPval-AA를 사용하여 복잡한 지식 작업에 대한 Claude의 성능을 측정합니다. Claude Opus 4.6을 사용하면 첫 번째 시도에서 스프레드시트나 프레젠테이션과 같은 구조화된 결과물이 더 자주 생성됩니다. 아래의 나란히 나열된 결과는 Claude Opus 4.5에서 Opus 4.6으로 업데이트되면서 결과물 품질이 어떻게 향상되었는지 보여줍니다. 이러한 결과는 기업 실사 작업(인수 대상 기업 평가)에서 Claude가 1차 시도에서 보여준 성능 예시로, 일반적으로 수석 분석가가 이 정도 결과물을 완성하는 데 2~3주가 걸립니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a799c6c67b40c8cb9f90_69860def3cf544958f0a7c43_Opus-46-Blog-Comparison-Excel%2520(1).png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69860def3cf544958f0a7c43_Opus-46-Blog-Comparison-Excel%20(1).png)
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a7992c1e8570d607c91d_69860e00c073500bc2eb26f4_Opus-46-Blog-Comparison-PowerPoint%2520(1).png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69860e00c073500bc2eb26f4_Opus-46-Blog-Comparison-PowerPoint%20(1).png)
 
 > "Claude Opus 4.6을 사용하면 몇 시간에 걸려 만들었던 재무 PowerPoints 자료가 이제 몇 분 만에 완성됩니다. 세부 사항도 놓치지 않는 꼼꼼함, 공간 레이아웃, 콘텐츠 구조화 측면에서 눈에 띄게 개선되었습니다." -Aabhas Sharma, CTO, Hebbia
 
@@ -62,7 +62,7 @@ Claude in Excel은 Claude Opus 4.6을 스프레드시트로 직접 가져옵니�
 
 마지막으로, 긴 대화에서 자동 압축 기능과 다중 파일 끌어서 놓기 지원을 포함해 사용성 개선을 추가했습니다. 즉, 탭 간에 복사하고 붙여 넣는 작업이 훨씬 줄어듭니다. Claude와 함께 재무 모델부터 고객에게 바로 전달할 수 있는 통합 문서에 이르기까지 모든 작업을 한 곳에서 수행할 수 있습니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a799c6c67b40c8cb9f71_6984ae18765ce9ada0768cfc_ClaudeExcel-Blog-Hero-Desktop.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ae18765ce9ada0768cfc_ClaudeExcel-Blog-Hero-Desktop.png)
 
 > "Claude Opus 4.6에서 제공하는 Claude in Excel은 놀라운 발전을 보여줍니다. 실사에서 재무 모델링에 이르기까지, 비정형 데이터를 가져와 최소한의 프롬프트로 지능적으로 작업하여 복잡한 분석을 의미 있게 자동화하는 데 있어 우리 팀에게 매우 강력한 도구임이 입증되고 있습니다. AI가 투자 전문가의 역량을 시간을 절약하고 피부로 느낄 수 있는 방식으로 강화하고 있다는 것을 보여주는 훌륭한 사례입니다." -Lloyd Hilton, Hg Catalyst 책임자
 
@@ -72,7 +72,7 @@ Claude in Excel은 Claude Opus 4.6을 스프레드시트로 직접 가져옵니�
 
 Claude in PowerPoint 역시 베타 버전 형태의 리서치 프리뷰로 출시합니다. Claude in Excel과 마찬가지로 이 기능은 Claude를 PowerPoint 사이드바로 가져와 기존 레이아웃, 글꼴, 마스터를 읽은 뒤 새 작업을 인라인으로 생성할 수 있게 해줍니다. Claude는 클라이언트 템플릿에서 슬라이드 덱을 만들고 기존 슬라이드에서 특정 부분만 편집하여 처음부터 완성도 높은 1차 프레젠테이션을 생성할 수 있습니다.
 
-![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04a7992c1e8570d607c919_6984ae4566ef8dcf3a381733_ClaudePPT-Blog-Hero-Desktop.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6984ae4566ef8dcf3a381733_ClaudePPT-Blog-Hero-Desktop.png)
 
 Claude in PowerPoint는 이제 모든 Max, Team, Enterprise 플랜 사용자가 사용할 수 있도록 리서치 프리뷰로 제공됩니다.
 
@@ -106,21 +106,21 @@ Claude Opus 4.6, Cowork, Claude in Excel은 모든 유료 Claude 플랜에서 �
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
-### 조직, 파트너, 그리고 생태계를 위한 Skills
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-### Claude를 더 유능한 전기 엔지니어로 만들기
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
-
-### Anthropic의 법무팀이 Claude로 검토 시간을 며칠에서 몇 시간으로 단축하는 방법
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
 ### 이제 Opus 4.6과 Sonnet 4.6에서 1M 컨텍스트를 정식 지원합니다
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
+
+### Claude for Excel 및 Claude for PowerPoint 향상
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
+
+### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
+
+### Claude Enterprise, 이제 셀프 서비스 방식으로 도입 가능
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 
