@@ -1,5 +1,5 @@
 # MCP Documentation (modelcontextprotocol.io) Index
-*Last updated: 2026-06-22 16:37*
+*Last updated: 2026-06-22 19:10*
 Total documents: 168
 ---
 ## Community (32 documents)

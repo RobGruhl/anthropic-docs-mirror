@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-22 16:37*
+*Last updated: 2026-06-22 19:10*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
@@ -676,7 +676,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-22  
 
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
@@ -686,7 +686,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__handle-tool-calls
 **File:** `/platform-docs/agents-and-tools__tool-use__handle-tool-calls.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-22  
 
 ### agents-and-tools__tool-use__how-tool-use-works
 **File:** `/platform-docs/agents-and-tools__tool-use__how-tool-use-works.md`  
@@ -726,7 +726,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__strict-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__strict-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-22  
 
 ### agents-and-tools__tool-use__text-editor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__text-editor-tool.md`  
@@ -766,7 +766,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-22  
 
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
@@ -1431,7 +1431,7 @@ Total documents: 1603
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/batch-processing  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__cache-diagnostics
 **File:** `/platform-docs/build-with-claude__cache-diagnostics.md`  
@@ -1496,7 +1496,7 @@ Total documents: 1603
 ### build-with-claude__extended-thinking
 **File:** `/platform-docs/build-with-claude__extended-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/extended-thinking  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__fallback-credit
 **File:** `/platform-docs/build-with-claude__fallback-credit.md`  
@@ -1506,7 +1506,7 @@ Total documents: 1603
 ### build-with-claude__fast-mode
 **File:** `/platform-docs/build-with-claude__fast-mode.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/fast-mode  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__files
 **File:** `/platform-docs/build-with-claude__files.md`  
@@ -1516,7 +1516,7 @@ Total documents: 1603
 ### build-with-claude__handling-stop-reasons
 **File:** `/platform-docs/build-with-claude__handling-stop-reasons.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__mid-conversation-effort-example
 **File:** `/platform-docs/build-with-claude__mid-conversation-effort-example.md`  
@@ -1551,12 +1551,12 @@ Total documents: 1603
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/search-results  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__skills-guide
 **File:** `/platform-docs/build-with-claude__skills-guide.md`  
@@ -1566,7 +1566,7 @@ Total documents: 1603
 ### build-with-claude__streaming
 **File:** `/platform-docs/build-with-claude__streaming.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/streaming  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-22  
 
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
@@ -4786,7 +4786,7 @@ Total documents: 1603
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-22  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
@@ -7291,7 +7291,7 @@ Total documents: 1603
 ### test-and-evaluate__strengthen-guardrails__handle-streaming-refusals
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__handle-streaming-refusals.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals  
-**Updated:** 2026-06-05  
+**Updated:** 2026-06-22  
 
 ### typescript__beta
 **File:** `/platform-docs/typescript__beta.md`  
