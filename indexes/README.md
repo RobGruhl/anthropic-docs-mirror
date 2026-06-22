@@ -1,5 +1,5 @@
 # Claude Documentation Index
-*Last updated: 2026-06-22 19:10*
+*Last updated: 2026-06-22 21:47*
 
 ## Quick Stats
 - **Total Documents:** 2690
@@ -30,7 +30,7 @@
 - [Support Articles](support-articles.md) - 261 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 250 documents
+- [Claude Code](topics/claude-code.md) - 251 documents
 - [Mcp](topics/mcp.md) - 243 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents

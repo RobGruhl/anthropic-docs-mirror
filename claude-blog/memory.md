@@ -4,7 +4,7 @@
 
 # Claudeへのメモリの導入
 
-- カテゴリ製品発表
+- カテゴリ製品アップデート情報
 
 - 製品Claude EnterpriseClaudeのアプリ
 

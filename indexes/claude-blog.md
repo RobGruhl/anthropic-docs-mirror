@@ -1,25 +1,16 @@
 # Claude.com Blog Posts Index
-*Last updated: 2026-06-22 19:10*
+*Last updated: 2026-06-22 21:47*
 Total documents: 171
 ---
-## Agent Skills (2 documents)
+## Agent Skills (1 documents)
 ### Claude for Excel 및 Claude for PowerPoint 향상
 **File:** `/claude-blog/claude-excel-powerpoint-updates.md`  
 **Source:** https://claude.com/ko/blog/claude-excel-powerpoint-updates  
 **Updated:** 2026-06-22  
 **Categories:** agent-skills  
-**Keywords:** 및, excel, claude, powerpoint  
+**Keywords:** excel, powerpoint, claude, 및  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-### Verbesserung des Frontend-Designs durch Skills
-**File:** `/claude-blog/improving-frontend-design-through-skills.md`  
-**Source:** https://claude.com/de/blog/improving-frontend-design-through-skills  
-**Updated:** 2026-06-22  
-**Categories:** agent-skills  
-**Keywords:** des, verbesserung, designs, durch, frontend  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22dc2ead61fff4f6e1d_589b94b913c4cee1c3c1ce2cb04f638d09c465b1-1000x1000.svg)
 
 ## Agents (66 documents)
 ### 2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드
@@ -27,7 +18,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/eight-trends-defining-how-software-gets-built-in-2026  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** 2026년, 소프트웨어, 규정하는, 개발, 방향을  
+**Keywords:** 소프트웨어, 규정하는, 2026년, 개발, 방향을  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
 
@@ -36,7 +27,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** workflows, harness, task, every, dynamic  
+**Keywords:** task, harness, dynamic, every, workflows  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -45,7 +36,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/agent-view-in-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** agent, code, view, claude  
+**Keywords:** code, agent, view, claude  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
@@ -54,7 +45,7 @@ Total documents: 171
 **Source:** https://claude.com/de/blog/best-practices-for-prompt-engineering  
 **Updated:** 2026-06-22  
 **Categories:** agents, prompt-engineering  
-**Keywords:** prompt, practices, für, engineering, best  
+**Keywords:** für, engineering, best, practices, prompt  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
 
@@ -63,7 +54,7 @@ Total documents: 171
 **Source:** https://claude.com/ja/blog/best-practices-for-computer-and-browser-use-with-claude  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** practices, use, browser, best, computer  
+**Keywords:** best, browser, computer, practices, use  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
@@ -72,7 +63,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** claude, practices, opus, best, using  
+**Keywords:** best, using, claude, practices, opus  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
@@ -81,7 +72,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/code-review  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** bringing, code, claude, review  
+**Keywords:** claude, bringing, code, review  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
@@ -90,7 +81,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-ai-agents-in-financial-services  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** services, financial, agents, ai, building  
+**Keywords:** services, building, ai, agents, financial  
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
@@ -99,7 +90,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** healthcare, life, agents, ai, building  
+**Keywords:** building, ai, agents, life, healthcare  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
 
@@ -108,7 +99,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-ai-agents-for-startups  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** agents, ai, building, startups  
+**Keywords:** building, agents, ai, startups  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
 
@@ -117,7 +108,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-ai-agents-for-the-enterprise  
 **Updated:** 2026-06-22  
 **Categories:** agents, enterprise  
-**Keywords:** agents, ai, enterprise, building  
+**Keywords:** building, agents, ai, enterprise  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
 
@@ -126,7 +117,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp  
 **Updated:** 2026-06-22  
 **Categories:** agents, api, mcp  
-**Keywords:** building, production, agents, that, reach  
+**Keywords:** reach, production, building, agents, that  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
@@ -134,8 +125,8 @@ Total documents: 171
 **File:** `/claude-blog/building-agents-with-the-claude-agent-sdk.md`  
 **Source:** https://claude.com/blog/building-agents-with-the-claude-agent-sdk  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, claude-code  
-**Keywords:** claude, agents, agent, sdk, building  
+**Categories:** agents, claude-code, tools  
+**Keywords:** sdk, building, agents, agent, claude  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
@@ -144,7 +135,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** multi, when, agent, building, systems  
+**Keywords:** systems, building, when, agent, multi  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
@@ -152,8 +143,8 @@ Total documents: 171
 **File:** `/claude-blog/claude-managed-agents-memory.md`  
 **Source:** https://claude.com/blog/claude-managed-agents-memory  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api  
-**Keywords:** claude, agents, memory, built, managed  
+**Categories:** agents, api, tools  
+**Keywords:** agents, claude, built, memory, managed  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
@@ -161,8 +152,8 @@ Total documents: 171
 **File:** `/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md`  
 **Source:** https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans  
 **Updated:** 2026-06-22  
-**Categories:** agents, api, enterprise, claude-code  
-**Keywords:** admin, new, code, claude, controls  
+**Categories:** agents, claude-code, api, enterprise  
+**Keywords:** controls, claude, code, admin, new  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
 
@@ -170,8 +161,8 @@ Total documents: 171
 **File:** `/claude-blog/claude-managed-agents.md`  
 **Source:** https://claude.com/blog/claude-managed-agents  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api  
-**Keywords:** claude, get, production, agents, managed  
+**Categories:** agents, api, tools  
+**Keywords:** production, agents, get, claude, managed  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
@@ -180,7 +171,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/1m-context  
 **Updated:** 2026-06-22  
 **Categories:** agents, api  
-**Keywords:** now, claude, sonnet, 4, supports  
+**Keywords:** sonnet, 4, supports, claude, now  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2240410885208fdb2a6_92f0be286703b4b8c906bcf1c95c7f3bbee5bd38-1000x1000.svg)
 
@@ -189,7 +180,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-now-available-in-microsoft-365-copilot  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** now, microsoft, claude, available, is  
+**Keywords:** microsoft, is, now, claude, available  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
 
@@ -197,8 +188,8 @@ Total documents: 171
 **File:** `/claude-blog/amazon-bedrock-general-availability.md`  
 **Source:** https://claude.com/blog/amazon-bedrock-general-availability  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api, amazon-bedrock  
-**Keywords:** bedrock, now, available, claude, amazon  
+**Categories:** agents, amazon-bedrock, api, tools  
+**Keywords:** amazon, now, claude, bedrock, available  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
@@ -207,7 +198,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/research  
 **Updated:** 2026-06-22  
 **Categories:** agents, search  
-**Keywords:** new, claude, research, takes, places  
+**Keywords:** research, places, claude, takes, new  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)
 
@@ -216,7 +207,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** code, london, claude, 2026, w  
+**Keywords:** 2026, w, claude, london, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
@@ -225,7 +216,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** common, workflow, agents, patterns, ai  
+**Keywords:** ai, common, agents, workflow, patterns  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
@@ -233,8 +224,8 @@ Total documents: 171
 **File:** `/claude-blog/cowork-plugins-finance.md`  
 **Source:** https://claude.com/blog/cowork-plugins-finance  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, plugins  
-**Keywords:** cowork, finance, plugins  
+**Categories:** agents, plugins, tools  
+**Keywords:** cowork, plugins, finance  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
@@ -243,7 +234,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/deploying-claude-across-financial-services  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** deploying, claude, services, financial, across  
+**Keywords:** services, financial, claude, across, deploying  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
@@ -252,7 +243,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/deploying-claude-across-the-legal-industry  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** deploying, claude, industry, legal, across  
+**Keywords:** industry, claude, legal, across, deploying  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
@@ -260,8 +251,8 @@ Total documents: 171
 **File:** `/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md`  
 **Source:** https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork  
 **Updated:** 2026-06-22  
-**Categories:** agents, enterprise, claude-code  
-**Keywords:** deploying, enterprise, agentic, ai, across  
+**Categories:** agents, claude-code, enterprise  
+**Keywords:** enterprise, agentic, ai, across, deploying  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
 
@@ -270,7 +261,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/harnessing-claudes-intelligence  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** claude, s, intelligence, harnessing  
+**Keywords:** harnessing, claude, intelligence, s  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
@@ -279,7 +270,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** self, data, anthropic, enables, service  
+**Keywords:** self, data, enables, anthropic, service  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
@@ -287,8 +278,8 @@ Total documents: 171
 **File:** `/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md`  
 **Source:** https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, claude-code  
-**Keywords:** claude, coderabbit, used, build, agent  
+**Categories:** agents, claude-code, tools  
+**Keywords:** coderabbit, agent, claude, build, used  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
@@ -297,7 +288,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/subagents-in-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** code, claude, when, use, subagents  
+**Keywords:** subagents, when, claude, use, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
@@ -306,7 +297,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code, agent-skills  
-**Keywords:** skills, create, steps, key, limitations  
+**Keywords:** create, steps, skills, limitations, key  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
 
@@ -315,7 +306,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/scaling-agentic-coding  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** scale, your, coding, agentic, across  
+**Keywords:** agentic, coding, your, across, scale  
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
@@ -323,8 +314,8 @@ Total documents: 171
 **File:** `/claude-blog/introducing-dynamic-workflows-in-claude-code.md`  
 **Source:** https://claude.com/blog/introducing-dynamic-workflows-in-claude-code  
 **Updated:** 2026-06-22  
-**Categories:** agents, api, claude-code  
-**Keywords:** dynamic, code, claude, workflows  
+**Categories:** agents, claude-code, api  
+**Keywords:** code, workflows, claude, dynamic  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
@@ -332,7 +323,7 @@ Total documents: 171
 **File:** `/claude-blog/claude-platform-on-aws.md`  
 **Source:** https://claude.com/blog/claude-platform-on-aws  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api, agent-skills  
+**Categories:** agents, api, agent-skills, tools  
 **Keywords:** platform, claude, aws  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
@@ -342,7 +333,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/web-search-api  
 **Updated:** 2026-06-22  
 **Categories:** agents, api, search  
-**Keywords:** api, web, anthropic, search  
+**Keywords:** web, api, anthropic, search  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -350,8 +341,8 @@ Total documents: 171
 **File:** `/claude-blog/introduction-to-agentic-coding.md`  
 **Source:** https://claude.com/fr/blog/introduction-to-agentic-coding  
 **Updated:** 2026-06-22  
-**Categories:** agents, api, claude-code  
-**Keywords:** codage, au, introduction, agentique  
+**Categories:** agents, claude-code, api  
+**Keywords:** au, agentique, codage, introduction  
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
@@ -360,7 +351,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code, agent-skills  
-**Keywords:** code, claude, lessons, from, building  
+**Keywords:** from, building, lessons, claude, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
@@ -369,7 +360,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/context-management  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** claude, platform, context, managing, developer  
+**Keywords:** developer, platform, context, managing, claude  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
@@ -378,7 +369,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** winners, opus, of, meet, built  
+**Keywords:** of, winners, meet, built, opus  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
@@ -387,7 +378,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/multi-agent-coordination-patterns  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** multi, coordination, five, agent, patterns  
+**Keywords:** five, agent, coordination, multi, patterns  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22562f020146c9ec973_f8f4644253bde2f901550431b871b6dcf91e5d9d-1000x1000.svg)
 
@@ -395,8 +386,8 @@ Total documents: 171
 **File:** `/claude-blog/agent-capabilities-api.md`  
 **Source:** https://claude.com/blog/agent-capabilities-api  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api  
-**Keywords:** new, agents, anthropic, capabilities, building  
+**Categories:** agents, api, tools  
+**Keywords:** building, agents, capabilities, anthropic, new  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)
 
@@ -405,7 +396,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/new-in-claude-managed-agents  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** new, claude, dreaming, agents, managed  
+**Keywords:** agents, claude, new, dreaming, managed  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
@@ -414,7 +405,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/whats-new-in-claude-managed-agents  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** new, claude, agents, run, managed  
+**Keywords:** agents, claude, run, new, managed  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
@@ -422,8 +413,8 @@ Total documents: 171
 **File:** `/claude-blog/claude-managed-agents-updates.md`  
 **Source:** https://claude.com/blog/claude-managed-agents-updates  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, mcp  
-**Keywords:** new, claude, self, agents, managed  
+**Categories:** agents, mcp, tools  
+**Keywords:** self, agents, claude, new, managed  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
@@ -432,7 +423,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense  
 **Updated:** 2026-06-22  
 **Categories:** agents, api, security  
-**Keywords:** preparing, program, your, security, ai  
+**Keywords:** preparing, security, ai, your, program  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
@@ -441,7 +432,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/product-development-in-the-agentic-era  
 **Updated:** 2026-06-22  
 **Categories:** agents  
-**Keywords:** product, agentic, era, development  
+**Keywords:** era, development, agentic, product  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
@@ -449,8 +440,8 @@ Total documents: 171
 **File:** `/claude-blog/prompt-caching.md`  
 **Source:** https://claude.com/blog/prompt-caching  
 **Updated:** 2026-06-22  
-**Categories:** agents, api, caching, prompt-engineering  
-**Keywords:** claude, prompt, caching  
+**Categories:** agents, api, prompt-engineering, caching  
+**Keywords:** prompt, claude, caching  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22606367ec36d6a7179_6380b3c2dc9e4011a3cd96fec382bd9197511e31-1000x1000.svg)
 
@@ -459,7 +450,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-code-desktop-redesign  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** code, claude, redesigning, desktop, parallel  
+**Keywords:** redesigning, claude, desktop, parallel, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
@@ -468,7 +459,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/running-an-ai-native-engineering-org  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** native, engineering, running, ai, org  
+**Keywords:** engineering, ai, org, native, running  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
@@ -476,8 +467,8 @@ Total documents: 171
 **File:** `/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md`  
 **Source:** https://claude.com/ko/blog/extending-claude-capabilities-with-skills-mcp-servers  
 **Updated:** 2026-06-22  
-**Categories:** agents, agent-skills, mcp  
-**Keywords:** skills, 역량, 서버로, claude의, mcp  
+**Categories:** agents, mcp, agent-skills  
+**Keywords:** 서버로, 역량, skills, mcp, claude의  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
 
@@ -485,8 +476,8 @@ Total documents: 171
 **File:** `/claude-blog/skills-explained.md`  
 **Source:** https://claude.com/blog/skills-explained  
 **Updated:** 2026-06-22  
-**Categories:** agents, api, claude-code, agent-skills  
-**Keywords:** prompts, skills, compares, explained  
+**Categories:** agents, claude-code, api, agent-skills  
+**Keywords:** explained, skills, compares, prompts  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -495,7 +486,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/organization-skills-and-directory  
 **Updated:** 2026-06-22  
 **Categories:** agents, agent-skills  
-**Keywords:** partners, organizations, skills, ecosystem  
+**Keywords:** organizations, skills, ecosystem, partners  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
@@ -504,7 +495,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/building-agents-with-skills-equipping-agents-for-specialized-work  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code, agent-skills  
-**Keywords:** 전문, skills로, 구축, 에이전트, 업무를  
+**Keywords:** 전문, skills로, 업무를, 구축, 에이전트  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
 
@@ -513,7 +504,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code, agent-skills  
-**Keywords:** md, code, claude, steering  
+**Keywords:** code, claude, md, steering  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
@@ -522,7 +513,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/the-claude-cowork-product-guide  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** product, cowork, claude, guide  
+**Keywords:** cowork, guide, claude, product  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
@@ -530,8 +521,8 @@ Total documents: 171
 **File:** `/claude-blog/the-advisor-strategy.md`  
 **Source:** https://claude.com/blog/the-advisor-strategy  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api  
-**Keywords:** intelligence, advisor, agents, strategy, give  
+**Categories:** agents, api, tools  
+**Keywords:** intelligence, advisor, give, agents, strategy  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c7f111435762ad994_1b398dbdfa4995ce5ce943aa87d8b78b2c2ba065-1000x1000.svg)
 
@@ -540,7 +531,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/building-with-claude-managed-agents  
 **Updated:** 2026-06-22  
 **Categories:** agents, api  
-**Keywords:** evolution, of, agentic, surfaces, building  
+**Keywords:** agentic, of, building, evolution, surfaces  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
@@ -548,8 +539,8 @@ Total documents: 171
 **File:** `/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md`  
 **Source:** https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html  
 **Updated:** 2026-06-22  
-**Categories:** agents, prompt-engineering, claude-code  
-**Keywords:** code, claude, effectiveness, unreasonable, using  
+**Categories:** agents, claude-code, prompt-engineering  
+**Keywords:** unreasonable, using, claude, code, effectiveness  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
@@ -558,7 +549,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/using-claude-code-session-management-and-1m-context  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code  
-**Keywords:** code, claude, session, management, using  
+**Keywords:** using, management, session, claude, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
@@ -566,8 +557,8 @@ Total documents: 171
 **File:** `/claude-blog/key-benefits-transitioning-agentic-coding.md`  
 **Source:** https://claude.com/blog/key-benefits-transitioning-agentic-coding  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api, claude-code  
-**Keywords:** benefits, transitioning, key, are, of  
+**Categories:** agents, claude-code, api, tools  
+**Keywords:** of, transitioning, benefits, are, key  
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
@@ -575,8 +566,8 @@ Total documents: 171
 **File:** `/claude-blog/how-anthropic-teams-use-claude-code.md`  
 **Source:** https://claude.com/de/blog/how-anthropic-teams-use-claude-code  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, claude-code  
-**Keywords:** code, wie, claude, teams, anthropic  
+**Categories:** agents, claude-code, tools  
+**Keywords:** teams, claude, code, anthropic, wie  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
@@ -585,7 +576,7 @@ Total documents: 171
 **Source:** https://claude.com/de/blog/how-enterprises-are-building-ai-agents-in-2026  
 **Updated:** 2026-06-22  
 **Categories:** agents, enterprise  
-**Keywords:** wie, agenten, 2026, ki, unternehmen  
+**Keywords:** 2026, agenten, ki, wie, unternehmen  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b2403b092e0358cbd_5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
 
@@ -594,7 +585,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/zero-trust-for-ai-agents  
 **Updated:** 2026-06-22  
 **Categories:** agents, tools  
-**Keywords:** agents, zero, trust, ai  
+**Keywords:** agents, trust, ai, zero  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
@@ -603,7 +594,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/improving-skill-creator-test-measure-and-refine-agent-skills  
 **Updated:** 2026-06-22  
 **Categories:** agents, claude-code, agent-skills  
-**Keywords:** skills, skill, creator, agent, 개선  
+**Keywords:** creator, 개선, skill, agent, skills  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
@@ -611,8 +602,8 @@ Total documents: 171
 **File:** `/claude-blog/improved-web-search-with-dynamic-filtering.md`  
 **Source:** https://claude.com/ko/blog/improved-web-search-with-dynamic-filtering  
 **Updated:** 2026-06-22  
-**Categories:** agents, tools, api, search  
-**Keywords:** 웹, 동적, 검색, 통해, 필터링을  
+**Categories:** agents, search, api, tools  
+**Keywords:** 웹, 필터링을, 검색, 통해, 동적  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
@@ -622,71 +613,62 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-2-amazon-bedrock  
 **Updated:** 2026-06-22  
 **Categories:** amazon-bedrock, api  
-**Keywords:** bedrock, amazon, claude, 2  
+**Keywords:** 2, amazon, claude, bedrock  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
-## Api (17 documents)
-### APIをシームレスに統合する方法
-**File:** `/claude-blog/integrate-apis-seamlessly.md`  
-**Source:** https://claude.com/ja/blog/integrate-apis-seamlessly  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** apiをシームレスに統合する方法  
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
+## Api (10 documents)
 ### Audit Claude Platform activity with the Compliance API
 **File:** `/claude-blog/claude-platform-compliance-api.md`  
 **Source:** https://claude.com/blog/claude-platform-compliance-api  
 **Updated:** 2026-06-22  
 **Categories:** api  
-**Keywords:** claude, activity, platform, audit, compliance  
+**Keywords:** activity, platform, claude, audit, compliance  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
-
-### Auto mode for Claude Code
-**File:** `/claude-blog/auto-mode.md`  
-**Source:** https://claude.com/blog/auto-mode  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** claude, mode, code, auto  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
 ### Build and share AI-powered apps with Claude
 **File:** `/claude-blog/claude-powered-artifacts.md`  
 **Source:** https://claude.com/blog/claude-powered-artifacts  
 **Updated:** 2026-06-22  
 **Categories:** api, artifacts  
-**Keywords:** build, powered, share, ai, apps  
+**Keywords:** powered, ai, share, build, apps  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-### CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기
-**File:** `/claude-blog/using-claude-md-files.md`  
-**Source:** https://claude.com/ko/blog/using-claude-md-files  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** md, 사용, claude, 코드베이스에, 파일  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Claude Developer Platform の構造化出力
 **File:** `/claude-blog/structured-outputs-on-the-claude-developer-platform.md`  
 **Source:** https://claude.com/ja/blog/structured-outputs-on-the-claude-developer-platform  
 **Updated:** 2026-06-22  
 **Categories:** api, structured-outputs  
-**Keywords:** の構造化出力, platform, claude, developer  
+**Keywords:** developer, claude, platform, の構造化出力  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+
+### Claude can now use tools
+**File:** `/claude-blog/tool-use-ga.md`  
+**Source:** https://claude.com/blog/tool-use-ga  
+**Updated:** 2026-06-22  
+**Categories:** api, tools  
+**Keywords:** claude, can, tools, now, use  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+
+### Claude now works with more security and compliance tools
+**File:** `/claude-blog/compliance-api-security-partners.md`  
+**Source:** https://claude.com/blog/compliance-api-security-partners  
+**Updated:** 2026-06-22  
+**Categories:** api, security, tools  
+**Keywords:** works, security, claude, more, now  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### Fine-tune Claude 3 Haiku in Amazon Bedrock
 **File:** `/claude-blog/fine-tune-claude-3-haiku.md`  
 **Source:** https://claude.com/blog/fine-tune-claude-3-haiku  
 **Updated:** 2026-06-22  
 **Categories:** api  
-**Keywords:** haiku, claude, fine, tune, 3  
+**Keywords:** haiku, 3, tune, claude, fine  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
@@ -695,70 +677,25 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book  
 **Updated:** 2026-06-22  
 **Categories:** api  
-**Keywords:** claude, uses, leader, anthropic, sales  
+**Keywords:** sales, leader, claude, anthropic, uses  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
-### Introducing Citations on the Anthropic API
-**File:** `/claude-blog/introducing-citations-api.md`  
-**Source:** https://claude.com/blog/introducing-citations-api  
-**Updated:** 2026-06-22  
-**Categories:** api, citations  
-**Keywords:** api, anthropic, citations  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
-
-### Introducing routines in Claude Code
-**File:** `/claude-blog/introducing-routines-in-claude-code.md`  
-**Source:** https://claude.com/blog/introducing-routines-in-claude-code  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** routines, code, claude  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
 
 ### Introducing the Message Batches API
 **File:** `/claude-blog/message-batches-api.md`  
 **Source:** https://claude.com/blog/message-batches-api  
 **Updated:** 2026-06-22  
 **Categories:** api, batch-processing  
-**Keywords:** batches, api, message  
+**Keywords:** api, message, batches  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2239bf93c8cb72a719a_a0655eda5d58588738240e9960790468a3d2c9c0-1000x1000.svg)
-
-### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
-**File:** `/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md`  
-**Source:** https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** our, winners, of, meet, built  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
-
-### Product management on the AI exponential
-**File:** `/claude-blog/product-management-on-the-ai-exponential.md`  
-**Source:** https://claude.com/blog/product-management-on-the-ai-exponential  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** management, product, ai, exponential  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-### Secure access to the Claude Platform with Workload Identity Federation
-**File:** `/claude-blog/workload-identity-federation.md`  
-**Source:** https://claude.com/blog/workload-identity-federation  
-**Updated:** 2026-06-22  
-**Categories:** api, claude-code  
-**Keywords:** secure, claude, platform, workload, access  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### Token-saving updates on the Anthropic API
 **File:** `/claude-blog/token-saving-updates.md`  
 **Source:** https://claude.com/blog/token-saving-updates  
 **Updated:** 2026-06-22  
 **Categories:** api  
-**Keywords:** token, api, saving, anthropic, updates  
+**Keywords:** saving, token, updates, anthropic, api  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)
 
@@ -767,36 +704,37 @@ Total documents: 171
 **Source:** https://claude.com/blog/workspaces  
 **Updated:** 2026-06-22  
 **Categories:** api  
-**Keywords:** console, api, workspaces, anthropic  
+**Keywords:** workspaces, api, anthropic, console  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
-### エージェントスキルの紹介
-**File:** `/claude-blog/skills.md`  
-**Source:** https://claude.com/ja/blog/skills  
+## Artifacts (1 documents)
+### Turn ideas into interactive AI-powered apps
+**File:** `/claude-blog/build-artifacts.md`  
+**Source:** https://claude.com/blog/build-artifacts  
 **Updated:** 2026-06-22  
-**Categories:** api, claude-code, agent-skills  
-**Keywords:** エージェントスキルの紹介  
+**Categories:** artifacts, tools  
+**Keywords:** ai, into, turn, interactive, ideas  
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2307f9555d7c1bc46cb_77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-## Caching (1 documents)
-### Lessons from building Claude Code: Prompt caching is everything
-**File:** `/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md`  
-**Source:** https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything  
+## Citations (1 documents)
+### Introducing Citations on the Anthropic API
+**File:** `/claude-blog/introducing-citations-api.md`  
+**Source:** https://claude.com/blog/introducing-citations-api  
 **Updated:** 2026-06-22  
-**Categories:** caching, claude-code, agents, tools, prompt-engineering  
-**Keywords:** code, claude, lessons, from, building  
+**Categories:** citations, api  
+**Keywords:** citations, api, anthropic  
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
 
-## Claude Code (23 documents)
+## Claude Code (48 documents)
 ### A complete guide to building skills for Claude
 **File:** `/claude-blog/complete-guide-to-building-skills-for-claude.md`  
 **Source:** https://claude.com/blog/complete-guide-to-building-skills-for-claude  
 **Updated:** 2026-06-22  
 **Categories:** claude-code, agent-skills  
-**Keywords:** claude, skills, complete, guide, building  
+**Keywords:** guide, building, complete, claude, skills  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
@@ -805,16 +743,34 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/how-ai-helps-break-cost-barrier-cobol-modernization  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** 장벽을, 현대화의, 비용, ai가, cobol  
+**Keywords:** 현대화의, 장벽을, ai가, 비용, cobol  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+
+### APIをシームレスに統合する方法
+**File:** `/claude-blog/integrate-apis-seamlessly.md`  
+**Source:** https://claude.com/ja/blog/integrate-apis-seamlessly  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** apiをシームレスに統合する方法  
+
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### Auto mode for Claude Code
+**File:** `/claude-blog/auto-mode.md`  
+**Source:** https://claude.com/blog/auto-mode  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** code, claude, mode, auto  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
 ### Best practices for getting started with Claude Cowork
 **File:** `/claude-blog/best-practices-for-getting-started-with-claude-cowork.md`  
 **Source:** https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** claude, practices, started, best, getting  
+**Keywords:** best, getting, claude, practices, started  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
@@ -827,21 +783,39 @@ Total documents: 171
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
+### CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기
+**File:** `/claude-blog/using-claude-md-files.md`  
+**Source:** https://claude.com/ko/blog/using-claude-md-files  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** md, 파일, 코드베이스에, 사용, claude  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
 ### Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp
 **File:** `/claude-blog/claude-api-skill.md`  
 **Source:** https://claude.com/blog/claude-api-skill  
 **Updated:** 2026-06-22  
-**Categories:** claude-code, agents, tools, api, agent-skills  
-**Keywords:** now, claude, coderabbit, skill, api  
+**Categories:** claude-code, agent-skills, agents, tools, api  
+**Keywords:** skill, coderabbit, claude, now, api  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+
+### Claude Code mit Plugins anpassen
+**File:** `/claude-blog/claude-code-plugins.md`  
+**Source:** https://claude.com/de/blog/claude-code-plugins  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, agents, tools, plugins, mcp  
+**Keywords:** anpassen, claude, mit, plugins, code  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Claude Code now supports artifacts
 **File:** `/claude-blog/artifacts-in-claude-code.md`  
 **Source:** https://claude.com/blog/artifacts-in-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** claude-code, artifacts  
-**Keywords:** now, code, claude, artifacts, supports  
+**Keywords:** supports, claude, now, code, artifacts  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
 
@@ -850,16 +824,43 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-to-configure-hooks  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** power, code, customization, claude, user  
+**Keywords:** customization, user, power, claude, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
+
+### Claude Codeでセキュリティレビューを自動化
+**File:** `/claude-blog/automate-security-reviews-with-claude-code.md`  
+**Source:** https://claude.com/ja/blog/automate-security-reviews-with-claude-code  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, security  
+**Keywords:** claude, codeでセキュリティレビューを自動化  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+
+### Claude Design now stays on brand for daily work
+**File:** `/claude-blog/claude-design-stays-on-brand-for-daily-work.md`  
+**Source:** https://claude.com/blog/claude-design-stays-on-brand-for-daily-work  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api, tools  
+**Keywords:** stays, design, claude, brand, now  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+
+### Claude Enterprise, now available self-serve
+**File:** `/claude-blog/self-serve-enterprise.md`  
+**Source:** https://claude.com/blog/self-serve-enterprise  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, enterprise, tools  
+**Keywords:** enterprise, self, now, claude, available  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
 ### Claude를 더 유능한 전기 엔지니어로 만들기
 **File:** `/claude-blog/making-claude-a-better-electrical-engineer.md`  
 **Source:** https://claude.com/ko/blog/making-claude-a-better-electrical-engineer  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** 엔지니어로, claude를, 전기, 유능한, 더  
+**Keywords:** 전기, 엔지니어로, claude를, 유능한, 더  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
@@ -868,7 +869,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/code-with-claude-san-francisco-london-tokyo  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** comes, code, claude, san, francisco  
+**Keywords:** san, comes, francisco, claude, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b2403b092e0358cbd_5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)
 
@@ -877,16 +878,25 @@ Total documents: 171
 **Source:** https://claude.com/fr/blog/building-companies-with-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** d, trois, comment, startups, yc  
+**Keywords:** trois, comment, yc, startups, d  
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
+
+### Customize Cowork with plugins
+**File:** `/claude-blog/cowork-plugins.md`  
+**Source:** https://claude.com/blog/cowork-plugins  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, agent-skills, agents, tools, plugins  
+**Keywords:** cowork, plugins, customize  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
 ### Fix software bugs faster with Claude
 **File:** `/claude-blog/fix-software-bugs-faster-with-claude.md`  
 **Source:** https://claude.com/blog/fix-software-bugs-faster-with-claude  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** claude, fix, bugs, software, faster  
+**Keywords:** software, faster, fix, claude, bugs  
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
@@ -895,16 +905,25 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-anthropic-uses-claude-marketing  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** team, growth, s, anthropic, marketing  
+**Keywords:** team, s, marketing, anthropic, growth  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f06154e381e9a1203_fb2273e9cacb0299a3ee1bf1d76d0bff95ba4e15-1000x1000.svg)
+
+### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
+**File:** `/claude-blog/how-anthropic-uses-claude-cybersecurity.md`  
+**Source:** https://claude.com/blog/how-anthropic-uses-claude-cybersecurity  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, security, tools  
+**Keywords:** team, cybersecurity, built, anthropic, s  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### How Claude Code works in large codebases: Best practices and where to start
 **File:** `/claude-blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md`  
 **Source:** https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** works, code, claude, codebases, large  
+**Keywords:** works, codebases, claude, large, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -913,43 +932,151 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** technical, project, non, manager, built  
+**Keywords:** manager, project, built, technical, non  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+
+### How one Anthropic seller rebuilt his team's workflows with Claude Code
+**File:** `/claude-blog/how-anthropic-uses-claude-gtm-engineering.md`  
+**Source:** https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api, tools  
+**Keywords:** one, rebuilt, his, seller, anthropic  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
+
+### Introducing routines in Claude Code
+**File:** `/claude-blog/introducing-routines-in-claude-code.md`  
+**Source:** https://claude.com/blog/introducing-routines-in-claude-code  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** claude, routines, code  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+
+### Lessons from building Claude Code: Prompt caching is everything
+**File:** `/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md`  
+**Source:** https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, caching, agents, prompt-engineering, tools  
+**Keywords:** from, building, lessons, claude, code  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+
+### Making Claude Cowork ready for enterprise
+**File:** `/claude-blog/cowork-for-enterprise.md`  
+**Source:** https://claude.com/blog/cowork-for-enterprise  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, enterprise  
+**Keywords:** enterprise, making, cowork, claude, ready  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
+**File:** `/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md`  
+**Source:** https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** of, winners, meet, built, our  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
 ### Meet the winners of our Claude Opus 4.8 Build Day hackathon
 **File:** `/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md`  
 **Source:** https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** claude, our, winners, of, meet  
+**Keywords:** of, winners, meet, claude, our  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Observability for developers building connectors
+**File:** `/claude-blog/observability-for-developers-building-connectors.md`  
+**Source:** https://claude.com/blog/observability-for-developers-building-connectors  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, connectors  
+**Keywords:** building, observability, connectors, developers  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Onboarding Claude Code like a new developer: Lessons from 17 years of development
 **File:** `/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md`  
 **Source:** https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** new, code, claude, like, onboarding  
+**Keywords:** like, onboarding, claude, code, new  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+
+### Optimize code performance quickly
+**File:** `/claude-blog/optimize-code-performance-quickly.md`  
+**Source:** https://claude.com/blog/optimize-code-performance-quickly  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api, tools  
+**Keywords:** optimize, code, quickly, performance  
+
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### Product management on the AI exponential
+**File:** `/claude-blog/product-management-on-the-ai-exponential.md`  
+**Source:** https://claude.com/blog/product-management-on-the-ai-exponential  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** management, ai, exponential, product  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+### Put Claude to work on your computer
+**File:** `/claude-blog/dispatch-and-computer-use.md`  
+**Source:** https://claude.com/blog/dispatch-and-computer-use  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, tools  
+**Keywords:** work, your, claude, computer, put  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+### Remote MCP support in Claude Code
+**File:** `/claude-blog/claude-code-remote-mcp.md`  
+**Source:** https://claude.com/blog/claude-code-remote-mcp  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, mcp, tools  
+**Keywords:** support, claude, remote, code, mcp  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+
+### Secure access to the Claude Platform with Workload Identity Federation
+**File:** `/claude-blog/workload-identity-federation.md`  
+**Source:** https://claude.com/blog/workload-identity-federation  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api  
+**Keywords:** platform, workload, secure, access, claude  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### Seeing like an agent: how we design tools in Claude Code
 **File:** `/claude-blog/seeing-like-an-agent.md`  
 **Source:** https://claude.com/blog/seeing-like-an-agent  
 **Updated:** 2026-06-22  
-**Categories:** claude-code, agents, tools, api, agent-skills  
-**Keywords:** seeing, we, like, agent, design  
+**Categories:** claude-code, agent-skills, agents, tools, api  
+**Keywords:** we, design, like, agent, seeing  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### The founder's playbook: Building an AI-native startup
+**File:** `/claude-blog/the-founders-playbook.md`  
+**Source:** https://claude.com/de/blog/the-founders-playbook  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api, tools  
+**Keywords:** building, ai, founder, playbook, s  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
 ### Understand Claude Code’s impact with contribution metrics
 **File:** `/claude-blog/contribution-metrics.md`  
 **Source:** https://claude.com/blog/contribution-metrics  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** code, claude, impact, s, understand  
+**Keywords:** impact, understand, claude, code, s  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
@@ -962,21 +1089,57 @@ Total documents: 171
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
+### Verbesserung des Frontend-Designs durch Skills
+**File:** `/claude-blog/improving-frontend-design-through-skills.md`  
+**Source:** https://claude.com/de/blog/improving-frontend-design-through-skills  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, agent-skills  
+**Keywords:** des, frontend, verbesserung, durch, designs  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22dc2ead61fff4f6e1d_589b94b913c4cee1c3c1ce2cb04f638d09c465b1-1000x1000.svg)
+
 ### Wir testen Claude in Chrome
 **File:** `/claude-blog/claude-for-chrome.md`  
 **Source:** https://claude.com/de/blog/claude-for-chrome  
 **Updated:** 2026-06-22  
 **Categories:** claude-code, chrome-extension  
-**Keywords:** wir, testen, chrome, claude  
+**Keywords:** chrome, claude, wir, testen  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+
+### エージェントスキルの紹介
+**File:** `/claude-blog/skills.md`  
+**Source:** https://claude.com/ja/blog/skills  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, api, agent-skills  
+**Keywords:** エージェントスキルの紹介  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2307f9555d7c1bc46cb_77dd9077412abc790bf2bc6fa3383b37724d6305-1000x1000.svg)
+
+### レスポンシブWebレイアウトを構築
+**File:** `/claude-blog/build-responsive-web-layouts.md`  
+**Source:** https://claude.com/ja/blog/build-responsive-web-layouts  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, tools  
+**Keywords:** レスポンシブwebレイアウトを構築  
+
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### 권한 프롬프트를 넘어서: Claude Code를 더 안전하고 자율적으로 만들기
+**File:** `/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md`  
+**Source:** https://claude.com/ko/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous  
+**Updated:** 2026-06-22  
+**Categories:** claude-code, prompt-engineering  
+**Keywords:** 권한, 프롬프트를, 넘어서, claude, code를  
+
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
 ### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
 **File:** `/claude-blog/preview-review-and-merge-with-claude-code.md`  
 **Source:** https://claude.com/ko/blog/preview-review-and-merge-with-claude-code  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** 자동화된, claude, 미리보기, 데스크톱용, code에  
+**Keywords:** 데스크톱용, code에, 미리보기, 자동화된, claude  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
 
@@ -985,7 +1148,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/claude-code-on-the-web  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** 웹용, code, claude  
+**Keywords:** code, claude, 웹용  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
@@ -994,17 +1157,17 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/1m-context-ga  
 **Updated:** 2026-06-22  
 **Categories:** claude-code  
-**Keywords:** sonnet, 4, 6과, opus, 이제  
+**Keywords:** sonnet, 4, 6과, 이제, opus  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
-## Connectors (3 documents)
+## Connectors (2 documents)
 ### Discover tools that work with Claude
 **File:** `/claude-blog/connectors-directory.md`  
 **Source:** https://claude.com/blog/connectors-directory  
 **Updated:** 2026-06-22  
 **Categories:** connectors, tools  
-**Keywords:** claude, tools, work, that, discover  
+**Keywords:** work, discover, claude, tools, that  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
@@ -1013,46 +1176,56 @@ Total documents: 171
 **Source:** https://claude.com/blog/connectors-for-everyday-life  
 **Updated:** 2026-06-22  
 **Categories:** connectors, tools  
-**Keywords:** new, life, claude, connectors, everyday  
+**Keywords:** everyday, connectors, claude, life, new  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
 
-### Observability for developers building connectors
-**File:** `/claude-blog/observability-for-developers-building-connectors.md`  
-**Source:** https://claude.com/blog/observability-for-developers-building-connectors  
+## Console (1 documents)
+### Get to production faster with the upgraded Anthropic Console
+**File:** `/claude-blog/upgraded-anthropic-console.md`  
+**Source:** https://claude.com/blog/upgraded-anthropic-console  
 **Updated:** 2026-06-22  
-**Categories:** connectors, claude-code  
-**Keywords:** connectors, developers, observability, building  
+**Categories:** console, api, tools  
+**Keywords:** production, upgraded, faster, get, anthropic  
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-## Enterprise (3 documents)
+## Enterprise (4 documents)
+### Centrally manage authorization for MCP connectors
+**File:** `/claude-blog/enterprise-managed-auth.md`  
+**Source:** https://claude.com/blog/enterprise-managed-auth  
+**Updated:** 2026-06-22  
+**Categories:** enterprise, tools  
+**Keywords:** connectors, authorization, centrally, mcp, manage  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
+
 ### Claude for Enterprise
 **File:** `/claude-blog/claude-for-enterprise.md`  
 **Source:** https://claude.com/blog/claude-for-enterprise  
 **Updated:** 2026-06-22  
 **Categories:** enterprise  
-**Keywords:** enterprise, claude  
+**Keywords:** claude, enterprise  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Cowork and plugins for teams across the enterprise
+**File:** `/claude-blog/cowork-plugins-across-enterprise.md`  
+**Source:** https://claude.com/blog/cowork-plugins-across-enterprise  
+**Updated:** 2026-06-22  
+**Categories:** enterprise, agent-skills, agents, plugins, api  
+**Keywords:** enterprise, cowork, teams, across, plugins  
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
 ### How leading retailers are turning AI pilots into enterprise-wide transformation
 **File:** `/claude-blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation.md`  
 **Source:** https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation  
 **Updated:** 2026-06-22  
 **Categories:** enterprise  
-**Keywords:** retailers, are, leading, turning, ai  
+**Keywords:** leading, ai, retailers, turning, are  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
-
-### Making Claude Cowork ready for enterprise
-**File:** `/claude-blog/cowork-for-enterprise.md`  
-**Source:** https://claude.com/blog/cowork-for-enterprise  
-**Updated:** 2026-06-22  
-**Categories:** enterprise, claude-code  
-**Keywords:** claude, cowork, ready, enterprise, making  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ## Google Vertex Ai (1 documents)
 ### Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized
@@ -1060,7 +1233,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-on-google-cloud-fedramp-high  
 **Updated:** 2026-06-22  
 **Categories:** google-vertex-ai  
-**Keywords:** claude, google, vertex, cloud, s  
+**Keywords:** google, vertex, cloud, claude, s  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
 
@@ -1070,7 +1243,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/claude-code-and-slack  
 **Updated:** 2026-06-22  
 **Categories:** integrations, claude-code  
-**Keywords:** code와, slack, claude  
+**Keywords:** slack, claude, code와  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
@@ -1083,33 +1256,24 @@ Total documents: 171
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)
 
-## Plugins (3 documents)
-### Claude Code mit Plugins anpassen
-**File:** `/claude-blog/claude-code-plugins.md`  
-**Source:** https://claude.com/de/blog/claude-code-plugins  
+## Mcp (2 documents)
+### Claude can now connect to your world
+**File:** `/claude-blog/integrations.md`  
+**Source:** https://claude.com/blog/integrations  
 **Updated:** 2026-06-22  
-**Categories:** plugins, claude-code, agents, tools, mcp  
-**Keywords:** mit, code, claude, plugins, anpassen  
+**Categories:** mcp, tools  
+**Keywords:** your, connect, claude, can, now  
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
-### Cowork and plugins for teams across the enterprise
-**File:** `/claude-blog/cowork-plugins-across-enterprise.md`  
-**Source:** https://claude.com/blog/cowork-plugins-across-enterprise  
+### モデルコンテキストプロトコルとは？AIをあなたの世界に接続
+**File:** `/claude-blog/what-is-model-context-protocol.md`  
+**Source:** https://claude.com/ja/blog/what-is-model-context-protocol  
 **Updated:** 2026-06-22  
-**Categories:** plugins, agents, api, enterprise, agent-skills  
-**Keywords:** plugins, cowork, teams, enterprise, across  
+**Categories:** mcp, tools  
+**Keywords:** aiをあなたの世界に接続, モデルコンテキストプロトコルとは  
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
-
-### Customize Cowork with plugins
-**File:** `/claude-blog/cowork-plugins.md`  
-**Source:** https://claude.com/blog/cowork-plugins  
-**Updated:** 2026-06-22  
-**Categories:** plugins, claude-code, agents, tools, agent-skills  
-**Keywords:** customize, cowork, plugins  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
 ## Product (15 documents)
 ### Anthropic이 법률 사무에 Claude를 활용하는 방법
@@ -1117,7 +1281,7 @@ Total documents: 171
 **Source:** https://claude.com/ko/blog/how-anthropic-uses-claude-for-legal  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** 활용하는, 사무에, 법률, claude를, anthropic이  
+**Keywords:** 법률, 사무에, claude를, anthropic이, 활용하는  
 
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
@@ -1126,7 +1290,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** launch, customers, behind, discovered, model  
+**Keywords:** model, behind, discovered, launch, customers  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
@@ -1135,7 +1299,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-for-foundation-models  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** platforms, building, intelligent, apple, apps  
+**Keywords:** intelligent, building, apple, platforms, apps  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
@@ -1144,7 +1308,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/trainium2-and-distillation  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** haiku, claude, 5, aws, 3  
+**Keywords:** 5, haiku, 3, claude, aws  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
@@ -1153,7 +1317,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/android-app  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** android, claude, app  
+**Keywords:** app, claude, android  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2282403b092e0358c06_e2fc86543710551b106de115176c0506c7f7e442-1000x1000.svg)
 
@@ -1180,7 +1344,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** claude, powerpoint, collaborate, excel, across  
+**Keywords:** excel, collaborate, claude, across, powerpoint  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
@@ -1189,7 +1353,7 @@ Total documents: 171
 **Source:** https://claude.com/de/blog/max-plan  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** plan, max, das, kann, der  
+**Keywords:** das, kann, plan, der, max  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
@@ -1198,7 +1362,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** team, finance, uses, s, anthropic  
+**Keywords:** finance, team, s, anthropic, uses  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
@@ -1207,7 +1371,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-anthropic-uses-claude-legal  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** cut, team, legal, s, anthropic  
+**Keywords:** team, legal, cut, anthropic, s  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
@@ -1216,7 +1380,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/carta-healthcare-clinical-abstractor  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** healthcare, carta, reason, ai, gets  
+**Keywords:** reason, ai, gets, carta, healthcare  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f755a66de024fd6651b1d_Object-Heartbeat.svg)
 
@@ -1225,7 +1389,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/driving-ai-transformation-with-claude  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** transformation, enterprises, are, driving, ai  
+**Keywords:** driving, ai, enterprises, transformation, are  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
@@ -1234,7 +1398,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/using-llms-to-secure-source-code  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** secure, code, llms, source, using  
+**Keywords:** llms, secure, source, using, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
 
@@ -1243,17 +1407,17 @@ Total documents: 171
 **Source:** https://claude.com/blog/your-thinking-partner  
 **Updated:** 2026-06-22  
 **Categories:** product  
-**Keywords:** s, turning, claude, new  
+**Keywords:** claude, turning, new, s  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-## Prompt Engineering (6 documents)
+## Prompt Engineering (5 documents)
 ### Code w/ Claude SF 2026 recap: Building on the AI exponential
 **File:** `/claude-blog/code-w-claude-sf-2026-sf.md`  
 **Source:** https://claude.com/blog/code-w-claude-sf-2026-sf  
 **Updated:** 2026-06-22  
 **Categories:** prompt-engineering, claude-code, agent-skills  
-**Keywords:** code, claude, 2026, w, sf  
+**Keywords:** 2026, sf, w, claude, code  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -1262,7 +1426,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/evaluate-prompts  
 **Updated:** 2026-06-22  
 **Categories:** prompt-engineering  
-**Keywords:** prompts, console, developer, evaluate  
+**Keywords:** evaluate, console, prompts, developer  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
@@ -1271,7 +1435,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/prompt-generator  
 **Updated:** 2026-06-22  
 **Categories:** prompt-engineering  
-**Keywords:** prompts, better, generate, console, developer  
+**Keywords:** better, developer, prompts, generate, console  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
@@ -1280,7 +1444,7 @@ Total documents: 171
 **Source:** https://claude.com/blog/prompt-improver  
 **Updated:** 2026-06-22  
 **Categories:** prompt-engineering  
-**Keywords:** prompts, your, improve, console, developer  
+**Keywords:** developer, prompts, your, improve, console  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23073f253139349bf60_71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
 
@@ -1289,18 +1453,9 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-2-1-prompting  
 **Updated:** 2026-06-22  
 **Categories:** prompt-engineering  
-**Keywords:** claude, 2, long, prompting, context  
+**Keywords:** long, context, claude, 2, prompting  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a44550f2799b41ba4_c4a48972044d45df475f1dd84df3b74d221b6580-1000x1000.svg)
-
-### 권한 프롬프트를 넘어서: Claude Code를 더 안전하고 자율적으로 만들기
-**File:** `/claude-blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous.md`  
-**Source:** https://claude.com/ko/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous  
-**Updated:** 2026-06-22  
-**Categories:** prompt-engineering, claude-code  
-**Keywords:** 넘어서, claude, code를, 프롬프트를, 권한  
-
-![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
 ## Search (1 documents)
 ### Claude can now search the web
@@ -1308,26 +1463,17 @@ Total documents: 171
 **Source:** https://claude.com/blog/web-search  
 **Updated:** 2026-06-22  
 **Categories:** search  
-**Keywords:** now, claude, web, search, can  
+**Keywords:** web, claude, can, now, search  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
 
-## Security (3 documents)
-### Claude Codeでセキュリティレビューを自動化
-**File:** `/claude-blog/automate-security-reviews-with-claude-code.md`  
-**Source:** https://claude.com/ja/blog/automate-security-reviews-with-claude-code  
-**Updated:** 2026-06-22  
-**Categories:** security, claude-code  
-**Keywords:** claude, codeでセキュリティレビューを自動化  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
+## Security (2 documents)
 ### Claude Security is now in public beta
 **File:** `/claude-blog/claude-security-public-beta.md`  
 **Source:** https://claude.com/blog/claude-security-public-beta  
 **Updated:** 2026-06-22  
 **Categories:** security  
-**Keywords:** now, claude, public, security, is  
+**Keywords:** security, is, claude, public, now  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
@@ -1336,80 +1482,35 @@ Total documents: 171
 **Source:** https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity  
 **Updated:** 2026-06-22  
 **Categories:** security  
-**Keywords:** partners, our, are, opus, putting  
+**Keywords:** partners, our, opus, putting, are  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
 
-## Tools (24 documents)
+## Tools (8 documents)
 ### Advancing finance with Claude Opus 4.6
 **File:** `/claude-blog/opus-4-6-finance.md`  
 **Source:** https://claude.com/blog/opus-4-6-finance  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** claude, finance, advancing, 4, opus  
+**Keywords:** finance, advancing, 4, claude, opus  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-### Centrally manage authorization for MCP connectors
-**File:** `/claude-blog/enterprise-managed-auth.md`  
-**Source:** https://claude.com/blog/enterprise-managed-auth  
-**Updated:** 2026-06-22  
-**Categories:** tools, enterprise  
-**Keywords:** authorization, manage, mcp, connectors, centrally  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
-
-### Claude Design now stays on brand for daily work
-**File:** `/claude-blog/claude-design-stays-on-brand-for-daily-work.md`  
-**Source:** https://claude.com/blog/claude-design-stays-on-brand-for-daily-work  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, claude-code  
-**Keywords:** now, claude, brand, design, stays  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
-### Claude Enterprise, now available self-serve
-**File:** `/claude-blog/self-serve-enterprise.md`  
-**Source:** https://claude.com/blog/self-serve-enterprise  
-**Updated:** 2026-06-22  
-**Categories:** tools, enterprise, claude-code  
-**Keywords:** now, claude, self, enterprise, available  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
 ### Claude and your productivity platforms
 **File:** `/claude-blog/productivity-platforms.md`  
 **Source:** https://claude.com/blog/productivity-platforms  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** platforms, your, claude, productivity  
+**Keywords:** claude, your, productivity, platforms  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
-
-### Claude can now connect to your world
-**File:** `/claude-blog/integrations.md`  
-**Source:** https://claude.com/blog/integrations  
-**Updated:** 2026-06-22  
-**Categories:** tools, mcp  
-**Keywords:** now, claude, connect, your, can  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
-
-### Claude can now use tools
-**File:** `/claude-blog/tool-use-ga.md`  
-**Source:** https://claude.com/blog/tool-use-ga  
-**Updated:** 2026-06-22  
-**Categories:** tools, api  
-**Keywords:** now, claude, tools, use, can  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)
 
 ### Claude for the legal industry
 **File:** `/claude-blog/claude-for-the-legal-industry.md`  
 **Source:** https://claude.com/blog/claude-for-the-legal-industry  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** industry, claude, legal  
+**Keywords:** claude, industry, legal  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
@@ -1418,61 +1519,25 @@ Total documents: 171
 **Source:** https://claude.com/blog/claude-builds-visuals  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** now, charts, claude, creates, interactive  
+**Keywords:** charts, creates, claude, now, interactive  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
-
-### Claude now works with more security and compliance tools
-**File:** `/claude-blog/compliance-api-security-partners.md`  
-**Source:** https://claude.com/blog/compliance-api-security-partners  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, security  
-**Keywords:** now, works, more, claude, security  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-### Get to production faster with the upgraded Anthropic Console
-**File:** `/claude-blog/upgraded-anthropic-console.md`  
-**Source:** https://claude.com/blog/upgraded-anthropic-console  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, console  
-**Keywords:** get, production, faster, upgraded, anthropic  
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
-**File:** `/claude-blog/how-anthropic-uses-claude-cybersecurity.md`  
-**Source:** https://claude.com/blog/how-anthropic-uses-claude-cybersecurity  
-**Updated:** 2026-06-22  
-**Categories:** tools, security, claude-code  
-**Keywords:** cybersecurity, team, anthropic, s, built  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### How Kepler built verifiable AI for financial services with Claude
 **File:** `/claude-blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude.md`  
 **Source:** https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** ai, kepler, verifiable, financial, built  
+**Keywords:** ai, financial, built, kepler, verifiable  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
-### How one Anthropic seller rebuilt his team's workflows with Claude Code
-**File:** `/claude-blog/how-anthropic-uses-claude-gtm-engineering.md`  
-**Source:** https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, claude-code  
-**Keywords:** his, one, seller, rebuilt, anthropic  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
 ### Introducing the Claude Team plan and iOS app
 **File:** `/claude-blog/team-plan-and-ios.md`  
 **Source:** https://claude.com/blog/team-plan-and-ios  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** ios, team, claude, plan, app  
+**Keywords:** team, ios, plan, app, claude  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2291dd0432c25d14560_6d914851a169b4ff77e5de4a30c91f5a51520871-1000x1000.svg)
 
@@ -1481,79 +1546,16 @@ Total documents: 171
 **Source:** https://claude.com/blog/analysis-tool  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** analysis, ai, claude, tool  
+**Keywords:** ai, claude, analysis, tool  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
-### Optimize code performance quickly
-**File:** `/claude-blog/optimize-code-performance-quickly.md`  
-**Source:** https://claude.com/blog/optimize-code-performance-quickly  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, claude-code  
-**Keywords:** optimize, code, quickly, performance  
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### Put Claude to work on your computer
-**File:** `/claude-blog/dispatch-and-computer-use.md`  
-**Source:** https://claude.com/blog/dispatch-and-computer-use  
-**Updated:** 2026-06-22  
-**Categories:** tools, claude-code  
-**Keywords:** claude, your, work, put, computer  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
-### Remote MCP support in Claude Code
-**File:** `/claude-blog/claude-code-remote-mcp.md`  
-**Source:** https://claude.com/blog/claude-code-remote-mcp  
-**Updated:** 2026-06-22  
-**Categories:** tools, claude-code, mcp  
-**Keywords:** code, claude, support, remote, mcp  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
-
-### The founder's playbook: Building an AI-native startup
-**File:** `/claude-blog/the-founders-playbook.md`  
-**Source:** https://claude.com/de/blog/the-founders-playbook  
-**Updated:** 2026-06-22  
-**Categories:** tools, api, claude-code  
-**Keywords:** founder, s, ai, playbook, building  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
-
-### Turn ideas into interactive AI-powered apps
-**File:** `/claude-blog/build-artifacts.md`  
-**Source:** https://claude.com/blog/build-artifacts  
-**Updated:** 2026-06-22  
-**Categories:** tools, artifacts  
-**Keywords:** ai, into, ideas, turn, interactive  
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
 ### Your favorite work tools are now interactive connectors inside Claude
 **File:** `/claude-blog/interactive-tools-in-claude.md`  
 **Source:** https://claude.com/blog/interactive-tools-in-claude  
 **Updated:** 2026-06-22  
 **Categories:** tools  
-**Keywords:** your, tools, are, work, favorite  
+**Keywords:** work, favorite, your, tools, are  
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)
-
-### モデルコンテキストプロトコルとは？AIをあなたの世界に接続
-**File:** `/claude-blog/what-is-model-context-protocol.md`  
-**Source:** https://claude.com/ja/blog/what-is-model-context-protocol  
-**Updated:** 2026-06-22  
-**Categories:** tools, mcp  
-**Keywords:** aiをあなたの世界に接続, モデルコンテキストプロトコルとは  
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### レスポンシブWebレイアウトを構築
-**File:** `/claude-blog/build-responsive-web-layouts.md`  
-**Source:** https://claude.com/ja/blog/build-responsive-web-layouts  
-**Updated:** 2026-06-22  
-**Categories:** tools, claude-code  
-**Keywords:** レスポンシブwebレイアウトを構築  
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
