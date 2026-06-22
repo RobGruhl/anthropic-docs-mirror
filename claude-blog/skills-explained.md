@@ -1,5 +1,5 @@
 # Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
-*November 13, 2025*
+*March 5, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -11,7 +11,7 @@ Skills are an increasingly powerful tool for creating custom AI workflows and ag
 
 - ProductClaude appsClaude Platform
 
-- DateNovember 13, 2025
+- DateMarch 5, 2026
 
 - Reading time5min
 
@@ -396,21 +396,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### The evolution of agentic surfaces: building with Claude Managed Agents
+### What is Model Context Protocol? Connect AI to your world
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
-### Zero Trust for AI agents
+### Building AI agents for financial services
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
 
-### Best practices for computer and browser use with Claude
+### Building AI agents for healthcare and life sciences
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)
 
-### Building AI agents for the enterprise
+### Eight trends defining how software gets built in 2026
 
 ## Transform how your organization operates with Claude
 

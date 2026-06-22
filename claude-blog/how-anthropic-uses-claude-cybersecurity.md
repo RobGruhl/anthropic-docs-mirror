@@ -113,8 +113,6 @@ Get started with[Claude Code](https://www.anthropic.com/claude-code)today. Stay 
 
 *These results were generated using Claude Sonnet and Opus models.
 
-‍
-
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
@@ -127,21 +125,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
-
-### Meet the winners of our Claude Opus 4.8 Build Day hackathon
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+### Best practices for using Claude Opus 4.7 with Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)
 
-### Meet the winners of the Built with Opus 4.7 Claude Code hackathon
+### Meet the winners of our Built with Opus 4.6 Claude Code hackathon
 
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Beyond permission prompts: making Claude Code more secure and autonomous
+### Bringing Code Review to Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
+
+### Running an AI-native engineering org
 
 ## Transform how your organization operates with Claude
 

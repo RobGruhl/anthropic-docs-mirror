@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-21 21:32*
+*Last updated: 2026-06-22 00:38*
 
-Documents related to Claude Code across all sources (251 documents)
+Documents related to Claude Code across all sources (250 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
@@ -172,7 +172,7 @@ Documents related to Claude Code across all sources (251 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (82)
+## Claude.com Blog Posts (81)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
@@ -222,7 +222,6 @@ Documents related to Claude Code across all sources (251 documents)
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
 - [Improving frontend design through Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
 - [Improving skill-creator: Test, measure, and refine Agent Skills](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
-- [Inserimento di Claude Code come un nuovo sviluppatore: lezioni dopo 17 anni di sviluppo](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Introducing Agent Skills](/claude-blog/skills.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing routines in Claude Code](/claude-blog/introducing-routines-in-claude-code.md) - ![](https://cdn

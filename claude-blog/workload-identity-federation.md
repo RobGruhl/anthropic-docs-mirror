@@ -31,7 +31,7 @@ We're also introducing service accounts to the Claude Platform, so each workload
 
 The[Claude Console](https://platform.claude.com/)has a guided setup flow for configuring workload identities. The setup validates each step and finishes with a test command that confirms your workload can authenticate.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a32fdc2f8d799c035dbec52_Screenshot%202026-06-17%20at%203.39.59%E2%80%AFPM.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2f08711ad72d3a0d542c25_Screenshot%202026-06-13%20at%209.20.12%E2%80%AFAM.png)
 
 ## Run your whole organization without static keys
 
@@ -55,21 +55,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)
 
-### Centrally manage authorization for MCP connectors
+### 1M context is now generally available for Opus 4.6 and Sonnet 4.6
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
-### Claude Code now supports artifacts
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)
 
-### Claude Design now stays on brand for daily work
+### Collaborate with Claude across Excel, PowerPoint, Word and Outlook
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Introducing routines in Claude Code
+### Claude Security is now in public beta
 
 ## Transform how your organization operates with Claude
 
