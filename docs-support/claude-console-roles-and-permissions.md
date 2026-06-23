@@ -1,6 +1,6 @@
 # Claude Console roles and permissions
 
-*Updated today*
+*Updated over a month ago*
 
 ---
 
@@ -82,4 +82,4 @@ The Claude Console uses a role-based access system with six distinct roles: User
 - [Cost and Usage Reporting in the Claude Console](https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console)
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Claude Code user FAQ](https://support.claude.com/en/articles/14554922-claude-code-user-faq)
+- [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)

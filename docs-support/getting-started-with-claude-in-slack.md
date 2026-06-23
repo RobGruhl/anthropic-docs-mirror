@@ -1,8 +1,10 @@
 # Get started with Claude in Slack
 
-*Updated over a month ago*
+*Updated today*
 
 ---
+
+ 
 
 You can now integrate Claude and Slack, giving you two ways to use them together: add Claude directly to your Slack workspace, or enable the Slack connector for your Claude apps.
 
@@ -18,7 +20,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1782232200&signature=959d2e7587eaa7d301d422b53ec161e199552acd379dbebdb5a4a2b53f5e0db8&req=dSciE8h6noZYXPMW1HO4zb2WCgcBFYZ15mlLMjhGEMFLU5A1H9TUGOC8xjG9%0AopCXSXLv3aFtklD7Zzc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1782388800&signature=24555ba3840f8a22eeef138dd3a6d40445e8b5efe77426207c2c9be08d062e18&req=dSciE8h6noZYXPMW3nq%2BgQ5%2B22MOeKa7v%2F7%2B%2B4cKS2ChcKH7drflCOrdhBCJ%0ADp9LB8cBNIWEN8PnCMjgV2ROuoM%3D%0A)
 
  
 
@@ -26,11 +28,11 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1782232200&signature=fe1b885fc31621c74e8e8e454b03dc8531fab7c233cf33d0d4a0e1107014288b&req=dSciE8h6mYZdWfMW1HO4zUifzTPbFKGmPUSeDntyEuVBdCpNNpy7GZiZdRmN%0AlZPtc8saOAU0CXJU5DE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1782388800&signature=8301ba3b333ad294540d937a384c2b63fb9da3788060c38c47e5bfa8d9866ba8&req=dSciE8h6mYZdWfMW3nq%2BgUcrX4%2B2UYUbYE%2Fr6YH3x%2BZJUbShpH9jJkW5mfhW%0AJ4ndcEIJwn%2BwcQqBPc0TXz6iyIQ%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1782232200&signature=088b87f89116b046e0c31325f54bc7d84006c5382b1a40397f09fdeaaa9f5de9&req=dSciE8h6mIRaX%2FMW1HO4zXrVUtp%2B843BBGejWRiWDiKJQ2DRqwmp9nk3lRa0%0AA7mxDXj9ah05dyKw%2Bto%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1782388800&signature=9fae49aa60ec05941be8250cbb580356dfa1ae1e6495a946d37decc0e2f29625&req=dSciE8h6mIRaX%2FMW3nq%2BgYu0mgh%2Fw3E2pnXAhWmW5A7qRcyr%2BG1Ke7Cheyz7%0AfVIUCtnFt2ZZ%2FmbKAsZDrURr5%2BM%3D%0A)
 
  
 
@@ -38,7 +40,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1782232200&signature=f8f3b09577dfdade56c776ff08486f83089e6cbeb50c254ab069f47e7e84aaa8&req=diMuHsB7lYNfXfMW1HO4zdOLiZkvL%2BmqZVaRIDJSo4JP1dxeTIJavLDsHVSz%0AUNOiJS%2BV9M8tRdipmyM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1782388800&signature=4aa7037a1ae866ba34c24d404c09b3e60d578085750ade52b467da3eabbfec69&req=diMuHsB7lYNfXfMW3nq%2BgZX4WGEbNc9fYeYgDq0nkS44DmNmr%2FSuxzzBPYfQ%0ACk0jXuG0CyMclNFxt7qXnNk1Dg0%3D%0A)
 
   
 
@@ -141,7 +143,7 @@ To disconnect your Claude account from Slack:
 2. Under **Disconnect Claude Account**, click the red "Disconnect" button.
 3. Confirm the disconnection.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1782232200&signature=6ce513be63ecf8963731232d5688fd2ade92a2a16c7f653aa4ad7dbaaa197518&req=dSciE8h6lIZbXfMW1HO4zdIAvZdJbbOSQgg7UiXQlE0HXltKiw5WLaxWLGwl%0AsFGQYQ%2BXk2brELzU5w0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1782388800&signature=a77e788322eebeed7c6a12ee42bc43e5af3355c5a1cbb70e9cf0c3ce82a384a4&req=dSciE8h6lIZbXfMW3nq%2BgUVJn1BatzQtxtw9r3XumbfVn3XGVy4vPX3bC9Ep%0AEz3fBKjiMzE1g8Dns8zFDkyUp28%3D%0A)
 
  
 
@@ -201,7 +203,7 @@ If you are using a company Slack instance and are not assigned to an Admin role,
 ## Related Articles
 
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
-- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)

@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-23 16:04*
+*Last updated: 2026-06-23 18:45*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -186,7 +186,7 @@ Total documents: 261
 ### Claude Console roles and permissions
 **File:** `/docs-support/claude-console-roles-and-permissions.md`  
 **Source:** https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions  
-**Updated:** 2026-05-20  
+**Updated:** 2026-06-23  
 
 ### Claude Enterprise Analytics API reference guide
 **File:** `/docs-support/claude-enterprise-analytics-api-reference-guide.md`  
@@ -281,7 +281,7 @@ Total documents: 261
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-23  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
@@ -1076,7 +1076,7 @@ Total documents: 261
 ### Use research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
 **Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-23  
 
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
