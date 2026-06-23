@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -20,11 +20,11 @@ If you have a personal Claude account on the same email address as your organiza
 
 ### How to start a migration
 
-On a Team plan, you'll be prompted to choose when you accept an invite to your organization. If you don't pick an option right away, you'll see a reminder banner for about seven days. You can also go to **[Settings > Account](https://claude.ai/settings/account)** at any time to initiate the migration.
+On a Team plan, you'll be prompted to choose when you accept an invite to your organization. If you don't pick an option right away, you'll see a reminder banner for about seven days. You can also go to **[Settings > Account > Close your personal account](https://claude.ai/settings/account)** at any time to initiate the migration.
 
  
 
-On an Enterprise plan, you won't see a prompt when you join. To start the migration, go to **[Settings > Account](https://claude.ai/settings/account)**.
+On an Enterprise plan, you won't see a prompt when you join. To start the migration, go to **[Settings > Account > Close your personal account](https://claude.ai/settings/account)**.
 
  
 
@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1782166500&signature=d65dbe9198029fd2206bd247eb716e162851c74a954c561c317362370b456f68&req=diMmFMh3noJbXvMW1HO4zXhPndI3zhlkufhmlOXMdYay%2FBa7ydp0A7xomo8n%0Ahh923W%2BlIHI271fh5sc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1782324000&signature=fff3e4d1723cf682f20e6df0900e6a3018663ab5ed2b46fb4f8c5cdf77be5b15&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U7kQMB%2Bxl6PawEbkD1unYqzs19mNrvTpm%0A1%2B07P0hjzVRaZCTYXY6SIMyWQ5w%3D%0A)
 
  
 
