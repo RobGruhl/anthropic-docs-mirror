@@ -36,7 +36,7 @@ Some more details that might be helpful:
 - You’ll need a key with the <code>read:analytics</code> scope in order to access the API. You can create multiple keys for your organization, but rate limits apply at the *organization *level, not the *key *level. See the “Rate limiting” section below.
 - As always, *we strongly recommend handling API keys securely*: *never *share these keys publicly - they are secret, and should be shared securely.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1782242100&signature=20174ca0609906c362d9784fdffd6cdfb6551d5b833c2ab9e99bad9ba0346189&req=diAiFc97mIRZX%2FMW1HO4zXfNT1sCdhTaFbDaBcaxqj5yfp1zmVOrRaf8JHf9%0Aqw5S4XqOwmYtLhbyiEk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053655566/6858d308d21c1d082cf67cdabd3b/19fadcdf-25f5-491d-a060-887da34b1082?expires=1782252000&signature=549bb3d191448ccc5712e04a0ae7456700296e258a50f864e3b2a78066168d50&req=diAiFc97mIRZX%2FMW1HO4zXfNT1sCdxTbFbDaBcaxqj6El8CD0%2Fs51Mlww06l%0AHJ%2BLSa3%2BreENHRl67Tg%3D%0A)
 
  
 
@@ -757,4 +757,4 @@ curl "https://api.anthropic.com/v1/organizations/analytics/cost_report?starting_
 - [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
-- [Claude Enterprise Admin API reference guide](https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-reference-guide)
+- [Claude Enterprise activation promo for Claude Code and Cowork](https://support.claude.com/en/articles/15282265-claude-enterprise-activation-promo-for-claude-code-and-cowork)

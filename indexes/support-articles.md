@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-23 18:45*
+*Last updated: 2026-06-23 21:35*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -76,7 +76,7 @@ Total documents: 261
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
 **Source:** https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-23  
 
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
@@ -406,7 +406,7 @@ Total documents: 261
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
 **Source:** https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion  
-**Updated:** 2026-05-26  
+**Updated:** 2026-06-23  
 
 ### How am I billed for my Enterprise plan?
 **File:** `/docs-support/how-am-i-billed-for-my-enterprise-plan.md`  

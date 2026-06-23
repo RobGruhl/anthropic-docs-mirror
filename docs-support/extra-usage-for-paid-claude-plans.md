@@ -44,7 +44,7 @@ To enable usage credits on your paid Claude plan:
 7. You’ll then need to prepay to cover usage beyond your plan limits. Click “Add funds,” enter the amount you want to purchase in the modal, then click “Purchase.”
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1782242100&signature=109208557d1ef57dd9a1fd174a1636639bb44f8d8c42bc05379ad578c5db7bcf&req=dSgnE8F%2FlIZXXPMW1HO4zYj2ARCbofI5opE7m38YdfcCjulm0QGi1fThAUmJ%0Asoddxt%2F5z2RIbYaBt7g%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1782252000&signature=4417ccf7a611aa567f1db7624da3e55408e431e78757181f5b04ae159ae7cbcc&req=dSgnE8F%2FlIZXXPMW1HO4zYj2ARCboPI4opE7m38YdfdDuEz1VCoGivgdvkDF%0AxHnQYctnGuVm8k9rWI8%3D%0A)
 
  
 
@@ -166,8 +166,8 @@ Yes, you’ll see a clear notification when approaching and reaching your includ
 
 ## Related Articles
 
+- [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Buy usage bundles](https://support.claude.com/en/articles/14246112-buy-usage-bundles)
-- [Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing)
