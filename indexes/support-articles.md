@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-23 12:57*
+*Last updated: 2026-06-23 16:04*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -1156,7 +1156,7 @@ Total documents: 261
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-23  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1246,7 +1246,7 @@ Total documents: 261
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-23  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  
@@ -1281,7 +1281,7 @@ Total documents: 261
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-23  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  

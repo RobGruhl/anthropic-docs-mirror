@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-23 12:57*
+*Last updated: 2026-06-23 16:04*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
@@ -5026,7 +5026,7 @@ Total documents: 1603
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-23  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
