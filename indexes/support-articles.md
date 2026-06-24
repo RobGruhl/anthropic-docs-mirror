@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-24 18:41*
+*Last updated: 2026-06-24 21:35*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -281,7 +281,7 @@ Total documents: 261
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-24  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
