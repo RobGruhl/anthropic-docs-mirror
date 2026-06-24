@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-24 10:09*
+*Last updated: 2026-06-24 12:44*
 Total documents: 1603
 ---
 ## Uncategorized (1603 documents)
