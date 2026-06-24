@@ -53,7 +53,7 @@ To get started with Claude in a FedRAMP High or IL2 environment:
 
 - Begin building with Claude using the Vertex AI API endpoints
 
-[Contact our team](/cdn-cgi/l/email-protection#c2b2b7a0b1a7a182a3acb6aab0adb2aba1eca1adaf)for expert guidance on integrating Claude into federal client applications while ensuring full compliance with FedRAMP and DoD security requirements.
+[Contact our team](/cdn-cgi/l/email-protection#e1919483928482a1808f9589938e918882cf828e8c)for expert guidance on integrating Claude into federal client applications while ensuring full compliance with FedRAMP and DoD security requirements.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
