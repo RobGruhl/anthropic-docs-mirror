@@ -1,6 +1,6 @@
 # Get started with the Claude Enterprise Analytics API
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -45,11 +45,11 @@ Follow these steps:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1782252000&signature=38fc2bff40786d5b236c1095738d70fa3418f1961eaaae9805818f277cf59722&req=diAiFc92moJYX%2FMW1HO4zUxhyK9H36mP2G8yJDINvfRrxG%2FiGFBhjfXp2gjM%0AxR3ciwofC7xmAgR6aWo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053687376/dac20c85f3d3fcab64c98fee0d1c/c0af2448-7bfb-4d10-b474-025cb4f04f59?expires=1782388800&signature=b6651f479c5848675424c039a5cd265b2339590d855d269aaead335383c30d6c&req=diAiFc92moJYX%2FMW3nq%2BgYLO6CNneN%2Ft6%2FapQClpxmnX8hGifvt8DC%2FZ7QtD%0ALUpNrN%2Be9NqY%2BsHP%2FTPGb3s8E8I%3D%0A)
 
  
 
-For full authentication details, endpoint references, and code examples, refer to our **[Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)**.
+For full authentication details, endpoint references, and code examples, refer to our **[Analytics API reference guide](https://platform.claude.com/docs/en/api/admin/analytics)**.
 
  
 
@@ -57,8 +57,9 @@ For full authentication details, endpoint references, and code examples, refer t
 
 Leading observability platforms offer ready-to-use integrations for monitoring your Claude API usage and cost, without writing custom code. These integrations provide dashboards, alerting, and analytics to help you manage your API usage effectively.
 
-- [Datadog](https://docs.datadoghq.com/integrations/anthropic/)
-- [CloudZero](https://docs.cloudzero.com/docs/connections-anthropic)
+- **[Datadog](https://docs.datadoghq.com/integrations/anthropic/)**
+- **[CloudZero](https://docs.cloudzero.com/docs/connections-anthropic)**
+-  
 
 ---
 
@@ -121,7 +122,7 @@ The API has a default rate limit of 60 requests per minute. If this doesn't meet
 ## Related Articles
 
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
 - [Get started with Claude Compliance API integrations](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)

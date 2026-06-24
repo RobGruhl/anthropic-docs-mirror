@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1782252000&signature=34fd4ca72f7cc89a42e10c1feebc1c9b32819c73a67e4ef7711b145c3baf1031&req=dSUvEs97mYNeXvMW1HO4zYCWiSYahMSauqqBX2puyxQx3FZpDKY1wz4ZS6jo%0Aqdrq6QX2ffVeKBlj4nc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1782262800&signature=0f5c5bb799e95591ce8121972850a34fa91dbff0ce23324da1a31c9b34a29198&req=dSUvEs97mYNeXvMW1HO4zYCWiSYah8SSuqqBX2puyxRalN%2BY7mu7MldGfTkD%0AlqMSqdlo44ZfQCZHbUM%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1782252000&signature=86d0a4d7817a69f6270dac9a4d45a6f200b098a6a5a79fdba62de3e59379ecfb&req=dSUvEs94mYJdWPMW1HO4zQwER3EoJI1mqMITUZbanFC20ZkeI0FRnDdSnMhz%0AtE%2FpOP6RxTRgTMwccNw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1782262800&signature=63a84619a299f85dbe89d183285ef081b0c6a9d0bc6b96ec91b9e787af15043f&req=dSUvEs94mYJdWPMW1HO4zQwER3EoJ41uqMITUZbanFD6J5e81pvNJRjPkTFl%0ANZx%2Bpleoh8LicupJQQg%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1782252000&signature=164a960af55a9c557eddff32824335a9521729ac9c2ea64f6fd07dbe39985941&req=dSUvEs93noJXX%2FMW1HO4zRxEwWlP41Ns21D6pckxWMbhD93f4foKcP2v6iK7%0AkPGmx3IUxz1nhujaNUA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1782262800&signature=8c1c8013a1f5daba9f93911d740e6136c739c2bcfc50bb8a5d254c356b1774c5&req=dSUvEs93noJXX%2FMW1HO4zRxEwWlP4FNk21D6pckxWMaLuXLRLx%2F15%2F%2Frk%2BgE%0AtArEEIoDDcaHk3C%2FTvs%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1782252000&signature=95511da7e7e04ff21b5593d0c63339db20b73860705aa6ce403484fa021ff195&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh57BVtJhCyIF5nuUsbzA%2B%2Bvy9BlnKvx0ALUD%0AVaaXRBIfQb0pXkJcJFA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1782262800&signature=b67ff674cb8362db5d6372fde1c2d20c3dbc94838884952d4f114db0881f48f3&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh57BVdJpCyIF5nuUsbxBGuhRheiN8L0QEDdb%0ACUHrpryNMsOEBt6rpBs%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 ## Related Articles
 
 - [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
+- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
+- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
-- [Get started with the Claude Enterprise Analytics API](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api)
-- [Claude Enterprise Analytics API reference guide](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

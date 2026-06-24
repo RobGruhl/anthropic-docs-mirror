@@ -264,8 +264,8 @@ Start a new conversation to continue.
 
 ## Related Articles
 
-- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
+- [Use Claude in Xcode](https://support.claude.com/en/articles/12293051-use-claude-in-xcode)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)
 - [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)
