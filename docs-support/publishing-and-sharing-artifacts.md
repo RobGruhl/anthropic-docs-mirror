@@ -1,10 +1,10 @@
 # Publish and share artifacts
 
-*Updated over a week ago*
+*Updated in the last 15 minutes*
 
 ---
 
-Artifacts are a powerful way to create content within Claude. You can take your creations further by sharing them so others can engage with and customize them. Similarly, if you see an artifact you like, you can customize it to make it your own. This article covers how to publish artifacts publicly, share them within your organization, and discover artifacts created by others.
+Artifacts are a powerful way to create content within Claude. You can take your creations further by sharing them so others can engage with and customize them. Similarly, if you see an artifact you like, you can customize it to make it your own. This article covers how to publish artifacts publicly and share them within your organization.
 
  
 
@@ -18,29 +18,7 @@ Claude uses different terms depending on your plan:
 
 - **Publishing** (Free, Pro, Max): Makes your artifact publicly available. Anyone with the link can view and interact with it.
 - **Sharing** (Team, Enterprise): Makes your artifact available within your organization only. Viewers must be logged into your Team or Enterprise account to access it.
-
- 
-
----
-
- 
-
-## Discover artifacts
-
-Access a curated collection of artifacts directly from the artifacts space in your Claude sidebar by clicking **[Artifacts > Inspiration](http://claude.ai/artifacts)** (or the "Get inspired" banner on mobile).
-
- 
-
-The Inspiration tab features:
-
-- High-quality, useful artifacts across various categories
-- Examples to inspire your own creations
-- One-click access to try any artifact immediately
-- Easy customization of existing artifacts to make them your own
-
-Artifacts are organized into categories such as Learn something, Life hacks, and Be creative.
-
- 
+-  
 
 ---
 
@@ -54,6 +32,8 @@ Artifacts are organized into categories such as Learn something, Life hacks, and
 2. Ensure you're on the correct artifact version.
 3. Click the “Publish” button.
 4. Copy the public link to share with others.
+
+Publishing also adds the artifact to the **[Artifacts](https://claude.ai/artifacts)** section in your sidebar so you can find it again outside the original conversation.
 
  
 
@@ -80,7 +60,7 @@ After publishing, you'll see a “Get embed code” button.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1782414900&signature=2a806408ebb3fb218684b5d07a0f0da0f9e7b7f4a6b29573c70c791e6e385e0f&req=dSkiF892mYhZWfMW1HO4zdcpD1RW5AeIR8xgMH3ra8hphcPwLGcCWov2E4aY%0AZPx0eS9YFLapSThZYRE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1782518400&signature=d267f1acc5d42fef72f8787c304a28dda1e82da19644176b206dea7eee17bd1f&req=dSkiF892mYhZWfMW3nq%2BgQxRyjIgyb92R8Nx3jtA%2BiAcO%2B%2B1eiwpWpx3PBY2%0Ax5WZbSuPwmafEgwZ0C9RBPcvKZs%3D%0A)
 
  
 
@@ -88,7 +68,7 @@ Click it to open a modal with automatically generated code you can copy and past
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1782414900&signature=bd6f0136dfd3a4daaa476b2c8739112fdc9b779b48d2422ef915ed189770cdd7&req=dSkiF892mIlZWfMW1HO4zcqH79uHyIBkf3CUbx4Ru6Vpvu9B5hE0%2BvxGwr3K%0AA2o3WmFA1FbF8NqN6lk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1782518400&signature=03cb65a8d07362950b07e270f36fe460db4fcd5f56d594e7411e14ee4001467d&req=dSkiF892mIlZWfMW3nq%2BgdMIqXCHpvvTXMgVxhrsVKxoWZiSn1aa6CMsNJDJ%0AW6ip%2By7Pz0UHcvjylQPW0PBmuII%3D%0A)
 
  
 
@@ -119,7 +99,7 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 3. Click the “Share” button.
 4. Click “Share & copy link” to make this version shareable.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1782414900&signature=43df2b1fa63c60d19ee2823893374aaf08a07b9c042ac4f5214ab466590408b4&req=dSkiF892nYBZWfMW1HO4zbvYOlPhLH2aK6hAzMpXfmNDhzI%2BOLjNJ7bm9hei%0Anz9ZckKcvwDWofVxi9k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1782518400&signature=ddce45a17845153a483c20a0799bbf15e5525569e9bda517ce1fba7b985d920f&req=dSkiF892nYBZWfMW3nq%2BgTxzBck2w%2FP0NeJZKxojvpkTS3yIP%2FqbMsct2cGM%0A%2FZpvq2g4Wn1LMB28Y0uQ435tACk%3D%0A)
 
  
 
@@ -143,7 +123,7 @@ When you share an artifact, viewers also gain access to any attachments and file
 1. Click the “Share” button in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click “Unshare.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1782414900&signature=27180eec72e7d22677754de9581b6a79d962e48845e5c445505fa8639aaa4f65&req=dSkiF895m4hdXvMW1HO4zW9Ewgu5%2BHC6gj8mTHivCKYBxsVV8zL5lnp6MH9s%0ACRFM%2Fs187J4WhdVeImI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1782518400&signature=d3a1b2c7e95865a83d755ff37c9e61b3469deacac211cc291a870a69d597f0d8&req=dSkiF895m4hdXvMW3nq%2BgYEYQxJAKLmik0xxKTaHQUU6TVhI4rByAKbXVj23%0ALdpsdqO0jCoUsm0LJNWWjvWxRRM%3D%0A)
 
  
 
@@ -153,11 +133,14 @@ When you share an artifact, viewers also gain access to any attachments and file
 
 ## Customize artifacts
 
-Customizing allows you to build upon and modify artifacts created by others:
+Customizing allows you to build upon and modify artifacts created and shared by others:
 
 1. When viewing an artifact, look for the "Customize" button.
 2. Click the button to start a new Claude conversation with the artifact's content.
 3. You'll be redirected to Claude, where you can modify and interact with the artifact.
+4. If you don't have a Claude account, you'll be prompted to sign up.
+
+ 
 
 ### What happens when you customize
 
@@ -183,6 +166,6 @@ For information about creating artifacts, AI-powered capabilities, MCP integrati
 
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [Share and unshare chats](https://support.claude.com/en/articles/10593882-share-and-unshare-chats)
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)

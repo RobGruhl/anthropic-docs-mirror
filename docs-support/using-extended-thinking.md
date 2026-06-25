@@ -1,6 +1,6 @@
 # Change the model, effort, and thinking settings
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -45,7 +45,8 @@ Each model has a recommended effort level, marked as "Default" in the menu:
 
 - **Low** and **Medium** work well for routine tasks and stretch your usage further.
 - **High** offers the best overall balance of quality and speed.
-- **Max** is the most thorough option, best for difficult tasks and longer-running work.
+- **Extra high** (xhigh) is designed for long-running coding and agentic tasks, offering deeper reasoning than high without the full token cost of max. Available on Opus 4.7 and newer models.
+- **Max** is the most thorough option, best for tasks requiring the deepest possible reasoning and most thorough analysis.
 
 Learn more about **[how usage and length limits work](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)**.
 
@@ -118,7 +119,7 @@ For complex tasks, raise the effort level, turn on thinking, or both. These sett
 - Detailed document analysis
 - Multi-step technical problems
 
-For the most difficult, correctness-critical work, choose Max effort and expect longer response times.
+For complex coding and agentic tasks on Opus 4.7 or newer, try Extra high (xhigh) first. For the most difficult, correctness-critical work, choose Max effort and expect longer response times.
 
  
 
@@ -129,8 +130,8 @@ Whichever settings you choose, be specific about your problem or question. Clear
 
 ## Related Articles
 
-- [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
 - [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)
 - [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)

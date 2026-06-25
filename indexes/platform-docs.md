@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-06-25 18:46*
-Total documents: 1603
+*Last updated: 2026-06-25 21:35*
+Total documents: 1604
 ---
-## Uncategorized (1603 documents)
+## Uncategorized (1604 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -596,7 +596,7 @@ Total documents: 1603
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-connector  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__mcp-tunnels__concepts
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__concepts.md`  
@@ -651,7 +651,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -661,17 +661,17 @@ Total documents: 1603
 ### agents-and-tools__tool-use__build-a-tool-using-agent
 **File:** `/platform-docs/agents-and-tools__tool-use__build-a-tool-using-agent.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
@@ -681,7 +681,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__handle-tool-calls
 **File:** `/platform-docs/agents-and-tools__tool-use__handle-tool-calls.md`  
@@ -706,7 +706,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
@@ -716,7 +716,7 @@ Total documents: 1603
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__server-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__server-tools.md`  
@@ -766,22 +766,22 @@ Total documents: 1603
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__agents
 **File:** `/platform-docs/beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__agents__archive
 **File:** `/platform-docs/beta__agents__archive.md`  
@@ -791,7 +791,7 @@ Total documents: 1603
 ### beta__agents__create
 **File:** `/platform-docs/beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__agents__list
 **File:** `/platform-docs/beta__agents__list.md`  
@@ -806,7 +806,7 @@ Total documents: 1603
 ### beta__agents__update
 **File:** `/platform-docs/beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__agents__versions
 **File:** `/platform-docs/beta__agents__versions.md`  
@@ -1076,12 +1076,12 @@ Total documents: 1603
 ### beta__messages
 **File:** `/platform-docs/beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__messages__batches
 **File:** `/platform-docs/beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__messages__batches__cancel
 **File:** `/platform-docs/beta__messages__batches__cancel.md`  
@@ -1091,7 +1091,7 @@ Total documents: 1603
 ### beta__messages__batches__create
 **File:** `/platform-docs/beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__messages__batches__delete
 **File:** `/platform-docs/beta__messages__batches__delete.md`  
@@ -1106,7 +1106,7 @@ Total documents: 1603
 ### beta__messages__batches__results
 **File:** `/platform-docs/beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__messages__batches__retrieve
 **File:** `/platform-docs/beta__messages__batches__retrieve.md`  
@@ -1116,12 +1116,12 @@ Total documents: 1603
 ### beta__messages__count_tokens
 **File:** `/platform-docs/beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__messages__create
 **File:** `/platform-docs/beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### beta__models
 **File:** `/platform-docs/beta__models.md`  
@@ -1421,22 +1421,22 @@ Total documents: 1603
 ### beta__webhooks
 **File:** `/platform-docs/beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__adaptive-thinking
 **File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/batch-processing  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__cache-diagnostics
 **File:** `/platform-docs/build-with-claude__cache-diagnostics.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__citations
 **File:** `/platform-docs/build-with-claude__citations.md`  
@@ -1451,7 +1451,7 @@ Total documents: 1603
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
@@ -1461,7 +1461,7 @@ Total documents: 1603
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
@@ -1481,7 +1481,7 @@ Total documents: 1603
 ### build-with-claude__context-windows
 **File:** `/platform-docs/build-with-claude__context-windows.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-windows  
-**Updated:** 2026-06-15  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
@@ -1496,22 +1496,22 @@ Total documents: 1603
 ### build-with-claude__extended-thinking
 **File:** `/platform-docs/build-with-claude__extended-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/extended-thinking  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__fallback-credit
 **File:** `/platform-docs/build-with-claude__fallback-credit.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/fallback-credit  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__fast-mode
 **File:** `/platform-docs/build-with-claude__fast-mode.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/fast-mode  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__files
 **File:** `/platform-docs/build-with-claude__files.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/files  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__handling-stop-reasons
 **File:** `/platform-docs/build-with-claude__handling-stop-reasons.md`  
@@ -1526,7 +1526,7 @@ Total documents: 1603
 ### build-with-claude__mid-conversation-system-messages
 **File:** `/platform-docs/build-with-claude__mid-conversation-system-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__multilingual-support
 **File:** `/platform-docs/build-with-claude__multilingual-support.md`  
@@ -1536,27 +1536,27 @@ Total documents: 1603
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/overview  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/pdf-support  
-**Updated:** 2026-05-28  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/search-results  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__skills-guide
 **File:** `/platform-docs/build-with-claude__skills-guide.md`  
@@ -1571,7 +1571,7 @@ Total documents: 1603
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
@@ -1583,10 +1583,15 @@ Total documents: 1603
 **Source:** https://platform.claude.com/docs/en/build-with-claude/token-counting  
 **Updated:** 2026-06-15  
 
+### build-with-claude__vision-coordinates
+**File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/vision-coordinates  
+**Updated:** 2026-06-25  
+
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision  
-**Updated:** 2026-06-17  
+**Updated:** 2026-06-25  
 
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
@@ -1596,12 +1601,12 @@ Total documents: 1603
 ### cli__beta
 **File:** `/platform-docs/cli__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__agents
 **File:** `/platform-docs/cli__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__agents__archive
 **File:** `/platform-docs/cli__beta__agents__archive.md`  
@@ -1611,7 +1616,7 @@ Total documents: 1603
 ### cli__beta__agents__create
 **File:** `/platform-docs/cli__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__agents__list
 **File:** `/platform-docs/cli__beta__agents__list.md`  
@@ -1626,7 +1631,7 @@ Total documents: 1603
 ### cli__beta__agents__update
 **File:** `/platform-docs/cli__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/agents/update  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### cli__beta__agents__versions
 **File:** `/platform-docs/cli__beta__agents__versions.md`  
@@ -1896,12 +1901,12 @@ Total documents: 1603
 ### cli__beta__messages
 **File:** `/platform-docs/cli__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__messages__batches
 **File:** `/platform-docs/cli__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__messages__batches__cancel
 **File:** `/platform-docs/cli__beta__messages__batches__cancel.md`  
@@ -1926,7 +1931,7 @@ Total documents: 1603
 ### cli__beta__messages__batches__results
 **File:** `/platform-docs/cli__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__messages__batches__retrieve
 **File:** `/platform-docs/cli__beta__messages__batches__retrieve.md`  
@@ -1936,12 +1941,12 @@ Total documents: 1603
 ### cli__beta__messages__count_tokens
 **File:** `/platform-docs/cli__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__messages__create
 **File:** `/platform-docs/cli__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__beta__models
 **File:** `/platform-docs/cli__beta__models.md`  
@@ -2241,27 +2246,27 @@ Total documents: 1603
 ### cli__beta__webhooks
 **File:** `/platform-docs/cli__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__completions
 **File:** `/platform-docs/cli__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__completions__create
 **File:** `/platform-docs/cli__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__messages
 **File:** `/platform-docs/cli__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__messages__batches
 **File:** `/platform-docs/cli__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__messages__batches__cancel
 **File:** `/platform-docs/cli__messages__batches__cancel.md`  
@@ -2286,7 +2291,7 @@ Total documents: 1603
 ### cli__messages__batches__results
 **File:** `/platform-docs/cli__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__messages__batches__retrieve
 **File:** `/platform-docs/cli__messages__batches__retrieve.md`  
@@ -2296,12 +2301,12 @@ Total documents: 1603
 ### cli__messages__count_tokens
 **File:** `/platform-docs/cli__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__messages__create
 **File:** `/platform-docs/cli__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### cli__models
 **File:** `/platform-docs/cli__models.md`  
@@ -2321,12 +2326,12 @@ Total documents: 1603
 ### completions
 **File:** `/platform-docs/completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### completions__create
 **File:** `/platform-docs/completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### compliance
 **File:** `/platform-docs/compliance.md`  
@@ -2591,12 +2596,12 @@ Total documents: 1603
 ### csharp__beta
 **File:** `/platform-docs/csharp__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__agents
 **File:** `/platform-docs/csharp__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__agents__archive
 **File:** `/platform-docs/csharp__beta__agents__archive.md`  
@@ -2606,7 +2611,7 @@ Total documents: 1603
 ### csharp__beta__agents__create
 **File:** `/platform-docs/csharp__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__agents__list
 **File:** `/platform-docs/csharp__beta__agents__list.md`  
@@ -2621,7 +2626,7 @@ Total documents: 1603
 ### csharp__beta__agents__update
 **File:** `/platform-docs/csharp__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__agents__versions
 **File:** `/platform-docs/csharp__beta__agents__versions.md`  
@@ -2891,12 +2896,12 @@ Total documents: 1603
 ### csharp__beta__messages
 **File:** `/platform-docs/csharp__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__messages__batches
 **File:** `/platform-docs/csharp__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__messages__batches__cancel
 **File:** `/platform-docs/csharp__beta__messages__batches__cancel.md`  
@@ -2906,7 +2911,7 @@ Total documents: 1603
 ### csharp__beta__messages__batches__create
 **File:** `/platform-docs/csharp__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__messages__batches__delete
 **File:** `/platform-docs/csharp__beta__messages__batches__delete.md`  
@@ -2921,7 +2926,7 @@ Total documents: 1603
 ### csharp__beta__messages__batches__results
 **File:** `/platform-docs/csharp__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__messages__batches__retrieve
 **File:** `/platform-docs/csharp__beta__messages__batches__retrieve.md`  
@@ -2931,12 +2936,12 @@ Total documents: 1603
 ### csharp__beta__messages__count_tokens
 **File:** `/platform-docs/csharp__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__messages__create
 **File:** `/platform-docs/csharp__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__beta__models
 **File:** `/platform-docs/csharp__beta__models.md`  
@@ -3236,17 +3241,17 @@ Total documents: 1603
 ### csharp__beta__webhooks
 **File:** `/platform-docs/csharp__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__messages
 **File:** `/platform-docs/csharp__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__messages__batches
 **File:** `/platform-docs/csharp__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__messages__batches__cancel
 **File:** `/platform-docs/csharp__messages__batches__cancel.md`  
@@ -3256,7 +3261,7 @@ Total documents: 1603
 ### csharp__messages__batches__create
 **File:** `/platform-docs/csharp__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/create  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### csharp__messages__batches__delete
 **File:** `/platform-docs/csharp__messages__batches__delete.md`  
@@ -3271,7 +3276,7 @@ Total documents: 1603
 ### csharp__messages__batches__results
 **File:** `/platform-docs/csharp__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__messages__batches__retrieve
 **File:** `/platform-docs/csharp__messages__batches__retrieve.md`  
@@ -3281,12 +3286,12 @@ Total documents: 1603
 ### csharp__messages__count_tokens
 **File:** `/platform-docs/csharp__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__messages__create
 **File:** `/platform-docs/csharp__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### csharp__models
 **File:** `/platform-docs/csharp__models.md`  
@@ -3311,12 +3316,12 @@ Total documents: 1603
 ### go__beta
 **File:** `/platform-docs/go__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__agents
 **File:** `/platform-docs/go__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__agents__archive
 **File:** `/platform-docs/go__beta__agents__archive.md`  
@@ -3326,7 +3331,7 @@ Total documents: 1603
 ### go__beta__agents__create
 **File:** `/platform-docs/go__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__agents__list
 **File:** `/platform-docs/go__beta__agents__list.md`  
@@ -3341,7 +3346,7 @@ Total documents: 1603
 ### go__beta__agents__update
 **File:** `/platform-docs/go__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__agents__versions
 **File:** `/platform-docs/go__beta__agents__versions.md`  
@@ -3611,12 +3616,12 @@ Total documents: 1603
 ### go__beta__messages
 **File:** `/platform-docs/go__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__messages__batches
 **File:** `/platform-docs/go__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__messages__batches__cancel
 **File:** `/platform-docs/go__beta__messages__batches__cancel.md`  
@@ -3626,7 +3631,7 @@ Total documents: 1603
 ### go__beta__messages__batches__create
 **File:** `/platform-docs/go__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__messages__batches__delete
 **File:** `/platform-docs/go__beta__messages__batches__delete.md`  
@@ -3641,7 +3646,7 @@ Total documents: 1603
 ### go__beta__messages__batches__results
 **File:** `/platform-docs/go__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__messages__batches__retrieve
 **File:** `/platform-docs/go__beta__messages__batches__retrieve.md`  
@@ -3651,12 +3656,12 @@ Total documents: 1603
 ### go__beta__messages__count_tokens
 **File:** `/platform-docs/go__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__messages__create
 **File:** `/platform-docs/go__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__beta__models
 **File:** `/platform-docs/go__beta__models.md`  
@@ -3956,27 +3961,27 @@ Total documents: 1603
 ### go__beta__webhooks
 **File:** `/platform-docs/go__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__completions
 **File:** `/platform-docs/go__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__completions__create
 **File:** `/platform-docs/go__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages
 **File:** `/platform-docs/go__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages__batches
 **File:** `/platform-docs/go__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages__batches__cancel
 **File:** `/platform-docs/go__messages__batches__cancel.md`  
@@ -3986,7 +3991,7 @@ Total documents: 1603
 ### go__messages__batches__create
 **File:** `/platform-docs/go__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages__batches__delete
 **File:** `/platform-docs/go__messages__batches__delete.md`  
@@ -4001,7 +4006,7 @@ Total documents: 1603
 ### go__messages__batches__results
 **File:** `/platform-docs/go__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages__batches__retrieve
 **File:** `/platform-docs/go__messages__batches__retrieve.md`  
@@ -4011,12 +4016,12 @@ Total documents: 1603
 ### go__messages__count_tokens
 **File:** `/platform-docs/go__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__messages__create
 **File:** `/platform-docs/go__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### go__models
 **File:** `/platform-docs/go__models.md`  
@@ -4041,12 +4046,12 @@ Total documents: 1603
 ### java__beta
 **File:** `/platform-docs/java__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__agents
 **File:** `/platform-docs/java__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__agents__archive
 **File:** `/platform-docs/java__beta__agents__archive.md`  
@@ -4056,7 +4061,7 @@ Total documents: 1603
 ### java__beta__agents__create
 **File:** `/platform-docs/java__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__agents__list
 **File:** `/platform-docs/java__beta__agents__list.md`  
@@ -4071,7 +4076,7 @@ Total documents: 1603
 ### java__beta__agents__update
 **File:** `/platform-docs/java__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__agents__versions
 **File:** `/platform-docs/java__beta__agents__versions.md`  
@@ -4341,12 +4346,12 @@ Total documents: 1603
 ### java__beta__messages
 **File:** `/platform-docs/java__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__messages__batches
 **File:** `/platform-docs/java__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__messages__batches__cancel
 **File:** `/platform-docs/java__beta__messages__batches__cancel.md`  
@@ -4356,7 +4361,7 @@ Total documents: 1603
 ### java__beta__messages__batches__create
 **File:** `/platform-docs/java__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__messages__batches__delete
 **File:** `/platform-docs/java__beta__messages__batches__delete.md`  
@@ -4371,7 +4376,7 @@ Total documents: 1603
 ### java__beta__messages__batches__results
 **File:** `/platform-docs/java__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__messages__batches__retrieve
 **File:** `/platform-docs/java__beta__messages__batches__retrieve.md`  
@@ -4381,12 +4386,12 @@ Total documents: 1603
 ### java__beta__messages__count_tokens
 **File:** `/platform-docs/java__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__messages__create
 **File:** `/platform-docs/java__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__beta__models
 **File:** `/platform-docs/java__beta__models.md`  
@@ -4686,27 +4691,27 @@ Total documents: 1603
 ### java__beta__webhooks
 **File:** `/platform-docs/java__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__completions
 **File:** `/platform-docs/java__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__completions__create
 **File:** `/platform-docs/java__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages
 **File:** `/platform-docs/java__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages__batches
 **File:** `/platform-docs/java__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages__batches__cancel
 **File:** `/platform-docs/java__messages__batches__cancel.md`  
@@ -4716,7 +4721,7 @@ Total documents: 1603
 ### java__messages__batches__create
 **File:** `/platform-docs/java__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages__batches__delete
 **File:** `/platform-docs/java__messages__batches__delete.md`  
@@ -4731,7 +4736,7 @@ Total documents: 1603
 ### java__messages__batches__results
 **File:** `/platform-docs/java__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages__batches__retrieve
 **File:** `/platform-docs/java__messages__batches__retrieve.md`  
@@ -4741,12 +4746,12 @@ Total documents: 1603
 ### java__messages__count_tokens
 **File:** `/platform-docs/java__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__messages__create
 **File:** `/platform-docs/java__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### java__models
 **File:** `/platform-docs/java__models.md`  
@@ -4766,7 +4771,7 @@ Total documents: 1603
 ### manage-claude__access-transparency
 **File:** `/platform-docs/manage-claude__access-transparency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/access-transparency  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-25  
 
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
@@ -4786,7 +4791,7 @@ Total documents: 1603
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-25  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
@@ -4796,7 +4801,7 @@ Total documents: 1603
 ### manage-claude__claude-code-analytics-api
 **File:** `/platform-docs/manage-claude__claude-code-analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
@@ -4816,7 +4821,7 @@ Total documents: 1603
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -4861,7 +4866,7 @@ Total documents: 1603
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/data-residency  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-25  
 
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
@@ -4871,12 +4876,12 @@ Total documents: 1603
 ### manage-claude__spend-limits-api
 **File:** `/platform-docs/manage-claude__spend-limits-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/spend-limits-api  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### manage-claude__usage-cost-api
 **File:** `/platform-docs/manage-claude__usage-cost-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/usage-cost-api  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  
@@ -4931,12 +4936,12 @@ Total documents: 1603
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workspaces  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-25  
 
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-25  
 
 ### managed-agents__cloud-sandboxes-reference
 **File:** `/platform-docs/managed-agents__cloud-sandboxes-reference.md`  
@@ -4976,7 +4981,7 @@ Total documents: 1603
 ### managed-agents__mcp-connector
 **File:** `/platform-docs/managed-agents__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/mcp-connector  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-25  
 
 ### managed-agents__memory
 **File:** `/platform-docs/managed-agents__memory.md`  
@@ -5001,7 +5006,7 @@ Total documents: 1603
 ### managed-agents__permission-policies
 **File:** `/platform-docs/managed-agents__permission-policies.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/permission-policies  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-25  
 
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
@@ -5046,7 +5051,7 @@ Total documents: 1603
 ### managed-agents__tools
 **File:** `/platform-docs/managed-agents__tools.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/tools  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-25  
 
 ### managed-agents__vaults
 **File:** `/platform-docs/managed-agents__vaults.md`  
@@ -5061,12 +5066,12 @@ Total documents: 1603
 ### messages
 **File:** `/platform-docs/messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-25  
 
 ### messages__batches
 **File:** `/platform-docs/messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### messages__batches__cancel
 **File:** `/platform-docs/messages__batches__cancel.md`  
@@ -5076,7 +5081,7 @@ Total documents: 1603
 ### messages__batches__create
 **File:** `/platform-docs/messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### messages__batches__delete
 **File:** `/platform-docs/messages__batches__delete.md`  
@@ -5091,7 +5096,7 @@ Total documents: 1603
 ### messages__batches__results
 **File:** `/platform-docs/messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### messages__batches__retrieve
 **File:** `/platform-docs/messages__batches__retrieve.md`  
@@ -5101,12 +5106,12 @@ Total documents: 1603
 ### messages__count_tokens
 **File:** `/platform-docs/messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### messages__create
 **File:** `/platform-docs/messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### models
 **File:** `/platform-docs/models.md`  
@@ -5126,12 +5131,12 @@ Total documents: 1603
 ### php__beta
 **File:** `/platform-docs/php__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__beta__agents
 **File:** `/platform-docs/php__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__beta__agents__archive
 **File:** `/platform-docs/php__beta__agents__archive.md`  
@@ -5141,7 +5146,7 @@ Total documents: 1603
 ### php__beta__agents__create
 **File:** `/platform-docs/php__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__beta__agents__list
 **File:** `/platform-docs/php__beta__agents__list.md`  
@@ -5156,7 +5161,7 @@ Total documents: 1603
 ### php__beta__agents__update
 **File:** `/platform-docs/php__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__beta__agents__versions
 **File:** `/platform-docs/php__beta__agents__versions.md`  
@@ -5426,7 +5431,7 @@ Total documents: 1603
 ### php__beta__messages
 **File:** `/platform-docs/php__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__beta__messages__batches
 **File:** `/platform-docs/php__beta__messages__batches.md`  
@@ -5771,12 +5776,12 @@ Total documents: 1603
 ### php__beta__webhooks
 **File:** `/platform-docs/php__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__messages
 **File:** `/platform-docs/php__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/php/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### php__messages__batches
 **File:** `/platform-docs/php__messages__batches.md`  
@@ -5841,12 +5846,12 @@ Total documents: 1603
 ### python__beta
 **File:** `/platform-docs/python__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__agents
 **File:** `/platform-docs/python__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__agents__archive
 **File:** `/platform-docs/python__beta__agents__archive.md`  
@@ -5856,7 +5861,7 @@ Total documents: 1603
 ### python__beta__agents__create
 **File:** `/platform-docs/python__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__agents__list
 **File:** `/platform-docs/python__beta__agents__list.md`  
@@ -5871,7 +5876,7 @@ Total documents: 1603
 ### python__beta__agents__update
 **File:** `/platform-docs/python__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__agents__versions
 **File:** `/platform-docs/python__beta__agents__versions.md`  
@@ -6141,12 +6146,12 @@ Total documents: 1603
 ### python__beta__messages
 **File:** `/platform-docs/python__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__messages__batches
 **File:** `/platform-docs/python__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__messages__batches__cancel
 **File:** `/platform-docs/python__beta__messages__batches__cancel.md`  
@@ -6156,7 +6161,7 @@ Total documents: 1603
 ### python__beta__messages__batches__create
 **File:** `/platform-docs/python__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__messages__batches__delete
 **File:** `/platform-docs/python__beta__messages__batches__delete.md`  
@@ -6171,7 +6176,7 @@ Total documents: 1603
 ### python__beta__messages__batches__results
 **File:** `/platform-docs/python__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__messages__batches__retrieve
 **File:** `/platform-docs/python__beta__messages__batches__retrieve.md`  
@@ -6181,12 +6186,12 @@ Total documents: 1603
 ### python__beta__messages__count_tokens
 **File:** `/platform-docs/python__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__messages__create
 **File:** `/platform-docs/python__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__beta__models
 **File:** `/platform-docs/python__beta__models.md`  
@@ -6486,27 +6491,27 @@ Total documents: 1603
 ### python__beta__webhooks
 **File:** `/platform-docs/python__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__completions
 **File:** `/platform-docs/python__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__completions__create
 **File:** `/platform-docs/python__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages
 **File:** `/platform-docs/python__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages__batches
 **File:** `/platform-docs/python__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages__batches__cancel
 **File:** `/platform-docs/python__messages__batches__cancel.md`  
@@ -6516,7 +6521,7 @@ Total documents: 1603
 ### python__messages__batches__create
 **File:** `/platform-docs/python__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages__batches__delete
 **File:** `/platform-docs/python__messages__batches__delete.md`  
@@ -6531,7 +6536,7 @@ Total documents: 1603
 ### python__messages__batches__results
 **File:** `/platform-docs/python__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages__batches__retrieve
 **File:** `/platform-docs/python__messages__batches__retrieve.md`  
@@ -6541,12 +6546,12 @@ Total documents: 1603
 ### python__messages__count_tokens
 **File:** `/platform-docs/python__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__messages__create
 **File:** `/platform-docs/python__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/python/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### python__models
 **File:** `/platform-docs/python__models.md`  
@@ -6566,12 +6571,12 @@ Total documents: 1603
 ### ruby__beta
 **File:** `/platform-docs/ruby__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__agents
 **File:** `/platform-docs/ruby__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__agents__archive
 **File:** `/platform-docs/ruby__beta__agents__archive.md`  
@@ -6581,7 +6586,7 @@ Total documents: 1603
 ### ruby__beta__agents__create
 **File:** `/platform-docs/ruby__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__agents__list
 **File:** `/platform-docs/ruby__beta__agents__list.md`  
@@ -6596,7 +6601,7 @@ Total documents: 1603
 ### ruby__beta__agents__update
 **File:** `/platform-docs/ruby__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__agents__versions
 **File:** `/platform-docs/ruby__beta__agents__versions.md`  
@@ -6866,12 +6871,12 @@ Total documents: 1603
 ### ruby__beta__messages
 **File:** `/platform-docs/ruby__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__messages__batches
 **File:** `/platform-docs/ruby__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__messages__batches__cancel
 **File:** `/platform-docs/ruby__beta__messages__batches__cancel.md`  
@@ -6881,7 +6886,7 @@ Total documents: 1603
 ### ruby__beta__messages__batches__create
 **File:** `/platform-docs/ruby__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__messages__batches__delete
 **File:** `/platform-docs/ruby__beta__messages__batches__delete.md`  
@@ -6896,7 +6901,7 @@ Total documents: 1603
 ### ruby__beta__messages__batches__results
 **File:** `/platform-docs/ruby__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__messages__batches__retrieve
 **File:** `/platform-docs/ruby__beta__messages__batches__retrieve.md`  
@@ -6906,12 +6911,12 @@ Total documents: 1603
 ### ruby__beta__messages__count_tokens
 **File:** `/platform-docs/ruby__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__messages__create
 **File:** `/platform-docs/ruby__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__beta__models
 **File:** `/platform-docs/ruby__beta__models.md`  
@@ -7211,27 +7216,27 @@ Total documents: 1603
 ### ruby__beta__webhooks
 **File:** `/platform-docs/ruby__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__completions
 **File:** `/platform-docs/ruby__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__completions__create
 **File:** `/platform-docs/ruby__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages
 **File:** `/platform-docs/ruby__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages__batches
 **File:** `/platform-docs/ruby__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages__batches__cancel
 **File:** `/platform-docs/ruby__messages__batches__cancel.md`  
@@ -7241,7 +7246,7 @@ Total documents: 1603
 ### ruby__messages__batches__create
 **File:** `/platform-docs/ruby__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages__batches__delete
 **File:** `/platform-docs/ruby__messages__batches__delete.md`  
@@ -7256,7 +7261,7 @@ Total documents: 1603
 ### ruby__messages__batches__results
 **File:** `/platform-docs/ruby__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages__batches__retrieve
 **File:** `/platform-docs/ruby__messages__batches__retrieve.md`  
@@ -7266,12 +7271,12 @@ Total documents: 1603
 ### ruby__messages__count_tokens
 **File:** `/platform-docs/ruby__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__messages__create
 **File:** `/platform-docs/ruby__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### ruby__models
 **File:** `/platform-docs/ruby__models.md`  
@@ -7296,12 +7301,12 @@ Total documents: 1603
 ### typescript__beta
 **File:** `/platform-docs/typescript__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__agents
 **File:** `/platform-docs/typescript__beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/agents  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__agents__archive
 **File:** `/platform-docs/typescript__beta__agents__archive.md`  
@@ -7311,7 +7316,7 @@ Total documents: 1603
 ### typescript__beta__agents__create
 **File:** `/platform-docs/typescript__beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/agents/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__agents__list
 **File:** `/platform-docs/typescript__beta__agents__list.md`  
@@ -7326,7 +7331,7 @@ Total documents: 1603
 ### typescript__beta__agents__update
 **File:** `/platform-docs/typescript__beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/agents/update  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__agents__versions
 **File:** `/platform-docs/typescript__beta__agents__versions.md`  
@@ -7596,12 +7601,12 @@ Total documents: 1603
 ### typescript__beta__messages
 **File:** `/platform-docs/typescript__beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__messages__batches
 **File:** `/platform-docs/typescript__beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__messages__batches__cancel
 **File:** `/platform-docs/typescript__beta__messages__batches__cancel.md`  
@@ -7611,7 +7616,7 @@ Total documents: 1603
 ### typescript__beta__messages__batches__create
 **File:** `/platform-docs/typescript__beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__messages__batches__delete
 **File:** `/platform-docs/typescript__beta__messages__batches__delete.md`  
@@ -7626,7 +7631,7 @@ Total documents: 1603
 ### typescript__beta__messages__batches__results
 **File:** `/platform-docs/typescript__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__messages__batches__retrieve
 **File:** `/platform-docs/typescript__beta__messages__batches__retrieve.md`  
@@ -7636,12 +7641,12 @@ Total documents: 1603
 ### typescript__beta__messages__count_tokens
 **File:** `/platform-docs/typescript__beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__messages__create
 **File:** `/platform-docs/typescript__beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__beta__models
 **File:** `/platform-docs/typescript__beta__models.md`  
@@ -7941,27 +7946,27 @@ Total documents: 1603
 ### typescript__beta__webhooks
 **File:** `/platform-docs/typescript__beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/webhooks  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__completions
 **File:** `/platform-docs/typescript__completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/completions  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__completions__create
 **File:** `/platform-docs/typescript__completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/completions/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages
 **File:** `/platform-docs/typescript__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages__batches
 **File:** `/platform-docs/typescript__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages/batches  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages__batches__cancel
 **File:** `/platform-docs/typescript__messages__batches__cancel.md`  
@@ -7971,7 +7976,7 @@ Total documents: 1603
 ### typescript__messages__batches__create
 **File:** `/platform-docs/typescript__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages/batches/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages__batches__delete
 **File:** `/platform-docs/typescript__messages__batches__delete.md`  
@@ -7986,7 +7991,7 @@ Total documents: 1603
 ### typescript__messages__batches__results
 **File:** `/platform-docs/typescript__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages/batches/results  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages__batches__retrieve
 **File:** `/platform-docs/typescript__messages__batches__retrieve.md`  
@@ -7996,12 +8001,12 @@ Total documents: 1603
 ### typescript__messages__count_tokens
 **File:** `/platform-docs/typescript__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages/count_tokens  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__messages__create
 **File:** `/platform-docs/typescript__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/messages/create  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-25  
 
 ### typescript__models
 **File:** `/platform-docs/typescript__models.md`  

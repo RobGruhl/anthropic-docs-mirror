@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-25 18:46*
+*Last updated: 2026-06-25 21:35*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -136,12 +136,12 @@ Total documents: 261
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
 **Source:** https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/using-extended-thinking.md`  
 **Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-25  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -281,12 +281,12 @@ Total documents: 261
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -311,7 +311,7 @@ Total documents: 261
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-25  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -641,7 +641,7 @@ Total documents: 261
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-25  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -731,7 +731,7 @@ Total documents: 261
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -866,7 +866,7 @@ Total documents: 261
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -886,7 +886,7 @@ Total documents: 261
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -1061,7 +1061,7 @@ Total documents: 261
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
@@ -1156,7 +1156,7 @@ Total documents: 261
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-25  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1246,7 +1246,7 @@ Total documents: 261
 ### Where can I find full receipts and invoices for my Claude API and Console payments?
 **File:** `/docs-support/where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments.md`  
 **Source:** https://support.claude.com/en/articles/10366473-where-can-i-find-full-receipts-and-invoices-for-my-claude-api-and-console-payments  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Where can I find your API documentation?
 **File:** `/docs-support/where-can-i-find-your-api-documentation.md`  
