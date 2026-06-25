@@ -1,6 +1,6 @@
 # Switching to a different Identity Provider (IdP)
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -37,8 +37,8 @@ This guide walks you through the process of migrating your Claude or Console org
 
 ## Related Articles
 
-- [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Ping Identity SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917875-ping-identity-sso-scim-email-mismatch)
+- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
 - [Ping Identity SSO setup](https://support.claude.com/en/articles/13917902-ping-identity-sso-setup)
 - [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

@@ -1,6 +1,6 @@
 # View usage analytics for Team and Enterprise plans
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -185,7 +185,7 @@ If you’re on an Enterprise plan and want to pull analytics data into your own 
 
 ## Related Articles
 
-- [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
+- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

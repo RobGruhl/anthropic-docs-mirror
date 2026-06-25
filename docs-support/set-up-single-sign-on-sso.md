@@ -1,6 +1,6 @@
 # Set up single sign-on (SSO)
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -56,15 +56,27 @@ You can verify multiple domains for a single organization, but all domains must 
 6.  
 6. 
 6.  
-7. This will generate a TXT record. Follow the instructions to add this TXT record to your domain provider.
-7. - If using a subdomain (e.g., subdomain.yourcompany.com), set your TXT record on that subdomain (e.g., _acme-challenge.subdomain.yourco. mpany.com).
+7. The setup screen displays a TXT record. **Copy the full Value using the copy button**—it begins with <code>anthropic-domain-verification-</code> and is longer than what's visible in the box. In your DNS provider, add a TXT record with **Host/Name** set to <code>@</code> (the root of your domain) and **Value** set to the copied string. Add it alongside any existing TXT records; don't replace them. The value is case-sensitive, so paste it exactly.
+7. 1. **Important:** Save the TXT value before leaving the setup screen. Once the domain shows as Pending, the admin console doesn't display the value again. If you lose it, you'll need to remove and re-add the domain, which generates a new value.
 8. Wait 10 minutes for your DNS change to propagate.
-8. - *Note: DNS changes can take 24-48 hours to propagate globally.*
+8. - **Note:*** DNS changes can take 24-48 hours to propagate globally.*
 9. When you see the green "Verified" badge, you can close the instructions page.
 10. If your domain shows as "Pending," use the "Refresh" button.
 10.  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782338400&signature=6866b518c3ee87cdd33127039ddae4ec3905d30c6ca2a31be41f16f8a89d1619&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSsDbHy9PM2D8ZcdgrilesHklazCIuo24URF%0AG6EDgaA5TBDmhUzFE1Q%3D%0A)
+### If your domain stays Pending
+
+Clicking "Refresh" re-checks your DNS; it won't show Verified until the published TXT record exactly matches the expected value. If it stays Pending after DNS has propagated, check the following:
+
+- **The record exists at the root.** Look up your domain's TXT records with a tool such as **[DNSChecker](https://dnschecker.org/#TXT)** and confirm a record beginning with <code>anthropic-domain-verification-</code> appears for <code>yourdomain.com</code> (not <code>www.yourdomain.com</code> or another subdomain). If it doesn't appear, the record may have been added at the wrong host or hasn't propagated yet.
+- **The value matches exactly.** The check is case-sensitive and requires the full string including the <code>anthropic-domain-verification-…=</code> prefix. A single character difference will keep it Pending.
+- **You haven't removed and re-added the domain.** Each re-add generates a new verification value. If you re-added the domain after publishing the TXT record, the published value no longer matches—you'll need to update the DNS record with the new value.
+
+If the record is correct and propagated but the status still shows Pending, contact Support.
+
+ 
+
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782453600&signature=22c094a21417f48de6e8276f0568cc90a949d918f1d035c64914617b8afd6d75&req=diAjEcl6mYVWX%2FMW3nq%2BgRz1alCPLmJm%2Ban4XWURBt45CSl5d1C%2FhqJ6kzqh%0AVhU3NiOmVy17Ij7ap5yozkBLNmM%3D%0A)
 
  
 
@@ -102,7 +114,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782338400&signature=feb63bac8d0d04407dab4541ed3632db36ad353f0b99a9217d784eb419766bca&req=diMmFM93nYNfWfMW1HO4zdAICw2iAXQOItXtKivx6ZF461%2BhAMKSMsJNjmLi%0ANctacL%2B%2BUAPhhCLeocE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782453600&signature=691ec1dcd642461ef213e0a06eae569e3e56899e2201605f7624173e02a24d59&req=diMmFM93nYNfWfMW3nq%2BgRYH5xpAppDn%2Bq7EdawRDazRfb0ACRELudrINsAY%0AIbjjvXgD7bTGEz0zu%2FD%2Brrh0YX4%3D%0A)
 
  
 
@@ -177,7 +189,7 @@ To fully disconnect SSO, click “Manage SSO” then “Reset connection.” Thi
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
-- [Okta SSO setup](https://support.claude.com/en/articles/13917894-okta-sso-setup)
+- [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
 - [Ping Identity SSO setup](https://support.claude.com/en/articles/13917902-ping-identity-sso-setup)
 - [SSO login](https://support.claude.com/en/articles/14503613-sso-login)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

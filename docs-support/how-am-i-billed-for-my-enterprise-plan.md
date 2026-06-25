@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -41,8 +41,6 @@ You're charged for the number of seats on your plan at the start of your annual 
 ## Usage billing
 
 On usage-based Enterprise plans, usage is charged separately from your seat fee and is based on actual token consumption at standard API rates. For current per-model pricing, see our **[API pricing page](https://www.anthropic.com/pricing#api)**.
-
- 
 
  
 
@@ -97,34 +95,34 @@ There's no balance to deplete. Everyone's usage is metered and added to the same
 
  
 
-## Spend controls
+## Spend limits
 
-Owners and Primary Owners can set spending caps to manage your organization's consumption. This applies to both self-serve and sales-assisted plans.
-
- 
-
-To configure spend controls, sign in as an Owner or Primary Owner and navigate to **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+Owners and Primary Owners can set spend limits to manage your organization's consumption. This applies to both self-serve and sales-assisted plans.
 
  
 
-You can set caps at two levels:
+To configure spend limits, sign in as an Owner or Primary Owner and navigate to **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+
+ 
+
+You can set limits at two levels:
 
 - **Organization level:** Maximum spend for all usage across your organization.
 - **Individual level:** Maximum spend for a specific user.
 
-These limits work hierarchically — a user cannot exceed their individual limit or the organization limit, whichever is lower.
+These limits work hierarchically, so a user cannot exceed their individual limit or the organization limit, whichever is lower.
 
  
 
-On **self-serve plans**, spend caps work alongside your credit balance. If a user hits their individual cap or the organization cap, their usage will stop even if credits remain. Owners can adjust caps at any time.
+On **self-serve plans**, spend limits work alongside your credit balance. If a user hits their individual limit or the organization limit, their usage will stop even if credits remain. Owners can adjust limits at any time.
 
  
 
-On **sales-assisted plans**, spend caps prevent usage from continuing past the cap threshold. If a cap is reached, usage stops until the next billing period begins or an owner raises the limit.
+On **sales-assisted plans**, spend limits prevent usage from continuing past the limit threshold. If a limit is reached, usage stops until the next billing period begins or an owner raises the limit.
 
  
 
-**Owners can set limits to "unlimited,"** but consumption will still be billed. You cannot disable billing for usage — usage-based pricing is a core part of the Enterprise plan.
+**Owners can set limits to "unlimited,"** but consumption will still be billed. You cannot disable billing for usage—usage-based pricing is a core part of the Enterprise plan.
 
  
 
@@ -136,7 +134,7 @@ On **sales-assisted plans**, spend caps prevent usage from continuing past the c
 
 You can track your organization's usage and spending in a few places:
 
-- **Organization** **settings > Usage:** View month-to-date spending for each member, current spend cap status, and credit balance (self-serve plans).
+- **Organization** **settings > Usage:** View month-to-date spending for each member, current spend limit status, and credit balance (self-serve plans).
 - **Monthly invoices:** Detailed usage per user for the billing period (sales-assisted plans).
 - **Spend limit notifications:** Alerts when users or your organization approach configured spending thresholds.
 
@@ -150,8 +148,8 @@ You can track your organization's usage and spending in a few places:
 
 If usage stops on your Enterprise plan, here's how to resume:
 
-- **Self-serve plans:** If credits run out or a spend cap is reached, an Owner or Primary Owner can purchase additional credits or raise the spend cap from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
-- **Sales-assisted plans:** If a spend cap is reached, an Owner or Primary Owner can raise the cap, or usage will resume at the start of the next billing period. Contact your account manager with questions.
+- **Self-serve plans:** If credits run out or a spend limit is reached, an Owner or Primary Owner can purchase additional credits or raise the spend limit from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+- **Sales-assisted plans:** If a spend limit is reached, an Owner or Primary Owner can raise the limit, or usage will resume at the start of the next billing period. Contact your account manager with questions.
 -  
 
 ---
@@ -206,7 +204,7 @@ At your next contract renewal, your plan will transition to the usage-based sing
 ## Related Articles
 
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
+- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
-- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)
 - [Migrate your organization from Team to Enterprise](https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise)

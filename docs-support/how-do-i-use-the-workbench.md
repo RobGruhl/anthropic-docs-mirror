@@ -8,7 +8,7 @@ The Workbench allows you to create and test prompts within your Claude Console a
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1782338400&signature=d2db53675e74f7cd8ea1228866c550712116c4182feece1305caf4966100e0fb&req=fCgvFst%2FlYVWFb4f3HP0gKWhdjgP2kJbOkmmaOsi7IDWnFg5uQ9hyuiO%2F8Fs%0A43MsmQJxOgVw%2F2CVrg%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1782349200&signature=849e4747711fcef09f5fc7bf6f68d6173a9daac00da0d507b103534e310f71ad&req=fCgvFst%2FlYVWFb4f3HP0gKWhdjgI20RbOkmmaOsi7ID88k%2BzncPpqnalJquv%0A%2BNnQwh7ObOwo%2F9J3iQ%3D%3D%0A)
 
  
 
@@ -16,7 +16,7 @@ The Workbench also allows you to configure several settings when prompting Claud
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1782338400&signature=0b27f391cd9a78dd08ca05a92a2eb2f579c0006a2d0c6412f814ddb022d506e7&req=fCgvFst9nYdeFb4f3HP0gN55W9HTMYC3DUq7%2BRvcmSORs5E9uKf4Xpc4XOL7%0AQHROXFA%2BPpy%2FU2VYMQ%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1782349200&signature=42c9361f7a423d69fd805e881074239d2e67632b76b6a724beea17a51531af92&req=fCgvFst9nYdeFb4f3HP0gN55W9HUMIa3DUq7%2BRvcmSN0fbPlSy%2FT%2FZetmo2F%0AX%2FfhbU3MZulVmDgzhw%3D%3D%0A)
 
  
 
@@ -24,7 +24,7 @@ After crafting your prompt, click on the "Get code" button to generate a sample 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1782338400&signature=978e23f19eac27157248f4ac1a7a9c1faf052704bd7a0880da806657fbdc7763&req=fCgvFst9mIVaFb4f3HP0gEZTtjud6uDrRWixPJbjiQeWmnXF%2BTDwYc8E%2B725%0AfodLVG30Cmr9M8pogQ%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1782349200&signature=4d73c516205db5b0fb8287fbf464d4f247b1204059ec9e1383c0ad59c8e49f9b&req=fCgvFst9mIVaFb4f3HP0gEZTtjua6%2BbrRWixPJbjiQfxcYh7DhDf6XAJ3o77%0Azk5tCoJSvQgelJQ2KQ%3D%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ You can access your previous Workbench prompts on your Console account by follow
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1782338400&signature=9fd8d3f7f12b820817b4741870582b395a47a26df1f00fc4d6a7e5cee51908a6&req=dSkjE8B3n4hXXPMW1HO4zQQ9sFMKNHu8TyGSpkcb8MXeCTM3Uh%2BordAaqPOz%0ADFdjKtsZtPy5AZCaMyc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1782349200&signature=7bf08fd83328097ffb52113fcad00d65b09d3fed831bc48410f936c21fae41aa&req=dSkjE8B3n4hXXPMW1HO4zQQ9sFMKM3q6TyGSpkcb8MUhbhnqcQycytdGQbyE%0A8Y9gVelLODENEfP35jA%3D%0A)
 
  
 
@@ -59,6 +59,6 @@ You can access your previous Workbench prompts on your Console account by follow
 
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
-- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
+- [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
 - [Okta SSO setup](https://support.claude.com/en/articles/13917894-okta-sso-setup)

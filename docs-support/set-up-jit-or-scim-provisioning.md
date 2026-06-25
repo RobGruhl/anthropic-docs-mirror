@@ -1,6 +1,6 @@
 # Set up JIT or SCIM provisioning
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -50,7 +50,7 @@ Both JIT and SCIM can be combined with **Enable group mappings** to control role
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1782338400&signature=22b0d23f3300af4a470fdeabae718ee76f4b525ad68eabb9e9b8645af4b32b1c&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6lXDlJyxFMG%2BIEvQScpbFyXLc57Z4CHCjVf%0A9eGLz7yx12gr%2FrIPkng%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1782349200&signature=8e75f5a3b75c5f346ded978658fea940f1e56e3b76eb032acbd380ef18fde63f&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6lXCVN0xFMG%2BIEvQSfLC3L%2FNRfIg3URR8YF%0AyPVAtJWf9MbKJhTw4Js%3D%0A)
 
  
 
@@ -203,7 +203,7 @@ To fix this:
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
-- [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Switching to a different Identity Provider (IdP)](https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp)
+- [Ping Identity SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917875-ping-identity-sso-scim-email-mismatch)
 - [How SCIM sync works for Enterprise organizations](https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations)
 - [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

@@ -1,6 +1,6 @@
 # Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -22,7 +22,7 @@ Our single sign-on feature uses the concept of a "parent organization." This is 
 
 ### Key things to know
 
-- **Domain verification is required before you can configure SSO.** Domains are verified at the parent organization level—once verified, other parent organizations cannot claim the same domain.
+- **Domain verification is required before you can configure SSO.** Domains are verified at the parent organization level. Once a domain is verified, other parent organizations can't claim it.
 - **Multiple organizations can be linked to the same parent organization** to share domain verification and SSO configuration. This is useful if you have both Claude (Team/Enterprise plans) and Console organizations.
 - **Each parent organization can only be linked to one Identity Provider. **This means that every organization linked to a single parent organization must be managed through the same IdP.
 - **Enabling group mappings** allows you to control which users are provisioned to which organizations under your parent, and with which roles. See **[Configure groups and assign users in your IdP](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning#h_0178209cfa)** for details.
@@ -32,11 +32,11 @@ Our single sign-on feature uses the concept of a "parent organization." This is 
 
 ### What this means for you
 
-You will need to check the parent organization dynamic depending on your plan:
+You'll need to check the parent organization dynamic depending on your plan:
 
 - **If you have a Team or Enterprise plan:** You can proceed directly to the **[Setting up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso)** guide. Your parent organization is already in place (or will be created when you enable SSO for Team plans).
 - **If you have a Claude Console organization and an existing Team or Enterprise plan:** Your Console organization may already be linked to your Team or Enterprise parent organization. Check if you can access **[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**. If so, this indicates that the org is linked to the parent organization and SSO is already configured. If not, an Owner on your Team or Enterprise plan can initiate a merge to link your Console organization (see **[Merge organizations](#h_3bad8701c8)** below) to their parent organization and the existing SSO configuration.
-- **If you have a Claude Console organization without a Team or Enterprise plan:** **[Contact our Sales team](https://claude.com/contact-sales)** to request a parent organization for your Console account. Once we create your parent organization, you will see the Identity settings page in Claude Console and can proceed with SSO setup.
+- **If you have a Claude Console organization without a Team or Enterprise plan:** **[Contact our Sales team](https://claude.com/contact-sales)** to request a parent organization for your Console account. Once we create your parent organization, you'll see the Identity settings page in Claude Console and can proceed with SSO setup.
 -  
 
 ---
@@ -45,13 +45,16 @@ You will need to check the parent organization dynamic depending on your plan:
 
 ## Merge organizations
 
-Team or Enterprise organizations can invite other orgs to join an existing parent organization and share SSO configuration.
+Team or Enterprise organizations can invite other organizations to join an existing parent organization and share SSO configuration.
+
+ 
 
 ### Requirements for merging
 
 - The Team or Enterprise organization initiating the proposal must have verified domains in their parent organization.
 - All members in the organization being invited must have email addresses matching those verified domains.
 - An Admin (Console) or Owner (Claude) for the invited organization needs to approve the merge.
+- The organization being invited can't already belong to another parent organization.
 
  
 
@@ -69,7 +72,7 @@ An organization Owner or Primary Owner needs to go to **[claude.ai/settings/join
 
  
 
-Once a Console organization is merged, it will gain access to the **[Identity and access page](http://platform.claude.com/settings/identity)**, in the Organization settings, to configure SSO and provisioning settings.
+Once a Console organization is merged, it gains access to the **[Identity and access page](http://platform.claude.com/settings/identity)**, in the Organization settings, to configure SSO and provisioning settings.
 
  
 
@@ -91,7 +94,7 @@ You'll find settings you can use to configure SSO in the **Authentication** sect
 
 ## Restrict new organization creation
 
-Once your organization's domains are verified, owners will see a **Restrict organization creation** toggle under **Security** on the Organization and access page. Toggle this on to prevent users from creating new Claude or Console organizations—including personal accounts—using any of your verified domains.
+Once your organization's domains are verified, owners will see a **Restrict organization creation** toggle under **Security** on the Organization and access page. Toggle this on to prevent users from creating new Claude or Console organizations, including personal accounts, using any of your verified domains.
 
  
 
@@ -125,7 +128,7 @@ After enabling SSO for your organization, there are two distinct scenarios to co
 
 ### Users with existing Free/Pro/Team/Max accounts who ARE added to your SSO application
 
-These users will maintain access to their existing Free/Pro/Team/Max accounts. They will have the ability to toggle between the Team or Enterprise plan account and their previous accounts by clicking the profile icon with their initials in the bottom left corner.
+These users keep access to their existing Free/Pro/Team/Max accounts. They can toggle between the Team or Enterprise plan account and their previous accounts by clicking the profile icon with their initials in the bottom left corner.
 
  
 
@@ -168,7 +171,7 @@ To view or download information about your verified domains and their usage acro
 - Have a clear process in place for granting access to authorized users.
 - If possible, implement both SSO and provisioning features at the same time.
 
-Taking time to test, communicate, and plan before enabling domain capture and SSO will help ensure a successful transition and positive experience for your organization.
+Taking time to test, communicate, and plan before enabling domain verification and SSO will help ensure a successful transition and positive experience for your organization.
 
  
 
