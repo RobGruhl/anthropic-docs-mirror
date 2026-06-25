@@ -10,11 +10,11 @@ Owners and Primary Owners of Team plans with monthly subscriptions can switch fr
 2. You’ll see a banner confirming your current monthly plan in your Billing settings; click the “Switch to Annual” button.
 3. Or from /upgrade, click the “Switch to Annual plan” button:
 3.  
-3. <img src="https://downloads.intercomcdn.com/i/o/lupk8zyo/1690325734/d47f714680d78408d6022d06b8d1/image.png?expires=1782486000&signature=d1fb813962b961b964e7c5db3b607eb9ba5a79b8931bd21b800b0f51ae15c261&req=dSYuFsp8mIZcXfMW3Hu4gZzas%2FXtuztam2rRiVwqPzbs5ugxCcbDCROL2i4J%0ATg%3D%3D%0A" width="450" alt="">
+3. <img src="https://downloads.intercomcdn.com/i/o/lupk8zyo/1690325734/d47f714680d78408d6022d06b8d1/image.png?expires=1782540000&signature=7b46b7836e41ff77abb160e1fbcffd443ad41dad471dd1a5dbec45e3adcbac00&req=dSYuFsp8mIZcXfMW3Hu4gZzas%2FXtuzpWnWrRiVwqPzavnI%2FpK9vbukeSsFtP%0ASw%3D%3D%0A" width="450" alt="">
 3.  
 4. The confirmation screen will display the total cost for your upgrade from monthly to annual billing:
 4.  
-4. <img src="https://downloads.intercomcdn.com/i/o/lupk8zyo/1690326039/3a91cdc5fff57d188a18ecc6273f/image.png?expires=1782486000&signature=0c657d6caf0465a22e4034d748a16145ba86209bf2aeb1572d0004799c498501&req=dSYuFsp8m4FcUPMW3Hu4gbNj%2Bk78Xgnpje5vzcg6znWNdYWpIZaY9DgMbAuy%0Ahg%3D%3D%0A" width="350" alt="">
+4. <img src="https://downloads.intercomcdn.com/i/o/lupk8zyo/1690326039/3a91cdc5fff57d188a18ecc6273f/image.png?expires=1782540000&signature=493523dd87c0155615ec6a0d97afa3f1c2d8abf5885dce2349f2c85d17df9405&req=dSYuFsp8m4FcUPMW3Hu4gbNj%2Bk78Xgjli%2B5vzcg6znWuVNx%2BTkfZZ%2FVkJbGL%0A8Q%3D%3D%0A" width="350" alt="">
 4.  
 5. Click “Confirm subscription.”
 6. Your new annual Team plan will start immediately and you will be credited for any unused time on your previous monthly plan.
