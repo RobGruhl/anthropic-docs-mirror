@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-25 10:07*
+*Last updated: 2026-06-25 12:48*
 Total documents: 261
 ---
 ## Uncategorized (261 documents)
@@ -376,7 +376,7 @@ Total documents: 261
 ### Get started with Claude in Slack
 **File:** `/docs-support/getting-started-with-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-25  
 
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
@@ -386,7 +386,7 @@ Total documents: 261
 ### Get started with the Claude Enterprise Analytics API
 **File:** `/docs-support/access-engagement-and-adoption-data-with-the-analytics-api.md`  
 **Source:** https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
@@ -1021,7 +1021,7 @@ Total documents: 261
 ### Use Claude in Slack
 **File:** `/docs-support/using-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-25  
 
 ### Use Claude in Xcode
 **File:** `/docs-support/using-claude-in-xcode.md`  
