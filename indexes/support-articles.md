@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-06-26 00:38*
-Total documents: 261
+*Last updated: 2026-06-26 04:33*
+Total documents: 259
 ---
-## Uncategorized (261 documents)
+## Uncategorized (259 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -171,7 +171,7 @@ Total documents: 261
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-26  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -187,11 +187,6 @@ Total documents: 261
 **File:** `/docs-support/claude-console-roles-and-permissions.md`  
 **Source:** https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions  
 **Updated:** 2026-06-23  
-
-### Claude Enterprise Analytics API reference guide
-**File:** `/docs-support/claude-enterprise-analytics-api-reference-guide.md`  
-**Source:** https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide  
-**Updated:** 2026-06-26  
 
 ### Claude in Chrome Permissions Guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -226,7 +221,7 @@ Total documents: 261
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-26  
 
 ### Configuring session security settings
 **File:** `/docs-support/configuring-session-security-settings.md`  
@@ -382,11 +377,6 @@ Total documents: 261
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp  
 **Updated:** 2026-05-17  
-
-### Get started with the Claude Enterprise Analytics API
-**File:** `/docs-support/access-engagement-and-adoption-data-with-the-analytics-api.md`  
-**Source:** https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api  
-**Updated:** 2026-06-26  
 
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
@@ -1156,7 +1146,7 @@ Total documents: 261
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-26  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1271,7 +1261,7 @@ Total documents: 261
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-26  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  

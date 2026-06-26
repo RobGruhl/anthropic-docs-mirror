@@ -6,7 +6,7 @@
 
 Artifacts allow you to turn ideas into shareable apps, tools, or content—build tools, visualizations, and experiences by simply describing what you need. Claude can share substantial, standalone content with you in a dedicated window separate from the main conversation. This makes it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.
 
-Artifacts work in three places: Claude and Claude Desktop, where this article focuses, and Claude Code, where Claude publishes session output as a shareable page. To learn how to create, update, and share artifacts in Claude Code, see the **[artifacts documentation on Claude Code Docs](https://code.claude.com/docs/en/artifacts)**.
+Artifacts are available in Claude, Claude Desktop, and Claude Code. This article focuses on Claude and Claude Desktop. To learn how to create, update, and share artifacts in Claude Code, see the **[artifacts documentation on Claude Code Docs](https://code.claude.com/docs/en/artifacts)**.
 
  
 
@@ -186,7 +186,7 @@ Claude Code can publish its session output as an artifact—a live, interactive 
 
  
 
-Artifacts in Claude Code are viewable only by members of the organization that published them.
+By default, artifacts in Claude Code are only visible to the individual who created them. They can choose to share artifacts with the rest of their organization, and they can’t be shared publicly.
 
  
 
