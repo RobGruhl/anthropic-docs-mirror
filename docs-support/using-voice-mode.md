@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782424800&signature=9ca6b284abfe7b2792574a5e1fd83ef078f54573aba5c8e07512ec441fea8f9f&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FOSrhhxNdRzYWrfF4dt7Yh68%2F9AEHERh0Q%0ATVT0SG5DlUJr8%2BvVruU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782435600&signature=b4da4304387a606d9529a071bc8b83a454f7d1cb7f7eb7aea58ef9fed6a489d9&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FOS7lvxNdRzYWrfF65WeG%2FnDSpySbdxOmb%0Ay5xRBxBC1LpHe1K0EfE%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782424800&signature=7288dcec04342b087f57aa18bc757e01fd7c3dd6c868733a1cfb35a60f1361cf&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGiRYlQCy8OQfYsvK3xKUozDe6pHP5cz%2B3pO%0A8Cdy7j%2BuwNTyPjXNrfY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782435600&signature=9c8837bcba5a9787e18f16a6cfb0793f2062603229ce45af59fa084c38e5af08&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGiRY1UMy8OQfYsvK3yRqgttzkdmmLwEhKZR%0Aj9HIs%2BEV%2BdOKLLOIm4k%3D%0A)
 
  
 

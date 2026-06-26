@@ -1,10 +1,10 @@
 # Migrate your organization from Team to Enterprise
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
-When upgrading from a Team plan to an Enterprise plan, we recommend you keep the same Team organization and follow the upgrade path to change it to Enterprise. This will allow you to preserve your data (memberships/roles, conversations and projects) and some of the settings from your Team plan organization. If you create a brand new Enterprise organization, then you'll need to set up everything from scratch.
+When upgrading from a Team plan to an Enterprise plan, we recommend you keep the same Team organization and follow the upgrade path to change it to Enterprise. This will allow you to preserve your data (memberships/roles, conversations, and projects) and some of the settings from your Team plan organization. If you create a brand new Enterprise organization, then you'll need to set up everything from scratch.
 
  
 
@@ -79,13 +79,13 @@ The following capabilities are default-off for Enterprise plans:
 
 ### Per-user spend limits
 
-Go to **Organization settings > Usage** and review per-user spend limits for all members. Clear or adjust any that are no longer appropriate for your Enterprise plan configuration.
+Go to **[Organization settings > Usage](https://claude.ai/admin-settings/usage)** and review per-user spend limits for all members. Clear or adjust any that are no longer appropriate for your Enterprise plan configuration.
 
   
 
 ### Seat assignments
 
-During migration, some users may appear as "Unassigned" rather than being automatically mapped to seat tiers. Admins should verify all users have correct seat assignments after the cutover. Pay attention to your highest-usage members, and note that users who appear as unassigned won’t have access until an admin corrects their seat assignment.
+During migration, some users may appear as **No seat assigned** rather than being automatically mapped to seat tiers. Admins should verify all users have correct seat assignments after the cutover. Pay attention to your highest-usage members, and note that users without a seat won't have access until an admin corrects their seat assignment.
 
  
 
@@ -135,7 +135,7 @@ If you had purchased usage credits for your Team plan, any unused balance will r
 
 ### Provisioning process
 
-On the start date, you'll be provisioned and able to use the new features by the end of the day. After initial setup, Owners and Primary Owners can self-serve additional seats by navigating to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)** and clicking "Manage" under **Total seats**.
+On the start date, you'll be provisioned and able to use the new features by the end of the day. After initial setup, Owners and Primary Owners can self-serve additional seats by navigating to **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)** and clicking "Manage" under **Total seats**.
 
  
 

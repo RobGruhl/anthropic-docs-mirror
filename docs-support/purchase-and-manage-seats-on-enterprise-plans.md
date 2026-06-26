@@ -1,6 +1,6 @@
 # Purchase and manage seats on Enterprise plans
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -33,11 +33,12 @@ Enterprise plans require a minimum of 20 seats.
 You can add seats to your Enterprise plan at any time during your annual term. New seats are prorated for the remainder of your billing cycle and charged immediately.
 
 1. Log in with your Owner or Primary Owner account.
-2. Go to **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**.
-3. Click the pencil icon under **Seats**.
-4. Enter the number of seats you'd like to add.
-5. Review your changes and the prorated charge before confirming.
-6. Click "Upgrade" to finalize.
+2. Go to **[Organization settings > Organization and access](https://claude.ai/admin-settings/organization)**.
+3. Click "Manage" under **Total seats**.
+4. Click "Add or change seats."
+5. Enter the number of seats you'd like to add.
+6. Review your changes and the prorated charge before confirming.
+7. Click "Confirm & purchase" to finalize.
 
 For details on how seat additions are billed, see **[How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)**
 
@@ -49,7 +50,7 @@ For details on how seat additions are billed, see **[How am I billed for my Ente
 
 ## Remove seats
 
-**Self-serve Enterprise plans:** Seats cannot be removed during your annual term. You can add seats at any time, but reductions to your seat count only take effect at renewal. If you need to make an exception, contact our **[Sales team](https://claude.com/contact-sales)** to discuss converting to a sales-assisted plan.
+**Self-serve Enterprise plans:** Seats cannot be removed during your annual term. You can add seats at any time, but reductions to your seat count only take effect at renewal. If you need to make an exception, contact **[our Sales team](https://claude.com/contact-sales)** to discuss converting to a sales-assisted plan.
 
  
 
@@ -57,7 +58,7 @@ For details on how seat additions are billed, see **[How am I billed for my Ente
 
  
 
-Removing a member from your organization is different from reducing your seat count. When you remove a member, their seat becomes available to assign to someone else — your total seat allocation and bill don't change. To reduce your bill, you'll need to reduce your total seat allocation. See **[Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)** for instructions on removing members.
+Removing a member from your organization is different from reducing your seat count. When you remove a member, their seat becomes available to assign to someone else, so your total seat allocation and bill don't change. To reduce your bill, you'll need to reduce your total seat allocation. See **[Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)** for instructions on removing members.
 
  
 
@@ -67,16 +68,16 @@ Removing a member from your organization is different from reducing your seat co
 
 ## Temporarily remove a member's access
 
-The **unassigned** option lets you temporarily remove a member's access to Claude without removing them from your organization. This is useful for contractors or team members who need intermittent access.
+The **No seat assigned** option lets you temporarily remove a member's access to Claude without removing them from your organization. This is useful for contractors or team members who need intermittent access.
 
  
 
 To unassign a member:
 
-1. Go to **[Organization settings > Organization](https://claude.ai/admin-settings/organization).**
+1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 2. Find the member you want to unassign.
-3. Click the dropdown under **Seat Type**.
-4. Select "Unassigned."
+3. Click the dropdown under **Tier**.
+4. Select "No seat assigned."
 
 To restore their access, repeat the process and select “Enterprise seat.”
 
@@ -88,11 +89,11 @@ To restore their access, repeat the process and select “Enterprise seat.”
 
 ## Seat assignment with JIT or SCIM provisioning
 
-**[Users provisioned via JIT or SCIM](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning-to-manage-user-assignments-on-team-or-enterprise-plans)** are automatically assigned an Enterprise seat when they're added, provided one is available in your allocation. If no seat is available, provisioning will not complete until an Owner purchases an additional seat.
+**[Users provisioned via JIT or SCIM](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning-to-manage-user-assignments-on-team-or-enterprise-plans)** are automatically assigned an Enterprise seat when they're added, provided one is available in your allocation. If no seat is available, provisioning will not complete until an owner purchases an additional seat.
 
  
 
-Admins and above can manually adjust a member's status (e.g., set to unassigned) afterward in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+Admins and above can manually adjust a member's status (e.g., remove their seat assignment) afterward in **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 
  
 
@@ -102,7 +103,7 @@ Admins and above can manually adjust a member's status (e.g., set to unassigned)
 
 ## Cancel your Enterprise plan
 
-**Self-serve Enterprise plans:** An Owner or Primary Owner can cancel your plan from **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**. Cancellation takes effect at the end of your current annual billing cycle — your organization will continue to have access until then.
+**Self-serve Enterprise plans:** An Owner or Primary Owner can cancel your plan from **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**. Cancellation takes effect at the end of your current annual billing cycle—your organization will continue to have access until then.
 
  
 
@@ -116,7 +117,7 @@ Admins and above can manually adjust a member's status (e.g., set to unassigned)
 
 ## Information for Chat and Chat + Claude Code plans
 
-Some existing usage-based Enterprise organizations currently have two seat types: **Chat** and **Chat + Claude Code**. If you see these seat types in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**, this section applies to you. Your plan will transition to the single Enterprise seat model at your next contract renewal — see below for more information.
+Some existing usage-based Enterprise organizations currently have two seat types: **Chat** and **Chat + Claude Code**. If you see these seat types in **[Organization settings > Members](https://claude.ai/admin-settings/members)**, this section applies to you. Your plan will transition to the single Enterprise seat model at your next contract renewal—see below for more information.
 
  
 
@@ -135,10 +136,10 @@ You can mix and match seat types based on your team's needs. Assign Chat + Claud
 
 You can move users between Chat and Chat + Claude Code seats within your existing allocation.
 
-1. Go to **[Organization settings > Organization](https://claude.ai/admin-settings/organization).**
+1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 2. Find the member you want to reassign.
-3. Click the dropdown under **Seat Type**.
-4. Select Chat or Chat + Claude Code.
+3. Click the dropdown under **Tier**.
+4. Select "Chat" or "Chat + Claude Code."
 
 Members moved from Chat + Claude Code to Chat will lose Claude Code access, and vice versa. If you try to assign a user to Chat + Claude Code but don't have any available seats of that type, you'll be prompted to purchase one.
 
@@ -146,21 +147,21 @@ Members moved from Chat + Claude Code to Chat will lose Claude Code access, and 
 
 ### Swap users between seat types
 
-If all your Chat + Claude Code seats are assigned and you need to move one user to that type while moving another off it, use the unassigned option to free up a seat first.
+If all your Chat + Claude Code seats are assigned and you need to move one user to that type while moving another off it, use **No seat assigned** to free up a seat first.
 
  
 
 **Example:** You have ten Chat + Claude Code seats, all assigned. You want to move User A (currently on Chat + Claude Code) to Chat, and move User B (currently on Chat) to Chat + Claude Code — without purchasing an additional seat.
 
-1. Go to **[Organization settings > Organization](https://claude.ai/admin-settings/organization).**
-2. Find User A and change their seat type to "Unassigned." This frees up one Chat + Claude Code seat.
+1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
+2. Find User A and change their seat type to "No seat assigned." This frees up one Chat + Claude Code seat.
 3. Find User B and change their seat type to "Chat + Claude Code." They now occupy the freed seat.
 4. Find User A and change their seat type to "Chat."
 4.  
 
 ### Seat assignment with JIT or SCIM provisioning
 
-Users provisioned via JIT or SCIM are automatically assigned to the highest-available seat type (Chat + Claude Code, if available) when they're added. Admins and above can manually reassign seat types afterward in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**.
+Users provisioned via JIT or SCIM are automatically assigned to the highest-available seat type (Chat + Claude Code, if available) when they're added. Admins and above can manually reassign seat types afterward in **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 
 You can also use Advanced Group Mappings with JIT or SCIM to provision users directly to a specific seat type.
 
@@ -182,7 +183,7 @@ Reach out to your Anthropic Contact or **[our Sales team](https://claude.com/con
 
 ## Information for seat-based Enterprise plans
 
-Some Enterprise organizations are on older seat-based plans with a different billing structure than the usage-based model described above. If you see **Standard** and **Premium** seats in **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**, this section applies to you.
+Some Enterprise organizations are on older seat-based plans with a different billing structure than the usage-based model described above. If you see **Standard** and **Premium** seats in **[Organization settings > Members](https://claude.ai/admin-settings/members)**, this section applies to you.
 
  
 
@@ -197,10 +198,10 @@ Some Enterprise organizations are on older seat-based plans with a different bil
 
 You can move users between Standard and Premium seats within your existing allocation.
 
-1. Go to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**
+1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 2. Find the member you want to reassign.
-3. Click the dropdown under **Seat Type**.
-4. Select Standard or Premium.
+3. Click the dropdown under **Tier**.
+4. Select "Standard" or "Premium."
 
 Members moved from Premium to Standard will have lower usage limits, and vice versa.
 
@@ -212,14 +213,14 @@ If you try to reassign a user to Premium but don't have any available Premium se
 
 ### Swap users between seat types
 
-If all your Premium seats are assigned and you need to move one user to Premium while moving another to Standard, use the unassigned option to free up a seat first.
+If all your Premium seats are assigned and you need to move one user to Premium while moving another to Standard, use **No seat assigned** to free up a seat first.
 
  
 
-**Example:** You have ten Premium seats, all assigned. You want to move User A (currently on Premium) to Standard, and move User B (currently on Standard) to Premium — without purchasing an additional seat.
+**Example:** You have ten Premium seats, all assigned. You want to move User A (currently on Premium) to Standard, and move User B (currently on Standard) to Premium—without purchasing an additional seat.
 
-1. Go to **[Organization settings > Organization](https://claude.ai/admin-settings/organization)**
-2. Find User A and change their seat type to "Unassigned." This frees up one Premium seat.
+1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
+2. Find User A and change their seat type to "No seat assigned." This frees up one Premium seat.
 3. Find User B and change their seat type to "Premium." They now occupy the freed seat.
 4. Find User A and change their seat type to "Standard."
 4.  
