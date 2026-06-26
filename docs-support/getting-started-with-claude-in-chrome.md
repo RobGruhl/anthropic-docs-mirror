@@ -33,7 +33,7 @@ Start a task in Claude Desktop and let it handle work in the browser without swi
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1782479700&signature=af19a39571cb9fded1a80f0de38587e12afeaff5f985cc26f1a7018ed135a18e&req=dSguFM93m4RfW%2FMW1HO4zdOezIlY77p%2Bhnw73Y7ib%2BeNAqVVUx%2Bq0fh0Xdmf%0AQUFyr%2B9st5pJtYRL2%2Bk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1782490500&signature=78fc7af9f983ff642bfdd892514ddaf93f114d70c06095b23b354e2b9f8d0a39&req=dSguFM93m4RfW%2FMW1HO4zdOezIlY4bN8hnw73Y7ib%2Bf2ES6zeUEOu8VxQuhq%0Ar1KVDV1mgqNf73nMNT0%3D%0A)
 
  
 
