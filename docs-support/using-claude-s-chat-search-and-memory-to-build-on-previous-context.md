@@ -1,6 +1,6 @@
 # Use Claude’s chat search and memory to build on previous context
 
-*Updated over a week ago*
+*Updated in the last hour*
 
 ---
 
@@ -44,7 +44,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1782501300&signature=735adf0786d14688b4f491bfdc73307528a2ba09c4263de3933f0f6800cba08e&req=dScmH859nYlXUPMW1HO4zRzXH101IzDBJG68qZhl780fcVVSYbayGf80iDYu%0AklHQG3DyQdz8JdVqBZ0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1782648000&signature=95e3684045e84a590defb855abd54233dfdde2a4dfee09c06f60e39490975fb7&req=dScmH859nYlXUPMW3nq%2BgZWAenTwyXm4TxCiEHajSETHjj4%2BXwF1pQbJfQxa%0AzTB%2FKfc1YHeKFBH3b%2FUDqJob7zc%3D%0A)
 
  
 
@@ -54,7 +54,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1782501300&signature=0fb040eb35f646e72f1ee3d2210b1b60c23324ae7254744d0cd853666be8894a&req=dScmH859nYlWWvMW1HO4za54sKFpPIe4XDpzhlKsgjP9pyBEUogoIH6c%2F9gh%0AXP5E2c2L9mdjqwbJTpU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1782648000&signature=df910e850ca157b5d0612110f5ecf0e26b0d5e4a127da4cd5e5e9d961d2eacba&req=dScmH859nYlWWvMW3nq%2Bgf44pcp9qOv2PG11mzkyUm30P%2BeteXWH7N99oekt%0Af5Xy%2FilpdWge4sSrnofAuNT5pLI%3D%0A)
 
  
 
@@ -92,11 +92,11 @@ Each project has its own separate memory space and dedicated project summary, so
 
 ## Enable Claude’s memory
 
-You can toggle Claude’s memory on by navigating to [Settings > Capabilities](http://claude.ai/settings/capabilities):
+You can toggle Claude’s memory on by navigating to **[Settings > Capabilities](http://claude.ai/settings/capabilities)**:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1782501300&signature=1668ce34384ad0238c0a549949bce923b4591694a2e26950681e9af13e8e51bf&req=dScmH859nYlWW%2FMW1HO4zTD5MMPjd%2BVGBq9N9dRTKYfz4hFoWQrtDnHFNiGa%0A4ajWdF4XG7K403nJVsk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1782648000&signature=f65d0020d2ae93dfd86357a72b16cffca95f235602c2a12a12559d69dc7ba360&req=dScmH859nYlWW%2FMW3nq%2BgRexfslS1nQ8Xm%2FBdWCMNKOPik8emc32uzyB%2FVNc%0AN1B6NKrsouOJDYioTusus0a1AQs%3D%0A)
 
  
 
@@ -104,6 +104,8 @@ If you want to disable Claude’s memory, click the toggle to see two options:
 
 - **Pause memory:** Claude keeps its existing memory but won’t use memory or make new memories. Conversations with Claude while memory is paused will not be summarized into its memory should you turn the feature back on.
 - **Reset memory:** Permanently deletes all memories including project memories. Once you select this option and click “Reset memory,” this cannot be undone. Upon re-enabling the feature, you’ll start from scratch and Claude will not have its previous memory.
+
+ 
 
 ## What does Claude remember?
 
@@ -200,7 +202,8 @@ The organization-wide **Generate memory from chat history** toggle is enabled by
 
 - **Audit logging:** The system logs when org-level memory toggles are enabled or disabled by Owners. Standard conversation access logging applies to memory synthesis. Individual user memory edits are not logged.
 - **Data exports:** Memory synthesis and chat summaries are included in standard conversation history exports. Incognito chats are included in organizational data exports. All exported chat summaries remain tied to their source conversations.
--  
+
+ 
 
 ### Team plan limitations
 
@@ -212,7 +215,7 @@ Team plans do not have organization-level controls for memory features. Individu
 ## Related Articles
 
 - [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
-- [Using incognito chats](https://support.claude.com/en/articles/12260368-using-incognito-chats)
+- [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

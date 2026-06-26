@@ -1,6 +1,6 @@
 # Use Claude with Android apps
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -39,7 +39,7 @@ Claude can help you:
 
 When Claude determines that using one of these features would be helpful, it will automatically offer to help. You'll see a card or prompt within your conversation that lets you review and take action with Claude’s help.
 
-### Sending texts and emails with Messages and Mail
+### Send texts and emails with Messages and Mail
 
 1. Ask Claude to help draft a message or email (for example: "Draft an email to my supervisor about the project update").
 2. Claude will prepare the content and show you a preview.
@@ -51,7 +51,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Using location for contextual suggestions
+### Use location for contextual suggestions
 
 1. Ask Claude for location-based recommendations (for example: "What restaurants are near me?").
 2. Claude will request access to your location if not already granted.
@@ -62,7 +62,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Displaying locations with Maps
+### Display locations with Maps
 
 1. When Claude suggests locations, they can be displayed on an interactive map.
 2. Tap on any location to see more details.
@@ -73,7 +73,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Managing your calendar
+### Manage your calendar
 
 1. Ask Claude to check your schedule or create events.
 2. Claude will request calendar access if not already granted.
@@ -87,7 +87,7 @@ When Claude determines that using one of these features would be helpful, it wil
 - "Schedule a team lunch for next Thursday at noon."
 - "Create a recurring workout session every Tuesday and Thursday at 6 AM."
 
-### Setting alarms and timers using Clock apps
+### Set alarms and timers using Clock apps
 
 1. Ask Claude to set an alarm or timer.
 2. Claude will automatically create the alarm or start the timer.
@@ -104,7 +104,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-## Accessing and analyzing your health data
+## Access and analyze your health data
 
 Claude can read your health and fitness data from Health Connect to help you understand patterns, track progress, and make informed decisions about your wellbeing. When you ask Claude about your health data, it can display insights using native charts that feel integrated with Android.
 
@@ -194,9 +194,7 @@ Permission requirements vary by feature:
 
 For features requiring permissions (like location or calendar access), Claude will request permission contextually with clear explanations of why the access is needed. You’ll be prompted to approve the action with three options: Allow once, Always allow, or Don't allow.
 
- 
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1782501300&signature=4bc871fd1438ac87750d03ae06477e4dad9e30c5585a8abba1b67b44f4bc9ec5&req=dScnEcp7nIdeXfMW1HO4zQe5Gl2K2yT3S5x65TIld%2FCG0lRtsA%2B2y4Fkbzbs%0A%2F41gVMfgTCs0lRHJ8kU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1782648000&signature=9079014170293e35bb21583dee3320ab3dea08ff345afbed0ae83545120b6867&req=dScnEcp7nIdeXfMW3nq%2BgT%2BIyd%2F9qQWU5znKikGn3FVLf1lyw83h9v1tOcK2%0ADcJEji9Vr1LP3UsrytVWqvZ%2Bzas%3D%0A)
 
  
 

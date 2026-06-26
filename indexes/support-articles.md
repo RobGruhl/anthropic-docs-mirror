@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-26 18:44*
+*Last updated: 2026-06-26 21:35*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -96,7 +96,7 @@ Total documents: 259
 ### Business Associate Agreements (BAA) for Commercial Customers
 **File:** `/docs-support/business-associate-agreements-baa-for-commercial-customers.md`  
 **Source:** https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-26  
 
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
@@ -276,7 +276,7 @@ Total documents: 259
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-26  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
@@ -626,7 +626,7 @@ Total documents: 259
 ### I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 **File:** `/docs-support/i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md`  
 **Source:** https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-26  
 
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
@@ -1026,7 +1026,7 @@ Total documents: 259
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-06-18  
+**Updated:** 2026-06-26  
 
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
@@ -1051,6 +1051,11 @@ Total documents: 259
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
+**Updated:** 2026-06-26  
+
+### Use incognito chats
+**File:** `/docs-support/using-incognito-chats.md`  
+**Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
 **Updated:** 2026-06-26  
 
 ### Use interactive connectors in Claude
@@ -1107,11 +1112,6 @@ Total documents: 259
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
 **Updated:** 2026-05-21  
-
-### Using incognito chats
-**File:** `/docs-support/using-incognito-chats.md`  
-**Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
-**Updated:** 2026-06-26  
 
 ### Using the Claude Widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  

@@ -1,6 +1,6 @@
 # Use Claude with iOS apps
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -37,7 +37,7 @@ Claude can help you:
 
 When Claude determines that using one of these features would be helpful, it will automatically suggest it. You'll see a card or prompt within your conversation that lets you review and take action with Claude’s help.
 
-### Sending texts and emails with Messages and Mail
+### Send texts and emails with Messages and Mail
 
 1. Ask Claude to help draft a message or email (for example: "Help me write a text to my team about tomorrow's meeting").
 2. Claude will prepare the message and show you a preview.
@@ -50,7 +50,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Using location for contextual suggestions
+### Use location for contextual suggestions
 
 1. Ask Claude for location-based recommendations (for example: "What's nearby for dinner?").
 2. Claude will request access to your location if not already granted.
@@ -61,7 +61,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Displaying locations with Maps
+### Display locations with Maps
 
 1. When Claude suggests locations, they can be displayed on an interactive map.
 2. Tap on any location to see more details.
@@ -72,7 +72,7 @@ When Claude determines that using one of these features would be helpful, it wil
 
  
 
-### Managing your calendar
+### Manage your calendar
 
 1. Ask Claude to check your schedule or create events.
 2. Claude will request calendar access if not already granted.
@@ -86,7 +86,7 @@ When Claude determines that using one of these features would be helpful, it wil
 - "Schedule a dentist appointment for next Friday at 10 AM."
 - "Add a weekly team standup every Monday at 9 AM."
 
-### Creating and managing reminders
+### Create and manage reminders
 
 1. Ask Claude to create reminders or add items to lists.
 2. Claude will request Reminders access if not already granted.
@@ -108,7 +108,7 @@ Note that when Claude uses tools to take these actions, their use is preserved i
 
  
 
-## Accessing and analyzing your health data
+## Access and analyze your health data
 
 Claude can read your health and fitness data from Apple Health to help you understand patterns, track progress, and make informed decisions about your wellbeing. When you ask Claude about your health data, it can display insights using native charts that feel integrated with iOS.
 
