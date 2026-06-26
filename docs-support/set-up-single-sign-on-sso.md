@@ -1,6 +1,6 @@
 # Set up single sign-on (SSO)
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -76,7 +76,7 @@ If the record is correct and propagated but the status still shows Pending, cont
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782453600&signature=22c094a21417f48de6e8276f0568cc90a949d918f1d035c64914617b8afd6d75&req=diAjEcl6mYVWX%2FMW3nq%2BgRz1alCPLmJm%2Ban4XWURBt45CSl5d1C%2FhqJ6kzqh%0AVhU3NiOmVy17Ij7ap5yozkBLNmM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782459900&signature=2e570600cbd665e307d98fba57ae3a7ced1c1a41f1a71257fff1dfddd3531629&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSsEan2wPM2D8Zcdgrj2KBFYL8Ji1HEvlOEZ%0AepUcFRJ6TyHUlnqmi8o%3D%0A)
 
  
 
@@ -114,7 +114,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782453600&signature=691ec1dcd642461ef213e0a06eae569e3e56899e2201605f7624173e02a24d59&req=diMmFM93nYNfWfMW3nq%2BgRYH5xpAppDn%2Bq7EdawRDazRfb0ACRELudrINsAY%0AIbjjvXgD7bTGEz0zu%2FD%2Brrh0YX4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782459900&signature=a043072c84aa046955e5f513a8e8ea7b3cae0f2fc6a3dd92dec291780b55318c&req=diMmFM93nYNfWfMW1HO4zdAICw2lB3UDItXtKivx6ZHmEFanUEiQP9Fuwu3q%0AjLC5LTfW8LWUm1DIHSo%3D%0A)
 
  
 

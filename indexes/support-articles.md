@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-26 04:33*
+*Last updated: 2026-06-26 07:18*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -41,7 +41,7 @@ Total documents: 259
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-06-22  
+**Updated:** 2026-06-26  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -896,7 +896,7 @@ Total documents: 259
 ### Set up single sign-on (SSO)
 **File:** `/docs-support/set-up-single-sign-on-sso.md`  
 **Source:** https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-26  
 
 ### Set up the Claude LTI in Canvas by Instructure
 **File:** `/docs-support/set-up-the-claude-lti-in-canvas-by-instructure.md`  
