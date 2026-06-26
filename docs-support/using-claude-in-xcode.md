@@ -38,7 +38,7 @@ To start using Claude in Xcode:
 2. Open Xcode preferences and navigate to the Intelligence settings.
 3. Log in with your Claude account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1782459900&signature=c164c59b82025ec45ac19d467f0232b727dc4b7284d613338666db62930e3673&req=dSclEcp5nIRXXPMW1HO4zUAXI84GV6HdFalhp3bugHKY0sp%2BdEOms969lzyf%0AWrnXvAm6g4lgK%2B6HqD4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1782469800&signature=938408c4d2c59a4fdea16762a511da2e95bd5d40e3e0f0db7e0176412eb2257e&req=dSclEcp5nIRXXPMW1HO4zUAXI84GVKHcFalhp3bugHJ2c1yinZ9PjJYFoFWs%0AGuwV38yd3%2Bu1MTRo8D0%3D%0A)
 
  
 
