@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-26 15:50*
+*Last updated: 2026-06-26 18:44*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -131,7 +131,7 @@ Total documents: 259
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-26  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -391,7 +391,7 @@ Total documents: 259
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-26  
 
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
@@ -413,11 +413,6 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account  
 **Updated:** 2026-02-18  
 
-### How can I advance my Claude API usage to Tier 2?
-**File:** `/docs-support/how-can-i-advance-my-claude-api-usage-to-tier-2.md`  
-**Source:** https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2  
-**Updated:** 2026-05-19  
-
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
@@ -431,7 +426,7 @@ Total documents: 259
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-26  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -451,6 +446,11 @@ Total documents: 259
 ### How can I delete or rename a conversation?
 **File:** `/docs-support/how-can-i-delete-or-rename-a-conversation.md`  
 **Source:** https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation  
+**Updated:** 2026-06-26  
+
+### How can I get higher rate limits on the Claude API?
+**File:** `/docs-support/how-can-i-advance-my-claude-api-usage-to-tier-2.md`  
+**Source:** https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2  
 **Updated:** 2026-06-26  
 
 ### How can I learn more about Claude API pricing?
@@ -491,7 +491,7 @@ Total documents: 259
 ### How do I pay for my Claude API usage?
 **File:** `/docs-support/how-do-i-pay-for-my-claude-api-usage.md`  
 **Source:** https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage  
-**Updated:** 2026-05-20  
+**Updated:** 2026-06-26  
 
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
@@ -671,7 +671,7 @@ Total documents: 259
 ### I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?
 **File:** `/docs-support/i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do.md`  
 **Source:** https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-26  
 
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
@@ -711,7 +711,7 @@ Total documents: 259
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-06-19  
+**Updated:** 2026-06-26  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -751,7 +751,7 @@ Total documents: 259
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-26  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -801,7 +801,7 @@ Total documents: 259
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-26  
 
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
@@ -956,7 +956,7 @@ Total documents: 259
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-26  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -1156,7 +1156,7 @@ Total documents: 259
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-06-20  
+**Updated:** 2026-06-26  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1246,7 +1246,7 @@ Total documents: 259
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-06-08  
+**Updated:** 2026-06-26  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  

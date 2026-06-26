@@ -76,7 +76,7 @@ If the record is correct and propagated but the status still shows Pending, cont
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782490500&signature=2c6bcb1c8abc32e2712e670eb83a98d1bc20950d8271d3bfeaea46bada007e60&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSsEZnS8PM2D8ZcdgrjJjMS5TGJgdyn7CClG%0AXa%2Fi0wDcyvw3d5zQ6kA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1782501300&signature=88bcd049b4f0edfe46aac889c6afafb21a4a6083c52a2f4196d9af41578ccf2f&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSsFb3W6PM2D8Zcdgrg9rBTZLci2v8EpUyn0%0AVOM%2Bxpz%2BGO9fnsMTerw%3D%0A)
 
  
 
@@ -114,7 +114,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782490500&signature=8ef5214cd3aefe074b8eb55359da9ede47ff87614efcf965c4d79ef1bd951568&req=diMmFM93nYNfWfMW1HO4zdAICw2lC3wPItXtKivx6ZHP7EPvtytAj3Txllpw%0A0Nt%2BFjajPGBPtTc1Cu8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1782501300&signature=1ebb1c0b730bc215ecbe5b8782343df75f6440e281e3cd26ecb7a32261e0a144&req=diMmFM93nYNfWfMW1HO4zdAICw2kAn0JItXtKivx6ZEnTmxHt2zmVAMisMM4%0Awrrmz7egAAdQfQ2xTTk%3D%0A)
 
  
 
@@ -190,6 +190,6 @@ To fully disconnect SSO, click “Manage SSO” then “Reset connection.” Thi
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
 - [Set up JIT or SCIM provisioning](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)
-- [Ping Identity SSO setup](https://support.claude.com/en/articles/13917902-ping-identity-sso-setup)
+- [Okta SSO setup](https://support.claude.com/en/articles/13917894-okta-sso-setup)
 - [SSO login](https://support.claude.com/en/articles/14503613-sso-login)
 - [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

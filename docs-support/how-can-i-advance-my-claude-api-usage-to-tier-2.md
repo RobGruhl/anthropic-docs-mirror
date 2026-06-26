@@ -1,29 +1,30 @@
-# How can I advance my Claude API usage to Tier 2?
+# How can I get higher rate limits on the Claude API?
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
-To qualify for usage Tier 2, you'll need to purchase a cumulative total of $40 of API usage credits on your Claude Console account. Here's what you need to do:
-
-1. Log into your [Console account](https://platform.claude.com/).
-2. Go to [your Console Billing page](https://platform.claude.com/settings/billing).
-3. Click on the "Buy credits" button.
-4. Add $40 in usage credits to your balance, either through a single purchase or multiple purchases totaling $40. 
-
-After making this purchase, your account will automatically upgrade to usage Tier 2, increasing your monthly usage limit to $500. You're not allowed to deposit more than your monthly spend limit, which helps minimize the risk of overfunding your account.
+Usage tiers are assigned automatically. There's no deposit or purchase that moves you up, and you don't need to take any action.
 
  
 
-[Refer to our Claude Docs](https://docs.claude.com/en/api/rate-limits) to read more about rate limits and usage tiers.
+If you need higher limits, you can request them in the Claude Console once you're using at least 50% of your current limits. You can view your tier and current limits in the **[Claude Console](https://platform.claude.com/settings/limits)**. 
+
+ 
+
+For custom limits or committed capacity, **[contact our sales team](https://claude.com/contact-sales)**.
+
+ 
+
+Refer to **[our Claude Platform Docs](https://docs.claude.com/en/api/rate-limits)** to read more about rate limits and usage tiers.
 
 
 ---
 
 ## Related Articles
 
-- [I created a Claude Console organization - how do I start using the Claude API?](https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api)
+- [I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?](https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do)
+- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
-- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
-- [Buy usage bundles](https://support.claude.com/en/articles/14246112-buy-usage-bundles)
-- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)
+- [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+- [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
