@@ -1,5 +1,5 @@
 # Specification Topic Index
-*Last updated: 2026-06-27 00:37*
+*Last updated: 2026-06-27 04:25*
 
 Documents related to Specification across all sources (103 documents)
 ---
