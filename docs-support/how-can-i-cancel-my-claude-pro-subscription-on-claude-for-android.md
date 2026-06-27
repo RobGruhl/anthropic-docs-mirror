@@ -23,4 +23,4 @@ You may cancel your Claude Pro subscription at any time from the platform you si
 - [How can I cancel my Claude Pro subscription on the Claude app for iOS?](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)
 - [How can I uninstall Claude for Android?](https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android)
 - [How do I sign up for Claude Pro on Claude for Android?](https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android)
-- [How to redeem a Claude gift subscription](https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription)
+- [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)

@@ -1,6 +1,6 @@
 # Enterprise configuration for Claude Desktop
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -58,7 +58,7 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Claude" -Name "isClaudeCodeForDe
 | --- | --- | --- | --- |
 | `allowedWorkspaceFolders` | string[] (JSON) | Unrestricted | Filepath or filepaths the user can mount to Cowork |
 | `autoUpdaterEnforcementHours` | Integer (1-72) | 72 | Hours before forcefully restarting Claude to apply a prepared update |
-| `disableAutoUpdates` | Boolean | false | Disable automatic updates |
+| `disableAutoUpdates` | Boolean | false | Disable automatic updates. Set this when your MDM manages Claude Desktop versions; leave unset to let the app self-update after a one-time provisioned install. See **[Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)**. |
 | `forceLoginOrgUUID` | string / array | null | Require login to belong to a specific organization. Accepts a single UUID string, which also pre-selects that organization during login, or an array of UUIDs where any listed organization is accepted without pre-selection. Login fails if the authenticated account does not belong to a listed organization. |
 | `isClaudeCodeForDesktopEnabled` | Boolean | true | Enable Claude code access in desktop |
 | `isDesktopExtensionEnabled` | Boolean | true | Enable/disable extensions |
@@ -75,4 +75,4 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Claude" -Name "isClaudeCodeForDe
 - [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
-- [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
+- [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)
