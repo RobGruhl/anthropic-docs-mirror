@@ -1,5 +1,5 @@
 # Microsoft Foundry Topic Index
-*Last updated: 2026-06-27 15:30*
+*Last updated: 2026-06-27 18:36*
 
 Documents related to Microsoft Foundry across all sources (1 documents)
 ---
