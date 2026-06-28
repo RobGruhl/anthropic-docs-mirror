@@ -15,7 +15,7 @@ Claude in Chrome uses a multi-layered permission system to give you control over
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1782662400&signature=87df5e78a5bf98ba155bcfc580e50af676860686fabe2d658448acc39e3b3ab8&req=dSgjFcp8n4FeUfMW1HO4zQ5tySUK83qzhD0gAzkS2hyarTUUmPdrwOt1Ds27%0ApgYNteAibSdu4mPNVnY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1782673200&signature=93dffce43178272f97d1d6120ee824ac711a2f5452e67050e1b1f86f5f9a1f69&req=dSgjFcp8n4FeUfMW1HO4zQ5tySUK8nu1hD0gAzkS2hyBgQGzc%2F5p5r%2BBImwo%0AatPUxVr5T0n1Ij2BkoE%3D%0A)
 
 ---
 
@@ -27,7 +27,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1782662400&signature=94f037f1b4c82083078f03c779412a91f3ba2f6dbee607a11c7f634f9391960d&req=dSgjFcp8nYZdXvMW1HO4zYqyZcBL%2BoCzgN0ADj5oqFBKbYxO8zFZmC%2BeYpUH%0AFM1GMTPy5ZoLFk8UkwI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1782673200&signature=0e1e970fcbbd00f7988872846f8b0400f3d4544f8ced6b21cef15c5f1974150a&req=dSgjFcp8nYZdXvMW1HO4zYqyZcBL%2B4G1gN0ADj5oqFD9PY%2BwP6BfRMleWim6%0AVe%2FCk9ipefGL6RfBukM%3D%0A)
 
  
 
@@ -71,7 +71,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1782662400&signature=b38195af4f41089b47ba021461804d09375930f2675b2c14e1321fae574276e3&req=dSgjEct8n4lYXPMW1HO4zeoCY8QtpXZ7JCxYSFHKWIiQ7lq9UJjUrJVZyEwl%0A%2FXiy292GyHqgxE7uvSs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1782673200&signature=42d3cd9245b67e5afd8c7af2994c0c788974dc2eddafb075b9843ae11fef8e25&req=dSgjEct8n4lYXPMW1HO4zeoCY8QtpHd9JCxYSFHKWIhrIsqbrmhh3i8XUitv%0AbhsV4hTKeg5%2B%2FoduhF0%3D%0A)
 
  
 
