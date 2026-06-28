@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-28 10:04*
+*Last updated: 2026-06-28 12:30*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -1021,7 +1021,7 @@ Total documents: 259
 ### Use Claude with Android apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-28  
 
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
@@ -1031,7 +1031,7 @@ Total documents: 259
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
 **Source:** https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-28  
 
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
