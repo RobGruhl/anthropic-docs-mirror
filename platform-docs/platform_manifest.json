@@ -14825,10 +14825,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/advisor-tool",
-      "hash": "a957fa0faf7414b902136a9886fadd12b76be66448d9f8b631f2873de0b89900",
+      "hash": "98b52a0eef8705114d892bc821218523163b5b2f2e2c270e7e35ea07c1dbbe58",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.795045"
+      "last_updated": "2026-06-28T00:30:54.002055"
     },
     "agents-and-tools__tool-use__bash-tool.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool",
@@ -14925,10 +14925,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/memory-tool",
-      "hash": "6fb65a36d68fcf8ec15e3e7939cb213fb5519fe102c06928f23023bb714881af",
+      "hash": "ce048401c009fd67e7ebcc56bfa08c7aabed51094c3c133b4792cf2e53f285fc",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.796789"
+      "last_updated": "2026-06-28T00:30:54.003022"
     },
     "agents-and-tools__tool-use__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
@@ -14945,30 +14945,30 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/parallel-tool-use",
-      "hash": "ead4bf153a0502a6ece14788f933b2cbc697726c0573e3ad1542831fb2c2f4b7",
+      "hash": "deb1e97ffe8f99fa843310954c43b9696644a69c667721ca76020b0a75efa55c",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.797056"
+      "last_updated": "2026-06-28T00:30:54.003158"
     },
     "agents-and-tools__tool-use__programmatic-tool-calling.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/programmatic-tool-calling",
-      "hash": "ac845c120685472ffc817822ea11448be9d33a3dd2d6c59802907cc99216c02a",
+      "hash": "d7b36e24908141ed4cb17a15eb5147afb191c31a40c867d6eca397dad856f7f1",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.797208"
+      "last_updated": "2026-06-28T00:30:54.003258"
     },
     "agents-and-tools__tool-use__server-tools.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/server-tools",
-      "hash": "2aa956e2192dd1826a1e545f91505670845a87b844119ec41edf5107ac1c919f",
+      "hash": "135e50eaebcd65a3859218eb0957de05920863c3445a80f6de4f3866e3d2e423",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.797399"
+      "last_updated": "2026-06-28T00:30:54.003352"
     },
     "agents-and-tools__tool-use__strict-tool-use.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use",
@@ -15015,10 +15015,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/tool-runner",
-      "hash": "72b0433aba1142a48207e37cc3edc3490645f51461dd7b74f7dc9bb8805ee41d",
+      "hash": "535b0a4f670ef727c5a6eaad2bd09c06d87630b57d2c00456a5c4520b6cc69d3",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.798133"
+      "last_updated": "2026-06-28T00:30:54.003746"
     },
     "agents-and-tools__tool-use__tool-search-tool.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool",
@@ -15055,10 +15055,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/web-fetch-tool",
-      "hash": "f777113a7e9f2205b4987fbab61e673d309f1913cb31908de6a29579b090a3e3",
+      "hash": "f9ec9a8538f3f01468b5a8b0107f0c464637d972f73aa687adba9cab89f7b47e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.798774"
+      "last_updated": "2026-06-28T00:30:54.004006"
     },
     "agents-and-tools__tool-use__web-search-tool.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
@@ -15515,10 +15515,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek",
-      "hash": "5865dcea370bd6a60051ee35c9437f92f38ca8d0566491fedbe67aa664febf69",
+      "hash": "e609ecba105c82f9d6d6424932e4f30f3135a2f2c106bfc5ffedd9bf0978e5ed",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.806880"
+      "last_updated": "2026-06-28T00:30:54.007991"
     },
     "manage-claude__cmek-aws-kms.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms",
@@ -16042,13 +16042,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-27T21:22:52.019928",
-    "fetch_duration_seconds": 22.707162,
+    "last_fetch_completed": "2026-06-28T00:30:54.047560",
+    "fetch_duration_seconds": 27.556506,
     "total_pages_discovered": 1753,
     "pages_fetched_successfully": 1604,
     "pages_failed": 149,
-    "pages_unchanged": 1604,
-    "pages_updated": 0,
+    "pages_unchanged": 1596,
+    "pages_updated": 8,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16215,5 +16215,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-27T21:22:52.020151"
+  "last_updated": "2026-06-28T00:30:54.047749"
 }
