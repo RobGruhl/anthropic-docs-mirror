@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated in the last 15 minutes*
+*Updated in the last hour*
 
 ---
 
@@ -55,7 +55,11 @@ Usage is purchased **upfront in credits**. Your credits draw down as your team u
 - After setup, Owners and Primary Owners can purchase additional credits at any time from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
 - All credits are shared across your organization — any team member can draw from the same pool.
 
-**Note:** If you purchased your Enterprise plan through AWS Marketplace, billing works like sales-assisted plans. You're billed monthly in arrears based on your organization's consumption rather than purchasing credits upfront.
+ 
+
+**Changing your payment method**
+
+Self-serve Enterprise organizations can pay by credit card, debit card, or ACH bank transfer. An Owner or Primary Owner can switch between payment methods at any time in **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**. For details on ACH, including activation timing and auto-reload, see **[What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)**
 
  
 

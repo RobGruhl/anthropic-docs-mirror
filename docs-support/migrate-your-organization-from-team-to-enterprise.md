@@ -1,6 +1,6 @@
 # Migrate your organization from Team to Enterprise
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -37,7 +37,7 @@ You can migrate from a Team plan to a self-serve Enterprise plan by following th
 3. Add the number of seats needed for all your team members (Enterprise organizations have a 20 seat minimum).
 4. Set a per-user spend limit and a starting usage balance for the whole team.
 5. Your payment information will be saved from previous Team plan payments, but you can click the pencil icon to change it if needed.
-5. 1. We only support credit card payments for self-serve Enterprise plans. For more information, see **[Self-serve vs. sales-assisted Enterprise](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan#h_3058c781c5)**.
+5. 1. When you migrate from a Team to a self-serve Enterprise plan, we only support credit card payments. After you migrate to a self-serve Enterprise plan, you can choose to use a credit card, debit card, or bank transfer. For more information, see **[Self-serve vs. sales-assisted Enterprise](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan#h_3058c781c5)**.
 6. Review your order summary and click "Confirm upgrade."
 
  
