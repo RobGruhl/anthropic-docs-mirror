@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-28 21:26*
+*Last updated: 2026-06-29 00:36*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -26,7 +26,7 @@ Total documents: 259
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
@@ -36,7 +36,7 @@ Total documents: 259
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
 **Source:** https://support.claude.com/en/articles/13325567-account-management-faqs  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
@@ -176,12 +176,12 @@ Total documents: 259
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
 **Source:** https://support.claude.com/en/articles/12618689-claude-code-on-the-web  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Claude Code usage analytics
 **File:** `/docs-support/claude-code-usage-analytics.md`  
 **Source:** https://support.claude.com/en/articles/12157520-claude-code-usage-analytics  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Claude Console roles and permissions
 **File:** `/docs-support/claude-console-roles-and-permissions.md`  
@@ -191,7 +191,7 @@ Total documents: 259
 ### Claude in Chrome Permissions Guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
 **Source:** https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Claude in Chrome Troubleshooting
 **File:** `/docs-support/claude-in-chrome-troubleshooting.md`  
@@ -226,7 +226,7 @@ Total documents: 259
 ### Configuring session security settings
 **File:** `/docs-support/configuring-session-security-settings.md`  
 **Source:** https://support.claude.com/en/articles/13163631-configuring-session-security-settings  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Consumer Terms of Service Updates
 **File:** `/docs-support/consumer-terms-of-service-updates.md`  
@@ -236,12 +236,12 @@ Total documents: 259
 ### Cost and Usage Reporting in the Claude Console
 **File:** `/docs-support/cost-and-usage-reporting-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/9534590-cost-and-usage-reporting-in-the-claude-console  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Create and edit files with Claude
 **File:** `/docs-support/create-and-edit-files-with-claude.md`  
 **Source:** https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Creating a new account after deletion
 **File:** `/docs-support/creating-a-new-account-after-deletion.md`  
@@ -261,12 +261,12 @@ Total documents: 259
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
 **Source:** https://support.claude.com/en/articles/13346458-customizing-your-console-appearance-settings  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Customizing your appearance settings
 **File:** `/docs-support/customizing-your-appearance-settings.md`  
 **Source:** https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Deploy Claude Desktop for Windows
 **File:** `/docs-support/deploy-claude-desktop-for-windows.md`  
@@ -291,7 +291,7 @@ Total documents: 259
 ### Disable public projects for your organization
 **File:** `/docs-support/how-can-i-disable-public-projects.md`  
 **Source:** https://support.claude.com/en/articles/9927533-how-can-i-disable-public-projects  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Does Anthropic Act as a Data Processor or Controller?
 **File:** `/docs-support/does-anthropic-act-as-a-data-processor-or-controller.md`  
@@ -311,7 +311,7 @@ Total documents: 259
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
 **Source:** https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
@@ -351,7 +351,7 @@ Total documents: 259
 ### Get started with Claude
 **File:** `/docs-support/getting-started-with-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114491-getting-started-with-claude  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Get started with Claude Cowork
 **File:** `/docs-support/getting-started-with-cowork.md`  
@@ -366,12 +366,12 @@ Total documents: 259
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
 **Source:** https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Get started with Claude in Slack
 **File:** `/docs-support/getting-started-with-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
@@ -386,7 +386,7 @@ Total documents: 259
 ### Getting Started with Local MCP Servers on Claude Desktop
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
 **Source:** https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
@@ -431,22 +431,22 @@ Total documents: 259
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
 **Source:** https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How can I delete my Claude Console account?
 **File:** `/docs-support/how-can-i-delete-my-claude-console-account.md`  
 **Source:** https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How can I delete my Claude account?
 **File:** `/docs-support/how-can-i-delete-my-claude-account.md`  
 **Source:** https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How can I delete or rename a conversation?
 **File:** `/docs-support/how-can-i-delete-or-rename-a-conversation.md`  
 **Source:** https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How can I get higher rate limits on the Claude API?
 **File:** `/docs-support/how-can-i-advance-my-claude-api-usage-to-tier-2.md`  
@@ -486,7 +486,7 @@ Total documents: 259
 ### How do I log out of all active sessions?
 **File:** `/docs-support/how-do-i-log-out-of-all-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How do I pay for my Claude API usage?
 **File:** `/docs-support/how-do-i-pay-for-my-claude-api-usage.md`  
@@ -516,7 +516,7 @@ Total documents: 259
 ### How do I use the Workbench?
 **File:** `/docs-support/how-do-i-use-the-workbench.md`  
 **Source:** https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How do I view and sign your Data Processing Addendum (DPA)?
 **File:** `/docs-support/how-do-i-view-and-sign-your-data-processing-addendum-dpa.md`  
@@ -701,12 +701,12 @@ Total documents: 259
 ### Log in to your Claude account
 **File:** `/docs-support/logging-in-to-your-claude-account.md`  
 **Source:** https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Logging in to your Console account
 **File:** `/docs-support/logging-in-to-your-console-account.md`  
 **Source:** https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
@@ -726,27 +726,27 @@ Total documents: 259
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
 **Source:** https://support.claude.com/en/articles/9519189-project-visibility-and-sharing  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Manage usage credits for Team and seat-based Enterprise plans
 **File:** `/docs-support/extra-usage-for-team-and-seat-based-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/12005970-extra-usage-for-team-and-seat-based-enterprise-plans  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Manage usage credits for paid Claude plans
 **File:** `/docs-support/extra-usage-for-paid-claude-plans.md`  
 **Source:** https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Manage user feedback settings on Claude Console
 **File:** `/docs-support/managing-user-feedback-settings-on-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/10504853-managing-user-feedback-settings-on-claude-console  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Manage user feedback settings on Team and Enterprise plans
 **File:** `/docs-support/managing-user-feedback-settings-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/10504844-managing-user-feedback-settings-on-team-and-enterprise-plans  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
@@ -776,7 +776,7 @@ Total documents: 259
 ### Move your personal Claude account to a Team or Enterprise organization
 **File:** `/docs-support/can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md`  
 **Source:** https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
@@ -806,7 +806,7 @@ Total documents: 259
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
 **Source:** https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Provision and manage skills for your organization
 **File:** `/docs-support/provisioning-and-managing-skills-for-your-organization.md`  
@@ -816,7 +816,7 @@ Total documents: 259
 ### Public Sector FAQs
 **File:** `/docs-support/public-sector-faqs.md`  
 **Source:** https://support.claude.com/en/articles/13756069-public-sector-faqs  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Public Vulnerability Reporting
 **File:** `/docs-support/public-vulnerability-reporting.md`  
@@ -826,7 +826,7 @@ Total documents: 259
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
 **Source:** https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
@@ -891,17 +891,17 @@ Total documents: 259
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Set up single sign-on (SSO)
 **File:** `/docs-support/set-up-single-sign-on-sso.md`  
 **Source:** https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Set up the Claude LTI in Canvas by Instructure
 **File:** `/docs-support/set-up-the-claude-lti-in-canvas-by-instructure.md`  
 **Source:** https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
@@ -911,12 +911,12 @@ Total documents: 259
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
 **Source:** https://support.claude.com/en/articles/10593882-sharing-and-unsharing-chats  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Sharing Prompts in the Claude Console
 **File:** `/docs-support/sharing-prompts-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Styles are moving to skills
 **File:** `/docs-support/configure-and-use-styles.md`  
@@ -931,7 +931,7 @@ Total documents: 259
 ### Team plan billing FAQs
 **File:** `/docs-support/team-plan-billing-faqs.md`  
 **Source:** https://support.claude.com/en/articles/12997503-team-plan-billing-faqs  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Terms of Service Updates
 **File:** `/docs-support/terms-of-service-updates.md`  
@@ -941,7 +941,7 @@ Total documents: 259
 ### Troubleshoot Claude error messages
 **File:** `/docs-support/understanding-claude-error-messages.md`  
 **Source:** https://support.claude.com/en/articles/12466728-understanding-claude-error-messages  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
@@ -996,7 +996,7 @@ Total documents: 259
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
 **Source:** https://support.claude.com/en/articles/12650343-use-claude-in-excel  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use Claude for PowerPoint
 **File:** `/docs-support/use-claude-in-powerpoint.md`  
@@ -1011,17 +1011,17 @@ Total documents: 259
 ### Use Claude in Slack
 **File:** `/docs-support/using-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use Claude in Xcode
 **File:** `/docs-support/using-claude-in-xcode.md`  
 **Source:** https://support.claude.com/en/articles/12293051-using-claude-in-xcode  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use Claude with Android apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
@@ -1031,7 +1031,7 @@ Total documents: 259
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
 **Source:** https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
@@ -1056,7 +1056,7 @@ Total documents: 259
 ### Use incognito chats
 **File:** `/docs-support/using-incognito-chats.md`  
 **Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
@@ -1066,7 +1066,7 @@ Total documents: 259
 ### Use quick entry with Claude Desktop on Mac
 **File:** `/docs-support/use-quick-entry-with-claude-desktop-on-mac.md`  
 **Source:** https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Use research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
@@ -1091,7 +1091,7 @@ Total documents: 259
 ### Use voice mode
 **File:** `/docs-support/using-voice-mode.md`  
 **Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
@@ -1121,17 +1121,17 @@ Total documents: 259
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
 **Source:** https://support.claude.com/en/articles/8287232-verifying-your-phone-number  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### View usage analytics for Team and Enterprise plans
 **File:** `/docs-support/usage-analytics-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Visual and interactive content
 **File:** `/docs-support/visual-and-interactive-content.md`  
 **Source:** https://support.claude.com/en/articles/13641943-visual-and-interactive-content  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### What AWS Regions are Claude models available in Amazon Bedrock?
 **File:** `/docs-support/what-aws-regions-are-claude-models-available-in-amazon-bedrock.md`  
@@ -1276,7 +1276,7 @@ Total documents: 259
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  
 **Source:** https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### Why am I receiving an 'Output blocked by content filtering policy' error?
 **File:** `/docs-support/why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md`  
