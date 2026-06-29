@@ -194,7 +194,7 @@ Permission requirements vary by feature:
 
 For features requiring permissions (like location or calendar access), Claude will request permission contextually with clear explanations of why the access is needed. You’ll be prompted to approve the action with three options: Allow once, Always allow, or Don't allow.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1782760500&signature=22709da59b4c6aed9b7be985d6702ecfea234f327a516a43f3bfe0db9421cecb&req=dScnEcp7nIdeXfMW1HO4zQe5Gl2I3SXxS5x65TIld%2FDl3r%2F1FkyGqOD95fSp%0A3TKhRtRdm670oFQ%2F7FI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1782770400&signature=da8b5e9b78e7ac667bae13e938d1519cd9546419a72701afb2bcf13b1c4867d7&req=dScnEcp7nIdeXfMW1HO4zQe5Gl2I3CXwS5x65TIld%2FAVRPMc6vanoVqExl5y%0AgXQDeXpCTRMoDlYcmuU%3D%0A)
 
  
 
@@ -276,5 +276,5 @@ Health Connect permissions are managed separately from other app permissions. Wh
 - [Using the Claude Widget on Android](https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android)
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
-- [Using the Blackbaud Connector in Claude](https://support.claude.com/en/articles/12923221-using-the-blackbaud-connector-in-claude)
+- [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

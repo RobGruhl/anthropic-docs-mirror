@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-29 18:48*
+*Last updated: 2026-06-29 21:35*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -281,7 +281,7 @@ Total documents: 259
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-29  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -956,7 +956,7 @@ Total documents: 259
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-29  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -986,7 +986,7 @@ Total documents: 259
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-29  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  

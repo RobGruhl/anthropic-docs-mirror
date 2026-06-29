@@ -1,9 +1,10 @@
 # Google Vertex Ai Topic Index
-*Last updated: 2026-06-29 18:48*
+*Last updated: 2026-06-29 21:35*
 
-Documents related to Google Vertex Ai across all sources (3 documents)
+Documents related to Google Vertex Ai across all sources (4 documents)
 ---
-## Claude Code Documentation (1)
+## Claude Code Documentation (2)
+- [Claude Apps Gateway On Gcp](/code-claude-docs/claude-apps-gateway-on-gcp.md)
 - [Google Vertex Ai](/code-claude-docs/google-vertex-ai.md)
 
 ## Claude.com Blog Posts (2)

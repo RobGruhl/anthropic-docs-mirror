@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-29 18:48*
+*Last updated: 2026-06-29 21:35*
 
-Documents related to Claude Code across all sources (260 documents)
+Documents related to Claude Code across all sources (266 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (156)
+## Claude Code Documentation (162)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -39,6 +39,11 @@ Documents related to Claude Code across all sources (260 documents)
 - [Channels Reference](/code-claude-docs/channels-reference.md)
 - [Checkpointing](/code-claude-docs/checkpointing.md)
 - [Chrome](/code-claude-docs/chrome.md)
+- [Claude Apps Gateway](/code-claude-docs/claude-apps-gateway.md)
+- [Claude Apps Gateway Config](/code-claude-docs/claude-apps-gateway-config.md)
+- [Claude Apps Gateway Deploy](/code-claude-docs/claude-apps-gateway-deploy.md)
+- [Claude Apps Gateway On Gcp](/code-claude-docs/claude-apps-gateway-on-gcp.md)
+- [Claude Apps Gateway Spend Limits](/code-claude-docs/claude-apps-gateway-spend-limits.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Claude Code On The Web](/code-claude-docs/claude-code-on-the-web.md)
 - [Claude Directory](/code-claude-docs/claude-directory.md)
@@ -68,6 +73,7 @@ Documents related to Claude Code across all sources (260 documents)
 - [Features Overview](/code-claude-docs/features-overview.md)
 - [File Checkpointing](/code-claude-docs/agent-sdk__file-checkpointing.md)
 - [Fullscreen](/code-claude-docs/fullscreen.md)
+- [Gateways](/code-claude-docs/gateways.md)
 - [Github Actions](/code-claude-docs/github-actions.md)
 - [Github Enterprise Server](/code-claude-docs/github-enterprise-server.md)
 - [Gitlab Ci Cd](/code-claude-docs/gitlab-ci-cd.md)

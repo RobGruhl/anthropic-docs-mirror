@@ -1,10 +1,11 @@
 # Cloud Platforms Topic Index
-*Last updated: 2026-06-29 18:48*
+*Last updated: 2026-06-29 21:35*
 
-Documents related to Cloud Platforms across all sources (4 documents)
+Documents related to Cloud Platforms across all sources (5 documents)
 ---
-## Claude Code Documentation (4)
+## Claude Code Documentation (5)
 - [Amazon Bedrock](/code-claude-docs/amazon-bedrock.md)
+- [Claude Apps Gateway On Gcp](/code-claude-docs/claude-apps-gateway-on-gcp.md)
 - [Claude Platform On Aws](/code-claude-docs/claude-platform-on-aws.md)
 - [Google Vertex Ai](/code-claude-docs/google-vertex-ai.md)
 - [Microsoft Foundry](/code-claude-docs/microsoft-foundry.md)

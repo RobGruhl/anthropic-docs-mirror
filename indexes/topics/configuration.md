@@ -1,10 +1,11 @@
 # Configuration Topic Index
-*Last updated: 2026-06-29 18:48*
+*Last updated: 2026-06-29 21:35*
 
-Documents related to Configuration across all sources (11 documents)
+Documents related to Configuration across all sources (12 documents)
 ---
-## Claude Code Documentation (11)
+## Claude Code Documentation (12)
 - [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
+- [Claude Apps Gateway Config](/code-claude-docs/claude-apps-gateway-config.md)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
 - [Model Config](/code-claude-docs/model-config.md)
 - [Network Config](/code-claude-docs/network-config.md)
