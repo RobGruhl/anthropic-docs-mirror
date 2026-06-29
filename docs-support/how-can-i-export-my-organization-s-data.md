@@ -1,6 +1,6 @@
 # Export your organization's data
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -35,5 +35,5 @@ If you're an Enterprise Primary Owner looking to export audit logs, see **[How t
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
 - [Export your Claude data](https://support.claude.com/en/articles/9450526-export-your-claude-data)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
-- [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Enable US-only inference for your organization](https://support.claude.com/en/articles/15422948-enable-us-only-inference-for-your-organization)

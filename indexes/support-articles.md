@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-29 16:21*
+*Last updated: 2026-06-29 18:48*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -336,7 +336,7 @@ Total documents: 259
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-29  
 
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
@@ -406,7 +406,7 @@ Total documents: 259
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api  
-**Updated:** 2026-06-01  
+**Updated:** 2026-06-29  
 
 ### How can I access the personal information that Anthropic has on my account?
 **File:** `/docs-support/how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md`  
@@ -416,7 +416,7 @@ Total documents: 259
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-06-28  
+**Updated:** 2026-06-29  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -606,7 +606,7 @@ Total documents: 259
 ### I created a Claude Console organization - how do I start using the Claude API?
 **File:** `/docs-support/i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api  
-**Updated:** 2026-06-24  
+**Updated:** 2026-06-29  
 
 ### I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?
 **File:** `/docs-support/i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console.md`  
@@ -721,7 +721,7 @@ Total documents: 259
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-29  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -1051,7 +1051,7 @@ Total documents: 259
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
-**Updated:** 2026-06-27  
+**Updated:** 2026-06-29  
 
 ### Use incognito chats
 **File:** `/docs-support/using-incognito-chats.md`  

@@ -212,6 +212,10 @@ Claude Code utilise des fichiers de configurationCLAUDE.mdqui documentent vos no
 
 Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
+
+### Claude in Microsoft Foundry is now generally available
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Observabilité pour les développeurs qui créent des connecteurs
@@ -223,10 +227,6 @@ Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
-
-### Claude pour le secteur juridique
 
 ## Transformez le fonctionnement de votre organisation avec Claude
 
