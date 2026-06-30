@@ -1,9 +1,9 @@
 # Sdk Topic Index
-*Last updated: 2026-06-30 18:44*
+*Last updated: 2026-06-30 21:39*
 
-Documents related to Sdk across all sources (30 documents)
+Documents related to Sdk across all sources (29 documents)
 ---
-## Claude Code Documentation (30)
+## Claude Code Documentation (29)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
@@ -14,7 +14,6 @@ Documents related to Sdk across all sources (30 documents)
 - [Mcp](/code-claude-docs/agent-sdk__mcp.md)
 - [Migration Guide](/code-claude-docs/agent-sdk__migration-guide.md)
 - [Modifying System Prompts](/code-claude-docs/agent-sdk__modifying-system-prompts.md)
-- [Observability](/code-claude-docs/agent-sdk__observability.md)
 - [Overview](/code-claude-docs/agent-sdk__overview.md)
 - [Permissions](/code-claude-docs/agent-sdk__permissions.md)
 - [Plugins](/code-claude-docs/agent-sdk__plugins.md)

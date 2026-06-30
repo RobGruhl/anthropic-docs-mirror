@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-30 18:44*
+*Last updated: 2026-06-30 21:39*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -116,7 +116,7 @@ Total documents: 259
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
 **Source:** https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-30  
 
 ### Can I use the Claude API for individual use?
 **File:** `/docs-support/can-i-use-the-claude-api-for-individual-use.md`  
@@ -796,7 +796,7 @@ Total documents: 259
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-06-23  
+**Updated:** 2026-06-30  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -841,7 +841,7 @@ Total documents: 259
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-30  
 
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  

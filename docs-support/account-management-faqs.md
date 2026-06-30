@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1782846900&signature=ddcadc79d4bf36c7365c2b1d51369667f262e597b55e549618407f97bff913b9&req=diAiFcF5nolaW%2FMW1HO4zUrhFumQbQ4TkeFUnrkrQZhWKRGNrDqmHduxzqUZ%0AvQoLctRFIByJmfmN%2B%2BA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1782857700&signature=94860f7fd1042587146904e44609fb9fd302e416e9702beea169e311fca6375a&req=diAiFcF5nolaW%2FMW1HO4zUrhFumQbA8dkeFUnrkrQZgh7bQ0OGxIf7JnD0NU%0A83CRUtiKZRfydb3UFIU%3D%0A)
 
   
 
@@ -66,7 +66,7 @@ While the account creator must use a business email address, you can add public 
 ## Related Articles
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
+- [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
-- [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
 - [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)

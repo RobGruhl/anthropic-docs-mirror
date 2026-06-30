@@ -1,10 +1,18 @@
 # Release notes
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
 ## June 2026
+
+### June 30, 2026
+
+**Claude Sonnet 5 launch**
+
+We launched Claude Sonnet 5, our most agentic Sonnet model yet, with substantial improvements over Sonnet 4.6 in reasoning, tool use, coding, and knowledge work. For more information, see our blog post: **[Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)**.
+
+ 
 
 ### June 25, 2026
 
