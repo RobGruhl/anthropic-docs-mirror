@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-30 00:38*
+*Last updated: 2026-06-30 04:30*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -61,7 +61,7 @@ Total documents: 259
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -131,7 +131,7 @@ Total documents: 259
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -146,7 +146,7 @@ Total documents: 259
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Choose a Claude plan
 **File:** `/docs-support/choosing-a-claude-plan.md`  
@@ -276,7 +276,7 @@ Total documents: 259
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
 **Source:** https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
@@ -496,7 +496,7 @@ Total documents: 259
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### How do I sign up for Claude Pro on the Claude app for iOS?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md`  
