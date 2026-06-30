@@ -1,6 +1,6 @@
 # Claude Code usage analytics
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -8,7 +8,7 @@ This feature allows Console users and owners of Team and Enterprise plans to mon
 
  
 
-## Accessing Claude Code analytics
+## Access Claude Code analytics
 
 ### Team and Enterprise plans
 
@@ -45,7 +45,7 @@ The Claude Code Usage page displays the following metrics for your organization:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1782770400&signature=0d6694c9a4b847c34d3e2df2841e8b1aaf1262639feb9caf0d778418ec27953c&req=dScmEcx5lINYXvMW1HO4zfiEP6RXiHnKCX9h5MbdDjNph9nNNu5J2TuiPdSb%0A8Yz%2F7Z5%2BUozzvWNc6v4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1782907200&signature=470b7b174c36325c2fbebfd4f71dec940d89caaafdc4bc3faa21df5cca34613c&req=dScmEcx5lINYXvMW3nq%2BgSdYtUT1OzugF2Tl%2FBjUoqJg1zI3KVYmCAaUug5v%0AlE2WhCsf07tQAN6rMRwTUZ1W6O4%3D%0A)
 
  
 
@@ -81,7 +81,7 @@ For a more in-depth look at contribution metrics, see **[our Claude Code docs](h
 
  
 
-### Setting up contribution metrics
+### Set up contribution metrics
 
 Contribution metrics require a few steps beyond the base analytics setup:
 
@@ -122,7 +122,7 @@ Usage metrics display data for the current calendar month and reset at the begin
 
  
 
-## Using analytics to optimize Claude Code adoption
+## Use analytics to optimize Claude Code adoption
 
 Review your organization's code acceptance rate to understand if teams are finding Claude Code's suggestions valuable. If rates are lower than expected, consider providing additional training on effective prompting techniques.
 
@@ -148,7 +148,7 @@ Claude Code usage analytics are not available to individual Pro or Max plans at 
 
  
 
-### I'm looking for specific user but they're missing from the reports.
+### I'm looking for a specific user but they're missing from the reports.
 
 If you notice that a specific user isn't showing up in your analytics, you should have them update Claude Code to the most recent version. The first Claude Code version to support this feature is **version 2.0.28**, so users should run <code>claude update</code>  to manually update Claude Code if needed.
 
