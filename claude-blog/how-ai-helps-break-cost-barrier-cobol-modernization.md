@@ -114,6 +114,10 @@ COBOL 현대화의 경제성은 달라졌습니다. AI는 이전에 수많은 �
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 ### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
@@ -125,10 +129,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
 ### Claude용 Skills 구축을 위한 완벽한 가이드
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
-### Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

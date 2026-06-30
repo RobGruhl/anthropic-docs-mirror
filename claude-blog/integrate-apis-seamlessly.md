@@ -156,6 +156,10 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
@@ -167,10 +171,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
 ### Auto mode for Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-### Product management on the AI exponential
 
 ## Claude を活用して組織運営の方法を変革
 

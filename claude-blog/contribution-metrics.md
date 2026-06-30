@@ -69,21 +69,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### Meet the winners of our Claude Opus 4.8 Build Day hackathon
+### Getting started with loops
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
 
 ### Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Meet the winners of our Claude Opus 4.8 Build Day hackathon
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
 
 ### Claude in Microsoft Foundry is now generally available
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
-
-### Agent identity in Claude Tag: a new access model for autonomous, team-wide AI
 
 ## Transform how your organization operates with Claude
 

@@ -17,6 +17,6 @@ If your previous account was disabled for [Usage Policy violations](https://www.
 
 - [Safeguards warnings and appeals](https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals)
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
-- [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)

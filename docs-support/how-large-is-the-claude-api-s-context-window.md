@@ -1,10 +1,10 @@
 # How large is the Claude API’s context window?
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
-The Claude API can ingest 1M tokens when using Claude Fable 5, Claude Opus 4.8, Opus 4.7, Opus 4.6, or Sonnet 4.6, and 200K+ tokens (about 500 pages of text or more) when using all other models.
+The Claude API can ingest 1M tokens when using Claude Sonnet 5, Fable 5, Claude Opus 4.8, Opus 4.7, Opus 4.6, or Sonnet 4.6, and 200K+ tokens (about 500 pages of text or more) when using all other models.
 
  
 

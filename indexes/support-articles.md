@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-30 15:54*
+*Last updated: 2026-06-30 18:44*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -11,7 +11,7 @@ Total documents: 259
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
 **Source:** https://support.claude.com/en/articles/9199617-api-safeguards-tools  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-30  
 
 ### About the Development Partner Program
 **File:** `/docs-support/about-the-development-partner-program.md`  
@@ -66,7 +66,7 @@ Total documents: 259
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
 **Source:** https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy  
-**Updated:** 2026-05-27  
+**Updated:** 2026-06-30  
 
 ### Anthropic Software Directory Terms
 **File:** `/docs-support/anthropic-software-directory-terms.md`  
@@ -81,7 +81,7 @@ Total documents: 259
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code  
-**Updated:** 2026-05-19  
+**Updated:** 2026-06-30  
 
 ### Build custom connectors via remote MCP servers
 **File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
@@ -171,7 +171,7 @@ Total documents: 259
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -246,12 +246,12 @@ Total documents: 259
 ### Creating a new account after deletion
 **File:** `/docs-support/creating-a-new-account-after-deletion.md`  
 **Source:** https://support.claude.com/en/articles/12109679-creating-a-new-account-after-deletion  
-**Updated:** 2026-06-10  
+**Updated:** 2026-06-30  
 
 ### Creating and managing Workspaces in the Claude Console
 **File:** `/docs-support/creating-and-managing-workspaces-in-the-claude-console.md`  
 **Source:** https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-30  
 
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
@@ -306,7 +306,7 @@ Total documents: 259
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-06-25  
+**Updated:** 2026-06-30  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -321,7 +321,7 @@ Total documents: 259
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -356,7 +356,7 @@ Total documents: 259
 ### Get started with Claude Cowork
 **File:** `/docs-support/getting-started-with-cowork.md`  
 **Source:** https://support.claude.com/en/articles/13345190-getting-started-with-cowork  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-30  
 
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
@@ -466,7 +466,7 @@ Total documents: 259
 ### How do I cancel my paid Claude subscription?
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
-**Updated:** 2026-06-02  
+**Updated:** 2026-06-30  
 
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
@@ -541,12 +541,12 @@ Total documents: 259
 ### How large is the Claude API’s context window?
 **File:** `/docs-support/how-large-is-the-claude-api-s-context-window.md`  
 **Source:** https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window  
-**Updated:** 2026-06-09  
+**Updated:** 2026-06-30  
 
 ### How large is the context window on paid Claude plans?
 **File:** `/docs-support/how-large-is-the-context-window-on-paid-claude-plans.md`  
 **Source:** https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans  
-**Updated:** 2026-06-13  
+**Updated:** 2026-06-30  
 
 ### How to change your Pro plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-pro-plan-from-monthly-to-annual-billing.md`  
@@ -596,7 +596,7 @@ Total documents: 259
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
 **Source:** https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data  
-**Updated:** 2026-06-11  
+**Updated:** 2026-06-30  
 
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
@@ -646,12 +646,12 @@ Total documents: 259
 ### Install Claude Desktop
 **File:** `/docs-support/installing-claude-desktop.md`  
 **Source:** https://support.claude.com/en/articles/10065433-installing-claude-desktop  
-**Updated:** 2026-05-17  
+**Updated:** 2026-06-30  
 
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-06-12  
+**Updated:** 2026-06-30  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
@@ -711,7 +711,7 @@ Total documents: 259
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-06-26  
+**Updated:** 2026-06-30  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -1006,7 +1006,7 @@ Total documents: 259
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
 **Source:** https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry  
-**Updated:** 2026-06-14  
+**Updated:** 2026-06-30  
 
 ### Use Claude in Slack
 **File:** `/docs-support/using-claude-in-slack.md`  

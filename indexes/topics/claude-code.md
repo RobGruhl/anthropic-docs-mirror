@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-30 15:54*
+*Last updated: 2026-06-30 18:44*
 
-Documents related to Claude Code across all sources (266 documents)
+Documents related to Claude Code across all sources (269 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (161)
+## Claude Code Documentation (163)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -33,6 +33,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [Authentication](/code-claude-docs/authentication.md)
 - [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
 - [Best Practices](/code-claude-docs/best-practices.md)
+- [Champion Kit](/code-claude-docs/champion-kit.md)
 - [Changelog](/code-claude-docs/changelog.md)
 - [Channels](/code-claude-docs/channels.md)
 - [Channels Reference](/code-claude-docs/channels-reference.md)
@@ -61,6 +62,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
 - [Deep Links](/code-claude-docs/deep-links.md)
 - [Desktop](/code-claude-docs/desktop.md)
+- [Desktop Linux](/code-claude-docs/desktop-linux.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
 - [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)
 - [Devcontainer](/code-claude-docs/devcontainer.md)
@@ -184,7 +186,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (85)
+## Claude.com Blog Posts (86)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
@@ -220,6 +222,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
+- [Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn

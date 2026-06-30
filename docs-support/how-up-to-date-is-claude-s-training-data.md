@@ -1,11 +1,12 @@
 # How up-to-date is Claude's training data?
 
-*Updated this week*
+*Updated in the last hour*
 
 ---
 
 While we're constantly updating Claude's data, each model has a knowledge cutoff:
 
+- Claude Sonnet 5 was trained on data up until January 2026.
 - Claude Fable 5 was trained on data up until January 2026.
 - Claude Opus 4.8 was trained on data up until January 2026.
 - Claude Opus 4.7 was trained on data up until January 2026.
@@ -29,4 +30,4 @@ You can refer to **[Models overview](https://docs.claude.com/en/docs/about-claud
 - [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)
+- [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

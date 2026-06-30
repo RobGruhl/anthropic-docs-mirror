@@ -1,16 +1,17 @@
 # Prompt Engineering Topic Index
-*Last updated: 2026-06-30 15:54*
+*Last updated: 2026-06-30 18:44*
 
-Documents related to Prompt Engineering across all sources (11 documents)
+Documents related to Prompt Engineering across all sources (12 documents)
 ---
 ## Anthropic News & Announcements (1)
 - [Prompt engineering for business performance](/anthropic-news/prompt-engineering-for-business-performance.md) - Anthropic is an AI safety and research company that's working to build reliab...
 
-## Claude.com Blog Posts (10)
+## Claude.com Blog Posts (11)
 - [Best Practices für Prompt-Engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Evaluate prompts in the developer console](/claude-blog/evaluate-prompts.md) - ![](https://cdn
 - [Generate better prompts in the developer console](/claude-blog/prompt-generator.md) - ![](https://cdn
+- [Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Improve your prompts in the developer console](/claude-blog/prompt-improver.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Long context prompting for Claude 2.1](/claude-blog/claude-2-1-prompting.md) - ![](https://cdn

@@ -1,6 +1,6 @@
 # Getting Started with Local MCP Servers on Claude Desktop
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -57,7 +57,7 @@ Custom desktop extensions uploads allow Team and Enterprise plans to leverage or
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1782837000&signature=1fa9f8665340d2176eac69631d05c848a740a9a18c190f15c8d7d170259b38ca&req=dSYvF89%2BmodfXvMW1HO4zWbPxEJ3NDoyHn9K2IaIG2IowRgUS%2FqSl4uCWkq%2F%0Aj3fdkPcYFK8%2BRLJbfQI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1782972000&signature=92b35f4b55fc46772c52b64036c086b38235fa957bc778bf267a62d69ff2a6c1&req=dSYvF89%2BmodfXvMW3nq%2BgXMWSvTAIQshX0gJZkgz4cM3ckAE0%2FcRliu5I5dp%0A8my1eEHlCGDYDLcWsxnAx3pMuIY%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ For controlling desktop extensions through system policies, please refer to our 
 ### Permission or security errors
 
 - On macOS, check System Preferences > Security & Privacy if you receive security warnings.
-- On Windows, ensure Claude Desktop has necessary permissions to access required directories.
+- On Windows and Linux, ensure Claude Desktop has necessary permissions to access required directories.
 - For enterprise environments, verify that desktop extensions are enabled through your organization's policies.
 -  
 
@@ -120,7 +120,7 @@ Desktop extensions support Node.js, Python, and binary MCP servers. Claude Deskt
 
 ### How do I handle sensitive configuration like API keys?
 
-Mark configuration fields as "sensitive": true in your manifest.json. Claude Desktop will automatically encrypt these values using the operating system's secure storage (Keychain on macOS, Credential Manager on Windows).
+Mark configuration fields as "sensitive": true in your manifest.json. Claude Desktop will automatically encrypt these values using the operating system's secure storage (Keychain on macOS, Credential Manager on Windows, and your distro’s keychain manager on Linux).
 
  
 

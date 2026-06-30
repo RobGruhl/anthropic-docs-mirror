@@ -1,11 +1,12 @@
 # Enable and use web search
 
-*Updated over 2 weeks ago*
+*Updated in the last hour*
 
 ---
 
 You can have Claude search the internet to provide you with up-to-date information and insights when using the following models:
 
+- Sonnet 5
 - Fable 5
 - Opus 4.8
 - Opus 4.7
@@ -128,8 +129,8 @@ You can re-enable it anytime you need current information.
 
 ## Related Articles
 
+- [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
-- [Change the model, effort, and thinking settings](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings)
-- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
-- [MCP: Web Search](https://support.claude.com/en/articles/14503775-mcp-web-search)
+- [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
+- [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Enable US-only inference for your organization](https://support.claude.com/en/articles/15422948-enable-us-only-inference-for-your-organization)

@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -16,7 +16,9 @@ Claude Cowork is available for paid plans (Pro, Max, Team, Enterprise) on:
 - - **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download
 - **Claude Desktop for Windows**
 - - Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](https://claude.com/download)**.
-   
+- **Claude Desktop for Linux (beta)**
+- - Download at **[claude.com/download](https://claude.com/download)**.
+-  
 
 ### Will my computer support Claude Cowork?
 
@@ -103,7 +105,7 @@ You maintain visibility into what Claude is planning and doing throughout the pr
 
 ### Requirements
 
-- **Claude Desktop app:** Cowork requires the **[desktop app](https://support.claude.com/en/articles/10065433-installing-claude-desktop)** for macOS or Windows and is not available on web or mobile.
+- **Claude Desktop app:** Cowork requires the **[desktop app](https://support.claude.com/en/articles/10065433-installing-claude-desktop)** for macOS, Windows, or Linux and is not available on web or mobile.
 - **Paid Claude subscription:** Cowork is available to paid Claude plans (Pro, Max, Team, Enterprise) only.
 - **Active internet connection:** Required throughout the session.
 

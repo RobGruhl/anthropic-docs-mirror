@@ -1,6 +1,6 @@
 # Paid Plan Billing FAQs
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -26,6 +26,21 @@ Additionally, all invoices are automatically emailed to your billing email addre
 5. Click "Update" to save your changes.
 6. Your updated payment method will be charged the next time your subscription renews.
 
+## How can I change or remove the card on my Pro or Max subscription?
+
+To change the card on your Pro or Max subscription:
+
+1. Navigate to **[Settings > Billing](https://claude.ai/settings/billing)**.
+2. Click the “Update” button next to your payment method.
+3. Enter your new card details.
+4. Click “Update” to save your changes.
+
+The new card becomes your default payment method, and all future subscription renewals are charged to it. Your previous card is no longer billed.
+
+ 
+
+There's no separate option to remove a card, and updating to a new card replaces the old one for billing purposes. The billing page only shows your current default card. Previously used cards are no longer charged, but they may remain stored with our payment processor. If you need a previous card fully removed from your account, please contact **[our support team](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
+
  
 
 ## How can I use a different name on my invoices?
@@ -34,7 +49,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1782836100&signature=eb5edfb96e56b662576d04e4d47d5271c2d0013d1342a63ba1735c95123a2c7e&req=dSklFMh6nIZXXPMW1HO4zVXW8G%2BjaDXNQoNvNFTb5cezHQbOfU0hH5tKpkVS%0An4Zc3GL4kGlSf55cGjc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1782972000&signature=af0e47f3d0d3f07cc579c7d6458e6707dfdd2135e4352797ec7044a5fb318413&req=dSklFMh6nIZXXPMW3nq%2BgWIvYv5MdNXubJOMNUDbBxOT4S%2BsnuENF%2Fmohfrm%0A07I6iJNavPyergtnuIkxh4m1yHI%3D%0A)
 
  
 
@@ -69,7 +84,7 @@ If you've paid for a Pro or Max plan but are not seeing this reflected in your a
 ## Related Articles
 
 - [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
+- [How to change your Pro plan from monthly to annual billing](https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
-- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

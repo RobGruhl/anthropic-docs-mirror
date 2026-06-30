@@ -66,6 +66,10 @@ Häufig gestellte Fragen
 
 Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
@@ -77,10 +81,6 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
 ### Claude für die Rechtsbranche
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

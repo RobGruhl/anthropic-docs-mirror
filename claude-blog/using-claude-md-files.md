@@ -318,6 +318,10 @@ CLAUDE.md 파일은 Claude Code를 범용 보조 도구에서 코드베이스에
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 ### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
@@ -329,10 +333,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
 
 ### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
-
-### Claude용 Skills 구축을 위한 완벽한 가이드
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

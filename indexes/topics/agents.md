@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-06-30 15:54*
+*Last updated: 2026-06-30 18:44*
 
-Documents related to Agents across all sources (133 documents)
+Documents related to Agents across all sources (134 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,7 +64,7 @@ Documents related to Agents across all sources (133 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (76)
+## Claude.com Blog Posts (77)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
@@ -99,6 +99,7 @@ Documents related to Agents across all sources (133 documents)
 - [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
 - [Deploying Claude across the legal industry](/claude-blog/deploying-claude-across-the-legal-industry.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
+- [Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Harnessing Claude’s intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn

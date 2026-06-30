@@ -62,6 +62,10 @@ Societal Impacts 팀의 연구에 따르면 개발자들은 업무의 약 60%에
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
 ### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
@@ -73,10 +77,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
 ### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

@@ -1,6 +1,6 @@
 # Install Claude Desktop
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -8,26 +8,94 @@ The Claude desktop apps bring Claude's capabilities directly to your computer, a
 
  
 
+## Availability
+
+Claude Desktop is available on macOS, Windows, and Linux (beta). What you can do depends on your plan:
+
+| **Feature** | **Free** | **Pro** | **Max** | **Team** | **Enterprise** |
+| --- | --- | --- | --- | --- | --- |
+| Chat | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Claude Code |  | ✅ | ✅ | ✅ | ✅ |
+| Claude Cowork |  | ✅ | ✅ | ✅ | ✅ |
+
+ 
+
 ## System Requirements
 
 - macOS: macOS 11 (Big Sur) or higher
 - Windows: Windows 10 or higher
+- Linux: Ubuntu 22.04 LTS+ or Debian 12 (bookworm)+, on x64 or arm64
 
  
 
-## Installation Steps
+## Installation steps for mac OS and Windows
 
 1. Visit the **[Claude downloads page](http://claude.ai/download)**.
 2. Select the appropriate version for your operating system:
-2. - For Mac users: Click "macOS"
-- For Windows users: Click "Windows" 
+2. - For Mac users, find **macOS** and click "Download."
+- For Windows users, find **Windows** and click "Download." 
 
 Once the download is completed:
 
 1. Open the file to complete installation.
 2. Launch Claude from your Applications folder (Mac) or Start menu (Windows).
 3. Sign in with your account to get started.
-3.  
+
+ 
+
+## Installation steps for Linux
+
+### Install using apt
+
+On Linux, you can install Claude Desktop from Anthropic’s apt repository rather than as a downloaded .deb file so that updates arrive through your system's normal package updates rather than in-app.
+
+ 
+
+1. On Ubuntu or Debian, open a terminal and run:<br>​
+
+```
+sudo curl -fsSLo /usr/share/keyrings/claude-desktop-archive-keyring.asc https://downloads.claude.ai/claude-desktop/key.asc
+echo "deb [signed-by=/usr/share/keyrings/claude-desktop-archive-keyring.asc] https://downloads.claude.ai/claude-desktop/apt/stable stable main" | sudo tee /etc/apt/sources.list.d/claude-desktop.list
+sudo apt update && sudo apt install claude-desktop
+```
+
+<br>2. Launch Claude from your applications menu, or run <code>claude-desktop</code> from a terminal, and sign in.
+
+ 
+
+**Keeping Claude Desktop up to date on Linux**
+
+The app doesn't update itself. Updates arrive with your system's regular package updates (<code>sudo apt update && sudo apt upgrade</code>).
+
+ 
+
+### Install using file download 
+
+ 
+
+If you can’t install Claude Desktop using apt, you can install it by downloading a .deb file instead:
+
+1. Visit the **[Claude downloads page](http://claude.ai/download)**.
+2. Find the .deb for your architecture (x64 or arm64) and click "Download."
+3. From the folder you downloaded the .deb file, run: <code>sudo apt install ~/Downloads/claude-desktop_amd64.deb</code>
+4. Launch Claude from your applications menu (or run <code>claude-desktop</code>), then sign in.
+
+ 
+
+### Verify the download on Linux (optional)
+
+Verify the signing key fingerprint before trusting it:
+
+1. Run: <code>gpg --show-keys /usr/share/keyrings/claude-desktop-archive-keyring.asc</code>
+2. Confirm the output matches: <code>31DD DE24 DDFA B679 F42D 7BD2 BAA9 29FF 1A7E CACE</code>
+
+ 
+
+### Current limitations when you use Claude Desktop on Linux
+
+- Computer use isn't available.
+- Dictation isn't available.
+- Quick Entry, the global hotkey, works on X11. On native Wayland, it relies on your desktop's GlobalShortcuts portal.
 
 ---
 
@@ -38,7 +106,7 @@ Once the download is completed:
 Desktop extensions transform how you connect Claude to your desktop applications and data. Similar to browser extensions, these secure, installable packages let you:
 
 - **Connect Claude to your desktop apps with one click**: Install extensions that integrate with your local files, calendars, emails, and messaging apps.
-- **Access a curated directory of extensions**: Browse verified extensions directly within Claude Desktop, including options like iMessage and filesystem access.
+- **Access a curated directory of extensions**: Browse verified extensions directly within Claude Desktop, including options like filesystem access and iMessage.
 - **Enjoy enterprise-ready security**: Extensions use code signing, encrypted storage for sensitive data like API keys, and enterprise policy controls.
 
 To explore desktop extensions, navigate to Settings > Extensions within the Claude Desktop app after installation.
@@ -70,13 +138,28 @@ Cowork runs code in an isolated virtual machine on your computer. File reads and
 
 To learn more, see **[Get started with Cowork](https://support.claude.com/en/articles/13345190-get-started-with-cowork)**.
 
+ 
+
+**Setup requirements for Claude Cowork on Linux**
+
+ 
+
+Cowork on Linux has its own setup requirements. Cowork runs your tasks in a virtual machine on your computer. Before it can start, your machine needs:
+
+- **Hardware virtualization (KVM).** Most computers support this, but it's sometimes turned off in firmware. If Cowork says virtualization isn't available, enable it in your BIOS or UEFI settings and restart.
+- **Permission to use virtualization.** Add yourself to the KVM group, then log out and back in: <code>sudo usermod -aG kvm $USER</code>
+- **QEMU and supporting packages.** Installing Claude with <code>apt install</code> pulls these in automatically. 
+- - If you installed the .deb file directly on x64, run <code>sudo apt install qemu-system-x86 ovmf virtiofsd</code>
+- On arm64, run <code>qemu-system-arm qemu-efi-aarch64 virtiofsd</code> instead.
+- **About 25 GB of free disk space for the workspace image, and at least 8 GB of RAM. **The workspace uses 4 GB while it's running.
+
 
 ---
 
 ## Related Articles
 
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Deploy Claude Desktop for Windows](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
 - [Claude Cowork desktop architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-desktop-architecture-overview)
 - [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
