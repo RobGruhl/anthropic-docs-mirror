@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-06-30 12:41*
+*Last updated: 2026-06-30 15:54*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -416,7 +416,7 @@ Total documents: 259
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -1051,7 +1051,7 @@ Total documents: 259
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Use incognito chats
 **File:** `/docs-support/using-incognito-chats.md`  
@@ -1266,7 +1266,7 @@ Total documents: 259
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-06-29  
+**Updated:** 2026-06-30  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  

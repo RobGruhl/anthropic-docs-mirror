@@ -1,12 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-30 12:41*
+*Last updated: 2026-06-30 15:54*
 
 Documents related to Claude Code across all sources (266 documents)
 ---
 ## Platform Documentation (platform.claude.com) (1)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (162)
+## Claude Code Documentation (161)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -33,7 +33,6 @@ Documents related to Claude Code across all sources (266 documents)
 - [Authentication](/code-claude-docs/authentication.md)
 - [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
 - [Best Practices](/code-claude-docs/best-practices.md)
-- [Champion Kit](/code-claude-docs/champion-kit.md)
 - [Changelog](/code-claude-docs/changelog.md)
 - [Channels](/code-claude-docs/channels.md)
 - [Channels Reference](/code-claude-docs/channels-reference.md)
@@ -185,7 +184,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (84)
+## Claude.com Blog Posts (85)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
@@ -233,6 +232,7 @@ Documents related to Claude Code across all sources (266 documents)
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing routines in Claude Code](/claude-blog/introducing-routines-in-claude-code.md) - ![](https://cdn
+- [Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud](/claude-blog/introducing-the-claude-apps-gateway.md) - ![](https://cdn
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
