@@ -8,7 +8,7 @@ When you first create a Claude account, you’ll be asked to enter your phone nu
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1782816300&signature=b4ed5f3c8fa36fbab4590e74115831fcf79f334044fb3766349631776256be34&req=dSguFch5noBbWvMW1HO4zVIf8JJr3Sx5oTnI%2BoMZk7fTbI9dGe6VJGIz8HQn%0Ar6GD0uQcVPUNEb1TuFc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1782825300&signature=86e4b9977132677653f203b11d6c4fac3d0f1588448d012e0b1543f20fa47196&req=dSguFch5noBbWvMW1HO4zVIf8JJr3i95oTnI%2BoMZk7dWPtohf4Ub79DGHJkz%0Aur3GUBt7O%2FwWbVQfY14%3D%0A)
 
  
 
