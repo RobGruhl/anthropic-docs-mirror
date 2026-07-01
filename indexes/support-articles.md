@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-01 12:59*
+*Last updated: 2026-07-01 15:59*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -61,7 +61,7 @@ Total documents: 259
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -131,7 +131,7 @@ Total documents: 259
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -161,7 +161,7 @@ Total documents: 259
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -426,7 +426,7 @@ Total documents: 259
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-01  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -721,7 +721,7 @@ Total documents: 259
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -796,7 +796,7 @@ Total documents: 259
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -856,7 +856,7 @@ Total documents: 259
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -1156,7 +1156,7 @@ Total documents: 259
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-01  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1261,7 +1261,7 @@ Total documents: 259
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
