@@ -15205,20 +15205,20 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/batch-processing",
-      "hash": "dee8beb3c81e20b16ed3b652f4cdedfadf6c706cfdb2d01740726deba6d1be82",
+      "hash": "6d7683857ca6b142bf2daa6311e67e8ef2c1a83ca74e582b527b759ee4aa48aa",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-30T18:37:16.742124"
+      "last_updated": "2026-07-01T00:32:44.181636"
     },
     "build-with-claude__cache-diagnostics.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics",
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/cache-diagnostics",
-      "hash": "48d22261a666937c0f4476b9b2ad4a581d981fc66911984a87edd77b5093d6f9",
+      "hash": "55400ea1029d580166a5d03b9d5aa704513b56e984401e6778413aafbd172d85",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.799465"
+      "last_updated": "2026-07-01T00:32:44.181828"
     },
     "build-with-claude__citations.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/citations",
@@ -15335,10 +15335,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/extended-thinking",
-      "hash": "b2e4a9f64b98f78bf56db209c86f8a3d4b3aeef5da74b53ee987cb0b4d4b47dc",
+      "hash": "c8bba74cb34540edb02696d3baab82cf6ce619765ca6a23a6a636adde5557b92",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-30T18:37:16.744637"
+      "last_updated": "2026-07-01T00:32:44.183788"
     },
     "build-with-claude__fallback-credit.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/fallback-credit",
@@ -15465,20 +15465,20 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/skills-guide",
-      "hash": "abe6a1555a93184d819e31255c79467ea0216eca1b96f970d565efe78c52e581",
+      "hash": "a920f300b32b35e1be685aef4f1f643437e627c0c89fdb890a7d869d2cf37fe4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-29T18:38:48.470048"
+      "last_updated": "2026-07-01T00:32:44.186238"
     },
     "build-with-claude__streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/streaming.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/streaming",
-      "hash": "a51701d506ac18ffd8fa0190032a0e087c892164f7e7d344b618574a12be3da4",
+      "hash": "54e0f96d0e839eece659876a4473cd310f5473b88a45b3249cdc39ce5b354b9a",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.804489"
+      "last_updated": "2026-07-01T00:32:44.186522"
     },
     "build-with-claude__structured-outputs.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
@@ -16045,10 +16045,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/quickstart.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/quickstart",
-      "hash": "9138266395a1b00f88372bb828ac7643b8fa61aac092efc7ee90c4064fcd0919",
+      "hash": "e636d8da69712da2762a7570856123f81718ebdd7a84dff6c68602118d7502e0",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.812489"
+      "last_updated": "2026-07-01T00:32:44.193829"
     },
     "managed-agents__reference.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/reference",
@@ -16075,10 +16075,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/self-hosted-sandboxes",
-      "hash": "8393c5f6095bdc42e4e5113a3786007785aefbf272a38416aa5276beb489211e",
+      "hash": "2af951e842951a810ebc15fba950755c41e545d59831b794ec36a1e8a1588ffa",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.812890"
+      "last_updated": "2026-07-01T00:32:44.194232"
     },
     "managed-agents__self-hosted-sandboxes-security.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security",
@@ -16162,13 +16162,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-30T21:30:59.362799",
-    "fetch_duration_seconds": 25.4343,
+    "last_fetch_completed": "2026-07-01T00:32:44.201237",
+    "fetch_duration_seconds": 22.860382,
     "total_pages_discovered": 1873,
     "pages_fetched_successfully": 1616,
     "pages_failed": 257,
-    "pages_unchanged": 1600,
-    "pages_updated": 16,
+    "pages_unchanged": 1609,
+    "pages_updated": 7,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16443,5 +16443,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-06-30T21:30:59.363012"
+  "last_updated": "2026-07-01T00:32:44.201415"
 }

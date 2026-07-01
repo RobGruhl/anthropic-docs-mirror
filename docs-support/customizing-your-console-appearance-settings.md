@@ -1,6 +1,6 @@
 # Customizing your Console appearance settings
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://platform.claude.com/settings/appearance).
 3. Select from Light, System, or Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1782857700&signature=fa8ff368ba6f90588e089ef5c8d9d02727490043663fe8643890c748827659d0&req=dSklFMx5lIBfWPMW1HO4zRpFC8oMSBVxO9Kw38RlAYKd4ll69jGUAsW8aGSs%0Ad9Thx6OtJQpBmZmKa5E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1782867600&signature=2557f8f37c0328dc2f8e70cb9c8814381289b26c5896c7121880fc14c0f97758&req=dSklFMx5lIBfWPMW1HO4zRpFC8oMSxVwO9Kw38RlAYI0fBTUE97IFvsmj15V%0AKmCAo94ZdRfXfVOWjus%3D%0A)
 
 
 ---

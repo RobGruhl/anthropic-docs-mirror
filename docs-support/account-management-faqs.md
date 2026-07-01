@@ -1,6 +1,6 @@
 # Account management FAQs
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1782857700&signature=94860f7fd1042587146904e44609fb9fd302e416e9702beea169e311fca6375a&req=diAiFcF5nolaW%2FMW1HO4zUrhFumQbA8dkeFUnrkrQZgh7bQ0OGxIf7JnD0NU%0A83CRUtiKZRfydb3UFIU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1782867600&signature=6e65f45a76a3222e5c0b5c4eddca1c52a74389797055a4f645393142133fcbe1&req=diAiFcF5nolaW%2FMW1HO4zUrhFumQbw8ckeFUnrkrQZif7MuamiPNjpE5IYek%0A0Wwr2PrpqA2%2FPU%2BR1zQ%3D%0A)
 
   
 

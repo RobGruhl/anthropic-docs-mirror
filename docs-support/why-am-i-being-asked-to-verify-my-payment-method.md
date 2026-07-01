@@ -1,6 +1,6 @@
 # Why am I being asked to verify my payment method?
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ If you see the following pop-up when you log in to your Claude account, you’ll
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1782856800&signature=0776aaa3dfa77cb051d094c409174444ea87f6b88d7a38f93e21831fb0e8255e&req=dSYkF81%2FnolZWPMW1HO4zf7%2BjEbm7Yb6n6MrEicvimAbEOL4FnEjBzUd5KWU%0AMa0Kklyu%2F82e3Xu61jI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1782867600&signature=4fff05acff305797aa1d44f11a405c1dca0be72462e94ea6a1c59e4478693a43&req=dSYkF81%2FnolZWPMW1HO4zf7%2BjEbm7of0n6MrEicvimATsiZTEQuF3XFbQr%2Bx%0AHm7rv5rWExmskWmOO6c%3D%0A)
 
  
 

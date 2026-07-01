@@ -1,6 +1,6 @@
 # Use quick entry with Claude Desktop on Mac
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -43,7 +43,7 @@ Once enabled, double-tapping Option will open a text box where you can type your
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1782856800&signature=769e1d013573671d939cba1ce7d6b31a121a4ef31a5acc5e32b84d2c8d981c4a&req=dSguFcl2lYJZXPMW1HO4zWggD9xZo5qSRC8c%2FcM5c2KuRiMAZGaCIWiNA2Tc%0AdFI6kkZBGVn7dGWUWmw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1782867600&signature=6959f5db62fd381f6c90fd22308e24fdb9d1b20193d17996feece6d08c47f39e&req=dSguFcl2lYJZXPMW1HO4zWggD9xZoJucRC8c%2FcM5c2Ib3HxSQJTVx2u3cXPB%0AF7w7%2BsHiwUYf%2BsGq68g%3D%0A)
 
  
 

@@ -1,6 +1,6 @@
 # Log in to your Claude account
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ When you open Claude on a web browser ([claude.ai](http://claude.ai)), the deskt
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1782856800&signature=67f5cc964c1438a46584b2766a76efb11b1b3e795b2ca90f53b5913a08e26e13&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoCE5hS8zWhrqpWiTMmUL2Jg9Zg6fo%2FgLdcd%0Aih3G%2FOE9D8ErqcEZtHY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1782867600&signature=c82131368fbb88a70ba05f6ddb9b8099193b105405a002ae9758f78eaf53fb7f&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoCE5RWyzWhrqpWiTMlCNv6F7Oa0GU%2F2P%2B2R%0A5wzTHZjHHlBPlNmTRao%3D%0A)
 
  
 

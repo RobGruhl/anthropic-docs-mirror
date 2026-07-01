@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-06-30 21:39*
+*Last updated: 2026-07-01 00:37*
 
 Documents related to Claude Code across all sources (268 documents)
 ---
@@ -64,7 +64,6 @@ Documents related to Claude Code across all sources (268 documents)
 - [Desktop](/code-claude-docs/desktop.md)
 - [Desktop Linux](/code-claude-docs/desktop-linux.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
-- [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)
 - [Devcontainer](/code-claude-docs/devcontainer.md)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
 - [Env Vars](/code-claude-docs/env-vars.md)
@@ -107,6 +106,7 @@ Documents related to Claude Code across all sources (268 documents)
 - [Modifying System Prompts](/code-claude-docs/agent-sdk__modifying-system-prompts.md)
 - [Monitoring Usage](/code-claude-docs/monitoring-usage.md)
 - [Network Config](/code-claude-docs/network-config.md)
+- [Observability](/code-claude-docs/agent-sdk__observability.md)
 - [Output Styles](/code-claude-docs/output-styles.md)
 - [Overview](/code-claude-docs/agent-sdk__overview.md)
 - [Overview](/code-claude-docs/overview.md)

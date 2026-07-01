@@ -1,6 +1,6 @@
 # Sharing Prompts in the Claude Console
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -57,7 +57,7 @@ To see previous versions of a prompt:
 2. Select "Share" from the dropdown menu.
 3. Change the access settings from "Shared" to "Private":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1782857700&signature=e5b07a88ed83a6469b3d29b249b83cec1ce045208ced48c03caba870808c141e&req=dSQnH8F3lYBZX%2FMW1HO4zZMvtFXWQfFmH68akkuAPm3gYH4E5MRKvyXud4k%2B%0AIfQ6IZZxsL%2Fx8RG%2BFLU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1782867600&signature=9ad200d3174495932e1fa93d23b658a53fb6881b41ade4a981bce2e18bda575e&req=dSQnH8F3lYBZX%2FMW1HO4zZMvtFXWQvFnH68akkuAPm1ACQR4%2BgsRRTDJfaSX%0A8dK6cNTd4F33xKneCzw%3D%0A)
 
 
 ---

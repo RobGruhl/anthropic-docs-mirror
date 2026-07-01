@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782857700&signature=6eb8c88166b48511a4c4a067c790eefa26f82475cc6ef15524c577d4faf3e292&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FCTbtuxNdRzYWrfF6NvLrGAyFgQymYGpVQ%0APtldgwbVQsKb0HcoTws%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782867600&signature=94325d7b77437f60b8c745daff11a125794c01fd243e89e9ece6668aafbe1362&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FCTrtvxNdRzYWrfF7NBhI7wPYkSDFqzqri%0AqU1WQLK3LAihlPqglDQ%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782857700&signature=c64f231f6b11a24e82b6d6a6073b683a6dddef7cd9f8357455be2b950785118e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGidZVcNy8OQfYsvK3ycNf6Z9L6qrIn%2BD%2FI9%0APGMvdXnBM7YizXxJL6k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782867600&signature=06570241dd37610e77de60d4fede9b7599454dbc5563378edf99e8d4601bcd87&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGidZlcMy8OQfYsvK3wN4myohpFQ%2FHMRQ70J%0AVF6AJ5tOVn0WHoO1rbg%3D%0A)
 
  
 

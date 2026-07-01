@@ -1,6 +1,6 @@
 # Claude in Chrome Permissions Guide
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -15,7 +15,7 @@ Claude in Chrome uses a multi-layered permission system to give you control over
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1782856800&signature=26a0dfe96551de3c1861f84b93e6132abcfa6a5791d46e7291ec6a95a21d7b6b&req=dSgjFcp8n4FeUfMW1HO4zQ5tySUE8H6%2FhD0gAzkS2hxZ%2B1yF5np8f4txLR7q%0AeiESEqYjH09u1CIpz%2FU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1782867600&signature=ad5ba72c896a3e3cb8f854a57b51f2b4c32235e4e1f8f7a2108153c7714a5b2d&req=dSgjFcp8n4FeUfMW1HO4zQ5tySUE83%2BxhD0gAzkS2hzURSNkMLAWyQ7JEkSu%0AFUgE%2Ft%2BvEGATOpzjKF4%3D%0A)
 
 ---
 
@@ -27,7 +27,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1782856800&signature=ee1ab2a9d7ee8d7595e26a1ea864ce773b1c0a472396da6577893515a1208a98&req=dSgjFcp8nYZdXvMW1HO4zYqyZcBF%2BYS%2FgN0ADj5oqFAc6b5tQCC3j5yZxUlN%0A%2FRjZ%2BYzAbc5aETxgXng%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1782867600&signature=dc1abdeb5ccac580d7fc660f2e85163f0fec19923387e841b5a6621661190c0d&req=dSgjFcp8nYZdXvMW1HO4zYqyZcBF%2BoWxgN0ADj5oqFA6rI4qwJO7hmbfRW6Z%0AQZ1AiZAH1mPH4Rie6i0%3D%0A)
 
  
 
@@ -71,7 +71,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1782856800&signature=4e52d062ee70ea253adbee7ac44888485a894f02168ffee935a6754c41b121ea&req=dSgjEct8n4lYXPMW1HO4zeoCY8QjpnJ3JCxYSFHKWIgXiMDUkyY7%2FC1Fbb1D%0A5SdtA%2BDO6NaOqdsIeq0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1782867600&signature=28e09a0882c8ad078bc931958028fd3c1ad3fd0e4be961ada20c23dd0d12d443&req=dSgjEct8n4lYXPMW1HO4zeoCY8QjpXN5JCxYSFHKWIhgLI3Ekgvcvzsu3ZUG%0AXrHDDgCyVH7sGonV%2FnE%3D%0A)
 
  
 

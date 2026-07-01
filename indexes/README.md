@@ -1,5 +1,5 @@
 # Claude Documentation Index
-*Last updated: 2026-06-30 21:39*
+*Last updated: 2026-07-01 00:37*
 
 ## Quick Stats
 - **Total Documents:** 2720
@@ -48,7 +48,7 @@
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
-- [Agent Sdk](topics/agent-sdk.md) - 33 documents
+- [Agent Sdk](topics/agent-sdk.md) - 34 documents
 - [Community](topics/community.md) - 32 documents
 - [View all 83 topics](topics/)
 

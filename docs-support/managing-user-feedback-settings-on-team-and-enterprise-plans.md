@@ -1,6 +1,6 @@
 # Manage user feedback settings on Team and Enterprise plans
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -9,7 +9,7 @@ As a Primary Owner or Owner of a Team or Enterprise plan, you can manage the abi
 1. Navigate to **[Organization settings > Data and Privacy](https://claude.ai/admin-settings/data-privacy-controls).**
 2. Use the toggle to change the **Rate chats **setting for your organization:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1782857700&signature=873034395a8cda4c6afbc11643ea9dd613ede36b05c68f217f8072e2055998ef&req=diAiHst3n4dfWvMW1HO4zYGm8iUUFa%2FL085gFtEpvcRRODpSPdXP8hd8dQWA%0ALHMtezp6uOF6k%2BNDEO8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1782867600&signature=0d13344dd01f4be203a2803d41a690d195559ad7478d2b7d1149860ecf944980&req=diAiHst3n4dfWvMW1HO4zYGm8iUUFq%2FK085gFtEpvcTVawhFByCRWJShupM4%0AyD1jnQD9ZXxoWFRht%2BU%3D%0A)
 
  
 
