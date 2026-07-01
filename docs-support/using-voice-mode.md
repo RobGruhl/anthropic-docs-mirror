@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782902700&signature=489fc23ec842301f34ffdbfecef1da799e0c3cf57dd1bf23374000306f7c2182&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FDSL5uxNdRzYWrfF6GsH5SuYt9eZlX3H10%0AJZ5MCsb6M4g18RhRo7U%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1782912600&signature=e6cb33cc98698709ee70de987f59848be76104583383888c5dd1538d031b44e8&req=diAjFMp7n4FZWfMW1HO4zU6VRf%2FDSb5vxNdRzYWrfF5sJExHtdS6xTUr%2BNPh%0AirT7lOI5w80VNostYPE%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782902700&signature=669301973369210e4c63e6ab0f0fb7ede7950b3fa403daa70a6298231719a082&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGicYFINy8OQfYsvK3yr7wOZ6v5CD7SXOyBz%0AEZomMM3OFVDj%2BQqeECE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1782912600&signature=89281793a9309702cf19435113de6196cce7cea9ae8149b1d67a246948988302&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGicYVIMy8OQfYsvK3x2aeezItPlj07F8vWN%0AU6qq5%2BCrfFRQs9v%2BwtA%3D%0A)
 
  
 

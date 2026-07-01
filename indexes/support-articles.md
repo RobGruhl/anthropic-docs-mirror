@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-01 10:24*
+*Last updated: 2026-07-01 12:59*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -181,7 +181,7 @@ Total documents: 259
 ### Claude Code usage analytics
 **File:** `/docs-support/claude-code-usage-analytics.md`  
 **Source:** https://support.claude.com/en/articles/12157520-claude-code-usage-analytics  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Claude Console roles and permissions
 **File:** `/docs-support/claude-console-roles-and-permissions.md`  
@@ -516,7 +516,7 @@ Total documents: 259
 ### How do I use the Workbench?
 **File:** `/docs-support/how-do-i-use-the-workbench.md`  
 **Source:** https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-01  
 
 ### How do I view and sign your Data Processing Addendum (DPA)?
 **File:** `/docs-support/how-do-i-view-and-sign-your-data-processing-addendum-dpa.md`  
@@ -891,7 +891,7 @@ Total documents: 259
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-01  
 
 ### Set up single sign-on (SSO)
 **File:** `/docs-support/set-up-single-sign-on-sso.md`  
