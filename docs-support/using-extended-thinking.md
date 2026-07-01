@@ -19,6 +19,8 @@ The model menu next to the send button controls three settings: which Claude mod
 3. To change the model, click on the model name and choose which Claude model you'd like to chat with instead.
 4. Click "More models" to view additional options.
 
+If you're on an Enterprise plan and a model or effort level you expect is missing, your administrator may have turned it off for your role.
+
  
 
 ---

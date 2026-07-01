@@ -1,6 +1,6 @@
 # View usage analytics for Team and Enterprise plans
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -31,9 +31,11 @@ This page includes the following analytics:
 - Pending invites
 - Daily, weekly, and monthly active users, with filters for Claude (chat), Claude Code, and Claude Cowork
 - Top connectors
+- Usage and cost by group and by person, with output (artifacts created, files edited, skills and connectors used) shown alongside cost
+- Filter by group, including groups synced from your identity provider via SCIM
 -  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1782923400&signature=00d96ee1839ddf927fe29fd454f552f3d5bda8618516f28342c045f99c289e7a&req=diEiFcp3mYhfUPMW1HO4zbQxEME4DSFmSPAYazQ9kuJfv8ESHXn%2FWc%2F1jNHU%0A4LWtbiy3BQi7imME5Kg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153394909/693f3ae0ec2ea158a1f1e233c024/CleanShot+2026-03-11+at+14_52_44%402x.png?expires=1783036800&signature=cec60b49c75f6f1672e7f8373260da98b272327be84eb0eb05d0eb3708fb5ad5&req=diEiFcp3mYhfUPMW3nq%2BgVa3KItTTt6wZNWAza8Bkiaf%2FT3OEMyewecUSDRk%0ARLP5dHkEc0pk12ytb%2Fi7PgRf%2FMU%3D%0A)
 
  
 
@@ -49,11 +51,11 @@ This section includes the following analytics:
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1782923400&signature=dd274644fc8ede49fea4bfb46f500040c35b4c2f79cb01c1a6cd8bc1d223aaac&req=diQkEs56molfW%2FMW1HO4zfK6rvnkPpMLHjVUKeN2QU%2B%2Fg2jbVBvui%2Bt6RfA6%0A6O7H1fVqcSIElI%2FHrSo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2434747802/80667668d997d87426b7c04fd54c/SpendGraph.png?expires=1783036800&signature=22cea1579ddb78314db14c8da2204d832823a5377546c8e782b3d6a2314ed43e&req=diQkEs56molfW%2FMW3nq%2BgSk1YUxlw80WX5N4vtMaifpCgoJ%2Bhr4Xon56HJ6Q%0Ah%2FmIeVuiZSf3hpBjcrtzZ8Q5rEI%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1782923400&signature=416c2b3da01c630ea93ee74cce5b957be323a53218b95c9b3a6a5f46c8b2b3a4&req=diEiFc1%2FlIRdXvMW1HO4zdGt%2BiahCfxtP9LVpsbj5NeavzBuW3duN97URKFn%0AdBJ43hqu2AXlnJbRS6A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2153419527/18cba69667e2af1a6f4f2e5ca2c5/CleanShot+2026-03-11+at+15_03_28%402x.png?expires=1783036800&signature=d762d76488a40e8f9cf91ba26ec653b498def076c94dab5ffb24387160f90718&req=diEiFc1%2FlIRdXvMW3nq%2BgVR6Vlq9IH5sw5OvlcWHNJIpKwYmGlhxb5HiIr5n%0A4hghwP%2FN86utv4LyO%2Bz24hQaS34%3D%0A)
 
  
 
@@ -118,7 +120,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more chat
 - Total number of chats (1 week, 1 month, 3 months, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1782923400&signature=a33419cfaa59cecc36693201e19b3517dcbc0999427020bd10971f1e95e2001e&req=dSkmEMh4lIFcXfMW1HO4zZyh9TGX%2FIp%2FRyyyIe2wZ0Xx478fyFnOSEt9SILH%0AIiyJIYiVF72XXMmI%2BEk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916169034/e3e557f223fcd6976fa5b6353095/CleanShot+2026-01-05+at+15_32_41.png?expires=1783036800&signature=9b9b1d5f10dd382c1245173b78f6cd362e70c3d394ded85ac0f27be98c0d4654&req=dSkmEMh4lIFcXfMW3nq%2BgYIAdWD%2B00D98dHOIYw1L7RFK5PNtDxU91by%2F8tu%0Aaog8ekGZyUn%2FZJmJYjdjjWXQfw8%3D%0A)
 
  
 
@@ -128,7 +130,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more project
 - Top 10 users by projects used (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1782923400&signature=bbc1802386b24231bc476e1bda598e8fa610d188561e053876b2cf7f3d15dbae&req=dSkmEMh5nYBcWvMW1HO4zed16ibn3xteqVPXIl8sPeZv7QqryPD5axGy9oX0%0A8kqimam8DOW1X5ZG%2FjY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916170133/666961061f9a044385e0ea1debdd/CleanShot+2026-01-05+at+15_36_27.png?expires=1783036800&signature=3ea70045fa333187e25f9ac121f0ec498384c61df42f75f05e992b841ffc46e4&req=dSkmEMh5nYBcWvMW3nq%2BgQNdCwIf9qSmtqMOrOhg8MUG73Ad55KZUQ%2FrWqGO%0A9dZS0dKHUnhL6aGJlVX7sj%2BV9bc%3D%0A)
 
  
 
@@ -138,7 +140,7 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 - Percentage of users with 1 or more artifact
 - Top 10 users by artifacts generated (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1782923400&signature=bf18e56f29ae65e9ff01d0f51d399f59a9e9013f9ef1865bcde14dc8fcacd5da&req=dSkmEMh5nIBZWfMW1HO4zXYF0VvrvwP94Jgm1Axxim1sawqXmxDRnu%2BIrlu%2B%0A9qxyC5bVLX%2BOme2xGe4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916171160/cd17d2abba34659b9d8f6231df5a/CleanShot+2026-01-05+at+15_37_20.png?expires=1783036800&signature=16da771416a34ed6d4727ed109541ea909d005a5c71b74424c5c59ec5e94f149&req=dSkmEMh5nIBZWfMW3nq%2Bgfwbrc%2BDWK2gBN3WvsyqBVHuf54M8qvEZKfkh4Y7%0A%2B6ICW2wMaDqhSwCZFvVlu0%2FhZ7k%3D%0A)
 
  
 
@@ -148,7 +150,31 @@ Navigate to **[Analytics > Claude.ai](https://claude.ai/analytics/usage)** to vi
 
 ## Claude Code analytics
 
-Navigate to **[Analytics > Claude Code](https://claude.ai/analytics/claude-code)** to view usage and activity metrics for your organization. For more specific details, refer to **[Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)**.
+Navigate to **[Analytics > Claude Code](https://claude.ai/analytics/claude-code)** to view usage and value metrics for Claude Code across your organization. The page has two tabs.
+
+ 
+
+### Usage
+
+- Active developers
+- Session counts
+- Top commands across your organization
+
+Usage data refreshes daily.
+
+ 
+
+### Value
+
+- Estimated productivity lift
+- Cost per commit
+- Estimated annual value
+
+Every formula on the Value tab is shown inline, and you can adjust the inputs to match your organization's assumptions.
+
+ 
+
+For contribution metrics, GitHub setup, and per-developer detail, refer to[ Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics).
 
  
 
@@ -166,11 +192,30 @@ Navigate to **[Analytics > Cowork](https://claude.ai/analytics/cowork)** to view
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1782923400&signature=382be05aefed86b2146d4926cccfca55c93e479137249b019a12b6744adc1060&req=diIiFc9%2BmYNeUPMW1HO4zSCqp6YOFnwa8zs2pRdG0k4tBmrCRVJaWys53Y9q%0A5YoubVWtaAlN%2F%2BxwyUc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2253604219/0d21918d55e10b3e5d2a92e65c90/42a47632-08c2-4557-a087-fc080c4dda80?expires=1783036800&signature=85aa9191488395344255daeaee575fc22aaf325164387ff981f7eae25caca52d&req=diIiFc9%2BmYNeUPMW3nq%2BgTXDaiYHS8B%2BFywLrFRvXzcZAhgv7TPYC9CrTElz%0AnwTFwQxiXF68qYln%2FmKcuzvv1mA%3D%0A)
 
  
 
  
+
+---
+
+ 
+
+## View your own usage as a member
+
+When your admin turns on individual usage analytics, any member of the organization can see their own usage broken down by product, model, and skill, along with where they stand against any spend limits set for them. Individual usage analytics are available in **[Settings > Usage](https://claude.ai/settings/usage)**.
+
+ 
+
+## Turn individual usage analytics on or off
+
+Owners and Primary Owners control whether members can see this view. The setting applies to the whole organization.
+
+1. Navigate to **[Organization settings > Usage](https://claude.ai/admin-settings/usage)**.
+2. Find the **Member analytics** toggle.
+3. Switch it on or off.
+3.  
 
 ---
 
@@ -185,8 +230,8 @@ If you’re on an Enterprise plan and want to pull analytics data into your own 
 
 ## Related Articles
 
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Claude Code usage analytics](https://support.claude.com/en/articles/12157520-claude-code-usage-analytics)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
