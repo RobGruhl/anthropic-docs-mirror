@@ -1,4 +1,5 @@
 # Getting started with loops
+*June 30, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 Learn how the Claude Code team defines agentic loops, with practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops—and when to use each.
 
-- CatégorieClaude Code
+- CategoryClaude Code
 
-- ProduitClaude Code
+- ProductClaude Code
 
-- Date30/6/2026
+- DateJune 30, 2026
 
-- Temps de lecture5min
+- Reading time5min
 
-- PartagerCopier le lienhttps://claude.com/blog/getting-started-with-loops
+- ShareCopy linkhttps://claude.com/blog/getting-started-with-loops
 
 There’s a lot of talk right now about "designing loops" instead of prompting your coding agent. If you spend some time on X trying to pin down what a loop actually is, you'll come across multiple different answers.
 
@@ -195,34 +196,34 @@ This article was written by Delba de Oliveira and Michael Segner
 
 FAQ
 
-## Articles associés
+## Related posts
 
-Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
 
-### Observabilité pour les développeurs qui créent des connecteurs
+### Meet the winners of our Claude Opus 4.8 Build Day hackathon
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-### Le guide du fondateur et de la fondatrice : créer une startup fondée sur l’IA
+### Agent identity in Claude Tag: a new access model for autonomous, team-wide AI
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+### Running an AI-native engineering org
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### Claude pour le secteur juridique
+### How Anthropic's cybersecurity team built a threat detection platform with Claude Code
 
-## Transformez le fonctionnement de votre organisation avec Claude
+## Transform how your organization operates with Claude
 
-Recevez la newsletter des développeurs
+Get the developer newsletter
 
-Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/fr/blog/getting-started-with-loops
+**Source:** https://claude.com/blog/getting-started-with-loops
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
