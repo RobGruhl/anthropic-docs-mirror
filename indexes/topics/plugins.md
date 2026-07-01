@@ -1,8 +1,12 @@
 # Plugins Topic Index
-*Last updated: 2026-07-01 18:41*
+*Last updated: 2026-07-01 21:35*
 
-Documents related to Plugins across all sources (12 documents)
+Documents related to Plugins across all sources (14 documents)
 ---
+## Platform Documentation (platform.claude.com) (2)
+- [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
+- [admin__analytics__plugins__list](/platform-docs/api-reference/admin__analytics__plugins__list.md)
+
 ## Claude Code Documentation (8)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
 - [Plugin Dependencies](/code-claude-docs/plugin-dependencies.md)

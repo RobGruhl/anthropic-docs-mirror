@@ -1,6 +1,6 @@
 # Anthropic's AI for Science Program
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -91,5 +91,5 @@ We appreciate your interest in conducting red-teaming or jailbreaking research, 
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [What is the External Researcher Access Program?](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program)
 - [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
-- [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)

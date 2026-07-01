@@ -486,6 +486,8 @@ See [Session event stream](/docs/en/managed-agents/events-and-streaming) for how
 
 See [Session statuses](/docs/en/managed-agents/session-operations#session-statuses) for the statuses a session moves through, and [Session operations](/docs/en/managed-agents/session-operations) for retrieving, listing, updating, archiving, and deleting sessions.
 
+To create sessions automatically on a recurring schedule, see [Scheduled deployments](/docs/en/managed-agents/scheduled-deployments).
+
 
 ---
 📖 **Source:** https://platform.claude.com/docs/en/managed-agents/sessions

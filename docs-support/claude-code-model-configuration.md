@@ -1,6 +1,6 @@
 # Claude Code model configuration
 
-*Updated in the last hour*
+*Updated yesterday*
 
 ---
 
@@ -109,6 +109,6 @@ Now your chosen model will be the default for all future Claude Code sessions.
 
 - [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [How large is the Claude API’s context window?](https://support.claude.com/en/articles/8606395-how-large-is-the-claude-api-s-context-window)
-- [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)
+- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

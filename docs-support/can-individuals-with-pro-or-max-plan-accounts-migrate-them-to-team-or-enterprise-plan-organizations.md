@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1782933300&signature=7f262dbb8e9b02915c55cafb0a3c0cd57903f7b38dcf64f68ef664411bb43981&req=diMmFMh3noJbXvMW1HO4zXhPndI%2FyxxiufhmlOXMdYZla9VN8t36zn%2Bp9xKn%0AtFDTldQ2Mps3VzeR0j4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1782943200&signature=4bd321aa467407250ffe696f813ab2ecfa3525d6cc58039cd26e20e5efb8fbef&req=diMmFMh3noJbXvMW1HO4zXhPndI%2FzBxjufhmlOXMdYZramsME5aQQlYiAZvG%0AMb3UsQT96Qrm52I6eiI%3D%0A)
 
  
 
