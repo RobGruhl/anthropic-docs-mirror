@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-02 00:36*
+*Last updated: 2026-07-02 06:35*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -386,7 +386,7 @@ Total documents: 259
 ### Getting Started with Local MCP Servers on Claude Desktop
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
 **Source:** https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
@@ -806,7 +806,7 @@ Total documents: 259
 ### Paid Plan Billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
 **Source:** https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### Provision and manage skills for your organization
 **File:** `/docs-support/provisioning-and-managing-skills-for-your-organization.md`  
