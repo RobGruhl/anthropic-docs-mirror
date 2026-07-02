@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-02 19:16*
-Total documents: 1602
+*Last updated: 2026-07-02 22:05*
+Total documents: 1620
 ---
-## Uncategorized (1602 documents)
+## Uncategorized (1620 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -2608,10 +2608,20 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/compliance/groups/members  
 **Updated:** 2026-06-26  
 
+### compliance__groups__members__list
+**File:** `/platform-docs/compliance__groups__members__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/groups/members/list  
+**Updated:** 2026-07-02  
+
 ### compliance__groups__retrieve
 **File:** `/platform-docs/compliance__groups__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/groups/retrieve  
 **Updated:** 2026-06-26  
+
+### compliance__organizations
+**File:** `/platform-docs/compliance__organizations.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
+**Updated:** 2026-07-02  
 
 ### compliance__organizations__list
 **File:** `/platform-docs/compliance__organizations__list.md`  
@@ -2658,10 +2668,20 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users  
 **Updated:** 2026-06-26  
 
+### compliance__organizations__users__list
+**File:** `/platform-docs/compliance__organizations__users__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users/list  
+**Updated:** 2026-07-02  
+
 ### csharp__beta
 **File:** `/platform-docs/csharp__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta  
 **Updated:** 2026-07-01  
+
+### csharp__beta__agents
+**File:** `/platform-docs/csharp__beta__agents.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__agents__archive
 **File:** `/platform-docs/csharp__beta__agents__archive.md`  
@@ -2688,6 +2708,16 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/update  
 **Updated:** 2026-07-01  
 
+### csharp__beta__agents__versions
+**File:** `/platform-docs/csharp__beta__agents__versions.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions  
+**Updated:** 2026-07-02  
+
+### csharp__beta__agents__versions__list
+**File:** `/platform-docs/csharp__beta__agents__versions__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__deployment_runs
 **File:** `/platform-docs/csharp__beta__deployment_runs.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs  
@@ -2698,10 +2728,20 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/list  
 **Updated:** 2026-06-09  
 
+### csharp__beta__deployment_runs__retrieve
+**File:** `/platform-docs/csharp__beta__deployment_runs__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/retrieve  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__deployments
 **File:** `/platform-docs/csharp__beta__deployments.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments  
 **Updated:** 2026-06-30  
+
+### csharp__beta__deployments__archive
+**File:** `/platform-docs/csharp__beta__deployments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__deployments__create
 **File:** `/platform-docs/csharp__beta__deployments__create.md`  
@@ -2713,15 +2753,40 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/list  
 **Updated:** 2026-06-30  
 
+### csharp__beta__deployments__pause
+**File:** `/platform-docs/csharp__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/pause  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__deployments__retrieve
 **File:** `/platform-docs/csharp__beta__deployments__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/retrieve  
 **Updated:** 2026-06-30  
 
+### csharp__beta__deployments__run
+**File:** `/platform-docs/csharp__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/run  
+**Updated:** 2026-07-02  
+
+### csharp__beta__deployments__unpause
+**File:** `/platform-docs/csharp__beta__deployments__unpause.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause  
+**Updated:** 2026-07-02  
+
+### csharp__beta__deployments__update
+**File:** `/platform-docs/csharp__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/update  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__environments
 **File:** `/platform-docs/csharp__beta__environments.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments  
 **Updated:** 2026-07-01  
+
+### csharp__beta__environments__archive
+**File:** `/platform-docs/csharp__beta__environments__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/archive  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__environments__create
 **File:** `/platform-docs/csharp__beta__environments__create.md`  
@@ -2748,10 +2813,20 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/update  
 **Updated:** 2026-06-09  
 
+### csharp__beta__environments__work
+**File:** `/platform-docs/csharp__beta__environments__work.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__environments__work__ack
 **File:** `/platform-docs/csharp__beta__environments__work__ack.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/ack  
 **Updated:** 2026-07-01  
+
+### csharp__beta__environments__work__heartbeat
+**File:** `/platform-docs/csharp__beta__environments__work__heartbeat.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/heartbeat  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__environments__work__list
 **File:** `/platform-docs/csharp__beta__environments__work__list.md`  
@@ -2762,6 +2837,11 @@ Total documents: 1602
 **File:** `/platform-docs/csharp__beta__environments__work__poll.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/poll  
 **Updated:** 2026-07-01  
+
+### csharp__beta__environments__work__retrieve
+**File:** `/platform-docs/csharp__beta__environments__work__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/retrieve  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__environments__work__stats
 **File:** `/platform-docs/csharp__beta__environments__work__stats.md`  
@@ -2868,10 +2948,20 @@ Total documents: 1602
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions  
 **Updated:** 2026-06-09  
 
+### csharp__beta__memory_stores__memory_versions__list
+**File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/list  
+**Updated:** 2026-07-02  
+
 ### csharp__beta__memory_stores__memory_versions__redact
 **File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__redact.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/redact  
 **Updated:** 2026-06-09  
+
+### csharp__beta__memory_stores__memory_versions__retrieve
+**File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve  
+**Updated:** 2026-07-02  
 
 ### csharp__beta__memory_stores__retrieve
 **File:** `/platform-docs/csharp__beta__memory_stores__retrieve.md`  

@@ -4460,6 +4460,16 @@
       "last_modified": null,
       "last_updated": "2026-06-26T21:29:00.070830"
     },
+    "compliance__groups__members__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/compliance/groups/members/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/compliance/groups/members/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/compliance/groups/members/list",
+      "hash": "30035895242a15b837e7e455df08d49659a5f04b63f7fcb8a75dfda77028106c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.252437"
+    },
     "compliance__groups__retrieve.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/groups/retrieve",
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/groups/retrieve.md",
@@ -4469,6 +4479,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-06-26T21:29:00.070928"
+    },
+    "compliance__organizations.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/compliance/organizations",
+      "original_md_url": "https://platform.claude.com/docs/en/api/compliance/organizations.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/compliance/organizations",
+      "hash": "f4a61344639db3d921da45b059ef973da218e64b5e35bf701268aa36b49c66ad",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.252658"
     },
     "compliance__organizations__list.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/organizations/list",
@@ -4495,10 +4515,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/organizations/roles/list.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/organizations/roles/list",
-      "hash": "4c0d8de3c6dd2edfa6509e62ad806f075eddca994afefb651b897458cc2d7100",
-      "etag": "W/\"63d-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
-      "last_updated": "2026-07-02T19:11:06.087313"
+      "hash": "ca42e91276c8e9dcb6457126ae8d420d5094f507b33af335f099f50d63b624d2",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.252975"
     },
     "compliance__organizations__roles__permissions.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions",
@@ -4515,10 +4535,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/organizations/roles/permissions/list",
-      "hash": "168b03136792c7bff4be6125f3c82d5beaaf9cd6c8fabef6951d0caddbd68a4c",
-      "etag": "W/\"670-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
-      "last_updated": "2026-07-02T19:11:06.087594"
+      "hash": "d62deb563b64301087091f9416631778c4288800037a658452587c6ccb9b52d3",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.253178"
     },
     "compliance__organizations__roles__retrieve.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve",
@@ -4560,6 +4580,16 @@
       "last_modified": null,
       "last_updated": "2026-06-26T21:29:00.071518"
     },
+    "compliance__organizations__users__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/compliance/organizations/users/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/compliance/organizations/users/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/compliance/organizations/users/list",
+      "hash": "a0532ad1748fd0f795972c72a26511c40264a5042cbdf2b265b70b5f49f78674",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.253688"
+    },
     "csharp__beta.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta.md",
@@ -4569,6 +4599,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-07-01T21:31:02.751040"
+    },
+    "csharp__beta__agents.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/agents",
+      "hash": "deb0374645abf0daaca48f8dc881778a73db47ea89e6c233e5357916f9d02cfc",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.258044"
     },
     "csharp__beta__agents__archive.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents/archive",
@@ -4620,6 +4660,26 @@
       "last_modified": null,
       "last_updated": "2026-07-01T21:31:02.756026"
     },
+    "csharp__beta__agents__versions.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents/versions",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents/versions.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/agents/versions",
+      "hash": "5c136630c543e5ab2c0fb329c482c4a2db76893a50db57d9779a37d6df7d1b38",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.258936"
+    },
+    "csharp__beta__agents__versions__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/agents/versions/list",
+      "hash": "649b7a4fe37f961046b9be1af913625d2216248dea5e5e7d1d14d5118cd73c2e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.259030"
+    },
     "csharp__beta__deployment_runs.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs.md",
@@ -4640,6 +4700,16 @@
       "last_modified": null,
       "last_updated": "2026-06-09T21:33:27.701547"
     },
+    "csharp__beta__deployment_runs__retrieve.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/retrieve",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/retrieve.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployment_runs/retrieve",
+      "hash": "be8b8ec219f0313f1b1bd5ef8b9fce2ddf931a6dd31685894e82c78372884f1f",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.259452"
+    },
     "csharp__beta__deployments.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments.md",
@@ -4649,6 +4719,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-06-30T18:37:16.544417"
+    },
+    "csharp__beta__deployments__archive.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployments/archive",
+      "hash": "795bae180f00ccc94063c317a19f5d9c58998c6f8fc7a0fcd1cabd362d01b605",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.259932"
     },
     "csharp__beta__deployments__create.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/create",
@@ -4670,6 +4750,16 @@
       "last_modified": null,
       "last_updated": "2026-06-30T18:37:16.545058"
     },
+    "csharp__beta__deployments__pause.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/pause",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/pause.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployments/pause",
+      "hash": "7766362784a94eef6518023de3902fb17a34a8a4ead19766344471e671424138",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.260276"
+    },
     "csharp__beta__deployments__retrieve.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/retrieve",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/retrieve.md",
@@ -4680,6 +4770,36 @@
       "last_modified": null,
       "last_updated": "2026-06-30T18:37:16.545316"
     },
+    "csharp__beta__deployments__run.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/run",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/run.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployments/run",
+      "hash": "c7a513aed360894167327338ee77d0c88363800f5d0c9287a379f144ad4e4e43",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.260558"
+    },
+    "csharp__beta__deployments__unpause.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployments/unpause",
+      "hash": "306e9c412b2c11d2af22b17ecb573aedde21700f64922e55dc185b476be4c5c9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.260646"
+    },
+    "csharp__beta__deployments__update.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/update",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/deployments/update.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/deployments/update",
+      "hash": "5358a776f0f1d9609c5f6722b77f79986c8c31932a3289a87250f7b1c31e039a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.260738"
+    },
     "csharp__beta__environments.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments.md",
@@ -4689,6 +4809,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-07-01T21:31:02.758387"
+    },
+    "csharp__beta__environments__archive.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/archive",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/archive.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/environments/archive",
+      "hash": "4d6387e3a87bc6aa64bc658e56d07dc75b3138402f7369bcce98fb6627a13fb1",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.261102"
     },
     "csharp__beta__environments__create.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/create",
@@ -4740,6 +4870,16 @@
       "last_modified": null,
       "last_updated": "2026-06-09T18:41:06.874399"
     },
+    "csharp__beta__environments__work.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/environments/work",
+      "hash": "0465fac7432fb463e6f94209fdb952f76fd2cb3e495ffe57d5a02764c7f4d26e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.261790"
+    },
     "csharp__beta__environments__work__ack.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/ack",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/ack.md",
@@ -4749,6 +4889,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-07-01T21:31:02.759586"
+    },
+    "csharp__beta__environments__work__heartbeat.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/heartbeat",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/heartbeat.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/environments/work/heartbeat",
+      "hash": "300305f2996308c53ebcbed644e4e6ce1a9980adb0d36af66d58ec2f376b287e",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.262065"
     },
     "csharp__beta__environments__work__list.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/list",
@@ -4769,6 +4919,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-07-01T21:31:02.760021"
+    },
+    "csharp__beta__environments__work__retrieve.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/retrieve",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/retrieve.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/environments/work/retrieve",
+      "hash": "ebd1676fd0d97670a12d1ba6ad3bba251bdbf05eff7c043779122eec3afacad7",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.262389"
     },
     "csharp__beta__environments__work__stats.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/environments/work/stats",
@@ -4980,6 +5140,16 @@
       "last_modified": null,
       "last_updated": "2026-06-09T18:41:06.877440"
     },
+    "csharp__beta__memory_stores__memory_versions__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/memory_stores/memory_versions/list",
+      "hash": "6663a875bec874934ff544a0e073d7dc437c88d461d8ed29fe17bee7502b72df",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.264994"
+    },
     "csharp__beta__memory_stores__memory_versions__redact.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/redact",
       "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/redact.md",
@@ -4989,6 +5159,16 @@
       "etag": null,
       "last_modified": null,
       "last_updated": "2026-06-09T18:41:06.877705"
+    },
+    "csharp__beta__memory_stores__memory_versions__retrieve.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve",
+      "original_md_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve",
+      "hash": "5f764400a3536dd0c56558ad97d98341680a15bc9a7d67fcf6458bf6d7195832",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-02T22:00:00.265205"
     },
     "csharp__beta__memory_stores__retrieve.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/retrieve",
@@ -16022,14 +16202,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-02T19:11:06.326835",
-    "fetch_duration_seconds": 75.626395,
+    "last_fetch_completed": "2026-07-02T22:00:00.496862",
+    "fetch_duration_seconds": 27.299547,
     "total_pages_discovered": 1877,
-    "pages_fetched_successfully": 1602,
-    "pages_failed": 275,
-    "pages_unchanged": 1582,
-    "pages_updated": 20,
-    "pages_new": 0,
+    "pages_fetched_successfully": 1620,
+    "pages_failed": 257,
+    "pages_unchanged": 1600,
+    "pages_updated": 2,
+    "pages_new": 18,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/cli/beta/tunnels",
@@ -16044,24 +16224,6 @@
       "/docs/en/api/cli/beta/tunnels/retrieve",
       "/docs/en/api/cli/beta/tunnels/reveal_token",
       "/docs/en/api/cli/beta/tunnels/rotate_token",
-      "/docs/en/api/compliance/groups/members/list",
-      "/docs/en/api/compliance/organizations",
-      "/docs/en/api/compliance/organizations/users/list",
-      "/docs/en/api/csharp/beta/agents",
-      "/docs/en/api/csharp/beta/agents/versions",
-      "/docs/en/api/csharp/beta/agents/versions/list",
-      "/docs/en/api/csharp/beta/deployment_runs/retrieve",
-      "/docs/en/api/csharp/beta/deployments/archive",
-      "/docs/en/api/csharp/beta/deployments/pause",
-      "/docs/en/api/csharp/beta/deployments/run",
-      "/docs/en/api/csharp/beta/deployments/unpause",
-      "/docs/en/api/csharp/beta/deployments/update",
-      "/docs/en/api/csharp/beta/environments/archive",
-      "/docs/en/api/csharp/beta/environments/work",
-      "/docs/en/api/csharp/beta/environments/work/heartbeat",
-      "/docs/en/api/csharp/beta/environments/work/retrieve",
-      "/docs/en/api/csharp/beta/memory_stores/memory_versions/list",
-      "/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve",
       "/docs/en/api/csharp/beta/tunnels",
       "/docs/en/api/csharp/beta/tunnels/archive",
       "/docs/en/api/csharp/beta/tunnels/certificates",
@@ -16310,7 +16472,7 @@
     ],
     "by_category": {
       "developer-guide": 137,
-      "api-reference": 1465,
+      "api-reference": 1483,
       "resources": 0
     },
     "source_sitemap": "https://platform.claude.com/sitemap.xml",
@@ -16321,5 +16483,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-02T19:11:06.327018"
+  "last_updated": "2026-07-02T22:00:00.497066"
 }

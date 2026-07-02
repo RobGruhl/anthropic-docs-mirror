@@ -57,7 +57,7 @@ To see previous versions of a prompt:
 2. Select "Share" from the dropdown menu.
 3. Change the access settings from "Shared" to "Private":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1783021500&signature=cf4fbf3b97c242040a429ac4d38f540c3d69f218837df4810c1c2a7e43dcb06c&req=dSQnH8F3lYBZX%2FMW1HO4zZMvtFTeRvdkH68akkuAPm2%2BUeZG1APy2mPmwh0%2B%0Ary%2B0LF73eHJgB5lj8Qs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1409898166/d7f3c0233ef3a3fa66701b558db7/AD_4nXcuZY7tln-InGzsyEmOZdRER_FWN9rQmcKalQqRTu6lSEyFSGBhGuvVPkLv7QHvsJCZsHz6-lTOX_tw77ribji4VlTsdG2dp-orGm6ST7IQ9aRnZvQMNvetkik0voTDZ1rHuFP5zA?expires=1783031400&signature=8757437bf767e76c883a2f2a0ac19aaa252b48ac2714a8968bfaf14ece71efa0&req=dSQnH8F3lYBZX%2FMW1HO4zZMvtFTeR%2FdlH68akkuAPm2GTdlTGD6OMIXxJhRA%0AvtGzZOaeQql8TcfTlTw%3D%0A)
 
 
 ---
@@ -67,5 +67,5 @@ To see previous versions of a prompt:
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
-- [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)

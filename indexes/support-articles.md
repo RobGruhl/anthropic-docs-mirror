@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-07-02 19:16*
+*Last updated: 2026-07-02 22:05*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -256,7 +256,7 @@ Total documents: 259
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -651,7 +651,7 @@ Total documents: 259
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
@@ -761,7 +761,7 @@ Total documents: 259
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
 **Source:** https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-02  
 
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
@@ -1156,7 +1156,7 @@ Total documents: 259
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
