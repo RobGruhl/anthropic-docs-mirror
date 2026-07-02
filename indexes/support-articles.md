@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-02 13:41*
+*Last updated: 2026-07-02 16:51*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -61,7 +61,7 @@ Total documents: 259
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -126,7 +126,7 @@ Total documents: 259
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -161,7 +161,7 @@ Total documents: 259
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -1261,7 +1261,7 @@ Total documents: 259
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
