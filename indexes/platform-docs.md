@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-02 16:51*
-Total documents: 1620
+*Last updated: 2026-07-02 19:16*
+Total documents: 1602
 ---
-## Uncategorized (1620 documents)
+## Uncategorized (1602 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -641,7 +641,7 @@ Total documents: 1620
 ### agents-and-tools__mcp-tunnels__overview
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### agents-and-tools__mcp-tunnels__quickstart
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__quickstart.md`  
@@ -691,7 +691,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
@@ -736,7 +736,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### agents-and-tools__tool-use__server-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__server-tools.md`  
@@ -786,12 +786,12 @@ Total documents: 1620
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
@@ -1506,7 +1506,7 @@ Total documents: 1620
 ### build-with-claude__adaptive-thinking
 **File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
@@ -1526,27 +1526,27 @@ Total documents: 1620
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1571,7 +1571,7 @@ Total documents: 1620
 ### build-with-claude__embeddings
 **File:** `/platform-docs/build-with-claude__embeddings.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/embeddings  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__extended-thinking
 **File:** `/platform-docs/build-with-claude__extended-thinking.md`  
@@ -1591,7 +1591,7 @@ Total documents: 1620
 ### build-with-claude__files
 **File:** `/platform-docs/build-with-claude__files.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/files  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__handling-stop-reasons
 **File:** `/platform-docs/build-with-claude__handling-stop-reasons.md`  
@@ -1616,7 +1616,7 @@ Total documents: 1620
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/overview  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
@@ -1661,7 +1661,7 @@ Total documents: 1620
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/token-counting  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-02  
 
 ### build-with-claude__vision-coordinates
 **File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
@@ -2608,19 +2608,9 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/compliance/groups/members  
 **Updated:** 2026-06-26  
 
-### compliance__groups__members__list
-**File:** `/platform-docs/compliance__groups__members__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/compliance/groups/members/list  
-**Updated:** 2026-06-26  
-
 ### compliance__groups__retrieve
 **File:** `/platform-docs/compliance__groups__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/groups/retrieve  
-**Updated:** 2026-06-26  
-
-### compliance__organizations
-**File:** `/platform-docs/compliance__organizations.md`  
-**Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
 **Updated:** 2026-06-26  
 
 ### compliance__organizations__list
@@ -2636,7 +2626,7 @@ Total documents: 1620
 ### compliance__organizations__roles__list
 **File:** `/platform-docs/compliance__organizations__roles__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-02  
 
 ### compliance__organizations__roles__permissions
 **File:** `/platform-docs/compliance__organizations__roles__permissions.md`  
@@ -2646,7 +2636,7 @@ Total documents: 1620
 ### compliance__organizations__roles__permissions__list
 **File:** `/platform-docs/compliance__organizations__roles__permissions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-02  
 
 ### compliance__organizations__roles__retrieve
 **File:** `/platform-docs/compliance__organizations__roles__retrieve.md`  
@@ -2668,19 +2658,9 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users  
 **Updated:** 2026-06-26  
 
-### compliance__organizations__users__list
-**File:** `/platform-docs/compliance__organizations__users__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users/list  
-**Updated:** 2026-06-26  
-
 ### csharp__beta
 **File:** `/platform-docs/csharp__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta  
-**Updated:** 2026-07-01  
-
-### csharp__beta__agents
-**File:** `/platform-docs/csharp__beta__agents.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents  
 **Updated:** 2026-07-01  
 
 ### csharp__beta__agents__archive
@@ -2708,16 +2688,6 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/update  
 **Updated:** 2026-07-01  
 
-### csharp__beta__agents__versions
-**File:** `/platform-docs/csharp__beta__agents__versions.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions  
-**Updated:** 2026-07-01  
-
-### csharp__beta__agents__versions__list
-**File:** `/platform-docs/csharp__beta__agents__versions__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list  
-**Updated:** 2026-07-01  
-
 ### csharp__beta__deployment_runs
 **File:** `/platform-docs/csharp__beta__deployment_runs.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs  
@@ -2728,19 +2698,9 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/list  
 **Updated:** 2026-06-09  
 
-### csharp__beta__deployment_runs__retrieve
-**File:** `/platform-docs/csharp__beta__deployment_runs__retrieve.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/retrieve  
-**Updated:** 2026-06-09  
-
 ### csharp__beta__deployments
 **File:** `/platform-docs/csharp__beta__deployments.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments  
-**Updated:** 2026-06-30  
-
-### csharp__beta__deployments__archive
-**File:** `/platform-docs/csharp__beta__deployments__archive.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive  
 **Updated:** 2026-06-30  
 
 ### csharp__beta__deployments__create
@@ -2753,40 +2713,15 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/list  
 **Updated:** 2026-06-30  
 
-### csharp__beta__deployments__pause
-**File:** `/platform-docs/csharp__beta__deployments__pause.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/pause  
-**Updated:** 2026-06-30  
-
 ### csharp__beta__deployments__retrieve
 **File:** `/platform-docs/csharp__beta__deployments__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/retrieve  
-**Updated:** 2026-06-30  
-
-### csharp__beta__deployments__run
-**File:** `/platform-docs/csharp__beta__deployments__run.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/run  
-**Updated:** 2026-06-30  
-
-### csharp__beta__deployments__unpause
-**File:** `/platform-docs/csharp__beta__deployments__unpause.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause  
-**Updated:** 2026-06-30  
-
-### csharp__beta__deployments__update
-**File:** `/platform-docs/csharp__beta__deployments__update.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/update  
 **Updated:** 2026-06-30  
 
 ### csharp__beta__environments
 **File:** `/platform-docs/csharp__beta__environments.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments  
 **Updated:** 2026-07-01  
-
-### csharp__beta__environments__archive
-**File:** `/platform-docs/csharp__beta__environments__archive.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/archive  
-**Updated:** 2026-06-09  
 
 ### csharp__beta__environments__create
 **File:** `/platform-docs/csharp__beta__environments__create.md`  
@@ -2813,20 +2748,10 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/update  
 **Updated:** 2026-06-09  
 
-### csharp__beta__environments__work
-**File:** `/platform-docs/csharp__beta__environments__work.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work  
-**Updated:** 2026-07-01  
-
 ### csharp__beta__environments__work__ack
 **File:** `/platform-docs/csharp__beta__environments__work__ack.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/ack  
 **Updated:** 2026-07-01  
-
-### csharp__beta__environments__work__heartbeat
-**File:** `/platform-docs/csharp__beta__environments__work__heartbeat.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/heartbeat  
-**Updated:** 2026-06-09  
 
 ### csharp__beta__environments__work__list
 **File:** `/platform-docs/csharp__beta__environments__work__list.md`  
@@ -2836,11 +2761,6 @@ Total documents: 1620
 ### csharp__beta__environments__work__poll
 **File:** `/platform-docs/csharp__beta__environments__work__poll.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/poll  
-**Updated:** 2026-07-01  
-
-### csharp__beta__environments__work__retrieve
-**File:** `/platform-docs/csharp__beta__environments__work__retrieve.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/retrieve  
 **Updated:** 2026-07-01  
 
 ### csharp__beta__environments__work__stats
@@ -2948,19 +2868,9 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions  
 **Updated:** 2026-06-09  
 
-### csharp__beta__memory_stores__memory_versions__list
-**File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/list  
-**Updated:** 2026-06-09  
-
 ### csharp__beta__memory_stores__memory_versions__redact
 **File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__redact.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/redact  
-**Updated:** 2026-06-09  
-
-### csharp__beta__memory_stores__memory_versions__retrieve
-**File:** `/platform-docs/csharp__beta__memory_stores__memory_versions__retrieve.md`  
-**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve  
 **Updated:** 2026-06-09  
 
 ### csharp__beta__memory_stores__retrieve
@@ -3391,7 +3301,7 @@ Total documents: 1620
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### go__beta
 **File:** `/platform-docs/go__beta.md`  
@@ -5091,7 +5001,7 @@ Total documents: 1620
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
@@ -5111,7 +5021,7 @@ Total documents: 1620
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-02  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
