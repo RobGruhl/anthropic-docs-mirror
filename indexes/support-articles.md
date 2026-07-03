@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-07-03 13:49*
-Total documents: 258
+*Last updated: 2026-07-03 16:25*
+Total documents: 259
 ---
-## Uncategorized (258 documents)
+## Uncategorized (259 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -1252,6 +1252,11 @@ Total documents: 258
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
 **Source:** https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices  
 **Updated:** 2026-05-19  
+
+### Where do I find Claude in Amazon Bedrock documentation?
+**File:** `/docs-support/where-do-i-find-claude-in-amazon-bedrock-documentation.md`  
+**Source:** https://support.claude.com/en/articles/10280783-where-do-i-find-claude-in-amazon-bedrock-documentation  
+**Updated:** 2026-07-03  
 
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
