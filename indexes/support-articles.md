@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-03 16:25*
+*Last updated: 2026-07-03 19:09*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -1126,7 +1126,7 @@ Total documents: 259
 ### View usage analytics for Team and Enterprise plans
 **File:** `/docs-support/usage-analytics-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-03  
 
 ### Visual and interactive content
 **File:** `/docs-support/visual-and-interactive-content.md`  
