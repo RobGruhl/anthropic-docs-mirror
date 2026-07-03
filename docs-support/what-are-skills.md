@@ -141,4 +141,4 @@ For more details about how skills work, see **[Agent Skills](https://platform.cl
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
-- [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
+- [Install financial services plugins](https://support.claude.com/en/articles/13851150-install-financial-services-plugins)
