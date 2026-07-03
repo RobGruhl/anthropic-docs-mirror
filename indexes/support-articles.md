@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-03 02:05*
+*Last updated: 2026-07-03 06:26*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -146,7 +146,7 @@ Total documents: 259
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-03  
 
 ### Choose a Claude plan
 **File:** `/docs-support/choosing-a-claude-plan.md`  
@@ -1261,7 +1261,7 @@ Total documents: 259
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-03  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
