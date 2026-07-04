@@ -9,7 +9,7 @@ As a Primary Owner or Owner of a Team or Enterprise plan, you can manage the abi
 1. Navigate to **[Organization settings > Data and Privacy](https://claude.ai/admin-settings/data-privacy-controls).**
 2. Use the toggle to change the **Rate chats **setting for your organization:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1783132200&signature=9798b886e5134891fed25cc54777fe06a4f23ac7bba265290594c3516e14e608&req=diAiHst3n4dfWvMW1HO4zYGm8iQdE6rO085gFtEpvcRSvRtxk6ewWwp7PQYg%0AUsxZtvk5C5XVlRFAS5M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1783147500&signature=8c668f5929195d000a1d25a6a094d1c7a6297ecd64899bfd9200291208a0ee74&req=diAiHst3n4dfWvMW1HO4zYGm8iQdFK%2FJ085gFtEpvcQzM5LFIqMnBSltO322%0A7%2BcZ%2BUY9DeOiWmWhuxA%3D%0A)
 
  
 
