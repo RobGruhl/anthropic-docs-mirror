@@ -10,7 +10,7 @@
 2. Navigate to [Settings > Appearance](https://claude.ai/settings/appearance).
 3. Select from Light, Match System, and Dark under **Color mode**.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1783193400&signature=409547bd68f9b85d0ac2bfb2084d1da4db13dfcc5548d49118e9a10373ff8a73&req=dSYjHst4nYVeXvMW1HO4zc2jJ6E8iYjgSBkgeTglJroIv2AjdR5%2BqG386MbA%0AomYhIEXgQfid6YC5x%2Fo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260417/d478c757c7115ad58a12026d4caf/AD_4nXc__Qop4X9hknWGfGj_y_DCpLutLruhxIclJIfir0ilsgNMg7X8ksIVnqk1Oce5FKlGIOYu9CKbVsu8DqD7iIY2aC0ZfXMyFTeAdNq-Cao2mXcj_WUpNF0kM2HoYR_dEx6N_cuJow?expires=1783203300&signature=f9cfcb975236a16b529963ca21c091e0453ca7388617d3fa4877759746f15d5c&req=dSYjHst4nYVeXvMW1HO4zc2jJ6E%2FgIjnSBkgeTglJroUbtmkAp7xhSIF7uvG%0Avxw83v1zZb4Li5ZmXMo%3D%0A)
 
  
 
@@ -19,7 +19,7 @@
 1. In [Settings > Appearance](https://claude.ai/settings/appearance), find **Chat font**.
 2. Select from Default, Match System, and Dyslexic Friendly.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1783193400&signature=4bd3fae7019dc99e4fcb1c2fb285bcab049079a5d978becd25fb33f81f31beba&req=dSYjHst4nYVeX%2FMW1HO4zc8962PkVHI4QtNFlF5%2FHEd293mzDcoyhOHRmcf6%0AJT5x15KXR16x3pc6DhU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1648260416/7fc0803d44d8de40f8e6636b2eb6/AD_4nXf0UEDa1i2QmqlQtoB5BgpQ-FfZVzss_7wMVQdvkmEDSfoTxixnG0GSxC6qrOs21HdkXH-I2Yn_GHDAf8yjd6FJtoh9FadALozvIErFp9r8LychDGLPb7OpN1CN4PRcgVAYNCre?expires=1783203300&signature=da923b4ebfbe2f1283aa0f17f445fcfa0473138036b826787c67799ea882a34a&req=dSYjHst4nYVeX%2FMW1HO4zc8962PnXXI%2FQtNFlF5%2FHEezrtBcyK691O%2BAIzNz%0A6FFheR25Nt44KRngAQY%3D%0A)
 
  
 
@@ -29,7 +29,7 @@ It's not currently possible to completely disable the sidebar. You can click the
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1783193400&signature=78dd53da4876fa6c89d41b830ca19238a4d42afbadea09f19beafb694c1f86b1&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB1z3UHjrylfYa7uDb9kQvT9Nz4bO82xnciLG%0AbF1jBOV7NoweemZxoHo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1783203300&signature=f65bfa9e38895945718ce442d4a88af9c31d78d7e7f607d089518419025b0e05&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB1z0WXjsylfYa7uDb9kMo5eML%2BfiHy7vqkyh%0AA1CwtUD0RfXVPD7DSW4%3D%0A)
 
  
 
