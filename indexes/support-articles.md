@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-06 17:44*
+*Last updated: 2026-07-06 19:48*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -416,7 +416,7 @@ Total documents: 259
 ### How can I cancel my Claude Pro subscription on Claude for Android?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### How can I cancel my Claude Pro subscription on the Claude app for iOS?
 **File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
@@ -1156,7 +1156,7 @@ Total documents: 259
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-03  
+**Updated:** 2026-07-06  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  

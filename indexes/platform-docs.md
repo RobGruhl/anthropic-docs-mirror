@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-06 17:44*
+*Last updated: 2026-07-06 19:48*
 Total documents: 1620
 ---
 ## Uncategorized (1620 documents)
@@ -676,7 +676,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-06  
 
 ### agents-and-tools__tool-use__build-a-tool-using-agent
 **File:** `/platform-docs/agents-and-tools__tool-use__build-a-tool-using-agent.md`  
@@ -686,7 +686,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
@@ -1521,7 +1521,7 @@ Total documents: 1620
 ### build-with-claude__citations
 **File:** `/platform-docs/build-with-claude__citations.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/citations  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
@@ -1591,7 +1591,7 @@ Total documents: 1620
 ### build-with-claude__files
 **File:** `/platform-docs/build-with-claude__files.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/files  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__handling-stop-reasons
 **File:** `/platform-docs/build-with-claude__handling-stop-reasons.md`  
@@ -1616,17 +1616,17 @@ Total documents: 1620
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/overview  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/pdf-support  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
@@ -1656,7 +1656,7 @@ Total documents: 1620
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/task-budgets  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
@@ -1666,7 +1666,7 @@ Total documents: 1620
 ### build-with-claude__vision-coordinates
 **File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision-coordinates  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-06  
 
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
@@ -5016,7 +5016,7 @@ Total documents: 1620
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workspaces  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
@@ -5121,7 +5121,7 @@ Total documents: 1620
 ### managed-agents__sessions
 **File:** `/platform-docs/managed-agents__sessions.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/sessions  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-06  
 
 ### managed-agents__skills
 **File:** `/platform-docs/managed-agents__skills.md`  
