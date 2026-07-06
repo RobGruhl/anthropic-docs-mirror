@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-06 19:48*
+*Last updated: 2026-07-06 22:11*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -196,12 +196,12 @@ Total documents: 259
 ### Claude in Chrome Troubleshooting
 **File:** `/docs-support/claude-in-chrome-troubleshooting.md`  
 **Source:** https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting  
-**Updated:** 2026-06-15  
+**Updated:** 2026-07-06  
 
 ### Claude in Chrome admin controls
 **File:** `/docs-support/claude-in-chrome-admin-controls.md`  
 **Source:** https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-06  
 
 ### Claude is producing links that don’t work and falsely claiming that it has sent emails or produced external documents. What’s going on?
 **File:** `/docs-support/claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on.md`  
@@ -211,12 +211,12 @@ Total documents: 259
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-06-25  
+**Updated:** 2026-07-06  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
 **Source:** https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief  
-**Updated:** 2026-05-21  
+**Updated:** 2026-07-06  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -626,7 +626,7 @@ Total documents: 259
 ### I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 **File:** `/docs-support/i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md`  
 **Source:** https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-06  
 
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
@@ -796,7 +796,7 @@ Total documents: 259
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-07-05  
+**Updated:** 2026-07-06  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -946,7 +946,7 @@ Total documents: 259
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-06  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -1002,6 +1002,11 @@ Total documents: 259
 **File:** `/docs-support/use-claude-in-powerpoint.md`  
 **Source:** https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint  
 **Updated:** 2026-05-27  
+
+### Use Claude in Chrome safely
+**File:** `/docs-support/using-claude-in-chrome-safely.md`  
+**Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
+**Updated:** 2026-07-06  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1102,11 +1107,6 @@ Total documents: 259
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
 **Source:** https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios  
 **Updated:** 2026-05-21  
-
-### Using Claude in Chrome safely
-**File:** `/docs-support/using-claude-in-chrome-safely.md`  
-**Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-05-17  
 
 ### Using dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  

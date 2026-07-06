@@ -1,6 +1,6 @@
-# Using Claude in Chrome safely
+# Use Claude in Chrome safely
 
-*Updated over 2 weeks ago*
+*Updated in the last hour*
 
 ---
 

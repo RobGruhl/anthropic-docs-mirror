@@ -33,7 +33,7 @@ Start a task in Claude Desktop and let it handle work in the browser without swi
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1783368900&signature=def95bf52c847d174252b48fc568650a02279701a779f97b395d4d8719eafbeb&req=dSguFM93m4RfW%2FMW1HO4zdOezIhf7rtwhnw73Y7ib%2BdovCdwjUQ4u8%2BqogwV%0A4ShWtl1gj7WQUq4Qr98%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1783377900&signature=ac025a027a576814249d4197838b67160bd842fd2b6ddbfd592f5141e0a3c4b0&req=dSguFM93m4RfW%2FMW1HO4zdOezIhf77Rwhnw73Y7ib%2BdTBSwWHdY4s9XT3thO%0A92suxgmnS8Lbmwf%2BUg4%3D%0A)
 
  
 
@@ -217,7 +217,7 @@ If you're unable to install or use the extension, contact your organization's ad
 ## Related Articles
 
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
-- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

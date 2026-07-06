@@ -15,8 +15,8 @@ Removing a member from your Team plan ends their access immediately. If the remo
 
 ## Related Articles
 
-- [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [Get started with the Team plan](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan)
 - [How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)
+- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

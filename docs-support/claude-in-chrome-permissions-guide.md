@@ -15,7 +15,7 @@ Claude in Chrome uses a multi-layered permission system to give you control over
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1783368900&signature=37ff1a8d3f50cd916b11156d1562322971b2e36d25550ad79df320c9c768cecf&req=dSgjFcp8n4FeUfMW1HO4zQ5tySQP83C%2BhD0gAzkS2hxQ6nqwYX2CLl8EQLEa%0ATof7gVXwGMOZ0MQAYWQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1783377900&signature=362cb34a793af0d1685bbf4ad974340e67264138c3fe6ed704f2453d9a1a2059&req=dSgjFcp8n4FeUfMW1HO4zQ5tySQP8n%2B%2BhD0gAzkS2hwETHTE%2BBcnIP10pU1A%0A2k6dD9wwtORtEvLbbtY%3D%0A)
 
 ---
 
@@ -27,7 +27,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1783368900&signature=a0141ebb6998e8cc66db26b8322b1327393ecdc9b110a0f3214033646c280af5&req=dSgjFcp8nYZdXvMW1HO4zYqyZcFO%2Boq%2BgN0ADj5oqFAQVuLkf%2BFO8tIRQzmd%0AmW5lS4JSeqqfVobrQZI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1783377900&signature=48d0fc1a3a03bf26643deccd53c7455f5648fefa2b61f91d8024a1265ced124f&req=dSgjFcp8nYZdXvMW1HO4zYqyZcFO%2B4W%2BgN0ADj5oqFA18hLC8Xtm0Ga4VNaH%0AmGg10eknHbbBijsvjK0%3D%0A)
 
  
 
@@ -71,7 +71,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1783368900&signature=16bc1ef801d4c74ab780d5d400698c1c490a8b125df59b351da233f3b0c73f16&req=dSgjEct8n4lYXPMW1HO4zeoCY8UopXx2JCxYSFHKWIhgYfr9KsQ8tl4YuMJE%0AOQhX%2BuCfR8tKKKnTX%2BQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1783377900&signature=4553070c0967a50bf8ead14ae52662b96b56c5cb63620dead1824516799dd426&req=dSgjEct8n4lYXPMW1HO4zeoCY8UopHN2JCxYSFHKWIijhQgYwMiBfxA9T6ZW%0A2U2zRPWZVScZwXeU15g%3D%0A)
 
  
 
@@ -168,6 +168,6 @@ To protect you, Claude is prohibited from taking following actions regardless of
 
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
-- [Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely)
+- [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
