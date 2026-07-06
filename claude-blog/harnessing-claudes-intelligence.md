@@ -1,9 +1,9 @@
-# Harnessing Claude’s intelligence
+# Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
 *April 2, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-# Harnessing Claude’s intelligence
+# Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
 
 Building applications that balance intelligence, latency, and cost.
 
@@ -19,11 +19,13 @@ Building applications that balance intelligence, latency, and cost.
 
 One of Anthropic’s co-founders, Chris Olah,[says](https://www.darioamodei.com/post/the-urgency-of-interpretability)that generative AI systems like Claude are grown more than they are built. Researchers set the conditions to direct growth, but the exact structure or capabilities that emerge aren’t always predictable.
 
-This creates a challenge for building with Claude:[agent harnesses encode assumptions](https://www.anthropic.com/engineering/harness-design-long-running-apps)about what Claude can’t do on its own, but those assumptions grow stale as Claude gets more capable. Even lessons shared in articles like this deserve frequent revisiting.
+This creates a challenge for building with Claude:[agent harnesses encode assumptions](https://www.anthropic.com/engineering/harness-design-long-running-apps)about what Claude can’t do on its own, but those assumptions grow stale as Claude gets more capable.
+
+An agent harness is the software scaffolding around a model: the loop, tools, context management, and guardrails that turn raw intelligence into a working agent.[Agent harness design](https://claude.com/blog/harnessing-claudes-intelligence)is the practice of deciding what belongs in that scaffolding and, as models improve, what you can take out.
 
 In this article, we share three patterns that teams should use when building applications that keep pace with Claude’s evolving intelligence while balancing latency and cost: use what it already knows, ask what you can stop doing, and carefully set boundaries with the agent harness.
 
-### 1. Use what Claude knows
+### 1. Lean on the model, not the harness: use what Claude knows
 
 We suggest building applications using tools that Claude understands well.
 
@@ -35,7 +37,7 @@ We've seen Claude compose these general tools into patterns that solve different
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69cd8835161641fba4aa1def_image4.png)
 
-### 2. Ask ‘what can I stop doing?’
+### 2. Strip your agent harness down: ask what you can stop doing
 
 [Agent harnesses encode assumptions](https://www.anthropic.com/engineering/harness-design-long-running-apps)about what Claude can’t do on its own. As Claude gets more capable, those assumptions should be tested.
 
@@ -99,7 +101,7 @@ Later models wrote tactical notes. Opus 4.6, at the same step count, had 10 file
 - B1F y=16 wall CONFIRMED SOLID at ALL x=9-28 (step 14557)
 ```
 
-### 3. Set boundaries carefully
+### 3. Set boundaries carefully in your harness design
 
 Agent harnesses provide structure around Claude to enforce UX, cost, or security.
 
@@ -125,7 +127,7 @@ Finally, tools are useful for observability. When the action is a typed tool, th
 
 The decision to promote actions to tools should be continually re-evaluated. For example, Claude Code's[auto-mode](https://www.anthropic.com/engineering/claude-code-auto-mode)(in research mode at the time of publication) provides a security boundary around the bash tool: it has a second Claude read the command string and judge whether it's safe. This pattern canlimitthe need for dedicated tools, and should only be used for tasks where users trust the general direction. Dedicated tools can still earn their place for certain high-stakes actions.
 
-### Looking forward
+### The future of agent harness design
 
 The frontier of Claude’s intelligence is always changing. Assumptions about what Claude can’t do need to be re-tested with each step change in its capability.
 
@@ -151,6 +153,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Building agents with the Claude Agent SDK
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
 ### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
@@ -162,10 +168,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
 ### Building AI agents for financial services
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)
-
-### Building AI agents for healthcare and life sciences
 
 ## Transform how your organization operates with Claude
 

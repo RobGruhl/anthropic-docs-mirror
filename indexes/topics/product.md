@@ -1,10 +1,9 @@
 # Product Topic Index
-*Last updated: 2026-07-06 12:42*
+*Last updated: 2026-07-06 17:44*
 
-Documents related to Product across all sources (15 documents)
+Documents related to Product across all sources (14 documents)
 ---
-## Claude.com Blog Posts (15)
-- [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
+## Claude.com Blog Posts (14)
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn
 - [Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock](/claude-blog/trainium2-and-distillation.md) - ![](https://cdn
