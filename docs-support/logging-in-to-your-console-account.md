@@ -8,7 +8,7 @@ When you navigate to the [Claude Console](https://platform.claude.com), you will
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1783305900&signature=637084a31cfe876bdd3daa3fd9a8243af6fc6c85975db31356c8d110aa52546f&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54rvoIUE8vUNcPt4%2B737B3lDTfCsZN2d2x6%2F%0A%2FCveV%2FLrME38W%2FvFwac%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1783323000&signature=01b2a10e5d6f6eed5ea012e4ad0857ee2af013d70f44a44a5d469794b1b1fcbf&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54rvooMN8vUNcPt4%2B71C%2BB6zYHc7SvnR5sFw%0A1RHWJbVrAUk%2Bvgmq8cE%3D%0A)
 
  
 
