@@ -1,10 +1,24 @@
 # Release notes
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
 ## July 2026
+
+### July 7, 2026
+
+**Claude Cowork on web and mobile**
+
+Claude Cowork is now available on web and mobile in addition to desktop. We are rolling this capability out over the next several weeks starting with the Max plan, with more plans to follow. Cowork runs your sessions remotely (in beta), so your sessions and files are saved to your Claude account and go where you go, on any device. Work continues when you close your laptop, and scheduled tasks run with no device online. Chat and Cowork also share one home now, with one place for your projects and artifacts across both. For more information, see **[Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349)**.
+
+ 
+
+**Write tools for the Microsoft 365 connector**
+
+The Microsoft 365 connector now goes beyond search. With write tools enabled, Claude can draft, send, and organize email, manage calendar events, update mailbox settings, and create and update files in OneDrive and SharePoint. Read and search tools work as before, and Teams remains read-only. Before members can use write tools, a Microsoft Entra administrator needs to consent to the updated permission set and an admin needs to enable them for the organization. For more information, see **[Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_a51d877afd)** and **[Connect to Microsoft 365](https://support.claude.com/en/articles/15183774)**.
+
+ 
 
 ### July 1, 2026
 

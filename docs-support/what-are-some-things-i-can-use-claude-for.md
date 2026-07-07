@@ -19,8 +19,8 @@ You can use Claude to:
 
 ## Related Articles
 
-- [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
 - [Using dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile)
 - [How to use Claude in your preferred language](https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
+- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)

@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-07 19:55*
+*Last updated: 2026-07-07 22:10*
 Total documents: 1620
 ---
 ## Uncategorized (1620 documents)
@@ -606,12 +606,12 @@ Total documents: 1620
 ### agents-and-tools__agent-skills__overview
 **File:** `/platform-docs/agents-and-tools__agent-skills__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
@@ -631,12 +631,12 @@ Total documents: 1620
 ### agents-and-tools__mcp-tunnels__deploy-compose
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-compose.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-compose  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__mcp-tunnels__deploy-helm
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-helm.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-helm  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__mcp-tunnels__overview
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__overview.md`  
@@ -646,7 +646,7 @@ Total documents: 1620
 ### agents-and-tools__mcp-tunnels__quickstart
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/quickstart  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__mcp-tunnels__reference
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__reference.md`  
@@ -671,7 +671,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -756,7 +756,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__tool-combinations
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-combinations.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### agents-and-tools__tool-use__tool-reference
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-reference.md`  
@@ -1531,7 +1531,7 @@ Total documents: 1620
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-07  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
@@ -1546,7 +1546,7 @@ Total documents: 1620
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-07  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1651,7 +1651,7 @@ Total documents: 1620
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
@@ -2416,22 +2416,22 @@ Total documents: 1620
 ### compliance
 **File:** `/platform-docs/compliance.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__activities__list
 **File:** `/platform-docs/compliance__activities__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps
 **File:** `/platform-docs/compliance__apps.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps__artifacts
 **File:** `/platform-docs/compliance__apps__artifacts.md`  
@@ -2451,7 +2451,7 @@ Total documents: 1620
 ### compliance__apps__chats
 **File:** `/platform-docs/compliance__apps__chats.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps__chats__delete
 **File:** `/platform-docs/compliance__apps__chats__delete.md`  
@@ -2496,17 +2496,17 @@ Total documents: 1620
 ### compliance__apps__chats__list
 **File:** `/platform-docs/compliance__apps__chats__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps__chats__messages
 **File:** `/platform-docs/compliance__apps__chats__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/messages  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps__chats__messages__list
 **File:** `/platform-docs/compliance__apps__chats__messages__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/messages/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__apps__projects
 **File:** `/platform-docs/compliance__apps__projects.md`  
@@ -2571,27 +2571,27 @@ Total documents: 1620
 ### compliance__code
 **File:** `/platform-docs/compliance__code.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__code__artifacts
 **File:** `/platform-docs/compliance__code__artifacts.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__code__artifacts__delete
 **File:** `/platform-docs/compliance__code__artifacts__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-07  
 
 ### compliance__code__artifacts__list
 **File:** `/platform-docs/compliance__code__artifacts__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/list  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__code__artifacts__retrieve_version
 **File:** `/platform-docs/compliance__code__artifacts__retrieve_version.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-07  
 
 ### compliance__groups
 **File:** `/platform-docs/compliance__groups.md`  
@@ -2621,7 +2621,7 @@ Total documents: 1620
 ### compliance__organizations
 **File:** `/platform-docs/compliance__organizations.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-07  
 
 ### compliance__organizations__list
 **File:** `/platform-docs/compliance__organizations__list.md`  
@@ -2656,12 +2656,12 @@ Total documents: 1620
 ### compliance__organizations__settings
 **File:** `/platform-docs/compliance__organizations__settings.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__organizations__settings__retrieve
 **File:** `/platform-docs/compliance__organizations__settings__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-07  
 
 ### compliance__organizations__users
 **File:** `/platform-docs/compliance__organizations__users.md`  
@@ -4856,22 +4856,22 @@ Total documents: 1620
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api-keys  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__analytics-api
 **File:** `/platform-docs/manage-claude__analytics-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/analytics-api  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-07  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
@@ -4906,42 +4906,42 @@ Total documents: 1620
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-content-data
 **File:** `/platform-docs/manage-claude__compliance-content-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-content-data  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-errors
 **File:** `/platform-docs/manage-claude__compliance-errors.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-errors  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-faq
 **File:** `/platform-docs/manage-claude__compliance-faq.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-faq  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-integration-patterns
 **File:** `/platform-docs/manage-claude__compliance-integration-patterns.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### manage-claude__compliance-org-data
 **File:** `/platform-docs/manage-claude__compliance-org-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-org-data  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-07  
 
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
@@ -5111,7 +5111,7 @@ Total documents: 1620
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-07  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
@@ -7376,7 +7376,7 @@ Total documents: 1620
 ### test-and-evaluate__strengthen-guardrails__handle-streaming-refusals
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__handle-streaming-refusals.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-07  
 
 ### typescript__beta
 **File:** `/platform-docs/typescript__beta.md`  
