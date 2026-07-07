@@ -1,6 +1,6 @@
 # Paid Plan Billing FAQs
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -49,7 +49,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1783446300&signature=d53c434ada9eca01e317c6825678d3444fc5b0f412d8c04f6a2312c912610929&req=dSklFMh6nIZXXPMW1HO4zVXW8G6vbzXPQoNvNFTb5ceYjvGqxwoHbXAEWU1V%0A%2BGH2BYj9o9Yh1yQqZFA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1783456200&signature=173b288a263e0f1cae56da44fdaa5d559227705fac8a3b52a1a88b7a4e6929bb&req=dSklFMh6nIZXXPMW1HO4zVXW8G6vbjXOQoNvNFTb5ccmyeVrdGSE7QGMlcL9%0AvsVB18ihNCBToo4Bdj8%3D%0A)
 
  
 

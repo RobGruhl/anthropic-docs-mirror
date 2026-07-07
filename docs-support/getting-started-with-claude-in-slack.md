@@ -20,7 +20,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1783446300&signature=dd126c80242491f5a9cdfce5b720dd273ddfe97545bb8a210a9ef7f1ac64d3bb&req=dSciE8h6noZYXPMW1HO4zb2WCgYHEoJ05mlLMjhGEMGXZAPYUU7JKOOIzbzH%0A5i%2F%2FTBmgX3CV6AQg9vM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1783456200&signature=be19afb262c9dd253560280860dfcbf3b33aceda96bcd195ad57a11416cc97e4&req=dSciE8h6noZYXPMW1HO4zb2WCgYHE4J15mlLMjhGEMHKgorpwGVQWLMzhoVN%0A4plDgMCYKBMmGsGVloY%3D%0A)
 
  
 
@@ -28,11 +28,11 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1783446300&signature=f45ca711c488c8ce6bef2a4e0c8b77a290cff40ec566d6abca5f91b426bee499&req=dSciE8h6mYZdWfMW1HO4zUifzTLdE6WnPUSeDntyEuW6y8OWJjqkZVNrHpYY%0AymHCPIy5WFLx1%2B9gTEw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1783456200&signature=6d644557680437301e8b513f843a1fa5d0a1c551777e3c4c9e42086132a27c08&req=dSciE8h6mYZdWfMW1HO4zUifzTLdEqWmPUSeDntyEuVTUJpE7IaemqE0jKK1%0AFFsjiuLjWIHTTFrkBqA%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1783446300&signature=b98da350652d9edbd678c4f66d036986046b66589db90718525c786d57188d34&req=dSciE8h6mIRaX%2FMW1HO4zXrVUtt49InABGejWRiWDiKctnOcCm3xZmU8WrPk%0Ar9lOvQxy4SkBiSW4vuU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1783456200&signature=4821b915d50f52ed2df24ef8eca4070164c0084aec22b08c419206dfa6c3d848&req=dSciE8h6mIRaX%2FMW1HO4zXrVUtt49YnBBGejWRiWDiKtOgX8zjCfQV3snYBv%0AF5zlOYUtb3obsvwSbic%3D%0A)
 
  
 
@@ -40,7 +40,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1783446300&signature=61cfefbcb5838178a6bf621120ecbcdea895f52436aace6f6f024d46b9504f5c&req=diMuHsB7lYNfXfMW1HO4zdOLiZgpKO2rZVaRIDJSo4Id4z77byFL4E9z01vT%0AOEikvqU3jZUA5im3UUQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1783456200&signature=ca47953d4bb3ce53e17a05eeb785ce6faec7da8c35cbc46858bce0ae70e7965e&req=diMuHsB7lYNfXfMW1HO4zdOLiZgpKe2qZVaRIDJSo4KlHEaDi817ywQf0Zr2%0AgQfRft4nE0VZF4Z6ir8%3D%0A)
 
   
 
@@ -143,7 +143,7 @@ To disconnect your Claude account from Slack:
 2. Under **Disconnect Claude Account**, click the red "Disconnect" button.
 3. Confirm the disconnection.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1783446300&signature=2be7fa434b09efb20be152193a8f1f36397755d34f3c905fee1669c22b2dc6b9&req=dSciE8h6lIZbXfMW1HO4zdIAvZZPareTQgg7UiXQlE3sogX8qeqq%2B7%2BYmK86%0Au6fFnlOHdTZLpjR6%2FHE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1783456200&signature=c94511dcdc4ab6dcf435f86cd751aabf3cdc9a3f76ec8c6d8a993b768b829d70&req=dSciE8h6lIZbXfMW1HO4zdIAvZZPa7eSQgg7UiXQlE3UnltboCwtln8QqT2N%0AoeZsmr61K2s8wgy1atY%3D%0A)
 
  
 
@@ -203,7 +203,7 @@ If you are using a company Slack instance and are not assigned to an Admin role,
 ## Related Articles
 
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
-- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [How Claude suggests connected apps](https://support.claude.com/en/articles/14730684-how-claude-suggests-connected-apps)
 - [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)

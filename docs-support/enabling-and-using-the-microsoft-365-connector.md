@@ -1,14 +1,14 @@
 # Set up the Microsoft 365 connector
 
-*Updated over a week ago*
+*Updated in the last hour*
 
 ---
 
-This article walks admins through enabling the Microsoft 365 connector for their organization in Claude—including granting Microsoft Entra consent, restricting access, and managing permissions. Once setup is complete, people in your tenant can connect Microsoft 365 to their own Claude accounts and search across SharePoint, OneDrive, Outlook, and Teams from Claude.
+This article walks admins through enabling the Microsoft 365 connector for their organization in Claude—including granting Microsoft Entra consent, restricting access, and managing permissions. Once setup is complete, people in your tenant can connect Microsoft 365 to their own Claude accounts to search across SharePoint, OneDrive, Outlook, and Teams from Claude. You can also enable write tools, which let Claude send email, manage calendar events, and create and update files on a member's behalf.
 
 For end-user instructions on connecting and using Microsoft 365 once setup is complete, see **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/15183774-)**.
 
-## 
+ 
 
 ---
 
@@ -16,12 +16,13 @@ For end-user instructions on connecting and using Microsoft 365 once setup is co
 
 ## Setup overview
 
-Two things need to happen before anyone in your organization can connect Microsoft 365:
+Two things need to happen before anyone in your organization can connect Microsoft 365, plus an optional third step if you want to enable write tools:
 
 1. **On Team and Enterprise plans:** A Claude organization owner enables the Microsoft 365 connector for the organization.
 2. **In every tenant:** A Microsoft Entra Global Administrator grants a one-time consent that authorizes the integration for your tenant.
+3. **To enable write tools:** A Microsoft Entra administrator consents to the updated permission set, and you enable write tools for your organization. See **[Enable write tools](#h_a51d877afd)** below.
 
-Once both are done, members can connect Microsoft 365 to their own Claude accounts following the steps in **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/15183774-)**.
+After completing these steps, members can connect Microsoft 365 to their own Claude accounts following the steps in **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/15183774-)**.
 
  
 
@@ -151,7 +152,35 @@ Members can also individually turn off specific tools in their own Microsoft 365
 
 To restore a revoked permission, follow the steps to grant admin consent described in **Option 2: Manual setup in Microsoft Entra ID**. This will revert the permissions to the default state.
 
-## 
+ 
+
+---
+
+ 
+
+## Enable write tools
+
+Write tools let Claude send email, manage drafts and calendar events, update mailbox settings, and create and update files in OneDrive and SharePoint. Read and search tools work the same whether or not write tools are enabled.
+
+ 
+
+**1. Re-consent to the updated permissions**
+
+The connector's permission set now includes additional Microsoft Graph scopes to support write tools. If your tenant consented before write tools launched, a Microsoft Entra Global Administrator needs to review and approve the updated permission set before write tools activate. Review and approve the updated permissions for the connector in your tenant's **Enterprise Applications** consent flow. This is a one-time action per tenant.
+
+ 
+
+**2. Enable write tools for your organization**
+
+If your organization was using the connector before write tools launched, they will be blocked by default. Enable them for everyone by going to **[Organization settings > Connectors](https://claude.ai/admin-settings/connectors)**, finding “Microsoft 365,” and setting the appropriate permissions. Enterprise plans can enable them for a subset of users through **[custom roles](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans#h_979e558d00)**.
+
+ 
+
+**3. Verify**
+
+Once enabled, ask Claude to perform a low-risk write action, such as "Draft an email to myself, but don't send it," to confirm write tools are active.
+
+ 
 
 ---
 
@@ -174,7 +203,6 @@ During authentication, the integration requests the following permissions:
 - <code>offline_access</code>: Maintain access to data
 - <code>email</code>: View email address
 - <code>profile</code>: View basic profile information
--  
 
 **Email (Outlook)**
 
@@ -183,6 +211,7 @@ During authentication, the integration requests the following permissions:
 - <code>Mail.Read.Shared</code>: Read emails in mailboxes the user has access to
 - <code>MailboxFolder.Read</code>: Read mailbox folder structure
 - <code>MailboxItem.Read</code>: Read items in mailbox
+- <code>MailboxSettings.Read</code>: Read mailbox settings, like the user's timezone
 
  
 
@@ -190,7 +219,6 @@ During authentication, the integration requests the following permissions:
 
 - <code>Calendars.Read</code>: Read calendar events
 - <code>Calendars.Read.Shared</code>: Read calendars shared with the user
--  
 
 **Teams chat**
 
@@ -198,13 +226,11 @@ During authentication, the integration requests the following permissions:
 - <code>Chat.ReadBasic</code>: Read Teams chat metadata
 - <code>ChatMember.Read</code>: Read information about chat participants
 - <code>ChatMessage.Read</code>: Read Teams chat messages
--  
 
 **Teams channels**
 
 - <code>Channel.ReadBasic.All</code>: Read channel names and descriptions
 - <code>ChannelMessage.Read.All</code>: Read channel messages
--  
 
 **Meetings**
 
@@ -213,14 +239,22 @@ During authentication, the integration requests the following permissions:
 - <code>OnlineMeetingAiInsight.Read</code>: Read AI-generated meeting insights
 - <code>OnlineMeetingArtifact.Read.All</code>: Read meeting recordings and artifacts
 - <code>OnlineMeetingRecording.Read.All</code>: Read meeting recordings
--  
 
 **Files (OneDrive and SharePoint)**
 
 - <code>Files.Read</code>: Read user files
 - <code>Files.Read.All</code>: Read all files the user can access
 - <code>Sites.Read.All</code>: Read items in SharePoint sites
--  
+
+**Write permissions**
+
+The following permissions support write tools and are included in the updated consent set:
+
+- <code>Mail.Send</code>: Send and forward email
+- <code>Mail.ReadWrite</code>: Create, update, and delete drafts; move and label messages
+- <code>Calendars.ReadWrite</code>: Create, update, delete, and respond to calendar events
+- <code>Files.ReadWrite.All</code>: Create and update files in OneDrive and SharePoint
+- <code>MailboxSettings.ReadWrite</code>: Manage categories, inbox rules, and automatic replies 
 
 **User directory**
 
@@ -238,7 +272,7 @@ The Microsoft 365 connector searches SharePoint across the entire tenant using t
 
 For more detail, see the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-)**.
 
-## 
+ 
 
 ---
 
@@ -256,9 +290,16 @@ For more detail, see the **[Microsoft 365 connector security guide](https://supp
 
 ### Members are seeing "Failed to call tool" errors
 
-A permission may have been selectively revoked in Microsoft Entra. Members can turn off the corresponding tool in their Microsoft 365 settings to suppress the error, or you can restore the permission by repeating the admin consent steps in **Option 2: Manual setup in Microsoft Entra ID**.
+A permission may have been selectively revoked in Microsoft Entra. Members can turn off the corresponding tool in their Microsoft 365 settings to suppress the error, or you can restore the permission by repeating the admin consent steps in **[Option 2: Manual setup in Microsoft Entra ID](#h_c5f095c9cf)**.
 
-## 
+ 
+
+### Write tools aren't appearing for members
+
+1. Confirm a Microsoft Entra administrator has consented to the updated permission set that includes write scopes.
+2. Confirm write tools are enabled in the Microsoft 365 connector configuration, or that the member is covered by a role-based access policy that grants them.
+3. Have the member disconnect and reconnect Microsoft 365 in **[Customize > Connectors](http://claude.ai/customize/connectors)**.
+3.  
 
 ---
 
@@ -280,7 +321,7 @@ Yes. When enterprise search is enabled, it can query Microsoft 365 alongside oth
 
 ### Can the integration modify Microsoft 365 data?
 
-No. All permissions are read-only. Claude can search and analyze Microsoft 365 data but can't create, edit, or delete documents; send emails or calendar invites; modify SharePoint sites or OneDrive files; or change Teams settings or permissions.
+Only after an Entra admin grants write scopes. With write tools on, Claude can send email, manage drafts and calendar events, update mailbox settings, and create and update files in OneDrive and SharePoint, always within each member's existing Microsoft 365 permissions. Without them, the integration is read-only. Claude can't post Teams messages or change Teams settings or permissions in either case, since there are no tools allowing this.
 
 
 ---

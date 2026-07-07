@@ -53,7 +53,7 @@ Users on free, Pro, or Max plans can review a log of shared chats by navigating 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1783446300&signature=3842c00a341f4856c3f6d01f31f33a3daeaa65eeff5e4ca1c3d61299747bb486&req=dSklF894lIheWvMW1HO4zWn5HzAZZkNoc9cNIYuX0GGEcrPU86NEvU7iepSl%0A%2BK7f1dIwJq%2BySSjjlMY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1783455300&signature=708e17fccb7fe2a2ee3722c464f588107d9d0533537d8b4f5641c55ce1768b1a&req=dSklF894lIheWvMW1HO4zWn5HzAZZ0Boc9cNIYuX0GHxDnK3v6x3Mz%2Fj1cQF%0AF5QB23n16TNVx5qotVw%3D%0A)
 
  
 
@@ -61,7 +61,7 @@ This will open a **Shared chats** modal listing the title, date shared, and link
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1783446300&signature=813ac69bf8c4058ca517485a979aeaf36da723043e865c9202dde91314b1f87e&req=dSYlEst6noleWfMW1HO4ze44eCRlkBQ9guvTv9woD7bqCzm0xhpruVzydvT2%0AKKC%2FMAlHCZ1ACdNNQkc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1783455300&signature=37cd864db4a26d38f2cf3c29a3dbabc4930d1121eb4bd7a069ead246567cc805&req=dSYlEst6noleWfMW1HO4ze44eCRlkRc9guvTv9woD7YN6PVrzLLX5tsXXGed%0AfTiJt%2Fyf6UclFtf7X1k%3D%0A)
 
  
 
@@ -69,7 +69,7 @@ If you don’t have any shared chat snapshots, the **Shared chats** modal will s
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1783446300&signature=1bfd05bd87dca26efc7f7551c2d5f695ef793e2c492aea0d8641f2228d419582&req=dSYlEst6nolfUfMW1HO4zdaFncZwhY%2ByDeZsm0Gz1Hu9YWV45klUVZ%2FiVxVD%0ADnYj4jvNduXpq9RKnoE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1783455300&signature=2e802d790452e5734d0d135f6ed5361b93010bc11f9a981acb6cfce354a24bba&req=dSYlEst6nolfUfMW1HO4zdaFncZwhIyyDeZsm0Gz1HvuY3YQsqGgor2JkuNr%0A5ZOwEusiy8uMCx80gHs%3D%0A)
 
 
 ---
@@ -79,5 +79,5 @@ If you don’t have any shared chat snapshots, the **Shared chats** modal will s
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 - [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Custom visuals in chat and Cowork](https://support.claude.com/en/articles/13979539-custom-visuals-in-chat-and-cowork)
+- [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)

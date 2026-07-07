@@ -8,7 +8,7 @@ When you navigate to the [Claude Console](https://platform.claude.com), you will
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1783446300&signature=66809c991e41c347b1ba1ec36aefe57a2ff88dc2ec34c41d8958fb0fe437675b&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54ropIYO8vUNcPt4%2B73A6%2Fi5USGnvLx%2FcZu%2B%0AqKZFLrFt4ZpOecSngRI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1783455300&signature=9c8c8577e7a4e766774ca37378903e76865529239c2241548e3e277984b49ba3&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54ropYUO8vUNcPt4%2B73Z5%2Bq6HFiolb7r3FBo%0A179UkLF0yI2T97LV5og%3D%0A)
 
  
 
@@ -93,8 +93,8 @@ Yes, you can have both a Claude account (for using Claude at claude.ai) and a Co
 
 ## Related Articles
 
-- [How do I log out of all active sessions?](https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions)
 - [Set up single sign-on (SSO)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Google Workspace SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917817-google-workspace-sso-scim-email-mismatch)
+- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
 - [SSO login](https://support.claude.com/en/articles/14503613-sso-login)
