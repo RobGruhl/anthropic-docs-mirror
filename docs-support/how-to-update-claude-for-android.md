@@ -1,6 +1,6 @@
 # How to update Claude for Android
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -17,8 +17,8 @@ If you aren’t seeing the latest features on Claude for Android, you may need t
 
 ## Related Articles
 
-- [How can I uninstall Claude for Android?](https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android)
 - [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
 - [Using the Claude Widget on Android](https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
+- [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

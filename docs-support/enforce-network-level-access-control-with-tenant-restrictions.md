@@ -1,6 +1,6 @@
 # Enforce network-level access control with Tenant Restrictions
 
-*Updated over 2 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -139,8 +139,8 @@ When access is blocked, users receive the following error:
 
 ## Related Articles
 
-- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)

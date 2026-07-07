@@ -1,5 +1,5 @@
 # Skills Topic Index
-*Last updated: 2026-07-07 14:13*
+*Last updated: 2026-07-07 17:12*
 
 Documents related to Skills across all sources (131 documents)
 ---
@@ -124,8 +124,8 @@ Documents related to Skills across all sources (131 documents)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
 ## Claude.com Blog Posts (19)
-- [A Field Guide to Claude Fable: Finding Your Unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
+- [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude for Excel 및 Claude for PowerPoint 향상](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn

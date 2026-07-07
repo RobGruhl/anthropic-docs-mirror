@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1783435500&signature=0696c56e12de47de42a43300201cb7e896cd566c6ab4afa41db69bb1e468937b&req=dSUvEs97mYNeXvMW1HO4zYCWiSccgsOfuqqBX2puyxTfVJYfk7yddT2iLWdU%0AbfGu510F1OTiHsnhnJY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1783446300&signature=42b2f9d9416e8300a61d1079efae436ee9c5cbfe4ec589036e067e7e437f494f&req=dSUvEs97mYNeXvMW1HO4zYCWiScchcCZuqqBX2puyxQhdy2X54T5ATvgCT74%0AGXX%2BczntWLGMf0mWNZs%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1783435500&signature=f6bd76b27020c284d8bfc7ac6c67844e8d0a8c220323552d9d0484f50ae2052f&req=dSUvEs94mYJdWPMW1HO4zQwER3AuIopjqMITUZbanFDk5pgoHcg5n3c%2Bv1pa%0AKhrgGYQoYeVOVX3t7tk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1783446300&signature=4c69a9fcb310c64d6d9511c45cf8990b80de66d7ca15200d7e0c878e3d7f2637&req=dSUvEs94mYJdWPMW1HO4zQwER3AuJYllqMITUZbanFBnoC4M9%2Bxn%2FuS7PBkJ%0AmlYUyN4M2U0%2F3Pn9abM%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1783435500&signature=8c649d2e0387e3711644cb24d5a583609437313e9fc6e53783211948885598d3&req=dSUvEs93noJXX%2FMW1HO4zRxEwWhJ5VRp21D6pckxWMblqJOcRKtP2MUdIDmR%0Ac0L6VDN3yE1E%2BQcRNRg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1783446300&signature=708629d6f32a8378e12282c18d3f9143288202f7d2f34ba870f1021b84c85487&req=dSUvEs93noJXX%2FMW1HO4zRxEwWhJ4ldv21D6pckxWMZX14ofLCWyfakv%2F50Y%0AP%2F8g%2FKTFfX2nOatUHUw%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1783435500&signature=500c63fefd411fbbd1995116ec7a9e0c10b05de2a03ac636cfa9c24c4bfe2c29&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5%2FHUNVkCyIF5nuUsbxI5bVit0SGw6ruk8H5%0Ayrk5ZAJsVTBWWZaQ%2FWo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1783446300&signature=d97d725b21454fe09f25afc69f6758f480145212bdd87c9866ad44ef3e4f8946&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5%2FHV9ZiCyIF5nuUsbwVfNyqshLaoQ%2BGQ7of%0AoLs3WDgxHsLIfuvkaf8%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 ## Related Articles
 
 - [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
+- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
-- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

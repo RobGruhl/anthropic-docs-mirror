@@ -1,6 +1,6 @@
 # Get started with custom connectors using remote MCP
 
-*Updated over a month ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -221,6 +221,6 @@ See **[Using Research on Claude](https://support.claude.com/en/articles/11088861
 
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
-- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)

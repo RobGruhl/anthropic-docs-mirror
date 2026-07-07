@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-07 14:13*
+*Last updated: 2026-07-07 17:12*
 
 Documents related to Claude Code across all sources (273 documents)
 ---
@@ -190,8 +190,8 @@ Documents related to Claude Code across all sources (273 documents)
 
 ## Claude.com Blog Posts (88)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
-- [A Field Guide to Claude Fable: Finding Your Unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
+- [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn

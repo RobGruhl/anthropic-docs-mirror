@@ -17,7 +17,11 @@ While single-agent systems handle most enterprise workflows effectively, multi-a
 
 - ShareCopy linkhttps://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
 
-A multi-agent system is an architecture where multiple LLM instances run with separate conversation contexts, coordinated through code. Multiple coordination patterns exist (agent swarms, capability-based systems, and message bus architectures), but this article focuses on the orchestrator-subagent pattern: a hierarchical model where a lead agent spawns and manages specialized subagents for specific subtasks. This pattern offers a straightforward coordination model and is a good starting point for teams new to multi-agent systems. We'll explore other patterns in detail in our next article.
+## What is a multi-agent system?
+
+A multi-agent system is an architecture where multiple LLM instances run with separate conversation contexts, coordinated through code. Each agent handles a distinct slice of a task — a subagent researches while an orchestrator plans, for example — which protects context, enables parallel work, and allows specialization a single agent can't sustain.
+
+Multiple coordination patterns exist (agent swarms, capability-based systems, and message bus architectures), but this article focuses on the orchestrator-subagent pattern: a hierarchical model where a lead agent spawns and manages specialized subagents for specific subtasks. This pattern offers a straightforward coordination model and is a good starting point for teams new to multi-agent systems. We'll explore other patterns in detail in our next article.
 
 Today, multi-agent systems are often applied in situations where a single agent would perform better, though this calculus continues to evolve as models improve. At Anthropic, we’ve seen teams invest months building elaborate multi-agent architectures only to discover that improved prompting on a single agent achieved equivalent results.
 
@@ -176,6 +180,8 @@ When an agent has access to too many tools, performance suffers. Three signals i
 
 Different tasks sometimes require different personas, constraints, or instructions that conflict when combined. A customer support agent needs to be empathetic and patient; a code review agent needs to be precise and critical. A compliance-checking agent needs rigid rule-following; a brainstorming agent needs creative flexibility. When a single agent must switch between conflicting behavioral modes, separating into specialized agents with tailored system prompts produces more consistent results.
 
+Each specialized agent is only as good as its instructions — the same[prompt engineering best practices](https://claude.com/blog/best-practices-for-prompt-engineering)that improve a single agent's outputs apply to every subagent's system prompt.
+
 #### Domain expertise specialization
 
 Some tasks benefit from deep domain context that would overwhelm a generalist agent. A legal analysis agent might need extensive context about case law and regulatory frameworks. A medical research agent might need specialized knowledge about clinical trial methodology. Rather than loading all domain context into a single agent, specialized agents can carry focused expertise relevant to their specific responsibilities.
@@ -279,7 +285,7 @@ It's worth noting that more capable orchestrator models (like Claude Opus 4.5) a
 
 Verification subagents succeed because they sidestep the telephone game problem. Verification requires minimal context transfer by nature, so a verifier can blackbox-test a system without needing the full history of how it was built.
 
-### Implementation
+### Implementating a multi-agent system
 
 The main agent completes a unit of work. Before proceeding, it spawns a verification subagent with the artifact to verify, clear success criteria, and tools to perform verification.
 
@@ -353,7 +359,7 @@ def implement_with_verification(requirements: str, max_attempts: int = 3):
     raise Exception(f"Failed verification after {max_attempts} attempts")
 ```
 
-### Applications
+### Multi-agent system applications
 
 Verification subagents are effective for:
 
@@ -379,7 +385,7 @@ Mitigation strategies include:
 
 - Explicit instructions.The instruction "You MUST run the complete test suite before marking as passed" is essential. Without explicit requirements for comprehensive validation, verification agents take shortcuts.
 
-## Moving forward
+## Choosing between single-agent and multi-agent systems
 
 Multi-agent systems are powerful, but not universally appropriate. Before adding the complexity of multiple coordinated agents, confirm that:
 
@@ -409,6 +415,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Best practices for prompt engineering for 2026
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
@@ -420,10 +430,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
 ### Skills explained: How Skills compares to prompts, Projects, MCP, and subagents
-
-![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
-
-### What is Model Context Protocol? Connect AI to your world
 
 ## Transform how your organization operates with Claude
 

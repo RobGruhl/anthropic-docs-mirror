@@ -1,6 +1,6 @@
 # Use skills in Claude
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -282,6 +282,6 @@ For more information and video demonstrations, refer to **[Teach Claude your way
 
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
-- [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 - [Provision and manage skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)

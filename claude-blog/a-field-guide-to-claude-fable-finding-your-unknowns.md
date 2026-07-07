@@ -1,18 +1,19 @@
-# A Field Guide to Claude Fable: Finding Your Unknowns
+# A field guide to Claude Fable 5: Finding your unknowns
+*July 6, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
-# A Field Guide to Claude Fable: Finding Your Unknowns
+# A field guide to Claude Fable 5: Finding your unknowns
 
-- KategorieClaude Code
+- CategoryClaude Code
 
-- ProduktClaude Code
+- ProductClaude Code
 
-- Datum6.7.2026
+- DateJuly 6, 2026
 
-- Lesezeit5Min
+- Reading time5min
 
-- TeilenLink kopierenhttps://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns
+- ShareCopy linkhttps://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns
 
 When working with Claude Code, I’m often reminded of the difference between the map and the territory.
 
@@ -212,36 +213,36 @@ So start your next project by asking Claude to help you find your unknowns.
 
 This article was written by Thariq Shihipar, member of technical staff, Anthropic.
 
-Häufig gestellte Fragen
+FAQ
 
-## Ähnliche Beiträge
+## Related posts
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Explore more product news and best practices for teams building with Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
 ### A harness for every task: dynamic workflows in Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
 
-### How Claude Code works in large codebases: Best practices and where to start
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
-
-### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
+### Lessons from building Claude Code: Prompt caching is everything
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Building agents with the Claude Agent SDK
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
-Entwickler-Newsletter abonnieren
+### Choosing a Claude model and effort level in Claude Code
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+## Transform how your organization operates with Claude
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/de/blog/a-field-guide-to-claude-fable-finding-your-unknowns
+**Source:** https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
