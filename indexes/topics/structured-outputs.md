@@ -1,5 +1,5 @@
 # Structured Outputs Topic Index
-*Last updated: 2026-07-07 11:44*
+*Last updated: 2026-07-07 14:13*
 
 Documents related to Structured Outputs across all sources (1 documents)
 ---
