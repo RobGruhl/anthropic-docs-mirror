@@ -1,106 +1,121 @@
-# AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
+# COBOL Modernization with AI: Breaking the Cost Barrier
+*February 23, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-# AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
+# COBOL Modernization with AI: Breaking the Cost Barrier
 
-레거시 코드 현대화는 수년간 지연되었는데, 이는 레거시 코드를 이해하는 데 다시 작성하는 것보다 비용이 더 많이 들기 때문입니다. 그런데 AI가 그 방정식을 뒤집었습니다.
+Legacy code modernization stalled for years because understanding legacy code cost more than rewriting it. AI flips that equation.
 
-- 카테고리Claude Code
+- CategoryClaude Code
 
-- 제품Claude Code
+- ProductClaude Code
 
-- 날짜2026-02-23
+- DateFebruary 23, 2026
 
-- 읽는 시간5분
+- Reading time5min
 
-- 공유링크 복사https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+- ShareCopy linkhttps://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 
-COBOL은 어디에서나 사용됩니다.[미국에서 ATM 거래의 약 95%](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022)를 COBOL이 처리하는 것으로 추정됩니다. 매일 수천억 라인의 COBOL이 프로덕션 환경에서 실행되어 금융, 항공, 정부의 중요 시스템을 지원하고 있습니다.그럼에도 불구하고, COBOL을 이해하는 사람의 수는 매년 줄어들고 있습니다.
+# COBOL modernization with AI: breaking the cost barrier
 
-이러한 시스템을 구축한 개발자는 수 년 전에 은퇴했고 이들이 갖춘 조직 내 지식은 이들과 함께 사라졌습니다. 프로덕션 코드는 수십 년 동안 반복적으로 수정되었지만 문서화는 이를 따라가지 못합니다. 그 사이 대체 인력은 양성되고 있지 않습니다. COBOL은 소수의 대학에서만 가르치고 있으며, 분기마다 COBOL을 이해할 수 있는 엔지니어를 찾는 일은 점점 더 어려워지고 있습니다.
+COBOL is everywhere. It handles an estimated[95% of ATM transactions in the US](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022). Hundreds of billions of lines of COBOL run in production every day, powering critical systems in finance, airlines, and government.Despite that, the number of people who understand it shrinks every year.
 
-이러한 장애물을 고려할 때, 조직은 수십 년 동안 축적해 온 신뢰성, 가용성, 데이터를 잃지 않으면서 시스템을 어떻게[현대화](https://claude.com/solutions/code-modernization)할 수 있을까요? 그리고 아무것도 망가뜨리지 않으면서요?
+The developers who built these systems retired years ago, and the institutional knowledge they carried left with them. Production code has been modified repeatedly over decades, but the documentation hasn't kept up. Meanwhile, we aren't exactly minting replacements—COBOL is taught at only a handful of universities, and finding engineers who can read it gets harder every quarter.
 
-## COBOL 현대화가 다른 이유
+Given these roadblocks, how can organizations[modernize](https://claude.com/solutions/code-modernization)their systems without losing the reliability, availability, and data they’ve accumulated over decades? And without breaking anything?
 
-COBOL 현대화는 일반적인 레거시 코드 리팩터링과 근본적으로 다릅니다. 더 나은 패턴을 사용하기 위해 익숙한 코드를 업데이트하는 것이 아니라, 닉슨 대통령 시절에 구축된 시스템의 비즈니스 로직을 리버스 엔지니어링하는 것입니다. 수십 년에 걸쳐 진화해 온 코드 간 종속성을 파악하고 지금은 코드 자체 내에만 존재하는 조직 내 지식을 해석하는 작업입니다.
+# What is COBOL modernization?
 
-한때 COBOL 시스템을 현대화하려면 수많은 컨설턴트가 워크플로우를 매핑하는 데 수년을 투자해야 했습니다. 그 결과 일정은 길어지고 비용은 커져 이를 선뜻 처리하려는 사람은 거의 없었습니다.
+COBOL modernization is the process of updating legacy COBOL applications—by rehosting them on new infrastructure, refactoring the code, rewriting it in a modern language like Java, or replacing the system entirely—while preserving the decades of business logic embedded in them. Cost has historically been the barrier: understanding what the code does is the most expensive step.
 
-하지만 AI가 변화를 가져왔습니다.
+## Why COBOL modernization is different
 
-[Claude Code](https://www.claude.com/product/claude-code)와 같은 도구는 COBOL 현대화에서 대부분의 작업을 차지하는 탐색과 분석 단계를 자동화할 수 있습니다. 이러한 도구는 다음과 같은 작업을 수행할 수 있습니다:
+COBOL modernization differs fundamentally from typical legacy code refactoring. You aren’t just updating familiar code to use better patterns, you’re reverse engineering business logic from systems built when Nixon was president. You’re untangling dependencies that evolved over decades, and translating institutional knowledge that now exists only in the code itself.
 
-- 수천 개의 코드 라인 전반에서 의존성 매핑
+Modernizing a COBOL system once required armies of consultants spending years mapping workflows. This resulted in large timelines and high costs that few were willing to take on.
 
-- 아무도 기억하지 않는 워크플로우 문서화
+AI changes this.
 
-- 분석가가 발견하는 데 몇 달이 걸릴 수 있는 위험 식별
+Tools like[Claude Code](https://www.claude.com/product/claude-code)can automate the exploration and analysis phases that consume most of the effort in COBOL modernization. These tools can:
 
-- 팀에 정보에 입각한 결정을 내리는 데 필요한 심층적인 인사이트 제공
+- Map dependencies across thousands of lines of code
 
-AI를 사용하면 팀이 몇 년이 아닌 몇 분기 만에 COBOL 코드베이스를 현대화할 수 있습니다.
+- Document workflows that nobody remembers
 
-## AI가 COBOL 현대화를 변화시키는 방법
+- Identify risks that would take human analysts months to surface
 
-AI는 한때 COBOL 현대화 비용을 엄청나게 높게 만든 작업을 간소화하는 데 탁월합니다. AI가 코드 분석과 구현을 자동화하는 동안 팀은 전략, 위험 평가, 비즈니스 로직에 집중할 수 있습니다.
+- Provide teams with the deep insights they need to make informed decisions
 
-### 자동화된 탐색 및 발견
+With AI, teams can modernize their COBOL codebase in quarters instead of years.
 
-AI는 먼저 전체 COBOL 코드베이스를 읽고 구조를 매핑합니다.
+## Four approaches to COBOL modernization: rehost, refactor, rewrite, replace
 
-프로그램 진입점을 식별하고 호출된 서브루틴을 통해 실행 경로를 추적하며 모듈 간의 데이터 흐름을 매핑하고 수백 개의 파일에 걸쳐 있는 종속성을 문서화합니다.
+Most modernization efforts pick from four approaches.
 
-이러한 종류의 매핑은 단순한 호출 그래프를 넘어섭니다. 공유 데이터 구조, 모듈 간의 결합을 생성하는 파일 작업, 런타임 동작에 영향을 미치는 초기화 시퀀스 등 이러한 암묵적 종속성은 파일, 데이터베이스, 전역 상태를 통해 공유되는 데이터를 수반하기 때문에 정적 분석에는 나타나지 않습니다. 또한 이것이 바로 COBOL 현대화를 위험하게 만드는 요소이며, 자동화된 검색이 중요한 이유이기도 합니다. 자동화된 검색은 마이그레이션 과정에서 문제가 발생하기 전에 이러한 숨겨진 관계를 찾아냅니다.
+‍Rehostingmoves COBOL unchanged onto cheaper infrastructure—fast, but the maintainability problem remains.
 
-또한 이러한 분석 과정에서 워크플로우 문서가 생성됩니다.
+‍Refactoringrestructures the code without changing behavior.Rewritingconverts it to a modern language like Java or Python—the highest payoff and, historically, the highest cost and risk.
 
-AI는 입력부터 출력까지 시스템에서 데이터가 어떻게 이동하는지 추적함으로써 모두가 사용하면서도 구축한 사실은 아무도 기억하지 못하는 처리 파이프라인의 다이어그램과 설명 문서를 생성합니다.
+‍Replacingswaps the system for a commercial product, when one fits. The economics of the rewrite path are what AI changes most, which is the focus of the rest of this post.
 
-### 위험 분석 및 기회 매핑
+## How AI changes COBOL modernization
 
-코드베이스를 매핑하면 AI는 어떤 컴포넌트가 이동하기에 안전하며, 어떤 컴포넌트를 주의 깊게 처리해야 하는지 평가할 수 있습니다. 결합도가 높은 모듈은 현대화하기가 더 위험할 수 있습니다. 격리된 컴포넌트는 초기 독립적인 현대화 후보로 나타나게 됩니다. 중복된 로직은 리팩터링 기회를 가리킵니다. 기술 부채가 누적된 영역은 마이그레이션 시 예상치 못한 상황으로 전환되기 전에 문서화됩니다.
+AI excels at streamlining the tasks that once made COBOL modernization cost-prohibitive. With it, your team can focus on strategy, risk assessment, and business logic while AI automates the code analysis and implementation.
 
-### 전문가 감독을 통한 전략적 계획
+### Automated exploration and discovery
 
-이 단계에서는 인간의 판단이 필수적입니다. COBOL 엔지니어는 AI가 알 수 없는 규제 요구 사항, 비즈니스 우선순위, 운영 제약, 허용 위험 한도에 대해 이해하고 있습니다.
+AI starts by reading your entire COBOL codebase and mapping the structure.
 
-계획 단계에서는 전략적으로 현대화 작업의 순서를 지정하는 상세한 로드맵을 개발합니다.
+It identifies program entry points, traces execution paths through called subroutines, maps data flows between modules, and documents dependencies that span hundreds of files.
 
-- AI는 분석 중에 식별한 위험, 의존성, 복잡성에 따라 우선순위를 제안합니다.
+This kind of mapping goes beyond simple call graphs. Shared data structures, file operations that create coupling between modules, initialization sequences that affect runtime behavior—these implicit dependencies don't show up in static analysis because they involve data shared through files, databases, or global state. They're also exactly what makes COBOL modernization risky, which is why automated discovery matters: it finds these hidden relationships before they cause problems during migration.
 
-- 팀은 AI의 권장 사항을 검토한 다음 비즈니스 가치, 기술적 위험, 조직의 우선순위에 따라 먼저 현대화할 컴포넌트를 결정합니다.
+Workflow documentation also emerges out of this analysis.
 
-- 또한 여기서 팀은 현대화된 컴포넌트의 대상 아키텍처, 코드 표준, 통합 요구 사항을 정의합니다.
+By tracing how data moves through a system from input to output, AI can produce diagrams and written descriptions of processing pipelines that nobody remembers building but everyone depends on.
 
-또한 코드 변경 전에 코드 테스트 및 검증이 정의됩니다.
+### Risk analysis and opportunity mapping
 
-- AI는 마이그레이션된 코드가 레거시 COBOL과 동일한 결과물을 생성하는지 검증하는 예비 함수 테스트를 설계합니다.
+With the codebase mapped, AI can assess which components are safe to move and which need careful handling. Modules with high coupling can be more risky to modernize. Isolated components surface as candidates for early, independent modernization. Duplicated logic points to refactoring opportunities. Areas with accumulated technical debt get documented before they become migration surprises.
 
-- 팀에서는 해당 테스트가 충분한지, 해당 분야 전문가의 수동 검증이 필요한 비즈니스 시나리오는 무엇인지, 현대화된 컴포넌트가 충족해야 하는 성능 벤치마크는 무엇인지 결정합니다.
+### Strategic planning with expert oversight
 
-### 지속적인 검증을 통한 점진적 구현
+This is where human judgment becomes essential. Your COBOL engineers bring the understanding of regulatory requirements, business priorities, operational constraints, and risk tolerance that AI cannot.
 
-실행은 각 단계마다 검증을 거치며 한 번에 하나의 컴포넌트에 대해 수행됩니다. AI는 COBOL 로직을 현대적 언어로 변환하고, 그대로 유지되는 레거시 컴포넌트 주위에 API 래퍼를 생성하며, 전환 과정에서 이전 코드와 새 코드를 나란히 실행할 수 있는 토대를 구축합니다.
+The planning phasedevelops a detailed roadmap that sequences modernization work strategically:
 
-각 단계는 성공하여 검증을 거치거나 실패하더라 범위가 작은 상태에서 수정됩니다.
+- AI suggests prioritization based on the risks, dependencies, and complexity it identified during analysis.
 
-실패하면 몇 주 동안의 작업을 롤백해야 하는 대규모 변경 작업이 진행되는 상황은 결코 발생하지 않습니다. 팀은 현대화된 컴포넌트가 테스트를 통과하는 것을 확인하면서 시스템의 점점 더 복잡한 부분을 해결할 수 있다는 자신감을 얻습니다.
+- Your team reviews these recommendations and decides which components to modernize first based on business value, technical risk, and organizational priorities.
 
-## COBOL 현대화 시작
+- This is also when your team defines the target architecture, code standards, and integration requirements for modernized components.
 
-위에 설명한 접근 방식은 모든 규모의 COBOL 시스템에서 작동합니다.
+Code testing and validationare also defined before any code changes:
 
-Claude Code와 같은 도구는 설명된 탐색 및 분석 작업의 대부분을 자동화할 수 있어 팀이 마이그레이션을 자신 있게 계획하고 실행하는 데 필요한 종합적인 이해를 제공합니다.
+- AI designs preliminary function tests that verify migrated code produces identical outputs to legacy COBOL.
 
-경계가 명확하고 적당히 복잡한 단일 컴포넌트나 워크플로우로 시작해 보세요. AI를 활용해 이러한 컴포넌트 또는 워크플로우를 철저히 분석하여 문서화하고 엔지니어와 함께 현대화 계획을 세우며 각 단계에서 테스트를 통해 점진적으로 구현하고 신중하게 검증해 보세요. 이를 통해 조직의 신뢰를 구축하고 시스템에 필요한 조정 사항을 도출할 수 있습니다.
+- Your team decides whether those tests are sufficient, which business scenarios need manual validation by subject-matter experts, and what performance benchmarks the modernized components need to meet.
 
-COBOL 현대화의 경제성은 달라졌습니다. AI는 이전에 수많은 컨설턴트가 매달려야 했던 작업을 자동화하여 경제성을 실현하며 엔지니어가 각자의 분야 전문성이 필요한 마이그레이션 결정을 내릴 수 있도록 지원합니다.
+### Incremental implementation with continuous validation
 
-단계별 가이드는[코드 현대화 플레이북](https://resources.anthropic.com/code-modernization-playbook)을 참조하세요.
+Execution happens one component at a time, with validation at each step. AI translates COBOL logic into modern languages, creates API wrappers around legacy components that stay in place, and builds the scaffolding to run old and new code side by side during transition.
 
-‍
+Each step either succeeds and gets validated, or fails and gets corrected while the scope is small.
+
+You never have massive changes in flight where failure means rolling back weeks of work. As your team sees modernized components passing tests, they gain confidence to tackle progressively more complex parts of the system.
+
+## Start your COBOL modernization
+
+The approach outlined above works for COBOL systems of any size.
+
+Tools like Claude Code can automate much of the exploration and analysis work described, giving your team the comprehensive understanding they need to plan and execute migrations confidently.
+
+Start with a single component or workflow that has clear boundaries and moderate complexity. Use AI to analyze and document it thoroughly, plan the modernization with your engineers, implement incrementally with testing at each step, and validate carefully.  This will build organizational confidence and surface adjustments needed for your systems.
+
+The economics of COBOL modernization have shifted. AI makes the economics work by automating what used to require armies of consultants, freeing your engineers to make the migration decisions that require their domain expertise.
+
+For a step-by-step guide, see the[Code Modernization Playbook](https://resources.anthropic.com/code-modernization-playbook).Thanks to Dan Mason, technical member of Anthropic staff, for their contributions.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -108,36 +123,36 @@ COBOL 현대화의 경제성은 달라졌습니다. AI는 이전에 수많은 �
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-자주 묻는 질문
+FAQ
 
-## 관련 게시물
+## Related posts
 
-Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+Explore more product news and best practices for teams building with Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
-### A Field Guide to Claude Fable: Finding Your Unknowns
+### A field guide to Claude Fable 5: Finding your unknowns
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### A harness for every task: dynamic workflows in Claude Code
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Building agents with the Claude Agent SDK
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### Getting started with loops
+### How to scale agentic coding across your engineering organization
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+## Transform how your organization operates with Claude
 
-### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
+Get the developer newsletter
 
-## Claude와 함께 조직의 운영 방식을 혁신하세요
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-개발자 뉴스레터 구독
-
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
-
-월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ko/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+**Source:** https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

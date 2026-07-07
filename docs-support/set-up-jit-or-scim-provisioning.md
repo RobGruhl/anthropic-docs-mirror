@@ -1,6 +1,6 @@
 # Set up JIT or SCIM provisioning
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -50,7 +50,7 @@ Both JIT and SCIM can be combined with **Enable group mappings** to control role
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1783392300&signature=1f4cc8672c6ded835c23fe67f7f1d97592dc32484443819840ec7d05e605a148&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6hXBFh1xFMG%2BIEvQSc%2FsFOHSWThy6gfwomb%0AYyiWVEu2iukgncjhYoc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1783408500&signature=6466450ac89a79db184ba6906ac5e69253aab3de70320f901b10d9b98065690a&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6hQDVJzxFMG%2BIEvQSc7G4R8eaKEaAPn%2Fc%2F8%0A0OjIWymgHR8q66OTyp0%3D%0A)
 
  
 

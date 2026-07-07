@@ -1,5 +1,4 @@
 # A harness for every task: dynamic workflows in Claude Code
-*June 2, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -9,15 +8,15 @@ Claude Code can now write and orchestrate its own multi-agent harness on the fly
 
 ‍
 
-- CategoryClaude Code
+- CategoriaNo items found.
 
-- ProductNo items found.
+- ProdottoNo items found.
 
-- DateJune 2, 2026
+- Data2/6/26
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
+- CondividiCopia linkhttps://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
 
 Last week, we released[dynamic workflows](https://code.claude.com/docs/en/workflows)in Claude Code. Claude can now write its own[harness](https://code.claude.com/docs/en/glossary#agentic-harness)on the fly, custom-built for the task at hand.
 
@@ -235,34 +234,18 @@ This article was written by Thariq Shihipar and Sid Bidasaria, members of techni
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+## Trasforma le operazioni della tua azienda con Claude
 
-### A field guide to Claude Fable 5: Finding your unknowns
+Ricevi la newsletter sullo sviluppo
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-### How to scale agentic coding across your engineering organization
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### COBOL Modernization with AI: Breaking the Cost Barrier
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
-
-### Building agents with the Claude Agent SDK
-
-## Transform how your organization operates with Claude
-
-Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
+**Source:** https://claude.com/it/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
