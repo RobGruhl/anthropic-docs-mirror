@@ -1,6 +1,6 @@
 # Claude in Chrome admin controls
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -25,6 +25,8 @@ Use the toggle to enable or disable Claude in Chrome for your entire organizatio
 
 - **Team plans:** The extension is enabled by default. Disable it if you prefer users not to have access.
 - **Enterprise plans:** The extension is disabled by default. Enable it when you're ready for users to access the feature.
+
+Claude in Chrome and Claude Cowork are managed separately. Enabling Claude in Chrome for your organization lets users use the extension. Whether Claude can use it within Cowork is a separate capability setting, and users' browsers still need the extension deployed or installed. For Cowork admin settings, see **[Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)**.
 
  
 
@@ -58,10 +60,9 @@ If you want to disable this for members of your organization, you can toggle the
 
 **Disable the Chrome extension in organization settings:**
 
-1. Click your initials in the lower left corner, then select “Organization settings.”
-2. Navigate to “Connectors.”
-3. Find **Claude in Chrome** in the list and click “Configure.”
-4. Toggle the connector off.
+1. Sign in to Claude with your Owner account.
+2. Navigate to **[Organization settings > Claude in Chrome](http://claude.ai/admin-settings/browser-extension)**.
+3. Toggle the extension off.
 
 Alternatively, disable <code>isLocalDevMcpEnabled</code> in **[your Enterprise configuration](https://support.claude.com/en/articles/12622667-enterprise-configuration)**.
 
@@ -88,13 +89,19 @@ To test Claude in Chrome with a subset of users before broader rollout:
 4. Share **[Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-for-chrome-safely)** with pilot users.
 5. Gather feedback and expand access over time.
 
- 
+##  
+
+## How Claude in Chrome fits your existing controls
+
+- **Role-based permissions:** Claude in Chrome has its own permission, separate from Claude Cowork. Two settings control Claude in Chrome: an organization-level toggle, and a per-role capability that admins can grant or withhold. That per-role capability applies to Enterprise organizations using custom roles. Claude in Chrome doesn't inherit a user's Cowork access.
+- **Network controls:** Claude in Chrome sends its chat traffic through your existing Claude endpoints (<code>claude.ai</code>, <code>api.anthropic.com</code>, <code>platform.claude.com</code>), so any controls you've set on those apply here too. It also connects to the same bridge endpoint Claude Desktop uses (<code>wss://bridge.claudeusercontent.com</code>) and to standard telemetry services. In restrictive network environments, allow these connections. To limit which organization the extension can be used with, deploy the <code>forceLoginOrgUUID</code> Chrome enterprise policy.
+- **Zero data retention (ZDR):** Not supported for Claude in Chrome, the same as Cowork.
 
 ## Educating your users
 
 We recommend sharing these resources with users before they start using Claude in Chrome:
 
-- **[Getting started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-for-chrome)**: Installation and core capabilities
+- **[Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-for-chrome)**: Installation and core capabilities
 - **[Using Claude in Chrome safely](https://support.claude.com/en/articles/12902428-using-claude-for-chrome-safely)**: Risks and best practices
 - **[Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-for-chrome-permissions-guide)**: How users control what Claude can access
 
@@ -103,8 +110,8 @@ We recommend sharing these resources with users before they start using Claude i
 
 ## Related Articles
 
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
-- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
+- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
+- [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
-- [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)

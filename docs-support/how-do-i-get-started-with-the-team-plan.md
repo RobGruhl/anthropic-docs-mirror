@@ -1,6 +1,6 @@
 # Get started with the Team plan
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -21,7 +21,7 @@ To get started with the Team plan, navigate to **[claude.ai/login](http://claude
 
 ## Upgrade from an individual plan to the Team plan
 
-If you already have a free or paid individual Claude account associated with your work email and wish to create a Team plan, sign into your individual account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
+If you already have an individual Free, Pro, or Max account associated with your work email and wish to create a Team plan, sign into your individual account, then visit **[claude.ai/upgrade](http://claude.ai/upgrade)**. Follow the steps to create your Team.
 
  
 
@@ -29,7 +29,7 @@ Upgrading to the Team plan creates a new Claude organization. Your individual Fr
 
  
 
-If you'd rather use a single account, you can migrate your personal account into your Team organization. Migration moves your chats, projects, files, memory, connectors, and skills into the organization's workspace, and your paid individual subscription is canceled automatically as part of the migration (subscriptions purchased through the Apple App Store must be canceled separately first). To get started, go to **[Settings > Account](https://claude.ai/settings/account)**, or see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)** for details.
+If you'd rather use a single account, you can migrate your personal account into your Team organization. Migration moves your chats, projects, files, and memory into the organization's workspace, and your paid individual subscription is canceled automatically as part of the migration (subscriptions purchased through the Apple App Store must be canceled separately first). To get started, go to **[Settings > Account](https://claude.ai/settings/account)**, or see **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)** for details.
 
 
 ---

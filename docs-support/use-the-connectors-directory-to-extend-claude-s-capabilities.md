@@ -69,18 +69,12 @@ To connect a service from the directory:
 
 Before members of Team and Enterprise plans can use connectors, an Owner or Primary Owner needs to enable them for the organization. Enabling a connector makes it available to your team, but it doesn't automatically grant anyone access. Each person still needs to authenticate individually before they can use it.
 
- 
-
- 
-
 1. Navigate to **[Organization settings > Connectors](https://claude.ai/admin-settings/connectors)**.
 2. Click “Browse connectors” at the bottom of the page.
 3. Select the connector from the list and click “Add to your team.”
 4. Individual users can then authenticate with the connector to start using it with Claude.
 
 Once enabled at the org level, individual users follow the same steps described above to connect and authenticate.
-
- 
 
  
 

@@ -1,21 +1,17 @@
-# Claude in Chrome Permissions Guide
+# Claude in Chrome permissions guide
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
 This guide explains how to control what Claude can access and do when using Claude in Chrome. Understanding permissions helps you balance productivity with security.
 
-## Permission Modes
+## Permission modes
 
-Claude in Chrome uses a multi-layered permission system to give you control over what Claude can access and do. When you first open the extension, you'll see a drop-down menu on the chat input. Click this to choose between two permission modes:
+Claude in Chrome uses a multi-layered permission system to give you control over what Claude can access and do. In the extension side panel or in Claude Desktop, you'll see a drop-down menu on the chat input. Click this to choose between two permission modes:
 
-- **Ask before acting:** Claude creates a plan and asks for approval before executing.
-- **Act without asking:** Claude takes actions without asking for permission.
-
- 
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843322018/f8c0ae21b449f32e71696c76a17a/7656f295-e802-4a72-9e60-94611501f920?expires=1783463400&signature=acde8ded1f75ca4676a5ac82754d60ef6105204b19fc26a4816d230d94d7dca7&req=dSgjFcp8n4FeUfMW1HO4zQ5tySQI83uzhD0gAzkS2hy%2Bali7%2Bu90zyHr1u2M%0ANq63ccnOaqouHJF6e2g%3D%0A)
+- **Ask before acting:** Claude pauses so you can approve every action.
+- **Act without asking:** Claude runs on its own and pauses to ask if anything looks unsafe, allowing you to initiate longer running tasks.
 
 ---
 
@@ -27,7 +23,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1783463400&signature=ccd115ae8a4496d375dc7003957055418afe0a8872769c342ac4fc1f195517f8&req=dSgjFcp8nYZdXvMW1HO4zYqyZcFJ%2BoGzgN0ADj5oqFBhSp9xV4RxK4s720%2Fj%0ADJH%2FeA2yur2wN5IRBtM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1783620000&signature=7b251cb50c1454913e319964c46d2066d08fbbfa417e8bae3e37a53c40d773a9&req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNAKMQKc%2F9PFBtvjxAnkX5Vz%2B%2BBEisRwYPqE%0AYvNrfg7pwvctrd74hY%2F3xBjrjfI%3D%0A)
 
  
 
@@ -35,7 +31,7 @@ Note that Claude will only use the websites listed in the plan, so you’ll need
 
  
 
-Claude clarifies which sites it’s planning to access and the actions it will take upfront, allowing you to review the proposed plan and ensure it’s correct before starting. You can also click “Make changes” to reject the current proposal, then prompt Claude again to make any necessary changes. Once you click “Approve plan,” Claude will be able to act independently within the outlined parameters, but will still check with you before taking certain irreversible actions, like making a purchase, creating an account, or downloading a file. Claude will not deviate from the stated plan without requesting your permission first.  There are certain actions that Claude cannot take for your security, such as bypassing bot authorizations, executing trades, permanently deleting files, or taking certain actions that may indicate a prompt injection risk (see [Prohibited Actions](#h_e199f8f523)).
+Claude clarifies which sites it’s planning to access and the actions it will take upfront, allowing you to review the proposed plan and ensure it’s correct before starting. You can also click "Make changes" to reject the current proposal, then prompt Claude again to make any necessary changes. Once you click "Approve plan," Claude will be able to act independently within the outlined parameters, but will still check with you before other sensitive actions, like downloading a file or entering sensitive information into a page. Claude will not deviate from the stated plan without requesting your permission first. There are certain actions that Claude cannot take for your security, such as making purchases, creating accounts, bypassing bot authorizations, executing trades, permanently deleting files, or taking certain actions that may indicate a prompt injection risk (see **[Prohibited actions](#h_e199f8f523)**).
 
  
 
@@ -43,21 +39,11 @@ Claude clarifies which sites it’s planning to access and the actions it will t
 
 ## Act without asking
 
-"Act without asking" is a **high-risk mode** that allows Claude to operate with near-complete autonomy on the internet. Even in this mode, Claude should ask before:
+When you choose **Act without asking**, Claude runs on its own and only pauses if an action looks unsafe. Claude checks each action for risky behavior and prompt injection before it runs, completes the actions it assesses as lower-risk, and pauses to ask if anything looks unsafe. You'll see far fewer prompts than before but the safety checks run in the background on every action. 
 
-- Making purchases or financial transactions
-- Permanently deleting files or data
-- Changing account passwords or security settings
+ 
 
-However, due to the nature of LLMs, we can't guarantee that Claude will request permission to take these actions, so exercise caution when using this mode.
-
-Only allow Claude in Chrome to act without asking when:
-
-- You're actively supervising Claude's actions.
-- Working on trusted sites for routine tasks.
-- You can immediately stop Claude if something seems wrong.
-
-You remain fully responsible for all actions Claude takes when using this mode.
+Claude can make mistakes, so use this mode for work that’s easy to undo. You can switch back to "Ask before acting" anytime. 
 
  
 
@@ -67,11 +53,11 @@ You remain fully responsible for all actions Claude takes when using this mode.
 
 ## When does Claude need to request additional permissions?
 
-There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **Permission required** prompt will appear in the extension side panel where Claude will ask for permission before accessing the page or taking any action.
+There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **Permission required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1783463400&signature=8b9cfe5d47e3eb08ed5901df3a4ee6f28daa4afa2095177d6dde34e4e281c7f1&req=dSgjEct8n4lYXPMW1HO4zeoCY8UvpXd7JCxYSFHKWIhcB5RZv7TBhwnNNEuI%0AoCr6OfIRz8fGSXcpgvo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1783620000&signature=4758fbb7798343ea2d98698a0f5631501f8b9144f7191cc2f0babfc3c4d51979&req=dSgjEct8n4lYXPMW3nq%2BgRbwH4XDfcQWaduVUMdjB4LNeQDw2ULi1O1Wll4q%0AkqbL49r%2FKv595b7S6fqwftKeOw0%3D%0A)
 
  
 
@@ -93,10 +79,9 @@ There are some websites on which Claude requires approval for every action. If y
 
 When you choose "Always allow actions on this site," Claude still asks for your explicit approval before:
 
-- Making purchases or financial transactions
-- Permanently deleting files or data
-- Modifying permissions settings
-- Creating accounts
+- Downloading a file
+- Entering potentially sensitive information into a page
+- Granting authorizations
 
  
 
@@ -121,7 +106,7 @@ Team and Enterprise admins can configure additional controls that affect permiss
 - **Allowlists** restrict Claude to only access approved sites
 - **Blocklists** prevent Claude from accessing specific sites, regardless of user permissions
 
-If you're unable to access a site with Claude, your organization may have restricted access. Contact your admin for more information, or see [Claude in Chrome Admin Controls](https://support.claude.com/en/articles/13065128-claude-for-chrome-admin-controls).
+If you're unable to access a site with Claude, your organization may have restricted access. Contact your admin for more information, or see **[Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-for-chrome-admin-controls)**.
 
  
 
@@ -129,14 +114,11 @@ If you're unable to access a site with Claude, your organization may have restri
 
  
 
-## Actions Requiring Explicit Permission
+## Actions requiring explicit permission
 
 Regardless of your permission mode, Claude requires explicit user permission to perform any of the following actions:
 
-- Making purchases or financial transactions
-- Permanently deleting files or data
 - Modifying permissions settings
-- Creating accounts
 - Granting authorizations
 - Inputting potentially sensitive information into websites
 
@@ -146,10 +128,13 @@ Regardless of your permission mode, Claude requires explicit user permission to 
 
  
 
-## Prohibited Actions
+## Prohibited actions
 
 To protect you, Claude is prohibited from taking following actions regardless of permissions:
 
+- Making purchases or financial transactions
+- Creating accounts
+- Permanent deletions (emptying trash, deleting emails, files, or messages)
 - Handling sensitive credit card or ID data
 - Downloading files from untrusted sources
 - Permanent deletions (emptying trash, deleting emails, files, or messages)
@@ -166,8 +151,8 @@ To protect you, Claude is prohibited from taking following actions regardless of
 
 ## Related Articles
 
-- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
-- [Claude in Chrome Troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
+- [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)

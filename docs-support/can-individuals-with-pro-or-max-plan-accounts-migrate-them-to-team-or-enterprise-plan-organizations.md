@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -14,7 +14,7 @@ If you have a personal Claude account on the same email address as your organiza
 
 - **Keep both accounts:** Your personal account stays active. You can switch between it and your organization account from your account menu.
 - **Use your organization account only:** You'll see two migration options after selecting this.
-- - **Bring your data with you:** Your personal data (chats, projects, files, memory, connectors, and skills) moves into the organization's workspace. Your personal account closes, and any active Pro or Max subscription is cancelled automatically with a prorated refund.
+- - **Bring your data with you:** Your personal data (chats, projects, files, and memory) moves into the organization's workspace. Your personal account closes, and any active Pro or Max subscription is cancelled automatically with a prorated refund.
 - **Delete your data:** Your personal account closes (with a prorated refund if you had a paid subscription), but no content moves into the organization. You start with a clean account. You can choose to download your account data before deleting it.
    
 
@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783463400&signature=d5548f44ffb326e0bf3f5f254b03a46371db76120f29b67fc37cc71fa73547e7&req=diMmFMh3noJbXvMW1HO4zXhPndMyzhxlufhmlOXMdYagcJTVoEimT%2BU8n3UX%0ANVHZZSfKvigyFBOKm1A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783620000&signature=41525aa4f0a8efe3bcdf5e6b92f2aaa5dc9f788b1688fa1224101405efe13cea&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U70EMA%2Bxl6PawEblZV1xcqX7DhbfeY3FM%0A8aC659XNOMh2FN1%2FiRLRosYEGn4%3D%0A)
 
  
 

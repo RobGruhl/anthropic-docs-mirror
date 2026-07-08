@@ -62,6 +62,7 @@ For important limitations and considerations for Team and Enterprise organizatio
 - **Scheduled tasks:** Create and save tasks that you can have Claude run on-demand or automatically on a cadence of your choosing. Scheduled tasks run remotely, with no device online.
 - **Spreadsheets and presentations:** Cowork can produce spreadsheets and slides that can be further edited with Claude for Excel and Powerpoint.
 - **Projects:** Group related tasks into separate workspaces with their own files, context, instructions, and memory. See **[Organize your tasks with projects in Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork).**
+- **Browser actions:** Claude can open Chrome and work on websites—clicking, typing, navigating, and filling forms—for tasks that touch websites. See **[Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)**.
 -  
 
 ---
@@ -274,13 +275,13 @@ Please carefully assess how much you trust an MCP or website before extending ac
 Cowork has a mode selector that controls how Claude handles approvals during a session:
 
 - **Ask before acting:** Claude pauses so you can approve each action. Good for tasks that touch sensitive files, new tools, or anything you want to watch closely.
-- **Act without asking:** Claude works through steps without pausing for approval. Good for well-defined tasks with files and sites you trust.
+- **Act without asking:** Claude works without pausing for approval. We run a classifier on every action Claude takes on the user's behalf, screening for prompt injection attempts before the action executes. Claude denies or asks permission when it identifies suspicious actions.
 
 Permission prompts reach you on whichever surface you're using, so you can approve an action from your phone while Claude keeps working.
 
  
 
-In both modes, Claude will still ask before permanently deleting files. For more on when to use each mode, see **[Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**.
+ 
 
  
 
@@ -340,7 +341,7 @@ Check that you've granted Claude the appropriate file access permissions. Review
 ## Related Articles
 
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
-- [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

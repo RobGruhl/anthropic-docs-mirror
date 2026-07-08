@@ -1,6 +1,6 @@
 # Find and join a Team or Enterprise organization
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -68,7 +68,7 @@ When someone signs up for Claude with a work email address that matches a discov
 - If the organization uses **instant approval**, they're added right away.
 - If the organization uses **request + approve**, a request is sent to the admin. The requester can choose to continue with a personal account (as long as "Restrict organization creation" is disabled)  until the request is approved or denied.
 
-If multiple organizations share the same email domain and are all discoverable, users will see all of them and can choose which one to join.
+If multiple organizations share the same email domain and are all discoverable, users will see all of them and can choose which one to join. You can be a member of multiple Team or Enterprise organizations at the same time.
 
  
 

@@ -1,6 +1,6 @@
-# Claude in Chrome Troubleshooting
+# Claude in Chrome troubleshooting
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -19,7 +19,7 @@ This article helps you resolve common issues with Claude in Chrome and explains 
 ## Actions aren't working correctly
 
 - Ensure you're using the latest version of Chrome.
-- [Disable other extensions](https://support.google.com/chrome_webstore/answer/2664769?hl=en) that might interfere with webpage interaction.
+- **[Disable other extensions](https://support.google.com/chrome_webstore/answer/2664769?hl=en)** that might interfere with webpage interaction.
 - Try refreshing the page and starting the task again.
 
  
@@ -28,7 +28,7 @@ This article helps you resolve common issues with Claude in Chrome and explains 
 
 - Verify you have an active paid plan subscription (Pro, Max, Team, or Enterprise).
 - If you're on a Team or Enterprise plan, confirm with your admin that the extension is enabled for your organization.
-- Clear your browser cache and cookies for claude.ai (see[ Delete cookies from a site](https://support.google.com/chrome/answer/95647?sjid=5857968454187791521-NC#zippy=%2Cdelete-cookies-from-a-site)).
+- Clear your browser cache and cookies for claude.ai (see **[Delete cookies from a site](https://support.google.com/chrome/answer/95647?sjid=5857968454187791521-NC#zippy=%2Cdelete-cookies-from-a-site)**).
 - Try signing out and back into your Claude account.
 
  
@@ -42,7 +42,7 @@ This article helps you resolve common issues with Claude in Chrome and explains 
 
 ## Claude can't access a website
 
-- Check that you've granted permission for the site (see[ Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-for-chrome-permissions-guide)).
+- Check that you've granted permission for the site (see **[Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-for-chrome-permissions-guide)**).
 - The site may be in Claude's default blocked categories (financial services, banking, investment platforms, cryptocurrency exchanges, adult content, pirated content).
 - If you're on a Team or Enterprise plan, your admin may have restricted access to this site. Contact your admin for more information.
 
@@ -61,7 +61,7 @@ This article helps you resolve common issues with Claude in Chrome and explains 
 
 ## Usage Limits
 
-Usage limits apply across different interfaces, so using Claude in Chrome will count against the same [Max plan limits](https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage) that apply to Claude or Claude Code. Browser interactions are more compute-intensive than regular chats with Claude, so you can expect the extension to use more of your limit. With the long-running workflow capabilities, tasks can continue for extended periods, which may use more of your usage allocation.
+Usage limits apply across different interfaces, so using Claude in Chrome will count against the same plan limits that apply to Claude or Claude Code. Browser interactions are more compute-intensive than regular chats with Claude, so you can expect the extension to use more of your limit. With the long-running workflow capabilities, tasks can continue for extended periods, which may use more of your usage allocation.
 
  
 
@@ -99,5 +99,5 @@ Your feedback directly shapes how we improve Claude's browser capabilities and s
 - [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
-- [Claude in Chrome Permissions Guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
+- [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
