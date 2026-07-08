@@ -4,7 +4,7 @@
 
 ---
 
-We now offer a HIPAA-ready version of Claude that is available for organizations with Enterprise plans that choose to process protected health information (PHI) through Claude. This article explains what the offering includes, which features are available, and how to get started.
+We offer a HIPAA-ready version of Claude that is available for organizations on Enterprise plans that choose to process protected health information (PHI) through Claude. This article explains what the offering includes, which features are available, and how to get started.
 
  
 

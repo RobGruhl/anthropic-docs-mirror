@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-08 19:16*
+*Last updated: 2026-07-08 22:06*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -391,7 +391,7 @@ Total documents: 259
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-08  
 
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
@@ -511,7 +511,7 @@ Total documents: 259
 ### How do I sign up for the Pro plan?
 **File:** `/docs-support/how-do-i-sign-up-for-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-08  
 
 ### How do I use the Workbench?
 **File:** `/docs-support/how-do-i-use-the-workbench.md`  
@@ -591,7 +591,7 @@ Total documents: 259
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-08  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -691,7 +691,7 @@ Total documents: 259
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-06-23  
+**Updated:** 2026-07-08  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
@@ -711,7 +711,7 @@ Total documents: 259
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-08  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -781,7 +781,7 @@ Total documents: 259
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
 **Source:** https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-08  
 
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
@@ -956,7 +956,7 @@ Total documents: 259
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-08  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -1291,7 +1291,7 @@ Total documents: 259
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  
 **Source:** https://support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-08  
 
 ### Why was my card declined?
 **File:** `/docs-support/why-was-my-card-declined.md`  
