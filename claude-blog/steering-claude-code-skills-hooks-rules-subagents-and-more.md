@@ -1,9 +1,9 @@
-# Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+# Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
 *June 18, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-# Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+# Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
 
 - CategoryClaude Code
 
@@ -30,6 +30,8 @@ Each method controls:
 The table below provides a quick summary of key differences across each method while the post provides additional detail and decision framework for determining where each of your Claude instructions belongs.
 
 ## The seven methods for delivering instructions
+
+There are seven ways to customize Claude Code's behavior: CLAUDE.md files for always-on project context, rules for hard constraints, skills for reusable procedures, subagents for delegated work, hooks for deterministic automation, and output styles or system-prompt appends for global changes. Each method trades context cost against authority—choosing the right one is most of the work.
 
 ### CLAUDE.md files
 
@@ -174,7 +176,7 @@ Appending the system prompt can have a higher context cost compared to other met
 
 Tip:Appending the system prompt is best for adding specific coding standards, output formatting, or domain-specific knowledge. Keep in mind that appending the system prompt has diminishing returns for adherence. Generally, the more instructions you provide using this method, the less strictly Claude will follow them, particularly if any contradict.
 
-## Quick tips for Claude Code customization
+## When to use each method
 
 If you find yourself doing one of the following, you may want to consider an alternative location for your instructions:
 
@@ -188,17 +190,27 @@ An API-specific rule without paths.If a rule only applies tosrc/api/**, scoping 
 
 Writing personal preferences to a project-level CLAUDE.md file.All file-based methods have a user-level counterpart loaded for every Claude Code session regardless of which repo you’re in. Use local files for personal preferences (always use semantic commit messages). Keep project-level files for preferences that are team-wide but specific to a given codebase.
 
-## Getting started
+## Getting started with Claude Code customization
 
 You can find more tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions, in our[best practices for Claude Code](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md)documentation.
 
 Once you have a few of these working, you can bundle many of them (skills, subagents, hooks, output styles) as a[plugin](https://code.claude.com/docs/en/plugins)to share a coherent setup across teammates or projects.
+
+This article was written by Michael Segner member of Anthropic staff.
 
 FAQ
 
 ## Related posts
 
 Explore more product news and best practices for teams building with Claude.
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
+
+### Getting started with loops
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+### Product management on the AI exponential
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
@@ -207,14 +219,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
 ### A harness for every task: dynamic workflows in Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
-### Lessons from building Claude Code: Prompt caching is everything
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
-### Choosing a Claude model and effort level in Claude Code
 
 ## Transform how your organization operates with Claude
 

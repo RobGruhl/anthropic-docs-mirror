@@ -1,5 +1,5 @@
 # Skills Topic Index
-*Last updated: 2026-07-08 13:46*
+*Last updated: 2026-07-08 16:29*
 
 Documents related to Skills across all sources (131 documents)
 ---
@@ -139,7 +139,7 @@ Documents related to Skills across all sources (131 documents)
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
-- [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [Verbesserung des Frontend-Designs durch Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
 - [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [エージェントスキルの紹介](/claude-blog/skills.md) - ![](https://cdn

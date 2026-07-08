@@ -39,7 +39,7 @@ We’ll cover the main loop types, when to use each, and how to maintain code qu
 
 ## Turn-based loops
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98c_8ace2295.png)
+![Di](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a43eb603762e725a739d98c_8ace2295.png)
 
 - Triggered by: A user prompt.
 
@@ -53,7 +53,9 @@ Every prompt you send starts a manual loop with you directing each turn. Claude 
 
 For example, ask Claude to create a like button. It reads your code, makes the edit, runs the tests, and hands back something itbelievesworks. You then manually check the work, and write the next prompt.
 
-You can improve the verification step by encoding your manual steps as a SKILL.md so Claude can check more of its own work, end-to-end. This should include tools or connectors to allow Claude tosee,measureorinteractwith the result. The more quantitative the checks are, the easier it is for Claude to self-verify.
+You can improve the verification step by encoding your manual steps as a SKILL.md so Claude can check more of its own work, end-to-end. (For choosing between skills, hooks, and subagents for this kind of automation, see our guide to[steering Claude Code](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more).)
+
+This should include tools or connectors to allow Claude tosee,measureorinteractwith the result. The more quantitative the checks are, the easier it is for Claude to self-verify.
 
 For example, in your SKILL.md file you may specify:
 
@@ -200,6 +202,14 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+### Product management on the AI exponential
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
 ### Bringing Claude Code and Claude Cowork to government
@@ -207,14 +217,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
 ### A harness for every task: dynamic workflows in Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
-### Lessons from building Claude Code: Prompt caching is everything
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
-
-### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
 
 ## Transform how your organization operates with Claude
 

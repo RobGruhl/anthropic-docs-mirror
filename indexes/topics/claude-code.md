@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-08 13:46*
+*Last updated: 2026-07-08 16:29*
 
 Documents related to Claude Code across all sources (275 documents)
 ---
@@ -261,7 +261,7 @@ Documents related to Claude Code across all sources (275 documents)
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
-- [Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry](/claude-blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry.md) - ![](https://cdn
 - [Understand Claude Code’s impact with contribution metrics](/claude-blog/contribution-metrics.md) - ![](https://cdn
