@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783530000&signature=ecdfb3c249fbd6bbacf89bef1f8ce8937b0b71daf9d96157ee219f1d5954fe30&req=diAjFMp7n4FZWfMW1HO4zU6VRf7PS7xpxNdRzYWrfF5HOVPDV%2BY3VqzRTQeK%0A1QvD66wwfXsF6w5067I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783539900&signature=a1b7c64c9326f4d6a29080575b12d1770a797bd4bf9f3cf6753015285a5149c4&req=diAjFMp7n4FZWfMW1HO4zU6VRf7PS7VgxNdRzYWrfF5vNqlrLf%2FLg1hq4ZpQ%0AnOyXpraa%2Fo1%2BjrzRuM8%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783530000&signature=f14da7af74dabc11785d4cfc5f2b53e3210e088d643f82cb62c121bc539193ea&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmQY1AKy8OQfYsvK3x6qfWurtqeexR5tDfM%0A%2FwIgli9ICmcG9m%2BwmiI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783539900&signature=5ad003d37a683b3018b3ae6a33bb64aa0c3b403aa224ed1b6be37fdd0da1aa87&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmQY1kDy8OQfYsvK3zhAIa%2BKg20KfLZkGO8%0AC41UCLml5%2F3vdgTc%2BWA%3D%0A)
 
  
 

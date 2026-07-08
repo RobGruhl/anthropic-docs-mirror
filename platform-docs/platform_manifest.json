@@ -15505,10 +15505,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/skills-guide",
-      "hash": "a920f300b32b35e1be685aef4f1f643437e627c0c89fdb890a7d869d2cf37fe4",
+      "hash": "a928be19c3c97c09ff9d58d66cc4327b92aabbc6611fa1d00ee7921e5e81a743",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-01T00:32:44.186238"
+      "last_updated": "2026-07-08T19:08:53.090957"
     },
     "build-with-claude__streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
@@ -16005,10 +16005,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/files.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/files",
-      "hash": "524dde3223921143cded10ecd468e69cbb8d23fb6d32deac4394b5340a2c9bd4",
+      "hash": "4d7d18bfe2236a6075bd535d1fa19393c70fdca053e1ddddbf39c872610fb09c",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.811382"
+      "last_updated": "2026-07-08T19:08:53.096824"
     },
     "managed-agents__github.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/github",
@@ -16202,13 +16202,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-08T16:25:02.126852",
-    "fetch_duration_seconds": 25.392715,
+    "last_fetch_completed": "2026-07-08T19:08:53.105280",
+    "fetch_duration_seconds": 31.705902,
     "total_pages_discovered": 1877,
     "pages_fetched_successfully": 1620,
     "pages_failed": 257,
-    "pages_unchanged": 1620,
-    "pages_updated": 0,
+    "pages_unchanged": 1618,
+    "pages_updated": 2,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16483,5 +16483,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-08T16:25:02.127056"
+  "last_updated": "2026-07-08T19:08:53.105471"
 }

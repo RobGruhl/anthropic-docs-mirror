@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-08 16:29*
+*Last updated: 2026-07-08 19:16*
 Total documents: 1620
 ---
 ## Uncategorized (1620 documents)
@@ -1641,7 +1641,7 @@ Total documents: 1620
 ### build-with-claude__skills-guide
 **File:** `/platform-docs/build-with-claude__skills-guide.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/skills-guide  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-08  
 
 ### build-with-claude__streaming
 **File:** `/platform-docs/build-with-claude__streaming.md`  
@@ -5051,7 +5051,7 @@ Total documents: 1620
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/files  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-08  
 
 ### managed-agents__github
 **File:** `/platform-docs/managed-agents__github.md`  
