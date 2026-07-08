@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-08 01:53*
+*Last updated: 2026-07-08 05:46*
 
-Documents related to Claude Code across all sources (273 documents)
+Documents related to Claude Code across all sources (275 documents)
 ---
 ## Platform Documentation (platform.claude.com) (3)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -188,7 +188,7 @@ Documents related to Claude Code across all sources (273 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (88)
+## Claude.com Blog Posts (90)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -206,6 +206,7 @@ Documents related to Claude Code across all sources (273 documents)
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
 - [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn
 - [COBOL Modernization with AI: Breaking the Cost Barrier](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
+- [Choosing a Claude model and effort level in Claude Code](/claude-blog/claude-model-and-effort-level-in-claude-code.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
 - [Claude Code mit Plugins anpassen](/claude-blog/claude-code-plugins.md) - ![](https://cdn
@@ -235,6 +236,7 @@ Documents related to Claude Code across all sources (273 documents)
 - [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
+- [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn

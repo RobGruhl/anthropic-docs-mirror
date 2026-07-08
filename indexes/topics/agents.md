@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-07-08 01:53*
+*Last updated: 2026-07-08 05:46*
 
-Documents related to Agents across all sources (135 documents)
+Documents related to Agents across all sources (137 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,7 +64,7 @@ Documents related to Agents across all sources (135 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (78)
+## Claude.com Blog Posts (80)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
@@ -85,6 +85,7 @@ Documents related to Agents across all sources (135 documents)
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
 - [Claude Code mit Plugins anpassen](/claude-blog/claude-code-plugins.md) - ![](https://cdn
+- [Claude Cowork is coming to mobile and web](/claude-blog/cowork-web-mobile.md) - ![](https://cdn
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn
 - [Claude Sonnet 4 now supports 1M tokens of context](/claude-blog/1m-context.md) - ![](https://cdn
 - [Claude in Microsoft Foundry is now generally available](/claude-blog/claude-in-microsoft-foundry.md) - ![](https://cdn
@@ -104,6 +105,7 @@ Documents related to Agents across all sources (135 documents)
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
+- [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn

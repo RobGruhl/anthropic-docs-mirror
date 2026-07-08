@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-07-08 01:53*
+*Last updated: 2026-07-08 05:46*
 
-Documents related to Tools across all sources (86 documents)
+Documents related to Tools across all sources (88 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,7 +40,7 @@ Documents related to Tools across all sources (86 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (53)
+## Claude.com Blog Posts (55)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
@@ -49,8 +49,10 @@ Documents related to Tools across all sources (86 documents)
 - [Building effective human-agent teams](/claude-blog/building-effective-human-agent-teams.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
 - [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
+- [Choosing a Claude model and effort level in Claude Code](/claude-blog/claude-model-and-effort-level-in-claude-code.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code mit Plugins anpassen](/claude-blog/claude-code-plugins.md) - ![](https://cdn
+- [Claude Cowork is coming to mobile and web](/claude-blog/cowork-web-mobile.md) - ![](https://cdn
 - [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
 - [Claude Managed Agents: get to production 10x faster](/claude-blog/claude-managed-agents.md) - ![](https://cdn

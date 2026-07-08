@@ -1,4 +1,5 @@
 # A harness for every task: dynamic workflows in Claude Code
+*June 2, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -8,15 +9,15 @@ Claude Code can now write and orchestrate its own multi-agent harness on the fly
 
 ‍
 
-- CategoriaNo items found.
+- CategoryClaude Code
 
-- ProdottoNo items found.
+- ProductNo items found.
 
-- Data2/6/26
+- DateJune 2, 2026
 
-- Tempo di lettura5min
+- Reading time5min
 
-- CondividiCopia linkhttps://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
+- ShareCopy linkhttps://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
 
 Last week, we released[dynamic workflows](https://code.claude.com/docs/en/workflows)in Claude Code. Claude can now write its own[harness](https://code.claude.com/docs/en/glossary#agentic-harness)on the fly, custom-built for the task at hand.
 
@@ -192,6 +193,8 @@ Workflows are new. While there are many use cases where it will create outsized 
 
 It’s best to use workflows creatively to push Claude Code in ways that you haven’t previously. For regular coding tasks, try and ask yourself: does it really need more compute? For example, most traditional coding tasks do not need a panel of 5 reviewers.
 
+The same judgment applies one level up, at the architecture layer: the[multi-agent vs single agent](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them)decision follows similar logic — parallelism and specialization have to earn their coordination cost.
+
 ## Tips for building dynamic workflows
 
 ### Prompting
@@ -234,18 +237,34 @@ This article was written by Thariq Shihipar and Sid Bidasaria, members of techni
 
 FAQ
 
-## Articoli correlati
+## Related posts
 
-Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
+Explore more product news and best practices for teams building with Claude.
 
-## Trasforma le operazioni della tua azienda con Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
-Ricevi la newsletter sullo sviluppo
+### Bringing Claude Code and Claude Cowork to government
 
-Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
 
-Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
+### Lessons from building Claude Code: Prompt caching is everything
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+
+### Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+
+### Choosing a Claude model and effort level in Claude Code
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/it/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
+**Source:** https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
