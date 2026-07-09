@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783620000&signature=41525aa4f0a8efe3bcdf5e6b92f2aaa5dc9f788b1688fa1224101405efe13cea&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U70EMA%2Bxl6PawEblZV1xcqX7DhbfeY3FM%0A8aC659XNOMh2FN1%2FiRLRosYEGn4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783627200&signature=1f34e5bb560867d8afed578f247c4211b022f3ff5ed19caf0ef1982172eda9e7&req=diMmFMh3noJbXvMW1HO4zXhPndMwyhhjufhmlOXMdYaTT4irwGWHdICYoqau%0AAskeslFrbUF%2F1%2FSNrZ0%3D%0A)
 
  
 
