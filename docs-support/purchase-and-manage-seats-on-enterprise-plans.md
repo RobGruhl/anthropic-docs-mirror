@@ -1,6 +1,6 @@
 # Purchase and manage seats on Enterprise plans
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -28,7 +28,7 @@ Enterprise plans require a minimum of 20 seats.
 
  
 
-## Add seats
+## Purchase new seats
 
 You can add seats to your Enterprise plan at any time during your annual term. New seats are prorated for the remainder of your billing cycle and charged immediately.
 
@@ -125,8 +125,8 @@ Some existing usage-based Enterprise organizations currently have two seat types
 
 | **Seat type** | **What's included** |
 | --- | --- |
-| **Chat** | Claude on web, desktop, and mobile apps |
-| **Chat + Claude Code** | Everything in Chat, plus Claude Code access |
+| Chat | Claude on web, desktop, and mobile apps |
+| Chat + Claude Code | Everything in Chat, plus Claude Code access |
 
 You can mix and match seat types based on your team's needs. Assign Chat + Claude Code seats to team members who need coding workflows, while keeping others on Chat seats.
 
@@ -141,7 +141,11 @@ You can move users between Chat and Chat + Claude Code seats within your existin
 3. Click the dropdown under **Tier**.
 4. Select "Chat" or "Chat + Claude Code."
 
-Members moved from Chat + Claude Code to Chat will lose Claude Code access, and vice versa. If you try to assign a user to Chat + Claude Code but don't have any available seats of that type, you'll be prompted to purchase one.
+Members moved from Chat + Claude Code to Chat will lose Claude Code access, and vice versa.
+
+ 
+
+The **Tier** dropdown only shows seat types your plan already owns. If your plan includes Chat + Claude Code seats but they're all assigned, you'll be prompted to purchase one. If your plan has no seats of that type, see **[Purchase new seats](#h_91344d9191)** above to add one first.
 
  
 
@@ -191,8 +195,8 @@ Some Enterprise organizations are on older seat-based plans with a different bil
 
 | **Seat type** | **What's included** |
 | --- | --- |
-| **Standard** | Core Enterprise features and usage limits |
-| **Premium** | Everything in Standard, plus higher usage limits |
+| Standard | Core Enterprise features and usage limits |
+| Premium | Everything in Standard, plus higher usage limits |
 
 ### Reassign users between seat types
 
@@ -207,7 +211,7 @@ Members moved from Premium to Standard will have lower usage limits, and vice ve
 
  
 
-If you try to reassign a user to Premium but don't have any available Premium seats, you'll be prompted to purchase an additional seat.
+The **Tier** dropdown only shows seat types your plan already owns. If your plan includes Premium seats but they're all assigned, reassigning another user to Premium will prompt you to purchase an additional seat. If your plan has no seats of that type, see **[Purchase new seats](#h_91344d9191)** above to add one first.
 
  
 
@@ -244,8 +248,8 @@ At your next contract renewal, your plan will transition to the usage-based sing
 
 ## Related Articles
 
-- [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
 - [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
+- [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)

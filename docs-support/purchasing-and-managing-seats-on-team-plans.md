@@ -6,7 +6,7 @@
 
 Seat management allows Team plan owners to control their organization's seat allocation, assign users to different seat types, and manage billing. For pricing and billing details, see **[How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)**
 
-For information on adding and removing members from your organization, see **[Managing members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)**.
+For information on adding and removing members from your organization, see **[Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750)**.
 
  
 
@@ -35,7 +35,7 @@ Your plan has a total seat allocation (e.g., 30 Standard seats and 10 Premium se
 
  
 
-## Purchasing new seats
+## Purchase new seats
 
 Follow these steps to add seats to your plan's total allocation:
 
@@ -54,7 +54,7 @@ Follow these steps to add seats to your plan's total allocation:
 
  
 
-## Reducing your seat allocation
+## Reduce your seat allocation
 
 You can reduce the total number of seats on your Team plan:
 
@@ -72,7 +72,7 @@ You can reduce the total number of seats on your Team plan:
 
  
 
-## Assigning and reassigning seat types
+## Assign and reassign seat types
 
 You can move users between Standard and Premium seats within your existing allocation.
 
@@ -89,11 +89,13 @@ Members moved from Premium to Standard will have lower usage limits, and vice ve
 
  
 
-## Upgrading a Standard seat to Premium
-
-Upgrading a member from Standard to Premium is a reassignment, not a new purchase. You don't need to buy an additional seat unless your Premium allocation is already full.
+---
 
  
+
+## Upgrade a Standard seat to Premium
+
+Upgrading a member from Standard to Premium is a reassignment, not a new purchase. You don't need to buy an additional seat unless your Premium allocation is already full.
 
 1. Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 
@@ -105,17 +107,17 @@ Upgrading a member from Standard to Premium is a reassignment, not a new purchas
 
  
 
-If you have no available Premium seats, you'll be prompted to purchase one at this point.
-
- 
-
-The upgrade is prorated based on your billing cycle, and you'll be charged the price difference immediately.
+If your plan includes Premium seats but they're all assigned, you'll be prompted to purchase an additional one at this point. The upgrade is prorated based on your billing cycle, and you'll be charged the price difference immediately.
 
  
 
 ### What if I don't have an available seat?
 
-If you try to reassign a user to Premium but don't have any available Premium seats, you'll then be prompted to purchase an additional Premium seat.
+If your plan includes Premium seats but they're all assigned, reassigning another user to Premium will prompt you to purchase an additional Premium seat. If your plan has no Premium seats at all, see **[Purchase new seats](#h_f05a756e78)** above to add one first.
+
+ 
+
+---
 
  
 
@@ -131,6 +133,10 @@ Selecting **No seat assigned** lets you temporarily remove a user from a seat wi
 2. Find User A and change their seat tier to "No seat assigned." This frees up one Premium seat.
 3. Find User B and change their seat tier to "Premium." They now occupy the available Premium seat.
 4. Find User A and change their seat tier to "Standard."
+
+ 
+
+---
 
  
 

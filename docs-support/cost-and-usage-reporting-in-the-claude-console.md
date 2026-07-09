@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1783609200&signature=832960d69518a771c45c45de16019145467138d82af2e23d67dfbbd15565db86&req=dSUvEs97mYNeXvMW1HO4zYCWiScegc%2BYuqqBX2puyxS2RVA0bb%2BVah%2BRmjoq%0A%2FxIdJ7FJDcQqlmdDM%2FY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1783619100&signature=3fa10962cff483ca3d0a056ee69503d17f723bade9a6e03b23678bb9572c999c&req=dSUvEs97mYNeXvMW1HO4zYCWiScegM%2BbuqqBX2puyxSTejjcpClK%2FvO07qd%2B%0AExla1ZFeDcsZXMWkDnk%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1783609200&signature=ac9c1256f11e8b22d006ae306b0fa4ef20d8dcb89250edf704a5805e69c7c299&req=dSUvEs94mYJdWPMW1HO4zQwER3AsIYZkqMITUZbanFBqJlYViHXdLnOriLll%0AmVxelVcZ5q6%2F18cACRI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1783619100&signature=ab9d65adcfb4e01512b9635fbeaeb6be2a39db83fb936e13a2fb10dd2415ba30&req=dSUvEs94mYJdWPMW1HO4zQwER3AsIIZnqMITUZbanFDknix2NZtwkVPG%2BiLK%0AuwGSbI9ogimCPDi0MYk%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1783609200&signature=82cee08ce11d4bd063be8bb0d104f8767b0349a897b119b700469d1926be84d6&req=dSUvEs93noJXX%2FMW1HO4zRxEwWhL5lhu21D6pckxWMbSr%2F780Lg8kyQXnF6J%0AUaJbgn%2BwRgL3rRgwbO8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1783619100&signature=9c579c26262a2aeea3ed8af6837b451c5dc0513c8d63ed1252f72fafd2230483&req=dSUvEs93noJXX%2FMW1HO4zRxEwWhL51ht21D6pckxWMZQLhV0IJY6GiTJINt5%0A9CBEsCcudAywFgQmDNg%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1783609200&signature=b7954a98bed277da48ae04fe3c774dea69fe145d292dd8135f3313fa8d769017&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5%2FFU9ljCyIF5nuUsbyOh1y5%2BKIIX7E6OLnX%0AhOPrhwj4zSMB4fJzirs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1783619100&signature=64859376efe3419152189c4e4916bdf0b33c8ca80c80558df27c66f8afa62e63&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5%2FFUtlgCyIF5nuUsbyBfiR45i0vJzQ5vSDR%0ANCR5Vcc6VsWD%2Bzhkp7Y%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 ## Related Articles
 
 - [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

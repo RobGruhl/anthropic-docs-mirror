@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-09 14:39*
+*Last updated: 2026-07-09 17:16*
 Total documents: 259
 ---
 ## Uncategorized (259 documents)
@@ -26,7 +26,7 @@ Total documents: 259
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
 **File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
@@ -76,7 +76,7 @@ Total documents: 259
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
 **Source:** https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
@@ -631,7 +631,7 @@ Total documents: 259
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-09  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -721,7 +721,7 @@ Total documents: 259
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-09  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -831,12 +831,12 @@ Total documents: 259
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-09  
 
 ### Purchase and manage seats on Team plans
 **File:** `/docs-support/purchasing-and-managing-seats-on-team-plans.md`  
 **Source:** https://support.claude.com/en/articles/12004354-purchasing-and-managing-seats-on-team-plans  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-09  
 
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
@@ -1046,12 +1046,12 @@ Total documents: 259
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  

@@ -1,6 +1,6 @@
 # Manage members on Team and Enterprise plans
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -106,7 +106,7 @@ Invites sent by members follow the same domain restrictions as other join method
 
 Admins can enable or disable member-to-member invites from the admin settings. When disabled, only admins can send invitations. Invitees added through member invites are assigned the default member role and placed in the lowest available seat tier.
 
-## 
+ 
 
 ---
 
