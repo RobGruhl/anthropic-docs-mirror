@@ -1,5 +1,5 @@
 # Agents Topic Index
-*Last updated: 2026-07-09 02:06*
+*Last updated: 2026-07-09 06:40*
 
 Documents related to Agents across all sources (137 documents)
 ---
@@ -69,7 +69,6 @@ Documents related to Agents across all sources (137 documents)
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
-- [Best Practices für Prompt-Engineering](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
@@ -144,5 +143,6 @@ Documents related to Agents across all sources (137 documents)
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
 - [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
 - [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
+- [プロンプトエンジニアリングのベストプラクティス](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn
 - [동적 필터링을 통해 웹 검색 정확도와 효율성 향상](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 

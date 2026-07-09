@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-07-09 02:06*
+*Last updated: 2026-07-09 06:40*
 
-Documents related to Api across all sources (146 documents)
+Documents related to Api across all sources (147 documents)
 ---
 ## Platform Documentation (platform.claude.com) (99)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -104,7 +104,7 @@ Documents related to Api across all sources (146 documents)
 - [typescript__beta__skills__versions__list](/platform-docs/api-reference/typescript__beta__skills__versions__list.md)
 - [typescript__beta__skills__versions__retrieve](/platform-docs/api-reference/typescript__beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (47)
+## Claude.com Blog Posts (48)
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
@@ -149,6 +149,7 @@ Documents related to Api across all sources (146 documents)
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
 - [Token-saving updates on the Anthropic API](/claude-blog/token-saving-updates.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
+- [Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work](/claude-blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work.md) - ![](https://cdn
 - [Workspaces in the Anthropic API Console](/claude-blog/workspaces.md) - ![](https://cdn
 - [エージェントスキルの紹介](/claude-blog/skills.md) - ![](https://cdn
 - [동적 필터링을 통해 웹 검색 정확도와 효율성 향상](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn

@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-09 02:06*
+*Last updated: 2026-07-09 06:40*
 
-Documents related to Claude Code across all sources (275 documents)
+Documents related to Claude Code across all sources (277 documents)
 ---
 ## Platform Documentation (platform.claude.com) (3)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -188,7 +188,7 @@ Documents related to Claude Code across all sources (275 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (90)
+## Claude.com Blog Posts (92)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -201,6 +201,7 @@ Documents related to Claude Code across all sources (275 documents)
 - [Best practices for getting started with Claude Cowork](/claude-blog/best-practices-for-getting-started-with-claude-cowork.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
 - [BrexがClaude Codeを活用してコードの品質と生産性を向上させた方法](/claude-blog/how-brex-improves-code-quality-and-productivity-with-claude-code.md) - ![](https://cdn
+- [Bringing Claude Code and Claude Cowork to government](/claude-blog/bringing-claude-code-and-claude-cowork-to-government.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
@@ -272,6 +273,7 @@ Documents related to Claude Code across all sources (275 documents)
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Wir testen Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
+- [Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work](/claude-blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work.md) - ![](https://cdn
 - [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [エージェントスキルの紹介](/claude-blog/skills.md) - ![](https://cdn
 - [レスポンシブWebレイアウトを構築](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn

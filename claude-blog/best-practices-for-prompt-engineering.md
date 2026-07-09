@@ -1,436 +1,436 @@
-# Best Practices für Prompt-Engineering
+# プロンプトエンジニアリングのベストプラクティス
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
 
-# Best Practices für Prompt-Engineering
+# プロンプトエンジニアリングのベストプラクティス
 
-Mit den Prompt-Engineering-Techniken des Teams von Claude erzielen Sie noch bessere KI-Ergebnisse.
+Claude を支えるチームのプロンプトエンジニアリング手法で、より良い AI 結果を実現しましょう。
 
-- KategorieAgenten
+- カテゴリエージェント
 
-- ProduktClaude Apps
+- 製品Claudeのアプリ
 
-- Datum10.11.2025
+- 日付2025-11-10
 
-- Lesezeit5Min
+- 所要時間5分
 
-- TeilenLink kopierenhttps://claude.com/blog/best-practices-for-prompt-engineering
+- 共有リンクをコピーhttps://claude.com/blog/best-practices-for-prompt-engineering
 
-[Kontext-Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)hat sich als immer wichtigerer Bestandteil von LLMs herausgestellt, wobei das Prompt-Engineering ein wesentlicher Baustein ist.
+[コンテキストエンジニアリング](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)は LLM を活用する上で重要な要素として浮上しており、プロンプトエンジニアリングはその不可欠な基盤となっています。
 
-[Prompt-Engineering](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)ist die Strukturierung von Anweisungen, um bessere Ergebnisse aus den KI-Modellen zu erhalten. Es beschäftigt sich damit, wie man Abfragen formuliert, einen Stil spezifiziert, den Kontext bereitstellt und das Verhalten des Modells steuert, um seine Ziele zu erreichen.
+[プロンプトエンジニアリング](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)は AI モデルからより良い出力を得るために命令を構造化する手法です。目標達成のためのクエリの表現方法、スタイルの指定方法、コンテキストの提供方法、モデルの挙動の誘導方法などです。
 
-Der Unterschied zwischen einer vagen Anweisung und einem gut erstellten Prompt kann darüber bestimmen, ob Sie generische Ergebnisse oder genau das erhalten, was Sie brauchen. Ein schlecht strukturierter Prompt erfordert möglicherweise mehrere Anläufe, um die Absicht zu klären, während ein gut formulierter Prompt beim ersten Mal das gewünschte Ergebnis erzielt.
+曖昧な指示と上手く作られたプロンプトとの違いは、汎用的な出力とまさに必要なものとの間にあるギャップを意味します。構造が不十分なプロンプトでは意図を明確にするために何度もやり取りを繰り返す必要がある場合がありますが、上手く設計されたプロンプトでは一発で目的を達成できます。
 
-Um Ihnen den Start zu erleichtern, haben wir einige Best Practices unseres Teams zusammengestellt, einschließlich praktischer Methoden, die Ihre Ergebnisse sofort verbessern können. Wir beginnen mit einfachen Gewohnheiten, die Sie direkt anwenden und später auf erweiterte Methoden für komplexe Projekte ausweiten können.
+すぐに利用開始できるよう、チームのベストプラクティスをいくつかまとめました。これにはすぐに成果を向上させるための実践的なメソッドが含まれています。今日からできるシンプルな習慣から始め、複雑なプロジェクト向けの高度なメソッドへと段階的に進めていきます。
 
-## So wenden Sie Prompt-Engineering an
+## プロンプトエンジニアリングの使い方
 
-Prompt-Engineering modifiziert quasi die Abfrage an Ihr LLM. Oft geht es darum, Informationen zur Abfrage hinzuzufügen, bevor Sie Ihre eigentliche Abfrage stellen. Aber zu wissen,welcheInformationen dierichtigensind, ist das Geheimnis für die Entwicklung eines großartigen und effektiven Prompts.
+最も基本的なレベルでいうと、プロンプトエンジニアリングは単に LLM を通過したクエリを修正します。実際のリクエストを行う前に単にクエリに情報を追加するだけの場合が多いですが、どの情報を共有するのが適切かを見極めることが、効果的なプロンプトを構築するための鍵です。
 
-### Kerntechniken
+### コアテクノロジー
 
-Diese Prompt-Engineering-Techniken bilden die Grundlage für effektive KI-Interaktionen. Verwenden Sie sie konsequent, um sofortige Verbesserungen in der Antwortqualität zu erzielen.
+これらのプロンプトエンジニアリング手法は、効果的な AI インタラクションの基盤を形成します。一貫して使用することで、応答品質の即時の改善が見られます。
 
-#### Drücken Sie sich klar und deutlich aus
+#### 明示的かつ明確に
 
-Moderne KI-Modelle reagieren außergewöhnlich gut auf klare, explizite Anweisungen. Gehen Sie nicht davon aus, dass das Modell sich herleitet, was Sie wollen, sondern geben Sie es konkret an. Verwenden Sie einfache Sprache, die genau sagt, was Sie wollen, ohne Mehrdeutigkeit.
+最新の AI モデルは、明確で明示的な指示に非常によく反応します。モデルがお客様の要望を推測してくれるとは考えずに、直接言明してください。曖昧でなく、望むことを正確に伝える簡単な言葉を使用しましょう。
 
-Das Schlüsselprinzip: Sagen Sie dem Modell genau, was Sie haben möchten. Wenn Sie einen umfassenden Bericht wünschen, fragen Sie danach. Wenn Sie bestimmte Funktionen benötigen, listen Sie diese auf. Moderne Modelle wie Claude profitieren insbesondere von expliziten Anweisungen.
+主な原則は、「何を見たいかをモデルに正確に伝えること」です。包括的な出力を望む場合は、それをリクエストします。特定の機能を希望する場合は、それを列挙します。Claude のような最新のモデルは特に、明示的な指示の恩恵を受けます。
 
-Beispiel: Erstellung eines Analyse-Dashboards
+例：分析ダッシュボードの作成
 
-Vage: „Erstelle eine Analyse-Dashboard“
+曖昧：「分析ダッシュボードを作成してください。」
 
-Explizit: „Erstellen ein Analyse-Dashboard. Fügen Sie so viele relevante Funktionen und Interaktionen wie möglich hinzu. Gehe über die Grundlagen hinaus, um eine Implementierung mit allen Funktionen zu erstellen."
+明示的：「分析ダッシュボードを作成してください。できるだけ多くの関連機能とインタラクションを含めます。基本的な作業にとどまらず、フル機能の実装を作成します。」
 
-Die zweite Version fordert explizit umfassende Funktionen und signalisiert, dass das Modell über das Minimum hinausgeht.
+2つ目は包括的な機能を明示的に要求し、モデルに最低限以上のことを求めていることを示しています。
 
-Best Practices:
+ベストプラクティス：
 
-- Führe Aktionsverben ein: „Schreiben“, „Analysieren“, „Generieren“, „Erstellen“
+- 「書く」、「分析」、「生成」、「作成」など直接的な動作動詞で始める
 
-- Präambel überspringen und direkt zur Anfrage kommen
+- 前置きは省いてすぐにリクエストを提示する
 
-- Geben Sie an, was die Ergebnisse enthalten sollen, nicht nur woran gearbeitet werden soll
+- 作業内容だけでなく、出力に何を含めたいかを述べる
 
-- Geben Sie genaue Angaben zu Qualität und Tiefe an
+- 品質と深度の期待値を具体的に示す
 
-#### Kontext und Motivation liefern
+#### コンテキストと動機付けを提供
 
-Zu erklären,warumetwas wichtig ist, hilft KI-Modellen, Ihre Ziele besser zu verstehen und gezieltere Antworten zu liefern. Dies ist besonders effektiv bei neueren Modellen, die über die Ziele nachdenken können.
+なぜ重要なのかを説明することで、AI モデルはお客様の目標をより深く理解し、よりターゲットを絞った応答をできるようになります。これは、基本的な目的について推論できる新しいモデルで特に効果的です。
 
-Beispiel: Formatierungseinstellungen
+例：書式設定
 
-Weniger effektiv: „NIEMALS Bulletins verwenden“
+あまり効果的でない：「箇条書きは使用しないでください。」
 
-Effektiver: „Ich bevorzuge Antworten in natürlicher Absätze, da ich Prosa leichter lesbar und konversationsfreundlicher finde. Bulletpoints wirken sich zu formell und listenähnlich für meinen legeren Lernstil an.“
+より効果的：「流れるような文は読みやすく会話調に感じられるため、箇条書きではなく自然な段落形式の応答を好みます。私のカジュアルな学習スタイルでは、箇条書きは堅苦しくリストのように感じられます。」
 
-Die zweite Version hilft dem Modell, die Gründe für die Regel zu verstehen, sodass bessere Entscheidungen über die Formatierung getroffen werden können.
+2つ目は、モデルがルールの背後にある推論を理解するのに役立ちます。これにより、関連する書式設定の選択についてより良い判断を下すことができます。
 
-Um den Kontext zu erläutern:
+コンテキストを提供するタイミング：
 
-- Zweck oder Zielgruppe des Produkts erklären
+- 出力の目的または対象者について説明する
 
-- Klärung, warum bestimmte Einschränkungen bestehen
+- 特定の制約が存在する理由を明確にする
 
-- Beschreibung, wie die Ergebnisse verwendet werden
+- 出力結果がどのように使用されるかを説明する
 
-- Angabe des Problems, das Sie lösen möchten
+- 解決しようとしている問題が何であるかを示す
 
-#### Spezifisch sein
+#### 具体的に説明
 
-Prompt-Engineering erfordert die Strukturierung Ihrer Anweisungen mit expliziten Richtlinien und Anforderungen. Je genauer man seine Wünsche formuliert, desto besser sind die Ergebnisse.
+プロンプトエンジニアリングにおける具体性とは、明確なガイドラインと要件で指示を構造化することを意味します。望むものについて具体的に説明するほど、結果は良くなります。
 
-Beispiel: Essensplanung
+例：食事計画
 
-Vague: „Einen Speiseplan für eine mediterrane Ernährung erstellen“
+曖昧：「地中海式食生活の食事計画を作成してください。」
 
-Spezifisch: „Entwickeln Sie einen mediterranen Ernährungsplan für die Behandlung von Prädiabetikern. 1.800 Kalorien täglich, Schwerpunkt auf Lebensmitteln mit niedrigem glykämischen Wert. Ich nenne Frühstück, Mittagessen, Abendessen und einen Snack mit vollständigen Nährwertangaben.“
+具体的：「前糖尿病管理のために地中海式食事計画を作成してください。1 日 1,800kcal、低 GI 食品を重点的に取り入れてください。朝食、昼食、夕食、おやつ 1 回を、栄養成分をすべて含めて列挙してください。」
 
-Was macht einen Prompt spezifisch genug?
+プロンプトを十分に具体的なものにするにはどうすればよいですか？
 
-Anforderungen:
+以下を含めてください。
 
-- Klare Einschränkungen (Wortzahl, Format, Zeitplan)
+- 明確な制約事項（文字数、形式、タイムライン）
 
-- Relevanter Kontext (wer ist die Zielgruppe, was ist das Ziel)
+- 関連するコンテキスト（対象は誰か？目標は何か？）
 
-- Gewünschte Ausgabestruktur (Tabelle, Liste, Absatz)
+- 希望する出力構造（表、リスト、段落）
 
-- Anforderungen oder Einschränkungen (diätetische Anforderungen, Budgetlimits, technische Einschränkungen)
+- 要件や制限事項（食事制限、予算制限、技術的制約）
 
-#### Beispiele verwenden
+#### 事例の活用
 
-Beispiele sind nicht immer notwendig, aber sie eignen sich hervorragend, um Konzepte zu erklären oder bestimmte Formate zu demonstrieren. Beispiele, die auch als One-Shot-Prompt bezeichnet werden, zeigen statt zu erzählen, und verdeutlichen subtile Anforderungen, die schwer allein in Beschreibung auszudrücken sind.
+必ずしも例示が必要なわけではありませんが、概念を説明したり特定の形式を示したりする際に効果を発揮します。One-Shot または Few-Shot プロンプティングとも呼ばれる事例は、説明というよりも示すものであり、記述だけでは表現が難しい微妙な要件を明確にします。
 
-Wichtiger Hinweis für moderne Modelle: Claude 4.x und ähnliche erweiterte Modelle achten sehr genau auf Details in Beispielen. Stellen Sie sicher, dass Ihre Beispiele an den Verhaltensweisen ausgerichtet sind, die Sie fördern möchten, und minimieren Sie alle Muster, die Sie vermeiden möchten.
+最新モデルに関する重要な注意事項：Claude 4.x および同様の高度なモデルは、例の詳細に非常に注意を払います。例が奨励したい行動と一致していることを確認し、避けたいパターンを最小限に抑えます。
 
-Beispiel: Artikelzusammenfassung
+例：記事の要約
 
-Ohne Beispiel: „Fasse diesen Artikel zusammen“
-
-```
-
-```
-
-Beispiele für diese Anwendung:
-
-- Das gewünschte Format ist einfacher darzustellen als zu beschreiben
-
-- Sie benötigen einen bestimmten Ton oder Stil
-
-- Die Aufgabe beinhaltet subtile Muster oder Konventionen
-
-- Einfache Anweisungen führten nicht zu konsistenten Ergebnissen
-
-Pro-Tipp: Beginnen Sie mit einem Beispiel (einmalig). Füge nur dann weitere Beispiele hinzu, wenn das Ergebnis immer noch nicht deinen Anforderungen entspricht.
-
-#### Claude die Erlaubnis geben, Unsicherheit auszudrücken
-
-Geben Sie der KI die ausdrückliche Erlaubnis, Unsicherheit auszudrücken, anstatt zu raten. Dies reduziert Halluzinationen und erhöht die Zuverlässigkeit.
-
-Beispiel: „Analysieren Sie diese Finanzdaten und identifizieren Sie Trends. Wenn die Daten nicht ausreichen, um Schlussfolgerungen zu ziehen, sollte man dies sagen, anstatt zu spekulieren.“
-
-Diese einfache Ergänzung macht die Antworten vertrauenswürdiger, da das Modell die Einschränkungen berücksichtigen kann.
-
-[Versuchen](https://claude.ai/)Sie es in Claude.
-
-## Erweiterte Prompt-Engineering-Techniken
-
-Diese Kerngewohnheiten bringen Sie ziemlich weit, aber Sie können immer noch Situationen finden, die anspruchsvollere Ansätze erfordern. Fortschrittliche Prompt-Engineering-Techniken eignen sich hervorragend, wenn Sie agentische Lösungen entwickeln, mit komplexen Datenstrukturen arbeiten oder mehrstufige Probleme lösen müssen.
-
-### Antwort der KI im Voraus ausfüllen
-
-Im Vorfeld können Sie die Antwort der KI erstellen, wobei Sie Format, Ton oder Struktur festlegen. Diese Technik ist besonders leistungsfähig, um Ausgabeformate durchzusetzen oder Präambel zu überspringen.
-
-Für die Vorauszahlung:
-
-- Sie benötigen die KI, um JSON, XML oder andere strukturierte Formate auszugeben
-
-- Sie möchten die Präambel überspringen und direkt zum Inhalt kommen
-
-- Sie müssen eine bestimmte Stimme oder Figur beibehalten
-
-- Sie möchten steuern, wie die KI mit der Reaktion beginnt
-
-Beispiel: Durchsetzung der JSON-Ausgabe
-
-Claude könnte ohne Vorankündigung sagen: „Hier ist der angeforderte JSON: {...}“
-
-Mit Vorabfüllen (API-Nutzung):
+例なし：「この記事を要約してください。」
 
 ```
 
 ```
 
-Die KI wird aus dem ersten Rang bestehen und nur gültiges JSON liefern.
+例を使用するタイミング：
 
-Hinweis: In Chat-Oberflächen kann dies annähernd angegeben werden, indem es sehr explizit formuliert: „Ausgabe nur als JSON ohne Präambel. Beginnen Sie Ihre Antwort mit einem ersten Satz.“
+- 希望する形式は説明するよりも示す方が簡単
 
-### Denkkette
+- 特定の雰囲気やスタイルが必要
 
-Bei der Gedankenkette (Chain of Thought, CoT) wird vor der Beantwortung eine Schritt-für-Schritt-Argumentation abgefragt. Diese Technik hilft bei komplexen analytischen Aufgaben, die vom strukturierten Denken profitieren.
+- タスクに微妙なパターンや規則が含まれている
 
-Moderner Ansatz: Claude bietet eine[erweiterte Denkfunktion](https://www.anthropic.com/news/visible-extended-thinking), die strukturiertes Denken automatisiert. Wenn es möglich ist, ist erweitertes Denken in der Regel der manuellen Denkkette vorzuziehen. Das Verständnis des manuellen CoT bleibt jedoch nützlich, wenn kein erweitertes Denken verfügbar ist oder wenn Sie transparente Argumente benötigen, die Sie überprüfen können.
+- 単純な指示では一貫した結果が得られない
 
-Wenn wir es in Gedanken verwenden:
+プロのヒント：まず 1 つの例（One-Shot）から始めます。出力内容が要望に合っていない場合にのみ、その他の例（Few-Shot）を追加します。
 
-- Erweitertes Denken ist nicht verfügbar (z. B. der kostenloseClaude.ai-Plan)
+#### Claude に不確定要素を示すことを許可
 
-- Sie benötigen transparente Argumente, die Sie überprüfen können
+推測ではなく不確定要素を示すことについて、AI に明示的に許可します。これにより幻覚を減らして信頼性を高めます。
 
-- Die Aufgabe erfordert mehrere Analyseschritte
+例：「この財務データを分析し、トレンドを特定してください。データが不十分で結論を導き出すことができない場合は、推測するのではなく、その旨をお伝えください。」
 
-- Sie möchten sicherstellen, dass die KI bestimmte Faktoren berücksichtigt
+この一文を追加してモデルが制限を認識できるようにすることで、応答の信頼性が向上します。
 
-Es gibt drei gängige Implementierungen der Gedankenkette:
+Claude でこれらを[試す](https://claude.ai/)
 
-Grundlegende Denkkette
+## 高度なプロンプトエンジニアリング手法
 
-Fügen Sie Ihren Anweisungen einfach „Schritt für Schritt denken“ hinzu.
+これらのコアな習慣はかなり役立ちますが、より洗練されたアプローチが必要な状況に直面する可能性があります。高度なプロンプトエンジニアリング手法は、エージェント型ソリューションの構築、複雑なデータ構造の操作、多段階の問題を分析する必要がある場合に有効です。
 
-```
+### AI の応答を事前入力
 
-```
+プレフィリングによって、AI の応答を開始する際、形式、トーン、構造などを指示できます。この手法は特に出力フォーマットを強制したりプリアンブルをスキップしたりする場合に強力です。
 
-Gedankengänge
+プレフィリングを使用するタイミング：
 
-Strukturieren Sie Ihren Prompt so, dass er bestimmte Reasoning-Phasen bereitstellt.
+- JSON、XML、その他の構造化形式を出力するために AI が必要
 
-```
+- 会話のプリアンブルをスキップして直接コンテンツに移動したい
 
-```
+- 特定の声やキャラクターを維持する必要がある
 
-Strukturierte Denkkette
+- AI による応答の開始を制御したい
 
-Verwenden Sie Tags, um die Gründe von der endgültigen Antwort zu trennen.
+例：JSON 出力の強制実行
 
-```
+プレフィリングなしの場合、Claude は「こちらががリクエストした JSON です：{...}」と言う可能性があります。
 
-```
-
-Hinweis: Selbst wenn erweitertes Denken verfügbar ist, kann ein explizites CoT-Prompt für komplexe Aufgaben immer noch von Vorteil sein. Die beiden Ansätze ergänzen sich, schließen sich nicht aus.
-
-### Steuerung des Ausgabeformats
-
-Für moderne KI-Modelle gibt es mehrere effektive Methoden, die Antwortformatierung zu kontrollieren:
-
-1. Sagen Sie der KI, was SIE NICHT machen soll
-
-Anstatt: „Verwenden Sie keinen Markdown in Ihrer Antwort“ Versuchen Sie: „Ihre Antwort sollte aus Prosabsätzen bestehen, die reibungslos fließen“
-
-2. Stimmen Sie den Prompt-Stil an die gewünschte Ausgabe ab
-
-Der Formatierungsstil, der in Ihrem Prompt verwendet wird, kann den Antwortstil der KI beeinflussen. Wenn Sie den Markdown minimieren möchten, reduzieren Sie den Markdown im Prompt
-
-3. Geben Sie die Formatierungspräferenzen an
-
-Zur detaillierten Kontrolle der Formatierung:
+プレフィリング使用時（API 使用状況）：
 
 ```
 
 ```
 
-### Prompte Verkettung
+AI は左中括弧から続いて、有効な JSON のみを出力します。
 
-Im Gegensatz zu den vorherigen Techniken kann das Prompt-Kettening nicht in einem einzigen Prompt implementiert werden. Die Kette zerlegt komplexe Aufgaben in kleinere sequentielle Schritte mit separaten Prompts. Jeder Prompt verarbeitet eine Stufe, und die Ausgabe wird in die nächste Anweisung eingearbeitet.
+注：チャットインターフェイスでは、非常に明示的に記述することでこれを近似的に示すことができます。（「プリアンブルなしで有効な JSON のみを出力してください。左中括弧から応答を開始してください。」）
 
-Dieser Ansatz tauscht die Latenz gegen eine höhere Genauigkeit aus, indem jede einzelne Aufgabe vereinfacht wird. Normalerweise würde diese Technik über Workflows oder programmgesteuert implementiert, aber Sie könnten die Prompts manuell bereitstellen, nachdem Sie die Antworten erhalten haben.
+### Chain-Of-Thought プロンプティング
 
-Beispiel: Forschungszusammenfassung
+Chain-Of-Thought（CoT）プロンプティングでは、回答する前に段階的な推論を要求します。この手法は、構造化思考の恩恵を受ける複雑な分析タスクに役立ちます。
 
-- Erster Prompt: „Fassen Sie dieses medizinische Papier zusammen, das Methodik, Ergebnisse und klinische Auswirkungen enthält.“
+最新のアプローチ：Claude は構造化推論を自動化する[拡張思考](https://www.anthropic.com/news/visible-extended-thinking)機能を提供します。利用可能な場合には、一般的には手動による Chain-Of-Thought プロンプティングよりも、[拡張思考](https://www.anthropic.com/news/visible-extended-thinking)の方が望ましいです。ただし、[拡張思考](https://www.anthropic.com/news/visible-extended-thinking)が利用できない状況や透明性のある推論が必要な場合においては、手動 CoT を理解することが依然として重要です。
 
-- Zweite Aufforderung: „Überprüfen Sie die obige Zusammenfassung auf Genauigkeit, Klarheit und Vollständigkeit. Geben Sie bewertetes Feedback.“
+Chain-Of-Thought を使用するタイミング：
 
-- Dritter Prompt: „Verbessern Sie die Zusammenfassung anhand des folgenden Feedbacks: [Feedback aus Schritt 2]“
+- 拡張思考が利用できない（無料のClaude.aiプラン）
 
-Jede Stufe verbessert die Kenntnisse durch fokussierten Unterricht.
+- 透明性のある、後から確認できる推論が必要
 
-Wenn es das Prompt-Chaining verwendet:
+- タスクに複数の分析ステップが必要
 
-- Sie haben eine komplexe Anfrage, die in mehrere Schritte aufgegliedert werden muss
+- AI に特定の要因を考慮させたい
 
-- Sie benötigen eine iterative Verfeinerung
+Chain-Of-Thought の一般的な実装方法には、次の 3 つがあります。
 
-- Sie führen eine mehrstufige Analyse durch
+基本の Chain-Of-Thought
 
-- Zwischenvalidierung bietet Mehrwert
-
-- Ein einziger Prompt liefert inkonsistente Ergebnisse
-
-Nachteil: Die Verkettung erhöht die Latenz (mehrere API-Aufrufe), verbessert jedoch oft die Genauigkeit und Zuverlässigkeit für komplexe Aufgaben erheblich.
-
-## Techniken, von denen Sie vielleicht gehört haben
-
-Einige Prompt-Engineering-Techniken, die bei früheren KI-Modellen populär waren, sind bei Modellen wie Claude weniger notwendig. Sie finden sie jedoch möglicherweise immer noch in älteren Dokumentationen oder in bestimmten Situationen nützlich.
-
-### XML-Tags zur Struktur
-
-XML-Tags wurden einst empfohlen, um Prompts Struktur und Klarheit zu verleihen, insbesondere bei der Integration großer Datenmengen. Obwohl moderne Modelle Strukturen ohne XML-Tags besser verstehen, können sie in bestimmten Situationen immer noch nützlich sein.
-
-Beispiel:
+指示に「段階的に考える」と追加するだけです。
 
 ```
 
 ```
 
-Wenn XML-Tags immer noch nützlich sind:
+ガイド付きの Chain-Of-Thought
 
-- Sie arbeiten mit extrem komplexen Prompts und mischen mehrere Content-Typen
-
-- Sie müssen sich der Content-Grenzen absolut sicher sein
-
-- Sie arbeiten mit älteren Modellversionen
-
-Moderne Alternative: In den meisten Anwendungsfällen funktionieren klare Überschriften, Leerräume und explizite Sprache („Unter Verwendung der Athleteninformationen unten…“) mit weniger Overhead genauso gut.
-
-### Rollenabfrage
-
-Die Rollenabfrage definiert die Experten und ihre Perspektiven bei der Formulierung Ihrer Frage. Dies kann effektiv sein, aber moderne Modelle sind so ausgefeilt, dass eine aufwändige Rollenabfrage oft überflüssig ist.
-
-Beispiel: „Sie sind Finanzberater. Analysieren Sie dieses Anlageportfolio..."
-
-Wichtiger Vorbehalt: Überlasten Sie die Rolle nicht. „Sie sind ein hilfreicher Assistent“ ist oft besser als „Sie sind ein weltbekannter Experte, der nur technischen Fachjargon spricht und niemals Fehler macht.“ Zu spezifische Rollen können den Nutzen der KI einschränken.
-
-Wenn die Rollenabfrage hilfreich sein könnte:
-
-- Sie benötigen einen konsistenten Ton für viele Ausgaben
-
-- Sie erstellen eine Bewerbung, die eine bestimmte Person benötigt
-
-- Sie möchten Fachwissen für komplexe Themen zusammenstellen
-
-Moderne Alternative: Oft ist es effektiver, die gewünschte Perspektive explizit anzugeben: „Analysieren Sie dieses Anlageportfolio und konzentrieren Sie sich auf die Risikotoleranz und das langfristige Wachstumspotenzial“, als eine Rolle zuzuweisen.
-
-[Versuchen Sie](https://preview.claude.ai/new)es mit Claude.
-
-## Alles zusammenfassen
-
-Man hat die einzelnen Techniken isoliert betrachtet, aber ihre wahre Leistungsfähigkeit kommt zum Tragen, wenn man sie strategisch kombiniert. Prompt-Engineering verwendet nicht jede verfügbare Technik, sondern die Auswahl der richtigen Kombination für Ihre spezifischen Anforderungen.
-
-Beispiel für die Kombination mehrerer Techniken:
+プロンプトを構造化して具体的な推論ステージを指定します。
 
 ```
 
 ```
 
-Dieser Prompt kombiniert:
+構造化された Chain-Of-Thought
 
-- Explizite Anweisungen (exakt zu extrahieren)
+タグを使用して推論と最終的な応答を分離します。
 
-- Kontext (warum das Format wichtig ist)
+```
 
-- Beispielstruktur (Format)
+```
 
-- Erlaubnis zur Ausdrucksform der Unsicherheit (Null verwenden, wenn unsicher)
+注：拡張思考が可能な場合でも、明示的な CoT プロンプティングを活用することは複雑なタスクにおいても有益な場合があります。この 2 つのアプローチは互いに排他的なものではなく、補完的な関係にあります。
 
-- Formatsteuerung (mit dem ersten Teil beginnen)
+### 出力形式を制御
 
-## Auswahl der richtigen Techniken
+最新の AI モデルでは、応答形式を制御する効果的な方法がいくつかあります。
 
-Nicht jeder Prompt benötigt jede Technik. Hier ist ein Entscheidungsrahmen:
+1. AI に「すべきでないこと」ではなく「すべきこと」を伝える
 
-Hier beginnen:
+「応答にマークダウンを使用しないでください」ではなく「応答はスムーズに流れる散文型の段落で構成してください」と記述します。
 
-- Ist Ihre Anfrage klar und explizit? Wenn nicht, dann erst Klarheit schaffen
+2. プロンプトスタイルを希望の出力に一致させる
 
-- Ist die Aufgabe einfach? Nur Kerntechniken verwenden (spezifisch, klar und im Kontext angeben)
+プロンプトで使用される形式のスタイルが AI の応答スタイルに影響を与える可能性があります。マークダウンを最小限に抑える場合は、プロンプトでマークダウンを減らします。
 
-- Benötigt die Aufgabe eine bestimmte Formatierung? Beispiele oder Vorfüllen verwenden
+3. 形式設定を明確に示す
 
-- Ist die Aufgabe komplex? Zersetzen (Ketten)
+形式に関する制御の詳細：
 
-- Muss es begründet werden? Verwenden Sie erweitertes Denken (falls verfügbar) oder Denkkette
+```
 
-‍Leitfaden zur Auswahl von Techniken:
+```
 
-## Fehlerbehebung bei Prompt-Problemen
+### プロンプトチェーニング
 
-Selbst gut gemeinte Prompts können unerwartete Ergebnisse liefern. Hier sind häufige Probleme und wie sie behoben werden:
+前の手法とは異なり、プロンプトチェーンを単一のプロンプトで実装することはできません。チェーニングは、複雑なタスクを個別のプロンプトを持つ小さな連続したステップに分割します。各プロンプトは 1 つのステージを処理し、出力は次の命令に入力されます。
 
-- Problem: Die Antwort ist zu allgemein→ Lösung: Fügen Sie Spezifischkeiten, Beispiele oder explizite Anforderungen hinzu, um umfassende Ergebnisse zu erzielen. Bitten Sie die KI, „über die Grundlagen hinauszugehen“.
+このアプローチは、個々のタスクを容易にすることで、レイテンシーと引き換えに精度を向上させます。通常、この手法はワークフローまたはプログラムで実装されますが、応答を受け取った後に手動でプロンプトを指定することもできます。
 
-- Problem: Die Antwort ist offtopic oder verfehlt den Punkt→ Lösung: Geben Sie Ihr tatsächliches Ziel an. Geben Sie den Kontext an, warum Sie fragen.
+例：研究の概要
 
-- Problem: Antwortformat ist inkonsistent→ Lösung: Fügen Sie Beispiele hinzu (wenige) oder verwenden Sie das Prefill zur Steuerung des Beginns der Antwort.
+- 最初のプロンプト：「方法論、結果、臨床的意味合いについてのこの医学論文を要約してください。」
 
-- Problem: Aufgabe ist zu komplex, die Ergebnisse sind unzuverlässig→ Lösung: Mehrere Prompts erstellen (Ketten), Jeder Prompt sollte eine Aufgabe erfüllen.
+- 2 番目のプロンプト：「上記の要約で正確性、明確性、完全性を確認してください。段階的なフィードバックを提供してください。」
 
-- Problem: KI enthält unnötige Präambel→ Lösung: Vorfüllen verwenden oder explizit fragen: „Überspringen Sie die Präambel und kommen Sie direkt zur Antwort.“
+- 3 番目のプロンプト：「次のフィードバックに基づいて要約を改善してください：[ステップ 2 のフィードバック]」
 
-- Problem: KI erfindet Informationen→ Lösung: Erlauben Sie explizit die Angabe, „Ich weiß nicht“ zu sagen, wenn es unsicher ist.
+各段階では、焦点を絞った指示によってより洗練されます。
 
-- Problem: KI schlägt Änderungen vor, wenn sie implementiert werden sollten→ Lösung: Geben Sie die Aktion an: „Ändern Sie diese Funktion“ anstatt „Können Sie Änderungen vorschlagen?“
+プロンプトチェーニングを使用するタイミング：
 
-Pro-Tipp: Starten Sie einfach und fügen Sie Komplexität hinzu, wenn es nötig ist. Testen Sie jede Ergänzung, um zu sehen, ob sie die Ergebnisse tatsächlich verbessert.
+- 段階ごとに細分化すべき複雑なリクエストがある
 
-## Häufige Fehler zu vermeiden
+- 反復的な微調整が必要
 
-Lernen Sie aus diesen häufigen Fallen, um Zeit zu sparen und Ihre Prompts zu verbessern:
+- 段階的分析を行っている
 
-- Nicht übertreiben: Länger, komplexere Prompts sind NICHT immer besser.
+- 中間検証で付加価値を高める
 
-- Vergessen Sie nicht, dass erweiterte Techniken nicht helfen, wenn Ihr Kernprompt unklar oder vage ist.
+- 単一プロンプトで一貫した結果が生じる
 
-- Gehen Sie nicht davon aus, dass die KI Gedanken liest: Geben Sie genau an, was Sie möchten. Wenn die Dinge mehrdeutig sind, kann die KI falsch interpretieren.
+トレードオフ：チェーニングはレイテンシーを増加させます（複数回の API 呼び出し）が、多くの場合、複雑なタスクでの精度と信頼性を劇的に向上させます。
 
-- Verwenden Sie nicht alle Techniken gleichzeitig: Wählen Sie Techniken aus, die Ihre spezifischen Herausforderungen erfüllen.
+## 認知度の高い手法
 
-- Vergessen Sie nicht, es zu wiederholen: Der erste Prompt funktioniert selten perfekt. Testen und verfeinern.
+以前の AI モデルで人気があったプロンプトエンジニアリング手法の一部は、Claude などのモデルではそれほど必要ありません。ただし、古いドキュメントでもこのようなことがあったり、特定の状況で役に立つと感じたりする可能性があります。
 
-- Verlassen Sie sich nicht auf veraltete Techniken: XML-Tags und umfangreiche Rollenabfragen sind bei modernen Modellen weniger notwendig. Beginnen Sie mit klaren Anweisungen.
+### 構造用の XML タグ
 
-## Prompt-Engineering
+XML タグは、特に大量のデータを組み込む場合など、かつてはプロンプトに構造や明確さを加えるために推奨されていた方法でした。最新のモデルは XML タグなしでも構造を理解する能力に長けていますが、特定の状況では依然として有用な場合があります。
 
-### Mit langen Inhalten arbeiten
+例：
 
-Eine der Herausforderungen bei der Implementierung von Prompt-Engineering besteht darin, dass es durch die Verwendung zusätzlicher Token Kontext schafft. Beispiele, mehrere Prompts, detaillierte Anweisungen – sie alle verbrauchen Tokens, und das Kontextmanagement ist eine Fähigkeit für sich.
+```
 
-Prompt-Engineering sollte verwendet werden, wenn es sinnvoll ist und die Verwendung rechtfertigt. Eine umfassende Anleitung zur effektiven Verwaltung von Kontext finden Sie in unserem Blogbeitrag über[Kontext Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents).
+```
 
-Verbesserungen der Kontextbewusstsein: Moderne KI-Modelle, einschließlich Claude 4.x, haben die Funktionen zur Kontextbewusstsein deutlich verbessert, um historische Probleme zu lösen, bei denen die Modelle Schwierigkeiten hatten, alle Teile des langen Kontexts gleichermaßen zu berücksichtigen.
+XML タグが役に立つ場合：
 
-Warum Aufgabenaufteilung immer noch hilft: Selbst mit diesen Verbesserungen bleibt die Aufteilung großer Aufgaben in kleinere, diskrete Teile eine wertvolle Technik – nicht aufgrund von Kontextbeschränkungen, sondern weil das Modell sich so darauf konzentriert, seine Arbeit innerhalb eines sehr spezifischen Rahmens und Anforderungen optimal zu erbringen. Eine fokussierte Aufgabe mit klaren Grenzen führt zu qualitativ hochwertigeren Ergebnissen als der Versuch, mehrere Ziele auf einmal zu erreichen.
+- 複数のタイプのコンテンツを混在させた非常に複雑なプロンプトで作業している
 
-Strategie: Strukturieren Sie Ihre Informationen bei langen Zusammenhängen klar und deutlich mit den wichtigsten Details am Anfang oder am Ende. Bei komplexen Aufgaben sollte man überlegen, ob die Aufteilung in zielgerichtete Teilaufgaben die Qualität und Zuverlässigkeit jeder Komponente verbessern würde.
+- コンテンツの境界を明確に把握する必要がある
 
-### Wie sieht ein guter Prompt aus?
+- 古いモデルバージョンで作業している
 
-Prompt-Engineering ist eine Fähigkeit, und es dauert ein paar Versuche, bis Sie es beherrschen. Der einzige Weg, um zu wissen, ob es richtig ist, ist, es zu testen. Der erste Schritt ist, es selbst auszuprobieren. Sie sehen sofort die Unterschiede zwischen Abfragen mit und ohne die hier beschriebenen Prompting-Techniken.
+最新の代替手段：ほとんどのユースケースでは、明確な見出し、余白、明示的な表現（「以下のアスリート情報を活用してください...」）が、オーバーヘッドを抑えながら同様に機能します。
 
-Um Ihre Prompt-Engineering-Fähigkeiten wirklich zu verbessern, müssen Sie die Effektivität Ihrer Prompts objektiv messen. Die gute Nachricht ist, dass es genau das ist, was in unserem Prompt-Engineering-Kurs auf[anthropic.skilljar.com](https://anthropic.skilljar.com/claude-with-the-anthropic-api)behandelt wird.
+### ロールプロンプティング
 
-Tipps zur Bewertung:
+ロールプロンプティングは、クエリの表現方法で専門的なペルソナと視点を定義します。これは効果的ですが、最新のモデルは十分に洗練されており、過剰なロールプロンプティングは不要な場合が多くあります。
 
-- Entspricht das Ergebnis Ihren spezifischen Anforderungen?
+例：「あなたはファイナンシャルアドバイザーです。この投資ポートフォリオを分析してください...」
 
-- Sie haben das Ergebnis in einem Versuch erhalten oder benötigen mehrere Iterationen?
+重要な注意点：役割を過度に制限しないでください。「あなたは頼りになるアシスタントです」という表現は、「あなたは技術的な専門用語しか話さず、決してミスを犯さない、世界的に有名な専門家です」という表現よりも良いです。役割が具体的すぎる場合、AI の有用性が制限される可能性があります。
 
-- Ist das Format über mehrere Versuche hinweg einheitlich?
+ロールプロンプティングが役に立つ場合：
 
-- Vermeiden Sie die oben genannten Fehler?
+- 多くの出力で一貫したトーンが必要
 
-## Letzte Worte
+- 特定のペルソナを必要とするアプリケーションを構築している
 
-Prompt-Engineering bedeutet letztendlich Kommunikation: Es muss die Sprache gesprochen werden, die es der KI ermöglicht, Ihre Absicht am besten zu verstehen. Beginnen Sie mit den Kerntechniken, die bereits zu Beginn dieses Leitfadens behandelt wurden. Verwenden Sie sie konstant, bis sie zur zweiten Natur werden. Nur in fortschrittlichen Techniken integriert, wenn sie ein bestimmtes Problem lösen.
+- 複雑なトピックについてドメインの専門知識を活用したい
 
-Denken Sie daran: Der beste Prompt ist nicht der längste oder komplexeste. Es ist es, das Ihre Ziele zuverlässig erreicht, mit der erforderlichen Mindeststruktur. Während Sie üben, entwickeln Sie eine Intuition für die Techniken, die für die jeweilige Situation geeignet sind.
+最新の代替手段：多くの場合、役割を割り当てるのではなく、「リスク許容度と長期的な成長の可能性に焦点を当ててこの投資ポートフォリオを分析してください」など、希望する視点を明確に示す方が効果的です。
 
-Die Verlagerung zum Kontext-Engineering mindert nicht die Bedeutung des Prompt Engineering. Prompt-Engineering ist ein grundlegender Baustein im Kontext-Engineering. Jeder gut gestaltete Prompt wird Teil des größeren Kontexts, der das KI-Verhalten prägt und mit dem Konversationsverlauf, angehängten Dateien und Systemanweisungen zusammenarbeitet, um bessere Ergebnisse zu erzielen.
+Claudeで[お試しください](https://preview.claude.ai/new)。
 
-[Claude ist noch heute dabei](https://preview.claude.ai/new).
+## すべてをまとめる
 
-## Zusätzliche Ressourcen
+ここまでは個々の手法を個別に見てきましたが、戦略的に組み合わせたときにこそその真の力は現れます。プロンプトエンジニアリングのアプローチでは、利用可能なすべての手法を使用するのではなく、特定のニーズに合わせて適切な組み合わせを選択します。
 
-- Prompt-Engineering Dokumentation
+複数の手法を組み合わせた例：
 
-- Interaktives Prompt-Engineering-Tutorial
+```
 
-- Prompt-Engineering-Kurs
+```
 
-- Leitfaden für Kontext
+このプロンプトは以下を組み合わせています。
+
+- 明示的な指示（抽出するものを明確に）
+
+- コンテキスト（形式が重要な理由）
+
+- 構造の例（形式を表示）
+
+- 不確定要素を示す権限（不確定な場合は null を使用）
+
+- 形式コントロール（左中括弧から開始）
+
+## 適切な手法の選択
+
+すべてのプロンプトですべての手法が必要なわけではありません。意思決定フレームワークを以下に示します。
+
+ここから開始：
+
+- リクエストは明確かつ明示的ですか？ いいえの場合は、まず明確にします。
+
+- タスクは簡単ですか？コアテクニックのみを使用します（具体的、明確、コンテキストを指定）。
+
+- タスクに特定の形式が必要ですか？ 例やプレフィリングを使用します。
+
+- そのタスクは複雑ですか？分解を検討します（チェーニング）。
+
+- 推論が必要ですか？拡張思考（可能な場合）または Chain-Of-Thought を使用します。
+
+手法選択ガイド：
+
+## 一般的なプロンプトの問題のトラブルシューティング
+
+善意のプロンプトでさえ、予期しない結果を生むことがあります。一般的な問題とその修正方法を以下に示します。
+
+- 問題：応答が一般的すぎる→ 解決策：具体的な内容や例、包括的な出力を求める明示的なリクエストを追加します。AI に「基本的なこと以上のことを」求めます。
+
+- 問題：応答がトピックを逸脱している、または要点から外れている→ 解決策：実際の目標を明確に示します。なぜこの質問をしているのかについてのコンテキストを記述します。
+
+- 問題：応答形式が一貫していない→ 解決策：例を追加するか（Few-Shot）プレフィリングを使用して応答の開始を制御します。
+
+- 問題：タスクが複雑すぎる、結果が信頼できない→ 解決策：複数のプロンプトに分割します（チェーニング）。各プロンプトは 1 つのことをうまく実行する必要があります。
+
+- 問題：AI に不要なプリアンブルが含まれている→ 解決策：プレフィリングを使用するか、「プリアンブルをスキップして直接応答してください」のように明示的にリクエストします。
+
+- 問題：AI が情報を追加している→ 解決策：不確かな場合に「分かりません」と明示的に伝えることを許可します。
+
+- 問題：実装を希望する際に、AI が変更を提案する→ 解決策：「変更を提案いていただけますか？」ではなく「この機能を変更してください」のようにアクションを明確に示します。
+
+プロのヒント：開始はシンプルに、必要な場合にのみ複雑さを加えます。各追加項目をテストして、実際に結果が改善するかどうかを確認します。
+
+## 避けるべきよくある間違い
+
+以下のよくある落とし穴から学習し、時間を節約してプロンプトを改善します。
+
+- オーバーエンジニアリングを避ける：長くて複雑なプロンプトが良いというわけではありません。
+
+- 基本を無視しない：コアプロンプトが不明確または曖昧な場合に、高度な手法は役に立ちません。
+
+- AI が心を読んでくれていると思わない：具体的に何をしたいかを明確にします。曖昧な状態のままにしておくと、AI が誤解する可能性があります。
+
+- すべての手法を一度に使用しない：特定の課題に対処する手法を選択します。
+
+- 反復を忘れない：最初のプロンプトが完璧に機能することはまれです。テストと改良を行いましょう。
+
+- 時代遅れの手法に頼らない：最新のモデルでは、XML タグや過剰なロールプロンプティングは必要ありません。明示的かつ明確な指示から始めましょう。
+
+## プロンプトエンジニアリングの考慮事項
+
+### 長いコンテンツの操作
+
+高度なプロンプトエンジニアリングを実装する際の課題の 1 つは、追加のトークン使用によってコンテキストのオーバーヘッドを増やすことです。例、複数のプロンプト、詳細な手順など、すべてトークンを消費します。コンテキスト管理はそれ自体がスキルです。
+
+妥当かつその使用が正当である場合には、必ずプロンプトエンジニアリングの手法を使用してください。コンテキストを効果的に管理するための包括的なガイダンスについては、[コンテキストエンジニアリング](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)に関するブログ投稿をご覧ください。
+
+コンテキスト認識の改善：Claude 4.x をはじめとする最新の AI モデルでは、コンテキスト認識機能が大幅に改善されており、長いコンテキストのすべての部分に等しく対応するのに苦労していた従来の「Lost in the Middle」現象の解決に貢献しています。
+
+タスク分割が有用な理由：これらの改善を行っても、大きなタスクをより小さな個々のチャンクに分割することは依然として有用な手法です。これはコンテキスト制限のためではなく、非常に限定された要件や範囲でモデルが最善の成果を出せるよう支援するためです。境界を明確に設定することで焦点が絞られたタスクは、1 つのプロンプトで複数の目標を達成しようとする場合よりも、一貫して高品質な結果を生み出します。
+
+戦略：長いコンテキストで作業する場合は、最初または最後に最も重要な詳細を記述して情報を明確に構造化します。複雑なタスクを処理する際、それらを焦点の絞ったサブタスクに分割することで、各コンポーネントの品質と信頼性が向上するかどうかを検討します。
+
+### 良いプロンプトとは
+
+プロンプトエンジニアリングはスキルであり、習得するまでに数回の試行が必要になります。正しく実行できているかどうかを知る唯一の方法は、テストして確認することです。最初のステップは自分で試すことです。ここで説明したプロンプティング手法を使用したクエリと使用しなかったクエリの違いがすぐにわかります。
+
+プロンプトエンジニアリングスキルを真に磨くには、プロンプトの有効性を客観的に測定する必要があります。良いニュースは、まさに[anthropic.skilljar.com](https://anthropic.skilljar.com/claude-with-the-anthropic-api)のプロンプトエンジニアリングコースで取り扱っている内容です。
+
+簡易評価のヒント：
+
+- 出力は特定の要件に一致していますか？
+
+- 1 回の試行で結果を得ましたか？それとも複数回の反復が必要でしたか？
+
+- 複数の試行で形式は一貫していますか？
+
+- 上記のよくある間違いを避けていますか？
+
+## 最終的なアドバイス
+
+プロンプトエンジニアリングとは最終的にはコミュニケーションです。AI がユーザーの意図を最も明確に理解するのに役立つ言語を話します。まず、このガイドの前半で説明したコアテクニックから始めましょう。自然なものになるまで一貫して使用します。特定の問題を解決する際に高度な手法を重ねるだけです。
+
+最高のプロンプトは最も長いプロンプトでも最も複雑なプロンプトでもありません。これは、必要な最小限の構造で確実に目標を達成するためのものです。練習するにつれて、どの手法がどの状況に適しているかを直感的に把握できるようになります。
+
+コンテキストエンジニアリングへの移行によって、プロンプトエンジニアリングの重要性が低下するわけではありません。実際、プロンプトエンジニアリングはコンテキストエンジニアリングの基本的な構成要素です。適切に作成されたプロンプトはすべて、会話履歴、添付ファイル、システム指示など、AI の動作を形成するより大きなコンテキストの一部となり、より良い結果を生み出します。
+
+今すぐ Claude で[プロンプトを開始](https://preview.claude.ai/new)しましょう。
+
+## 追加リソース
+
+- プロンプトエンジニアリングのドキュメント作成
+
+- インタラクティブなプロンプトエンジニアリングのチュートリアル
+
+- プロンプトエンジニアリングのコース
+
+- コンテキストエンジニアリングガイド
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -438,19 +438,13 @@ Die Verlagerung zum Kontext-Engineering mindert nicht die Bedeutung des Prompt E
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-Häufig gestellte Fragen
+よくある質問
 
-## Ähnliche Beiträge
+## 関連する投稿
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Claude を活用して構築を行うチーム向けの、その他の製品
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### A harness for every task: dynamic workflows in Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### How Claude Code works in large codebases: Best practices and where to start
+ニュースとベストプラクティスをご覧ください。
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
@@ -460,14 +454,22 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ### Building agents with the Claude Agent SDK
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
-Entwickler-Newsletter abonnieren
+### 企業全体のチームに向けた Cowork とプラグイン
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+
+## Claude を活用して組織運営の方法を変革
+
+開発者向けニュースレターを入手
+
+製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+
+毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
 
 ---
-**Source:** https://claude.com/de/blog/best-practices-for-prompt-engineering
+**Source:** https://claude.com/ja/blog/best-practices-for-prompt-engineering
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
