@@ -20,7 +20,7 @@ Claude Code for web enables asynchronous development workflows. With Claude Code
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1783549800&signature=341581c34e15c7666b1ada76a469d65fae8c7d72d91dafc08dbee4b799f66b22&req=dScvEM16m4BaXvMW1HO4zR8%2BAFCFRpR%2B7XrRA1YwWGsrFAM%2BrtUqOoDpq4vB%0AIdMtA0wbGvsTHuRsiKY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1783564200&signature=16afd5f71fd2ecd940db6fc93502557f4dad5f76071fe8565bee92972f5cf147&req=dScvEM16m4BaXvMW1HO4zR8%2BAFCFRJl07XrRA1YwWGsb4QoXgnB06DPU5%2FhM%0AKsLXm%2FioU%2F6mHBFAKDU%3D%0A)
 
  
 
@@ -34,7 +34,7 @@ When you start a task, Claude Code on the web creates an isolated virtual machin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1783549800&signature=1ac59c2bd4517c29b769cbf6f0bf7ce909086b857a9b840dc6c74f801d7df879&req=dScvEM16m4BaUfMW1HO4zcR0rZUxi%2BDI7DtpMiX%2FBYn4RUJq7woj%2F5gSwUwW%0AgEDSriJIkMk62WsyXWQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1783564200&signature=811f5acabc7e3321519df9e84efe6b5aab72769cfbc5940524415f690c5db2d2&req=dScvEM16m4BaUfMW1HO4zcR0rZUxie3C7DtpMiX%2FBYkDK2EpsjGmuGeDXrs9%0Aks1%2FXiVg3T%2B4oKHbK5A%3D%0A)
 
  
 
@@ -46,7 +46,7 @@ Once the environment is ready, Claude begins working on your task. Claude reads 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1783549800&signature=e63329ae3cfae0d225e1c7d726bac2571dd7994ee712fcdeb884b6dcdf58ea1a&req=dScvEM16m4BaX%2FMW1HO4zVbcTGCG583GUQl3YqgIJdauUX85ivRDuRoTxQA%2B%0AxGsXR6I4bhbDndORic4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1783564200&signature=70bd400a02ed28c3b6dffed71bc3174a6bb957fba1bb1f3bfe7fdd1f006207a2&req=dScvEM16m4BaX%2FMW1HO4zVbcTGCG5cDMUQl3YqgIJda%2FLHX%2FZ8A%2BjZwdFA7D%0ATIMAGzuskAKSkD2UZPw%3D%0A)
 
  
 
@@ -178,7 +178,7 @@ Ensure all tests still pass.
 ## Related Articles
 
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
+- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
 - [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
 - [Claude Code communications kit](https://support.claude.com/en/articles/14555877-claude-code-communications-kit)

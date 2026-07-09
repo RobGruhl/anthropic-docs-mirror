@@ -1,6 +1,6 @@
 # How am I billed for my Enterprise plan?
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -38,7 +38,7 @@ You're charged for the number of seats on your plan at the start of your annual 
 
  
 
-## Usage billing
+## Usage billing and payment methods
 
 On usage-based Enterprise plans, usage is charged separately from your seat fee and is based on actual token consumption at standard API rates. For current per-model pricing, see our **[API pricing page](https://www.anthropic.com/pricing#api)**.
 
@@ -50,14 +50,14 @@ How and when you're billed for usage depends on your plan type:
 
 ### Self-serve Enterprise
 
+**Usage billing**
+
 Usage is purchased **upfront in credits**. Your credits draw down as your team uses Claude and Claude Code. When your credits run out, usage stops until an Owner or Primary Owner purchases more. Self-serve Enterprise plans are billed in USD only. If your organization needs to pay in another currency, **[contact our Sales team](https://claude.com/contact-sales)** to set up a sales-assisted plan.
 
-- After setup, Owners and Primary Owners can purchase additional credits at any time from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+- After setup, Owners and Primary Owners can purchase additional credits at any time from **[Organization](https://claude.ai/admin-settings/organization)[ settings > Usage](https://claude.ai/admin-settings/usage)**.
 - All credits are shared across your organization — any team member can draw from the same pool.
 
- 
-
-**Changing your payment method**
+**Payment methods**
 
 Self-serve Enterprise organizations can pay by credit card, debit card, or ACH bank transfer. An Owner or Primary Owner can switch between payment methods at any time in **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**. For details on ACH, including activation timing and auto-reload, see **[What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)**
 
@@ -65,7 +65,15 @@ Self-serve Enterprise organizations can pay by credit card, debit card, or ACH b
 
 ### Sales-assisted Enterprise
 
+**Usage billing**
+
 Usage is **billed monthly in arrears** based on your organization's actual consumption during each billing period. You'll receive a monthly invoice reflecting usage for that period. Speak with your account manager for questions about your usage invoices.
+
+ 
+
+**Payment methods**
+
+Sales-assisted Enterprise organizations can pay by bank transfer (ACH or wire) or, for smaller invoices, by credit card. Invoices of $50,000 or more can only be paid by bank transfer (ACH or wire). The credit card option won't appear on the payment page for invoices at or above this amount. To pay a specific invoice by card, reach out to your Anthropic Contact to request an exception.
 
  
 
@@ -105,7 +113,7 @@ Owners and Primary Owners can set spend limits to manage your organization's con
 
  
 
-To configure spend limits, sign in as an Owner or Primary Owner and navigate to **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+To configure spend limits, sign in as an Owner or Primary Owner and navigate to **[Organization](https://claude.ai/admin-settings/organization)[ settings > Usage](https://claude.ai/admin-settings/usage)**.
 
  
 
@@ -152,7 +160,7 @@ You can track your organization's usage and spending in a few places:
 
 If usage stops on your Enterprise plan, here's how to resume:
 
-- **Self-serve plans:** If credits run out or a spend limit is reached, an Owner or Primary Owner can purchase additional credits or raise the spend limit from **[Organization](https://claude.ai/admin-settings/organization)****[ settings > Usage](https://claude.ai/admin-settings/usage)**.
+- **Self-serve plans:** If credits run out or a spend limit is reached, an Owner or Primary Owner can purchase additional credits or raise the spend limit from **[Organization](https://claude.ai/admin-settings/organization)[ settings > Usage](https://claude.ai/admin-settings/usage)**.
 - **Sales-assisted plans:** If a spend limit is reached, an Owner or Primary Owner can raise the limit, or usage will resume at the start of the next billing period. Contact your account manager with questions.
 -  
 

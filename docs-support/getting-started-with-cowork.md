@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -145,7 +145,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1783555200&signature=561c5f808cbbac1f77eea68c46c1a38c86965601ecbd2abde1c98d1440d4bf0a&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD37PZblOMqW%2FkK1flO%2B6I3KI0mEtiy4SZ%0A5sDbZPHmD4GDwbW7%2FiZFNEGWoJk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1783564200&signature=9951d552262e938916df6dc98ec117928c94cc638c6fe87211274487d5223b8c&req=diUlE8B8m4lYXfMW1HO4zcDl6tvpMFWy8iWjaktE940T75%2F17NtpZAFnML0s%0A%2FcfWUlDSLlqFJdWfMEY%3D%0A)
 
  
 
@@ -341,7 +341,7 @@ Check that you've granted Claude the appropriate file access permissions. Review
 ## Related Articles
 
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
-- [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

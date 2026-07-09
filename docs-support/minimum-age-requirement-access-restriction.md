@@ -32,6 +32,6 @@ Your age information is managed through your Google account or Apple Account. If
 
 - [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
-- [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Requesting a refund for a paid Claude plan](https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan)
+- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Age assurance on Claude](https://support.claude.com/en/articles/15171100-age-assurance-on-claude)
