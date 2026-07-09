@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated yesterday*
+*Updated in the last hour*
 
 ---
 
@@ -30,7 +30,7 @@ On an Enterprise plan, you won't see a prompt when you join. To start the migrat
 
 ### Apple App Store subscribers
 
-If you subscribed to Claude Pro or Max through the Apple App Store, **Keep both accounts** is your only option. Apple doesn't allow third-party cancellation of App Store subscriptions, so we can't auto-cancel your iOS plan as part of the migration. If you'd rather move your work into the Team, **[cancel your iOS subscription](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)** through your Apple ID settings first, then start the migration from the reminder banner or **[Settings > Account](https://claude.ai/settings/account)**.
+If you subscribed to Claude Pro or Max through the Apple App Store, **Keep both accounts** is your only option. Apple doesn't allow third-party cancellation of App Store subscriptions, so we can't auto-cancel your iOS plan as part of the migration. If you'd rather move your work into the Team, **[cancel your iOS subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription#h_54384c9962)** through your Apple ID settings first, then start the migration from the reminder banner or **[Settings > Account](https://claude.ai/settings/account)**.
 
  
 
@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783627200&signature=1f34e5bb560867d8afed578f247c4211b022f3ff5ed19caf0ef1982172eda9e7&req=diMmFMh3noJbXvMW1HO4zXhPndMwyhhjufhmlOXMdYaTT4irwGWHdICYoqau%0AAskeslFrbUF%2F1%2FSNrZ0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1783749600&signature=31b9883149934e2101140e379d7b9634c220450355197e15cc37b3f38b3b06f3&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U70AKCupl6PawEbm4kN4LV8C1FkOhGASG%0AHN62VvBOWfA2Pxrf96fow88Dv9c%3D%0A)
 
  
 

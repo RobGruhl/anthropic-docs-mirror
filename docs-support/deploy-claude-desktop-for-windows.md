@@ -1,6 +1,6 @@
 # Deploy Claude Desktop for Windows
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -10,12 +10,12 @@ Administrators on Team or Enterprise plans can deploy Claude Desktop automatical
 
 ## Installation requirements
 
-- For individual installations with full feature support including Claude Cowork, administrator privileges are required. Users will see a Windows UAC prompt during installation. Users without admin access can still install Claude, but Cowork will not be available. Access the user-friendly installer from **[our download page](https://claude.com/download)**.
+- For individual installations with full feature support including Claude Cowork, administrator privileges are required. Users will see a Windows UAC prompt during installation. Users without admin access can still install Claude, but Cowork on desktop will not be available. Access the user-friendly installer from **[our download page](https://claude.com/download)**.
 - For silent deployment without user interaction, use the MSIX package directly with your enterprise management tool.
 
  
 
-## Cowork requirements
+## Cowork desktop requirements
 
 Claude Desktop for Windows requires the **[Virtual Machine Platform](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)** to use Cowork. You can automate installation of this feature via most endpoint management solutions, but you may also run the following command to install it manually:
 
@@ -33,7 +33,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All -
 
 ## Installation commands
 
-For manual installation on individual machines, use the following PowerShell commands:
+The Claude MSIX is packaged as a per-user application. <code>Add-AppxPackage</code> registers it for the current user only, while <code>Add-AppxProvisionedPackage</code> stages it machine-wide so it's available to every user on the device, including standard users without admin rights.
 
  
 
@@ -108,13 +108,22 @@ By default, packaged apps may be restricted by AppLocker policies. Ensure your A
 
 This usually means the in-app updater and your MDM have both registered the package, leaving duplicate entries under the <code>Claude</code> package family. Pick a single update owner using the guidance in **[Manage auto-updates alongside your MDM](#h_1297fb34f3)** above.
 
+ 
+
+### Intune install fails for standard users, or Cowork won't start on Claude Desktop?
+
+Both symptoms indicate the MSIX was installed in user context rather than provisioned machine-wide:
+
+- **Install fails for standard users:** An Intune LOB deployment of the MSIX runs in user context, so standard users without admin rights can't complete it. Redeploy by running <code>Add-AppxProvisionedPackage</code> through a Win32 app, PowerShell script wrapper, or pre-staged package.
+- **Cowork unavailable on desktop after install:** A per-user <code>Add-AppxPackage</code> install can complete without registering the Cowork virtualization service, the Windows service Cowork depends on. Claude appears installed but Cowork won't start. Redeploy using <code>Add-AppxProvisionedPackage</code> so the service registers machine-wide.
+
 
 ---
 
 ## Related Articles
 
 - [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
-- [Getting Started with Local MCP Servers on Claude Desktop](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop)
 - [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
+- [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)

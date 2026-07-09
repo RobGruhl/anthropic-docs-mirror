@@ -1,22 +1,27 @@
 # Support Articles Index
-*Last updated: 2026-07-09 19:30*
-Total documents: 259
+*Last updated: 2026-07-09 22:18*
+Total documents: 254
 ---
-## Uncategorized (259 documents)
+## Uncategorized (254 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
 **Source:** https://support.claude.com/en/articles/9199617-api-safeguards-tools  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-09  
 
 ### About the Development Partner Program
 **File:** `/docs-support/about-the-development-partner-program.md`  
 **Source:** https://support.claude.com/en/articles/11174108-about-the-development-partner-program  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-09  
+
+### Access Claude for iOS on your Lock Screen, Control Center, and Action button
+**File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
+**Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
+**Updated:** 2026-07-09  
 
 ### Access audit logs
 **File:** `/docs-support/how-to-access-audit-logs.md`  
@@ -27,11 +32,6 @@ Total documents: 259
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
 **Updated:** 2026-07-09  
-
-### Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
-**File:** `/docs-support/accessing-claude-app-on-ios-lock-screen-control-center-and-action-button.md`  
-**Source:** https://support.claude.com/en/articles/10302511-accessing-claude-app-on-ios-lock-screen-control-center-and-action-button  
-**Updated:** 2026-06-17  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -96,7 +96,7 @@ Total documents: 259
 ### Business Associate Agreements (BAA) for Commercial Customers
 **File:** `/docs-support/business-associate-agreements-baa-for-commercial-customers.md`  
 **Source:** https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-09  
 
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
@@ -116,7 +116,7 @@ Total documents: 259
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
 **Source:** https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-09  
 
 ### Can I use the Claude API for individual use?
 **File:** `/docs-support/can-i-use-the-claude-api-for-individual-use.md`  
@@ -126,7 +126,12 @@ Total documents: 259
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
+
+### Cancel your Pro or Max subscription
+**File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
+**Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
+**Updated:** 2026-07-09  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -221,7 +226,7 @@ Total documents: 259
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-09  
 
 ### Configuring session security settings
 **File:** `/docs-support/configuring-session-security-settings.md`  
@@ -271,7 +276,7 @@ Total documents: 259
 ### Deploy Claude Desktop for Windows
 **File:** `/docs-support/deploy-claude-desktop-for-windows.md`  
 **Source:** https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
@@ -281,7 +286,7 @@ Total documents: 259
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-09  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -301,7 +306,7 @@ Total documents: 259
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
@@ -413,16 +418,6 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/9267387-how-can-i-access-the-personal-information-that-anthropic-has-on-my-account  
 **Updated:** 2026-02-18  
 
-### How can I cancel my Claude Pro subscription on Claude for Android?
-**File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android.md`  
-**Source:** https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android  
-**Updated:** 2026-07-08  
-
-### How can I cancel my Claude Pro subscription on the Claude app for iOS?
-**File:** `/docs-support/how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios.md`  
-**Source:** https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios  
-**Updated:** 2026-05-19  
-
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
@@ -458,16 +453,6 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/8114523-how-can-i-learn-more-about-claude-api-pricing  
 **Updated:** 2026-06-24  
 
-### How can I uninstall Claude for Android?
-**File:** `/docs-support/how-can-i-uninstall-claude-for-android.md`  
-**Source:** https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android  
-**Updated:** 2026-05-19  
-
-### How do I cancel my paid Claude subscription?
-**File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
-**Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
-**Updated:** 2026-06-30  
-
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
 **Source:** https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account  
@@ -496,12 +481,12 @@ Total documents: 259
 ### How do I sign up for Claude Pro on Claude for Android?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-09  
 
 ### How do I sign up for Claude Pro on the Claude app for iOS?
 **File:** `/docs-support/how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9266495-how-do-i-sign-up-for-claude-pro-on-the-claude-app-for-ios  
-**Updated:** 2026-02-23  
+**Updated:** 2026-07-09  
 
 ### How do I sign up for the Max plan?
 **File:** `/docs-support/how-do-i-sign-up-for-the-max-plan.md`  
@@ -571,22 +556,22 @@ Total documents: 259
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938695-how-to-redeem-a-claude-gift-subscription  
-**Updated:** 2026-06-16  
+**Updated:** 2026-07-09  
 
 ### How to update Claude for Android
 **File:** `/docs-support/how-to-update-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### How to update Claude for iOS
 **File:** `/docs-support/how-to-update-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios  
-**Updated:** 2026-05-21  
+**Updated:** 2026-07-09  
 
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
@@ -651,12 +636,12 @@ Total documents: 259
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
 **Source:** https://support.claude.com/en/articles/9612887-how-do-i-install-claude-for-android  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9266462-installing-claude-for-ios  
-**Updated:** 2026-05-19  
+**Updated:** 2026-07-09  
 
 ### Introduction to prompt design
 **File:** `/docs-support/introduction-to-prompt-design.md`  
@@ -681,7 +666,7 @@ Total documents: 259
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -771,7 +756,7 @@ Total documents: 259
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
 **Source:** https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Move your personal Claude account to a Team or Enterprise organization
 **File:** `/docs-support/can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md`  
@@ -866,7 +851,7 @@ Total documents: 259
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
 **Source:** https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors  
-**Updated:** 2026-06-23  
+**Updated:** 2026-07-09  
 
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
@@ -993,6 +978,11 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
 **Updated:** 2026-07-07  
 
+### Use Claude app intents, shortcuts, and widgets on iOS
+**File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
+**Source:** https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios  
+**Updated:** 2026-07-09  
+
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
 **Source:** https://support.claude.com/en/articles/12650343-use-claude-in-excel  
@@ -1053,6 +1043,11 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
 **Updated:** 2026-07-09  
 
+### Use dictation on Claude Mobile
+**File:** `/docs-support/using-dictation-on-claude-mobile.md`  
+**Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
+**Updated:** 2026-07-09  
+
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  
 **Source:** https://support.claude.com/en/articles/12489464-using-enterprise-search  
@@ -1083,6 +1078,11 @@ Total documents: 259
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
 **Updated:** 2026-07-09  
 
+### Use the Claude widget on Android
+**File:** `/docs-support/using-the-claude-widget-on-android.md`  
+**Source:** https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android  
+**Updated:** 2026-07-09  
+
 ### Use the GitHub integration
 **File:** `/docs-support/using-the-github-integration.md`  
 **Source:** https://support.claude.com/en/articles/10167454-using-the-github-integration  
@@ -1102,21 +1102,6 @@ Total documents: 259
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy  
 **Updated:** 2026-07-06  
-
-### Using Claude App Intents, Shortcuts, and Widgets on iOS
-**File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
-**Source:** https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios  
-**Updated:** 2026-05-21  
-
-### Using dictation on Claude Mobile
-**File:** `/docs-support/using-dictation-on-claude-mobile.md`  
-**Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
-**Updated:** 2026-05-21  
-
-### Using the Claude Widget on Android
-**File:** `/docs-support/using-the-claude-widget-on-android.md`  
-**Source:** https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android  
-**Updated:** 2026-05-21  
 
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
@@ -1161,7 +1146,7 @@ Total documents: 259
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
 **Source:** https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-09  
 
 ### What happens to a user's data when they are removed from a Team or Enterprise organization?
 **File:** `/docs-support/what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md`  
@@ -1191,7 +1176,7 @@ Total documents: 259
 ### What is the External Researcher Access Program?
 **File:** `/docs-support/what-is-the-external-researcher-access-program.md`  
 **Source:** https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-09  
 
 ### What is the Max plan?
 **File:** `/docs-support/what-is-the-max-plan.md`  
@@ -1212,11 +1197,6 @@ Total documents: 259
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
 **Updated:** 2026-07-08  
-
-### What versions of Android are supported?
-**File:** `/docs-support/what-versions-of-android-are-supported.md`  
-**Source:** https://support.claude.com/en/articles/9612904-what-versions-of-android-are-supported  
-**Updated:** 2026-06-29  
 
 ### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
@@ -1271,7 +1251,7 @@ Total documents: 259
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
 **Source:** https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-09  
 
 ### Why am I being asked to verify my payment method?
 **File:** `/docs-support/why-am-i-being-asked-to-verify-my-payment-method.md`  
@@ -1282,11 +1262,6 @@ Total documents: 259
 **File:** `/docs-support/why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error.md`  
 **Source:** https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error  
 **Updated:** 2026-05-18  
-
-### Why can’t I find Claude for Android in the Play Store?
-**File:** `/docs-support/why-can-t-i-find-claude-for-android-in-the-play-store.md`  
-**Source:** https://support.claude.com/en/articles/9612901-why-can-t-i-find-claude-for-android-in-the-play-store  
-**Updated:** 2026-07-06  
 
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  

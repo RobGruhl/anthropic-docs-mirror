@@ -1,6 +1,6 @@
-# Using the Claude Widget on Android
+# Use the Claude widget on Android
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -10,7 +10,7 @@ The Claude Android widget provides quick and convenient access to core features 
 
  
 
-## Adding the Claude Widget 
+## Add the Claude widget 
 
 The Claude widget puts Claude's key features right on your home screen. To add it:
 
@@ -22,7 +22,7 @@ The Claude widget puts Claude's key features right on your home screen. To add i
 6. Optional: Drag the edges of the widget to resize it
 6.  
 
-## Widget Features 
+## Widget features 
 
 The widget offers three quick-access buttons:
 
@@ -31,21 +31,21 @@ The widget offers three quick-access buttons:
 - A microphone button for voice dictation
 -  
 
-## Using the Widget
+## Use the widget
 
-### Starting a Chat 
+### Start a chat 
 
 Tap the main chat button (with the spark icon) to instantly start a new conversation with Claude.
 
  
 
-### Taking Photos 
+### Take photos 
 
 Tap the camera button to start a new chat and immediately open your camera. You can capture an image and share it with Claude for analysis.
 
  
 
-### Voice Dictation 
+### Voice dictation 
 
 Tap the microphone button to start a new chat and begin voice dictation. The first time you use this feature, you'll see a brief explanation about how automatic recording works. You may also need to grant voice permissions if you haven't already done so.
 
@@ -54,8 +54,8 @@ Tap the microphone button to start a new chat and begin voice dictation. The fir
 
 ## Related Articles
 
-- [Using dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile)
-- [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
+- [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
+- [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [Use voice mode](https://support.claude.com/en/articles/11101966-use-voice-mode)
 - [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)

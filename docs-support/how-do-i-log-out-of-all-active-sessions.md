@@ -38,7 +38,7 @@ If you used your Claude account to authenticate into Claude Code, you can manage
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1783627200&signature=9ebb18c49e86919236ef0a9391d0d2235fd97263fa62bc4565fa0489555e9b44&req=dSYnHst4nohdWvMW1HO4zVuHih%2F71GC5AQofdwM8qVfRsGtME5oWAxBH2vBW%0AFlLoU21imcn0YHcAfHw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1783637100&signature=88db481abfaaf68dd1e6be89f9b1a804554c138749725b26bfc49c5576011b99&req=dSYnHst4nohdWvMW1HO4zVuHih%2F71WC6AQofdwM8qVfvwdusa7GY%2Fu3OfCGu%0A8U8RG9B38iOypZ4Rq1E%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ If you're unable to sign into your account to log out of all sessions, contact o
 
 ## Related Articles
 
-- [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
+- [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
 - [Managing your active sessions](https://support.claude.com/en/articles/13124001-managing-your-active-sessions)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)

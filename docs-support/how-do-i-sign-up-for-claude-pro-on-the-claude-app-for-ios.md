@@ -1,6 +1,6 @@
 # How do I sign up for Claude Pro on the Claude app for iOS?
 
-*Updated this week*
+*Updated over 4 months ago*
 
 ---
 
@@ -12,7 +12,7 @@ To sign up for Claude Pro using the Claude app for iOS, open the app on your dev
 ## Related Articles
 
 - [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
-- [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
-- [How can I cancel my Claude Pro subscription on the Claude app for iOS?](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)
+- [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [How do I sign up for Claude Pro on Claude for Android?](https://support.claude.com/en/articles/9612892-how-do-i-sign-up-for-claude-pro-on-claude-for-android)
-- [How can I cancel my Claude Pro subscription on Claude for Android?](https://support.claude.com/en/articles/9612898-how-can-i-cancel-my-claude-pro-subscription-on-claude-for-android)
+- [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)

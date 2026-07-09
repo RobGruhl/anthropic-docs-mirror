@@ -1,6 +1,6 @@
 # Business Associate Agreements (BAA) for Commercial Customers
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -157,5 +157,5 @@ Please see our **[Trust Portal](https://trust.anthropic.com/resources?s=rgirr4qe
 - [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
 - [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
 - [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)
-- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)
+- [Data retention practices for Covered Models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-covered-models)
 - [Covered Models under a Business Associate Agreement (BAA)](https://support.claude.com/en/articles/15455031-covered-models-under-a-business-associate-agreement-baa)

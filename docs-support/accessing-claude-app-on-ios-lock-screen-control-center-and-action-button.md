@@ -1,47 +1,47 @@
-# Accessing Claude app on iOS Lock Screen, Control Center, and Action Button
+# Access Claude for iOS on your Lock Screen, Control Center, and Action button
 
-*Updated over 3 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
-Quickly access Claude app functionality from your Lock Screen, Control Center, or Action Button on iOS. This article will explain how to add the Claude app into these areas.
+Quickly access Claude for iOS functionality from your Lock Screen, Control Center, or Action button on iOS. This article will explain how to add the Claude app into these areas.
 
  
 
-## **Add Claude app to your Lock Screen**
+## Add Claude for iOS to your Lock Screen
 
-- Tap and hold your Lock Screen to open Customize Wallpaper
-- Tap Customize
-- Choose Lock Screen
-- Click on an empty area on either of the two bottom circular slots
-- Scroll to add “Open Claude”
-- Click “Done” on the top right corner
+1. Tap and hold your Lock Screen to open Customize Wallpaper
+2. Tap "Customize."
+3. Choose "Lock Screen."
+4. Click on an empty area on either of the two bottom circular slots.
+5. Scroll to add “Open Claude..”
+6. Click “Done” on the top right corner.
 
-You’ll now be able to tap and hold to open the Claude app from your [Lock Screen](https://support.apple.com/guide/iphone/create-a-custom-lock-screen-iph4d0e6c351/ios).
-
- 
-
-## **Add Claude app to Control Center**
-
-- Swipe down from the upper right side of your screen to open the Control Center
-- Tap & Hold to add a control
-- Tap “Add a Control”
-- Scroll to add “Open Claude”
-
-You’ll now be able to access the Claude app from your [Control Center](https://support.apple.com/guide/iphone/use-and-customize-control-center-iph59095ec58/ios).
+You’ll now be able to tap and hold to open Claude for iOS from your **[Lock Screen](https://support.apple.com/guide/iphone/create-a-custom-lock-screen-iph4d0e6c351/ios)**.
 
  
 
-## **Use the Action Button to Open Claude app**
+## Add Claude for iOS to the Control Center
 
-- Open the Settings app
-- Go into the “Action Button” settings
-- Swipe until you see "Controls"
-- Click "Choose a Control..."
-- Scroll to “Open Claude”
-- Click back into Settings
+1. Swipe down from the upper right side of your screen to open the Control Center.
+2. Tap & Hold to add a control
+3. Tap “Add a Control.”
+4. Scroll to add “Open Claude.”
 
-You’ll now be able to Hold to Open the [Action Button](https://support.apple.com/guide/iphone/use-and-customize-the-action-button-iphe89d61d66/18.0/ios/18.0) to access the Claude app.
+You’ll now be able to access Claude for iOS from your **[Control Center](https://support.apple.com/guide/iphone/use-and-customize-control-center-iph59095ec58/ios)**.
+
+ 
+
+## Use the Action button to open Claude for iOS
+
+1. Open the Settings app.
+2. Go into the “Action Button” settings.
+3. Swipe until you see "Controls."
+4. Click "Choose a Control..."
+5. Scroll to “Open Claude.”
+6. Click back into Settings.
+
+You’ll now be able to Hold to Open the **[Action button](https://support.apple.com/guide/iphone/use-and-customize-the-action-button-iphe89d61d66/18.0/ios/18.0)** to access Claude for iOS.
 
 
 ---
@@ -49,7 +49,7 @@ You’ll now be able to Hold to Open the [Action Button](https://support.apple.c
 ## Related Articles
 
 - [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
-- [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
+- [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)

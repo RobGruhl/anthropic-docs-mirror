@@ -1,6 +1,6 @@
 # Can I use my Outputs to train an AI model?
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -56,5 +56,5 @@ Uses that are prohibited include:
 - [Why am I receiving an 'Output blocked by content filtering policy' error?](https://support.claude.com/en/articles/9205721-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error)
 - [Why am I receiving an 'Output blocked by content filtering policy' error?](https://support.claude.com/en/articles/10023638-why-am-i-receiving-an-output-blocked-by-content-filtering-policy-error)
 - [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)
-- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)
+- [Data retention practices for Covered Models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-covered-models)
 - [Using Claude for Legal Work: Privilege, Confidentiality, and How to Think About Configuration](https://support.claude.com/en/articles/15707726-using-claude-for-legal-work-privilege-confidentiality-and-how-to-think-about-configuration)

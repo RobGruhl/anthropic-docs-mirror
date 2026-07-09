@@ -1,6 +1,6 @@
 # What is the External Researcher Access Program?
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -117,5 +117,5 @@ Thank you for your interest in our Researcher Access Program and for taking the 
 - [Anthropic's AI for Science Program](https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)
-- [Data retention practices for Mythos-class models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models)
+- [Data retention practices for Covered Models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-covered-models)
 - [Covered Models under a Business Associate Agreement (BAA)](https://support.claude.com/en/articles/15455031-covered-models-under-a-business-associate-agreement-baa)

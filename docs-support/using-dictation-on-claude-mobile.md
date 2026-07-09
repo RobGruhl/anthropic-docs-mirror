@@ -1,6 +1,6 @@
-# Using dictation on Claude Mobile
+# Use dictation on Claude Mobile
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -8,7 +8,7 @@ Dictation allows you to speak your prompts instead of typing them when using Cla
 
  
 
-## Getting started
+## Get started with dictation
 
 1. Open Claude for iOS or Android.
 2. Start a new chat with Claude.
@@ -40,7 +40,7 @@ Dictation is currently available in these languages:
 - Ukrainian
 -  
 
-## Changing your language settings
+## Change your language settings
 
 To change your speech input language:
 
@@ -55,15 +55,15 @@ After converting your speech input to text, we will delete your audio recording.
 
  
 
-Learn more about our privacy practices by visiting our [Privacy Policy](https://www.anthropic.com/legal/privacy) and [Privacy Center](https://privacy.anthropic.com/en/).
+Learn more about our privacy practices by visiting our **[Privacy Policy](https://www.anthropic.com/legal/privacy)** and **[Privacy Center](https://privacy.anthropic.com/en/)**.
 
 
 ---
 
 ## Related Articles
 
-- [Using Claude App Intents, Shortcuts, and Widgets on iOS](https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios)
-- [Using the Claude Widget on Android](https://support.claude.com/en/articles/10534883-using-the-claude-widget-on-android)
+- [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
+- [Use the Claude widget on Android](https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android)
 - [Use voice mode](https://support.claude.com/en/articles/11101966-use-voice-mode)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
 - [Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)

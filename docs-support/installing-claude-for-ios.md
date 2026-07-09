@@ -1,6 +1,6 @@
 # Install Claude for iOS
 
-*Updated today*
+*Updated over 2 months ago*
 
 ---
 
@@ -35,8 +35,8 @@ Note that if you have an active paid Claude subscription and would like to unins
 
 ## Related Articles
 
-- [How do I cancel my paid Claude subscription?](https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription)
-- [How can I cancel my Claude Pro subscription on the Claude app for iOS?](https://support.claude.com/en/articles/9264804-how-can-i-cancel-my-claude-pro-subscription-on-the-claude-app-for-ios)
+- [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
+- [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [Install Claude for Android](https://support.claude.com/en/articles/9612887-install-claude-for-android)
-- [How can I uninstall Claude for Android?](https://support.claude.com/en/articles/9612889-how-can-i-uninstall-claude-for-android)
+- [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
