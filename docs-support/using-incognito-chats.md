@@ -1,6 +1,6 @@
 # Use incognito chats
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -18,7 +18,8 @@ Incognito chats are temporary conversations that aren't saved to your chat histo
 - If you are using Claude’s memory:
 - - Starting an incognito chat won’t use Claude’s existing memory.
 - Incognito chats will not be included in future memory summaries.
-   
+- Incognito chats aren't included in **[your monthly recap](https://support.claude.com/en/articles/15672559)**.
+-  
 
 ---
 
@@ -30,7 +31,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1783599300&signature=73a0dea29b85e5507a650bb360161e3fbeb5427e33c709b4c046419fd614537e&req=dScmH854lYZbXfMW1HO4zeUcuwG4Z%2ByIDCAt3Cx%2FSO2ypPdP2KCcaFlMJIio%0A%2FQUQEsIR%2FhwKYawJSuA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1783749600&signature=a5d6bd8b3b650414d7fd6786cdd771ad6c415b90d5807d1f9ffdd1e7226cc325&req=dScmH854lYZbXfMW3nq%2BgV3vl4515IEifLe8szMzgHm5W2CwgDyWxca%2FDSZp%0ArcRg3CFajLmWCHGaj6cuK1WnCPM%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 2. The interface will indicate you're in an incognito chat with a black border and “Incognito chat” label in the upper left corner.
@@ -86,6 +87,6 @@ Once closed, incognito chats cannot be reopened. Make sure to save any important
 
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
-- [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)

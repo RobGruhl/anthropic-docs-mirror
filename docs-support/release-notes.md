@@ -1,10 +1,18 @@
 # Release notes
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
 ## July 2026
+
+### July 9, 2026
+
+**A new way to reflect with Claude**
+
+Your monthly recap is a new feature at **Settings > Reflect** that shows you the topics you spent time on, your most active day and peak hour, and observations about how you work with Claude. It's in beta on Free, Pro, and Max plans on the web and Claude Desktop, and requires memory to be on. Alongside it, **Settings > Time and focus** lets you set optional break reminders and quiet hours. For more information, refer to[ See your monthly recap](https://support.claude.com/en/articles/15672559) and[ Set break reminders and quiet hours](https://support.claude.com/en/articles/15672868).
+
+ 
 
 ### July 7, 2026
 
