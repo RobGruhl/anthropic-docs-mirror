@@ -1,6 +1,6 @@
 # Use Claude with Android apps
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -194,7 +194,7 @@ Permission requirements vary by feature:
 
 For features requiring permissions (like location or calendar access), Claude will request permission contextually with clear explanations of why the access is needed. You’ll be prompted to approve the action with three options: Allow once, Always allow, or Don't allow.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1783637100&signature=5a14790b14c7120fbec86ac4ad77546f7ad7baf2641afede304f817ba396ec2f&req=dScnEcp7nIdeXfMW1HO4zQe5GlyJ2CL1S5x65TIld%2FAQGimfkSliNX9iiFpN%0AoEOGDxI%2F80UL77PDX98%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1783650600&signature=f2ed440d2a46800271e216189c022674b55051a3de402f2fc65d4277b7717283&req=dScnEcp7nIdeXfMW1HO4zQe5GlyJ3iXyS5x65TIld%2FCUzctMcuSfMIaJLQF6%0AcZogTSmR9P6tYE51Ol8%3D%0A)
 
  
 

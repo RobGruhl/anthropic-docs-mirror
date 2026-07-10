@@ -1,6 +1,6 @@
 # Access the Compliance API
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -31,8 +31,8 @@ The Compliance API now includes audit log events, giving you a full view across 
 
 ## Related Articles
 
-- [Access audit logs](https://support.claude.com/en/articles/9970975-access-audit-logs)
 - [How can I check connectivity to the Claude API?](https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Configure a custom OpenTelemetry collector for Office agents](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents)
 - [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 - [Get started with Claude Compliance API integrations](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)
