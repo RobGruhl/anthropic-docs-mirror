@@ -43,6 +43,8 @@ You can also configure routines to be triggered by API calls. Every routine gets
 Read the alert payload, find the owning service, and post a triage summary to #oncall with a proposed first step.
 ```
 
+If you're building cloud-hosted agents on the Claude Platform rather than automating Claude Code,[scheduled deployments in Claude Managed Agents](https://claude.com/blog/whats-new-in-claude-managed-agents)give your own agents the same run-on-a-schedule behavior.
+
 ### Webhook routines, starting with GitHub
 
 Subscribe a routine to automatically kick off in response to GitHub repository events. Claude will create a new session for every PR matching your filters and run your routine.

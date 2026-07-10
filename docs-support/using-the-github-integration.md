@@ -1,6 +1,6 @@
 # Use the GitHub integration
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -12,22 +12,22 @@ Connect your GitHub repositories directly to Claude to provide comprehensive con
 
 ### Chats
 
-- Click the "+" button on the lower left corner of the chat interface.
-- Select "Add from GitHub" from the drop-down.
-- Use the file browser to select specific files and folders.
-- When you send your message, Claude will access and process the content to inform its response.
--  
+1. Click the "+" button on the lower left corner of the chat interface.
+2. Select "Add from GitHub" from the drop-down.
+3. Use the file browser to select specific files and folders.
+4. When you send your message, Claude will access and process the content to inform its response.
+4.  
 
 ### Projects
 
-- Click the "+" button in the upper right corner of your project knowledge section.
-- Select "GitHub" from the drop-down.
-- Search through your accessible repositories, or paste a repository URL.
-- Use the file browser to select specific files and folders.
-- Your selected content will be added to the project knowledge for Claude to access and process.
-- You can use the "Sync" icon to ensure you're working with the most up-to-date version of your codebase.
-- You can use the "Configure files" icon to modify which files and folders Claude analyzes.
--  
+1. Click the "+" button in the upper right corner of your project knowledge section.
+2. Select "GitHub" from the drop-down.
+3. Search through your accessible repositories, or paste a repository URL.
+4. Use the file browser to select specific files and folders.
+5. Your selected content will be added to the project knowledge for Claude to access and process.
+6. You can use the "Sync" icon to ensure you're working with the most up-to-date version of your codebase.
+7. You can use the "Configure files" icon to modify which files and folders Claude analyzes.
+7.  
 
 ## Connect to private repositories
 
@@ -48,6 +48,28 @@ Connect your GitHub repositories directly to Claude to provide comprehensive con
 4. **Thoughtful file selection**: When using "Configure files," be strategic about your selections. Include key files and directories that are central to your current task or project, but avoid selecting unnecessary files to keep within token limits and maintain focus.
 5. **Regular updates**: Remember to refresh your project's GitHub sync periodically to ensure Claude is working with the most up-to-date version of your codebase and especially before starting a new analysis or when you know there have been significant changes to your repo.
 5.  
+
+---
+
+ 
+
+## Troubleshooting
+
+### Repositories from an organization don't appear after connecting
+
+If your GitHub connection shows as connected but private repositories from a specific organization don't appear, that organization may require single sign-on (SSO). When SSO is required, each user must separately authorize the Claude app for that organization. Until you do, GitHub filters that organization's private repositories from your view, even though your connection is otherwise working.
+
+ 
+
+When Claude detects this state, the repository picker shows a banner prompting you to authorize SSO. To authorize the Claude app for your organization:
+
+1. Go to **[github.com/settings/applications](https://github.com/settings/applications)** and open the **Claude** entry.
+2. Under **Organization access**, click "Grant" next to the relevant GitHub organization.
+3. If the button reads "Request" instead of "Grant," you don't have permission to authorize the app yourself. A GitHub organization admin must approve your request from the organization's OAuth application policy settings.
+
+If your organization uses GitHub Enterprise Cloud with Enterprise Managed Users (EMU), the Claude app must also be approved at the enterprise level. Learn more in **[Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code#h_49cea7a027)**.
+
+ 
 
 ---
 
@@ -86,8 +108,8 @@ Browse all available connectors in the **[Connectors Directory](https://claude.a
 
 ## Related Articles
 
+- [Automated Security Reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code)
 - [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 - [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
-- [Claude Code: Common developer use cases](https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases)
 - [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
 - [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

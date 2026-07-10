@@ -1,6 +1,6 @@
 # Install Claude for Android
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -37,6 +37,6 @@ Note that if you have an active paid subscription and would like to uninstall th
 
 - [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
 - [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
+- [Use the Claude widget on Android](https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android)
 - [How to update Claude for Android](https://support.claude.com/en/articles/11825394-how-to-update-claude-for-android)
 - [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
-- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)

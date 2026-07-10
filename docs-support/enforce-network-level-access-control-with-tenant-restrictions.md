@@ -1,6 +1,6 @@
 # Enforce network-level access control with Tenant Restrictions
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -38,6 +38,29 @@ anthropic-allowed-org-ids: <org-uuid-1>,<org-uuid-2>,...
 anthropic-allowed-org-ids: 550e8400-e29b-41d4-a716-446655440000,6ba7b810-
 9dad-11d1-80b4-00c04fd430c8
 ```
+
+ 
+
+## Split large allowlists across multiple headers
+
+If your allowlist is too long for a single header line on your proxy platform, split it across numbered continuation headers. Append <code>;n=K</code> to the base header to declare the total number of header lines, then add the remaining UUIDs in headers <code>anthropic-allowed-org-ids1</code> through <code>anthropic-allowed-org-ids{K-1}</code>.
+
+ 
+
+```
+anthropic-allowed-org-ids: <org-uuid>,<org-uuid>,...;n=K
+anthropic-allowed-org-ids1: <org-uuid>,<org-uuid>,...
+...
+anthropic-allowed-org-ids{K-1}: <org-uuid>,<org-uuid>,...
+```
+
+- Maximum of 10 header lines (<code>K</code> ≤ 10)
+- Maximum of 500 organization UUIDs total across all lines
+- Your proxy must send every declared slot. If you set <code>;n=3</code>, all three headers must be present on the request.
+- Configure your proxy to overwrite these headers on every request rather than add them only if absent.
+-  
+
+---
 
  
 
@@ -84,9 +107,15 @@ curl https://api.anthropic.com/v1/messages \
 
  
 
-## Error response
+---
 
-When access is blocked, users receive the following error:
+ 
+
+## Error responses
+
+### Access blocked
+
+When a user's organization isn't on the allowlist, they receive a 403 error:
 
 ```
 {
@@ -100,6 +129,14 @@ When access is blocked, users receive the following error:
 ```
 
  
+
+### Header configuration errors
+
+If your proxy sends the headers incorrectly, requests fail with a 400 status and one of these messages:
+
+- Multiple <code>anthropic-allowed-org-ids</code> headers: A header name appeared more than once on the same request. Configure your proxy to overwrite each header rather than append a duplicate.
+- Malformed <code>anthropic-allowed-org-ids</code> headers: The <code>;n=K</code> value is invalid, a declared continuation slot is missing or extra, or the total allowlist exceeds 500 UUIDs.
+-  
 
 ## Supported proxy platforms
 
@@ -140,7 +177,7 @@ When access is blocked, users receive the following error:
 ## Related Articles
 
 - [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
-- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)

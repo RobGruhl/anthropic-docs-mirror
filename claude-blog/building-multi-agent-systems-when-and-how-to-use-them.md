@@ -37,7 +37,7 @@ We've observed teams build elaborate multi-agent systems with separate agents fo
 
 ## A decision framework for multi-agent systems
 
-Multi-agent architectures provide value when they address specific constraints that a single agent cannot overcome. This means multi-agent architectures should be reserved for cases where they provide clear benefits that justify the additional cost.
+Multi-agent architectures provide value when they address specific constraints that a single agent cannot overcome. This means multi-agent architectures should be reserved for cases where they provide clear benefits that justify the additional cost. Managed infrastructure can also handle this for you (see[multiagent orchestration in Claude Managed Agents)](https://claude.com/blog/new-in-claude-managed-agents).
 
 The patterns below represent cases where we consistently observe positive returns on this investment.
 
@@ -120,7 +120,7 @@ Context isolation is most effective when subtasks generate high context volume (
 
 Running multiple agents in parallel allows you to explore a larger search space than a single agent can cover. This pattern has proven particularly valuable for search and research tasks.
 
-Our[Research feature](https://www.anthropic.com/engineering/multi-agent-research-system)uses this approach. A lead agent analyzes a query and spawns multiple subagents to investigate different facets in parallel. Each subagent searches independently, then returns distilled findings. Multi-agent search has shown substantial accuracy improvements over single-agent approaches by allowing exploration across larger information spaces.
+Anthropic's research team documented this in[how we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system). A lead agent analyzes a query and spawns multiple subagents to investigate different facets in parallel. Each subagent searches independently, then returns distilled findings. Multi-agent search has shown substantial accuracy improvements over single-agent approaches by allowing exploration across larger information spaces.
 
 The core implementation decomposes a question into independent facets, runs subagents concurrently, then synthesizes the results.
 
@@ -415,6 +415,14 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+
+### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
+
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### What is Model Context Protocol? Connect AI to your world
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
 ### Building agents that reach production systems with MCP
@@ -422,14 +430,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
 ### The evolution of agentic surfaces: building with Claude Managed Agents
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
-
-### Best practices for prompt engineering for 2026
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
-
-### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
 
 ## Transform how your organization operates with Claude
 

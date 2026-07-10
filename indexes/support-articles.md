@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-07-10 19:27*
+*Last updated: 2026-07-10 21:55*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -38,7 +38,7 @@ Total documents: 253
 **Source:** https://support.claude.com/en/articles/13325567-account-management-faqs  
 **Updated:** 2026-07-10  
 
-### Adapting to new model personas after deprecations
+### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
 **Updated:** 2026-07-10  
@@ -171,7 +171,7 @@ Total documents: 253
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-06-18  
+**Updated:** 2026-07-10  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -306,7 +306,7 @@ Total documents: 253
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
@@ -321,7 +321,7 @@ Total documents: 253
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-10  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -406,7 +406,7 @@ Total documents: 253
 ### How am I billed for my Enterprise plan?
 **File:** `/docs-support/how-am-i-billed-for-my-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
@@ -696,7 +696,7 @@ Total documents: 253
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -756,7 +756,7 @@ Total documents: 253
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
 **Source:** https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Move your personal Claude account to a Team or Enterprise organization
 **File:** `/docs-support/can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md`  
@@ -861,7 +861,7 @@ Total documents: 253
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-07-05  
+**Updated:** 2026-07-10  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -966,7 +966,7 @@ Total documents: 253
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1081,7 +1081,7 @@ Total documents: 253
 ### Use the GitHub integration
 **File:** `/docs-support/using-the-github-integration.md`  
 **Source:** https://support.claude.com/en/articles/10167454-using-the-github-integration  
-**Updated:** 2026-05-29  
+**Updated:** 2026-07-10  
 
 ### Use visual and interactive content on Team and Enterprise plans
 **File:** `/docs-support/visual-and-interactive-content-for-team-and-enterprise-plans.md`  
@@ -1181,7 +1181,7 @@ Total documents: 253
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
@@ -1266,5 +1266,5 @@ Total documents: 253
 ### Why was my card declined?
 **File:** `/docs-support/why-was-my-card-declined.md`  
 **Source:** https://support.claude.com/en/articles/9402418-why-was-my-card-declined  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-10  
 

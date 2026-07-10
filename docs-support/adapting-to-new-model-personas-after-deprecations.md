@@ -1,6 +1,6 @@
-# Adapting to new model personas after deprecations
+# Adapt to new model personas after deprecations
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -13,8 +13,7 @@
 Below are a set of strategies and recommendations for adapting to model transitions. Not all of them will be applicable in every circumstance, but in most cases we expect that some combination of these strategies can help to smooth the transition between models. We encourage you to experiment with these and other strategies to find what works best for you. 
 
 - When a model deprecation is announced, we suggest experimenting with newer models as soon as possible. You can test different models and run side-by-side comparisons with the kinds of prompts and conversations that matter the most to you, to identify the best alternative model prior to retirement. 
-- **[Enabling memory and allowing Claude to search past chats](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)** can help new models to learn and immediately adapt to your preferences and communication style. 
-- **[Defining custom styles](https://support.claude.com/en/articles/10181068-configuring-and-using-styles)** that capture your preferred communication style can help improve consistency between models.
+- **[Enabling memory and allowing Claude to search past chats](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)** can help new models to learn and immediately adapt to your preferences and communication style.
 - **[Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)** offer another means of personalization, and can include custom instructions for Claude as well as custom context, which again can help new models understand and adapt to your needs and preferences.
 - Using these personalization strategies can be thought of as giving feedback to new models. If you find that a new model is more or less talkative than you’d prefer, or has a different tone, you can shape the model’s behavior within a conversation, within a project, or across your entire account using the strategies above. If you’re not sure how to describe the qualities you’re looking for, you can ask Claude to review some of the conversations you’ve most appreciated and to craft instructions for itself based on those. 
 - In addition to finding strategies for preserving features and styles of past models, we also encourage you to explore the changes that newer models bring. They often offer improved performance on complex topics, improved brainstorming and collaboration, better instruction following, and other improvements that you may find valuable, even if they come with a change. 
@@ -27,8 +26,8 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 
 ## Related Articles
 
-- [I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?](https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude)
-- [I would like to input sensitive data into my chats with Claude. Who can view my conversations?](https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations)
+- [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
+- [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Can I use my Outputs to train an AI model?](https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)

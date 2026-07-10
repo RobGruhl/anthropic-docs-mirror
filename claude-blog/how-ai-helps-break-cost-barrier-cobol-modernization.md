@@ -37,7 +37,7 @@ Modernizing a COBOL system once required armies of consultants spending years ma
 
 AI changes this.
 
-Tools like[Claude Code](https://www.claude.com/product/claude-code)can automate the exploration and analysis phases that consume most of the effort in COBOL modernization. These tools can:
+[Claude Code](https://www.claude.com/product/claude-code), Anthroipic's agentic coding tool, can automate the exploration and analysis phases that consume most of the effort in COBOL modernization. These tools can:
 
 - Map dependencies across thousands of lines of code
 
@@ -115,7 +115,7 @@ Start with a single component or workflow that has clear boundaries and moderate
 
 The economics of COBOL modernization have shifted. AI makes the economics work by automating what used to require armies of consultants, freeing your engineers to make the migration decisions that require their domain expertise.
 
-For a step-by-step guide, see the[Code Modernization Playbook](https://resources.anthropic.com/code-modernization-playbook).Thanks to Dan Mason, technical member of Anthropic staff, for their contributions.
+For a step-by-step guide, see Antrhopic's[Code Modernization Playbook](https://resources.anthropic.com/code-modernization-playbook).Thanks to Dan Mason, technical member of Anthropic staff, for their contributions.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
