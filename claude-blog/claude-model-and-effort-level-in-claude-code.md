@@ -125,10 +125,6 @@ Think of effort as a manual override to scale how hard and long Claude works. Ch
 
 Some practical insight that may help guide you following the[launch of Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8): in our testing we found when you use the default effort setting for Opus 4.8, it will produce better results for about the same number of tokens when compared to using the default effort setting of Opus 4.7 for the same task.
 
-You can set effort for one session or persist it as your default. For a single session, run/effortto open a slider,/effort highto set a level directly, or launch with the--effortflag. To make a default that carries across sessions, seteffortLevelin your settings file, or theCLAUDE_CODE_EFFORT_LEVELenvironment variable. When more than one is set, the environment variable wins, then your settings value, then the model's default.
-
-One thing trips people up: onlylow,medium,high, andxhighcan be persisted.maxandultracodeare session-only — you set them with/effortor--efforteach time you want them. So if you putmaxin your settings file and it seems to get ignored or quietly downgraded, that's why. To confirm what's actually active, check the effort label shown next to the spinner, or open/model.
-
 ## What to change when Claude gets it wrong
 
 When Claude gets something wrong, your first instinct shouldn’t be to adjust a knob, but to examine the context you have provided. Is your prompt too vague? Is Claude connected to the right tools? Equipped with the right skills?

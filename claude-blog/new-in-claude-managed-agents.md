@@ -15,11 +15,11 @@
 
 - ShareCopy linkhttps://claude.com/blog/new-in-claude-managed-agents
 
-Today we're launching dreaming in Claude Managed Agents as a research preview. Dreaming extends[memory](https://claude.com/blog/claude-managed-agents-memory)by reviewing past sessions to find patterns and help agents self-improve. We're also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering.
+Today we're launching dreaming in[Claude Managed Agents](https://claude.com/blog/claude-managed-agents)as a research preview. Dreaming extends[memory](https://claude.com/blog/claude-managed-agents-memory)by reviewing past sessions to find patterns and help agents self-improve. We're also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering.
 
 ## Build self-improving agents with dreaming
 
-[Dreaming](https://platform.claude.com/docs/en/managed-agents/dreams)is a scheduled process that reviews your agent sessions and memory stores, extracts patterns, and curates memories so your agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land.
+[Dreaming](https://platform.claude.com/docs/en/managed-agents/dreams)is a scheduled process in Claude Managed Agents that reviews agent sessions and memory stores, extracts patterns, and curates memories so agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f8e9ad765c7eed52dcf468_Claude-Managed-Agents-Blog-Followup-Dreaming.png)
 
@@ -29,7 +29,7 @@ Together, memory and dreaming form a robust memory system for self-improving age
 
 Dreaming is available in Managed Agents on the Claude Platform; developers can[request access here](https://claude.com/form/claude-managed-agents).
 
-## Deliver better outcomes
+## Outcomes: define the quality bar for agent work
 
 With[outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes), you write a rubric describing what success looks like and the agent works toward it. A separate grader evaluates the output against your criteria in its own context window, so it isn't influenced by the agent's reasoning. When something isn't right, the grader pinpoints what needs to change and the agent takes another pass.
 
@@ -39,7 +39,7 @@ Outcomes is particularly useful for tasks that require attention to detail and e
 
 You can also now define an outcome, let the agent run, and get notified by a[webhook](http://platform.claude.com/docs/en/managed-agents/webhooks)when it's done.
 
-## Handle complex tasks with multiple agents
+## Multiagent orchestration: Handle complex tasks with multiple agents
 
 When there is too much work for a single agent to do well,[multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multi-agent)lets a lead agent break the job into pieces and delegate each one to a specialist with its own model, prompt, and tools. For example, a lead agent can run an investigation while subagents fan out through deploy history, error logs, metrics, and support tickets.
 
@@ -75,21 +75,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### Bringing Claude Code and Claude Cowork to government
+### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Claude Cowork is coming to mobile and web
+### Built-in memory for Claude Managed Agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
-### Giving admins more visibility and control over Claude spend
+### New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
-### Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud
+### Claude Managed Agents: get to production 10x faster
 
 ## Transform how your organization operates with Claude
 

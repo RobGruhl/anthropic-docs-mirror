@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-10 16:55*
+*Last updated: 2026-07-10 19:27*
 Total documents: 1620
 ---
 ## Uncategorized (1620 documents)
@@ -4851,7 +4851,7 @@ Total documents: 1620
 ### manage-claude__access-transparency
 **File:** `/platform-docs/manage-claude__access-transparency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/access-transparency  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-10  
 
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  

@@ -15,13 +15,15 @@
 
 - ShareCopy linkhttps://claude.com/blog/claude-managed-agents-updates
 
-Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls.
+Starting today,[Claude Managed Agents](https://claude.com/blog/claude-managed-agents)can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls.
 
 The sandbox runs on your own infrastructure, or with managed providers like[Cloudflare](https://developers.cloudflare.com/sandbox/claude-managed-agents/),[Daytona](https://www.daytona.io/docs/en/guides/claude/claude-managed-agents),[Modal](https://github.com/modal-labs/claude-managed-agents-modal-sandbox/tree/main), or[Vercel](https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox)to handle the compute and isolation for you.
 
 On the Claude Platform,[self-hosted sandboxes](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes)is available in public beta and MCP tunnels in research preview ([request access](https://claude.com/form/claude-managed-agents)).
 
-## Keep agent execution within your perimeter
+## Self-hosted sandboxes: keep agent execution within your perimeter
+
+A self-hosted sandbox lets a Claude Managed Agent execute tools on infrastructure you control or with a managed sandbox provider. Code execution, sensitive files, packages, services, and data stay within your enterprise perimeter, under your security and runtime controls.
 
 With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The[agent loop](https://www.anthropic.com/engineering/managed-agents)that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment.
 
@@ -41,9 +43,9 @@ Bring any sandbox client you want, or start with one of our supported providers:
 
 - Vercelsandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox.Rogo, an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely.
 
-## Connect to services within your private network
+## MCP tunnels: Connect to services within your private network
 
-With[MCP tunnels](http://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview), your agents reach MCP servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end.
+[MCP tunnels](http://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview)connect Claude Managed Agents to Model Context Protocol (MCP) servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end.
 
 MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the[Claude Console](https://platform.claude.com/)by organization admins.
 
@@ -87,7 +89,7 @@ MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is 
 
 ## Getting started
 
-Both self-hosted sandboxes and MCP tunnels work within the same core primitives supported by Managed Agents. Self-hosted sandboxes is available in public beta and MCP tunnels in research preview. To get started with MCP tunnels,[request access](https://claude.com/form/claude-managed-agents).
+Both self-hosted sandboxes and[MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview)work within the same core primitives supported by Managed Agents. Self-hosted sandboxes is available in public beta and [MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview) in research preview. To get started with [MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview),[request access](https://claude.com/form/claude-managed-agents).
 
 Explore our[docs](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes)to learn more, follow our[cookbooks](https://github.com/anthropics/claude-cookbooks/tree/main/managed_agents/self_hosted_sandboxes)to set up your sandbox provider, or deploy your first agent in the[Claude Console](https://platform.claude.com/).
 
@@ -97,21 +99,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
-### Bringing Claude Code and Claude Cowork to government
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Claude Cowork is coming to mobile and web
+### Built-in memory for Claude Managed Agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
-### Giving admins more visibility and control over Claude spend
+### New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
-### Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud
+### Claude Managed Agents: get to production 10x faster
 
 ## Transform how your organization operates with Claude
 

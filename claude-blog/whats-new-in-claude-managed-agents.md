@@ -15,11 +15,11 @@
 
 - ShareCopy linkhttps://claude.com/blog/whats-new-in-claude-managed-agents
 
-Starting today, Claude Managed Agents can run on a schedule and securely access CLI tools and other authenticated services. Both features are now available in public beta on the Claude Platform.
+Starting today,[Claude Managed Agents](https://claude.com/blog/claude-managed-agents)can run on a schedule and securely access CLI tools and other authenticated services. Both features are now available in public beta on the Claude Platform.
 
-## Run agents on a schedule
+## Scheduled deployments: Run agents on a schedule
 
-Agents can now run on a schedule, completing routine work automatically. A[scheduled deployment](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments)gives an agent a cron schedule. Each time the schedule fires, the agent starts a new session and completes its task, with no scheduler for you to build or host.
+Agents can now run on a schedule, completing routine work automatically. A[scheduled deployment](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments)runs a Claude Managed Agent on a cron schedule. Each time the schedule fires, the agent starts a new session and completes its task, with no scheduler for you to build or host.
 
 Use it for recurring work like a nightly data sync, a weekly compliance scan, or a daily digest. Once a deployment is live, you can pause, resume, or archive it at any time, or trigger additional runs on demand.
 
@@ -33,9 +33,11 @@ Teams are already using scheduled deployments to automate recurring work:
 
 - Andouses scheduled deployments to keep hiring and sales teams moving. Agents autonomously watch channels for proposed next steps, follow up when they're due, and send meeting reminders.
 
-## Store environment variables in vaults to authenticate CLIs and other tools
+## Vaults: store environment variables to authenticate CLIs and other tools
 
-Agents[connect to external systems](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)through direct API calls, CLIs, and MCP. Now we're extending[vaults](https://platform.claude.com/docs/en/managed-agents/vaults)to support environment variables, so CLIs and other tools can make authenticated requests. CLIs let agents drive existing command-line tools directly through a shell, making them a fast, lightweight integration path. Register an API key with an environment variable name and the domains it can reach, and the CLIs installed in an agent's sandbox can use it to make authenticated API calls.
+[Vaults](https://platform.claude.com/docs/en/managed-agents/vaults)securely store environment variables and credentials for Claude Managed Agents. At runtime, agents access secrets like API keys as environment variables, so they can authenticate CLI tools and other services without hardcoding credentials into prompts or code.
+
+Agents[connect to external systems](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)through direct API calls, CLIs, and MCP. CLIs let agents drive existing command-line tools directly through a shell, making them a fast, lightweight integration path. Register an API key with an environment variable name and the domains it can reach, and the CLIs installed in an agent's sandbox can use it to make authenticated API calls.
 
 The agent never sees your key because the sandbox only holds a placeholder. The real key is attached at the network boundary, and only on requests to domains you allow, so it only goes where you’ve approved. To change a key, update it in the vault, and running sessions will pick up the new value on their next call. Most CLIs that send their key in an HTTP request work this way, including the [Browserbase](https://docs.browserbase.com/integrations/anthropic/managed-agents/quickstart), [KERNEL](https://www.kernel.sh/docs/integrations/claude-managed-agents), Notion, Ramp, and Sentry CLIs.[Browserbase](https://docs.browserbase.com/integrations/anthropic/managed-agents/quickstart)and[KERNEL](https://www.kernel.sh/docs/integrations/claude-managed-agents)give Managed Agents browser capabilities for the first time, so agents can navigate and interact with the web alongside their other tools.
 
@@ -109,21 +111,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)
 
-### Bringing Claude Code and Claude Cowork to government
+### New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### Claude Cowork is coming to mobile and web
+### New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
-### Giving admins more visibility and control over Claude spend
+### Built-in memory for Claude Managed Agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
 
-### Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud
+### Claude Managed Agents: get to production 10x faster
 
 ## Transform how your organization operates with Claude
 

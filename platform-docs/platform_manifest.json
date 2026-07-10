@@ -15605,10 +15605,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/access-transparency.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/access-transparency",
-      "hash": "7b4117884500b5732bb604c9e6af1b5dc2f5683120aa664c3575336ba7d21768",
+      "hash": "1cf551749f7dcd4ad9b0c99ee42a5b36d337012c8a83aeb05a8240a277d707e2",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-27T07:01:51.805915"
+      "last_updated": "2026-07-10T19:16:17.801764"
     },
     "manage-claude__admin-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/admin-api",
@@ -16202,13 +16202,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-10T16:50:16.957601",
-    "fetch_duration_seconds": 20.665133,
+    "last_fetch_completed": "2026-07-10T19:16:17.816267",
+    "fetch_duration_seconds": 25.349873,
     "total_pages_discovered": 1877,
     "pages_fetched_successfully": 1620,
     "pages_failed": 257,
-    "pages_unchanged": 625,
-    "pages_updated": 995,
+    "pages_unchanged": 1619,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16483,5 +16483,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-10T16:50:16.957803"
+  "last_updated": "2026-07-10T19:16:17.816464"
 }

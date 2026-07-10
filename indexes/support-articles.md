@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-07-10 16:55*
-Total documents: 254
+*Last updated: 2026-07-10 19:27*
+Total documents: 253
 ---
-## Uncategorized (254 documents)
+## Uncategorized (253 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -41,7 +41,7 @@ Total documents: 254
 ### Adapting to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -221,7 +221,7 @@ Total documents: 254
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
 **Source:** https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-10  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -346,7 +346,7 @@ Total documents: 254
 ### FAQs on Using Claude for Education at Your University
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
 **Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -556,7 +556,7 @@ Total documents: 254
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -676,7 +676,7 @@ Total documents: 254
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
@@ -903,11 +903,6 @@ Total documents: 254
 **Source:** https://support.claude.com/en/articles/10722177-sharing-prompts-in-the-claude-console  
 **Updated:** 2026-07-10  
 
-### Styles are moving to skills
-**File:** `/docs-support/configure-and-use-styles.md`  
-**Source:** https://support.claude.com/en/articles/10181068-configure-and-use-styles  
-**Updated:** 2026-06-01  
-
 ### Switching to a different Identity Provider (IdP)
 **File:** `/docs-support/switching-to-a-different-identity-provider-idp.md`  
 **Source:** https://support.claude.com/en/articles/13443687-switching-to-a-different-identity-provider-idp  
@@ -936,12 +931,12 @@ Total documents: 254
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
 **Source:** https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-10  
 
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -1056,7 +1051,7 @@ Total documents: 254
 ### Use incognito chats
 **File:** `/docs-support/using-incognito-chats.md`  
 **Source:** https://support.claude.com/en/articles/12260368-using-incognito-chats  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
@@ -1146,7 +1141,7 @@ Total documents: 254
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
 **Source:** https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-10  
 
 ### What happens to a user's data when they are removed from a Team or Enterprise organization?
 **File:** `/docs-support/what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md`  

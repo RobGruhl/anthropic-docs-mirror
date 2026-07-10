@@ -1,6 +1,6 @@
 # Understanding Claude's personalization features
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -90,6 +90,6 @@ You can use these features independently or in combination to create the most ef
 
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
-- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
