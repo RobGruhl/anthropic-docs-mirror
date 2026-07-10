@@ -1,5 +1,5 @@
 # Agents Topic Index
-*Last updated: 2026-07-10 11:47*
+*Last updated: 2026-07-10 14:07*
 
 Documents related to Agents across all sources (137 documents)
 ---
@@ -99,7 +99,6 @@ Documents related to Agents across all sources (137 documents)
 - [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
 - [Deploying Claude across the legal industry](/claude-blog/deploying-claude-across-the-legal-industry.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
-- [Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Giving admins more visibility and control over Claude spend](/claude-blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
@@ -114,6 +113,7 @@ Documents related to Agents across all sources (137 documents)
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
+- [Loop engineering: Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn

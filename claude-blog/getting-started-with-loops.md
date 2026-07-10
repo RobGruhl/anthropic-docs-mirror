@@ -1,9 +1,9 @@
-# Getting started with loops
+# Loop engineering: Getting started with loops
 *June 30, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-# Getting started with loops
+# Loop engineering: Getting started with loops
 
 Learn how the Claude Code team defines agentic loops, with practical guidance on progressing from turn-based to goal-based, time-based, and proactive loops—and when to use each.
 
@@ -17,7 +17,9 @@ Learn how the Claude Code team defines agentic loops, with practical guidance on
 
 - ShareCopy linkhttps://claude.com/blog/getting-started-with-loops
 
-There’s a lot of talk right now about "designing loops" instead of prompting your coding agent. If you spend some time on X trying to pin down what a loop actually is, you'll come across multiple different answers.
+## Getting started with loops
+
+There’s a lot of talk right now about loop engineering or "designing loops" instead of prompting your coding agent. If you spend some time on X trying to pin down what a loop actually is, you'll come across multiple different answers.
 
 On the Claude Code team, we defineloops as agents repeating cycles of work until a stop condition is met. We categorize a few different types of loops based on:
 
@@ -184,6 +186,8 @@ To manage token usage, loops should have clear boundaries:
 
 - Review usage:The `/usage` command breaks down recent usage by skills, subagents, and MCPs, `/goal` with no arguments shows number of turns and token usage so far, `/workflows` shows each agent’s token usage and you can stop an agent at any time.
 
+Your[model and effort level](https://claude.com/blog/claude-model-and-effort-level-in-claude-code)choices are among the biggest levers on what a loop costs.
+
 ## Getting started
 
 To summarize:
@@ -206,6 +210,10 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+
+### Choosing a Claude model and effort level in Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 ### Product management on the AI exponential
@@ -213,10 +221,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
 ### Bringing Claude Code and Claude Cowork to government
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### A harness for every task: dynamic workflows in Claude Code
 
 ## Transform how your organization operates with Claude
 

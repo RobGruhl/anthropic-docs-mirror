@@ -25,7 +25,7 @@ Key takeaways:
 
 - If Claude has all the pertinent context, clearly tried, and still got it wrong, that's a signal to pick a more capable model. If Claude got it wrong by skipping a file, not running the tests, or bailing on a refactor partway through, pick a higher effort level.
 
-## Claude Code effort levels and model selection
+## Claude Code effort level and model selection
 
 Claude Code gives you two settings that appear to "make the answer better": the model setting and the effort level. You may expect that larger models like Claude Fable 5 provide a smarter output than Claude Sonnet, and a higher effort level means Claude thinks longer before it answers.
 
@@ -87,7 +87,7 @@ What it doesn't decide is how many tokens get generated. That number can vary a 
 
 This is whateffortlevelcontrols:how much workClaude decides to do for each turn.
 
-## How effort works
+## How Claude Code effort level works
 
 When Claude Code is working on a task, the tokens it generates fall into a few categories:
 
@@ -124,6 +124,10 @@ Our guidance is thatfor most tasks you should use the model’s default effort l
 Think of effort as a manual override to scale how hard and long Claude works. Choose it deliberately when you have a strong preference for thoroughness or speed based on your domain or the type of work you do. Consider this more as a general preference than a task-by-task decision.
 
 Some practical insight that may help guide you following the[launch of Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8): in our testing we found when you use the default effort setting for Opus 4.8, it will produce better results for about the same number of tokens when compared to using the default effort setting of Opus 4.7 for the same task.
+
+You can set effort for one session or persist it as your default. For a single session, run/effortto open a slider,/effort highto set a level directly, or launch with the--effortflag. To make a default that carries across sessions, seteffortLevelin your settings file, or theCLAUDE_CODE_EFFORT_LEVELenvironment variable. When more than one is set, the environment variable wins, then your settings value, then the model's default.
+
+One thing trips people up: onlylow,medium,high, andxhighcan be persisted.maxandultracodeare session-only — you set them with/effortor--efforteach time you want them. So if you putmaxin your settings file and it seems to get ignored or quietly downgraded, that's why. To confirm what's actually active, check the effort label shown next to the spinner, or open/model.
 
 ## What to change when Claude gets it wrong
 
@@ -197,7 +201,7 @@ Explore more product news and best practices for teams building with Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### Getting started with loops
+### Loop engineering: Getting started with loops
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 

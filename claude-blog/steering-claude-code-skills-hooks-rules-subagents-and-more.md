@@ -31,7 +31,9 @@ The table below provides a quick summary of key differences across each method w
 
 ## The seven methods for delivering instructions
 
-There are seven ways to customize Claude Code's behavior: CLAUDE.md files for always-on project context, rules for hard constraints, skills for reusable procedures, subagents for delegated work, hooks for deterministic automation, and output styles or system-prompt appends for global changes. Each method trades context cost against authority—choosing the right one is most of the work.
+There are seven ways to customize Claude Code's behavior: CLAUDE.md files for always-on project context, rules for hard constraints, skills for reusable procedures, subagents for delegated work, hooks for deterministic automation, and output styles or system-prompt appends for global changes.
+
+Each method trades context cost against authority. These methods influence Claude's behavior while two separate dials,[which model and effort level you choose](https://claude.com/blog/claude-model-and-effort-level-in-claude-code), control how capable it is and how hard it works.
 
 ### CLAUDE.md files
 
@@ -142,7 +144,7 @@ This makes these hook types fundamentally different from CLAUDE.md, rules, and s
 
 Tip:Use hooks for anything that should happen deterministically: running linters after edits, posting to Slack on completion, or blocking specific commands before they execute. APreToolUsehook can inspect any tool call and exit code 2 to deny it.
 
-They have low context cost because they are code that the harness runs rather than instructions to Claude that get loaded into context.
+They have low context cost because they are code that the harness runs rather than instructions to Claude that get loaded into context. Skills and hooks are also the building blocks of[designing agent loops](https://claude.com/blog/getting-started-with-loops)—repeating workflows that run until a stop condition is met.
 
 ### Output styles
 
@@ -206,7 +208,11 @@ Explore more product news and best practices for teams building with Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### Getting started with loops
+### Loop engineering: Getting started with loops
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+
+### Choosing a Claude model and effort level in Claude Code
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
@@ -215,10 +221,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
 ### Bringing Claude Code and Claude Cowork to government
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### A harness for every task: dynamic workflows in Claude Code
 
 ## Transform how your organization operates with Claude
 

@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-10 11:47*
+*Last updated: 2026-07-10 14:07*
 
 Documents related to Claude Code across all sources (277 documents)
 ---
@@ -228,7 +228,6 @@ Documents related to Claude Code across all sources (277 documents)
 - [Deploying Claude across financial services](/claude-blog/deploying-claude-across-financial-services.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
-- [Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
@@ -246,6 +245,7 @@ Documents related to Claude Code across all sources (277 documents)
 - [Introduction au codage agentique](/claude-blog/introduction-to-agentic-coding.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
+- [Loop engineering: Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
 - [Meet the winners of our Claude Opus 4.8 Build Day hackathon](/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md) - ![](https://cdn
