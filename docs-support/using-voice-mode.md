@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783650600&signature=35cf73af9e7b01c14bb72397bdd4ca407d0a4405eb958fc48c585f90eaa5add8&req=diAjFMp7n4FZWfMW1HO4zU6VRf7MTbxvxNdRzYWrfF6JH%2BikZYTb9%2BIF%2B5GJ%0Ar5V1aeg%2Bs28uUoBw8x0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783666800&signature=5e1a4592c2f71aa10ae07d64865f42f9f6d51634eb35e13325aa407ea5e179ea&req=diAjFMp7n4FZWfMW1HO4zU6VRf7MTrphxNdRzYWrfF6Ec1m1etRorFdWTiEZ%0AIG4yQ21%2FFDGMHAudyek%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783650600&signature=036fde635913a5a9b68ad14b856370a551491c5494bd69e360c82bb1b46a0638&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmTZVAMy8OQfYsvK3zcz2ReZdtpq4D3zcpl%0AWLSQpmJNVL0%2BZ%2FLjT5A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783666800&signature=34a2fc2c846bb54a626c6c59fb68deeeb230f2796f86503def08ec5788d5cab6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmTZlYCy8OQfYsvK3zXz8lTFa%2FylmILarhw%0ALkw5k8kDF7CwLlIKQCc%3D%0A)
 
  
 
