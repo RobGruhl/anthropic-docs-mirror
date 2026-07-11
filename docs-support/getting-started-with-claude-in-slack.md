@@ -20,7 +20,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1783766700&signature=1c04b11382f34adb4da254e2c03a65338a064939e65d806be8e6a141eb3573d2&req=dSciE8h6noZYXPMW1HO4zb2WCgYEEIJw5mlLMjhGEMFiMDOacXKolcoGPstH%0AGyLIahxGvoAvhWmFpHs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755143775/0ac74968f16b0c304ad05c1501c3/8f870a90-c622-449d-9eba-0a2edf5d63f1?expires=1783776600&signature=12443fc64b2fe02c6ec369dc3e3f97a22267908b9534997c1aa0f906d52e81b5&req=dSciE8h6noZYXPMW1HO4zb2WCgYEEYJx5mlLMjhGEMGDEdC3N%2FHg32lGX%2Fc7%0AhSWjxpdYCbqEHqLVL5w%3D%0A)
 
  
 
@@ -28,11 +28,11 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1783766700&signature=6d5c31bea60c61926e24153ba76b1ee7abd2b3fa3e002f5304057c8bc1a01996&req=dSciE8h6mYZdWfMW1HO4zUifzTLeEaWjPUSeDntyEuVSViBK%2FGXLad1HBkq2%0AdAFzfnHbJrnEyNqxifA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755144720/47781e38d6f97597aa494e0aeb2d/38f88d2c-aa96-4d35-8a02-7ad6b23f8699?expires=1783776600&signature=42af89a6e3eff2231cd7c1a247715784a800d60fae294f03867b35991a37d03c&req=dSciE8h6mYZdWfMW1HO4zUifzTLeEKWiPUSeDntyEuW0ZpUmPZSbPEw0PxtD%0AQa%2FSek4w5WjeOjlhF%2BM%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1783766700&signature=c988b9438f65dfb096abe21bb8d9ebe19b9652f2fbd212ba62521bc1d5775aad&req=dSciE8h6mIRaX%2FMW1HO4zXrVUtt79onEBGejWRiWDiJyDGMdFhd6l%2BGVVp7G%0A7rhiFUxRL01PQDv7Mjs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755145556/3155c34bba5a64e0ab7b760e78c2/5c54e519-3c0d-4ffa-a555-0b9d9660ea53?expires=1783776600&signature=fda2f12f5a732486d0f16975e8a2a0552b2fde63507672aa14d9b8eab97dc18b&req=dSciE8h6mIRaX%2FMW1HO4zXrVUtt794nFBGejWRiWDiKkdXdqVg%2FS91oAEJIR%0AGSoqUPLEVrwcAVipy4c%3D%0A)
 
  
 
@@ -40,7 +40,7 @@ It’s how we’ve brought Claude’s capabilities directly to Slack, bringing A
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1783766700&signature=14f12bfa249c8885843abd0bab009abf5b0617fc6c59f45b6b2128a43417678d&req=diMuHsB7lYNfXfMW1HO4zdOLiZgqKu2vZVaRIDJSo4JaqM%2FtX149vU9SXZQu%0ASWKpxVE5ZminZJDK1UQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2398958204/25a1254c9c17bb0af6bf64ac99d3/Slack_Claude_Thread.png?expires=1783776600&signature=f2dc17011bb080ae04cbd90cca44af49ddf8b1b3c3698d5b4eb539382c1cf093&req=diMuHsB7lYNfXfMW1HO4zdOLiZgqK%2B2uZVaRIDJSo4KYtS3d3wQEK2k01990%0AR1%2BIdGMSELZd4Rs3CFw%3D%0A)
 
   
 
@@ -143,7 +143,7 @@ To disconnect your Claude account from Slack:
 2. Under **Disconnect Claude Account**, click the red "Disconnect" button.
 3. Confirm the disconnection.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1783766700&signature=715837c78cdcf999d837bf4d41f3da9aeb32c12a1a2a27ec8077bf2c331a5759&req=dSciE8h6lIZbXfMW1HO4zdIAvZZMaLeXQgg7UiXQlE1NLApWdBME24QMChCJ%0AOnOQe6GxuGHKGJ%2Femp0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755149744/97a579fedf87deb5e5b6abf48963/4cab9f61-9f98-40c4-969a-f590716dfb38?expires=1783776600&signature=a3245ca0b2b1f6db8f256c0c239b7166a4828d9b26bfb4e1b6fdbec660c71b21&req=dSciE8h6lIZbXfMW1HO4zdIAvZZMabeWQgg7UiXQlE1KinnPQg0yNZijDyIj%0Aijx4GB8f8dl0JyJ1P0M%3D%0A)
 
  
 
