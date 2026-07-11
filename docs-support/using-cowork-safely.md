@@ -111,7 +111,9 @@ Scheduled tasks run on their own even when your computer is off. Review past run
 
 Cowork can work through the steps of a task without pausing for your approval, which keeps well-defined work moving. However, if Claude reads malicious content mid-task (a prompt injection), it could act on those instructions before you notice. Claude always asks before permanently deleting files, in any mode.
 
-Switch to "Ask before acting" when:
+ 
+
+Switch to "Manually approve" when:
 
 - The task touches sensitive files, accounts, or sites.
 - You're working with a new tool, plugin, or site for the first time.
@@ -148,7 +150,7 @@ Desktop extensions (MCPs) and plugins expand what Claude can do, but each one in
 
 Local MCP servers bundled with plugins and desktop extensions run on your computer with the same permissions as any other program you run. Stick to verified extensions from the Claude Desktop directory, and carefully evaluate the permissions any extension or plugin requests before installing.
 
-For more on plugins, see **[Use plugins in Cowork](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)**.
+For more on plugins, see **[Use plugins in Claude](https://support.claude.com/en/articles/13837440)**.
 
  
 
@@ -168,7 +170,7 @@ If your organization manages your computer, note that connecting local folders m
 
 **10. Report suspicious behavior immediately**
 
-If Claude suddenly starts discussing unrelated topics, attempts to access unexpected resources, or requests sensitive information unprompted, stop the task and report it to [usersafety@anthropic.com](mailto:usersafety@anthropic.com) or use the in-app feedback button. Your reports help us improve our defenses.
+If Claude suddenly starts discussing unrelated topics, attempts to access unexpected resources, or requests sensitive information unprompted, stop the task and report it to **[usersafety@anthropic.com](mailto:usersafety@anthropic.com)** or use the in-app feedback button. Your reports help us improve our defenses.
 
  
 
@@ -187,7 +189,7 @@ You remain responsible for all actions taken by Claude performed on your behalf.
 - Actions taken through computer use on your desktop and in your apps
 - Respecting third-party website terms of service, including any restrictions on automated access
 
-For more information about using AI agents safely, please review our[ Acceptable Use Policy for Agents](https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy).
+For more information about using AI agents safely, please review our **[Acceptable Use Policy for Agents](https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy)**.
 
 
 ---

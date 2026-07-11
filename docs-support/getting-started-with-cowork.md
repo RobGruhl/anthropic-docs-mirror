@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -131,6 +131,40 @@ Tasks can run for extended periods depending on complexity. You can monitor prog
 
  
 
+## Choose how Claude checks with you
+
+Cowork has three modes that control when Claude asks your permission before taking an action, like using your connectors. You can change the mode at any time from the mode selector in the chat box.
+
+ 
+
+Regardless of mode, connector tools that you've set to "Always allow" or "Blocked" will always be approved or denied, respectively. As a reminder, you control which connectors Claude can use via the + menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
+
+ 
+
+**Manually approve (Manual)**, formerly "Ask before acting." Claude pauses and asks for approval for actions. You review each request and choose Allow or Deny.
+
+ 
+
+**Automatically approve (Auto).** Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for **[prompt injection](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking your permission for each step.
+
+ 
+
+We tested Claude's safety check extensively before releasing it, including working with outside security experts who tried to sneak dangerous actions past it. It gives you the speed of letting Claude work without interruptions, with a layer of protection that "Skip all approvals" doesn't have: every action still gets reviewed before it happens. *Of course, no defense is perfect and no mode replaces your judgment. For work with real consequences—money, messages sent as you, important files—stay close and review what Claude does or consider switching back to "Manually approve."*
+
+ 
+
+Auto mode applies to all of your existing connectors, plugins, Claude in Chrome, and some Cowork actions like fetching websites. Auto mode won't approve certain sensitive actions like allowing Cowork to access additional folders on your computer, allowing Cowork to delete files in a given folder it has access to, creating scheduled tasks, and others. Because Claude does this extra checking for you, **auto mode consumes more of your usage limit than the other modes**.
+
+ 
+
+**Skip all approvals (Skip)**, formerly "Act without asking." Claude doesn't pause to ask and nothing checks its actions automatically. Only use this when you completely trust every action, connector, file, app, etc. involved in the task.
+
+ 
+
+---
+
+ 
+
 ## Add global and folder instructions
 
 ### Global instructions
@@ -145,7 +179,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1783721700&signature=07aec4fb3d5c40788d9b82f18f0b311eeaaf52b5ac8d59248d717f144c2d16fd&req=diUlE8B8m4lYXfMW1HO4zcDl6tvrNFC38iWjaktE941Th%2FlAUYDll2vtdfAY%0Afwh3DtN6%2BxK%2BRBfbLrY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1783879200&signature=37cace20fe2f01e45d9e047ea3d7ec5febf287b4d06241874863ca89e266b38f&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD377bYlOMqW%2FkK1eIkpl%2B3KtjMg%2F%2Fcb8P%0ABRJRAnJ3MOyzvrtIkpJu7%2BbBgoE%3D%0A)
 
  
 
@@ -207,6 +241,26 @@ See **[Usage limit best practices](https://support.claude.com/en/articles/979755
 
  
 
+## Permissions and security
+
+Cowork runs with layered protections:
+
+- **Session isolation:** Claude's work runs in an isolated environment on Anthropic's servers, separate from your computer and your network. Shell commands and code Claude writes run inside that environment. Isolation protects your computer; it doesn't change what Claude can read or do through the access you've granted.
+- **Controlled file and network access:** Claude can only read and write files in folders you've connected, and network access follows the egress settings you've configured.
+
+Permissions work the same as for chat. You control:
+
+1. Which **[MCPs you connect to Claude](https://claude.ai/settings/connectors)** and how often they ask for permission.
+2. **[Claude's internet access](https://claude.ai/settings/capabilities)** 
+
+Please carefully assess how much you trust an MCP or website before extending access beyond Claude's default settings.
+
+ 
+
+---
+
+ 
+
 ## Example use cases 
 
 Cowork is designed for complex, multi-step work that benefits from file access and extended execution time. Here are some examples:
@@ -250,51 +304,12 @@ For more detailed examples, see our **[use cases](https://claude.com/resources/u
 
  
 
-## Permissions and security
-
-Cowork runs with layered protections:
-
-- **Session isolation:** Claude's work runs in an isolated environment on Anthropic's servers, separate from your computer and your network. Shell commands and code Claude writes run inside that environment. Isolation protects your computer; it doesn't change what Claude can read or do through the access you've granted.
-- **Controlled file and network access:** Claude can only read and write files in folders you've connected, and network access follows the egress settings you've configured.
-
- 
-
-### Permissions
-
-Permissions work the same as for chat. You control:
-
-1. Which **[MCPs you connect to Claude](https://claude.ai/settings/connectors)** and how often they ask for permission.
-2. **[Claude's internet access](https://claude.ai/settings/capabilities)** 
-
-Please carefully assess how much you trust an MCP or website before extending access beyond Claude's default settings.
-
- 
-
-### Permission modes
-
-Cowork has a mode selector that controls how Claude handles approvals during a session:
-
-- **Ask before acting:** Claude pauses so you can approve each action. Good for tasks that touch sensitive files, new tools, or anything you want to watch closely.
-- **Act without asking:** Claude works without pausing for approval. We run a classifier on every action Claude takes on the user's behalf, screening for prompt injection attempts before the action executes. Claude denies or asks permission when it identifies suspicious actions.
-
-Permission prompts reach you on whichever surface you're using, so you can approve an action from your phone while Claude keeps working.
-
- 
-
- 
-
- 
-
----
-
- 
-
 ## Current limitations 
 
 Some Cowork capabilities are not yet available:
 
 - **Memory:** What Claude remembers about you in chat doesn't carry into Cowork sessions yet. Within Cowork, memory is supported in projects only**.**
-- **No chat or artifact sharing:** Sessions cannot be shared with others.
+- **No session sharing:** Sessions can't be shared with others. On Team and Enterprise plans, you can share live artifacts within your organization. Learn more about **[using live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249)**.
 - **Some features are desktop-only:** Live artifacts and plugins that include local MCP servers work through the desktop app only.
 
 We're iterating on Cowork based on feedback. If you encounter issues or have suggestions, use the feedback button in the app to share feedback with our team.
