@@ -1,6 +1,6 @@
 # Use Claude in Chrome safely
 
-*Updated today*
+*Updated this week*
 
 ---
 
@@ -165,8 +165,8 @@ For admin documentation, see **[Claude in Chrome admin controls](https://support
 
 ## Related Articles
 
-- [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)

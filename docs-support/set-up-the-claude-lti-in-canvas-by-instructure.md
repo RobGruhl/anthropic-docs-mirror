@@ -34,7 +34,7 @@ This article provides information on how to enable the Claude LTI integration in
 4. Input the Client ID generated for your developer key (from Step 6 under Creating Claude LTI Developer Key in Canvas).
 5. Click "Install" and refresh the course page.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1783836900&signature=bcb121526ea4da3c33f7be49bb38031a80d7e795f3454a99ee48637ab6710b03&req=dSYmF818n4VcWfMW1HO4zTEDaugWmPWIEv2ojHLMylYfLvTYGMp02ZLchdX%2B%0AQVt6OK3%2FTdLseQ5%2Ffq4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1783845000&signature=a0f8cf951a8eeab3218999bd2a55bc9461d90c07a17aa3517a9a076b2ffc5ead&req=dSYmF818n4VcWfMW1HO4zTEDaugWn%2FaBEv2ojHLMylYC6eCgseXDe9s%2BSU1e%0A0xToYc4ds10l9b6D2Vo%3D%0A)
 
  
 
@@ -58,8 +58,8 @@ If you have any questions about your Claude for Education plan account or the Cl
 
 ## Related Articles
 
-- [Get started with Claude for Education at your university (for Owners/Admins)](https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins)
 - [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
+- [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)
 - [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
 - [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

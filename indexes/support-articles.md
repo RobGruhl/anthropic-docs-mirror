@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-12 05:52*
+*Last updated: 2026-07-12 08:04*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -41,7 +41,7 @@ Total documents: 253
 ### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-12  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -136,7 +136,7 @@ Total documents: 253
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -261,7 +261,7 @@ Total documents: 253
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -306,7 +306,7 @@ Total documents: 253
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
@@ -321,7 +321,7 @@ Total documents: 253
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -421,7 +421,7 @@ Total documents: 253
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-12  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -576,7 +576,7 @@ Total documents: 253
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -661,7 +661,7 @@ Total documents: 253
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
@@ -766,7 +766,7 @@ Total documents: 253
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
 **Source:** https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
@@ -871,7 +871,7 @@ Total documents: 253
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
 **Source:** https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-12  
 
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
@@ -936,7 +936,7 @@ Total documents: 253
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -966,7 +966,7 @@ Total documents: 253
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-12  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -991,7 +991,7 @@ Total documents: 253
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-12  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1141,7 +1141,7 @@ Total documents: 253
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
 **Source:** https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-12  
 
 ### What happens to a user's data when they are removed from a Team or Enterprise organization?
 **File:** `/docs-support/what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md`  
@@ -1191,7 +1191,7 @@ Total documents: 253
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-12  
 
 ### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  

@@ -9,7 +9,7 @@ As a Primary Owner or Owner of a Team or Enterprise plan, you can manage the abi
 1. Navigate to **[Organization settings > Data and Privacy](https://claude.ai/admin-settings/data-privacy-controls).**
 2. Use the toggle to change the **Rate chats **setting for your organization:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1783836900&signature=487728e9985a63182b0d61b625866aec6595e08ca5920fa703dc612471fb251d&req=diAiHst3n4dfWvMW1HO4zYGm8iQUE67F085gFtEpvcRuzXsX66b3dbjfkWky%0AFIfT1GRXqA6yXwHT%2FGQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2058292603/75752add0bed6a9f3ab217f01708/CleanShot%2B2026-02-12%2Bat%2B08_55_14-402x.png?expires=1783845000&signature=1715cad02a0e5a76a1a9966915c4d1428a2ed37fd2b52aeff2e06a56046f54f0&req=diAiHst3n4dfWvMW1HO4zYGm8iQUFK3M085gFtEpvcQyLX2LWLfYz0NKE8xo%0Amo9rLYnDl7I49TvrgN0%3D%0A)
 
  
 
@@ -21,7 +21,7 @@ More information on how Anthropic collects, uses, and stores feedback data can b
 ## Related Articles
 
 - [Who owns and manages the data of my team?](https://support.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
+- [Configure custom data retention controls for Enterprise plans](https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans)
 - [Manage user feedback settings on Claude Console](https://support.claude.com/en/articles/10504853-manage-user-feedback-settings-on-claude-console)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
-- [HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)
