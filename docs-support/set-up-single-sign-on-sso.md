@@ -76,7 +76,7 @@ If the record is correct and propagated but the status still shows Pending, cont
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1783823400&signature=aa34aa994e4ae9b4d05ba6601cd4a21500596b628ead8d60aaa4c89dec7b651f&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSoIbXe9PM2D8ZcdgrjIP21e5xh%2BOz7iuFPZ%0AkasJhWhQghtPOGZQnro%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1783836900&signature=b086359739fc7312e52370cafe7f55b7635b48b1c91a801e1f5a4502d2b035b7&req=diAjEcl6mYVWX%2FMW1HO4zVjmWSoIbHKwPM2D8ZcdgriVcUglYPVOGmWxCjqI%0ARuIstg3IagvtkHsrjV4%3D%0A)
 
  
 
@@ -114,7 +114,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1783823400&signature=f0150afe7549573c3b9992e21d297fc9db901111b959c8f3a9eee12abbbb0a63&req=diMmFM93nYNfWfMW1HO4zdAICwypAH8OItXtKivx6ZEHBh%2BZsC2L2AmF2c6Q%0AhT20O%2F%2BKaHkNRhhiwtU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1783836900&signature=369930fb2448251d3d770bf9613aa8baf2fefd161bd65659b9aae7a32e3819ff&req=diMmFM93nYNfWfMW1HO4zdAICwypAXoDItXtKivx6ZFtMFqGJTgwtQGhBVfQ%0AR9EDo3gP%2F%2FdLQP7O%2Fxg%3D%0A)
 
  
 
