@@ -135,17 +135,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)
 
-### Claude Design now stays on brand for daily work
+### Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
+
+### Bringing Claude Code and Claude Cowork to government
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
 ### How people are using Claude Cowork
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)
-
-### Introducing routines in Claude Code
 
 ## Transform how your organization operates with Claude
 

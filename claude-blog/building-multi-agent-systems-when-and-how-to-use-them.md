@@ -415,6 +415,14 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+
+### The evolution of agentic surfaces: building with Claude Managed Agents
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
+
+### Building agents that reach production systems with MCP
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
@@ -422,14 +430,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
 ### What is Model Context Protocol? Connect AI to your world
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
-### Building agents that reach production systems with MCP
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-### The evolution of agentic surfaces: building with Claude Managed Agents
 
 ## Transform how your organization operates with Claude
 

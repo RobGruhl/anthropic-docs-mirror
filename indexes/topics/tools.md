@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-07-13 17:11*
+*Last updated: 2026-07-13 19:24*
 
-Documents related to Tools across all sources (89 documents)
+Documents related to Tools across all sources (88 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,8 +40,9 @@ Documents related to Tools across all sources (89 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (56)
+## Claude.com Blog Posts (55)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
+- [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
@@ -87,14 +88,12 @@ Documents related to Tools across all sources (89 documents)
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn
-- [Tirer profit de l'intelligence de Claude](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Turn ideas into interactive AI-powered apps](/claude-blog/build-artifacts.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work](/claude-blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work.md) - ![](https://cdn
 - [Your favorite work tools are now interactive connectors inside Claude](/claude-blog/interactive-tools-in-claude.md) - ![](https://cdn
 - [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
-- [モデルコンテキストプロトコルとは？AIをあなたの世界に接続](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 - [レスポンシブWebレイアウトを構築](/claude-blog/build-responsive-web-layouts.md) - ![](https://cdn
 - [동적 필터링을 통해 웹 검색 정확도와 효율성 향상](/claude-blog/improved-web-search-with-dynamic-filtering.md) - ![](https://cdn
 

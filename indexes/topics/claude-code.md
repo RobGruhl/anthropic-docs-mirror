@@ -1,14 +1,14 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-13 17:11*
+*Last updated: 2026-07-13 19:24*
 
-Documents related to Claude Code across all sources (280 documents)
+Documents related to Claude Code across all sources (281 documents)
 ---
 ## Platform Documentation (platform.claude.com) (3)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
 - [admin__analytics__plugins__list](/platform-docs/api-reference/admin__analytics__plugins__list.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (166)
+## Claude Code Documentation (167)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -25,6 +25,7 @@ Documents related to Claude Code across all sources (280 documents)
 - [2026 W26](/code-claude-docs/whats-new__2026-w26.md)
 - [2026 W27](/code-claude-docs/whats-new__2026-w27.md)
 - [2026 W28](/code-claude-docs/whats-new__2026-w28.md)
+- [Accessibility](/code-claude-docs/accessibility.md)
 - [Admin Setup](/code-claude-docs/admin-setup.md)
 - [Advisor](/code-claude-docs/advisor.md)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
@@ -209,7 +210,6 @@ Documents related to Claude Code across all sources (280 documents)
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
 - [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn
-- [COBOL Modernization with AI: Breaking the Cost Barrier](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [Choosing a Claude model and effort level in Claude Code](/claude-blog/claude-model-and-effort-level-in-claude-code.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
@@ -224,6 +224,7 @@ Documents related to Claude Code across all sources (280 documents)
 - [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Code with Claude comes to San Francisco, London, and Tokyo](/claude-blog/code-with-claude-san-francisco-london-tokyo.md) - ![](https://cdn
+- [Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [Comment trois startups d'YC ont développé leurs entreprises avec Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn

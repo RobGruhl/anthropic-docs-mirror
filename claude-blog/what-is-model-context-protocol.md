@@ -1,142 +1,142 @@
-# モデルコンテキストプロトコルとは？AIをあなたの世界に接続
+# 모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요
 ---
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-# モデルコンテキストプロトコルとは？AIをあなたの世界に接続
+# 모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요
 
-モデルコンテキストプロトコルを使え​​ばカスタム統合なしで、AIアシスタントをツールに接続できます。
+모델 컨텍스트 프로토콜을 사용해 커스텀 통합 없이 AI 어시스턴트를 도구에 연결하세요.
 
-- カテゴリエージェント
+- 카테고리에이전트
 
-- 製品Claudeのアプリ
+- 제품Claude 앱
 
-- 日付2025-10-31
+- 날짜2025-10-31
 
-- 所要時間5分
+- 읽는 시간5분
 
-- 共有リンクをコピーhttps://claude.com/blog/what-is-model-context-protocol
+- 공유링크 복사https://claude.com/blog/what-is-model-context-protocol
 
-AI models are only as good as the context provided to them. AI assistants like[Claude](https://claude.ai)can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
+AI 모델의 성능은 제공되는 컨텍스트에 달려 있습니다.[Claude](https://claude.ai)와 같은 AI 어시스턴트는 질문에 답하고 다양한 작업을 수행할 수 있지만, 필요한 데이터나 도구에 접근할 수 없다면 할 수 있는 일이 제한됩니다. 일반적으로 이 문제는 Google Drive에서 문서를 편집하거나, Slack에서 스레드에 답글을 달거나, IDE에서 코드를 업데이트할 때처럼 한 탭에서 다른 탭으로 컨텍스트를 복사해 붙여넣는 방식으로 해결합니다. 이 과정은 느리고 수동적이며, 중요한 컨텍스트가 누락될 위험이 있습니다..
 
-TheModel Context Protocol (MCP)offers a solution that is open and widely available across all AI apps and assistants. In this article, you'll learn what MCP is, how it works and why it matters, and who it's for. You'll see examples of MCP in action and understand how you can start using or building with MCP today.
+모델 컨텍스트 프로토콜(MCP)은 모든 AI 앱과 어시스턴트에서 개방적이고 광범위하게 사용할 수 있는 솔루션을 제공합니다. 이 글에서는 MCP가 무엇인지, 어떻게 작동하며 왜 중요한지, 그리고 누구를 위한 것인지 알아봅니다. MCP의 실제 활용 예시를 살펴보고, 오늘부터 MCP를 사용하거나 구축하는 방법을 이해할 수 있습니다.
 
-## What is the Model Context Protocol (MCP)?
+## 모델 컨텍스트 프로토콜(MCP)이란?
 
-TheModel Context Protocolis an open standard that defines how LLMs communicate with external systems.
+모델 컨텍스트 프로토콜은 LLM이 외부 시스템과 통신하는 방식을 정의하는 개방형 표준입니다..
 
-Think of MCP asUSB-C for LLMs. Just as USB-C provides a universal connector for your phone, laptop, and other devices, MCP provides a universal format for LLMs to connect with external systems. Before USB-C, every electronic gadget had its own cable: Lightning for iPhone, micro-USB for Android, proprietary connectors for cameras. As more devices adopted USB-C, connectivity became seamless across the ecosystem.
+MCP를LLM의 USB-C라고 생각해 보세요. USB-C가 스마트폰, 노트북, 기타 기기에 범용 커넥터를 제공하듯, MCP는 LLM이 외부 시스템과 연결할 수 있는 범용 형식을 제공합니다. USB-C 이전에는 모든 전자 기기마다 고유한 케이블이 있었습니다. iPhone에는 Lightning, Android에는 마이크로 USB, 카메라에는 독자적인 커넥터가 필요했습니다. 더 많은 기기가 USB-C를 채택하면서 생태계 전반에 걸쳐 연결성이 원활해졌습니다.
 
-MCP brings this same simplicity to AI integrations. Before MCP, every application and database required custom code to connect with LLMs. Google Drive needed its own integration, Slack needed another, Figma yet another. Now, MCP provides a single, standardized format for connecting these tools to Claude and other AI applications.
+MCP는 이와 동일한 단순함을 AI 통합에 구현합니다. MCP 이전에는 모든 애플리케이션과 데이터베이스를 LLM과 연결하려면 커스텀 코드가 필요했습니다. Google Drive에는 별도의 통합이 필요했고, Slack에도, Figma에도 각각 다른 통합이 필요했습니다. 이제 MCP는 이러한 도구들을 Claude 및 다른 AI 애플리케이션과 연결하는 단일 표준화된 형식을 제공합니다.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d8382558e1ff64db41_68f64b7d51a1d57549b3ad8e_What%2520is%2520MCP_%2520Final%25402x.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68f64b7d51a1d57549b3ad8e_What%20is%20MCP_%20Final%402x.png)
 
-## Where did MCP come from?
+## MCP는 어디서 시작되었을까요?
 
-MCP was created at Anthropic by David Sorria Para and Justin Spahr-Summers. The idea originated from David's frustration with constantly copying code between Claude Desktop and his Integrated Development Environment (IDE). Recognizing this as a classic M×N problem where multiple applications need multiple integrations, David pitched building a protocol to solve this to Justin. They designed MCP based on the popular Language Server Protocol and open-sourced it in November 2024 with Anthropic's support to ensure the entire AI ecosystem could benefit.
+MCP는 Anthropic에서 David Sorria Para와 Justin Spahr-Summers가 만들었습니다. 아이디어는 David가 Claude Desktop과 통합 개발 환경(IDE) 사이에서 코드를 계속 복사해야 하는 불편함에서 비롯되었습니다. 여러 애플리케이션에 여러 통합이 필요한 전형적인 M×N 문제로 인식한 David는 이를 해결할 프로토콜 구축 아이디어를 Justin에게 제안했습니다. 두 사람은 널리 사용되는 언어 서버 프로토콜을 기반으로 MCP를 설계했으며, 전체 AI 생태계가 혜택을 누릴 수 있도록 Anthropic의 지원 하에 2024년 11월 오픈 소스로 공개했습니다.
 
-## How does MCP work?
+## MCP는 어떻게 작동하나요?
 
-MCP works through a two-sided approach. AI agents and chatbots like Claude createMCP Clients, so they can connect to applications like Notion, Canva, or Figma, who make their tools and data available throughMCP Servers.
+MCP 양방향 방식으로 작동합니다. Claude와 같은 AI 에이전트와 챗봇은MCP 클라이언트를생성해 Notion, Canva, Figma 같은 애플리케이션에 연결할 수 있으며, 이러한 애플리케이션은MCP 서버를 통해 도구와 데이터를 제공합니다.
 
-By building anMCP Client, AI agents and chatbots can access thousands of MCP Servers built by the community, giving them a straightforward path to extend their capabilities. By building anMCP Server, companies and developers can make their products readily available to AI, creating a new avenue to provide value.
+MCP 클라이언트를 구축하면 AI 에이전트와 챗봇은 커뮤니티가 구축한 수천 개의 MCP 서버에 접근할 수 있어 기능을 확장하는 간단한 경로를 확보할 수 있습니다.MCP 서버를 구축하면 기업과 개발자는 자사 제품을 AI에서 손쉽게 활용할 수 있도록 만들어 새로운 가치 창출 경로를 열 수 있습니다.
 
-As MCP is open-source, anyone can build an MCP Server or Client.
+MCP는 오픈 소스이므로 누구나 MCP 서버 또는 클라이언트를 구축할 수 있습니다.
 
-## Why is MCP important?
+## MCP가 왜 중요할까요?
 
-MCP allows LLMs to go beyond chat and perform real-world tasks: reading an email thread and sending a reply, accessing a codebase and deploying an update, or reviewing a design brief and generating a first draft. The protocol creates a foundation for LLMs to connect with external systems, tools, and applications to access data and take actions. This provides:
+MCP를 통해 LLM은 단순한 채팅을 넘어 실제 작업을 수행할 수 있습니다. 이메일 스레드를 읽고 답장을 보내거나, 코드베이스에 접근해 업데이트를 배포하거나, 디자인 브리프를 검토하고 초안을 작성하는 것이 그 예입니다. 이 프로토콜은 LLM이 외부 시스템, 도구, 애플리케이션과 연결해 데이터에 접근하고 작업을 수행할 수 있는 기반을 마련합니다. 이를 통해 다음을 제공합니다:
 
-### Universal compatibility for AI
+### AI를 위한 범용 호환성
 
-AI assistants gain access to thousands of tools— Once an AI assistant implements MCP (via an MCP client), it can instantly connect to thousands of MCP-compatible applications, from specialized coding tools to enterprise workflow platforms, without building custom integrations for each one.
+AI 어시스턴트가 수천 개의 도구에 접근할 수 있습니다— AI 어시스턴트가 MCP(MCP 클라이언트를 통해)를 구현하면 각각의 커스텀 통합을 구축하지 않고도 전문 코딩 도구부터 엔터프라이즈 워크플로우 플랫폼까지 수천 개의 MCP 호환 애플리케이션에 즉시 연결할 수 있습니다.
 
-Tools and applications connect to every AI assistant at once— Companies like Notion, Figma, or Asana build a single MCP server that works with any AI assistant that’s compatible (i.e. has implemented an MCP client). Developers only need to build one integration for all AI connections.
+도구와 애플리케이션이 모든 AI 어시스턴트와 동시에 연결됩니다— Notion, Figma, Asana 같은 기업은 MCP 호환(즉, MCP 클라이언트를 구현한) AI 어시스턴트라면 어디서든 작동하는 단일 MCP 서버를 구축합니다. 개발자는 모든 AI 연결을 위한 통합을 한 번만 구축하면 됩니다.
 
-### An Open, AI-native ecosystem
+### 개방적이고 AI 네이티브한 생태계
 
-Anyone can build and share— As an open standard, MCP servers published by developers or companies are compatible with any MCP client. This openness has created a thriving ecosystem of thousands of community-built servers, accelerating the availability of tools and applications for AI assistants..
+누구나 공유하고 구축할 수 있습니다— 개방형 표준으로서 개발자나 기업이 게시한 MCP 서버는 모든 MCP 클라이언트와 호환됩니다. 이러한 개방성 덕분에 수천 개의 커뮤니티 구축 서버로 이루어진 활발한 생태계가 형성되어 AI 어시스턴트를 위한 도구와 애플리케이션의 가용성이 빠르게 확대되고 있습니다.
 
-Makes software AI-accessible by design— Traditional software is built for humans using web interfaces. MCP provides a parallel interface designed for AI interaction, allowing applications to become truly AI-native. This means better, more reliable integrations between AI models and the tools people already use.
+소프트웨어를 설계 단계부터 AI 접근 가능하게 만듭니다— 기존 소프트웨어는 웹 인터페이스를 통해 사람이 사용하도록 구축되었습니다. MCP는 AI 상호작용을 위해 설계된 병렬 인터페이스를 제공해 애플리케이션이 진정한 AI 네이티브로 거듭날 수 있도록 합니다. 이를 통해 AI 모델과 사람들이 이미 사용하는 도구 간의 더 나은, 더 안정적인 통합이 가능해집니다.
 
-### A foundational protocol for agents
+### 에이전트를 위한 기반 프로토콜
 
-MCP creates the infrastructure for AI agents to access any number of services and tools, creating true end-to-end task automation. As more applications adopt the protocol, the vision of AI agents that can independently handle complex, multi-step workflows becomes increasingly practical.
+에이전트를 위한 기반 프로토콜MCP는 AI 에이전트가 다양한 서비스와 도구에 접근할 수 있는 인프라를 구축해 진정한 엔드투엔드 작업 자동화를 실현합니다. 더 많은 애플리케이션이 이 프로토콜을 채택할수록, 복잡한 멀티 스텝 워크플로우를 독립적으로 처리할 수 있는 AI 에이전트에 대한 비전이 점점 현실에 가까워집니다.
 
-## Who is MCP for?
+## MCP는 누구를 위한 것인가요?
 
-Developers get a standardized way to build integrations once and have them work with any compatible AI. Enterprises gain secure, IT-controlled AI connectivity that scales across their organization. Consumers can connect their favorite tools to AI instantly, with no technical knowledge required.
+개발자는 통합을 한 번 구축하면 모든 호환 AI에서 작동하는 표준화된 방식을 얻을 수 있습니다. 기업은 조직 전반에 걸쳐 확장 가능한 안전하고 IT가 통제하는 AI 연결성을 확보할 수 있습니다. 일반 사용자는 기술적인 지식 없이도 즐겨 사용하는 도구를 AI에 즉시 연결할 수 있습니다.
 
-### For developers: one standard for connecting AI to applications
+### 개발자를 위해: AI와 애플리케이션을 연결하는 단일 표준
 
-Developers can follow a single standard to connect external products to your AI applications and agents. This simplifies the process of building integrations, grows the number of available products to connect to, and improves the overall quality and security of connectivity in the ecosystem.
+개발자는 단일 표준을 따라 외부 제품을 AI 애플리케이션 및 에이전트에 연결할 수 있습니다. 이를 통해 통합 구축 과정이 단순해지고, 연결 가능한 제품의 수가 늘어나며, 생태계 전반의 연결성 품질과 보안이 향상됩니다.
 
-Building an agent that will connect to many applications? Building an application that will connect to many agents? MCP provides you with access to an ecosystem of compatible tools with streamlined integration.
+여러 애플리케이션에 연결할 에이전트를 구축하고 있나요? 여러 에이전트에 연결할 애플리케이션을 구축하고 있나요? MCP는 간소화된 통합을 통해 호환 도구 생태계에 대한 접근을 제공합니다.
 
-### For enterprises: secure, scalable AI connectivity across your organization
+### 기업을 위해: 조직 전반에 걸친 안전하고 확장 가능한 AI 연결성
 
-Enterprises can drive internal adoption of AI tools and applications more effectively, as MCP simplifies the process of connecting your systems to AI. This helps make AI more connected within your organization, expanding its capabilities and usefulness for your staff.
+MCP는 시스템을 AI에 연결하는 과정을 단순화하므로, 기업은 AI 도구와 애플리케이션의 내부 도입을 더욱 효과적으로 추진할 수 있습니다. 이를 통해 조직 내 AI 연결성이 강화되고, 직원들을 위한 AI의 기능과 활용도가 확대됩니다.
 
-### For consumers: instant access to your favorite tools
+### 일반 사용자를 위해: 즐겨 사용하는 도구에 즉시 접근
 
-MCP provides end-users with seamless connectivity between their favorite AI assistants and work tools. It makes it easier to automate tasks and avoid copying and pasting across tabs. In short, MCP gives AI greater access and connectivity to your world.
+MCP는 최종 사용자가 즐겨 사용하는 AI 어시스턴트와 업무 도구 간의 원활한 연결성을 제공합니다. 작업 자동화와 탭 간 복사 붙여넣기를 줄이는 것이 더 쉬워집니다. 한마디로 MCP는 AI가 나만의 세계에 더 폭넓게 접근하고 연결할 수 있도록 합니다.
 
-In[Claude](https://claude.ai), you can instantly connect to MCP Servers, known as[Connectors](https://claude.com/partners/mcp). This provides you with a straightforward way to connect [Claude](https://claude.ai) to your favorite work apps.
+[Claude](https://claude.ai)에서는[커넥터](https://claude.com/partners/mcp)라고 불리는 MCP 서버에 즉시 연결할 수 있습니다. 이를 통해 [Claude](https://claude.ai)를 즐겨 사용하는 업무 앱에 간편하게 연결할 수 있습니다.
 
-## Connectors (MCP) in action
+## 커넥터(MCP) 활용 사례
 
-The real value of MCP becomes clear when you see it in action with the tools you already use. Here are some examples of MCP being used to power integrations in Claude, known asConnectors:
+TMCP의 실제 가치는 이미 사용하고 있는 도구와 함께 실제로 작동하는 모습을 볼 때 분명해집니다. 다음은 Claude에서커넥터라고 불리는 통합을 구동하는 데 MCP가 활용되는 몇 가지 예시입니다.
 
-### Canva in Claude
+### Claude에서의 Canva
 
-The Canva Connector allows Claude to generate new designs directly within Canva. Using MCP, Claude can connect to the tools Canva provides to generate designs on the canvas.
+Canva 커넥터를 사용하면 Claude가 Canva 내에서 직접 새로운 디자인을 생성할 수 있습니다. MCP를 통해 Claude는 Canva가 제공하는 도구에 연결해 캔버스에서 디자인을 생성할 수 있습니다.
 
-### Notion and Linear in Claude
+### Claude에서의 Notion과 Linear
 
-Using the Notion and Linear Connectors, Claude can access your pages in Notion and use them to update tickets in Linear. Here MCP creates a seamless transfer of unstructured context into organized tickets in a separate project management system.
+Notion과 Linear 커넥터를 사용하면 Claude가 Notion의 페이지에 접근해 Linear의 티켓을 업데이트할 수 있습니다. 여기서 MCP는 비정형 컨텍스트를 별도의 프로젝트 관리 시스템에서 체계적인 티켓으로 원활하게 전환합니다.
 
-### Figma in Claude Code
+### Claude Code에서의 Figma
 
-The Figma Connector allows Claude to access designs within Figma. This lets Claude Code create working prototypes of websites, applications, or user interfaces based on designs created in Figma.
+Figma 커넥터를 사용하면 Claude가 Figma 내의 디자인에 접근할 수 있습니다. 이를 통해 Claude Code는 Figma에서 만든 디자인을 기반으로 웹사이트, 애플리케이션, 사용자 인터페이스의 작동 가능한 프로토타입을 생성할 수 있습니다.
 
-### Available Claude Connectors
+### 사용 가능한 Claude 커넥터
 
-Claude Connectors include integrations for:
+Claude 커넥터에는 다음과 같은 통합이 포함됩니다:
 
-- Notionfor workspace documentation
+- 워크스페이스 문서화를 위한Notion
 
-- Linearfor issue tracking
+- 이슈 트래킹을 위한Linear
 
-- Stripefor payment data
+- 결제 데이터를 위한Stripe
 
-- CanvaandFigmafor design assistance
+- 디자인 지원을 위한Canva와Figma
 
-- Hubspotfor automating CRM tasks
+- CRM 작업 자동화를 위한Hubspot
 
-- Sentryfor error tracking
+- 오류 트래킹을 위한Sentry‍
 
-- ...and many more
+- ...그 외 다수
 
-Each connector takes just a few seconds to configure to become part of Claude's working context. Outside of Claude, there is an ecosystem of MCP servers on the[open-source MCP Registry](https://modelcontextprotocol.io).
+각 커넥터는 몇 초 만에 설정해 Claude의 작업 컨텍스트의 일부로 활용할 수 있습니다. Claude 외부에서는[오픈 소스 MCP 레지스트리](https://modelcontextprotocol.io)에서 MCP 서버 생태계를 확인할 수 있습니다.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6920e9d8382558e1ff64db3e_68e948c50eec666207cdd811_2.png)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e948c50eec666207cdd811_2.png)
 
-## Start exploring MCP
+## MCP 살펴보기 시작
 
-Two paths exist based on your needs.
+필요에 따라 두 가지 방법을 선택할 수 있습니다.
 
-### Connectors in Claude
+### Claude의 커넥터
 
-[Connectors](https://claude.com/partners/mcp)are pre-built, giving [Claude](https://claude.ai/directory) instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open[Claude](https://claude.ai/directory), browse available connectors, and click to add them.
+[커넥터](#)는 사전 구축되어 있어 [Claude](https://claude.ai/directory)가 도구, 데이터베이스, 애플리케이션에 즉시 접근할 수 있으며, 새로운 기능을 제공합니다.[Claude](https://claude.ai/directory)를 열고 사용 가능한 [커넥터](#)를 탐색한 후 클릭해 추가하세요.
 
-### Build custom MCP connections
+### 커스텀 MCP 연결 구축하기
 
-MCP is open-source, meaning that anyone can adopt MCP to connect AI to applications. The[Model Context Protocol documentation](https://modelcontextprotocol.io)walks through how to build with MCP.
+MCP는 오픈 소스이므로 누구나 MCP를 채택해 AI를 애플리케이션에 연결할 수 있습니다.[모델 컨텍스트 프로토콜 문서](https://modelcontextprotocol.io)에서 MCP로 구축하는 방법을 안내합니다.
 
-## Getting started
+## 시작하기
 
-If you want to try MCP, start by browsing for a Claude Connector you can immediately start using with Claude.
+MCP를 사용해 보고 싶다면 Claude에서 즉시 사용할 수 있는 Claude 커넥터를 탐색하는 것부터 시작하세요.
 
-If an existing MCP server doesn't already exist, creating your own takes some work, but isn't too complex if you know TypeScript or Python. The[Model Context Protocol quickstart](https://modelcontextprotocol.io/quickstart)has working examples you can modify for your needs.
+기존 MCP 서버가 없다면 직접 만드는 데 약간의 작업이 필요하지만, TypeScript나 Python을 알고 있다면 그리 복잡하지 않습니다.[모델 컨텍스트 프로토콜 퀵스타트](https://modelcontextprotocol.io/quickstart)에는 필요에 맞게 수정할 수 있는 실제 작동 예시가 포함되어 있습니다.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -144,29 +144,27 @@ If an existing MCP server doesn't already exist, creating your own takes some wo
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-よくある質問
+자주 묻는 질문
 
-### MCP は Claude 専用ですか？
+### MCP는 Claude 전용인가요?
 
-いいえ。MCP はオープンソースのプロトコルです。Claude が MCP 採用の先駆けですが、現在では他の AI プロバイダーも同じプロトコルを採用しているため、誰でも MCP サーバーの同じエコシステムに接続できます。
+아니요. MCP는 오픈소스 프로토콜입니다. Claude가 MCP를 선도적으로 도입하긴 했지만, 이제 다른 AI 공급업체도 동일한 프로토콜을 채택했으므로, 누구나 동일한 MCP 서버 에코시스템에 연결할 수 있습니다.
 
-### MCP を使用するにはプログラミングスキルが必要ですか？
+### MCP를 사용하려면 프로그래밍 스킬이 필요한가요?
 
-[コネクタ](https://claude.com/partners/mcp)を使用する場合は不要です。参照、インストール、認証を行います。以上です。カスタム MCP サーバーを構築するには TypeScript または Python の知識が必要ですが、拡大中の[コネクタ](https://claude.com/partners/mcp)ライブラリはほとんどの主要なツールに対応しています。
+[커넥터](https://claude.com/partners/mcp)를 사용할 때는 필요하지 않습니다. 찾아보고, 설치한 다음, 인증하면 됩니다. 그게 전부입니다. 맞춤형 MCP 서버를 구축하려면 TypeScript나 Python 지식이 필요하지만, 계속 확대되는[커넥터](https://claude.com/partners/mcp) 라이브러리가 대부분의 주요 도구를 지원합니다.
 
-### MCP のセキュリティはどのように機能しますか？
+### MCP에서 보안은 어떻게 작동하나요?
 
-各サーバーは、Claude にアクセスを許可する特定の権限を要求します。アクセスの承認または拒否が可能で、また、許可はいつでも取り消すことができます。
+각 서버는 Claude가 액세스할 수 있도록 특정 권한을 요청합니다. 언제든지 액세스를 승인 또는 거부하고 권한을 철회할 수 있습니다.
 
-### MCP でのパフォーマンスはどのようなものですか？
+### MCP의 성능은 어떻게 되나요?
 
-MCP は効率的なプロトコルを使用しています。ローカルサーバー用の stdio トランスポートにより、オーバーヘッドが最小化できます。リモートサーバー用のサーバー送信イベント (SSE) と Streamable HTTP により、永続的な接続が維持されます。レスポンスストリーミングにより、大量のデータ操作でのタイムアウトを防止します。このプロトコルにより、ページネーション、フィルタリング、パーシャルレスポンスをサポートし、大規模なデータセットを効率的に処理します。
+MCP는 효율적인 프로토콜을 사용합니다. 로컬 서버를 위한 Stdio 전송은 최소한의 오버헤드를 제공합니다. 원격 서버를 위한 SSE(서버 전송 이벤트)와 스트리밍 HTTP는 지속적인 연결을 유지합니다. 응답 스트리밍은 대규모 데이터 작업에서 시간 초과를 방지합니다. 이 프로토콜은 페이지 지정, 필터링, 부분 응답을 지원하여, 대규모 데이터 세트를 효율적으로 처리합니다.
 
-## 関連する投稿
+## 관련 게시물
 
-Claude を活用して構築を行うチーム向けの、その他の製品
-
-ニュースとベストプラクティスをご覧ください。
+Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
@@ -176,22 +174,22 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ### Building agents with the Claude Agent SDK
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+
+### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
-### 企業全体のチームに向けた Cowork とプラグイン
+### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+## Claude와 함께 조직의 운영 방식을 혁신하세요
 
-### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
+개발자 뉴스레터 구독
 
-## Claude を活用して組織運営の方法を変革
+제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
 
-開発者向けニュースレターを入手
-
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
-
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
 
 ---
-**Source:** https://claude.com/ja/blog/what-is-model-context-protocol
+**Source:** https://claude.com/ko/blog/what-is-model-context-protocol
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

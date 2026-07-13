@@ -206,9 +206,9 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
-### COBOL Modernization with AI: Breaking the Cost Barrier
+### Bringing Claude Code and Claude Cowork to government
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
@@ -218,9 +218,9 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Product management on the AI exponential
+### COBOL Modernization with AI: Breaking the Cost Barrier
 
 ## Transform how your organization operates with Claude
 

@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-13 17:11*
+*Last updated: 2026-07-13 19:24*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -661,7 +661,7 @@ Total documents: 253
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
@@ -971,7 +971,7 @@ Total documents: 253
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-13  
 
 ### Use Claude app intents, shortcuts, and widgets on iOS
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  

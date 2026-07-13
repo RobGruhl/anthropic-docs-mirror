@@ -1,20 +1,21 @@
-# Tirer profit de l'intelligence de Claude
+# Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
+*April 2, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-# Tirer profit de l'intelligence de Claude
+# Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
 
 Building applications that balance intelligence, latency, and cost.
 
-- CatégorieAgents
+- CategoryAgents
 
-- ProduitClaude Platform
+- ProductClaude Platform
 
-- Date2/4/2026
+- DateApril 2, 2026
 
-- Temps de lecture5min
+- Reading time5min
 
-- PartagerCopier le lienhttps://claude.com/blog/harnessing-claudes-intelligence
+- ShareCopy linkhttps://claude.com/blog/harnessing-claudes-intelligence
 
 One of Anthropic’s co-founders, Chris Olah,[says](https://www.darioamodei.com/post/the-urgency-of-interpretability)that generative AI systems like Claude are grown more than they are built. Researchers set the conditions to direct growth, but the exact structure or capabilities that emerge aren’t always predictable.
 
@@ -148,34 +149,34 @@ Written by Lance Martin, member of technical staff on the Claude Platform team. 
 
 FAQ
 
-## Articles associés
+## Related posts
 
-Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
-### A harness for every task: dynamic workflows in Claude Code
+### The evolution of agentic surfaces: building with Claude Managed Agents
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
 
-### How Claude Code works in large codebases: Best practices and where to start
+### Building agents that reach production systems with MCP
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
-### Building agents with the Claude Agent SDK
+### Building multi-agent systems: When and how to use them
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-### A Field Guide to Claude Fable: Finding Your Unknowns
+### What is Model Context Protocol? Connect AI to your world
 
-## Transformez le fonctionnement de votre organisation avec Claude
+## Transform how your organization operates with Claude
 
-Recevez la newsletter des développeurs
+Get the developer newsletter
 
-Mises à jour de produits, procédures, présentations de la communauté, et plus encore. Envoyée mensuellement dans votre boîte de réception.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Veuillez fournir votre adresse e-mail si vous souhaitez recevoir notre newsletter mensuelle pour les développeurs. Vous pouvez vous désinscrire à tout moment.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/fr/blog/harnessing-claudes-intelligence
+**Source:** https://claude.com/blog/harnessing-claudes-intelligence
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

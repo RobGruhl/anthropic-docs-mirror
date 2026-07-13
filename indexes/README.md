@@ -1,17 +1,17 @@
 # Claude Documentation Index
-*Last updated: 2026-07-13 17:11*
+*Last updated: 2026-07-13 19:24*
 
 ## Quick Stats
-- **Total Documents:** 2730
+- **Total Documents:** 2733
 - **Platform Docs:** 1620
-- **Claude Code Docs:** 166
+- **Claude Code Docs:** 167
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 185
+- **Claude.com Blog:** 187
 - **Support Articles:** 253
 - **Topics:** 83
 
@@ -19,31 +19,31 @@
 
 ### By Content Type
 - [Platform Documentation](platform-docs.md) - 1620 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 166 docs from code.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 167 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 185 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 187 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 253 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 280 documents
+- [Claude Code](topics/claude-code.md) - 281 documents
 - [Mcp](topics/mcp.md) - 243 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
 - [Api](topics/api.md) - 147 documents
-- [Agents](topics/agents.md) - 137 documents
+- [Agents](topics/agents.md) - 138 documents
 - [Skills](topics/skills.md) - 131 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 89 documents
+- [Tools](topics/tools.md) - 88 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Alignment](topics/alignment.md) - 62 documents

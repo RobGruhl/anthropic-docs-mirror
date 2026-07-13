@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-07-13 17:11*
+*Last updated: 2026-07-13 19:24*
 
-Documents related to Agents across all sources (137 documents)
+Documents related to Agents across all sources (138 documents)
 ---
 ## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -64,9 +64,10 @@ Documents related to Agents across all sources (137 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (80)
+## Claude.com Blog Posts (81)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
+- [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
@@ -135,12 +136,12 @@ Documents related to Agents across all sources (137 documents)
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
-- [Tirer profit de l'intelligence de Claude](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
+- [Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night](/claude-blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night.md) - ![](https://cdn
 - [Zero Trust for AI agents](/claude-blog/zero-trust-for-ai-agents.md) - ![](https://cdn
 - [skill-creator 개선: Agent Skills 테스트, 측정 및 개선](/claude-blog/improving-skill-creator-test-measure-and-refine-agent-skills.md) - ![](https://cdn
 - [プロンプトエンジニアリングのベストプラクティス](/claude-blog/best-practices-for-prompt-engineering.md) - ![](https://cdn

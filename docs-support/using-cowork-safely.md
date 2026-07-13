@@ -1,6 +1,6 @@
 # Use Claude Cowork safely
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -140,8 +140,6 @@ For more information, see **[Let Claude use your computer in Cowork](https://sup
 
 Only give Claude internet access to sites you trust. Web content is a primary vector for prompt injection attacks—malicious instructions can be hidden in websites, emails, or documents Claude reads.
 
- 
-
 **7. Be especially cautious with unfamiliar MCPs and plugins**
 
 Desktop extensions (MCPs) and plugins expand what Claude can do, but each one introduces new ways for attacks to reach Claude. Plugins bundle together skills, connectors, and sub-agents into a single package, which means installing one can significantly expand Claude's scope of action.
@@ -149,6 +147,8 @@ Desktop extensions (MCPs) and plugins expand what Claude can do, but each one in
  
 
 Local MCP servers bundled with plugins and desktop extensions run on your computer with the same permissions as any other program you run. Stick to verified extensions from the Claude Desktop directory, and carefully evaluate the permissions any extension or plugin requests before installing.
+
+ 
 
 For more on plugins, see **[Use plugins in Claude](https://support.claude.com/en/articles/13837440)**.
 
@@ -163,6 +163,8 @@ When using the Claude for Excel and Claude for PowerPoint add-ins with Cowork, C
 **9. Understand what remote sessions can reach on your computer**
 
 On web and mobile, your tasks run remotely and work with the files and connectors saved to your Claude account, not the files on your computer. A remote session reaches your computer only when the Claude Desktop app is open, only for the folders you've connected there, and with the permissions you've already set. Each local file or tool a session uses is checked against those permissions before it runs.
+
+ 
 
 If your organization manages your computer, note that connecting local folders makes them reachable from a remote session. Review what access you've granted, and consider whether that level of access is appropriate.
 

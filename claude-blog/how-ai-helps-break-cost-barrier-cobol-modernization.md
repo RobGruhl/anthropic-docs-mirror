@@ -1,121 +1,106 @@
-# COBOL Modernization with AI: Breaking the Cost Barrier
-*February 23, 2026*
+# Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-# COBOL Modernization with AI: Breaking the Cost Barrier
+# Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL
 
-Legacy code modernization stalled for years because understanding legacy code cost more than rewriting it. AI flips that equation.
+La modernizzazione del codice legacy è rimasta in stallo per anni perché la comprensione del codice legacy costava più della sua riscrittura. L'IA capovolge l'equazione.
 
-- CategoryClaude Code
+- CategoriaClaude Code
 
-- ProductClaude Code
+- ProdottoClaude Code
 
-- DateFebruary 23, 2026
+- Data23/2/26
 
-- Reading time5min
+- Tempo di lettura5min
 
-- ShareCopy linkhttps://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+- CondividiCopia linkhttps://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 
-# COBOL modernization with AI: breaking the cost barrier
+COBOL è ovunque. Si stima che gestisca il[95% delle transazioni ATM negli Stati Uniti](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022). Centinaia di miliardi di righe di COBOL vengono eseguite ogni giorno in produzione, a supporto di sistemi critici nei settori della finanza, delle compagnie aeree e della pubblica amministrazione.Nonostante ciò, il numero di persone che lo comprendono diminuisce di anno in anno.
 
-COBOL is everywhere. It handles an estimated[95% of ATM transactions in the US](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022). Hundreds of billions of lines of COBOL run in production every day, powering critical systems in finance, airlines, and government.Despite that, the number of people who understand it shrinks every year.
+Gli sviluppatori che hanno creato questi sistemi sono andati in pensione anni fa, e le conoscenze istituzionali che portavano con sé se ne sono andate insieme a loro. Il codice di produzione è stato modificato ripetutamente nel corso dei decenni, ma la documentazione non ha tenuto il passo. Nel frattempo, non stiamo esattamente formando sostituti: il COBOL viene insegnato solo in poche università e trovare ingegneri in grado di leggerlo diventa ogni trimestre più difficile.
 
-The developers who built these systems retired years ago, and the institutional knowledge they carried left with them. Production code has been modified repeatedly over decades, but the documentation hasn't kept up. Meanwhile, we aren't exactly minting replacements—COBOL is taught at only a handful of universities, and finding engineers who can read it gets harder every quarter.
+Alla luce di questi ostacoli, come possono le organizzazioni[modernizzare](https://claude.com/solutions/code-modernization)i propri sistemi senza perdere l'affidabilità, la disponibilità e i dati accumulati nel corso dei decenni? E senza rompere nulla?
 
-Given these roadblocks, how can organizations[modernize](https://claude.com/solutions/code-modernization)their systems without losing the reliability, availability, and data they’ve accumulated over decades? And without breaking anything?
+## Perché modernizzare il COBOL è diverso
 
-# What is COBOL modernization?
+La modernizzazione COBOL si differenzia fondamentalmente dal tipico refactoring del codice legacy. Non state semplicemente aggiornando codice familiare per utilizzare pattern migliori, ma state anche effettuando il reverse engineering della logica aziendale dei sistemi creati quando Nixon era presidente. Stai districando dipendenze che si sono evolute nel corso di decenni e traducendo il know-how istituzionale che ora esiste solo nel codice stesso.
 
-COBOL modernization is the process of updating legacy COBOL applications—by rehosting them on new infrastructure, refactoring the code, rewriting it in a modern language like Java, or replacing the system entirely—while preserving the decades of business logic embedded in them. Cost has historically been the barrier: understanding what the code does is the most expensive step.
+Modernizzare un sistema COBOL un tempo richiedeva eserciti di consulenti che passavano anni a mappare i flussi di lavoro. Ciò comportava tempistiche lunghe e costi elevati che pochi erano disposti ad affrontare.
 
-## Why COBOL modernization is different
+L'IA cambia questa situazione.
 
-COBOL modernization differs fundamentally from typical legacy code refactoring. You aren’t just updating familiar code to use better patterns, you’re reverse engineering business logic from systems built when Nixon was president. You’re untangling dependencies that evolved over decades, and translating institutional knowledge that now exists only in the code itself.
+Strumenti come[Claude Code](https://www.claude.com/product/claude-code)consentono di automatizzare le fasi di esplorazione e analisi che consumano la maggior parte degli sforzi nella modernizzazione COBOL. Questi strumenti possono:
 
-Modernizing a COBOL system once required armies of consultants spending years mapping workflows. This resulted in large timelines and high costs that few were willing to take on.
+- Mappare le dipendenze tra migliaia di righe di codice
 
-AI changes this.
+- Documentare flussi di lavoro che nessuno ricorda
 
-[Claude Code](https://www.claude.com/product/claude-code), Anthroipic's agentic coding tool, can automate the exploration and analysis phases that consume most of the effort in COBOL modernization. These tools can:
+- Identificare i rischi per i quali gli analisti umani impiegherebbero mesi per farli emergere
 
-- Map dependencies across thousands of lines of code
+- Fornire ai team le informazioni approfondite necessarie per prendere decisioni informate
 
-- Document workflows that nobody remembers
+Con l'IA, i team possono modernizzare la propria codebase COBOL in trimestri anziché in anni.
 
-- Identify risks that would take human analysts months to surface
+## Come l'IA cambia la modernizzazione COBOL
 
-- Provide teams with the deep insights they need to make informed decisions
+L'IA eccelle nell'ottimizzare le attività che un tempo rendevano la modernizzazione del COBOL economicamente proibitiva. Con queste soluzioni, il tuo team potrà concentrarsi sulla strategia, sulla valutazione dei rischi e sulla logica di business, mentre l'IA automatizza l'analisi e l'implementazione del codice.
 
-With AI, teams can modernize their COBOL codebase in quarters instead of years.
+### Esplorazione e scoperta automatizzate
 
-## Four approaches to COBOL modernization: rehost, refactor, rewrite, replace
+L'IA inizia leggendo l'intera codebase COBOL e mappando la struttura.
 
-Most modernization efforts pick from four approaches.
+Identifica i punti di ingresso dei programmi, traccia i percorsi di esecuzione tramite le subroutine chiamate, mappa i flussi di dati tra i moduli e documenta le dipendenze che interessano centinaia di file.
 
-‍Rehostingmoves COBOL unchanged onto cheaper infrastructure—fast, but the maintainability problem remains.
+Questo tipo di mappatura va oltre i semplici grafi delle chiamate. Strutture di dati condivise, operazioni sui file che creano un accoppiamento tra moduli, sequenze di inizializzazione che incidono sul comportamento in fase di runtime: queste dipendenze implicite non vengono rilevate nell'analisi statica perché riguardano dati condivisi tramite file, database o stati globali. Sono inoltre esattamente ciò che rende rischiosa la modernizzazione COBOL, motivo per cui il rilevamento automatizzato è importante: trova queste relazioni nascoste prima che causino problemi durante la migrazione.
 
-‍Refactoringrestructures the code without changing behavior.Rewritingconverts it to a modern language like Java or Python—the highest payoff and, historically, the highest cost and risk.
+Da questa analisi emerge anche la documentazione del flusso di lavoro.
 
-‍Replacingswaps the system for a commercial product, when one fits. The economics of the rewrite path are what AI changes most, which is the focus of the rest of this post.
+Tracciando il modo in cui i dati si spostano dall'input all'output in un sistema, l'IA può produrre diagrammi e descrizioni scritte di pipeline di elaborazione che nessuno ricorda di aver creato, ma su cui tutti fanno affidamento.
 
-## How AI changes COBOL modernization
+### Analisi dei rischi e mappatura delle opportunità
 
-AI excels at streamlining the tasks that once made COBOL modernization cost-prohibitive. With it, your team can focus on strategy, risk assessment, and business logic while AI automates the code analysis and implementation.
+Una volta mappata la codebase, l'IA può valutare quali componenti possono essere spostati in sicurezza e quali richiedono una gestione attenta. I moduli con un accoppiamento elevato possono essere più rischiosi da modernizzare. Componenti isolati emergono come candidati per una modernizzazione anticipata e indipendente. La logica duplicata evidenzia opportunità di refactoring. Le aree con debito tecnico accumulato vanno documentate prima che diventino sorprese durante la migrazione.
 
-### Automated exploration and discovery
+### Pianificazione strategica con supervisione esperta
 
-AI starts by reading your entire COBOL codebase and mapping the structure.
+È qui che il giudizio umano diventa essenziale. I tuoi ingegneri COBOL forniscono una comprensione dei requisiti normativi, delle priorità aziendali, dei vincoli operativi e della tolleranza al rischio che l'IA non può offrire.
 
-It identifies program entry points, traces execution paths through called subroutines, maps data flows between modules, and documents dependencies that span hundreds of files.
+La fase di pianificazionesviluppa una roadmap dettagliata che organizza in sequenza e in modo strategico i lavori di modernizzazione:
 
-This kind of mapping goes beyond simple call graphs. Shared data structures, file operations that create coupling between modules, initialization sequences that affect runtime behavior—these implicit dependencies don't show up in static analysis because they involve data shared through files, databases, or global state. They're also exactly what makes COBOL modernization risky, which is why automated discovery matters: it finds these hidden relationships before they cause problems during migration.
+- L'IA suggerisce l'assegnazione delle priorità in base ai rischi, alle dipendenze e alla complessità che ha identificato durante l'analisi.
 
-Workflow documentation also emerges out of this analysis.
+- Il tuo team esamina questi consigli e decide quali componenti modernizzare per primi in base al valore aziendale, al rischio tecnico e alle priorità organizzative.
 
-By tracing how data moves through a system from input to output, AI can produce diagrams and written descriptions of processing pipelines that nobody remembers building but everyone depends on.
+- Questo è anche il momento in cui il tuo team definisce l'architettura obiettivo, gli standard di codice e i requisiti di integrazione per i componenti modernizzati.
 
-### Risk analysis and opportunity mapping
+Anche i test e la convalida del codicevengono definiti prima di qualsiasi modifica al codice:
 
-With the codebase mapped, AI can assess which components are safe to move and which need careful handling. Modules with high coupling can be more risky to modernize. Isolated components surface as candidates for early, independent modernization. Duplicated logic points to refactoring opportunities. Areas with accumulated technical debt get documented before they become migration surprises.
+- L'IA progetta test funzionali preliminari che verificano che il codice migrato produca output identici a quelli del COBOL legacy.
 
-### Strategic planning with expert oversight
+- Il tuo team decide se tali test sono sufficienti, quali scenari aziendali necessitano di convalida manuale da parte di esperti in materia e quali test standardizzati prestazionali i componenti modernizzati devono soddisfare.
 
-This is where human judgment becomes essential. Your COBOL engineers bring the understanding of regulatory requirements, business priorities, operational constraints, and risk tolerance that AI cannot.
+### Implementazione incrementale con convalida continua
 
-The planning phasedevelops a detailed roadmap that sequences modernization work strategically:
+L'esecuzione avviene un componente alla volta, con convalida in ogni passaggio. L'IA traduce la logica COBOL in linguaggi moderni, crea wrapper API attorno a componenti legacy che rimangono invariati e costruisce le strutture per eseguire codice, vecchio e nuovo, fianco a fianco durante la transizione.
 
-- AI suggests prioritization based on the risks, dependencies, and complexity it identified during analysis.
+Ogni passaggio ha esito positivo e viene convalidato oppure fallisce e viene corretto mentre l'ambito è limitato.
 
-- Your team reviews these recommendations and decides which components to modernize first based on business value, technical risk, and organizational priorities.
+Non hai mai cambiamenti enormi in corso in cui un errore significa dover annullare settimane di lavoro. Man mano che il tuo team osserva i componenti modernizzati superare i test, acquisisce la sicurezza necessaria per affrontare parti del sistema progressivamente più complesse.
 
-- This is also when your team defines the target architecture, code standards, and integration requirements for modernized components.
+## Inizia la modernizzazione COBOL
 
-Code testing and validationare also defined before any code changes:
+L'approccio sopra descritto funziona per i sistemi COBOL di qualsiasi dimensione.
 
-- AI designs preliminary function tests that verify migrated code produces identical outputs to legacy COBOL.
+Strumenti come Claude Code possono automatizzare gran parte delle attività di esplorazione e analisi descritte, offrendo al tuo team la comprensione completa di cui ha bisogno per pianificare ed eseguire migrazioni con sicurezza.
 
-- Your team decides whether those tests are sufficient, which business scenarios need manual validation by subject-matter experts, and what performance benchmarks the modernized components need to meet.
+Inizia con un singolo componente o flusso di lavoro con confini chiari e complessità moderata. Utilizza l'IA per analizzare e documentare accuratamente, pianificare la modernizzazione con i tuoi ingegneri, implementare in modo incrementale con test in ogni fase e convalidare attentamente.  Questo rafforzerà la fiducia organizzativa e porterà alla luce gli aggiustamenti necessari per i tuoi sistemi.
 
-### Incremental implementation with continuous validation
+Gli aspetti economici della modernizzazione COBOL sono cambiati. L'IA fa funzionare gli aspetti economici automatizzando ciò che prima richiedeva eserciti di consulenti, lasciando liberi i tuoi ingegneri di prendere le decisioni di migrazione che richiedono le loro competenze specifiche di dominio.
 
-Execution happens one component at a time, with validation at each step. AI translates COBOL logic into modern languages, creates API wrappers around legacy components that stay in place, and builds the scaffolding to run old and new code side by side during transition.
+Per una guida dettagliata, consultare il[Playbook per la modernizzazione del codice](https://resources.anthropic.com/code-modernization-playbook).
 
-Each step either succeeds and gets validated, or fails and gets corrected while the scope is small.
-
-You never have massive changes in flight where failure means rolling back weeks of work. As your team sees modernized components passing tests, they gain confidence to tackle progressively more complex parts of the system.
-
-## Start your COBOL modernization
-
-The approach outlined above works for COBOL systems of any size.
-
-Tools like Claude Code can automate much of the exploration and analysis work described, giving your team the comprehensive understanding they need to plan and execute migrations confidently.
-
-Start with a single component or workflow that has clear boundaries and moderate complexity. Use AI to analyze and document it thoroughly, plan the modernization with your engineers, implement incrementally with testing at each step, and validate carefully.  This will build organizational confidence and surface adjustments needed for your systems.
-
-The economics of COBOL modernization have shifted. AI makes the economics work by automating what used to require armies of consultants, freeing your engineers to make the migration decisions that require their domain expertise.
-
-For a step-by-step guide, see Antrhopic's[Code Modernization Playbook](https://resources.anthropic.com/code-modernization-playbook).Thanks to Dan Mason, technical member of Anthropic staff, for their contributions.
+‍
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -125,34 +110,34 @@ For a step-by-step guide, see Antrhopic's[Code Modernization Playbook](https://r
 
 FAQ
 
-## Related posts
+## Articoli correlati
 
-Explore more product news and best practices for teams building with Claude.
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
-### Choosing a Claude model and effort level in Claude Code
+Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents
+### Building agents with the Claude Agent SDK
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
+
+### How to scale agentic coding across your engineering organization
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+
+### A Field Guide to Claude Fable: Finding Your Unknowns
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### Loop engineering: Getting started with loops
+### Getting started with loops
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+## Trasforma le operazioni della tua azienda con Claude
 
-### Product management on the AI exponential
+Ricevi la newsletter sullo sviluppo
 
-## Transform how your organization operates with Claude
+Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
 
-Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
 
 ---
-**Source:** https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+**Source:** https://claude.com/it/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

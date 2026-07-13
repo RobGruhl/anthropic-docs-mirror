@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1783964700&signature=18095eccb036cc2cf107aa0d5b78d0a1e3903660682c3300f5c7096210def548&req=diAiFcF5nolaW%2FMW1HO4zUrhFuiRbwwdkeFUnrkrQZhqfBfUj0yZzBtz9qcZ%0A%2BZLaeQwqmj5R8Loz%2Bpw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1783972800&signature=d924b7d03f08d345bcdfb1d5ed5d32fe9bfd3c4f0ac853b46da36f38cfccb015&req=diAiFcF5nolaW%2FMW1HO4zUrhFuiRbgoSkeFUnrkrQZjMtKCW9Jzoz%2F%2F0wV0i%0AVlJSzDR7wSWovFZlzGY%3D%0A)
 
   
 
@@ -69,4 +69,4 @@ While the account creator must use a business email address, you can add public 
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
 - [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
-- [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
+- [Manage groups and group spend limits on Enterprise plans](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)
