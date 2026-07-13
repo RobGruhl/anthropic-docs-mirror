@@ -1,14 +1,14 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-13 09:33*
+*Last updated: 2026-07-13 14:10*
 
-Documents related to Claude Code across all sources (279 documents)
+Documents related to Claude Code across all sources (280 documents)
 ---
 ## Platform Documentation (platform.claude.com) (3)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
 - [admin__analytics__plugins__list](/platform-docs/api-reference/admin__analytics__plugins__list.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (165)
+## Claude Code Documentation (166)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -69,6 +69,7 @@ Documents related to Claude Code across all sources (279 documents)
 - [Desktop Linux](/code-claude-docs/desktop-linux.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
 - [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)
+- [Desktop Wsl](/code-claude-docs/desktop-wsl.md)
 - [Devcontainer](/code-claude-docs/devcontainer.md)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
 - [Env Vars](/code-claude-docs/env-vars.md)
