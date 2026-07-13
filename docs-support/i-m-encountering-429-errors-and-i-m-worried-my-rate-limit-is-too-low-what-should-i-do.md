@@ -1,6 +1,6 @@
 # I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?
 
-*Updated in the last hour*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -20,7 +20,7 @@ Refer to the **[Rate limits page in our Claude Platform Docs](https://docs.claud
 ## Related Articles
 
 - [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
+- [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
 - [How can I get higher rate limits on the Claude API?](https://support.claude.com/en/articles/10366389-how-can-i-get-higher-rate-limits-on-the-claude-api)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
-- [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)

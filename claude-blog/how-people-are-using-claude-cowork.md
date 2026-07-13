@@ -41,7 +41,7 @@ All other categories comprised less than 4% of the data set, including personal 
 
 It’s telling that the two top usage categories—business process and operations, and content creation and copywriting—make up roughly half of all Claude Cowork usage. These categories are overwhelmingly connective in nature: spreadsheets pull disparate data points into a context where they can be read, compared, and tracked; decks convey an idea or decision to a broader audience with varying levels of context; and onboarding checklists help a new hire tap into institutional knowledge.
 
-Our data suggests that people are using Claude Cowork to assemble and structure the information they can use to act on their expertise. A lawyer, for example, might use Claude Cowork to handle document formatting and filing, giving them more time to apply their legal judgment to challenging cases. A hiring manager might use Coworker to schedule meetings and synthesize interview feedback, allowing them to spend more time on candidate conversations and evaluating work samples. And a team lead might use Claude Cowork to produce the slide deck that explains a difficult decision, freeing them up to actually make those tough calls.
+Our data suggests that people are using Claude Cowork to assemble and structure the information they can use to act on their expertise. A lawyer, for example, might use Claude Cowork to handle document formatting and filing, giving them more time to apply their legal judgment to challenging cases. A hiring manager might use Cowork to schedule meetings and synthesize interview feedback, allowing them to spend more time on candidate conversations and evaluating work samples. And a team lead might use Claude Cowork to produce the slide deck that explains a difficult decision, freeing them up to actually make those tough calls.
 
 This usage pattern presents an interesting contrast to Claude Code, which is most often used by software developers for the key parts of their role: building, debugging, and shipping code. So it’s perhaps unsurprising that software development makes up such a small share of Claude Cowork use. Developers are much more likely to use Claude Code than Claude Cowork to write code, but the work they do in Claude Cowork is the connective, communications-focused work that surrounds every role, software engineering included.
 
@@ -93,6 +93,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
+
+### Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)
 
 ### Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night
@@ -104,10 +108,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)
 
 ### Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
-### How Anthropic enables self-service data analytics with Claude
 
 ## Transform how your organization operates with Claude
 
