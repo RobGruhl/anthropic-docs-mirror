@@ -11,7 +11,7 @@ Claude’s context window applies to the prompts you provide but not the output 
 
 ## Related Articles
 
-- [Claude is providing incorrect or misleading responses. What’s going on?](https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Claude for Nonprofits Partnership Guide for All Users](https://support.claude.com/en/articles/12923901-claude-for-nonprofits-partnership-guide-for-all-users)
 - [Give Claude context: CLAUDE.md and better prompts](https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts)

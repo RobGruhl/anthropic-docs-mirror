@@ -1,15 +1,17 @@
-# Paid Plan Billing FAQs
+# Paid plan billing FAQs
 
-*Updated over a week ago*
+*Updated today*
 
 ---
+
+ 
 
 ## Where can I find the invoice or receipt for my Pro or Max plan payment?
 
 If you are subscribed to a paid plan (Pro or Max), follow these steps to access your invoices:
 
 1. Click on your initials or name in the lower left corner and select “Settings” from the menu.
-2. Navigate to [Settings > Billing](http://claude.ai/settings/billing).
+2. Navigate to **[Settings > Billing](https://claude.ai/settings/billing)**.
 3. Find the **Invoices** section.
 4. Click the "View" button next to the invoice you want to open.
 
@@ -20,11 +22,12 @@ Additionally, all invoices are automatically emailed to your billing email addre
 ## How can I edit the billing details for my existing paid Claude subscription?
 
 1. Click on your initials or name in the lower left corner and select “Settings” from the menu.
-2. Navigate to [Settings > Billing](http://claude.ai/settings/billing).
+2. Navigate to **[Settings > Billing](https://claude.ai/settings/billing)**.
 3. Click the "Update" button next to your payment method.
 4. Enter your new billing details in the payment update form.
 5. Click "Update" to save your changes.
 6. Your updated payment method will be charged the next time your subscription renews.
+6.  
 
 ## How can I change or remove the card on my Pro or Max subscription?
 
@@ -45,11 +48,11 @@ There's no separate option to remove a card, and updating to a new card replaces
 
 ## How can I use a different name on my invoices?
 
-If you want to use a name other than the one tied to your payment method, check the "Use a different name on invoices" box when adding or updating your payment method in [Settings > Billing](http://claude.ai/settings/billing).
+If you want to use a name other than the one tied to your payment method, check the "Use a different name on invoices" box when adding or updating your payment method in **[Settings > Billing](https://claude.ai/settings/billing)**.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1783972800&signature=949c22f69fd3b316cbc8a781ce5ad96adbc5a4cfba897dfc8184a7a9e32918d8&req=dSklFMh6nIZXXPMW1HO4zVXW8G6ibDHEQoNvNFTb5cfxFPgrrmYnXEH682NX%0A2owrJhKXhWaS5WHeTh0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1784073600&signature=a191ef75f230ea84b699c37fdaacc2de72c0ac0838c2a7eeec1ed829c9ff5a7d&req=dSklFMh6nIZXXPMW3nq%2BgWIvYv5MctzubZWMNUDbBxMvDSH3pzG7e9EdA2W8%0A%2FOUDqfv0pE191OhYN%2BgfqWfBFPw%3D%0A)
 
  
 
@@ -67,7 +70,7 @@ No, there isn't a direct way to change your subscription billing date. However, 
 
 ## What alternate payment methods are available?
 
-We only accept credit or debit cards for Pro or Max plan payments.
+For subscriptions purchased on the web, we only accept credit or debit cards. If you subscribed through Claude for iOS or Claude for Android, available payment options are determined by the Apple App Store or Google Play.
 
  
 
@@ -76,15 +79,15 @@ We only accept credit or debit cards for Pro or Max plan payments.
 If you've paid for a Pro or Max plan but are not seeing this reflected in your account, there are two things you should check:
 
 1. You've logged in with a different email. We recommend trying to sign in with any alternative emails you may have used to create your paid account.
-2. Your payment method failed and your account was downgraded. To check this, navigate to [Settings > Billing](https://claude.ai/settings/billing) to confirm your recent payment status and update your payment method or billing details if needed.
+2. Your payment method failed and your account was downgraded. To check this, navigate to **[Settings > Billing](https://claude.ai/settings/billing)** to confirm your recent payment status and update your payment method or billing details if needed.
 
 
 ---
 
 ## Related Articles
 
+- [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
 - [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
-- [How to change your Pro plan from monthly to annual billing](https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
-- [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)

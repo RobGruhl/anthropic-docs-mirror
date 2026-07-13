@@ -220,13 +220,13 @@ Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les 
 
 ### How Claude Code works in large codebases: Best practices and where to start
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
-### Tirer profit de l'intelligence de Claude
+### How Anthropic enables self-service data analytics with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Building agents with the Claude Agent SDK
+### Comment l'IA aide à surmonter la barrière des coûts liée à la modernisation de COBOL
 
 ## Transformez le fonctionnement de votre organisation avec Claude
 

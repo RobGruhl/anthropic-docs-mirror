@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-13 19:24*
+*Last updated: 2026-07-13 21:49*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -51,12 +51,12 @@ Total documents: 253
 ### Add or update your Team plan's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-team-plan-s-tax-or-vat-id.md`  
 **Source:** https://support.claude.com/en/articles/9927624-i-need-to-add-or-update-my-team-plan-s-tax-or-vat-id  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-13  
 
 ### Add or update your paid Claude account’s tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-paid-claude-account-s-tax-or-vat-id.md`  
 **Source:** https://support.claude.com/en/articles/9889408-i-need-to-add-or-update-my-paid-claude-account-s-tax-or-vat-id  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-13  
 
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
@@ -131,7 +131,7 @@ Total documents: 253
 ### Cancel your Pro or Max subscription
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
@@ -216,7 +216,7 @@ Total documents: 253
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-13  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -276,7 +276,7 @@ Total documents: 253
 ### Deploy Claude Desktop for Windows
 **File:** `/docs-support/deploy-claude-desktop-for-windows.md`  
 **Source:** https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Deploy Claude Desktop for macOS
 **File:** `/docs-support/deploy-claude-desktop-for-macos.md`  
@@ -342,11 +342,6 @@ Total documents: 253
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
 **Updated:** 2026-07-01  
-
-### FAQs on Using Claude for Education at Your University
-**File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
-**Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
-**Updated:** 2026-07-13  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -491,7 +486,7 @@ Total documents: 253
 ### How do I sign up for the Max plan?
 **File:** `/docs-support/how-do-i-sign-up-for-the-max-plan.md`  
 **Source:** https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan  
-**Updated:** 2026-05-19  
+**Updated:** 2026-07-13  
 
 ### How do I sign up for the Pro plan?
 **File:** `/docs-support/how-do-i-sign-up-for-the-pro-plan.md`  
@@ -536,7 +531,7 @@ Total documents: 253
 ### How to change your Pro plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-pro-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-13  
 
 ### How to create custom skills
 **File:** `/docs-support/how-to-create-custom-skills.md`  
@@ -576,7 +571,7 @@ Total documents: 253
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -606,7 +601,7 @@ Total documents: 253
 ### I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?
 **File:** `/docs-support/i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries.md`  
 **Source:** https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries  
-**Updated:** 2026-06-17  
+**Updated:** 2026-07-13  
 
 ### I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 **File:** `/docs-support/i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md`  
@@ -641,7 +636,7 @@ Total documents: 253
 ### Install Claude for iOS
 **File:** `/docs-support/installing-claude-for-ios.md`  
 **Source:** https://support.claude.com/en/articles/9266462-installing-claude-for-ios  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Introduction to prompt design
 **File:** `/docs-support/introduction-to-prompt-design.md`  
@@ -751,7 +746,7 @@ Total documents: 253
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -766,7 +761,7 @@ Total documents: 253
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
 **Source:** https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
@@ -788,7 +783,7 @@ Total documents: 253
 **Source:** https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api  
 **Updated:** 2026-06-26  
 
-### Paid Plan Billing FAQs
+### Paid plan billing FAQs
 **File:** `/docs-support/paid-plan-billing-faqs.md`  
 **Source:** https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs  
 **Updated:** 2026-07-13  
@@ -846,7 +841,7 @@ Total documents: 253
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan  
-**Updated:** 2026-06-19  
+**Updated:** 2026-07-13  
 
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
@@ -861,17 +856,17 @@ Total documents: 253
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-13  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
 **Source:** https://support.claude.com/en/articles/9267276-roles-and-permissions  
-**Updated:** 2026-06-18  
+**Updated:** 2026-07-13  
 
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
 **Source:** https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
@@ -936,7 +931,7 @@ Total documents: 253
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -978,6 +973,11 @@ Total documents: 253
 **Source:** https://support.claude.com/en/articles/10263469-using-claude-app-intents-shortcuts-and-widgets-on-ios  
 **Updated:** 2026-07-09  
 
+### Use Claude for Education at your university
+**File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
+**Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
+**Updated:** 2026-07-13  
+
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
 **Source:** https://support.claude.com/en/articles/12650343-use-claude-in-excel  
@@ -991,7 +991,7 @@ Total documents: 253
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1016,7 +1016,7 @@ Total documents: 253
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
@@ -1066,7 +1066,7 @@ Total documents: 253
 ### Use research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
 **Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-06-23  
+**Updated:** 2026-07-13  
 
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
@@ -1151,7 +1151,7 @@ Total documents: 253
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-06-19  
+**Updated:** 2026-07-13  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  
@@ -1176,7 +1176,7 @@ Total documents: 253
 ### What is the Max plan?
 **File:** `/docs-support/what-is-the-max-plan.md`  
 **Source:** https://support.claude.com/en/articles/11049741-what-is-the-max-plan  
-**Updated:** 2026-06-10  
+**Updated:** 2026-07-13  
 
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
@@ -1191,12 +1191,12 @@ Total documents: 253
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-13  
 
 ### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
 **Source:** https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research  
-**Updated:** 2026-06-02  
+**Updated:** 2026-07-13  
 
 ### When to use desktop and web connectors
 **File:** `/docs-support/when-to-use-desktop-and-web-connectors.md`  
@@ -1241,7 +1241,7 @@ Total documents: 253
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-13  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
@@ -1261,10 +1261,10 @@ Total documents: 253
 ### Why is a coupon or promotion not available for my account?
 **File:** `/docs-support/why-is-a-coupon-or-promotion-not-available-for-my-account.md`  
 **Source:** https://support.claude.com/en/articles/11107691-why-is-a-coupon-or-promotion-not-available-for-my-account  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-13  
 
 ### Why was my card declined?
 **File:** `/docs-support/why-was-my-card-declined.md`  
 **Source:** https://support.claude.com/en/articles/9402418-why-was-my-card-declined  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-13  
 

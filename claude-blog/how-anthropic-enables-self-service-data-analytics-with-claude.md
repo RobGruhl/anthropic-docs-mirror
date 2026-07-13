@@ -646,13 +646,13 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ### How Claude Code works in large codebases: Best practices and where to start
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
+### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-### Building agents with the Claude Agent SDK
+### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

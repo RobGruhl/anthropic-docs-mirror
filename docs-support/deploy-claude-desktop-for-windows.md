@@ -1,6 +1,6 @@
 # Deploy Claude Desktop for Windows
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -20,8 +20,11 @@ Administrators on Team or Enterprise plans can deploy Claude Desktop automatical
 Claude Desktop for Windows requires the **[Virtual Machine Platform](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)** to use Cowork. You can automate installation of this feature via most endpoint management solutions, but you may also run the following command to install it manually:
 
 ```
+powershell
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All -NoRestart
 ```
+
+The feature takes effect after the machine restarts. The <code>-NoRestart</code> flag suppresses the automatic restart for silent deployment, so schedule one through your management tool.
 
  
 
@@ -40,9 +43,8 @@ The Claude MSIX is packaged as a per-user application. <code>Add-AppxPackage</co
 ### Install for single user
 
 ```
-```powershell
+powershell
 Add-AppxPackage -Path "Claude.msix"
-```
 ```
 
 For more details, see Microsoft's **[Add-AppxPackage](https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage?view=windowsserver2022-ps)** documentation.
@@ -52,9 +54,8 @@ For more details, see Microsoft's **[Add-AppxPackage](https://learn.microsoft.co
 ### Install for all users (provisions machine-wide)
 
 ```
-```powershell
+powershell
 Add-AppxProvisionedPackage -Online -PackagePath "Claude.msix" -SkipLicense -Regions "all"
-```
 ```
 
 For more details, see Microsoft's **[Add-AppxProvisionedPackage](https://learn.microsoft.com/en-us/powershell/module/dism/add-appxprovisionedpackage?view=windowsserver2022-ps)** documentation.
@@ -116,6 +117,39 @@ Both symptoms indicate the MSIX was installed in user context rather than provis
 
 - **Install fails for standard users:** An Intune LOB deployment of the MSIX runs in user context, so standard users without admin rights can't complete it. Redeploy by running <code>Add-AppxProvisionedPackage</code> through a Win32 app, PowerShell script wrapper, or pre-staged package.
 - **Cowork unavailable on desktop after install:** A per-user <code>Add-AppxPackage</code> install can complete without registering the Cowork virtualization service, the Windows service Cowork depends on. Claude appears installed but Cowork won't start. Redeploy using <code>Add-AppxProvisionedPackage</code> so the service registers machine-wide.
+-  
+
+### Cowork reports missing HCS services or virtualization errors
+
+If Cowork fails to start with an error like "Missing HCS services: HNS, vmcompute, vfpext," the Virtual Machine Platform service stack isn't registered on the machine, even if Claude installed successfully.
+
+ 
+
+**To diagnose and fix:**
+
+ 
+
+Check whether the feature is enabled and its services exist:
+
+```
+powershell
+Get-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform Get-Service vmcompute, hns
+```
+
+ 
+
+If the feature shows as disabled or the services are missing, re-enable it:
+
+```
+powershell
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -All
+```
+
+Restart the machine using **Restart**, not shut down and power on. With Windows Fast Startup enabled, a shutdown cycle can leave the virtualization services uninitialized.
+
+ 
+
+If VMware or VirtualBox is also installed on the machine, confirm the Windows hypervisor is set to launch at boot. Run <code>bcdedit</code> from an elevated prompt and check that <code>hypervisorlaunchtype</code> reads <code>Auto</code>. If it doesn't, run <code>bcdedit /set hypervisorlaunchtype auto</code> and restart.
 
 
 ---

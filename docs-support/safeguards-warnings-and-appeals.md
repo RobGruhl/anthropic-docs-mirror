@@ -55,6 +55,6 @@ If you believe we’ve made a mistake in issuing you a warning, please email **[
 
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy](https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy)
-- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
+- [Identity verification on Claude](https://support.claude.com/en/articles/14328960-identity-verification-on-claude)
 - [Real-time cyber safeguards on Claude Opus and Sonnet](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)

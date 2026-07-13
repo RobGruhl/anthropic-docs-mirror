@@ -1,20 +1,22 @@
-# FAQs on Using Claude for Education at Your University
+# Use Claude for Education at your university
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
 This guide helps you use Claude for Education through your university-sponsored account. Find resources and answers to frequently asked questions about getting started, optimizing usage, and troubleshooting issues.
 
+ 
+
 ---
 
  
 
-## What Features Are Included in My University-Sponsored Education Plan?
+## What features are included in my university-sponsored education plan?
 
 Your university-sponsored Claude for Education account includes:
 
-- **Enhanced context window:** Upload hundreds of pages of text (up to 500k tokens when using specific models) for analyzing lengthy academic papers, research documents, and datasets.
+- **Enhanced context window:** Upload hundreds of pages of text for analyzing lengthy academic papers, research documents, and datasets.
 - **Advanced models:** Access to the newest, most advanced Claude models.
 - **Projects feature:** Create and organize multiple related conversations with shared knowledge bases.
 - **Increased usage limits:** More messages per day compared to individual plans.
@@ -23,11 +25,19 @@ Your university-sponsored Claude for Education account includes:
 
  
 
-## What Can I Use Claude for as a Student?
+---
+
+ 
+
+## What can I use Claude for as a student?
 
 Claude can be a valuable assistant for numerous academic tasks:
 
  
+
+ 
+
+---
 
  
 
@@ -42,83 +52,96 @@ You can access Claude through multiple platforms to suit your needs:
 - Visit claude.ai on any web browser.
 - Sign in with your university email.
 - Works on both desktop and mobile browsers.
+-  
 
 ### Desktop application
 
 - Download Claude for Desktop for macOS or Windows.
 - For macOS: Requires macOS 11 (Big Sur) or higher.
 - For Windows: Requires Windows 10 or higher.
-- Install by visiting the [Claude downloads page](https://claude.ai/download) and following the installation instructions.
+- Install by visiting the **[Claude downloads page](https://claude.ai/download)** and following the installation instructions.
 - Launch from your Applications folder (Mac) or Start menu (Windows).
+-  
 
 ### Mobile applications
 
-- **iOS**: [Download from the App Store](https://apps.apple.com/us/app/claude-by-anthropic/id6473753684) (requires iOS 17.0 or later).
-- **Android**: [Download from Google Play Store](https://play.google.com/store/apps/details?id=com.anthropic.claude) (requires Android 8.0 Oreo or later).
+- **iOS**: **[Download from the App Store](https://apps.apple.com/us/app/claude-by-anthropic/id6473753684)** (requires iOS 17.0 or later).
+- **Android**: **[Download from Google Play Store](https://play.google.com/store/apps/details?id=com.anthropic.claude)** (requires Android 8.0 Oreo or later).
 - Sign in with the same university account you use on the web version.
-- See our [Claude Mobile Apps section](https://support.anthropic.com/en/collections/9387080-claude-mobile-apps) for more information.
+- See our **[Claude Mobile apps section](https://support.claude.com/en/collections/9387080-claude-mobile-apps)** for more information.
 
 All platforms synchronize your conversations, allowing you to start on one device and continue on another. Mobile apps offer additional features like photo analysis and voice dictation.
 
  
 
-## Using Claude.ai
+---
+
+ 
+
+## How to use Claude
 
 Review the following resources to help you get the most out of your usage with Claude:
 
-- [What kinds of documents can I upload to Claude.ai?](http://claude.ai)
-- [What kinds of images can I upload to Claude.ai?](http://claude.ai)
-- [What are Projects?](https://support.anthropic.com/en/articles/9517075-what-are-projects)
-- [How can I create and manage Projects?](https://support.anthropic.com/en/articles/9519177-how-can-i-create-and-manage-projects)
-- [Project visibility and sharing](https://support.anthropic.com/en/articles/9519189-project-visibility-and-sharing)
-- [What are Artifacts and how do I use them?](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
-- [Usage Limit Best Practices](https://support.anthropic.com/en/articles/9797557-usage-limit-best-practices)
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
-- [Using the Google Drive Integration](https://support.anthropic.com/en/articles/10166901-using-the-google-drive-integration)
-- [Setting Up Integrations on Claude.ai](http://claude.ai)
-- [Configuring and Using Styles](https://support.anthropic.com/en/articles/10181068-configuring-and-using-styles)
-- [Enabling and Using Web Search](https://support.anthropic.com/en/articles/10684626-enabling-and-using-web-search)
-- [Using Claude in Your Preferred Language](https://support.anthropic.com/en/articles/10769299-using-claude-in-your-preferred-language)
-- [When should I use web search, extended thinking, and Research?](https://support.anthropic.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
+- **[Upload files to Claude](https://support.claude.com/en/articles/8241126)**
+- **[What are projects?](https://support.claude.com/en/articles/9517075)**
+- **[How can I create and manage projects?](https://support.claude.com/en/articles/9519177)**
+- **[Manage project visibility and sharing](https://support.claude.com/en/articles/9519189)**
+- **[What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310)**
+- **[Usage limit best practices](https://support.claude.com/en/articles/9797557)**
+- **[Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)**
+- **[Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164)**
+- **[Use Google Workspace connectors](https://support.claude.com/en/articles/10166901)**
+- **[Understanding Claude's personalization features](https://support.claude.com/en/articles/10185728)**
+- **[Enable and use web search](https://support.claude.com/en/articles/10684626)**
+- **[How to use Claude in your preferred language](https://support.claude.com/en/articles/10769299)**
+- **[When should I use web search, extended thinking, and Research?](https://support.claude.com/en/articles/11095361)**
+-  
+
+---
 
  
 
 ## Troubleshooting
 
-### Q: I'm struggling to log in with SSO
+### I'm struggling to log in with SSO
 
 Your SSO configuration is managed by the Primary Owner or Owner on your account. Contact your university's dedicated support channel to troubleshoot SSO/login issues.
 
  
 
-### Q: I'm seeing a warning message about remaining messages
+### I'm seeing a warning message about remaining messages
 
-Claude has a usage limit that varies based on message length, file attachments, and conversation length. You'll receive warning messages before reaching the limit. When you see the first warning, consider following these [usage tips](https://support.anthropic.com/en/articles/9797557-usage-limit-best-practices).
+Claude has a usage limit that varies based on message length, file attachments, and conversation length. You'll receive warning messages before reaching the limit. When you see the first warning, consider following these **[usage tips](https://support.claude.com/en/articles/9797557)**.
 
  
 
-### Q: I'm seeing an error message about length limit
+### I'm seeing an error message about length limit
 
 This appears when your prompt exceeds Claude's available context window. When this happens, either:
 
 - Shorten your prompt/attachments
 - Start a new conversation
+-  
 
-### Q: I already have a Claude account using my university email
+### I already have a Claude account using my university email
 
-When you log in, you can select between your previous account and the new university-sponsored account. You can't migrate data between accounts, but you can [export data](https://support.anthropic.com/en/articles/9450526-how-can-i-export-my-claude-ai-data) from your existing account and upload the conversation data (JSON format) to your new account.
+When you log in, you can select between your previous account and the new university-sponsored account. You can't migrate data between accounts, but you can **[export data](https://support.claude.com/en/articles/9450526)** from your existing account and upload the conversation data (JSON format) to your new account.
+
+ 
+
+---
 
  
 
 ## Privacy
 
-Review these resources and visit the [Privacy Center](https://privacy.anthropic.com/en/) for information about privacy, data retention, and data handling:
+Review these resources and visit the **[Privacy Center](https://privacy.claude.com/en/)** for information about privacy, data retention, and data handling:
 
-- [Is my data used for model training?](https://privacy.anthropic.com/en/articles/7996868-is-my-data-used-for-model-training)
-- [How long do you store my organization’s data?](https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)
-- [Can you delete data that I sent via Claude?](https://privacy.anthropic.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-claude-for-work-team-enterprise-plans)
-- [How can I delete or rename a conversation?](https://privacy.anthropic.com/en/articles/11117329-how-can-i-delete-or-rename-a-conversation)
-- [Who owns and manages the data of my university account?](https://privacy.anthropic.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team)
+- **[Is my data used for model training?](https://privacy.claude.com/en/articles/7996868)**
+- **[How long do you store my organization’s data?](https://privacy.claude.com/en/articles/7996866)**
+- **[Can you delete data that I sent via Claude?](https://support.claude.com/en/articles/9796617)**
+- **[How can I delete or rename a conversation?](https://privacy.claude.com/en/articles/11117329)**
+- **[Who owns and manages the data of my university account?](https://support.claude.com/en/articles/9265372)**
 
 
 ---
@@ -127,6 +150,6 @@ Review these resources and visit the [Privacy Center](https://privacy.anthropic.
 
 - [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Get started with Claude for Education at your university (for Owners/Admins)](https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins)
-- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
-- [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
-- [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)
+- [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)

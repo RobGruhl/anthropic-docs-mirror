@@ -1,6 +1,6 @@
 # Add or update your Team plan's tax or VAT ID
 
-*Updated over 2 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -30,7 +30,7 @@ If you need to add or update your Tax or VAT ID after you've already signed up, 
 
 ## Related Articles
 
-- [Paid Plan Billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
+- [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
 - [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
 - [Add or update your Claude Console organization's tax or VAT ID](https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)

@@ -1,6 +1,6 @@
 # Use research on Claude
 
-*Updated over 3 weeks ago*
+*Updated over a month ago*
 
 ---
 
@@ -54,7 +54,7 @@ Research is subject to the same limits as standard Claude conversations. However
 ## Related Articles
 
 - [When should I use web search, extended thinking, and research?](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research)
-- [FAQs on Using Claude for Education at Your University](https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university)
+- [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [What is Claude Tag?](https://support.claude.com/en/articles/15594475-what-is-claude-tag)

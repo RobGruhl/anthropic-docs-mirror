@@ -1,4 +1,5 @@
 # Building agents with the Claude Agent SDK
+*September 29, 2025*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
@@ -8,15 +9,15 @@ The Claude Agent SDK is a collection of tools that helps developers build powerf
 
 ‍
 
-- 카테고리Claude Code에이전트
+- CategoryClaude CodeAgents
 
-- 제품Claude CodeClaude Platform
+- ProductClaude CodeClaude Platform
 
-- 날짜2025-09-29
+- DateSeptember 29, 2025
 
-- 읽는 시간5분
+- Reading time5min
 
-- 공유링크 복사https://claude.com/blog/building-agents-with-the-claude-agent-sdk
+- ShareCopy linkhttps://claude.com/blog/building-agents-with-the-claude-agent-sdk
 
 Last year, we shared lessons in[building effective agents](https://www.anthropic.com/engineering/building-effective-agents)alongside our customers. Since then, we've released[Claude Code](https://claude.com/product/claude-code), an agentic coding solution that we originally built to support developer productivity at Anthropic.
 
@@ -194,35 +195,35 @@ Written by Thariq Shihipar with notes and editing from Molly Vorwerck, Suzanne W
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-자주 묻는 질문
+FAQ
 
-## 관련 게시물
+## Related posts
 
-Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
 
-### Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence
+### Auto mode for Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
-### A Field Guide to Claude Fable: Finding Your Unknowns
+### Bringing Claude Code and Claude Cowork to government
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
-### AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
+### Choosing a Claude model and effort level in Claude Code
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### Getting started with loops
+### Loop engineering: Getting started with loops
 
-## Claude와 함께 조직의 운영 방식을 혁신하세요
+## Transform how your organization operates with Claude
 
-개발자 뉴스레터 구독
+Get the developer newsletter
 
-제품 업데이트, 사용 방법, 커뮤니티 스포트라이트 등 다양한 소식을 전해드립니다. 매달 이메일로 받아보세요.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-월간 개발자 뉴스레터를 받고 싶으시다면 이메일 주소를 입력하세요. 언제든지 구독 취소할 수 있습니다
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
 **Source:** https://claude.com/ko/blog/building-agents-with-the-claude-agent-sdk

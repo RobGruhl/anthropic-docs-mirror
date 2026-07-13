@@ -33,7 +33,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783971900&signature=2332970aae685215b7efe0ca93fd81bb3ef6c0a11dfe0e648f08777d79b0084f&req=diAjFMp7n4FZWfMW1HO4zU6VRf7DT71gxNdRzYWrfF6TsJ0ogfrBnQxTn0e5%0AsAl%2Fb4RQksWdSk5mNLs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1783980900&signature=72c8bef006c120906b921153a7402e8016bc0d9fd0dc8253e5c2ff50a6e0134d&req=diAjFMp7n4FZWfMW1HO4zU6VRf7DQLxgxNdRzYWrfF6OCwaPTYheWlCtR8q1%0A2%2FfaMjwzk6deaKCARTg%3D%0A)
 
  
 
@@ -93,7 +93,7 @@ To change the voice later:
 - **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783971900&signature=1e642b5fed54eb069d423fd5e59c37d2bd61c2fcf4718dde934c90ceeb3813a7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmcZ1EDy8OQfYsvK3xSOQu1VqyhH8fdbXu0%0A1hV0Y6%2FE%2FAinBGShllQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1783980900&signature=a30bccbb73b566ce4244571f4d60c69a5f7c7b725141c4d4393dc5e5c7515f0e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGmcaFADy8OQfYsvK3yVeyQvficZ9kzgrmAy%0ASIERpB%2FeyCP2gwvq3hw%3D%0A)
 
  
 
@@ -206,7 +206,7 @@ If you are an Enterprise owner and would like to disable voice mode for your org
 
 ## Related Articles
 
-- [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
+- [Use the Claude widget on Android](https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
 - [Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)
 - [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
