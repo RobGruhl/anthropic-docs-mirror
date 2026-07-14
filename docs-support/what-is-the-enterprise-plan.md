@@ -34,6 +34,8 @@ Enterprise includes everything in the Team plan, plus the following:
 - Admins can set spend limits at the organization and individual user levels to manage costs.
 - **Connectors for workplace tools**
 - - Connect Claude to Google Drive, Gmail, Google Calendar, GitHub, Microsoft 365, and Slack to search and retrieve context from your existing documents, emails, calendars, and team communications without manual uploads.
+- **HIPAA-readiness **
+- - Eligible organizations can enable a HIPAA-ready configuration and accept a BAA from organization settings. Learn more about **[HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans).**
 
  
 
@@ -47,7 +49,7 @@ Enterprise uses a single seat type, priced per user per month and billed annuall
 
  
 
-**Usage isn't included in the seat fee.** Every token your team uses—in chat, Claude Code, or Cowork—is billed at standard API rates on top of your seat cost. For full details on how usage billing works for your plan, see **[How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)**
+**Usage isn't included in the seat fee.** Every token your team uses—in Chat, Claude Code, or Cowork—is billed at standard API rates on top of your seat cost. For full details on how usage billing works for your plan, see **[How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)**
 
  
 
@@ -90,7 +92,7 @@ Both self-serve and sales-assisted Enterprise plans include the same features an
 | **Payment methods** | Credit card, ACH* | Credit card†, ACH, invoicing |
 | **Accepted currency** | USD only | Multi-currency supported |
 | **Usage billing** | Credits purchased upfront | Billed monthly in arrears |
-| **HIPAA-readiness / BAA** | Not available | Available |
+| **HIPAA-readiness / BAA** | Available | Available |
 
 *New self-serve Enterprise organizations can choose ACH bank transfer, credit card, or debit card at signup. Organizations upgrading from a Team plan start on credit card and can switch to ACH bank transfer afterward in **[Organization settings > Billing](https://claude.ai/admin-settings/billing)**.
 
@@ -100,7 +102,7 @@ Both self-serve and sales-assisted Enterprise plans include the same features an
 
  
 
-**When to contact Sales:** If your organization needs invoicing, HIPAA-readiness and a Business Associate Agreement (BAA), dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
+**When to contact Sales:** If your organization needs invoicing, dedicated customer success management, or to pay with a currency other than USD, reach out to our **[Sales team](https://claude.com/contact-sales)** to set up a sales-assisted Enterprise plan.
 
  
 

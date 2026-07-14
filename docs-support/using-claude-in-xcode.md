@@ -38,7 +38,7 @@ To start using Claude in Xcode:
 2. Open Xcode preferences and navigate to the Intelligence settings.
 3. Log in with your Claude account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1784036700&signature=c6338bc507f97ace468350bb3673b57dce070e99a49d8a2f81f0682f76442f0d&req=dSclEcp5nIRXXPMW1HO4zUAXI8gCUa7TFalhp3bugHKfF%2Fll2dieMcvyE5pc%0AN28cyWiUwU8ReiKlg2Y%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1784047500&signature=ebd02adce92916b2b1c4931f80e5e45f99095b57885190d0a67222f83a27d82a&req=dSclEcp5nIRXXPMW1HO4zUAXI8gCVq%2FRFalhp3bugHJJvfGdkgXOFjjc9ZaL%0A%2FUT61FOZPVxfI5IXn%2FQ%3D%0A)
 
  
 
@@ -53,6 +53,6 @@ Your Claude usage limits are shared across all platforms, so your chats with Cla
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
-- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

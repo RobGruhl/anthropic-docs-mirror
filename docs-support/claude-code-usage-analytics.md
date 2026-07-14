@@ -47,7 +47,7 @@ The **Usage** tab displays the following metrics for your organization. Data on 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1784036700&signature=4a6754246133c31ea31ac0e514205c963985e0a5650970ad58e5dcd1c9a56c6d&req=dScmEcx5lINYXvMW1HO4zfiEP6JQjH%2FJCX9h5MbdDjMyCrPFOG5h1HaHzyzu%0AvaSHbg0yYAceZzpA42o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1784047500&signature=425b08d84335600549db3d52ec496093e1df03480e74a26d138eaa8a20ac0ded&req=dScmEcx5lINYXvMW1HO4zfiEP6JQi37LCX9h5MbdDjMKyPGBaVKZ8lGY1yAd%0A%2BFY6vZIMthC5%2Fueqvsg%3D%0A)
 
  
 
@@ -168,7 +168,7 @@ See **[Analytics](https://code.claude.com/docs/en/analytics)** in our Claude Cod
 ## Related Articles
 
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Claude Code on the web](https://support.claude.com/en/articles/12618689-claude-code-on-the-web)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
+- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Set up Code Review for Claude Code](https://support.claude.com/en/articles/14233555-set-up-code-review-for-claude-code)
 - [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

@@ -37,8 +37,8 @@ If you wish to refer a matter to the eSafety Commissioner, please follow the ins
 
 ## Related Articles
 
-- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
-- [Crisis Helpline Support in Claude](https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude)
+- [Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy](https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy)
+- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
 - [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)
 - [Child safety guidance for developers](https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers)

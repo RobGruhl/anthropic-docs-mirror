@@ -1,6 +1,6 @@
 # Business Associate Agreements (BAA) for Commercial Customers
 
-*Updated over a week ago*
+*Updated in the last hour*
 
 ---
 
@@ -8,19 +8,15 @@
 
  
 
-*For Claude Enterprise features to be covered under a BAA, an administrator must activate HIPAA compliance in the HIPAA-ready Claude Enterprise admin settings under “Data & Privacy” and sign Anthropic's BAA. Standard Claude Enterprise plans do not include BAA coverage without action from an administrator. *
+*For Claude Enterprise features to be covered under a Business Associate Agreement (BAA), the Primary Owner of the organization must activate HIPAA compliance in the HIPAA-ready Claude Enterprise organization settings under “Data and privacy” and accept Anthropic's BAA. Standard Claude Enterprise plans do not include BAA coverage without action from a Primary Owner. *
 
  
 
-Anthropic provides a Business Associate Agreement (BAA) covering our HIPAA-ready services, such as use of our first-party API or Enterprise plans. Claude Enterprise administrators can sign the BAA directly when activating HIPAA compliance in the admin settings under “Data & Privacy.” If you are a self-managed account and do not see the admin setting, please contact sales.
+Anthropic provides a BAA covering our HIPAA-ready services, such as use of our first-party API or Enterprise plans. Claude Enterprise Primary Owners can accept the BAA directly when activating HIPAA compliance in the organization settings under “Data and privacy.”
 
  
 
-To use the 1P API with PHI, your organization’s administrator will need to sign a BAA and then contact sales to get this turned on.
-
- 
-
-For clarity, the BAA does not cover Workbench and Console, Claude Free, Pro, Max, or Team plans, Cowork, or features currently in beta such as Claude in Office and Claude Design. As part of the BAA, customers of Anthropic’s HIPAA-ready services are subject to certain configuration requirements and limitations on what features/integrations are available.
+For clarity, the BAA only covers the single organization that accepted it, and excludes features such as Workbench, Claude Console, Claude Cowork, or features currently in beta such as Claude in Office and Claude Design. As part of the BAA, customers of Anthropic’s HIPAA-ready services are subject to certain configuration requirements and limitations on what features/integrations are available.
 
  
 
@@ -67,7 +63,7 @@ Below is a breakdown of what’s covered under the BAA, by feature and product s
 | Claude Code Computer Use [beta] | ⚠️ *Available to use without ZDR but this feature is not covered under Anthropic’s BAA. This feature is incompatible with ZDR.* |
 | Claude Code Remote Control [beta] | ⚠️ *Available to use without ZDR but this feature is not covered under Anthropic’s BAA. This feature is incompatible with ZDR.* |
 
-*Covered under versions of the BAA signed after 12/2/25
+*Covered under versions of the BAA accepted after 12/2/25
 
  
 
@@ -101,7 +97,7 @@ The Messages API is covered as an Eligible Service under your BAA. The following
 | Bash tool | ✅ *Covered as Eligible Services under Anthropic BAA** |
 | Text Editor tool | ✅ *Covered as Eligible Services under Anthropic BAA** |
 
-*Covered under versions of the BAA signed after 4/1/26
+*Covered under versions of the BAA accepted after 4/1/26
 
  
 

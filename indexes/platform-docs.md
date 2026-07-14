@@ -1,17 +1,17 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-14 13:15*
-Total documents: 1620
+*Last updated: 2026-07-14 16:14*
+Total documents: 1636
 ---
-## Uncategorized (1620 documents)
+## Uncategorized (1636 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics
 **File:** `/platform-docs/admin__analytics.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__artifacts
 **File:** `/platform-docs/admin__analytics__artifacts.md`  
@@ -26,47 +26,47 @@ Total documents: 1620
 ### admin__analytics__chat_projects
 **File:** `/platform-docs/admin__analytics__chat_projects.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/chat_projects  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__chat_projects__list
 **File:** `/platform-docs/admin__analytics__chat_projects__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/chat_projects/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__connectors
 **File:** `/platform-docs/admin__analytics__connectors.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/connectors  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__connectors__list
 **File:** `/platform-docs/admin__analytics__connectors__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/connectors/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__cost
 **File:** `/platform-docs/admin__analytics__cost.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/cost  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__cost__list
 **File:** `/platform-docs/admin__analytics__cost__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/cost/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__cost__list_by_user
 **File:** `/platform-docs/admin__analytics__cost__list_by_user.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/cost/list_by_user  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__plugins
 **File:** `/platform-docs/admin__analytics__plugins.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/plugins  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__plugins__list
 **File:** `/platform-docs/admin__analytics__plugins__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/plugins/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__retrieve_summaries
 **File:** `/platform-docs/admin__analytics__retrieve_summaries.md`  
@@ -76,57 +76,57 @@ Total documents: 1620
 ### admin__analytics__skills
 **File:** `/platform-docs/admin__analytics__skills.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/skills  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__skills__list
 **File:** `/platform-docs/admin__analytics__skills__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/skills/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__usage
 **File:** `/platform-docs/admin__analytics__usage.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/usage  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__usage__list
 **File:** `/platform-docs/admin__analytics__usage__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/usage/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__usage__list_by_user
 **File:** `/platform-docs/admin__analytics__usage__list_by_user.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/usage/list_by_user  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__users
 **File:** `/platform-docs/admin__analytics__users.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/users  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__analytics__users__list
 **File:** `/platform-docs/admin__analytics__users__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/analytics/users/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__api_keys
 **File:** `/platform-docs/admin__api_keys.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__api_keys__list
 **File:** `/platform-docs/admin__api_keys__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__api_keys__retrieve
 **File:** `/platform-docs/admin__api_keys__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys/retrieve  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__api_keys__update
 **File:** `/platform-docs/admin__api_keys__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys/update  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__cost_report
 **File:** `/platform-docs/admin__cost_report.md`  
@@ -141,37 +141,37 @@ Total documents: 1620
 ### admin__external_keys
 **File:** `/platform-docs/admin__external_keys.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__create
 **File:** `/platform-docs/admin__external_keys__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/create  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__delete
 **File:** `/platform-docs/admin__external_keys__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/delete  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__list
 **File:** `/platform-docs/admin__external_keys__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__retrieve
 **File:** `/platform-docs/admin__external_keys__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/retrieve  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__update
 **File:** `/platform-docs/admin__external_keys__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/update  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__external_keys__validate
 **File:** `/platform-docs/admin__external_keys__validate.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/validate  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__federation_issuers
 **File:** `/platform-docs/admin__federation_issuers.md`  
@@ -256,27 +256,27 @@ Total documents: 1620
 ### admin__invites
 **File:** `/platform-docs/admin__invites.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/invites  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__invites__create
 **File:** `/platform-docs/admin__invites__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/invites/create  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__invites__delete
 **File:** `/platform-docs/admin__invites__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/invites/delete  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__invites__list
 **File:** `/platform-docs/admin__invites__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/invites/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__invites__retrieve
 **File:** `/platform-docs/admin__invites__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/invites/retrieve  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__mcp_tunnels
 **File:** `/platform-docs/admin__mcp_tunnels.md`  
@@ -352,6 +352,81 @@ Total documents: 1620
 **File:** `/platform-docs/admin__rate_limits__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/rate_limits/list  
 **Updated:** 2026-07-01  
+
+### admin__rbac_groups
+**File:** `/platform-docs/admin__rbac_groups.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__create
+**File:** `/platform-docs/admin__rbac_groups__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/create  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__delete
+**File:** `/platform-docs/admin__rbac_groups__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/delete  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__list
+**File:** `/platform-docs/admin__rbac_groups__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/list  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__members
+**File:** `/platform-docs/admin__rbac_groups__members.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/members  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__members__create
+**File:** `/platform-docs/admin__rbac_groups__members__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/members/create  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__members__delete
+**File:** `/platform-docs/admin__rbac_groups__members__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/members/delete  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__members__list
+**File:** `/platform-docs/admin__rbac_groups__members__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/members/list  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__retrieve
+**File:** `/platform-docs/admin__rbac_groups__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/retrieve  
+**Updated:** 2026-07-14  
+
+### admin__rbac_groups__update
+**File:** `/platform-docs/admin__rbac_groups__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_groups/update  
+**Updated:** 2026-07-14  
+
+### admin__rbac_roles
+**File:** `/platform-docs/admin__rbac_roles.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_roles  
+**Updated:** 2026-07-14  
+
+### admin__rbac_roles__list
+**File:** `/platform-docs/admin__rbac_roles__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_roles/list  
+**Updated:** 2026-07-14  
+
+### admin__rbac_roles__permissions
+**File:** `/platform-docs/admin__rbac_roles__permissions.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_roles/permissions  
+**Updated:** 2026-07-14  
+
+### admin__rbac_roles__permissions__list
+**File:** `/platform-docs/admin__rbac_roles__permissions__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_roles/permissions/list  
+**Updated:** 2026-07-14  
+
+### admin__rbac_roles__retrieve
+**File:** `/platform-docs/admin__rbac_roles__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/admin/rbac_roles/retrieve  
+**Updated:** 2026-07-14  
 
 ### admin__service_accounts
 **File:** `/platform-docs/admin__service_accounts.md`  
@@ -456,12 +531,12 @@ Total documents: 1620
 ### admin__usage_report
 **File:** `/platform-docs/admin__usage_report.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/usage_report  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__usage_report__retrieve_claude_code
 **File:** `/platform-docs/admin__usage_report__retrieve_claude_code.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__usage_report__retrieve_messages
 **File:** `/platform-docs/admin__usage_report__retrieve_messages.md`  
@@ -471,47 +546,47 @@ Total documents: 1620
 ### admin__users
 **File:** `/platform-docs/admin__users.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/users  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__users__delete
 **File:** `/platform-docs/admin__users__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/users/delete  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__users__list
 **File:** `/platform-docs/admin__users__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/users/list  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__users__retrieve
 **File:** `/platform-docs/admin__users__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/users/retrieve  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__users__update
 **File:** `/platform-docs/admin__users__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/users/update  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces
 **File:** `/platform-docs/admin__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces__archive
 **File:** `/platform-docs/admin__workspaces__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/archive  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces__create
 **File:** `/platform-docs/admin__workspaces__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/create  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces__list
 **File:** `/platform-docs/admin__workspaces__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/list  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces__members
 **File:** `/platform-docs/admin__workspaces__members.md`  
@@ -556,7 +631,7 @@ Total documents: 1620
 ### admin__workspaces__retrieve
 **File:** `/platform-docs/admin__workspaces__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/retrieve  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### admin__workspaces__service_accounts
 **File:** `/platform-docs/admin__workspaces__service_accounts.md`  
@@ -591,22 +666,22 @@ Total documents: 1620
 ### admin__workspaces__update
 **File:** `/platform-docs/admin__workspaces__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/workspaces/update  
-**Updated:** 2026-06-11  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__agent-skills__best-practices
 **File:** `/platform-docs/agents-and-tools__agent-skills__best-practices.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__agent-skills__enterprise
 **File:** `/platform-docs/agents-and-tools__agent-skills__enterprise.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__agent-skills__overview
 **File:** `/platform-docs/agents-and-tools__agent-skills__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
@@ -671,12 +746,12 @@ Total documents: 1620
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__build-a-tool-using-agent
 **File:** `/platform-docs/agents-and-tools__tool-use__build-a-tool-using-agent.md`  
@@ -686,7 +761,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
@@ -721,7 +796,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__memory-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__memory-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool  
-**Updated:** 2026-06-28  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
@@ -736,7 +811,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__server-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__server-tools.md`  
@@ -746,7 +821,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__strict-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__strict-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__text-editor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__text-editor-tool.md`  
@@ -771,7 +846,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__tool-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__tool-use-with-prompt-caching
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-use-with-prompt-caching.md`  
@@ -791,7 +866,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
@@ -1506,7 +1581,7 @@ Total documents: 1620
 ### build-with-claude__adaptive-thinking
 **File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
@@ -1521,7 +1596,7 @@ Total documents: 1620
 ### build-with-claude__citations
 **File:** `/platform-docs/build-with-claude__citations.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/citations  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
@@ -1556,17 +1631,17 @@ Total documents: 1620
 ### build-with-claude__context-editing
 **File:** `/platform-docs/build-with-claude__context-editing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-editing  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__context-windows
 **File:** `/platform-docs/build-with-claude__context-windows.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-windows  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/effort  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__embeddings
 **File:** `/platform-docs/build-with-claude__embeddings.md`  
@@ -1576,7 +1651,7 @@ Total documents: 1620
 ### build-with-claude__extended-thinking
 **File:** `/platform-docs/build-with-claude__extended-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/extended-thinking  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__fallback-credit
 **File:** `/platform-docs/build-with-claude__fallback-credit.md`  
@@ -1601,12 +1676,12 @@ Total documents: 1620
 ### build-with-claude__mid-conversation-effort-example
 **File:** `/platform-docs/build-with-claude__mid-conversation-effort-example.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__mid-conversation-system-messages
 **File:** `/platform-docs/build-with-claude__mid-conversation-system-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__multilingual-support
 **File:** `/platform-docs/build-with-claude__multilingual-support.md`  
@@ -1656,7 +1731,7 @@ Total documents: 1620
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/task-budgets  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
@@ -4856,12 +4931,12 @@ Total documents: 1620
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api-keys  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### manage-claude__analytics-api
 **File:** `/platform-docs/manage-claude__analytics-api.md`  
@@ -4891,7 +4966,7 @@ Total documents: 1620
 ### manage-claude__cmek-azure-key-vault
 **File:** `/platform-docs/manage-claude__cmek-azure-key-vault.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__cmek-google-cloud-kms
 **File:** `/platform-docs/manage-claude__cmek-google-cloud-kms.md`  
@@ -4963,6 +5038,11 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/manage-claude/usage-cost-api  
 **Updated:** 2026-06-30  
 
+### manage-claude__user-management
+**File:** `/platform-docs/manage-claude__user-management.md`  
+**Source:** https://platform.claude.com/docs/en/manage-claude/user-management  
+**Updated:** 2026-07-14  
+
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-admin-api  
@@ -4971,37 +5051,37 @@ Total documents: 1620
 ### manage-claude__wif-providers__aws
 **File:** `/platform-docs/manage-claude__wif-providers__aws.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/aws  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__azure
 **File:** `/platform-docs/manage-claude__wif-providers__azure.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/azure  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__gcp
 **File:** `/platform-docs/manage-claude__wif-providers__gcp.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__github-actions
 **File:** `/platform-docs/manage-claude__wif-providers__github-actions.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__kubernetes
 **File:** `/platform-docs/manage-claude__wif-providers__kubernetes.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__okta
 **File:** `/platform-docs/manage-claude__wif-providers__okta.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/okta  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-providers__spiffe
 **File:** `/platform-docs/manage-claude__wif-providers__spiffe.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### manage-claude__wif-reference
 **File:** `/platform-docs/manage-claude__wif-reference.md`  
@@ -5011,7 +5091,7 @@ Total documents: 1620
 ### manage-claude__workload-identity-federation
 **File:** `/platform-docs/manage-claude__workload-identity-federation.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workload-identity-federation  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-14  
 
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
@@ -5021,7 +5101,7 @@ Total documents: 1620
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### managed-agents__cloud-sandboxes-reference
 **File:** `/platform-docs/managed-agents__cloud-sandboxes-reference.md`  
@@ -5046,7 +5126,7 @@ Total documents: 1620
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/events-and-streaming  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
@@ -5068,10 +5148,10 @@ Total documents: 1620
 **Source:** https://platform.claude.com/docs/en/managed-agents/memory  
 **Updated:** 2026-07-10  
 
-### managed-agents__multi-agent
-**File:** `/platform-docs/managed-agents__multi-agent.md`  
-**Source:** https://platform.claude.com/docs/en/managed-agents/multi-agent  
-**Updated:** 2026-07-10  
+### managed-agents__multiagent-orchestration
+**File:** `/platform-docs/managed-agents__multiagent-orchestration.md`  
+**Source:** https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration  
+**Updated:** 2026-07-14  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
@@ -5096,7 +5176,7 @@ Total documents: 1620
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/reference  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### managed-agents__scheduled-deployments
 **File:** `/platform-docs/managed-agents__scheduled-deployments.md`  
@@ -5106,7 +5186,7 @@ Total documents: 1620
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-14  
 
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
@@ -5126,7 +5206,7 @@ Total documents: 1620
 ### managed-agents__skills
 **File:** `/platform-docs/managed-agents__skills.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/skills  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### managed-agents__tools
 **File:** `/platform-docs/managed-agents__tools.md`  
@@ -5136,12 +5216,12 @@ Total documents: 1620
 ### managed-agents__vaults
 **File:** `/platform-docs/managed-agents__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/vaults  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-14  
 
 ### managed-agents__webhooks
 **File:** `/platform-docs/managed-agents__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/webhooks  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-14  
 
 ### messages
 **File:** `/platform-docs/messages.md`  

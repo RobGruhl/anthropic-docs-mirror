@@ -1,6 +1,6 @@
 # Terms of Service Updates
 
-*Updated over a week ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -20,8 +20,8 @@ We encourage you to read our updated [Terms of Service](https://anthropic.com/te
 
 ## Related Articles
 
-- [How do I view and sign your Data Processing Addendum (DPA)?](https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa)
 - [Consumer Terms of Service Updates](https://support.claude.com/en/articles/9264813-consumer-terms-of-service-updates)
 - [Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy](https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy)
 - [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
+- [Claude for Teachers: your data and our terms](https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms)

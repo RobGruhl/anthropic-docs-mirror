@@ -226,5 +226,5 @@ Product updates, how-tos, community spotlights, and more. Delivered monthly to y
 Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ko/blog/building-agents-with-the-claude-agent-sdk
+**Source:** https://claude.com/blog/building-agents-with-the-claude-agent-sdk
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
