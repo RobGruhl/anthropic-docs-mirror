@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-14 19:09*
+*Last updated: 2026-07-14 21:52*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -406,7 +406,7 @@ Total documents: 253
 ### How can I access the Claude API?
 **File:** `/docs-support/how-can-i-access-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### How can I access the personal information that Anthropic has on my account?
 **File:** `/docs-support/how-can-i-access-the-personal-information-that-anthropic-has-on-my-account.md`  
@@ -571,7 +571,7 @@ Total documents: 253
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -921,7 +921,7 @@ Total documents: 253
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -966,7 +966,7 @@ Total documents: 253
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### Use Claude app intents, shortcuts, and widgets on iOS
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  

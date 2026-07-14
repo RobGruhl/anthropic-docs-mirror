@@ -1,6 +1,6 @@
 # Use Claude Cowork safely
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -64,6 +64,10 @@ Cowork activity is **not captured** in the Compliance API at this time. Team and
 
  
 
+---
+
+ 
+
 ## Our safety measures
 
 We've implemented multiple layers of protection:
@@ -71,6 +75,7 @@ We've implemented multiple layers of protection:
 - **Model training:** We use reinforcement learning to train Claude to recognize and refuse malicious instructions—even when they appear authoritative or urgent.
 - **Isolated remote execution:** Claude's work runs in an isolated, temporary environment on Anthropic's servers, separate from your computer and unable to reach your network. Each session gets its own environment, which is removed when the session ends. Isolation protects your computer and network from the code Claude runs; it doesn't change what Claude can read or do through the access you've granted.
 - **Content classifiers:** We scan all untrusted content entering Claude's context and flag potential injections before they can affect behavior.
+- **Action screening in auto mode:** In "Automatically approve" mode, Claude reviews each action for safety before it runs and blocks anything it determines to be unsafe. If an action is blocked, Claude looks for a safer approach or asks you directly. Learn more in **[Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_e1353133dd)**.
 - **Deletion protection:** Cowork requires your explicit permission before permanently deleting any files. You'll see a permission prompt and must select "Allow" before Claude can perform deletion tasks.
 - **Computer use safeguards:** When Claude uses your computer, it asks for your permission before accessing each application. For full details, see **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-computer-use-safety)**.
 
@@ -109,7 +114,7 @@ Scheduled tasks run on their own even when your computer is off. Review past run
 
 **4. Match your oversight to the stakes**
 
-Cowork can work through the steps of a task without pausing for your approval, which keeps well-defined work moving. However, if Claude reads malicious content mid-task (a prompt injection), it could act on those instructions before you notice. Claude always asks before permanently deleting files, in any mode.
+Cowork can work through the steps of a task without pausing for your approval, which keeps well-defined work moving. In "Automatically approve" mode, Claude still reviews each action for safety before it runs; in "Skip all approvals," nothing checks its actions. Either way, if Claude reads malicious content mid-task (a prompt injection), it could act on those instructions before you notice. Claude always asks before permanently deleting files, in any mode.
 
  
 

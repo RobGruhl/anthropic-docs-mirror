@@ -27,7 +27,7 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 ## Related Articles
 
 - [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
-- [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)

@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -135,17 +135,19 @@ Tasks can run for extended periods depending on complexity. You can monitor prog
 
 Cowork has three modes that control when Claude asks your permission before taking an action, like using your connectors. You can change the mode at any time from the mode selector in the chat box.
 
- 
+|  | **Connector tool permission: "Always allow"** | **Connector tool permission: "Needs approval"** | **Connector tool permission: "Blocked"** |
+| --- | --- | --- | --- |
+| **"Manual" mode** | Approved | Asks for permission | Denied |
+| **"Auto" mode** | Read-only tools are approved  For write/delete tools, Claude decides | Claude decides | Denied |
+| **"Skip" mode** | Approved | Approved | Denied |
 
-Regardless of mode, connector tools that you've set to "Always allow" or "Blocked" will always be approved or denied, respectively. As a reminder, you control which connectors Claude can use via the + menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
-
- 
+As a reminder, you control which connectors Claude can use via the + menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
 
 **Manually approve (Manual)**, formerly "Ask before acting." Claude pauses and asks for approval for actions. You review each request and choose Allow or Deny.
 
  
 
-**Automatically approve (Auto).** Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for **[prompt injection](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking your permission for each step.
+**Automatically approve (Auto).** Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for data exfiltration or **[prompt injection](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking your permission for each step.
 
  
 
@@ -179,7 +181,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1784057400&signature=dd511eff88a8983ecdcbe58ac5afe46f9af982df08bd66ef47ec1ded759b0531&req=diUlE8B8m4lYXfMW1HO4zcDl6tzsM1a08iWjaktE943nCNuVFPSzVREgnXsK%0ArOIAp3pHbwBx6sBgvnc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1784203200&signature=f2f5b2c3083a8f2128f02b2be6496d6d1fec2245ef62f8add33074ef9bdabccf&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD2LTcaFOMqW%2FkK1d1nREjJi886OuWWo8d%0AFgrLAVZcvOtBdH46XjHC6SpJKL8%3D%0A)
 
  
 
@@ -356,7 +358,7 @@ Check that you've granted Claude the appropriate file access permissions. Review
 ## Related Articles
 
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
-- [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
-- [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)
