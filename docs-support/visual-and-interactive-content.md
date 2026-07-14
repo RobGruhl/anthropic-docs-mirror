@@ -28,7 +28,7 @@ Claude automatically displays temperatures in Fahrenheit for US locations and Ce
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1784047500&signature=d1f636b96520e99015d0743a41f6fb3a1e230a4a5dcfadc17891d80ba998ef4b&req=diAjFsx6mYhdXvMW1HO4zXlB7Tq60R%2BNdgndksVD5R3pcmJcrqhhanWHgJQm%0A7mCl3T3j0tvWjrqMot4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1784057400&signature=1e841059f31c7c8151aca85f5579217e1e5cd8183eef1f29077f0e2fbca90707&req=diAjFsx6mYhdXvMW1HO4zXlB7Tq60B%2BMdgndksVD5R3lZNz84Ulp%2FZxZN5Pn%0AgO343DrX7xeXQ%2BqNMCk%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ When you ask about recipes, Claude can display formatted recipe cards that are e
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1784047500&signature=a33ae7f328a6f13122f716aa35f84560769b6964b8826d616f384895eb546b49&req=diAjFsx6mYhdUPMW1HO4zUQpe7QV1lOSrIPm%2FImZVg3rCckgL9ocOU0H7qQU%0Aten6bqBbmbIH4R57dYc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1784057400&signature=aac4b49673127b33edb28777d472f61b8df7192765c4e4f5ae4fa9989bc1aae4&req=diAjFsx6mYhdUPMW1HO4zUQpe7QV11OTrIPm%2FImZVg0V%2FGstQFthznLE3vsq%0AVXVMQ%2BVuOqTHHWvmUPI%3D%0A)
 
  
 
@@ -101,7 +101,7 @@ For example, if you ask Claude to help you plan a trip, it might ask you to:
 
 This content appears at the bottom of the chat. You can still type a response if you prefer.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1784047500&signature=c2e44afaeb33beae8f2b2d5e5f41d05ff1fb6020def2cc4f330ab9272d3de045&req=diAjFsx6mYhcWfMW1HO4zWmF5%2FG%2BbRmnx4wz0C7CTALUAgpPqPt1jOiHU3vi%0Az%2B2l8yPccQ4V1f1x%2Fxs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1784057400&signature=48fd3f73944c411ef0bf3baab897d2dfffcb773f07a1c828b8a3d4fc48816186&req=diAjFsx6mYhcWfMW1HO4zWmF5%2FG%2BbBmmx4wz0C7CTAKZ6GdztQBGD3KLQZ3j%0A%2Bl1oBy0c9FChjZ7FVIA%3D%0A)
 
  
 

@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-14 16:14*
+*Last updated: 2026-07-14 19:09*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -41,7 +41,7 @@ Total documents: 253
 ### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -196,7 +196,7 @@ Total documents: 253
 ### Claude in Chrome admin controls
 **File:** `/docs-support/claude-in-chrome-admin-controls.md`  
 **Source:** https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-14  
 
 ### Claude in Chrome permissions guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -576,7 +576,7 @@ Total documents: 253
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
 **Source:** https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
@@ -656,12 +656,12 @@ Total documents: 253
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -1136,7 +1136,7 @@ Total documents: 253
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-14  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  

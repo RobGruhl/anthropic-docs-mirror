@@ -4,22 +4,24 @@
 
 ---
 
-This article explains how Team and Enterprise Owners can manage Claude in Chrome for their organization.
+This article explains how Team and Enterprise owners can manage Claude in Chrome for their organization.
 
  
 
-Claude in Chrome is a browser extension that allows Claude to read, click, and navigate websites on behalf of your users. As an Owner, you control whether the extension is available for users to install and which sites they can access.
+Claude in Chrome is a browser extension that allows Claude to read, click, and navigate websites on behalf of your users. As an owner, you control whether the extension is available for users to install and which sites they can access.
 
-## Accessing Claude in Chrome settings
+ 
+
+## Access Claude in Chrome settings
 
 To manage Claude in Chrome settings for your organization:
 
-1. Sign in to Claude with your Owner account.
+1. Sign in to Claude with your Owner or Primary Owner account.
 2. Navigate to **[Organization settings > Claude in Chrome](http://claude.ai/admin-settings/browser-extension)**.
 
  
 
-## Enabling or disabling the extension
+## Enable or disable the extension
 
 Use the toggle to enable or disable Claude in Chrome for your entire organization.
 
@@ -30,7 +32,7 @@ Claude in Chrome and Claude Cowork are managed separately. Enabling Claude in Ch
 
  
 
-## Configuring site access
+## Configure site access
 
 Use allowlists and blocklists to control which websites Claude can access when users are working with the extension.
 
@@ -48,7 +50,7 @@ Use allowlists and blocklists to control which websites Claude can access when u
 
  
 
-## Managing user access on Claude Desktop
+## Manage user access on Claude Desktop
 
 Users with both Claude in Chrome and Claude Desktop installed will now have the option to start a task on the desktop app and let it handle work in the browser without switching windows.
 
@@ -79,7 +81,7 @@ Most Enterprise organizations already have Chrome extension management in place.
 
  
 
-## Running a pilot
+## Run a pilot
 
 To test Claude in Chrome with a subset of users before broader rollout:
 
@@ -96,8 +98,9 @@ To test Claude in Chrome with a subset of users before broader rollout:
 - **Role-based permissions:** Claude in Chrome has its own permission, separate from Claude Cowork. Two settings control Claude in Chrome: an organization-level toggle, and a per-role capability that admins can grant or withhold. That per-role capability applies to Enterprise organizations using custom roles. Claude in Chrome doesn't inherit a user's Cowork access.
 - **Network controls:** Claude in Chrome sends its chat traffic through your existing Claude endpoints (<code>claude.ai</code>, <code>api.anthropic.com</code>, <code>platform.claude.com</code>), so any controls you've set on those apply here too. It also connects to the same bridge endpoint Claude Desktop uses (<code>wss://bridge.claudeusercontent.com</code>) and to standard telemetry services. In restrictive network environments, allow these connections. To limit which organization the extension can be used with, deploy the <code>forceLoginOrgUUID</code> Chrome enterprise policy.
 - **Zero data retention (ZDR):** Not supported for Claude in Chrome, the same as Cowork.
+-  
 
-## Educating your users
+## Educate your users
 
 We recommend sharing these resources with users before they start using Claude in Chrome:
 
