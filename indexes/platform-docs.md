@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-13 21:49*
+*Last updated: 2026-07-14 01:34*
 Total documents: 1620
 ---
 ## Uncategorized (1620 documents)
@@ -726,7 +726,7 @@ Total documents: 1620
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-14  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
@@ -1546,7 +1546,7 @@ Total documents: 1620
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -2416,17 +2416,17 @@ Total documents: 1620
 ### compliance
 **File:** `/platform-docs/compliance.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__activities__list
 **File:** `/platform-docs/compliance__activities__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__apps
 **File:** `/platform-docs/compliance__apps.md`  
@@ -2571,12 +2571,12 @@ Total documents: 1620
 ### compliance__code
 **File:** `/platform-docs/compliance__code.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__code__artifacts
 **File:** `/platform-docs/compliance__code__artifacts.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__code__artifacts__delete
 **File:** `/platform-docs/compliance__code__artifacts__delete.md`  
@@ -2586,7 +2586,7 @@ Total documents: 1620
 ### compliance__code__artifacts__list
 **File:** `/platform-docs/compliance__code__artifacts__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/list  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-14  
 
 ### compliance__code__artifacts__retrieve_version
 **File:** `/platform-docs/compliance__code__artifacts__retrieve_version.md`  
@@ -4871,7 +4871,7 @@ Total documents: 1620
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-14  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  

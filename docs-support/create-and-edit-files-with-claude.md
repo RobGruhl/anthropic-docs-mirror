@@ -62,7 +62,7 @@ To give Claude access to external data sources, toggle **Allow network egress** 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1783980900&signature=abf6d6ac1864fae6a3193a5216b714bfe01b11f285134e9e4f00d6a9f4f1a06e&req=diAiEs55mYFfXPMW1HO4zYFJyw5MBJnHPQVowIiib2lsXtbLtBU%2BHGyg72pk%0AwcCRG6hS6JnkgVwZ42I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1783994400&signature=f5c9113d311415a7256efd1c86c27db4abc392540d955df23aa64030c0a8b409&req=diAiEs55mYFfXPMW1HO4zYFJyw5MBZ3KPQVowIiib2mRhpgB6HE6NkXcoT7i%0AO6GrHuntkc2nxSafb1M%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1783980900&signature=29abdd61a8c87258f6effdb0370071b3ca7b5749288f5676a3df4d6c1040e192&req=dScvH8B6mIJZW%2FMW1HO4zXJcBm5KnSlCpMW6Iph6YZcyl2tLa79ndO0B26ht%0ACV2uON8W1FIuhJ7jS24%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1783994400&signature=ee342aa320904a32a2583eb9f077e1a58a4f94bce2323b21fb6d2355030f1a6f&req=dScvH8B6mIJZW%2FMW1HO4zXJcBm5KnC1PpMW6Iph6YZfTG2TCXbC7xgWN073C%0Ari43xkStlBbmsRyzp9A%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1783980900&signature=f1063f85eb8a9fe311e33a89e19ab8ee4debd0ca06a87be7d65299415bdad45a&req=dScvH8B6mIJZWPMW1HO4zdnseBeb5j%2BrqgKIA6CM1to4Jz227drf3la7OLFZ%0A9biWjOS1w7U%2BtoYTMHU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1783994400&signature=cabfd83bec59076b437069422fecc1f387851652d3e9809e29e114d97037398f&req=dScvH8B6mIJZWPMW1HO4zdnseBeb5zumqgKIA6CM1tqxSwchxtzjeTp0v%2Bvt%0AA5w3%2F2ewZQDIygqAIq4%3D%0A)
 
  
 
@@ -386,8 +386,8 @@ Yes you are still able to create artifacts (e.g., HTML or react apps, markdown d
 
 ## Related Articles
 
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
-- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)

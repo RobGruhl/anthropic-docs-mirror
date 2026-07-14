@@ -4075,30 +4075,30 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance",
-      "hash": "a4cd434df087b4a92b0c8b197f6511eec8e6bbad737311c3ded76fe582ffecb0",
+      "hash": "7536f7ec0c42ae009d1cb4dbb788800d63cd3d9fe0148396a6ba6db18261576b",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.035979"
+      "last_updated": "2026-07-14T01:29:13.104414"
     },
     "compliance__activities.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/activities",
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/activities.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/activities",
-      "hash": "67e257cdabed5ceafcdccdb650f5b667dac2d6157367b244a4ea98b417f56792",
+      "hash": "d56b697c75c89cf1ae968ea9e38c6e0b6942b960cda751f2d91e9780d3bb6134",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.039619"
+      "last_updated": "2026-07-14T01:29:13.108539"
     },
     "compliance__activities__list.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/activities/list",
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/activities/list.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/activities/list",
-      "hash": "253101baf68f16d1b367932f280458ad3319147f00ca5314248f0f13b44f7e32",
+      "hash": "c6a670605757b0cf8308cdf7990de4a3af9b193a9e82b39bb7576f1c27e4f777",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.042956"
+      "last_updated": "2026-07-14T01:29:13.112294"
     },
     "compliance__apps.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/apps",
@@ -4385,20 +4385,20 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/code.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/code",
-      "hash": "6e20f157ec6d81dbd593550db5d968541724e8a83620104b74fc1294c7a84edf",
+      "hash": "a4cf7636a6cfe3b12113d0dd4d311a84a8eca19554fb62df6358c6ec4873ef5e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.046684"
+      "last_updated": "2026-07-14T01:29:13.116940"
     },
     "compliance__code__artifacts.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/code/artifacts",
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/code/artifacts.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/code/artifacts",
-      "hash": "41516e6ebd86d00fa975368dc775534f54157d1a3c1657e30ddaa77c219f7ff4",
+      "hash": "0eb3c8b957ba953bc350e2afe5c1d5f6111965d74de4398ccf31943ae9f7c53e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.046771"
+      "last_updated": "2026-07-14T01:29:13.117046"
     },
     "compliance__code__artifacts__delete.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete",
@@ -4415,10 +4415,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/compliance/code/artifacts/list.md",
       "category": "api-reference",
       "path": "/docs/en/api/compliance/code/artifacts/list",
-      "hash": "6fa01e2c868b7d4da7322c329168a5f1b788afc05f36e41ca4bed29891842397",
+      "hash": "b3c9d15d63646f5fd116da4d104847d2d9e4c37f0c56dded456266d980e6ead1",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-07T22:05:27.046924"
+      "last_updated": "2026-07-14T01:29:13.117240"
     },
     "compliance__code__artifacts__retrieve_version.md": {
       "original_url": "https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version",
@@ -15095,10 +15095,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/overview",
-      "hash": "1f1b01055d20380a2b294af7c78083b3ac8efa879a86d7e9bb070f2eab4499ff",
+      "hash": "4fe49477c9e42b0eef74c8047ae3ab3813e05e3b9c566b241e72893e9ca488e9",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-06-30T18:37:16.739767"
+      "last_updated": "2026-07-14T01:29:13.330432"
     },
     "agents-and-tools__tool-use__parallel-tool-use.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use",
@@ -15315,10 +15315,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/claude-platform-on-aws",
-      "hash": "3be8545ab6e87e99d52d126514b8a1a6914d46451ee3fb38d4726d57b0ba1089",
+      "hash": "26c22757dbdf7b9545fb1d6b581a6247bfac2f2ab79e8c9ba1c5d36421f993ed",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-13T19:12:56.458830"
+      "last_updated": "2026-07-14T01:29:13.334306"
     },
     "build-with-claude__compaction.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
@@ -15645,10 +15645,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/api-and-data-retention",
-      "hash": "04aa119b4c653ebd6c89062b9cb2713792603395431a752e3bf08a2983cf36a5",
+      "hash": "7963ea220e2af501b6a8a1d89d184bda340e4c8d32c31750b8e151fd2937f539",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-13T19:12:56.464632"
+      "last_updated": "2026-07-14T01:29:13.340773"
     },
     "manage-claude__authentication.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/authentication",
@@ -16202,13 +16202,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-13T21:45:14.188746",
-    "fetch_duration_seconds": 20.725153,
+    "last_fetch_completed": "2026-07-14T01:29:13.355039",
+    "fetch_duration_seconds": 22.178395,
     "total_pages_discovered": 1877,
     "pages_fetched_successfully": 1620,
     "pages_failed": 257,
-    "pages_unchanged": 1620,
-    "pages_updated": 0,
+    "pages_unchanged": 1611,
+    "pages_updated": 9,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -16483,5 +16483,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-13T21:45:14.188947"
+  "last_updated": "2026-07-14T01:29:13.355217"
 }

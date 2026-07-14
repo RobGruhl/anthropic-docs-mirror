@@ -1,6 +1,6 @@
 # Use Claude Cowork on Team and Enterprise plans
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -34,6 +34,23 @@ Claude Cowork is on by default, but organization owners can manually disable it.
 2. Navigate to **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**.
 3. Locate the **Cowork** toggle.
 4. Toggle off to disable Cowork for all users in your organization.
+
+### Connector tool approvals
+
+The organization setting **Allow "Always allow" for connector tools** in **[Organization settings > Cowork](https://claude.ai/admin-settings/cowork)** (under **Permissions**) controls whether members can skip per-task approval for write-capable connector tools in Cowork. This setting is off by default.
+
+ 
+
+When the setting is off:
+
+- The "Allow for all tasks" option appears grayed out in Cowork's approval dialog, even when your organization-wide tool policies allow these tools.
+- Previously saved always-allow preferences for write tools aren't honored. Members approve these tools per task until the setting is turned on.
+
+Read-only tools are exempt only when the connector annotates them as read-only. Most custom connectors don't annotate their tools, so every tool on those connectors is gated.
+
+ 
+
+On Enterprise plans, this setting works alongside custom role grants, and the most restrictive layer wins. Role grants can't override it. For the full layering model, see **[Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans#h_979e558d00)**.
 
  
 
@@ -158,8 +175,8 @@ Network settings are applied when a new Cowork session is created. If you change
 
 ## Related Articles
 
-- [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
 - [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
+- [Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)

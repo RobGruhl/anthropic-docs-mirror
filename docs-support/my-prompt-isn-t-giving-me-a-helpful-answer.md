@@ -18,6 +18,6 @@ Claude works best when you give it clear and specific instructions. When craftin
 
 - [Introduction to prompt design](https://support.claude.com/en/articles/7996853-introduction-to-prompt-design)
 - [Claude’s response to my prompt is too brief.](https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief)
+- [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
-- [Set organization instructions](https://support.claude.com/en/articles/14546867-set-organization-instructions)
 - [Give Claude context: CLAUDE.md and better prompts](https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts)
