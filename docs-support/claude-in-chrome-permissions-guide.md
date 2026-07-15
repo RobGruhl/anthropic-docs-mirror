@@ -1,6 +1,6 @@
 # Claude in Chrome permissions guide
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -23,7 +23,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784067300&signature=992642b82a03ef9b19bade79aab2d7320b3ab4571986587e2903bb0ed6f70696&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZN%2BoW0gN0ADj5oqFBBPxI3%2BFYBtvV1sxiN%0A5Iu7I4hlBWBqkm%2FoR%2BU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784080800&signature=50d0f8c24d8d484682b3e5379fa855ee94a3e0177d72642a7d348bcd08107762&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZN9IK%2FgN0ADj5oqFCllBHXSCWIjBb0imnd%0ASu1sZu8fJkEyAcQ7qPA%3D%0A)
 
  
 
@@ -57,7 +57,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784067300&signature=dec12dc3681fabbcf724f7e8816e85cc900398020c134d9f2d1eb2d0f7b53c53&req=dSgjEct8n4lYXPMW1HO4zeoCY8IrpXN8JCxYSFHKWIjFzgt5OiyX%2FO2zZIKc%0ASBApwRb8HvMNpZmG%2F4k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784080800&signature=ed3d9da4c21b673e8f075c03262fb707a7821967c08d6fea1fb63e49beb2ccc5&req=dSgjEct8n4lYXPMW1HO4zeoCY8Irq3R3JCxYSFHKWIjumzzCspz%2BC57oUI%2B0%0Av7tomEAcrFVscI4N1C4%3D%0A)
 
  
 

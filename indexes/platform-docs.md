@@ -1,12 +1,12 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-14 21:52*
+*Last updated: 2026-07-15 01:30*
 Total documents: 1636
 ---
 ## Uncategorized (1636 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__analytics
 **File:** `/platform-docs/admin__analytics.md`  
@@ -141,12 +141,12 @@ Total documents: 1636
 ### admin__external_keys
 **File:** `/platform-docs/admin__external_keys.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__external_keys__create
 **File:** `/platform-docs/admin__external_keys__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/create  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__external_keys__delete
 **File:** `/platform-docs/admin__external_keys__delete.md`  
@@ -156,17 +156,17 @@ Total documents: 1636
 ### admin__external_keys__list
 **File:** `/platform-docs/admin__external_keys__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/list  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__external_keys__retrieve
 **File:** `/platform-docs/admin__external_keys__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/retrieve  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__external_keys__update
 **File:** `/platform-docs/admin__external_keys__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/external_keys/update  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### admin__external_keys__validate
 **File:** `/platform-docs/admin__external_keys__validate.md`  
@@ -1601,7 +1601,7 @@ Total documents: 1636
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
@@ -1611,17 +1611,17 @@ Total documents: 1636
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-07-02  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1696,12 +1696,12 @@ Total documents: 1636
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/pdf-support  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-15  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
@@ -2491,17 +2491,17 @@ Total documents: 1636
 ### compliance
 **File:** `/platform-docs/compliance.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### compliance__activities__list
 **File:** `/platform-docs/compliance__activities__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### compliance__apps
 **File:** `/platform-docs/compliance__apps.md`  
@@ -5151,7 +5151,7 @@ Total documents: 1636
 ### managed-agents__multiagent-orchestration
 **File:** `/platform-docs/managed-agents__multiagent-orchestration.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
@@ -5181,7 +5181,7 @@ Total documents: 1636
 ### managed-agents__scheduled-deployments
 **File:** `/platform-docs/managed-agents__scheduled-deployments.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/scheduled-deployments  
-**Updated:** 2026-07-01  
+**Updated:** 2026-07-15  
 
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  

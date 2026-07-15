@@ -6,11 +6,19 @@
 
 ## July 2026
 
+### July 14, 2026
+
+**HIPAA configuration for your Claude organizations is now self-serve**
+
+You can now manage HIPAA readiness for your Claude organizations yourself. This applies to both Claude Enterprise and the Claude Platform (API). In each product, an eligible admin can review the Business Associate Agreement (BAA), download the implementation guide, and enable the HIPAA configuration in a single flow. For more information, refer to **[HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans)** and **[HIPAA readiness for Claude API](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#hipaa-readiness)**.
+
+ 
+
 ### July 9, 2026
 
 **A new way to reflect with Claude**
 
-Your monthly recap is a new feature at **Settings > Reflect** that shows you the topics you spent time on, your most active day and peak hour, and observations about how you work with Claude. It's in beta on Free, Pro, and Max plans on the web and Claude Desktop, and requires memory to be on. Alongside it, **Settings > Time and focus** lets you set optional break reminders and quiet hours. For more information, refer to[ See your monthly recap](https://support.claude.com/en/articles/15672559) and[ Set break reminders and quiet hours](https://support.claude.com/en/articles/15672868).
+Your monthly recap is a new feature at **Settings > Reflect** that shows you the topics you spent time on, your most active day and peak hour, and observations about how you work with Claude. It's in beta on Free, Pro, and Max plans on the web and Claude Desktop, and requires memory to be on. Alongside it, **Settings > Time and focus** lets you set optional break reminders and quiet hours. For more information, refer to **[See your monthly recap](https://support.claude.com/en/articles/15672559)** and[ Set break reminders and quiet hours](https://support.claude.com/en/articles/15672868).
 
  
 
