@@ -101,6 +101,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Best practices for prompt engineering for 2026
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
 
 ### Claude Cowork is coming to mobile and web
@@ -112,10 +116,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### The Claude Cowork product guide
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
-### Making Claude Cowork ready for enterprise
 
 ## Transform how your organization operates with Claude
 

@@ -57,6 +57,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
+
+### Choosing a Claude model and effort level in Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)
 
 ### Claude Cowork is coming to mobile and web
@@ -68,10 +72,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e6fa9211768bbce0b_6e00dbffcddc82df5e471c43453abfc74ca94e8d-1000x1000.svg)
 
 ### Bringing Claude Code and Claude Cowork to government
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
-### Choosing a Claude model and effort level in Claude Code
 
 ## Transform how your organization operates with Claude
 
