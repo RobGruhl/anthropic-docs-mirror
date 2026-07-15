@@ -1,6 +1,6 @@
 # Publish and share artifacts
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -18,7 +18,8 @@ Claude uses different terms depending on your plan:
 
 - **Publishing** (Free, Pro, Max): Makes your artifact publicly available. Anyone with the link can view and interact with it.
 - **Sharing** (Team, Enterprise): Makes your artifact available within your organization only. Viewers must be logged into your Team or Enterprise account to access it.
--  
+
+ 
 
 ---
 

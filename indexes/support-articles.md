@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-15 16:18*
+*Last updated: 2026-07-15 19:05*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -501,7 +501,7 @@ Total documents: 253
 ### How do I view and sign your Data Processing Addendum (DPA)?
 **File:** `/docs-support/how-do-i-view-and-sign-your-data-processing-addendum-dpa.md`  
 **Source:** https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### How do usage and length limits work?
 **File:** `/docs-support/understanding-usage-and-length-limits.md`  
@@ -661,7 +661,7 @@ Total documents: 253
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -691,7 +691,7 @@ Total documents: 253
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-15  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -806,7 +806,7 @@ Total documents: 253
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
 **Source:** https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-15  
 
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
@@ -826,7 +826,7 @@ Total documents: 253
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-15  
 
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
@@ -841,7 +841,7 @@ Total documents: 253
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-15  
 
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
