@@ -1,6 +1,6 @@
 # What is the Team plan?
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -60,7 +60,7 @@ Refer to this article for more information about Premium seats: **[Purchase and 
 
 ## How much does the Team plan cost?
 
-Team plans require a minimum of five members. Pricing varies by seat type and billing interval:
+Team plans require a minimum of two members. Pricing varies by seat type and billing interval:
 
  
 
@@ -96,7 +96,7 @@ Price and plans are subject to change at Anthropic's discretion.
 
 ## Do Team plans have any usage limits?
 
-Yes. For both Standard and Premium seats, weekly limits reset at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.<br><br>Usage limits differ between Standard and Premium seats in the following ways:
+Yes. For both Standard and Premium seats, weekly limits reset at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.<br>​<br>Usage limits differ between Standard and Premium seats in the following ways:
 
  
 

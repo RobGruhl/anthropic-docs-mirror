@@ -1,6 +1,6 @@
 # Cancel your organization's Team plan subscription
 
-*Updated over 4 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -8,7 +8,7 @@ An Owner or Primary Owner can cancel Team plan access by navigating to **[Organi
 
  
 
-Removing a member from your Team plan ends their access immediately. If the removed member occupied an additional seat beyond the five members included by default, you will receive a prorated credit for the current billing cycle. If there are less than five current members, you can still add up to five members until the end of the billing cycle. For all other membership changes, you would need to resubscribe.
+Removing a member from your Team plan ends their access immediately. If the removed member occupied an additional seat beyond the two members included by default, you will receive a prorated credit for the current billing cycle. If there are less than two current members, you can still add up to two members until the end of the billing cycle. For all other membership changes, you would need to resubscribe.
 
 
 ---
@@ -16,7 +16,7 @@ Removing a member from your Team plan ends their access immediately. If the remo
 ## Related Articles
 
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
-- [How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)
+- [Get started with the Team plan](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

@@ -1,6 +1,6 @@
 # Use Claude’s chat search and memory to build on previous context
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -44,7 +44,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784209500&signature=3c5ff298b49381257ebab6f8ea9582fb6299d5c438270e5f6bad6c3a5e3ebf23&req=dScmH859nYlXUPMW1HO4zRzXH1syIzjHJG68qZhl782X9ofnTZd0ckJFfM6q%0A%2F7eFW5unEDUHWu%2BiWvM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784220300&signature=b618bfebacaed7654861167757bba176bdf2386e1e13d0a2a4a511dcc9390669&req=dScmH859nYlXUPMW1HO4zRzXH1syITHBJG68qZhl783IlNoxXZiEY1ZButC3%0AvgrGU4yEIh59kWXAYxk%3D%0A)
 
  
 
@@ -54,7 +54,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784209500&signature=0ea25d76d89885e742eeef3dd0622d9c21e0ff87db2fe7aeaccec5fb32584654&req=dScmH859nYlWWvMW1HO4za54sKduPI%2B%2BXDpzhlKsgjNQbDBDpeVywXSLQ3Ym%0AgdpcaIfcXBnDCWrcmKY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784220300&signature=3a458e43815f3e470b502c60512f7a6642693a45ffebf2984b0ea0d45eb13b67&req=dScmH859nYlWWvMW1HO4za54sKduPoa4XDpzhlKsgjPJiHYFkxQybbfcSKh6%0AoIqzFT4NwRXnVOCnuH0%3D%0A)
 
  
 
@@ -96,7 +96,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Capabilities]
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784209500&signature=c4afccf8fee48d3763e6ff345ea5a5f23f606ce4ff1a13854b9257ee3a4c24f2&req=dScmH859nYlWW%2FMW1HO4zTD5MMXkd%2B1ABq9N9dRTKYeVwZmcdFj7J27q7glz%0A1D4PaAGDcpx95NWkCyY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784220300&signature=9866e174b328594985d082cc62d15cfbe43a4ab7e9f2f9224841943332868993&req=dScmH859nYlWW%2FMW1HO4zTD5MMXkdeRGBq9N9dRTKYeJ6rUUc%2BTc%2F67%2B2f7A%0AbdU3jRpfGOgmxBRm6NY%3D%0A)
 
  
 

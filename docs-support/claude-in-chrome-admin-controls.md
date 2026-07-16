@@ -50,6 +50,16 @@ Use allowlists and blocklists to control which websites Claude can access when u
 
  
 
+## Control password manager access
+
+1Password for Claude lets macOS users complete tasks that require signing in, with 1Password filling the credential directly on the page so Claude never sees the password or one-time code. The integration is off by default for your organization.
+
+ 
+
+Once enabled, eligible users will see the integration surfaced in Claude Desktop. Users also need the 1Password desktop app, the 1Password browser extension, Claude Desktop, and Claude in Chrome installed on a Mac. For setup details and requirements, see **[Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181)**.
+
+ 
+
 ## Manage user access on Claude Desktop
 
 Users with both Claude in Chrome and Claude Desktop installed will now have the option to start a task on the desktop app and let it handle work in the browser without switching windows.
@@ -113,8 +123,8 @@ We recommend sharing these resources with users before they start using Claude i
 
 ## Related Articles
 
+- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
-- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)

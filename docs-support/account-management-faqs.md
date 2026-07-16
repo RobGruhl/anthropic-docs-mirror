@@ -54,7 +54,7 @@ Owners can remove domains by opening up the same modal and clicking the trash ca
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1784209500&signature=e21c4179b54ff967529fa796e566bbc241a9f3fef2887f830edcac324f66f8f7&req=diAiFcF5nolaW%2FMW1HO4zUrhFu%2BaaQEfkeFUnrkrQZjfYRXVwpgzhtQdGwo1%0Ar7Y%2FexFeQA%2Bsf8rGTyg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1784220300&signature=27a002ca1ef7793b2e360ecdfa688595a7dd93a053898c704f3bec842d93bdf4&req=diAiFcF5nolaW%2FMW1HO4zUrhFu%2BaawgZkeFUnrkrQZhDO8yV0Y4KkISCeTHp%0AuoWBISQfnSxchMzDz1Y%3D%0A)
 
   
 
@@ -67,6 +67,6 @@ While the account creator must use a business email address, you can add public 
 
 - [Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
-- [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)
 - [Manage members on Team and Enterprise plans](https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans)
+- [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
 - [Manage groups and group spend limits on Enterprise plans](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)

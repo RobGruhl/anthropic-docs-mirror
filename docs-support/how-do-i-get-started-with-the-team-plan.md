@@ -1,6 +1,6 @@
 # Get started with the Team plan
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -10,7 +10,7 @@
 - All team members must have an email address with one of your organization's allowed email domains to be invited to the account.
 - During sign-up, you can choose between monthly or annual billing options.
 - - Refer to this article for more information: **[How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)**
-- Team plans require a minimum of five members and are not intended for individual use.
+- Team plans require a minimum of two members and are not intended for individual use.
 -  
 
 ## Create a new Team organization

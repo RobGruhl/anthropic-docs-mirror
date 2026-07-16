@@ -84,7 +84,7 @@ Workbench (legacy) allows you to create and test prompts within your Claude Cons
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1784210400&signature=dab1d63d7e18e25a8e75836a5d0861454e078af4c85a96a5c30e99cedc2ecf69&req=fCgvFst%2FlYVWFb4f3HP0gKWhcDkN0kJbOkmmaOsi7IDWSBaGIb8WY4brLEUo%0Aw85XoVpwt6s2%2BCrOcw%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888021849/31a22a0dc4d1fc4b605cc8ee/Screenshot+2023-11-19+at+4.21.51+PM.png?expires=1784220300&signature=a49c8fa0ea7c06ffab56031bede9a75372b97f975b5939aa541e978eac0f7463&req=fCgvFst%2FlYVWFb4f3HP0gKWhcDkO0kVbOkmmaOsi7ICznBYzmCCjTS9waCqM%0A8AZ6rNxspIlhf5G0Ww%3D%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ Workbench (legacy) also allows you to configure several settings when prompting 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1784210400&signature=d3b5d4bdbfde74003126ad029b902ff3c1e95b3d036722519d1cb7755437fdbb&req=fCgvFst9nYdeFb4f3HP0gN55XdDROYC3DUq7%2BRvcmSMWefzMpcq4ki9J3AJR%0AnA6%2FTKN61xVT80VMzA%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023061/61e26396355f6f6cd506d7e4/Screenshot+2023-11-19+at+4.09.28+PM.png?expires=1784220300&signature=8e6c066c60cc3ad1b59ba3459018ad158cfa1a67c7710154ab63f13c931e4f2e&req=fCgvFst9nYdeFb4f3HP0gN55XdDSOYe3DUq7%2BRvcmSMY%2B6S1Otakg4rfWAKP%0AnXciV5Wt1sqWv%2BhWPw%3D%3D%0A)
 
  
 
@@ -100,7 +100,7 @@ After crafting your prompt, click on the "Get code" button to generate a sample 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1784210400&signature=ae2a9d1fbb5aa0e430ab392cc02a96373690b621c4fbe71999f485c18c399a6c&req=fCgvFst9mIVaFb4f3HP0gEZTsDqf4uDrRWixPJbjiQcAhizKNYIQ2RoZM%2FIw%0AfsDRF7OCWr%2B4gO%2F0Rw%3D%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/888023545/b12afe07f16f079daff7587d/Screenshot+2023-11-19+at+4.28.27+PM.png?expires=1784220300&signature=5af28ff589a69400e20429ec08abed271e83b5e84da180cb4eaa8fd1f8948926&req=fCgvFst9mIVaFb4f3HP0gEZTsDqc4ufrRWixPJbjiQdexEJMgajmgVq%2FGled%0A49iB%2FSkrLq4U8X5x%2FQ%3D%3D%0A)
 
  
 
@@ -118,7 +118,7 @@ You can access your previous Workbench prompts on your Console account by follow
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1784210400&signature=306db5bc50a777fb692399913ebed75800c69de0eb62926dbfbef062cc5f9249&req=dSkjE8B3n4hXXPMW1HO4zQQ9sFULNnO8TyGSpkcb8MXLY0oXw2nAO98zSpZV%0Aa2e6fbJGUZRNO%2BtxnmI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1945992985/45a8969fb6cec956bd44fb5c4ba7/CleanShot+2026-01-15+at+12_07_22%402x.png?expires=1784220300&signature=4109c4ffe6a97c6f1705759e800fd401ebeb13e8c56719017feef2cecf8394c3&req=dSkjE8B3n4hXXPMW1HO4zQQ9sFULNXO7TyGSpkcb8MUniAnQeDiEWL%2BTRPfN%0AJYUDIJR7xiEU7QxIMzg%3D%0A)
 
  
 
@@ -171,8 +171,8 @@ No. The refreshed version of Workbench doesn't save prompts or conversations, so
 
 ## Related Articles
 
+- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
-- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [Enable US-only inference for your organization](https://support.claude.com/en/articles/15422948-enable-us-only-inference-for-your-organization)

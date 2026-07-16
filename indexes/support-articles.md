@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-16 13:26*
+*Last updated: 2026-07-16 16:15*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -41,7 +41,7 @@ Total documents: 253
 ### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -81,7 +81,7 @@ Total documents: 253
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code  
-**Updated:** 2026-06-30  
+**Updated:** 2026-07-16  
 
 ### Build custom connectors via remote MCP servers
 **File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
@@ -136,7 +136,7 @@ Total documents: 253
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -166,7 +166,7 @@ Total documents: 253
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-07-11  
+**Updated:** 2026-07-16  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -196,7 +196,7 @@ Total documents: 253
 ### Claude in Chrome admin controls
 **File:** `/docs-support/claude-in-chrome-admin-controls.md`  
 **Source:** https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Claude in Chrome permissions guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
@@ -321,7 +321,7 @@ Total documents: 253
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-07-12  
+**Updated:** 2026-07-16  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -381,7 +381,7 @@ Total documents: 253
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9267247-how-do-i-get-started-with-the-team-plan  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-16  
 
 ### Getting Started with Local MCP Servers on Claude Desktop
 **File:** `/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md`  
@@ -416,7 +416,7 @@ Total documents: 253
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -501,7 +501,7 @@ Total documents: 253
 ### How do I view and sign your Data Processing Addendum (DPA)?
 **File:** `/docs-support/how-do-i-view-and-sign-your-data-processing-addendum-dpa.md`  
 **Source:** https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### How do usage and length limits work?
 **File:** `/docs-support/understanding-usage-and-length-limits.md`  
@@ -601,7 +601,7 @@ Total documents: 253
 ### I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?
 **File:** `/docs-support/i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries.md`  
 **Source:** https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### I would like to input sensitive data into my chats with Claude. Who can view my conversations?
 **File:** `/docs-support/i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations.md`  
@@ -696,7 +696,7 @@ Total documents: 253
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
 **Source:** https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
@@ -826,12 +826,12 @@ Total documents: 253
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
@@ -991,7 +991,7 @@ Total documents: 253
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-16  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1016,7 +1016,7 @@ Total documents: 253
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Use Claude’s chat search and memory to build on previous context
 **File:** `/docs-support/using-claude-s-chat-search-and-memory-to-build-on-previous-context.md`  
@@ -1116,7 +1116,7 @@ Total documents: 253
 ### What AWS Regions are Claude models available in Amazon Bedrock?
 **File:** `/docs-support/what-aws-regions-are-claude-models-available-in-amazon-bedrock.md`  
 **Source:** https://support.claude.com/en/articles/10280791-what-aws-regions-are-claude-models-available-in-amazon-bedrock  
-**Updated:** 2026-02-18  
+**Updated:** 2026-07-16  
 
 ### What Certifications has Anthropic obtained?
 **File:** `/docs-support/what-certifications-has-anthropic-obtained.md`  
@@ -1186,12 +1186,12 @@ Total documents: 253
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9266767-what-is-the-team-plan  
-**Updated:** 2026-06-10  
+**Updated:** 2026-07-16  
 
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
@@ -1241,7 +1241,7 @@ Total documents: 253
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  
