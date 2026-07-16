@@ -41,7 +41,7 @@ If you have an outstanding balance, you will see a message during the deletion f
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1784168100&signature=8945a3d93bf0d67c94cec7f820719e6ae06d592b71b9caed845931edf0385ff6&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBNjWuwaFZRyvJPpBZ8dfr5PkBMcyrUcQ1UX%0A7bjzfZ0%2FcFSf1CPKbZI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1784181600&signature=955cc0daf1aa5a9c9eeeff90961156185146dde7b4b5c6ad7d5e085c9da5c2f1&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBNjVOUdFZRyvJPpBZ9eUEd9q03G4buw0G2k%0A%2BZqsgKCcP%2B4ow2iyEYc%3D%0A)
 
  
 
@@ -55,7 +55,7 @@ There are some scenarios where you will need to contact our team to delete your 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1784168100&signature=e46e01eafed803346b6ff42ae208f7dfc52c2edb3e1b82e12b933b55209ebd20&req=dSkgFcB7moZZXPMW1HO4zRW12%2BHMfqz4ZxDZGlqR6GjP6%2Fz9i574D0fIInse%0AL6xlgsqDqg%2BM5adVltw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1784181600&signature=c03f02b2dd76802fb317fe3b55543ba65d6f77312dafcb5c9f340f49d85a98e4&req=dSkgFcB7moZZXPMW1HO4zRW12%2BHMcKX%2FZxDZGlqR6GjuLjC00k4eCXUofd89%0A7z9RIKTUN7%2FPkK%2FsHME%3D%0A)
 
  
 
