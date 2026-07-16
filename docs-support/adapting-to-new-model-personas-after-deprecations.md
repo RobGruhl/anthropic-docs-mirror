@@ -26,7 +26,7 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 
 ## Related Articles
 
-- [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
+- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)

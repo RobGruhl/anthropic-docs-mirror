@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-16 16:15*
+*Last updated: 2026-07-16 19:12*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -111,7 +111,7 @@ Total documents: 253
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -311,7 +311,7 @@ Total documents: 253
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-16  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -361,7 +361,7 @@ Total documents: 253
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
 **Source:** https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-16  
 
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
@@ -616,7 +616,7 @@ Total documents: 253
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/12123587-importing-and-exporting-your-memory-from-claude  
-**Updated:** 2026-06-07  
+**Updated:** 2026-07-16  
 
 ### Important considerations before enabling single sign-on (SSO) and JIT/SCIM provisioning
 **File:** `/docs-support/important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning.md`  
@@ -661,7 +661,7 @@ Total documents: 253
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -776,7 +776,7 @@ Total documents: 253
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-16  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -801,7 +801,7 @@ Total documents: 253
 ### Public Vulnerability Reporting
 **File:** `/docs-support/public-vulnerability-reporting.md`  
 **Source:** https://support.claude.com/en/articles/11427875-public-vulnerability-reporting  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-16  
 
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
@@ -821,7 +821,7 @@ Total documents: 253
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
@@ -861,7 +861,7 @@ Total documents: 253
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
 **Source:** https://support.claude.com/en/articles/9267276-roles-and-permissions  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Safeguards warnings and appeals
 **File:** `/docs-support/safeguards-warnings-and-appeals.md`  
@@ -911,7 +911,7 @@ Total documents: 253
 ### Terms of Service Updates
 **File:** `/docs-support/terms-of-service-updates.md`  
 **Source:** https://support.claude.com/en/articles/9190861-terms-of-service-updates  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Troubleshoot Claude error messages
 **File:** `/docs-support/understanding-claude-error-messages.md`  
@@ -1221,7 +1221,7 @@ Total documents: 253
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-06-26  
+**Updated:** 2026-07-16  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
@@ -1236,7 +1236,7 @@ Total documents: 253
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-16  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  

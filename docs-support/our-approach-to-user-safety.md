@@ -19,6 +19,6 @@ These features are not failsafe, and we may make mistakes through false positive
 
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
 - [I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?](https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy)
-- [CSAM Detection and Reporting](https://support.claude.com/en/articles/9020328-csam-detection-and-reporting)
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
+- [Child safety guidance for developers](https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers)

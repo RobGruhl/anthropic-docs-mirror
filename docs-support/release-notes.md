@@ -14,6 +14,14 @@ You can now manage HIPAA readiness for your Claude organizations yourself. This 
 
  
 
+### July 10, 2026
+
+**Updated memory for Claude**
+
+Memory on Claude now works as a set of individual, categorized entries that Claude reads and updates during your conversations, replacing the previous daily memory summary. See **[Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)**.
+
+ 
+
 ### July 9, 2026
 
 **A new way to reflect with Claude**
