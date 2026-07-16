@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-16 10:54*
+*Last updated: 2026-07-16 13:26*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -356,7 +356,7 @@ Total documents: 253
 ### Get started with Claude Cowork
 **File:** `/docs-support/getting-started-with-cowork.md`  
 **Source:** https://support.claude.com/en/articles/13345190-getting-started-with-cowork  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-16  
 
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
@@ -806,7 +806,7 @@ Total documents: 253
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
 **Source:** https://support.claude.com/en/articles/9547008-publishing-and-sharing-artifacts  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-16  
 
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
