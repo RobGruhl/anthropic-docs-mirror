@@ -50,7 +50,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1784153700&signature=9ed4d9dfea99cba49ca528764b40dd4f1c8188c134fd0050feb9821f0eae0a2c&req=diMmFMh3noJbXvMW1HO4zXhPndQ3zRxmufhmlOXMdYb4p33Cx%2FqF4kea8w%2BI%0Aa8u8km%2B7oJqpmv5mYUE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1784168100&signature=8d83ae06f6682334f8d1eccab66d8d0fb1552f3730df8dc933e0c5336a095b60&req=diMmFMh3noJbXvMW1HO4zXhPndQ3zhdgufhmlOXMdYZTAmHSRN1cR3vODxRv%0AtelAg%2BFiCQfdcr7dqD0%3D%0A)
 
  
 
@@ -72,7 +72,7 @@ If you want to close your personal account without moving any of your work into 
 ## Related Articles
 
 - [Get started with the Team plan](https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan)
-- [Find and join a Team or Enterprise organization](https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization)
+- [Export your Claude data](https://support.claude.com/en/articles/9450526-export-your-claude-data)
 - [Claim and migrate accounts on your domain](https://support.claude.com/en/articles/14625619-claim-and-migrate-accounts-on-your-domain)
 - [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)

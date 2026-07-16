@@ -23,7 +23,7 @@ Choose “Ask before acting” to have Claude create a plan from your prompt, wh
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784154600&signature=2bb880a485e4c0a65c5e81a9435c40dc1c7b25de8e443591ec2c40c86301dbc8&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZM%2BYaxgN0ADj5oqFAE4qEX7EFBvRC6iSNG%0AWd8n5cn%2B%2BnrPSeqdVXs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784168100&signature=1d3d56f2804a1386276dd9587134ba6550c44e33e4f3c18cefccf2bc9b8fec1c&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZM%2Boq2gN0ADj5oqFCa8RsQ0eNABt2Rmg%2FJ%0ADOyJUVAESNbjkpKZHOQ%3D%0A)
 
  
 
@@ -57,7 +57,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784154600&signature=53110c3d7bc279f55a7ad7db7e7370d08f09081a23b9fed3936601a3967b38c8&req=dSgjEct8n4lYXPMW1HO4zeoCY8IqpnB5JCxYSFHKWIh6OJBI%2BxehOi1F%2BOQU%0AYgUcoRUwGIvFtw8RFhk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784168100&signature=45333a43344c03a30e3ac22ee22eb80e9ba1cf8e4d9465682f50460d1bf7dd8e&req=dSgjEct8n4lYXPMW1HO4zeoCY8IqpXx%2BJCxYSFHKWIhw533HWMOAMUUimvMP%0A%2BTN%2F5O%2FZDPvDP1%2Fg7xM%3D%0A)
 
  
 
@@ -151,7 +151,7 @@ To protect you, Claude is prohibited from taking following actions regardless of
 
 ## Related Articles
 
-- [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
+- [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
