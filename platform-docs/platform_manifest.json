@@ -7720,6 +7720,16 @@
       "last_modified": null,
       "last_updated": "2026-07-10T16:50:16.803733"
     },
+    "java__beta__deployment_runs__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/java/beta/deployment_runs/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/java/beta/deployment_runs/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/java/beta/deployment_runs/list",
+      "hash": "8b1eb602ab72ac392c0a975edfeefcc73f9f3f36c09a8c1cd41b525b41ed12be",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-17T18:53:16.366618"
+    },
     "java__beta__deployment_runs__retrieve.md": {
       "original_url": "https://platform.claude.com/docs/en/api/java/beta/deployment_runs/retrieve",
       "original_md_url": "https://platform.claude.com/docs/en/api/java/beta/deployment_runs/retrieve.md",
@@ -14300,6 +14310,16 @@
       "last_modified": null,
       "last_updated": "2026-07-10T16:50:16.918310"
     },
+    "typescript__beta__sessions__events__list.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/list",
+      "original_md_url": "https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/list.md",
+      "category": "api-reference",
+      "path": "/docs/en/api/typescript/beta/sessions/events/list",
+      "hash": "832c5d6ff4187f3b6bea79508a9c174c1d6d4cb95bc8e8e980b204d38822b3c9",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-17T18:53:16.684439"
+    },
     "typescript__beta__sessions__events__send.md": {
       "original_url": "https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/send",
       "original_md_url": "https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/send.md",
@@ -14695,10 +14715,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/typescript/beta/vaults/credentials/archive.md",
       "category": "api-reference",
       "path": "/docs/en/api/typescript/beta/vaults/credentials/archive",
-      "hash": "85f05a9ad2bc70a8aa502457ad893ec886a648a7abf7d66b317f7c03abf4fbc6",
-      "etag": "W/\"14e5-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
-      "last_updated": "2026-07-17T16:08:32.604123"
+      "hash": "19366e10dfade4d56df5ee965ce3ca269e40ec1f80011ddae6669a419252d131",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-17T18:53:16.687587"
     },
     "typescript__beta__vaults__credentials__create.md": {
       "original_url": "https://platform.claude.com/docs/en/api/typescript/beta/vaults/credentials/create",
@@ -15415,10 +15435,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/claude-in-microsoft-foundry",
-      "hash": "70b7fbd6c623733a507b796b65e020f6680aafc6d7b1bcd2c2d4f4af5faeeabf",
-      "etag": "W/\"5781-19e9937a3c8\"",
-      "last_modified": "Fri, 05 Jun 2026 19:17:01 GMT",
-      "last_updated": "2026-07-17T16:08:32.616638"
+      "hash": "e3b282cc67ebf7a55a16b4038f7eedfee3d7d3beff22b056870c5a27b756ffba",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-17T18:53:16.731311"
     },
     "build-with-claude__claude-on-amazon-bedrock-legacy.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy",
@@ -16060,6 +16080,16 @@
       "last_modified": null,
       "last_updated": "2026-07-16T18:57:00.526753"
     },
+    "manage-claude__workload-identity-federation.md": {
+      "original_url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation",
+      "original_md_url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation.md",
+      "category": "developer-guide",
+      "path": "/docs/en/manage-claude/workload-identity-federation",
+      "hash": "7d5a2880ed59adf53136ae289253853058b2e3cc38596af70a86fb7f2f047cc7",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-07-17T18:53:16.771583"
+    },
     "manage-claude__workspaces.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/workspaces",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/workspaces.md",
@@ -16342,14 +16372,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-17T16:08:32.638633",
-    "fetch_duration_seconds": 39.760651,
+    "last_fetch_completed": "2026-07-17T18:53:16.778188",
+    "fetch_duration_seconds": 43.642493,
     "total_pages_discovered": 1894,
-    "pages_fetched_successfully": 1634,
-    "pages_failed": 260,
+    "pages_fetched_successfully": 1637,
+    "pages_failed": 257,
     "pages_unchanged": 1632,
     "pages_updated": 2,
-    "pages_new": 0,
+    "pages_new": 3,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/cli/beta/tunnels",
@@ -16390,7 +16420,6 @@
       "/docs/en/api/go/beta/tunnels/retrieve",
       "/docs/en/api/go/beta/tunnels/reveal_token",
       "/docs/en/api/go/beta/tunnels/rotate_token",
-      "/docs/en/api/java/beta/deployment_runs/list",
       "/docs/en/api/java/beta/tunnels",
       "/docs/en/api/java/beta/tunnels/archive",
       "/docs/en/api/java/beta/tunnels/certificates",
@@ -16598,7 +16627,6 @@
       "/docs/en/api/terraform/models",
       "/docs/en/api/terraform/models/list",
       "/docs/en/api/terraform/models/retrieve",
-      "/docs/en/api/typescript/beta/sessions/events/list",
       "/docs/en/api/typescript/beta/tunnels",
       "/docs/en/api/typescript/beta/tunnels/archive",
       "/docs/en/api/typescript/beta/tunnels/certificates",
@@ -16610,12 +16638,11 @@
       "/docs/en/api/typescript/beta/tunnels/list",
       "/docs/en/api/typescript/beta/tunnels/retrieve",
       "/docs/en/api/typescript/beta/tunnels/reveal_token",
-      "/docs/en/api/typescript/beta/tunnels/rotate_token",
-      "/docs/en/manage-claude/workload-identity-federation"
+      "/docs/en/api/typescript/beta/tunnels/rotate_token"
     ],
     "by_category": {
-      "developer-guide": 138,
-      "api-reference": 1496,
+      "developer-guide": 139,
+      "api-reference": 1498,
       "resources": 0
     },
     "source_sitemap": "https://platform.claude.com/sitemap.xml",
@@ -16626,5 +16653,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-17T16:08:32.638833"
+  "last_updated": "2026-07-17T18:53:16.778371"
 }

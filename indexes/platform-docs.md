@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-17 16:16*
-Total documents: 1634
+*Last updated: 2026-07-17 18:59*
+Total documents: 1637
 ---
-## Uncategorized (1634 documents)
+## Uncategorized (1637 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -4248,6 +4248,11 @@ Total documents: 1634
 **Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs  
 **Updated:** 2026-07-10  
 
+### java__beta__deployment_runs__list
+**File:** `/platform-docs/java__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/list  
+**Updated:** 2026-07-17  
+
 ### java__beta__deployment_runs__retrieve
 **File:** `/platform-docs/java__beta__deployment_runs__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/retrieve  
@@ -5082,6 +5087,11 @@ Total documents: 1634
 **File:** `/platform-docs/manage-claude__wif-reference.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-reference  
 **Updated:** 2026-07-16  
+
+### manage-claude__workload-identity-federation
+**File:** `/platform-docs/manage-claude__workload-identity-federation.md`  
+**Source:** https://platform.claude.com/docs/en/manage-claude/workload-identity-federation  
+**Updated:** 2026-07-17  
 
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
@@ -7842,6 +7852,11 @@ Total documents: 1634
 **File:** `/platform-docs/typescript__beta__sessions__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/sessions/events  
 **Updated:** 2026-07-10  
+
+### typescript__beta__sessions__events__list
+**File:** `/platform-docs/typescript__beta__sessions__events__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/list  
+**Updated:** 2026-07-17  
 
 ### typescript__beta__sessions__events__send
 **File:** `/platform-docs/typescript__beta__sessions__events__send.md`  
