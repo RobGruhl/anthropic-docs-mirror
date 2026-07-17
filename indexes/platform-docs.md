@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-17 07:59*
-Total documents: 1567
+*Last updated: 2026-07-17 10:34*
+Total documents: 1637
 ---
-## Uncategorized (1567 documents)
+## Uncategorized (1637 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -2353,6 +2353,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/create  
 **Updated:** 2026-07-01  
 
+### cli__beta__vaults__credentials__delete
+**File:** `/platform-docs/cli__beta__vaults__credentials__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/delete  
+**Updated:** 2026-07-17  
+
 ### cli__beta__vaults__credentials__list
 **File:** `/platform-docs/cli__beta__vaults__credentials__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/list  
@@ -2372,6 +2377,31 @@ Total documents: 1567
 **File:** `/platform-docs/cli__beta__vaults__credentials__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/update  
 **Updated:** 2026-07-01  
+
+### cli__beta__vaults__delete
+**File:** `/platform-docs/cli__beta__vaults__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/delete  
+**Updated:** 2026-07-17  
+
+### cli__beta__vaults__list
+**File:** `/platform-docs/cli__beta__vaults__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/list  
+**Updated:** 2026-07-17  
+
+### cli__beta__vaults__retrieve
+**File:** `/platform-docs/cli__beta__vaults__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/retrieve  
+**Updated:** 2026-07-17  
+
+### cli__beta__vaults__update
+**File:** `/platform-docs/cli__beta__vaults__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/vaults/update  
+**Updated:** 2026-07-17  
+
+### cli__beta__webhooks
+**File:** `/platform-docs/cli__beta__webhooks.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/beta/webhooks  
+**Updated:** 2026-07-17  
 
 ### cli__completions
 **File:** `/platform-docs/cli__completions.md`  
@@ -2393,6 +2423,16 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/batches  
 **Updated:** 2026-07-01  
 
+### cli__messages__batches__cancel
+**File:** `/platform-docs/cli__messages__batches__cancel.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/cancel  
+**Updated:** 2026-07-17  
+
+### cli__messages__batches__create
+**File:** `/platform-docs/cli__messages__batches__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/create  
+**Updated:** 2026-07-17  
+
 ### cli__messages__batches__delete
 **File:** `/platform-docs/cli__messages__batches__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/delete  
@@ -2402,6 +2442,11 @@ Total documents: 1567
 **File:** `/platform-docs/cli__messages__batches__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/list  
 **Updated:** 2026-06-30  
+
+### cli__messages__batches__results
+**File:** `/platform-docs/cli__messages__batches__results.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/messages/batches/results  
+**Updated:** 2026-07-17  
 
 ### cli__messages__batches__retrieve
 **File:** `/platform-docs/cli__messages__batches__retrieve.md`  
@@ -2418,6 +2463,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/cli/messages/create  
 **Updated:** 2026-07-01  
 
+### cli__models
+**File:** `/platform-docs/cli__models.md`  
+**Source:** https://platform.claude.com/docs/en/api/cli/models  
+**Updated:** 2026-07-17  
+
 ### cli__models__list
 **File:** `/platform-docs/cli__models__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/cli/models/list  
@@ -2433,10 +2483,30 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/completions  
 **Updated:** 2026-07-10  
 
+### completions__create
+**File:** `/platform-docs/completions__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/completions/create  
+**Updated:** 2026-07-17  
+
+### compliance
+**File:** `/platform-docs/compliance.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance  
+**Updated:** 2026-07-17  
+
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
 **Updated:** 2026-07-15  
+
+### compliance__activities__list
+**File:** `/platform-docs/compliance__activities__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
+**Updated:** 2026-07-17  
+
+### compliance__apps
+**File:** `/platform-docs/compliance__apps.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps  
+**Updated:** 2026-07-17  
 
 ### compliance__apps__artifacts
 **File:** `/platform-docs/compliance__apps__artifacts.md`  
@@ -2452,6 +2522,11 @@ Total documents: 1567
 **File:** `/platform-docs/compliance__apps__artifacts__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/artifacts/retrieve  
 **Updated:** 2026-05-22  
+
+### compliance__apps__chats
+**File:** `/platform-docs/compliance__apps__chats.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats  
+**Updated:** 2026-07-17  
 
 ### compliance__apps__chats__delete
 **File:** `/platform-docs/compliance__apps__chats__delete.md`  
@@ -2488,6 +2563,16 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/download  
 **Updated:** 2026-05-22  
 
+### compliance__apps__chats__generated_files__retrieve
+**File:** `/platform-docs/compliance__apps__chats__generated_files__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/retrieve  
+**Updated:** 2026-07-17  
+
+### compliance__apps__chats__list
+**File:** `/platform-docs/compliance__apps__chats__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/list  
+**Updated:** 2026-07-17  
+
 ### compliance__apps__chats__messages
 **File:** `/platform-docs/compliance__apps__chats__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/chats/messages  
@@ -2502,6 +2587,11 @@ Total documents: 1567
 **File:** `/platform-docs/compliance__apps__projects.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects  
 **Updated:** 2026-06-26  
+
+### compliance__apps__projects__attachments
+**File:** `/platform-docs/compliance__apps__projects__attachments.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments  
+**Updated:** 2026-07-17  
 
 ### compliance__apps__projects__attachments__list
 **File:** `/platform-docs/compliance__apps__projects__attachments__list.md`  
@@ -2523,6 +2613,16 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/delete  
 **Updated:** 2026-06-02  
 
+### compliance__apps__projects__documents
+**File:** `/platform-docs/compliance__apps__projects__documents.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/documents  
+**Updated:** 2026-07-17  
+
+### compliance__apps__projects__documents__delete
+**File:** `/platform-docs/compliance__apps__projects__documents__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/delete  
+**Updated:** 2026-07-17  
+
 ### compliance__apps__projects__documents__metadata
 **File:** `/platform-docs/compliance__apps__projects__documents__metadata.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/metadata  
@@ -2533,6 +2633,26 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/documents/retrieve  
 **Updated:** 2026-06-26  
 
+### compliance__apps__projects__list
+**File:** `/platform-docs/compliance__apps__projects__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/list  
+**Updated:** 2026-07-17  
+
+### compliance__apps__projects__retrieve
+**File:** `/platform-docs/compliance__apps__projects__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/retrieve  
+**Updated:** 2026-07-17  
+
+### compliance__code
+**File:** `/platform-docs/compliance__code.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/code  
+**Updated:** 2026-07-17  
+
+### compliance__code__artifacts
+**File:** `/platform-docs/compliance__code__artifacts.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts  
+**Updated:** 2026-07-17  
+
 ### compliance__code__artifacts__delete
 **File:** `/platform-docs/compliance__code__artifacts__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete  
@@ -2542,6 +2662,21 @@ Total documents: 1567
 **File:** `/platform-docs/compliance__code__artifacts__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/list  
 **Updated:** 2026-07-14  
+
+### compliance__code__artifacts__retrieve_version
+**File:** `/platform-docs/compliance__code__artifacts__retrieve_version.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version  
+**Updated:** 2026-07-17  
+
+### compliance__groups
+**File:** `/platform-docs/compliance__groups.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/groups  
+**Updated:** 2026-07-17  
+
+### compliance__groups__list
+**File:** `/platform-docs/compliance__groups__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/groups/list  
+**Updated:** 2026-07-17  
 
 ### compliance__groups__members
 **File:** `/platform-docs/compliance__groups__members.md`  
@@ -2563,10 +2698,25 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
 **Updated:** 2026-07-17  
 
+### compliance__organizations__list
+**File:** `/platform-docs/compliance__organizations__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/list  
+**Updated:** 2026-07-17  
+
 ### compliance__organizations__roles
 **File:** `/platform-docs/compliance__organizations__roles.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles  
 **Updated:** 2026-06-26  
+
+### compliance__organizations__roles__list
+**File:** `/platform-docs/compliance__organizations__roles__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles/list  
+**Updated:** 2026-07-17  
+
+### compliance__organizations__roles__permissions
+**File:** `/platform-docs/compliance__organizations__roles__permissions.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions  
+**Updated:** 2026-07-17  
 
 ### compliance__organizations__roles__permissions__list
 **File:** `/platform-docs/compliance__organizations__roles__permissions__list.md`  
@@ -2578,10 +2728,30 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve  
 **Updated:** 2026-06-26  
 
+### compliance__organizations__settings
+**File:** `/platform-docs/compliance__organizations__settings.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings  
+**Updated:** 2026-07-17  
+
+### compliance__organizations__settings__retrieve
+**File:** `/platform-docs/compliance__organizations__settings__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve  
+**Updated:** 2026-07-17  
+
 ### compliance__organizations__users
 **File:** `/platform-docs/compliance__organizations__users.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users  
 **Updated:** 2026-06-26  
+
+### compliance__organizations__users__list
+**File:** `/platform-docs/compliance__organizations__users__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/compliance/organizations/users/list  
+**Updated:** 2026-07-17  
+
+### csharp__beta
+**File:** `/platform-docs/csharp__beta.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__agents
 **File:** `/platform-docs/csharp__beta__agents.md`  
@@ -2613,6 +2783,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/update  
 **Updated:** 2026-07-10  
 
+### csharp__beta__agents__versions
+**File:** `/platform-docs/csharp__beta__agents__versions.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__agents__versions__list
 **File:** `/platform-docs/csharp__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/agents/versions/list  
@@ -2622,6 +2797,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__deployment_runs.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs  
 **Updated:** 2026-07-10  
+
+### csharp__beta__deployment_runs__list
+**File:** `/platform-docs/csharp__beta__deployment_runs__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployment_runs/list  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__deployment_runs__retrieve
 **File:** `/platform-docs/csharp__beta__deployment_runs__retrieve.md`  
@@ -2637,6 +2817,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__deployments__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/archive  
 **Updated:** 2026-07-10  
+
+### csharp__beta__deployments__create
+**File:** `/platform-docs/csharp__beta__deployments__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/create  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__deployments__list
 **File:** `/platform-docs/csharp__beta__deployments__list.md`  
@@ -2663,6 +2848,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/unpause  
 **Updated:** 2026-07-10  
 
+### csharp__beta__deployments__update
+**File:** `/platform-docs/csharp__beta__deployments__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/deployments/update  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__environments
 **File:** `/platform-docs/csharp__beta__environments.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments  
@@ -2677,6 +2867,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__environments__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/create  
 **Updated:** 2026-07-10  
+
+### csharp__beta__environments__delete
+**File:** `/platform-docs/csharp__beta__environments__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/delete  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__environments__list
 **File:** `/platform-docs/csharp__beta__environments__list.md`  
@@ -2697,6 +2892,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__environments__work.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work  
 **Updated:** 2026-07-10  
+
+### csharp__beta__environments__work__ack
+**File:** `/platform-docs/csharp__beta__environments__work__ack.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/ack  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__environments__work__heartbeat
 **File:** `/platform-docs/csharp__beta__environments__work__heartbeat.md`  
@@ -2733,6 +2933,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/environments/work/update  
 **Updated:** 2026-07-10  
 
+### csharp__beta__files
+**File:** `/platform-docs/csharp__beta__files.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/files  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__files__delete
 **File:** `/platform-docs/csharp__beta__files__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/files/delete  
@@ -2763,6 +2968,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores  
 **Updated:** 2026-07-10  
 
+### csharp__beta__memory_stores__archive
+**File:** `/platform-docs/csharp__beta__memory_stores__archive.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/archive  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__memory_stores__create
 **File:** `/platform-docs/csharp__beta__memory_stores__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/create  
@@ -2782,6 +2992,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__memory_stores__memories.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memories  
 **Updated:** 2026-07-10  
+
+### csharp__beta__memory_stores__memories__create
+**File:** `/platform-docs/csharp__beta__memory_stores__memories__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memories/create  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__memory_stores__memories__delete
 **File:** `/platform-docs/csharp__beta__memory_stores__memories__delete.md`  
@@ -2823,6 +3038,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/retrieve  
 **Updated:** 2026-07-10  
 
+### csharp__beta__memory_stores__retrieve
+**File:** `/platform-docs/csharp__beta__memory_stores__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/retrieve  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__memory_stores__update
 **File:** `/platform-docs/csharp__beta__memory_stores__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/update  
@@ -2842,6 +3062,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__messages__batches__cancel.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/batches/cancel  
 **Updated:** 2026-07-10  
+
+### csharp__beta__messages__batches__create
+**File:** `/platform-docs/csharp__beta__messages__batches__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/messages/batches/create  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__messages__batches__delete
 **File:** `/platform-docs/csharp__beta__messages__batches__delete.md`  
@@ -2917,6 +3142,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__sessions__events__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/sessions/events/list  
 **Updated:** 2026-07-10  
+
+### csharp__beta__sessions__events__send
+**File:** `/platform-docs/csharp__beta__sessions__events__send.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/sessions/events/send  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__sessions__events__stream
 **File:** `/platform-docs/csharp__beta__sessions__events__stream.md`  
@@ -2998,6 +3228,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/sessions/threads/retrieve  
 **Updated:** 2026-07-10  
 
+### csharp__beta__sessions__update
+**File:** `/platform-docs/csharp__beta__sessions__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/sessions/update  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__skills
 **File:** `/platform-docs/csharp__beta__skills.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills  
@@ -3018,6 +3253,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills/list  
 **Updated:** 2026-07-10  
 
+### csharp__beta__skills__retrieve
+**File:** `/platform-docs/csharp__beta__skills__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills/retrieve  
+**Updated:** 2026-07-17  
+
 ### csharp__beta__skills__versions
 **File:** `/platform-docs/csharp__beta__skills__versions.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills/versions  
@@ -3027,6 +3267,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__beta__skills__versions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills/versions/create  
 **Updated:** 2026-07-10  
+
+### csharp__beta__skills__versions__delete
+**File:** `/platform-docs/csharp__beta__skills__versions__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/beta/skills/versions/delete  
+**Updated:** 2026-07-17  
 
 ### csharp__beta__skills__versions__download
 **File:** `/platform-docs/csharp__beta__skills__versions__download.md`  
@@ -3163,6 +3408,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches  
 **Updated:** 2026-07-01  
 
+### csharp__messages__batches__cancel
+**File:** `/platform-docs/csharp__messages__batches__cancel.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/cancel  
+**Updated:** 2026-07-17  
+
 ### csharp__messages__batches__create
 **File:** `/platform-docs/csharp__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/create  
@@ -3172,6 +3422,11 @@ Total documents: 1567
 **File:** `/platform-docs/csharp__messages__batches__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/delete  
 **Updated:** 2026-06-30  
+
+### csharp__messages__batches__list
+**File:** `/platform-docs/csharp__messages__batches__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/messages/batches/list  
+**Updated:** 2026-07-17  
 
 ### csharp__messages__batches__results
 **File:** `/platform-docs/csharp__messages__batches__results.md`  
@@ -3198,6 +3453,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/csharp/models  
 **Updated:** 2026-07-10  
 
+### csharp__models__list
+**File:** `/platform-docs/csharp__models__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/csharp/models/list  
+**Updated:** 2026-07-17  
+
 ### csharp__models__retrieve
 **File:** `/platform-docs/csharp__models__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/csharp/models/retrieve  
@@ -3213,6 +3473,11 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta  
 **Updated:** 2026-07-10  
 
+### go__beta__agents
+**File:** `/platform-docs/go__beta__agents.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/agents  
+**Updated:** 2026-07-17  
+
 ### go__beta__agents__archive
 **File:** `/platform-docs/go__beta__agents__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/archive  
@@ -3223,10 +3488,20 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/create  
 **Updated:** 2026-07-10  
 
+### go__beta__agents__list
+**File:** `/platform-docs/go__beta__agents__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/agents/list  
+**Updated:** 2026-07-17  
+
 ### go__beta__agents__retrieve
 **File:** `/platform-docs/go__beta__agents__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/retrieve  
 **Updated:** 2026-07-10  
+
+### go__beta__agents__update
+**File:** `/platform-docs/go__beta__agents__update.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/agents/update  
+**Updated:** 2026-07-17  
 
 ### go__beta__agents__versions
 **File:** `/platform-docs/go__beta__agents__versions.md`  
@@ -3237,6 +3512,11 @@ Total documents: 1567
 **File:** `/platform-docs/go__beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/agents/versions/list  
 **Updated:** 2026-07-10  
+
+### go__beta__deployment_runs
+**File:** `/platform-docs/go__beta__deployment_runs.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployment_runs  
+**Updated:** 2026-07-17  
 
 ### go__beta__deployment_runs__list
 **File:** `/platform-docs/go__beta__deployment_runs__list.md`  
@@ -3268,10 +3548,20 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/list  
 **Updated:** 2026-07-10  
 
+### go__beta__deployments__pause
+**File:** `/platform-docs/go__beta__deployments__pause.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/pause  
+**Updated:** 2026-07-17  
+
 ### go__beta__deployments__retrieve
 **File:** `/platform-docs/go__beta__deployments__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/retrieve  
 **Updated:** 2026-07-10  
+
+### go__beta__deployments__run
+**File:** `/platform-docs/go__beta__deployments__run.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/deployments/run  
+**Updated:** 2026-07-17  
 
 ### go__beta__deployments__unpause
 **File:** `/platform-docs/go__beta__deployments__unpause.md`  
@@ -3323,10 +3613,20 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta/environments/work  
 **Updated:** 2026-07-10  
 
+### go__beta__environments__work__ack
+**File:** `/platform-docs/go__beta__environments__work__ack.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/environments/work/ack  
+**Updated:** 2026-07-17  
+
 ### go__beta__environments__work__heartbeat
 **File:** `/platform-docs/go__beta__environments__work__heartbeat.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/environments/work/heartbeat  
 **Updated:** 2026-07-10  
+
+### go__beta__environments__work__list
+**File:** `/platform-docs/go__beta__environments__work__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/environments/work/list  
+**Updated:** 2026-07-17  
 
 ### go__beta__environments__work__poll
 **File:** `/platform-docs/go__beta__environments__work__poll.md`  
@@ -3353,10 +3653,20 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta/environments/work/update  
 **Updated:** 2026-07-10  
 
+### go__beta__files
+**File:** `/platform-docs/go__beta__files.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/files  
+**Updated:** 2026-07-17  
+
 ### go__beta__files__delete
 **File:** `/platform-docs/go__beta__files__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/files/delete  
 **Updated:** 2026-07-10  
+
+### go__beta__files__download
+**File:** `/platform-docs/go__beta__files__download.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/files/download  
+**Updated:** 2026-07-17  
 
 ### go__beta__files__list
 **File:** `/platform-docs/go__beta__files__list.md`  
@@ -3397,6 +3707,11 @@ Total documents: 1567
 **File:** `/platform-docs/go__beta__memory_stores__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/memory_stores/list  
 **Updated:** 2026-07-10  
+
+### go__beta__memory_stores__memories
+**File:** `/platform-docs/go__beta__memory_stores__memories.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/memory_stores/memories  
+**Updated:** 2026-07-17  
 
 ### go__beta__memory_stores__memories__create
 **File:** `/platform-docs/go__beta__memory_stores__memories__create.md`  
@@ -3458,20 +3773,45 @@ Total documents: 1567
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages  
 **Updated:** 2026-07-10  
 
+### go__beta__messages__batches
+**File:** `/platform-docs/go__beta__messages__batches.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches  
+**Updated:** 2026-07-17  
+
 ### go__beta__messages__batches__cancel
 **File:** `/platform-docs/go__beta__messages__batches__cancel.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/cancel  
 **Updated:** 2026-07-10  
+
+### go__beta__messages__batches__create
+**File:** `/platform-docs/go__beta__messages__batches__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/create  
+**Updated:** 2026-07-17  
 
 ### go__beta__messages__batches__delete
 **File:** `/platform-docs/go__beta__messages__batches__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/delete  
 **Updated:** 2026-07-10  
 
+### go__beta__messages__batches__list
+**File:** `/platform-docs/go__beta__messages__batches__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/list  
+**Updated:** 2026-07-17  
+
 ### go__beta__messages__batches__results
 **File:** `/platform-docs/go__beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/results  
 **Updated:** 2026-07-10  
+
+### go__beta__messages__batches__retrieve
+**File:** `/platform-docs/go__beta__messages__batches__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/messages/batches/retrieve  
+**Updated:** 2026-07-17  
+
+### go__beta__messages__count_tokens
+**File:** `/platform-docs/go__beta__messages__count_tokens.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/messages/count_tokens  
+**Updated:** 2026-07-17  
 
 ### go__beta__messages__create
 **File:** `/platform-docs/go__beta__messages__create.md`  
@@ -3507,6 +3847,11 @@ Total documents: 1567
 **File:** `/platform-docs/go__beta__sessions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/sessions/create  
 **Updated:** 2026-07-10  
+
+### go__beta__sessions__delete
+**File:** `/platform-docs/go__beta__sessions__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/sessions/delete  
+**Updated:** 2026-07-17  
 
 ### go__beta__sessions__events
 **File:** `/platform-docs/go__beta__sessions__events.md`  
@@ -3582,6 +3927,11 @@ Total documents: 1567
 **File:** `/platform-docs/go__beta__sessions__threads__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/go/beta/sessions/threads/events  
 **Updated:** 2026-07-10  
+
+### go__beta__sessions__threads__events__list
+**File:** `/platform-docs/go__beta__sessions__threads__events__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/go/beta/sessions/threads/events/list  
+**Updated:** 2026-07-17  
 
 ### go__beta__sessions__threads__events__stream
 **File:** `/platform-docs/go__beta__sessions__threads__events__stream.md`  

@@ -1,9 +1,9 @@
 # Skills Topic Index
-*Last updated: 2026-07-17 07:59*
+*Last updated: 2026-07-17 10:34*
 
-Documents related to Skills across all sources (129 documents)
+Documents related to Skills across all sources (131 documents)
 ---
-## Platform Documentation (platform.claude.com) (101)
+## Platform Documentation (platform.claude.com) (103)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
@@ -34,8 +34,10 @@ Documents related to Skills across all sources (129 documents)
 - [csharp__beta__skills__create](/platform-docs/api-reference/csharp__beta__skills__create.md)
 - [csharp__beta__skills__delete](/platform-docs/api-reference/csharp__beta__skills__delete.md)
 - [csharp__beta__skills__list](/platform-docs/api-reference/csharp__beta__skills__list.md)
+- [csharp__beta__skills__retrieve](/platform-docs/api-reference/csharp__beta__skills__retrieve.md)
 - [csharp__beta__skills__versions](/platform-docs/api-reference/csharp__beta__skills__versions.md)
 - [csharp__beta__skills__versions__create](/platform-docs/api-reference/csharp__beta__skills__versions__create.md)
+- [csharp__beta__skills__versions__delete](/platform-docs/api-reference/csharp__beta__skills__versions__delete.md)
 - [csharp__beta__skills__versions__download](/platform-docs/api-reference/csharp__beta__skills__versions__download.md)
 - [csharp__beta__skills__versions__list](/platform-docs/api-reference/csharp__beta__skills__versions__list.md)
 - [csharp__beta__skills__versions__retrieve](/platform-docs/api-reference/csharp__beta__skills__versions__retrieve.md)
