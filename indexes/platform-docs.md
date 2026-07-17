@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-17 13:11*
-Total documents: 1637
+*Last updated: 2026-07-17 16:16*
+Total documents: 1634
 ---
-## Uncategorized (1637 documents)
+## Uncategorized (1634 documents)
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
@@ -1606,7 +1606,7 @@ Total documents: 1637
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-17  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
@@ -4248,11 +4248,6 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs  
 **Updated:** 2026-07-10  
 
-### java__beta__deployment_runs__list
-**File:** `/platform-docs/java__beta__deployment_runs__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/list  
-**Updated:** 2026-07-10  
-
 ### java__beta__deployment_runs__retrieve
 **File:** `/platform-docs/java__beta__deployment_runs__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/java/beta/deployment_runs/retrieve  
@@ -5086,11 +5081,6 @@ Total documents: 1637
 ### manage-claude__wif-reference
 **File:** `/platform-docs/manage-claude__wif-reference.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-reference  
-**Updated:** 2026-07-16  
-
-### manage-claude__workload-identity-federation
-**File:** `/platform-docs/manage-claude__workload-identity-federation.md`  
-**Source:** https://platform.claude.com/docs/en/manage-claude/workload-identity-federation  
 **Updated:** 2026-07-16  
 
 ### manage-claude__workspaces
@@ -7853,11 +7843,6 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/sessions/events  
 **Updated:** 2026-07-10  
 
-### typescript__beta__sessions__events__list
-**File:** `/platform-docs/typescript__beta__sessions__events__list.md`  
-**Source:** https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/list  
-**Updated:** 2026-07-10  
-
 ### typescript__beta__sessions__events__send
 **File:** `/platform-docs/typescript__beta__sessions__events__send.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/send  
@@ -8056,7 +8041,7 @@ Total documents: 1637
 ### typescript__beta__vaults__credentials__archive
 **File:** `/platform-docs/typescript__beta__vaults__credentials__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/beta/vaults/credentials/archive  
-**Updated:** 2026-07-10  
+**Updated:** 2026-07-17  
 
 ### typescript__beta__vaults__credentials__create
 **File:** `/platform-docs/typescript__beta__vaults__credentials__create.md`  

@@ -1,9 +1,9 @@
 # Claude Documentation Index
-*Last updated: 2026-07-17 13:11*
+*Last updated: 2026-07-17 16:16*
 
 ## Quick Stats
-- **Total Documents:** 2753
-- **Platform Docs:** 1637
+- **Total Documents:** 2751
+- **Platform Docs:** 1634
 - **Claude Code Docs:** 168
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
@@ -11,14 +11,14 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 189
+- **Claude.com Blog:** 190
 - **Support Articles:** 253
 - **Topics:** 83
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 1637 docs from platform.claude.com
+- [Platform Documentation](platform-docs.md) - 1634 docs from platform.claude.com
 - [Claude Code Documentation](code-claude-docs.md) - 168 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
@@ -26,18 +26,18 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 189 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 190 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 253 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 282 documents
+- [Claude Code](topics/claude-code.md) - 283 documents
 - [Mcp](topics/mcp.md) - 243 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
 - [Api](topics/api.md) - 147 documents
-- [Agents](topics/agents.md) - 138 documents
+- [Agents](topics/agents.md) - 139 documents
 - [Skills](topics/skills.md) - 131 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
