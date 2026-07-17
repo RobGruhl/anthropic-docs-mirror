@@ -147,7 +147,6 @@ To protect you, Claude is prohibited from taking following actions regardless of
 
 - Making purchases or financial transactions
 - Creating accounts
-- Permanent deletions (emptying trash, deleting emails, files, or messages)
 - Handling sensitive credit card or ID data
 - Downloading files from untrusted sources
 - Permanent deletions (emptying trash, deleting emails, files, or messages)

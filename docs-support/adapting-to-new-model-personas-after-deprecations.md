@@ -26,7 +26,7 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 
 ## Related Articles
 
-- [What is the Enterprise plan?](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
+- [What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
 - [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)

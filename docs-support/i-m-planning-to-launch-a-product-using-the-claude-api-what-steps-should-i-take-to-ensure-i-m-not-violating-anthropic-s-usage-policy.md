@@ -23,6 +23,6 @@ We encourage you to send us feedback or specific proposals to [usersafety@anthro
 
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
 - [Our Approach to User Safety](https://support.claude.com/en/articles/8106465-our-approach-to-user-safety)
+- [Claude is providing incorrect or misleading responses. What’s going on?](https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on)
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
-- [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
