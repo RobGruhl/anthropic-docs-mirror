@@ -15705,10 +15705,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/vision.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/vision",
-      "hash": "6972cf81d4908212a3b0275e84c43f2bf9959df40bca4577dcc0ec89c837a8cf",
+      "hash": "9386e47e4bfdf67b23f9181e34f34973a212ba29b77b4422031f88cebde82419",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-16T18:57:00.523768"
+      "last_updated": "2026-07-17T21:43:01.246245"
     },
     "build-with-claude__vision-coordinates.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/vision-coordinates",
@@ -16325,10 +16325,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/skills.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/skills",
-      "hash": "c2ff64a0215fa774f8bc8d626f744dc455fab96ac2fdaeedfc791f24c3a8260f",
+      "hash": "7802f1da42d9aafd1066cc9ec024df4fbe05bf2e98b778e16563bc7d113d84ae",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-16T18:57:00.529067"
+      "last_updated": "2026-07-17T21:43:01.251300"
     },
     "managed-agents__tools.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/tools",
@@ -16372,14 +16372,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-17T18:53:16.778188",
-    "fetch_duration_seconds": 43.642493,
+    "last_fetch_completed": "2026-07-17T21:43:01.257701",
+    "fetch_duration_seconds": 37.816511,
     "total_pages_discovered": 1894,
     "pages_fetched_successfully": 1637,
     "pages_failed": 257,
-    "pages_unchanged": 1632,
+    "pages_unchanged": 1635,
     "pages_updated": 2,
-    "pages_new": 3,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/cli/beta/tunnels",
@@ -16653,5 +16653,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-17T18:53:16.778371"
+  "last_updated": "2026-07-17T21:43:01.257913"
 }

@@ -1,14 +1,14 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-17 18:59*
+*Last updated: 2026-07-17 21:47*
 
-Documents related to Claude Code across all sources (283 documents)
+Documents related to Claude Code across all sources (285 documents)
 ---
 ## Platform Documentation (platform.claude.com) (3)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
 - [admin__analytics__plugins__list](/platform-docs/api-reference/admin__analytics__plugins__list.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (168)
+## Claude Code Documentation (170)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -25,6 +25,7 @@ Documents related to Claude Code across all sources (283 documents)
 - [2026 W26](/code-claude-docs/whats-new__2026-w26.md)
 - [2026 W27](/code-claude-docs/whats-new__2026-w27.md)
 - [2026 W28](/code-claude-docs/whats-new__2026-w28.md)
+- [2026 W29](/code-claude-docs/whats-new__2026-w29.md)
 - [Accessibility](/code-claude-docs/accessibility.md)
 - [Admin Setup](/code-claude-docs/admin-setup.md)
 - [Advisor](/code-claude-docs/advisor.md)
@@ -110,6 +111,7 @@ Documents related to Claude Code across all sources (283 documents)
 - [Memory](/code-claude-docs/memory.md)
 - [Microsoft Foundry](/code-claude-docs/microsoft-foundry.md)
 - [Migration Guide](/code-claude-docs/agent-sdk__migration-guide.md)
+- [Mobile](/code-claude-docs/mobile.md)
 - [Model Config](/code-claude-docs/model-config.md)
 - [Modifying System Prompts](/code-claude-docs/agent-sdk__modifying-system-prompts.md)
 - [Monitoring Usage](/code-claude-docs/monitoring-usage.md)
