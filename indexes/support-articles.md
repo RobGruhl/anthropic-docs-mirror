@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-17 05:36*
+*Last updated: 2026-07-17 07:59*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -371,7 +371,7 @@ Total documents: 253
 ### Get started with Claude in Slack
 **File:** `/docs-support/getting-started-with-claude-in-slack.md`  
 **Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-17  
 
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  

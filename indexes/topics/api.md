@@ -1,9 +1,9 @@
 # Api Topic Index
-*Last updated: 2026-07-17 05:36*
+*Last updated: 2026-07-17 07:59*
 
-Documents related to Api across all sources (147 documents)
+Documents related to Api across all sources (145 documents)
 ---
-## Platform Documentation (platform.claude.com) (99)
+## Platform Documentation (platform.claude.com) (97)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
 - [beta__skills__create](/platform-docs/api-reference/beta__skills__create.md)
 - [beta__skills__delete](/platform-docs/api-reference/beta__skills__delete.md)
@@ -30,10 +30,8 @@ Documents related to Api across all sources (147 documents)
 - [csharp__beta__skills__create](/platform-docs/api-reference/csharp__beta__skills__create.md)
 - [csharp__beta__skills__delete](/platform-docs/api-reference/csharp__beta__skills__delete.md)
 - [csharp__beta__skills__list](/platform-docs/api-reference/csharp__beta__skills__list.md)
-- [csharp__beta__skills__retrieve](/platform-docs/api-reference/csharp__beta__skills__retrieve.md)
 - [csharp__beta__skills__versions](/platform-docs/api-reference/csharp__beta__skills__versions.md)
 - [csharp__beta__skills__versions__create](/platform-docs/api-reference/csharp__beta__skills__versions__create.md)
-- [csharp__beta__skills__versions__delete](/platform-docs/api-reference/csharp__beta__skills__versions__delete.md)
 - [csharp__beta__skills__versions__download](/platform-docs/api-reference/csharp__beta__skills__versions__download.md)
 - [csharp__beta__skills__versions__list](/platform-docs/api-reference/csharp__beta__skills__versions__list.md)
 - [csharp__beta__skills__versions__retrieve](/platform-docs/api-reference/csharp__beta__skills__versions__retrieve.md)
