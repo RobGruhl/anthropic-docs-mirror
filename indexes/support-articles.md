@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-18 15:50*
+*Last updated: 2026-07-18 18:57*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -326,7 +326,7 @@ Total documents: 253
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-18  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -551,7 +551,7 @@ Total documents: 253
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  

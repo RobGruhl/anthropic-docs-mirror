@@ -1,6 +1,6 @@
 # Claude in Chrome permissions guide
 
-*Updated yesterday*
+*Updated today*
 
 ---
 
@@ -24,7 +24,7 @@ Choose "Manually approve" to have Claude create a plan from your prompt, which y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784391300&signature=6c741757ed82419295036b6900aca44b95d78fb7b8aa9c6ec6df6766bd49b12a&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZO9YO0gN0ADj5oqFDtNBAtP1IBMjY6NsdC%0ATT4ElO4OJxkvWAuTOHY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784527200&signature=63a8d25e4b034b9652c0d2d08cdad7362cf2bfa79a835790927042bea258dd86&req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNAKNgGc%2BNHFBtvjxAlMR0MR7e1uNvfXCbcf%0AzVuqHhHRWVUenlOK0s%2FC%2B11Ny%2FI%3D%0A)
 
  
 
@@ -70,7 +70,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784391300&signature=cc5e625a5aefd399a55cc9a8b149dfc1f6eaf124ca5b7b1a5677040159004f97&req=dSgjEct8n4lYXPMW1HO4zeoCY8IoqnV8JCxYSFHKWIjizbg4Gz3Qer1YA5u2%0AFctQdak1m7fLQ3v0xiQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784527200&signature=224de59d3f557e9124d495c72ad8f6fb71ed3c01152eab76bd8149ffdda0b2e7&req=dSgjEct8n4lYXPMW3nq%2BgRbwH4XDescWbtmVUMdjB4JtEgmU%2BqXSzHCzj1Tz%0Awb4jc6cBlCMCTpnuIdz6XcqROQg%3D%0A)
 
  
 
@@ -150,7 +150,6 @@ To protect you, Claude is prohibited from taking following actions regardless of
 - Handling sensitive credit card or ID data
 - Downloading files from untrusted sources
 - Permanent deletions (emptying trash, deleting emails, files, or messages)
-- Modifying security permissions or access controls
 - Providing investment or financial advice
 - Executing financial trades or investment transactions
 - Modifying system files

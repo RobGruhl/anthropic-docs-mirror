@@ -38,7 +38,7 @@ To start using Claude in Xcode:
 2. Open Xcode preferences and navigate to the Intelligence settings.
 3. Log in with your Claude account.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1784391300&signature=d77893f5d91ddedbf6b3cc3ec219bd396d5b546e85e8c17896d06a66ce5e5cef&req=dSclEcp5nIRXXPMW1HO4zUAXI8gBW6nXFalhp3bugHIXUEGfZ9NEKUzKE3y7%0AUp5yO5C5slwLMs4MRFk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1727371585/b18ca03a6357c52d12d10386f28e/dab2dcb2-f670-4173-b77d-38767a34cec1?expires=1784403000&signature=28997327060bb9df979b898b7d8440bf347a7985873588a854fc173da2558b21&req=dSclEcp5nIRXXPMW1HO4zUAXI8gGUqvUFalhp3bugHLhCNQCbrjIH%2FPtHHhJ%0AJG%2FPk0ZNDUs0WKcDnew%3D%0A)
 
  
 
@@ -52,7 +52,7 @@ Your Claude usage limits are shared across all platforms, so your chats with Cla
 ## Related Articles
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
-- [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
+- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
