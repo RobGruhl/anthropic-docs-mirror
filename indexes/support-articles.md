@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-18 10:14*
+*Last updated: 2026-07-18 12:58*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -31,7 +31,7 @@ Total documents: 253
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -171,7 +171,7 @@ Total documents: 253
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -416,7 +416,7 @@ Total documents: 253
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -511,7 +511,7 @@ Total documents: 253
 ### How does Claude handle mathematical equations and calculations?
 **File:** `/docs-support/how-does-claude-handle-mathematical-equations-and-calculations.md`  
 **Source:** https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### How is my Team plan bill calculated?
 **File:** `/docs-support/how-is-my-team-plan-bill-calculated.md`  
@@ -696,7 +696,7 @@ Total documents: 253
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
 **Source:** https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
@@ -746,7 +746,7 @@ Total documents: 253
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -931,7 +931,7 @@ Total documents: 253
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
 **Source:** https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-18  
 
 ### Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy
 **File:** `/docs-support/updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy.md`  
@@ -991,7 +991,7 @@ Total documents: 253
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1236,7 +1236,7 @@ Total documents: 253
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
