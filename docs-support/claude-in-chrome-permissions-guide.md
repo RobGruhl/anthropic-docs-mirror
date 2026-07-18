@@ -1,6 +1,6 @@
 # Claude in Chrome permissions guide
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -24,7 +24,7 @@ Choose "Manually approve" to have Claude create a plan from your prompt, which y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784340000&signature=6029014d1af2b2f76fb84330f5837154bccc09b77ef5e0f755ee9c8a6266936b&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZO%2BIK3gN0ADj5oqFDdSKJ74pS18W%2BnzmjU%0Avjub8ItqgfgYBJCgodE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1784353500&signature=1b869101ea057aa5ae215fee4cfff4e4c8da07fc9d91d8ae0298977f92230b99&req=dSgjFcp8nYZdXvMW1HO4zYqyZcZO%2BYGygN0ADj5oqFDTwGnBBevsseue6wWj%0AAvm5W1sujRgL9pShpms%3D%0A)
 
  
 
@@ -70,7 +70,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784340000&signature=9166b6b836a05be8054468a47be4fd26fbee9052d6185cbeaa02b145085fdca8&req=dSgjEct8n4lYXPMW1HO4zeoCY8Iop3R%2FJCxYSFHKWIh%2BtGyyYXwijTUTyvVa%0ALQwfc4K1qR0qlihYYCo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1784353500&signature=2395d69b1cbb3907e0512cb93bff8accfb13410e17b478ceb9dd101207858b93&req=dSgjEct8n4lYXPMW1HO4zeoCY8Iopnd6JCxYSFHKWIgd2rMO%2FRmfujTydpZQ%0AbY%2BzqWMJ3CBRfn8o9vE%3D%0A)
 
  
 

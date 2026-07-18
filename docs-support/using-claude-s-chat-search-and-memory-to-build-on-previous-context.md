@@ -45,7 +45,7 @@ Yes, navigate to **[Settings > Memory](https://claude.ai/new#settings/customize-
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1784340000&signature=9abe2d8c55b0ea65de537f3b59be7ef2b7bb4affd0c1a1152e3c51de77470b87&req=diUkFc12n4VcUPMW1HO4zY9IRA5vUdF3YNcz5nFaZkGNdL8LYDZIagRFCJQB%0AM6sbkbggH7TfEZKoIX8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1784353500&signature=78a9fd26e2a67f91ca83a66f3479a725e32946a78bbfceaa8fadb7a7a6c552a0&req=diUkFc12n4VcUPMW1HO4zY9IRA5vUNJyYNcz5nFaZkGQj%2BTb55li%2FyO54JBZ%0A3m6mW9F6Y0mJBDQ6okg%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Memory](https
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1784340000&signature=59f4641f6c13d8e52e4c224d189ec43c43084dc18ecc29966a367c2cad400f14&req=diUkFc12n4VbWPMW1HO4zRlYrp9u5lAsNshWSMEMw9dvz%2BWOCYrbgJUfCPnp%0AP5MWp8CoQYRptfzpOB0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1784353500&signature=fd7163fcf9ae7c3993384514fc69b0e4b63719badf15d2182ea6004c64d7bc41&req=diUkFc12n4VbWPMW1HO4zRlYrp9u51MpNshWSMEMw9exbTKW7svBrT2nFBz0%0A2uZOBeYAn6ziDyn5948%3D%0A)
 
  
 
@@ -226,7 +226,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784340000&signature=c148d700eb50b4915019557c0825855c8b41476089f8456ceb2bac755e749e52&req=dScmH859nYlXUPMW1HO4zRzXH1szJzHCJG68qZhl783xbXSpYvB3h0oEn0wF%0A8PInsNOnMmRY7LLphGA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784353500&signature=2321c82b2000eef6dac4f0a45d8abcd65302e729c4347e47c355da3849db58bc&req=dScmH859nYlXUPMW1HO4zRzXH1szJjLHJG68qZhl780hSI2o50TPyOCE4d2A%0AmCk1HKziQxq2uP%2FY6A8%3D%0A)
 
  
 
@@ -236,7 +236,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784340000&signature=2aa6cf4f33c51003c029e5d639f5056a801c722c98cd7b83209166f2efedc15f&req=dScmH859nYlWWvMW1HO4za54sKdvOIa7XDpzhlKsgjN7UNRppMvO07u5WT%2BP%0ANxjQMTjoyW%2BwH5UJ7Gc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784353500&signature=de47c2e5416245f993294d3933e601f395ac1aa57dac7d5912e3e678c798e921&req=dScmH859nYlWWvMW1HO4za54sKdvOYW%2BXDpzhlKsgjMWbYVoy7DfPk9PLavp%0Adl5rJXTw48ISmAKjzPo%3D%0A)
 
  
 
@@ -278,7 +278,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Capabilities]
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784340000&signature=846d2eb138df70ae3986ae4de89f0be4d44afad0ab7f92cbb965502418b5daef&req=dScmH859nYlWW%2FMW1HO4zTD5MMXlc%2BRFBq9N9dRTKYegQtJep6d6fedNcQbG%0Ag2fGxWCN1hbVdZoJGoI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784353500&signature=8ceba90d45e35d1e7e5a28e1403759d3dfac0ef06244beabb1121dcfde7f2fa8&req=dScmH859nYlWW%2FMW1HO4zTD5MMXlcudABq9N9dRTKYeGb8sqFc2B2KDpbim6%0Arx9J0g%2FIhV%2FDs6%2BDaDg%3D%0A)
 
  
 
