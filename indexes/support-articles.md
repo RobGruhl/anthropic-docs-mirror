@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-18 12:58*
+*Last updated: 2026-07-18 15:50*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -41,12 +41,12 @@ Total documents: 253
 ### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
 **Source:** https://support.claude.com/en/articles/9889428-i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### Add or update your Team plan's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-team-plan-s-tax-or-vat-id.md`  
@@ -656,7 +656,7 @@ Total documents: 253
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
@@ -801,7 +801,7 @@ Total documents: 253
 ### Public Vulnerability Reporting
 **File:** `/docs-support/public-vulnerability-reporting.md`  
 **Source:** https://support.claude.com/en/articles/11427875-public-vulnerability-reporting  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
@@ -831,7 +831,7 @@ Total documents: 253
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-18  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
@@ -1181,7 +1181,7 @@ Total documents: 253
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-18  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
