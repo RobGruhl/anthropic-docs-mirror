@@ -1,5 +1,5 @@
 # Claude.com Blog Posts Index
-*Last updated: 2026-07-18 21:46*
+*Last updated: 2026-07-19 01:53*
 Total documents: 192
 ---
 ## Agent Skills (19 documents)
