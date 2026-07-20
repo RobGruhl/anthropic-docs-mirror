@@ -16942,14 +16942,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-20T19:26:28.415479",
-    "fetch_duration_seconds": 50.541368,
+    "last_fetch_completed": "2026-07-20T21:55:47.819567",
+    "fetch_duration_seconds": 40.646813,
     "total_pages_discovered": 1951,
     "pages_fetched_successfully": 1694,
     "pages_failed": 257,
-    "pages_unchanged": 1631,
-    "pages_updated": 6,
-    "pages_new": 57,
+    "pages_unchanged": 1694,
+    "pages_updated": 0,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/api/cli/beta/tunnels",
@@ -17223,5 +17223,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-20T19:26:28.415689"
+  "last_updated": "2026-07-20T21:55:47.819740"
 }

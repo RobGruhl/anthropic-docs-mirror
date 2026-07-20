@@ -88,8 +88,8 @@ We appreciate your interest in conducting red-teaming or jailbreaking research, 
 
 ## Related Articles
 
+- [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [What is the External Researcher Access Program?](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program)
 - [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
 - [About the Development Partner Program](https://support.claude.com/en/articles/11174108-about-the-development-partner-program)
 - [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)
-- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)

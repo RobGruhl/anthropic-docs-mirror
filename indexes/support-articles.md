@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-20 19:33*
+*Last updated: 2026-07-20 22:00*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -361,7 +361,7 @@ Total documents: 253
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
 **Source:** https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
@@ -551,7 +551,7 @@ Total documents: 253
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -696,7 +696,7 @@ Total documents: 253
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
 **Source:** https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
@@ -801,7 +801,7 @@ Total documents: 253
 ### Public Vulnerability Reporting
 **File:** `/docs-support/public-vulnerability-reporting.md`  
 **Source:** https://support.claude.com/en/articles/11427875-public-vulnerability-reporting  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Publish and share artifacts
 **File:** `/docs-support/publishing-and-sharing-artifacts.md`  
@@ -1221,7 +1221,7 @@ Total documents: 253
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-20  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
