@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1784514600&signature=9c42fa555a06b69088752b080c54ed6e8354af6a67b18bd73a2eed48965f337c&req=dSUvEs97mYNeXvMW1HO4zYCWiSAdgMKcuqqBX2puyxQ9iqtscseP%2BNc926JU%0A2stAubXXiP24GKmKajg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1784529000&signature=7d29e3f1135cb9f4699145c3c12d4fb574b07d54b6f83c9cce6a419174da3618&req=dSUvEs97mYNeXvMW1HO4zYCWiSAdg8%2BauqqBX2puyxREda7TzHaBYQ%2BomHmy%0A70tuhvG4VjIhPbspRb4%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1784514600&signature=32fa2c9e66e01aab132f0a8c347d072943a5a2b3750f6c8bd91d7b8b68abb893&req=dSUvEs94mYJdWPMW1HO4zQwER3cvIItgqMITUZbanFCa1Y6gfLfloe2YnYGo%0AVgJBxhL8fm%2Bzm4fMzQY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1784529000&signature=02764d4b236bcdfe358268a70d69c3a441c40630ba665cf273fe8a5f093e7ad5&req=dSUvEs94mYJdWPMW1HO4zQwER3cvI4ZmqMITUZbanFB3laDfDA%2B1hRhkTULi%0A7pZjF%2B59hsg5To1Kmpk%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1784514600&signature=ff009e1d82b4149272163ee530e8efe7a0db69dec4f72eddc121c20f544e42fd&req=dSUvEs93noJXX%2FMW1HO4zRxEwW9I51Vq21D6pckxWMYWXqodl4NCNg57mo%2BV%0AUnqRhfLs%2BhXjb4A2%2BhE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1784529000&signature=16ceb194e156ce18e45f25330ef420f6dd48880c31692d7de221f6e88de0b96a&req=dSUvEs93noJXX%2FMW1HO4zRxEwW9I5Fhs21D6pckxWMYKCiFGwQV3lWNVautg%0AKGETWuIcR2kvmEX5Ggo%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1784514600&signature=4de107c70650c3249ebc153adf85304eb52dccf52c377ef0f7c0e09d71cb303a&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5jGUtRnCyIF5nuUsbyD%2FrQHiOwOIRigNt55%0A8crgulNrTCk3bcisXzk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1784529000&signature=e1044f470d49d94c5026dcc0356f17e3855160e74e277c3dbaac01134ee06519&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5jGUdlhCyIF5nuUsbyXERy4JJypm08yy9sr%0AyUJjvsks%2FHXe%2B5%2FDHhA%3D%0A)
 
  
 

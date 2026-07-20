@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-20 02:07*
+*Last updated: 2026-07-20 06:05*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -31,7 +31,7 @@ Total documents: 253
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -41,7 +41,7 @@ Total documents: 253
 ### Adapt to new model personas after deprecations
 **File:** `/docs-support/adapting-to-new-model-personas-after-deprecations.md`  
 **Source:** https://support.claude.com/en/articles/12738598-adapting-to-new-model-personas-after-deprecations  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
@@ -76,7 +76,7 @@ Total documents: 253
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
 **Source:** https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-20  
 
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
@@ -111,7 +111,7 @@ Total documents: 253
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -171,7 +171,7 @@ Total documents: 253
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -201,7 +201,7 @@ Total documents: 253
 ### Claude in Chrome permissions guide
 **File:** `/docs-support/claude-in-chrome-permissions-guide.md`  
 **Source:** https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### Claude in Chrome troubleshooting
 **File:** `/docs-support/claude-in-chrome-troubleshooting.md`  
@@ -216,7 +216,7 @@ Total documents: 253
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -451,7 +451,7 @@ Total documents: 253
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
 **Source:** https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### How do I get access to Claude in Amazon Bedrock?
 **File:** `/docs-support/how-do-i-get-access-to-claude-in-amazon-bedrock.md`  
@@ -581,7 +581,7 @@ Total documents: 253
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
 **Source:** https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### I created a Claude Console organization - how do I start using the Claude API?
 **File:** `/docs-support/i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md`  
@@ -626,7 +626,7 @@ Total documents: 253
 ### Install Claude Desktop
 **File:** `/docs-support/installing-claude-desktop.md`  
 **Source:** https://support.claude.com/en/articles/10065433-installing-claude-desktop  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Install Claude for Android
 **File:** `/docs-support/how-do-i-install-claude-for-android.md`  
@@ -731,7 +731,7 @@ Total documents: 253
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-20  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -746,7 +746,7 @@ Total documents: 253
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -826,7 +826,7 @@ Total documents: 253
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-20  
 
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
@@ -851,7 +851,7 @@ Total documents: 253
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
 **Source:** https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting  
-**Updated:** 2026-05-17  
+**Updated:** 2026-07-20  
 
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
@@ -951,12 +951,12 @@ Total documents: 253
 ### Use Claude Code with your Pro or Max plan
 **File:** `/docs-support/using-claude-code-with-your-pro-or-max-plan.md`  
 **Source:** https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan  
-**Updated:** 2026-06-12  
+**Updated:** 2026-07-20  
 
 ### Use Claude Code with your Team or Enterprise plan
 **File:** `/docs-support/use-claude-code-with-your-team-or-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-20  
 
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
@@ -1136,7 +1136,7 @@ Total documents: 253
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1181,12 +1181,12 @@ Total documents: 253
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-20  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
 **Source:** https://support.claude.com/en/articles/9266767-what-is-the-team-plan  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-20  
 
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
@@ -1241,7 +1241,7 @@ Total documents: 253
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-07-19  
+**Updated:** 2026-07-20  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  

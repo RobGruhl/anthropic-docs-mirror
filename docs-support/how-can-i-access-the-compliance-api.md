@@ -31,7 +31,7 @@ The Compliance API now includes audit log events, giving you a full view across 
 
 ## Related Articles
 
-- [How can I check connectivity to the Claude API?](https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api)
+- [API Key Best Practices: Keeping Your Keys Safe and Secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure)
 - [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Configure a custom OpenTelemetry collector for Office agents](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents)
 - [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
