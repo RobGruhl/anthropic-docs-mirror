@@ -151,12 +151,6 @@ These updates build on Claude Opus 4.7, our most capable publicly available mode
 
 Here’s what legal teams and ecosystem partners have told us about working with Claude:
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0613394e10ec17042c9c29_Docusign_light.svg)
-
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0613284dee464669df3007_Docusign_dark.svg)
-
-“Legal sits at the center of every agreement, but too often the work is disconnected from the rest of the business. With Anthropic, we're bringing the power of the Docusign platform directly into Claude, enabling legal and cross-functional stakeholders to create, review, and move agreements forward using natural language.”
-
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fe2ebadc1e72c50e5d0b58_%20freshfields-logo.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fe2ef753731a11ac1e2910_courtroom5-logo-dark.svg)
@@ -205,11 +199,17 @@ Here’s what legal teams and ecosystem partners have told us about working with
 
 “At Holland & Knight, we appreciate that Everlaw is working with Anthropic and offering access to their tool through an MCP. We are applying Claude’s capabilities across many litigation workflows and see significant potential in realizing them in the right context. Everlaw allows us to bring the right evidence into the equation, unlocking additional power.”
 
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b97ed26f0736cd8ef5b_evenup_light.svg)
+
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5e5b9a67ae5f64f19fc17e_evenup_dark.svg)
+
+“PI law presents some of the toughest challenges for AI: reasoning across large volumes of medical records and billing data, identifying critical facts, and executing complex workflows with consistency and accuracy. Claude Opus 4.8 delivers a new level of reasoning, reliability, and long-context performance. EvenUp adds proprietary PI data, domain expertise, and purpose-built workflows on top.”
+
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b54d02bb219730f388_logo_solveintelligence-light-mode.svg)
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69a1f5b87bdeab28825abf01_logo_solveintelligence-dark-mode.svg)
 
-"At Solve Intelligence, we benchmark every frontier model on the hardest parts of patent work: multi-step reasoning over long technical documents, chemical structure recognition, and complex diagram interpretation. Claude Opus 4.7 is a clear step up — and it's how we keep raising the bar across drafting, prosecution, search, and litigation-grade claim charting."
+“We're seeing major improvements in Claude Opus 4.7's multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.”
 
 ![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69ebbdde1a3d17f2d9e91607_eve-light-mode.svg)
 

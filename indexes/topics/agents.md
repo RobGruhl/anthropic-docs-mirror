@@ -1,10 +1,11 @@
 # Agents Topic Index
-*Last updated: 2026-07-20 16:26*
+*Last updated: 2026-07-20 19:33*
 
-Documents related to Agents across all sources (141 documents)
+Documents related to Agents across all sources (142 documents)
 ---
-## Platform Documentation (platform.claude.com) (40)
+## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
+- [agents-and-tools__agent-skills__claude-api-skill](/platform-docs/developer-guide/agents-and-tools__agent-skills__claude-api-skill.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
 - [agents-and-tools__agent-skills__overview](/platform-docs/developer-guide/agents-and-tools__agent-skills__overview.md)
 - [agents-and-tools__agent-skills__quickstart](/platform-docs/developer-guide/agents-and-tools__agent-skills__quickstart.md)

@@ -1,9 +1,9 @@
 # Claude Documentation Index
-*Last updated: 2026-07-20 16:26*
+*Last updated: 2026-07-20 19:33*
 
 ## Quick Stats
-- **Total Documents:** 2758
-- **Platform Docs:** 1637
+- **Total Documents:** 2815
+- **Platform Docs:** 1694
 - **Claude Code Docs:** 170
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
@@ -13,12 +13,12 @@
 - **Engineering Blog:** 25
 - **Claude.com Blog:** 192
 - **Support Articles:** 253
-- **Topics:** 83
+- **Topics:** 84
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 1637 docs from platform.claude.com
+- [Platform Documentation](platform-docs.md) - 1694 docs from platform.claude.com
 - [Claude Code Documentation](code-claude-docs.md) - 170 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
@@ -30,15 +30,15 @@
 - [Support Articles](support-articles.md) - 253 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 285 documents
+- [Claude Code](topics/claude-code.md) - 286 documents
 - [Mcp](topics/mcp.md) - 243 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
 - [Api](topics/api.md) - 147 documents
-- [Agents](topics/agents.md) - 141 documents
-- [Skills](topics/skills.md) - 131 documents
+- [Agents](topics/agents.md) - 142 documents
+- [Skills](topics/skills.md) - 132 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
@@ -50,7 +50,7 @@
 - [Interpretability](topics/interpretability.md) - 53 documents
 - [Agent Sdk](topics/agent-sdk.md) - 34 documents
 - [Community](topics/community.md) - 32 documents
-- [View all 83 topics](topics/)
+- [View all 84 topics](topics/)
 
 ## How to Use This Index
 

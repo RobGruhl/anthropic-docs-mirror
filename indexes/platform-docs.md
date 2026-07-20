@@ -1,12 +1,87 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-20 16:26*
-Total documents: 1637
+*Last updated: 2026-07-20 19:33*
+Total documents: 1694
 ---
-## Uncategorized (1637 documents)
+## Uncategorized (1694 documents)
+### about-claude__glossary
+**File:** `/platform-docs/about-claude__glossary.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/glossary  
+**Updated:** 2026-07-20  
+
+### about-claude__model-deprecations
+**File:** `/platform-docs/about-claude__model-deprecations.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/model-deprecations  
+**Updated:** 2026-07-20  
+
+### about-claude__models__choosing-a-model
+**File:** `/platform-docs/about-claude__models__choosing-a-model.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/choosing-a-model  
+**Updated:** 2026-07-20  
+
+### about-claude__models__introducing-claude-fable-5-and-claude-mythos-5
+**File:** `/platform-docs/about-claude__models__introducing-claude-fable-5-and-claude-mythos-5.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5  
+**Updated:** 2026-07-20  
+
+### about-claude__models__migration-guide
+**File:** `/platform-docs/about-claude__models__migration-guide.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
+**Updated:** 2026-07-20  
+
+### about-claude__models__model-ids-and-versions
+**File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions  
+**Updated:** 2026-07-20  
+
+### about-claude__models__overview
+**File:** `/platform-docs/about-claude__models__overview.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/overview  
+**Updated:** 2026-07-20  
+
+### about-claude__models__whats-new-claude-4-8
+**File:** `/platform-docs/about-claude__models__whats-new-claude-4-8.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8  
+**Updated:** 2026-07-20  
+
+### about-claude__models__whats-new-sonnet-5
+**File:** `/platform-docs/about-claude__models__whats-new-sonnet-5.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5  
+**Updated:** 2026-07-20  
+
+### about-claude__pricing
+**File:** `/platform-docs/about-claude__pricing.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/pricing  
+**Updated:** 2026-07-20  
+
+### about-claude__use-case-guides__classification
+**File:** `/platform-docs/about-claude__use-case-guides__classification.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/use-case-guides/classification  
+**Updated:** 2026-07-20  
+
+### about-claude__use-case-guides__content-moderation
+**File:** `/platform-docs/about-claude__use-case-guides__content-moderation.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation  
+**Updated:** 2026-07-20  
+
+### about-claude__use-case-guides__customer-support-chat
+**File:** `/platform-docs/about-claude__use-case-guides__customer-support-chat.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat  
+**Updated:** 2026-07-20  
+
+### about-claude__use-case-guides__legal-summarization
+**File:** `/platform-docs/about-claude__use-case-guides__legal-summarization.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization  
+**Updated:** 2026-07-20  
+
+### about-claude__use-case-guides__ticket-routing
+**File:** `/platform-docs/about-claude__use-case-guides__ticket-routing.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/use-case-guides/ticket-routing  
+**Updated:** 2026-07-20  
+
 ### admin
 **File:** `/platform-docs/admin.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-20  
 
 ### admin__analytics
 **File:** `/platform-docs/admin__analytics.md`  
@@ -111,7 +186,7 @@ Total documents: 1637
 ### admin__api_keys
 **File:** `/platform-docs/admin__api_keys.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-20  
 
 ### admin__api_keys__list
 **File:** `/platform-docs/admin__api_keys__list.md`  
@@ -121,7 +196,7 @@ Total documents: 1637
 ### admin__api_keys__retrieve
 **File:** `/platform-docs/admin__api_keys__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/api_keys/retrieve  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-20  
 
 ### admin__api_keys__update
 **File:** `/platform-docs/admin__api_keys__update.md`  
@@ -673,6 +748,11 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices  
 **Updated:** 2026-07-16  
 
+### agents-and-tools__agent-skills__claude-api-skill
+**File:** `/platform-docs/agents-and-tools__agent-skills__claude-api-skill.md`  
+**Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill  
+**Updated:** 2026-07-20  
+
 ### agents-and-tools__agent-skills__enterprise
 **File:** `/platform-docs/agents-and-tools__agent-skills__enterprise.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise  
@@ -867,6 +947,11 @@ Total documents: 1637
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
 **Updated:** 2026-07-17  
+
+### beta-headers
+**File:** `/platform-docs/beta-headers.md`  
+**Source:** https://platform.claude.com/docs/en/api/beta-headers  
+**Updated:** 2026-07-20  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
@@ -1621,7 +1706,7 @@ Total documents: 1637
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-20  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1703,6 +1788,36 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
 **Updated:** 2026-07-17  
 
+### build-with-claude__prompt-engineering__claude-prompting-best-practices
+**File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices  
+**Updated:** 2026-07-20  
+
+### build-with-claude__prompt-engineering__overview
+**File:** `/platform-docs/build-with-claude__prompt-engineering__overview.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview  
+**Updated:** 2026-07-20  
+
+### build-with-claude__prompt-engineering__prompting-claude-fable-5
+**File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-fable-5.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5  
+**Updated:** 2026-07-20  
+
+### build-with-claude__prompt-engineering__prompting-claude-opus-4-8
+**File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8  
+**Updated:** 2026-07-20  
+
+### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
+**File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5  
+**Updated:** 2026-07-20  
+
+### build-with-claude__prompt-engineering__prompting-tools
+**File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-tools.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-tools  
+**Updated:** 2026-07-20  
+
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
@@ -1752,6 +1867,96 @@ Total documents: 1637
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/working-with-messages  
 **Updated:** 2026-07-17  
+
+### claude-code__routines-fire
+**File:** `/platform-docs/claude-code__routines-fire.md`  
+**Source:** https://platform.claude.com/docs/en/api/claude-code/routines-fire  
+**Updated:** 2026-07-20  
+
+### claude-platform-on-aws-iam-actions
+**File:** `/platform-docs/claude-platform-on-aws-iam-actions.md`  
+**Source:** https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions  
+**Updated:** 2026-07-20  
+
+### claude_api_primer
+**File:** `/platform-docs/claude_api_primer.md`  
+**Source:** https://platform.claude.com/docs/en/claude_api_primer  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__cli__authentication
+**File:** `/platform-docs/cli-sdks-libraries__cli__authentication.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__cli__quickstart
+**File:** `/platform-docs/cli-sdks-libraries__cli__quickstart.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__cli__scripting
+**File:** `/platform-docs/cli-sdks-libraries__cli__scripting.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/scripting  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__cli__using
+**File:** `/platform-docs/cli-sdks-libraries__cli__using.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/using  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__libraries__apple-foundation-models
+**File:** `/platform-docs/cli-sdks-libraries__libraries__apple-foundation-models.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__libraries__openai-sdk
+**File:** `/platform-docs/cli-sdks-libraries__libraries__openai-sdk.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/openai-sdk  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__middleware
+**File:** `/platform-docs/cli-sdks-libraries__middleware.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/middleware  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__overview
+**File:** `/platform-docs/cli-sdks-libraries__overview.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/overview  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__csharp
+**File:** `/platform-docs/cli-sdks-libraries__sdks__csharp.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/csharp  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__go
+**File:** `/platform-docs/cli-sdks-libraries__sdks__go.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/go  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__java
+**File:** `/platform-docs/cli-sdks-libraries__sdks__java.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/java  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__php
+**File:** `/platform-docs/cli-sdks-libraries__sdks__php.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/php  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__python
+**File:** `/platform-docs/cli-sdks-libraries__sdks__python.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__ruby
+**File:** `/platform-docs/cli-sdks-libraries__sdks__ruby.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/ruby  
+**Updated:** 2026-07-20  
+
+### cli-sdks-libraries__sdks__typescript
+**File:** `/platform-docs/cli-sdks-libraries__sdks__typescript.md`  
+**Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript  
+**Updated:** 2026-07-20  
 
 ### cli__beta
 **File:** `/platform-docs/cli__beta.md`  
@@ -3463,6 +3668,11 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/api/csharp/models/retrieve  
 **Updated:** 2026-07-10  
 
+### errors
+**File:** `/platform-docs/errors.md`  
+**Source:** https://platform.claude.com/docs/en/api/errors  
+**Updated:** 2026-07-20  
+
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
@@ -4197,6 +4407,11 @@ Total documents: 1637
 **File:** `/platform-docs/intro.md`  
 **Source:** https://platform.claude.com/docs/en/intro  
 **Updated:** 2026-07-01  
+
+### ip-addresses
+**File:** `/platform-docs/ip-addresses.md`  
+**Source:** https://platform.claude.com/docs/en/api/ip-addresses  
+**Updated:** 2026-07-20  
 
 ### java__beta
 **File:** `/platform-docs/java__beta.md`  
@@ -4976,7 +5191,7 @@ Total documents: 1637
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-20  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -5021,7 +5236,7 @@ Total documents: 1637
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/data-residency  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-20  
 
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
@@ -5292,6 +5507,11 @@ Total documents: 1637
 **File:** `/platform-docs/models__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/models/retrieve  
 **Updated:** 2026-07-10  
+
+### overview
+**File:** `/platform-docs/overview.md`  
+**Source:** https://platform.claude.com/docs/en/api/overview  
+**Updated:** 2026-07-20  
 
 ### php__beta
 **File:** `/platform-docs/php__beta.md`  
@@ -6733,6 +6953,21 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/api/python/models/retrieve  
 **Updated:** 2026-07-10  
 
+### rate-limits
+**File:** `/platform-docs/rate-limits.md`  
+**Source:** https://platform.claude.com/docs/en/api/rate-limits  
+**Updated:** 2026-07-20  
+
+### release-notes__overview
+**File:** `/platform-docs/release-notes__overview.md`  
+**Source:** https://platform.claude.com/docs/en/release-notes/overview  
+**Updated:** 2026-07-20  
+
+### release-notes__system-prompts
+**File:** `/platform-docs/release-notes__system-prompts.md`  
+**Source:** https://platform.claude.com/docs/en/release-notes/system-prompts  
+**Updated:** 2026-07-20  
+
 ### ruby__beta
 **File:** `/platform-docs/ruby__beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/ruby/beta  
@@ -7458,10 +7693,55 @@ Total documents: 1637
 **Source:** https://platform.claude.com/docs/en/api/ruby/models/retrieve  
 **Updated:** 2026-07-10  
 
+### service-tiers
+**File:** `/platform-docs/service-tiers.md`  
+**Source:** https://platform.claude.com/docs/en/api/service-tiers  
+**Updated:** 2026-07-20  
+
+### supported-regions
+**File:** `/platform-docs/supported-regions.md`  
+**Source:** https://platform.claude.com/docs/en/api/supported-regions  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__develop-tests
+**File:** `/platform-docs/test-and-evaluate__develop-tests.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/develop-tests  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__eval-tool
+**File:** `/platform-docs/test-and-evaluate__eval-tool.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/eval-tool  
+**Updated:** 2026-07-20  
+
 ### test-and-evaluate__strengthen-guardrails__handle-streaming-refusals
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__handle-streaming-refusals.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals  
 **Updated:** 2026-07-16  
+
+### test-and-evaluate__strengthen-guardrails__increase-consistency
+**File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__increase-consistency.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__strengthen-guardrails__mitigate-jailbreaks
+**File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__mitigate-jailbreaks.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__strengthen-guardrails__reduce-hallucinations
+**File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-hallucinations.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__strengthen-guardrails__reduce-latency
+**File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-latency.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency  
+**Updated:** 2026-07-20  
+
+### test-and-evaluate__strengthen-guardrails__reduce-prompt-leak
+**File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-prompt-leak.md`  
+**Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak  
+**Updated:** 2026-07-20  
 
 ### typescript__beta
 **File:** `/platform-docs/typescript__beta.md`  
@@ -8187,4 +8467,9 @@ Total documents: 1637
 **File:** `/platform-docs/typescript__models__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/typescript/models/retrieve  
 **Updated:** 2026-07-10  
+
+### versioning
+**File:** `/platform-docs/versioning.md`  
+**Source:** https://platform.claude.com/docs/en/api/versioning  
+**Updated:** 2026-07-20  
 

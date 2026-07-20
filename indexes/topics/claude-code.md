@@ -1,11 +1,12 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-20 16:26*
+*Last updated: 2026-07-20 19:33*
 
-Documents related to Claude Code across all sources (285 documents)
+Documents related to Claude Code across all sources (286 documents)
 ---
-## Platform Documentation (platform.claude.com) (3)
+## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
 - [admin__analytics__plugins__list](/platform-docs/api-reference/admin__analytics__plugins__list.md)
+- [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
 ## Claude Code Documentation (170)

@@ -101,13 +101,13 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-### Zero risk isn't the job: a CISO's guide to agentic AI
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Zero risk isn't the job: a CISO's guide to agentic AI
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
