@@ -26,7 +26,7 @@ If you want to use a name other than the one tied to your payment method, an org
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1784557800&signature=336b50dbfd6b40affbe946192d0fa80395f6dfa31d0f99a908670a203eb1ed34&req=dSklFMh6mINaWvMW1HO4zRZTxF7EvszbKAqLF4ERnlX9xItryRMclSc1kP4I%0AspzlK8wVtPX2zWlmLFM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1784566800&signature=38db476a61b9a9357ecb23fd543e26d73fd5f9335085919eeb9b9ef7aa9699ae&req=dSklFMh6mINaWvMW1HO4zRZTxF7Evc3bKAqLF4ERnlX178NbC9D%2FYkI4%2Fw0C%0AXk%2Bx52kA3DMcsDF61mc%3D%0A)
 
  
 
