@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-21 19:08*
+*Last updated: 2026-07-21 22:06*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -1071,7 +1071,7 @@ Total documents: 253
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-21  
 
 ### Use the Claude widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  

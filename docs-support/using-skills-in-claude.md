@@ -1,6 +1,6 @@
 # Use skills in Claude
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -113,7 +113,7 @@ You can toggle the skill off again at any time, or delete it from your list enti
 
 ### Install a skill from your organization's directory
 
-1. In Cowork, click **Customize** in the left sidebar, then click [placeholder: the "+" button] to open the directory.
+1. In Cowork, click **Customize** in the left sidebar, then click the "+" button to open the directory.
 2. Click the **Skills** tab.
 3. Find the skill you want and click "Install."
 

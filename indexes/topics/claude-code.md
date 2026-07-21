@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-21 19:08*
+*Last updated: 2026-07-21 22:06*
 
-Documents related to Claude Code across all sources (289 documents)
+Documents related to Claude Code across all sources (290 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (289 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (170)
+## Claude Code Documentation (171)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -70,6 +70,7 @@ Documents related to Claude Code across all sources (289 documents)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
 - [Deep Links](/code-claude-docs/deep-links.md)
 - [Desktop](/code-claude-docs/desktop.md)
+- [Desktop Ios Simulator](/code-claude-docs/desktop-ios-simulator.md)
 - [Desktop Linux](/code-claude-docs/desktop-linux.md)
 - [Desktop Quickstart](/code-claude-docs/desktop-quickstart.md)
 - [Desktop Scheduled Tasks](/code-claude-docs/desktop-scheduled-tasks.md)

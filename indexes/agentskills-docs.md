@@ -1,5 +1,5 @@
 # AgentSkills Documentation (agentskills.io) Index
-*Last updated: 2026-07-21 19:08*
+*Last updated: 2026-07-21 22:06*
 Total documents: 6
 ---
 ## Uncategorized (6 documents)
