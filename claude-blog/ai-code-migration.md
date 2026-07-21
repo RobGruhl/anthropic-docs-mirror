@@ -79,7 +79,7 @@ As we will see below, both Mike and Jarred used Fable for key steps in their mig
 
 ## Six steps for large code migrations
 
-The process below has been generalized to be relevant to multiple languages and scenarios. For additional details, you can read[Jarred’s blog](https://bun.com/blog/bun-in-rust).
+The process below has been generalized to be relevant to multiple languages and scenarios. For additional details, you can read[Jarred’s blog](https://bun.com/blog/bun-in-rust). You can also access the[Migration starter kit.](https://github.com/anthropics/code-migration-kit-with-claude-code)Note: The starter kit is a generalized template of the process above — it's not what these specific ports ran on.
 
 ### Prerequisites
 
@@ -287,6 +287,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
+
+### How Anthropic secures its AI-native software development lifecycle
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
 ### How Datadog built a “universal machine tool” for Claude Code
@@ -298,10 +302,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
-
-### Zero risk isn't the job: a CISO's guide to agentic AI
 
 ## Transform how your organization operates with Claude
 

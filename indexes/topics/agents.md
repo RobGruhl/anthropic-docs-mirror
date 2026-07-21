@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-07-21 16:25*
+*Last updated: 2026-07-21 19:08*
 
-Documents related to Agents across all sources (143 documents)
+Documents related to Agents across all sources (145 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (143 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (85)
+## Claude.com Blog Posts (87)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -104,7 +104,9 @@ Documents related to Agents across all sources (143 documents)
 - [Giving admins more visibility and control over Claude spend](/claude-blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic runs large-scale code migrations with Claude Code](/claude-blog/ai-code-migration.md) - ![](https://cdn
+- [How Anthropic secures its AI-native software development lifecycle](/claude-blog/how-anthropic-secures-its-ai-native-software-development-lifecycle.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
+- [How Datadog built a “universal machine tool” for Claude Code](/claude-blog/how-datadog-built-a-universal-machine-tool-for-claude-code.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn

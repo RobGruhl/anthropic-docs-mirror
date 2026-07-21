@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-07-21 16:25*
+*Last updated: 2026-07-21 19:08*
 
-Documents related to Tools across all sources (88 documents)
+Documents related to Tools across all sources (89 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -40,7 +40,7 @@ Documents related to Tools across all sources (88 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (55)
+## Claude.com Blog Posts (56)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
@@ -71,6 +71,7 @@ Documents related to Tools across all sources (88 documents)
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](/claude-blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
+- [How Datadog built a “universal machine tool” for Claude Code](/claude-blog/how-datadog-built-a-universal-machine-tool-for-claude-code.md) - ![](https://cdn
 - [How Kepler built verifiable AI for financial services with Claude](/claude-blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude.md) - ![](https://cdn
 - [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn

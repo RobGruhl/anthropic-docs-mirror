@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-21 16:25*
+*Last updated: 2026-07-21 19:08*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -26,7 +26,7 @@ Total documents: 253
 ### Access audit logs
 **File:** `/docs-support/how-to-access-audit-logs.md`  
 **Source:** https://support.claude.com/en/articles/9970975-how-to-access-audit-logs  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-21  
 
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
@@ -226,7 +226,7 @@ Total documents: 253
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-21  
 
 ### Configuring session security settings
 **File:** `/docs-support/configuring-session-security-settings.md`  
@@ -346,7 +346,7 @@ Total documents: 253
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
 **Source:** https://support.claude.com/en/articles/13566435-find-and-join-a-team-or-enterprise-organization  
-**Updated:** 2026-07-08  
+**Updated:** 2026-07-21  
 
 ### Get started with Claude
 **File:** `/docs-support/getting-started-with-claude.md`  
@@ -581,7 +581,7 @@ Total documents: 253
 ### How will I be billed for Claude API use?
 **File:** `/docs-support/how-will-i-be-billed-for-claude-api-use.md`  
 **Source:** https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-21  
 
 ### I created a Claude Console organization - how do I start using the Claude API?
 **File:** `/docs-support/i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md`  
@@ -611,7 +611,7 @@ Total documents: 253
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-21  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -701,7 +701,7 @@ Total documents: 253
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-21  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -731,7 +731,7 @@ Total documents: 253
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-21  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -741,12 +741,12 @@ Total documents: 253
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
 **Source:** https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-21  
 
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
 **Source:** https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-21  
 
 ### Model Safety Bug Bounty Program
 **File:** `/docs-support/model-safety-bug-bounty-program.md`  
@@ -1181,7 +1181,7 @@ Total documents: 253
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-21  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  

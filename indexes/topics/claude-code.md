@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-21 16:25*
+*Last updated: 2026-07-21 19:08*
 
-Documents related to Claude Code across all sources (287 documents)
+Documents related to Claude Code across all sources (289 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -196,7 +196,7 @@ Documents related to Claude Code across all sources (287 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (94)
+## Claude.com Blog Posts (96)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -238,10 +238,12 @@ Documents related to Claude Code across all sources (287 documents)
 - [Fix software bugs faster with Claude](/claude-blog/fix-software-bugs-faster-with-claude.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic runs large-scale code migrations with Claude Code](/claude-blog/ai-code-migration.md) - ![](https://cdn
+- [How Anthropic secures its AI-native software development lifecycle](/claude-blog/how-anthropic-secures-its-ai-native-software-development-lifecycle.md) - ![](https://cdn
 - [How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code](/claude-blog/how-anthropic-uses-claude-marketing.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How Claude Code works in large codebases: Best practices and where to start](/claude-blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
+- [How Datadog built a “universal machine tool” for Claude Code](/claude-blog/how-datadog-built-a-universal-machine-tool-for-claude-code.md) - ![](https://cdn
 - [How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks](/claude-blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How one Anthropic seller rebuilt his team's workflows with Claude Code](/claude-blog/how-anthropic-uses-claude-gtm-engineering.md) - ![](https://cdn

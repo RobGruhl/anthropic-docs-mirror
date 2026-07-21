@@ -1,9 +1,9 @@
 # Mcp Topic Index
-*Last updated: 2026-07-21 16:25*
+*Last updated: 2026-07-21 19:08*
 
-Documents related to Mcp across all sources (243 documents)
+Documents related to Mcp across all sources (235 documents)
 ---
-## Platform Documentation (platform.claude.com) (32)
+## Platform Documentation (platform.claude.com) (24)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
 - [admin__mcp_tunnels__archive](/platform-docs/api-reference/admin__mcp_tunnels__archive.md)
 - [admin__mcp_tunnels__list](/platform-docs/api-reference/admin__mcp_tunnels__list.md)
@@ -27,15 +27,7 @@ Documents related to Mcp across all sources (243 documents)
 - [agents-and-tools__mcp-tunnels__troubleshooting](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__troubleshooting.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/beta__vaults__credentials__mcp_oauth_validate.md)
-- [cli__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/cli__beta__vaults__credentials__mcp_oauth_validate.md)
-- [csharp__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/csharp__beta__vaults__credentials__mcp_oauth_validate.md)
-- [go__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/go__beta__vaults__credentials__mcp_oauth_validate.md)
-- [java__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/java__beta__vaults__credentials__mcp_oauth_validate.md)
 - [managed-agents__mcp-connector](/platform-docs/developer-guide/managed-agents__mcp-connector.md)
-- [php__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/php__beta__vaults__credentials__mcp_oauth_validate.md)
-- [python__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/python__beta__vaults__credentials__mcp_oauth_validate.md)
-- [ruby__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/ruby__beta__vaults__credentials__mcp_oauth_validate.md)
-- [typescript__beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/typescript__beta__vaults__credentials__mcp_oauth_validate.md)
 
 ## Claude Code Documentation (4)
 - [Managed Mcp](/code-claude-docs/managed-mcp.md)
