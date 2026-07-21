@@ -38,7 +38,7 @@ If you used your Claude account to authenticate into Claude Code, you can manage
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1784614500&signature=a04e90ed621cd4b25d8dbac18db88c50c88f2711c5943b69bdd3bfe19a08a072&req=dSYnHst4nohdWvMW1HO4zVuHihj712O%2BAQofdwM8qVdljmaZl7qw39%2BiaBA0%0AQ9a47o70uNLKaBsFwYs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1784623500&signature=7f80eb58dd64dd8e6e55b0203e3aaa1cee58cf7250fa1379d2dbe2b5f92ab488&req=dSYnHst4nohdWvMW1HO4zVuHihj71GS%2BAQofdwM8qVdYevU%2BP2Y%2BQFZ8MC3V%0A6bXiZme9BCTewLAZivw%3D%0A)
 
  
 
