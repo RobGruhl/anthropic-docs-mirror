@@ -30,7 +30,7 @@ Claude in Slack gives you AI assistance right where your team collaborates. This
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1784673000&signature=718039037b1131ff80148d4f1cb1de00f4592fe5eb09b42856dcac6911ce6f00&req=dSciE8h7nYdZWPMW1HO4zXK26hVI7zIeVfOC%2FRy97LUY3xHHr3G6rFi3qtk%2F%0AX%2Fb8EKYOSzdkj83N4ro%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1755150661/a1a13c73bda421f6ee906650cfc9/22907223-e523-4a93-a6d2-3199a8368991?expires=1784686500&signature=3ca337e6cc36e0f6a1c0567925686c58a62ea121a9257901335fd9f2dfc39db6&req=dSciE8h7nYdZWPMW1HO4zXK26hVI4DcbVfOC%2FRy97LVcTS3UzQmfR6cQlRN8%0AQdE4T5VNfCVC%2Fu83EIk%3D%0A)
 
  
 
@@ -264,7 +264,7 @@ Start a new conversation to continue.
 
 ## Related Articles
 
-- [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
+- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Get started with Claude in Slack](https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

@@ -1,6 +1,6 @@
 # Claude Code usage analytics
 
-*Updated over 2 weeks ago*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -47,7 +47,7 @@ The **Usage** tab displays the following metrics for your organization. Data on 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1784673000&signature=8723e2b454d298735c4659c72d393d94d7b2a43697972eb43ba9a6d124c74d47&req=dScmEcx5lINYXvMW1HO4zfiEP6JWiHrOCX9h5MbdDjPfUyCzayWgdq%2B8xEUO%0A1TV9YaiztxTgfvj%2Bys8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1784686500&signature=fdbad7ae88924065fa9db8d42b8823aa4bc08dd95306fb381202bffd579ed184&req=dScmEcx5lINYXvMW1HO4zfiEP6JWh3%2FLCX9h5MbdDjMkm8AGlISpwR%2FxudHZ%0Aylz5UYUtUlRM%2FmwTqzY%3D%0A)
 
  
 

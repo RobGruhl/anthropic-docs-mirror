@@ -1,10 +1,10 @@
 # Publish and share artifacts
 
-*Updated this week*
+*Updated today*
 
 ---
 
-Artifacts are a powerful way to create content within Claude. You can take your creations further by sharing them so others can engage with and customize them. Similarly, if you see an artifact you like, you can customize it to make it your own. This article covers how to publish artifacts publicly and share them within your organization.
+Artifacts are a powerful way to create content within Claude. You can take your creations further by sharing them so others can view and interact with them. If you see a published artifact you like, you can copy the code into a chat of your own and build on it from there. This article covers how to publish artifacts publicly and share them within your organization.
 
  
 
@@ -44,12 +44,12 @@ Publishing also adds the artifact to the **[Artifacts](https://claude.ai/artifac
 
 - View and interact with any published artifact without signing up.
 - Try all basic functionality without a Claude account.
-- Prompted to sign up only for advanced features like customizing or using AI-powered capabilities.
+- Prompted to sign up only for advanced features like using AI-powered capabilities.
 -  
 
 **Claude users (Free, Pro, Max):**
 
-- Full access to view, interact with, and customize any published artifact.
+- Full access to view, interact with, and copy any published artifact.
 - Can use AI-powered features within their usage limits.
 - Can save and organize artifacts they discover.
 
@@ -61,7 +61,7 @@ After publishing, you'll see a “Get embed code” button.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1784673000&signature=1c572a485af3abd0826ad09976095137c086b73a8be727ed5001dc57beea5789&req=dSkiF892mYhZWfMW1HO4zdcpD1JU4gCBR8xgMH3ra8gz90uFdk5MKSlme3oz%0A8QaqyIot60kkf%2B1NPro%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1784786400&signature=e5a35be4edf5e3c9c2a170efb240fc3d1f8d7d6bbab7bc943aef7abee89f24ec&req=dSkiF892mYhZWfMW3nq%2BgQxRyjIgz71%2FScNx3jtA%2BiBomxnj5nXT%2BuYBFUoi%0AUH52LQnlTeWI%2BwJtvEPZw0nZwD4%3D%0A)
 
  
 
@@ -69,7 +69,7 @@ Click it to open a modal with automatically generated code you can copy and past
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1784673000&signature=13f67a7965bdc9afc18675de46888b3321106b1d064dc13aed4e97b190a3a3df&req=dSkiF892mIlZWfMW1HO4zcqH792Fzodtf3CUbx4Ru6UVd42c7RI7a15tRRTb%0AXpcwlC%2FLhnwHoVaZPm0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1784786400&signature=01d7d5f33df4b83c5c651ce5186cf6c4d355539a5059b326d88590e5eb1458cd&req=dSkiF892mIlZWfMW3nq%2BgdMIqXCHoPnaUsgVxhrsVKylG5CtOHqI1BymfrLK%0AI1q56oK5h3yTU97tFPUQKz6mNTc%3D%0A)
 
  
 
@@ -82,6 +82,27 @@ You must specify which websites can embed your artifact by entering URLs in the 
 After publishing an artifact, an “Unpublish” button appears, giving you the option to revoke access.
 
  
+
+---
+
+ 
+
+## Build on a published artifact
+
+If someone publishes an artifact you like, you can use it as a starting point for your own version. Copy the code into a new chat and ask Claude to make the changes you want. Your version is separate from the original, so nothing you do affects the artifact you started from.
+
+**To build on a published artifact**
+
+1. Open the published artifact and click “Copy” to copy the code to your clipboard.
+2. Start a new chat, paste the code, and describe the changes you want. For example: "Here's the code for a quiz game. Can you change the questions to be about movies and add a timer?"
+3. Claude creates a new artifact with your changes. Refine it from there the same way you would any artifact you made yourself.
+
+**What happens when you build on an artifact**
+
+- The code you paste becomes the starting point for a new artifact in your own chat.
+- You can modify it, expand on it, or use it as inspiration.
+- Your changes don't affect the original. You're working on your own copy.
+-  
 
 ---
 
@@ -100,7 +121,7 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 3. Click the “Share” button.
 4. Click “Share & copy link” to make this version shareable.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1784673000&signature=f2d6159a5ce1bfc8437e435729b8116aca6e1c8406309a3332915f4173cce5cb&req=dSkiF892nYBZWfMW1HO4zbvYOlXjKnqTK6hAzMpXfmNkAPRa5v31%2FXO%2BZ74q%0A7Dj3Eqzt8Okp5m2Q%2FUA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1784786400&signature=4d38d9fd45d76694c3a119edb41121da50897c495e4ca2bfe593dc23ef4dc264&req=dSkiF892nYBZWfMW3nq%2BgTxzBck2xfH9O%2BJZKxojvpmB25cbtoQqrvuGozMh%0A0%2BIGxg%2FCCEjARJoBlxQyLAllObc%3D%0A)
 
  
 
@@ -124,33 +145,9 @@ When you share an artifact, viewers also gain access to any attachments and file
 1. Click the “Share” button in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click “Unshare.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1784673000&signature=521decb47eb26b695e5d83c9882bda531b1210c89fe9766d01402f7a2db9f1bf&req=dSkiF895m4hdXvMW1HO4zW9Ewg27%2Fnezgj8mTHivCKZMcr0f958eFTcUoCcu%0AqFO5RxxMA%2FM9EchTmZY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1784786400&signature=b1f753471789119bcdb7f0d9b9bb21cdd0346f81f42306eedb77785c83ff1347&req=dSkiF895m4hdXvMW3nq%2BgYEYQxJALrurnUxxKTaHQUVqvlQpda0ZW8FVfPIg%0AiBugIo9%2Ft7WQNJf4SD5QAhHUgio%3D%0A)
 
- 
-
----
-
- 
-
-## Customize artifacts
-
-Customizing allows you to build upon and modify artifacts created and published by others:
-
-1. When viewing an artifact, look for the "Customize" button.
-2. Click the button to start a new Claude conversation with the artifact's content.
-3. You'll be redirected to Claude, where you can modify and interact with the artifact.
-4. If you don't have a Claude account, you'll be prompted to sign up.
-
- 
-
-### What happens when you customize
-
-- A new conversation is created for you with Claude
-- The original artifact's content is added to your conversation
-- You can modify, expand upon, or use the artifact as inspiration
-- Your changes don't affect the original—you're working on your own copy
-
- 
+  
 
 ---
 
