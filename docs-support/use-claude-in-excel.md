@@ -313,7 +313,7 @@ Users can approve all of Claude’s actions via a confirmation pop-up that appea
 - File system access: IMAGE, FILES, DIRECTORY, FOPEN, FWRITE, FCLOSE
 - System information: REGISTER.ID, RTD, INFO
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1784686500&signature=3cdc1c6f105a63aad246d6ae9afead7a7ec0e09fe438aa7a3837cf3c5282abc1&req=dSgjH819nIJeWfMW1HO4zYWKaOZtKtx3qAsRdssXCyB2rGwkzgBnvttTdCJw%0AAsZ3dgHxFgwFwb69g9w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1784700900&signature=d7440db4cd445c4325df27c7c0a9237f0f6a25b24d4fe787f8ae9aa51015638e&req=dSgjH819nIJeWfMW1HO4zYWKaOZsItp7qAsRdssXCyA7Aw8r0asTKTphMPb2%0AbVN3SeJPwcoxAwmIveA%3D%0A)
 
  
 
