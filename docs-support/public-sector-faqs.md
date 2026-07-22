@@ -10,7 +10,7 @@
 
 Select your product based on both your technical/functional requirements, and also your compliance/security/deployment environment requirements. Here is a list of options:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1784728800&signature=0d55a98ec31ef32ca18a4587fcd074e2b2aaf5967f1156f9b528b7148147e4c6&req=diEuEc5%2FmoBZWPMW1HO4zU94Ll0iH9U42WxtU42UVC0YPO%2FnVMjs%2BwRN%2FKvG%0A1ausJaKBGK7vozNHbwc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1784738700&signature=cd9e39e484f70b0c965ffee3cadc0a326013131a35346fc8a7fd4cbdd7032068&req=diEuEc5%2FmoBZWPMW1HO4zU94Ll0iHtU32WxtU42UVC2UGHYcJzrEWr2jPHWJ%0AF4%2BMUfqa1SP9rwOrqlo%3D%0A)
 
  
 
@@ -201,8 +201,8 @@ Learn more here: **[Offering expanded Claude access across all three branches of
 
 ## Related Articles
 
-- [What is Amazon Bedrock?](https://support.claude.com/en/articles/7996918-what-is-amazon-bedrock)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)
 - [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
+- [Covered Models](https://support.claude.com/en/articles/15425695-covered-models)

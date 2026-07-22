@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-22 13:28*
+*Last updated: 2026-07-22 16:22*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -46,7 +46,7 @@ Total documents: 253
 ### Add or update your Claude Console organization's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id.md`  
 **Source:** https://support.claude.com/en/articles/9889428-i-need-to-add-or-update-my-claude-console-organization-s-tax-or-vat-id  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-22  
 
 ### Add or update your Team plan's tax or VAT ID
 **File:** `/docs-support/i-need-to-add-or-update-my-team-plan-s-tax-or-vat-id.md`  
@@ -61,7 +61,7 @@ Total documents: 253
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-07-06  
+**Updated:** 2026-07-22  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -111,7 +111,7 @@ Total documents: 253
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-22  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -311,7 +311,7 @@ Total documents: 253
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-22  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -441,7 +441,7 @@ Total documents: 253
 ### How can I get higher rate limits on the Claude API?
 **File:** `/docs-support/how-can-i-advance-my-claude-api-usage-to-tier-2.md`  
 **Source:** https://support.claude.com/en/articles/10366389-how-can-i-advance-my-claude-api-usage-to-tier-2  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-22  
 
 ### How can I learn more about Claude API pricing?
 **File:** `/docs-support/how-can-i-learn-more-about-claude-api-pricing.md`  
@@ -611,7 +611,7 @@ Total documents: 253
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -731,7 +731,7 @@ Total documents: 253
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -741,7 +741,7 @@ Total documents: 253
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
 **Source:** https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
@@ -811,7 +811,7 @@ Total documents: 253
 ### Purchase and manage seats on Enterprise plans
 **File:** `/docs-support/purchase-and-manage-seats-on-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-22  
 
 ### Purchase and manage seats on Team plans
 **File:** `/docs-support/purchasing-and-managing-seats-on-team-plans.md`  
@@ -821,7 +821,7 @@ Total documents: 253
 ### Release notes
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-22  
 
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
@@ -836,7 +836,7 @@ Total documents: 253
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-22  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -856,7 +856,7 @@ Total documents: 253
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
 **Source:** https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-22  
 
 ### Roles and permissions
 **File:** `/docs-support/roles-and-permissions.md`  
@@ -976,7 +976,7 @@ Total documents: 253
 ### Use Claude for Education at your university
 **File:** `/docs-support/faqs-on-using-claude-for-education-at-your-university.md`  
 **Source:** https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-education-at-your-university  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-22  
 
 ### Use Claude for Excel
 **File:** `/docs-support/use-claude-in-excel.md`  
