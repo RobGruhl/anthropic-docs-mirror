@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-22 16:22*
+*Last updated: 2026-07-22 19:05*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -76,7 +76,7 @@ Total documents: 253
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
 **Source:** https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
@@ -166,7 +166,7 @@ Total documents: 253
 ### Claude 4 Invite Sweepstakes Official Rules
 **File:** `/docs-support/claude-4-invite-sweepstakes-official-rules.md`  
 **Source:** https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-22  
 
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
@@ -511,7 +511,7 @@ Total documents: 253
 ### How does Claude handle mathematical equations and calculations?
 **File:** `/docs-support/how-does-claude-handle-mathematical-equations-and-calculations.md`  
 **Source:** https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations  
-**Updated:** 2026-07-18  
+**Updated:** 2026-07-22  
 
 ### How is my Team plan bill calculated?
 **File:** `/docs-support/how-is-my-team-plan-bill-calculated.md`  
@@ -536,7 +536,7 @@ Total documents: 253
 ### How to create custom skills
 **File:** `/docs-support/how-to-create-custom-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512198-how-to-create-custom-skills  
-**Updated:** 2026-06-12  
+**Updated:** 2026-07-22  
 
 ### How to get support
 **File:** `/docs-support/how-to-get-support.md`  
@@ -831,7 +831,7 @@ Total documents: 253
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
@@ -1071,7 +1071,7 @@ Total documents: 253
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-22  
 
 ### Use the Claude widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  

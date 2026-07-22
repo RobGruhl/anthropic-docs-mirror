@@ -45,7 +45,7 @@ Yes, navigate to **[Settings > Memory](https://claude.ai/new#settings/customize-
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1784738700&signature=9327cdfdbd4e03afffff92d14a4968e7397000c3de817f73ef267c747828ef27&req=diUkFc12n4VcUPMW1HO4zY9IRA5rVtlwYNcz5nFaZkEByPQT%2BtnOpf6muX8F%0AcXD7DN3RjfqRH%2BdRZjc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1784748600&signature=f3cac5bc9f1f0bec3665db06604302596228592c974119034186bb98a7358fe1&req=diUkFc12n4VcUPMW1HO4zY9IRA5rUdlxYNcz5nFaZkHUxUBKwLKdm6ZBbQZT%0AtO30ycDYq2IIglUZbzA%3D%0A)
 
  
 
@@ -105,7 +105,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Memory](https
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1784738700&signature=5a50c2ddc1c2c0ba8278726b27ff46b4bbd9afb61f7a0712765881498b8d985e&req=diUkFc12n4VbWPMW1HO4zRlYrp9q4VgrNshWSMEMw9fXCPZ61XC47MenL6lt%0AtXd5XY1nGocHo%2B%2BYVkE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1784748600&signature=8f588d562c2bc31bf372cce79510e4ebdeca4dd9bb69c206b3151cfcab5fabcc&req=diUkFc12n4VbWPMW1HO4zRlYrp9q5lgqNshWSMEMw9fJK3i6NGm%2FoEJOmhyT%0AEwJu6QBQDshkEf2a%2Bck%3D%0A)
 
  
 
@@ -226,7 +226,7 @@ Yes, navigate to **[Settings > Capabilities](http://claude.ai/settings/capabilit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784738700&signature=b1d4dd4ff28985d0b52d186cec1366e0d346844682ade81167e6de87442ba51a&req=dScmH859nYlXUPMW1HO4zRzXH1s3IDnFJG68qZhl782C%2BlL7tlXyoxFdOALr%0Ahm5ZxFg3gyn9%2FKCYxfo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1784748600&signature=bae7173ef60a8a450c9706c3e0efc2da9d3d1d7c6b758986ca8aa1daf814f4e4&req=dScmH859nYlXUPMW1HO4zRzXH1s3JznEJG68qZhl783GWGlPg0pExICHXbvA%0ADMSpmMyRmsf3AwrEKGQ%3D%0A)
 
  
 
@@ -236,7 +236,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784738700&signature=df88cdffebd71754c4f56de6aa1293df219bd0afe24ed2e07141b7843ae21a96&req=dScmH859nYlWWvMW1HO4za54sKdrP468XDpzhlKsgjM0q0HH8Lt9GiNK%2F9KG%0AbL2%2FAbgQNOFMMK3CsJM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1784748600&signature=47836e58d73653ffba21ffe6584c0f7c59b4e6af152c6f775b58705fac72adae&req=dScmH859nYlWWvMW1HO4za54sKdrOI69XDpzhlKsgjOwRgM62uFUpJL6soTh%0A7usrziTL1gbXteIb%2FTM%3D%0A)
 
  
 
@@ -278,7 +278,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Capabilities]
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784738700&signature=aba29a2498d6a18b70fb9c2b1bb8a2ee952b5046de5c04c630c48e8e091e2460&req=dScmH859nYlWW%2FMW1HO4zTD5MMXhdOxCBq9N9dRTKYeBHASbjbj9%2F4NU79K%2F%0AZsgAc%2BC0tvDIk6pYkBo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1784748600&signature=2cf4142dcc9a415a4a2829bfb12bd65af478f27e2d4fa64fd75e69eb6e674b8c&req=dScmH859nYlWW%2FMW1HO4zTD5MMXhc%2BxDBq9N9dRTKYfR%2FRK%2B4f2G8NEJIQgw%0AZ3PsBDBd0wI18CUSLYY%3D%0A)
 
  
 
@@ -396,8 +396,8 @@ Team plans do not have organization-level controls for memory features. Individu
 
 ## Related Articles
 
+- [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
-- [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)

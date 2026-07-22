@@ -1,6 +1,6 @@
 # How to create custom skills
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -16,6 +16,59 @@ Skills can be as simple as a few lines of instructions or as complex as multi-fi
 - Define when they should be used
 - Are focused on one workflow rather than trying to do everything
 -  
+
+---
+
+ 
+
+## Record a skill
+
+Instead of writing a skill by hand, you can record yourself doing a task and let Claude build the skill from what it observes. You send Claude a video of your screen, clicks, typing, and voice, and Claude proposes a skill for you to review before you save it.
+
+ 
+
+### Before you record
+
+1. Update to the latest version of Claude for Mac.
+2. Grant the macOS permissions Claude asks for the first time you record: **Accessibility** for mouse and keyboard tracking, and **Screen recording** for screen visibility. macOS may ask you to restart Claude.
+3. Close any files, apps, or conversations you don't want captured.
+
+### Record your workflow
+
+1. Open Cowork in Claude for Mac.
+2. Start a recording one of two ways:
+2. 1. Click the "+" button in the composer, then select "Record a skill."
+2. Go to **[Customize > Skills](https://claude.ai/customize/skills)**, click "Add," then select "Record your screen."
+3. Click "Start recording." To narrate as you work, leave the microphone on. Use the microphone control to mute it or choose a different input.
+4. Do the task the way you normally would. The capture bar shows that recording is in progress and counts the steps it's captured.
+5. Click "Done" when you're finished, or "Discard" to throw the recording away without creating anything.
+
+A recording can run for about 10 minutes. A countdown appears in the capture bar when you have about a minute left. When it reaches zero, recording stops and everything you've captured up to that point is sent to Claude, the same as if you'd clicked "Done."
+
+### What happens after you click Done
+
+Claude starts a Cowork task and reviews the recording, then proposes a skill. Depending on what it finds, you'll see one of two things:
+
+- **A new skill,** marked **NEW** on the proposal card. Click "Save" to keep it, or "Dismiss" to discard the proposal.
+- **An update to an existing skill.** If the recording overlaps a skill you already have, Claude proposes changes to that skill instead. The card shows which skill the proposal is based on. Click "Update" to apply the changes, or "Dismiss" to discard them.
+
+Expand **Content** on the proposal card to read the skill before you decide.
+
+ 
+
+Skills you save from a recording appear in **[Customize > Skills](https://claude.ai/customize/skills)** and work like any other skill. You can edit them, share them, and delete them on the same terms.
+
+ 
+
+### What's kept from a recording
+
+The video and audio from your recording aren't retained. After you send your recording to Claude, Claude reviews the recording to build the skill. What's saved afterward is a set of screenshots from the session, which you can view by expanding the **Recorded demonstration** step in the task.
+
+ 
+
+Because those screenshots live in the Cowork task, deleting the task removes them. See **[Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)** for how task deletion and retention work.
+
+ 
 
 ---
 
@@ -250,8 +303,8 @@ Visit our repository on GitHub for example skills you can use as templates: **[h
 
 ## Related Articles
 
-- [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-- [Provision and manage skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
-- [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

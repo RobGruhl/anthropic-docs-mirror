@@ -1,9 +1,10 @@
 # Security Topic Index
-*Last updated: 2026-07-22 16:22*
+*Last updated: 2026-07-22 19:05*
 
-Documents related to Security across all sources (9 documents)
+Documents related to Security across all sources (10 documents)
 ---
-## Claude Code Documentation (2)
+## Claude Code Documentation (3)
+- [Claude Security](/code-claude-docs/claude-security.md)
 - [Security](/code-claude-docs/security.md)
 - [Security Guidance](/code-claude-docs/security-guidance.md)
 

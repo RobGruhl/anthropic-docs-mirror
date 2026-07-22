@@ -1,10 +1,11 @@
 # Administration Topic Index
-*Last updated: 2026-07-22 16:22*
+*Last updated: 2026-07-22 19:05*
 
-Documents related to Administration across all sources (7 documents)
+Documents related to Administration across all sources (8 documents)
 ---
-## Claude Code Documentation (7)
+## Claude Code Documentation (8)
 - [Analytics](/code-claude-docs/analytics.md)
+- [Claude Security](/code-claude-docs/claude-security.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
 - [Costs](/code-claude-docs/costs.md)
 - [Data Usage](/code-claude-docs/data-usage.md)

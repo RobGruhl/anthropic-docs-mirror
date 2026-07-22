@@ -1,15 +1,14 @@
 # Prompt Engineering Topic Index
-*Last updated: 2026-07-22 16:22*
+*Last updated: 2026-07-22 19:05*
 
-Documents related to Prompt Engineering across all sources (19 documents)
+Documents related to Prompt Engineering across all sources (18 documents)
 ---
-## Platform Documentation (platform.claude.com) (6)
+## Platform Documentation (platform.claude.com) (5)
 - [build-with-claude__prompt-engineering__claude-prompting-best-practices](/platform-docs/developer-guide/build-with-claude__prompt-engineering__claude-prompting-best-practices.md)
 - [build-with-claude__prompt-engineering__overview](/platform-docs/developer-guide/build-with-claude__prompt-engineering__overview.md)
 - [build-with-claude__prompt-engineering__prompting-claude-fable-5](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-fable-5.md)
 - [build-with-claude__prompt-engineering__prompting-claude-opus-4-8](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md)
 - [build-with-claude__prompt-engineering__prompting-claude-sonnet-5](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md)
-- [build-with-claude__prompt-engineering__prompting-tools](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-tools.md)
 
 ## Anthropic News & Announcements (1)
 - [Prompt engineering for business performance](/anthropic-news/prompt-engineering-for-business-performance.md) - Anthropic is an AI safety and research company that's working to build reliab...
