@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-23 01:58*
-Total documents: 543
+*Last updated: 2026-07-23 05:50*
+Total documents: 546
 ---
-## Uncategorized (543 documents)
+## Uncategorized (546 documents)
 ### about-claude__glossary
 **File:** `/platform-docs/about-claude__glossary.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/glossary  
@@ -16,17 +16,17 @@ Total documents: 543
 ### about-claude__models__choosing-a-model
 **File:** `/platform-docs/about-claude__models__choosing-a-model.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/choosing-a-model  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__models__introducing-claude-fable-5-and-claude-mythos-5
 **File:** `/platform-docs/about-claude__models__introducing-claude-fable-5-and-claude-mythos-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__models__migration-guide
 **File:** `/platform-docs/about-claude__models__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__models__model-ids-and-versions
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
@@ -36,17 +36,17 @@ Total documents: 543
 ### about-claude__models__overview
 **File:** `/platform-docs/about-claude__models__overview.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/overview  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__models__whats-new-claude-4-8
 **File:** `/platform-docs/about-claude__models__whats-new-claude-4-8.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__models__whats-new-sonnet-5
 **File:** `/platform-docs/about-claude__models__whats-new-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
@@ -771,7 +771,7 @@ Total documents: 543
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-connector  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### agents-and-tools__mcp-tunnels__concepts
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__concepts.md`  
@@ -846,12 +846,12 @@ Total documents: 543
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
@@ -931,12 +931,12 @@ Total documents: 543
 ### agents-and-tools__tool-use__tool-use-with-prompt-caching
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-use-with-prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching  
-**Updated:** 2026-06-27  
+**Updated:** 2026-07-23  
 
 ### agents-and-tools__tool-use__troubleshooting-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__troubleshooting-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
@@ -1693,11 +1693,6 @@ Total documents: 543
 **Source:** https://platform.claude.com/docs/en/api/beta/webhooks  
 **Updated:** 2026-07-22  
 
-### build-with-claude__adaptive-thinking
-**File:** `/platform-docs/build-with-claude__adaptive-thinking.md`  
-**Source:** https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking  
-**Updated:** 2026-07-17  
-
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/batch-processing  
@@ -1716,27 +1711,27 @@ Total documents: 543
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1746,17 +1741,17 @@ Total documents: 543
 ### build-with-claude__context-editing
 **File:** `/platform-docs/build-with-claude__context-editing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-editing  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__context-windows
 **File:** `/platform-docs/build-with-claude__context-windows.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/context-windows  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/effort  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__embeddings
 **File:** `/platform-docs/build-with-claude__embeddings.md`  
@@ -1766,7 +1761,7 @@ Total documents: 543
 ### build-with-claude__extended-thinking
 **File:** `/platform-docs/build-with-claude__extended-thinking.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/extended-thinking  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__fallback-credit
 **File:** `/platform-docs/build-with-claude__fallback-credit.md`  
@@ -1806,7 +1801,7 @@ Total documents: 543
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/overview  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
@@ -1816,12 +1811,12 @@ Total documents: 543
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__prompt-engineering__claude-prompting-best-practices
 **File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__prompt-engineering__overview
 **File:** `/platform-docs/build-with-claude__prompt-engineering__overview.md`  
@@ -1831,7 +1826,7 @@ Total documents: 543
 ### build-with-claude__prompt-engineering__prompting-claude-fable-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-fable-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__prompt-engineering__prompting-claude-opus-4-8
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md`  
@@ -1841,12 +1836,12 @@ Total documents: 543
 ### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
@@ -1861,22 +1856,42 @@ Total documents: 543
 ### build-with-claude__streaming
 **File:** `/platform-docs/build-with-claude__streaming.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/streaming  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/task-budgets  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
+
+### build-with-claude__thinking-steering-and-cost
+**File:** `/platform-docs/build-with-claude__thinking-steering-and-cost.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost  
+**Updated:** 2026-07-23  
+
+### build-with-claude__thinking-tool-workflows
+**File:** `/platform-docs/build-with-claude__thinking-tool-workflows.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows  
+**Updated:** 2026-07-23  
+
+### build-with-claude__thinking-troubleshooting
+**File:** `/platform-docs/build-with-claude__thinking-troubleshooting.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/thinking-troubleshooting  
+**Updated:** 2026-07-23  
+
+### build-with-claude__thinking
+**File:** `/platform-docs/build-with-claude__thinking.md`  
+**Source:** https://platform.claude.com/docs/en/build-with-claude/thinking  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/token-counting  
-**Updated:** 2026-07-17  
+**Updated:** 2026-07-23  
 
 ### build-with-claude__vision-coordinates
 **File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
@@ -1906,7 +1921,7 @@ Total documents: 543
 ### claude_api_primer
 **File:** `/platform-docs/claude_api_primer.md`  
 **Source:** https://platform.claude.com/docs/en/claude_api_primer  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### cli-sdks-libraries__cli__authentication
 **File:** `/platform-docs/cli-sdks-libraries__cli__authentication.md`  
@@ -1916,7 +1931,7 @@ Total documents: 543
 ### cli-sdks-libraries__cli__quickstart
 **File:** `/platform-docs/cli-sdks-libraries__cli__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### cli-sdks-libraries__cli__scripting
 **File:** `/platform-docs/cli-sdks-libraries__cli__scripting.md`  
@@ -1936,7 +1951,7 @@ Total documents: 543
 ### cli-sdks-libraries__libraries__openai-sdk
 **File:** `/platform-docs/cli-sdks-libraries__libraries__openai-sdk.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/openai-sdk  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### cli-sdks-libraries__middleware
 **File:** `/platform-docs/cli-sdks-libraries__middleware.md`  
@@ -1961,7 +1976,7 @@ Total documents: 543
 ### cli-sdks-libraries__sdks__java
 **File:** `/platform-docs/cli-sdks-libraries__sdks__java.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/java  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### cli-sdks-libraries__sdks__php
 **File:** `/platform-docs/cli-sdks-libraries__sdks__php.md`  
@@ -2256,7 +2271,7 @@ Total documents: 543
 ### errors
 **File:** `/platform-docs/errors.md`  
 **Source:** https://platform.claude.com/docs/en/api/errors  
-**Updated:** 2026-07-20  
+**Updated:** 2026-07-23  
 
 ### get-api-key
 **File:** `/platform-docs/get-api-key.md`  
@@ -2266,7 +2281,7 @@ Total documents: 543
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### intro
 **File:** `/platform-docs/intro.md`  
@@ -2301,7 +2316,7 @@ Total documents: 543
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### manage-claude__authentication
 **File:** `/platform-docs/manage-claude__authentication.md`  
@@ -2336,7 +2351,7 @@ Total documents: 543
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-23  
 
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
@@ -2346,17 +2361,17 @@ Total documents: 543
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-23  
 
 ### manage-claude__compliance-content-data
 **File:** `/platform-docs/manage-claude__compliance-content-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-content-data  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-23  
 
 ### manage-claude__compliance-errors
 **File:** `/platform-docs/manage-claude__compliance-errors.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-errors  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-23  
 
 ### manage-claude__compliance-faq
 **File:** `/platform-docs/manage-claude__compliance-faq.md`  
@@ -2366,12 +2381,12 @@ Total documents: 543
 ### manage-claude__compliance-integration-patterns
 **File:** `/platform-docs/manage-claude__compliance-integration-patterns.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-23  
 
 ### manage-claude__compliance-org-data
 **File:** `/platform-docs/manage-claude__compliance-org-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-org-data  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-23  
 
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
@@ -2531,7 +2546,7 @@ Total documents: 543
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
@@ -2551,7 +2566,7 @@ Total documents: 543
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
@@ -2661,7 +2676,7 @@ Total documents: 543
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### release-notes__system-prompts
 **File:** `/platform-docs/release-notes__system-prompts.md`  

@@ -1,18 +1,19 @@
 # How Anthropic enables self-service data analytics with Claude
+*June 3, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
 # How Anthropic enables self-service data analytics with Claude
 
-- KategorieKeine Elemente gefunden.
+- CategoryEnterprise AI
 
-- ProduktClaude Code
+- ProductClaude Code
 
-- Datum3.6.2026
+- DateJune 3, 2026
 
-- Lesezeit5Min
+- Reading time5min
 
-- TeilenLink kopierenhttps://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
+- ShareCopy linkhttps://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
 
 As many data science and data engineering teams can attest, enabling self-service business analytics has traditionally been a slog.
 
@@ -62,53 +63,29 @@ We’ve identified three attributes of this problem that account for an overwhel
 
 ## Our agentic analytics stack
 
-‍
-
 At Anthropic, the main way we minimize these three errors is via our agentic data stack. Each layer exists primarily to attack one or more of these problems:
-
-‍
 
 - Entity ambiguity: data foundations and sources of truth shrink the space of plausible entities until there's a single governed answer.
 
-‍
-
 - Staleness: maintenance and validation processes keep everything from rotting as the business changes.
-
-‍
 
 - Retrieval failure: skills make sure the agent reliably finds and correctly uses that answer.
 
-‍
-
 In this section, we’ll discuss how we built each layer.
-
-‍
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef72_74528df2.png)
 
-‍
-
 ### Data foundations
-
-‍
 
 The most important aspect of ensuring analytics agents are accurate is via strong data foundations, which include the data models, transforms, tests, and tables in a data warehouse, along with the metadata describing them. Standard data engineering and data quality practices such as[dimensional modeling](https://en.wikipedia.org/wiki/Dimensional_modeling), shift-left testing, freshness and completeness checks on critical pipelines all still apply (and we won't relitigate these).
 
-‍
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef75_98412372.png)
-
-Standard data engineering practices like dimensional modeling are just as important as they ever were.
-
-‍
 
 What does change is that the end user of your data model is no longer a data expert (e.g. data scientist), but rather agents acting on behalf of users with varying degrees of data expertise or understanding of the underlying infrastructure. This shift presents a challenge in that the results can’t require the user to validate the underlying correctness simply because the end user doesn’t know.
 
 The data foundations layer is aimed primarily at ambiguity: ifrevenue, for example, resolves to one governed dataset instead of forty plausible candidates, the problem largely disappears before the agent ever has to search. It's also where the first staleness defense lives, since the same repo that defines the canonical models is the natural place to enforce that they stay current.
 
 We’ve seen a few practices work especially well:
-
-‍
 
 - Create canonical datasets: By far the most common failure is that the agent can’t map a concept (“revenue for product X”) to the single correct table, column, and metric definition, usually because there are multiple plausible candidates with subtly different implementations. The fix is fewer, more heavily governed logical models: curate a small set of canonical, single source-of-truth datasets that are clearly owned, consumption-ready, and discoverable, then aggressively deprecate the near-duplicates. Physical rollups and caches still matter for cost and performance, but they should derive mechanically from the canonical models rather than living alongside them as alternatives. The goal is that when an agent searches for a concept, it finds a single governed answer.
 
@@ -118,13 +95,9 @@ We’ve seen a few practices work especially well:
 
 - Treat metadata as a first-class product: Coding agents perform well partly because codebases arelegible: READMEs, type signatures, docstrings, etc. Your warehouse can be just as legible, but only if column and table descriptions, canonical metric definitions, grain documentation, valid value ranges, lineage, ownership, and model tiering are maintained with the same rigor as the transformations themselves. While not a new insight, good governance provides critical context that helps the agent choose the right dataset.
 
-‍
-
 ### Sources of truth
 
 If data foundations are the data warehouse itself, sources of truth are the reference surfaces the agent consults to navigate it. This layer reduces concept <> entity ambiguity and turns “weekly active users” in a stakeholder’s question into a specific, governed entity in your data model. Roughly in descending order of trust:
-
-‍
 
 - Semantic layer:the compiled metric and dimension definitions. If a question maps cleanly to a defined metric, the agent calls a function and gets one number, the same number every other surface in the company produces. Our agents arestructurally required(by skill instruction) to leverage the semantic layer first (see the appendix). One idea we tried thatdidn’twork: bootstrapping the semantic layer by having an LLM auto-generate metric definitions from raw tables and query logs. It produced plausible-looking definitions that encoded the very ambiguities we were trying to eliminate, and was net-negative on our evals versus a smaller, human-curated layer. Therefore we recommend generating thedocumentationwith Claude, but having a human own thedefinition.
 
@@ -134,123 +107,66 @@ If data foundations are the data warehouse itself, sources of truth are the refe
 
 - Business context:the layer most teams skip, and the one we underrated the longest. An agent that doesn’t understand your business will answer what the user asked, but not what they meant. It won’t know that “the Q2 launch” refers to a specific product, that two teams define the same term differently, or that a question is being asked because a board meeting is on Thursday. We pipe in a company knowledge graph consisting of indexed docs, roadmaps, decision logs, and our organizational structure so the agent can resolve ambient references and ask better clarifying questions.
 
-‍
-
 The common failure pattern across all four is the same one from the data foundations layer:poor or stale documentation. Claude is exceptionally useful for closing the gap (drafting column descriptions, proposing metric docs from query patterns, flagging undocumented models in CI), but the curation and ownership are managed by humans.
 
-‍
-
-In the next two sections, we discuss how to makethat ownership cheap enough that it actually happens.
-
-‍
+In the next two sections, we discuss how to make that ownership cheap enough that it actually happens.
 
 ### Skills
 
 If the sources of truth are the agent'sdeclarativeknowledge (i.e., what a metric means) then a skill is itsproceduralknowledge: which sources to consult in what order, how to navigate ambiguous data, and what a finished analysis looks like.
 
-‍
-
 In Claude Code, a[skill](https://code.claude.com/docs/en/skills)is a folder of markdown the agent reads on demand. At Anthropic, the [skill](https://code.claude.com/docs/en/skills)s we developed are hugely value additive. Without [skill](https://code.claude.com/docs/en/skills)s, Claude’s ability to answer analytics questions accurately didn’t exceed 21% on our evals. Adding [skill](https://code.claude.com/docs/en/skills)s gets these numbers consistently above 95% in aggregate and regularly around 99% in certain domains. See the appendix for a skeleton we use to create a majority of our [skill](https://code.claude.com/docs/en/skills)s.
-
-‍
 
 Some best practices:
 
-‍
-
 Create pairwise skills:aknowledgeskill acts as a thin top-level router that allows additional domain details to load on demand. It says "try the semantic layer first, but if there’s no coverage, here are ~30 reference files for this domain describing the relevant tables, columns, joins and gotchas.” This router is, in effect, our answer to retrieval failure: rather than letting the agent search a million-field warehouse, it narrows the space to a few dozen curated files before a query is ever written. Therunbookskill encodes the process a senior analyst would follow: clarify the question, find sources (via the knowledge skill), run the query, and then loop the result through adversarial review sub-agents. It also bundles a dozen reusable analysis patterns (retention curves, rate decomposition, funnel analysis) so that common requests don't get reinvented each time.
-
-‍
 
 Create proper reference docs: written for retrieval by an LLM. Our reference docs describe tables (grain, scope, and exclusions), the mechanics of gotchas (e.g., “exclude known free-email domains, but keep custom ones like anthropic.com”), and explicit routing triggers (e.g., “IF the question is about experiment lift… DO NOT use for raw event counts”) without prescriptive recipes that go stale. See below for a skeleton we use to create reference docs.
 
-‍
-
+```
 # [Domain] Tables
 
-‍
-
 ## Quick Reference
-
 ### Business Context — [what this domain means in plain words]
-
 ### Entity Grain — [what one row represents]
-
 ### Standard Hygiene Filter — [the filter every query in this domain applies]
 
-‍
-
 ## Dimensions
-
 - [How the key dimensions are encoded, and how the same concept is named
-
-differently across tables]
-
-‍
+  differently across tables]
 
 ## Key Tables
-
 ### [table_name]
-
 - **Grain**: [...] · **Scope/exclusions**: [...]
-
 - **Usage**: [when to use it, when NOT to, join keys, required filters]
-
 [... one short section per governed table ...]
 
-‍
-
 ## Gotchas
-
 - [The wrong-answer modes a senior analyst would warn you about]
 
-‍
-
 ## Best Practices / Common Query Patterns
-
 - [Default choices, standard cuts, worked patterns where the exact query
-
-form is the hard part]
-
-‍
+  form is the hard part]
 
 ## Cross-References
-
 - [Neighboring domain docs that own adjacent questions]
-
-‍
+```
 
 Treat skill maintenance as a first class citizen: Skill docs describe a data model that changes daily, so without active maintenance they're wrong within weeks. We watched our offline accuracy drift from ~95% at launch to ~65% over a month before we treated this as an engineering problem. That meant colocating skill markdown files in the same repo as our transformation models, so the PR that changes a model is the same PR that updates the doc describing it. A code-review hook flags any reporting-model change that doesn't touch a skill file. Roughly 90% of our data-model PRs now include a skill change in the same diff. We also regularly prune skill scaffolding as models improve and previous failure modes no longer apply.
 
-‍
-
 Create a consistent and seamless experience across all surfaces: the same skillmustprovide the same answer to questions in Slack, in the IDE, in a dashboard tool, and in standalone agent sessions. We did this by ensuring one canonical source (the data repo) and that skill changes are synced automatically. On merge, the skill syncs to a plugin marketplace (for IDE users), to cloud-storage blobs (for hosted apps that read a single file), and is served directly as resources over MCP. We also designed for portability from the start by avoiding hardcoded repo paths and surface-specific namespaces.
-
-‍
 
 ### Validation
 
 Finally, validation is how you find out which of the three failure modes is still leaking through.
 
-‍
-
 #### Offline evaluations
-
-‍
 
 A common pattern we see is that data teams will set up elaborate analytic environments without having any process to understand the accuracy of their analytics agents.
 
-‍
-
 One way of addressing this gap is via offline evals, which are simple question / answer pairs. You can think of offline evals similar to offline testing for an ML model in that they don’t tell you the performance of your online agents, but they do give you a good sense of whether you’ll have any critical gaps.
 
-‍
-
 We deploy two kinds of offline evals at Anthropic.Dashboard-based evalsare auto-generated by Claude (then human validated), covering the most common stakeholder questions.Long tail evalsare where we feed Claude business context (roadmaps, table docs) and have it generate plausible questions across the rest of the domain. We also continuously harvest every time a stakeholder corrects the agent in a thread as that correction is a candidate eval.
-
-‍
-
-‍
 
 Other best practices, include:
 
@@ -264,19 +180,11 @@ Other best practices, include:
 
 - Offline eval accuracy should be ~100%; every correct answer should also be hitting your semantic layer (if you have one). Again, this level of accuracy doesn’t tell you your system isn’t going to produce a wrong answer, just that there are no obvious gaps, assuming you have proper eval coverage.
 
-‍
-
 #### Ablation techniques
-
-‍
 
 Every structural decision about the skill (e.g., which sources to expose, whether a sub-agent earns its latency, whether to merge two skills into one) is made by holding our offline eval set fixed.
 
-‍
-
 We vary exactly one component and compare pass rates. Each run only takes an hour and replaces a lot of arguments. The methodology matters more than any single result:
-
-‍
 
 - Design for null results.Our most useful ablation was a negative one. We gave the agent direct grep access to our entire dashboard, transformation, and analyst-notebook SQL (thousands of files). We then verified in transcripts that it actually read them before every answer. Accuracy moved by less than a point in either direction. We then checked the obvious confounds: was the answer actually in the corpus for the questions it got wrong? About 80% of the time, yes. Did "answer present" predict "now gets it right"? No, the flip rate was flat. The information was there, the agent saw it, and it still didn’t use it. That single experiment told us our bottleneck wasn'taccessto prior work, it wasstructure(i.e., mapping a question to the right entity). That insight redirected months of roadmap.
 
@@ -284,15 +192,9 @@ We vary exactly one component and compare pass rates. Each run only takes an hou
 
 - Keep a short list of what didn't work.Two of ours: stacking additional rounds of doc refinement past a certain point (we hit three consecutive net-negative iterations: the docs were getting longer, not better), and swapping the adversarial reviewer to a cheaper model to cut latency (it lost most of the accuracy wins, for no real speedup). Negative results are cheap to record and they prevent the next person from re-running the same experiment.
 
-‍
-
 #### Online validation
 
-‍
-
 The final step is ensuring the actual online system performance is as accurate as possible. Some of the steps we take include:
-
-‍
 
 - Adversarial review: we’ve found that employing a Claude skill to aggressively challenge all underlying assumptions on a potential final answer increased accuracy by 6% within our eval set, but at the cost of 32% more tokens and 72% higher latency.
 
@@ -304,23 +206,13 @@ The final step is ensuring the actual online system performance is as accurate a
 
 - Active correction harvesting: the part that closes the loop. A scheduled agent scans stakeholder channels every few hours for similar correction language, drafts a one-line fix to the relevant reference doc, and opens a PR tagged to the domain owner. The fix path is deliberately boring — edit a markdown file, merge, auto-sync everywhere — so a domain owner doesn’t spend too much time on the task. The same corrections feed back into the offline eval set.
 
-‍
-
 The failure mode none of this fully catches is thesilentone. The answer is wrong, but looks plausible and is used without objection. Our mitigations are the provenance footer, explicit human sign-off on anything leadership-bound, and a standing eval for each domain's top KPIs that sanity-checks against the blessed dashboard daily, though we don’t have a robust solution yet.
-
-‍
 
 ## Getting started
 
-‍
-
 If you're starting from zero, a handful of canonical datasets, a few dozen offline evals, and a thin knowledge skill will capture most of the upside; everything else in this post is what we added once those were built.
 
-‍
-
 We also shared many best practices, and not all of them will be appropriate for every data team. Align with your organization on a few principles that will affect your approach by asking:
-
-‍
 
 - How important is a correct answer today vs. in the future? AI models are progressing at a rapid pace. We often see companies building a significant amount of infrastructure to account for current model shortfalls that become moot once those models improve. Knowing where models fall short, and waiting for model improvements to fill the gap has significantly less overhead, but may not fit your company’s risk tolerance.
 
@@ -332,336 +224,189 @@ We also shared many best practices, and not all of them will be appropriate for 
 
 - What is your comfort around access controls and internal data privacy? Agents are often significantly more performant the more context they have; however, broad data access cuts against most companies' governance posture. This determines whether you're building one agent or many scoped ones.
 
-‍
-
 Whatever your route, our greatest gains have come from addressing each of the three failure modes: collapsing ambiguity into a single governed answer, making the answer easily discoverable, and flagging when either has gone stale.
-
-‍
 
 This article was written by Chen Chang, Clement Peng, Justin Leder, Johanne Jiao, and Josh Cherry, members of the Data Science and Data Engineering team. The authors would like to thank Michael Segner for his contributions.
 
-‍
-
 ## Appendix
-
-‍
 
 #### Skill File Skeleton
 
 What follows is the skeleton of our main warehouse skill: the real file's structure, with internal specifics replaced by [bracketed placeholders]. It isn't meant to be copied verbatim; it's meant to show the kinds of sections we found worth writing down.
 
-‍
-
+```
 ---
-
 name: [warehouse-skill]
-
 version: [x.y.z]
-
 description: "IF the user asks to query [the company]'s data warehouse for any
-
-[list of business domains] question — THEN invoke this skill. DO NOT invoke
-
-for [adjacent engineering tasks] or questions with no data-warehouse component."
-
+  [list of business domains] question — THEN invoke this skill. DO NOT invoke
+  for [adjacent engineering tasks] or questions with no data-warehouse component."
 ---
-
-‍
 
 # [Warehouse] Skill Instructions
 
-‍
-
 ## Description
-
 The single source of truth for safe and effective [warehouse] querying.
-
 Referenced by other skills [listed] for query execution guidance.
 
-‍
-
 Act as a Data Analyst, providing strategic insights and data-driven
-
 recommendations but seek guidance along the way.
 
-‍
-
 **Out-of-scope decisions**: [product areas, etc.] → surface data only,
-
 state "decision is [owning team]'s call", do NOT take a position or author
-
 code fixes.
 
-‍
-
 ## Executing queries
-
 Priority:
-
 1. **[Managed connection]** (if available): [query tool] / [schema tool]
-
 2. **[CLI fallback]** (if installed): [default project, fallback project]
-
 3. **Neither** — ask the user to authenticate, then stop
 
-‍
-
 ---
-
-‍
 
 # Semantic Layer (REQUIRED first step)
 
-‍
-
 The governed semantic layer is the **mandatory default path** for every data
-
 question — same numbers as [the BI tool], joins/grain/filters baked in. Raw SQL
-
 via the reference docs below is the **fallback**, used only after the
-
 semantic-layer path is shown not to cover the ask.
 
-‍
-
 ## Required workflow
-
 1. **Load** — [how to load the semantic layer in each runtime, with fallbacks]
-
 2. **Discover** — search measures/dimensions by keyword; **always check
-
-segments** (the named canonical population filters — hand-rolled WHERE
-
-clauses for these are the dominant wrong-answer mode)
-
+   segments** (the named canonical population filters — hand-rolled WHERE
+   clauses for these are the dominant wrong-answer mode)
 3. **Compile + run** — build the spec → compile to SQL → execute
-
 4. **Fallback** — only if discovery finds no relevant metric or compile fails
-
-→ raw SQL via `references/*.md` (PART 3 below)
-
-‍
+   → raw SQL via `references/*.md` (PART 3 below)
 
 > **Don't bail early.** Do NOT fall back to raw SQL on these grounds:
-
 > - "[custom date filtering / cohorts]" → [covered by time-dimension specs]
-
 > - "[needs a join]" → [the metric layer already encapsulates its joins]
-
 > - [3–4 more pre-rebutted excuses agents use to skip the semantic layer]
 
-‍
-
 ### Date windows & timezone — decide before you query
-
 - **As-of date vs trailing-N days**: [convention for each]
-
 - **"Last week/month"** → the last *complete* calendar week/month, not trailing-7/30
-
 - **Timezone default**: [TZ]; [exception for certain reporting rollups]
-
 - **Freshness lag**: [some] tables settle late — anchor on MAX(date), not "yesterday"
 
-‍
-
 ---
-
-‍
 
 # PART 1: MUST KNOW (Read First for Every Request)
 
-‍
-
 ## 🚀 Quick Start Workflow
-
 1. **Check for red flags first**: [restricted/PII requests, gated domains,
-
-high-stakes asks that need extra validation]
-
+   high-stakes asks that need extra validation]
 2. **Out of scope — escalate, don't guess**: [access requests, pipeline
-
-troubleshooting, stale dashboards, root-cause assertions, product/pricing
-
-recommendations] → redirect to [the owning team], don't answer
-
+   troubleshooting, stale dashboards, root-cause assertions, product/pricing
+   recommendations] → redirect to [the owning team], don't answer
 3. **Clarify the request**: time period, segment, the business decision it informs
-
 4. **Check for existing dashboards**: [per-domain dashboard catalogs]
-
 5. **Identify the data source**: [navigation map below; prefer governed/aggregated tables]
-
 6. **Execute the analysis**: [required filters + adversarial review]
-
 7. **Deliver insights**: show methodology, differentiate observations from interpretations
-
-‍
 
 ## 🏢 Business Context
 
-‍
-
 ### Entity Disambiguation (MUST CLARIFY)
-
 - **"[Term A]" can mean**: [entity 1] or [entity 2] — always clarify which
-
 - **"[Term B]" can mean**: [entity 1] → [entity 2] → [entity 3] (one-to-many chain)
-
 - **"Users"**: [which identifier gives accurate counts, and which ones inflate them]
 
-‍
-
 ### Business Terminology
-
 - [Current product names vs deprecated aliases that still appear as frozen
-
-values in the data layer — write with the new names, filter with the old]
-
+  values in the data layer — write with the new names, filter with the old]
 - [Key internal acronyms]
-
 - **[Headline metric] calculations**: [monthly / default window / leading indicator]
-
 - **Unfamiliar terms — search [internal docs], don't guess**
 
-‍
-
 ### Data Integrity Requirements ⚠️
-
 - **NEVER**: make up data/columns; make speculative assertions beyond what data shows
-
 - **ALWAYS**: use safe division; differentiate observations ("data shows X")
-
-from interpretations ("this suggests Y"); flag limitations
-
-‍
+  from interpretations ("this suggests Y"); flag limitations
 
 ---
-
-‍
 
 # PART 2: HOW TO DO (Follow During Execution)
 
-‍
-
 ## 🔧 Technical Execution Guide
-
 - [Managed-connection tools and CLI invocation details]
-
 - **PII protection**: for restricted data, return the SQL for the user to run
-
-themselves — do not return results
-
-‍
+  themselves — do not return results
 
 ## 📊 Analysis Best Practices Guide
-
 1. Clarify the ask before querying
-
 2. Show your work (filters, inclusions/exclusions, freshness)
-
 3. Clarify denominators
-
 4. Consider sample bias
-
 5. Connect to business impact
-
 6. **Adversarial SQL review (MANDATORY)** — spawn the [sql-reviewer] sub-agent
-
-for every query before the final answer; blocking findings must be fixed
-
-and re-reviewed; do not self-certify
-
+   for every query before the final answer; blocking findings must be fixed
+   and re-reviewed; do not self-certify
 7. **Report with provenance** — every answer ends with a footer:
-
-> **Source:** [semantic layer | governed table | raw exploration] ·
-
-> **Confidence:** [tier] · **Reviewed:** [reviewer ✓, round N] ·
-
-> **Freshness:** [max date in the data] · **Owner:** [owning team]
-
-‍
+   > **Source:** [semantic layer | governed table | raw exploration] ·
+   > **Confidence:** [tier] · **Reviewed:** [reviewer ✓, round N] ·
+   > **Freshness:** [max date in the data] · **Owner:** [owning team]
 
 ---
-
-‍
 
 # PART 3: DATA REFERENCES & RESOURCES
 
-‍
-
 ## 📚 Knowledge Base Navigation
-
 ### [Domain A] → `references/[domain_a].md`
-
 - **Use for**: [kinds of questions]
-
 - **Key tables**: [...]
-
 - **Dashboards**: `references/[domain_a]_dashboards.json`
 
-‍
-
 ### [Domain B] → `references/[domain_b].md`
-
 - **Use for**: [...]
-
-‍
 
 [... one entry per business domain — a few dozen in total ...]
 
-‍
-
 ## ⚠️ Troubleshooting Guide
 
-‍
-
 ### When Information Is Missing
-
 - [missing tables / access denied / outdated docs / unknown enum values → what to do]
 
-‍
-
 ### Field Naming Gotchas
-
 - Use `[field_x_v2]` NOT `[field_x]`
-
 - [Two similarly-named tables report the same metric at different grains — which to use]
-
 - [Which of two plausible sources is canonical for the headline metric]
-
 - [… a dozen more hard-won one-liners …]
 
-‍
+```
 
-Häufig gestellte Fragen
+FAQ
 
-## Ähnliche Beiträge
+## Related posts
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-### A harness for every task: dynamic workflows in Claude Code
+### How Anthropic secures its AI-native software development lifecycle
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-### How Claude Code works in large codebases: Best practices and where to start
+### How Datadog built a “universal machine tool” for Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
-### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
+### How Anthropic runs large-scale code migrations with Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
+### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+## Transform how your organization operates with Claude
 
-Entwickler-Newsletter abonnieren
+Get the developer newsletter
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/de/blog/how-anthropic-enables-self-service-data-analytics-with-claude
+**Source:** https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

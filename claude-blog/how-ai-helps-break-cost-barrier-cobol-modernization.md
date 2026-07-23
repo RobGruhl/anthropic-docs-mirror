@@ -114,10 +114,6 @@ FAQ
 
 Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
-### How to scale agentic coding across your engineering organization
-
 ## Trasforma le operazioni della tua azienda con Claude
 
 Ricevi la newsletter sullo sviluppo

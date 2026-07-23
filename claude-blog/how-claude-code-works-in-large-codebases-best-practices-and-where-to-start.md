@@ -1,4 +1,5 @@
 # How Claude Code works in large codebases: Best practices and where to start
+*May 14, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part ofClaude Code at scale, a new series covering best practices for engineering organizations building with Claude Code at enterprise scale.
 
-- CategoriaIA aziendale
+- CategoryEnterprise AI
 
-- ProdottoClaude Code
+- ProductClaude Code
 
-- Data14/5/26
+- DateMay 14, 2026
 
-- Tempo di lettura5min
+- Reading time5min
 
-- CondividiCopia linkhttps://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+- ShareCopy linkhttps://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 
 Claude Code is running in production across multi-million-line monorepos, decades-old legacy systems, distributed architectures spanning dozens of repositories, and at organizations with thousands of developers. These environments present challenges that smaller, simpler codebases don’t, whether that’s build commands that differ across every subdirectory or legacy code spread across folders with no shared root.
 
@@ -126,26 +127,34 @@ Acknowledgements:Special thanks to Alon Krifcher, Charmaine Lee, Chris Concannon
 
 FAQ
 
-## Articoli correlati
+## Related posts
 
-Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-### Come i team di Anthropic utilizzano Claude Code
+### How Anthropic secures its AI-native software development lifecycle
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-### Come Brex migliora la qualità del codice e la produttività con Claude Code
+### How Datadog built a “universal machine tool” for Claude Code
 
-## Trasforma le operazioni della tua azienda con Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
-Ricevi la newsletter sullo sviluppo
+### How Anthropic runs large-scale code migrations with Claude Code
 
-Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 
-Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
+### Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/it/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+**Source:** https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

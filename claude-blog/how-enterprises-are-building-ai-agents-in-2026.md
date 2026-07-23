@@ -70,17 +70,17 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ### A harness for every task: dynamic workflows in Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### How Claude Code works in large codebases: Best practices and where to start
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
-### How Anthropic enables self-service data analytics with Claude
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+
+### Claude für die Rechtsbranche
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

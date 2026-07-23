@@ -1,4 +1,5 @@
 # The founder's playbook: Building an AI-native startup
+*May 14, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
@@ -6,15 +7,15 @@
 
 We share how founders are using AI at every stage of the startup journey, with practical exercises, frameworks, and prompts for using Claude.
 
-- KategorieClaude Code
+- CategoryClaude Code
 
-- ProduktClaude PlatformClaude CodeClaude Apps
+- ProductClaude CoworkClaude PlatformClaude CodeClaude apps
 
-- Datum14.5.2026
+- DateMay 14, 2026
 
-- Lesezeit5Min
+- Reading time5min
 
-- TeilenLink kopierenhttps://claude.com/blog/the-founders-playbook
+- ShareCopy linkhttps://claude.com/blog/the-founders-playbook
 
 AI is reshaping how startups are being built. Founders who've never written a line of code before are shipping production applications, reaching revenue before scaling headcount, and building tools to automate their most tedious workflows. The founder's role is shifting from individual contributor to orchestrator, allowing them to focus on the work only they can do.
 
@@ -48,36 +49,36 @@ Get started with[Claude](https://claude.com/programs/startups)today.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-Häufig gestellte Fragen
+FAQ
 
-## Ähnliche Beiträge
+## Related posts
 
-Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
+Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
 
-### A harness for every task: dynamic workflows in Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### How Claude Code works in large codebases: Best practices and where to start
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
-
-### How Anthropic enables self-service data analytics with Claude
+### Building verification loops in Claude Code with skills
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
+### How Outtake built a cyber investigator on Claude
 
-## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-Entwickler-Newsletter abonnieren
+### How Anthropic secures its AI-native software development lifecycle
 
-Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
-Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
+### How Datadog built a “universal machine tool” for Claude Code
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/de/blog/the-founders-playbook
+**Source:** https://claude.com/blog/the-founders-playbook
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

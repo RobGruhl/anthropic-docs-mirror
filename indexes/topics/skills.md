@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-07-23 01:58*
+*Last updated: 2026-07-23 05:50*
 
-Documents related to Skills across all sources (44 documents)
+Documents related to Skills across all sources (45 documents)
 ---
 ## Platform Documentation (platform.claude.com) (16)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -36,9 +36,10 @@ Documents related to Skills across all sources (44 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (19)
+## Claude.com Blog Posts (20)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
+- [Building verification loops in Claude Code with skills](/claude-blog/building-verification-loops-in-claude-code-with-skills.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude for Excel 및 Claude for PowerPoint 향상](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn

@@ -1,4 +1,5 @@
 # Best practices for computer and browser use with Claude
+*May 13, 2026*
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
 
@@ -6,15 +7,15 @@
 
 Practical guidance for developers building computer and browser use integrations with the Claude model family.
 
-- カテゴリアイテムが見つかりません。
+- CategoryAgents
 
-- 製品アイテムが見つかりません。
+- ProductClaude Platform
 
-- 日付2026-05-13
+- DateMay 13, 2026
 
-- 所要時間5分
+- Reading time5min
 
-- 共有リンクをコピーhttps://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude
+- ShareCopy linkhttps://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude
 
 Claude's[latest models](https://www.anthropic.com/news/claude-sonnet-4-6)represent a significant step forward in computer and browser use capabilities. Because of these features, LLMs are now able to power increasingly complex agentic systems that power real work, like building software applications and automating workflows across multiple, disparate technologies.
 
@@ -1007,22 +1008,36 @@ Acknowledgements: This article & corresponding demo were written by Lucas Gonzal
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-よくある質問
+FAQ
 
-## 関連する投稿
+## Related posts
 
-Claude を活用して構築を行うチーム向けの、その他の製品
+Explore more product news and best practices for teams building with Claude.
 
-ニュースとベストプラクティスをご覧ください。
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-## Claude を活用して組織運営の方法を変革
+### How Outtake built a cyber investigator on Claude
 
-開発者向けニュースレターを入手
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-製品の最新情報、操作方法、コミュニティスポットライトなどを掲載しています。毎月受信トレイに配信されます。
+### How Anthropic secures its AI-native software development lifecycle
 
-毎月の開発者向けニュースレターを受け取りたい場合は、メールアドレスを入力してください。購読はいつでも解除できます。
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
+
+### Best practices for prompt engineering for 2026
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
+
+### The evolution of agentic surfaces: building with Claude Managed Agents
+
+## Transform how your organization operates with Claude
+
+Get the developer newsletter
+
+Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+
+Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
 
 ---
-**Source:** https://claude.com/ja/blog/best-practices-for-computer-and-browser-use-with-claude
+**Source:** https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*
