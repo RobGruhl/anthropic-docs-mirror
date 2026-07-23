@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated over 2 months ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -14,15 +14,14 @@ Voice mode transforms how you interact with Claude by:
 
 - Allowing you to speak to Claude and hear Claude's voice responses.
 - Seamlessly switch between text and voice within the same conversation.
-- Providing access to web searches through voice conversations.
-
- 
+- Using web search and the tools you've connected, like Gmail, Google Calendar, Google Docs, and Slack, during a voice conversation.
+- Talking with Claude in many more languages
 
  
 
 ## Enable voice mode
 
-### On the web
+### On the web and Claude Desktop
 
 1. Log in to your Claude account and start a new chat.
 2. Tap the sound wave symbol in the lower right corner of the chat window to activate voice mode:
@@ -33,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1784825100&signature=125aa748de55ccba671f2da32f86fb66481f42669371c33fd3f172ba8e473dcc&req=diAjFMp7n4FZWfMW1HO4zU6VRfnCSrloxNdRzYWrfF69LPg82ylnadamVH5z%0AwBoEYo0ULcOy7Bw5Vh8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1784980800&signature=b58b693ff17400cb55ba9f0bae44b7e343c44b74f813460c0464edf7d33260f5&req=diAjFMp7n4FZWfMW3nq%2BgcPTdC%2BQfJnPgmZq1qMmRNsd2NFOL2EhjFucXNOW%0A4T5BtLowHD5S267QzkFDpj4Nuk8%3D%0A)
 
  
 
@@ -90,10 +89,22 @@ Claude offers several voice options you can choose from when you first start voi
 
 To change the voice later:
 
-- **On the web:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
+- **On the web and desktop:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1784825100&signature=63fbddbb0487f89ab5b78801c846a9d08ee1e6dbb5d3bf8189a2d42f9e32ed63&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG6dYlULy8OQfYsvK3xb7QoAS1kxcGHQTLPN%0ALOOYZriOXr1Ihz%2Btu80%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1784980800&signature=11e0521468e6e1a10e698ced9cbb38e7a38bd5b921e90cdb03b12b39050c50c1&req=diAjFMp7n4FZWvMW3nq%2Bgb4g782eZp%2FONYbwZcbnIM2cB%2FL1UeBXOvGowgK%2B%0AYCdqyCVVZqPwlZ%2F424VMxU7pUYY%3D%0A)
+
+ 
+
+ 
+
+## Choose a model
+
+Voice mode can use the same Claude models you use in text chat, so it can keep up with harder questions, not just quick ones. The models available to you in voice mode follow your plan. When you turn on voice mode, it starts with the model you last used in text chat (for example, Sonnet, Opus, Haiku) and will automatically switch to the latest generation of that model. 
+
+ 
+
+Tap or click on the model selector when you're in voice mode to switch models during a conversation. You’ll choose a model without picking a specific generation.
 
  
 
@@ -102,6 +113,14 @@ To change the voice later:
 ## Switch between text and voice
 
 You can switch between text and voice within the same conversation. Your previous context carries over, so you don't lose anything when you switch. This is useful when you start a conversation by typing but want to continue hands-free, or when you need to type something specific (like a URL or code) mid-conversation.
+
+ 
+
+## Use your connected tools
+
+In voice mode, Claude can use the tools you've connected, like Gmail, Google Calendar, Google Docs, and Slack. You can ask Claude to catch you up on your email, check your calendar before a meeting, or summarize a thread without leaving the conversation. Connected tools work the same way in voice mode as they do in text chat and follow the rules of your plan. On the Free plan you can connect one tool, and paid plans can connect more.
+
+ 
 
  
 
@@ -193,7 +212,17 @@ Dictation converts your speech to text so you can type prompts by speaking. Voic
 
 ### Can I use voice mode in languages other than English?
 
-Yes, voice mode now supports multilingual input in beta.
+Yes. Voice mode supports many more languages, on all plans and on Claude Mobile, Claude Desktop, and web. Support for languages other than English is in beta.
+
+ 
+
+To set your voice language, go to **[Settings > General](https://preview.claude.ai/new#settings/general)**, then find **Voice > Language** and choose a language. Changing your app's display language doesn't change your voice language, so set it here. You can also ask Claude to switch languages during a voice conversation.
+
+ 
+
+### Can I use voice mode with Claude Cowork or Claude Code?
+
+No. While dictation is available in Claude Cowork and Code, voice mode is not. This also means Claude voice mode will not be able to reference the projects and skills you have set up in Cowork.
 
  
 
@@ -206,8 +235,8 @@ If you are an Enterprise owner and would like to disable voice mode for your org
 
 ## Related Articles
 
-- [Use the Claude widget on Android](https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android)
+- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
+- [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
+- [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
 - [Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)
-- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)
-- [Use Claude Code CLI with a screen reader](https://support.claude.com/en/articles/15924927-use-claude-code-cli-with-a-screen-reader)

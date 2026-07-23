@@ -1,6 +1,6 @@
 # How can I create and manage projects?
 
-*Updated this week*
+*Updated in the last hour*
 
 ---
 
@@ -17,30 +17,32 @@ Once your project is set up, you can initiate chats with Claude within the proje
 
  
 
-## Adding content to project knowledge 
+## Add content to project knowledge 
 
 You'll find the project knowledge base on the right side of your project's main page. Anything you upload to this space will be used across all of your chats within that project.
 
  
 
-### To add content to your project knowledge base
+### Add content to your project knowledge base
 
 1. Click on the "+" button to add content to the project.
 2. Upload relevant documents, text files, or code snippets.
 3. Claude will process this information and use it as context in your chats within the project.
 4. If you are using a paid Claude plan, when your project knowledge approaches the context window limit, **[Claude will automatically enable RAG mode to expand your project's capacity](https://support.anthropic.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects)**.
 
-### To add project instructions to your project knowledge base
+### Add project instructions to your project knowledge base
 
 1. Click on "Set project instructions."
 2. Add instructions for how you'd like Claude to behave and respond and click "Save instructions."
 3. Claude will use these instructions for all the chats within the project.
 
+ 
+
 ---
 
  
 
-## Sharing projects
+## Share projects
 
 If you are a member of a Team or Enterprise plan organization, you can share projects with other members of your organization.
 
@@ -52,17 +54,17 @@ If you are a member of a Team or Enterprise plan organization, you can share pro
 2. Click the "Share project" button to the right of the project name.
 3. Add individual members using their name or email address, or copy and paste a list of email addresses for bulk sharing.
 4. Select the appropriate permission level for each member:
-4. - **Can use:** Members can see project contents, knowledge, and instructions, and chat within the project, but cannot edit it.
+4. - **Can view:** Members can see project contents, knowledge, and instructions, and chat within the project, but cannot edit it.
 - **Can edit:** Members can modify project instructions and knowledge, update member settings, and actively contribute to the project.
 5. Click "Share" to send invitations.
 
-### Managing shared project access
+### Manage shared project access
 
 - **To change permissions:** Open the sharing menu and select a new role for the member.
 - **To view who has access:** The sharing menu shows all current members and their permission levels.
 - **To remove access:** The project creator can click on the member's current role and select "Remove access."
 
-### Finding shared projects
+### Find shared projects
 
 Projects that others have shared with you will appear in the "Shared with me" tab on your **[Projects page](http://claude.ai/projects)**. You'll also receive an email notification when someone shares a project with you.
 
@@ -72,7 +74,7 @@ Projects that others have shared with you will appear in the "Shared with me" ta
 
  
 
-## Starring projects for quick access
+## Star projects for quick access
 
 Starring a project allows for quick access from your projects and chats list, visible when hovering over the left side of your account. You can star a project from two different areas:
 
@@ -83,20 +85,14 @@ Starring a project allows for quick access from your projects and chats list, vi
 1. Locate the project on the “Projects” page.
 2. Click on the three dots ("..." button) on the upper right corner of the project.
 3. Select "Star" from the menu that appears.
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571648/2a3c5e2ea9f13a61365e02cb3d54/Screenshot+2025-06-23+at+11_19_50%E2%80%AFAM.png?expires=1784826000&signature=6ec98f714b29826632513a908789e9c4aa3b26a369873f3b7e4db514202fcd64&req=dSUvEsx5nIdbUfMW1HO4zYgMo0CD5V1b9NE33p2Jnb94InX8gyaCshxXzO2A%0AAhevkCw8o%2FFLCNDjpS0%3D%0A)
-
- 
+3.  
 
 ### From the project
 
 1. Open the relevant project.
 2. Click on the star icon in the upper right corner.
 3. The project will now appear in your starred items in the left side panel of your account.
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584571995/a5c91a7ee55606f5006e9c023696/Screenshot+2025-06-23+at+11_20_28%E2%80%AFAM.png?expires=1784826000&signature=67b7c55bacfc05b696acbe576a9b8ee46b54d23406309d78ac851ac0d2e6dda2&req=dSUvEsx5nIhWXPMW1HO4zZOc0IdmyXfnOGS2ma2coPyRSCmidzZa8wVuKuZF%0Au7PNJp%2FMfGMAmMbqO8g%3D%0A)
-
- 
+3.  
 
 ---
 
@@ -108,7 +104,7 @@ You can move a standalone chat into a project by clicking on the dropdown arrow 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1784826000&signature=4bdced1fed5de0c819249063509c91cee81ad6fa83f71d40c5435db2e9377b12&req=dScvEsh3nYNbUfMW1HO4zQABaWVkSKYVBSXNVFXQ%2FVGb6J6NobJj%2FNGuUhSQ%0AD6ig1LvSCFJ6vuijFXQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1784980800&signature=adc7e1e6653a4e263ef764408100cc2ff50c99e3f38380456cc5b6dfce946042&req=dScvEsh3nYNbUfMW3nq%2BgXuLDiqq7zw5XPcvfZakkxHrlmJCmgNo3%2F%2B6OvX%2F%0AyPPirgHvZX3kT7oQdtLlWiffs1k%3D%0A)
 
  
 
@@ -116,7 +112,7 @@ Browse or search for the correct project in the **Move chat** modal that appears
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1784826000&signature=b65c5b3d933f79e4d8b767d32b75429c4bfbfbbeee6d0a458989ec7d0e07f348&req=dScvEsh3nYhaWPMW1HO4zSMECiS4yQ8BgYbpTjViBxBLIe%2FVNwg29EF1abRN%0AhapZKIZhCm4LYLJIw7Y%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1784980800&signature=0e28bd64e37f561ec40c4fd3c322eb168e69a3728aa860806a980d7a96de5833&req=dScvEsh3nYhaWPMW3nq%2BgaHJV1YFl4QU9SOLKq4iewrEE0NeYoTN54WLI7Fm%0AKOMQ%2BOsOXT%2BCEAehxei67xc8iQo%3D%0A)
 
  
 
@@ -124,7 +120,7 @@ You can also remove chats from projects, or move them between projects, using th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1784826000&signature=a6dd9ca82a4a6643b57a5a45807e131bbdb6910741d571ff07aedda8778a5831&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPMkDEMKS2r1%2FGRlqOSV7wHjfPht37L%2FY%2Fbq%0AEKlw2xrzfBJ0c%2Fr2tI0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1784980800&signature=eeda74e9f3560601e19d6c4323c7276f0bba0a14c78eac0d42ed4f13edd6902a&req=dScvEsh2mIdXW%2FMW3nq%2BgcRackgi6VWnCoJgXkUx%2BGGimxOfDDI57Nzst1PY%0A1rDOjjJAFBKGcrNvNII6dZE%2BJjc%3D%0A)
 
  
 
@@ -132,7 +128,7 @@ You can move chats into projects in bulk from **[Your chat history page](https:/
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1784826000&signature=fce7cb7a8be13e7cc5a82fe1b0c3dc18eb05d8b00eca77cf50b7875e03464b9b&req=dScvEsh2mIdXXPMW1HO4zbParUhB6%2FyjuQSB0Ebsw9dpsJzETevToL%2BGOAWn%0Arh%2FMP1kH0mRCGkLD0wQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1784980800&signature=8e1660b6d07d84a591527e5d2c777852f34455cb51b73a93e4a884aed48ae758&req=dScvEsh2mIdXXPMW3nq%2BgSoMxJ7JZ2pPqQw3Kn7bRQIrpGj3wb0usbWuZJhJ%0A7FmEilVUmafNtOGBeUDn%2Fp1r%2FCU%3D%0A)
 
  
 
@@ -180,8 +176,6 @@ You can access an archived project in the archived projects tab on the **[Projec
 
  
 
- 
-
 ## How to unarchive a project
 
 There are two ways to make archived project active again:
@@ -194,25 +188,19 @@ There are two ways to make archived project active again:
 2. Click on the three dots ("..." button) in the upper right corner.
 3. Select "Unarchive" from the menu that appears.
 3.  
-3. 
-
- 
 
 ### From the project
 
 1. Navigate to the archived project.
 2. Click on the three dots ("..." button) in the upper right corner.
 3. Confirm that you want to unarchive the project.
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584543869/87d1308b507e2f62827757ec0b61/Screenshot+2025-06-23+at+10_59_50%E2%80%AFAM.png?expires=1784826000&signature=11344ba392fec40ba83225baca64139cec397a5d25b0de243ae40f0f5924d7f2&req=dSUvEsx6nolZUPMW1HO4zVDg%2FdgDTalh%2BOxOx8zCzkbkik7Xl2vu7HIYikH6%0AVWM5gajeT%2BJIvqJVeW4%3D%0A)
-
- 
+3.  
 
 ---
 
  
 
-## Deleting projects
+## Delete projects
 
 ### From the “Projects” page
 
@@ -220,10 +208,7 @@ There are two ways to make archived project active again:
 2. Click on the three dots ("..." button) on the upper right corner of the project.
 3. Select "Delete" from the menu that appears.
 4. Confirm deletion in the pop-up by clicking "Yes, delete."
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784203814/66200261afca3b2d6533a0ec8de9/Screenshot%2B2025-07-09%2Bat%2B11_34_02-E2-80-AFAM.png?expires=1784826000&signature=cb0028a99ca491cfb3075d2659ae92a2dccde4d4c714784bc7f0f572d6e77a78&req=dScvEst%2BnoleXfMW1HO4zUvE4tPHMC96gwQJrerRpXdnLJjTcf1kJf%2FMf2w%2F%0Af9ykoc1RDp8JntixI5o%3D%0A)
-
- 
+4.  
 
 ### From the project
 
@@ -232,8 +217,6 @@ There are two ways to make archived project active again:
 3. Select "Delete."
 4. Confirm deletion in the pop-up by clicking "Yes, delete."
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611821522/4a3423380f3cf55e2f1540387743/Screenshot+2025-07-09+at+11_34_52%E2%80%AFAM.png?expires=1784826000&signature=20a19cf3f7caf980a4bb7488e7b7dfd45b79e0bbb73c24da8ec825d2d2f2cc41&req=dSYmF8F8nIRdW%2FMW1HO4zdEk%2BZgCCQtKH0VF4IAuZvhch57j1bBgsSMvQ0DX%0Ay5DrCOxbsCfIHlKVTkc%3D%0A)
-
 
 ---
 
@@ -241,6 +224,6 @@ There are two ways to make archived project active again:
 
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
+- [Retrieval augmented generation (RAG) for projects](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects)
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
-- [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)

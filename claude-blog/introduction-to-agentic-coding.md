@@ -212,10 +212,6 @@ Claude Code utilise des fichiers de configurationCLAUDE.mdqui documentent vos no
 
 Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### A harness for every task: dynamic workflows in Claude Code
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### Comment l'IA aide à surmonter la barrière des coûts liée à la modernisation de COBOL
@@ -227,6 +223,10 @@ Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
 ### Le guide du fondateur et de la fondatrice : créer une startup fondée sur l’IA
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
+
+### Claude pour le secteur juridique
 
 ## Transformez le fonctionnement de votre organisation avec Claude
 

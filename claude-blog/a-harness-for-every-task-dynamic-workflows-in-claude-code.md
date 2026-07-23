@@ -121,7 +121,7 @@ Think creatively of when and how to ask Claude Code to make dynamic workflows. I
 
 ### Migrations and refactors
 
-[Bun](https://bun.com/)was rewritten from Zig to Rust using workflows. You can read more about how that was done in[Jarred’s X thread](https://x.com/jarredsumner/status/2060050578026189172).
+[Bun](https://bun.com/)was rewritten from Zig to Rust using workflows. You can read more about how that was done in[Jarred’s X thread](https://x.com/jarredsumner/status/2060050578026189172)or see how we run[AI code migrations](https://claude.com/blog/ai-code-migration)across million-line codebases.
 
 The key is to break down the task into a series of steps that need to be operated on for example callsites, failing tests, modules, etc. Spin off a subagent for every fix in a worktree to make the fix, then have another agent adversarially review, and merge them. Consider telling the agent not to use resource intensive commands so that you can maximally parallelize without running out of resources on your machine.
 
@@ -245,17 +245,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Building verification loops in Claude Code with skills
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### How Outtake built a cyber investigator on Claude
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
 ### How Anthropic secures its AI-native software development lifecycle
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### How Datadog built a “universal machine tool” for Claude Code
+### COBOL Modernization with AI: Breaking the Cost Barrier
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
+
+### How Anthropic runs large-scale code migrations with Claude Code
 
 ## Transform how your organization operates with Claude
 

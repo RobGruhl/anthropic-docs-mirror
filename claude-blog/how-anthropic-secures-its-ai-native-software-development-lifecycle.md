@@ -201,7 +201,9 @@ This underscores the importance of strong governance. If a skill goes stale, a d
 
 Enduring Principle: The security engineer’s job evolves from monitoring bugs to monitoring loops.
 
-## The only constant is change
+For the assessment framework behind these controls, see the[CISO's guide to agentic AI](https://claude.com/blog/ciso-guide-to-agentic-ai).
+
+## Keeping an AI SDLC secure as models evolve
 
 It’s hard to overstate just how fast the software development lifecycle, and the means of hardening it are evolving. Model capabilities advance every month, bringing both new challenges and solutions.
 
@@ -219,17 +221,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Building verification loops in Claude Code with skills
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Zero risk isn't the job: a CISO's guide to agentic AI
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### A harness for every task: dynamic workflows in Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### How Outtake built a cyber investigator on Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-### How Datadog built a “universal machine tool” for Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
-
-### How Anthropic runs large-scale code migrations with Claude Code
+### COBOL Modernization with AI: Breaking the Cost Barrier
 
 ## Transform how your organization operates with Claude
 

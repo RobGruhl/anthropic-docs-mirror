@@ -160,17 +160,17 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ### AI が COBOL モダナイゼーションのコスト障壁を打ち破る仕組み
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225c16d1b0cc3b1ded5_6457c34fbcb012acf0f27f15a6006f700d0f50de-1000x1000.svg)
-
-### Auto mode for Claude Code
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
-
-### Product management on the AI exponential
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
 ### CLAUDE.md ファイルの使用：使用中のコードベース合わせて Claude Code をカスタマイズ
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### YC のスタートアップ 3 社が Claude Code を活用してどのように会社を構築したのか？
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+
+### スキルの作成方法：主なステップ、制限事項、および事例
 
 ## Claude を活用して組織運営の方法を変革
 

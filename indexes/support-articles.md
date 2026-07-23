@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-23 16:24*
+*Last updated: 2026-07-23 19:11*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -391,7 +391,7 @@ Total documents: 253
 ### HIPAA-ready Enterprise plans
 **File:** `/docs-support/hipaa-ready-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13296973-hipaa-ready-enterprise-plans  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-23  
 
 ### Holiday 2025 Usage Promotion
 **File:** `/docs-support/holiday-2025-usage-promotion.md`  
@@ -701,7 +701,7 @@ Total documents: 253
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -1131,12 +1131,12 @@ Total documents: 253
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
 **Source:** https://support.claude.com/en/articles/9517075-what-are-projects  
-**Updated:** 2026-06-23  
+**Updated:** 2026-07-23  
 
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-23  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
@@ -1166,7 +1166,7 @@ Total documents: 253
 ### What is the Enterprise plan?
 **File:** `/docs-support/what-is-the-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-23  
 
 ### What is the External Researcher Access Program?
 **File:** `/docs-support/what-is-the-external-researcher-access-program.md`  

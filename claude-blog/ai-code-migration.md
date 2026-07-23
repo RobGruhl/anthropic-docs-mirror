@@ -29,6 +29,10 @@ Claude Code’s new capabilities change the math for these long-deferred project
 
 The core insight is that you don’t fix the code.You fix the process (loop) that produced the code.
 
+## What is an AI code migration?
+
+An AI code migration uses AI agents to port a production codebase to a new language or framework. Instead of translating files by hand, engineers write migration rules and verification loops; agents then translate, compile, and test until the new code's behavior matches the original — compressing multi-year projects into weeks.
+
 ## Why and when to migrate languages
 
 Before going straight intothe how, it’s worth discussingthe whenandwhybecause the assumptions around these projects have evolved.
@@ -279,7 +283,7 @@ Related
 
 - Dynamic workflows in Claude Code
 
-‍
+This blog was written by Michael Segner based on migrations run by Jarred Sumner and engineering teams across Anthropic.
 
 FAQ
 
@@ -291,17 +295,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Building verification loops in Claude Code with skills
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### How Outtake built a cyber investigator on Claude
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
 ### How Anthropic secures its AI-native software development lifecycle
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### How Datadog built a “universal machine tool” for Claude Code
+### Zero risk isn't the job: a CISO's guide to agentic AI
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### A harness for every task: dynamic workflows in Claude Code
 
 ## Transform how your organization operates with Claude
 

@@ -454,10 +454,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ### スキル解説：スキルとプロンプト、プロジェクト、MCP、サブエージェントとの比較
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)
-
-### Building agents that reach production systems with MCP
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
 
 ### スキルの作成方法：主なステップ、制限事項、および事例

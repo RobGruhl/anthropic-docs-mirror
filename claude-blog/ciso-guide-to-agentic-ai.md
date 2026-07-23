@@ -35,7 +35,7 @@ These are serious risks to any GRC program. Mitigating and closing vulnerability
 
 For many organizations, the most likely threat vector for agentic systems is a data leak enabled by connecting disparate systems through personal agents with insufficient oversight. Another concern is[prompt injection](https://www.anthropic.com/research/prompt-injection-defenses): an attacker hides instructions inside content the agent reads, and the agent follows the attacker instead of the user. Any agent that touches untrusted content could then be exposed, depending on how robust the defenses of the model are. As models grow increasingly capable, they’re getting meaningfully better at resisting injection. While[attack success rates keep falling](http://anthropic.com/research/prompt-injection-defenses), they’re not zero. There are many concerns outside of these two examples, and the deluge of new classes of concern can seem overwhelming.
 
-### Four questions to ask
+### Four questions to assess agentic AI risk
 
 When an agentic use case reaches our review process, we assess its risk by asking four questions:
 
@@ -139,7 +139,7 @@ If you design your new program for what the model can do today, you will be behi
 
 Agents that hold their own accounts and run multi-day workstreams already operate inside Anthropic and other organizations with tools like Claude Tag, and they need to be governed the way you govern people: identity, least privilege, monitoring, and an insider-risk program that can respond in minutes. The organizations that build that muscle now, on low-risk agents like the examples above, will be ready to say yes when the high-autonomy use cases arrive.
 
-## Getting started
+## Getting started with agentic AI security
 
 The framework above is only useful if it changes a decision in your organization. Here are three places to start:
 
@@ -151,7 +151,7 @@ The framework above is only useful if it changes a decision in your organization
 
 Waiting for zero risk means waiting forever. The web is adversarial, the models are evolving fast, and the organizations that learn to size and accept this risk now are the ones that get the advantage.
 
-For the controls, attestations, and white papers behind this post, start at[trust.anthropic.com](https://trust.anthropic.com). Check out[our companion piece](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)on defending against AI-accelerated offense.
+For the controls, attestations, and white papers behind this post, start at[trust.anthropic.com](https://trust.anthropic.com). Check out[our companion piece](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense)on defending against AI-accelerated offense. Jason goes deeper on this framework in the[Secure the Advantage webinar](https://www.anthropic.com/webinars/secure-the-advantage-a-cisos-guide-to-agentic-ai).
 
 ‍This article was written by Jason Clinton, Deputy CISO, Anthropic.
 
@@ -171,13 +171,13 @@ Explore more product news and best practices for teams building with Claude.
 
 ### How Anthropic secures its AI-native software development lifecycle
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
-
-### How Datadog built a “universal machine tool” for Claude Code
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
 ### How Anthropic runs large-scale code migrations with Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### How Datadog built a “universal machine tool” for Claude Code
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)
 

@@ -1,6 +1,6 @@
 # HIPAA-ready Enterprise plans
 
-*Updated in the last hour*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -30,7 +30,7 @@ If you're unsure whether your organization benefits from a HIPAA-ready product, 
 
 ## Feature availability
 
-The HIPAA-ready Enterprise offering includes access to certain features available on **[standard Enterprise plans](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)**. For example, users can chat with Claude, create projects and artifacts, and use voice mode. Depending on what functions are enabled by the organization’s plan administrator, users can also leverage connectors, enterprise search, file creation and code execution, web search, research, and skills. More information about the specific features, functionality, and administrator controls are included in the **[Implementation Guide for HIPAA Entities](https://trust.anthropic.com/resources?s=rgirr4qe8u7ek8c2igx3&name=claude-for-enterprise-hipaa-ready-offering-implementation-guide)**.
+The HIPAA-ready Enterprise offering includes many of the features available on **[standard Enterprise plans](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)**—but enabling HIPAA doesn't bring every feature under your BAA. Features fall into three categories: covered by your BAA, available but not covered, and disabled. PHI should only be processed through covered features, so it's important for administrators to know which features fall in which category and to configure their workspace accordingly. The **[Implementation Guide for HIPAA Entities](https://trust.anthropic.com/resources?s=rgirr4qe8u7ek8c2igx3&name=claude-for-enterprise-hipaa-ready-offering-implementation-guide)** on the Anthropic Trust Center lists every feature's status and is the authoritative source. 
 
  
 
