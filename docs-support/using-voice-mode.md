@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -237,6 +237,6 @@ If you are an Enterprise owner and would like to disable voice mode for your org
 
 - [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
-- [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
+- [How to use Claude in your preferred language](https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
 - [Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)

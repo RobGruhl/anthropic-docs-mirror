@@ -1,6 +1,6 @@
 # Use Claude with iOS apps
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -36,6 +36,8 @@ Claude can help you:
 ## How Claude helps you take action
 
 When Claude determines that using one of these features would be helpful, it will automatically suggest it. You'll see a card or prompt within your conversation that lets you review and take action with Claude’s help.
+
+ 
 
 ### Send texts and emails with Messages and Mail
 
@@ -254,6 +256,6 @@ Claude will only request permissions if needed for specific features, and you ca
 
 - [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
-- [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Use Claude with Android apps](https://support.claude.com/en/articles/11869629-use-claude-with-android-apps)
+- [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)
 - [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

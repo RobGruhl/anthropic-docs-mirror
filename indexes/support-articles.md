@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-23 19:11*
+*Last updated: 2026-07-23 22:03*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -291,7 +291,7 @@ Total documents: 253
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
 **Source:** https://support.claude.com/en/articles/11595103-designated-point-of-contact-for-users-in-the-eu  
-**Updated:** 2026-06-29  
+**Updated:** 2026-07-23  
 
 ### Disable public projects for your organization
 **File:** `/docs-support/how-can-i-disable-public-projects.md`  
@@ -571,7 +571,7 @@ Total documents: 253
 ### How to use Claude in your preferred language
 **File:** `/docs-support/how-to-use-claude-in-your-preferred-language.md`  
 **Source:** https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language  
-**Updated:** 2026-07-15  
+**Updated:** 2026-07-23  
 
 ### How up-to-date is Claude's training data?
 **File:** `/docs-support/how-up-to-date-is-claude-s-training-data.md`  
@@ -941,7 +941,7 @@ Total documents: 253
 ### Upload files to Claude
 **File:** `/docs-support/uploading-files-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8241126-uploading-files-to-claude  
-**Updated:** 2026-07-13  
+**Updated:** 2026-07-23  
 
 ### Usage limit best practices
 **File:** `/docs-support/usage-limit-best-practices.md`  
@@ -991,7 +991,7 @@ Total documents: 253
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-07-21  
+**Updated:** 2026-07-23  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
@@ -1041,7 +1041,7 @@ Total documents: 253
 ### Use dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
 **Source:** https://support.claude.com/en/articles/10065434-using-dictation-on-claude-mobile  
-**Updated:** 2026-07-09  
+**Updated:** 2026-07-23  
 
 ### Use enterprise search
 **File:** `/docs-support/using-enterprise-search.md`  

@@ -1,6 +1,6 @@
 # Upload files to Claude
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -64,6 +64,7 @@ Files can be uploaded to individual chats or uploaded to a project's **Files** s
 - **File size:** 500MB per file
 - **Number of files:** Up to 20 files per chat
 - **Image dimensions:** Up to 8000x8000 pixels
+- **Number of pages:** PDFs are limited to 1000 pages
 
 ### Project files
 
@@ -79,7 +80,7 @@ Files can be uploaded to individual chats or uploaded to a project's **Files** s
 
 ## PDF processing
 
-Claude models can analyze both text and visual elements (like images, charts, and graphics) in PDFs that are under 100 pages. Claude will only process text from PDFs over 1000 pages.
+Claude analyzes both text and visual elements (like images, charts, and graphics) in PDFs of 100 pages or fewer. For PDFs from 101 to 1000 pages, Claude processes text only and doesn't analyze visual elements. You can't upload PDFs over 1000 pages. If you try, you'll see an "Uploaded file is too large" error.
 
  
 
@@ -108,8 +109,8 @@ Claude models can analyze both text and visual elements (like images, charts, an
 
 ## Related Articles
 
-- [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Use Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)
+- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
 - [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)

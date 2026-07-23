@@ -1,6 +1,6 @@
 # How to use Claude in your preferred language
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -29,13 +29,19 @@
 3. Choose your preferred language.
 4. The interface will update automatically.
 
+ 
+
+## Voice mode languages
+
+Voice mode has its own language setting, separate from your display language. To change the language Claude speaks and listens to in voice mode, go to **[Settings > General](http://claude.ai/settings/general)**, then find **Voice > Language** and choose a language. Learn more in **[Use voice mode](https://support.claude.com/en/articles/11101966-use-voice-mode)**.
+
 
 ---
 
 ## Related Articles
 
-- [What are some things I can use Claude for?](https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for)
-- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
+- [Use voice mode](https://support.claude.com/en/articles/11101966-use-voice-mode)
 - [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
-- [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)
+- [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)

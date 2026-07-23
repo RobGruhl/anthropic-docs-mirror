@@ -1,10 +1,12 @@
 # Use dictation on Claude Mobile
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
 Dictation allows you to speak your prompts instead of typing them when using Claude for iOS or Android.
+
+ 
 
  
 

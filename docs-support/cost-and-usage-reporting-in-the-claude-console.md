@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1784835900&signature=e72104f3b9debfc0192522a2375605097fbeb62fc023e9fd1c015c8bdcad7aea&req=dSUvEs97mYNeXvMW1HO4zYCWiSAQgsOTuqqBX2puyxSB%2FR0Vbbw34C4hxWJ%2F%0AEWVj4Kz9QfieJQJneAE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1784845800&signature=f5f5214eff4874af24b90bbc39b9d0c55f1e6f3359acb1fa1e41071c6b9808a9&req=dSUvEs97mYNeXvMW1HO4zYCWiSAQhcOSuqqBX2puyxQLmlaz8ZZlCQmQ0vEc%0AIdtG8GrWmOsFVwXcwpo%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1784835900&signature=fdce39809a000022e2f4b9858edf4045030f39f764856792bc5ca2f7fbbbf06d&req=dSUvEs94mYJdWPMW1HO4zQwER3ciIopvqMITUZbanFA%2Ft4qH3MdiLMm0tYy1%0AgvHtBohgjSI3RHUmZa4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1784845800&signature=abf529ce7ecabf8692fea1c36f4a9f52ba21cdeb9b216f31e08c469c30b07fb7&req=dSUvEs94mYJdWPMW1HO4zQwER3ciJYpuqMITUZbanFD7MpQXWj7xlspJMfmY%0AiMp7XiI7B3j6ynmOZlY%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1784835900&signature=a837446c95b047ad3706ca1e9813096c3dd58d95ca07f209f197e94bdf776532&req=dSUvEs93noJXX%2FMW1HO4zRxEwW9F5VRl21D6pckxWMaRRKc1eyMu%2FVHkhXUw%0AboUmJTiQBziPRNDY6io%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1784845800&signature=a79f3f0c71c7e721a1fe16e818bfecfddc68dc42e0878c93e24712d9545f113d&req=dSUvEs93noJXX%2FMW1HO4zRxEwW9F4lRk21D6pckxWMZ1OziaawN7%2Foevux5a%0AcpWt1RwkKK7BFvXLDOA%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1784835900&signature=b2ad8e85a31c9635e8027e6b82e3858aa9cd4a3ff012fb0dbac3d65d429e2199&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5jLUNVoCyIF5nuUsbxA9VptuQEQC198WUdP%0Ap7lrn5DgEhfO3Xqj71U%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1784845800&signature=390e9767daeba6ce3a2cce960fed180a6e01f70d1afb57421e5364a9568488ba&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5jLV9VpCyIF5nuUsbxHAe5TZ4Q1zDkgxglm%0A5roCaJ%2BH43TtjVrffdI%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
-- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

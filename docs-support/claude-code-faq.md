@@ -142,7 +142,7 @@ This typically occurs with reusable workflows. Check that your workflow syntax i
 
 ## Related Articles
 
-- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
+- [Public Sector FAQs](https://support.claude.com/en/articles/13756069-public-sector-faqs)
 - [Your first day in Claude Code](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code)
 - [Claude Code cheatsheet](https://support.claude.com/en/articles/14553413-claude-code-cheatsheet)
 - [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)

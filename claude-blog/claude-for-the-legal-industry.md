@@ -151,9 +151,9 @@ These updates build on Claude Opus 4.7, our most capable publicly available mode
 
 Here’s what legal teams and ecosystem partners have told us about working with Claude:
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fe2ebadc1e72c50e5d0b58_%20freshfields-logo.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c786b09b4f2392e96f3_logo_freshfields-light.svg)
 
-![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69fe2ef753731a11ac1e2910_courtroom5-logo-dark.svg)
+![Logo](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628c8a7203c6cb4010f6a4_logo_freshfields-dark.svg)
 
 “Our approach in the Freshfields Lab has always been to build on the best available technology. Claude’s capabilities have become an essential part of our proprietary AI-powered solutions. With this collaboration, we are going further: co-developing agentic workflows with Anthropic that can handle multi-step legal tasks end-to-end. For our clients, that translates into faster, more precise and more scalable legal services.”
 
