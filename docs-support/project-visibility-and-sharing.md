@@ -1,6 +1,6 @@
 # Manage project visibility and sharing
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -11,7 +11,7 @@ When creating a project on a Team or Enterprise plan, you can choose between two
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1784815200&signature=35e12c98fa71d34c5f8109f7ca7a61e8e144082c51a1cfe29ee604348b29484b&req=dScjFsp5nYhWWPMW1HO4zd3a2VgsJYulHK95%2FTFaPym8EVEhGGnvvFhVlcns%0AR8QG6Ft4AO555ukcQnc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1784916000&signature=10afbc81b141028df02740e16e55bf61bcb71ed0dc7640bd416187be23b1f9f4&req=dScjFsp5nYhWWPMW3nq%2BgeZJIc%2BBNcUz1mMWc7sTq%2BnWFw%2BI1AmmWdOfUVcc%0AcCDqGplXBR5rJvMFHNaOqySbVgE%3D%0A)
 
  
 
@@ -27,7 +27,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1784815200&signature=39fcabd2a828521f3490e9a01a3fe0090838d4102aec66a474ab56c60e5cd638&req=dScjFsp5nYhXXvMW1HO4zUiDoi3%2FgAMrE8Kp5wh0MSAur%2BB8UpRSaa5jXHhq%0AJNnjy6Gno3LFrkUqUFQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1784916000&signature=a14d965ef904c0e5a76dc15d4410a106e9282982133196382bea0da96007ca64&req=dScjFsp5nYhXXvMW3nq%2BgauQysBNVcqGzkV7xHMI3oTBYcI%2F689AWa7DFL1v%0AbZ9wRWkikZe4TQeqPZNWKc%2FxWxM%3D%0A)
 
  
 
@@ -35,7 +35,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1784815200&signature=7d9c5fba11b19e9014f97cb3d1ea90cbf6216054ae8134702909561adbd082fd&req=dScjFsp5nYhXUfMW1HO4zckCIfZqYyeml3XeGelDRW3xddSzwcrXDoQgsOgH%0AeUMI0OQzjGyFABLNRI4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1784916000&signature=347af72bfccc00ee45ccdcae9b09841673f95f522ced116aba3a6331a0f62ff4&req=dScjFsp5nYhXUfMW3nq%2BgR4SCqCCdLOJQqdU7vfwvzTES5ZmNa5qF68qpsOy%0AOfbffzajBem7bEl9mW4LwfxHfx0%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1784815200&signature=9149468b84106cc8b7e9a190f2e8df5e391651664b19973dc7b234c7fb1a67bd&req=dScjFsp5nYhXUPMW1HO4zaSEGleUS70P2JrJefVtywkpYBIDCergCaI1%2BupO%0ARJxyOjV42FGtR%2Bc%2FmB4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1784916000&signature=646a71b65cfc3c0f97e00f2dd7b41b36c1b8c83422b989c5d543b5e04d601bcc&req=dScjFsp5nYhXUPMW3nq%2BgUpONNyv48aO%2FdE665d8ozYHs9nObn6NYYEXJ45z%0A80v1L%2F0fJg06zX7TmWPgYwxSWeY%3D%0A)
 
  
 
@@ -59,16 +59,16 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1784815200&signature=e6a4a04e691d4e9047a409f400d7e6d48275707c3bcd3abcf54f6d5e722796b6&req=dScjFsp5nYhWWfMW1HO4zT7Q08yzvAkUAmYRPrgMBZkraByfN09Ug80nevRF%0A3ey8r2gpto1qOsXC4s4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1784916000&signature=4b408b07923d691fc6827b32c84e09be9316568908c82d70f8dfef65b1c67a36&req=dScjFsp5nYhWWfMW3nq%2BgTfr6qmRNVpdWQX62YaZuU%2BZD4b8OBEYKViIeK9E%0Agx5CjdZTLeXhXpHNgjeZdLk%2B72c%3D%0A)
 
  
 
-## Add and remove member access to private projects
+## Add and remove access to private projects
 
 ### To add members to a private project
 
 1. Click the "Share" button to the right of the project name.
-2. In the window that appears, add individual members from your organization using their names or email addresses.
+2. In the window that appears, add people from your organization by name or email address. On Enterprise plans, you can also add a group if its visibility settings allow project sharing. Groups appear in the results with a group icon and the label **Group**.
 3. Select the appropriate permission level:
 3. - **Can view:** Members can see project contents, knowledge, and instructions, and chat within the project, but cannot edit it.
 - **Can edit:** Members can modify project instructions and knowledge, update member settings, and actively contribute to the project.
@@ -90,9 +90,35 @@ You can add multiple users at once by copying and pasting a list of email addres
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1784815200&signature=653b548a61891ba61a6a51f564aab378a39f57afe4e2deabcb2b06006f221324&req=dScjFsp5nYhWW%2FMW1HO4zb8C13ncTwWx3jdyj4AFq6YgtDiyVtzdMV%2BWvw5P%0ALnTRrPA6RwM9MjJoG3s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370992/bf398ea46d3f66fe8212d09606e4/ec04a13f-4d56-43cd-9f23-0cb5933af75b?expires=1784916000&signature=eaa6bc880aeca6ab0ceec283357aa0eb889ac5dd0adc156ae72735e8ad95dce3&req=dScjFsp5nYhWW%2FMW3nq%2BgXqiaM3KpXwBS7aaSmlgFeDg%2BSRZ1nWHjU1Jvs3o%0AzX3nCTls7I7s%2BuIH4IlO26Vnm1U%3D%0A)
 
  
+
+ 
+
+### Share a project with a group
+
+On Enterprise plans, you can share a project with a group instead of adding each member individually. Access follows group membership, so members who join the group later get access automatically, and members who leave lose it.
+
+ 
+
+Before you can share with a group, an admin needs to turn on **Share projects with this group** in the group's visibility settings. See **[Manage groups and group spend limits on Enterprise plans](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)**.
+
+1. Click the "Share" button to the right of the project name.
+2. Type the group name in the **Add people or groups** field.
+3. Select the group from the results.
+4. Select "Can view" or "Can edit."
+5. Click "Share."
+
+A few things to know:
+
+- A newly visible group can take a few minutes to appear in the picker.
+- Access changes can take up to five minutes to apply.
+- Group members only get access if they're also members of the organization the project belongs to. A group can span child organizations, but a shared project stays scoped to its own organization.
+- Once a project is shared with a group, every member of that group can open it, even if the group isn't visible to their organization. Visibility controls who can find a group in the picker, not who can reach a project that's already shared.
+- If a member leaves a group, they lose access to projects shared through it unless they have access another way.
+- Deleting a group removes its access to any projects shared with it.
+-  
 
 ### Email notifications
 

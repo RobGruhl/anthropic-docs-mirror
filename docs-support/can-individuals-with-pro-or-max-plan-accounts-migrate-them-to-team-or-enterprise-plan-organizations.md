@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated yesterday*
+*Updated in the last hour*
 
 ---
 
@@ -41,6 +41,7 @@ Both paths move the same content for each person.
 - Cowork tasks and session history
 - Anything Cowork stored on your computer. Local session data and the folders you've connected stay on your machine. Copy anything you want to keep after you migrate.
 - Claude Code cloud sessions (web, scheduled tasks, and mobile)
+- Claude Design systems and projects
 -  
 
 ### Before you migrate
@@ -127,7 +128,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1784815200&signature=133bafbf8455af3e644cc88ee5b7f0d09fd1f9d7abac5d187bf45879e57e35cc&req=diMmFMh3noJbXvMW1HO4zXhPndQ%2ByRpjufhmlOXMdYaX4AXOOvYbQGe%2FGbU%2B%0APvd81S0P5519FOtj0yw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1784980800&signature=60dd26570ec852f287947ea441dc00725b00f80543b7871f8db89cf436e515e8&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U6E4GA%2BRl6PawEbkBcMal7lXa29fQpgQy%0AQMuNxSYRF5bjFF01396GbN7Drc4%3D%0A)
 
  
 
