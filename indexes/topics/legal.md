@@ -1,5 +1,5 @@
 # Legal Topic Index
-*Last updated: 2026-07-23 05:50*
+*Last updated: 2026-07-23 08:18*
 
 Documents related to Legal across all sources (1 documents)
 ---
