@@ -3545,10 +3545,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/rate-limits.md",
       "category": "api-reference",
       "path": "/docs/en/api/rate-limits",
-      "hash": "ead15a70711f7dfa790563a6489b234fac3ca8febfb1383575390060e29247f2",
+      "hash": "e97db9d7b591d4606a0ba2ee9743a1714d6c652ae6b8cb94ce8fec9cba8826e1",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.668915"
+      "last_updated": "2026-07-24T21:56:20.755899"
     },
     "service-tiers.md": {
       "original_url": "https://platform.claude.com/docs/en/api/service-tiers",
@@ -3605,10 +3605,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md",
       "category": "developer-guide",
       "path": "/docs/en/about-claude/models/choosing-a-model",
-      "hash": "60a2d24b2d87b1a9d2e584ceaa51ec8116f5776851cc3e26196be06c8936ed5a",
+      "hash": "f56de22822e6299870a47d4a31447bcc5272b8c230884869f2ac73174a62a9e7",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.669546"
+      "last_updated": "2026-07-24T21:56:20.756528"
     },
     "about-claude__models__introducing-claude-fable-5-and-claude-mythos-5.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5",
@@ -3625,10 +3625,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/about-claude/models/migration-guide",
-      "hash": "eeec0d8ed0e1b4457318c3a9827b1608ec65ff06f810df27512183bc1e0c79f0",
+      "hash": "f127dbc88480a9ea6f459077ef90fc0441a6a5c8f4bfb4a3f1ad4906381b23ec",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.669738"
+      "last_updated": "2026-07-24T21:56:20.756726"
     },
     "about-claude__models__model-ids-and-versions.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
@@ -3675,10 +3675,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
       "category": "developer-guide",
       "path": "/docs/en/about-claude/pricing",
-      "hash": "08815da8933b54da7baf02c515d93104f9cd20e3588ec87e3c8448739fc3a01e",
+      "hash": "5eea12e2ce89128fc47c6146328385876d3fa6a61624c0db98c00106830c915f",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.670467"
+      "last_updated": "2026-07-24T21:56:20.757463"
     },
     "about-claude__use-case-guides__classification.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/use-case-guides/classification",
@@ -4295,10 +4295,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/fast-mode",
-      "hash": "d18bbc38e02d467e4595adf8f015318d3dd7955dc4d7ab29dd69e7d5723426ee",
+      "hash": "9761dd616d634e08f725f2ab791f6f755944252eaaa58723b591fc26377cb847",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.679284"
+      "last_updated": "2026-07-24T21:56:20.766439"
     },
     "build-with-claude__files.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/files",
@@ -4375,10 +4375,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-caching",
-      "hash": "4fef534baf94f2921dcb9a01a916e8a1e9e4e500c6ab19e124497d8a04f02486",
+      "hash": "5cdefb9c93ed25d161b870d62335e513c98406a2f36a67e90cb741d181b036d3",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.680632"
+      "last_updated": "2026-07-24T21:56:20.767819"
     },
     "build-with-claude__prompt-engineering__claude-prompting-best-practices.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
@@ -5125,10 +5125,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/agent-setup.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/agent-setup",
-      "hash": "78efd47962139b54eb3bc7048acabad784b56ba835f58d3492d7d67cf0068d24",
+      "hash": "156c8ae642ed72f474619e292a43e0d0dcc421170c77c9d18343aa688108fe3b",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.689988"
+      "last_updated": "2026-07-24T21:56:20.778333"
     },
     "managed-agents__cloud-sandboxes-reference.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference",
@@ -5385,10 +5385,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/release-notes/overview",
-      "hash": "f98a18c34eea38df3ea7a82a14d013f4b590ba7ccf265e8f3fa677e23baee62e",
+      "hash": "2fd81317831858d3cf59c709b23a349e0ffc30fa11bf6da006b0a5d12ce94963",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.693360"
+      "last_updated": "2026-07-24T21:56:20.781872"
     },
     "release-notes__system-prompts.md": {
       "original_url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
@@ -5472,14 +5472,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-24T19:12:28.699551",
-    "fetch_duration_seconds": 6.223399,
+    "last_fetch_completed": "2026-07-24T21:56:20.787799",
+    "fetch_duration_seconds": 6.276916,
     "total_pages_discovered": 547,
     "pages_fetched_successfully": 547,
     "pages_failed": 0,
-    "pages_unchanged": 258,
-    "pages_updated": 287,
-    "pages_new": 2,
+    "pages_unchanged": 539,
+    "pages_updated": 8,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [],
     "by_category": {
@@ -5495,5 +5495,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-24T19:12:28.699727"
+  "last_updated": "2026-07-24T21:56:20.787978"
 }
