@@ -4435,10 +4435,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/refusals-and-fallback",
-      "hash": "50b55a10446609f8cd790c8fec5591cc58f91bbd1479edc5ced7927bab73849a",
+      "hash": "7abd49f6a7159f1a6c2f7f0eea236b7e8c0ab2e20baeecdc38ce8f3d9fa031db",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-23T05:44:59.202737"
+      "last_updated": "2026-07-24T01:49:19.740119"
     },
     "build-with-claude__search-results.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/search-results",
@@ -4475,10 +4475,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/structured-outputs",
-      "hash": "084501536d99086f0ee67cd4365f7bc3427acb7c587be2f326357e2ce84983c3",
+      "hash": "e3f0cb6c422fc399ca60501cc6526be48baaa240be52408006207ba216d7aa55",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-23T05:44:59.203276"
+      "last_updated": "2026-07-24T01:49:19.741115"
     },
     "build-with-claude__task-budgets.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
@@ -4995,10 +4995,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/user-management.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/user-management",
-      "hash": "f0a1f2117acdf3d4ab330755cae5fe9ff1be45b7f9b19601cffb7102a42283bf",
+      "hash": "f6ecd17239834382bae845709b76b9ca9d02aace7c71a055c6d2dbe1a04896f1",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-14T16:08:23.300445"
+      "last_updated": "2026-07-24T01:49:19.749412"
     },
     "manage-claude__wif-admin-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-admin-api",
@@ -5462,13 +5462,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-23T21:57:30.472582",
-    "fetch_duration_seconds": 38.219996,
+    "last_fetch_completed": "2026-07-24T01:49:19.761476",
+    "fetch_duration_seconds": 7.863385,
     "total_pages_discovered": 546,
     "pages_fetched_successfully": 546,
     "pages_failed": 0,
-    "pages_unchanged": 546,
-    "pages_updated": 0,
+    "pages_unchanged": 543,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [],
@@ -5485,5 +5485,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-07-23T21:57:30.472771"
+  "last_updated": "2026-07-24T01:49:19.761652"
 }

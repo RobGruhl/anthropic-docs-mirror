@@ -89,7 +89,7 @@ Claude offers several voice options you can choose from when you first start voi
 
 To change the voice later:
 
-- **On the web and desktop:** Go to **[Settings > General](http://claude.ai/settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
+- **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
 ![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1784980800&signature=11e0521468e6e1a10e698ced9cbb38e7a38bd5b921e90cdb03b12b39050c50c1&req=diAjFMp7n4FZWvMW3nq%2Bgb4g782eZp%2FONYbwZcbnIM2cB%2FL1UeBXOvGowgK%2B%0AYCdqyCVVZqPwlZ%2F424VMxU7pUYY%3D%0A)
@@ -216,7 +216,7 @@ Yes. Voice mode supports many more languages, on all plans and on Claude Mobile,
 
  
 
-To set your voice language, go to **[Settings > General](https://preview.claude.ai/new#settings/general)**, then find **Voice > Language** and choose a language. Changing your app's display language doesn't change your voice language, so set it here. You can also ask Claude to switch languages during a voice conversation.
+To set your voice language, go to **[Settings > General](https://claude.ai/new#settings/general)**, then find **Voice > Language** and choose a language. Changing your app's display language doesn't change your voice language, so set it here. You can also ask Claude to switch languages during a voice conversation.
 
  
 

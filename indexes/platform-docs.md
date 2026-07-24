@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-23 22:03*
+*Last updated: 2026-07-24 01:54*
 Total documents: 546
 ---
 ## Uncategorized (546 documents)
@@ -1841,7 +1841,7 @@ Total documents: 546
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-24  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
@@ -1861,7 +1861,7 @@ Total documents: 546
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-24  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
@@ -2411,7 +2411,7 @@ Total documents: 546
 ### manage-claude__user-management
 **File:** `/platform-docs/manage-claude__user-management.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/user-management  
-**Updated:** 2026-07-14  
+**Updated:** 2026-07-24  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  
