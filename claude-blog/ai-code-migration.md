@@ -283,7 +283,7 @@ Related
 
 - Dynamic workflows in Claude Code
 
-This blog was written by Michael Segner based on migrations run by Jarred Sumner and engineering teams across Anthropic.
+‍
 
 FAQ
 
