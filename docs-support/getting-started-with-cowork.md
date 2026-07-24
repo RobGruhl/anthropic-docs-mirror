@@ -181,7 +181,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1784900700&signature=502366c45a2d39ac620763c59a80359b96f9055eb5738f3f31919c54ad0e30ff&req=diUlE8B8m4lYXfMW1HO4zcDl6tzlNlG38iWjaktE940an6Y88IRO15JfbPTw%0AWOUnef2uMXMsfqfdKWM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1784922300&signature=c7d296221a745ef96d10e7e2039c8047352b847739a6d38767d75da7faf95c02&req=diUlE8B8m4lYXfMW1HO4zcDl6tzlNFOz8iWjaktE941DWkozkyLp%2FhEPJm79%0ADpaF%2FY%2BJeH%2F%2BEKJZ75w%3D%0A)
 
  
 
@@ -358,7 +358,7 @@ Check that you've granted Claude the appropriate file access permissions. Review
 ## Related Articles
 
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
-- [Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

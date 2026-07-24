@@ -1,6 +1,6 @@
 # Change the model, effort, and thinking settings
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -33,7 +33,7 @@ The effort level controls how much thinking Claude applies to a response. Higher
 
  
 
-The effort selector is available for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.
+The effort selector is available for Opus 5, Sonnet 5, Fable 5, Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.
 
  
 
@@ -65,6 +65,10 @@ Extended thinking lets Claude spend more time breaking down problems, planning s
  
 
 Thinking and effort are separate settings, and you can use any combination of the two. The effort level controls how thorough Claude is with every response. The thinking toggle controls whether Claude works through its reasoning in an expandable section before responding.
+
+ 
+
+Extended thinking cannot be turned off in Claude when using Claude Opus 5. On the Claude API, thinking can be turned off at effort levels high and below, but attempting to disable thinking at xhigh or max effort returns an error. 
 
  
 

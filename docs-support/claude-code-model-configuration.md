@@ -1,6 +1,6 @@
 # Claude Code model configuration
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -18,6 +18,7 @@ The simplest way to change models is to use the /model command directly within C
 
 ## Supported models
 
+- Opus 5, <code>claude-opus-5</code>
 - Sonnet 5, <code>claude-sonnet-5</code>
 - Fable 5, <code>claude-fable-5</code>
 - Opus 4.8, <code>claude-opus-4-8</code>
@@ -36,7 +37,8 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 1. Start a fresh Terminal session.
 2. Enter the following commands (depending on the model you’d like to use for that session):
-2. - **For Sonnet 5**: <code>claude --model claude-sonnet-5</code>
+2. - **For Opus 5**: <code>claude --model claude-opus-5</code>
+- **For Sonnet 5**: <code>claude --model claude-sonnet-5</code>
 - **For Fable 5**: <code>claude --model claude-fable-5</code>
 - **For Opus 4.8**: <code>claude --model claude-opus-4-8</code>
 - **For Opus 4.7**: <code>claude --model claude-opus-4-7</code>
@@ -61,6 +63,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For ZSH users (macOS)
 
+- Opus 5: <code>echo 'export ANTHROPIC_MODEL="claude-opus-5"' >> ~/.zshrc</code>
 - Sonnet 5: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-5"' >> ~/.zshrc</code>
 - Fable 5: <code>echo 'export ANTHROPIC_MODEL="claude-fable-5"' >> ~/.zshrc</code>
 - Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.zshrc</code> 
@@ -75,6 +78,7 @@ Use the <code>--model</code> flag when starting Claude Code.
 
 ### For BASH users (Linux)
 
+- Opus 5: <code>echo 'export ANTHROPIC_MODEL="claude-opus-5"' >> ~/.bashrc</code>
 - Sonnet 5: <code>echo 'export ANTHROPIC_MODEL="claude-sonnet-5"' >> ~/.bashrc</code>
 - Fable 5: <code>echo 'export ANTHROPIC_MODEL="claude-fable-5"' >> ~/.bashrc</code>
 - Opus 4.8: <code>echo 'export ANTHROPIC_MODEL="claude-opus-4-8"' >> ~/.bashrc</code>

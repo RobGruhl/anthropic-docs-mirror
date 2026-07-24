@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-24 13:23*
+*Last updated: 2026-07-24 19:17*
 
-Documents related to Claude Code across all sources (292 documents)
+Documents related to Claude Code across all sources (293 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -198,7 +198,7 @@ Documents related to Claude Code across all sources (292 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (97)
+## Claude.com Blog Posts (98)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -225,11 +225,11 @@ Documents related to Claude Code across all sources (292 documents)
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
 - [Claude Design now stays on brand for daily work](/claude-blog/claude-design-stays-on-brand-for-daily-work.md) - ![](https://cdn
 - [Claude Enterprise, now available self-serve](/claude-blog/self-serve-enterprise.md) - ![](https://cdn
+- [Claude models explained: choosing the best model for your use case](/claude-blog/claude-models-explained-choosing-the-best-model-for-your-use-case.md) - ![](https://cdn
 - [Claude를 더 유능한 전기 엔지니어로 만들기](/claude-blog/making-claude-a-better-electrical-engineer.md) - ![](https://cdn
 - [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
 - [Code w/ Claude SF 2026 recap: Building on the AI exponential](/claude-blog/code-w-claude-sf-2026-sf.md) - ![](https://cdn
 - [Code with Claude comes to San Francisco, London, and Tokyo](/claude-blog/code-with-claude-san-francisco-london-tokyo.md) - ![](https://cdn
-- [Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [Comment trois startups d'YC ont développé leurs entreprises avec Claude Code](/claude-blog/building-companies-with-claude-code.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
@@ -286,6 +286,7 @@ Documents related to Claude Code across all sources (292 documents)
 - [Verbesserung des Frontend-Designs durch Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
 - [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
+- [Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt](/claude-blog/how-ai-helps-break-cost-barrier-cobol-modernization.md) - ![](https://cdn
 - [Wir testen Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
 - [Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](/claude-blog/working-at-the-frontier-rakuten.md) - ![](https://cdn
 - [Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work](/claude-blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work.md) - ![](https://cdn

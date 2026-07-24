@@ -1,10 +1,18 @@
 # Release notes
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
 ## July 2026
+
+### July 24, 2026
+
+**Claude Opus 5 launch**
+
+We launched Claude Opus 5, a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price. For more information, see our blog post: **[Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)**.
+
+ 
 
 ### July 14, 2026
 

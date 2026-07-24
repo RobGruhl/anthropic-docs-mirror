@@ -1,6 +1,6 @@
 # Manage project visibility and sharing
 
-*Updated in the last hour*
+*Updated yesterday*
 
 ---
 
@@ -13,7 +13,7 @@ When creating a project on a Team or Enterprise plan, you can choose between two
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1784916000&signature=10afbc81b141028df02740e16e55bf61bcb71ed0dc7640bd416187be23b1f9f4&req=dScjFsp5nYhWWPMW3nq%2BgeZJIc%2BBNcUz1mMWc7sTq%2BnWFw%2BI1AmmWdOfUVcc%0AcCDqGplXBR5rJvMFHNaOqySbVgE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1784922300&signature=b3eb5b49ea80305ce6b0225f907af5449d74488b710924f9c58859fe3bcec1ef&req=dScjFsp5nYhWWPMW1HO4zd3a2VgtJoykHK95%2FTFaPylqYRVtuJExSNypYqsA%0Awyz7ZN5z5IuTgdDbVmg%3D%0A)
 
  
 
@@ -29,7 +29,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1784916000&signature=a14d965ef904c0e5a76dc15d4410a106e9282982133196382bea0da96007ca64&req=dScjFsp5nYhXXvMW3nq%2BgauQysBNVcqGzkV7xHMI3oTBYcI%2F689AWa7DFL1v%0AbZ9wRWkikZe4TQeqPZNWKc%2FxWxM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1784922300&signature=8a412df7bec939f4800ff6734b12b79d43bb969046810ba1e39cfbf3caacc623&req=dScjFsp5nYhXXvMW1HO4zUiDoi3%2BgwQqE8Kp5wh0MSAWGy6F%2BfrnaheKIkN7%0A9jamuosHBbGwsS4woAo%3D%0A)
 
  
 
@@ -37,7 +37,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1784916000&signature=347af72bfccc00ee45ccdcae9b09841673f95f522ced116aba3a6331a0f62ff4&req=dScjFsp5nYhXUfMW3nq%2BgR4SCqCCdLOJQqdU7vfwvzTES5ZmNa5qF68qpsOy%0AOfbffzajBem7bEl9mW4LwfxHfx0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1784922300&signature=5bd8bfdd30ec593435e387022509fdf23d67dbd7b21272d7dd74fd38d285fe36&req=dScjFsp5nYhXUfMW1HO4zckCIfZrYCCnl3XeGelDRW3Il8TOY23caKEP3PvO%0ARxRa8ZDFIdzj2lYW9EI%3D%0A)
 
  
 
@@ -53,7 +53,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1784916000&signature=646a71b65cfc3c0f97e00f2dd7b41b36c1b8c83422b989c5d543b5e04d601bcc&req=dScjFsp5nYhXUPMW3nq%2BgUpONNyv48aO%2FdE665d8ozYHs9nObn6NYYEXJ45z%0A80v1L%2F0fJg06zX7TmWPgYwxSWeY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1784922300&signature=a7e7f7fb136220eabe7addeb40830a36c0677b6e767b35519dffcd935b2f5184&req=dScjFsp5nYhXUPMW1HO4zaSEGleVSLoO2JrJefVtywn0GJpMoluLQhfSWGl9%0AALbTv3LCoX8dKvsI43M%3D%0A)
 
  
 
@@ -61,7 +61,7 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1784916000&signature=4b408b07923d691fc6827b32c84e09be9316568908c82d70f8dfef65b1c67a36&req=dScjFsp5nYhWWfMW3nq%2BgTfr6qmRNVpdWQX62YaZuU%2BZD4b8OBEYKViIeK9E%0Agx5CjdZTLeXhXpHNgjeZdLk%2B72c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1784922300&signature=50ac0799d8baad0bfa33266aef89272ec2cb4349461c1ece252418930cf8e8bb&req=dScjFsp5nYhWWfMW1HO4zT7Q08yyvw4VAmYRPrgMBZkNDeWkB%2BnXDKuZ0YEe%0A9yOYlKB2teKcxDldAGQ%3D%0A)
 
  
 

@@ -1,13 +1,14 @@
 # Prompt Engineering Topic Index
-*Last updated: 2026-07-24 13:23*
+*Last updated: 2026-07-24 19:17*
 
-Documents related to Prompt Engineering across all sources (18 documents)
+Documents related to Prompt Engineering across all sources (19 documents)
 ---
-## Platform Documentation (platform.claude.com) (5)
+## Platform Documentation (platform.claude.com) (6)
 - [build-with-claude__prompt-engineering__claude-prompting-best-practices](/platform-docs/developer-guide/build-with-claude__prompt-engineering__claude-prompting-best-practices.md)
 - [build-with-claude__prompt-engineering__overview](/platform-docs/developer-guide/build-with-claude__prompt-engineering__overview.md)
 - [build-with-claude__prompt-engineering__prompting-claude-fable-5](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-fable-5.md)
 - [build-with-claude__prompt-engineering__prompting-claude-opus-4-8](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md)
+- [build-with-claude__prompt-engineering__prompting-claude-opus-5](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-opus-5.md)
 - [build-with-claude__prompt-engineering__prompting-claude-sonnet-5](/platform-docs/developer-guide/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md)
 
 ## Anthropic News & Announcements (1)

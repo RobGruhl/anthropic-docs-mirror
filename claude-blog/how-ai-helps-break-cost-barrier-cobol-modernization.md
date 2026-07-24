@@ -1,104 +1,104 @@
-# Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL
+# Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-# Come l'IA aiuta a superare la barriera dei costi per la modernizzazione COBOL
+# Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
 
-La modernizzazione del codice legacy è rimasta in stallo per anni perché la comprensione del codice legacy costava più della sua riscrittura. L'IA capovolge l'equazione.
+Die Modernisierung von Legacy-Code geriet jahrelang ins Stocken, da es mehr kostete, Legacy-Code zu verstehen, als ihn umzuschreiben. Mit KI ändert sich das.
 
-- CategoriaClaude Code
+- KategorieClaude Code
 
-- ProdottoClaude Code
+- ProduktClaude Code
 
-- Data23/2/26
+- Datum23.2.2026
 
-- Tempo di lettura5min
+- Lesezeit5Min
 
-- CondividiCopia linkhttps://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+- TeilenLink kopierenhttps://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 
-COBOL è ovunque. Si stima che gestisca il[95% delle transazioni ATM negli Stati Uniti](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022). Centinaia di miliardi di righe di COBOL vengono eseguite ogni giorno in produzione, a supporto di sistemi critici nei settori della finanza, delle compagnie aeree e della pubblica amministrazione.Nonostante ciò, il numero di persone che lo comprendono diminuisce di anno in anno.
+COBOL ist überall. Es verarbeitet schätzungsweise[95 % der Transaktionen an Geldautomaten in den USA](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1090&context=treos_icis2022). Hunderte Milliarden COBOL-Zeilen werden täglich im Produktivsyste ausgeführt und treiben kritische Systeme in der Finanzwelt, für Fluggesellschaften und Behörden an.Trotzdem sinkt die Zahl der Personen, die es verstehen, jedes Jahr.
 
-Gli sviluppatori che hanno creato questi sistemi sono andati in pensione anni fa, e le conoscenze istituzionali che portavano con sé se ne sono andate insieme a loro. Il codice di produzione è stato modificato ripetutamente nel corso dei decenni, ma la documentazione non ha tenuto il passo. Nel frattempo, non stiamo esattamente formando sostituti: il COBOL viene insegnato solo in poche università e trovare ingegneri in grado di leggerlo diventa ogni trimestre più difficile.
+Die Entwickler, die diese Systeme entwickelt haben, sind vor Jahren in den Ruhestand gegangen, und das institutionelle Wissen, über das sie verfügten, ging mit ihnen. Der Produktionscode wurde über Jahrzehnte hinweg immer wieder geändert, aber die Dokumentation konnte nicht mithalten. In der Zwischenzeit bilden wir nicht genug Nachwuchskräfte aus – COBOL wird nur an einer Handvoll Universitäten gelehrt, und Ingenieure zu finden, die es lesen können, wird immer schwieriger.
 
-Alla luce di questi ostacoli, come possono le organizzazioni[modernizzare](https://claude.com/solutions/code-modernization)i propri sistemi senza perdere l'affidabilità, la disponibilità e i dati accumulati nel corso dei decenni? E senza rompere nulla?
+Wie können Unternehmen ihre Systeme angesichts dieser Hindernisse[modernisieren](https://claude.com/solutions/code-modernization), ohne die über Jahrzehnte angesammelte Zuverlässigkeit, Verfügbarkeit und Daten zu verlieren? Und ohne etwas kaputt zu machen?
 
-## Perché modernizzare il COBOL è diverso
+## Warum die Modernisierung von COBOL anders ist
 
-La modernizzazione COBOL si differenzia fondamentalmente dal tipico refactoring del codice legacy. Non state semplicemente aggiornando codice familiare per utilizzare pattern migliori, ma state anche effettuando il reverse engineering della logica aziendale dei sistemi creati quando Nixon era presidente. Stai districando dipendenze che si sono evolute nel corso di decenni e traducendo il know-how istituzionale che ora esiste solo nel codice stesso.
+Die COBOL-Modernisierung unterscheidet sich grundlegend vom typischen Refactoring von Legacy-Code. Es geht nicht nur darum, vertrauten Code zu optimieren, sondern man muss Reverse Engineering der Geschäftslogik von Systemen durchführen, die entwickelt wurden, als Nixon Präsident war. Man muss Abhängigkeiten entwirren, die sich über Jahrzehnte entwickelt haben, und institutionelles Wissen übersetzen, das jetzt nur noch im Code selbst vorhanden ist.
 
-Modernizzare un sistema COBOL un tempo richiedeva eserciti di consulenti che passavano anni a mappare i flussi di lavoro. Ciò comportava tempistiche lunghe e costi elevati che pochi erano disposti ad affrontare.
+Die Modernisierung eines COBOL-Systems erforderte einst ganze Heerscharen von Beratern, die viele Jahre damit verbrachten, Workflows abzubilden. Dies führte zu langen Projekten und hohen Kosten, die nur wenige bereit waren auf sich zu nehmen.
 
-L'IA cambia questa situazione.
+KI ändert das.
 
-Strumenti come[Claude Code](https://www.claude.com/product/claude-code)consentono di automatizzare le fasi di esplorazione e analisi che consumano la maggior parte degli sforzi nella modernizzazione COBOL. Questi strumenti possono:
+Tools wie[Claude Code](https://www.claude.com/product/claude-code)können die Explorations- und Analysephasen automatisieren, die den Großteil des Aufwands bei der COBOL-Modernisierung ausmachen. Diese Tools können:
 
-- Mappare le dipendenze tra migliaia di righe di codice
+- Abhängigkeiten über Tausende von Codezeilen hinweg abbilden
 
-- Documentare flussi di lavoro che nessuno ricorda
+- Workflows dokumentieren, an die sich niemand mehr erinnert
 
-- Identificare i rischi per i quali gli analisti umani impiegherebbero mesi per farli emergere
+- Risiken identifizieren, für deren Aufdeckung menschliche Analysten Monate benötigen würden
 
-- Fornire ai team le informazioni approfondite necessarie per prendere decisioni informate
+- Teams umfassende Informationen bereitstellen, die sie für fundierte Entscheidungen benötigen
 
-Con l'IA, i team possono modernizzare la propria codebase COBOL in trimestri anziché in anni.
+Mit KI können Teams ihre COBOL-Codebasis in ein paar Quartalen anstatt in Jahren modernisieren.
 
-## Come l'IA cambia la modernizzazione COBOL
+## Wie KI die Modernisierung von COBOL verändert
 
-L'IA eccelle nell'ottimizzare le attività che un tempo rendevano la modernizzazione del COBOL economicamente proibitiva. Con queste soluzioni, il tuo team potrà concentrarsi sulla strategia, sulla valutazione dei rischi e sulla logica di business, mentre l'IA automatizza l'analisi e l'implementazione del codice.
+KI zeichnet sich durch die Optimierung der Aufgaben aus, die eine Modernisierung von COBOL früher unbezahlbar gemacht hätten. Dadurch kann sich Ihr Team auf Strategie, Risikoeinschätzung und Geschäftslogik konzentrieren, während KI die Codeanalyse und Implementierung automatisiert.
 
-### Esplorazione e scoperta automatizzate
+### Automatisierte Exploration und Analyse
 
-L'IA inizia leggendo l'intera codebase COBOL e mappando la struttura.
+KI liest zunächst Ihre gesamte COBOL-Codebasis und bildet die Struktur ab.
 
-Identifica i punti di ingresso dei programmi, traccia i percorsi di esecuzione tramite le subroutine chiamate, mappa i flussi di dati tra i moduli e documenta le dipendenze che interessano centinaia di file.
+Es identifiziert Programmeinstiegspunkte, verfolgt Ausführungspfade durch aufgerufene Unterprogramme, bildet Datenflüsse zwischen den Modulen ab und dokumentiert Abhängigkeiten, die sich über Hunderte von Dateien erstrecken.
 
-Questo tipo di mappatura va oltre i semplici grafi delle chiamate. Strutture di dati condivise, operazioni sui file che creano un accoppiamento tra moduli, sequenze di inizializzazione che incidono sul comportamento in fase di runtime: queste dipendenze implicite non vengono rilevate nell'analisi statica perché riguardano dati condivisi tramite file, database o stati globali. Sono inoltre esattamente ciò che rende rischiosa la modernizzazione COBOL, motivo per cui il rilevamento automatizzato è importante: trova queste relazioni nascoste prima che causino problemi durante la migrazione.
+Diese Art von Abbildung geht über einfache Aufrufgraphen hinaus. Gemeinsam genutzte Datenstrukturen, Dateioperationen, die eine Kopplung zwischen Modulen erstellen, Initialisierungssequenzen, die das Laufzeitverhalten beeinflussen – diese impliziten Abhängigkeiten werden in der statischen Analyse nicht angezeigt, da es sich um Daten handelt, die über Dateien, Datenbanken oder den globalen Zustand gemeinsam genutzt werden. Sie sind auch genau der Grund, warum die COBOL-Modernisierung so riskant ist, weshalb die automatische Erkennung wichtig ist: sie findet diese verborgenen Beziehungen, bevor sie während der Migration Probleme verursachen.
 
-Da questa analisi emerge anche la documentazione del flusso di lavoro.
+Aus dieser Analyse ergibt sich auch eine Workflow-Dokumentation.
 
-Tracciando il modo in cui i dati si spostano dall'input all'output in un sistema, l'IA può produrre diagrammi e descrizioni scritte di pipeline di elaborazione che nessuno ricorda di aver creato, ma su cui tutti fanno affidamento.
+Wenn man versteht, wie sich Daten von der Eingabe bis zur Ausgabe in einem System bewegen, kann KI Diagramme und schriftliche Beschreibungen von Verarbeitungspipelines erstellen, an deren Erstellung sich niemand erinnert, die aber alle brauchen.
 
-### Analisi dei rischi e mappatura delle opportunità
+### Risikoanalyse und Chancenkartierung
 
-Una volta mappata la codebase, l'IA può valutare quali componenti possono essere spostati in sicurezza e quali richiedono una gestione attenta. I moduli con un accoppiamento elevato possono essere più rischiosi da modernizzare. Componenti isolati emergono come candidati per una modernizzazione anticipata e indipendente. La logica duplicata evidenzia opportunità di refactoring. Le aree con debito tecnico accumulato vanno documentate prima che diventino sorprese durante la migrazione.
+Wenn der Überblick über die Codebasis erstellt ist, kann KI beurteilen, welche Komponenten sicher verschoben werden können und welche mit Vorsicht behandelt werden müssen. Die Modernisierung von Modulen mit vielen Abhängigkeiten kann riskanter sein. Isolierte Komponenten erweisen sich als geeignete Kandidaten für eine frühzeitige, unabhängige Modernisierung. Doppelte Logik weist auf Möglichkeiten für Refactoring hin. Bereiche, in denen sich technische Schulden angesammelt haben, werden dokumentiert, bevor sie zu Migrationsüberraschungen werden.
 
-### Pianificazione strategica con supervisione esperta
+### Strategische Planung mit Expertenaufsicht
 
-È qui che il giudizio umano diventa essenziale. I tuoi ingegneri COBOL forniscono una comprensione dei requisiti normativi, delle priorità aziendali, dei vincoli operativi e della tolleranza al rischio che l'IA non può offrire.
+Hier kommt das menschliche Urteilsvermögen ins Spiel. Ihre COBOL-Ingenieure bringen das nötige Verständnis für regulatorische Anforderungen, geschäftliche Prioritäten, betriebliche Einschränkungen und Risikotoleranz ein, das KI nicht einbringen kann.
 
-La fase di pianificazionesviluppa una roadmap dettagliata che organizza in sequenza e in modo strategico i lavori di modernizzazione:
+In der Planungsphasewird eine detaillierte Roadmap entwickelt, die die Modernisierungsarbeiten strategisch sequenziert:
 
-- L'IA suggerisce l'assegnazione delle priorità in base ai rischi, alle dipendenze e alla complessità che ha identificato durante l'analisi.
+- KI schlägt Prioritäten auf der Grundlage der während der Analyse identifizierten Risiken, Abhängigkeiten und Komplexität vor.
 
-- Il tuo team esamina questi consigli e decide quali componenti modernizzare per primi in base al valore aziendale, al rischio tecnico e alle priorità organizzative.
+- Ihr Team schaut sich diese Empfehlungen an und entscheidet Grundlage des geschäftlichen Nutzens, des technischen Risikos und der Prioritäten des Unternehmens, welche Komponenten zuerst modernisiert werden sollen.
 
-- Questo è anche il momento in cui il tuo team definisce l'architettura obiettivo, gli standard di codice e i requisiti di integrazione per i componenti modernizzati.
+- Dies ist auch der Zeitpunkt, an dem Ihr Team die Zielarchitektur, Code-Standards und Integrationsanforderungen für modernisierte Komponenten definiert.
 
-Anche i test e la convalida del codicevengono definiti prima di qualsiasi modifica al codice:
+Code-Tests und -Validierungwerden ebenfalls definiert, bevor Codeänderungen vorgenommen werden:
 
-- L'IA progetta test funzionali preliminari che verificano che il codice migrato produca output identici a quelli del COBOL legacy.
+- Die KI entwirft vorläufige Funktionstests, die überprüfen, ob migrierter Code identische Ergebnisse liefert wie das Legacy-COBOL.
 
-- Il tuo team decide se tali test sono sufficienti, quali scenari aziendali necessitano di convalida manuale da parte di esperti in materia e quali test standardizzati prestazionali i componenti modernizzati devono soddisfare.
+- Ihr Team entscheidet, ob diese Tests ausreichend sind, welche Geschäftsszenarien eine manuelle Validierung durch Experten benötigen und welche Performance-Benchmarks die modernisierten Komponenten erfüllen müssen.
 
-### Implementazione incrementale con convalida continua
+### Inkrementelle Implementierung mit kontinuierlicher Validierung
 
-L'esecuzione avviene un componente alla volta, con convalida in ogni passaggio. L'IA traduce la logica COBOL in linguaggi moderni, crea wrapper API attorno a componenti legacy che rimangono invariati e costruisce le strutture per eseguire codice, vecchio e nuovo, fianco a fianco durante la transizione.
+Die Umsetzung erfolgt jeweils mit einer Komponente, wobei jeder Schritt validiert wird. KI übersetzt COBOL-Logik in moderne Sprachen, erstellt API-Wrapper für Legacy-Komponenten, die an Ort und Stelle bleiben, und erstellt das Gerüst, um während der Übergangszeit alten und neuen Code nebeneinander auszuführen.
 
-Ogni passaggio ha esito positivo e viene convalidato oppure fallisce e viene corretto mentre l'ambito è limitato.
+Jeder Schritt ist entweder erfolgreich und wird umgesetzt, oder er schlägt fehl und wird korrigiert, wobei die Auswirkungen klein bleiben.
 
-Non hai mai cambiamenti enormi in corso in cui un errore significa dover annullare settimane di lavoro. Man mano che il tuo team osserva i componenti modernizzati superare i test, acquisisce la sicurezza necessaria per affrontare parti del sistema progressivamente più complesse.
+Es kommt niemals zu massiven Änderungen, bei denen ein Scheitern das Zunichtemachen wochenlanger Arbeit bedeuten würde. Da Ihr Team sieht, dass modernisierte Komponenten Tests bestehen, gewinnt es an das nötige Vertrauen, um zunehmend komplexere Teile des Systems anzugehen.
 
-## Inizia la modernizzazione COBOL
+## Starten Sie Ihre COBOL-Modernisierung
 
-L'approccio sopra descritto funziona per i sistemi COBOL di qualsiasi dimensione.
+Der oben beschriebene Ansatz funktioniert für COBOL-Systeme jeder Größe.
 
-Strumenti come Claude Code possono automatizzare gran parte delle attività di esplorazione e analisi descritte, offrendo al tuo team la comprensione completa di cui ha bisogno per pianificare ed eseguire migrazioni con sicurezza.
+Tools wie Claude Code können einen Großteil der beschriebenen Explorations- und Analysearbeit automatisieren, sodass Ihr Team das nötige Verständnis erhält, um Migrationen zuversichtlich zu planen und auszuführen.
 
-Inizia con un singolo componente o flusso di lavoro con confini chiari e complessità moderata. Utilizza l'IA per analizzare e documentare accuratamente, pianificare la modernizzazione con i tuoi ingegneri, implementare in modo incrementale con test in ogni fase e convalidare attentamente.  Questo rafforzerà la fiducia organizzativa e porterà alla luce gli aggiustamenti necessari per i tuoi sistemi.
+Sie können mit einer einzelnen Komponente oder einem Workflow beginnen, der klare Grenzen und moderate Komplexität hat. Sie können KI verwenden, um diese Komponenten gründlich zu analysieren und zu dokumentieren, die Modernisierung mit Ihren Ingenieuren zu planen, den Prozess schrittweise mit Tests in jedem Schritt umzusetzen und alles sorgfältig zu validieren.  Dies stärkt das organisatorische Vertrauen und zeigt die erforderlichen Anpassungen für Ihre Systeme auf.
 
-Gli aspetti economici della modernizzazione COBOL sono cambiati. L'IA fa funzionare gli aspetti economici automatizzando ciò che prima richiedeva eserciti di consulenti, lasciando liberi i tuoi ingegneri di prendere le decisioni di migrazione che richiedono le loro competenze specifiche di dominio.
+Die Wirtschaftlichkeit der COBOL-Modernisierung hat sich geändert. KI macht das Ganze wirtschaftlich, indem sie Aufgaben automatisiert, die früher ganze Heerscharen von Beratern erforderten, so dass Ihre Ingenieure die Migrationsentscheidungen treffen können, die ihr Fachwissen erfordern.
 
-Per una guida dettagliata, consultare il[Playbook per la modernizzazione del codice](https://resources.anthropic.com/code-modernization-playbook).
+Eine Schritt-für-Schritt-Anleitung finden Sie im[Playbook zur Code-Modernisierung](https://resources.anthropic.com/code-modernization-playbook).
 
 ‍
 
@@ -108,20 +108,36 @@ Per una guida dettagliata, consultare il[Playbook per la modernizzazione del cod
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-## Articoli correlati
+## Ähnliche Beiträge
 
-Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
-## Trasforma le operazioni della tua azienda con Claude
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-Ricevi la newsletter sullo sviluppo
+### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
 
-Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
-Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
+### Claude für die Rechtsbranche
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
+
+### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
+
+### Das kann der Max Plan
+
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+
+Entwickler-Newsletter abonnieren
+
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/it/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+**Source:** https://claude.com/de/blog/how-ai-helps-break-cost-barrier-cobol-modernization
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

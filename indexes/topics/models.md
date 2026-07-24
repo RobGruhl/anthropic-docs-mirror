@@ -1,5 +1,5 @@
 # Models Topic Index
-*Last updated: 2026-07-24 13:23*
+*Last updated: 2026-07-24 19:17*
 
 Documents related to Models across all sources (7 documents)
 ---
@@ -9,6 +9,6 @@ Documents related to Models across all sources (7 documents)
 - [about-claude__models__migration-guide](/platform-docs/developer-guide/about-claude__models__migration-guide.md)
 - [about-claude__models__model-ids-and-versions](/platform-docs/developer-guide/about-claude__models__model-ids-and-versions.md)
 - [about-claude__models__overview](/platform-docs/developer-guide/about-claude__models__overview.md)
-- [about-claude__models__whats-new-claude-4-8](/platform-docs/developer-guide/about-claude__models__whats-new-claude-4-8.md)
+- [about-claude__models__whats-new-opus-5](/platform-docs/developer-guide/about-claude__models__whats-new-opus-5.md)
 - [about-claude__models__whats-new-sonnet-5](/platform-docs/developer-guide/about-claude__models__whats-new-sonnet-5.md)
 
