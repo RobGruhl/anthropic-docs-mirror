@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-07-25 01:51*
+*Last updated: 2026-07-25 05:38*
 
 ## Quick Stats
-- **Total Documents:** 1678
+- **Total Documents:** 1679
 - **Platform Docs:** 547
 - **Claude Code Docs:** 172
 - **MCP Docs:** 168
@@ -11,7 +11,7 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 200
+- **Claude.com Blog:** 201
 - **Support Articles:** 253
 - **Topics:** 84
 
@@ -26,17 +26,17 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 200 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 201 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 253 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 293 documents
+- [Claude Code](topics/claude-code.md) - 294 documents
 - [Mcp](topics/mcp.md) - 235 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
 - [Company](topics/company.md) - 157 documents
-- [Agents](topics/agents.md) - 148 documents
+- [Agents](topics/agents.md) - 149 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
@@ -47,7 +47,7 @@
 - [Alignment](topics/alignment.md) - 62 documents
 - [Api](topics/api.md) - 59 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
-- [Skills](topics/skills.md) - 46 documents
+- [Skills](topics/skills.md) - 47 documents
 - [Agent Sdk](topics/agent-sdk.md) - 34 documents
 - [Community](topics/community.md) - 32 documents
 - [View all 84 topics](topics/)

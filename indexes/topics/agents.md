@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-07-25 01:51*
+*Last updated: 2026-07-25 05:38*
 
-Documents related to Agents across all sources (148 documents)
+Documents related to Agents across all sources (149 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (148 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (90)
+## Claude.com Blog Posts (91)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -143,6 +143,7 @@ Documents related to Agents across all sources (148 documents)
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
+- [The new rules of context engineering for Claude 5 generation models](/claude-blog/the-new-rules-of-context-engineering-for-claude-5-generation-models.md) - ![](https://cdn
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
