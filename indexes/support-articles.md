@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-25 10:23*
+*Last updated: 2026-07-25 13:06*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -421,7 +421,7 @@ Total documents: 253
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
 **Source:** https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-25  
 
 ### How can I delete my Claude Console account?
 **File:** `/docs-support/how-can-i-delete-my-claude-console-account.md`  
@@ -756,7 +756,7 @@ Total documents: 253
 ### Move your personal Claude account to a Team or Enterprise organization
 **File:** `/docs-support/can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md`  
 **Source:** https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-25  
 
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
@@ -1011,7 +1011,7 @@ Total documents: 253
 ### Use Claude with Android apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-25  
 
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
@@ -1091,7 +1091,7 @@ Total documents: 253
 ### Use voice mode
 **File:** `/docs-support/using-voice-mode.md`  
 **Source:** https://support.claude.com/en/articles/11101966-using-voice-mode  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
@@ -1106,7 +1106,7 @@ Total documents: 253
 ### View usage analytics for Team and Enterprise plans
 **File:** `/docs-support/usage-analytics-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans  
-**Updated:** 2026-07-23  
+**Updated:** 2026-07-25  
 
 ### Visual and interactive content
 **File:** `/docs-support/visual-and-interactive-content.md`  

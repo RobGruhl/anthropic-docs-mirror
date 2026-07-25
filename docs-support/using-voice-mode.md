@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1784980800&signature=b58b693ff17400cb55ba9f0bae44b7e343c44b74f813460c0464edf7d33260f5&req=diAjFMp7n4FZWfMW3nq%2BgcPTdC%2BQfJnPgmZq1qMmRNsd2NFOL2EhjFucXNOW%0A4T5BtLowHD5S267QzkFDpj4Nuk8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1784986200&signature=12c28ba27ca3b50b49aec2d14436917da05de3132877d26a61bb6520a8825fe8&req=diAjFMp7n4FZWfMW1HO4zU6VRfnDQLprxNdRzYWrfF63ddf58EkM6oIENLfN%0AKA%2FcMTdzZkovw2LWRng%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1784980800&signature=11e0521468e6e1a10e698ced9cbb38e7a38bd5b921e90cdb03b12b39050c50c1&req=diAjFMp7n4FZWvMW3nq%2Bgb4g782eZp%2FONYbwZcbnIM2cB%2FL1UeBXOvGowgK%2B%0AYCdqyCVVZqPwlZ%2F424VMxU7pUYY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1784986200&signature=b54df834619eb715db39c59090fa018a68c735d5844239a6346b14f89fe1ccf0&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG6caFYIy8OQfYsvK3y81frNXC%2FA8SIf8SYx%0Am%2F0Ev7LROyJYt4XcJ6E%3D%0A)
 
  
 
