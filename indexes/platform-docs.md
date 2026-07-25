@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-07-24 22:00*
+*Last updated: 2026-07-25 01:51*
 Total documents: 547
 ---
 ## Uncategorized (547 documents)
@@ -16,17 +16,17 @@ Total documents: 547
 ### about-claude__models__choosing-a-model
 **File:** `/platform-docs/about-claude__models__choosing-a-model.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/choosing-a-model  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### about-claude__models__introducing-claude-fable-5-and-claude-mythos-5
 **File:** `/platform-docs/about-claude__models__introducing-claude-fable-5-and-claude-mythos-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### about-claude__models__migration-guide
 **File:** `/platform-docs/about-claude__models__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### about-claude__models__model-ids-and-versions
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
@@ -41,7 +41,7 @@ Total documents: 547
 ### about-claude__models__whats-new-opus-5
 **File:** `/platform-docs/about-claude__models__whats-new-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### about-claude__models__whats-new-sonnet-5
 **File:** `/platform-docs/about-claude__models__whats-new-sonnet-5.md`  
@@ -751,7 +751,7 @@ Total documents: 547
 ### agents-and-tools__agent-skills__claude-api-skill
 **File:** `/platform-docs/agents-and-tools__agent-skills__claude-api-skill.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### agents-and-tools__agent-skills__enterprise
 **File:** `/platform-docs/agents-and-tools__agent-skills__enterprise.md`  
@@ -771,7 +771,7 @@ Total documents: 547
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-connector  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### agents-and-tools__mcp-tunnels__concepts
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__concepts.md`  
@@ -786,12 +786,12 @@ Total documents: 547
 ### agents-and-tools__mcp-tunnels__deploy-compose
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-compose.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-compose  
-**Updated:** 2026-07-16  
+**Updated:** 2026-07-25  
 
 ### agents-and-tools__mcp-tunnels__deploy-helm
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__deploy-helm.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-helm  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-25  
 
 ### agents-and-tools__mcp-tunnels__overview
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__overview.md`  
@@ -801,7 +801,7 @@ Total documents: 547
 ### agents-and-tools__mcp-tunnels__quickstart
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/quickstart  
-**Updated:** 2026-07-07  
+**Updated:** 2026-07-25  
 
 ### agents-and-tools__mcp-tunnels__reference
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__reference.md`  
@@ -1711,27 +1711,27 @@ Total documents: 547
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1751,7 +1751,7 @@ Total documents: 547
 ### build-with-claude__effort
 **File:** `/platform-docs/build-with-claude__effort.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/effort  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__embeddings
 **File:** `/platform-docs/build-with-claude__embeddings.md`  
@@ -1766,7 +1766,7 @@ Total documents: 547
 ### build-with-claude__fallback-credit
 **File:** `/platform-docs/build-with-claude__fallback-credit.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/fallback-credit  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__fast-mode
 **File:** `/platform-docs/build-with-claude__fast-mode.md`  
@@ -1791,7 +1791,7 @@ Total documents: 547
 ### build-with-claude__mid-conversation-system-messages
 **File:** `/platform-docs/build-with-claude__mid-conversation-system-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__multilingual-support
 **File:** `/platform-docs/build-with-claude__multilingual-support.md`  
@@ -1801,7 +1801,7 @@ Total documents: 547
 ### build-with-claude__overview
 **File:** `/platform-docs/build-with-claude__overview.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/overview  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__pdf-support
 **File:** `/platform-docs/build-with-claude__pdf-support.md`  
@@ -1836,7 +1836,7 @@ Total documents: 547
 ### build-with-claude__prompt-engineering__prompting-claude-opus-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
@@ -1846,7 +1846,7 @@ Total documents: 547
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
@@ -1871,7 +1871,7 @@ Total documents: 547
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/task-budgets  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### build-with-claude__thinking-steering-and-cost
 **File:** `/platform-docs/build-with-claude__thinking-steering-and-cost.md`  
@@ -1936,7 +1936,7 @@ Total documents: 547
 ### cli-sdks-libraries__cli__quickstart
 **File:** `/platform-docs/cli-sdks-libraries__cli__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### cli-sdks-libraries__cli__scripting
 **File:** `/platform-docs/cli-sdks-libraries__cli__scripting.md`  
@@ -1981,7 +1981,7 @@ Total documents: 547
 ### cli-sdks-libraries__sdks__java
 **File:** `/platform-docs/cli-sdks-libraries__sdks__java.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/java  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### cli-sdks-libraries__sdks__php
 **File:** `/platform-docs/cli-sdks-libraries__sdks__php.md`  
@@ -2286,7 +2286,7 @@ Total documents: 547
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### intro
 **File:** `/platform-docs/intro.md`  
@@ -2551,7 +2551,7 @@ Total documents: 547
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
@@ -2571,7 +2571,7 @@ Total documents: 547
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
@@ -2681,7 +2681,7 @@ Total documents: 547
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-25  
 
 ### release-notes__system-prompts
 **File:** `/platform-docs/release-notes__system-prompts.md`  
