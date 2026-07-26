@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785017700&signature=c2b9021875e67ec95a904fdf80cb720c217e2d7061243baaf8076dff57589ce1&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKSbtuxNdRzYWrfF5sH21QZDhYz%2BJ33zyp%0A3JUxRlMQ5VudEKQLMGo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785033000&signature=0c0c0fb17da3c5b539ae335c0dffbfed2d697cc98c30669eb84cda488ad5e586&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKS79pxNdRzYWrfF7xJkZhDI2fExMqqQ5e%0Abeuf8e6WBBiMauOP%2Bpw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785017700&signature=269b8d31a98db715edc8f7db5e918f6efbef84d601bc8b7db7d6a3991eebcdf1&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVYVcNy8OQfYsvK3wxFMiemcwtv9GFLfdc%0AGDDDHCBfzXCA91W86T0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785033000&signature=0a93d051646bd8e9974af776945bafa57629a2ac427afa5ac49cc50483c741bc&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVY1MKy8OQfYsvK3yEiXIu%2F1d2q%2FVdZPKm%0Aa%2BE6QFkco48TZ0NHSNk%3D%0A)
 
  
 
