@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785063600&signature=7859add9b808d9fa7e045112e45b50d8b09479a5206217c430a2361de81c18b2&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKTr9vxNdRzYWrfF7rAXwH4RxiEZ%2BD6yRl%0AtJa1iz7y%2FpTl9MM9atQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785072600&signature=39f0685f84d068cd6ffd4922fbdcef46c914c9bbeb6bfbacb5b20eb2e815a27a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKT75vxNdRzYWrfF7OUaR%2FPZ3JwO4CUDBQ%0AOyEOxzD6Ws0buSHTl58%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785063600&signature=279b911c0e8aa75b0ecb6cd360290d7d6ba07ff6c7dae8856885b22e37ea27b1&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVZlMMy8OQfYsvK3x7DoKwcYpPe80UKrAk%0Ah3%2BfG%2Be2bqFbmJ6Kx4Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785072600&signature=a2ffa9a94b57f756cfd4f02e7e0cd7b8c901a370dbac8edec5199314f6d83508&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVZ1IMy8OQfYsvK3xmmRs2NtqzMNJtDXqd%0AOL4QJKq%2BEreC1iMv4gk%3D%0A)
 
  
 
