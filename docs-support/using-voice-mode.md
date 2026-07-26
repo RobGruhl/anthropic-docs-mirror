@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785046500&signature=59c84374ebde3b168538f1ca98f88e2601ebaa15c03141d8d3eea78d72413be7&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKTLpsxNdRzYWrfF49lGjEhrAjf1U19j7W%0Ay7c8gR6exJrpdZ9aAXI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785055500&signature=78980ece98d22809a6c0cf9d2e53aa06583660157b4f9af4f5f4b36dec3d976d&req=diAjFMp7n4FZWfMW1HO4zU6VRfjKTblsxNdRzYWrfF5q7vpQY4kxvFaeWgRj%0A9%2FgSge%2BDhQTZOvR2d3c%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785046500&signature=aaf2ff30c1dfd5109c20a37dd1716fc35f4b19b828f80bdfe34822252ce159b1&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVZFYPy8OQfYsvK3yvn9ZTKMKVYCI4z6L7%0AvATjggwjcSLl19oHYK0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785055500&signature=51664570b4f9cb5e0b8c1d6d7d9975401c316e2026d759e64f5d1b7c42fbe6eb&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BVZVUPy8OQfYsvK3xAS5gq8eSEv42qhM1d%0AxarWSHI2KpT%2BQ4Y8Fec%3D%0A)
 
  
 
