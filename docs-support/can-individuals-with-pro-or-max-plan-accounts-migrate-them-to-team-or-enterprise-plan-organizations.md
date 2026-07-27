@@ -128,7 +128,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1785181500&signature=38f8841d89382b7a7bc9f1b7ef4b89426f8c83467b31d24ad701e572b26b91ea&req=diMmFMh3noJbXvMW1HO4zXhPndU3wB5kufhmlOXMdYaxBnJVDSslvwyx3Axq%0Axf6Q9ATEXO5t%2F2U9lZo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1785191400&signature=2ab816832667efb889c3a13116616efb9c6cad037279b36c58fd1bc05d2095aa&req=diMmFMh3noJbXvMW1HO4zXhPndU3wR5lufhmlOXMdYaqtZ7M%2Fq2zfs7oSzkS%0A8CC%2F1CYPy%2BnZndjbG8U%3D%0A)
 
  
 

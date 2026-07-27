@@ -1,5 +1,5 @@
 # Societal Impacts Topic Index
-*Last updated: 2026-07-27 19:16*
+*Last updated: 2026-07-27 22:03*
 
 Documents related to Societal Impacts across all sources (100 documents)
 ---
