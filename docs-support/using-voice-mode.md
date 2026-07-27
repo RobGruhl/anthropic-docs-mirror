@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785119400&signature=3af28fd1f0d831a335517ce0601d2890e76013fd3adf2f14b5fe852a48b3c81e&req=diAjFMp7n4FZWfMW1HO4zU6VRfjLSbVtxNdRzYWrfF4joC45FTQE6JgYro1c%0AJBziy2KlQ%2BTgLaEQRjw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785134700&signature=5179eb31902bd3bbeacf516c2b3f0af9d5ac541330650813d41e9ec993615bf4&req=diAjFMp7n4FZWfMW1HO4zU6VRfjLS7huxNdRzYWrfF6kgGuiP9kuN1AaDvNg%0Av%2Bi58gFb4cB0%2FnhYbqo%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785119400&signature=c11fd08d1794742cad9e562a80f9020f3a3ce411295bece2183e39c33b7ac3b2&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BUYVkOy8OQfYsvK3zAr2KXz0gN62srji81%0AF5H85w2YDbAhmScWkzA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785134700&signature=4e9cf4efbda06b4bf00d752ed8695fd6cbf3cc4b39e40bf6368753db970268ae&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BUY1QNy8OQfYsvK3z3scrQRsPWqrCqyI14%0AgHDe6R7Bw580zrbeZ14%3D%0A)
 
  
 
