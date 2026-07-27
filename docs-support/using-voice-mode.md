@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785156300&signature=97339452ac7bd3a019dca2849668f49983c9fb8c8367401771d2c05613450cd8&req=diAjFMp7n4FZWfMW1HO4zU6VRfjLTbpqxNdRzYWrfF7yS0ZVIY2dT3y5onTg%0AfhXLhhmldZ2T518x5Q8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785172500&signature=ef43b163a16002bffecf781246d76722fd742a026b1eb2dd26c8c8762255221c&req=diAjFMp7n4FZWfMW1HO4zU6VRfjLT75sxNdRzYWrfF5dIaluMqg3BRK56hEF%0AKk8kD%2Bscb2Bj1qrfQ0A%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785156300&signature=5df8fe5200ba52b7f32314191a45f0a24c9d98871ccb8a3c86882c34f10336c9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BUZVYJy8OQfYsvK3xL5nrA9AT3g2JoPC5C%0AzpmzQDv078e%2BMCj7POc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785172500&signature=2632b18fc86b9d331197924fbc7c3872ba93a485a68bb8ef4523a4062c4f4961&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BUZ1IPy8OQfYsvK3xQZhKsgl0y8HSl3%2FLm%0Arq9%2BI3T4FPgy5Xku%2FzA%3D%0A)
 
  
 
