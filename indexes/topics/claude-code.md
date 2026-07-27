@@ -1,5 +1,5 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-27 16:55*
+*Last updated: 2026-07-27 19:16*
 
 Documents related to Claude Code across all sources (294 documents)
 ---
