@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-07-28 13:44*
+*Last updated: 2026-07-28 16:32*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -171,7 +171,7 @@ Total documents: 253
 ### Claude Code FAQ
 **File:** `/docs-support/claude-code-faq.md`  
 **Source:** https://support.claude.com/en/articles/12386420-claude-code-faq  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-28  
 
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
@@ -416,7 +416,7 @@ Total documents: 253
 ### How can I check connectivity to the Claude API?
 **File:** `/docs-support/how-can-i-check-connectivity-to-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/13403291-how-can-i-check-connectivity-to-the-claude-api  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
@@ -511,7 +511,7 @@ Total documents: 253
 ### How does Claude handle mathematical equations and calculations?
 **File:** `/docs-support/how-does-claude-handle-mathematical-equations-and-calculations.md`  
 **Source:** https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations  
-**Updated:** 2026-07-22  
+**Updated:** 2026-07-28  
 
 ### How is my Team plan bill calculated?
 **File:** `/docs-support/how-is-my-team-plan-bill-calculated.md`  
@@ -551,7 +551,7 @@ Total documents: 253
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -611,7 +611,7 @@ Total documents: 253
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -701,7 +701,7 @@ Total documents: 253
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13133750-manage-members-on-team-and-enterprise-plans  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
@@ -826,7 +826,7 @@ Total documents: 253
 ### Remote MCP Server Submission Guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
@@ -1126,7 +1126,7 @@ Total documents: 253
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-07-27  
+**Updated:** 2026-07-28  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1136,7 +1136,7 @@ Total documents: 253
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-24  
+**Updated:** 2026-07-28  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  

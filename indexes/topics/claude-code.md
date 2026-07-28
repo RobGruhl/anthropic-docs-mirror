@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-28 13:44*
+*Last updated: 2026-07-28 16:32*
 
-Documents related to Claude Code across all sources (294 documents)
+Documents related to Claude Code across all sources (295 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (294 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (172)
+## Claude Code Documentation (173)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -57,6 +57,7 @@ Documents related to Claude Code across all sources (294 documents)
 - [Claude Platform On Aws](/code-claude-docs/claude-platform-on-aws.md)
 - [Claude Security](/code-claude-docs/claude-security.md)
 - [Cli Reference](/code-claude-docs/cli-reference.md)
+- [Cloud Environments](/code-claude-docs/cloud-environments.md)
 - [Code Review](/code-claude-docs/code-review.md)
 - [Commands](/code-claude-docs/commands.md)
 - [Common Workflows](/code-claude-docs/common-workflows.md)
