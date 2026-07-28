@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785228300&signature=b44bd4bf47b7c0a409bc1a22f277b75930d20fb4a0946f7f74a428d5f4d7b006&req=diAjFMp7n4FZWfMW1HO4zU6VRfjISrRqxNdRzYWrfF5XqfCmRwtFfYvvlRxs%0AagnQRYNs4XDYG9YCW1I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785239100&signature=e8e0c8d3e3284889f55f634bf459f9d30374cb52b8822342b3adb09c5c83511e&req=diAjFMp7n4FZWfMW1HO4zU6VRfjIS7VoxNdRzYWrfF6%2BM8RFKwEnkxerJpPL%0AqIQl7xH0O3wDKhHVrck%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785228300&signature=159b418b271b40ce3653d57cc7bf11b1dfb36389f677caf6930ecaca472955da&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BXYlgJy8OQfYsvK3zU0vjqn2Lrdf%2F2SxQj%0AWa12YTBMS%2FhDOz0ltO0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785239100&signature=17f4a640e36abe141bc3f8f67c7dd29800474985b60f616448f6202d5994a5e3&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BXY1kLy8OQfYsvK3wmkObFWzMVVEdd9uz7%0As09PbgUEKyZKykVsOf0%3D%0A)
 
  
 
