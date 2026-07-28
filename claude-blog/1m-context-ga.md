@@ -114,6 +114,10 @@ Opus의 컨텍스트 창을 200k에서 500k로 늘렸더니 에이전트가 더 
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
+
+### Bringing MCP 2026-07-28 to Claude
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
 
 ### Claude for Excel 및 Claude for PowerPoint 향상
@@ -125,10 +129,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
 
 ### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)
-
-### 데스크톱용 Claude Code에 자동화된 미리보기, 검토, 병합 기능 도입
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 
