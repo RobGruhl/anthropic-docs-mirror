@@ -1,34 +1,41 @@
 # Engineering Blog Posts Index
-*Last updated: 2026-07-28 05:41*
+*Last updated: 2026-07-28 08:18*
 Total documents: 25
 ---
-## Agent Sdk (1 documents)
-### An update on recent Claude Code quality reports
-**File:** `/engineering-blog/april-23-postmortem.md`  
-**Source:** https://www.anthropic.com/engineering/april-23-postmortem  
+## Agents (10 documents)
+### Building effective agents
+**File:** `/engineering-blog/building-effective-agents.md`  
+**Source:** https://www.anthropic.com/engineering/building-effective-agents  
 **Updated:** 2026-07-28  
-**Categories:** agent-sdk, reliability, claude-code, agents  
-**Keywords:** quality, claude, code, update, recent  
+**Categories:** agents, tools  
+**Keywords:** building, agents, effective  
 
-Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.
 
-## Agent Skills (1 documents)
-### Equipping agents for the real world with Agent Skills
-**File:** `/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md`  
-**Source:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills  
+### Code execution with MCP: Building more efficient agents
+**File:** `/engineering-blog/code-execution-with-mcp.md`  
+**Source:** https://www.anthropic.com/engineering/code-execution-with-mcp  
 **Updated:** 2026-07-28  
-**Categories:** agent-skills, claude-code, agents  
-**Keywords:** real, agent, world, agents, equipping  
+**Categories:** agents, agent-sdk, tools, mcp  
+**Keywords:** code, execution, more, mcp, building  
 
-Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably.
+Learn how code execution with the Model Context Protocol enables agents to handle more tools while using fewer tokens, reducing context overhead by up to 98.7%.
 
-## Agents (5 documents)
+### Demystifying evals for AI agents
+**File:** `/engineering-blog/demystifying-evals-for-ai-agents.md`  
+**Source:** https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents  
+**Updated:** 2026-07-28  
+**Categories:** agents, tools  
+**Keywords:** evals, demystifying, ai, agents  
+
+Demystifying evals for AI agents
+
 ### Effective context engineering for AI agents
 **File:** `/engineering-blog/effective-context-engineering-for-ai-agents.md`  
 **Source:** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents  
 **Updated:** 2026-07-28  
 **Categories:** agents  
-**Keywords:** effective, ai, agents, context, engineering  
+**Keywords:** ai, effective, engineering, agents, context  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
@@ -37,7 +44,7 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents  
 **Updated:** 2026-07-28  
 **Categories:** agents  
-**Keywords:** effective, long, agents, running, harnesses  
+**Keywords:** harnesses, effective, long, agents, running  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
@@ -46,25 +53,43 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/harness-design-long-running-apps  
 **Updated:** 2026-07-28  
 **Categories:** agents  
-**Keywords:** harness, long, design, application, running  
+**Keywords:** application, harness, long, running, design  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+### How we built our multi-agent research system
+**File:** `/engineering-blog/multi-agent-research-system.md`  
+**Source:** https://www.anthropic.com/engineering/multi-agent-research-system  
+**Updated:** 2026-07-28  
+**Categories:** agents, tools  
+**Keywords:** built, multi, our, how, we  
+
+On the the engineering challenges and lessons learned from building Claude's Research system
 
 ### How we contain Claude across products
 **File:** `/engineering-blog/how-we-contain-claude.md`  
 **Source:** https://www.anthropic.com/engineering/how-we-contain-claude  
 **Updated:** 2026-07-28  
 **Categories:** agents  
-**Keywords:** contain, we, how, claude, across  
+**Keywords:** across, claude, contain, how, we  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+### Introducing advanced tool use on the Claude Developer Platform
+**File:** `/engineering-blog/advanced-tool-use.md`  
+**Source:** https://www.anthropic.com/engineering/advanced-tool-use  
+**Updated:** 2026-07-28  
+**Categories:** agents, tools  
+**Keywords:** introducing, advanced, claude, tool, use  
+
+Claude can now discover, learn, and execute tools dynamically to enable agents that take action in the real world. Here’s how.
 
 ### Scaling Managed Agents: Decoupling the brain from the hands
 **File:** `/engineering-blog/managed-agents.md`  
 **Source:** https://www.anthropic.com/engineering/managed-agents  
 **Updated:** 2026-07-28  
 **Categories:** agents  
-**Keywords:** managed, brain, decoupling, agents, scaling  
+**Keywords:** managed, agents, scaling, brain, decoupling  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
@@ -74,7 +99,7 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/eval-awareness-browsecomp  
 **Updated:** 2026-07-28  
 **Categories:** benchmarks, agents  
-**Keywords:** awareness, 4, claude, opus, eval  
+**Keywords:** claude, eval, 4, awareness, opus  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
@@ -83,7 +108,7 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/infrastructure-noise  
 **Updated:** 2026-07-28  
 **Categories:** benchmarks, agents  
-**Keywords:** noise, agentic, coding, quantifying, infrastructure  
+**Keywords:** noise, coding, quantifying, infrastructure, agentic  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
@@ -92,28 +117,73 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/swe-bench-sonnet  
 **Updated:** 2026-07-28  
 **Categories:** benchmarks, agents  
-**Keywords:** verified, swe, bench, bar, raising  
+**Keywords:** raising, bar, swe, bench, verified  
 
 Explore Claude's breakthrough performance on SWE-Bench, demonstrating advanced software engineering capabilities and code generation accuracy. Learn about our technical evaluation methods.
 
-## Claude Code (2 documents)
+## Claude Code (7 documents)
+### An update on recent Claude Code quality reports
+**File:** `/engineering-blog/april-23-postmortem.md`  
+**Source:** https://www.anthropic.com/engineering/april-23-postmortem  
+**Updated:** 2026-07-28  
+**Categories:** claude-code, agents, agent-sdk, reliability  
+**Keywords:** code, update, recent, claude, quality  
+
+Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
 ### Best practices for Claude Code
 **File:** `/engineering-blog/claude-code-best-practices.md`  
 **Source:** https://www.anthropic.com/engineering/claude-code-best-practices  
 **Updated:** 2026-07-28  
 **Categories:** claude-code  
-**Keywords:** best, code, practices, claude  
+**Keywords:** code, claude, practices, best  
 
 Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
+
+### Beyond permission prompts: making Claude Code more secure and autonomous
+**File:** `/engineering-blog/claude-code-sandboxing.md`  
+**Source:** https://www.anthropic.com/engineering/claude-code-sandboxing  
+**Updated:** 2026-07-28  
+**Categories:** claude-code, security  
+**Keywords:** making, beyond, claude, prompts, permission  
+
+Learn how Claude Code's new sandboxing feature protects developers with filesystem and network isolation, reducing permission prompts and increasing user safety.
 
 ### Building a C compiler with a team of parallel Claudes
 **File:** `/engineering-blog/building-c-compiler.md`  
 **Source:** https://www.anthropic.com/engineering/building-c-compiler  
 **Updated:** 2026-07-28  
 **Categories:** claude-code, agents  
-**Keywords:** team, c, compiler, building, of  
+**Keywords:** team, of, compiler, c, building  
 
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+### Equipping agents for the real world with Agent Skills
+**File:** `/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md`  
+**Source:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills  
+**Updated:** 2026-07-28  
+**Categories:** claude-code, agents, agent-skills  
+**Keywords:** equipping, agents, agent, world, real  
+
+Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably.
+
+### How we built Claude Code auto mode: a safer way to skip permissions
+**File:** `/engineering-blog/claude-code-auto-mode.md`  
+**Source:** https://www.anthropic.com/engineering/claude-code-auto-mode  
+**Updated:** 2026-07-28  
+**Categories:** claude-code, tools  
+**Keywords:** code, built, claude, how, we  
+
+Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+
+### Writing effective tools for agents — with agents
+**File:** `/engineering-blog/writing-tools-for-agents.md`  
+**Source:** https://www.anthropic.com/engineering/writing-tools-for-agents  
+**Updated:** 2026-07-28  
+**Categories:** claude-code, agents, tools, mcp  
+**Keywords:** agents, tools, effective, writing  
+
+Writing effective tools for AI agents—using AI agents
 
 ## Desktop (1 documents)
 ### Desktop Extensions: One-click MCP server installation for Claude Desktop
@@ -121,7 +191,7 @@ Anthropic is an AI safety and research company that's working to build reliable,
 **Source:** https://www.anthropic.com/engineering/desktop-extensions  
 **Updated:** 2026-07-28  
 **Categories:** desktop  
-**Keywords:** click, desktop, one, extensions, mcp  
+**Keywords:** desktop, click, one, mcp, extensions  
 
 Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 
@@ -131,7 +201,7 @@ Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 **Source:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations  
 **Updated:** 2026-07-28  
 **Categories:** engineering  
-**Keywords:** technical, evaluations, designing, ai, resistant  
+**Keywords:** ai, technical, designing, evaluations, resistant  
 
 What we learned from three iterations of a performance engineering take-home that Claude keeps beating.
 
@@ -141,7 +211,7 @@ What we learned from three iterations of a performance engineering take-home tha
 **Source:** https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues  
 **Updated:** 2026-07-28  
 **Categories:** reliability  
-**Keywords:** issues, three, postmortem, recent, of  
+**Keywords:** postmortem, recent, of, three, issues  
 
 This is a technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing.
 
@@ -151,90 +221,17 @@ This is a technical report on three bugs that intermittently degraded responses 
 **Source:** https://www.anthropic.com/engineering/contextual-retrieval  
 **Updated:** 2026-07-28  
 **Categories:** retrieval, rag  
-**Keywords:** retrieval, contextual, introducing  
+**Keywords:** contextual, retrieval, introducing  
 
 Explore how Anthropic enhances AI systems through advanced contextual retrieval methods. Learn about our approach to improving information access and relevance in large language models.
 
-## Security (1 documents)
-### Beyond permission prompts: making Claude Code more secure and autonomous
-**File:** `/engineering-blog/claude-code-sandboxing.md`  
-**Source:** https://www.anthropic.com/engineering/claude-code-sandboxing  
-**Updated:** 2026-07-28  
-**Categories:** security, claude-code  
-**Keywords:** permission, prompts, claude, beyond, making  
-
-Learn how Claude Code's new sandboxing feature protects developers with filesystem and network isolation, reducing permission prompts and increasing user safety.
-
-## Tools (8 documents)
-### Building effective agents
-**File:** `/engineering-blog/building-effective-agents.md`  
-**Source:** https://www.anthropic.com/engineering/building-effective-agents  
-**Updated:** 2026-07-28  
-**Categories:** tools, agents  
-**Keywords:** effective, agents, building  
-
-Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.
-
-### Code execution with MCP: Building more efficient agents
-**File:** `/engineering-blog/code-execution-with-mcp.md`  
-**Source:** https://www.anthropic.com/engineering/code-execution-with-mcp  
-**Updated:** 2026-07-28  
-**Categories:** tools, agents, agent-sdk, mcp  
-**Keywords:** more, execution, code, building, mcp  
-
-Learn how code execution with the Model Context Protocol enables agents to handle more tools while using fewer tokens, reducing context overhead by up to 98.7%.
-
-### Demystifying evals for AI agents
-**File:** `/engineering-blog/demystifying-evals-for-ai-agents.md`  
-**Source:** https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents  
-**Updated:** 2026-07-28  
-**Categories:** tools, agents  
-**Keywords:** evals, demystifying, agents, ai  
-
-Demystifying evals for AI agents
-
-### How we built Claude Code auto mode: a safer way to skip permissions
-**File:** `/engineering-blog/claude-code-auto-mode.md`  
-**Source:** https://www.anthropic.com/engineering/claude-code-auto-mode  
-**Updated:** 2026-07-28  
-**Categories:** tools, claude-code  
-**Keywords:** built, we, how, code, claude  
-
-Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
-
-### How we built our multi-agent research system
-**File:** `/engineering-blog/multi-agent-research-system.md`  
-**Source:** https://www.anthropic.com/engineering/multi-agent-research-system  
-**Updated:** 2026-07-28  
-**Categories:** tools, agents  
-**Keywords:** built, we, how, multi, our  
-
-On the the engineering challenges and lessons learned from building Claude's Research system
-
-### Introducing advanced tool use on the Claude Developer Platform
-**File:** `/engineering-blog/advanced-tool-use.md`  
-**Source:** https://www.anthropic.com/engineering/advanced-tool-use  
-**Updated:** 2026-07-28  
-**Categories:** tools, agents  
-**Keywords:** tool, use, claude, introducing, advanced  
-
-Claude can now discover, learn, and execute tools dynamically to enable agents that take action in the real world. Here’s how.
-
+## Tools (1 documents)
 ### The "think" tool: Enabling Claude to stop and think in complex tool use situations
 **File:** `/engineering-blog/claude-think-tool.md`  
 **Source:** https://www.anthropic.com/engineering/claude-think-tool  
 **Updated:** 2026-07-28  
 **Categories:** tools  
-**Keywords:** think, tool, stop, claude, enabling  
+**Keywords:** enabling, think, claude, tool, stop  
 
 A blog post for developers, describing a new method for complex tool-use situations
-
-### Writing effective tools for agents — with agents
-**File:** `/engineering-blog/writing-tools-for-agents.md`  
-**Source:** https://www.anthropic.com/engineering/writing-tools-for-agents  
-**Updated:** 2026-07-28  
-**Categories:** tools, claude-code, agents, mcp  
-**Keywords:** tools, writing, effective, agents  
-
-Writing effective tools for AI agents—using AI agents
 
