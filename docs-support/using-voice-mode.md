@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785268800&signature=e0c4260cf29b574fbb531d89ab8d960d311832a72d51ca16ac50374d854633b0&req=diAjFMp7n4FZWfMW1HO4zU6VRfjITrRhxNdRzYWrfF4mVBG72EWogV652zur%0AaeIUvzhzLT5TTcfd8Rw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785277800&signature=ff54f5c23ad2b557f10b9368ff37b5db0bcd1dbfab6f92187629fb72684d2a71&req=diAjFMp7n4FZWfMW1HO4zU6VRfjIT7thxNdRzYWrfF6XHd9FI9onp3o3JJA0%0ANGWvJOWq7F%2B%2Fqstj6BY%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785268800&signature=2068af03f5fbe3f57f9e92612b36a578abff01ed81a5bb283e79effc97039bd8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BXZlgCy8OQfYsvK3wE0TZiGXxonc09ac5T%0AX4N3rE4b%2B5SjsN07vrM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785277800&signature=31679fa49ccbdeca10a3820edc1a1d400e65ffe4b55bf705b6d5a13d4d69baf9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BXZ1cCy8OQfYsvK3y6SWpsJqfyZW%2BW0v21%0Abdy4ZVYAK0CldL5Yjb4%3D%0A)
 
  
 
