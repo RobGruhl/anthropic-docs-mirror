@@ -1,6 +1,6 @@
 # Access Claude for iOS on your Lock Screen, Control Center, and Action button
 
-*Updated in the last 15 minutes*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -48,8 +48,8 @@ You’ll now be able to Hold to Open the **[Action button](https://support.apple
 
 ## Related Articles
 
-- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [How to update Claude for iOS](https://support.claude.com/en/articles/11825384-how-to-update-claude-for-ios)
 - [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
 - [Use quick entry with Claude Desktop on Mac](https://support.claude.com/en/articles/12626668-use-quick-entry-with-claude-desktop-on-mac)
+- [Manage Claude’s tool access](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access)

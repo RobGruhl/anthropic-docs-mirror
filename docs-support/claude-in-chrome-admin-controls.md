@@ -1,6 +1,6 @@
 # Claude in Chrome admin controls
 
-*Updated today*
+*Updated over a week ago*
 
 ---
 
@@ -123,8 +123,8 @@ We recommend sharing these resources with users before they start using Claude i
 
 ## Related Articles
 
-- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
+- [Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude)

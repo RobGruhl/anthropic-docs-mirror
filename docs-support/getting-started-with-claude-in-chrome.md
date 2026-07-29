@@ -35,7 +35,7 @@ Follow these steps to enable the Claude in Chrome connector in your desktop app:
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1785353400&signature=2716297fb6ae8a3793af6a4927d94b9020953b805d626c75fed419d33bf0e868&req=dSguFM93m4RfW%2FMW1HO4zdOezI5f7bB9hnw73Y7ib%2Bd%2FsVQslscJVQaANs7h%0Ai0IZdMUis%2Bo689zxXtY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1892696502/a23969725f631e99b9e4c47ec6e9/89803b8f-4f3c-4983-8b4d-63aec687ea1a?expires=1785364200&signature=bbe5798815176bfa226918815d79b36820bee060fcb1f14ac8e78eb32153090c&req=dSguFM93m4RfW%2FMW1HO4zdOezI5f7rd7hnw73Y7ib%2Be%2Bf%2BuxDZzPjkSpNaNh%0AjV32iLcdzGEOTBuRfiY%3D%0A)
 
  
 
@@ -226,4 +226,4 @@ If you're unable to install or use the extension, contact your organization's ad
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
-- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude)

@@ -1,6 +1,6 @@
 # Claude in Chrome troubleshooting
 
-*Updated today*
+*Updated over 3 weeks ago*
 
 ---
 
@@ -96,8 +96,8 @@ Your feedback directly shapes how we improve Claude's browser capabilities and s
 
 ## Related Articles
 
-- [Install Claude Desktop](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
+- [Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude)
