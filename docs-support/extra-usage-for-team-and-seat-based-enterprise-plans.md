@@ -85,7 +85,7 @@ The **Usage and spend limits** section will show the current limit (if any) or *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1785277800&signature=f85bcb574a88d75d96257f339aeedc6fc61dd07497027b4fe61cc233d1c68438&req=diEjH8p6modfXfMW1HO4zQHwg6TVkSmu6DwhVVpk1mBSCbow4ut4%2BUuTgMdV%0AvX%2FGF34IhYP5akKgaqI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1785291300&signature=201d4ea0eb611ed5d26728524aa124df764ad266e354d647e51b3b3f19e66b80&req=diEjH8p6modfXfMW1HO4zQHwg6TVny%2Bl6DwhVVpk1mCZEglUQTw8nDG%2Fkg7n%0A3s78djlCI4mXwvAvViA%3D%0A)
 
  
 
@@ -99,7 +99,7 @@ Owners and Primary Owners on **seat-based Enterprise plans only** can set spend 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149351600/c5b979c366ac2738f60ea84e85b3/CleanShot+2026-03-10+at+15_37_41%402x.png?expires=1785277800&signature=72b1156f7e0f29e04383d4a9148715f7681eec3d650607aa68c85f0294353a2c&req=diEjH8p7nIdfWfMW1HO4zYnqMICWJHeB0wfO62ivdG977Jn3gSmtr7CGwbNv%0AnXM9Ki%2BP5yQxYGaenWs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149351600/c5b979c366ac2738f60ea84e85b3/CleanShot+2026-03-10+at+15_37_41%402x.png?expires=1785291300&signature=1813059a8b4014dd672fe2a4f19ecdcea84a362485ab33923dbea6284931e39e&req=diEjH8p7nIdfWfMW1HO4zYnqMICWKnGK0wfO62ivdG%2FdbsYZIk4KqhJShT2R%0AV1A%2Flz22V2lTlEN9vRs%3D%0A)
 
  
 
@@ -107,7 +107,7 @@ Select the "By group" tab to see **Standard seats** and **Premium seats** groups
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149362056/44993661ca2db771fe924d0346f6/image.png?expires=1785277800&signature=121f83de1c8b9042a2db78abb190603dc762135d0288b75c4b70415297e8a1e6&req=diEjH8p4n4FaX%2FMW1HO4zRzvvIAJd0pOq7nEDCGq9G5tIWNwa6yyw0Qc8FAO%0AIflG21%2B%2Fe%2FB%2FJjCPIBw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149362056/44993661ca2db771fe924d0346f6/image.png?expires=1785291300&signature=050db89b47b1beccb7397bdf444deb01b4eeb9345ee884b428c31b53769d522b&req=diEjH8p4n4FaX%2FMW1HO4zRzvvIAJeUxFq7nEDCGq9G6GHjKB7McOuWxPQ1rg%0AfOBuIZv5gM6g5iPdPZM%3D%0A)
 
  
 
@@ -121,7 +121,7 @@ Owners and Primary Owners can also set individual monthly spend limits for each 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149370853/db66f5cd03683b9cc119d0dcd6b8/image.png?expires=1785277800&signature=1b2fdf21aca64c79b1cec59908b4eb730487be75b7c4f756331b8f5f86d99b84&req=diEjH8p5nYlaWvMW1HO4zaPdGQJVUihOe9HwvwG7ubhzNVnZZmJ5ASlHySd2%0AUSGOwLdaBYlNl8EteUU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149370853/db66f5cd03683b9cc119d0dcd6b8/image.png?expires=1785291300&signature=77b4195343ce553a3b243e1290b1f734c56eafe3c7dce829a1f8476c21c26686&req=diEjH8p5nYlaWvMW1HO4zaPdGQJVXC5Fe9HwvwG7ubi5ETcha3RUmLeL73%2Bv%0ABl2yIjCkBV0yZQ%2ByuV4%3D%0A)
 
  
 
@@ -129,7 +129,7 @@ Enter the amount and click "Set limit." Alternatively, selecting "Set to unlimit
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149374028/97813fe3b515c2e839d8d92abd79/image.png?expires=1785277800&signature=c333dc58b6b31cf6e2302d34f017e91d8504b9da6c542bbace50832175aea1d0&req=diEjH8p5mYFdUfMW1HO4zevsAvKINOyCw6z2wGSwkbtk7cB6kwH%2BnVMrWaeu%0ABU5Iwnvfsi3m8KXRaPc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2149374028/97813fe3b515c2e839d8d92abd79/image.png?expires=1785291300&signature=d886b4aeaa68e31a07deccb1f575ee6dd073a6f811c5c7f3feb74954054b8184&req=diEjH8p5mYFdUfMW1HO4zevsAvKIOuqJw6z2wGSwkbtfpHhCDpbmAi3cm%2Frz%0A25afOrVHPhDyMW8xazE%3D%0A)
 
  
 
