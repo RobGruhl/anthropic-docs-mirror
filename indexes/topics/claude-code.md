@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-07-29 01:47*
+*Last updated: 2026-07-29 05:46*
 
-Documents related to Claude Code across all sources (295 documents)
+Documents related to Claude Code across all sources (296 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (295 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (173)
+## Claude Code Documentation (174)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -49,6 +49,7 @@ Documents related to Claude Code across all sources (295 documents)
 - [Claude Apps Gateway](/code-claude-docs/claude-apps-gateway.md)
 - [Claude Apps Gateway Config](/code-claude-docs/claude-apps-gateway-config.md)
 - [Claude Apps Gateway Deploy](/code-claude-docs/claude-apps-gateway-deploy.md)
+- [Claude Apps Gateway On Aws](/code-claude-docs/claude-apps-gateway-on-aws.md)
 - [Claude Apps Gateway On Gcp](/code-claude-docs/claude-apps-gateway-on-gcp.md)
 - [Claude Apps Gateway Spend Limits](/code-claude-docs/claude-apps-gateway-spend-limits.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)

@@ -1,10 +1,11 @@
 # Amazon Bedrock Topic Index
-*Last updated: 2026-07-29 01:47*
+*Last updated: 2026-07-29 05:46*
 
-Documents related to Amazon Bedrock across all sources (4 documents)
+Documents related to Amazon Bedrock across all sources (5 documents)
 ---
-## Claude Code Documentation (2)
+## Claude Code Documentation (3)
 - [Amazon Bedrock](/code-claude-docs/amazon-bedrock.md)
+- [Claude Apps Gateway On Aws](/code-claude-docs/claude-apps-gateway-on-aws.md)
 - [Claude Platform On Aws](/code-claude-docs/claude-platform-on-aws.md)
 
 ## Claude.com Blog Posts (2)
