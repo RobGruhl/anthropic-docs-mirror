@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785429900&signature=d879bf404911b7e03ef39005718c1187a899605e829f6a1d1a8ffcd177941f0a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSrVgxNdRzYWrfF6UyiBnrJudWPF1sZBu%0AJWsARCPdnx2ShxussCQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785440700&signature=638902059e2f7cca25763ff758b0271b1f764853c0cdfc678fd44b2fbc63d850&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOTLxuxNdRzYWrfF5JcNSltKdhnkh8qvM9%0Ap6zQrGh8X8S5KMSphRc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785429900&signature=e837f7d4d59400b4b74301790775cb05199022f6c9435084cf7182a53afc5b48&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYlkDy8OQfYsvK3yWLDOz634KRehzRENB%0AdsdrRkVjs6%2F56jyZ1D8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785440700&signature=234f362150173eb3118ca87d62413076de38d2aaafb57c66496e9398cd0ec304&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRZFANy8OQfYsvK3zT0pfCtzbXa%2BxsKSQD%0ASr8qfxKHf7O%2FDGAZMhA%3D%0A)
 
  
 
