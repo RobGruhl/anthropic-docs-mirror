@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785391200&signature=01358aafae10730456359235b865047fc7aafaf1fecfe65ae47b10fff162e9cf&req=diAjFMp7n4FZWfMW1HO4zU6VRfjJQb1rxNdRzYWrfF66NqytZb3ixMmj9jJv%0ADdQd07l%2BmpLuE1QEpqo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785400200&signature=6fef090aa0674c3c3265e53d852a9c06e65ef30247a99d4279886c3b202d71d9&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSLxrxNdRzYWrfF7oFjn74f9qVEmtjwqY%0AS1AyTeWwtkTwSM%2F%2B8Yo%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785391200&signature=b84c5c72577908106562d21666d7c79a8633f78148311f54588f59f75477f1ac&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BWaVEIy8OQfYsvK3xtOo%2BAfUsaQnnVN1xh%0AZf4VsYTO8nKQGy57zH0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785400200&signature=ce9c25c69c79df503735a21ef0e371423da4267d678978da8bbaaeb55e30d154&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYFAIy8OQfYsvK3zPXYLicyZRwshpVmBo%0AmScevvrJQUc2mujqM%2BA%3D%0A)
 
  
 
