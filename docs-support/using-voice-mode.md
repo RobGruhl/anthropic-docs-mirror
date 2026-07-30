@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785400200&signature=6fef090aa0674c3c3265e53d852a9c06e65ef30247a99d4279886c3b202d71d9&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSLxrxNdRzYWrfF7oFjn74f9qVEmtjwqY%0AS1AyTeWwtkTwSM%2F%2B8Yo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785411000&signature=07e150851a3c6e065dfd5cb82a4d1a267c0d4017b55973e4fb17896caaf195f3&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSb1pxNdRzYWrfF7%2BED230R62w6mp2DdY%0Aj3N4eLLyX%2F%2B6rdGwBIY%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785400200&signature=ce9c25c69c79df503735a21ef0e371423da4267d678978da8bbaaeb55e30d154&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYFAIy8OQfYsvK3zPXYLicyZRwshpVmBo%0AmScevvrJQUc2mujqM%2BA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785411000&signature=69ff2241134941999d1ba686c0fe97340286eb07955ab1de97cf8399b40f598a&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYVEKy8OQfYsvK3wiun0URj4YnQUcRWrf%0AwwLh7tNpzf6KhHzQWr8%3D%0A)
 
  
 
