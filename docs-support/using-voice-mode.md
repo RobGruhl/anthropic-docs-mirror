@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785420000&signature=93f9b63da01ed9ca7142959b0922d6b2fd566672d1680f9385f68c5b6c54f354&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSrxpxNdRzYWrfF768xlndOA79Hf2PYHg%0Azie0MZzT%2B8zR7ipaWAM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785429900&signature=d879bf404911b7e03ef39005718c1187a899605e829f6a1d1a8ffcd177941f0a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOSrVgxNdRzYWrfF6UyiBnrJudWPF1sZBu%0AJWsARCPdnx2ShxussCQ%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785420000&signature=ae2ccaf7f2cdce18644235e0883d38a094bc37329bdceb399ebad08ceea04267&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYlAKy8OQfYsvK3wZ8EzbUJQmv2msQe9I%0AKE385sPNbGTQnGI7Cck%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785429900&signature=e837f7d4d59400b4b74301790775cb05199022f6c9435084cf7182a53afc5b48&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRYlkDy8OQfYsvK3yWLDOz634KRehzRENB%0AdsdrRkVjs6%2F56jyZ1D8%3D%0A)
 
  
 
