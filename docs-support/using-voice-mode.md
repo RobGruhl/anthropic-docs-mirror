@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785363300&signature=54800070886d059e1c25d5b7660b2eadd67d57c2a73f0a63416422d01365309c&req=diAjFMp7n4FZWfMW1HO4zU6VRfjJTr9qxNdRzYWrfF6PGVYFw8xmAJK9pwYq%0Ae5fGK1XReHlcDvSv53g%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785376800&signature=f63808b40fb71176989391e1b48e6d677ec38630adb3d7b827636b6b68089358&req=diAjFMp7n4FZWfMW1HO4zU6VRfjJT7phxNdRzYWrfF7ISyS%2Bk0B%2BrJYijbEQ%0ALsNeA0NtQfUalQQ2HCA%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785363300&signature=f974041c9244aff788dfc7c9f97666773f63a0b7136ac5360c56bef36544fc2d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BWZlMJy8OQfYsvK3zr0CBJ2xi%2FQ45R1TZF%0AQypZg7tlmyfJYJPcHIY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785376800&signature=2e92aa0ce5213c10fefd57d4d6dc9f92e5f0b0faad12bd774d6befe5d53a4ee9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BWZ1YCy8OQfYsvK3z%2BX5kBwdc0YFlbk8Dv%0A3r10kyj%2FUabOELZu22E%3D%0A)
 
  
 
