@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1785464100&signature=445f75ca29803fcce3092544ad346e951d91f336e68680c86a6f70b479c113c4&req=dSUvEs97mYNeXvMW1HO4zYCWiSEch8KbuqqBX2puyxQrVh1fP3Jd4WDgZAUz%0Aqhr23DTjQIg6mj%2BDR1o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1785479400&signature=9c2e8b956f28becfd2739ee1e9869782cc5db763b1e0e4b6a0c5f4a490003d44&req=dSUvEs97mYNeXvMW1HO4zYCWiSEchs%2BeuqqBX2puyxQbxm%2Bt5hIcw16bjYPe%0AfYe5C5DdtExni%2B86jV4%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1785464100&signature=b7612e9ed4023792dd9ceb34dfb750883fb55eecec83a374ed7f5effbc3387ab&req=dSUvEs94mYJdWPMW1HO4zQwER3YuJ4tnqMITUZbanFBw3W3DLrhbfm2HQ5Ib%0AShxumre3QAbNqT1AgYs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1785479400&signature=17a2b2426a631066564df4cc20aa625925d57d3c2a9a7ac5c1ddafd0ca0d52f8&req=dSUvEs94mYJdWPMW1HO4zQwER3YuJoZiqMITUZbanFAVzUb%2Fk40cQX5XxBUw%0A2TBpTZp6m4SvGxc2%2F7c%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1785464100&signature=0425145559f04ab601f7aaf970ebb17b1d7b90b906fd5d9103fcb6ea494c8de2&req=dSUvEs93noJXX%2FMW1HO4zRxEwW5J4FVt21D6pckxWMbSsCBgC%2Fp3f3c1HLNn%0A5wXazM783qGOCuwf0Pw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1785479400&signature=7573b4fadf86590a66acb4b55b95f7b8a66cde20a674bfab4439d05fdeb8e3d3&req=dSUvEs93noJXX%2FMW1HO4zRxEwW5J4Vho21D6pckxWMY5vNAAc82INDexzhr4%0AnIcjeYZBQIP8%2BH92fgo%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1785464100&signature=5b7f5dfffaab9b5cc58f2fad0f02e3a828d647af7680f96bc668a2aff7788d5a&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5nHVdRgCyIF5nuUsbzACcs9ac77WxhSPhQ6%0Ao9HvtebBRQo%2F8Kv8Vqg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1785479400&signature=b65fd520ef6af3a3f119e50bcf22bc9b4663f32238f09c4dc43650b2951afc84&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5nHVNllCyIF5nuUsby8fbq8C15jkcjs3OCA%0ANsyc9JhGXnzJWxUMZGg%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

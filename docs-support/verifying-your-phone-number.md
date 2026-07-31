@@ -8,7 +8,7 @@ When you first create a Claude account, you’ll be asked to enter your phone nu
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1785465000&signature=323e337e10f13b087c87ad9c82d5846ea2be50858e79e927285b8bd46d8ccc26&req=dSguFch5noBbWvMW1HO4zVIf8JVn2i96oTnI%2BoMZk7eaIQ24QlTGqZWpS9OP%0AJR8%2FFxmvXYuSAJ6BFH0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1785479400&signature=5503612e26907647f133e1c359d2f81f757e37bcf2590331c6173a1a800c04c8&req=dSguFch5noBbWvMW1HO4zVIf8JVn2yN%2BoTnI%2BoMZk7diCkQkFmoGYWsZ1kEA%0AcNyN%2BdOvx90NRbgwhRU%3D%0A)
 
  
 
@@ -85,8 +85,8 @@ There isn’t a way to change your phone number associated with your Claude acco
 
 ## Related Articles
 
-- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
+- [How do I change the email address associated with my account?](https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Age assurance on Claude](https://support.claude.com/en/articles/15171100-age-assurance-on-claude)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)
