@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785527100&signature=645c6e07bc1351af5931358218e82d7ab7aefde8c832cce5f579d8cbd55b6c97&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPSrtoxNdRzYWrfF4yXmHNdBDGuixIz0hM%0AuuG33UwZwGjm0XZH2TI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785537000&signature=ca77a7b4cef2af90d694c953f1769998af0f7c0d470c82016e073443f81e80f5&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPS7tpxNdRzYWrfF635AxN7nL0X2O6zsxk%0ATFznaSUafK2R6%2BSJCSI%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785527100&signature=2f34e97398299ef8f08dd7d33cd70ce163db949675f94402d9516961dda6f002&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQYlcLy8OQfYsvK3zyiZSIlvAoVrG2CV5t%0AB2Vrcr0P8V%2F%2BGmyueEg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785537000&signature=59161fe6ec5f2e586d59fe0da218dc58b2738a689e1d7c1818a0e3948ac10402&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQY1cKy8OQfYsvK3xV23nue7lvVbjoiA5N%0A2N0Hqf0DvpERWxKjORA%3D%0A)
 
  
 
