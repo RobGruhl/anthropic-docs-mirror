@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785507300&signature=90107f690ed3564cf051fc164baaa990c840ceadd05bc9bf6c41b3139887fbfa&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPSLtqxNdRzYWrfF4X6sLSjKDrHobXa2eM%0A1SZnQrztLOml%2BFCnm7I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785517200&signature=7c614a8dac14a8fae49995cc2a5b317776fd73be61fa38e77ad96787b812dd03&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPSbtrxNdRzYWrfF5y3Ls%2FSLaz4aPXcP3s%0AIq6DwP2UohjHdWQ85uo%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785507300&signature=d14b5598a5d2d961baaa39fcbcd6759d7ba4429541099a0451f43c581502e5bd&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQYFcJy8OQfYsvK3z%2BjB2Wlz1Q%2FS7yRGr0%0ALHXWZA37Sb7NEwPZPvs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785517200&signature=19c8a6d4083b61b0365d501022e5e8087180e69b2a00494a902938847d983fc9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQYVcIy8OQfYsvK3zCKio7HTuetHyhDjpX%0Ajyew3heU6rhax9yzZuU%3D%0A)
 
  
 
