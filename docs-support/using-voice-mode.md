@@ -1,6 +1,6 @@
 # Use voice mode
 
-*Updated this week*
+*Updated over a week ago*
 
 ---
 
@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785450600&signature=62a8b78be158990918f6027db5fa8b60d98a0b95861c92630fb9464da0c6b459&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOTbxvxNdRzYWrfF5FQluvrRrOzkA2aRnd%0AkYDZRyEHEeJVH%2FkbTdc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785465000&signature=5d20af9ca1242e78efc9f06d4936f3299efa66a47a4763d7a82b55381faf51bd&req=diAjFMp7n4FZWfMW1HO4zU6VRfjOTrlpxNdRzYWrfF4iL3h69DMUcYHNHi3y%0AdRvCnBlLJgTqrfUs1ok%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785450600&signature=ee932ca072a56762f23b348edd7e12cd2ce4e9f1efccce0b7224ba981b300e0e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRZVAMy8OQfYsvK3zqGJf3JNjEe%2F11rVrg%0AoDbp2T0zMYNSMTZgmfc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785465000&signature=b4269e2d70b6b2b03d07258d45dfb2cb581490ba24c955438a2364aea107786b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BRZlUKy8OQfYsvK3yWz1xvSxSdYQphqvmo%0ATI2jRPFHBAKAkC%2BSK%2B8%3D%0A)
 
  
 
