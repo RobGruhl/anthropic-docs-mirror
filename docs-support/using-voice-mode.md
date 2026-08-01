@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785537000&signature=ca77a7b4cef2af90d694c953f1769998af0f7c0d470c82016e073443f81e80f5&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPS7tpxNdRzYWrfF635AxN7nL0X2O6zsxk%0ATFznaSUafK2R6%2BSJCSI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785551400&signature=7ac981f232e7dc0ac331dac968599c03133ef54ff25da507fc8a559017a9ce7a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPTb1txNdRzYWrfF7jHylFfiCOpQFNZOxC%0Azkcw%2B1vs3hNL1TUWVZg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785537000&signature=59161fe6ec5f2e586d59fe0da218dc58b2738a689e1d7c1818a0e3948ac10402&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQY1cKy8OQfYsvK3xV23nue7lvVbjoiA5N%0A2N0Hqf0DvpERWxKjORA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785551400&signature=d89954cd0891f5dd5cdb5061f90db64073c50c3f8ed4851dfd06c245af746aa6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQZVEOy8OQfYsvK3yrH5u76VJZcIJwqpQw%0A02Skgp2ecSj4N9E%2FffE%3D%0A)
 
  
 

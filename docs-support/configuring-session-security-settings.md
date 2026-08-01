@@ -1,6 +1,6 @@
 # Configuring session security settings
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -18,7 +18,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 7 days, 14 days, or 28 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1785537000&signature=7756ee30e01d1873591e44e28f90575bc4a595c242f64686e7766bfa89d2b16a&req=dSgvHs14lIVcX%2FMW1HO4zQNx6%2BciQF1Qg%2F6XaftFnjxc295vakQTcQ8Sz7h7%0AL6EOOWMi3MjNE8fUnz4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1785551400&signature=00e0f70990254270906131db8b26841625990781a63657af3a46389983c0649e&req=dSgvHs14lIVcX%2FMW1HO4zQNx6%2BciRltUg%2F6XaftFnjxftAKBaSw7dbyvDtHy%0AumuBOP%2FwIw%2FFVT2N3DU%3D%0A)
 
  
 
@@ -30,7 +30,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 3 days, or 7 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1785537000&signature=3ff044ccabff34a18b26849587bdcca7c666986ceb49c9e96609808b7ae0de7c&req=dSgvHs14lIVcXPMW1HO4zWzx2LwzJHghXZ5D7eVpMtdczw9YyY56HhFmyDfI%0AdHG2UdmixxnOsUcDrA8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1785551400&signature=8976b19666d7fbe903d462c51ce164f0fb418a30fdc9c23f2dcef4325fada9d4&req=dSgvHs14lIVcXPMW1HO4zWzx2LwzIn4lXZ5D7eVpMtc4KTGIrXs6eWZqeSmT%0AUu3P5VqkfB31ojJsTv4%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ You can change the session duration at any time by selecting a new value from th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1785537000&signature=b2c21ff05dd0af16e7f8bb12b337acd3318ad371def110b7b8c22a915490d1bd&req=dSgvHs14lIVcXvMW1HO4zZ7mWs2e5D6jA00cbyPOLDV7kkaIS6JSIUq4ofwB%0APyQFHG%2FG%2FIqrN6b0u9c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1785551400&signature=da32a83faed03fe185b0cf82f1c4aafd8de3f99791e8411c9cd807f6208745c9&req=dSgvHs14lIVcXvMW1HO4zZ7mWs2e4jinA00cbyPOLDVcQg4Y48FjL2x2NRUa%0AQT8nI4qdg0OvUciX7SM%3D%0A)
 
  
 

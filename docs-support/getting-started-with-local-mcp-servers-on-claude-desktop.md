@@ -1,6 +1,6 @@
 # Getting Started with Local MCP Servers on Claude Desktop
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -57,7 +57,7 @@ Custom desktop extensions uploads allow Team and Enterprise plans to leverage or
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1785537000&signature=550cc76419660afbba061b59bdfb11aaf6b07bf900fa0a9969f53288b4e5fea5&req=dSYvF89%2BmodfXvMW1HO4zWbPxEV6NDoyHn9K2IaIG2LKhBOH2zSJ1yG5bEHO%0AL1cOqZV0vD0JXvkLXkY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1785551400&signature=9d752889cce28ff4ff0cfa10402b665ab6a6f3c339f6ad5f05a3d5fc565950a9&req=dSYvF89%2BmodfXvMW1HO4zWbPxEV6Mjw2Hn9K2IaIG2ISkTD4n%2FYa7JnhMHDi%0AI0M07W6IabbluFSBq5o%3D%0A)
 
  
 

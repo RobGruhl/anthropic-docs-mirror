@@ -1,6 +1,6 @@
 # How can I delete my Claude account?
 
-*Updated over 3 months ago*
+*Updated over 4 months ago*
 
 ---
 
@@ -8,7 +8,7 @@ Once you are logged in, click your initials or name in the lower left corner and
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1785537000&signature=01843e84bc4b9d301336feb145fb5348fd188d61be386d6259977db1c215af2f&req=diIgEst4moRcXfMW1HO4zeqzlXkLJYb8oVDupr7i4TEa%2Bw1yAbP%2BPDlR0GQN%0AfPQvMO7x4X5DI2crKAg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1785551400&signature=d0425655f4e3a6c00bec4c06e832f3b481dc1666649ea7eac468e9e7e6870ba9&req=diIgEst4moRcXfMW1HO4zeqzlXkLI4D4oVDupr7i4TFZAndjxGdUJ2Eac0U%2B%0AHZjrgqixYWOLL0B2GO8%3D%0A)
 
  
 
@@ -32,7 +32,7 @@ There are some scenarios where you will need to **[contact our team](https://sup
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1785537000&signature=ee8ab3e9a0eee7e32674f545fa3e748fd003e5fc7e172e57848d8cb62f8b83aa&req=dSUvEs53m4leWPMW1HO4zXW0qxAOGI1bVOsMorzl%2B%2FTCPBf%2FKycz3dcVubA4%0A%2BXQCHyxjqa1TIlS5GZQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1785551400&signature=ba1395ba530a349c0cff84c707e8a119ce7cfa65c14bea8686ad7166990f978d&req=dSUvEs53m4leWPMW1HO4zXW0qxAOHotfVOsMorzl%2B%2FRklQkQkdrvadRFpiAd%0A1HD%2BkCMnIRFVSPZh0yA%3D%0A)
 
 
 ---
