@@ -1,6 +1,6 @@
 # Our Approach to User Safety
 
-*Updated over 4 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -21,4 +21,4 @@ These features are not failsafe, and we may make mistakes through false positive
 - [CSAM Detection and Reporting](https://support.claude.com/en/articles/9020328-csam-detection-and-reporting)
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
-- [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
+- [Child safety guidance for developers](https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers)

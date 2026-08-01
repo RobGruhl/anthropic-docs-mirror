@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785573000&signature=eda098d4278d0353cc800d1be0280480a75cbb9e74877d09ef292812aa3175c1&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPT79pxNdRzYWrfF4r8OseLXSzdxCvtbWh%0Ac8xCk05%2Fc4wD8dzafNw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785582000&signature=f8dcc1e2cb54bf2e0d8672896a35b712b0a234569c6f30464feeb1799a234740&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPQL5pxNdRzYWrfF6ghOSrH1%2Bch4yfDnwh%0AhjzXAjOh0%2Fj3y4OX3GQ%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785573000&signature=97aaef752a42efddae388879d436cdce736cd421e761245fa5a04e1e858fa92d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQZ1MKy8OQfYsvK3xzk9hLFY2aamhKbeXE%0APGh8y4J37FZIGiyS8GA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785582000&signature=03db9d727e32e6f839b2e3e1ce36fd233b110f3edfbcae914986f7ae4ce3dbc7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQaFIKy8OQfYsvK3ypspnfISlcMuEzW%2FJD%0Agpp%2FZT%2BkM%2FMgkizns6c%3D%0A)
 
  
 
