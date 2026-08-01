@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785591000&signature=e456c34ca86da5c48784bff475429fe9322ca643e9c340b487b9c83adcf5852c&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPQb1pxNdRzYWrfF4wXpmWXntJIZiFHjCj%0AW5qRYOJhN5pkUuoWJis%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785600900&signature=0df6108944c44aea004ded1cf536fdbfae112bd1754fee53957bd1635ba024b0&req=diAjFMp7n4FZWfMW1HO4zU6VRfjMSLxgxNdRzYWrfF41VrdaNVCXP5pz2wU%2B%0Acc9QaOS5GHH%2Bvvk1r80%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785591000&signature=85ede714078f564ddd2c44de2c2fce1453a33192f8ddeebe96cdd64c7eee5e56&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQaVEKy8OQfYsvK3xuVu2CHBRd5i67qrXR%0ArYJObICwcScQNElqYNc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785600900&signature=c971e90c3d59deb7616811633a4f37310778c694404d7deea854e8e9f1ae21fc&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BTYFADy8OQfYsvK3wZCGfWQfPuVbSjXSBF%0AfxaPGmC4dUzbfaq1350%3D%0A)
 
  
 
