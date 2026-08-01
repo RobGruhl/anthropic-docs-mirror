@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785551400&signature=7ac981f232e7dc0ac331dac968599c03133ef54ff25da507fc8a559017a9ce7a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPTb1txNdRzYWrfF7jHylFfiCOpQFNZOxC%0Azkcw%2B1vs3hNL1TUWVZg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785564900&signature=79f76457b71dc752e2826e7b9d8a6cd392dfdccb260574dfdddcebc5b3410178&req=diAjFMp7n4FZWfMW1HO4zU6VRfjPTrhgxNdRzYWrfF5uMQqqQcBC5fXQIXzV%0AsizPIxbGbpdcz%2F7tAqE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785551400&signature=d89954cd0891f5dd5cdb5061f90db64073c50c3f8ed4851dfd06c245af746aa6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQZVEOy8OQfYsvK3yrH5u76VJZcIJwqpQw%0A02Skgp2ecSj4N9E%2FffE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785564900&signature=254a9a80f28e2a174a4f3457d743e41c4f8c61aade50e724c100b2dbffd5ffee&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BQZlQDy8OQfYsvK3xnLt1mg%2BvoMFOH4z%2Fc%0AusFaMXSYSENGVFKBhys%3D%0A)
 
  
 
