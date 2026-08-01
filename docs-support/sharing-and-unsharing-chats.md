@@ -53,7 +53,7 @@ Users on free, Pro, or Max plans can review a log of shared chats by navigating 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1785564900&signature=fbd6a425322a386f5bd60721922c47c024f1aa4e0f380d0623d09301939e47ae&req=dSklF894lIheWvMW1HO4zWn5HzYYZEFic9cNIYuX0GHaBR0CtV97LLoPxc2H%0ANrpOqq6vn1GXHwePfLI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1785573000&signature=eeb3fdcd32083dc3b10cb7792b75623b273b16cf332a4fb7694393826a219045&req=dSklF894lIheWvMW1HO4zWn5HzYYZUZrc9cNIYuX0GHK35cjAtLc1grnF3M7%0AuVicdqlFQNeWgW7373I%3D%0A)
 
  
 
@@ -61,7 +61,7 @@ This will open a **Shared chats** modal listing the title, date shared, and link
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1785564900&signature=2fbd794d84745f02087e2ee565e15d0d073837d70040f2126e3ba4db9151e4df&req=dSYlEst6noleWfMW1HO4ze44eCJkkhY3guvTv9woD7YkjHq1FjKllO9ciUKv%0AH%2FP2WyWwwfErQiPdv8A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1785573000&signature=d328d7ebd688b332df3dd5e50611ce233b7d2e38ab7a0ce968f198a38f93b3f1&req=dSYlEst6noleWfMW1HO4ze44eCJkkxE%2BguvTv9woD7ZeaCWDT3Z7%2B5spJfw2%0AVCgkWR2iGk660QXkTh4%3D%0A)
 
  
 
@@ -69,7 +69,7 @@ If you don’t have any shared chat snapshots, the **Shared chats** modal will s
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1785564900&signature=73f9e8242576df817f71ce15f932743f904acdb53941e18e62605e1da2f301cb&req=dSYlEst6nolfUfMW1HO4zdaFncBxh424DeZsm0Gz1Hu2Js00GP4YnDfxwlO8%0AmJqmRQZQkUabi60G4Vc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1785573000&signature=21467e7ca5de77a0a76953a2c5d860b581cfe2adaff733200c4423d6a0a3b20b&req=dSYlEst6nolfUfMW1HO4zdaFncBxhoqxDeZsm0Gz1Ht2NXbTCOrUB9txB%2Fl3%0AKijKHyViti%2Bae48aUkQ%3D%0A)
 
 
 ---

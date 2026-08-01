@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-01 05:49*
+*Last updated: 2026-08-01 08:07*
 Total documents: 253
 ---
 ## Uncategorized (253 documents)
@@ -1126,7 +1126,7 @@ Total documents: 253
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-01  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1136,7 +1136,7 @@ Total documents: 253
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-01  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
