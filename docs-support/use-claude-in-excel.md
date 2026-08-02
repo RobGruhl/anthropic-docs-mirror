@@ -313,7 +313,7 @@ Users can approve all of Claude’s actions via a confirmation pop-up that appea
 - File system access: IMAGE, FILES, DIRECTORY, FOPEN, FWRITE, FCLOSE
 - System information: REGISTER.ID, RTD, INFO
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785677400&signature=477c9290b168f3b7e36d2bcff6263d859f6f81498253be6387f90c22a7a72efd&req=dSgjH819nIJeWfMW1HO4zYWKaOdtJd12qAsRdssXCyCb55L9gYY0HeyCkXOz%0AgfnSQg%2BgPAnyIa3LFFE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785688200&signature=950b2288366f37d72d566d53316a83ab977f87d3d4c1a12bacae915f879a622a&req=dSgjH819nIJeWfMW1HO4zYWKaOdtKtJwqAsRdssXCyDlUf3wPipxagcq0nd4%0AhgwR2JU%2FgfXqtKF1ab8%3D%0A)
 
  
 
@@ -533,5 +533,5 @@ Claude highlights all changes it makes to your workbook. Review these changes ca
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Use Claude for PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint)
 - [Work across Microsoft 365 apps](https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps)
-- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

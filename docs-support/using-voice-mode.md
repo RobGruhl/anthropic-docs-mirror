@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785677400&signature=0edc8953df1e09aa50f1646d95d7091aebfc697ce9708d8e4a9a058d146bddde&req=diAjFMp7n4FZWfMW1HO4zU6VRfjMT7ttxNdRzYWrfF7WQDUAmZTSciDf7xa7%0ACl9tnEb1jOhNPZbkwkw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785688200&signature=28770f9bccc6974e566d70846281a754976b50656c8d5b3cb5d09c1c7feb80b7&req=diAjFMp7n4FZWfMW1HO4zU6VRfjMQLRrxNdRzYWrfF4cso7emuNdRqOzhplZ%0ADhmECqwnb%2BO47jejYJU%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785677400&signature=f04bf1606d56787b71b6f8fc6f04f5e9119aa846bd7de7f85c7cf18d56277f18&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BTZ1cOy8OQfYsvK3yczIhkr%2B1r71MZUu1v%0AetDnTyaU4E8Onlwc%2BwU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785688200&signature=06c571ba81382858ad551f6b010764555b68694488a36bbd6536be90defe8408&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BTaFgIy8OQfYsvK3zmEd6zZblU1YuTtpLt%0AqnV1pPw9U871yTxwrLU%3D%0A)
 
  
 
