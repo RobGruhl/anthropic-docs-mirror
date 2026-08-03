@@ -1,6 +1,6 @@
 # Use Claude for Excel
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
@@ -35,7 +35,7 @@ With Claude for Excel, you can:
 
 ### For individuals
 
-1. Navigate to the **[Claude for Microsoft 365 (Excel, PowerPoint, and Word) listing](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) **on Microsoft Marketplace.
+1. Navigate to the **[Claude for Microsoft 365 listing](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) **on Microsoft Marketplace.
 2. Click "Get it now" to install the add-in.
 3. Open Excel, activate the add-in, and sign in with your Claude account.
 
@@ -48,7 +48,7 @@ With Claude for Excel, you can:
 1. Visit the **[Microsoft 365 Admin Center](https://admin.microsoft.com/)**.
 2. Navigate to **Settings > Org Settings > User owned apps and services** and ensure that **[“Let users access the Office Store"](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide#manage-add-in-downloads-by-turning-onoff-microsoft-marketplace-across-all-apps-except-outlook)** is toggled on.
 3. Navigate to **Settings > Integrated apps > Add-ins**.
-4. Search for "Claude by Anthropic for Excel" in Microsoft AppSource.
+4. Search for "Claude for Microsoft 365" in Microsoft AppSource.
 5. Deploy the add-in to your organization or specific users.
 6. Share these instructions with your team: **[Microsoft's deployment guide](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)**.
 
@@ -159,17 +159,17 @@ Custom connectors can introduce security risks. Before enabling them, review **[
 
  
 
-### Use Skills in Excel
+### Use skills in Excel
 
-Skills you've enabled in your Claude settings are also available in the Claude for Excel add-in. Claude applies relevant Skills automatically while you work—you don't need to invoke them separately.
-
- 
-
-You can also type / in the sidebar to see available Skills and select one directly (for example, /debug or /clean-up). Skills that aren't relevant to Excel are excluded from this list.
+Skills you've enabled in your Claude settings are also available in the Claude for Excel add-in. Claude applies relevant skills automatically while you work—you don't need to invoke them separately.
 
  
 
-To learn more about enabling and managing Skills, see **[Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)**.
+You can also type / in the sidebar to see available skills and select one directly (for example, /debug or /clean-up). Skills that aren't relevant to Excel are excluded from this list.
+
+ 
+
+To learn more about enabling and managing skills, see **[Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)**.
 
  
 
@@ -179,7 +179,7 @@ Use the **Instructions** field in the add-in sidebar to set preferences that app
 
  
 
-Instructions you set in Excel only apply to Excel — they're separate from any Instructions you set in PowerPoint.
+Instructions you set in Excel only apply to Excel—they're separate from any Instructions you set in PowerPoint.
 
  
 
@@ -313,7 +313,7 @@ Users can approve all of Claude’s actions via a confirmation pop-up that appea
 - File system access: IMAGE, FILES, DIRECTORY, FOPEN, FWRITE, FCLOSE
 - System information: REGISTER.ID, RTD, INFO
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785787200&signature=bcc8ddcce5445c82e6ef9e01e85e78e5ef54e6a4f1cee2b0d78581185a216eb8&req=dSgjH819nIJeWfMW1HO4zYWKaOdsKt1wqAsRdssXCyAoeG6MlfR5zPHDRvzK%0AKwD1v7CU%2F0NRG6EaWYQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785888000&signature=df840cf03b076c5d2589d13285007dbda36717df3d63839acd5eb4935f57d776&req=dSgjH819nIJeWfMW3nq%2BgfAvMWKD8LiUAQbF3Y2%2BSQ%2BWvNjhP90W6gcv1QxD%0A0nIA2dfPlND8sGhG0hgYQJ1uMLA%3D%0A)
 
  
 

@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785787200&signature=6ecad95009739629dbf8c1bba1790d2c0c3d85ee9c13d9f90e304694fb20dbb3&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNQLtrxNdRzYWrfF5Pi5%2BIC9Hq94T9OwKk%0APWTWKAs7iUtsxMovr%2Bk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785796200&signature=7b1acbf496ec448b81c79780beb36d81e2faf3d808fc9517da4fe71057371a83&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNQbprxNdRzYWrfF6XplXo562HB8ZFObEz%0AEfmzJA9%2FPlqPRGSrXVw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785787200&signature=6e06f8b98b50819a726f4faca9ec8524bf83b9f7f57a9a7a66f671fe36792260&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSaFcIy8OQfYsvK3zIY3u%2BslCdfEzli1PB%0AzOiKisvKHgl%2BnBDIu3k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785796200&signature=9cf7bbcc7ff1c3eef0f74eadc4b9a4f5527164367335864f24441d8666f3917b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSaVYIy8OQfYsvK3xCaA6qzxD7r3BnlKK9%0AjWkaGLUUFKdX6tq0aPk%3D%0A)
 
  
 

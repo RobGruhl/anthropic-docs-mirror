@@ -1,6 +1,6 @@
 # Use Claude for PowerPoint
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -35,7 +35,7 @@ With Claude for PowerPoint, you can:
 
 ### For individuals
 
-1. Navigate to the **[Claude for Microsoft 365 (Excel, PowerPoint, and Word) listing](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) **on Microsoft Marketplace.
+1. Navigate to the **[Claude for Microsoft 365 listing](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) **on Microsoft Marketplace.
 2. Click "Get it now" to install the add-in.
 3. Open PowerPoint, activate the add-in, and sign in with your Claude account.
 
@@ -48,7 +48,7 @@ With Claude for PowerPoint, you can:
 1. Visit the **[Microsoft 365 Admin Center](https://admin.microsoft.com/)**.
 2. Navigate to **Settings > Org Settings > User owned apps and services** and ensure that **[“Let users access the Office Store"](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide#manage-add-in-downloads-by-turning-onoff-microsoft-marketplace-across-all-apps-except-outlook)** is toggled on.
 3. Navigate to **Settings > Integrated apps > Add-ins**.
-4. Search for "Claude by Anthropic in PowerPoint" in Microsoft AppSource.
+4. Search for "Claude for Microsoft 365" in Microsoft AppSource.
 5. Deploy the add-in to your organization or specific users.
 6. Share these instructions with your team: **[Microsoft's deployment guide](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)**.
 
@@ -145,17 +145,17 @@ Custom connectors can introduce security risks. Before enabling them, review **[
 
  
 
-### Use Skills in PowerPoint
+### Use skills in PowerPoint
 
-Skills you've enabled in your Claude settings are also available in the Claude for PowerPoint add-in. Claude applies relevant Skills automatically while you work—you don't need to invoke them separately.
-
- 
-
-You can also type <code>/</code> in the sidebar to see available Skills and select one directly (for example, <code>/deck-check</code>). Skills that aren't relevant to PowerPoint are excluded from this list.
+Skills you've enabled in your Claude settings are also available in the Claude for PowerPoint add-in. Claude applies relevant skills automatically while you work—you don't need to invoke them separately.
 
  
 
-To learn more about enabling and managing Skills, see **[Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)**.
+You can also type <code>/</code> in the sidebar to see available skills and select one directly (for example, <code>/deck-check</code>). Skills that aren't relevant to PowerPoint are excluded from this list.
+
+ 
+
+To learn more about enabling and managing skills, see **[Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)**.
 
  
 
@@ -183,7 +183,7 @@ We **[automatically compact longer conversations](https://support.claude.com/en/
 
 ### Chat history
 
-Chat history is now stored locally in your browser using IndexedDB. Unlike Claude, conversations aren't stored on Anthropic's servers—they're saved client-side and aren't synced across devices or browsers. You can clear all chat history from Settings at any time, and the local store is cleared when you clear your browser data. Your chat history is specific to the combination of the add-in surface, your user ID, and your organization ID — so your Excel and PowerPoint histories are separate, but conversations carry across different workbooks within Excel (or different presentations within PowerPoint). If you switch organizations, you'll have a separate chat history.
+Chat history is now stored locally in your browser using IndexedDB. Unlike Claude, conversations aren't stored on Anthropic's servers—they're saved client-side and aren't synced across devices or browsers. You can clear all chat history from Settings at any time, and the local store is cleared when you clear your browser data. Your chat history is specific to the combination of the add-in surface, your user ID, and your organization ID —so your Excel and PowerPoint histories are separate, but conversations carry across different workbooks within Excel (or different presentations within PowerPoint). If you switch organizations, you'll have a separate chat history.
 
  
 

@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-03 19:27*
+*Last updated: 2026-08-03 22:06*
 Total documents: 251
 ---
 ## Uncategorized (251 documents)
@@ -81,7 +81,7 @@ Total documents: 251
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### Build custom connectors via remote MCP servers
 **File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
@@ -136,7 +136,7 @@ Total documents: 251
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
@@ -311,7 +311,7 @@ Total documents: 251
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
 **Source:** https://support.claude.com/en/articles/10684626-enabling-and-using-web-search  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-03  
 
 ### Enabling and using the desktop extension allowlist
 **File:** `/docs-support/enabling-and-using-the-desktop-extension-allowlist.md`  
@@ -511,7 +511,7 @@ Total documents: 251
 ### How is my Team plan bill calculated?
 **File:** `/docs-support/how-is-my-team-plan-bill-calculated.md`  
 **Source:** https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated  
-**Updated:** 2026-05-19  
+**Updated:** 2026-08-03  
 
 ### How large is the Claude API’s context window?
 **File:** `/docs-support/how-large-is-the-claude-api-s-context-window.md`  
@@ -736,7 +736,7 @@ Total documents: 251
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
 **Source:** https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise  
-**Updated:** 2026-07-23  
+**Updated:** 2026-08-03  
 
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
@@ -916,7 +916,7 @@ Total documents: 251
 ### Unauthorized Anthropic stock sales and investment scams
 **File:** `/docs-support/unauthorized-anthropic-stock-sales-and-investment-scams.md`  
 **Source:** https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams  
-**Updated:** 2026-07-15  
+**Updated:** 2026-08-03  
 
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
@@ -981,7 +981,7 @@ Total documents: 251
 ### Use Claude for PowerPoint
 **File:** `/docs-support/use-claude-in-powerpoint.md`  
 **Source:** https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint  
-**Updated:** 2026-05-27  
+**Updated:** 2026-08-03  
 
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
@@ -1086,7 +1086,7 @@ Total documents: 251
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-03  
 
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  

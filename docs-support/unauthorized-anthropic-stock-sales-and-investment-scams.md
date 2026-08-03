@@ -1,6 +1,6 @@
 # Unauthorized Anthropic stock sales and investment scams
 
-*Updated over 2 weeks ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -99,4 +99,4 @@ If you believe you have been targeted by a stock scam:
 - [Anthropic Software Directory Terms](https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)
+- [Use Claude for Outlook](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)

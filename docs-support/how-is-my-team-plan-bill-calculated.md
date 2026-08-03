@@ -1,6 +1,6 @@
 # How is my Team plan bill calculated?
 
-*Updated today*
+*Updated over 3 months ago*
 
 ---
 
@@ -92,7 +92,7 @@ Price and plans are subject to change at Anthropic's discretion.
 ## Related Articles
 
 - [What is the Team plan?](https://support.claude.com/en/articles/9266767-what-is-the-team-plan)
-- [Cancel your organization's Team plan subscription](https://support.claude.com/en/articles/9267323-cancel-your-organization-s-team-plan-subscription)
+- [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
 - [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)
