@@ -31,7 +31,7 @@ That narrative has to stay coherent while the business changes underneath it. At
 
 ## How I use Claude across my workflows
 
-I use[Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)and[Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel)in parallel: [Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) helps me with writing and synthesizing information in a document or deck, and I use [Claude for Excel](https://support.claude.com/en/articles/12650343-use-claude-for-excel) to edit with Claude directly in the financial model.
+I use[Claude Cowork](https://claude.com/product/cowork)and[Claude for Excel](https://claude.com/claude-for-microsoft-365)in parallel: [Claude Cowork](https://claude.com/product/cowork) helps me with writing and synthesizing information in a document or deck, and I use [Claude for Excel](https://claude.com/claude-for-microsoft-365) to edit with Claude directly in the financial model.
 
 Working on the board deck I mentioned earlier, I hand the file to Claude Cowork and ask it to validate that every number and claim reconciles to a single source of truth. I also ask it to read the narrative the way a board member would, flagging where it contradicts itself or assumes context the reader doesn't have. Claude catches things I'd otherwise miss, and it does it every time the numbers move, not just once.
 
@@ -67,7 +67,7 @@ If you're on the fence, start simple: ask Claude to read a doc and summarize it,
 
 And if you don't know which Claude surface to use, just ask Claude. With Claude in the loop, I can keep up with the pace of change underneath the work. I get to the insights faster, with fewer surprises or bottlenecks, and I can spend more time on the framing and forward-looking analysis.
 
-Get started with[Claude Cowork](http://claude.com/cowork)today.
+Get started with[Claude Cowork](https://claude.com/product/cowork)today.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -81,21 +81,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
-### How the product designer who built Claude Design uses it to explore ideas before building them
+### How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
 
 ### Claude models explained: choosing the best model for your use case
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
+
+### How the product designer who built Claude Design uses it to explore ideas before building them
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
 ### Four role-based certifications for the people who put Claude to work for customers
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
-
-### How Anthropic secures its AI-native software development lifecycle
 
 ## Transform how your organization operates with Claude
 

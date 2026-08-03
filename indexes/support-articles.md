@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-08-03 12:16*
-Total documents: 253
+*Last updated: 2026-08-03 17:08*
+Total documents: 251
 ---
-## Uncategorized (253 documents)
+## Uncategorized (251 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -176,7 +176,7 @@ Total documents: 253
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-07-29  
+**Updated:** 2026-08-03  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -216,7 +216,7 @@ Total documents: 253
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-03  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -261,7 +261,7 @@ Total documents: 253
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-07-15  
+**Updated:** 2026-08-03  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -286,7 +286,7 @@ Total documents: 253
 ### Deploying enterprise-grade MCP servers with desktop extensions
 **File:** `/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md`  
 **Source:** https://support.claude.com/en/articles/12702546-deploying-enterprise-grade-mcp-servers-with-desktop-extensions  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Designated point of contact for users in the EU
 **File:** `/docs-support/designated-point-of-contact-for-users-in-the-eu.md`  
@@ -306,7 +306,7 @@ Total documents: 253
 ### Does Anthropic crawl data from the web, and how can site owners block the crawler?
 **File:** `/docs-support/does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler.md`  
 **Source:** https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### Enable and use web search
 **File:** `/docs-support/enabling-and-using-web-search.md`  
@@ -321,7 +321,7 @@ Total documents: 253
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -361,22 +361,17 @@ Total documents: 253
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
 **Source:** https://support.claude.com/en/articles/11139094-getting-started-with-claude-for-education-at-your-university-for-owners-admins  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-03  
 
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
 **Source:** https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome  
 **Updated:** 2026-08-03  
 
-### Get started with Claude in Slack
-**File:** `/docs-support/getting-started-with-claude-in-slack.md`  
-**Source:** https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack  
-**Updated:** 2026-08-03  
-
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp  
-**Updated:** 2026-07-07  
+**Updated:** 2026-08-03  
 
 ### Get started with the Team plan
 **File:** `/docs-support/how-do-i-get-started-with-the-team-plan.md`  
@@ -451,7 +446,7 @@ Total documents: 253
 ### How do I change the email address associated with my account?
 **File:** `/docs-support/how-do-i-change-the-email-address-associated-with-my-account.md`  
 **Source:** https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### How do I get access to Claude in Amazon Bedrock?
 **File:** `/docs-support/how-do-i-get-access-to-claude-in-amazon-bedrock.md`  
@@ -541,7 +536,7 @@ Total documents: 253
 ### How to get support
 **File:** `/docs-support/how-to-get-support.md`  
 **Source:** https://support.claude.com/en/articles/9015913-how-to-get-support  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### How to get support for Claude for Government
 **File:** `/docs-support/how-to-get-support-for-claude-for-government.md`  
@@ -551,7 +546,7 @@ Total documents: 253
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -611,7 +606,7 @@ Total documents: 253
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -656,7 +651,7 @@ Total documents: 253
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
@@ -691,7 +686,7 @@ Total documents: 253
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-07-29  
+**Updated:** 2026-08-03  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
@@ -731,7 +726,7 @@ Total documents: 253
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-03  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -766,7 +761,7 @@ Total documents: 253
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
 **Source:** https://support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Online Safety Contacts
 **File:** `/docs-support/online-safety-contacts.md`  
@@ -836,7 +831,7 @@ Total documents: 253
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-03  
 
 ### Requesting a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -846,12 +841,12 @@ Total documents: 253
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
 **Source:** https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
 **Source:** https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
@@ -956,17 +951,17 @@ Total documents: 253
 ### Use Claude Code with your Team or Enterprise plan
 **File:** `/docs-support/use-claude-code-with-your-team-or-enterprise-plan.md`  
 **Source:** https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan  
-**Updated:** 2026-07-23  
+**Updated:** 2026-08-03  
 
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-03  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-07-29  
+**Updated:** 2026-08-03  
 
 ### Use Claude app intents, shortcuts, and widgets on iOS
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
@@ -997,11 +992,6 @@ Total documents: 253
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  
 **Source:** https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry  
 **Updated:** 2026-06-30  
-
-### Use Claude in Slack
-**File:** `/docs-support/using-claude-in-slack.md`  
-**Source:** https://support.claude.com/en/articles/12461605-using-claude-in-slack  
-**Updated:** 2026-08-03  
 
 ### Use Claude in Xcode
 **File:** `/docs-support/using-claude-in-xcode.md`  
@@ -1126,7 +1116,7 @@ Total documents: 253
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1191,7 +1181,7 @@ Total documents: 253
 ### What should I do if I suspect my API key has been compromised?
 **File:** `/docs-support/what-should-i-do-if-i-suspect-my-api-key-has-been-compromised.md`  
 **Source:** https://support.claude.com/en/articles/8384961-what-should-i-do-if-i-suspect-my-api-key-has-been-compromised  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### When should I use web search, extended thinking, and research?
 **File:** `/docs-support/when-should-i-use-web-search-extended-thinking-and-research.md`  
@@ -1236,12 +1226,12 @@ Total documents: 253
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-08-02  
+**Updated:** 2026-08-03  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
 **Source:** https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-03  
 
 ### Who owns and manages the data of my team?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-team.md`  

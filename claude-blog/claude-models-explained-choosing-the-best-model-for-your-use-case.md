@@ -31,6 +31,8 @@ Some organizations may also choose to start with the most cost effective model a
 
 ## The Claude model family
 
+The Claude model family is Anthropic's lineup of AI models — Fable, Opus, Sonnet, and Haiku — each balancing intelligence, speed, and cost differently. Choosing well means matching the model to the job.
+
 ### Mythos / Fable
 
 Mythos is Anthropic’s most capable model class, with frontier capabilities across domains. This model class is especially capable at coding, long-running agent tasks, and solving problems AI has not reliably handled before.
@@ -109,21 +111,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224f466b800c4a5a016_a7b8978859371a024139418f3366bb0600ee1675-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
 
-### How the product designer who built Claude Design uses it to explore ideas before building them
+### How Anthropic's finance team uses Claude to shape the narrative behind the numbers
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
-### The new rules of context engineering for Claude 5 generation models
+### How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)
 
-### Four role-based certifications for the people who put Claude to work for customers
+### A field guide to Claude Fable 5: Finding your unknowns
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)
 
-### Building verification loops in Claude Code with skills
+### Best practices for prompt engineering for 2026
 
 ## Transform how your organization operates with Claude
 

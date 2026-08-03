@@ -211,6 +211,8 @@ Every explainer, brainstorm, interview, prototype, and reference is a cheap way 
 
 So start your next project by asking Claude to help you find your unknowns.
 
+For the context side of working with Fable-generation models, see[the new rules of context engineering](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models).
+
 This article was written by Thariq Shihipar, member of technical staff, Anthropic.
 
 FAQ
@@ -223,17 +225,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Claude models explained: choosing the best model for your use case
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
-
-### The new rules of context engineering for Claude 5 generation models
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)
 
 ### Building verification loops in Claude Code with skills
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)
 
-### How Anthropic secures its AI-native software development lifecycle
+### Loop engineering: Getting started with loops
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
+
+### The new rules of context engineering for Claude 5 generation models
 
 ## Transform how your organization operates with Claude
 

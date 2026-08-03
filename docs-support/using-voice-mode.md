@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785761100&signature=b6bffc467e9c30e330fd52cec2e8b808cf7939000a9745929ea93151f5ee36b7&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNTr1oxNdRzYWrfF5oIqkyqKjIBrdwCeuv%0AI5cqUTrta05HCN%2FrseA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785778200&signature=6438302e39891a1642df51308f85cbe310b049ae15e7c95af955a2202449d6c7&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNT7RrxNdRzYWrfF5CkMQc9EYhhBGOZRJ9%0A0KOJiw8Ap%2BDJWhMCeXQ%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785761100&signature=8a5c3a0439c58059a19d6a022dcb5e728b443b5030a9948a6d6a8e6706c24e26&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSZlELy8OQfYsvK3xeaWH8LGqBSEW2IUHr%0A3GJUmeBNWFZVi3eEE9E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785778200&signature=cad0354646576ed3bf72fd52619e2219ceb10051a8e142905501489ee07d5898&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSZ1gIy8OQfYsvK3xcfyrlCaBX%2Br%2FsFMOV%0ApI2QtWaCCUHZrcvGab8%3D%0A)
 
  
 

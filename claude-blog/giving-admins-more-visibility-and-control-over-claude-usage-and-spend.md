@@ -17,11 +17,11 @@ New analytics and cost controls are available for Claude Enterprise.
 
 - ShareCopy linkhttps://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend
 
-We’re introducing richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise. As Claude takes on increasingly difficult and complex agentic work across the organization, usage and cost patterns look different from a standard chat tool. These controls give admins the visibility to understand how Claude is being used and the tools to manage costs.
+We’re introducing richer admin analytics, model-level entitlements, and spend alerts for[Claude Enterprise](https://claude.com/solutions/enterprise). As Claude takes on increasingly difficult and complex agentic work across the organization, usage and cost patterns look different from a standard chat tool. These controls give admins the visibility to understand how Claude is being used and the tools to manage costs.
 
 Today's additions build on controls Anthropic already provides: spend caps at every level, access and model routing, a usage analytics dashboard with exports and an Analytics API, and effort controls. Richer analytics and more granular cost controls are the newest additions to a control surface we've been building on for months.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a45ed484e5998965a180707_Cost-controls-admin-viz-thumbnail.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a45ed484e5998965a180707_Cost-controls-admin-viz-thumbnail.png)
 
 ## Track adoption and cost
 
