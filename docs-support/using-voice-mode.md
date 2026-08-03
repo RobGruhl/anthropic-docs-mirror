@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785724200&signature=7bed81e79371128c559742ef1bd5760fe114a19ac554cfe7299f9755010fd8cd&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNSrhrxNdRzYWrfF7eshxPAd21WYsR7ggn%0AOV7aeiYXo1GSCRrCQEk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785739500&signature=b614b3a14e930352974b7bf3176220d092d5729d2304b8056eed7144a5d60b6c&req=diAjFMp7n4FZWfMW1HO4zU6VRfjNS7VsxNdRzYWrfF7Z2Tz2kGKqgiaYb2iT%0AAxyqH07X7aUfy6VvGlE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785724200&signature=1d27abe11f4ab7a1285dc5a05f3050cf3259402705bed04644ecddb5a27af212&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSYlQIy8OQfYsvK3xE%2FYvHoZzg3oYIGLz6%0A%2F4ipTqUncekVmoE%2Bao8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785739500&signature=fdf09735656a497f868e0bb03f4cac710c6fe82d6d83245ae57baf5971548bcd&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BSY1kPy8OQfYsvK3y57iiuHmhbCQdCIIpF%0ATqUoEZOcca8cHsYbphM%3D%0A)
 
  
 
