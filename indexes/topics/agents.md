@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-03 17:08*
+*Last updated: 2026-08-03 19:27*
 
-Documents related to Agents across all sources (149 documents)
+Documents related to Agents across all sources (150 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (149 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (91)
+## Claude.com Blog Posts (92)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -74,6 +74,7 @@ Documents related to Agents across all sources (149 documents)
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
+- [Bringing MCP 2026-07-28 to Claude](/claude-blog/bringing-mcp-2026-07-28-to-claude.md) - ![](https://cdn
 - [Building AI agents for financial services](/claude-blog/building-ai-agents-in-financial-services.md) - ![](https://cdn
 - [Building AI agents for healthcare and life sciences](/claude-blog/building-ai-agents-in-healthcare-and-life-sciences.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn

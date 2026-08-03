@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -185,7 +185,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1785778200&signature=12858cce765708f2cae166038aee606955284e83a4424220b616bf2127afd730&req=diUlE8B8m4lYXfMW1HO4zcDl6t3rMVmy8iWjaktE943NrOp6pbbFF0BooPVd%0AbSV4vk2HRSizdkBGkjk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1785786300&signature=78ded8976eb7eb513cf83061a80b32c4c55b290f5d3e8e8928332916877c33f6&req=diUlE8B8m4lYXfMW1HO4zcDl6t3rPlez8iWjaktE941%2BtHHSgEz6okONAfWb%0A0VNATFVqt4%2FuxeGs790%3D%0A)
 
  
 
