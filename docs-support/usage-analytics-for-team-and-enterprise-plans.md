@@ -56,7 +56,7 @@ Use the dropdown on the **Active members and assigned seats** chart to filter by
 - Connectors (including the number of users, plus counts of read and write actions)
 - How agentic is their work? (beta)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1785796200&signature=02f6f627cb65bfc2e0468761c16c936414f2fb15f90b0750782f4b4f8aa96db2&req=diUvFcF5mIZeWvMW1HO4zciS3a3uk7hpDFD6TO7tG4hlz5EPv%2FPsaZJEpH99%0A6ieHrMGjGMbqvNsszUc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1785808800&signature=a967ef0ab39f8511022925ec0fc3f96b66af593d61d1a2ee6fd6b12b058eeb88&req=diUvFcF5mIZeWvMW1HO4zciS3a3hmrZjDFD6TO7tG4gjVEttOq1aYjWedz4q%0ANs6qagY09hXtW2u2a%2BQ%3D%0A)
 
 ![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896563/abf008596ce5501297a609696362/fce5423c-4769-4b73-9a0a-c50f6407ebea?expires=1785888000&signature=8b33afba875a33f559a913149448284b35864dc611e85736016a1bba1cb74a4e&req=diUmE8F3m4RZWvMW3nq%2BgWrhFYLywyGjtoLuqx267GohS7UvD6KQ109DfHOW%0As2hYTaGEI9YQZs%2FxK2APuSRu9yU%3D%0A)
 
