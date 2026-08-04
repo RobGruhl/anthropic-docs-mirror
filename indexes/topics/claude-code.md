@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-04 19:22*
+*Last updated: 2026-08-04 22:07*
 
-Documents related to Claude Code across all sources (297 documents)
+Documents related to Claude Code across all sources (298 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (297 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (174)
+## Claude Code Documentation (175)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -171,6 +171,7 @@ Documents related to Claude Code across all sources (297 documents)
 - [Tool Search](/code-claude-docs/agent-sdk__tool-search.md)
 - [Tools Reference](/code-claude-docs/tools-reference.md)
 - [Troubleshoot Install](/code-claude-docs/troubleshoot-install.md)
+- [Troubleshooting](/code-claude-docs/agent-sdk__troubleshooting.md)
 - [Troubleshooting](/code-claude-docs/troubleshooting.md)
 - [Typescript](/code-claude-docs/agent-sdk__typescript.md)
 - [Typescript V2 Preview](/code-claude-docs/agent-sdk__typescript-v2-preview.md)

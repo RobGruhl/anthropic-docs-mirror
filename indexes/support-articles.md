@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-04 19:22*
+*Last updated: 2026-08-04 22:07*
 Total documents: 251
 ---
 ## Uncategorized (251 documents)
@@ -61,7 +61,7 @@ Total documents: 251
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-07-23  
+**Updated:** 2026-08-04  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -81,7 +81,7 @@ Total documents: 251
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-04  
 
 ### Build custom connectors via remote MCP servers
 **File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
@@ -176,7 +176,7 @@ Total documents: 251
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-04  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -326,7 +326,7 @@ Total documents: 251
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-04  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -771,7 +771,7 @@ Total documents: 251
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-08-01  
+**Updated:** 2026-08-04  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -833,7 +833,7 @@ Total documents: 251
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
 **Updated:** 2026-08-04  
 
-### Requesting a refund for a paid Claude plan
+### Request a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
 **Source:** https://support.claude.com/en/articles/12386328-requesting-a-refund-for-a-paid-claude-plan  
 **Updated:** 2026-08-04  

@@ -1,6 +1,6 @@
-# Requesting a refund for a paid Claude plan
+# Request a refund for a paid Claude plan
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -17,6 +17,8 @@ To request a refund for a payment defined as refundable in our Terms of Service,
 
 ---
 
+ 
+
 ## Refunds for customers in the European Economic Area (EEA) and the United Kingdom (UK)
 
 In the European Economic Area and the United Kingdom, you may receive a refund within 14 days of purchase. You may find this option available in your **Settings**. Your refunds will be prorated according to your use.
@@ -24,6 +26,8 @@ In the European Economic Area and the United Kingdom, you may receive a refund w
  
 
 ---
+
+ 
 
 ## What should I do if I can't access the account I'm requesting a refund for?
 
@@ -37,7 +41,11 @@ If you paid for your plan on **[Claude for iOS](https://support.claude.com/en/co
 
 ## I paid for my plan on Claude for Android—what's the process for requesting a refund?
 
-If you have an active subscription purchased on **[Claude for Android](https://support.claude.com/en/collections/9879004-claude-for-android)**, our Support team will need to check your eligibility before assisting with a refund. When contacting us, provide any relevant details upfront so our team can help with your request. However, if you are requesting a refund for an inactive subscription, our team won't be able to issue refunds for historical payments made through the Play Store. Please get in touch with **[Google Support](https://support.google.com/googleplay/workflow/9813244?hl=en)** for further assistance.
+If you have an active subscription purchased on **[Claude for Android](https://support.claude.com/en/collections/9879004-claude-for-android)**, our Support team will need to check your eligibility before assisting with a refund. When contacting us, provide any relevant details upfront so our team can help with your request.
+
+ 
+
+If you're requesting a refund for an inactive subscription, you'll need to **[contact our Support team](https://support.claude.com/en/articles/9015913-how-to-get-support)** with the email address associated with your Google Play account or your GPA order number (found on your Google Play receipt, formatted GPA.xxxx-xxxx-xxxx-xxxxx) to further review the charge and refund eligibility.
 
  
 

@@ -15,8 +15,8 @@ You can generate a new API key by clicking on the ‘Create Key’ button on the
 
 ## Related Articles
 
-- [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?](https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do)
+- [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [API Key Best Practices: Keeping Your Keys Safe and Secure](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure)
-- [I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?](https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console)
+- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)

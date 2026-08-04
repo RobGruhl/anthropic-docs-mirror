@@ -1,6 +1,6 @@
 # View usage analytics for Team and Enterprise plans
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -56,7 +56,7 @@ Use the dropdown on the **Active members and assigned seats** chart to filter by
 - Connectors (including the number of users, plus counts of read and write actions)
 - How agentic is their work? (beta)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1785872700&signature=233a12a60c68658abce23585abfaa8f30af1d26d4b1330270ba342607e59ea24&req=diUvFcF5mIZeWvMW1HO4zciS3a3hnbxsDFD6TO7tG4iv2ZQu0SJciPHDucux%0Ax49xi5seRGk0lWFM8%2FY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1785882600&signature=bff282e5c9006bc476afa215b61b1380214e5453b226f3cf75b8851b1e45a489&req=diUvFcF5mIZeWvMW1HO4zciS3a3hkrxtDFD6TO7tG4h0G3JReTvakLjw%2BHtk%0AKoHe9JbSdmMI9r3i6sg%3D%0A)
 
 ![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896563/abf008596ce5501297a609696362/fce5423c-4769-4b73-9a0a-c50f6407ebea?expires=1785888000&signature=8b33afba875a33f559a913149448284b35864dc611e85736016a1bba1cb74a4e&req=diUmE8F3m4RZWvMW3nq%2BgWrhFYLywyGjtoLuqx267GohS7UvD6KQ109DfHOW%0As2hYTaGEI9YQZs%2FxK2APuSRu9yU%3D%0A)
 

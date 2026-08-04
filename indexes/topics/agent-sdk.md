@@ -1,9 +1,9 @@
 # Agent Sdk Topic Index
-*Last updated: 2026-08-04 19:22*
+*Last updated: 2026-08-04 22:07*
 
-Documents related to Agent Sdk across all sources (34 documents)
+Documents related to Agent Sdk across all sources (35 documents)
 ---
-## Claude Code Documentation (30)
+## Claude Code Documentation (31)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
@@ -31,6 +31,7 @@ Documents related to Agent Sdk across all sources (34 documents)
 - [Subagents](/code-claude-docs/agent-sdk__subagents.md)
 - [Todo Tracking](/code-claude-docs/agent-sdk__todo-tracking.md)
 - [Tool Search](/code-claude-docs/agent-sdk__tool-search.md)
+- [Troubleshooting](/code-claude-docs/agent-sdk__troubleshooting.md)
 - [Typescript](/code-claude-docs/agent-sdk__typescript.md)
 - [Typescript V2 Preview](/code-claude-docs/agent-sdk__typescript-v2-preview.md)
 - [User Input](/code-claude-docs/agent-sdk__user-input.md)
