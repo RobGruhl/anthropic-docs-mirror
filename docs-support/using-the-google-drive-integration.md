@@ -1,6 +1,6 @@
 # Use Google Workspace connectors
 
-*Updated over 2 months ago*
+*Updated over 3 months ago*
 
 ---
 
@@ -209,7 +209,7 @@ Browse all available connectors in the **[Connectors Directory](https://claude.a
 ## Related Articles
 
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
-- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
+- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)

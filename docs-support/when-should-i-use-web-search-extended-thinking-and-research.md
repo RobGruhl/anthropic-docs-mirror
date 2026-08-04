@@ -1,6 +1,6 @@
 # When should I use web search, extended thinking, and research?
 
-*Updated over a month ago*
+*Updated over 2 months ago*
 
 ---
 
@@ -53,5 +53,5 @@ Combining extended thinking with research allows Claude to both plan its approac
 - [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search)
 - [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
-- [Use Claude in Slack](https://support.claude.com/en/articles/12461605-use-claude-in-slack)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
+- [MCP: Web Search](https://support.claude.com/en/articles/14503775-mcp-web-search)
