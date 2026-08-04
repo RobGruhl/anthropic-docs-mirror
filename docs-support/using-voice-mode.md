@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785852900&signature=7470bef9e6fde0de212758c18845e5aa27c1728ec079d288905e3f590e658f28&req=diAjFMp7n4FZWfMW1HO4zU6VRfjCTb5gxNdRzYWrfF50Rb%2BbojqvyUUb2bRN%0AvzMNv%2FUIF7T3O21YE%2Fw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785863700&signature=45709f17f02a3a9989231b1c889d2390e009c3dd80f90fcd902ef5e0a4fd004d&req=diAjFMp7n4FZWfMW1HO4zU6VRfjCTr9uxNdRzYWrfF6whJEySPIecHesbrap%0Ac882MfJXJyYPfU9ELMg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785852900&signature=9727bcf09cd1182ee69768a7e2e9be7a3f68657b03f1aad70cc044fb421e08d5&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BdZVIDy8OQfYsvK3ySq%2FndFgxbdzWgLabg%0AjdHGO6%2B%2BVt2W%2B55nuUs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785863700&signature=00b480b070cd9e3a19252873a2793ebe8e7526eedf9bdb82c4cf6e6fe634ec51&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BdZlMNy8OQfYsvK3xil7I3dU4bWPjPt7zJ%0At9hJvU%2BpA%2BF%2FGSausYw%3D%0A)
 
  
 
