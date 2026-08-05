@@ -1,6 +1,6 @@
 # Create and edit files with Claude
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -62,7 +62,7 @@ To give Claude access to external data sources, toggle **Allow network egress** 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1785949200&signature=b7e920f465122ad0097cb4bf2409d5095af3ee58197e7008df67fe0da273936f&req=diAiEs55mYFfXPMW1HO4zYFJywhMCJDMPQVowIiib2naFZHP%2FcSATqJkg%2BqO%0AOodlgZxXAcGA%2FvYP8CY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1786082400&signature=ba4c5ea647844af845afcd61500b2a6dfc3eceae039a4ef6d8c12861b0750449&req=diAiEs55mYFfXPMW3nq%2BgWwhvHagSfAa6ex%2BPMWT8DhLq1apKkbeI39VOdmL%0APD8l9oypxZhsApAWwyJD6OcF%2FIE%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1785949200&signature=6ae49d5e5b5466c863e3ffbb583b32c3d6f8963c19aa21641423314b93964d2d&req=dScvH8B6mIJZW%2FMW1HO4zXJcBmhKkSBJpMW6Iph6YZfDqqagJIlbGKyoTkxe%0AddcXyXL0bgoFi4mKpZE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1786082400&signature=bdbc0691a7cc51ab99579b119bd20cd022fee8b9fe50436476b1f9a7f620e86a&req=dScvH8B6mIJZW%2FMW3nq%2BgdQoTgnvUtVQCprNBj0zeZRhGuyQqCj8g9tMdQJS%0AvCRHYRwqED6OnPtZea7Ot4jbEZM%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1785949200&signature=d898d34e07fa80e3fca4bc380888ab79fad53de8718157ceddf6cb19e5161294&req=dScvH8B6mIJZWPMW1HO4zdnseBGb6jagqgKIA6CM1toh50X2YqRffo6P3LFs%0AdgjeD28VVDnxJCjyerM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1786082400&signature=8c3efac1e6d5d120565692b8db6a9a97d38af7bf338179ae879b369380f25342&req=dScvH8B6mIJZWPMW3nq%2BgcDM0aeOmZtFl%2BOqj03ykB5%2FW2lqfGB7tlFT1qhj%0A6QAdr7lnAdQQYYu3tXNNmD9GDSM%3D%0A)
 
  
 
@@ -269,13 +269,13 @@ Team and Enterprise owners have full control over this feature, including:
 
 When network access is enabled, Claude can access the following approved domains:
 
-- **Anthropic Services (Explicit):** [api.anthropic.com](http://api.anthropic.com/), [statsig.anthropic.com](http://statsig.anthropic.com/)
-- ​**GitHub:** [github.com](http://github.com/)
-- **NPM:** [registry.npmjs.org](http://registry.npmjs.org/), [npmjs.com](http://npmjs.com/), [npmjs.org](http://npmjs.org/)
-- ​**Python:** [pypi.org](http://pypi.org/), [files.pythonhosted.org](http://files.pythonhosted.org/), [pythonhosted.org](http://pythonhosted.org/)
-- **Rust:** [crates.io](https://crates.io), [index.crates.io](https://index.crates.io), [static.crates.io](https://static.crates.io)
-- **Ubuntu:** [archive.ubuntu.com](https://archive.ubuntu.com), [security.ubuntu.com](https://security.ubuntu.com)
-- **Yarn:** [yarnpkg.com](http://yarnpkg.com/), [registry.yarnpkg.com](http://registry.yarnpkg.com/)
+- **Anthropic Services (Explicit):** api.anthropic.com, statsig.anthropic.com
+- ​**GitHub:** github.com
+- **NPM:** registry.npmjs.org, npmjs.com, npmjs.org
+- ​**Python:** pypi.org, files.pythonhosted.org, pythonhosted.org
+- **Rust:** crates.io, index.crates.io, static.crates.io
+- **Ubuntu:** archive.ubuntu.com, security.ubuntu.com
+- **Yarn:** yarnpkg.com, registry.yarnpkg.com
 -  
 
 ---

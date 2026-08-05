@@ -1,6 +1,6 @@
 # How to get support for Claude for Government
 
-*Updated over 2 months ago*
+*Updated in the last hour*
 
 ---
 
@@ -8,7 +8,7 @@ This article explains how Claude for Government Owners and Primary Owners can co
 
  
 
-## How to Get Started
+## How to get started
 
 1. Log in to your Owner or Primary Owner Claude for Government account.
 2. Click your initials or name in the lower left corner and select “Get help” from the menu.

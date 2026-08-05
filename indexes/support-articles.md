@@ -1,17 +1,17 @@
 # Support Articles Index
-*Last updated: 2026-08-05 16:30*
+*Last updated: 2026-08-05 19:18*
 Total documents: 251
 ---
 ## Uncategorized (251 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
 **Source:** https://support.claude.com/en/articles/9199617-api-safeguards-tools  
-**Updated:** 2026-07-31  
+**Updated:** 2026-08-05  
 
 ### About the Development Partner Program
 **File:** `/docs-support/about-the-development-partner-program.md`  
@@ -86,7 +86,7 @@ Total documents: 251
 ### Build custom connectors via remote MCP servers
 **File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
 **Source:** https://support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers  
-**Updated:** 2026-05-17  
+**Updated:** 2026-08-05  
 
 ### Building Desktop Extensions with MCPB
 **File:** `/docs-support/building-desktop-extensions-with-mcpb.md`  
@@ -101,7 +101,7 @@ Total documents: 251
 ### CSAM Detection and Reporting
 **File:** `/docs-support/csam-detection-and-reporting.md`  
 **Source:** https://support.claude.com/en/articles/9020328-csam-detection-and-reporting  
-**Updated:** 2026-06-23  
+**Updated:** 2026-08-05  
 
 ### Can Claude produce images?
 **File:** `/docs-support/can-claude-produce-images.md`  
@@ -221,7 +221,7 @@ Total documents: 251
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
 **Source:** https://support.claude.com/en/articles/8114518-claude-s-response-to-my-prompt-is-too-brief  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Configure custom data retention controls for Enterprise plans
 **File:** `/docs-support/custom-data-retention-controls-for-enterprise-plans.md`  
@@ -541,12 +541,12 @@ Total documents: 251
 ### How to get support for Claude for Government
 **File:** `/docs-support/how-to-get-support-for-claude-for-government.md`  
 **Source:** https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government  
-**Updated:** 2026-05-17  
+**Updated:** 2026-08-05  
 
 ### How to gift a Claude subscription
 **File:** `/docs-support/how-to-gift-a-claude-subscription.md`  
 **Source:** https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### How to redeem a Claude gift subscription
 **File:** `/docs-support/how-to-redeem-a-claude-gift-subscription.md`  
@@ -656,7 +656,7 @@ Total documents: 251
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-05  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -666,12 +666,12 @@ Total documents: 251
 ### Law Enforcement Requests
 **File:** `/docs-support/law-enforcement-requests.md`  
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Local MCP Server Submission Guide
 **File:** `/docs-support/local-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922832-local-mcp-server-submission-guide  
-**Updated:** 2026-05-17  
+**Updated:** 2026-08-05  
 
 ### Log in to your Claude account
 **File:** `/docs-support/logging-in-to-your-claude-account.md`  
@@ -686,12 +686,12 @@ Total documents: 251
 ### Manage API key environment variables in Claude Code
 **File:** `/docs-support/managing-api-key-environment-variables-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/12304248-managing-api-key-environment-variables-in-claude-code  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-05  
 
 ### Manage Claude’s tool access
 **File:** `/docs-support/manage-claude-s-tool-access.md`  
 **Source:** https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Manage members on Team and Enterprise plans
 **File:** `/docs-support/manage-members-on-team-and-enterprise-plans.md`  
@@ -761,7 +761,7 @@ Total documents: 251
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
 **Source:** https://support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-05  
 
 ### Online Safety Contacts
 **File:** `/docs-support/online-safety-contacts.md`  
@@ -771,7 +771,7 @@ Total documents: 251
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -818,7 +818,7 @@ Total documents: 251
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
 **Updated:** 2026-07-24  
 
-### Remote MCP Server Submission Guide
+### Remote MCP server submission guide
 **File:** `/docs-support/remote-mcp-server-submission-guide.md`  
 **Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
 **Updated:** 2026-08-05  
@@ -826,12 +826,12 @@ Total documents: 251
 ### Report a Concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
 **Source:** https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance  
-**Updated:** 2026-07-30  
+**Updated:** 2026-08-05  
 
 ### Reporting, Blocking, and Removing Content from Claude
 **File:** `/docs-support/reporting-blocking-and-removing-content-from-claude.md`  
 **Source:** https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Request a refund for a paid Claude plan
 **File:** `/docs-support/requesting-a-refund-for-a-paid-claude-plan.md`  
@@ -906,7 +906,7 @@ Total documents: 251
 ### Terms of Service Updates
 **File:** `/docs-support/terms-of-service-updates.md`  
 **Source:** https://support.claude.com/en/articles/9190861-terms-of-service-updates  
-**Updated:** 2026-07-30  
+**Updated:** 2026-08-05  
 
 ### Troubleshoot Claude error messages
 **File:** `/docs-support/understanding-claude-error-messages.md`  
@@ -1046,7 +1046,7 @@ Total documents: 251
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Use quick entry with Claude Desktop on Mac
 **File:** `/docs-support/use-quick-entry-with-claude-desktop-on-mac.md`  
@@ -1171,7 +1171,7 @@ Total documents: 251
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-07-27  
+**Updated:** 2026-08-05  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  

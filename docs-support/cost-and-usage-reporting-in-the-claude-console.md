@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1785949200&signature=4d33bd69f9f23a91a91ee0cba00c0d6d8691aedb85396da696003a244ddee1c4&req=dSUvEs97mYNeXvMW1HO4zYCWiSERhc%2BYuqqBX2puyxQerNI%2FuqimujeQycoT%0Adra5ULP%2Bz0htSdwUakU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1785959100&signature=0426c3ef986376e77d4d57b80967449db9469bf381653baec4ab44de70a5102d&req=dSUvEs97mYNeXvMW1HO4zYCWiSERhM%2BbuqqBX2puyxRycVRnKCwg6DZp8tbh%0A1aUSxA5ekDiEBxkGnaY%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1785949200&signature=08f0c334d78c7235a2a87af3808d1da19853b9841515508e20b40a3e24eb0320&req=dSUvEs94mYJdWPMW1HO4zQwER3YjJYZkqMITUZbanFDw00oMFXQaKfNSrgVN%0AHi%2FuV%2Bwpz4oQbhWDMrc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1785959100&signature=c68cf659dac3cac3de80d2d45b02b1b4574f3b1e4c8a0e31e57975e5acdcd725&req=dSUvEs94mYJdWPMW1HO4zQwER3YjJIZnqMITUZbanFCi41R%2Bvo%2Fi%2BxNYnFyw%0AQRFSJv2o49kANHCIgvE%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1785949200&signature=26ef570e8a23ee3f08112182dc4e54bcdd51ec660a204d91ab11a9cdfe89f455&req=dSUvEs93noJXX%2FMW1HO4zRxEwW5E4lhu21D6pckxWMYsggYH1vLpn8baRXf9%0AmjkZQGRf9W6ZYzP2%2FLw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1785959100&signature=cbdb6d0d655f7bc702ba113a477fd364cce1b151dda80924e2be209336cc470e&req=dSUvEs93noJXX%2FMW1HO4zRxEwW5E41ht21D6pckxWMYnE9W%2Bap89pP9GZ6rX%0A5tug98vZTKk54%2FLMjPI%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1785949200&signature=eab1d6496b5a1df69af2109dfa00ce51b256da31bb9fd234d133916309e4b540&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5nKV9ljCyIF5nuUsbwp0FUGs8DrLvQ251gC%0ASBu6xiSRrmINYJQS9W4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1785959100&signature=e08bf97358239fa9b4b732a01dd4ce7227088f154f113de9959aabd5b5466cc7&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5nKVtlgCyIF5nuUsbzKSYPsva2dTKMcueW0%0Ab83podO%2BXCzlQOE3xWA%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
+- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
-- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)

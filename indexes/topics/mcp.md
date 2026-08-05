@@ -1,5 +1,5 @@
 # Mcp Topic Index
-*Last updated: 2026-08-05 16:30*
+*Last updated: 2026-08-05 19:18*
 
 Documents related to Mcp across all sources (236 documents)
 ---
@@ -250,7 +250,7 @@ Documents related to Mcp across all sources (236 documents)
 - [Get started with custom connectors using remote MCP](/docs-support/get-started-with-custom-connectors-using-remote-mcp.md)
 - [Getting Started with Local MCP Servers on Claude Desktop](/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md)
 - [Local MCP Server Submission Guide](/docs-support/local-mcp-server-submission-guide.md)
-- [Remote MCP Server Submission Guide](/docs-support/remote-mcp-server-submission-guide.md)
+- [Remote MCP server submission guide](/docs-support/remote-mcp-server-submission-guide.md)
 - [Use connectors to extend Claude's capabilities](/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md)
 - [Use connectors to extend Claude's capabilities](/docs-support/pre-built-web-connectors-using-remote-mcp.md)
 - [When to use desktop and web connectors](/docs-support/when-to-use-desktop-and-web-connectors.md)
