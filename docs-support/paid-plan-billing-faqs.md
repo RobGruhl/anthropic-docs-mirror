@@ -52,7 +52,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1785910500&signature=02f0fc69a3b0aaf47803e8757805f3643c263ae692bfb5b8ccfb47a172886162&req=dSklFMh6nIZXXPMW1HO4zVXW8GiiajPJQoNvNFTb5cfSB%2BLOgUf6HXY%2BQYHk%0AdXRIpsnQrw0cNmSKct4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1785919500&signature=6e30b69cab4849eac0195d20b715b759863ed06064c7f79d32696777a295f8a0&req=dSklFMh6nIZXXPMW1HO4zVXW8GiiajrJQoNvNFTb5ceqxHkFe2wV3PZu6U5U%0AnsmhlMv%2FGZqfRC9%2Bsys%3D%0A)
 
  
 
