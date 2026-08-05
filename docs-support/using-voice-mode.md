@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785959100&signature=f8dd3cbf9a33ecb8e72f38e0a5a97389836a1f7a0c5ec5c1eba17ae29f70764e&req=diAjFMp7n4FZWfMW1HO4zU6VRfjDTbVoxNdRzYWrfF73ZAKeMfzi2yz0%2Bx5I%0A6V3wo6Ig36jaUYGVH9E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785969900&signature=2d210b0c07db3b3428de9c8f10644b7f81babcee75d9d4bc2eed6cc86a1c3a1e&req=diAjFMp7n4FZWfMW1HO4zU6VRfjDTrVgxNdRzYWrfF5yuMw4PdSQ%2BzOVLTxY%0Adikzg1Q5WHGcADT%2BdeI%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785959100&signature=5a70d40e3f2ccc3f9edb1da350b3e55c97f76dc0809caf278caec9102f419efb&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BcZVkLy8OQfYsvK3z1wJrlvSXTN3LQ8p7Q%0AM2n%2Fz2XJ3nEFvotAS3w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785969900&signature=0c73139ffc0cad5620a2b9bdc1609727f95c008a18eb960cf405543030235359&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BcZlkDy8OQfYsvK3zy4Zm8jNrKQRwrlQ3T%0AmivcP6xT3Hc4xjUQW30%3D%0A)
 
  
 

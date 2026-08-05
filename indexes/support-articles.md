@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-05 19:18*
+*Last updated: 2026-08-05 22:09*
 Total documents: 251
 ---
 ## Uncategorized (251 documents)
@@ -321,7 +321,7 @@ Total documents: 251
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -1126,7 +1126,7 @@ Total documents: 251
 ### What are skills?
 **File:** `/docs-support/what-are-skills.md`  
 **Source:** https://support.claude.com/en/articles/12512176-what-are-skills  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-05  
 
 ### What are some things I can use Claude for?
 **File:** `/docs-support/what-are-some-things-i-can-use-claude-for.md`  
