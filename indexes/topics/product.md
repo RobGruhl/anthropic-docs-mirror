@@ -1,9 +1,10 @@
 # Product Topic Index
-*Last updated: 2026-08-05 13:48*
+*Last updated: 2026-08-05 16:30*
 
-Documents related to Product across all sources (18 documents)
+Documents related to Product across all sources (19 documents)
 ---
-## Claude.com Blog Posts (18)
+## Claude.com Blog Posts (19)
+- [A guide to cost visibility and control in Claude](/claude-blog/a-guide-to-cost-visibility-and-control-in-claude.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn

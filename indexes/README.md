@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-08-05 13:48*
+*Last updated: 2026-08-05 16:30*
 
 ## Quick Stats
-- **Total Documents:** 1681
+- **Total Documents:** 1682
 - **Platform Docs:** 547
 - **Claude Code Docs:** 174
 - **MCP Docs:** 168
@@ -11,7 +11,7 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 203
+- **Claude.com Blog:** 204
 - **Support Articles:** 251
 - **Topics:** 84
 
@@ -26,7 +26,7 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 203 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 204 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 251 help articles from support.claude.com
 
 ### By Topic
