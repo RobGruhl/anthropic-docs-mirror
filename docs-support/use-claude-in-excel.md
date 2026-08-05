@@ -1,6 +1,6 @@
 # Use Claude for Excel
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -313,7 +313,7 @@ Users can approve all of Claude’s actions via a confirmation pop-up that appea
 - File system access: IMAGE, FILES, DIRECTORY, FOPEN, FWRITE, FCLOSE
 - System information: REGISTER.ID, RTD, INFO
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785888000&signature=df840cf03b076c5d2589d13285007dbda36717df3d63839acd5eb4935f57d776&req=dSgjH819nIJeWfMW3nq%2BgfAvMWKD8LiUAQbF3Y2%2BSQ%2BWvNjhP90W6gcv1QxD%0A0nIA2dfPlND8sGhG0hgYQJ1uMLA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1849431310/ffc870a5114b4178fcd74b5cccf8/Screenshot+2025-11-25+at+11_30_10%E2%80%AFAM.png?expires=1785896100&signature=424d1221ef3d03676001e71f021ff50caebcdc12f57c0b115c5ebc4a7189842b&req=dSgjH819nIJeWfMW1HO4zYWKaOdjK9xzqAsRdssXCyDWvLfzyW5ZycFTVSan%0AqcdyQ2EKo5xeZQSzCto%3D%0A)
 
  
 

@@ -1,6 +1,6 @@
 # Request a refund for a paid Claude plan
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -35,7 +35,20 @@ If you're unable to log in to the account associated with your payment (for exam
 
 ## I paid for my plan on Claude for iOS—what's the process for requesting a refund?
 
-If you paid for your plan on **[Claude for iOS](https://support.claude.com/en/collections/9879000-claude-for-ios)**, this means your subscription was started from the Apple App Store. We didn't process this payment, so you will need to reach out to **[Apple Support](https://support.apple.com/billing)** to request a refund.
+If you paid for your plan on **[Claude for iOS](https://support.claude.com/en/collections/9879000-claude-for-ios)**, this means your subscription was purchased through the Apple App Store. Apple processed this payment, so only Apple can review and issue a refund—our Support team can't access or refund App Store charges.
+
+ 
+
+To request a refund from Apple:
+
+1. Sign in at **reportaproblem.apple.com** with the Apple Account you used to purchase your subscription.
+2. Tap or click "I'd like to," then choose "Request a refund."
+3. Choose the reason for your refund request, then click "Next."
+4. Select your Claude subscription, then click "Submit."
+
+Apple will review your request and notify you of their decision. You can check the status of your request any time by returning to reportaproblem.apple.com. Refunds for App Store purchases are granted at Apple's discretion.
+
+For more details, see Apple's guide: **[Request a refund for apps or content that you bought from Apple](https://support.apple.com/en-us/118223)**.
 
  
 
@@ -59,7 +72,7 @@ Our Support team cannot process refunds during pending disputes, as the disputed
 ## Related Articles
 
 - [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
+- [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
-- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
-- [Getting started with Claude for Nonprofits](https://support.claude.com/en/articles/12893767-getting-started-with-claude-for-nonprofits)
+- [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)
 - [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-04 22:07*
+*Last updated: 2026-08-05 01:46*
 
-Documents related to Claude Code across all sources (298 documents)
+Documents related to Claude Code across all sources (297 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (298 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (175)
+## Claude Code Documentation (174)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -175,7 +175,6 @@ Documents related to Claude Code across all sources (298 documents)
 - [Troubleshooting](/code-claude-docs/troubleshooting.md)
 - [Typescript](/code-claude-docs/agent-sdk__typescript.md)
 - [Typescript V2 Preview](/code-claude-docs/agent-sdk__typescript-v2-preview.md)
-- [Ultraplan](/code-claude-docs/ultraplan.md)
 - [Ultrareview](/code-claude-docs/ultrareview.md)
 - [User Input](/code-claude-docs/agent-sdk__user-input.md)
 - [Voice Dictation](/code-claude-docs/voice-dictation.md)

@@ -4225,10 +4225,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/compaction.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/compaction",
-      "hash": "ff38a0b7296b3fdc76aadda3867630f7d2a82a98c223ae62d7aafb1ac027f128",
+      "hash": "c45e737c6fa7b4b3167e970fe0ee0ca1e1b333e848b55cd57dcbc789cd9a8f42",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.678179"
+      "last_updated": "2026-08-05T01:43:26.966268"
     },
     "build-with-claude__context-editing.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/context-editing",
@@ -4485,10 +4485,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/structured-outputs",
-      "hash": "2a2fa27f0b17cef6e0e9ccc08ea4629184267ff43e6999627da06b434a633fbf",
+      "hash": "d2cbfd65acc5110b1c1f4458fb0fb4e9fbea8ad2fed55e876bf752c7e531ea2d",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-07-24T19:12:28.682461"
+      "last_updated": "2026-08-05T01:43:26.970777"
     },
     "build-with-claude__task-budgets.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
@@ -5472,13 +5472,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-04T22:04:14.857915",
-    "fetch_duration_seconds": 8.647882,
+    "last_fetch_completed": "2026-08-05T01:43:26.987988",
+    "fetch_duration_seconds": 6.91021,
     "total_pages_discovered": 547,
     "pages_fetched_successfully": 547,
     "pages_failed": 0,
-    "pages_unchanged": 509,
-    "pages_updated": 38,
+    "pages_unchanged": 545,
+    "pages_updated": 2,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [],
@@ -5495,5 +5495,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-04T22:04:14.858081"
+  "last_updated": "2026-08-05T01:43:26.988166"
 }

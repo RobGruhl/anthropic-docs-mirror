@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -212,6 +212,6 @@ To share your artifacts publicly, embed them on websites, or discover artifacts 
 
 - [Publish and share artifacts](https://support.claude.com/en/articles/9547008-publish-and-share-artifacts)
 - [Share and unshare chats](https://support.claude.com/en/articles/10593882-share-and-unshare-chats)
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
