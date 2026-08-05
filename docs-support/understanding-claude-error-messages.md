@@ -76,7 +76,7 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1785919500&signature=f0ca309f774c9f0f461235b4382a7020a6ae39fd1047887e1c2d7dbd3ee73624&req=dSciFc53m4NbXvMW1HO4za4BXqoq07vB7y68oYp%2BYg8AI7ctRLoMGLL9Pn3z%0A%2BApbrCpAa9cb%2F8sTNQY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1785930300&signature=08497a47dc5c721095470560c417e6ee9fbe161c3b0a356c1355c386b97621b3&req=dSciFc53m4NbXvMW1HO4za4BXqoq0bLH7y68oYp%2BYg%2B%2BtjL0yhMyQj%2Bie2T7%0AxumGwCGJmyaJp3yWcUo%3D%0A)
 
  
 
