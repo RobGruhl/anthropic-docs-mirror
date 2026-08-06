@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -13,7 +13,7 @@ This article explains how to use **[Claude Cowork](https://claude.com/product/co
 Claude Cowork is available for paid plans (Pro, Max, Team, Enterprise) on:
 
 - **Claude Desktop for macOS** — **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download
-- **Claude Desktop for Windows **—** **Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](http://claude.com/download)**.
+- **Claude Desktop for Windows **—** **Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](https://claude.com/download)**.
 - **Web**, at claude.ai
 - **Claude Mobile**, in the latest version of Claude for iOS and Claude for Android
 
@@ -40,7 +40,7 @@ With Cowork, you can describe an outcome, step away, and come back to finished w
 - Cowork has unique risks due to its agentic nature and internet access.
 - Cowork respects your current network egress permissions.
 - - **Important:** Network egress permissions don't apply to the web fetch or **[web search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)** tools or MCPs, including Claude in Chrome. Web fetch runs server-side and is limited to search results and URLs you've shared.
-- Team or Enterprise plan owners can turn off web search for Cowork and Chat in **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**, or Claude in Chrome via **[Organization settings > Claude in Chrome](http://claude.ai/admin-settings/browser-extension).**
+- Team or Enterprise plan owners can turn off web search for Cowork and Chat in **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**, or Claude in Chrome via **[Organization settings > Claude in Chrome](https://claude.ai/admin-settings/browser-extension).**
 - You control your Cowork tasks and can delete a task at any time using the "Delete" option (click "⋮" next to the task, or select tasks from your Tasks list and click the trash icon). Your Cowork task will be removed from your task history immediately, and deleted from our backend storage systems within 30 days, in accordance with our **[data retention periods](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
 - Cowork via mobile and web is captured in the Compliance API. Learn more about **[retrieving remote sessions in the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-content-data)**.
 - If you're a Team or Enterprise plan admin, you can **[use OpenTelemetry (OTel) to monitor Claude Cowork activity](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)** across your organization.
@@ -159,7 +159,7 @@ We tested Claude's safety check extensively before releasing it, including worki
 
  
 
-Auto mode applies to all of your existing connectors, plugins, Claude in Chrome, and some Cowork actions like fetching websites. Auto mode won't approve certain sensitive actions like allowing Cowork to access additional folders on your computer, allowing Cowork to delete files in a given folder it has access to, creating scheduled tasks, and others. Because Claude does this extra checking for you, **auto mode consumes more of your usage limit than the other modes**.
+Auto mode applies to all of your existing connectors, plugins, Claude in Chrome, and some Cowork actions like fetching websites. Because Claude does this extra checking for you, **auto mode consumes more of your usage limit than the other modes**.
 
  
 
@@ -185,7 +185,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1786025700&signature=ae02ab3af2b0bc1d1a4d38a7f7d7a441df373d437418842c491bd7e0fa48ffa0&req=diUlE8B8m4lYXfMW1HO4zcDl6t7sNFS38iWjaktE941Su6uqo7P88qGq%2BshC%0AIhRJq2bixV17PEn5nZk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1786147200&signature=e59755c70fbb759c10ff08ed7fa59fe883d91f68f323905f075143efe44407f7&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD2rfYbFOMqW%2FkK1e8cYGShEhkKcwxWZ5K%0Awn7VlS3tBAwhwNgaClwbt2naimY%3D%0A)
 
  
 
@@ -237,7 +237,7 @@ If you find yourself hitting usage limits frequently when using Cowork, consider
 
 - Batching related work into single sessions.
 - Using standard chat for simpler tasks that don't require file access or extended execution.
-- Monitoring your individual usage in **[Settings > Usage](http://claude.ai/settings/usage)**. 
+- Monitoring your individual usage in **[Settings > Usage](https://claude.ai/settings/usage)**.
 
 See **[Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)** for more information.
 

@@ -1,6 +1,6 @@
 # Join an organization via invite link
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -19,14 +19,14 @@ Admins and above can generate, copy, disable, and regenerate the invite link for
 ### Availability
 
 - **Team plans:** Invite links are enabled by default for new organizations.
-- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them from **[Organization settings > Identity and access](http://claude.ai/admin-settings/identity)**.
+- **Enterprise plans (non-SSO):** Invite links are disabled by default. Admins can enable them from **[Organization settings > Identity and access](https://claude.ai/admin-settings/identity)**.
 - **SSO organizations:** Invite links are not available. Member provisioning is managed through your Identity Provider.
 
  
 
 ### Find and share your invite link
 
-1. Navigate to **[Organization settings > Identity and access](http://claude.ai/admin-settings/identity)**.
+1. Navigate to **[Organization settings > Identity and access](https://claude.ai/admin-settings/identity)**.
 2. Find **Invite link** in the **Global access settings** section.
 3. Click the button to the right of the link to copy it.
 4. Share the link with the teammates you'd like to add—for example, in a Slack channel, email thread, or team wiki.

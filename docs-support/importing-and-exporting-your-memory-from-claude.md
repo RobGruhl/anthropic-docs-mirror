@@ -54,7 +54,7 @@ Claude's memory is designed to focus on work-related topics to enhance its effec
 
 ## Export memory from Claude
 
-To view your memory exactly how Claude sees it, go to **[Settings > Capabilities](http://claude.ai/settings/capabilities)** and click “View and edit your memory.” Alternatively, you can access memory directly in a chat with Claude by asking it, "Write out your memories of me verbatim, exactly as they appear in your memory." You can save this exported memory as a backup or bring it to another AI service by copying and pasting it into a local file on your computer.
+To view your memory exactly how Claude sees it, go to **[Settings > Capabilities](https://claude.ai/settings/capabilities)** and click “View and edit your memory.” Alternatively, you can access memory directly in a chat with Claude by asking it, "Write out your memories of me verbatim, exactly as they appear in your memory." You can save this exported memory as a backup or bring it to another AI service by copying and pasting it into a local file on your computer.
 
 ---
 
@@ -88,7 +88,7 @@ You can customize this prompt to exclude any sensitive information before import
 
 There are two ways to start the import:
 
-- Go to **[Settings > Capabilities](http://claude.ai/settings/capabilities)**, find the **Memory** section, and select “Start import.”
+- Go to **[Settings > Capabilities](https://claude.ai/settings/capabilities)**, find the **Memory** section, and select “Start import.”
 - From the home screen, click “Get started” on the "Import memory to Claude" card.
 
 The import flow will display the prompt shown above, along with a text box where you can paste the results.
@@ -105,13 +105,13 @@ Once the import is complete, you'll see your updated memory within 24 hours. Cli
 
  
 
-Claude's memory is designed to focus on work-related topics to enhance its effectiveness as a collaborator. As a result, Claude may not retain imported personal details unrelated to work. If you want to add specific information into Claude's memory, go to **[Settings > Capabilities](http://claude.ai/settings/capabilities)**, click “View and edit your memory,” and add that information as an edit.
+Claude's memory is designed to focus on work-related topics to enhance its effectiveness as a collaborator. As a result, Claude may not retain imported personal details unrelated to work. If you want to add specific information into Claude's memory, go to **[Settings > Capabilities](https://claude.ai/settings/capabilities)**, click “View and edit your memory,” and add that information as an edit.
 
  
 
 ### Export memory from Claude
 
-To view your memory exactly how Claude sees it, go to **[Settings > Capabilities](http://claude.ai/settings/capabilities)** and click “View and edit your memory.” Alternatively, you can access memory directly in a chat with Claude by asking it, "Write out your memories of me verbatim, exactly as they appear in your memory." You can save this exported memory as a backup or bring it to another AI service by copying and pasting it into a local file on your computer.
+To view your memory exactly how Claude sees it, go to **[Settings > Capabilities](https://claude.ai/settings/capabilities)** and click “View and edit your memory.” Alternatively, you can access memory directly in a chat with Claude by asking it, "Write out your memories of me verbatim, exactly as they appear in your memory." You can save this exported memory as a backup or bring it to another AI service by copying and pasting it into a local file on your computer.
 
 
 ---

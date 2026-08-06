@@ -1,10 +1,10 @@
 # Use Claude Cowork safely
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
-Cowork sessions run in the cloud on Anthropic's servers (in beta), and Claude reaches your files, browser, and apps through the Claude Desktop app.  These capabilities come with risks worth understanding. This article covers what we've built to keep you safe, what you should watch for, and how to protect yourself when using Cowork.
+Cowork sessions run in the cloud on Anthropic's servers (in beta), and Claude reaches your files, browser, and apps through the Claude Desktop app.  These capabilities come with risks worth understanding. This article covers what we've built to keep you safe, what you should watch for, and how to protect yourself when using Cowork. 
 
  
 
@@ -159,6 +159,10 @@ Local MCP servers bundled with plugins and desktop extensions run on your comput
 
  
 
+On the Enterprise plan, your organization can turn on skill scanning to check skills and plugins for malicious content when they're installed. Learn more about **[skill and plugin scanning](https://support.claude.com/en/articles/15927065)**.
+
+ 
+
 For more on plugins, see **[Use plugins in Claude](https://support.claude.com/en/articles/13837440)**.
 
  
@@ -181,7 +185,7 @@ If your organization manages your computer, note that connecting local folders m
 
 **10. Report suspicious behavior immediately**
 
-If Claude suddenly starts discussing unrelated topics, attempts to access unexpected resources, or requests sensitive information unprompted, stop the task and report it to **[usersafety@anthropic.com](mailto:usersafety@anthropic.com)** or use the in-app feedback button. Your reports help us improve our defenses.
+If Claude suddenly starts discussing unrelated topics, attempts to access unexpected resources, or requests sensitive information unprompted, stop the task and report it to [usersafety@anthropic.com](mailto:usersafety@anthropic.com) or use the in-app feedback button. Your reports help us improve our defenses.
 
  
 

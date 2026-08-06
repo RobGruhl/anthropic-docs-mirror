@@ -1,6 +1,6 @@
 # Use Claude Cowork on Team and Enterprise plans
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -47,7 +47,7 @@ Claude Cowork is on by default, but organization owners can manually disable it.
 
 This toggle controls whether Cowork is available at all. Whether sessions can run in the cloud is a separate control.
 
-### **Enable or disable sessions in the cloud**
+### Enable or disable sessions in the cloud
 
 For Team and Enterprise plans, there's a separate organization-wide toggle in **[Organization settings > Cowork](https://claude.ai/admin-settings/cowork)** under "Run Cowork in the cloud."
 

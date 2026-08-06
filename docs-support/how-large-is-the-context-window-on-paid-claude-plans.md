@@ -35,6 +35,7 @@ While context is managed automatically for most conversations, you can still opt
 
 ## Related Articles
 
+- [How up-to-date is Claude's training data?](https://support.claude.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)

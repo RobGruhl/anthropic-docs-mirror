@@ -1,10 +1,10 @@
 # Provision and manage skills for your organization
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
-This article explains how organization owners can provision skills for everyone in their organization, and how to scope skills to specific groups using plugins. Provisioning skills lets you distribute approved workflows and capabilities across your organization from one place.
+This article explains how organization owners can provision skills for everyone in their organization, and how to scope skills to specific groups using plugins. Provisioning skills lets you distribute approved workflows and capabilities across your organization from one place. 
 
  
 
@@ -66,7 +66,7 @@ In addition to provisioning skills top-down, you can let members share skills th
 - **Skill sharing:** Members can share a skill with specific colleagues. Recipients see the skill in the **Shared with you** section of their skills list.
 - **Share with organization:** Members can publish a skill to the organization directory, where anyone can find and install it.
 
-Both toggles are off by default. You can enable either or both in **[Organization settings > Skills](http://claude.ai/admin-settings/skills)**.
+Both toggles are off by default. You can enable either or both in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)**.
 
  
 
@@ -127,6 +127,35 @@ To remove a skill from your organization, locate it in the **Organization skills
 
  
 
+## Scan skills and plugins for malicious content (beta)
+
+On the Enterprise plan, you can turn on skill scanning for your organization. When it's on, Claude checks each third-party skill and plugin your members upload or edit for malicious content before it can run. Scanning is off by default, and it applies only to new uploads and edits, so skills and plugins already in your organization keep working.
+
+ 
+
+To turn on skill scanning for your organization:
+
+1. Go to **[Organization settings > Skills](https://claude.ai/admin-settings/skills)**.
+2. Turn on **Skill and plugin security scanning**.
+
+If you use custom roles, you can further define who scanning applies to by turning on the **Skill and plugin security scanning** capability for roles that should have access to skill scanning.
+
+ 
+
+Here's what your members see:
+
+- A skill or plugin that passes the scan installs normally.
+- A skill or plugin that may carry risk stays usable behind a caution banner the member acknowledges.
+- A skill or plugin with malicious content is blocked and can't be used.
+
+A blocked skill can't be overridden by the member who uploaded it, and can't be approved for the organization at this time. Scanning isn't available for organizations using customer-managed encryption keys (CMEK), zero data retention (ZDR), or HIPAA configurations. Learn more about **[skill and plugin scanning](https://support.claude.com/en/articles/15927065)**.
+
+ 
+
+---
+
+ 
+
 ## Best practices
 
 - **Test skills before provisioning: **Upload and test skills on your own account first to verify they work as expected before distributing them organization-wide.
@@ -143,5 +172,5 @@ To remove a skill from your organization, locate it in the **Organization skills
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
-- [Manage custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452-manage-custom-roles-on-enterprise-plans)
 - [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
+- [Get started with skill and plugin scanning](https://support.claude.com/en/articles/15927065-get-started-with-skill-and-plugin-scanning)

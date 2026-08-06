@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-06 13:45*
+*Last updated: 2026-08-06 23:53*
 
-Documents related to Claude Code across all sources (299 documents)
+Documents related to Claude Code across all sources (301 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -202,7 +202,7 @@ Documents related to Claude Code across all sources (299 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (100)
+## Claude.com Blog Posts (102)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -258,6 +258,7 @@ Documents related to Claude Code across all sources (299 documents)
 - [How the product designer who built Claude Design uses it to explore ideas before building them](/claude-blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
+- [Inference hooks: inline data loss prevention for Claude Enterprise](/claude-blog/claude-enterprise-inference-hooks.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing routines in Claude Code](/claude-blog/introducing-routines-in-claude-code.md) - ![](https://cdn
 - [Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud](/claude-blog/introducing-the-claude-apps-gateway.md) - ![](https://cdn
@@ -269,6 +270,7 @@ Documents related to Claude Code across all sources (299 documents)
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
 - [Meet the winners of our Claude Opus 4.8 Build Day hackathon](/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
+- [Millennium and Anthropic are building a digital risk analyst with Claude](/claude-blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude.md) - ![](https://cdn
 - [Observability for developers building connectors](/claude-blog/observability-for-developers-building-connectors.md) - ![](https://cdn
 - [Onboarding Claude Code like a new developer: Lessons from 17 years of development](/claude-blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md) - ![](https://cdn
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn

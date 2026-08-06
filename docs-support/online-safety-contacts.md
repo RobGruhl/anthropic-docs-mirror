@@ -1,6 +1,6 @@
 # Online Safety Contacts
 
-*Updated over a week ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -25,8 +25,8 @@ Government authorities can contact Anthropic directly by emailing [regulator-inq
 
 ## Related Articles
 
-- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
+- [Report, block, and remove content from Claude](https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude)
 - [Law Enforcement Requests](https://support.claude.com/en/articles/9035075-law-enforcement-requests)
-- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)
+- [Report, block, and remove content from Claude](https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude)
 - [How to get support for Claude for Government](https://support.claude.com/en/articles/13047024-how-to-get-support-for-claude-for-government)
 - [Unauthorized Anthropic stock sales and investment scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams)

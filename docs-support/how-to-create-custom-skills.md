@@ -1,6 +1,6 @@
 # How to create custom skills
 
-*Updated today*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -305,6 +305,6 @@ Visit our repository on GitHub for example skills you can use as templates: **[h
 
 - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
+- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)

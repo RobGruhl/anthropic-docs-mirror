@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-06 13:45*
+*Last updated: 2026-08-06 23:53*
 
-Documents related to Agents across all sources (150 documents)
+Documents related to Agents across all sources (152 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (150 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (92)
+## Claude.com Blog Posts (94)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -115,6 +115,7 @@ Documents related to Agents across all sources (150 documents)
 - [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
+- [Inference hooks: inline data loss prevention for Claude Enterprise](/claude-blog/claude-enterprise-inference-hooks.md) - ![](https://cdn
 - [Introducing dynamic workflows in Claude Code](/claude-blog/introducing-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud](/claude-blog/introducing-the-claude-apps-gateway.md) - ![](https://cdn
@@ -125,6 +126,7 @@ Documents related to Agents across all sources (150 documents)
 - [Loop engineering: Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
+- [Millennium and Anthropic are building a digital risk analyst with Claude](/claude-blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude.md) - ![](https://cdn
 - [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn
 - [New capabilities for building agents on the Anthropic API](/claude-blog/agent-capabilities-api.md) - ![](https://cdn
 - [New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration](/claude-blog/new-in-claude-managed-agents.md) - ![](https://cdn

@@ -1,6 +1,6 @@
 # Install Claude Desktop
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
@@ -30,7 +30,7 @@ Claude Desktop is available on macOS, Windows, and Linux (beta). What you can do
 
 ## Installation steps for mac OS and Windows
 
-1. Visit the **[Claude downloads page](http://claude.ai/download)**.
+1. Visit the **[Claude downloads page](https://claude.ai/download)**.
 2. Select the appropriate version for your operating system:
 2. - For Mac users, find **macOS** and click "Download."
 - For Windows users, find **Windows** and click "Download." 
@@ -75,7 +75,7 @@ The app doesn't update itself. Updates arrive with your system's regular package
 
 If you can’t install Claude Desktop using apt, you can install it by downloading a .deb file instead:
 
-1. Visit the **[Claude downloads page](http://claude.ai/download)**.
+1. Visit the **[Claude downloads page](https://claude.ai/download)**.
 2. Find the .deb for your architecture (x64 or arm64) and click "Download."
 3. From the folder you downloaded the .deb file, run: <code>sudo apt install ~/Downloads/claude-desktop_amd64.deb</code>
 4. Launch Claude from your applications menu (or run <code>claude-desktop</code>), then sign in.

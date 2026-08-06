@@ -1,6 +1,6 @@
 # Use connectors to extend Claude's capabilities
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -44,7 +44,7 @@ You can browse the directory from two areas:
 
 **From settings**
 
-1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors)**.
+1. Navigate to **[Customize > Connectors](https://claude.ai/customize/connectors)**.
 2. Click the “+” button next to **Connectors**.
 3. Browse available connectors by category or scroll through the complete list.
 3.  
@@ -92,7 +92,7 @@ Common use cases:
 
 To configure action restrictions:
 
-1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors).**
+1. Navigate to **[Customize > Connectors](https://claude.ai/customize/connectors).**
 2. Select the connector to see **Tool permissions**.
 3. The permissions will be categorized by type (for example, read-only tools, write/delete tools).
 4. For each permission category or individual permission, select Always allow, Needs approval, or Blocked.
@@ -146,7 +146,7 @@ Learn more about tool access modes: **[Manage Claude's tool access](https://supp
 
 To manage your connected services:
 
-1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors)**.
+1. Navigate to **[Customize > Connectors](https://claude.ai/customize/connectors)**.
 2. View all your connected services in the **Connectors** section.
 3. For each service, you can disconnect it, modify connection settings, or review permissions and access levels.
 3.  
@@ -159,7 +159,7 @@ To manage your connected services:
 
 In addition to directory connectors, you can add custom connectors:
 
-1. Navigate to **[Customize > Connectors](http://claude.ai/customize/connectors)**.
+1. Navigate to **[Customize > Connectors](https://claude.ai/customize/connectors)**.
 2. Click the “+” button next to **Connectors**.
 3. Select “Add custom connector.”
 4. Enter the connector's name and URL.
@@ -206,7 +206,7 @@ If you're having trouble connecting to a service, try these steps:
 1. Check that you have a stable internet connection.
 2. Verify you have an active account with the service.
 3. Review any permissions or account type requirements for the service.
-4. If authentication fails, try disconnecting and reconnecting from **[Customize > Connectors](http://claude.ai/customize/connectors)**.
+4. If authentication fails, try disconnecting and reconnecting from **[Customize > Connectors](https://claude.ai/customize/connectors)**.
 
 ### See a message that says, "This corporate identity belongs to an Enterprise that manages access through their own Claude account"?
 

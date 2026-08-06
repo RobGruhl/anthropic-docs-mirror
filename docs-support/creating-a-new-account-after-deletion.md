@@ -1,6 +1,6 @@
 # Creating a new account after deletion
 
-*Updated over 3 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -19,4 +19,4 @@ If your previous account was disabled for [Usage Policy violations](https://www.
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
 - [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
-- [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Log in to your Console account](https://support.claude.com/en/articles/13371040-log-in-to-your-console-account)

@@ -1,6 +1,6 @@
 # Introduction to prompt design
 
-*Updated over 2 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -18,5 +18,5 @@ For more information on effective prompt design, refer to our **[Claude API Docs
 - [My prompt isn’t giving me a helpful answer.](https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer)
 - [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Access the Compliance API](https://support.claude.com/en/articles/13015708-access-the-compliance-api)
-- [Organization instructions in Claude for Government](https://support.claude.com/en/articles/14503675-organization-instructions-in-claude-for-government)
 - [Set organization instructions](https://support.claude.com/en/articles/14546867-set-organization-instructions)
+- [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design)

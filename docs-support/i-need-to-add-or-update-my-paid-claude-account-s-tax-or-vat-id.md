@@ -1,6 +1,6 @@
 # Add or update your paid Claude account’s tax or VAT ID
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
@@ -21,7 +21,7 @@ If you need to add or update your Tax or VAT ID after you've already signed up, 
 
 1. Log in to your Claude account.
 2. Click on your initials or name in the lower left corner and select “Settings” from the menu.
-3. Navigate to [Settings > Billing](http://claude.ai/settings/billing).
+3. Navigate to **[Settings > Billing](https://claude.ai/settings/billing)**.
 4. Click the "Update" button next to your payment method.
 5. In the payment update form, you should see a field to enter or update your Tax or VAT ID.
 6. Enter or modify your Tax or VAT ID as needed.

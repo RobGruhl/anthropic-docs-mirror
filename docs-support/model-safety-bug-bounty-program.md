@@ -1,6 +1,6 @@
 # Model Safety Bug Bounty Program
 
-*Updated over 4 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -76,7 +76,7 @@ Participant agrees that all data submitted to Anthropic, including its products 
 
 ## Related Articles
 
-- [Reporting, Blocking, and Removing Content from Claude](https://support.claude.com/en/articles/7996906-reporting-blocking-and-removing-content-from-claude)
+- [Report, block, and remove content from Claude](https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude)
 - [What is the External Researcher Access Program?](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program)
 - [Public Vulnerability Reporting](https://support.claude.com/en/articles/11427875-public-vulnerability-reporting)
 - [Data retention practices for Covered Models](https://support.claude.com/en/articles/15425996-data-retention-practices-for-covered-models)

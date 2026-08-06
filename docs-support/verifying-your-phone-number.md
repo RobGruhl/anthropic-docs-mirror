@@ -8,7 +8,7 @@ When you first create a Claude account, you’ll be asked to enter your phone nu
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1786025700&signature=2a62cdb6c88da31b709687bae019c238d350cd7a403e2642ae5ce43af1be8221&req=dSguFch5noBbWvMW1HO4zVIf8JZj3i99oTnI%2BoMZk7fKjghbP%2BWoCe6DWINy%0AAmOvrO1TGPN%2BJnMXe0s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1786061700&signature=b12eb73b214805ac2e00fd5d7f837fff8377283a100aaf0280ddd3720baa4308&req=dSguFch5noBbWvMW1HO4zVIf8JZj2it9oTnI%2BoMZk7fXRGU1AJjBq7Twz8lp%0Amc4KWWcSRg%2BTLv21zmc%3D%0A)
 
  
 
@@ -87,6 +87,6 @@ There isn’t a way to change your phone number associated with your Claude acco
 
 - [How do I change the email address associated with my account?](https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
-- [Logging in to your Console account](https://support.claude.com/en/articles/13371040-logging-in-to-your-console-account)
+- [Log in to your Console account](https://support.claude.com/en/articles/13371040-log-in-to-your-console-account)
 - [Age assurance on Claude](https://support.claude.com/en/articles/15171100-age-assurance-on-claude)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)

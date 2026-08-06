@@ -1,6 +1,6 @@
 # Set up JIT or SCIM provisioning
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -50,7 +50,7 @@ Both JIT and SCIM can be combined with **Enable group mappings** to control role
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1786025700&signature=9a5ac488898c4fe00d632a8586867defb1adc8931aaa38ef7c2442e0b9c0bbb1&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ61UD19xxFMG%2BIEvQSdhoTCLvfR28jqiusUG%0AMI%2BmksuLlwwwLaTMWT4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1786212000&signature=aeee35080b832bae4a3a113b7fc569b096d8161ebefdc6b5fa16ec0155399186&req=diMmFM5%2Bm4FWUPMW3nq%2BgfvyY15K9wtEj7g49Ml26XTBJnW8vHkI0oGifWwc%0AwaoCwp6MpvWaMbnyksqAKVwKjqk%3D%0A)
 
  
 
@@ -76,7 +76,7 @@ For information on purchasing seats or adjusting your plan's seat allocation, se
 
 If you chose SCIM as your provisioning mode, you need to establish the connection between your Identity Provider and Anthropic before enabling it.
 
-1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**)
+1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](https://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](https://platform.claude.com/settings/identity)**)
 2. In the **User provisioning **section, click “Setup SCIM” (or “Manage SCIM”)next to **SCIM directory sync**.
 3. Follow the WorkOS setup guide to configure SCIM in your Identity Provider. You'll need to copy values from WorkOS into your IdP's Anthropic application.
 

@@ -1,6 +1,6 @@
 # Set up single sign-on (SSO)
 
-*Updated over 2 months ago*
+*Updated today*
 
 ---
 
@@ -44,7 +44,7 @@ Domain verification proves that you own your company's domain. Once verified, yo
 
 You can verify multiple domains for a single organization, but all domains must be managed through a single IdP. We don't support verifying domains from separate IdPs within the same organization.
 
-1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**) – note this page will only appear on Console if you've worked with Sales to enable SSO or completed a merge proposal.
+1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](https://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](https://platform.claude.com/settings/identity)**) – note this page will only appear on Console if you've worked with Sales to enable SSO or completed a merge proposal.
 2. In the **Domains** section, click “Add or edit domains.”
 3. Enter the domain(s) you want to verify in the **Update organization email domains **modal and click the “+” button:
 3.  
@@ -76,7 +76,7 @@ If the record is correct and propagated but the status still shows Pending, cont
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1786025700&signature=fa96ea167a70448b93b61555a93ffff6c161437f90af37bc53fc7f3ee55dc947&req=diAjEcl6mYVWX%2FMW1HO4zVjmWS8AbXG%2BPM2D8Zcdgrjaae1MN5Z4QWk%2F4Ed6%0AlPDjImacscBeOTrOF2o%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2047044496/b8df54a0331784cc9ae8f00112aa/bf9609c1-dc93-4665-a066-4cae2fe4b002?expires=1786212000&signature=cc44c2d1e8c39aed6f09de98f8b53f13c4570a2c0dd9a39eea26751c14d39bd5&req=diAjEcl6mYVWX%2FMW3nq%2BgRz1alCPKmRi%2BK%2F4XWURBt58jQJ6tmf4OEBWryBf%0AO0%2BW4VTM6FyL%2FVpYBuwpN868stU%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ If the record is correct and propagated but the status still shows Pending, cont
 
 ## Step 3: Set up SSO with your Identity Provider
 
-1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](http://platform.claude.com/settings/identity)**).
+1. Navigate to your **Organization and access** settings in Claude (**[claude.ai/admin-settings/organization](https://claude.ai/admin-settings/organization)**) or your **Identity and access** settings in Console (**[platform.claude.com/settings/identity](https://platform.claude.com/settings/identity)**).
 2. In the **Authentication **section, click “Setup SSO” (or “Manage SSO”).
 3. Follow the setup guide provided for your Identity Provider (see below for additional guides).
 4. At the end of these steps, you’ll be prompted to Test Single Sign-on to confirm there are no errors and the configuration is successful.
@@ -114,7 +114,7 @@ You can now choose to toggle on **Require SSO for Console** and/or **Require SSO
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1786025700&signature=a68a5e2c149b2ce7321255079a013bf9cc00b45192c70d20f6d62172e599fa50&req=diMmFM93nYNfWfMW1HO4zdAICwmhAHkNItXtKivx6ZFiLro1Tafnyz8xpNnp%0ARfxGUn88my4SxeZ%2BW9A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312690200/bd2403586d4f6651ccd79e2a45af/b9f8d7ce-0def-49d9-bfb2-3a14352d7214?expires=1786212000&signature=0cf62e8ce7571fd0a358995dbd55cd84973710f75630b4db26694b75b819dd79&req=diMmFM93nYNfWfMW3nq%2BgRYH5xpAopbj%2B6jEdawRDawAKv%2B114RD1O8kvpt%2F%0ALmJjoZaayy9OQ8%2BirafKg1l8Fc4%3D%0A)
 
  
 
@@ -163,8 +163,8 @@ For more control over provisioning, see **[Set up JIT or SCIM provisioning](http
 When your Identity Provider's X.509 signing certificate expires or is rotated, you'll need to update it in Claude or Console to maintain SSO functionality.
 
 1. Navigate to your settings:
-1. - For Team and Enterprise plans: **[claude.ai/admin-settings/organization](http://claude.ai/admin-settings/organization)**
-- For Claude Console: **[platform.claude.com/settings/identity](http://platform.claude.com/settings/organization)**
+1. - For Team and Enterprise plans: **[claude.ai/admin-settings/organization](https://claude.ai/admin-settings/organization)**
+- For Claude Console: **[platform.claude.com/settings/identity](https://platform.claude.com/settings/organization)**
 2. In the **Authentication **section, click “Manage SSO.”
 3. Find the **Metadata configuration** section and click “Edit.”
 4. Update your certificate information and save your changes.

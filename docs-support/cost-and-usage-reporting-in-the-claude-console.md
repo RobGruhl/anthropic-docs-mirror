@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1786025700&signature=a1b47dbfca52fd4697fbd0a609f2f3e39c73a11ad6a9f80297571d7aa424b3ea&req=dSUvEs97mYNeXvMW1HO4zYCWiSIYg8OduqqBX2puyxQ3gCKXpNUcQW4YD4k7%0A%2FccJngB3PzzT31EiXUs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1786061700&signature=d08dc2797cd11a8155240a7e856f9f2a205b01b82f15b3f714499eaafcf8a809&req=dSUvEs97mYNeXvMW1HO4zYCWiSIYh8eduqqBX2puyxTVqq2U60rSpbVo6%2F5J%0AR0jmc86gcgkTOjMoGu0%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1786025700&signature=212955e74825ad3360354040d084860f112fb30dde6e7959cf98ec18dd8b205b&req=dSUvEs94mYJdWPMW1HO4zQwER3UqI4phqMITUZbanFDKY1AXrZ7l%2Fn5uwEVp%0A1iejTMls6bZWEN4cKeU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1786061700&signature=e307fdb0b9ef3b03bc42a7b8864ac8e50de4e4e61d50cb63fb5d5a4539235143&req=dSUvEs94mYJdWPMW1HO4zQwER3UqJ45hqMITUZbanFD2vDFhibPNSRyN3T5Y%0ACDCKVS0KbMuKaXLP5gU%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1786025700&signature=a2030f468705938a47ee42f0be407669e0722eda46f5845ff216a5f4dc7e75ab&req=dSUvEs93noJXX%2FMW1HO4zRxEwW1N5FRr21D6pckxWMYwD9Lm402fQ1Ohf%2BcC%0AuBWw4AMfwXwU0PFjhDg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1786061700&signature=9592e7d2c6b44eddcf29ab090cbafed237bfd9a6ecda9033edf956666920ac7a&req=dSUvEs93noJXX%2FMW1HO4zRxEwW1N4FBr21D6pckxWMalw0Bmvtn7xaKMYWim%0AzHsyV3RoDotdJGWwkiU%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1786025700&signature=a27984a5894560165d32eaa69bcbfdef9e3263d7648a1c9606393a7001f33a70&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5rDUdVmCyIF5nuUsbwdWNJ6oZT9UhC6RrN8%0A1rHn1ExzTjpbOX8UKPw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1786061700&signature=69af239f9620f5702c11218e75061f3df1739ab569db860fab27185476897d7a&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5rDVdFmCyIF5nuUsbwTmKcRn0tJxMPQPDae%0AtZUR2zE8svR0Oy2efeo%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
-- [Our approach to rate limits for the Claude API](https://support.claude.com/en/articles/8243635-our-approach-to-rate-limits-for-the-claude-api)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
