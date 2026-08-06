@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786016700&signature=7ca88a0bf2c5791f866d6fa760b12a0d9ebd5271333d9870b744544249844524&req=diAjFMp7n4FZWfMW1HO4zU6VRfvKSbpuxNdRzYWrfF6t3GryCj2CWAuA9KSJ%0ApYTtunX49pB%2Fs6cI7wM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786025700&signature=271069c348fa496e21e86d3fec63ef6885a5f832f1949c5689100a44330310ea&req=diAjFMp7n4FZWfMW1HO4zU6VRfvKSrluxNdRzYWrfF7EyncahKjCQHnZkV8K%0Acrj3ZM5V0tEM8sHNRXU%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786016700&signature=2ec7f4b6577a1dc9470b46bb388593f9391594d2e053ad917684283945c91ba1&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyVYVYNy8OQfYsvK3x2g9kso9764boFWqJM%0AOg7DuC6S4L8XZZcwgPA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786025700&signature=02eeab1b06a379432d670e8f1a141f7f8741ac00ce24cde731403b30ec2deb8b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyVYlUNy8OQfYsvK3wcyRsHQ%2BiTtm3VpXWY%0AvlFgrvWfZFs1xkIfuiY%3D%0A)
 
  
 
