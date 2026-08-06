@@ -1,10 +1,10 @@
 # Claude Documentation Index
-*Last updated: 2026-08-05 22:09*
+*Last updated: 2026-08-06 01:45*
 
 ## Quick Stats
-- **Total Documents:** 1686
-- **Platform Docs:** 550
-- **Claude Code Docs:** 175
+- **Total Documents:** 1687
+- **Platform Docs:** 551
+- **Claude Code Docs:** 176
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
@@ -12,14 +12,14 @@
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
 - **Claude.com Blog:** 204
-- **Support Articles:** 251
+- **Support Articles:** 250
 - **Topics:** 84
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 550 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 175 docs from code.claude.com
+- [Platform Documentation](platform-docs.md) - 551 docs from platform.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 176 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
@@ -27,10 +27,10 @@
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
 - [Claude.com Blog](claude-blog.md) - 204 product/API posts from claude.com/blog
-- [Support Articles](support-articles.md) - 251 help articles from support.claude.com
+- [Support Articles](support-articles.md) - 250 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 298 documents
+- [Claude Code](topics/claude-code.md) - 299 documents
 - [Mcp](topics/mcp.md) - 236 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents

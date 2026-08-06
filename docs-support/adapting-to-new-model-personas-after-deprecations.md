@@ -26,8 +26,8 @@ These strategies aren’t perfect and can only go so far toward preserving or re
 
 ## Related Articles
 
-- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Model Safety Bug Bounty Program](https://support.claude.com/en/articles/12119250-model-safety-bug-bounty-program)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
+- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
 - [Set a default model for your organization](https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization)

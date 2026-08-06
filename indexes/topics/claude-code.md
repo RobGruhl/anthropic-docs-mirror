@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-05 22:09*
+*Last updated: 2026-08-06 01:45*
 
-Documents related to Claude Code across all sources (298 documents)
+Documents related to Claude Code across all sources (299 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (298 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (175)
+## Claude Code Documentation (176)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -90,6 +90,7 @@ Documents related to Claude Code across all sources (298 documents)
 - [Fullscreen](/code-claude-docs/fullscreen.md)
 - [Gateways](/code-claude-docs/gateways.md)
 - [Github Actions](/code-claude-docs/github-actions.md)
+- [Github Actions Cloud Providers](/code-claude-docs/github-actions-cloud-providers.md)
 - [Github Enterprise Server](/code-claude-docs/github-enterprise-server.md)
 - [Gitlab Ci Cd](/code-claude-docs/gitlab-ci-cd.md)
 - [Glossary](/code-claude-docs/glossary.md)
