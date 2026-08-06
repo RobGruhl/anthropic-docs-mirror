@@ -18,7 +18,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 7 days, 14 days, or 28 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1786005900&signature=2b574c7f48e5bb2f59a60da3d54c927ef6d44fe6a7c513081296c3c4ce7aa027&req=dSgvHs14lIVcX%2FMW1HO4zQNx6%2BQnQ19Zg%2F6XaftFnjwooxXwx0B8LcucQtij%0AkLbhPvwsm8dDDp7LEBE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469436/1725e63ea1a2615948faecf4ec73/9bd276a1-7329-414d-87a1-d04dac93fff7?expires=1786016700&signature=d23cc307ddc21b07e21e06860947168b461b87c151f63f84f5b91b9feeba2c42&req=dSgvHs14lIVcX%2FMW1HO4zQNx6%2BQnQlxXg%2F6XaftFnjyt5vlEUEwrYXctfwz0%0AxidOGMl5Hyw%2BJ6PMAEk%3D%0A)
 
  
 
@@ -30,7 +30,7 @@ Session duration controls allow Enterprise and Console Admins to set a maximum s
 4. Click “Enable” next to **Shortened session length**, then select a duration from the dropdown: 1 day, 3 days, or 7 days.
 5. Confirm your selection by clicking “Enable.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1786005900&signature=7f9875667aa1bf259e863471d15a209d0560d0e4593072ffcab811de076d7754&req=dSgvHs14lIVcXPMW1HO4zWzx2L82J3ooXZ5D7eVpMtfvsf8aaf4V%2FV8ZRkok%0AFjEtJLXtkbNKfJovRBI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469435/7a766bbe02e61c7d8f05deb5b8f0/b0bda400-47c6-43dd-9907-131ebe180b36?expires=1786016700&signature=660aa227ad5b66607093b4de31fb0d86eb82fff788a73df80b948f4e4f8b424f&req=dSgvHs14lIVcXPMW1HO4zWzx2L82JnkmXZ5D7eVpMtflFOH5mePj9xkF5ZcO%0Aff0zHRV2aIdAZDmwjEs%3D%0A)
 
  
 
@@ -51,7 +51,7 @@ You can change the session duration at any time by selecting a new value from th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1786005900&signature=35d1e02b034811840e7c12a0a89f7a39e180a745c405eff2cfc20e6462fed5b5&req=dSgvHs14lIVcXvMW1HO4zZ7mWs6b5zyqA00cbyPOLDUJYwhjGkP%2FQIJ6J6zE%0Ac3LNgXzM3Zklb1d%2B2L4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1888469437/46ac5bc55484ca01556d87a5ade7/b01a7651-ad65-4b32-93ff-16dbc9ca97c0?expires=1786016700&signature=adbdacbce845ba771f800ec036e1eafd7e57c21ddfde7b8c1c13df6903dca020&req=dSgvHs14lIVcXvMW1HO4zZ7mWs6b5j%2BkA00cbyPOLDWxcXTo%2FkX7ZuDtDqCo%0A7P2KaLoECkfd%2BvxdrIo%3D%0A)
 
  
 
