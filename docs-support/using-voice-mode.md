@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1785996900&signature=10e111f0ac0d4747f945b717a3c0ab21cbbc5c70932ecfc90470b133ca41126a&req=diAjFMp7n4FZWfMW1HO4zU6VRfjDQbpgxNdRzYWrfF53360Pgp1GxyO%2FDj2O%0AHyYYcaul1qN93D5ChD0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786005900&signature=092e451d6201dacd7e88d9d4970d3d37b69499cca133fb5328647460b8593d42&req=diAjFMp7n4FZWfMW1HO4zU6VRfvKSLlgxNdRzYWrfF7R%2Bxq5jYUpXDiVTI7b%0AD3LWAQ18Vp2QEA34KUA%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1785996900&signature=48d24e37fdfdd82851a60ba6905aa13929838fcc72b6552480ddc519914e1372&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG%2BcaVYDy8OQfYsvK3wm6OcP6OdWO3GAg0B9%0AZMeQVQTZAAA78VoPl%2Bw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786005900&signature=847b1ce21971c530a7794b79e28d4f6cfc09fd62c811c5d773ae9afee911ae03&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyVYFUDy8OQfYsvK3zSb2KUt07AKlL%2B85tl%0At5GAN4%2FSLxOffptCCwY%3D%0A)
 
  
 
