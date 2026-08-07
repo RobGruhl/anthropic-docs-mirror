@@ -1,9 +1,9 @@
 # Configuration Topic Index
-*Last updated: 2026-08-07 02:10*
+*Last updated: 2026-08-07 04:50*
 
-Documents related to Configuration across all sources (12 documents)
+Documents related to Configuration across all sources (13 documents)
 ---
-## Claude Code Documentation (12)
+## Claude Code Documentation (13)
 - [Auto Mode Config](/code-claude-docs/auto-mode-config.md)
 - [Claude Apps Gateway Config](/code-claude-docs/claude-apps-gateway-config.md)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
@@ -12,6 +12,7 @@ Documents related to Configuration across all sources (12 documents)
 - [Output Styles](/code-claude-docs/output-styles.md)
 - [Sandbox Environments](/code-claude-docs/sandbox-environments.md)
 - [Sandboxing](/code-claude-docs/sandboxing.md)
+- [Self Hosted Environments Configuration](/code-claude-docs/self-hosted-environments-configuration.md)
 - [Server Managed Settings](/code-claude-docs/server-managed-settings.md)
 - [Settings](/code-claude-docs/settings.md)
 - [Statusline](/code-claude-docs/statusline.md)

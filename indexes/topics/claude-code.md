@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-07 02:10*
+*Last updated: 2026-08-07 04:50*
 
-Documents related to Claude Code across all sources (301 documents)
+Documents related to Claude Code across all sources (308 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (301 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (176)
+## Claude Code Documentation (183)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -151,6 +151,13 @@ Documents related to Claude Code across all sources (301 documents)
 - [Secure Deployment](/code-claude-docs/agent-sdk__secure-deployment.md)
 - [Security](/code-claude-docs/security.md)
 - [Security Guidance](/code-claude-docs/security-guidance.md)
+- [Self Hosted Environments](/code-claude-docs/self-hosted-environments.md)
+- [Self Hosted Environments Configuration](/code-claude-docs/self-hosted-environments-configuration.md)
+- [Self Hosted Environments Deploy](/code-claude-docs/self-hosted-environments-deploy.md)
+- [Self Hosted Environments Identity](/code-claude-docs/self-hosted-environments-identity.md)
+- [Self Hosted Environments Quickstart](/code-claude-docs/self-hosted-environments-quickstart.md)
+- [Self Hosted Environments Reference](/code-claude-docs/self-hosted-environments-reference.md)
+- [Self Hosted Environments Testing](/code-claude-docs/self-hosted-environments-testing.md)
 - [Server Managed Settings](/code-claude-docs/server-managed-settings.md)
 - [Session Storage](/code-claude-docs/agent-sdk__session-storage.md)
 - [Sessions](/code-claude-docs/agent-sdk__sessions.md)
