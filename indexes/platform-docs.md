@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-07 15:49*
+*Last updated: 2026-08-07 18:44*
 Total documents: 551
 ---
 ## Uncategorized (551 documents)
@@ -51,7 +51,7 @@ Total documents: 551
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/pricing  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### about-claude__use-case-guides__classification
 **File:** `/platform-docs/about-claude__use-case-guides__classification.md`  
@@ -826,7 +826,7 @@ Total documents: 551
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -946,7 +946,7 @@ Total documents: 551
 ### agents-and-tools__tool-use__web-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-07  
 
 ### beta-headers
 **File:** `/platform-docs/beta-headers.md`  
@@ -1896,7 +1896,7 @@ Total documents: 551
 ### build-with-claude__token-counting
 **File:** `/platform-docs/build-with-claude__token-counting.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/token-counting  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### build-with-claude__vision-coordinates
 **File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
@@ -2401,7 +2401,7 @@ Total documents: 551
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/data-residency  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### manage-claude__inference-hooks-configuration
 **File:** `/platform-docs/manage-claude__inference-hooks-configuration.md`  
@@ -2416,12 +2416,12 @@ Total documents: 551
 ### manage-claude__inference-hooks
 **File:** `/platform-docs/manage-claude__inference-hooks.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/inference-hooks  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-07  
 
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/rate-limits-api  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-07  
 
 ### manage-claude__spend-limits-api
 **File:** `/platform-docs/manage-claude__spend-limits-api.md`  
@@ -2491,12 +2491,12 @@ Total documents: 551
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workspaces  
-**Updated:** 2026-07-16  
+**Updated:** 2026-08-07  
 
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__cloud-sandboxes-reference
 **File:** `/platform-docs/managed-agents__cloud-sandboxes-reference.md`  
@@ -2521,7 +2521,7 @@ Total documents: 551
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/events-and-streaming  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
@@ -2531,7 +2531,7 @@ Total documents: 551
 ### managed-agents__github
 **File:** `/platform-docs/managed-agents__github.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/github  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__mcp-connector
 **File:** `/platform-docs/managed-agents__mcp-connector.md`  
@@ -2551,7 +2551,7 @@ Total documents: 551
 ### managed-agents__multiagent-orchestration
 **File:** `/platform-docs/managed-agents__multiagent-orchestration.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
@@ -2576,12 +2576,12 @@ Total documents: 551
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/reference  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__scheduled-deployments
 **File:** `/platform-docs/managed-agents__scheduled-deployments.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/scheduled-deployments  
-**Updated:** 2026-07-22  
+**Updated:** 2026-08-07  
 
 ### managed-agents__self-hosted-sandboxes-security
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes-security.md`  
@@ -2591,22 +2591,22 @@ Total documents: 551
 ### managed-agents__self-hosted-sandboxes
 **File:** `/platform-docs/managed-agents__self-hosted-sandboxes.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__session-operations
 **File:** `/platform-docs/managed-agents__session-operations.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/session-operations  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__sessions
 **File:** `/platform-docs/managed-agents__sessions.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/sessions  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__skills
 **File:** `/platform-docs/managed-agents__skills.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/skills  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### managed-agents__tools
 **File:** `/platform-docs/managed-agents__tools.md`  
@@ -2621,7 +2621,7 @@ Total documents: 551
 ### managed-agents__webhooks
 **File:** `/platform-docs/managed-agents__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/webhooks  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### messages
 **File:** `/platform-docs/messages.md`  
@@ -2691,7 +2691,7 @@ Total documents: 551
 ### overview
 **File:** `/platform-docs/overview.md`  
 **Source:** https://platform.claude.com/docs/en/api/overview  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-07  
 
 ### rate-limits
 **File:** `/platform-docs/rate-limits.md`  
@@ -2701,7 +2701,7 @@ Total documents: 551
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-07  
 
 ### release-notes__system-prompts
 **File:** `/platform-docs/release-notes__system-prompts.md`  

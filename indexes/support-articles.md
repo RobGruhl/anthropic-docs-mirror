@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-07 15:49*
+*Last updated: 2026-08-07 18:44*
 Total documents: 250
 ---
 ## Uncategorized (250 documents)
@@ -111,7 +111,7 @@ Total documents: 250
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-07-27  
+**Updated:** 2026-08-07  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -216,7 +216,7 @@ Total documents: 250
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-07  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -261,7 +261,7 @@ Total documents: 250
 ### Crisis Helpline Support in Claude
 **File:** `/docs-support/crisis-helpline-support-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13171706-crisis-helpline-support-in-claude  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### Customizing your Console appearance settings
 **File:** `/docs-support/customizing-your-console-appearance-settings.md`  
@@ -326,7 +326,7 @@ Total documents: 250
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -341,7 +341,7 @@ Total documents: 250
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -521,7 +521,7 @@ Total documents: 250
 ### How to change your Pro plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-pro-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### How to create custom skills
 **File:** `/docs-support/how-to-create-custom-skills.md`  
@@ -641,7 +641,7 @@ Total documents: 250
 ### I’m encountering 429 errors, and I’m worried my rate limit is too low. What should I do?
 **File:** `/docs-support/i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do.md`  
 **Source:** https://support.claude.com/en/articles/8114527-i-m-encountering-429-errors-and-i-m-worried-my-rate-limit-is-too-low-what-should-i-do  
-**Updated:** 2026-07-29  
+**Updated:** 2026-08-07  
 
 ### I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?
 **File:** `/docs-support/i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy.md`  
@@ -841,7 +841,7 @@ Total documents: 250
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
 **Source:** https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
@@ -956,7 +956,7 @@ Total documents: 250
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
 **Source:** https://support.claude.com/en/articles/13364135-using-cowork-safely  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### Use Claude app intents, shortcuts, and widgets on iOS
 **File:** `/docs-support/using-claude-app-intents-shortcuts-and-widgets-on-ios.md`  
@@ -1111,7 +1111,7 @@ Total documents: 250
 ### What are artifacts and how do I use them?
 **File:** `/docs-support/what-are-artifacts-and-how-do-i-use-them.md`  
 **Source:** https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### What are projects?
 **File:** `/docs-support/what-are-projects.md`  
@@ -1161,7 +1161,7 @@ Total documents: 250
 ### What is the Max plan?
 **File:** `/docs-support/what-is-the-max-plan.md`  
 **Source:** https://support.claude.com/en/articles/11049741-what-is-the-max-plan  
-**Updated:** 2026-07-13  
+**Updated:** 2026-08-07  
 
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  

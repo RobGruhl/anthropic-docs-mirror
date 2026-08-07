@@ -11,7 +11,7 @@ The Max plan is designed for users who collaborate with Claude frequently and ne
 ## Key benefits
 
 - **More usage capacity**: Get 5x or 20x more usage than the Pro plan, depending on your selected tier.
-- **No more interruptions**: Stay in flow when it matters most with higher usage limits that allow for deeper, more extensive work with Claude.
+- **Fewer interruptions**: Stay in flow when it matters most with higher usage limits that allow for deeper, more extensive work with Claude.
 - **Scale as needed**: Choose the usage tier that matches your workflow, with the flexibility to adjust as your needs change.
 - **Priority access**: Be among the first to experience new models, features, and products.
 - **Access to Claude Code: [Use Claude Code](https://support.claude.com/en/articles/11145838)** for your terminal-based coding workflows with one unified subscription.
@@ -66,7 +66,7 @@ Yes. The Max plan offers substantially higher usage compared to our Pro plan and
 
  
 
-**Max 5x** provides 5 times more usage per session than the Pro plan. This tier is ideal for frequent users who work with Claude on a variety of tasks.
+**Max 5x** provides five times more usage per session than the Pro plan. This tier is ideal for frequent users who work with Claude on a variety of tasks.
 
  
 
@@ -74,7 +74,7 @@ Yes. The Max plan offers substantially higher usage compared to our Pro plan and
 
  
 
-Max plans also have two weekly usage limits: one that applies across all models and another for Sonnet models only. Weekly limits reset at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.
+Your session-based usage limit will reset every five hours. Max plans also have a weekly usage limit that applies across all models. The weekly limit resets at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.
 
  
 
