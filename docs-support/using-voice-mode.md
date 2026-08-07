@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786130100&signature=3925b86bf5f6e05e26931e02e67891243e1f405cc45f19772a3f56a49d7ef72a&req=diAjFMp7n4FZWfMW1HO4zU6VRfvLS7xoxNdRzYWrfF7Lo79I5gHFQQO2Bcrn%0AeFEA0lzEbUwpuQNPiN4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786140000&signature=966ea6016dffda11eae322f8fb8ef2ca877bbe17e2ded5dd640a9fef611fd71a&req=diAjFMp7n4FZWfMW1HO4zU6VRfvLTLxpxNdRzYWrfF7cqNM2%2FX6EkxWLENvG%0AJ5OkogFAoN8B7HNiPh8%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786130100&signature=77166e98c394ea9b8e382b093fc55708d0b90614b34fb7704723deecc887b217&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyUY1ALy8OQfYsvK3ytw3u77Lf4izYFkpgh%0AVZ%2BnEzI8HsS3v%2FnOGZc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786140000&signature=4e10fae897cdb207bd9ded1a73d1d6bfb9a4370b19884d18575c2da3dca2f4d7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyUZFAKy8OQfYsvK3zp7ILgEtN5a7hHdGn9%0AlIpEQooQxWYIJmz2TOs%3D%0A)
 
  
 

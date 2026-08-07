@@ -1,6 +1,6 @@
 # Report, block, and remove content from Claude
 
-*Updated today*
+*Updated yesterday*
 
 ---
 

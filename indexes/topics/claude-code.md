@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-07 18:44*
+*Last updated: 2026-08-07 21:32*
 
-Documents related to Claude Code across all sources (308 documents)
+Documents related to Claude Code across all sources (309 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (308 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (183)
+## Claude Code Documentation (184)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -69,6 +69,7 @@ Documents related to Claude Code across all sources (308 documents)
 - [Corporate Launcher](/code-claude-docs/corporate-launcher.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
 - [Costs](/code-claude-docs/costs.md)
+- [Cross Session Messaging](/code-claude-docs/cross-session-messaging.md)
 - [Custom Tools](/code-claude-docs/agent-sdk__custom-tools.md)
 - [Data Usage](/code-claude-docs/data-usage.md)
 - [Debug Your Config](/code-claude-docs/debug-your-config.md)
