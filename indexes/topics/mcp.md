@@ -1,9 +1,9 @@
 # Mcp Topic Index
-*Last updated: 2026-08-07 09:54*
+*Last updated: 2026-08-07 12:43*
 
-Documents related to Mcp across all sources (236 documents)
+Documents related to Mcp across all sources (235 documents)
 ---
-## Platform Documentation (platform.claude.com) (24)
+## Platform Documentation (platform.claude.com) (23)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
 - [admin__mcp_tunnels__archive](/platform-docs/api-reference/admin__mcp_tunnels__archive.md)
 - [admin__mcp_tunnels__list](/platform-docs/api-reference/admin__mcp_tunnels__list.md)
@@ -23,7 +23,6 @@ Documents related to Mcp across all sources (236 documents)
 - [agents-and-tools__mcp-tunnels__overview](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__overview.md)
 - [agents-and-tools__mcp-tunnels__quickstart](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__quickstart.md)
 - [agents-and-tools__mcp-tunnels__reference](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__reference.md)
-- [agents-and-tools__mcp-tunnels__security](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__security.md)
 - [agents-and-tools__mcp-tunnels__troubleshooting](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__troubleshooting.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [beta__vaults__credentials__mcp_oauth_validate](/platform-docs/api-reference/beta__vaults__credentials__mcp_oauth_validate.md)

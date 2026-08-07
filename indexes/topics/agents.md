@@ -1,9 +1,9 @@
 # Agents Topic Index
-*Last updated: 2026-08-07 09:54*
+*Last updated: 2026-08-07 12:43*
 
-Documents related to Agents across all sources (152 documents)
+Documents related to Agents across all sources (151 documents)
 ---
-## Platform Documentation (platform.claude.com) (41)
+## Platform Documentation (platform.claude.com) (40)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__claude-api-skill](/platform-docs/developer-guide/agents-and-tools__agent-skills__claude-api-skill.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
@@ -17,7 +17,6 @@ Documents related to Agents across all sources (152 documents)
 - [agents-and-tools__mcp-tunnels__overview](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__overview.md)
 - [agents-and-tools__mcp-tunnels__quickstart](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__quickstart.md)
 - [agents-and-tools__mcp-tunnels__reference](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__reference.md)
-- [agents-and-tools__mcp-tunnels__security](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__security.md)
 - [agents-and-tools__mcp-tunnels__troubleshooting](/platform-docs/developer-guide/agents-and-tools__mcp-tunnels__troubleshooting.md)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)

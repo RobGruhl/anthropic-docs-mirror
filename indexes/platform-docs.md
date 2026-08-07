@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-07 09:54*
-Total documents: 551
+*Last updated: 2026-08-07 12:43*
+Total documents: 550
 ---
-## Uncategorized (551 documents)
+## Uncategorized (550 documents)
 ### about-claude__glossary
 **File:** `/platform-docs/about-claude__glossary.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/glossary  
@@ -808,11 +808,6 @@ Total documents: 551
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/reference  
 **Updated:** 2026-06-30  
 
-### agents-and-tools__mcp-tunnels__security
-**File:** `/platform-docs/agents-and-tools__mcp-tunnels__security.md`  
-**Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security  
-**Updated:** 2026-06-30  
-
 ### agents-and-tools__mcp-tunnels__troubleshooting
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__troubleshooting.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting  
@@ -881,7 +876,7 @@ Total documents: 551
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-07  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  

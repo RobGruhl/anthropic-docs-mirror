@@ -3860,16 +3860,6 @@
       "last_modified": null,
       "last_updated": "2026-06-30T18:37:16.737253"
     },
-    "agents-and-tools__mcp-tunnels__security.md": {
-      "original_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security",
-      "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security.md",
-      "category": "developer-guide",
-      "path": "/docs/en/agents-and-tools/mcp-tunnels/security",
-      "hash": "8179ea22d20720bcfc29b3c95579c9d724323fa38ad9588973e035ea21dc5fa6",
-      "etag": null,
-      "last_modified": null,
-      "last_updated": "2026-06-30T18:37:16.737368"
-    },
     "agents-and-tools__mcp-tunnels__troubleshooting.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/troubleshooting.md",
@@ -4005,10 +3995,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/overview",
-      "hash": "6fe154bbf0c38bf8798e3463b95fe58acc1e8ae5585b4cdf7b50ee9d3cfd8df5",
+      "hash": "68a25c3e628c36ea7513541f8500b0e19f48a2a2432ce6393e54e139a7858619",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-06T23:49:54.188325"
+      "last_updated": "2026-08-07T12:40:48.917748"
     },
     "agents-and-tools__tool-use__parallel-tool-use.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use",
@@ -5512,18 +5502,20 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-07T09:51:53.000697",
-    "fetch_duration_seconds": 6.869469,
+    "last_fetch_completed": "2026-08-07T12:40:48.947651",
+    "fetch_duration_seconds": 25.737596,
     "total_pages_discovered": 551,
-    "pages_fetched_successfully": 551,
-    "pages_failed": 0,
-    "pages_unchanged": 551,
-    "pages_updated": 0,
+    "pages_fetched_successfully": 550,
+    "pages_failed": 1,
+    "pages_unchanged": 549,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
-    "failed_pages": [],
+    "failed_pages": [
+      "/docs/en/agents-and-tools/mcp-tunnels/security"
+    ],
     "by_category": {
-      "developer-guide": 193,
+      "developer-guide": 192,
       "api-reference": 358,
       "resources": 0
     },
@@ -5535,5 +5527,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-07T09:51:53.000884"
+  "last_updated": "2026-08-07T12:40:48.947829"
 }
