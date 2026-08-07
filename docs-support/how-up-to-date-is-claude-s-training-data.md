@@ -1,6 +1,6 @@
 # How up-to-date is Claude's training data?
 
-*Updated over a week ago*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -30,5 +30,5 @@ You can refer to **[Models overview](https://docs.claude.com/en/docs/about-claud
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
+- [Why Claude switched models in your conversation with Fable 5](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5)

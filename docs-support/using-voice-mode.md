@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786079700&signature=ad0769f5afd60245e8d25adcf1f8d3621f4c87607c7e4507465bd1fb2a737691&req=diAjFMp7n4FZWfMW1HO4zU6VRfvKT7VuxNdRzYWrfF4pBSUPrLCXwDdJecHu%0Awa0ynrIRer2HCv%2FoMoA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786087800&signature=7bb2b51648d935da14e9e7cd5affd659dda834daa188354ffae3112c54bcd910&req=diAjFMp7n4FZWfMW1HO4zU6VRfvKQLthxNdRzYWrfF4xa0G%2BOyoM7np%2BhKQc%0AUhJsTC2nGb7Um6RtfjI%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786079700&signature=c1280e4a7d5ba58b2d1fbd535e96ff1590a98dacac4ad84ebc1a7fe17a5e514f&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyVZ1kNy8OQfYsvK3zRIEl6oH2D5%2FZbbWw1%0AYK3VqX%2B0B3bFj5BSZEk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786087800&signature=d5a2339b678753b972b51eb84165defa831a060ef39aafaf87237360429c01ab&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyVaFcCy8OQfYsvK3zK%2BCmldnzmt3Ony3cy%0Ao73vX2kMuQBn9Y3bMMM%3D%0A)
 
  
 
