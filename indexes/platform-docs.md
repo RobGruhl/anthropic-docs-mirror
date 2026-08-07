@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-07 12:43*
-Total documents: 550
+*Last updated: 2026-08-07 15:49*
+Total documents: 551
 ---
-## Uncategorized (550 documents)
+## Uncategorized (551 documents)
 ### about-claude__glossary
 **File:** `/platform-docs/about-claude__glossary.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/glossary  
@@ -807,6 +807,11 @@ Total documents: 550
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__reference.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/reference  
 **Updated:** 2026-06-30  
+
+### agents-and-tools__mcp-tunnels__security
+**File:** `/platform-docs/agents-and-tools__mcp-tunnels__security.md`  
+**Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security  
+**Updated:** 2026-08-07  
 
 ### agents-and-tools__mcp-tunnels__troubleshooting
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__troubleshooting.md`  
