@@ -24,7 +24,7 @@ Choose "Manually approve" to have Claude create a plan from your prompt, which y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1786087800&signature=cb4242e74ec556cf3d00775a05577c932eda11b513c00cc884187c50f2566472&req=dSgjFcp8nYZdXvMW1HO4zYqyZcRN9IW%2FgN0ADj5oqFCwegk7vPR6ShfOoixZ%0AGp%2BT%2Fd19LcJhap1enuY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1786097700&signature=03e38ec76583def14eeefe8a47eb4106ae064419aa5ebdd8318c4895b8543c8b&req=dSgjFcp8nYZdXvMW1HO4zYqyZcRN9YWwgN0ADj5oqFCCtgfCi018TAFDvjqM%0Ajuevsa3nceTz4GC4bE0%3D%0A)
 
  
 
@@ -70,7 +70,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1786087800&signature=4cbe1aea14a06df9e9b388d1276e70251674a2138d40b2add843d547ba8c53cf&req=dSgjEct8n4lYXPMW1HO4zeoCY8Arq3N3JCxYSFHKWIhZwe5rHb%2BE16u%2F5uO5%0ANDZma73Tdr9%2BMVcsSXs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1786097700&signature=798a4e1f1752b5b3165b904eace8b29459a0f16b520d45a86d5c3f3db6a3b921&req=dSgjEct8n4lYXPMW1HO4zeoCY8ArqnN4JCxYSFHKWIil6%2FBNxOqf0dTqB8Y3%0AETUt9%2F8Wyq08d36MZbs%3D%0A)
 
  
 

@@ -8,7 +8,7 @@ Once you are logged in, click your initials or name in the lower left corner and
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1786087800&signature=4ee7701da3a7cc1124e89bf1b2fe93aafc1b8ddc9156fff635df50a7cfdcf20d&req=diIgEst4moRcXfMW1HO4zeqzlXoOLob0oVDupr7i4TETXHnEJdICMVm%2F14Jn%0AWCV29QqtOzh0hYxZOwA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1786098600&signature=e020fe586ef4fa7ac545a6f2f5f6cfa604d2434a98828c707bb0289089034d79&req=diIgEst4moRcXfMW1HO4zeqzlXoOL4n6oVDupr7i4TEZC0M%2BDRthnh1g1CvA%0ArPb7Ps2k5XxcfQAv7Mg%3D%0A)
 
  
 
@@ -32,7 +32,7 @@ There are some scenarios where you will need to **[contact our team](https://sup
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1786087800&signature=3d2fd3ab75d524976bace9b5135e3267e5f5c58834cbe7ce69df233a539e8015&req=dSUvEs53m4leWPMW1HO4zXW0qxMLE41TVOsMorzl%2B%2FS%2F1DgzkrntZ9BvwyMp%0A2X5muhq4NiOM0YGllg4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1786098600&signature=c58f07a570fbcff614d9ebe34e14bf0f9a94a2c78fdff245b99c8fe96235c30a&req=dSUvEs53m4leWPMW1HO4zXW0qxMLEoJdVOsMorzl%2B%2FR1Vem8WLTebkUWD1kR%0AhuWRSRbg7MUEJKKq36U%3D%0A)
 
 
 ---
