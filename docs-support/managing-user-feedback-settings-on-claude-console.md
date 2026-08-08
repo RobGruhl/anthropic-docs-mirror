@@ -13,7 +13,7 @@ To manage feedback for your Console organization:
 1. Navigate to [Settings > Privacy controls](https://platform.claude.com/settings/privacy).
 2. Toggle the feedback switch on or off.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1729186182/ebf4032a12a8c56959ca927726ce/Screenshot+2025-09-16+at+12_32_31%E2%80%AFPM.png?expires=1786172400&signature=f6ff5d23b32ee079eb5e9a9f742cd43229701b44033f01d4f2aac109c72eceb8&req=dSclH8h2m4BXW%2FMW1HO4zVpN5HEcXmpBJ%2FadMup7FQdvP%2BzvSa940IQIRBSd%0A%2FEERU%2FfgbHtSUqrAT6M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1729186182/ebf4032a12a8c56959ca927726ce/Screenshot+2025-09-16+at+12_32_31%E2%80%AFPM.png?expires=1786183200&signature=e674d407493183716b844f309a64a56f9596e9d4b45b428dd22c191c03f8ddf2&req=dSclH8h2m4BXW%2FMW1HO4zVpN5HEcUWtHJ%2FadMup7FQfG9r1iUfmo2NsI9H5T%0AaWDKR0hz488qE4BSTSc%3D%0A)
 
  
 
