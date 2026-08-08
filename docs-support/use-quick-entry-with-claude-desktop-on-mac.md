@@ -43,7 +43,7 @@ Once enabled, double-tapping Option will open a text box where you can type your
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1786214700&signature=95678f922081818ae9e59633e8447ad3f9d3562d1999ecaffb09d95d424752cb&req=dSguFcl2lYJZXPMW1HO4zWggD9hTp5idRC8c%2FcM5c2LD9lRkIwhguoCDOJUG%0AzcWeXqylix7OjchG3t8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1786226400&signature=f2c30e45bb75ac68b541c341427bb35fa3ebb7b13eeb8b0d239bb60affa1bcf9&req=dSguFcl2lYJZXPMW1HO4zWggD9hTpJqeRC8c%2FcM5c2IX1O0nUZETZYtmXr8w%0AfJBsOekI39MT8WvJuxA%3D%0A)
 
  
 

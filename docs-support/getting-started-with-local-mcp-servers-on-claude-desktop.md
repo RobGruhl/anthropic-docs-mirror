@@ -57,7 +57,7 @@ Custom desktop extensions uploads allow Team and Enterprise plans to leverage or
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1786215600&signature=937c658fde8547dc52fdcbb83eb3d89fc09ae73440d18b63ec3189daa9f9007f&req=dSYvF89%2BmodfXvMW1HO4zWbPxEZ9Njg0Hn9K2IaIG2IBYhmUr0ANpWjvtzwD%0A%2FhRry%2F%2F73vr8rsh1uqg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1681607607/ba6e379d2769d190f0970a0adaed/AD_4nXd4aZkqjJFpiXMPF28Pih7HmSJ9pPsnoWAfVgiLdFRFiTkO92YtXteIjvDHaPl7T0tjfpRTBOlyrMbQ_aciCNDgfIuEvV3szmKvt72x5O51DMSClXOYWk1JIRIzylwkj3joXqZcLw?expires=1786225500&signature=321400dfc6c705629b7e90ca45784828bbcfbd3c45bb48e23822bad220e4ab7e&req=dSYvF89%2BmodfXvMW1HO4zWbPxEZ9NTg3Hn9K2IaIG2KTO%2Fw8vMQ9laHcUEMY%0A6YmV%2F1touTlfCu2V7PE%3D%0A)
 
  
 

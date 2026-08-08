@@ -1,8 +1,15 @@
 # Claude Code Documentation Index
-*Last updated: 2026-08-08 18:26*
+*Last updated: 2026-08-08 21:23*
 Total documents: 185
 ---
-## Administration (5 documents)
+## Administration (8 documents)
+### Analytics
+**File:** `/code-claude-docs/analytics.md`  
+**Source:** https://code.claude.com/docs/en/analytics  
+**Updated:** 2026-07-21  
+**Categories:** administration, monitoring  
+**Keywords:** analytics  
+
 ### Claude Security
 **File:** `/code-claude-docs/claude-security.md`  
 **Source:** https://code.claude.com/docs/en/claude-security  
@@ -14,8 +21,8 @@ Total documents: 185
 **File:** `/code-claude-docs/agent-sdk__cost-tracking.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/cost-tracking  
 **Updated:** 2026-08-08  
-**Categories:** administration, agent-sdk, sdk, costs  
-**Keywords:** tracking, agent, cost  
+**Categories:** administration, costs, sdk, agent-sdk  
+**Keywords:** cost, agent, tracking  
 
 ### Costs
 **File:** `/code-claude-docs/costs.md`  
@@ -23,6 +30,20 @@ Total documents: 185
 **Updated:** 2026-08-08  
 **Categories:** administration, costs  
 **Keywords:** costs  
+
+### Data Usage
+**File:** `/code-claude-docs/data-usage.md`  
+**Source:** https://code.claude.com/docs/en/data-usage  
+**Updated:** 2026-08-07  
+**Categories:** administration, data-privacy, monitoring  
+**Keywords:** usage, data  
+
+### Monitoring Usage
+**File:** `/code-claude-docs/monitoring-usage.md`  
+**Source:** https://code.claude.com/docs/en/monitoring-usage  
+**Updated:** 2026-08-06  
+**Categories:** administration, monitoring  
+**Keywords:** usage, monitoring  
 
 ### Security
 **File:** `/code-claude-docs/security.md`  
@@ -36,9 +57,9 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/security-guidance  
 **Updated:** 2026-08-07  
 **Categories:** administration, security  
-**Keywords:** guidance, security  
+**Keywords:** security, guidance  
 
-## Checkpointing (2 documents)
+## Checkpointing (1 documents)
 ### Checkpointing
 **File:** `/code-claude-docs/checkpointing.md`  
 **Source:** https://code.claude.com/docs/en/checkpointing  
@@ -46,132 +67,125 @@ Total documents: 185
 **Categories:** checkpointing, features  
 **Keywords:** checkpointing  
 
-### File Checkpointing
-**File:** `/code-claude-docs/agent-sdk__file-checkpointing.md`  
-**Source:** https://code.claude.com/docs/en/agent-sdk/file-checkpointing  
-**Updated:** 2026-08-06  
-**Categories:** checkpointing, features, sdk, agent-sdk  
-**Keywords:** file, agent, checkpointing  
-
 ## Claude Code (75 documents)
 ### 2026 W13
 **File:** `/code-claude-docs/whats-new__2026-w13.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w13  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W14
 **File:** `/code-claude-docs/whats-new__2026-w14.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w14  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W15
 **File:** `/code-claude-docs/whats-new__2026-w15.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w15  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W16
 **File:** `/code-claude-docs/whats-new__2026-w16.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w16  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W17
 **File:** `/code-claude-docs/whats-new__2026-w17.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w17  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W18
 **File:** `/code-claude-docs/whats-new__2026-w18.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w18  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W19
 **File:** `/code-claude-docs/whats-new__2026-w19.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w19  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W20
 **File:** `/code-claude-docs/whats-new__2026-w20.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w20  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W21
 **File:** `/code-claude-docs/whats-new__2026-w21.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w21  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W22
 **File:** `/code-claude-docs/whats-new__2026-w22.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w22  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W23
 **File:** `/code-claude-docs/whats-new__2026-w23.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w23  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W24
 **File:** `/code-claude-docs/whats-new__2026-w24.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w24  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W25
 **File:** `/code-claude-docs/whats-new__2026-w25.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w25  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W26
 **File:** `/code-claude-docs/whats-new__2026-w26.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w26  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W27
 **File:** `/code-claude-docs/whats-new__2026-w27.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w27  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W28
 **File:** `/code-claude-docs/whats-new__2026-w28.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w28  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### 2026 W29
 **File:** `/code-claude-docs/whats-new__2026-w29.md`  
 **Source:** https://code.claude.com/docs/en/whats-new/2026-w29  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** whats, 2026  
+**Keywords:** 2026, whats  
 
 ### Accessibility
 **File:** `/code-claude-docs/accessibility.md`  
@@ -192,7 +206,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-teams  
 **Updated:** 2026-08-08  
 **Categories:** claude-code  
-**Keywords:** agent, teams  
+**Keywords:** teams, agent  
 
 ### Agent View
 **File:** `/code-claude-docs/agent-view.md`  
@@ -227,7 +241,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/best-practices  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** practices, best  
+**Keywords:** best, practices  
 
 ### Champion Kit
 **File:** `/code-claude-docs/champion-kit.md`  
@@ -276,7 +290,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/cloud-environments  
 **Updated:** 2026-08-08  
 **Categories:** claude-code  
-**Keywords:** environments, cloud  
+**Keywords:** cloud, environments  
 
 ### Code Review
 **File:** `/code-claude-docs/code-review.md`  
@@ -304,7 +318,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/context-window  
 **Updated:** 2026-08-05  
 **Categories:** claude-code  
-**Keywords:** window, context  
+**Keywords:** context, window  
 
 ### Corporate Launcher
 **File:** `/code-claude-docs/corporate-launcher.md`  
@@ -318,14 +332,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/cross-session-messaging  
 **Updated:** 2026-08-08  
 **Categories:** claude-code  
-**Keywords:** messaging, cross, session  
+**Keywords:** cross, messaging, session  
 
 ### Deep Links
 **File:** `/code-claude-docs/deep-links.md`  
 **Source:** https://code.claude.com/docs/en/deep-links  
 **Updated:** 2026-08-08  
 **Categories:** claude-code  
-**Keywords:** links, deep  
+**Keywords:** deep, links  
 
 ### Desktop
 **File:** `/code-claude-docs/desktop.md`  
@@ -339,21 +353,21 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/desktop-ios-simulator  
 **Updated:** 2026-08-04  
 **Categories:** claude-code  
-**Keywords:** simulator, desktop  
+**Keywords:** desktop, simulator  
 
 ### Desktop Linux
 **File:** `/code-claude-docs/desktop-linux.md`  
 **Source:** https://code.claude.com/docs/en/desktop-linux  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** linux, desktop  
+**Keywords:** desktop, linux  
 
 ### Desktop Scheduled Tasks
 **File:** `/code-claude-docs/desktop-scheduled-tasks.md`  
 **Source:** https://code.claude.com/docs/en/desktop-scheduled-tasks  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** tasks, desktop, scheduled  
+**Keywords:** desktop, scheduled, tasks  
 
 ### Desktop Wsl
 **File:** `/code-claude-docs/desktop-wsl.md`  
@@ -381,7 +395,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/fast-mode  
 **Updated:** 2026-08-04  
 **Categories:** claude-code  
-**Keywords:** mode, fast  
+**Keywords:** fast, mode  
 
 ### Feature Availability
 **File:** `/code-claude-docs/feature-availability.md`  
@@ -402,7 +416,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/github-enterprise-server  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** github, enterprise, server  
+**Keywords:** github, server, enterprise  
 
 ### Glossary
 **File:** `/code-claude-docs/glossary.md`  
@@ -423,7 +437,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/how-claude-code-works  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** works, code, claude  
+**Keywords:** code, works, claude  
 
 ### Keybindings
 **File:** `/code-claude-docs/keybindings.md`  
@@ -451,7 +465,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/permission-modes  
 **Updated:** 2026-08-08  
 **Categories:** claude-code  
-**Keywords:** modes, permission  
+**Keywords:** permission, modes  
 
 ### Permissions
 **File:** `/code-claude-docs/permissions.md`  
@@ -479,14 +493,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/prompt-library  
 **Updated:** 2026-07-29  
 **Categories:** claude-code  
-**Keywords:** prompt, library  
+**Keywords:** library, prompt  
 
 ### Remote Control
 **File:** `/code-claude-docs/remote-control.md`  
 **Source:** https://code.claude.com/docs/en/remote-control  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** remote, control  
+**Keywords:** control, remote  
 
 ### Routines
 **File:** `/code-claude-docs/routines.md`  
@@ -521,14 +535,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/self-hosted-environments-identity  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** hosted, identity, self, environments  
+**Keywords:** hosted, self, environments, identity  
 
 ### Self Hosted Environments Testing
 **File:** `/code-claude-docs/self-hosted-environments-testing.md`  
 **Source:** https://code.claude.com/docs/en/self-hosted-environments-testing  
 **Updated:** 2026-08-07  
 **Categories:** claude-code  
-**Keywords:** hosted, self, testing, environments  
+**Keywords:** hosted, self, environments, testing  
 
 ### Sessions
 **File:** `/code-claude-docs/sessions.md`  
@@ -577,7 +591,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/zero-data-retention  
 **Updated:** 2026-07-21  
 **Categories:** claude-code  
-**Keywords:** retention, data, zero  
+**Keywords:** retention, zero, data  
 
 ## Cloud Platforms (6 documents)
 ### Amazon Bedrock
@@ -585,20 +599,20 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/amazon-bedrock  
 **Updated:** 2026-08-07  
 **Categories:** cloud-platforms, amazon-bedrock  
-**Keywords:** amazon, bedrock  
+**Keywords:** bedrock, amazon  
 
 ### Claude Apps Gateway On Aws
 **File:** `/code-claude-docs/claude-apps-gateway-on-aws.md`  
 **Source:** https://code.claude.com/docs/en/claude-apps-gateway-on-aws  
 **Updated:** 2026-08-07  
-**Categories:** cloud-platforms, amazon-bedrock, deployment, integrations  
+**Categories:** cloud-platforms, amazon-bedrock, integrations, deployment  
 **Keywords:** gateway, apps, claude  
 
 ### Claude Apps Gateway On Gcp
 **File:** `/code-claude-docs/claude-apps-gateway-on-gcp.md`  
 **Source:** https://code.claude.com/docs/en/claude-apps-gateway-on-gcp  
 **Updated:** 2026-08-07  
-**Categories:** cloud-platforms, deployment, integrations, google-vertex-ai  
+**Categories:** cloud-platforms, integrations, deployment, google-vertex-ai  
 **Keywords:** gateway, apps, claude  
 
 ### Claude Platform On Aws
@@ -613,14 +627,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/google-vertex-ai  
 **Updated:** 2026-08-06  
 **Categories:** cloud-platforms, google-vertex-ai  
-**Keywords:** vertex, google  
+**Keywords:** google, vertex  
 
 ### Microsoft Foundry
 **File:** `/code-claude-docs/microsoft-foundry.md`  
 **Source:** https://code.claude.com/docs/en/microsoft-foundry  
 **Updated:** 2026-08-04  
 **Categories:** cloud-platforms, microsoft-foundry  
-**Keywords:** microsoft, foundry  
+**Keywords:** foundry, microsoft  
 
 ## Configuration (11 documents)
 ### Auto Mode Config
@@ -628,21 +642,28 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/auto-mode-config  
 **Updated:** 2026-08-08  
 **Categories:** configuration  
-**Keywords:** mode, auto, config  
+**Keywords:** config, auto, mode  
 
 ### Claude Apps Gateway Config
 **File:** `/code-claude-docs/claude-apps-gateway-config.md`  
 **Source:** https://code.claude.com/docs/en/claude-apps-gateway-config  
 **Updated:** 2026-08-08  
-**Categories:** configuration, deployment, integrations  
-**Keywords:** config, gateway, apps, claude  
+**Categories:** configuration, integrations, deployment  
+**Keywords:** gateway, config, apps, claude  
 
 ### Debug Your Config
 **File:** `/code-claude-docs/debug-your-config.md`  
 **Source:** https://code.claude.com/docs/en/debug-your-config  
 **Updated:** 2026-08-07  
 **Categories:** configuration  
-**Keywords:** debug, config  
+**Keywords:** config, debug  
+
+### Model Config
+**File:** `/code-claude-docs/model-config.md`  
+**Source:** https://code.claude.com/docs/en/model-config  
+**Updated:** 2026-08-08  
+**Categories:** configuration, model-config  
+**Keywords:** config, model  
 
 ### Network Config
 **File:** `/code-claude-docs/network-config.md`  
@@ -650,13 +671,6 @@ Total documents: 185
 **Updated:** 2026-08-07  
 **Categories:** configuration, networking  
 **Keywords:** config, network  
-
-### Output Styles
-**File:** `/code-claude-docs/output-styles.md`  
-**Source:** https://code.claude.com/docs/en/output-styles  
-**Updated:** 2026-08-04  
-**Categories:** configuration, output-styles  
-**Keywords:** output, styles  
 
 ### Sandbox Environments
 **File:** `/code-claude-docs/sandbox-environments.md`  
@@ -677,14 +691,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/self-hosted-environments-configuration  
 **Updated:** 2026-08-07  
 **Categories:** configuration  
-**Keywords:** hosted, configuration, self, environments  
+**Keywords:** hosted, self, configuration, environments  
 
 ### Server Managed Settings
 **File:** `/code-claude-docs/server-managed-settings.md`  
 **Source:** https://code.claude.com/docs/en/server-managed-settings  
 **Updated:** 2026-08-07  
 **Categories:** configuration  
-**Keywords:** settings, managed, server  
+**Keywords:** server, settings, managed  
 
 ### Settings
 **File:** `/code-claude-docs/settings.md`  
@@ -708,35 +722,13 @@ Total documents: 185
 **Categories:** devcontainer  
 **Keywords:** devcontainer  
 
-## Features (1 documents)
-### Interactive Mode
-**File:** `/code-claude-docs/interactive-mode.md`  
-**Source:** https://code.claude.com/docs/en/interactive-mode  
-**Updated:** 2026-08-08  
-**Categories:** features, interactive-mode  
-**Keywords:** interactive, mode  
-
-## Getting Started (6 documents)
+## Getting Started (4 documents)
 ### Desktop Quickstart
 **File:** `/code-claude-docs/desktop-quickstart.md`  
 **Source:** https://code.claude.com/docs/en/desktop-quickstart  
 **Updated:** 2026-08-07  
 **Categories:** getting-started  
-**Keywords:** quickstart, desktop  
-
-### Mcp Quickstart
-**File:** `/code-claude-docs/mcp-quickstart.md`  
-**Source:** https://code.claude.com/docs/en/mcp-quickstart  
-**Updated:** 2026-08-08  
-**Categories:** getting-started, mcp  
-**Keywords:** quickstart  
-
-### Quickstart
-**File:** `/code-claude-docs/agent-sdk__quickstart.md`  
-**Source:** https://code.claude.com/docs/en/agent-sdk/quickstart  
-**Updated:** 2026-08-04  
-**Categories:** getting-started, sdk, agent-sdk  
-**Keywords:** quickstart, agent  
+**Keywords:** desktop, quickstart  
 
 ### Quickstart
 **File:** `/code-claude-docs/quickstart.md`  
@@ -750,7 +742,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/self-hosted-environments-quickstart  
 **Updated:** 2026-08-07  
 **Categories:** getting-started  
-**Keywords:** quickstart, hosted, self, environments  
+**Keywords:** hosted, self, quickstart, environments  
 
 ### Web Quickstart
 **File:** `/code-claude-docs/web-quickstart.md`  
@@ -765,14 +757,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/github-actions  
 **Updated:** 2026-08-06  
 **Categories:** github-actions, ci-cd  
-**Keywords:** actions, github  
+**Keywords:** github, actions  
 
 ### Github Actions Cloud Providers
 **File:** `/code-claude-docs/github-actions-cloud-providers.md`  
 **Source:** https://code.claude.com/docs/en/github-actions-cloud-providers  
 **Updated:** 2026-08-06  
 **Categories:** github-actions, ci-cd  
-**Keywords:** actions, github, providers, cloud  
+**Keywords:** github, actions, providers, cloud  
 
 ## Gitlab (1 documents)
 ### Gitlab Ci Cd
@@ -790,14 +782,7 @@ Total documents: 185
 **Categories:** headless, ci-cd  
 **Keywords:** headless  
 
-## Hooks (3 documents)
-### Hooks
-**File:** `/code-claude-docs/agent-sdk__hooks.md`  
-**Source:** https://code.claude.com/docs/en/agent-sdk/hooks  
-**Updated:** 2026-08-06  
-**Categories:** hooks, sdk, agent-sdk  
-**Keywords:** agent, hooks  
-
+## Hooks (2 documents)
 ### Hooks
 **File:** `/code-claude-docs/hooks.md`  
 **Source:** https://code.claude.com/docs/en/hooks  
@@ -825,14 +810,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/claude-apps-gateway-deploy  
 **Updated:** 2026-08-08  
 **Categories:** integrations, deployment  
-**Keywords:** deploy, gateway, apps, claude  
+**Keywords:** gateway, deploy, apps, claude  
 
 ### Claude Apps Gateway Spend Limits
 **File:** `/code-claude-docs/claude-apps-gateway-spend-limits.md`  
 **Source:** https://code.claude.com/docs/en/claude-apps-gateway-spend-limits  
 **Updated:** 2026-08-07  
 **Categories:** integrations, deployment  
-**Keywords:** apps, limits, spend, gateway, claude  
+**Keywords:** gateway, apps, limits, claude, spend  
 
 ### Gateways
 **File:** `/code-claude-docs/gateways.md`  
@@ -853,28 +838,36 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/llm-gateway-connect  
 **Updated:** 2026-08-07  
 **Categories:** integrations, deployment  
-**Keywords:** gateway, connect  
+**Keywords:** connect, gateway  
 
 ### Llm Gateway Protocol
 **File:** `/code-claude-docs/llm-gateway-protocol.md`  
 **Source:** https://code.claude.com/docs/en/llm-gateway-protocol  
 **Updated:** 2026-08-07  
 **Categories:** integrations, deployment  
-**Keywords:** gateway, protocol  
+**Keywords:** protocol, gateway  
 
 ### Llm Gateway Rollout
 **File:** `/code-claude-docs/llm-gateway-rollout.md`  
 **Source:** https://code.claude.com/docs/en/llm-gateway-rollout  
 **Updated:** 2026-08-07  
 **Categories:** integrations, deployment  
-**Keywords:** gateway, rollout  
+**Keywords:** rollout, gateway  
 
 ### Third Party Integrations
 **File:** `/code-claude-docs/third-party-integrations.md`  
 **Source:** https://code.claude.com/docs/en/third-party-integrations  
 **Updated:** 2026-08-07  
 **Categories:** integrations, deployment  
-**Keywords:** integrations, party, third  
+**Keywords:** integrations, third, party  
+
+## Interactive Mode (1 documents)
+### Interactive Mode
+**File:** `/code-claude-docs/interactive-mode.md`  
+**Source:** https://code.claude.com/docs/en/interactive-mode  
+**Updated:** 2026-08-08  
+**Categories:** interactive-mode, features  
+**Keywords:** interactive, mode  
 
 ## Jetbrains (1 documents)
 ### Jetbrains
@@ -892,7 +885,7 @@ Total documents: 185
 **Categories:** legal  
 **Keywords:** legal, compliance  
 
-## Mcp (2 documents)
+## Mcp (3 documents)
 ### Managed Mcp
 **File:** `/code-claude-docs/managed-mcp.md`  
 **Source:** https://code.claude.com/docs/en/managed-mcp  
@@ -906,6 +899,13 @@ Total documents: 185
 **Updated:** 2026-08-08  
 **Categories:** mcp  
 
+### Mcp Quickstart
+**File:** `/code-claude-docs/mcp-quickstart.md`  
+**Source:** https://code.claude.com/docs/en/mcp-quickstart  
+**Updated:** 2026-08-08  
+**Categories:** mcp, getting-started  
+**Keywords:** quickstart  
+
 ## Memory (1 documents)
 ### Memory
 **File:** `/code-claude-docs/memory.md`  
@@ -914,50 +914,21 @@ Total documents: 185
 **Categories:** memory, features  
 **Keywords:** memory  
 
-## Model Config (1 documents)
-### Model Config
-**File:** `/code-claude-docs/model-config.md`  
-**Source:** https://code.claude.com/docs/en/model-config  
-**Updated:** 2026-08-08  
-**Categories:** model-config, configuration  
-**Keywords:** config, model  
+## Output Styles (1 documents)
+### Output Styles
+**File:** `/code-claude-docs/output-styles.md`  
+**Source:** https://code.claude.com/docs/en/output-styles  
+**Updated:** 2026-08-04  
+**Categories:** output-styles, configuration  
+**Keywords:** styles, output  
 
-## Monitoring (3 documents)
-### Analytics
-**File:** `/code-claude-docs/analytics.md`  
-**Source:** https://code.claude.com/docs/en/analytics  
-**Updated:** 2026-07-21  
-**Categories:** monitoring, administration  
-**Keywords:** analytics  
-
-### Data Usage
-**File:** `/code-claude-docs/data-usage.md`  
-**Source:** https://code.claude.com/docs/en/data-usage  
-**Updated:** 2026-08-07  
-**Categories:** monitoring, administration, data-privacy  
-**Keywords:** usage, data  
-
-### Monitoring Usage
-**File:** `/code-claude-docs/monitoring-usage.md`  
-**Source:** https://code.claude.com/docs/en/monitoring-usage  
-**Updated:** 2026-08-06  
-**Categories:** monitoring, administration  
-**Keywords:** monitoring, usage  
-
-## Overview (3 documents)
+## Overview (2 documents)
 ### Features Overview
 **File:** `/code-claude-docs/features-overview.md`  
 **Source:** https://code.claude.com/docs/en/features-overview  
 **Updated:** 2026-08-07  
 **Categories:** overview  
 **Keywords:** overview, features  
-
-### Overview
-**File:** `/code-claude-docs/agent-sdk__overview.md`  
-**Source:** https://code.claude.com/docs/en/agent-sdk/overview  
-**Updated:** 2026-07-29  
-**Categories:** overview, sdk, agent-sdk  
-**Keywords:** overview, agent  
 
 ### Overview
 **File:** `/code-claude-docs/overview.md`  
@@ -979,14 +950,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/plugin-dependencies  
 **Updated:** 2026-08-07  
 **Categories:** plugins  
-**Keywords:** dependencies, plugin  
+**Keywords:** plugin, dependencies  
 
 ### Plugin Hints
 **File:** `/code-claude-docs/plugin-hints.md`  
 **Source:** https://code.claude.com/docs/en/plugin-hints  
 **Updated:** 2026-08-07  
 **Categories:** plugins  
-**Keywords:** hints, plugin  
+**Keywords:** plugin, hints  
 
 ### Plugin Marketplaces
 **File:** `/code-claude-docs/plugin-marketplaces.md`  
@@ -1000,7 +971,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/plugin-relevance  
 **Updated:** 2026-08-07  
 **Categories:** plugins  
-**Keywords:** relevance, plugin  
+**Keywords:** plugin, relevance  
 
 ### Plugins
 **File:** `/code-claude-docs/agent-sdk__plugins.md`  
@@ -1022,7 +993,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/channels-reference  
 **Updated:** 2026-08-08  
 **Categories:** reference  
-**Keywords:** channels, reference  
+**Keywords:** reference, channels  
 
 ### Cli Reference
 **File:** `/code-claude-docs/cli-reference.md`  
@@ -1043,36 +1014,36 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/self-hosted-environments-reference  
 **Updated:** 2026-08-07  
 **Categories:** reference  
-**Keywords:** reference, hosted, self, environments  
+**Keywords:** hosted, self, reference, environments  
 
 ### Tools Reference
 **File:** `/code-claude-docs/tools-reference.md`  
 **Source:** https://code.claude.com/docs/en/tools-reference  
 **Updated:** 2026-08-07  
 **Categories:** reference  
-**Keywords:** tools, reference  
+**Keywords:** reference, tools  
 
-## Sdk (23 documents)
+## Sdk (28 documents)
 ### Agent Loop
 **File:** `/code-claude-docs/agent-sdk__agent-loop.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/agent-loop  
 **Updated:** 2026-08-07  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, loop  
+**Keywords:** loop, agent  
 
 ### Claude Code Features
 **File:** `/code-claude-docs/agent-sdk__claude-code-features.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/claude-code-features  
 **Updated:** 2026-07-21  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, code, features, claude  
+**Keywords:** code, features, agent, claude  
 
 ### Custom Tools
 **File:** `/code-claude-docs/agent-sdk__custom-tools.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/custom-tools  
 **Updated:** 2026-08-02  
 **Categories:** sdk, agent-sdk  
-**Keywords:** tools, agent, custom  
+**Keywords:** custom, agent, tools  
 
 ### Examples
 **File:** `/code-claude-docs/agent-sdk__examples.md`  
@@ -1080,6 +1051,20 @@ Total documents: 185
 **Updated:** 2026-08-08  
 **Categories:** sdk, agent-sdk  
 **Keywords:** examples, agent  
+
+### File Checkpointing
+**File:** `/code-claude-docs/agent-sdk__file-checkpointing.md`  
+**Source:** https://code.claude.com/docs/en/agent-sdk/file-checkpointing  
+**Updated:** 2026-08-06  
+**Categories:** sdk, checkpointing, agent-sdk, features  
+**Keywords:** file, checkpointing, agent  
+
+### Hooks
+**File:** `/code-claude-docs/agent-sdk__hooks.md`  
+**Source:** https://code.claude.com/docs/en/agent-sdk/hooks  
+**Updated:** 2026-08-06  
+**Categories:** sdk, agent-sdk, hooks  
+**Keywords:** agent, hooks  
 
 ### Hosting
 **File:** `/code-claude-docs/agent-sdk__hosting.md`  
@@ -1100,28 +1085,35 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/migration-guide  
 **Updated:** 2026-08-02  
 **Categories:** sdk, agent-sdk  
-**Keywords:** migration, agent, guide  
+**Keywords:** migration, guide, agent  
 
 ### Modifying System Prompts
 **File:** `/code-claude-docs/agent-sdk__modifying-system-prompts.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts  
 **Updated:** 2026-07-28  
 **Categories:** sdk, agent-sdk  
-**Keywords:** modifying, agent, prompts, system  
+**Keywords:** system, modifying, agent, prompts  
 
 ### Observability
 **File:** `/code-claude-docs/agent-sdk__observability.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/observability  
 **Updated:** 2026-08-04  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, observability  
+**Keywords:** observability, agent  
+
+### Overview
+**File:** `/code-claude-docs/agent-sdk__overview.md`  
+**Source:** https://code.claude.com/docs/en/agent-sdk/overview  
+**Updated:** 2026-07-29  
+**Categories:** sdk, overview, agent-sdk  
+**Keywords:** overview, agent  
 
 ### Permissions
 **File:** `/code-claude-docs/agent-sdk__permissions.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/permissions  
 **Updated:** 2026-08-07  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, permissions  
+**Keywords:** permissions, agent  
 
 ### Python
 **File:** `/code-claude-docs/agent-sdk__python.md`  
@@ -1130,12 +1122,19 @@ Total documents: 185
 **Categories:** sdk, agent-sdk  
 **Keywords:** agent, python  
 
+### Quickstart
+**File:** `/code-claude-docs/agent-sdk__quickstart.md`  
+**Source:** https://code.claude.com/docs/en/agent-sdk/quickstart  
+**Updated:** 2026-08-04  
+**Categories:** sdk, getting-started, agent-sdk  
+**Keywords:** quickstart, agent  
+
 ### Secure Deployment
 **File:** `/code-claude-docs/agent-sdk__secure-deployment.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/secure-deployment  
 **Updated:** 2026-07-29  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, secure, deployment  
+**Keywords:** secure, deployment, agent  
 
 ### Session Storage
 **File:** `/code-claude-docs/agent-sdk__session-storage.md`  
@@ -1149,13 +1148,13 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/sessions  
 **Updated:** 2026-08-08  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, sessions  
+**Keywords:** sessions, agent  
 
 ### Skills
 **File:** `/code-claude-docs/agent-sdk__skills.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/skills  
 **Updated:** 2026-08-06  
-**Categories:** sdk, skills, agent-sdk  
+**Categories:** sdk, agent-sdk, skills  
 **Keywords:** agent, skills  
 
 ### Streaming Output
@@ -1177,7 +1176,14 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/structured-outputs  
 **Updated:** 2026-07-29  
 **Categories:** sdk, agent-sdk  
-**Keywords:** outputs, agent, structured  
+**Keywords:** structured, outputs, agent  
+
+### Subagents
+**File:** `/code-claude-docs/agent-sdk__subagents.md`  
+**Source:** https://code.claude.com/docs/en/agent-sdk/subagents  
+**Updated:** 2026-08-06  
+**Categories:** sdk, agent-sdk, sub-agents  
+**Keywords:** subagents, agent  
 
 ### Todo Tracking
 **File:** `/code-claude-docs/agent-sdk__todo-tracking.md`  
@@ -1191,7 +1197,7 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/tool-search  
 **Updated:** 2026-08-05  
 **Categories:** sdk, agent-sdk  
-**Keywords:** agent, tool, search  
+**Keywords:** tool, search, agent  
 
 ### Typescript
 **File:** `/code-claude-docs/agent-sdk__typescript.md`  
@@ -1212,15 +1218,15 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/user-input  
 **Updated:** 2026-08-04  
 **Categories:** sdk, agent-sdk  
-**Keywords:** user, agent, input  
+**Keywords:** input, user, agent  
 
-## Setup (3 documents)
+## Setup (2 documents)
 ### Admin Setup
 **File:** `/code-claude-docs/admin-setup.md`  
 **Source:** https://code.claude.com/docs/en/admin-setup  
 **Updated:** 2026-08-06  
 **Categories:** setup  
-**Keywords:** admin, setup  
+**Keywords:** setup, admin  
 
 ### Setup
 **File:** `/code-claude-docs/setup.md`  
@@ -1228,13 +1234,6 @@ Total documents: 185
 **Updated:** 2026-07-29  
 **Categories:** setup  
 **Keywords:** setup  
-
-### Troubleshoot Install
-**File:** `/code-claude-docs/troubleshoot-install.md`  
-**Source:** https://code.claude.com/docs/en/troubleshoot-install  
-**Updated:** 2026-08-07  
-**Categories:** setup, troubleshooting  
-**Keywords:** troubleshoot, install  
 
 ## Skills (1 documents)
 ### Skills
@@ -1257,22 +1256,15 @@ Total documents: 185
 **Source:** https://code.claude.com/docs/en/agent-sdk/slash-commands  
 **Updated:** 2026-08-06  
 **Categories:** slash-commands, sdk, agent-sdk  
-**Keywords:** agent, slash, commands  
+**Keywords:** slash, agent, commands  
 
-## Sub Agents (2 documents)
+## Sub Agents (1 documents)
 ### Sub Agents
 **File:** `/code-claude-docs/sub-agents.md`  
 **Source:** https://code.claude.com/docs/en/sub-agents  
 **Updated:** 2026-08-08  
 **Categories:** sub-agents  
 **Keywords:** agents  
-
-### Subagents
-**File:** `/code-claude-docs/agent-sdk__subagents.md`  
-**Source:** https://code.claude.com/docs/en/agent-sdk/subagents  
-**Updated:** 2026-08-06  
-**Categories:** sub-agents, sdk, agent-sdk  
-**Keywords:** agent, subagents  
 
 ## Terminal (1 documents)
 ### Terminal Config
@@ -1282,13 +1274,20 @@ Total documents: 185
 **Categories:** terminal, configuration  
 **Keywords:** terminal, config  
 
-## Troubleshooting (2 documents)
+## Troubleshooting (3 documents)
+### Troubleshoot Install
+**File:** `/code-claude-docs/troubleshoot-install.md`  
+**Source:** https://code.claude.com/docs/en/troubleshoot-install  
+**Updated:** 2026-08-07  
+**Categories:** troubleshooting, setup  
+**Keywords:** troubleshoot, install  
+
 ### Troubleshooting
 **File:** `/code-claude-docs/agent-sdk__troubleshooting.md`  
 **Source:** https://code.claude.com/docs/en/agent-sdk/troubleshooting  
 **Updated:** 2026-08-04  
-**Categories:** troubleshooting, sdk, agent-sdk  
-**Keywords:** agent, troubleshooting  
+**Categories:** troubleshooting, agent-sdk, sdk  
+**Keywords:** troubleshooting, agent  
 
 ### Troubleshooting
 **File:** `/code-claude-docs/troubleshooting.md`  
