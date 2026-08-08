@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786194000&signature=db968ae7300c28fab87d54a8e656f20f72126f7df53fde8b40d0d1129bd21e2e&req=diAjFMp7n4FZWfMW1HO4zU6VRfvLQbhpxNdRzYWrfF6DMP48X%2FTiOj0Cf%2BCR%0A2oe%2F3IP2rL6NWfTaLtg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786203900&signature=cf4eedecad62f6158fe8beea04f7294b99b964667e86c45fccd293e6f790eb8b&req=diAjFMp7n4FZWfMW1HO4zU6VRfvISL9gxNdRzYWrfF73eewyxVt8kvSwiKTC%0AqLvNIVfKWR9ma1O2x1A%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786194000&signature=17a73b2801df39da02b81266c87bc3c7b83079d03c3af37b4e8ee6ca46ca0dc4&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyUaVQKy8OQfYsvK3y6eOBn%2BMMDrbT9ruxd%0Aem2eOqQCiWnw3JP%2FdrA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786203900&signature=3132c16702e89ff81feb58a958b8237b9e83366fc6285e61aadecf5e70266b64&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyXYFMDy8OQfYsvK3yyt5nce1Q31g%2BXjcSn%0AVBnWAT5HcKBtohX5WbM%3D%0A)
 
  
 
