@@ -10,7 +10,7 @@
 
 Select your product based on both your technical/functional requirements, and also your compliance/security/deployment environment requirements. Here is a list of options:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1786140000&signature=98ff9a59f771818486bbf5faad73c515654d30d6a047590a993c106f98f15657&req=diEuEc5%2FmoBZWPMW1HO4zU94Ll8kGd0w2WxtU42UVC23vxs4fJmqDlhtYB0K%0AqMZqNKxHKGW9lGK1bpM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2197717161/79965a24090029e9e58c727c3c24/pubsec-product-matrix_png+%281%29.jpg?expires=1786152600&signature=aec6b2596682d0be4bd6d9cad842812022b2b1adb4d7b14d83572de9be6e8bf7&req=diEuEc5%2FmoBZWPMW1HO4zU94Ll8kGN822WxtU42UVC1P2g56yy35t4XmKAu%2F%0AcBXLhc%2ByT%2FE30PZsuL4%3D%0A)
 
  
 
@@ -202,7 +202,7 @@ Learn more here: **[Offering expanded Claude access across all three branches of
 ## Related Articles
 
 - [What is Amazon Bedrock?](https://support.claude.com/en/articles/7996918-what-is-amazon-bedrock)
+- [I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?](https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
-- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)
 - [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)
 - [Model availability in Claude for Government](https://support.claude.com/en/articles/14503794-model-availability-in-claude-for-government)

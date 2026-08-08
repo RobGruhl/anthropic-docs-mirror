@@ -1,5 +1,5 @@
 # Anthropic News & Announcements Index
-*Last updated: 2026-08-07 21:32*
+*Last updated: 2026-08-08 00:58*
 Total documents: 192
 ---
 ## Announcements (177 documents)

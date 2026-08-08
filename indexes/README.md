@@ -1,10 +1,10 @@
 # Claude Documentation Index
-*Last updated: 2026-08-07 21:32*
+*Last updated: 2026-08-08 00:58*
 
 ## Quick Stats
-- **Total Documents:** 1697
+- **Total Documents:** 1696
 - **Platform Docs:** 551
-- **Claude Code Docs:** 184
+- **Claude Code Docs:** 185
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
 - **Anthropic Research:** 102
@@ -12,14 +12,14 @@
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
 - **Claude.com Blog:** 206
-- **Support Articles:** 250
+- **Support Articles:** 248
 - **Topics:** 84
 
 ## Quick Navigation
 
 ### By Content Type
 - [Platform Documentation](platform-docs.md) - 551 docs from platform.claude.com
-- [Claude Code Documentation](code-claude-docs.md) - 184 docs from code.claude.com
+- [Claude Code Documentation](code-claude-docs.md) - 185 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
 - [Anthropic Research](anthropic-research.md) - 102 research papers from anthropic.com/research
@@ -27,10 +27,10 @@
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
 - [Claude.com Blog](claude-blog.md) - 206 product/API posts from claude.com/blog
-- [Support Articles](support-articles.md) - 250 help articles from support.claude.com
+- [Support Articles](support-articles.md) - 248 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 309 documents
+- [Claude Code](topics/claude-code.md) - 310 documents
 - [Mcp](topics/mcp.md) - 236 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
@@ -48,8 +48,8 @@
 - [Api](topics/api.md) - 59 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
 - [Skills](topics/skills.md) - 47 documents
-- [Agent Sdk](topics/agent-sdk.md) - 35 documents
-- [Community](topics/community.md) - 32 documents
+- [Agent Sdk](topics/agent-sdk.md) - 36 documents
+- [Sdk](topics/sdk.md) - 32 documents
 - [View all 84 topics](topics/)
 
 ## How to Use This Index

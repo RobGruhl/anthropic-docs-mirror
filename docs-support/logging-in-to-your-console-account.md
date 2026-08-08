@@ -1,6 +1,6 @@
 # Log in to your Console account
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -8,7 +8,7 @@ When you navigate to the **[Claude Console](https://platform.claude.com)**, you 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1786147200&signature=8557f247367f8178eb4d03c33301c145b1154c86633265f0615b4ba99554845e&req=dSkkE8l8m4dbX%2FMW3nq%2Bgcz%2BjLKQQB4vjXqxKXGdglrUCy%2FABjqFlR3DcZHe%0AZitu6OHwPizS0NUivlR0g7VrgWM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1786152600&signature=3cb9b44080337d283bf756f3d275deaeb5254b3271cab0dbe3bf6c6238c27d5f&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54%2FtpYIL8vUNcPt4%2B73rLZjxz7LfrKTKWQ8%2F%0A9HGyOLxW45Ml6DiMDZU%3D%0A)
 
  
 

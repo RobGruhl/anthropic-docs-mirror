@@ -48,7 +48,7 @@ Type your prompt into the chat interface and click the submit button to start a 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1786140000&signature=4e32867758bcebc64757b36679f7d4c505ea548919f254157e412905ef172405&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7SnLsIeB9crMELaMZPz3a7pG1TJF3o8SXtSy%0AEFqZO897f3%2F%2FOoNT%2F2I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1786152600&signature=bfe2e6d764106b60c5a07895f25f8128880561cd736bd05e69752566c60c3316&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7SnLsYWH9crMELaMZPxq1kyUikn7YFhLzDPq%0AJQw5avZZDVBIl9B0JVU%3D%0A)
 
  
 
@@ -130,8 +130,8 @@ Once you've started using Claude, you can:
 
 ## Related Articles
 
+- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
 - [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design)
 - [Claude Fable 5 on your plan](https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan)

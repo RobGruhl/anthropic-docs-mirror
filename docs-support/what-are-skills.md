@@ -1,6 +1,6 @@
 # What are skills?
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -143,8 +143,8 @@ For more details about how skills work, see **[Agent Skills](https://platform.cl
 
 ## Related Articles
 
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 - [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 - [Anthropic Software Directory Policy](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy)
 - [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
-- [Use Claude for Microsoft 365 with third-party platforms](https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms)

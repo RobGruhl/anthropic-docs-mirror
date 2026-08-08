@@ -1,6 +1,6 @@
 # Can I use the Claude API for individual use?
 
-*Updated over 2 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -11,8 +11,8 @@ Yes, individuals and hobbyists are welcome to use the Claude API. However, pleas
 
 ## Related Articles
 
+- [How do I view and sign your Data Processing Addendum (DPA)?](https://support.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa)
 - [How can I access the Claude API?](https://support.claude.com/en/articles/8114521-how-can-i-access-the-claude-api)
 - [How will I be billed for Claude API use?](https://support.claude.com/en/articles/8114526-how-will-i-be-billed-for-claude-api-use)
 - [I created a Claude Console organization - how do I start using the Claude API?](https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
-- [Use Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word)

@@ -43,7 +43,7 @@ Once enabled, double-tapping Option will open a text box where you can type your
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1786140000&signature=586d6d525970c99143a30b4baf600f9cde7f88640ff0509ade396e76e60205ab&req=dSguFcl2lYJZXPMW1HO4zWggD9hQopyaRC8c%2FcM5c2J4I0krfXtNM2lp3wNP%0A9r4k87SZSSzH6oLnwRs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1786152600&signature=6376093a3a3858ad3733a41d5ea087402dffb18e0b0b6443a621685cc546815e&req=dSguFcl2lYJZXPMW1HO4zWggD9hQo56cRC8c%2FcM5c2LNwABrHfRNPd1IsKfx%0A1vb2u0uzBOdfmxCsgf4%3D%0A)
 
  
 
@@ -175,4 +175,4 @@ You can customize the quick access shortcut to use Option + Space or create a cu
 - [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
 - [Use Claude app intents, shortcuts, and widgets on iOS](https://support.claude.com/en/articles/10263469-use-claude-app-intents-shortcuts-and-widgets-on-ios)
 - [Use the Claude widget on Android](https://support.claude.com/en/articles/10534883-use-the-claude-widget-on-android)
-- [Use dictation in Office agents](https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents)
+- [Deploy Claude Desktop for macOS](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)

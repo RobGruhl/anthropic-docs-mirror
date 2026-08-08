@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-07 21:32*
+*Last updated: 2026-08-08 00:58*
 
-Documents related to Claude Code across all sources (309 documents)
+Documents related to Claude Code across all sources (310 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (309 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (184)
+## Claude Code Documentation (185)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -84,6 +84,7 @@ Documents related to Claude Code across all sources (309 documents)
 - [Discover Plugins](/code-claude-docs/discover-plugins.md)
 - [Env Vars](/code-claude-docs/env-vars.md)
 - [Errors](/code-claude-docs/errors.md)
+- [Examples](/code-claude-docs/agent-sdk__examples.md)
 - [Fast Mode](/code-claude-docs/fast-mode.md)
 - [Feature Availability](/code-claude-docs/feature-availability.md)
 - [Features Overview](/code-claude-docs/features-overview.md)
