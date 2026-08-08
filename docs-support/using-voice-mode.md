@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786163400&signature=82b4b9d112a72b5f06ad19e82808ac0086cb796b44221335ab4746fc50e7c719&req=diAjFMp7n4FZWfMW1HO4zU6VRfvLTr9txNdRzYWrfF4PPZDNZTkZfKH8Q%2FIs%0ATPl0OnegLIEU9fYf8pg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786172400&signature=e1a9a4fe3edc0af85f825cf0f24356134bf8a6c4e2d1c1fe213de539f2ec9499&req=diAjFMp7n4FZWfMW1HO4zU6VRfvLT75txNdRzYWrfF6Phc0j4xLRxTCCNnr1%0AfWjMTwG9osZStiJDmf8%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786163400&signature=fe3e729d29100aedfe59a1473b2aed752e3cb6bc696d114a0dd2056083c3047e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyUZlMOy8OQfYsvK3yoKLzeDXqqRn2PZStB%0AWduNSTQ9TCEu4yzhOFw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786172400&signature=4f8d015572aab9134d504c51037868fa095a1d370dbd8e90f60781ce524a2c62&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyUZ1IOy8OQfYsvK3yU808FkVo%2BXRrqRaWZ%0AxfcoqG3MFmNM0i8xJNY%3D%0A)
 
  
 
