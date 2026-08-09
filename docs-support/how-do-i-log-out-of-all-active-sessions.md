@@ -1,6 +1,6 @@
 # How do I log out of all active sessions?
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -38,7 +38,7 @@ If you used your Claude account to authenticate into Claude Code, you can manage
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1786225500&signature=849f81977e5c989d462273d76688161902b90cc7f27c456b470899e0b952d8f9&req=dSYnHst4nohdWvMW1HO4zVuHihr%2F1GK%2BAQofdwM8qVfPllT0wzWBi8jAMi06%0AJDLCTGEZv5Kvi2ujfrg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1608263923/b4fa7d6f6f08f2adffb4ea63bc58/image+%287%29.png?expires=1786239000&signature=a348ccde4c9e65bcc91c0b582b88dc141669837cce883067552ffed89e24a462&req=dSYnHst4nohdWvMW1HO4zVuHihr%2F1W67AQofdwM8qVdnox2%2FziaOMDk%2BT8Ph%0AJp5IJdnOAZZNX4RRe2I%3D%0A)
 
  
 
