@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786250700&signature=a61e7fd0262d050b55273dac276c9ce1ce291924ab541984d831753fcff755a7&req=diAjFMp7n4FZWfMW1HO4zU6VRfvITbxuxNdRzYWrfF7Gur0aAKAjzy3%2BylrU%0Akw4OCxYAJwXCGcmTy9k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786258800&signature=3ca8538753ca6a1ddb1880fe5375aeb0e65d235802f74f0d722f4be4b40091cd&req=diAjFMp7n4FZWfMW1HO4zU6VRfvITbRhxNdRzYWrfF4cHczwSdDBhQhPo0F4%0AGUZi%2FNnKMoami2AFWTg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786250700&signature=d27fe455c4f00ebfa87fccdec3b80dc08bb3693907a8880ff5442f0bfee00c4d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyXZVANy8OQfYsvK3z5qwsXaEuanGYa8vK9%0AHWyuJ4AwhRx2JZduxZY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786258800&signature=c4f07a9b80db91c0d944bc6c13300f61d71a6895264d8fc64c7ce142c7b9d116&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyXZVgCy8OQfYsvK3wov9R5M%2FJgj%2BzFmGzX%0Am4Rk0n0PnBvutEn8Qa8%3D%0A)
 
  
 
