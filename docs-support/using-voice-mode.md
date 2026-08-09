@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786280400&signature=26aa8ac397d087d7820ff9fdce6fcaea07963dd2e15aeb9f28eab48b5232f504&req=diAjFMp7n4FZWfMW1HO4zU6VRfvIQLxtxNdRzYWrfF68O%2Bc5Afu8vL0OIBgJ%0AN%2BZW2aNKGjtQzL2nVs0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786291200&signature=167cab3ec4e1d551de3733640b47b06052cdc4aac5fbc7e017ba523f8b25a624&req=diAjFMp7n4FZWfMW1HO4zU6VRfvIQb1rxNdRzYWrfF4aKJUKeH%2Fj9V4shEI%2B%0AhhwfeFKSpRVLuAMhnRY%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786280400&signature=654174a5f4270df0c9b843e23a403f63856f9898a0307041a048993680f00b2c&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyXaFAOy8OQfYsvK3wHWTN%2B38WP8XUqU81y%0A2kauBCDIKKKeg1Ls9fA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786291200&signature=141c431e1b4a3d2a2c2c981537394ac4b293909238c2d99493c1028199907a31&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyXaVEIy8OQfYsvK3wvGWfUO00ChsZjIicP%0Ad6GyIKZnb%2FMvqNPhLxQ%3D%0A)
 
  
 
