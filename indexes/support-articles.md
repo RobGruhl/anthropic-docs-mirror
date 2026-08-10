@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-08-10 18:45*
+*Last updated: 2026-08-10 21:36*
 Total documents: 248
 ---
 ## Uncategorized (248 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-10  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -111,7 +111,7 @@ Total documents: 248
 ### Can I have a Claude account and a Console account?
 **File:** `/docs-support/can-i-have-a-claude-account-and-a-console-account.md`  
 **Source:** https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-10  
 
 ### Can I use my Outputs to train an AI model?
 **File:** `/docs-support/can-i-use-my-outputs-to-train-an-ai-model.md`  
@@ -126,7 +126,7 @@ Total documents: 248
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-10  
 
 ### Cancel your Pro or Max subscription
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
@@ -273,6 +273,11 @@ Total documents: 248
 **Source:** https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings  
 **Updated:** 2026-08-10  
 
+### Delete or rename a conversation
+**File:** `/docs-support/how-can-i-delete-or-rename-a-conversation.md`  
+**Source:** https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation  
+**Updated:** 2026-08-10  
+
 ### Deploy Claude Desktop for Windows
 **File:** `/docs-support/deploy-claude-desktop-for-windows.md`  
 **Source:** https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows  
@@ -326,7 +331,7 @@ Total documents: 248
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
 **Source:** https://support.claude.com/en/articles/12622667-enterprise-configuration  
-**Updated:** 2026-08-09  
+**Updated:** 2026-08-10  
 
 ### Exceptions to our Usage Policy
 **File:** `/docs-support/exceptions-to-our-usage-policy.md`  
@@ -426,11 +431,6 @@ Total documents: 248
 ### How can I delete my Claude account?
 **File:** `/docs-support/how-can-i-delete-my-claude-account.md`  
 **Source:** https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account  
-**Updated:** 2026-08-10  
-
-### How can I delete or rename a conversation?
-**File:** `/docs-support/how-can-i-delete-or-rename-a-conversation.md`  
-**Source:** https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation  
 **Updated:** 2026-08-10  
 
 ### How can I get higher rate limits on the Claude API?
@@ -576,7 +576,7 @@ Total documents: 248
 ### I created a Claude Console organization - how do I start using the Claude API?
 **File:** `/docs-support/i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api.md`  
 **Source:** https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-10  
 
 ### I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?
 **File:** `/docs-support/i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console.md`  
@@ -601,7 +601,7 @@ Total documents: 248
 ### I'm getting an API connection error. How can I fix it?
 **File:** `/docs-support/i-m-getting-an-api-connection-error-how-can-i-fix-it.md`  
 **Source:** https://support.claude.com/en/articles/10366432-i-m-getting-an-api-connection-error-how-can-i-fix-it  
-**Updated:** 2026-08-09  
+**Updated:** 2026-08-10  
 
 ### Import and export your memory from Claude
 **File:** `/docs-support/importing-and-exporting-your-memory-from-claude.md`  
@@ -631,7 +631,7 @@ Total documents: 248
 ### Introduction to prompt design
 **File:** `/docs-support/introduction-to-prompt-design.md`  
 **Source:** https://support.claude.com/en/articles/7996853-introduction-to-prompt-design  
-**Updated:** 2026-08-08  
+**Updated:** 2026-08-10  
 
 ### Inviting members to the Claude Console
 **File:** `/docs-support/inviting-members-to-the-claude-console.md`  
@@ -766,7 +766,7 @@ Total documents: 248
 ### Our Approach to User Safety
 **File:** `/docs-support/our-approach-to-user-safety.md`  
 **Source:** https://support.claude.com/en/articles/8106465-our-approach-to-user-safety  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-10  
 
 ### Our approach to rate limits for the Claude API
 **File:** `/docs-support/our-approach-to-rate-limits-for-the-claude-api.md`  
@@ -916,7 +916,7 @@ Total documents: 248
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
 **Source:** https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features  
-**Updated:** 2026-08-09  
+**Updated:** 2026-08-10  
 
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
@@ -1046,7 +1046,7 @@ Total documents: 248
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/12512180-using-skills-in-claude  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-10  
 
 ### Use the Claude widget on Android
 **File:** `/docs-support/using-the-claude-widget-on-android.md`  
