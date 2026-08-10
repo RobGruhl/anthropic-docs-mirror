@@ -104,7 +104,7 @@ You can move a standalone chat into a project by clicking on the dropdown arrow 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1786358700&signature=4639ee0c183fe1114f2fb42dec335b433bf76611866bc4327932d9f21656093f&req=dScvEsh3nYNbUfMW1HO4zQABaWdvT6gSBSXNVFXQ%2FVERMJBsb%2BsLdIBhR2w4%0An%2FSuOXCSWshoSYW5%2F%2BE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1786367700&signature=26d2e0993594334076ea46807e3773ae16e15e6ee4be31e7df9f063b2efeecd9&req=dScvEsh3nYNbUfMW1HO4zQABaWdvTKcSBSXNVFXQ%2FVFl%2BqM%2BY9fmw6SccCX8%0AAkpNB3RGWU738eVrFA0%3D%0A)
 
  
 
@@ -112,7 +112,7 @@ Browse or search for the correct project in the **Move chat** modal that appears
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1786358700&signature=041e7a5667ae7caab1449bc410a693dc03b053b008476ea8ab57fbf748c51c60&req=dScvEsh3nYhaWPMW1HO4zSMECiazzgEGgYbpTjViBxCK2laQbWa7yfaeTkRg%0AzCP6%2ByN7qSFKgi5fHwE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1786367700&signature=998218368ced0b5ca7b0e09ffe6bfa1519fe3bcf51800281a7bf542d549ac9f6&req=dScvEsh3nYhaWPMW1HO4zSMECiazzQ4GgYbpTjViBxCtrwpHClDw%2F%2Fe0lZih%0A7nYM7nM1ZKuxoO1NkC8%3D%0A)
 
  
 
@@ -120,7 +120,7 @@ You can also remove chats from projects, or move them between projects, using th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1786358700&signature=5519670cb26eee907863097edc37099a3b149d5a8ebc55cce4419a8a9dcac8ca&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPEvC00NS2r1%2FGRlqOQGIeccgAq1GztX417p%0AVrUgXwXZZgb2g7PlO%2F4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1786367700&signature=568b1ab6030502543d6f945928368aa604e9d876bab563cfff0847d193888271&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPEvCEINS2r1%2FGRlqOSy30R61k%2FHqLB3whl%2F%0AbKnwgb2PAFZ6lqvxXjY%3D%0A)
 
  
 
@@ -128,7 +128,7 @@ You can move chats into projects in bulk from **[Your chat history page](https:/
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1786358700&signature=e4a42b7eb3ea0d0baf074fa798d892f5fe5bb170c48d6330a89e5057a0aef2c5&req=dScvEsh2mIdXXPMW1HO4zbParUpK7PKkuQSB0Ebsw9d%2FFolaU6kyQbufHwhm%0AgykaeorRS4QNOBq89uc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1786367700&signature=d914c235f88225ee84ff8d1f2c144f8439babb96428ab35e1307f8dc1880e4ac&req=dScvEsh2mIdXXPMW1HO4zbParUpK7%2F2kuQSB0Ebsw9chpjGZ6S9tNThPwHZl%0A6dl1eiDArbhleNSAXXE%3D%0A)
 
  
 

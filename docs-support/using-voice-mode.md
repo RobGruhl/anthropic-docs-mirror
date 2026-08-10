@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786358700&signature=af1f9b2f534a1a56231715e45c1a464e1ea04217ee249168f865109082085143&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJTbRuxNdRzYWrfF4xu6qFrJVrKRSPsbrQ%0AAFjEQ4ZconcUBjiPJpQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786367700&signature=63f9fead4a98d6d195eae3487567ece978f06b081ec06f858b4d8bae1e00596e&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJTrtuxNdRzYWrfF4KTW%2BCBAkMF4I9BKav%0AerV0loBQGJ25gtXJQyg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786358700&signature=a655b760afc3199187afb421e823cd5c1ebf06a36ff749a98c95d4b2839cb2b6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWZVgNy8OQfYsvK3yKk75Mc9qguM5lfMnZ%0AYX3atl00TKufzD7ur3c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786367700&signature=96b1c64c8aed62bd14e652c223f13009fca5f0cde5ee1a8314d65aaf1f238486&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWZlcNy8OQfYsvK3yaKHvUFjeF9%2FpxZlrU%0AnMSP4iiC%2Bo5szANNSWA%3D%0A)
 
  
 
