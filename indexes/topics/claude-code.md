@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-10 12:48*
+*Last updated: 2026-08-10 15:56*
 
-Documents related to Claude Code across all sources (310 documents)
+Documents related to Claude Code across all sources (313 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -211,7 +211,7 @@ Documents related to Claude Code across all sources (310 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (102)
+## Claude.com Blog Posts (105)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -220,6 +220,7 @@ Documents related to Claude Code across all sources (310 documents)
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
+- [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](/claude-blog/auto-mode-default-in-claude-code.md) - ![](https://cdn
 - [Best practices for getting started with Claude Cowork](/claude-blog/best-practices-for-getting-started-with-claude-cowork.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
 - [Bringing Claude Code and Claude Cowork to government](/claude-blog/bringing-claude-code-and-claude-cowork-to-government.md) - ![](https://cdn
@@ -287,7 +288,9 @@ Documents related to Claude Code across all sources (310 documents)
 - [Put Claude to work on your computer](/claude-blog/dispatch-and-computer-use.md) - ![](https://cdn
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
+- [Run Claude Code sessions on your own compute](/claude-blog/run-claude-code-sessions-on-your-own-compute.md) - ![](https://cdn
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
+- [Running auto mode in production](/claude-blog/auto-mode-in-production.md) - ![](https://cdn
 - [Secure access to the Claude Platform with Workload Identity Federation](/claude-blog/workload-identity-federation.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn

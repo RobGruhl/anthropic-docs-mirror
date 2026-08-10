@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-10 12:48*
+*Last updated: 2026-08-10 15:56*
 
-Documents related to Agents across all sources (152 documents)
+Documents related to Agents across all sources (154 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (152 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (94)
+## Claude.com Blog Posts (96)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -136,7 +136,9 @@ Documents related to Agents across all sources (152 documents)
 - [Product development in the agentic era](/claude-blog/product-development-in-the-agentic-era.md) - ![](https://cdn
 - [Prompt caching with Claude](/claude-blog/prompt-caching.md) - ![](https://cdn
 - [Redesigning Claude Code on desktop for parallel agents](/claude-blog/claude-code-desktop-redesign.md) - ![](https://cdn
+- [Run Claude Code sessions on your own compute](/claude-blog/run-claude-code-sessions-on-your-own-compute.md) - ![](https://cdn
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
+- [Running auto mode in production](/claude-blog/auto-mode-in-production.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Skills MCP 서버로 Claude의 역량 확장](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn

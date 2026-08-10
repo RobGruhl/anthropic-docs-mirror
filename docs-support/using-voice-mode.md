@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786367700&signature=63f9fead4a98d6d195eae3487567ece978f06b081ec06f858b4d8bae1e00596e&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJTrtuxNdRzYWrfF4KTW%2BCBAkMF4I9BKav%0AerV0loBQGJ25gtXJQyg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786378500&signature=e2035a336e6f3cd98da5e62734b514dc351c79d1a5a6f3f6b5f75d7bdb1c5cbd&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJT7RsxNdRzYWrfF6zbJLVsGHWNXhmj7k7%0AgS51tM6c0BnT2k4ySXY%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786367700&signature=96b1c64c8aed62bd14e652c223f13009fca5f0cde5ee1a8314d65aaf1f238486&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWZlcNy8OQfYsvK3yaKHvUFjeF9%2FpxZlrU%0AnMSP4iiC%2Bo5szANNSWA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786378500&signature=9ac320187cc2936d9014822b83221e07c22230563b5a43cdb9521c0f1a4eb06b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWZ1gPy8OQfYsvK3zXaLERRmu%2BNuCMU4sx%0A%2BJQCKIiQP%2B6wwzanSlM%3D%0A)
 
  
 

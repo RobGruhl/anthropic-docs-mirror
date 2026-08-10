@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-08-10 12:48*
+*Last updated: 2026-08-10 15:56*
 
-Documents related to Api across all sources (59 documents)
+Documents related to Api across all sources (60 documents)
 ---
 ## Platform Documentation (platform.claude.com) (11)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -16,10 +16,11 @@ Documents related to Api across all sources (59 documents)
 - [beta__skills__versions__list](/platform-docs/api-reference/beta__skills__versions__list.md)
 - [beta__skills__versions__retrieve](/platform-docs/api-reference/beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (48)
+## Claude.com Blog Posts (49)
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
+- [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](/claude-blog/auto-mode-default-in-claude-code.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
