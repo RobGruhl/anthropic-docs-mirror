@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786337100&signature=586b24436f0c25c1691fddc9ddc654b4b672b2d5beff3f85e52ae37e208fdc1d&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJS7toxNdRzYWrfF66BH9PZKEmia4S%2B5rB%0AyDviD6Nf28mHlP1mmcg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786347900&signature=25ac4bd1b0def94b27c5a34fe1259ac6809813d400a82519f47f104d31c7b1c1&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJTLtgxNdRzYWrfF6CNeZg2XpEfW87TiY1%0AfLQ3qK759COpo0sUDKM%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786337100&signature=aa6265fc1a61dd75b6fab3eaf7f737caf8c79cc7eaeb8b09dbcde596b4404a9b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWY1cLy8OQfYsvK3wTcmq9%2FEu%2FvHJ6OVs3%0AnuKTwPGC5ul4c11mWl8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786347900&signature=3ff92b90f6b31433e00b4db3a1433d581f920fedeb7dce11ab93971f04a14da2&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWZFcDy8OQfYsvK3zssyDRW4C4DvTYFD7F%0ARvDriKufBY9yUgqR82Y%3D%0A)
 
  
 
