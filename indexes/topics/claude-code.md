@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-10 15:56*
+*Last updated: 2026-08-10 18:45*
 
-Documents related to Claude Code across all sources (313 documents)
+Documents related to Claude Code across all sources (315 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (313 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (185)
+## Claude Code Documentation (187)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -27,6 +27,8 @@ Documents related to Claude Code across all sources (313 documents)
 - [2026 W27](/code-claude-docs/whats-new__2026-w27.md)
 - [2026 W28](/code-claude-docs/whats-new__2026-w28.md)
 - [2026 W29](/code-claude-docs/whats-new__2026-w29.md)
+- [2026 W30](/code-claude-docs/whats-new__2026-w30.md)
+- [2026 W32](/code-claude-docs/whats-new__2026-w32.md)
 - [Accessibility](/code-claude-docs/accessibility.md)
 - [Admin Setup](/code-claude-docs/admin-setup.md)
 - [Advisor](/code-claude-docs/advisor.md)
