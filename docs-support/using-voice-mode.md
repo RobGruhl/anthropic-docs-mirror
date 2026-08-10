@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786312800&signature=1f7be57e11cc44a247da40fcc3b427339bd53e4081692c8e1ce0f75c1b8afec2&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJSb5hxNdRzYWrfF4ugSbObGBy3BdSwCYf%0AY%2Fr3eWxEJB343tz5n1M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786325400&signature=c7df37157df0f6da13798a7b7b821cc2c06fb3675ec9f5e451c66f62d4913f28&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJSrltxNdRzYWrfF44UgnWUCv8IL6f9Crc%0APea6YX9Lu%2BWduegkOl4%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786312800&signature=3473355b33c773880457b15afab8de8ab3f2f64596442394c0dbbbaf637f457c&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWYVICy8OQfYsvK3w3KZmDQGjnWAZjZCSl%0AF7so%2FnJaj%2BoLHJfN%2FWE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786325400&signature=a6262e23c783b3c0efde3fbd56be2760fa54699da244e5e1b44e4e23341fb2c7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWYlUOy8OQfYsvK3wJDYiZv08a%2FeVwcJEG%0Ac5LmWs6ugSla7EcuEEU%3D%0A)
 
  
 
