@@ -217,21 +217,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### The Claude Cowork product guide
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+### How Anthropic's finance team uses Claude to shape the narrative behind the numbers
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### How Anthropic's business development team uses Claude to run inbound and outbound at scale
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
-
-### Auto mode is now the default in Claude Code for Pro, Max, and Team plans
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
-
-### Inference hooks: inline data loss prevention for Claude Enterprise
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
-
-### Running auto mode in production
 
 ## Transform how your organization operates with Claude
 

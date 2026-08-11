@@ -77,6 +77,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
 
 ### Auto mode is now the default in Claude Code for Pro, Max, and Team plans
@@ -88,10 +92,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
 
 ### Running auto mode in production
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
-
-### Run Claude Code sessions on your own compute
 
 ## Transform how your organization operates with Claude
 

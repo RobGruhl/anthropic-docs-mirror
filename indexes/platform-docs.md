@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-11 15:55*
+*Last updated: 2026-08-11 18:52*
 Total documents: 551
 ---
 ## Uncategorized (551 documents)
@@ -26,7 +26,7 @@ Total documents: 551
 ### about-claude__models__migration-guide
 **File:** `/platform-docs/about-claude__models__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-11  
 
 ### about-claude__models__model-ids-and-versions
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
@@ -36,7 +36,7 @@ Total documents: 551
 ### about-claude__models__overview
 **File:** `/platform-docs/about-claude__models__overview.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/overview  
-**Updated:** 2026-08-05  
+**Updated:** 2026-08-11  
 
 ### about-claude__models__whats-new-opus-5
 **File:** `/platform-docs/about-claude__models__whats-new-opus-5.md`  
@@ -46,12 +46,12 @@ Total documents: 551
 ### about-claude__models__whats-new-sonnet-5
 **File:** `/platform-docs/about-claude__models__whats-new-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-11  
 
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/pricing  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-11  
 
 ### about-claude__use-case-guides__classification
 **File:** `/platform-docs/about-claude__use-case-guides__classification.md`  
@@ -1696,7 +1696,7 @@ Total documents: 551
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/batch-processing  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### build-with-claude__cache-diagnostics
 **File:** `/platform-docs/build-with-claude__cache-diagnostics.md`  
@@ -1811,7 +1811,7 @@ Total documents: 551
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### build-with-claude__prompt-engineering__claude-prompting-best-practices
 **File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  
@@ -2306,7 +2306,7 @@ Total documents: 551
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api-keys  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-11  
 
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
@@ -2321,7 +2321,7 @@ Total documents: 551
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-11  
 
 ### manage-claude__app-attest
 **File:** `/platform-docs/manage-claude__app-attest.md`  
@@ -2356,47 +2356,47 @@ Total documents: 551
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-api-access
 **File:** `/platform-docs/manage-claude__compliance-api-access.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api-access  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-api
 **File:** `/platform-docs/manage-claude__compliance-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-api  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-content-data
 **File:** `/platform-docs/manage-claude__compliance-content-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-content-data  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-errors
 **File:** `/platform-docs/manage-claude__compliance-errors.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-errors  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-faq
 **File:** `/platform-docs/manage-claude__compliance-faq.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-faq  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-integration-patterns
 **File:** `/platform-docs/manage-claude__compliance-integration-patterns.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-11  
 
 ### manage-claude__compliance-org-data
 **File:** `/platform-docs/manage-claude__compliance-org-data.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-org-data  
-**Updated:** 2026-08-03  
+**Updated:** 2026-08-11  
 
 ### manage-claude__data-residency
 **File:** `/platform-docs/manage-claude__data-residency.md`  
@@ -2416,7 +2416,7 @@ Total documents: 551
 ### manage-claude__inference-hooks
 **File:** `/platform-docs/manage-claude__inference-hooks.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/inference-hooks  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-11  
 
 ### manage-claude__rate-limits-api
 **File:** `/platform-docs/manage-claude__rate-limits-api.md`  
@@ -2556,7 +2556,7 @@ Total documents: 551
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/onboarding  
-**Updated:** 2026-07-10  
+**Updated:** 2026-08-11  
 
 ### managed-agents__overview
 **File:** `/platform-docs/managed-agents__overview.md`  
@@ -2701,7 +2701,7 @@ Total documents: 551
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### release-notes__system-prompts
 **File:** `/platform-docs/release-notes__system-prompts.md`  
@@ -2731,17 +2731,17 @@ Total documents: 551
 ### test-and-evaluate__strengthen-guardrails__increase-consistency
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__increase-consistency.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-11  
 
 ### test-and-evaluate__strengthen-guardrails__mitigate-jailbreaks
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__mitigate-jailbreaks.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks  
-**Updated:** 2026-07-20  
+**Updated:** 2026-08-11  
 
 ### test-and-evaluate__strengthen-guardrails__reduce-hallucinations
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-hallucinations.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations  
-**Updated:** 2026-07-20  
+**Updated:** 2026-08-11  
 
 ### test-and-evaluate__strengthen-guardrails__reduce-latency
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-latency.md`  
@@ -2751,7 +2751,7 @@ Total documents: 551
 ### test-and-evaluate__strengthen-guardrails__reduce-prompt-leak
 **File:** `/platform-docs/test-and-evaluate__strengthen-guardrails__reduce-prompt-leak.md`  
 **Source:** https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-11  
 
 ### versioning
 **File:** `/platform-docs/versioning.md`  

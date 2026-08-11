@@ -139,13 +139,13 @@ You can also refer to **[Monitoring](https://claude.com/docs/cowork/monitoring)*
 
  
 
-Cowork via mobile and web is captured in the Compliance API. Learn more about **[retrieving remote sessions in the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-content-data)**.
+Cowork via Claude, Claude Desktop, and Claude Mobile is captured in the Compliance API. Learn more about **[retrieving remote sessions in the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-content-data)**.
 
  
 
 ### Local conversation storage
 
-For local sessions, Cowork stores conversation history locally on users' computers. This data is not subject to Anthropic's standard **[data retention policies](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)** and cannot be centrally managed or exported by admins.<br>​<br>For sessions in the cloud, your sessions and files are saved to your Claude account.
+For local sessions, Cowork stores conversation history locally on users' computers. This data is not subject to Anthropic's standard **[data retention policies](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)** and cannot be centrally managed or exported by admins. Claude Enterprise admins can retrieve this session content in beta through the Compliance API; deletion endpoints for local sessions aren't available yet.<br>​<br>For sessions in the cloud, your sessions and files are saved to your Claude account.
 
  
 

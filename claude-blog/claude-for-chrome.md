@@ -108,6 +108,10 @@ Häufig gestellte Fragen
 
 Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
+
+### Welche Vorteile hat der Übergang zu agentischem Coding für die Softwareentwicklung?
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
@@ -119,10 +123,6 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
 ### Claude für die Rechtsbranche
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)
-
-### Skills erklärt: Vergleich von Skills mit Prompts, Projekten, MCP und Subagenten
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

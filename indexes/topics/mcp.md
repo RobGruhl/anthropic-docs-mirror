@@ -1,7 +1,7 @@
 # Mcp Topic Index
-*Last updated: 2026-08-11 15:55*
+*Last updated: 2026-08-11 18:52*
 
-Documents related to Mcp across all sources (236 documents)
+Documents related to Mcp across all sources (232 documents)
 ---
 ## Platform Documentation (platform.claude.com) (24)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
@@ -242,15 +242,11 @@ Documents related to Mcp across all sources (236 documents)
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
 - [모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
-## Support Articles (11)
+## Support Articles (7)
 - [Anthropic Connectors Directory FAQ](/docs-support/anthropic-connectors-directory-faq.md)
-- [Build custom connectors via remote MCP servers](/docs-support/building-custom-connectors-via-remote-mcp-servers.md)
-- [Building Desktop Extensions with MCPB](/docs-support/building-desktop-extensions-with-mcpb.md)
 - [Deploying enterprise-grade MCP servers with desktop extensions](/docs-support/deploying-enterprise-grade-mcp-servers-with-desktop-extensions.md)
 - [Get started with custom connectors using remote MCP](/docs-support/get-started-with-custom-connectors-using-remote-mcp.md)
 - [Getting Started with Local MCP Servers on Claude Desktop](/docs-support/getting-started-with-local-mcp-servers-on-claude-desktop.md)
-- [Local MCP Server Submission Guide](/docs-support/local-mcp-server-submission-guide.md)
-- [Remote MCP server submission guide](/docs-support/remote-mcp-server-submission-guide.md)
 - [Use connectors to extend Claude's capabilities](/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md)
 - [Use connectors to extend Claude's capabilities](/docs-support/pre-built-web-connectors-using-remote-mcp.md)
 - [When to use desktop and web connectors](/docs-support/when-to-use-desktop-and-web-connectors.md)

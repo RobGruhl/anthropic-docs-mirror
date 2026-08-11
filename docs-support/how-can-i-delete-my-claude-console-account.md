@@ -41,7 +41,7 @@ If you have an outstanding balance, you will see a message during the deletion f
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1786464900&signature=f01bd6514a8898bcf3bb3d504cda14491a0d480cd8b8ef1d2fc78418ff550031&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBFmWuASFZRyvJPpBZ8Pv4CCp5fmCaYfeveb%0A5yU4Teql38O7PB54GOA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957766/5c2dd87c0818a0400099a833c9b3/4cc3130a-f696-4967-9fe3-e5623c6f02bd?expires=1786475700&signature=0d1cd8bc5d65d1010273b11a6a463cf399f9fbd0e5d1005a6989b455ecefe9e4&req=dSkgFcB7moZZX%2FMW1HO4zbYXUBFmW%2BEcFZRyvJPpBZ%2FbpCCDMrVY3Wo3SDMr%0ApvS8Ukf831cSzIZKW%2BY%3D%0A)
 
  
 
@@ -55,7 +55,7 @@ There are some scenarios where you will need to contact our team to delete your 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1786464900&signature=33e97f5296cc0f40282e119f4ed7dccc49902f940d6b3ed45d4881b833c1b652&req=dSkgFcB7moZZXPMW1HO4zRW12%2BPJfqDwZxDZGlqR6Gg7OI%2F1IMBR%2FyiekrR0%0AtrppxOzh9XTqZOwkp7Y%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1973957765/19dda72a40db95d78c00c27a1a1c/6ce89be6-93ce-409c-bbea-d34be09db348?expires=1786475700&signature=2ea9db98c96c7eca0312e6c65642d09522c23af3e1fdab121908fcdc4fa8307b&req=dSkgFcB7moZZXPMW1HO4zRW12%2BPJf6H%2BZxDZGlqR6GhRZSFoTDr%2BcMRVHBgP%0Ac6LibUvKK%2B6lWVEgwb0%3D%0A)
 
  
 
@@ -67,7 +67,7 @@ If you are seeing this message, this indicates that your Console organization ca
 ## Related Articles
 
 - [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
+- [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Inviting members to the Claude Console](https://support.claude.com/en/articles/13443764-inviting-members-to-the-claude-console)
 - [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)

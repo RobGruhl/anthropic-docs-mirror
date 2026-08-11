@@ -19,7 +19,7 @@ We share how to get started with Claude Cowork, including the workflows, habits,
 
 Most AI tools are conversational. You ask a question, you get an answer, and the work of turning that answer into something useful—a deck, a doc, a spreadsheet, an email—is still manual.
 
-Claude Cowork, our new knowledge work agent, lets you delegate this work to Claude so you can focus on solving more the strategic and creative problems that's occupying your time. Running in the Claude desktop app, Claude Cowork reads and writes local files, works across connected apps like Slack and Google Drive, and carries multi-step tasks through to real deliverables, with citations back to the actual files and messages. You describe the goal, desired outcome and cadence, and Claude lays out the steps and does the work, ensuring that you're along every step of the way.
+[Claude Cowork](https://claude.com/product/cowork), our new knowledge work agent, lets you delegate this work to Claude so you can focus on solving more the strategic and creative problems that's occupying your time. Running in the Claude desktop app, [Claude Cowork](https://claude.com/product/cowork) reads and writes local files, works across connected apps like Slack and Google Drive, and carries multi-step tasks through to real deliverables, with citations back to the actual files and messages. You describe the goal, desired outcome and cadence, and Claude lays out the steps and does the work, ensuring that you're along every step of the way.
 
 To help you get started, we put together a practical product guide for Claude Cowork. We share:
 
@@ -35,7 +35,7 @@ To help you get started, we put together a practical product guide for Claude Co
 
 Check it out,[here](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a2313fa599bd2e2270fda75_Claude-eBook-Claude-Cowork-product-guide-06052026.pdf).
 
-Get started with[Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)today.
+Get started with[Claude Cowork](https://claude.com/product/cowork)today.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
@@ -49,6 +49,14 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
+
+### How Anthropic's finance team uses Claude to shape the narrative behind the numbers
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### How Anthropic's business development team uses Claude to run inbound and outbound at scale
@@ -56,14 +64,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
 
 ### Inference hooks: inline data loss prevention for Claude Enterprise
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)
-
-### Millennium and Anthropic are building a digital risk analyst with Claude
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)
-
-### A guide to cost visibility and control in Claude
 
 ## Transform how your organization operates with Claude
 

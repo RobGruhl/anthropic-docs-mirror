@@ -130,7 +130,7 @@ If you're hoping to edit a custom connector, you'll need to remove it first, the
 
 ## Build custom connectors
 
-To learn about building connectors to use with Claude, see **[Building custom connectors via remote MCP servers](https://support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers)**.
+To learn about building connectors to use with Claude, see **[Building custom connectors](https://claude.com/docs/connectors/building)** in Claude Docs.
 
  
 
@@ -221,6 +221,6 @@ See **[Use research on Claude](https://support.claude.com/en/articles/11088861-u
 
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [When to use desktop and web connectors](https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors)
-- [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
+- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [MCP: Individual connectors](https://support.claude.com/en/articles/14503703-mcp-individual-connectors)

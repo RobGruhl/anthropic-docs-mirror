@@ -114,7 +114,7 @@ Learn more about **[deleting your Claude account](https://support.claude.com/en/
 ## Related Articles
 
 - [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
+- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - [Can you delete data that I sent via Team and Enterprise plans?](https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans)
-- [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 - [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Claude for Teachers: your data and our terms](https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms)

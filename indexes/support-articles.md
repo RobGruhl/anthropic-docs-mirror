@@ -1,8 +1,8 @@
 # Support Articles Index
-*Last updated: 2026-08-11 15:55*
-Total documents: 248
+*Last updated: 2026-08-11 18:52*
+Total documents: 244
 ---
-## Uncategorized (248 documents)
+## Uncategorized (244 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
@@ -31,7 +31,7 @@ Total documents: 248
 ### Access the Compliance API
 **File:** `/docs-support/how-can-i-access-the-compliance-api.md`  
 **Source:** https://support.claude.com/en/articles/13015708-how-can-i-access-the-compliance-api  
-**Updated:** 2026-07-21  
+**Updated:** 2026-08-11  
 
 ### Account management FAQs
 **File:** `/docs-support/account-management-faqs.md`  
@@ -61,7 +61,7 @@ Total documents: 248
 ### Anthropic Connectors Directory FAQ
 **File:** `/docs-support/anthropic-connectors-directory-faq.md`  
 **Source:** https://support.claude.com/en/articles/11596036-anthropic-connectors-directory-faq  
-**Updated:** 2026-08-09  
+**Updated:** 2026-08-11  
 
 ### Anthropic Software Directory Policy
 **File:** `/docs-support/anthropic-software-directory-policy.md`  
@@ -82,16 +82,6 @@ Total documents: 248
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
 **Source:** https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code  
 **Updated:** 2026-08-11  
-
-### Build custom connectors via remote MCP servers
-**File:** `/docs-support/building-custom-connectors-via-remote-mcp-servers.md`  
-**Source:** https://support.claude.com/en/articles/11503834-building-custom-connectors-via-remote-mcp-servers  
-**Updated:** 2026-08-05  
-
-### Building Desktop Extensions with MCPB
-**File:** `/docs-support/building-desktop-extensions-with-mcpb.md`  
-**Source:** https://support.claude.com/en/articles/12922929-building-desktop-extensions-with-mcpb  
-**Updated:** 2026-05-17  
 
 ### Business Associate Agreements (BAA) for Commercial Customers
 **File:** `/docs-support/business-associate-agreements-baa-for-commercial-customers.md`  
@@ -326,7 +316,7 @@ Total documents: 248
 ### Enforce network-level access control with Tenant Restrictions
 **File:** `/docs-support/enforce-network-level-access-control-with-tenant-restrictions.md`  
 **Source:** https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions  
-**Updated:** 2026-08-08  
+**Updated:** 2026-08-11  
 
 ### Enterprise configuration for Claude Desktop
 **File:** `/docs-support/enterprise-configuration.md`  
@@ -346,7 +336,7 @@ Total documents: 248
 ### Export your organization's data
 **File:** `/docs-support/how-can-i-export-my-organization-s-data.md`  
 **Source:** https://support.claude.com/en/articles/13346720-how-can-i-export-my-organization-s-data  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### Find and join a Team or Enterprise organization
 **File:** `/docs-support/find-and-join-a-team-or-enterprise-organization.md`  
@@ -663,11 +653,6 @@ Total documents: 248
 **Source:** https://support.claude.com/en/articles/9035075-law-enforcement-requests  
 **Updated:** 2026-08-11  
 
-### Local MCP Server Submission Guide
-**File:** `/docs-support/local-mcp-server-submission-guide.md`  
-**Source:** https://support.claude.com/en/articles/12922832-local-mcp-server-submission-guide  
-**Updated:** 2026-08-05  
-
 ### Log in to your Claude account
 **File:** `/docs-support/logging-in-to-your-claude-account.md`  
 **Source:** https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account  
@@ -756,7 +741,7 @@ Total documents: 248
 ### Official Anthropic marketing email addresses
 **File:** `/docs-support/official-anthropic-marketing-email-addresses.md`  
 **Source:** https://support.claude.com/en/articles/10416553-official-anthropic-marketing-email-addresses  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### Online Safety Contacts
 **File:** `/docs-support/online-safety-contacts.md`  
@@ -812,11 +797,6 @@ Total documents: 248
 **File:** `/docs-support/release-notes.md`  
 **Source:** https://support.claude.com/en/articles/12138966-release-notes  
 **Updated:** 2026-08-06  
-
-### Remote MCP server submission guide
-**File:** `/docs-support/remote-mcp-server-submission-guide.md`  
-**Source:** https://support.claude.com/en/articles/12922490-remote-mcp-server-submission-guide  
-**Updated:** 2026-08-05  
 
 ### Report a concern: Australian DIS Standard compliance
 **File:** `/docs-support/report-a-concern-australian-dis-standard-compliance.md`  
@@ -951,7 +931,7 @@ Total documents: 248
 ### Use Claude Cowork on Team and Enterprise plans
 **File:** `/docs-support/cowork-for-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans  
-**Updated:** 2026-08-06  
+**Updated:** 2026-08-11  
 
 ### Use Claude Cowork safely
 **File:** `/docs-support/using-cowork-safely.md`  
@@ -1031,7 +1011,7 @@ Total documents: 248
 ### Use interactive connectors in Claude
 **File:** `/docs-support/using-interactive-connectors-in-claude.md`  
 **Source:** https://support.claude.com/en/articles/13454812-using-interactive-connectors-in-claude  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-11  
 
 ### Use quick entry with Claude Desktop on Mac
 **File:** `/docs-support/use-quick-entry-with-claude-desktop-on-mac.md`  
@@ -1156,7 +1136,7 @@ Total documents: 248
 ### What is the Pro plan?
 **File:** `/docs-support/what-is-the-pro-plan.md`  
 **Source:** https://support.claude.com/en/articles/8325606-what-is-the-pro-plan  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### What is the Team plan?
 **File:** `/docs-support/what-is-the-team-plan.md`  
@@ -1196,7 +1176,7 @@ Total documents: 248
 ### Where can I go for Claude API support and assistance?
 **File:** `/docs-support/where-can-i-go-for-claude-api-support-and-assistance.md`  
 **Source:** https://support.claude.com/en/articles/8114535-where-can-i-go-for-claude-api-support-and-assistance  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### Where can I learn more about Anthropic's Privacy practices?
 **File:** `/docs-support/where-can-i-learn-more-about-anthropic-s-privacy-practices.md`  
@@ -1211,7 +1191,7 @@ Total documents: 248
 ### Where is the Claude API supported?
 **File:** `/docs-support/where-is-the-claude-api-supported.md`  
 **Source:** https://support.claude.com/en/articles/8116515-where-is-the-claude-api-supported  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-11  
 
 ### Who owns and manages the data of my Claude for Education account?
 **File:** `/docs-support/who-owns-and-manages-the-data-of-my-claude-for-education-account.md`  
