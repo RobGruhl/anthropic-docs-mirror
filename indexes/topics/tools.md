@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-08-10 21:36*
+*Last updated: 2026-08-11 01:02*
 
-Documents related to Tools across all sources (90 documents)
+Documents related to Tools across all sources (89 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -30,8 +30,7 @@ Documents related to Tools across all sources (90 documents)
 - [agents-and-tools__tool-use__web-fetch-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__web-fetch-tool.md)
 - [agents-and-tools__tool-use__web-search-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__web-search-tool.md)
 
-## Engineering Blog Posts (8)
-- [Building effective agents](/engineering-blog/building-effective-agents.md) - Discover how Anthropic approaches the development of reliable AI agents
+## Engineering Blog Posts (7)
 - [Code execution with MCP: Building more efficient agents](/engineering-blog/code-execution-with-mcp.md) - Learn how code execution with the Model Context Protocol enables agents to ha...
 - [Demystifying evals for AI agents](/engineering-blog/demystifying-evals-for-ai-agents.md) - Demystifying evals for AI agents
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...

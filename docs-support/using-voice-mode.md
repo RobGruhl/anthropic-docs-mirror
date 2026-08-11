@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786399200&signature=4c23a059e8d62a1e3bfe843362e626c09f5b73d658780d0ea0871df9f4db6868&req=diAjFMp7n4FZWfMW1HO4zU6VRfvJQbVrxNdRzYWrfF4Tra1SPDyaMzbWJ5xf%0AhD3Aj5ANOn%2FcaFJiVI8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786411800&signature=521cad04f0127c9eb797bfac16781b49b2132c4500ff9be6980b0a0028643e39&req=diAjFMp7n4FZWfMW1HO4zU6VRfvOSb1hxNdRzYWrfF5U5GJxfXuFCLTqps2F%0AGQ7znvrLGLaRq1gPBbU%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786399200&signature=1cb5f37e43d97fc41c7b657411a7974751dda82aec3e9069eed1dbc8532f7c0c&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyWaVkIy8OQfYsvK3zrYtZEkmxDbdaMgsdu%0AX8P21A6HPJ4Z3HtXe1w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786411800&signature=decd6340366f0f10bdfeb61474cb6e44db4bf34dd31c15d72260334654015050&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyRYVECy8OQfYsvK3zU0CRq5yig5evpj91t%0AJhJVR9VG0Ie4MU%2Foy9o%3D%0A)
 
  
 
