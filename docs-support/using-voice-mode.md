@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786454100&signature=55a101cc0ad0d22244bf06d62e7484fd2cc3d86a9daf26eb9b91680d9f4d614a&req=diAjFMp7n4FZWfMW1HO4zU6VRfvOTbhoxNdRzYWrfF7vS8wnh08I0EH2jUx%2F%0AOhLkLoDoTJNAJmVj4dk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786465800&signature=dc35133f380688993afaad73a626a5d629441f8a4f658f77c2ebacb576c9fc7f&req=diAjFMp7n4FZWfMW1HO4zU6VRfvOTrlhxNdRzYWrfF6RQmW2%2BIZd580iBXqf%0AXnO%2F0LyGrcTjqrYvXlo%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786454100&signature=d77c7ada0ee371da8ba219a7054ff22e4f547c41368718e22a9b2716211c3fb8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyRZVQLy8OQfYsvK3wE%2F%2BRJg2L6DIodUtRM%0Afymc2OF4%2BzK%2B1YgS4Yw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786465800&signature=e567d939655e4b284f7a8123759c432f6174c3f795d3718d1259c3c6b1162016&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyRZlUCy8OQfYsvK3wLGxvVe2rcPZXWBqp7%0AEmjTFdA%2BiDWCpecB5FY%3D%0A)
 
  
 
