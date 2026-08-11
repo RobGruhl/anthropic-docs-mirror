@@ -1,6 +1,6 @@
 # Safeguards warnings and appeals
 
-*Updated this week*
+*Updated over a month ago*
 
 ---
 
@@ -55,6 +55,6 @@ If you believe we’ve made a mistake in issuing you a warning, please email **[
 
 - [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Updates to our Acceptable Use Policy (now “Usage Policy”), Consumer Terms of Service, and Privacy Policy](https://support.claude.com/en/articles/9301722-updates-to-our-acceptable-use-policy-now-usage-policy-consumer-terms-of-service-and-privacy-policy)
+- [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
-- [Identity verification on Claude](https://support.claude.com/en/articles/14328960-identity-verification-on-claude)
 - [Real-time cyber safeguards on Claude Opus and Sonnet](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet)
