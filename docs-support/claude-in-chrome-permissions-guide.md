@@ -1,10 +1,14 @@
 # Claude in Chrome permissions guide
 
-*Updated over 3 weeks ago*
+*Updated today*
 
 ---
 
 This guide explains how to control what Claude can access and do when using Claude in Chrome. Understanding permissions helps you balance productivity with security.
+
+ 
+
+ 
 
 ## Permission modes
 
@@ -14,17 +18,25 @@ Claude in Chrome uses a multi-layered permission system to give you control over
 - **Automatically approve (Auto)**. Claude keeps working and reviews each action for safety, automatically blocking anything it determines to be unsafe and pausing to ask you when needed.
 - **Skip all approvals (Skip)**, formerly "Act without asking**.” ** Claude doesn't pause to ask and nothing checks its actions automatically. Only use this when you completely trust every action, connector, file, app, etc. involved in the task.
 
+ 
+
 ---
 
  
 
 ## Manually approve
 
-Choose "Manually approve" to have Claude create a plan from your prompt, which you can approve and allow Claude to execute. The plan will specify which websites you’re allowing Claude to access, as well as the approach it will follow:
+In "Manually approve," Claude checks with you before it acts. What that looks like depends on which side panel you're using.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1786562100&signature=aa0f0d9f511f663d0449e580fa500a4fb4b0c5ce35129668c83d2a339908f87d&req=dSgjFcp8nYZdXvMW1HO4zYqyZcRI%2BoC2gN0ADj5oqFBkLAoLdpiGXySJRmz9%0AhbFyeecp78X4ciZvSIY%3D%0A)
+### In the classic side panel
+
+Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
+
+ 
+
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1786665600&signature=c1bd32cb068b7a161933c1b41345876634a71e5c7500fcb5739331e21b0ce6ec&req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNAKNAKY%2BtXFBtvjxAmRIE6r5ehmpp29u6fn%0AtR3kx%2B759W0wxGfjhDjVvAJe234%3D%0A)
 
  
 
@@ -32,15 +44,27 @@ Note that Claude will only use the websites listed in the plan, so you’ll need
 
  
 
-Claude clarifies which sites it’s planning to access and the actions it will take upfront, allowing you to review the proposed plan and ensure it’s correct before starting. You can also click "Make changes" to reject the current proposal, then prompt Claude again to make any necessary changes. Once you click "Approve plan," Claude will be able to act independently within the outlined parameters, but will still check with you before other sensitive actions, like downloading a file or entering sensitive information into a page. Claude will not deviate from the stated plan without requesting your permission first. There are certain actions that Claude cannot take for your security, such as making purchases, creating accounts, bypassing bot authorizations, executing trades, permanently deleting files, or taking certain actions that may indicate a prompt injection risk (see **[Prohibited actions](#h_e199f8f523)**).
+Claude clarifies which sites it’s planning to access and the actions it will take upfront, allowing you to review the proposed plan and ensure it’s correct before starting. You can also click "Make changes" to reject the current proposal, then prompt Claude again to make any necessary changes. Once you click "Approve plan," Claude will be able to act independently within the outlined parameters, but will still check with you before other sensitive actions, like downloading a file or entering sensitive information into a page. Claude will not deviate from the stated plan without requesting your permission first. There are certain actions that Claude cannot take for your security, such as making purchases, creating accounts, bypassing bot authorizations, executing trades, permanently deleting files, or taking certain actions that may indicate a prompt injection risk (see **[Prohibited actions](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide#h_e199f8f523)**).
+
+ 
+
+### In the Cowork side panel
+
+Claude doesn't create a plan for you to approve before starting. Claude may ask you a question or two to clarify what you want, then begins work and asks for your approval before each action. You review each request and choose Allow all for this website, Allow this time only, or Deny.
+
+ 
+
+Claude still checks with you before sensitive actions like downloading a file or entering sensitive information into a page, and some actions are blocked regardless of mode. See **[Actions requiring explicit permission](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide#h_b209fa12fc)** and **[Prohibited actions](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide#h_e199f8f523)** below.
 
  
 
 ---
 
+ 
+
 ## Automatically approve
 
-When you choose "Automatically approve," Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for data exfiltration or prompt injection) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking for your permission for each step.
+When you choose "Automatically approve," Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for data exfiltration or prompt injection) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking for your permission for each step. "Automatically approve" is the default mode in the Cowork side panel. If you switch to a different mode, the side panel keeps your choice for future sessions.
 
  
 
@@ -66,11 +90,11 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 ## When does Claude need to request additional permissions?
 
-There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **Permission required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
+There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1847222875/162eb012ebe473ed2b852b97e223/0209db51-6057-4ec4-a9b7-8358287d46a3?expires=1786562100&signature=88c731107e48215be5f2fae12f3059eeafa774ed64872e004592da3f17229859&req=dSgjEct8n4lYXPMW1HO4zeoCY8AupXZ%2BJCxYSFHKWIil%2BfSKgzFiBpNcu59G%0AAQgmmHZfl1kbrrrYMSk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1786572000&signature=72d3379198a7d800fd1ba4c5c01e9dda672356d882d5d3e6c9c5302d76031842&req=diYnEsB5nYldXPMW1HO4zZ3NqmB1jy7s7A4lHPBihAVpdkgQMyt%2B9wAFtOLv%0ALmGVj97G79M6ZGT6r9g%3D%0A)
 
  
 
@@ -100,7 +124,7 @@ When you choose "Always allow actions on this site," Claude still asks for your 
 
 ### Managing site permissions
 
-You can manage Claude's access to specific sites in the extension settings. Click the Claude extension icon, then the three dots in the upper right corner of the side panel. Select "Settings" → "Permissions" to:
+You can manage Claude's access to specific sites in the extension settings. Click the Claude extension icon, then the three dots in the upper right corner of the side panel. Select "Extension settings" to land on the Permissions page and:
 
 - Review which sites have "always allow" status under **Your approved sites**
 - Revoke permissions for specific websites
@@ -166,4 +190,4 @@ To protect you, Claude is prohibited from taking following actions regardless of
 - [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
 - [Claude in Chrome admin controls](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls)
-- [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

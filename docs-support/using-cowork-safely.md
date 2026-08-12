@@ -1,6 +1,6 @@
 # Use Claude Cowork safely
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -148,6 +148,10 @@ For more information, see **[Let Claude use your computer in Cowork](https://sup
 **6. Limit browser and web access to trusted sources**
 
 Only give Claude internet access to sites you trust. Web content is a primary vector for prompt injection attacks—malicious instructions can be hidden in websites, emails, or documents Claude reads.
+
+ 
+
+When you run a Cowork session in the Chrome side panel, Claude can see the page you're on, including pages behind a login. Be deliberate about which tabs are open when you use it, and remember that the session is saved to your history.
 
 **7. Be especially cautious with unfamiliar MCPs and plugins**
 

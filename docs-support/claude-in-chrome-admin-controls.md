@@ -6,8 +6,6 @@
 
 This article explains how Team and Enterprise owners can manage Claude in Chrome for their organization.
 
- 
-
 Claude in Chrome is a browser extension that allows Claude to read, click, and navigate websites on behalf of your users. As an owner, you control whether the extension is available for users to install and which sites they can access.
 
  
@@ -23,7 +21,7 @@ To manage Claude in Chrome settings for your organization:
 
 ## Enable or disable the extension
 
-Use the toggle to enable or disable Claude in Chrome for your entire organization.
+Use the **Enable for your team** toggle to enable or disable Claude in Chrome for your entire organization.
 
 - **Team plans:** The extension is enabled by default. Disable it if you prefer users not to have access.
 - **Enterprise plans:** The extension is disabled by default. Enable it when you're ready for users to access the feature.
@@ -47,6 +45,22 @@ Use allowlists and blocklists to control which websites Claude can access when u
  
 
 **Recommendation:** Start with a more restrictive allowlist for the security of your organization's data, then expand access over time as you become comfortable with the extension's behavior.
+
+ 
+
+## Enable the Cowork side panel
+
+On Enterprise plans, the Claude in Chrome side panel can run as a Claude Cowork session once it’s enabled for your organization. Side panel sessions are saved to users' history, move with them across surfaces, and support their skills, plugins, and connectors. Until you enable it, users see the classic side panel.
+
+ 
+
+**To turn on the Cowork side panel for your organization:**
+
+1. Enable Cowork in the cloud for your organization in **[Organization settings > Cowork](https://claude.ai/admin-settings/cowork)**. See **[Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879)**.
+2. Navigate to **[Organization settings > Claude in Chrome](https://claude.ai/admin-settings/browser-extension)** and toggle **Enable for your team** on.
+3. Deploy the extension through your Chrome management tools, or have users install it from the **Chrome Web Store**.
+
+If your organization already uses Claude in Chrome, users will see the Cowork side panel automatically once you enable Cowork in the cloud. Users don’t need to reinstall anything.
 
  
 
@@ -124,7 +138,7 @@ We recommend sharing these resources with users before they start using Claude i
 ## Related Articles
 
 - [Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)
-- [Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)
 - [Claude in Chrome troubleshooting](https://support.claude.com/en/articles/12902405-claude-in-chrome-troubleshooting)
 - [Use Claude in Chrome safely](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely)
+- [Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide)
 - [Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude)
