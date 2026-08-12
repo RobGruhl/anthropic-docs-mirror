@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786485600&signature=42bbbee8fd1488486745602e659844e79618dcae9828e01e1ff34f417e19b2c4&req=diAjFMp7n4FZWfMW1HO4zU6VRfvOQLlvxNdRzYWrfF5cykQNYasN%2BwNCiVFP%0AtRVW4BNggvw7oqK0IRU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786498200&signature=38e584963f0edef778d06b04fd4a61b5f3c77be6c14cabf2c711fa082d53ae9b&req=diAjFMp7n4FZWfMW1HO4zU6VRfvOQbRrxNdRzYWrfF5wcv0SHLlIhU99swKx%0AOcPt2zpyHCm4%2FeOZwMo%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786485600&signature=07a452a5041377f4345bef5717c26cc22ea1cfddecbc7288e3606b0faf52d536&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyRaFUMy8OQfYsvK3zyKFybDU6Pt2a3%2FWjn%0Aic6CROjcXStuooUOx1s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786498200&signature=6f5102e77c4f456eff14fda6e7144162b018ba2587b6bf013f93bdb20f8391b2&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyRaVgIy8OQfYsvK3xnlWS1zo7ZrzO8NNdY%0AokTILsq%2BrmZLpqr%2BOWA%3D%0A)
 
  
 
