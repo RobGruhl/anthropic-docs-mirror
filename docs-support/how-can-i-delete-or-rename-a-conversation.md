@@ -1,6 +1,6 @@
 # Delete or rename a conversation
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -44,9 +44,9 @@ These steps apply to Claude for iOS, listed on the App Store as Claude by Anthro
 3. Tap "Rename" or "Delete."
 4. If deleting, tap "Delete" again in the confirmation prompt.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599501318/75c28edc693efbe8befd21e4da64/d18a921a-df4b-4788-833c-12c966a32527?expires=1786536000&signature=54f22868056772a8eece16d62b96e6e5e0b7a7a14201448d2b11a36bcba28e96&req=diUuH8x%2BnIJeUfMW3nq%2Bgcnum%2FlSDXu5oRGqhleo9aAP7ym8GHbEGecefCpo%0AzTR%2F2LlxX4sxyu7xZTmCoi6iEDs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599501318/75c28edc693efbe8befd21e4da64/d18a921a-df4b-4788-833c-12c966a32527?expires=1786540500&signature=0ee96d2dcf5ab5b1e1a7228216b8465bf32eea69a7629c6a31ff0fd8cf7ccbff&req=diUuH8x%2BnIJeUfMW1HO4zSc12ahfjGCu1DBI29QsIlFk3Q%2FUf5korLUoBFWk%0ADVZQN%2F5zsWsR1yDAbuE%3D%0A)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493852/2e58b92d18f307bb79ae30650f26/1bbe52f3-202b-4d5d-9f9a-eeda4d6952c3?expires=1786536000&signature=7101fec108fc03ed284f23ac98bc1a3c7fe7d32e9b45bd754995530a589bdbfc&req=diUuH813nolaW%2FMW3nq%2BgSNa%2FzQq2FmWT7LeWkerT3HBErRrM5M2zIvVXL5V%0A6fjB%2F4NE7tyUcye3JiIihGZcRAc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493852/2e58b92d18f307bb79ae30650f26/1bbe52f3-202b-4d5d-9f9a-eeda4d6952c3?expires=1786540500&signature=dacfc5a71405a69620abe9255b4d0f274161465b50bdf6ca03b580681869d204&req=diUuH813nolaW%2FMW1HO4zTjXMuGJKsDgj7blKEDtUI2DrePxUmsAyDwRfnVR%0APqrFdXV9Kwx8N3mD21Y%3D%0A)
 
  
 
@@ -54,9 +54,9 @@ You can also delete the conversation you have open: tap the "⋯" button in the 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493848/997184c386d0e6fb0bd2d7c1f2b6/5d2bc394-25fc-4814-8c2a-2f54d004f83f?expires=1786536000&signature=a72415ab7283950c5eec26f29e2bf9053c8deeb4b9519f4bccbb5d48d0636b61&req=diUuH813nolbUfMW3nq%2BgbvcA5qitGb3Q7wbzV4hhFc85TwuDTavKz7gDorh%0Av02H10vzSyhjN8aCY8UbrwdxjHs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493848/997184c386d0e6fb0bd2d7c1f2b6/5d2bc394-25fc-4814-8c2a-2f54d004f83f?expires=1786540500&signature=3ded13fcd112b6e71a02a14d19727243c055f4f8d04379456f50422ae53d531d&req=diUuH813nolbUfMW1HO4zVCIqpzKz9xDzQl%2BKgU984ynmMNIP66DS6h3%2FxlT%0A3PpFbjkQFxsejb7ruiI%3D%0A)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493856/799041da9fa918e90068c5ebf5bd/2e8d5cee-c45a-41d7-a14b-486e50a37f88?expires=1786536000&signature=8798e6a7fe9123032823df0d99d86c7bbbcde266014ffeace614270ec52cdc1b&req=diUuH813nolaX%2FMW3nq%2Bgd5mh3Cvi5%2FrHk6kmGIZWnEUMDKTHDTXoX6qsNe%2B%0AQvCJ6KKqrbAJNVXH2gGWWUUbygg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493856/799041da9fa918e90068c5ebf5bd/2e8d5cee-c45a-41d7-a14b-486e50a37f88?expires=1786540500&signature=225619141d7210143343500886f52e5c4edf15f4d1c558828ff7794280b1401f&req=diUuH813nolaX%2FMW1HO4zVCl4A731WVIEDIU8RT6jk0HYGDq2%2F0jLs7H8pqr%0AJ1hU3u9fZpXTqgLI9lM%3D%0A)
 
  
 
@@ -72,9 +72,9 @@ These steps apply to the Claude for Android, listed on Google Play as Claude by 
 2. Tap "Rename" or "Delete."
 3. If deleting, tap "Delete" again in the confirmation prompt.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493850/a64e6561222d535f2f5bd03e71f0/5de429c2-d8ed-4e8a-89e8-a13ccaa49767?expires=1786536000&signature=0debf35da137ed00cf3af24221b085ec3f697dc948c0901de7f043cd7dc2bd08&req=diUuH813nolaWfMW3nq%2BgSg0pZEDVeEEqtLcwz%2FLdr7CxXfniDaM8JBlT3tH%0AH6ds20b2uA0sTNAjr6NxSnJ94Vw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493850/a64e6561222d535f2f5bd03e71f0/5de429c2-d8ed-4e8a-89e8-a13ccaa49767?expires=1786540500&signature=76fed1598f18d1e1db88634dcdb2e95b1770cd1a9fa78eed9e7c7abaf6742fe2&req=diUuH813nolaWfMW1HO4zVTdd9QpxlBwrqtc0YNNUtJQPjrmuv81TUCedjI8%0AEx7z0QLJlkRF8kHYKJ4%3D%0A)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493851/f21b39c60e88050d4b0745325f0d/0a8c0d08-dc53-4ef1-8d9f-2b995242c1f9?expires=1786536000&signature=27304f89ae722e136f9db1e841e8fcd41af8d4a1d5c09cd2f7094cdc159d9efd&req=diUuH813nolaWPMW3nq%2BgYwnzNiTvLhqfOr6TR1xIAr%2BH2D%2B7KZ5Gxdfb3zt%0Ar2F4sO5nWD%2BMvdj6M7%2F4TvfzQck%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493851/f21b39c60e88050d4b0745325f0d/0a8c0d08-dc53-4ef1-8d9f-2b995242c1f9?expires=1786540500&signature=da490a9a0e3f9ef48b8e9f1e9d9d1b3e25560ec0b4bd72296368a2a510cb8a59&req=diUuH813nolaWPMW1HO4zUYvw1MOpj5Z%2FjekULCQNzVBCJ%2FGRLO%2BMAU4ka3M%0AvkdEYTtwzBB6qbzPhRQ%3D%0A)
 
  
 
@@ -84,9 +84,9 @@ These steps apply to the Claude for Android, listed on Google Play as Claude by 
 2. Check the box next to each conversation you want to delete.
 3. Tap the trash icon, then tap "Delete" in the confirmation prompt.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493849/3013a0ab921337b4544f7ffeffa6/e828ec14-fb52-4205-a840-707b6f2a848d?expires=1786536000&signature=4165ae746ee8ca2a1bedeee7fbd6dbf24fd37f11befbceb10e0a49fa1e1017b4&req=diUuH813nolbUPMW3nq%2BgUlB5OJ36I432%2Frw2emiCkRHaNKw1q%2B9GWYs%2BVpW%0Arh6cX7GcGEC2A6MmmujcHcE8O9s%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493849/3013a0ab921337b4544f7ffeffa6/e828ec14-fb52-4205-a840-707b6f2a848d?expires=1786540500&signature=744cba9147a20bea23afb78ed64852f93efb183347bb429b1983fa361d9ac813&req=diUuH813nolbUPMW1HO4zWGamMFxfo3a4AqhTnZa84UT3I4pWHc4SqEOac9I%0Ax%2Fzdq2hBE7QVurB9bIQ%3D%0A)
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493853/e2507f53cce8a26776a22a457b1a/bd79bb8a-b078-420f-a4e1-75590367aa80?expires=1786536000&signature=430f77ce601bec4130345868f5457c8d13982070aca155598f53c7c9de472d49&req=diUuH813nolaWvMW3nq%2Bgc29FUV9yuQWptvBVsECh7QonRVPcB2eW5ZpGmJo%0AsGEW8C5AOZ5SXiQh9lvmE9Mrd7A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2599493853/e2507f53cce8a26776a22a457b1a/bd79bb8a-b078-420f-a4e1-75590367aa80?expires=1786540500&signature=4f27c7016067a95e94e27d7c7eddfe572a397ccf6afa66697d41327994817fcd&req=diUuH813nolaWvMW1HO4zQTtExP0wEA9SBGfF3I2bRicW1%2FJELReJkm2MZFR%0A8Go0kAghRi65FjBmhFE%3D%0A)
 
  
 

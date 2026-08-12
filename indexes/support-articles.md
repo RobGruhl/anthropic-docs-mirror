@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-12 09:57*
+*Last updated: 2026-08-12 12:47*
 Total documents: 244
 ---
 ## Uncategorized (244 documents)
@@ -266,7 +266,7 @@ Total documents: 244
 ### Delete or rename a conversation
 **File:** `/docs-support/how-can-i-delete-or-rename-a-conversation.md`  
 **Source:** https://support.claude.com/en/articles/8230524-how-can-i-delete-or-rename-a-conversation  
-**Updated:** 2026-08-11  
+**Updated:** 2026-08-12  
 
 ### Deploy Claude Desktop for Windows
 **File:** `/docs-support/deploy-claude-desktop-for-windows.md`  
@@ -691,7 +691,7 @@ Total documents: 244
 ### Manage usage credits for paid Claude plans
 **File:** `/docs-support/extra-usage-for-paid-claude-plans.md`  
 **Source:** https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans  
-**Updated:** 2026-08-10  
+**Updated:** 2026-08-12  
 
 ### Manage user feedback settings on Claude Console
 **File:** `/docs-support/managing-user-feedback-settings-on-claude-console.md`  
