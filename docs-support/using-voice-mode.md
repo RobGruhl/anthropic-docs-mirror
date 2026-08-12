@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786520700&signature=1813be41b682be43c90021072a2dc93a577a0415e315ab49f1715901f69caaca&req=diAjFMp7n4FZWfMW1HO4zU6VRfvPSrxuxNdRzYWrfF4CNhCZBiBn1B5zCR4m%0ATkl7Grl1rclzJC%2FIRT0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786530600&signature=7c7eecd5dcf9de8c2a779a9bb1b23b21707ecc7260d80423f292bb947b2edc63&req=diAjFMp7n4FZWfMW1HO4zU6VRfvPS7xvxNdRzYWrfF4UHn%2BLH3SRM5pvWoNW%0AxlqhLW1MnTMShUMo7D4%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786520700&signature=b4d6868baed2d97d4dce70d5c55cf87d527c27482e08f04871583689b0300fcd&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyQYlANy8OQfYsvK3zXEHODjsVE4H2Qp0nI%0Aud7lbv7R%2FsBnbkN1th8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786530600&signature=1fbb06ff875a2980991b1d3bf0aba374c375906a19c8b266d350e9d0d3cdb817&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyQY1AMy8OQfYsvK3wjRyOrww0czGweKOSW%0AjV8NhxMPLQoW02XR8l4%3D%0A)
 
  
 
