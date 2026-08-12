@@ -1,9 +1,9 @@
 # Enterprise Topic Index
-*Last updated: 2026-08-12 12:47*
+*Last updated: 2026-08-12 15:54*
 
-Documents related to Enterprise across all sources (11 documents)
+Documents related to Enterprise across all sources (12 documents)
 ---
-## Claude.com Blog Posts (11)
+## Claude.com Blog Posts (12)
 - [Building AI agents for the enterprise](/claude-blog/building-ai-agents-for-the-enterprise.md) - ![](https://cdn
 - [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
@@ -11,6 +11,7 @@ Documents related to Enterprise across all sources (11 documents)
 - [Claude for Enterprise](/claude-blog/claude-for-enterprise.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
+- [How Anthropic's business development team uses Claude to run inbound and outbound at scale](/claude-blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale.md) - ![](https://cdn
 - [How leading retailers are turning AI pilots into enterprise-wide transformation](/claude-blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation.md) - ![](https://cdn
 - [Inference hooks: inline data loss prevention for Claude Enterprise](/claude-blog/claude-enterprise-inference-hooks.md) - ![](https://cdn
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn

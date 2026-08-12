@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-08-12 12:47*
+*Last updated: 2026-08-12 15:54*
 
-Documents related to Skills across all sources (47 documents)
+Documents related to Skills across all sources (48 documents)
 ---
 ## Platform Documentation (platform.claude.com) (16)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -36,7 +36,7 @@ Documents related to Skills across all sources (47 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (22)
+## Claude.com Blog Posts (23)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [Building verification loops in Claude Code with skills](/claude-blog/building-verification-loops-in-claude-code-with-skills.md) - ![](https://cdn
@@ -46,6 +46,7 @@ Documents related to Skills across all sources (47 documents)
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Customize Cowork with plugins](/claude-blog/cowork-plugins.md) - ![](https://cdn
 - [Four role-based certifications for the people who put Claude to work for customers](/claude-blog/four-role-based-claude-certifications.md) - ![](https://cdn
+- [How Anthropic's business development team uses Claude to run inbound and outbound at scale](/claude-blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [Introducing the Claude Platform on AWS](/claude-blog/claude-platform-on-aws.md) - ![](https://cdn
 - [Lessons from building Claude Code: How we use skills](/claude-blog/lessons-from-building-claude-code-how-we-use-skills.md) - ![](https://cdn
