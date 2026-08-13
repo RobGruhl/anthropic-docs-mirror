@@ -1,6 +1,6 @@
 # Use skills in Claude
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -77,7 +77,7 @@ You can also create and upload your own skills to teach Claude your specific wor
 
 ## Share a skill
 
-On Team and Enterprise plans, you can share skills you've created with specific colleagues or with your entire organization. Skill sharing works in both chat and Cowork.
+On Team and Enterprise plans, you can share skills you've created with specific colleagues, groups, or with your entire organization. Skill sharing works in both chat and Cowork.
 
 To share a skill:
 
@@ -86,6 +86,7 @@ To share a skill:
 3. Click "Share."
 4. Choose who to share with:
 4. - **Specific people:** Enter names or emails to share directly. The skill appears in each recipient's skills list, grayed out until they enable it.
+- **A group:** Share with a group your organization has already set up. The skill appears in every group member's skills list, grayed out until they enable it. Requires the **Share with groups** toggle.
 - **Entire organization:** The skill is published to your organization's directory, where anyone can find and install it.
 5. Click "Share."
 
@@ -241,9 +242,15 @@ If skills appear greyed out, code execution may be disabled at the organization 
 
  
 
+### Group doesn't appear when I try to share a skill
+
+The group needs the **Share resources with this group** visibility setting turned on by an organization owner. Contact your organization owner if a group you expect to see is missing.
+
+ 
+
 ### Share button not visible
 
-Skill sharing for Team and Enterprise plans is off by default. An organization owner must enable peer-to-peer or peer-to-org sharing before you can share skills. Contact your organization owner if you'd like sharing enabled.
+Skill sharing for Team and Enterprise plans is off by default. An organization owner must enable peer-to-peer, peer-to-org, or group sharing before you can share skills. If your organization uses custom roles, make sure your role also has this capability enabled. Contact your organization owner if you'd like sharing enabled.
 
  
 

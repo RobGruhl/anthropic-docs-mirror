@@ -212,6 +212,10 @@ Claude Code utilise des fichiers de configurationCLAUDE.mdqui documentent vos no
 
 Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+
+### Comment les équipes d'Anthropic utilisent Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### Comment l'IA aide à surmonter la barrière des coûts liée à la modernisation de COBOL
@@ -223,10 +227,6 @@ Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
 
 ### Le guide du fondateur et de la fondatrice : créer une startup fondée sur l’IA
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
-
-### Claude pour le secteur juridique
 
 ## Transformez le fonctionnement de votre organisation avec Claude
 
