@@ -1,6 +1,6 @@
 # Set up the Microsoft 365 connector
 
-*Updated yesterday*
+*Updated in the last hour*
 
 ---
 
@@ -209,6 +209,7 @@ During authentication, the integration requests the following permissions:
 - <code>Mail.Read</code>: Read email messages
 - <code>Mail.ReadBasic</code>: Read email metadata (sender, subject, date)
 - <code>Mail.Read.Shared</code>: Read emails in mailboxes the user has access to
+- - **Note:** Shared mailbox access is included through the <code>Mail.Read.Shared</code> permission. Users can search shared mailboxes they have delegate access to in Microsoft 365, including full access and folder-level delegation. No setup is needed beyond standard admin consent and the delegate permissions already configured in Microsoft 365.
 - <code>MailboxFolder.Read</code>: Read mailbox folder structure
 - <code>MailboxItem.Read</code>: Read items in mailbox
 - <code>MailboxSettings.Read</code>: Read mailbox settings, like the user's timezone
@@ -328,8 +329,8 @@ Only after an Entra admin grants write scopes. With write tools on, Claude can s
 
 ## Related Articles
 
-- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
+- [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365)
