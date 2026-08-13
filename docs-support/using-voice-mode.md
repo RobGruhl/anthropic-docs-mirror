@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786626900&signature=174a5537c846162762611e1e7a42646f10ac8721a080dcdf8dd71f95df0ba1a0&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMSrpgxNdRzYWrfF48nOjaai8tlAfJfQFr%0AOkIAcT7220ACJcXimmQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786637700&signature=233d57e45f09dab6b01d8119315402fd79373d7f3bde84156180c873f9033c31&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMS7tuxNdRzYWrfF6n8d7HtQfFYwu7yOiJ%0AuUOxnu2f8%2FQAEcjCfkw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786626900&signature=dca55ac79bffd889951f049a12729b5dc9ceca4da3fc15aabe144e4890174b0b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTYlYDy8OQfYsvK3yac1IdC7ykkpg2Xa72%0AZYxCg0M5bNfCSuRJ2mk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786637700&signature=f2b3a978c110c091500f6120269b909353414be88d203e4058836411261c553f&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTY1cNy8OQfYsvK3yCP8TDBvRhEYEaoy2L%0Ae%2FF6JFGt0k%2Bb%2Fep81HU%3D%0A)
 
  
 
