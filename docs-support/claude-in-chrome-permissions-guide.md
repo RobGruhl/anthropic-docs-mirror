@@ -94,7 +94,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1786585500&signature=6b05d3c0bfc8cfe01f816d0c4191a9c2d43421c69bbeeeb63086a2a5f3518ff7&req=diYnEsB5nYldXPMW1HO4zZ3NqmB1gCnp7A4lHPBihAW9geKwXIP7DEy3hOdX%0Az0HMTnKI4gsIq%2BdfnNk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1786598100&signature=b16a3685321c6ebf2839c74f5530e54292e8cd33a03fd8e54f5aac23348fbe3a&req=diYnEsB5nYldXPMW1HO4zZ3NqmB1gSTt7A4lHPBihAWOPlvYS2yqQgydRcYp%0Av2%2BtSl0IXtCeWkV%2B%2FXg%3D%0A)
 
  
 
