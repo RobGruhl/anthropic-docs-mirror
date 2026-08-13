@@ -1,6 +1,6 @@
 # Claude in Chrome permissions guide
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -94,7 +94,7 @@ There are some websites on which Claude requires approval for every action. If y
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1786648500&signature=89a2259af912861893108fcc000e41974db57d6fa36b7c5076d62b74368519a7&req=diYnEsB5nYldXPMW1HO4zZ3NqmB2jCTp7A4lHPBihAV7X63F7mMGfYClPxkR%0Ax727R%2BYG8SoAsToagck%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1786659300&signature=abab8d417d53a6ffa770d87d287560f8625f67abd161963d057455f9038e9975&req=diYnEsB5nYldXPMW1HO4zZ3NqmB2jSXv7A4lHPBihAXpT3Zbqs73MBSaMxDk%0A0R5Cp9%2BdD4fJmnVd6L0%3D%0A)
 
  
 

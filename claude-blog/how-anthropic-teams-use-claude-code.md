@@ -16,7 +16,7 @@ Teams bei Anthropic nutzen Claude Code für alles – von der Fehlersuche in der
 
 - TeilenLink kopierenhttps://claude.com/blog/how-anthropic-teams-use-claude-code
 
-Tools für agentisches Coding wie[Claude Code](https://www.anthropic.com/claude-code)helfen Entwicklern dabei, Workflows zu beschleunigen, sich wiederholende Aufgaben zu automatisieren und komplexe Programmierprojekte in Angriff zu nehmen. Da sich der Bereich weiterentwickelt, erfahren wir täglich etwas über neue Anwendungen durch die Nutzer, einschließlich unserer eigenen Mitarbeiter.
+Tools für agentisches Coding wie[Claude Code](https://claude.com/product/claude-code)helfen Entwicklern dabei, Workflows zu beschleunigen, sich wiederholende Aufgaben zu automatisieren und komplexe Programmierprojekte in Angriff zu nehmen. Da sich der Bereich weiterentwickelt, erfahren wir täglich etwas über neue Anwendungen durch die Nutzer, einschließlich unserer eigenen Mitarbeiter.
 
 Um mehr Informationen darüber zu erhalten, haben wir uns mit Mitarbeitern in Anthropic unterhalten, um herauszufinden, wie sie Claude Code bei der Arbeit nutzen.
 

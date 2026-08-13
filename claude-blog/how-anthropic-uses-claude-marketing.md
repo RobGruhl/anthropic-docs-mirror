@@ -61,7 +61,7 @@ To start, he opened Claude Code and described his problem through a prompt: "Cla
 
 Claude went out and did the research, evaluating how to best build a plugin, what the limitations were, and then started prototyping. After some troubleshooting, Austin had a working plugin installed in Figma.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e24b0eda1b6088668653_Screenshot%202026-01-14%20at%207.07.46%E2%80%AFPM.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e24b0eda1b6088668653_Screenshot%202026-01-14%20at%207.07.46%E2%80%AFPM.png)
 
 "All I would have to do is specify the frame of the creative, and then copy and paste just once all the different variations and copy that I wanted to update, and with the click of a button, the Figma plugin will create all the different permutations for that single image," Austin explains.
 
@@ -79,7 +79,7 @@ That refinement matters because Austin is evaluating each headline against what 
 
 And all of this builds on a human foundation. "All of the copy and examples that we provide Claude were written in partnership with the product marketing and copywriting teams," Austin says. That strong starting point means there's human judgment baked in before Claude even starts brainstorming.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e27920c4e24d437527d5_Screenshot%202026-01-14%20at%208.12.41%E2%80%AFPM.png)
+![__wf_reserved_inherit](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6977e27920c4e24d437527d5_Screenshot%202026-01-14%20at%208.12.41%E2%80%AFPM.png)
 
 ## Best practices for building your own workflows
 
@@ -133,7 +133,7 @@ Austin isn't the only marketer at Anthropic building with Claude. Across the mar
 
 There’s an opportunity developing for teams that adopt tools like Claude Code to spend less time on repetitive execution and more time on the things that matter to their job.
 
-Get started with[Claude Code](https://www.anthropic.com/claude-code)today. Stay tuned for more stories in the "How Anthropic uses Claude" series.
+Get started with[Claude Code](https://claude.com/product/claude-code)today. Stay tuned for more stories in the "How Anthropic uses Claude" series.
 
 ‍
 
@@ -151,6 +151,10 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
+
+### How Anthropic teams use Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
 ### Zero risk isn't the job: a CISO's guide to agentic AI
@@ -162,10 +166,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
 ### How Anthropic's business development team uses Claude to run inbound and outbound at scale
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
-### The Claude Cowork product guide
 
 ## Transform how your organization operates with Claude
 

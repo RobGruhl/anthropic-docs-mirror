@@ -1,7 +1,7 @@
 # Integrations Topic Index
-*Last updated: 2026-08-13 18:54*
+*Last updated: 2026-08-13 21:39*
 
-Documents related to Integrations across all sources (14 documents)
+Documents related to Integrations across all sources (15 documents)
 ---
 ## Claude Code Documentation (12)
 - [Claude Apps Gateway](/code-claude-docs/claude-apps-gateway.md)
@@ -17,7 +17,8 @@ Documents related to Integrations across all sources (14 documents)
 - [Llm Gateway Rollout](/code-claude-docs/llm-gateway-rollout.md)
 - [Third Party Integrations](/code-claude-docs/third-party-integrations.md)
 
-## Claude.com Blog Posts (2)
+## Claude.com Blog Posts (3)
 - [Claude Code와 Slack](/claude-blog/claude-code-and-slack.md) - ![](https://cdn
 - [Claude and Slack](/claude-blog/claude-and-slack.md) - ![](https://cdn
+- [Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions](/claude-blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions.md) - ![](https://cdn
 

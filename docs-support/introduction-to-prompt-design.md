@@ -19,4 +19,4 @@ For more information on effective prompt design, refer to our **[Claude API Docs
 - [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Claude Code FAQ](https://support.claude.com/en/articles/12386420-claude-code-faq)
 - [Access the Compliance API](https://support.claude.com/en/articles/13015708-access-the-compliance-api)
-- [Give Claude context: CLAUDE.md and better prompts](https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts)
+- [Set organization instructions](https://support.claude.com/en/articles/14546867-set-organization-instructions)

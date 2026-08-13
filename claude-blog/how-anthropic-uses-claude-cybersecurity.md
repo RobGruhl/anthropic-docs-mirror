@@ -109,7 +109,7 @@ Embracing non-determinism: Traditional security tooling treats inconsistency as 
 
 Check out our best practices for preparing your security program for AI-accelerated offense.
 
-Get started with[Claude Code](https://www.anthropic.com/claude-code)today. Stay tuned for more stories in the "How Anthropic uses Claude" series.
+Get started with[Claude Code](https://claude.com/product/claude-code)today. Stay tuned for more stories in the "How Anthropic uses Claude" series.
 
 *These results were generated using Claude Sonnet and Opus models.
 
@@ -125,21 +125,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-### Auto mode is now the default in Claude Code for Pro, Max, and Team plans
+### Product management on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
 
-### Running auto mode in production
+### Using Claude Code: The unreasonable effectiveness of HTML
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Millennium and Anthropic are building a digital risk analyst with Claude
+### Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Claude models explained: choosing the best model for your use case
+### Using Claude Code: session management and 1M context
 
 ## Transform how your organization operates with Claude
 

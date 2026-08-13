@@ -156,6 +156,10 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+
+### スキルの作成方法：主なステップ、制限事項、および事例
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### AI が COBOL モダナイゼーションのコスト障壁を打ち破る仕組み
@@ -167,10 +171,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
 
 ### YC のスタートアップ 3 社が Claude Code を活用してどのように会社を構築したのか？
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
-
-### スキルの作成方法：主なステップ、制限事項、および事例
 
 ## Claude を活用して組織運営の方法を変革
 
