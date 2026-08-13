@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786617000&signature=feb05ef803e858eb5fdfd36b453bc5e52eb4b47a159731b795076decdc985583&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMSbtpxNdRzYWrfF7tk2QU%2BO0w6rI%2FY5qo%0AgA69M5Wob6RuQexYn2M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786626900&signature=174a5537c846162762611e1e7a42646f10ac8721a080dcdf8dd71f95df0ba1a0&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMSrpgxNdRzYWrfF48nOjaai8tlAfJfQFr%0AOkIAcT7220ACJcXimmQ%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786617000&signature=69ca2d4bd570b67552dd6f1ee4e8f9cfe63ec13db1a59006c202dddc866bf25b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTYVcKy8OQfYsvK3zlUxczA8yv6PKhHywH%0AbqI8PYgg7%2F53Yur7W5Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786626900&signature=dca55ac79bffd889951f049a12729b5dc9ceca4da3fc15aabe144e4890174b0b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTYlYDy8OQfYsvK3yac1IdC7ykkpg2Xa72%0AZYxCg0M5bNfCSuRJ2mk%3D%0A)
 
  
 
