@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786598100&signature=596abebd6a4f2fb5d8164533df342bd22b0c6a62bd20dc04b9cbb2908a9dad84&req=diAjFMp7n4FZWfMW1HO4zU6VRfvPQbRoxNdRzYWrfF4zEwICrjm3oednFBUB%0AiBZHlgo6Mm1Rk5w0Neg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786607100&signature=18901ff17f3bf4da1cef6221f279f830f36b836d3befa631031e95b8b99b16fb&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMSLtoxNdRzYWrfF4eujUqbURd5PXocpA5%0Ap2zpMR1d%2Fs6nxE1eGrc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786598100&signature=d7bb2ec7c70c20b659bda8b714e45e4d7f07b49cb730a6ed85481b9a0be8ec11&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyQaVgLy8OQfYsvK3xHICbufX3RsYmILJ0S%0AfGewjCIXV0060JBZ7%2FA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786607100&signature=9870437b494ee6c09707515b5585a5e25c4f57209ac75aa3cb84ec5d8a6a85a6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTYFcLy8OQfYsvK3wlum9WPG710Vi3MM8X%0AFY8g7188896vzAQ1O84%3D%0A)
 
  
 
