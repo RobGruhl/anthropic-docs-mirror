@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786724100&signature=b6682a9d3daaf7faafd2a0c9036b21155ba464e72f5db85be196eecd5c18a280&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSrhoxNdRzYWrfF53FmyjLa5aeZQI9P4j%0AjswduCD5I21ofcozLLM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786734900&signature=ebac25c763c6161efce1b83f4c091e0c0cd0ef081ce5f6aa873ec79a42835bd7&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNS7hgxNdRzYWrfF6p7a0xPprSFnlJFF9k%0AVaE1iHraEUmqmIK0CP0%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786724100&signature=74f8435033009ca1d8a90c2fa3704c36f0578e381998a25a33ca63ed02c44336&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYlQLy8OQfYsvK3zTP9bcKfeeY8CVLgTr%0AxI317ISPnKq73PP1Jns%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786734900&signature=f15b2a34abb295f62570161946116d05d41bd812263bb5f7ec1b818e03f45751&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySY1QDy8OQfYsvK3yMsTx1YO35GQTOISoR%0AgiB4nHjrQtNuw1BJylM%3D%0A)
 
  
 

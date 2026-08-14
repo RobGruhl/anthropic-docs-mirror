@@ -5622,8 +5622,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-14T15:41:46.063802",
-    "fetch_duration_seconds": 9.718927,
+    "last_fetch_completed": "2026-08-14T18:40:25.691890",
+    "fetch_duration_seconds": 8.242688,
     "total_pages_discovered": 563,
     "pages_fetched_successfully": 562,
     "pages_failed": 1,
@@ -5647,5 +5647,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-14T15:41:46.063992"
+  "last_updated": "2026-08-14T18:40:25.692074"
 }

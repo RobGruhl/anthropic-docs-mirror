@@ -8,7 +8,7 @@ When you navigate to the **[Claude Console](https://platform.claude.com)**, you 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1786724100&signature=b64d3581dc500699fd890d1a19188d5bb2190db0adc8c358fbac0707994c1259&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54%2FrooQM8vUNcPt4%2B726voSbbm1s9Rv%2Bdd3j%0An00O4gNYWYvgF2fyj2Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1786734900&signature=f25c1d1a2b6e53369a4f8cd31d268c2e0ac747adc8a66517310ef292e24db026&req=dSkkE8l8m4dbX%2FMW1HO4zcrI54%2Fro4QE8vUNcPt4%2B71sdrOb0OZ7O47uAart%0AjbOGtlWNBC4ugPfdJfs%3D%0A)
 
  
 
@@ -97,4 +97,4 @@ Yes, you can have both a Claude account (for using Claude at claude.ai) and a Co
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Google Workspace SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917817-google-workspace-sso-scim-email-mismatch)
 - [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
-- [SSO login](https://support.claude.com/en/articles/14503613-sso-login)
+- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)

@@ -53,5 +53,5 @@ You can learn more about our data handling practices and commitments at our **[H
 - [Report, block, and remove content from Claude](https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude)
 - [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
 - [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
+- [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
 - [Report, block, and remove content from Claude](https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude)
-- [Claude Code power user tips](https://support.claude.com/en/articles/14554000-claude-code-power-user-tips)

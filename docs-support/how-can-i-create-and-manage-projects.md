@@ -104,7 +104,7 @@ You can move a standalone chat into a project by clicking on the dropdown arrow 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1786724100&signature=7be9307bcf4221108a75d6fd026c95287032ea4a8c8c383410cfe385204053f7&req=dScvEsh3nYNbUfMW1HO4zQABaWdrSKQUBSXNVFXQ%2FVG%2FVMts14fyz%2B7iR1Lq%0Ahrm93EhryXIwxNq2wE0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1786734900&signature=adff1f4dde46d660c439fa11a1b4c261e694c1d9e6ce61a4ef85d5675bcfb611&req=dScvEsh3nYNbUfMW1HO4zQABaWdrSaQcBSXNVFXQ%2FVEKObewOOMkyhRLXoh%2B%0AJZQaRUCQS25nKe90hoI%3D%0A)
 
  
 
@@ -112,7 +112,7 @@ Browse or search for the correct project in the **Move chat** modal that appears
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1786724100&signature=422cce2752687079b747c4a4c36fe2c1a68a7a7c50695ca169d0247bc42a1f52&req=dScvEsh3nYhaWPMW1HO4zSMECia3yQ0AgYbpTjViBxAkK0T6ilJNLIrB5j%2Ff%0AVmTgtRVnaiy42E%2FzM54%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1786734900&signature=d1ee6131863afbc85905c328f0b48848630fa0e97c08bbecaeea66f32acc7c32&req=dScvEsh3nYhaWPMW1HO4zSMECia3yA0IgYbpTjViBxBmCOMXyuQFr6dhoYVe%0A4wxhnCWoKibxj%2BrBVrs%3D%0A)
 
  
 
@@ -120,7 +120,7 @@ You can also remove chats from projects, or move them between projects, using th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1786724100&signature=8b4d6434f8f188efdbe856870db667785d7dc32ee24064c74fa2e99f53fe3485&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPErDEELS2r1%2FGRlqORAEA8opUlmglh7eB%2Fe%0AUBGDy%2FLXT%2BKMJFZG%2FaM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1786734900&signature=abf83eaecfe4513955e44c3b38f63c52e3fc737e7af6023514f51935ef026b55&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPErDUEDS2r1%2FGRlqORFe2pZ0bXc1%2FOAsQoU%0AdBrXB6NzeAwn3Vry8eI%3D%0A)
 
  
 
@@ -128,7 +128,7 @@ You can move chats into projects in bulk from **[Your chat history page](https:/
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1786724100&signature=09633cd6d1642d71ade43f4ca84b50f1d5041396088222ad39af31ef2b51d108&req=dScvEsh2mIdXXPMW1HO4zbParUpO6%2F6iuQSB0Ebsw9cR8u1o6gHlUQkKVSP%2B%0AMQpMIa84UR%2BtZQiy2CU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1786734900&signature=b605a1414f189a936f434d64d651688c6a0eb60666fa31d0e0f50ba37599eccf&req=dScvEsh2mIdXXPMW1HO4zbParUpO6v6quQSB0Ebsw9duLBRwdUKALRXpuJS5%0AQxZFi%2FfMvtHp9eqpcE4%3D%0A)
 
  
 
@@ -224,6 +224,6 @@ There are two ways to make archived project active again:
 
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
+- [Retrieval augmented generation (RAG) for projects](https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects)
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
-- [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
