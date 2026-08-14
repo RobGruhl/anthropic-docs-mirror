@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786713300&signature=5356c36c3e574f8157af176a79fcc46bf8cd1d5a862c5028ad8ff5482eeb8159&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSb9qxNdRzYWrfF4Cd3aS55W%2BJS1keL%2Bc%0ATq6TKULL1LfpIG8VilA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786724100&signature=b6682a9d3daaf7faafd2a0c9036b21155ba464e72f5db85be196eecd5c18a280&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSrhoxNdRzYWrfF53FmyjLa5aeZQI9P4j%0AjswduCD5I21ofcozLLM%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786713300&signature=6cb23ff4e330b8b372d3fe78b71f7c6019ad8e57dffe4b94834d09517480859e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYVMJy8OQfYsvK3y9WIN1Yx3i%2BMJetoSG%0Ai9qks0WYZqye0A%2F4m1A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786724100&signature=74f8435033009ca1d8a90c2fa3704c36f0578e381998a25a33ca63ed02c44336&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYlQLy8OQfYsvK3zTP9bcKfeeY8CVLgTr%0AxI317ISPnKq73PP1Jns%3D%0A)
 
  
 
