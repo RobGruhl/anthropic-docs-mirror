@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786693500&signature=377cea99b7ff43fb0292840c1c43492bc97458458b3ebd43574867067cbf5d28&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMQb9sxNdRzYWrfF5HorRCId7ojvRaQhLf%0AWy0kubqPW5vQz%2Fgpl7w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786703400&signature=03e6faad50b00fecddf0d7f6f60e93615c37f0d135ab3a9e3abb66c02da197cb&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSL9txNdRzYWrfF7kZkV8DBsBm6Y%2Fi8gO%0APwrSd4ab7qPZhEEOfXg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786693500&signature=ab2e397e3031eb7e385660f496f95ca291f9abf56ec2410bc6caa1bd983bb414&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTaVMPy8OQfYsvK3yyLbuDgAEgpSgfAZ3G%0A1bJqXJPqXmynNpYYyjQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786703400&signature=db79f596f7fdbc1ae61ba31d523a688a50e373d740decaf43ad1b34d8fbd8783&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYFMOy8OQfYsvK3zRR72Ubawl3dEuFco6%0AQ5lGV4Wr3DccIKLWB6w%3D%0A)
 
  
 
