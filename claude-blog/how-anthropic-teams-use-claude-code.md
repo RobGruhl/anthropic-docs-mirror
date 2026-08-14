@@ -1,123 +1,131 @@
-# Come i team di Anthropic utilizzano Claude Code
+# Wie Anthropic-Teams Claude Code verwenden
 ---
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
-# Come i team di Anthropic utilizzano Claude Code
+# Wie Anthropic-Teams Claude Code verwenden
 
-I team di Anthropic utilizzano Claude Code per qualsiasi attività, dal debug dei problemi di produzione o la navigazione nelle codebase sconosciute fino alla creazione di strumenti di automazione personalizzati. Scopri come.
+Teams bei Anthropic nutzen Claude Code für alles – von der Fehlersuche in der Produktion über die Navigation unbekannter Codebasen bis hin zur Erstellung benutzerdefinierter Automatisierungstools. So geht's.
 
-- CategoriaIA aziendale
+- KategorieKI für Unternehmen
 
-- ProdottoClaude Code
+- ProduktClaude Code
 
-- Data24/7/25
+- Datum24.7.2025
 
-- Tempo di lettura5min
+- Lesezeit5Min
 
-- CondividiCopia linkhttps://claude.com/blog/how-anthropic-teams-use-claude-code
+- TeilenLink kopierenhttps://claude.com/blog/how-anthropic-teams-use-claude-code
 
-Gli strumenti di programmazione di tipo agentico come[Claude Code](https://claude.com/it/product/claude-code)aiutano chi sviluppa ad accelerare i flussi di lavoro, automatizzare le attività ripetitive e affrontare progetti di programmazione complessi. Con l'evolversi del settore, ogni giorno scopriamo nuove applicazioni, sia dagli utenti, sia dai nostri stessi dipendenti.
+Tools für agentisches Coding wie[Claude Code](https://claude.com/de/product/claude-code)helfen Entwicklern dabei, Workflows zu beschleunigen, sich wiederholende Aufgaben zu automatisieren und komplexe Programmierprojekte in Angriff zu nehmen. Da sich der Bereich weiterentwickelt, erfahren wir täglich etwas über neue Anwendungen durch die Nutzer, einschließlich unserer eigenen Mitarbeiter.
 
-Per saperne di più, abbiamo parlato con diversi dipendenti di Anthropic per capire come utilizzano Claude Code per svolgere il proprio lavoro.
+Um mehr Informationen darüber zu erhalten, haben wir uns mit Mitarbeitern in Anthropic unterhalten, um herauszufinden, wie sie Claude Code bei der Arbeit nutzen.
 
-Sebbene molti dei casi d'uso fossero prevedibili (debug, navigazione nelle codebase, gestione dei flussi di lavoro), altri ci hanno sorpreso. In campo legale, sono stati creati sistemi ad albero telefonico. Nel campo del marketing, sono state generate centinaia di varianti pubblicitarie in pochi secondi. Nel campo della scienza dei dati, sono state create visualizzazioni complesse senza conoscere JavaScript.
+Während viele ihrer Anwendungsfälle vorhersehbar waren – Debugging, Navigation in Codebasen, Verwaltung von Workflows – haben uns andere überrascht. Anwälte haben Telefonstruktursysteme erstellt. Marketingexperten generierten in Sekundenschnelle Hunderte von Anzeigenvariationen. Datenwissenschaftler haben komplexe Visualisierungen ohne Kenntnisse von JavaScript erstellt.
 
-La tendenza è chiara: la programmazione agentica non sta semplicemente accelerando lo sviluppo tradizionale, sta dissolvendo il confine tra lavoro tecnico e non tecnico, trasformando chiunque sia in grado di descrivere un problema in una persona capace di progettare una soluzione.
+Das Muster wurde klar: agentisches Coding dient nicht nur zur Beschleunigung der herkömmlichen Entwicklung. Die Grenze zwischen technischer und nichttechnischer Arbeit verschwimmt und jeder, der ein Problem beschreiben kann, wird zu jemandem, der eine Lösung erstellen kann.
 
-Ecco cosa abbiamo appreso.
+Folgendes haben wir in Erfahrung gebracht.
 
-### Navigazione e comprensione della codebase
+### Navigation und Verständnis der Codebasis
 
-I team di tutta l'azienda utilizzano Claude Code per aiutare le nuove persone assunte, ma anche i dipendenti di lunga data, a familiarizzare con le codebase.
+Teams im gesamten Unternehmen nutzen Claude Code, um neuen und langjährigen Mitarbeitern den Einstieg in unsere Codebasen zu erleichtern.
 
-I nuovi data scientist del nostro Infrastructure team forniscono a Claude Code l'intera codebase per diventare produttivi rapidamente. Claude legge i file[CLAUDE.md](http://claude.md)della codebase, identifica quelli pertinenti, spiega le dipendenze della pipeline dei dati e mostra quali fonti a monte alimentano le dashboard, sostituendo gli strumenti tradizionali di catalogazione dei dati.
+Neue Data Scientists in unserem Infrastrukturteam speisen ihre gesamte Codebasis in Claude Code  ein, um schnell produktiv zu sein. Claude liest die[CLAUDE.md](http://claude.md)-Dateien der Codebasis, identifiziert relevante Dateien, erklärt Datenpipeline-Abhängigkeiten und zeigt, welche vorgelagerten Quellen in Dashboards eingespeist werden und ersetzen herkömmliche Datenkatalog-Tools.
 
-Il nostro Product Engineering team ritiene che Claude Code sia il "primo step" per qualsiasi attività di programmazione. Claude viene usato per individuare quali file esaminare ai fini della correzione dei bug, dello sviluppo di nuove funzionalità o dell'analisi, saltando così il lungo processo di raccolta manuale delle informazioni di contesto necessario prima di sviluppare nuove funzionalità.
+Unser Produktentwicklungsteam nutzt Claude Code als erste Anlaufstelle für Programmieraufgaben. Sie bitten es, herauszufinden, welche Dateien auf Fehlerbehebungen, Funktionen oder Analysen untersucht werden sollen, wodurch der zeitaufwändige Prozess der manuellen Erfassung von Kontext vor der Erstellung neuer Funktionen entfällt.
 
-### Test e revisione del codice
+### Testen und Codeüberprüfung
 
-Gli strumenti di codifica agentici sono particolarmente apprezzati per la loro capacità di automatizzare due attività di programmazione critiche ma noiose: la scrittura di test unitari e la revisione del codice.
+Tools für agentisches Coding sind besonders beliebt wegen ihrer Fähigkeit, zwei kritische, aber mühsame Programmieraufgaben zu automatisieren: das Schreiben von Unit-Tests und die Überprüfung von Code.
 
-Il Product Design team utilizza Claude Code per scrivere test completi per le nuove funzionalità. Inoltre, ha automatizzato i commenti alle pull request tramite GitHub Actions e usa Claude per gestire automaticamente i problemi di formattazione e il refactoring dei casi di test.
+Das Produktdesign-Team verwendet Claude Code zum Schreiben umfassender Tests für neue Funktionen. Sie haben Pull-Request-Kommentare über GitHub-Aktionen automatisiert, wobei Claude Formatierungsprobleme und das Refactoring von Testfällen automatisch übernimmt.
 
-Il team di Security Engineering ha trasformato il proprio flusso di lavoro passando da un modello "progettazione della documentazione → codice approssimativo → rifattorizzazione → rinuncia ai test" a una procedura in cui viene chiesto a Claude lo pseudocodice, lo si guida attraverso lo sviluppo guidato dai test e si effettuano controlli periodici. Ciò crea un codice più affidabile e verificabile.
+Das Sicherheitstechnik-Team hat seinen Workflow von "Designdokument → Janky Code → refactor → aufgeben von Tests" umgewandelt und kann Claude um Pseudocode bitten, ihn durch die testgesteuerte Entwicklung führen und regelmäßig einchecken. Dadurch wird zuverlässiger, testbarer Code.
 
-La programmazione agentica può anche essere utilizzata per tradurre i test in altri linguaggi di programmazione. Ad esempio, quando l'Inference team ha bisogno di testare funzionalità in linguaggi meno familiari come Rust, spiega cosa vuole testare e Claude scrive la logica nel linguaggio nativo della codebase.
+Agentisches Coding kann auch zur Übersetzung von Tests in andere Programmiersprachen verwendet werden. Wenn das Inferenz-Team beispielsweise Funktionen in unbekannten Sprachen wie Rust testen muss, erklärt es, was getestet werden soll, und Claude schreibt die Logik in der systemeigenen Sprache der Codebasis
 
-### Debug e risoluzione dei problemi
+### Debugging und Fehlerbehebung
 
-I problemi di produzione richiedono una risoluzione rapida, ma cercare di ragionare sui codici meno conosciuti quando si è sotto pressione porta spesso a ritardi. Per molti team all'interno dell'azienda, Claude Code consente di accelerare la diagnosi e le correzioni analizzando le tracce dello stack, la documentazione e il comportamento del sistema in tempo reale.
+Produktionsprobleme erfordern eine schnelle Lösung, aber der Versuch, unter Druck unbekannten Code zu analysieren, führt oft zu Verzögerungen. Für viele Teams im Unternehmen beschleunigt Claude Code die Diagnose und Korrekturen durch die Analyse von Stack-Traces, Dokumentation und Systemverhalten in Echtzeit.
 
-Durante gli incidenti, il Security Engineering team fornisce a Claude Code le tracce dello stack e la documentazione per tracciare il flusso di controllo attraverso la codebase. I problemi che in genere richiedevano 10-15 minuti di scansione manuale ora vengono risolti 3 volte più rapidamente.
+Bei Vorfällen speist das Security Engineering-Team Claude Code Stack-Traces und Dokumentationen in den Kontrollfluss durch die Codebasis ein. Probleme, die normalerweise 10 bis 15 Minuten manuell scannen würden, werden jetzt 3-mal schneller gelöst.
 
-Con Claude Code, il Product Engineering team ha acquisito la sicurezza necessaria per affrontare i bug in codebase poco familiari. Le persone del team chiedono a Claude: "Puoi risolvere questo bug? Questo è il comportamento che sto osservando" ed esaminano la soluzione proposta senza dover fare affidamento sull'assistenza di altri team tecnici.
+Mit Claude Code gewann das Produktengineering-Team das Vertrauen, Fehler in unbekannten Codebasen zu beheben. Sie fragen Claude: „Können Sie diesen Fehler beheben? Dies ist das Verhalten, das ich sehe", und überprüfen Sie die vorgeschlagene Lösung, ohne dass andere Engineering-Teams um Unterstützung bitten müssen.
 
-In un caso, quando i cluster Kubernetes hanno smesso di pianificare i pod, il Data Infrastructure team ha utilizzato Claude Code per fare una diagnosi del problema. Una volta ottenuti gli screenshot della dashboard, Claude ha guidato le persone attraverso l'interfaccia utente di Google Cloud, menu per menu, fino a quando non è stato possibile individuare dove avveniva l'esaurimento degli indirizzi IP dei pod. Claude ha quindi fornito i comandi esatti per creare un nuovo pool IP in modo da aggiungerlo al cluster, facendo risparmiare 20 minuti di tempo prezioso durante l'interruzione del sistema.
+Als Kubernetes-Cluster die Planung von Pods stoppte, verwendete das Dateninfrastruktur-Team Claude Code zur Diagnose des Problems. Sie gaben Dashboard-Screenshots ein und Claude führte sie Menü für Menü durch die Benutzeroberfläche von Google Cloud, bis sie feststellten, dass die IP-Adressen nicht mehr verfügbar waren. Claude stellte dann die genauen Befehle bereit, um einen neuen IP-Pool zu erstellen und dem Cluster hinzuzufügen, was ihnen bei einem Systemausfall 20 Minuten wertvolle Zeit einspart.
 
-### Prototipazione e sviluppo di funzionalità
+### Prototyping und Funktionsentwicklung
 
-Lo sviluppo di nuove funzionalità richiede tradizionalmente conoscenze tecniche approfondite e un investimento in termini di tempo piuttosto significativo. Claude Code consente la prototipazione rapida e persino lo sviluppo completo di applicazioni, permettendo ai team di validare le idee rapidamente indipendentemente dalle loro competenze di programmazione.
+Die Erstellung neuer Funktionen erfordert traditionell tiefgreifendes technisches Wissen und erhebliche Zeitinvestition. Claude Code ermöglicht die schnelle Prototypenerstellung und sogar die vollständige Anwendungsentwicklung, sodass Teams unabhängig von ihrem Programmierwissen Ideen schnell validieren können.
 
-I membri del Product Design team, ad esempio, hanno fornito i file di design Figma a Claude Code e quindi impostato cicli autonomi in cui Claude Code scriveva il codice per la nuova funzionalità, eseguiva i test e iterava in modo continuo. Hanno fornito a Claude problemi astratti, hanno lasciato che Claude lavorasse in modo autonomo, poi hanno esaminato le soluzioni prima delle ottimizzazioni finali. In un caso, hanno fatto progettare a Claude delle combinazioni di tasti Vim per Claude con una revisione umana minima.
+Mitglieder des Produktdesign-Teams würden Figma-Designdateien an Claude Code weiterleiten und dann autonome Schleifen einrichten, in denen Claude Code den Code für die neue Funktion schreibt, Tests ausführt und kontinuierlich iteriert. Sie stellen Claude abstrakte Probleme zu, lassen es autonom arbeiten und überprüfen dann die Lösungen, bevor sie endgültige Verfeinerungen vornehmen. In einem Fall ließ Claude Vim-Key-Bindungen mit minimaler Überprüfung durch Menschen selbst erstellen.
 
-Con Claude Code, il Product Design team ha scoperto un utilizzo inaspettato: mappare stati di errore, flussi logici e stati del sistema per identificare i casi limite durante la fase di progettazione, anziché scoprirli in fase di sviluppo. Ciò ha migliorato enormemente la qualità iniziale dei progetti e consentito di risparmiare ore di debugging in seguito.
+Mit Claude Code entdeckte das Produktdesign-Team eine unerwartete Nutzung: Zuordnung von Fehlerzuständen, Logikabläufen und Systemstatus zur Identifizierung von Randfällen während des Designs, anstatt sie während der Entwicklung zu entdecken. Dies verbessert die anfängliche Designqualität grundlegend und erspart später stundenlange Debugging.
 
-Nonostante non conoscano bene il linguaggio TypeScript, i data scientist utilizzano Claude Code per progettare intere applicazioni React destinate alla visualizzazione delle prestazioni dei modelli RL. Dopo un singolo prompt in un ambiente sandbox, lo strumento scrive intere visualizzazioni in TypeScript da zero senza che sia necessario comprendere il codice. Data la semplicità del compito, se il primo prompt non è sufficiente, è possibile apportare piccole modifiche e riprovare.
+Obwohl Data Scientists nicht fließend mit TypeScript sprechen, verwenden sie Claude Code zur Erstellung ganzer React-Anwendungen zur Visualisierung der RL-Modellleistung. Nach einmaliger Eingabe in einer Sandbox-Umgebung schreibt das Tool ganze TypeScript-Visualisierungen von Grund auf neu, ohne den Code selbst zu verstehen. Wenn die Aufgabe so einfach ist, nimmt der Mitarbeiter kleine Anpassungen vor und versucht es erneut, wenn der erste Prompt nicht ausreicht, wenn er die Aufgabe so einfach ist und es nicht ausreicht.
 
-### Documentazione e gestione delle conoscenze
+### Dokumentation und Wissensmanagement
 
-La documentazione tecnica spesso si trova dispersa tra wiki, commenti nel codice e nella mente delle persone del team. Claude Code consolida il bagaglio di conoscenze tramite MCP e file CLAUDE.md in formati accessibili, rendendo le competenze disponibili a tutti coloro che ne hanno bisogno.
+Technische Dokumentationen sind oft verteilt auf Wikis, Codekommentare und Kopfzeilen der Teammitglieder. Claude Code konsolidiert dieses Wissen über MCP- und CLAUDE.md-Dateien in zugänglichen Formaten und stellt so jedem Fachmann zur Verfügung, der es benötigt.
 
-I membri del team di inferenza privi di competenze in ML si affidano a Claude per capire le funzioni specifiche del modello. Quello che normalmente richiedeva un'ora di ricerca su Google ora richiede 10-20 minuti: una riduzione dell'80% del tempo di ricerca.
+Mitglieder von Inferenzteams ohne ML-Hintergrund verlassen sich auf Claude, um modellspezifische Funktionen zu erläutern. Was normalerweise eine Stunde dauert, dauert jetzt 10 bis 20 Minuten – eine 80 % weniger Forschungszeit.
 
-Il Security Engineering team chiede a Claude di elaborare molteplici fonti di documentazione per creare runbook in markdown e guide alla risoluzione dei problemi. Questi documenti condensati diventano il contesto per il debug di problemi reali in produzione, il che è spesso più efficiente rispetto alla ricerca all'interno di basi di conoscenza complete.
+Das Security Engineering-Team kann Claude mehrere Dokumentationsquellen einbeziehen, um Markdown-Runbooks und Fehlerbehebungshandbücher zu erstellen. Diese komprimierten Dokumente werden zum Kontext für das Debuggen echter Produktionsprobleme, was oft effizienter ist als das Durchsuchen vollständiger Wissensdatenbanken.
 
-### Automazione e ottimizzazione del flusso di lavoro
+### Automatisierung und Workflow-Optimierung
 
-Gli strumenti di programmazione agentici aiutano i team a creare automazioni personalizzate che tradizionalmente richiederebbero risorse di sviluppo dedicate o software costosi.
+Mit Tools für agentisches Coding können Teams benutzerdefinierte Automatisierungen erstellen, die normalerweise spezielle Entwicklerressourcen oder teure Software erfordern würden.
 
-Il Growth Marketing team ha sviluppato un flusso di lavoro agentico che elabora file CSV contenenti centinaia di annunci, identifica quelli con prestazioni insufficienti e genera nuove varianti nel rispetto di rigidi limiti di caratteri. Utilizzando due sottoagenti specializzati, il sistema genera centinaia di nuovi annunci in pochi minuti quando prima erano necessarie diverse ore.
+Das Growth Marketing-Team hat einen agentischen Workflow entwickelt, der CSV-Dateien mit Hunderten von Anzeigen verarbeitet, Performance-Unterschiede identifiziert und neue Variationen innerhalb einer strikten Zeichenbegrenzung generiert. Mithilfe von zwei speziellen Subagenten generiert das System Hunderte von neuen Anzeigen in Minuten statt Stunden.
 
-Il team ha inoltre sviluppato un plugin Figma che identifica i frame e genera programmaticamente fino a 100 varianti di annunci scambiando titoli e descrizioni, riducendo ore di copia e incolla a un mezzo secondo di lavoro per ogni gruppo di annunci.
+Sie entwickelten außerdem ein Figma-Plugin, das Frames identifiziert und programmgesteuert bis zu 100 Anzeigenvariationen generiert, indem Überschriften und Beschreibungen getauscht werden. Dadurch wird der stundenlange Zeitaufwand für das Einfügen von Kopien auf eine halbe Sekunde pro Anzeigenstapel reduziert.
 
-In un caso d'uso particolarmente unico, il team legale ha creato prototipi di sistemi ad "albero telefonico" per aiutare le persone del team a mettersi in contatto con l'avvocato giusto presso Anthropic, dimostrando come i dipartimenti possano creare strumenti personalizzati senza le tradizionali risorse di sviluppo.
+In einem besonders einzigartigen Anwendungsfall erstellte das Rechtsteam Prototypen von "Telefonbaumsystemen", um Teammitgliedern die Verbindung mit dem richtigen Anwalt in Anthropic zu erleichtern. Dabei wurde gezeigt, wie Abteilungen ohne herkömmliche Entwicklungsressourcen benutzerdefinierte Tools erstellen können.
 
-### Sbloccare nuove possibilità con Claude Code
+### Neue Möglichkeiten mit Claude Code
 
-Queste storie rivelano un pattern: Claude Code funziona meglio quando ci si concentra sui flussi di lavoro umani che può potenziare. I team di maggior successo trattano Claude Code come un vero e proprio partner e non come un semplice generatore di codice.
+Diese Berichte zeigen ein Muster: Claude Code funktioniert am besten, wenn Sie sich auf die Workflows konzentrieren, die es erweitern kann. Die erfolgreichsten Teams sehen Claude Code eher als Gedankenpartner als als als als Code-Generator.
 
-Esplorano le possibilità, creano prototipi rapidamente e condividono le scoperte tra utenti tecnici e non tecnici. Questo approccio collaborativo tra esseri umani e IA crea opportunità che oggi abbiamo appena iniziato a comprendere.
-
-## Costruire un'IA affidabile nell'azienda
-
-La guida di Anthropic su come iniziare, scalare e avere successo, basata su esempi reali e best practice.
+Sie erkunden Möglichkeiten, erstellen schnell Prototypen und teilen ihre Erkenntnisse mit technischen und nichttechnischen Benutzern. Dieser Ansatz der Zusammenarbeit zwischen Mensch und KI eröffnet Möglichkeiten, die wir erst zu verstehen beginnen.
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9140968560c6fe367e267_Hand-City-light.svg)
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68e9140d1a23dfc2e7405210_Hand-City-dark.svg)
+![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-FAQ
+Häufig gestellte Fragen
 
-Comincia a usare Claude Code.
+Erste Schritte mit Claude Code.
 
-## Articoli correlati
+## Ähnliche Beiträge
 
-Accedi alle altre novità sui prodotti e scopri le best practice per i team che programmano con Claude.
+Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
-### Come Brex migliora la qualità del codice e la produttività con Claude Code
+### Wie Brex mit Claude Code die Codequalität und Produktivität verbessert
 
-## Trasforma le operazioni della tua azienda con Claude
+![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
-Ricevi la newsletter sullo sviluppo
+### Welche Vorteile hat der Übergang zu agentischem Coding für die Softwareentwicklung?
 
-Aggiornamenti sui prodotti, guide utili, informazioni sulla community e molto altro. Ogni mese nella tua e-mail.
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-Inserisci il tuo indirizzo e-mail per ricevere la newsletter mensile sullo sviluppo. Puoi annullare l'iscrizione in qualsiasi momento.
+### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
+
+### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
+
+## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
+
+Entwickler-Newsletter abonnieren
+
+Neues zu Produkten, Anleitungen, Community-Spotlights und mehr. Monatlich in Ihrem Posteingang.
+
+Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie unseren monatlichen Entwickler-Newsletter erhalten möchten. Sie können sich jederzeit wieder abmelden.
 
 ---
-**Source:** https://claude.com/it/blog/how-anthropic-teams-use-claude-code
+**Source:** https://claude.com/de/blog/how-anthropic-teams-use-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

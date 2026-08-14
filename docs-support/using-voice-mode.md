@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786703400&signature=03e6faad50b00fecddf0d7f6f60e93615c37f0d135ab3a9e3abb66c02da197cb&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSL9txNdRzYWrfF7kZkV8DBsBm6Y%2Fi8gO%0APwrSd4ab7qPZhEEOfXg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786713300&signature=5356c36c3e574f8157af176a79fcc46bf8cd1d5a862c5028ad8ff5482eeb8159&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNSb9qxNdRzYWrfF4Cd3aS55W%2BJS1keL%2Bc%0ATq6TKULL1LfpIG8VilA%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786703400&signature=db79f596f7fdbc1ae61ba31d523a688a50e373d740decaf43ad1b34d8fbd8783&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYFMOy8OQfYsvK3zRR72Ubawl3dEuFco6%0AQ5lGV4Wr3DccIKLWB6w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786713300&signature=6cb23ff4e330b8b372d3fe78b71f7c6019ad8e57dffe4b94834d09517480859e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySYVMJy8OQfYsvK3y9WIN1Yx3i%2BMJetoSG%0Ai9qks0WYZqye0A%2F4m1A%3D%0A)
 
  
 
