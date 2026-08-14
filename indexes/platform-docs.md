@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-14 18:45*
-Total documents: 562
+*Last updated: 2026-08-14 21:19*
+Total documents: 563
 ---
-## Uncategorized (562 documents)
+## Uncategorized (563 documents)
 ### about-claude__glossary
 **File:** `/platform-docs/about-claude__glossary.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/glossary  
@@ -16,7 +16,7 @@ Total documents: 562
 ### about-claude__models__choosing-a-model
 **File:** `/platform-docs/about-claude__models__choosing-a-model.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/choosing-a-model  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### about-claude__models__introducing-claude-fable-5-and-claude-mythos-5
 **File:** `/platform-docs/about-claude__models__introducing-claude-fable-5-and-claude-mythos-5.md`  
@@ -32,6 +32,11 @@ Total documents: 562
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions  
 **Updated:** 2026-08-12  
+
+### about-claude__models__optimizing-for-cost-and-intelligence
+**File:** `/platform-docs/about-claude__models__optimizing-for-cost-and-intelligence.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence  
+**Updated:** 2026-08-14  
 
 ### about-claude__models__overview
 **File:** `/platform-docs/about-claude__models__overview.md`  
@@ -741,7 +746,7 @@ Total documents: 562
 ### agents-and-tools__agent-skills__best-practices
 **File:** `/platform-docs/agents-and-tools__agent-skills__best-practices.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### agents-and-tools__agent-skills__claude-api-skill
 **File:** `/platform-docs/agents-and-tools__agent-skills__claude-api-skill.md`  
@@ -756,7 +761,7 @@ Total documents: 562
 ### agents-and-tools__agent-skills__overview
 **File:** `/platform-docs/agents-and-tools__agent-skills__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
@@ -821,7 +826,7 @@ Total documents: 562
 ### agents-and-tools__tool-use__advisor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__advisor-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
@@ -836,7 +841,7 @@ Total documents: 562
 ### agents-and-tools__tool-use__code-execution-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__code-execution-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
@@ -1831,7 +1836,7 @@ Total documents: 562
 ### build-with-claude__prompt-engineering__prompting-claude-opus-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
@@ -2401,7 +2406,7 @@ Total documents: 562
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-14  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -2456,12 +2461,12 @@ Total documents: 562
 ### manage-claude__inference-hooks-configuration
 **File:** `/platform-docs/manage-claude__inference-hooks-configuration.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### manage-claude__inference-hooks-endpoint
 **File:** `/platform-docs/manage-claude__inference-hooks-endpoint.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-14  
 
 ### manage-claude__inference-hooks
 **File:** `/platform-docs/manage-claude__inference-hooks.md`  
@@ -2661,7 +2666,7 @@ Total documents: 562
 ### managed-agents__skills
 **File:** `/platform-docs/managed-agents__skills.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/skills  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-14  
 
 ### managed-agents__tools
 **File:** `/platform-docs/managed-agents__tools.md`  

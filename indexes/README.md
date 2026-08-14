@@ -1,9 +1,9 @@
 # Claude Documentation Index
-*Last updated: 2026-08-14 18:45*
+*Last updated: 2026-08-14 21:19*
 
 ## Quick Stats
-- **Total Documents:** 1713
-- **Platform Docs:** 562
+- **Total Documents:** 1714
+- **Platform Docs:** 563
 - **Claude Code Docs:** 187
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
@@ -18,7 +18,7 @@
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 562 docs from platform.claude.com
+- [Platform Documentation](platform-docs.md) - 563 docs from platform.claude.com
 - [Claude Code Documentation](code-claude-docs.md) - 187 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
