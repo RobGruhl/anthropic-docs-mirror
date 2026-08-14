@@ -212,6 +212,10 @@ Claude Code utilise des fichiers de configurationCLAUDE.mdqui documentent vos no
 
 Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les équipes qui créent avec Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
+
+### Comment créer des skills : étapes clés, limitations et exemples
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
 ### Comment les équipes d'Anthropic utilisent Claude Code
@@ -223,10 +227,6 @@ Découvrez plus d'actualités sur les produits et les bonnes pratiques pour les 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Observabilité pour les développeurs qui créent des connecteurs
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)
-
-### Le guide du fondateur et de la fondatrice : créer une startup fondée sur l’IA
 
 ## Transformez le fonctionnement de votre organisation avec Claude
 

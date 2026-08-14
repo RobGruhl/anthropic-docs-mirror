@@ -1,5 +1,5 @@
 # Claude Documentation Index
-*Last updated: 2026-08-13 21:39*
+*Last updated: 2026-08-14 01:09*
 
 ## Quick Stats
 - **Total Documents:** 1713
@@ -41,11 +41,11 @@
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 90 documents
+- [Tools](topics/tools.md) - 89 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
+- [Api](topics/api.md) - 62 documents
 - [Alignment](topics/alignment.md) - 62 documents
-- [Api](topics/api.md) - 61 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
 - [Skills](topics/skills.md) - 49 documents
 - [Agent Sdk](topics/agent-sdk.md) - 36 documents

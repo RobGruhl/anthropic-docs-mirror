@@ -1,10 +1,9 @@
-# How Brex improves code quality and productivity with Claude Code
-*October 30, 2025*
+# Wie Brex mit Claude Code die Codequalität und Produktivität verbessert
 ---
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)
 
-compliance rate vs 70% industry standard
+Konformitätsrate im Vergleich zum Branchenstandard von 70%
 
 ---
-**Source:** https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code
+**Source:** https://claude.com/de/blog/how-brex-improves-code-quality-and-productivity-with-claude-code
 *This is a mirror of the Claude.com blog post for local access and AI-assisted development.*

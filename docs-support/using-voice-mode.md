@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786659300&signature=1ce8fad746626a25f123abc1e45340a2189915216101d7b42613b4c05b203b08&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMTbVqxNdRzYWrfF6BDtg6AP68aFw8%2FqwD%0AhT0aEW33NB58XKMFAwg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786671900&signature=379c25caf131111624a1af884b9e5b364d5dbcb567fa59a4e03150d8d7c8b6dd&req=diAjFMp7n4FZWfMW1HO4zU6VRfvMT71gxNdRzYWrfF6u8Jpl%2BFbv28EKdbSc%0AlvTOJ35BTNKy%2BKAyTuk%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786659300&signature=deb6a6319c1abdc3b10e7e29ec256a6871add4c84d0fe44d0c65e9a8a78fde2a&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTZVkJy8OQfYsvK3w3WaFg9fLqYcM4fOQv%0Af%2FL0Ie5PdjTwgFC8q7I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786671900&signature=1ab5ee43276dd57f1d5e3d6f053ebbec31c2441f3d55f3dd5cbf50e1898c1af7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGyTZ1EDy8OQfYsvK3zOFBTdU1HRLstn%2BVXF%0AyHjvOZzOzfx9SVF5YNk%3D%0A)
 
  
 

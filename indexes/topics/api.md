@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-08-13 21:39*
+*Last updated: 2026-08-14 01:09*
 
-Documents related to Api across all sources (61 documents)
+Documents related to Api across all sources (62 documents)
 ---
 ## Platform Documentation (platform.claude.com) (11)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -16,7 +16,7 @@ Documents related to Api across all sources (61 documents)
 - [beta__skills__versions__list](/platform-docs/api-reference/beta__skills__versions__list.md)
 - [beta__skills__versions__retrieve](/platform-docs/api-reference/beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (50)
+## Claude.com Blog Posts (51)
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
@@ -35,6 +35,7 @@ Documents related to Api across all sources (61 documents)
 - [Claude can now use tools](/claude-blog/tool-use-ga.md) - ![](https://cdn
 - [Claude now works with more security and compliance tools](/claude-blog/compliance-api-security-partners.md) - ![](https://cdn
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
+- [Come i team di Anthropic utilizzano Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Compliance API coverage extends to Claude Cowork and Claude Code](/claude-blog/compliance-api-cowork-and-claude-code.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
 - [Fine-tune Claude 3 Haiku in Amazon Bedrock](/claude-blog/fine-tune-claude-3-haiku.md) - ![](https://cdn

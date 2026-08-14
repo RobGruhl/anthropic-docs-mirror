@@ -43,12 +43,6 @@ Rather, we’ll cover our five most important learnings over the past year for h
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Best practices for deploying a data analytics agent in Slack
-
-Getting an agent to beaccurateand getting itdeployed where non-analysts can use itturned out to be quite different motions. We won’t rehash our recommendations on accuracy from our prior post as they’re still applicable here.
-
-Rather, we’ll cover our five most important learnings over the past year for how to deploy a data analytics agent in Slack and how you should think about distribution, permissions, freshness, and observability.
-
 ### Refresh skills as often as you refresh your data models
 
 You can teach Claude how to do a task aligned with your style and requirements using a[skill](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more), which is a markdown file with natural language instructions and files Claude can reference when needed.

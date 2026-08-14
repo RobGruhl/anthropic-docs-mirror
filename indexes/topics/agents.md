@@ -1,5 +1,5 @@
 # Agents Topic Index
-*Last updated: 2026-08-13 21:39*
+*Last updated: 2026-08-14 01:09*
 
 Documents related to Agents across all sources (155 documents)
 ---
@@ -97,6 +97,7 @@ Documents related to Agents across all sources (155 documents)
 - [Claude on Amazon Bedrock now available to every AWS customer](/claude-blog/amazon-bedrock-general-availability.md) - ![](https://cdn
 - [Claude takes research to new places](/claude-blog/research.md) - ![](https://cdn
 - [Code w/ Claude London 2026: Rethinking how we build](/claude-blog/code-w-claude-london-2026-rethinking-how-we-build.md) - ![](https://cdn
+- [Come i team di Anthropic utilizzano Claude Code](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Common workflow patterns for AI agents—and when to use them](/claude-blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them.md) - ![](https://cdn
 - [Cowork and plugins for finance](/claude-blog/cowork-plugins-finance.md) - ![](https://cdn
 - [Cowork and plugins for teams across the enterprise](/claude-blog/cowork-plugins-across-enterprise.md) - ![](https://cdn
@@ -153,7 +154,6 @@ Documents related to Agents across all sources (155 documents)
 - [Using Claude Code: The unreasonable effectiveness of HTML](/claude-blog/using-claude-code-the-unreasonable-effectiveness-of-html.md) - ![](https://cdn
 - [Using Claude Code: session management and 1M context](/claude-blog/using-claude-code-session-management-and-1m-context.md) - ![](https://cdn
 - [What are the key benefits of transitioning to agentic coding for software development?](/claude-blog/key-benefits-transitioning-agentic-coding.md) - ![](https://cdn
-- [Wie Anthropic-Teams Claude Code verwenden](/claude-blog/how-anthropic-teams-use-claude-code.md) - ![](https://cdn
 - [Wie Unternehmen 2026 KI-Agenten entwickeln](/claude-blog/how-enterprises-are-building-ai-agents-in-2026.md) - ![](https://cdn
 - [Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night](/claude-blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night.md) - ![](https://cdn
 - [Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems](/claude-blog/working-at-the-frontier-cursor.md) - ![](https://cdn
