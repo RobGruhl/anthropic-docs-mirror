@@ -37,7 +37,7 @@ Follow these steps to enable the Claude in Chrome connector in your desktop app:
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1786756500&signature=6185413afcf989ee1c91ef2243d9e9400f88833fe600a851ce699e71712a546b&req=diYnEsB9noleWPMW1HO4zUOPbPrBk%2BSInt%2F2nPMwUPieNi1UB%2BD%2F%2BB6QX4RL%0A4aDQx2UqRjZ3aPM1TiM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1786766400&signature=61b5456c571def3a7570f1da797d5f996a9fd1310de813e0cab07d986f5b6ecb&req=diYnEsB9noleWPMW1HO4zUOPbPrBkOSJnt%2F2nPMwUPgqb%2FEHdttNMje%2B%2FEzQ%0AZe9oW1eim0pelLaIoTA%3D%0A)
 
  
 
