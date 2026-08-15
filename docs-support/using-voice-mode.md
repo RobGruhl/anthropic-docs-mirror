@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786797900&signature=4083ea3906922c7469ef704e523136f84db8bc7363cfb05f5467fe822bb7a7e9&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNQbtgxNdRzYWrfF4pfN2zq0%2F2whM0LO0G%0Axuzh0ES%2FVk2VjLjrI4k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786808700&signature=98ff9d4f05e156282414ac3349e789024767e43b8189f27a2a2bcb504ea9f864&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCSLRuxNdRzYWrfF6fdwXaZ9oQfso4kzA9%0ABeHb8DcOkNVLvoLlSyc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786797900&signature=05dfc18d87802fe3830f06126ecc0d5abde2ebea5e52787dec727ec194be22d3&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySaVcDy8OQfYsvK3zbQeZSSU%2BmoLiKU1x3%0A09KqetSoLrKOCZPo%2FiI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786808700&signature=02d6147008490bb6b4a6ef53d6ecf0532d46ec2a61e7ed40fe3cff142e9d8cac&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydYFgNy8OQfYsvK3yI07AalKlWK7lymmQa%0AriShEJQEfHz1lolwhRg%3D%0A)
 
  
 
