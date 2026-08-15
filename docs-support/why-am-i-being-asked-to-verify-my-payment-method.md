@@ -8,7 +8,7 @@ If you see the following pop-up when you log in to your Claude account, you’ll
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1786776300&signature=8c3ce96a7800bb0bc4497a72c62304a0d30aba8016ea5bc5049d5c9e32efe299&req=dSYkF81%2FnolZWPMW1HO4zf7%2BjELp74bxn6MrEicvimD8rJeo5zxpMNCdHsT%2B%0ATq6%2B8GtN3RGgUd8xaQ8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1631413861/42c3b13d7fc44a11a88ec2b9cd03/AD_4nXeMx8QXpeZZCkfAnVSwx8KZ9n4Vr2rvPdQddyE6ZNxch__F6ZqFs1G4ZmU52Wvb7gRlwRqquTLdw8IQv-gICDyP-MXqiQK_Oe7gX3SKsCKKt2IEpMx4qDeMeeZufMaJfv16XgOH5g?expires=1786787100&signature=5afd300f401795058336aae145791d2f592aa6518ebb9c8f9fc43138717cad27&req=dSYkF81%2FnolZWPMW1HO4zf7%2BjELp4Ifzn6MrEicvimAkeJDHLBkoWCkmEkEa%0Acz9TIGQpgvowcaIUU6c%3D%0A)
 
  
 
