@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786766400&signature=b174a578a245649733e888f8ce1b017208b0fb591a1e3c85589d199667a3152a&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNTrptxNdRzYWrfF6%2BtchF1xNjaFL0dorF%0Ap6fnkhWALbRGcKSV6rg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786777200&signature=7b6ab9b688c7d89047144f305cc03af201393e8471e652e8cb2dd8c9fc26f198&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNT7trxNdRzYWrfF5kXMefjA5M%2B6hsTJNl%0AhEVoThMKA%2F%2FfDfbuBfc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786766400&signature=e9994ebd4010a98a7894c8494021ea62513c06d06be96fddad95830e1cb85065&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySZlYOy8OQfYsvK3wvQYN1GjjfmXDJqWxM%0AQBRBPCDDaPRwxBGYckU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786777200&signature=007b4801c788aeefa5a03562acbf408305715fb3fb6af779460331ada21f3a52&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySZ1cIy8OQfYsvK3zrXxCcd99DgfEzP1Hu%0ApaCdQBQQoTLGSm51byg%3D%0A)
 
  
 
