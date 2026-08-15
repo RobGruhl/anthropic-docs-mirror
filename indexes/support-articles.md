@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-15 09:20*
+*Last updated: 2026-08-15 12:22*
 Total documents: 244
 ---
 ## Uncategorized (244 documents)
@@ -681,7 +681,7 @@ Total documents: 244
 ### Manage project visibility and sharing
 **File:** `/docs-support/project-visibility-and-sharing.md`  
 **Source:** https://support.claude.com/en/articles/9519189-project-visibility-and-sharing  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-15  
 
 ### Manage usage credits for Team and seat-based Enterprise plans
 **File:** `/docs-support/extra-usage-for-team-and-seat-based-enterprise-plans.md`  
@@ -876,7 +876,7 @@ Total documents: 244
 ### Team plan billing FAQs
 **File:** `/docs-support/team-plan-billing-faqs.md`  
 **Source:** https://support.claude.com/en/articles/12997503-team-plan-billing-faqs  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-15  
 
 ### Terms of Service Updates
 **File:** `/docs-support/terms-of-service-updates.md`  

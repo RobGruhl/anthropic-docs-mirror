@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786787100&signature=f9dca949f538e0cff23a0f8a9afd68d17333996079311b8a157257b50dec81e7&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNQLtoxNdRzYWrfF6Vo67X104xpxyYmt9p%0Az50nxwt69fMB7%2BRxZwA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786797900&signature=4083ea3906922c7469ef704e523136f84db8bc7363cfb05f5467fe822bb7a7e9&req=diAjFMp7n4FZWfMW1HO4zU6VRfvNQbtgxNdRzYWrfF4pfN2zq0%2F2whM0LO0G%0Axuzh0ES%2FVk2VjLjrI4k%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786787100&signature=318e692d0d3e00d77c8a7f22a918551843f8e3eb98ec2e11f114028bc9c42d01&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySaFcLy8OQfYsvK3wzmznhlzhotJSjBF%2F2%0A%2FZypz19mFPSOCwq6gJM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786797900&signature=05dfc18d87802fe3830f06126ecc0d5abde2ebea5e52787dec727ec194be22d3&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGySaVcDy8OQfYsvK3zbQeZSSU%2BmoLiKU1x3%0A09KqetSoLrKOCZPo%2FiI%3D%0A)
 
  
 
