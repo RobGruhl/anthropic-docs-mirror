@@ -1,5 +1,5 @@
 # Anthropic Research Papers Index
-*Last updated: 2026-08-15 18:17*
+*Last updated: 2026-08-15 21:15*
 Total documents: 102
 ---
 ## Alignment (36 documents)

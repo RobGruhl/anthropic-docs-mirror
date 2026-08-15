@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786819500&signature=3fa25478d425f71e1b6dcca1e9aa527d296fa5fe00ad46c4906f7260534a58a9&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCSbVsxNdRzYWrfF4t8RIrwz4VqtnFoJMo%0AUcWhPLSPvielzsd5T3k%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786830300&signature=059549afbefc127ee92560755b2046d99b3c31ca8fdf452cb25ea89b81b854c0&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCS7xqxNdRzYWrfF5G%2FhatFyQgz%2B0syQJK%0AVgFLaprB0iCVXJsIwVU%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786819500&signature=81ae0e032d2e88cbb7f9e5e0c0f12bb36f2d5400af5ee8923badbe54357b57f9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydYVkPy8OQfYsvK3y%2BZmlRCsytXQuXJ5%2Br%0A1vFdz70ehfSGso6fcUE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786830300&signature=1b9ab326200d4b39bd4486d6725af7ca96573eb10fceb2d93d8afee68041a737&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydY1AJy8OQfYsvK3xy70ECGyYtTGkZHlf5%0Ac%2BNk1%2FWQ9zXlXibYf94%3D%0A)
 
  
 
