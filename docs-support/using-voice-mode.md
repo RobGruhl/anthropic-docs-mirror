@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786884300&signature=0035ee912bf23f5bae132d2586b548e793fe4b20ee7d99f39e1c8f3429f5701b&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCQLhqxNdRzYWrfF5T1C%2FHhlLnZfSzi5%2Fb%0ACG9Jt31zebIIJf68RkU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786895100&signature=07fa6c8bb92e40f2e1a7c2eacf51079558c2c04c93bf5b2d72c51cbce8d43506&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCQbloxNdRzYWrfF5S8lUj6jP9Oa9VxJYG%0A7AbCIlvGFDphAXTLgRU%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786884300&signature=d203b40c932c21264a2155752e0e8db923aa08e8b44cc08b0ce654bcf682675d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydaFQJy8OQfYsvK3yrxcDSU2yJr5II4unV%0AIHXhyI5opgwGFZf8N%2BY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786895100&signature=3e2fffa17243517c291343f0c04020833e809d69d97cd995bbc69ae35e40b10f&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydaVULy8OQfYsvK3wU%2BCMsEBP193Zz9EpM%0A0rxJ0nfX5LODoHkyQbY%3D%0A)
 
  
 
