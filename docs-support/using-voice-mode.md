@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786842900&signature=244c2e0677a3204cd8b14bf1ce7326bf943450ad62da5145fd93633630af3be3&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCTL5gxNdRzYWrfF5GZJYUwusKIKLFWLCZ%0AiKINgnQgMOZC8g3kGww%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786852800&signature=d671a084afa61652fe7de1feb8c56d9f8c89bb1949dce9026a309b579cd3e43f&req=diAjFMp7n4FZWfMW1HO4zU6VRfvCTb5hxNdRzYWrfF5vcfun3viTU%2FQ8AUAR%0A49aALy4MoZD64Dx65oE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786842900&signature=d01f630b7c4e68c31d087f19d67280062291f35be7b7a8d7107e1e602758296b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydZFIDy8OQfYsvK3zt6OGVeZ5fD94aPDvF%0ASEPZS9rGfwqpj6gr%2Fdw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786852800&signature=0b15e181570a98104cf5a9c22220957a20626226ec1f49f510400fc43d161515&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGydZVICy8OQfYsvK3wyB0slUZZWuwDqwG%2BP%0AfRTN4prrUGO34Wf6WJw%3D%0A)
 
  
 

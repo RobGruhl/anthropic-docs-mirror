@@ -4,17 +4,17 @@
       "title": "\uc774\uc81c Opus 4.6\uacfc Sonnet 4.6\uc5d0\uc11c 1M \ucee8\ud14d\uc2a4\ud2b8\ub97c \uc815\uc2dd \uc9c0\uc6d0\ud569\ub2c8\ub2e4",
       "original_url": "https://claude.com/ko/blog/1m-context-ga",
       "hash": "f9b1079180bf72b7744fd945d966f2ef0944eaf506d12d6bef8d483131a4765a",
-      "last_updated": "2026-08-16T00:44:12.259260",
+      "last_updated": "2026-08-16T03:40:17.970615",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "\uc774\uc81c",
-        "4",
+        "sonnet",
         "opus",
+        "\uc774\uc81c",
         "6\uacfc",
-        "sonnet"
+        "4"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)"
@@ -23,18 +23,18 @@
       "title": "Claude Sonnet 4 now supports 1M tokens of context",
       "original_url": "https://claude.com/blog/1m-context",
       "hash": "bedf199dea5c723408eaa29524652cbd7a644593874391faff96db91eac658f1",
-      "last_updated": "2026-08-16T00:44:12.094647",
+      "last_updated": "2026-08-16T03:40:17.838117",
       "source": "claude-blog",
       "categories": [
         "api",
         "agents"
       ],
       "keywords": [
-        "now",
-        "4",
+        "sonnet",
         "supports",
-        "claude",
-        "sonnet"
+        "4",
+        "now",
+        "claude"
       ],
       "date_published": "August 12, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2240410885208fdb2a6_92f0be286703b4b8c906bcf1c95c7f3bbee5bd38-1000x1000.svg)"
@@ -43,17 +43,17 @@
       "title": "A field guide to Claude Fable 5: Finding your unknowns",
       "original_url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
       "hash": "6a29decb7690c6bd568fbe2312826e50bf23669b3aff0b26297e73033c08379d",
-      "last_updated": "2026-08-16T00:44:12.410623",
+      "last_updated": "2026-08-16T03:40:18.106868",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agent-skills"
+        "agent-skills",
+        "claude-code"
       ],
       "keywords": [
         "fable",
+        "guide",
         "field",
         "claude",
-        "guide",
         "5"
       ],
       "date_published": "July 6, 2026",
@@ -63,17 +63,17 @@
       "title": "A guide to cost visibility and control in Claude",
       "original_url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
       "hash": "c6e7d95279f6627783dcad5f3c0b2c2516cfddeab17c7f46e9e779f2b50f43db",
-      "last_updated": "2026-08-16T00:44:12.587960",
+      "last_updated": "2026-08-16T03:40:18.246620",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
         "cost",
-        "visibility",
-        "control",
+        "guide",
         "claude",
-        "guide"
+        "visibility",
+        "control"
       ],
       "date_published": "August 4, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)"
@@ -82,18 +82,18 @@
       "title": "A harness for every task: dynamic workflows in Claude Code",
       "original_url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
       "hash": "bc797073799e5b1f721e5ef64ac953a3dd0e194497fb584aa171a45deab36f4b",
-      "last_updated": "2026-08-16T00:44:12.750463",
+      "last_updated": "2026-08-16T03:40:18.381299",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "task",
-        "every",
-        "harness",
         "workflows",
-        "dynamic"
+        "dynamic",
+        "harness",
+        "task",
+        "every"
       ],
       "date_published": "June 2, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -102,19 +102,19 @@
       "title": "New capabilities for building agents on the Anthropic API",
       "original_url": "https://claude.com/blog/agent-capabilities-api",
       "hash": "cf413005a8a4196628dfe2d79f5447420d0c08432b74c497eff2d352efa110b7",
-      "last_updated": "2026-08-16T00:44:12.904161",
+      "last_updated": "2026-08-16T03:40:18.507118",
       "source": "claude-blog",
       "categories": [
-        "tools",
         "api",
+        "tools",
         "agents"
       ],
       "keywords": [
-        "new",
-        "building",
         "anthropic",
         "agents",
-        "capabilities"
+        "new",
+        "capabilities",
+        "building"
       ],
       "date_published": "May 22, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)"
@@ -123,19 +123,19 @@
       "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
       "original_url": "https://claude.com/blog/agent-identity-access-model",
       "hash": "87dbe22d70f8bdd994b47834412894449f1bb7e3a7c2936bc92e1796ee4cafbc",
-      "last_updated": "2026-08-16T00:44:13.064563",
+      "last_updated": "2026-08-16T03:40:18.633157",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "identity",
         "tag",
         "new",
         "agent",
-        "claude"
+        "claude",
+        "identity"
       ],
       "date_published": "June 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)"
@@ -144,16 +144,16 @@
       "title": "Agent view in Claude Code",
       "original_url": "https://claude.com/blog/agent-view-in-claude-code",
       "hash": "d8265b091c507360d1c8019cc0d865cfc2e093faf60bcfa7fa4e924bfd6ba34c",
-      "last_updated": "2026-08-16T00:44:13.217956",
+      "last_updated": "2026-08-16T03:40:18.760328",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "agent",
-        "claude",
         "view",
+        "claude",
         "code"
       ],
       "date_published": "May 11, 2026",
@@ -163,17 +163,17 @@
       "title": "How Anthropic runs large-scale code migrations with Claude Code",
       "original_url": "https://claude.com/blog/ai-code-migration",
       "hash": "c81edc36e783e157801ae2923591472f6373fd8ccc0e9609500905e3e1d403e3",
-      "last_updated": "2026-08-16T00:44:13.393013",
+      "last_updated": "2026-08-16T03:40:18.901576",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "large",
-        "runs",
         "scale",
         "anthropic",
+        "large",
+        "runs",
         "code"
       ],
       "date_published": "July 16, 2026",
@@ -183,20 +183,20 @@
       "title": "Claude on Amazon Bedrock now available to every AWS customer",
       "original_url": "https://claude.com/blog/amazon-bedrock-general-availability",
       "hash": "d238ecea9db0703318d680916f35a50a43d0bc6ae2233210fad40c0d1e8d62c9",
-      "last_updated": "2026-08-16T00:44:13.564193",
+      "last_updated": "2026-08-16T03:40:19.041119",
       "source": "claude-blog",
       "categories": [
-        "amazon-bedrock",
-        "tools",
         "api",
-        "agents"
+        "tools",
+        "agents",
+        "amazon-bedrock"
       ],
       "keywords": [
-        "amazon",
-        "now",
-        "claude",
         "available",
-        "bedrock"
+        "amazon",
+        "bedrock",
+        "now",
+        "claude"
       ],
       "date_published": "September 28, 2023",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)"
@@ -205,16 +205,16 @@
       "title": "Introducing the analysis tool in Claude.ai",
       "original_url": "https://claude.com/blog/analysis-tool",
       "hash": "0ba178ec3fe87952f05669e1a9608951b683e3b1c00018f274901b265f6e2002",
-      "last_updated": "2026-08-16T00:44:13.707247",
+      "last_updated": "2026-08-16T03:40:19.158635",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "analysis",
+        "tool",
         "ai",
-        "claude",
-        "tool"
+        "analysis",
+        "claude"
       ],
       "date_published": "October 24, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)"
@@ -223,15 +223,15 @@
       "title": "Claude Android app",
       "original_url": "https://claude.com/blog/android-app",
       "hash": "140faa8b749d79ab7397ed138faef0ca288e94daa303f996d44002a67b9c780d",
-      "last_updated": "2026-08-16T00:44:13.883580",
+      "last_updated": "2026-08-16T03:40:19.275427",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "app",
         "android",
-        "claude"
+        "claude",
+        "app"
       ],
       "date_published": "July 16, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2282403b092e0358c06_e2fc86543710551b106de115176c0506c7f7e442-1000x1000.svg)"
@@ -240,17 +240,17 @@
       "title": "Claude Code now supports artifacts",
       "original_url": "https://claude.com/blog/artifacts-in-claude-code",
       "hash": "7eb19eeac76fdab76e531cd581dfb844816fc90617ac980dd91f5eb60c416228",
-      "last_updated": "2026-08-16T00:44:14.045377",
+      "last_updated": "2026-08-16T03:40:19.396570",
       "source": "claude-blog",
       "categories": [
         "claude-code",
         "artifacts"
       ],
       "keywords": [
-        "now",
         "supports",
-        "claude",
         "artifacts",
+        "now",
+        "claude",
         "code"
       ],
       "date_published": "June 18, 2026",
@@ -260,17 +260,17 @@
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
       "original_url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "hash": "407cc1eea1e2872dbd488e60b1f24965c7be65e6c26be2b3459a27f1965693b0",
-      "last_updated": "2026-08-16T00:44:14.374058",
+      "last_updated": "2026-08-16T03:40:19.653997",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
-        "now",
-        "default",
-        "auto",
         "mode",
+        "auto",
+        "default",
+        "now",
         "is"
       ],
       "date_published": "August 7, 2026",
@@ -280,16 +280,16 @@
       "title": "Running auto mode in production",
       "original_url": "https://claude.com/blog/auto-mode-in-production",
       "hash": "c27cd6a464b9e62954766bb4236d9fd17c169570a0565c3621738146fa2be522",
-      "last_updated": "2026-08-16T00:44:14.555331",
+      "last_updated": "2026-08-16T03:40:19.789075",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
+        "mode",
         "auto",
         "production",
-        "mode",
         "running"
       ],
       "date_published": "August 7, 2026",
@@ -299,15 +299,15 @@
       "title": "Auto mode for Claude Code",
       "original_url": "https://claude.com/blog/auto-mode",
       "hash": "0d1087eff55052e31c3127486878f8cc06bb85872ae1776ee9c2d1082d59f3f3",
-      "last_updated": "2026-08-16T00:44:14.205861",
+      "last_updated": "2026-08-16T03:40:19.525641",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
-        "auto",
         "mode",
+        "auto",
         "claude",
         "code"
       ],
@@ -318,7 +318,7 @@
       "title": "Claude Code\u3067\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30ec\u30d3\u30e5\u30fc\u3092\u81ea\u52d5\u5316",
       "original_url": "https://claude.com/ja/blog/automate-security-reviews-with-claude-code",
       "hash": "16abcfd5051f1cb6f10c85fb299a7b8a6c825badd2ee3c146177be2c07395813",
-      "last_updated": "2026-08-16T00:44:14.717523",
+      "last_updated": "2026-08-16T03:40:19.916481",
       "source": "claude-blog",
       "categories": [
         "claude-code",
@@ -335,17 +335,17 @@
       "title": "Behind the model launch: What customers discovered testing Claude Opus 4.6 early",
       "original_url": "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
       "hash": "e005454ae7b55170d997bee596f8516851c6481473326cd8f5329e4f96793990",
-      "last_updated": "2026-08-16T00:44:14.865528",
+      "last_updated": "2026-08-16T03:40:20.039649",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "behind",
+        "discovered",
         "customers",
         "model",
-        "discovered",
-        "launch"
+        "launch",
+        "behind"
       ],
       "date_published": "February 9, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)"
@@ -354,18 +354,18 @@
       "title": "Best practices for computer and browser use with Claude",
       "original_url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
       "hash": "2c641307c14d8fed398bce76acd382c25d4332c20ee45540d40733559245d7f2",
-      "last_updated": "2026-08-16T00:44:15.091237",
+      "last_updated": "2026-08-16T03:40:20.264023",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
-        "practices",
         "browser",
-        "use",
+        "practices",
+        "best",
         "computer",
-        "best"
+        "use"
       ],
       "date_published": "May 13, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)"
@@ -374,17 +374,17 @@
       "title": "Best practices for getting started with Claude Cowork",
       "original_url": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
       "hash": "61b90f2fbabdd1bdda395fee7160fcfadbc4a3f30c8cd1cc5ec0760084ec50d0",
-      "last_updated": "2026-08-16T00:44:15.239056",
+      "last_updated": "2026-08-16T03:40:20.395896",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "practices",
         "getting",
-        "claude",
         "started",
-        "best"
+        "practices",
+        "best",
+        "claude"
       ],
       "date_published": "June 3, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)"
@@ -393,11 +393,11 @@
       "title": "\u30d7\u30ed\u30f3\u30d7\u30c8\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9",
       "original_url": "https://claude.com/ja/blog/best-practices-for-prompt-engineering",
       "hash": "56e8de25cd63429b5a682d2a87d9d5978331dbc98df97b971556f4a8d509aff8",
-      "last_updated": "2026-08-16T00:44:15.407677",
+      "last_updated": "2026-08-16T03:40:20.534533",
       "source": "claude-blog",
       "categories": [
-        "prompt-engineering",
-        "agents"
+        "agents",
+        "prompt-engineering"
       ],
       "keywords": [
         "\u30d7\u30ed\u30f3\u30d7\u30c8\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9"
@@ -409,18 +409,18 @@
       "title": "Best practices for using Claude Opus 4.7 with Claude Code",
       "original_url": "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code",
       "hash": "a7894cdbf26ecdc4d5cd16c07be1eefd4e2b8035e42cdb8fd9333c8a0c4da57a",
-      "last_updated": "2026-08-16T00:44:15.584893",
+      "last_updated": "2026-08-16T03:40:20.682251",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "practices",
-        "opus",
-        "claude",
         "using",
-        "best"
+        "opus",
+        "practices",
+        "best",
+        "claude"
       ],
       "date_published": "April 16, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -429,18 +429,18 @@
       "title": "\uad8c\ud55c \ud504\ub86c\ud504\ud2b8\ub97c \ub118\uc5b4\uc11c: Claude Code\ub97c \ub354 \uc548\uc804\ud558\uace0 \uc790\uc728\uc801\uc73c\ub85c \ub9cc\ub4e4\uae30",
       "original_url": "https://claude.com/ko/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
       "hash": "771afc96095836b73c85d8a7b5080f030f08f21b06f6b1fd02b9903f664eb16a",
-      "last_updated": "2026-08-16T00:44:15.740520",
+      "last_updated": "2026-08-16T03:40:20.807438",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering",
         "claude-code"
       ],
       "keywords": [
-        "\ub118\uc5b4\uc11c",
-        "code\ub97c",
-        "claude",
         "\ud504\ub86c\ud504\ud2b8\ub97c",
-        "\uad8c\ud55c"
+        "\uad8c\ud55c",
+        "\ub118\uc5b4\uc11c",
+        "claude",
+        "code\ub97c"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)"
@@ -449,15 +449,15 @@
       "title": "Bringing Claude Code and Claude Cowork to government",
       "original_url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
       "hash": "195a8bebca871911690f28bafbf1bcc03657f0f6c6083409952dde5286c9a245",
-      "last_updated": "2026-08-16T00:44:15.892145",
+      "last_updated": "2026-08-16T03:40:20.929877",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
         "cowork",
-        "claude",
         "bringing",
+        "claude",
         "code"
       ],
       "date_published": "July 7, 2026",
@@ -467,18 +467,18 @@
       "title": "Bringing MCP 2026-07-28 to Claude",
       "original_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
       "hash": "d04af31884e51775f9551fff5faf688da333fe60a8b05692c4835077546566b2",
-      "last_updated": "2026-08-16T00:44:16.051735",
+      "last_updated": "2026-08-16T03:40:21.057539",
       "source": "claude-blog",
       "categories": [
-        "mcp",
-        "agents"
+        "agents",
+        "mcp"
       ],
       "keywords": [
-        "2026",
-        "bringing",
         "07",
+        "28",
         "mcp",
-        "28"
+        "2026",
+        "bringing"
       ],
       "date_published": "July 28, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)"
@@ -487,18 +487,18 @@
       "title": "Turn ideas into interactive AI-powered apps",
       "original_url": "https://claude.com/blog/build-artifacts",
       "hash": "81bf4ebabc21b30cc5d1aea731c9f1420176d636faddca4f6a71e5e445f175fd",
-      "last_updated": "2026-08-16T00:44:16.191197",
+      "last_updated": "2026-08-16T03:40:21.192772",
       "source": "claude-blog",
       "categories": [
         "tools",
         "artifacts"
       ],
       "keywords": [
+        "turn",
         "ideas",
         "into",
-        "interactive",
         "ai",
-        "turn"
+        "interactive"
       ],
       "date_published": "June 25, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)"
@@ -507,11 +507,11 @@
       "title": "\u30ec\u30b9\u30dd\u30f3\u30b7\u30d6Web\u30ec\u30a4\u30a2\u30a6\u30c8\u3092\u69cb\u7bc9",
       "original_url": "https://claude.com/ja/blog/build-responsive-web-layouts",
       "hash": "e038639ce812782a176588e14760eaa9a720003aae7f9f74ce11b9c4ee0acf8e",
-      "last_updated": "2026-08-16T00:44:16.344499",
+      "last_updated": "2026-08-16T03:40:21.318341",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "tools"
+        "tools",
+        "claude-code"
       ],
       "keywords": [
         "\u30ec\u30b9\u30dd\u30f3\u30b7\u30d6web\u30ec\u30a4\u30a2\u30a6\u30c8\u3092\u69cb\u7bc9"
@@ -523,19 +523,19 @@
       "title": "Building agents that reach production systems with MCP",
       "original_url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
       "hash": "24dd17f760f63a3e359138ecf16da10f4e6a36f33887e4a28dfbe19eb0631284",
-      "last_updated": "2026-08-16T00:44:16.505997",
+      "last_updated": "2026-08-16T03:40:21.466228",
       "source": "claude-blog",
       "categories": [
-        "mcp",
         "api",
-        "agents"
+        "agents",
+        "mcp"
       ],
       "keywords": [
-        "that",
-        "building",
+        "production",
         "reach",
         "agents",
-        "production"
+        "building",
+        "that"
       ],
       "date_published": "April 22, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)"
@@ -544,19 +544,19 @@
       "title": "Skills\ub85c \uc5d0\uc774\uc804\ud2b8 \uad6c\ucd95: \uc804\ubb38 \uc5c5\ubb34\ub97c \uc704\ud55c \uc5d0\uc774\uc804\ud2b8 \uc5ed\ub7c9 \uac16\ucd94\uae30",
       "original_url": "https://claude.com/ko/blog/building-agents-with-skills-equipping-agents-for-specialized-work",
       "hash": "76611eaaea41592a1917cfa9a4df91cac90907c672c891bd360a71a429948792",
-      "last_updated": "2026-08-16T00:44:16.667028",
+      "last_updated": "2026-08-16T03:40:21.597523",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "\uc5d0\uc774\uc804\ud2b8",
+        "\uc5c5\ubb34\ub97c",
         "\uc804\ubb38",
-        "skills\ub85c",
+        "\uc5d0\uc774\uc804\ud2b8",
         "\uad6c\ucd95",
-        "\uc5c5\ubb34\ub97c"
+        "skills\ub85c"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)"
@@ -565,19 +565,19 @@
       "title": "Building agents with the Claude Agent SDK",
       "original_url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
       "hash": "8b8e5fddaa0c8d775c1dc8387de795390b4b320337d99041edf100ee388d4f46",
-      "last_updated": "2026-08-16T00:44:16.839197",
+      "last_updated": "2026-08-16T03:40:21.730482",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "building",
+        "sdk",
+        "agents",
         "agent",
         "claude",
-        "sdk",
-        "agents"
+        "building"
       ],
       "date_published": "September 29, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -586,17 +586,17 @@
       "title": "Building AI agents for startups",
       "original_url": "https://claude.com/blog/building-ai-agents-for-startups",
       "hash": "cf37a451c352193f841d3793b9409db67cec5d3ecc243223ef58cbf1c18a27a2",
-      "last_updated": "2026-08-16T00:44:17.006743",
+      "last_updated": "2026-08-16T03:40:21.853460",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
-        "ai",
-        "startups",
         "agents",
-        "building"
+        "ai",
+        "building",
+        "startups"
       ],
       "date_published": "November 3, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)"
@@ -605,7 +605,7 @@
       "title": "Building AI agents for the enterprise",
       "original_url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
       "hash": "0d12816d49118f6242470ced50580f9f9fad78336180ea821c9a59f11a86d61d",
-      "last_updated": "2026-08-16T00:44:17.167669",
+      "last_updated": "2026-08-16T03:40:21.973420",
       "source": "claude-blog",
       "categories": [
         "enterprise",
@@ -613,8 +613,8 @@
       ],
       "keywords": [
         "enterprise",
-        "ai",
         "agents",
+        "ai",
         "building"
       ],
       "date_published": "April 30, 2026",
@@ -624,17 +624,17 @@
       "title": "Building AI agents for financial services",
       "original_url": "https://claude.com/blog/building-ai-agents-in-financial-services",
       "hash": "e10870d13fb360f9ab4c2c254b5f78f6877315bc35335d66d00898fd871d35e8",
-      "last_updated": "2026-08-16T00:44:17.311471",
+      "last_updated": "2026-08-16T03:40:22.096673",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
         "financial",
-        "building",
         "services",
         "agents",
-        "ai"
+        "ai",
+        "building"
       ],
       "date_published": "October 30, 2025",
       "summary": "![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)"
@@ -643,17 +643,17 @@
       "title": "Building AI agents for healthcare and life sciences",
       "original_url": "https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences",
       "hash": "8d1ba75a9389936941b249a8a76d17261ac912e82a1e4eb6fc9423452fb09d62",
-      "last_updated": "2026-08-16T00:44:17.499231",
+      "last_updated": "2026-08-16T03:40:22.241040",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "life",
-        "building",
         "healthcare",
+        "life",
         "agents",
-        "ai"
+        "ai",
+        "building"
       ],
       "date_published": "October 30, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg)"
@@ -662,7 +662,7 @@
       "title": "Comment trois startups d'YC ont d\u00e9velopp\u00e9 leurs entreprises avec Claude Code",
       "original_url": "https://claude.com/fr/blog/building-companies-with-claude-code",
       "hash": "cd6b9f48e6c713834da1a4b3aba201e9c7296d6475df4508116e5c84846a05ee",
-      "last_updated": "2026-08-16T00:44:17.660961",
+      "last_updated": "2026-08-16T03:40:22.372852",
       "source": "claude-blog",
       "categories": [
         "claude-code"
@@ -670,9 +670,9 @@
       "keywords": [
         "startups",
         "comment",
-        "yc",
+        "trois",
         "d",
-        "trois"
+        "yc"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)"
@@ -681,18 +681,18 @@
       "title": "Building effective human-agent teams",
       "original_url": "https://claude.com/blog/building-effective-human-agent-teams",
       "hash": "a2d6c7852415166152b38f2f63d4451e142e31c866f8bb5cc6903d48d3c3c70c",
-      "last_updated": "2026-08-16T00:44:17.805511",
+      "last_updated": "2026-08-16T03:40:22.505314",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
-        "building",
-        "agent",
-        "effective",
+        "teams",
         "human",
-        "teams"
+        "effective",
+        "agent",
+        "building"
       ],
       "date_published": "June 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)"
@@ -701,18 +701,18 @@
       "title": "Building multi-agent systems: When and how to use them",
       "original_url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
       "hash": "5887f09c35876463d4057b99fb7770db18f3f6c3b3ee094c5840715aee547c99",
-      "last_updated": "2026-08-16T00:44:17.983092",
+      "last_updated": "2026-08-16T03:40:22.662029",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "systems",
+        "multi",
         "when",
-        "building",
+        "systems",
         "agent",
-        "multi"
+        "building"
       ],
       "date_published": "January 23, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)"
@@ -721,19 +721,19 @@
       "title": "Building verification loops in Claude Code with skills",
       "original_url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
       "hash": "3be8b5bcfb4591d47db94a9e65266c520deab12e8d3c835a35129d2140953728",
-      "last_updated": "2026-08-16T00:44:18.140778",
+      "last_updated": "2026-08-16T03:40:22.792141",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "building",
-        "claude",
-        "verification",
         "loops",
-        "code"
+        "verification",
+        "code",
+        "claude",
+        "building"
       ],
       "date_published": "July 22, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224d39f9b8e905d1823_b68cbb43d7c8f56f0b14cc867e8d4d74445f78b0-1000x1000.svg)"
@@ -742,18 +742,18 @@
       "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
       "original_url": "https://claude.com/blog/building-with-claude-managed-agents",
       "hash": "913a5bf7a7e892d1d2e34318152dc1679ed7d4cb57002aedfd525181e16450d6",
-      "last_updated": "2026-08-16T00:44:18.323712",
+      "last_updated": "2026-08-16T03:40:22.943646",
       "source": "claude-blog",
       "categories": [
         "api",
         "agents"
       ],
       "keywords": [
-        "agentic",
+        "of",
+        "evolution",
         "surfaces",
         "building",
-        "evolution",
-        "of"
+        "agentic"
       ],
       "date_published": "June 10, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)"
@@ -762,17 +762,17 @@
       "title": "How Carta Healthcare gets AI to reason like a clinical abstractor",
       "original_url": "https://claude.com/blog/carta-healthcare-clinical-abstractor",
       "hash": "899a30f4959f70633bc700b9d04424abe9a2a5c360026662d3802017ece0df74",
-      "last_updated": "2026-08-16T00:44:18.484169",
+      "last_updated": "2026-08-16T03:40:23.072865",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "carta",
-        "gets",
         "healthcare",
-        "ai",
-        "reason"
+        "carta",
+        "reason",
+        "gets",
+        "ai"
       ],
       "date_published": "April 8, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f755a66de024fd6651b1d_Object-Heartbeat.svg)"
@@ -781,15 +781,15 @@
       "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
       "original_url": "https://claude.com/blog/ciso-guide-to-agentic-ai",
       "hash": "d0f718ba8d3304dfd3074ec624644eff5d9cb84946ee5e286a429048883a90e6",
-      "last_updated": "2026-08-16T00:44:18.629895",
+      "last_updated": "2026-08-16T03:40:23.200583",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "isn",
         "zero",
         "job",
+        "isn",
         "t",
         "risk"
       ],
@@ -800,16 +800,16 @@
       "title": "Long context prompting for Claude 2.1",
       "original_url": "https://claude.com/blog/claude-2-1-prompting",
       "hash": "0c443d3d0e58465deada8f2a0847a198f07250443f144caf7f1e617cb3d4c198",
-      "last_updated": "2026-08-16T00:44:18.798510",
+      "last_updated": "2026-08-16T03:40:23.328073",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering"
       ],
       "keywords": [
-        "long",
-        "2",
-        "context",
         "claude",
+        "context",
+        "2",
+        "long",
         "prompting"
       ],
       "date_published": "December 6, 2023",
@@ -819,15 +819,15 @@
       "title": "Claude 2 on Amazon Bedrock",
       "original_url": "https://claude.com/blog/claude-2-amazon-bedrock",
       "hash": "6ce0449f216d306c98ecafe028cf43d19c0b981ae68eb8f4dbf90fcd41fdece3",
-      "last_updated": "2026-08-16T00:44:18.940979",
+      "last_updated": "2026-08-16T03:40:23.447532",
       "source": "claude-blog",
       "categories": [
-        "amazon-bedrock",
-        "api"
+        "api",
+        "amazon-bedrock"
       ],
       "keywords": [
-        "2",
         "amazon",
+        "2",
         "claude",
         "bedrock"
       ],
@@ -838,14 +838,14 @@
       "title": "Claude and Slack",
       "original_url": "https://claude.com/blog/claude-and-slack",
       "hash": "afdbcc5bb2ddaca3bb323fe61309c651dd48ab8a14fa26b763f07cd288ab4233",
-      "last_updated": "2026-08-16T00:44:19.085717",
+      "last_updated": "2026-08-16T03:40:23.571235",
       "source": "claude-blog",
       "categories": [
         "integrations"
       ],
       "keywords": [
-        "slack",
-        "claude"
+        "claude",
+        "slack"
       ],
       "date_published": "October 1, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22deea97e4a5b5e5739_8d339ae8ecedecc1409db8f5bbb99c958db56946-1000x1000.svg)"
@@ -854,21 +854,21 @@
       "title": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp",
       "original_url": "https://claude.com/blog/claude-api-skill",
       "hash": "3322e0aa7a390fbac1d96192dc57f768a0a467ee9a923fa9d679c22ef5f4f15f",
-      "last_updated": "2026-08-16T00:44:19.233449",
+      "last_updated": "2026-08-16T03:40:23.690086",
       "source": "claude-blog",
       "categories": [
         "agent-skills",
+        "api",
         "tools",
         "agents",
-        "claude-code",
-        "api"
+        "claude-code"
       ],
       "keywords": [
+        "api",
         "skill",
         "coderabbit",
         "now",
-        "claude",
-        "api"
+        "claude"
       ],
       "date_published": "April 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)"
@@ -877,15 +877,15 @@
       "title": "Claude now creates interactive charts, diagrams and visualizations",
       "original_url": "https://claude.com/blog/claude-builds-visuals",
       "hash": "ddaac5c2070cba96a39e23205278e7ad0bb5124812a83e847e8bf65467981643",
-      "last_updated": "2026-08-16T00:44:19.391893",
+      "last_updated": "2026-08-16T03:40:23.825202",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "now",
-        "charts",
         "creates",
+        "charts",
+        "now",
         "claude",
         "interactive"
       ],
@@ -896,20 +896,20 @@
       "title": "Claude Code and new admin controls for business plans",
       "original_url": "https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans",
       "hash": "341922efbc57961ae3c9c0ec310ba6f2481984dba8ecc540c85448b82a7d6555",
-      "last_updated": "2026-08-16T00:44:19.530561",
+      "last_updated": "2026-08-16T03:40:23.940215",
       "source": "claude-blog",
       "categories": [
-        "enterprise",
-        "claude-code",
         "api",
-        "agents"
+        "enterprise",
+        "agents",
+        "claude-code"
       ],
       "keywords": [
+        "controls",
         "admin",
         "new",
-        "claude",
         "code",
-        "controls"
+        "claude"
       ],
       "date_published": "August 20, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)"
@@ -918,16 +918,16 @@
       "title": "Claude Code\uc640 Slack",
       "original_url": "https://claude.com/ko/blog/claude-code-and-slack",
       "hash": "19f50efb4b889cc37e3a73a226e7c216e0c4222417f25beece9b94dca22e5901",
-      "last_updated": "2026-08-16T00:44:19.675917",
+      "last_updated": "2026-08-16T03:40:24.072322",
       "source": "claude-blog",
       "categories": [
-        "integrations",
-        "claude-code"
+        "claude-code",
+        "integrations"
       ],
       "keywords": [
-        "slack",
+        "code\uc640",
         "claude",
-        "code\uc640"
+        "slack"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)"
@@ -936,18 +936,18 @@
       "title": "Redesigning Claude Code on desktop for parallel agents",
       "original_url": "https://claude.com/blog/claude-code-desktop-redesign",
       "hash": "80e8790c5dd4a3e7940831dfc1a939ff7a4ee33e2d7c733ed00c9799f058bc3a",
-      "last_updated": "2026-08-16T00:44:19.818239",
+      "last_updated": "2026-08-16T03:40:24.200680",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "parallel",
-        "desktop",
-        "claude",
         "redesigning",
-        "code"
+        "code",
+        "parallel",
+        "claude",
+        "desktop"
       ],
       "date_published": "April 14, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)"
@@ -956,15 +956,15 @@
       "title": "\uc6f9\uc6a9 Claude Code",
       "original_url": "https://claude.com/ko/blog/claude-code-on-the-web",
       "hash": "d6eb63f9a62ed3747cdef01f6a861aeb3b88e654a6087d7d5f0852876b1c5ff2",
-      "last_updated": "2026-08-16T00:44:19.971417",
+      "last_updated": "2026-08-16T03:40:24.325673",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
+        "\uc6f9\uc6a9",
         "claude",
-        "code",
-        "\uc6f9\uc6a9"
+        "code"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)"
@@ -973,7 +973,7 @@
       "title": "Claude Code mit Plugins anpassen",
       "original_url": "https://claude.com/de/blog/claude-code-plugins",
       "hash": "af11d7e43cef35171c89fc95f99f258aef69e2c0eabb5a252056fc3ef4c9ebc5",
-      "last_updated": "2026-08-16T00:44:20.126024",
+      "last_updated": "2026-08-16T03:40:24.451561",
       "source": "claude-blog",
       "categories": [
         "plugins",
@@ -984,10 +984,10 @@
       ],
       "keywords": [
         "plugins",
-        "mit",
-        "claude",
+        "code",
         "anpassen",
-        "code"
+        "claude",
+        "mit"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -996,19 +996,19 @@
       "title": "Remote MCP support in Claude Code",
       "original_url": "https://claude.com/blog/claude-code-remote-mcp",
       "hash": "d10a077efa607e6c902ac699ba0ded95320960cebe82d369d3f25cf84c9f1356",
-      "last_updated": "2026-08-16T00:44:20.299223",
+      "last_updated": "2026-08-16T03:40:24.590092",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "tools",
         "mcp",
-        "tools"
+        "claude-code"
       ],
       "keywords": [
-        "remote",
         "support",
         "mcp",
-        "claude",
-        "code"
+        "remote",
+        "code",
+        "claude"
       ],
       "date_published": "June 18, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)"
@@ -1017,19 +1017,19 @@
       "title": "Claude Design now stays on brand for daily work",
       "original_url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
       "hash": "6565305f3496dddf0832696f0f81f772f9973a80a3c6f1795a0d00476bf01338",
-      "last_updated": "2026-08-16T00:44:20.449924",
+      "last_updated": "2026-08-16T03:40:24.713984",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "tools",
-        "api"
+        "claude-code"
       ],
       "keywords": [
-        "now",
         "stays",
+        "now",
         "design",
-        "claude",
-        "brand"
+        "brand",
+        "claude"
       ],
       "date_published": "June 17, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)"
@@ -1038,18 +1038,18 @@
       "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
       "original_url": "https://claude.com/blog/claude-enterprise-inference-hooks",
       "hash": "dbad41ddc2b6c0d88f8a20f1b283d29fa8417ce63ea48ada36c4c464bb4a1cb0",
-      "last_updated": "2026-08-16T00:44:20.594896",
+      "last_updated": "2026-08-16T03:40:24.841719",
       "source": "claude-blog",
       "categories": [
         "enterprise",
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "hooks",
-        "loss",
-        "inference",
         "data",
+        "inference",
+        "loss",
         "inline"
       ],
       "date_published": "August 5, 2026",
@@ -1059,15 +1059,15 @@
       "title": "Claude for Excel \ubc0f Claude for PowerPoint \ud5a5\uc0c1",
       "original_url": "https://claude.com/ko/blog/claude-excel-powerpoint-updates",
       "hash": "5152611ead653616437f58a4410841e9406133bebc1095b2f97cac00bdf90701",
-      "last_updated": "2026-08-16T00:44:20.743978",
+      "last_updated": "2026-08-16T03:40:24.964588",
       "source": "claude-blog",
       "categories": [
         "agent-skills"
       ],
       "keywords": [
-        "\ubc0f",
         "excel",
         "claude",
+        "\ubc0f",
         "powerpoint"
       ],
       "date_published": "",
@@ -1077,17 +1077,17 @@
       "title": "Wir testen Claude in Chrome",
       "original_url": "https://claude.com/de/blog/claude-for-chrome",
       "hash": "6f852d726c4a28d93d988012c336e877abdd1946652b48a9490ec2dc39baddca",
-      "last_updated": "2026-08-16T00:44:20.904354",
+      "last_updated": "2026-08-16T03:40:25.091814",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "chrome-extension"
+        "chrome-extension",
+        "claude-code"
       ],
       "keywords": [
-        "wir",
+        "chrome",
         "testen",
         "claude",
-        "chrome"
+        "wir"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)"
@@ -1096,7 +1096,7 @@
       "title": "Claude for Enterprise",
       "original_url": "https://claude.com/blog/claude-for-enterprise",
       "hash": "e1894151a0510e1cbe6028cef83fae43f67f2a615a23bdfaff206bf103c5e8c9",
-      "last_updated": "2026-08-16T00:44:21.050305",
+      "last_updated": "2026-08-16T03:40:25.209277",
       "source": "claude-blog",
       "categories": [
         "enterprise"
@@ -1112,17 +1112,17 @@
       "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
       "original_url": "https://claude.com/blog/claude-for-foundation-models",
       "hash": "635f722d4607998ccc0d48283b9ab9fc48ec8bc44683f60924c5961aa856ea5e",
-      "last_updated": "2026-08-16T00:44:21.213710",
+      "last_updated": "2026-08-16T03:40:25.340032",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
+        "intelligent",
         "platforms",
-        "apple",
-        "building",
         "apps",
-        "intelligent"
+        "apple",
+        "building"
       ],
       "date_published": "June 8, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)"
@@ -1131,15 +1131,15 @@
       "title": "Claude for the legal industry",
       "original_url": "https://claude.com/blog/claude-for-the-legal-industry",
       "hash": "6228fa926b27432c680e2daedd190fc46c385afad096fae34fe818f8e1471c63",
-      "last_updated": "2026-08-16T00:44:21.377689",
+      "last_updated": "2026-08-16T03:40:25.467474",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "industry",
+        "legal",
         "claude",
-        "legal"
+        "industry"
       ],
       "date_published": "May 12, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)"
@@ -1148,17 +1148,17 @@
       "title": "Claude in Microsoft Foundry is now generally available",
       "original_url": "https://claude.com/blog/claude-in-microsoft-foundry",
       "hash": "9fa35cd9e0405d87f6c271178c5a381a42c2cb66e7423a8f4a25a92e1b8da948",
-      "last_updated": "2026-08-16T00:44:21.526399",
+      "last_updated": "2026-08-16T03:40:25.587648",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "now",
-        "foundry",
         "microsoft",
-        "claude",
-        "is"
+        "foundry",
+        "now",
+        "is",
+        "claude"
       ],
       "date_published": "June 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)"
@@ -1167,19 +1167,19 @@
       "title": "Built-in memory for Claude Managed Agents",
       "original_url": "https://claude.com/blog/claude-managed-agents-memory",
       "hash": "ae6ba309d72473cad027206aef4e318691b652789254e90e91e1a2db7077a887",
-      "last_updated": "2026-08-16T00:44:21.840202",
+      "last_updated": "2026-08-16T03:40:25.840446",
       "source": "claude-blog",
       "categories": [
-        "tools",
         "api",
+        "tools",
         "agents"
       ],
       "keywords": [
         "managed",
         "memory",
-        "claude",
         "agents",
-        "built"
+        "built",
+        "claude"
       ],
       "date_published": "April 23, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)"
@@ -1188,19 +1188,19 @@
       "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
       "original_url": "https://claude.com/blog/claude-managed-agents-updates",
       "hash": "ae845fc44b3c320aeaa443bde8edb8c9f342c5f320f69a35de42235d8c414873",
-      "last_updated": "2026-08-16T00:44:21.989218",
+      "last_updated": "2026-08-16T03:40:25.965006",
       "source": "claude-blog",
       "categories": [
-        "mcp",
         "tools",
-        "agents"
+        "agents",
+        "mcp"
       ],
       "keywords": [
-        "self",
-        "new",
         "managed",
-        "claude",
-        "agents"
+        "agents",
+        "new",
+        "self",
+        "claude"
       ],
       "date_published": "May 19, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22bed4b18b6703cd710_e750c875fbd7f08ffb6495efa180a8ed60de3611-1000x1000.svg)"
@@ -1209,7 +1209,7 @@
       "title": "Claude Managed Agents: get to production 10x faster",
       "original_url": "https://claude.com/blog/claude-managed-agents",
       "hash": "4149969406056216c4b006fbb5c047e217bf91f2dd8ac84bab7c8aa52e8c2d6d",
-      "last_updated": "2026-08-16T00:44:21.685932",
+      "last_updated": "2026-08-16T03:40:25.714799",
       "source": "claude-blog",
       "categories": [
         "api",
@@ -1217,10 +1217,10 @@
       ],
       "keywords": [
         "managed",
-        "claude",
-        "agents",
+        "production",
         "get",
-        "production"
+        "agents",
+        "claude"
       ],
       "date_published": "April 8, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)"
@@ -1229,18 +1229,18 @@
       "title": "Choosing a Claude model and effort level in Claude Code",
       "original_url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
       "hash": "e8e4a7bd3219bc447b05cc0ee25472c861aed39c88e29a081632140419ceb618",
-      "last_updated": "2026-08-16T00:44:22.158473",
+      "last_updated": "2026-08-16T03:40:26.110853",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "tools"
+        "tools",
+        "claude-code"
       ],
       "keywords": [
-        "level",
-        "effort",
         "choosing",
-        "claude",
-        "model"
+        "effort",
+        "model",
+        "level",
+        "claude"
       ],
       "date_published": "July 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)"
@@ -1249,18 +1249,18 @@
       "title": "Claude models explained: choosing the best model for your use case",
       "original_url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
       "hash": "3103f00d0724953a02bcf23d6488942d4e31764bafa03b841a9ef294d1a15821",
-      "last_updated": "2026-08-16T00:44:22.302569",
+      "last_updated": "2026-08-16T03:40:26.234345",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "explained",
-        "choosing",
-        "claude",
         "models",
-        "best"
+        "choosing",
+        "explained",
+        "best",
+        "claude"
       ],
       "date_published": "July 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)"
@@ -1269,17 +1269,17 @@
       "title": "Claude is now available in Microsoft 365 Copilot",
       "original_url": "https://claude.com/blog/claude-now-available-in-microsoft-365-copilot",
       "hash": "0fcb6827af689d64be29b33d32211115f38b618d86eab60239484c88ce7d1ff4",
-      "last_updated": "2026-08-16T00:44:22.450327",
+      "last_updated": "2026-08-16T03:40:26.355723",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "now",
-        "microsoft",
-        "claude",
         "available",
-        "is"
+        "microsoft",
+        "now",
+        "is",
+        "claude"
       ],
       "date_published": "September 24, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)"
@@ -1288,17 +1288,17 @@
       "title": "Claude on Google Cloud\u2019s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
       "hash": "3bea4d92a570c4311b075b6b8c23a6772272194489fb55c70984dd472ab060e3",
-      "last_updated": "2026-08-16T00:44:22.599981",
+      "last_updated": "2026-08-16T03:40:26.482754",
       "source": "claude-blog",
       "categories": [
         "google-vertex-ai"
       ],
       "keywords": [
-        "s",
-        "google",
-        "claude",
+        "cloud",
         "vertex",
-        "cloud"
+        "google",
+        "s",
+        "claude"
       ],
       "date_published": "April 2, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)"
@@ -1307,16 +1307,16 @@
       "title": "Audit Claude Platform activity with the Compliance API",
       "original_url": "https://claude.com/blog/claude-platform-compliance-api",
       "hash": "e519b48dcf35d7d8bd517d9c560ab256703804157c820875b3d674d9e2759c04",
-      "last_updated": "2026-08-16T00:44:22.754784",
+      "last_updated": "2026-08-16T03:40:26.604466",
       "source": "claude-blog",
       "categories": [
         "api"
       ],
       "keywords": [
-        "activity",
-        "claude",
-        "platform",
         "compliance",
+        "activity",
+        "platform",
+        "claude",
         "audit"
       ],
       "date_published": "March 30, 2026",
@@ -1326,17 +1326,17 @@
       "title": "Introducing the Claude Platform on AWS",
       "original_url": "https://claude.com/blog/claude-platform-on-aws",
       "hash": "f326bf3bb13676a731c20ca4b25ef22ddb22e2607ad037630388e90b5f8ab7c7",
-      "last_updated": "2026-08-16T00:44:22.905283",
+      "last_updated": "2026-08-16T03:40:26.732735",
       "source": "claude-blog",
       "categories": [
-        "agent-skills",
-        "tools",
         "api",
-        "agents"
+        "tools",
+        "agents",
+        "agent-skills"
       ],
       "keywords": [
-        "claude",
         "aws",
+        "claude",
         "platform"
       ],
       "date_published": "May 11, 2026",
@@ -1346,17 +1346,17 @@
       "title": "Build and share AI-powered apps with Claude",
       "original_url": "https://claude.com/blog/claude-powered-artifacts",
       "hash": "f5694d8eb602468dde919521b464191694ad608aa5f645b5fbf2ac14ca44f245",
-      "last_updated": "2026-08-16T00:44:23.074205",
+      "last_updated": "2026-08-16T03:40:26.873720",
       "source": "claude-blog",
       "categories": [
         "api",
         "artifacts"
       ],
       "keywords": [
-        "share",
-        "powered",
         "build",
+        "powered",
         "apps",
+        "share",
         "ai"
       ],
       "date_published": "July 25, 2025",
@@ -1366,16 +1366,16 @@
       "title": "Claude Security is now in public beta",
       "original_url": "https://claude.com/blog/claude-security-public-beta",
       "hash": "db9260cd180c82ffac270682f1e7dc00cd01d8e4144f0ee91add63dfa4b8da54",
-      "last_updated": "2026-08-16T00:44:23.216007",
+      "last_updated": "2026-08-16T03:40:26.996413",
       "source": "claude-blog",
       "categories": [
         "security"
       ],
       "keywords": [
-        "now",
-        "claude",
         "security",
+        "now",
         "is",
+        "claude",
         "public"
       ],
       "date_published": "April 30, 2026",
@@ -1385,17 +1385,17 @@
       "title": "Claude Tag now reads even more of the room",
       "original_url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
       "hash": "50319c477a58f99a6c2e809b0fff227c9e4587a17399bdbe3ddd911e5043c6f2",
-      "last_updated": "2026-08-16T00:44:23.365133",
+      "last_updated": "2026-08-16T03:40:27.121372",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "now",
         "tag",
-        "claude",
         "even",
-        "reads"
+        "now",
+        "reads",
+        "claude"
       ],
       "date_published": "August 13, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)"
@@ -1404,15 +1404,15 @@
       "title": "Updates to Claude Team",
       "original_url": "https://claude.com/blog/claude-team-updates",
       "hash": "cb32d5bdeb5d4c89ab9d16e969de87e3b04726056d62882a0b022d25bd9b374c",
-      "last_updated": "2026-08-16T00:44:23.514242",
+      "last_updated": "2026-08-16T03:40:27.246964",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "team",
+        "updates",
         "claude",
-        "updates"
+        "team"
       ],
       "date_published": "January 28, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)"
@@ -1421,15 +1421,15 @@
       "title": "Bringing Code Review to Claude Code",
       "original_url": "https://claude.com/blog/code-review",
       "hash": "773e36672e9e1b26edf99ddbc9217cfc467d1e9fc78d81ab0dab79131a12e114",
-      "last_updated": "2026-08-16T00:44:23.655677",
+      "last_updated": "2026-08-16T03:40:27.374578",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "claude",
         "bringing",
+        "claude",
         "review",
         "code"
       ],
@@ -1440,18 +1440,18 @@
       "title": "Code w/ Claude London 2026: Rethinking how we build",
       "original_url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
       "hash": "9411a5c555ed105a7bdd159a39f2a77caad576e7826c3e9ba531b829c0d3f8aa",
-      "last_updated": "2026-08-16T00:44:23.795205",
+      "last_updated": "2026-08-16T03:40:27.500770",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "2026",
-        "claude",
-        "code",
         "w",
-        "london"
+        "london",
+        "code",
+        "2026",
+        "claude"
       ],
       "date_published": "May 26, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)"
@@ -1460,19 +1460,19 @@
       "title": "Code w/ Claude SF 2026 recap: Building on the AI exponential",
       "original_url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
       "hash": "768f8ccb9aeab0f6c11cb073f0a4f867031751ba453fd3bc53c245d7719ecd44",
-      "last_updated": "2026-08-16T00:44:23.938614",
+      "last_updated": "2026-08-16T03:40:27.625082",
       "source": "claude-blog",
       "categories": [
+        "agent-skills",
         "prompt-engineering",
-        "claude-code",
-        "agent-skills"
+        "claude-code"
       ],
       "keywords": [
-        "2026",
-        "claude",
+        "w",
         "sf",
         "code",
-        "w"
+        "2026",
+        "claude"
       ],
       "date_published": "May 12, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -1481,17 +1481,17 @@
       "title": "Code with Claude comes to San Francisco, London, and Tokyo",
       "original_url": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo",
       "hash": "253ae26cebcd1281686c0fbebd3654de7c395327efde0023bbb077c2699232ba",
-      "last_updated": "2026-08-16T00:44:24.096879",
+      "last_updated": "2026-08-16T03:40:27.762582",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "claude",
         "francisco",
+        "comes",
         "san",
         "code",
-        "comes"
+        "claude"
       ],
       "date_published": "March 18, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b2403b092e0358cbd_5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)"
@@ -1500,17 +1500,17 @@
       "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
       "original_url": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook",
       "hash": "ad9d326b0ce08451cdd458ba0789a07ca52b7b98bdc5512940e4b6d54dcc76b9",
-      "last_updated": "2026-08-16T00:44:24.243950",
+      "last_updated": "2026-08-16T03:40:27.884474",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "across",
-        "collaborate",
+        "powerpoint",
         "excel",
+        "collaborate",
         "claude",
-        "powerpoint"
+        "across"
       ],
       "date_published": "May 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)"
@@ -1519,17 +1519,17 @@
       "title": "Common workflow patterns for AI agents\u2014and when to use them",
       "original_url": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them",
       "hash": "b70012eec3e148cd483324c5c3f52833dcceaeb3a9ed46af115d0efdf5befbee",
-      "last_updated": "2026-08-16T00:44:24.391444",
+      "last_updated": "2026-08-16T03:40:28.012344",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "common",
-        "agents",
+        "workflow",
         "patterns",
-        "ai",
-        "workflow"
+        "agents",
+        "common",
+        "ai"
       ],
       "date_published": "March 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)"
@@ -1538,18 +1538,18 @@
       "title": "A complete guide to building skills for Claude",
       "original_url": "https://claude.com/blog/complete-guide-to-building-skills-for-claude",
       "hash": "e2d4ef5421397c45994714ff65f11aa35bbdabf09fab8288dd1171d6c8b95b4d",
-      "last_updated": "2026-08-16T00:44:24.532986",
+      "last_updated": "2026-08-16T03:40:28.136373",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agent-skills"
+        "agent-skills",
+        "claude-code"
       ],
       "keywords": [
-        "building",
+        "guide",
         "complete",
         "skills",
         "claude",
-        "guide"
+        "building"
       ],
       "date_published": "January 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)"
@@ -1558,18 +1558,18 @@
       "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
       "original_url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
       "hash": "f7873f5c0ad98f7b905e1ca3a54516cb6b27c954b75748217ed52724555ff770",
-      "last_updated": "2026-08-16T00:44:24.677904",
+      "last_updated": "2026-08-16T03:40:28.257522",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
-        "coverage",
-        "extends",
-        "claude",
         "compliance",
-        "api"
+        "coverage",
+        "api",
+        "extends",
+        "claude"
       ],
       "date_published": "August 11, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)"
@@ -1578,19 +1578,19 @@
       "title": "Claude now works with more security and compliance tools",
       "original_url": "https://claude.com/blog/compliance-api-security-partners",
       "hash": "f956f9a51ba2688358ccdb8b559dab3a4344257e44a724f4f80758613327a105",
-      "last_updated": "2026-08-16T00:44:24.831145",
+      "last_updated": "2026-08-16T03:40:28.384784",
       "source": "claude-blog",
       "categories": [
-        "security",
+        "api",
         "tools",
-        "api"
+        "security"
       ],
       "keywords": [
-        "now",
-        "works",
-        "claude",
         "security",
-        "more"
+        "more",
+        "now",
+        "claude",
+        "works"
       ],
       "date_published": "May 21, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)"
@@ -1599,18 +1599,18 @@
       "title": "Discover tools that work with Claude",
       "original_url": "https://claude.com/blog/connectors-directory",
       "hash": "dd325c0d2369f273fd83d4f99442257c6c9ad2182791ef6985ca3da45320675e",
-      "last_updated": "2026-08-16T00:44:24.993389",
+      "last_updated": "2026-08-16T03:40:28.521742",
       "source": "claude-blog",
       "categories": [
         "connectors",
         "tools"
       ],
       "keywords": [
-        "that",
-        "discover",
         "tools",
         "work",
-        "claude"
+        "claude",
+        "that",
+        "discover"
       ],
       "date_published": "July 14, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)"
@@ -1619,7 +1619,7 @@
       "title": "New connectors in Claude for everyday life",
       "original_url": "https://claude.com/blog/connectors-for-everyday-life",
       "hash": "016e15848d9a8313143161b9b34ed711dcce93af26fc9d82cf036c14fe1ca421",
-      "last_updated": "2026-08-16T00:44:25.138402",
+      "last_updated": "2026-08-16T03:40:28.641364",
       "source": "claude-blog",
       "categories": [
         "connectors",
@@ -1639,17 +1639,17 @@
       "title": "Managing context on the Claude Developer Platform",
       "original_url": "https://claude.com/blog/context-management",
       "hash": "7e27556288bba4fc7b0fee11429e412b27801627ef3e89dc0381b562eefb384a",
-      "last_updated": "2026-08-16T00:44:25.281368",
+      "last_updated": "2026-08-16T03:40:28.760838",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
         "managing",
-        "developer",
+        "platform",
         "context",
         "claude",
-        "platform"
+        "developer"
       ],
       "date_published": "September 29, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22930b7622d6096c33d_4d663bd87c391c144b9bca513b3849ccfa00a3b9-1000x1000.svg)"
@@ -1658,17 +1658,17 @@
       "title": "Understand Claude Code\u2019s impact with contribution metrics",
       "original_url": "https://claude.com/blog/contribution-metrics",
       "hash": "f27e243f4bf0ba2b80a6a2bf5dc0a3219fc2aa6d12c5f73803de57b69ce48f3b",
-      "last_updated": "2026-08-16T00:44:25.437852",
+      "last_updated": "2026-08-16T03:40:28.882082",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "s",
         "understand",
-        "claude",
         "impact",
-        "code"
+        "code",
+        "s",
+        "claude"
       ],
       "date_published": "January 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)"
@@ -1677,19 +1677,19 @@
       "title": "The Claude in Chrome side panel is now Claude Cowork",
       "original_url": "https://claude.com/blog/cowork-chrome-side-panel",
       "hash": "77129d14d0cf1afe77be66e4f3da690ad3ac4d6c8d45680fa1c90a132b7796a1",
-      "last_updated": "2026-08-16T00:44:25.583254",
+      "last_updated": "2026-08-16T03:40:29.008329",
       "source": "claude-blog",
       "categories": [
         "agent-skills",
-        "tools",
-        "chrome-extension"
+        "chrome-extension",
+        "tools"
       ],
       "keywords": [
-        "side",
-        "claude",
-        "chrome",
         "panel",
-        "is"
+        "chrome",
+        "side",
+        "is",
+        "claude"
       ],
       "date_published": "August 12, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)"
@@ -1698,18 +1698,18 @@
       "title": "Making Claude Cowork ready for enterprise",
       "original_url": "https://claude.com/blog/cowork-for-enterprise",
       "hash": "5821fce1787f49a2d8f9d63355420a1c0f714a461e04f3114f702f0cca330c7e",
-      "last_updated": "2026-08-16T00:44:25.737009",
+      "last_updated": "2026-08-16T03:40:29.138176",
       "source": "claude-blog",
       "categories": [
         "enterprise",
         "claude-code"
       ],
       "keywords": [
-        "ready",
         "cowork",
+        "enterprise",
         "making",
-        "claude",
-        "enterprise"
+        "ready",
+        "claude"
       ],
       "date_published": "April 9, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)"
@@ -1718,21 +1718,21 @@
       "title": "Cowork and plugins for teams across the enterprise",
       "original_url": "https://claude.com/blog/cowork-plugins-across-enterprise",
       "hash": "719eae14bdefce94d7a4016f169a809d74ff37c22f81841c37185c3441e368fe",
-      "last_updated": "2026-08-16T00:44:26.044225",
+      "last_updated": "2026-08-16T03:40:29.416110",
       "source": "claude-blog",
       "categories": [
         "plugins",
         "agent-skills",
-        "agents",
+        "api",
         "enterprise",
-        "api"
+        "agents"
       ],
       "keywords": [
-        "teams",
         "plugins",
-        "across",
         "cowork",
-        "enterprise"
+        "teams",
+        "enterprise",
+        "across"
       ],
       "date_published": "February 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)"
@@ -1741,7 +1741,7 @@
       "title": "Cowork and plugins for finance",
       "original_url": "https://claude.com/blog/cowork-plugins-finance",
       "hash": "f4cbf3eded2a2725b40158baf481c1ccc5f38c8b95fc35fac03dd768bb4dd0ed",
-      "last_updated": "2026-08-16T00:44:26.189997",
+      "last_updated": "2026-08-16T03:40:29.545514",
       "source": "claude-blog",
       "categories": [
         "plugins",
@@ -1749,9 +1749,9 @@
         "agents"
       ],
       "keywords": [
-        "cowork",
         "finance",
-        "plugins"
+        "plugins",
+        "cowork"
       ],
       "date_published": "February 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)"
@@ -1760,7 +1760,7 @@
       "title": "Customize Cowork with plugins",
       "original_url": "https://claude.com/blog/cowork-plugins",
       "hash": "fb97c865486b5ce313dc91dd8e60e50bfce59a9cf7f7c91d353d55f454d5e634",
-      "last_updated": "2026-08-16T00:44:25.898229",
+      "last_updated": "2026-08-16T03:40:29.288100",
       "source": "claude-blog",
       "categories": [
         "plugins",
@@ -1770,9 +1770,9 @@
         "claude-code"
       ],
       "keywords": [
-        "cowork",
+        "customize",
         "plugins",
-        "customize"
+        "cowork"
       ],
       "date_published": "January 30, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)"
@@ -1781,7 +1781,7 @@
       "title": "Claude Cowork is coming to mobile and web",
       "original_url": "https://claude.com/blog/cowork-web-mobile",
       "hash": "f744283e978786addd741d44169e82c7927f5b33f4a158afba35ae53bef72c17",
-      "last_updated": "2026-08-16T00:44:26.341570",
+      "last_updated": "2026-08-16T03:40:29.671980",
       "source": "claude-blog",
       "categories": [
         "tools",
@@ -1789,10 +1789,10 @@
       ],
       "keywords": [
         "cowork",
-        "claude",
         "mobile",
         "coming",
-        "is"
+        "is",
+        "claude"
       ],
       "date_published": "July 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3f14a08cb97bf1b16d40ef_ObjectClouds.svg)"
@@ -1801,7 +1801,7 @@
       "title": "Claude\u3067\u30d5\u30a1\u30a4\u30eb\u306e\u4f5c\u6210\u3068\u7de8\u96c6\u304c\u53ef\u80fd\u306b\u306a\u308a\u307e\u3057\u305f",
       "original_url": "https://claude.com/ja/blog/create-files",
       "hash": "7deb1870664d32e939120f18f79a44a4610bd50aeffa4fcdd753b7dafefdb9ce",
-      "last_updated": "2026-08-16T00:44:26.489040",
+      "last_updated": "2026-08-16T03:40:29.794884",
       "source": "claude-blog",
       "categories": [
         "product"
@@ -1816,18 +1816,18 @@
       "title": "Deploying Claude across financial services",
       "original_url": "https://claude.com/blog/deploying-claude-across-financial-services",
       "hash": "7e7a76bbee93bdaa7265ceb5ec1ce4f6e3070cb56350f6eca495c4e3c10989b9",
-      "last_updated": "2026-08-16T00:44:26.644708",
+      "last_updated": "2026-08-16T03:40:29.921423",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "across",
-        "financial",
         "deploying",
+        "services",
+        "financial",
         "claude",
-        "services"
+        "across"
       ],
       "date_published": "May 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)"
@@ -1836,7 +1836,7 @@
       "title": "Deploying Claude across the legal industry",
       "original_url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
       "hash": "68d28dd806d0a322b7a88649aeab496227b3b2f7135f8edd42e0fc58c916687a",
-      "last_updated": "2026-08-16T00:44:26.817406",
+      "last_updated": "2026-08-16T03:40:30.074980",
       "source": "claude-blog",
       "categories": [
         "agents"
@@ -1844,9 +1844,9 @@
       "keywords": [
         "across",
         "deploying",
-        "industry",
+        "legal",
         "claude",
-        "legal"
+        "industry"
       ],
       "date_published": "May 15, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)"
@@ -1855,17 +1855,17 @@
       "title": "Put Claude to work on your computer",
       "original_url": "https://claude.com/blog/dispatch-and-computer-use",
       "hash": "347c4b59abaed8e653dfa1440f23d107a97471123333d3dae8b43a2683efcd97",
-      "last_updated": "2026-08-16T00:44:26.969875",
+      "last_updated": "2026-08-16T03:40:30.203702",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "tools"
+        "tools",
+        "claude-code"
       ],
       "keywords": [
-        "work",
-        "claude",
-        "put",
         "your",
+        "work",
+        "put",
+        "claude",
         "computer"
       ],
       "date_published": "March 23, 2026",
@@ -1875,17 +1875,17 @@
       "title": "How enterprises are driving AI transformation with Claude",
       "original_url": "https://claude.com/blog/driving-ai-transformation-with-claude",
       "hash": "f5a09fe8c2780f06f7f41e199b19b99363649792504539899985c63b39fda232",
-      "last_updated": "2026-08-16T00:44:27.109310",
+      "last_updated": "2026-08-16T03:40:30.336682",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "enterprises",
-        "driving",
         "are",
-        "ai",
-        "transformation"
+        "enterprises",
+        "transformation",
+        "driving",
+        "ai"
       ],
       "date_published": "October 1, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)"
@@ -1894,18 +1894,18 @@
       "title": "2026\ub144 \uc18c\ud504\ud2b8\uc6e8\uc5b4 \uac1c\ubc1c \ubc29\ud5a5\uc744 \uaddc\uc815\ud558\ub294 8\uac00\uc9c0 \ud2b8\ub80c\ub4dc",
       "original_url": "https://claude.com/ko/blog/eight-trends-defining-how-software-gets-built-in-2026",
       "hash": "43d13ddfdbc9a6b1317c419b2ef42c77e6cf4602dd2a1e7f9daad47131daca45",
-      "last_updated": "2026-08-16T00:44:27.249570",
+      "last_updated": "2026-08-16T03:40:30.469298",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "\uac1c\ubc1c",
-        "\uaddc\uc815\ud558\ub294",
+        "2026\ub144",
         "\ubc29\ud5a5\uc744",
         "\uc18c\ud504\ud2b8\uc6e8\uc5b4",
-        "2026\ub144"
+        "\uaddc\uc815\ud558\ub294"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22252eca371ddd7020f_60d57c0d0bf031e140de678692f7c3ef2d885ce3-1000x1000.svg)"
@@ -1914,18 +1914,18 @@
       "title": "Centrally manage authorization for MCP connectors",
       "original_url": "https://claude.com/blog/enterprise-managed-auth",
       "hash": "7cc0dedc00e938a04435b34428414edf17c5d8dd6e6e068ead6c29c1116b7c09",
-      "last_updated": "2026-08-16T00:44:27.396388",
+      "last_updated": "2026-08-16T03:40:30.603241",
       "source": "claude-blog",
       "categories": [
         "enterprise",
         "tools"
       ],
       "keywords": [
-        "centrally",
-        "connectors",
-        "authorization",
         "manage",
-        "mcp"
+        "authorization",
+        "connectors",
+        "mcp",
+        "centrally"
       ],
       "date_published": "June 18, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)"
@@ -1934,15 +1934,15 @@
       "title": "Evaluate prompts in the developer console",
       "original_url": "https://claude.com/blog/evaluate-prompts",
       "hash": "ea191de65b64e310ee9d9894464df3c45caaf0c9818a2ff9420121730c6bf3eb",
-      "last_updated": "2026-08-16T00:44:27.552520",
+      "last_updated": "2026-08-16T03:40:30.729467",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering"
       ],
       "keywords": [
-        "developer",
         "console",
         "prompts",
+        "developer",
         "evaluate"
       ],
       "date_published": "July 9, 2024",
@@ -1952,18 +1952,18 @@
       "title": "Skills MCP \uc11c\ubc84\ub85c Claude\uc758 \uc5ed\ub7c9 \ud655\uc7a5",
       "original_url": "https://claude.com/ko/blog/extending-claude-capabilities-with-skills-mcp-servers",
       "hash": "4f4fc675c0611e076fe8985b7cab52a80c72cfba9f913694aa8b93899e772aec",
-      "last_updated": "2026-08-16T00:44:27.714373",
+      "last_updated": "2026-08-16T03:40:30.892713",
       "source": "claude-blog",
       "categories": [
-        "mcp",
         "agent-skills",
-        "agents"
+        "agents",
+        "mcp"
       ],
       "keywords": [
-        "\uc5ed\ub7c9",
-        "skills",
-        "claude\uc758",
         "mcp",
+        "\uc5ed\ub7c9",
+        "claude\uc758",
+        "skills",
         "\uc11c\ubc84\ub85c"
       ],
       "date_published": "",
@@ -1973,17 +1973,17 @@
       "title": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
       "original_url": "https://claude.com/blog/fine-tune-claude-3-haiku",
       "hash": "a90f3647d067ce72e6a954bd32b2749d25a87efeb0f01da4de42dd07722ebfa7",
-      "last_updated": "2026-08-16T00:44:27.882254",
+      "last_updated": "2026-08-16T03:40:31.037806",
       "source": "claude-blog",
       "categories": [
         "api"
       ],
       "keywords": [
-        "haiku",
-        "tune",
-        "3",
         "fine",
-        "claude"
+        "haiku",
+        "claude",
+        "tune",
+        "3"
       ],
       "date_published": "July 10, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d227246bc2b5a3cc3626_9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)"
@@ -1992,17 +1992,17 @@
       "title": "Fix software bugs faster with Claude",
       "original_url": "https://claude.com/blog/fix-software-bugs-faster-with-claude",
       "hash": "6cbff842ad85585203612133e683a9f275664ac093ee131d559c7c7ac44cd041",
-      "last_updated": "2026-08-16T00:44:28.057207",
+      "last_updated": "2026-08-16T03:40:31.165065",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
+        "bugs",
         "fix",
         "software",
-        "faster",
         "claude",
-        "bugs"
+        "faster"
       ],
       "date_published": "October 28, 2025",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -2011,17 +2011,17 @@
       "title": "Four role-based certifications for the people who put Claude to work for customers",
       "original_url": "https://claude.com/blog/four-role-based-claude-certifications",
       "hash": "4ee0d798e6c109ab9f24682cc0e86b713ef50c5dcebdc4dd4143770c5c870534",
-      "last_updated": "2026-08-16T00:44:28.242233",
+      "last_updated": "2026-08-16T03:40:31.291270",
       "source": "claude-blog",
       "categories": [
         "agent-skills"
       ],
       "keywords": [
-        "four",
+        "certifications",
         "based",
-        "role",
         "people",
-        "certifications"
+        "role",
+        "four"
       ],
       "date_published": "July 23, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)"
@@ -2030,19 +2030,19 @@
       "title": "Loop engineering: Getting started with loops",
       "original_url": "https://claude.com/blog/getting-started-with-loops",
       "hash": "3e90775523c65fc9fa52e130cd3e564744c8deb534c895e1a6f21194899fa049",
-      "last_updated": "2026-08-16T00:44:28.407334",
+      "last_updated": "2026-08-16T03:40:31.427366",
       "source": "claude-blog",
       "categories": [
+        "agents",
         "prompt-engineering",
-        "claude-code",
-        "agents"
+        "claude-code"
       ],
       "keywords": [
-        "loop",
         "getting",
+        "loops",
         "started",
         "engineering",
-        "loops"
+        "loop"
       ],
       "date_published": "June 30, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229e73ca2d0d73d78f7_682ac293884c9d4ee4ebe2355a2f6c4ecfdd9c1b-1000x1000.svg)"
@@ -2051,19 +2051,19 @@
       "title": "Giving admins more visibility and control over Claude spend",
       "original_url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
       "hash": "8694f996a1496bcd246a1978e09b49b761e81b632a00b9bdda05fee1c03d6e96",
-      "last_updated": "2026-08-16T00:44:28.557172",
+      "last_updated": "2026-08-16T03:40:31.557073",
       "source": "claude-blog",
       "categories": [
-        "tools",
         "api",
+        "tools",
         "agents"
       ],
       "keywords": [
-        "control",
-        "visibility",
-        "more",
         "admins",
-        "giving"
+        "more",
+        "giving",
+        "visibility",
+        "control"
       ],
       "date_published": "July 2, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)"
@@ -2072,18 +2072,18 @@
       "title": "Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence",
       "original_url": "https://claude.com/blog/harnessing-claudes-intelligence",
       "hash": "c46ddf5f0be552c84578350118004ce5c31a9fc7f18a29a85c3d3d517f6892b4",
-      "last_updated": "2026-08-16T00:44:28.706075",
+      "last_updated": "2026-08-16T03:40:31.688755",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
-        "3",
+        "patterns",
         "harness",
-        "agent",
         "design",
-        "patterns"
+        "agent",
+        "3"
       ],
       "date_published": "April 2, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)"
@@ -2092,17 +2092,17 @@
       "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
       "original_url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
       "hash": "91493c52a7eec73e30a888cc5f1e668307bb340bd8da18219119db9b804c9238",
-      "last_updated": "2026-08-16T00:44:28.880449",
+      "last_updated": "2026-08-16T03:40:31.834701",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "non",
-        "project",
+        "manager",
         "built",
-        "technical",
-        "manager"
+        "project",
+        "non",
+        "technical"
       ],
       "date_published": "May 1, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690937bee860a953417a8eee_Object-CodeBrowserGlobe.svg)"
@@ -2111,17 +2111,17 @@
       "title": "Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt",
       "original_url": "https://claude.com/de/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
       "hash": "d12fa3efdee942e46885cb438a6d97d89e95457ded5badced58fc5c2f0924ec3",
-      "last_updated": "2026-08-16T00:44:29.038141",
+      "last_updated": "2026-08-16T03:40:31.960585",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
         "wie",
-        "ki",
-        "die",
         "hilft",
-        "kostenschwelle"
+        "die",
+        "kostenschwelle",
+        "ki"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)"
@@ -2130,17 +2130,17 @@
       "title": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
       "original_url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
       "hash": "73597e60b87cba8f2433fe7de614e6f5d47cec31d42f3481d2ed8d423c88011a",
-      "last_updated": "2026-08-16T00:44:29.187124",
+      "last_updated": "2026-08-16T03:40:32.082844",
       "source": "claude-blog",
       "categories": [
         "api"
       ],
       "keywords": [
-        "uses",
-        "claude",
-        "anthropic",
         "leader",
-        "sales"
+        "sales",
+        "anthropic",
+        "uses",
+        "claude"
       ],
       "date_published": "May 20, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)"
@@ -2149,18 +2149,18 @@
       "title": "How Anthropic enables self-service data analytics with Claude",
       "original_url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
       "hash": "fac2e70ca1adbaeb6fb8f23761019d517048b9cef09c10000da64736ce8494a3",
-      "last_updated": "2026-08-16T00:44:29.364343",
+      "last_updated": "2026-08-16T03:40:32.238825",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "self",
+        "anthropic",
         "enables",
         "data",
         "service",
-        "anthropic"
+        "self"
       ],
       "date_published": "June 3, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)"
@@ -2169,18 +2169,18 @@
       "title": "How Anthropic secures its AI-native software development lifecycle",
       "original_url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
       "hash": "29abca0af3542043984c581ab046f35adac580ae3e13e2c8f8bfe65e1238578b",
-      "last_updated": "2026-08-16T00:44:29.523999",
+      "last_updated": "2026-08-16T03:40:32.369595",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "native",
-        "its",
         "anthropic",
+        "its",
         "ai",
-        "secures"
+        "secures",
+        "native"
       ],
       "date_published": "July 21, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)"
@@ -2189,19 +2189,19 @@
       "title": "Wie Anthropic-Teams Claude Code verwenden",
       "original_url": "https://claude.com/de/blog/how-anthropic-teams-use-claude-code",
       "hash": "46155c1b16acf5452c331b66cb787126f044720b37c65d13908998a9eb0c7c3a",
-      "last_updated": "2026-08-16T00:44:29.687150",
+      "last_updated": "2026-08-16T03:40:32.495089",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "wie",
-        "claude",
-        "anthropic",
         "teams",
-        "code"
+        "anthropic",
+        "code",
+        "claude"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)"
@@ -2210,19 +2210,19 @@
       "title": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
       "original_url": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
       "hash": "795163ac43d25c6fa236a604c7204189d3d316e315269223406beb2bf4cbcc66",
-      "last_updated": "2026-08-16T00:44:29.857879",
+      "last_updated": "2026-08-16T03:40:32.639542",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
+        "claude-code",
         "security"
       ],
       "keywords": [
-        "s",
-        "team",
-        "cybersecurity",
         "anthropic",
-        "built"
+        "cybersecurity",
+        "built",
+        "s",
+        "team"
       ],
       "date_published": "May 12, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)"
@@ -2231,17 +2231,17 @@
       "title": "Anthropic\uc774 \ubc95\ub960 \uc0ac\ubb34\uc5d0 Claude\ub97c \ud65c\uc6a9\ud558\ub294 \ubc29\ubc95",
       "original_url": "https://claude.com/ko/blog/how-anthropic-uses-claude-for-legal",
       "hash": "bb8be72f1f0a16c21d7053ffcd953f87a203f3ed920338f081b950868d9015cd",
-      "last_updated": "2026-08-16T00:44:30.066544",
+      "last_updated": "2026-08-16T03:40:32.761719",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "anthropic\uc774",
         "claude\ub97c",
-        "\uc0ac\ubb34\uc5d0",
+        "anthropic\uc774",
+        "\ud65c\uc6a9\ud558\ub294",
         "\ubc95\ub960",
-        "\ud65c\uc6a9\ud558\ub294"
+        "\uc0ac\ubb34\uc5d0"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -2250,19 +2250,19 @@
       "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
       "original_url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
       "hash": "c552432cec3bbc79debc31601f35d2e970416a09cc752c117ed9ce6edc06e58d",
-      "last_updated": "2026-08-16T00:44:30.210207",
+      "last_updated": "2026-08-16T03:40:32.888079",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "tools",
-        "api"
+        "claude-code"
       ],
       "keywords": [
-        "one",
-        "his",
         "anthropic",
+        "his",
+        "seller",
         "rebuilt",
-        "seller"
+        "one"
       ],
       "date_published": "June 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)"
@@ -2271,17 +2271,17 @@
       "title": "How Anthropic's legal team cut review times from days to hours with Claude",
       "original_url": "https://claude.com/blog/how-anthropic-uses-claude-legal",
       "hash": "b9e0de20b9271747e30201ee5957985c6f63ae2c77d060d8d42d1d1d82880f05",
-      "last_updated": "2026-08-16T00:44:30.396776",
+      "last_updated": "2026-08-16T03:40:33.013144",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
+        "anthropic",
+        "legal",
         "s",
         "team",
-        "cut",
-        "anthropic",
-        "legal"
+        "cut"
       ],
       "date_published": "December 8, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)"
@@ -2290,17 +2290,17 @@
       "title": "How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code",
       "original_url": "https://claude.com/blog/how-anthropic-uses-claude-marketing",
       "hash": "b8558275999fe00d1f7a2b38f5135d94468edef3b70fec6a61bca9ab06515c68",
-      "last_updated": "2026-08-16T00:44:30.543705",
+      "last_updated": "2026-08-16T03:40:33.135752",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "s",
-        "team",
         "growth",
         "anthropic",
-        "marketing"
+        "marketing",
+        "s",
+        "team"
       ],
       "date_published": "January 26, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f06154e381e9a1203_fb2273e9cacb0299a3ee1bf1d76d0bff95ba4e15-1000x1000.svg)"
@@ -2309,18 +2309,18 @@
       "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
       "original_url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
       "hash": "3b13afe01413648801dd233693eeb73c9178d293624c941bc968e723e0901264",
-      "last_updated": "2026-08-16T00:44:30.688084",
+      "last_updated": "2026-08-16T03:40:33.263767",
       "source": "claude-blog",
       "categories": [
         "enterprise",
         "agent-skills"
       ],
       "keywords": [
-        "s",
-        "team",
-        "development",
         "anthropic",
-        "business"
+        "development",
+        "business",
+        "s",
+        "team"
       ],
       "date_published": "August 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)"
@@ -2329,17 +2329,17 @@
       "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
       "original_url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
       "hash": "91b7ce95dd81a7a1ddecae2f501ac76cf9de6733083c670891d0b35a06bacd0a",
-      "last_updated": "2026-08-16T00:44:30.868535",
+      "last_updated": "2026-08-16T03:40:33.404142",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "s",
-        "team",
+        "anthropic",
         "uses",
         "finance",
-        "anthropic"
+        "s",
+        "team"
       ],
       "date_published": "May 22, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2279047e82efc257633_6c7219042e95bfef1a126ad5ee8b2c7def8b8b0a-1000x1000.svg)"
@@ -2348,17 +2348,17 @@
       "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
       "original_url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
       "hash": "070d82e2060945f58c83d679a84da6a5bb6fa01f89a2db582f40f3162cc4b8e0",
-      "last_updated": "2026-08-16T00:44:31.062765",
+      "last_updated": "2026-08-16T03:40:33.536844",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "operations",
-        "s",
-        "team",
         "anthropic",
-        "marketing"
+        "marketing",
+        "team",
+        "s",
+        "operations"
       ],
       "date_published": "July 8, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2261b7d4c0eae4fdf9b_036c01a9e427ea0f4d1e6c7221e4f6dce2259bf7-1000x1000.svg)"
@@ -2367,17 +2367,17 @@
       "title": "Wie Brex mit Claude Code die Codequalit\u00e4t und Produktivit\u00e4t verbessert",
       "original_url": "https://claude.com/de/blog/how-brex-improves-code-quality-and-productivity-with-claude-code",
       "hash": "a110b8afec54e539fb584b6c0ce4697b9c7c64d072b14e939c65d769f9cba0d1",
-      "last_updated": "2026-08-16T00:44:31.252669",
+      "last_updated": "2026-08-16T03:40:33.663045",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
         "wie",
-        "mit",
-        "claude",
         "brex",
-        "code"
+        "code",
+        "claude",
+        "mit"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)"
@@ -2386,17 +2386,17 @@
       "title": "How Claude Code works in large codebases: Best practices and where to start",
       "original_url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
       "hash": "bc10a1c3662c2a4e181e0d4ba5795b1fcfef3364fee1863124970402977a6902",
-      "last_updated": "2026-08-16T00:44:31.424389",
+      "last_updated": "2026-08-16T03:40:33.796071",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "codebases",
         "large",
-        "works",
+        "codebases",
+        "code",
         "claude",
-        "code"
+        "works"
       ],
       "date_published": "May 14, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -2405,17 +2405,17 @@
       "title": "How CodeRabbit used Claude to build an agent orchestration system",
       "original_url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
       "hash": "b901d405bd1ad162be7d3e24af3a2ad8ae180641d230aa50860d09507f7d02bb",
-      "last_updated": "2026-08-16T00:44:31.597396",
+      "last_updated": "2026-08-16T03:40:33.919429",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "coderabbit",
-        "used",
         "build",
+        "used",
+        "coderabbit",
         "agent",
         "claude"
       ],
@@ -2426,19 +2426,19 @@
       "title": "How Datadog built a \u201cuniversal machine tool\u201d for Claude Code",
       "original_url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
       "hash": "5ed06c8b6d772aec2c8207194e3fbe86af830bf3b21229be716cc51c6c4e0653",
-      "last_updated": "2026-08-16T00:44:31.748387",
+      "last_updated": "2026-08-16T03:40:34.053480",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "tools",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "universal",
-        "datadog",
         "machine",
+        "tool",
         "built",
-        "tool"
+        "datadog"
       ],
       "date_published": "July 21, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)"
@@ -2447,7 +2447,7 @@
       "title": "Wie Unternehmen 2026 KI-Agenten entwickeln",
       "original_url": "https://claude.com/de/blog/how-enterprises-are-building-ai-agents-in-2026",
       "hash": "fe07a6cbf5b3d5c6350b2d1112bd5f066b3b29299fcf661ead5ff1d8b84927e9",
-      "last_updated": "2026-08-16T00:44:31.910074",
+      "last_updated": "2026-08-16T03:40:34.197676",
       "source": "claude-blog",
       "categories": [
         "enterprise",
@@ -2455,10 +2455,10 @@
       ],
       "keywords": [
         "wie",
-        "ki",
-        "2026",
+        "unternehmen",
         "agenten",
-        "unternehmen"
+        "2026",
+        "ki"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b2403b092e0358cbd_5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg)"
@@ -2467,17 +2467,17 @@
       "title": "How Kepler built verifiable AI for financial services with Claude",
       "original_url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
       "hash": "ba07926f1ea093dad279f0a5df422fab9179ec0f19247e9fa8af45ff27d2783d",
-      "last_updated": "2026-08-16T00:44:32.065130",
+      "last_updated": "2026-08-16T03:40:34.323683",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "kepler",
         "financial",
         "verifiable",
-        "ai",
-        "built"
+        "built",
+        "kepler",
+        "ai"
       ],
       "date_published": "April 30, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)"
@@ -2486,17 +2486,17 @@
       "title": "How leading retailers are turning AI pilots into enterprise-wide transformation",
       "original_url": "https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation",
       "hash": "8a5e5ca54cdf76e8d0e4a966a6b6c7baecbd55461d7b6d1a25813375c9ad9fa8",
-      "last_updated": "2026-08-16T00:44:32.218910",
+      "last_updated": "2026-08-16T03:40:34.445654",
       "source": "claude-blog",
       "categories": [
         "enterprise"
       ],
       "keywords": [
-        "leading",
-        "turning",
         "are",
-        "ai",
-        "retailers"
+        "retailers",
+        "turning",
+        "leading",
+        "ai"
       ],
       "date_published": "January 28, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)"
@@ -2505,17 +2505,17 @@
       "title": "How our partners are putting Opus to work for cybersecurity",
       "original_url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
       "hash": "15be3c2a22da6d44811e127f46c9963fdd6d4dbcf056d57236c3e26e780c83d7",
-      "last_updated": "2026-08-16T00:44:32.369089",
+      "last_updated": "2026-08-16T03:40:34.569594",
       "source": "claude-blog",
       "categories": [
         "security"
       ],
       "keywords": [
         "opus",
-        "our",
         "are",
+        "putting",
         "partners",
-        "putting"
+        "our"
       ],
       "date_published": "May 21, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22753311132c8c37b39_d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)"
@@ -2524,18 +2524,18 @@
       "title": "How Outtake built a cyber investigator on Claude",
       "original_url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
       "hash": "298b7c9bc45322c9328d643d202344b65e74f26dc3a599629ae1afe97808f3ff",
-      "last_updated": "2026-08-16T00:44:32.513031",
+      "last_updated": "2026-08-16T03:40:34.705751",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "cyber",
-        "claude",
-        "investigator",
         "outtake",
-        "built"
+        "investigator",
+        "cyber",
+        "built",
+        "claude"
       ],
       "date_published": "July 22, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)"
@@ -2544,18 +2544,18 @@
       "title": "How people are using Claude Cowork",
       "original_url": "https://claude.com/blog/how-people-are-using-claude-cowork",
       "hash": "7cbc95e1e8c0dfef0392106301a589fb81c9ef41e500f78d61eec10f63704abc",
-      "last_updated": "2026-08-16T00:44:32.654294",
+      "last_updated": "2026-08-16T03:40:34.830720",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "cowork",
-        "claude",
-        "using",
+        "people",
         "are",
-        "people"
+        "using",
+        "claude"
       ],
       "date_published": "July 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)"
@@ -2564,16 +2564,16 @@
       "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
       "original_url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
       "hash": "0069ab4f5ae14524ac5f06edcd5dec9c664c40f916d5be6dcfca3644c28f62c9",
-      "last_updated": "2026-08-16T00:44:32.827741",
+      "last_updated": "2026-08-16T03:40:34.972981",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
         "designer",
-        "claude",
         "product",
         "built",
+        "claude",
         "who"
       ],
       "date_published": "July 24, 2026",
@@ -2583,17 +2583,17 @@
       "title": "Claude Code power user customization: How to configure hooks",
       "original_url": "https://claude.com/blog/how-to-configure-hooks",
       "hash": "068a606d6a43dde35803f065088ff9c09b2ba6cf22bae32833490c9fd04c73e1",
-      "last_updated": "2026-08-16T00:44:32.999398",
+      "last_updated": "2026-08-16T03:40:35.127064",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "customization",
+        "user",
         "claude",
-        "power",
         "code",
-        "user"
+        "customization",
+        "power"
       ],
       "date_published": "December 11, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b8840b2f6f9a40fe0_8925ac952fa2cb8eb5e845b2e44f3e71b33fd695-1000x1000.svg)"
@@ -2602,19 +2602,19 @@
       "title": "How to create Skills: Key steps, limitations, and examples",
       "original_url": "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples",
       "hash": "f03b0f9d555878ba2580098cc458215f7ae12f858af80cac544f3ee575631aa5",
-      "last_updated": "2026-08-16T00:44:33.176770",
+      "last_updated": "2026-08-16T03:40:35.295896",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "create",
+        "steps",
         "key",
-        "skills",
+        "create",
         "limitations",
-        "steps"
+        "skills"
       ],
       "date_published": "November 19, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)"
@@ -2623,20 +2623,20 @@
       "title": "\ub3d9\uc801 \ud544\ud130\ub9c1\uc744 \ud1b5\ud574 \uc6f9 \uac80\uc0c9 \uc815\ud655\ub3c4\uc640 \ud6a8\uc728\uc131 \ud5a5\uc0c1",
       "original_url": "https://claude.com/ko/blog/improved-web-search-with-dynamic-filtering",
       "hash": "aad9d2c6ff3a8904c2a70e7095fae36780084824765ea5c58653a62a36bd0da8",
-      "last_updated": "2026-08-16T00:44:33.332094",
+      "last_updated": "2026-08-16T03:40:35.419729",
       "source": "claude-blog",
       "categories": [
-        "search",
-        "tools",
         "api",
-        "agents"
+        "tools",
+        "agents",
+        "search"
       ],
       "keywords": [
-        "\ud1b5\ud574",
-        "\ub3d9\uc801",
-        "\ud544\ud130\ub9c1\uc744",
         "\uac80\uc0c9",
-        "\uc6f9"
+        "\uc6f9",
+        "\ud1b5\ud574",
+        "\ud544\ud130\ub9c1\uc744",
+        "\ub3d9\uc801"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229a7aa26ac1b6e96c2_a62b6eb169818f14c35b7a192af269e283f8fa93-1000x1000.svg)"
@@ -2645,17 +2645,17 @@
       "title": "Verbesserung des Frontend-Designs durch Skills",
       "original_url": "https://claude.com/de/blog/improving-frontend-design-through-skills",
       "hash": "8c63fcface502a4c272b7b0e9656fcda871c1a34bde96c900c7bf8dd50070571",
-      "last_updated": "2026-08-16T00:44:33.489369",
+      "last_updated": "2026-08-16T03:40:35.549841",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agent-skills"
+        "agent-skills",
+        "claude-code"
       ],
       "keywords": [
         "frontend",
-        "durch",
-        "des",
         "designs",
+        "des",
+        "durch",
         "verbesserung"
       ],
       "date_published": "",
@@ -2665,16 +2665,16 @@
       "title": "skill-creator \uac1c\uc120: Agent Skills \ud14c\uc2a4\ud2b8, \uce21\uc815 \ubc0f \uac1c\uc120",
       "original_url": "https://claude.com/ko/blog/improving-skill-creator-test-measure-and-refine-agent-skills",
       "hash": "5ed4fbbc80de0b7bb9b439dcf73110b65640894370473495a482b34560ee4efe",
-      "last_updated": "2026-08-16T00:44:33.642103",
+      "last_updated": "2026-08-16T03:40:35.673203",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "skill",
         "creator",
+        "skill",
         "skills",
         "\uac1c\uc120",
         "agent"
@@ -2686,11 +2686,11 @@
       "title": "API\u3092\u30b7\u30fc\u30e0\u30ec\u30b9\u306b\u7d71\u5408\u3059\u308b\u65b9\u6cd5",
       "original_url": "https://claude.com/ja/blog/integrate-apis-seamlessly",
       "hash": "4dc298529c6139b018267bdabb7529f9e416854dc6e6aa0dbf998780b796f9f7",
-      "last_updated": "2026-08-16T00:44:33.811231",
+      "last_updated": "2026-08-16T03:40:35.820990",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
         "api\u3092\u30b7\u30fc\u30e0\u30ec\u30b9\u306b\u7d71\u5408\u3059\u308b\u65b9\u6cd5"
@@ -2702,18 +2702,18 @@
       "title": "Claude can now connect to your world",
       "original_url": "https://claude.com/blog/integrations",
       "hash": "9a55d3c580bf63e1b5da7a236870186c11ca0ba334aeb58aabd9167ee8f9cc05",
-      "last_updated": "2026-08-16T00:44:33.961664",
+      "last_updated": "2026-08-16T03:40:35.941527",
       "source": "claude-blog",
       "categories": [
-        "mcp",
-        "tools"
+        "tools",
+        "mcp"
       ],
       "keywords": [
-        "now",
         "connect",
         "can",
-        "claude",
-        "your"
+        "your",
+        "now",
+        "claude"
       ],
       "date_published": "May 1, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)"
@@ -2722,17 +2722,17 @@
       "title": "Your favorite work tools are now interactive connectors inside Claude",
       "original_url": "https://claude.com/blog/interactive-tools-in-claude",
       "hash": "9dace335fb50d0583aeae3293c72501583babcc518362961e620ca010ef01ad1",
-      "last_updated": "2026-08-16T00:44:34.109294",
+      "last_updated": "2026-08-16T03:40:36.069675",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "favorite",
-        "tools",
-        "work",
         "are",
-        "your"
+        "tools",
+        "your",
+        "work",
+        "favorite"
       ],
       "date_published": "January 26, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a8c18ce1b5adef7e9_6b1470e7fa2fb7280502291f204b88c412690076-1000x1000.svg)"
@@ -2741,16 +2741,16 @@
       "title": "Introducing Citations on the Anthropic API",
       "original_url": "https://claude.com/blog/introducing-citations-api",
       "hash": "a07dacd894bfc0ec3b902728d590dc7e9264ca1d8012f8e3f84102ae43bade8b",
-      "last_updated": "2026-08-16T00:44:34.255455",
+      "last_updated": "2026-08-16T03:40:36.192367",
       "source": "claude-blog",
       "categories": [
-        "citations",
-        "api"
+        "api",
+        "citations"
       ],
       "keywords": [
         "api",
-        "citations",
-        "anthropic"
+        "anthropic",
+        "citations"
       ],
       "date_published": "June 23, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)"
@@ -2759,17 +2759,17 @@
       "title": "Introducing dynamic workflows in Claude Code",
       "original_url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
       "hash": "85f13da889c09accddc4760b319aad34b945bbac1ad8332ee79ba7dce36be478",
-      "last_updated": "2026-08-16T00:44:34.407212",
+      "last_updated": "2026-08-16T03:40:36.324571",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "api",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "claude",
         "workflows",
         "dynamic",
+        "claude",
         "code"
       ],
       "date_published": "May 28, 2026",
@@ -2779,11 +2779,11 @@
       "title": "Introducing routines in Claude Code",
       "original_url": "https://claude.com/blog/introducing-routines-in-claude-code",
       "hash": "ebd4aaf651232a2371ecbc1d14f83a6e66297772eab111314f904145a917c3e9",
-      "last_updated": "2026-08-16T00:44:34.557448",
+      "last_updated": "2026-08-16T03:40:36.453690",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
         "routines",
@@ -2797,18 +2797,18 @@
       "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
       "original_url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
       "hash": "010c0e44e7956a5af932c5d318cb59428c5a7a6d6d55370a02e570408b37d520",
-      "last_updated": "2026-08-16T00:44:34.722176",
+      "last_updated": "2026-08-16T03:40:36.590721",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "amazon",
-        "apps",
-        "claude",
+        "bedrock",
         "gateway",
-        "bedrock"
+        "apps",
+        "claude"
       ],
       "date_published": "June 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c9bc20d2072552ef256a_Node-EnterpriseAgents.svg)"
@@ -2817,17 +2817,17 @@
       "title": "Introduction au codage agentique",
       "original_url": "https://claude.com/fr/blog/introduction-to-agentic-coding",
       "hash": "09e891f1086e4babf2ae52798ec458fa07dc4146fdf81ab8f991f119d076fcf8",
-      "last_updated": "2026-08-16T00:44:34.883721",
+      "last_updated": "2026-08-16T03:40:36.721719",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "api",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "au",
-        "agentique",
         "codage",
+        "agentique",
         "introduction"
       ],
       "date_published": "",
@@ -2837,20 +2837,20 @@
       "title": "What are the key benefits of transitioning to agentic coding for software development?",
       "original_url": "https://claude.com/blog/key-benefits-transitioning-agentic-coding",
       "hash": "176d38f2b82f5ac331c7dfb156028afd2742e466fdb4a209464a8d327cccd856",
-      "last_updated": "2026-08-16T00:44:35.039734",
+      "last_updated": "2026-08-16T03:40:36.848524",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "tools",
         "api",
-        "agents"
+        "tools",
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "key",
-        "transitioning",
         "are",
+        "of",
         "benefits",
-        "of"
+        "key",
+        "transitioning"
       ],
       "date_published": "December 1, 2025",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -2859,19 +2859,19 @@
       "title": "Lessons from building Claude Code: How we use skills",
       "original_url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
       "hash": "417862af601a57254a130be186e0d97e2f92c90356eae12db2060e652c38b297",
-      "last_updated": "2026-08-16T00:44:35.203503",
+      "last_updated": "2026-08-16T03:40:36.984712",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "lessons",
-        "building",
-        "claude",
+        "code",
         "from",
-        "code"
+        "claude",
+        "building",
+        "lessons"
       ],
       "date_published": "June 3, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)"
@@ -2880,21 +2880,21 @@
       "title": "Lessons from building Claude Code: Prompt caching is everything",
       "original_url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
       "hash": "f438cdc8178cf90c4e172ad48ab64d166b6cc59c6b38070bd53b32a4b9edc832",
-      "last_updated": "2026-08-16T00:44:35.345376",
+      "last_updated": "2026-08-16T03:40:37.113157",
       "source": "claude-blog",
       "categories": [
         "caching",
-        "prompt-engineering",
         "tools",
         "agents",
-        "claude-code"
+        "claude-code",
+        "prompt-engineering"
       ],
       "keywords": [
-        "lessons",
-        "building",
-        "claude",
+        "code",
         "from",
-        "code"
+        "claude",
+        "building",
+        "lessons"
       ],
       "date_published": "April 30, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f783c784823d48ad84175_Object-CodeChatText.svg)"
@@ -2903,17 +2903,17 @@
       "title": "Claude\ub97c \ub354 \uc720\ub2a5\ud55c \uc804\uae30 \uc5d4\uc9c0\ub2c8\uc5b4\ub85c \ub9cc\ub4e4\uae30",
       "original_url": "https://claude.com/ko/blog/making-claude-a-better-electrical-engineer",
       "hash": "d0e9e7a65ce0fc3417e9fd8768436023ac99f33cbc05ccecb1f6e5f6c501ba97",
-      "last_updated": "2026-08-16T00:44:35.508746",
+      "last_updated": "2026-08-16T03:40:37.238076",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "\uc804\uae30",
-        "\uc5d4\uc9c0\ub2c8\uc5b4\ub85c",
+        "claude\ub97c",
         "\uc720\ub2a5\ud55c",
         "\ub354",
-        "claude\ub97c"
+        "\uc5d4\uc9c0\ub2c8\uc5b4\ub85c",
+        "\uc804\uae30"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)"
@@ -2922,17 +2922,17 @@
       "title": "Das kann der Max Plan",
       "original_url": "https://claude.com/de/blog/max-plan",
       "hash": "6f86a1923246b0d52ee30e63b69848be980f3110e6f73d44587f1d878da74d05",
-      "last_updated": "2026-08-16T00:44:35.681032",
+      "last_updated": "2026-08-16T03:40:37.380827",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
         "der",
-        "plan",
-        "das",
         "max",
-        "kann"
+        "kann",
+        "das",
+        "plan"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)"
@@ -2941,18 +2941,18 @@
       "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
       "original_url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
       "hash": "76c62cb1158f30f7c921731a7e727cadb626df0dcc1bb34c724fd7b57f21a7b8",
-      "last_updated": "2026-08-16T00:44:35.843992",
+      "last_updated": "2026-08-16T03:40:37.511337",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "built",
         "opus",
+        "of",
         "winners",
-        "meet",
-        "of"
+        "built",
+        "meet"
       ],
       "date_published": "June 15, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)"
@@ -2961,18 +2961,18 @@
       "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
       "original_url": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
       "hash": "29f5846da6aedd13796a50a9535228984680a01acc20951d9969531fd73f0dbe",
-      "last_updated": "2026-08-16T00:44:36.003761",
+      "last_updated": "2026-08-16T03:40:37.643845",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
         "of",
-        "our",
         "winners",
-        "meet",
-        "built"
+        "our",
+        "built",
+        "meet"
       ],
       "date_published": "April 20, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2222403b092e0358b0e_cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg)"
@@ -2981,17 +2981,17 @@
       "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
       "original_url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
       "hash": "e3ed02624f54dec223d8085f8a71e3d24408706575f9d7a6317f3a4c39755256",
-      "last_updated": "2026-08-16T00:44:36.156984",
+      "last_updated": "2026-08-16T03:40:37.769747",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "our",
+        "of",
         "winners",
+        "our",
         "claude",
-        "meet",
-        "of"
+        "meet"
       ],
       "date_published": "June 17, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6909386cc7ad3ed2a7ec8eed_Object-ThoughtBubble.svg)"
@@ -3000,7 +3000,7 @@
       "title": "Claude\u3078\u306e\u30e1\u30e2\u30ea\u306e\u5c0e\u5165",
       "original_url": "https://claude.com/ja/blog/memory",
       "hash": "b55fbdd958a919ca985d7cb406d4004edccc327548e61918c51a3360ef4f8322",
-      "last_updated": "2026-08-16T00:44:36.320479",
+      "last_updated": "2026-08-16T03:40:37.891518",
       "source": "claude-blog",
       "categories": [
         "product"
@@ -3015,16 +3015,16 @@
       "title": "Introducing the Message Batches API",
       "original_url": "https://claude.com/blog/message-batches-api",
       "hash": "044668850ac1f5ebaeb297f824814ecc7264c00afae58b523ff420f665ae465b",
-      "last_updated": "2026-08-16T00:44:36.475565",
+      "last_updated": "2026-08-16T03:40:38.022550",
       "source": "claude-blog",
       "categories": [
-        "batch-processing",
-        "api"
+        "api",
+        "batch-processing"
       ],
       "keywords": [
-        "batches",
         "api",
-        "message"
+        "message",
+        "batches"
       ],
       "date_published": "October 8, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2239bf93c8cb72a719a_a0655eda5d58588738240e9960790468a3d2c9c0-1000x1000.svg)"
@@ -3033,18 +3033,18 @@
       "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
       "original_url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
       "hash": "9e3eb91f212c9de6b3309387b615bafb6964fa92756ac678492a7c65e8d9726b",
-      "last_updated": "2026-08-16T00:44:36.640006",
+      "last_updated": "2026-08-16T03:40:38.160424",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "millennium",
-        "building",
-        "digital",
+        "are",
         "anthropic",
-        "are"
+        "digital",
+        "millennium",
+        "building"
       ],
       "date_published": "August 6, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)"
@@ -3053,17 +3053,17 @@
       "title": "Multi-agent coordination patterns: Five approaches and when to use them",
       "original_url": "https://claude.com/blog/multi-agent-coordination-patterns",
       "hash": "15892a28982d4dd531e21e0541137f6737def3d6120c67e896f3dae5312f4158",
-      "last_updated": "2026-08-16T00:44:36.811301",
+      "last_updated": "2026-08-16T03:40:38.288993",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "five",
-        "agent",
-        "coordination",
+        "multi",
         "patterns",
-        "multi"
+        "coordination",
+        "five",
+        "agent"
       ],
       "date_published": "April 10, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22562f020146c9ec973_f8f4644253bde2f901550431b871b6dcf91e5d9d-1000x1000.svg)"
@@ -3072,19 +3072,19 @@
       "title": "Deploying agentic AI across the enterprise with Claude Cowork",
       "original_url": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
       "hash": "500ff2fe8f4512094c08529bd59fa54855d0fec935c2db91198863b62aee76d8",
-      "last_updated": "2026-08-16T00:44:36.953082",
+      "last_updated": "2026-08-16T03:40:38.403338",
       "source": "claude-blog",
       "categories": [
         "enterprise",
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "agentic",
-        "across",
         "deploying",
+        "enterprise",
         "ai",
-        "enterprise"
+        "across",
+        "agentic"
       ],
       "date_published": "April 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)"
@@ -3093,17 +3093,17 @@
       "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
       "original_url": "https://claude.com/blog/new-in-claude-managed-agents",
       "hash": "299b3050343cc73f7c9cdf379ba1faf21b7268d224135cfbb67b84d15c9d8835",
-      "last_updated": "2026-08-16T00:44:37.109369",
+      "last_updated": "2026-08-16T03:40:38.524802",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "new",
         "managed",
-        "claude",
         "dreaming",
-        "agents"
+        "agents",
+        "new",
+        "claude"
       ],
       "date_published": "May 19, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d224ef32980bc807847d_a683fdcfe3e2c7c6532342a0fa4ff789c3fd4852-1000x1000.svg)"
@@ -3112,7 +3112,7 @@
       "title": "Observability for developers building connectors",
       "original_url": "https://claude.com/blog/observability-for-developers-building-connectors",
       "hash": "ce6acee6a942bd4e380b62bec2943da145a0cf069c5fae1bf59cc1d56245a9d9",
-      "last_updated": "2026-08-16T00:44:37.253104",
+      "last_updated": "2026-08-16T03:40:38.647690",
       "source": "claude-blog",
       "categories": [
         "connectors",
@@ -3131,17 +3131,17 @@
       "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
       "original_url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
       "hash": "3af470864bab6be57aa5eb1140fa69d1f52d162a7dd8b46f8d561509d70d2f66",
-      "last_updated": "2026-08-16T00:44:37.410670",
+      "last_updated": "2026-08-16T03:40:38.776031",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "new",
         "onboarding",
-        "claude",
         "like",
-        "code"
+        "new",
+        "code",
+        "claude"
       ],
       "date_published": "April 28, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)"
@@ -3150,18 +3150,18 @@
       "title": "Optimize code performance quickly",
       "original_url": "https://claude.com/blog/optimize-code-performance-quickly",
       "hash": "2b36ce00c88b9f16e25b742a51666851645346b64f3225d409e42666a7d13d19",
-      "last_updated": "2026-08-16T00:44:37.587032",
+      "last_updated": "2026-08-16T03:40:38.924690",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "tools",
-        "api"
+        "claude-code"
       ],
       "keywords": [
-        "optimize",
         "performance",
-        "code",
-        "quickly"
+        "quickly",
+        "optimize",
+        "code"
       ],
       "date_published": "October 6, 2025",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -3170,17 +3170,17 @@
       "title": "Advancing finance with Claude Opus 4.6",
       "original_url": "https://claude.com/blog/opus-4-6-finance",
       "hash": "68c3033374b8231b0bbb180fe218f27f368910c3fbe2ee3aa30f0171a345ba30",
-      "last_updated": "2026-08-16T00:44:37.730757",
+      "last_updated": "2026-08-16T03:40:39.052347",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "advancing",
-        "4",
         "opus",
-        "claude",
-        "finance"
+        "advancing",
+        "finance",
+        "4",
+        "claude"
       ],
       "date_published": "February 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)"
@@ -3189,7 +3189,7 @@
       "title": "Skills for organizations, partners, the ecosystem",
       "original_url": "https://claude.com/blog/organization-skills-and-directory",
       "hash": "2a4a41d108716f94b7c60344b3527ee9fe7b9ba472abce7211bb4a6d7649612c",
-      "last_updated": "2026-08-16T00:44:37.884025",
+      "last_updated": "2026-08-16T03:40:39.177766",
       "source": "claude-blog",
       "categories": [
         "agent-skills",
@@ -3197,9 +3197,9 @@
       ],
       "keywords": [
         "skills",
-        "partners",
+        "ecosystem",
         "organizations",
-        "ecosystem"
+        "partners"
       ],
       "date_published": "December 18, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)"
@@ -3208,19 +3208,19 @@
       "title": "Preparing your security program for AI-accelerated offense",
       "original_url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
       "hash": "12d46fcd68eb3c42432d6e782fb5201abf83b467fb8989a2f0b43272a863660f",
-      "last_updated": "2026-08-16T00:44:38.045331",
+      "last_updated": "2026-08-16T03:40:39.309664",
       "source": "claude-blog",
       "categories": [
-        "security",
         "api",
-        "agents"
+        "agents",
+        "security"
       ],
       "keywords": [
         "program",
         "security",
+        "preparing",
         "your",
-        "ai",
-        "preparing"
+        "ai"
       ],
       "date_published": "April 10, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)"
@@ -3229,17 +3229,17 @@
       "title": "\ub370\uc2a4\ud06c\ud1b1\uc6a9 Claude Code\uc5d0 \uc790\ub3d9\ud654\ub41c \ubbf8\ub9ac\ubcf4\uae30, \uac80\ud1a0, \ubcd1\ud569 \uae30\ub2a5 \ub3c4\uc785",
       "original_url": "https://claude.com/ko/blog/preview-review-and-merge-with-claude-code",
       "hash": "252ea5c2979bd853c450d48c409e56c2037042fdf1c8329d23db3721fcd080b4",
-      "last_updated": "2026-08-16T00:44:38.194886",
+      "last_updated": "2026-08-16T03:40:39.432115",
       "source": "claude-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "\uc790\ub3d9\ud654\ub41c",
-        "claude",
         "\ubbf8\ub9ac\ubcf4\uae30",
+        "\uc790\ub3d9\ud654\ub41c",
+        "\ub370\uc2a4\ud06c\ud1b1\uc6a9",
         "code\uc5d0",
-        "\ub370\uc2a4\ud06c\ud1b1\uc6a9"
+        "claude"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a9e09b6cfb6289430_c9d8dd2af6d065e1ace8bd4bb29c716eb53ffffb-1000x1000.svg)"
@@ -3248,16 +3248,16 @@
       "title": "Product development in the agentic era",
       "original_url": "https://claude.com/blog/product-development-in-the-agentic-era",
       "hash": "c87d3bab984a3b42bef72c74f83d5e818222fb167551df4255e9495ae704c4a1",
-      "last_updated": "2026-08-16T00:44:38.356226",
+      "last_updated": "2026-08-16T03:40:39.552756",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "agentic",
-        "development",
         "product",
-        "era"
+        "development",
+        "era",
+        "agentic"
       ],
       "date_published": "April 29, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)"
@@ -3266,16 +3266,16 @@
       "title": "Product management on the AI exponential",
       "original_url": "https://claude.com/blog/product-management-on-the-ai-exponential",
       "hash": "ecb01db8ef3e6985f3b5d4a6c8259b92891213594a3fbcd90c212ae9d167882f",
-      "last_updated": "2026-08-16T00:44:38.528072",
+      "last_updated": "2026-08-16T03:40:39.956970",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
+        "product",
         "exponential",
         "ai",
-        "product",
         "management"
       ],
       "date_published": "March 19, 2026",
@@ -3285,7 +3285,7 @@
       "title": "Claude and your productivity platforms",
       "original_url": "https://claude.com/blog/productivity-platforms",
       "hash": "3ea92b0a8b4efc308541ad43b3d240d28b3e771159840d5ce1d1b3af794afc5b",
-      "last_updated": "2026-08-16T00:44:38.681894",
+      "last_updated": "2026-08-16T03:40:40.074439",
       "source": "claude-blog",
       "categories": [
         "tools"
@@ -3303,18 +3303,18 @@
       "title": "Prompt caching with Claude",
       "original_url": "https://claude.com/blog/prompt-caching",
       "hash": "1c082b5217a2189def6b5f7bbc46a226a1f9c7a3250f5c69f60a9bce8e3e19f6",
-      "last_updated": "2026-08-16T00:44:38.829163",
+      "last_updated": "2026-08-16T03:40:40.200288",
       "source": "claude-blog",
       "categories": [
-        "prompt-engineering",
-        "caching",
         "api",
-        "agents"
+        "caching",
+        "agents",
+        "prompt-engineering"
       ],
       "keywords": [
         "prompt",
-        "claude",
-        "caching"
+        "caching",
+        "claude"
       ],
       "date_published": "August 14, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22606367ec36d6a7179_6380b3c2dc9e4011a3cd96fec382bd9197511e31-1000x1000.svg)"
@@ -3323,17 +3323,17 @@
       "title": "Generate better prompts in the developer console",
       "original_url": "https://claude.com/blog/prompt-generator",
       "hash": "c5e705ee79538168876932e489f2cde54d5bd7487eb72b08c41b312400f6af3e",
-      "last_updated": "2026-08-16T00:44:38.973098",
+      "last_updated": "2026-08-16T03:40:40.319290",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering"
       ],
       "keywords": [
-        "console",
         "generate",
-        "developer",
+        "better",
+        "console",
         "prompts",
-        "better"
+        "developer"
       ],
       "date_published": "May 20, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229b7f170bab528846d_0df729ce74e4c9dd62c3342c9549ce6c7cef1202-1000x1000.svg)"
@@ -3342,17 +3342,17 @@
       "title": "Improve your prompts in the developer console",
       "original_url": "https://claude.com/blog/prompt-improver",
       "hash": "2b8357feb86b830180acefea663d2c5493053e21388160e9d2833d1d9cfb2ede",
-      "last_updated": "2026-08-16T00:44:39.118670",
+      "last_updated": "2026-08-16T03:40:40.445131",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering"
       ],
       "keywords": [
-        "improve",
         "console",
-        "developer",
+        "improve",
         "your",
-        "prompts"
+        "prompts",
+        "developer"
       ],
       "date_published": "October 14, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23073f253139349bf60_71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)"
@@ -3361,18 +3361,18 @@
       "title": "Claude takes research to new places",
       "original_url": "https://claude.com/blog/research",
       "hash": "d2cb01adfbfde7dc9d8460dca0d8e57fdf5d9b6b9761bbd1769b2ae8a0ffdee1",
-      "last_updated": "2026-08-16T00:44:39.282600",
+      "last_updated": "2026-08-16T03:40:40.566389",
       "source": "claude-blog",
       "categories": [
-        "search",
-        "agents"
+        "agents",
+        "search"
       ],
       "keywords": [
-        "places",
-        "new",
+        "research",
         "takes",
         "claude",
-        "research"
+        "new",
+        "places"
       ],
       "date_published": "April 15, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)"
@@ -3381,18 +3381,18 @@
       "title": "Run Claude Code sessions on your own compute",
       "original_url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
       "hash": "a8fa95cc897fe39403a613e5c7096df998b97d43c5594ef6bc05db4452a5cbb3",
-      "last_updated": "2026-08-16T00:44:39.434117",
+      "last_updated": "2026-08-16T03:40:40.725405",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "run",
-        "sessions",
-        "claude",
         "your",
-        "code"
+        "code",
+        "sessions",
+        "claude"
       ],
       "date_published": "August 6, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)"
@@ -3401,18 +3401,18 @@
       "title": "Running an AI-native engineering org",
       "original_url": "https://claude.com/blog/running-an-ai-native-engineering-org",
       "hash": "be62e12211786ca3b8a2a018b55e321c4d22879c345b898b6661863b6894e549",
-      "last_updated": "2026-08-16T00:44:39.603740",
+      "last_updated": "2026-08-16T03:40:40.859811",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "running",
-        "native",
         "org",
+        "engineering",
+        "running",
         "ai",
-        "engineering"
+        "native"
       ],
       "date_published": "June 3, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)"
@@ -3421,18 +3421,18 @@
       "title": "How to scale agentic coding across your engineering organization",
       "original_url": "https://claude.com/blog/scaling-agentic-coding",
       "hash": "6e7f17e09d23930bc5406a749375b57a168acc37346f0e97d22f308d23b372cb",
-      "last_updated": "2026-08-16T00:44:39.747451",
+      "last_updated": "2026-08-16T03:40:40.984352",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "coding",
-        "agentic",
-        "across",
         "scale",
-        "your"
+        "your",
+        "coding",
+        "across",
+        "agentic"
       ],
       "date_published": "October 15, 2025",
       "summary": "![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d2d09b203c164ad8e6_og-claude-education.jpg)"
@@ -3441,21 +3441,21 @@
       "title": "Seeing like an agent: how we design tools in Claude Code",
       "original_url": "https://claude.com/blog/seeing-like-an-agent",
       "hash": "ae4a3ab4093bbbc055794b8aa403da2196fed8195b444f254f277fbd2e92f33e",
-      "last_updated": "2026-08-16T00:44:39.895338",
+      "last_updated": "2026-08-16T03:40:41.115035",
       "source": "claude-blog",
       "categories": [
         "agent-skills",
+        "api",
         "tools",
         "agents",
-        "claude-code",
-        "api"
+        "claude-code"
       ],
       "keywords": [
-        "we",
-        "agent",
+        "like",
         "seeing",
+        "we",
         "design",
-        "like"
+        "agent"
       ],
       "date_published": "April 10, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -3464,19 +3464,19 @@
       "title": "Claude Enterprise, now available self-serve",
       "original_url": "https://claude.com/blog/self-serve-enterprise",
       "hash": "e5ce73316e32400271e9b8a79a2ae8835c6080c42aa9439e680cda504566b34d",
-      "last_updated": "2026-08-16T00:44:40.040089",
+      "last_updated": "2026-08-16T03:40:41.239410",
       "source": "claude-blog",
       "categories": [
         "enterprise",
-        "claude-code",
-        "tools"
+        "tools",
+        "claude-code"
       ],
       "keywords": [
-        "self",
-        "now",
-        "claude",
+        "available",
         "enterprise",
-        "available"
+        "now",
+        "self",
+        "claude"
       ],
       "date_published": "February 12, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)"
@@ -3485,19 +3485,19 @@
       "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
       "original_url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
       "hash": "3640e03360ddeccc41ce828b70113b6836cd27c421c3da7eadd704c74d03c95e",
-      "last_updated": "2026-08-16T00:44:40.185882",
+      "last_updated": "2026-08-16T03:40:41.368742",
       "source": "claude-blog",
       "categories": [
-        "integrations",
+        "agents",
         "claude-code",
-        "agents"
+        "integrations"
       ],
       "keywords": [
-        "self",
         "data",
         "service",
-        "slack",
-        "analytics"
+        "analytics",
+        "self",
+        "slack"
       ],
       "date_published": "August 13, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)"
@@ -3506,19 +3506,19 @@
       "title": "Skills explained: How Skills compares to prompts, Projects, MCP, and subagents",
       "original_url": "https://claude.com/blog/skills-explained",
       "hash": "6c73719f587ab06e043f4338a9e18f74dc5503680f78e82639576fa570f7876a",
-      "last_updated": "2026-08-16T00:44:40.513155",
+      "last_updated": "2026-08-16T03:40:41.655289",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agent-skills",
         "api",
-        "agents"
+        "agent-skills",
+        "agents",
+        "claude-code"
       ],
       "keywords": [
         "skills",
         "prompts",
-        "explained",
-        "compares"
+        "compares",
+        "explained"
       ],
       "date_published": "March 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -3527,12 +3527,12 @@
       "title": "\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30b9\u30ad\u30eb\u306e\u7d39\u4ecb",
       "original_url": "https://claude.com/ja/blog/skills",
       "hash": "2f947f39ffb3634005dd82700c881aeaebeff2ad463a7ea842de4ef14b77debe",
-      "last_updated": "2026-08-16T00:44:40.337996",
+      "last_updated": "2026-08-16T03:40:41.501377",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "agent-skills",
-        "api"
+        "claude-code"
       ],
       "keywords": [
         "\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30b9\u30ad\u30eb\u306e\u7d39\u4ecb"
@@ -3544,19 +3544,19 @@
       "title": "Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents",
       "original_url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
       "hash": "8b3ace089552a7377af26ab8566d49f46fde21eb75d641cff09918cdfac3521c",
-      "last_updated": "2026-08-16T00:44:40.674531",
+      "last_updated": "2026-08-16T03:40:41.791584",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "when",
-        "claude",
         "steering",
-        "use",
-        "code"
+        "when",
+        "code",
+        "claude",
+        "use"
       ],
       "date_published": "June 18, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -3565,17 +3565,17 @@
       "title": "Claude Developer Platform \u306e\u69cb\u9020\u5316\u51fa\u529b",
       "original_url": "https://claude.com/ja/blog/structured-outputs-on-the-claude-developer-platform",
       "hash": "deee7f47d08cd30c093ca913c47302d05dbec8a4a7ced57debafbd218f99dcb5",
-      "last_updated": "2026-08-16T00:44:40.825649",
+      "last_updated": "2026-08-16T03:40:41.916016",
       "source": "claude-blog",
       "categories": [
-        "structured-outputs",
-        "api"
+        "api",
+        "structured-outputs"
       ],
       "keywords": [
         "\u306e\u69cb\u9020\u5316\u51fa\u529b",
-        "developer",
         "claude",
-        "platform"
+        "platform",
+        "developer"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)"
@@ -3584,18 +3584,18 @@
       "title": "How and when to use subagents in Claude Code",
       "original_url": "https://claude.com/blog/subagents-in-claude-code",
       "hash": "8404a8a0f17758fe5343e4daf77ae654637caabee338c0c86c07d7444357fd16",
-      "last_updated": "2026-08-16T00:44:41.011331",
+      "last_updated": "2026-08-16T03:40:42.058495",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "when",
-        "claude",
         "subagents",
-        "use",
-        "code"
+        "when",
+        "code",
+        "claude",
+        "use"
       ],
       "date_published": "April 7, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)"
@@ -3604,17 +3604,17 @@
       "title": "Introducing the Claude Team plan and iOS app",
       "original_url": "https://claude.com/blog/team-plan-and-ios",
       "hash": "51b8415944f1d69daf840c65aa24e0b4ae8c2c63cdd4a95705dbb71c068935da",
-      "last_updated": "2026-08-16T00:44:41.161696",
+      "last_updated": "2026-08-16T03:40:42.182742",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "plan",
-        "team",
         "ios",
+        "app",
+        "team",
         "claude",
-        "app"
+        "plan"
       ],
       "date_published": "May 1, 2024",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2291dd0432c25d14560_6d914851a169b4ff77e5de4a30c91f5a51520871-1000x1000.svg)"
@@ -3623,19 +3623,19 @@
       "title": "The advisor strategy: Give agents an intelligence boost",
       "original_url": "https://claude.com/blog/the-advisor-strategy",
       "hash": "8f4b1b38e2e08c3f451b0d7cce964f959d3285b1e582c0bfc5513437a45fc1cc",
-      "last_updated": "2026-08-16T00:44:41.316989",
+      "last_updated": "2026-08-16T03:40:42.314195",
       "source": "claude-blog",
       "categories": [
-        "tools",
         "api",
+        "tools",
         "agents"
       ],
       "keywords": [
         "strategy",
-        "intelligence",
         "advisor",
-        "give",
-        "agents"
+        "agents",
+        "intelligence",
+        "give"
       ],
       "date_published": "April 9, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c7f111435762ad994_1b398dbdfa4995ce5ce943aa87d8b78b2c2ba065-1000x1000.svg)"
@@ -3644,17 +3644,17 @@
       "title": "The Claude Cowork product guide",
       "original_url": "https://claude.com/blog/the-claude-cowork-product-guide",
       "hash": "4c319d49fae916398ae174dd1f255d0ad3d4639c4678f438e2f7518e3742a208",
-      "last_updated": "2026-08-16T00:44:41.486732",
+      "last_updated": "2026-08-16T03:40:42.451615",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
+        "product",
         "guide",
         "cowork",
-        "claude",
-        "product"
+        "claude"
       ],
       "date_published": "June 5, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)"
@@ -3663,19 +3663,19 @@
       "title": "The founder's playbook: Building an AI-native startup",
       "original_url": "https://claude.com/blog/the-founders-playbook",
       "hash": "c51d1a94922ff1755017b9dba3fb7ed11a4a8d80d39710ba8c10cbd94bb95d82",
-      "last_updated": "2026-08-16T00:44:41.631740",
+      "last_updated": "2026-08-16T03:40:42.578170",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "tools",
-        "api"
+        "claude-code"
       ],
       "keywords": [
-        "s",
-        "playbook",
-        "building",
         "founder",
-        "ai"
+        "s",
+        "ai",
+        "playbook",
+        "building"
       ],
       "date_published": "May 14, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d6ec42bcf1c632f75_52f59749d1e033ff2675c6686a07bcce83fb5046-1000x1000.svg)"
@@ -3684,18 +3684,18 @@
       "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
       "original_url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
       "hash": "b980835984fb0a5ecacec67f9802f92ef1d549cd9930e705d1bcd60b90c5cc49",
-      "last_updated": "2026-08-16T00:44:41.784215",
+      "last_updated": "2026-08-16T03:40:42.699348",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "google-vertex-ai"
+        "google-vertex-ai",
+        "claude-code"
       ],
       "keywords": [
         "full",
+        "aws",
         "experience",
-        "desktop",
         "claude",
-        "aws"
+        "desktop"
       ],
       "date_published": "June 22, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c7f111435762ad994_1b398dbdfa4995ce5ce943aa87d8b78b2c2ba065-1000x1000.svg)"
@@ -3704,19 +3704,19 @@
       "title": "The new rules of context engineering for Claude 5 generation models",
       "original_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "hash": "f7f46dc4b32c9d685f11311194ea6c3ea190db3f43e9b4ced8a696b439b2dac6",
-      "last_updated": "2026-08-16T00:44:41.947990",
+      "last_updated": "2026-08-16T03:40:42.836594",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
         "agent-skills",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "new",
-        "rules",
-        "context",
         "of",
-        "engineering"
+        "engineering",
+        "rules",
+        "new",
+        "context"
       ],
       "date_published": "July 24, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)"
@@ -3725,17 +3725,17 @@
       "title": "Think through hard problems in voice mode",
       "original_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
       "hash": "72afebb2eb1f60f92b0c040ceb075cd2fdb382fde883426f958d7fd447bf34c0",
-      "last_updated": "2026-08-16T00:44:42.091682",
+      "last_updated": "2026-08-16T03:40:42.961514",
       "source": "claude-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
+        "hard",
+        "problems",
         "think",
         "through",
-        "hard",
-        "voice",
-        "problems"
+        "voice"
       ],
       "date_published": "July 23, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d231b45c2193efbb0f02_1869137c9d7f2a38b50e804d707e10e85de05ddb-1000x1000.svg)"
@@ -3744,17 +3744,17 @@
       "title": "Token-saving updates on the Anthropic API",
       "original_url": "https://claude.com/blog/token-saving-updates",
       "hash": "612a0c0ee00414ac38faee4d5dc6c4908061cb52ca710fc9b860b33fa063c94c",
-      "last_updated": "2026-08-16T00:44:42.233525",
+      "last_updated": "2026-08-16T03:40:43.085255",
       "source": "claude-blog",
       "categories": [
         "api"
       ],
       "keywords": [
-        "updates",
-        "saving",
-        "token",
         "anthropic",
-        "api"
+        "api",
+        "updates",
+        "token",
+        "saving"
       ],
       "date_published": "March 13, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223e0a787df988a824b_39db33950eb113e504a5b9fc56db490a64673e96-1000x1000.svg)"
@@ -3763,16 +3763,16 @@
       "title": "Claude can now use tools",
       "original_url": "https://claude.com/blog/tool-use-ga",
       "hash": "2f3d9d92eab81466c90f21f00cf113f461bfaaacc87d764f4c233f66e423d7a2",
-      "last_updated": "2026-08-16T00:44:42.394277",
+      "last_updated": "2026-08-16T03:40:43.223844",
       "source": "claude-blog",
       "categories": [
-        "tools",
-        "api"
+        "api",
+        "tools"
       ],
       "keywords": [
-        "now",
         "tools",
         "can",
+        "now",
         "claude",
         "use"
       ],
@@ -3783,16 +3783,16 @@
       "title": "Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock",
       "original_url": "https://claude.com/blog/trainium2-and-distillation",
       "hash": "5446aba3c54b8ad98aa41b2818237e4e9d7e1533305d6d685e5b04f4898b712c",
-      "last_updated": "2026-08-16T00:44:42.544307",
+      "last_updated": "2026-08-16T03:40:43.356400",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
         "haiku",
-        "3",
-        "claude",
         "aws",
+        "claude",
+        "3",
         "5"
       ],
       "date_published": "December 3, 2024",
@@ -3802,19 +3802,19 @@
       "title": "Get to production faster with the upgraded Anthropic Console",
       "original_url": "https://claude.com/blog/upgraded-anthropic-console",
       "hash": "0cd748fb291ef5962ea02f54361c07a9400a54ccc5d45e0357ffa8147dc5ba89",
-      "last_updated": "2026-08-16T00:44:42.689994",
+      "last_updated": "2026-08-16T03:40:43.479745",
       "source": "claude-blog",
       "categories": [
-        "console",
+        "api",
         "tools",
-        "api"
+        "console"
       ],
       "keywords": [
-        "upgraded",
-        "faster",
+        "production",
         "anthropic",
+        "upgraded",
         "get",
-        "production"
+        "faster"
       ],
       "date_published": "March 6, 2025",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -3823,18 +3823,18 @@
       "title": "Using Claude Code: session management and 1M context",
       "original_url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
       "hash": "93039eefa2a7c9e9dcbf363fd6764624ce4e9b56fc45d8fcf31c66e1b0c5a574",
-      "last_updated": "2026-08-16T00:44:42.832042",
+      "last_updated": "2026-08-16T03:40:43.627259",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
-        "session",
-        "management",
-        "claude",
         "using",
-        "code"
+        "management",
+        "session",
+        "code",
+        "claude"
       ],
       "date_published": "April 15, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)"
@@ -3843,19 +3843,19 @@
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
       "original_url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
       "hash": "f9dbb9f15b365fad5890b1330cb2585b928c6081e8bac4a8ac98a70aaa15874f",
-      "last_updated": "2026-08-16T00:44:42.987279",
+      "last_updated": "2026-08-16T03:40:43.769813",
       "source": "claude-blog",
       "categories": [
+        "agents",
         "prompt-engineering",
-        "claude-code",
-        "agents"
+        "claude-code"
       ],
       "keywords": [
-        "unreasonable",
-        "effectiveness",
-        "claude",
         "using",
-        "code"
+        "unreasonable",
+        "code",
+        "claude",
+        "effectiveness"
       ],
       "date_published": "May 20, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -3864,17 +3864,17 @@
       "title": "CLAUDE.md \ud30c\uc77c \uc0ac\uc6a9: \ucf54\ub4dc\ubca0\uc774\uc2a4\uc5d0 \ub9de\uac8c Claude Code \ub9de\ucda4\ud654\ud558\uae30",
       "original_url": "https://claude.com/ko/blog/using-claude-md-files",
       "hash": "4eb1641cb23793d5a8c53bfdfe65ba3a55797a6952afd257f2d1cb192d0f6911",
-      "last_updated": "2026-08-16T00:44:43.140317",
+      "last_updated": "2026-08-16T03:40:43.914136",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
-        "\ucf54\ub4dc\ubca0\uc774\uc2a4\uc5d0",
         "md",
-        "\uc0ac\uc6a9",
+        "\ucf54\ub4dc\ubca0\uc774\uc2a4\uc5d0",
         "\ud30c\uc77c",
+        "\uc0ac\uc6a9",
         "claude"
       ],
       "date_published": "",
@@ -3884,16 +3884,16 @@
       "title": "Using LLMs to secure source code",
       "original_url": "https://claude.com/blog/using-llms-to-secure-source-code",
       "hash": "eef59db522a39a7a210525c8c7ebb6fd3cb98c03b697b59f435fbe370cedcdb9",
-      "last_updated": "2026-08-16T00:44:43.312894",
+      "last_updated": "2026-08-16T03:40:44.064036",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "source",
-        "secure",
-        "using",
         "llms",
+        "source",
+        "using",
+        "secure",
         "code"
       ],
       "date_published": "May 27, 2026",
@@ -3903,18 +3903,18 @@
       "title": "Introducing web search on the Anthropic API",
       "original_url": "https://claude.com/blog/web-search-api",
       "hash": "3b16a767e2fca9be0f6026f691f88ac08446d444598045580a77b0c3cf96ee9f",
-      "last_updated": "2026-08-16T00:44:43.628427",
+      "last_updated": "2026-08-16T03:40:44.311019",
       "source": "claude-blog",
       "categories": [
-        "search",
         "api",
-        "agents"
+        "agents",
+        "search"
       ],
       "keywords": [
-        "api",
         "search",
-        "web",
-        "anthropic"
+        "api",
+        "anthropic",
+        "web"
       ],
       "date_published": "May 7, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e13864f88ea55c2d8_b5c98d26c46edc43193e7f7e28a00633a538bb9c-1000x1000.svg)"
@@ -3923,16 +3923,16 @@
       "title": "Claude can now search the web",
       "original_url": "https://claude.com/blog/web-search",
       "hash": "8022b42abc8d99c456a1e331bbdb77f335489e36ccc11428dfac5848495fa0a3",
-      "last_updated": "2026-08-16T00:44:43.470706",
+      "last_updated": "2026-08-16T03:40:44.187159",
       "source": "claude-blog",
       "categories": [
         "search"
       ],
       "keywords": [
         "now",
-        "search",
         "can",
         "web",
+        "search",
         "claude"
       ],
       "date_published": "March 20, 2025",
@@ -3942,17 +3942,17 @@
       "title": "\ubaa8\ub378 \ucee8\ud14d\uc2a4\ud2b8 \ud504\ub85c\ud1a0\ucf5c\uc774\ub780? AI\ub97c \ub098\ub9cc\uc758 \uc138\uacc4\uc640 \uc5f0\uacb0\ud558\uc138\uc694",
       "original_url": "https://claude.com/ko/blog/what-is-model-context-protocol",
       "hash": "4cfa13b653e38315fc2a8e46345e3cd68053b16efc99142fbb8a7bacb6fc8776",
-      "last_updated": "2026-08-16T00:44:43.801386",
+      "last_updated": "2026-08-16T03:40:44.441493",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "\ubaa8\ub378",
         "\ub098\ub9cc\uc758",
-        "ai\ub97c",
+        "\ud504\ub85c\ud1a0\ucf5c\uc774\ub780",
         "\ucee8\ud14d\uc2a4\ud2b8",
-        "\ud504\ub85c\ud1a0\ucf5c\uc774\ub780"
+        "ai\ub97c",
+        "\ubaa8\ub378"
       ],
       "date_published": "",
       "summary": "![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)"
@@ -3961,18 +3961,18 @@
       "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
       "original_url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
       "hash": "9711b1f79d82facb529a2aa1a372ebf116d439ef17c9993bf0a7425364b635ee",
-      "last_updated": "2026-08-16T00:44:43.966670",
+      "last_updated": "2026-08-16T03:40:44.567044",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
-        "run",
-        "new",
         "managed",
-        "claude",
-        "agents"
+        "run",
+        "agents",
+        "new",
+        "claude"
       ],
       "date_published": "June 9, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)"
@@ -3981,17 +3981,17 @@
       "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
       "original_url": "https://claude.com/blog/working-at-the-frontier-cursor",
       "hash": "2c184332db580d080ed3928a7fd9e674fa5b0e7968df3beb181ceb0ffaf0f280",
-      "last_updated": "2026-08-16T00:44:44.115745",
+      "last_updated": "2026-08-16T03:40:44.694994",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
+        "working",
         "knew",
         "frontier",
-        "claude",
         "cursor",
-        "working"
+        "claude"
       ],
       "date_published": "July 17, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)"
@@ -4000,17 +4000,17 @@
       "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
       "original_url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
       "hash": "db75c13f3a1dcb0d4ee9e8d22b7a0d1e75f1a0451d40a4a7f09d4b98944b72c1",
-      "last_updated": "2026-08-16T00:44:44.295448",
+      "last_updated": "2026-08-16T03:40:44.835559",
       "source": "claude-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "frontier",
+        "working",
         "cognition",
-        "claude",
+        "frontier",
         "trusts",
-        "working"
+        "claude"
       ],
       "date_published": "July 10, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22c10cdf166eebe4c84_d4b15045df86e43e5b5dc7b25784321ce8b5dd88-1000x1000.svg)"
@@ -4019,16 +4019,16 @@
       "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
       "original_url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
       "hash": "ede34969a6c61799e0f6781a389c45ad4480a301e1155512ef4a5d10445640a2",
-      "last_updated": "2026-08-16T00:44:44.442936",
+      "last_updated": "2026-08-16T03:40:44.957999",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "hebbia",
+        "working",
         "frontier",
         "builds",
-        "working",
+        "hebbia",
         "ai"
       ],
       "date_published": "July 13, 2026",
@@ -4038,19 +4038,19 @@
       "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
       "original_url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
       "hash": "672e2848292a12b1198702fb5b7dd908b2b1c89c72ee11eee2f9977b0402fe59",
-      "last_updated": "2026-08-16T00:44:44.595495",
+      "last_updated": "2026-08-16T03:40:45.076590",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
+        "api",
         "tools",
-        "api"
+        "claude-code"
       ],
       "keywords": [
+        "working",
         "frontier",
-        "thomson",
         "builds",
-        "reuters",
-        "working"
+        "thomson",
+        "reuters"
       ],
       "date_published": "July 8, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22e7cc0b92f0562c5e3_a199a67a3347dcc102d63943338e14cb3b4e5405-1000x1000.svg)"
@@ -4059,18 +4059,18 @@
       "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
       "original_url": "https://claude.com/blog/working-at-the-frontier-rakuten",
       "hash": "7cbff7ac213017cda3454726dfe0b8167560feacb3dbf96ea860ad2ebf191ba1",
-      "last_updated": "2026-08-16T00:44:44.745092",
+      "last_updated": "2026-08-16T03:40:45.201550",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "agents"
+        "agents",
+        "claude-code"
       ],
       "keywords": [
+        "working",
         "frontier",
-        "rakuten",
         "builds",
         "agents",
-        "working"
+        "rakuten"
       ],
       "date_published": "July 20, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7912d5b05a5c7ed8ae86_Object-CodeChatCode.svg)"
@@ -4079,17 +4079,17 @@
       "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
       "original_url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
       "hash": "0548c1569618d5f34a1e690171f084fe3762e77b4648c7f8170eaca03174b36a",
-      "last_updated": "2026-08-16T00:44:44.891971",
+      "last_updated": "2026-08-16T03:40:45.325500",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "base44",
-        "frontier",
-        "trusts",
         "working",
-        "why"
+        "trusts",
+        "frontier",
+        "why",
+        "base44"
       ],
       "date_published": "July 15, 2026",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)"
@@ -4098,15 +4098,15 @@
       "title": "Working with Claude Fable 5 in Claude Cowork",
       "original_url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
       "hash": "4e04e1175369ac4dbfc0d645c9531680c4bb53a116f5f83239e966f43e76a1d7",
-      "last_updated": "2026-08-16T00:44:45.047678",
+      "last_updated": "2026-08-16T03:40:45.455593",
       "source": "claude-blog",
       "categories": [
         "prompt-engineering"
       ],
       "keywords": [
+        "working",
         "claude",
         "5",
-        "working",
         "fable"
       ],
       "date_published": "July 16, 2026",
@@ -4116,17 +4116,17 @@
       "title": "Secure access to the Claude Platform with Workload Identity Federation",
       "original_url": "https://claude.com/blog/workload-identity-federation",
       "hash": "5e22ddaebca9db32eda33e110f1539a96e1db7f37f1ebfe2438b2b6a77275820",
-      "last_updated": "2026-08-16T00:44:45.214182",
+      "last_updated": "2026-08-16T03:40:45.600786",
       "source": "claude-blog",
       "categories": [
-        "claude-code",
-        "api"
+        "api",
+        "claude-code"
       ],
       "keywords": [
-        "workload",
-        "claude",
         "secure",
+        "workload",
         "platform",
+        "claude",
         "access"
       ],
       "date_published": "June 17, 2026",
@@ -4136,15 +4136,15 @@
       "title": "Workspaces in the Anthropic API Console",
       "original_url": "https://claude.com/blog/workspaces",
       "hash": "bbe7df19a8d164612d34575420c6bf7347353249c46b7fac2fd4563eec1b88a1",
-      "last_updated": "2026-08-16T00:44:45.352908",
+      "last_updated": "2026-08-16T03:40:45.725646",
       "source": "claude-blog",
       "categories": [
         "api"
       ],
       "keywords": [
         "api",
-        "console",
         "anthropic",
+        "console",
         "workspaces"
       ],
       "date_published": "September 10, 2024",
@@ -4154,16 +4154,16 @@
       "title": "What\u2019s new in Claude: Turning Claude into your thinking partner",
       "original_url": "https://claude.com/blog/your-thinking-partner",
       "hash": "f17b4d25645582c2a6fbc9471eb5dc2e947e308fdd678f795b478eae49cdc958",
-      "last_updated": "2026-08-16T00:44:45.494201",
+      "last_updated": "2026-08-16T03:40:45.849477",
       "source": "claude-blog",
       "categories": [
         "product"
       ],
       "keywords": [
-        "new",
         "s",
         "claude",
-        "turning"
+        "turning",
+        "new"
       ],
       "date_published": "November 20, 2025",
       "summary": "![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225e31f7aa22c1f28cb_46e4aa7ea208ed440d5bd9e9e3a0ee66bc336ff1-1000x1000.svg)"
@@ -4172,16 +4172,16 @@
       "title": "Zero Trust for AI agents",
       "original_url": "https://claude.com/blog/zero-trust-for-ai-agents",
       "hash": "8026d03ddfc074b916df7c3cee1f53284124812d231d7d7f34b444c05f7a658a",
-      "last_updated": "2026-08-16T00:44:45.669985",
+      "last_updated": "2026-08-16T03:40:45.975253",
       "source": "claude-blog",
       "categories": [
         "tools",
         "agents"
       ],
       "keywords": [
+        "agents",
         "ai",
         "trust",
-        "agents",
         "zero"
       ],
       "date_published": "May 27, 2026",
@@ -4190,6 +4190,6 @@
   },
   "source": "claude-blog",
   "base_url": "https://www.claude.com/blog/",
-  "last_updated": "2026-08-16T00:44:45.699330",
+  "last_updated": "2026-08-16T03:40:46.006694",
   "description": "Claude.com blog posts - product announcements, feature launches, and developer guides"
 }
