@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786940100&signature=4946d43365a59e39c8f150bbb9302a9606a62188408902f018aa76ac591206b3&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDTLxoxNdRzYWrfF7yPX99OOclxXm8bJ%2B5%0A%2FOEwFZmOCsLsDMuKiG0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786950000&signature=4f3dd07522868834043f57505a4410d78516b0db9a000317a65a966b273d5ad6&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDTbxpxNdRzYWrfF7PJTSEFcY8YaMwuUAG%0A961FPB7JSn5voNsWNy0%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786940100&signature=0fb91394592db1bd96e1443e30fafe747a714f9f7b5d0ee7b86c26a77183d814&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycZFALy8OQfYsvK3wRFjqkTTueJybqetts%0A2JYbftd2XZDjfVGpYKU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786950000&signature=8829db01436b6e1a1426aea401daf923bc0102252615b1245e39e5fc56a67940&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycZVAKy8OQfYsvK3xoU0u61l%2By4TTVsIC%2F%0AImO%2Bgg%2FCRwobchNsvQs%3D%0A)
 
  
 

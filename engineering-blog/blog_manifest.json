@@ -4,14 +4,14 @@
       "title": "Designing AI-resistant technical evaluations",
       "original_url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
       "hash": "e0b23cd257f1a56a2cfab818756528ecb29ffb0d5fdbe30ce8fd4bb79bf623d2",
-      "last_updated": "2026-08-17T03:41:12.808342",
+      "last_updated": "2026-08-17T06:35:18.295573",
       "source": "engineering-blog",
       "categories": [
         "engineering"
       ],
       "keywords": [
-        "technical",
         "evaluations",
+        "technical",
         "resistant",
         "designing",
         "ai"
@@ -23,17 +23,17 @@
       "title": "A postmortem of three recent issues",
       "original_url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
       "hash": "1d05cbe1b3261d77a3504e31c08d9b4a10fcd770db21c5feba2d4a03af779141",
-      "last_updated": "2026-08-17T03:41:13.033973",
+      "last_updated": "2026-08-17T06:35:18.462779",
       "source": "engineering-blog",
       "categories": [
         "reliability"
       ],
       "keywords": [
-        "of",
-        "recent",
         "issues",
         "three",
-        "postmortem"
+        "postmortem",
+        "of",
+        "recent"
       ],
       "date_published": "*",
       "summary": "This is a technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing."
@@ -42,18 +42,18 @@
       "title": "Introducing advanced tool use on the Claude Developer Platform",
       "original_url": "https://www.anthropic.com/engineering/advanced-tool-use",
       "hash": "7d5764af0e4a7f5f7e34160fb3e8e694f31e8e461a63d6906b6435c185a48ea7",
-      "last_updated": "2026-08-17T03:41:13.314942",
+      "last_updated": "2026-08-17T06:35:18.700962",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "tools"
+        "tools",
+        "agents"
       ],
       "keywords": [
-        "introducing",
-        "claude",
         "tool",
+        "advanced",
         "use",
-        "advanced"
+        "introducing",
+        "claude"
       ],
       "date_published": "*",
       "summary": "Claude can now discover, learn, and execute tools dynamically to enable agents that take action in the real world. Here\u2019s how."
@@ -62,20 +62,20 @@
       "title": "An update on recent Claude Code quality reports",
       "original_url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "hash": "fb96d29da639c1da19e7408434269c19474dd028ee4765d7b90622b3283ef5e1",
-      "last_updated": "2026-08-17T03:41:13.431429",
+      "last_updated": "2026-08-17T06:35:18.820725",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "reliability",
+        "agent-sdk",
         "claude-code",
-        "agent-sdk"
+        "reliability",
+        "agents"
       ],
       "keywords": [
-        "code",
-        "claude",
-        "quality",
         "update",
-        "recent"
+        "quality",
+        "claude",
+        "recent",
+        "code"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -84,18 +84,18 @@
       "title": "Building a C compiler with a team of parallel Claudes",
       "original_url": "https://www.anthropic.com/engineering/building-c-compiler",
       "hash": "28fcef75e1837d73ce843d595470d868f7c601c809a6d686234dd888ec19e4da",
-      "last_updated": "2026-08-17T03:41:13.618669",
+      "last_updated": "2026-08-17T06:35:19.066267",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "claude-code"
+        "claude-code",
+        "agents"
       ],
       "keywords": [
         "compiler",
-        "of",
-        "c",
+        "team",
         "building",
-        "team"
+        "of",
+        "c"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -104,14 +104,14 @@
       "title": "Building effective agents",
       "original_url": "https://www.anthropic.com/engineering/building-effective-agents",
       "hash": "449a84680460209a30c2ac72c3991351328adab1f8480aa23672bb0c99960649",
-      "last_updated": "2026-08-17T03:41:13.727066",
+      "last_updated": "2026-08-17T06:35:19.622052",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "effective",
         "building",
+        "effective",
         "agents"
       ],
       "date_published": "*",
@@ -121,18 +121,18 @@
       "title": "How we built Claude Code auto mode: a safer way to skip permissions",
       "original_url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "hash": "8c7f225fef458bea4b60b4563d05ccee23bc889d046f889efc159204663f1fb6",
-      "last_updated": "2026-08-17T03:41:13.861778",
+      "last_updated": "2026-08-17T06:35:20.280318",
       "source": "engineering-blog",
       "categories": [
         "claude-code",
         "tools"
       ],
       "keywords": [
-        "code",
-        "claude",
-        "we",
         "how",
-        "built"
+        "built",
+        "claude",
+        "code",
+        "we"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -141,16 +141,16 @@
       "title": "Best practices for Claude Code",
       "original_url": "https://www.anthropic.com/engineering/claude-code-best-practices",
       "hash": "9f3a2070bb8755779419572f0ade52780cd432cde3b69969c8076ecf616640a9",
-      "last_updated": "2026-08-17T03:41:14.043072",
+      "last_updated": "2026-08-17T06:35:20.511803",
       "source": "engineering-blog",
       "categories": [
         "claude-code"
       ],
       "keywords": [
-        "claude",
-        "code",
+        "practices",
         "best",
-        "practices"
+        "claude",
+        "code"
       ],
       "date_published": "",
       "summary": "Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions."
@@ -159,17 +159,17 @@
       "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
       "original_url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
       "hash": "f64fa07b18e12f40f9eed5f05b32e57f0a1363889dcae146814ca73e5744fe87",
-      "last_updated": "2026-08-17T03:41:14.260758",
+      "last_updated": "2026-08-17T06:35:20.674514",
       "source": "engineering-blog",
       "categories": [
-        "security",
-        "claude-code"
+        "claude-code",
+        "security"
       ],
       "keywords": [
+        "making",
+        "beyond",
         "permission",
         "claude",
-        "beyond",
-        "making",
         "prompts"
       ],
       "date_published": "*",
@@ -179,16 +179,16 @@
       "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
       "original_url": "https://www.anthropic.com/engineering/claude-think-tool",
       "hash": "a9901bc22d18b0bb038fef0fa9eba7e3a629d032781c79affca2ef8bcb193fff",
-      "last_updated": "2026-08-17T03:41:14.406463",
+      "last_updated": "2026-08-17T06:35:21.148780",
       "source": "engineering-blog",
       "categories": [
         "tools"
       ],
       "keywords": [
-        "claude",
-        "stop",
         "tool",
+        "stop",
         "enabling",
+        "claude",
         "think"
       ],
       "date_published": "*",
@@ -198,20 +198,20 @@
       "title": "Code execution with MCP: Building more efficient agents",
       "original_url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
       "hash": "46f16d22b467e662c4d1955e73ca8aec5576e9b3ab4988bbb8e6e72f74edc058",
-      "last_updated": "2026-08-17T03:41:14.510248",
+      "last_updated": "2026-08-17T06:35:21.718433",
       "source": "engineering-blog",
       "categories": [
-        "agents",
+        "agent-sdk",
         "mcp",
         "tools",
-        "agent-sdk"
+        "agents"
       ],
       "keywords": [
+        "mcp",
         "more",
-        "code",
-        "execution",
         "building",
-        "mcp"
+        "execution",
+        "code"
       ],
       "date_published": "*",
       "summary": "Learn how code execution with the Model Context Protocol enables agents to handle more tools while using fewer tokens, reducing context overhead by up to 98.7%."
@@ -220,16 +220,16 @@
       "title": "Introducing Contextual Retrieval",
       "original_url": "https://www.anthropic.com/engineering/contextual-retrieval",
       "hash": "999e76cbb303606e3ab56f35bfe0f89add225199fe0f11eb30da24f679913391",
-      "last_updated": "2026-08-17T03:41:14.598268",
+      "last_updated": "2026-08-17T06:35:21.866019",
       "source": "engineering-blog",
       "categories": [
-        "retrieval",
-        "rag"
+        "rag",
+        "retrieval"
       ],
       "keywords": [
+        "introducing",
         "retrieval",
-        "contextual",
-        "introducing"
+        "contextual"
       ],
       "date_published": "*",
       "summary": "Explore how Anthropic enhances AI systems through advanced contextual retrieval methods. Learn about our approach to improving information access and relevance in large language models."
@@ -238,17 +238,17 @@
       "title": "Demystifying evals for AI agents",
       "original_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
       "hash": "53709e24e3f15aed2637c0baa3bed490c1c8a6c2562ba7c4d7e9524e78b400a8",
-      "last_updated": "2026-08-17T03:41:14.745427",
+      "last_updated": "2026-08-17T06:35:22.042034",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "tools"
+        "tools",
+        "agents"
       ],
       "keywords": [
-        "agents",
         "evals",
+        "demystifying",
         "ai",
-        "demystifying"
+        "agents"
       ],
       "date_published": "*",
       "summary": "Demystifying evals for AI agents"
@@ -257,17 +257,17 @@
       "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
       "original_url": "https://www.anthropic.com/engineering/desktop-extensions",
       "hash": "defd613ed0500582c2998efeeae7a591c331cfeb1fc11752351f0ddaf698720a",
-      "last_updated": "2026-08-17T03:41:14.869432",
+      "last_updated": "2026-08-17T06:35:22.195630",
       "source": "engineering-blog",
       "categories": [
         "desktop"
       ],
       "keywords": [
-        "desktop",
         "extensions",
         "mcp",
         "click",
-        "one"
+        "one",
+        "desktop"
       ],
       "date_published": "*",
       "summary": "Claude Desktop Extensions: One-click MCP server installation for Claude Desktop"
@@ -276,15 +276,15 @@
       "title": "Effective context engineering for AI agents",
       "original_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
       "hash": "14fdc3a0098b35f2138cf24f3f3795824925ee544a4d25bbec1bad547a2fc714",
-      "last_updated": "2026-08-17T03:41:15.083105",
+      "last_updated": "2026-08-17T06:35:22.334343",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
         "context",
-        "engineering",
         "agents",
+        "engineering",
         "effective",
         "ai"
       ],
@@ -295,17 +295,17 @@
       "title": "Effective harnesses for long-running agents",
       "original_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
       "hash": "204d60eb4c6b7eb49fd7c5d447dac6edde8bdc2fa83d0f72af4881b5fcfddb5a",
-      "last_updated": "2026-08-17T03:41:15.530482",
+      "last_updated": "2026-08-17T06:35:22.476901",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "long",
-        "running",
-        "agents",
         "harnesses",
-        "effective"
+        "effective",
+        "agents",
+        "long",
+        "running"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -314,19 +314,19 @@
       "title": "Equipping agents for the real world with Agent Skills",
       "original_url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
       "hash": "529ca14a139266ce1a43caffa8113b1f26b3fc71ea281f1a3cb9f5f32c8f784d",
-      "last_updated": "2026-08-17T03:41:15.663329",
+      "last_updated": "2026-08-17T06:35:22.612502",
       "source": "engineering-blog",
       "categories": [
-        "agents",
+        "claude-code",
         "agent-skills",
-        "claude-code"
+        "agents"
       ],
       "keywords": [
-        "equipping",
-        "real",
         "agent",
         "agents",
-        "world"
+        "world",
+        "equipping",
+        "real"
       ],
       "date_published": "*",
       "summary": "Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably."
@@ -335,16 +335,16 @@
       "title": "Eval awareness in Claude Opus 4.6\u2019s BrowseComp performance",
       "original_url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
       "hash": "0e36dcf3ef4437e9b6f3b420cac55e6223dc51c32679cdc5f57d3e4a308ac358",
-      "last_updated": "2026-08-17T03:41:15.748648",
+      "last_updated": "2026-08-17T06:35:22.828144",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "benchmarks"
+        "benchmarks",
+        "agents"
       ],
       "keywords": [
-        "eval",
         "awareness",
         "4",
+        "eval",
         "opus",
         "claude"
       ],
@@ -355,17 +355,17 @@
       "title": "Harness design for long-running application development",
       "original_url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
       "hash": "a571ef6000c9929df95ebde84b7f68b52189d1f071d03f0699cf611b239aa377",
-      "last_updated": "2026-08-17T03:41:15.892745",
+      "last_updated": "2026-08-17T06:35:22.991884",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "long",
-        "application",
+        "design",
         "harness",
-        "running",
-        "design"
+        "application",
+        "long",
+        "running"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -374,17 +374,17 @@
       "title": "How we contain Claude across products",
       "original_url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "hash": "594cc1af21d3dbf85eaa61b41ea6668c3f9b2e311f528d5c81ca7a44a135d2bf",
-      "last_updated": "2026-08-17T03:41:16.057087",
+      "last_updated": "2026-08-17T06:35:23.160478",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "across",
-        "claude",
-        "we",
         "how",
-        "contain"
+        "claude",
+        "contain",
+        "across",
+        "we"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -393,18 +393,18 @@
       "title": "Quantifying infrastructure noise in agentic coding evals",
       "original_url": "https://www.anthropic.com/engineering/infrastructure-noise",
       "hash": "81687353dba600820268720189d0df25fe5747ebd24c33c775f7e3821f0be7f3",
-      "last_updated": "2026-08-17T03:41:16.149266",
+      "last_updated": "2026-08-17T06:35:23.320657",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "benchmarks"
+        "benchmarks",
+        "agents"
       ],
       "keywords": [
         "coding",
-        "agentic",
+        "noise",
         "quantifying",
         "infrastructure",
-        "noise"
+        "agentic"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -413,17 +413,17 @@
       "title": "Scaling Managed Agents: Decoupling the brain from the hands",
       "original_url": "https://www.anthropic.com/engineering/managed-agents",
       "hash": "3bc86391a5a55c6ed5e60c910bdcd0e0fd4c869ddf04b3fe0f52e89eccd8e487",
-      "last_updated": "2026-08-17T03:41:16.247814",
+      "last_updated": "2026-08-17T06:35:23.461883",
       "source": "engineering-blog",
       "categories": [
         "agents"
       ],
       "keywords": [
-        "scaling",
-        "brain",
         "decoupling",
+        "managed",
+        "brain",
         "agents",
-        "managed"
+        "scaling"
       ],
       "date_published": "*",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
@@ -432,18 +432,18 @@
       "title": "How we built our multi-agent research system",
       "original_url": "https://www.anthropic.com/engineering/multi-agent-research-system",
       "hash": "8748a2233010a523306fa7356b98c0f3069905812aa9c8c45e1f0699a6867a9b",
-      "last_updated": "2026-08-17T03:41:16.331680",
+      "last_updated": "2026-08-17T06:35:23.606237",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "tools"
+        "tools",
+        "agents"
       ],
       "keywords": [
-        "multi",
-        "our",
-        "we",
         "how",
-        "built"
+        "our",
+        "built",
+        "multi",
+        "we"
       ],
       "date_published": "*",
       "summary": "On the the engineering challenges and lessons learned from building Claude's Research system"
@@ -452,17 +452,17 @@
       "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
       "original_url": "https://www.anthropic.com/engineering/swe-bench-sonnet",
       "hash": "c1ecdeed55525b23547d74c1fcab7c90ab8066bdc20451fd8ff3b8501baa3c05",
-      "last_updated": "2026-08-17T03:41:16.504374",
+      "last_updated": "2026-08-17T06:35:23.747879",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "benchmarks"
+        "benchmarks",
+        "agents"
       ],
       "keywords": [
-        "bar",
-        "raising",
         "swe",
         "bench",
+        "bar",
+        "raising",
         "verified"
       ],
       "date_published": "*",
@@ -472,19 +472,19 @@
       "title": "Writing effective tools for agents \u2014 with agents",
       "original_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
       "hash": "415a69183af9d9d4b634fa1f835b0d0fe333761a609281dc92301ecfc18fadaf",
-      "last_updated": "2026-08-17T03:41:16.608501",
+      "last_updated": "2026-08-17T06:35:23.902194",
       "source": "engineering-blog",
       "categories": [
-        "agents",
-        "mcp",
         "claude-code",
-        "tools"
+        "mcp",
+        "tools",
+        "agents"
       ],
       "keywords": [
-        "writing",
-        "agents",
         "effective",
-        "tools"
+        "writing",
+        "tools",
+        "agents"
       ],
       "date_published": "*",
       "summary": "Writing effective tools for AI agents\u2014using AI agents"
@@ -492,6 +492,6 @@
   },
   "source": "anthropic-engineering-blog",
   "base_url": "https://www.anthropic.com/engineering/",
-  "last_updated": "2026-08-17T03:41:16.639994",
+  "last_updated": "2026-08-17T06:35:23.931562",
   "description": "Anthropic Engineering Blog posts - technical articles about Claude, agents, and AI development"
 }

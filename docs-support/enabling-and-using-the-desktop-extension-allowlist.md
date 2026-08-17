@@ -59,7 +59,7 @@ If you want to remove an extension from the allowlist, click the “...” butto
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1786940100&signature=963419c22cd89820ed92b691e149fa5dcf0ddd88402ec011ca0d79e870cf5ce5&req=dScvF857nINaWfMW1HO4zTrxBa4g%2B1eUqXridZhfx1LLf18lJ05AnKXc%2FDUd%0AgY6K2CPIAbo7Wu2P%2BXg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1786950000&signature=f67f9b796186e4cc7a86e2846138c82d423af954a59342343e9899cfe227cdcd&req=dScvF857nINaWfMW1HO4zTrxBa4g%2BleVqXridZhfx1KCbb%2BEMB6mD2xcMvAB%0A4SDuOTux%2Fuh27lNDRNs%3D%0A)
 
  
 

@@ -52,7 +52,7 @@ If you want to use a name other than the one tied to your payment method, check 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1786940100&signature=f1587c5c17c9c8d126a802f1ad9a9580dfe8d789171b4663f4414b5326979d45&req=dSklFMh6nIZXXPMW1HO4zVXW8GuibzPNQoNvNFTb5cdCfpjrgje9FZWmIKh1%0AlnvD2B%2FjuuT5i9%2F8N0g%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1786950000&signature=7b301dc2c4d2392037222b2e32d2bd10e7178f5507a20071fe7c96108e8e365f&req=dSklFMh6nIZXXPMW1HO4zVXW8GuibjPMQoNvNFTb5cf9f79onsQ5wl9%2Fk43O%0A9OofbNwxq9JKbIHdae4%3D%0A)
 
  
 
@@ -88,6 +88,6 @@ If you've paid for a Pro or Max plan but are not seeing this reflected in your a
 
 - [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
 - [Add or update your paid Claude account’s tax or VAT ID](https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id)
-- [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
+- [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
