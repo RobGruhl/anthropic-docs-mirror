@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786960800&signature=0aebd2e704e24d50b24e6f45419902574588110e35e0e52c2f68527036179f90&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDTrxhxNdRzYWrfF6LObGjDhgbSsKxLOrE%0AbAe9KkFafEMgYfPKS2E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786970700&signature=44b782a3e325707143cc7f93dfa19ae3c73d8190538bde5e024bc9be46c6383e&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDT7xuxNdRzYWrfF7fPPAPKt5q%2FPO72L9L%0Ajm0H0td0ooYs4v1UUPA%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786960800&signature=ce6178afdc290578c36cfac3a699547a729460305f3609c16c6b412c643927f5&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycZlACy8OQfYsvK3ylSatS%2Fjd4QuSI7CVL%0APB%2BPDNtdxsIwsBSMqG4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786970700&signature=7d9e9177745a987c40a52d1bf849b0e1374c7ae07a20a2339a00ada04d1b68d3&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycZ1ANy8OQfYsvK3y6yHHa609nqP8pIonL%0AsdMnchGYgS99C3Whfmg%3D%0A)
 
  
 
