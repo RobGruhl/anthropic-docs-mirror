@@ -1,6 +1,6 @@
 # What are some things I can use Claude for?
 
-*Updated over 4 months ago*
+*Updated over 5 months ago*
 
 ---
 
@@ -19,8 +19,8 @@ You can use Claude to:
 
 ## Related Articles
 
-- [Can Claude produce images?](https://support.claude.com/en/articles/9002504-can-claude-produce-images)
 - [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
 - [How to use Claude in your preferred language](https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language)
+- [Use Claude for Education at your university](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university)
 - [Create and edit files with Claude](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude)
 - [Use Claude in Microsoft Foundry](https://support.claude.com/en/articles/12864745-use-claude-in-microsoft-foundry)

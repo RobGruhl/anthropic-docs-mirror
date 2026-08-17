@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786981500&signature=6ab6447a9c9550692c5026fa1691a2a4a15cacb948b2b9ef3838a70c2d8a9a10&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDQL1sxNdRzYWrfF7BvzokQ1KMapzq9lsV%0A6RM6%2BM0P%2BPowf3rjnBU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1786993200&signature=b580a6d5aa62481c004a3e014b718e5996385ff05d5c5ca57dea3d340b74087c&req=diAjFMp7n4FZWfMW1HO4zU6VRfvDQb9rxNdRzYWrfF64DzOg3qBzqg3Xi3LM%0A5f3eR5FuwPV3VPiAazw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786981500&signature=67e517a108ae2780793dc39e2024a22e14f9de7cfe523d81099faf020e12bc36&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycaFEPy8OQfYsvK3zHkH9fTO9XCrOqc9c5%0A8ZmHomQXBQdhWDg2BsA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1786993200&signature=dd52bf420250f2bb14e152c75f79a35962661cc46d28361f4892355a98fdeb7d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGycaVMIy8OQfYsvK3ySkzytMl9Kcwc9A5%2Bx%0AI%2FMDWro%2F17%2BVBTONyCw%3D%0A)
 
  
 
