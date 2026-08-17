@@ -1,6 +1,6 @@
 # Set up the Microsoft 365 connector
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -286,7 +286,7 @@ For more detail, see the **[Microsoft 365 connector security guide](https://supp
 1. Confirm their account is tied to a Microsoft Entra tenant, not a personal Microsoft account.
 2. Confirm their Microsoft 365 license is active.
 3. Confirm admin consent has been granted using Option 1 or Option 2 above.
-4. Check whether organizational policies (such as conditional access) are blocking third-party app authentication.
+4. Check whether a Conditional Access policy in your tenant is blocking the connection. See below: **[Conditional Access is blocking the connection](#h_c7635fb6e2)**.
 4.  
 
 ### Members are seeing "Failed to call tool" errors
@@ -301,6 +301,45 @@ A permission may have been selectively revoked in Microsoft Entra. Members can t
 2. Confirm write tools are enabled in the Microsoft 365 connector configuration, or that the member is covered by a role-based access policy that grants them.
 3. Have the member disconnect and reconnect Microsoft 365 in **[Customize > Connectors](https://claude.ai/customize/connectors)**.
 3.  
+
+### Conditional Access is blocking the connection
+
+A Conditional Access block shows up in one of three ways:
+
+- A user sees "Authorization with the MCP server failed" and a reference code starting with <code>ofid_</code> when they try to connect. Our Support team can look up that code.
+- A member who is already connected gets an error when Claude uses a Microsoft 365 tool. The error includes an <code>AADSTS</code> code, a note that the request was blocked by a Conditional Access policy, and the Trace ID and Correlation ID you can search for in Entra.
+- Members are asked to reconnect Microsoft 365 on a regular cycle, much more often than the normal 90-day expiry. This usually means a sign-in frequency policy.
+
+Connecting Microsoft 365 involves more than the sign-in the member sees. After the member signs in to Microsoft in their browser, Claude's servers exchange that sign-in for access tokens, and later exchange those tokens for Microsoft 365 access on the member's behalf. In our testing, Entra evaluates your Conditional Access policies against these server-side requests as coming from Anthropic's IP range, <code>160.79.104.0/21</code>. They identify the member and carry the device recorded when the member connected, not the member's current device or network. So a policy can pass the member's own sign-in and still block the connection a moment later, or block it days later. Learn more about **[Anthropic's IP addresses](https://platform.claude.com/docs/en/api/ip-addresses)**.
+
+ 
+
+**Find the policy that's blocking the connection**
+
+1. In the Microsoft Entra admin center, go to **Sign-in logs** and open the **User sign-ins (non-interactive)** tab. The member's own sign-in appears on the interactive tab and usually shows as successful, so the block is rarely there.
+2. Filter by the affected member. The blocked requests can appear under either **M365 MCP Server for Claude** or **M365 MCP Client for Claude**, so filtering by member is more reliable than filtering by application. Don't filter by resource, which hides some of the rows.
+3. Open the failed entry and select the **Conditional Access** tab. It names the policy that blocked the request.
+
+The error code tells you what kind of policy it is:
+
+- <code>AADSTS70043</code>: a sign-in frequency policy. See the next section.
+- <code>AADSTS53003</code>: a policy set to block access. The Conditional Access tab tells you which one. If it's based on location, see the next section.
+- <code>AADSTS50076</code>: a policy required multi-factor authentication on a server-side request. Disconnecting and reconnecting Microsoft 365 clears it. If it keeps happening, see the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)**.
+- <code>AADSTS53000</code>: a policy requires a compliant device. The similar code <code>AADSTS530003</code> means a policy requires a managed device. In both cases the member needs to reconnect from a device that meets the policy. Learn more in the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)**.
+
+**Exclude Anthropic's IP range from sign-in frequency and location policies**
+
+Because the server-side requests come from Anthropic's IP range, a policy that limits sign-ins to your own network, or that enforces a sign-in frequency, blocks them for every member. Excluding the two Claude applications from the policy isn't enough on its own. We recommend excluding Anthropic's IP range from the policy as well.
+
+If the policy that blocked the request is a sign-in frequency or location policy:
+
+1. In the Microsoft Entra admin center, go to **Conditional Access > Named locations** and create an IP range location containing <code>160.79.104.0/21</code>. Leave **Mark as trusted location** unchecked so the exclusion doesn't affect other policies that use trusted locations.
+2. Open the policy that blocked the request and go to **Conditions > Locations > Exclude**.
+3. Add the named location you created. Keep any existing exclusions for the Claude applications in place.
+4. Save the policy and wait a few minutes for the change to apply.
+5. Have an affected member disconnect and reconnect Microsoft 365 in **Customize > Connectors**.
+
+ 
 
 ---
 
@@ -320,6 +359,12 @@ Yes. When enterprise search is enabled, it can query Microsoft 365 alongside oth
 
  
 
+### What file types can the connector read?
+
+Claude reads Word, Excel, PowerPoint (including older .doc, .xls, and .ppt files), PDF, and plain-text formats such as .txt, .md, and .csv from SharePoint and OneDrive. Other formats, including OneNote, can't be read. For the full list, see **[Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365#h_ddeb82923f)**.
+
+ 
+
 ### Can the integration modify Microsoft 365 data?
 
 Only after an Entra admin grants write scopes. With write tools on, Claude can send email, manage drafts and calendar events, update mailbox settings, and create and update files in OneDrive and SharePoint, always within each member's existing Microsoft 365 permissions. Without them, the integration is read-only. Claude can't post Teams messages or change Teams settings or permissions in either case, since there are no tools allowing this.
@@ -329,8 +374,8 @@ Only after an Entra admin grants write scopes. With write tools on, Claude can s
 
 ## Related Articles
 
-- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 - [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
+- [Set up role-based permissions on Enterprise plans](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365)

@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-17 18:28*
+*Last updated: 2026-08-17 21:19*
 Total documents: 244
 ---
 ## Uncategorized (244 documents)
@@ -131,12 +131,12 @@ Total documents: 244
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
 **Source:** https://support.claude.com/en/articles/8664678-how-can-i-change-the-model-version-that-i-m-chatting-with  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-17  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/using-extended-thinking.md`  
 **Source:** https://support.claude.com/en/articles/10574485-using-extended-thinking  
-**Updated:** 2026-07-24  
+**Updated:** 2026-08-17  
 
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
@@ -711,7 +711,7 @@ Total documents: 244
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
 **Source:** https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-17  
 
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
@@ -856,7 +856,7 @@ Total documents: 244
 ### Set up the Microsoft 365 connector
 **File:** `/docs-support/enabling-and-using-the-microsoft-365-connector.md`  
 **Source:** https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-17  
 
 ### Share and unshare chats
 **File:** `/docs-support/sharing-and-unsharing-chats.md`  
@@ -981,17 +981,17 @@ Total documents: 244
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
 **Source:** https://support.claude.com/en/articles/10166901-using-the-google-drive-integration  
-**Updated:** 2026-08-04  
+**Updated:** 2026-08-17  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  
 **Source:** https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-17  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/use-the-connectors-directory-to-extend-claude-s-capabilities.md`  
 **Source:** https://support.claude.com/en/articles/11724452-use-the-connectors-directory-to-extend-claude-s-capabilities  
-**Updated:** 2026-08-07  
+**Updated:** 2026-08-17  
 
 ### Use dictation on Claude Mobile
 **File:** `/docs-support/using-dictation-on-claude-mobile.md`  
@@ -1101,7 +1101,7 @@ Total documents: 244
 ### What happens to a user's data when they are removed from a Team or Enterprise organization?
 **File:** `/docs-support/what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization.md`  
 **Source:** https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization  
-**Updated:** 2026-05-17  
+**Updated:** 2026-08-17  
 
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
