@@ -1,6 +1,6 @@
 # Use Claude Cowork on Team and Enterprise plans
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -8,16 +8,15 @@ This article explains important limitations and considerations for Team and Ente
 
  
 
-## Availability 
+## Availability
 
-Claude Cowork is available for paid plans (Pro, Max, Team, Enterprise) on:
+Claude Cowork is available on paid plans (Pro, Max, Team, Enterprise). Availability varies by surface:
 
-- **Claude Desktop for macOS**
-- - **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download
-- **Claude Desktop for Windows**
-- - **Windows users:** Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](https://claude.com/download)**.
-- **Web**, at claude.ai
-- **Claude Mobile**, in the latest version of Claude for iOS and Claude for Android
+- **Claude Desktop for macOS** — Available on all paid plans. **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download.
+- **Claude Desktop for Windows** — Available on all paid plans. Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](http://claude.com/download)**.
+- **Web (beta)**, at claude.ai — Available on Pro, Max, and Team plans. On Enterprise plans, available where an admin has enabled it.
+- **Claude Mobile** **(beta)** — Available on Pro, Max, and Team plans, in the latest version of Claude for iOS and Claude for Android. On Enterprise plans, available where an admin has enabled it.
+- **Claude in Chrome side panel** — Available on Max and Team plans, and rolling out to Pro plans. On Enterprise plans, available where an admin has enabled it. For more information, see **[Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)**.
 
  
 

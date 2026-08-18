@@ -4405,10 +4405,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/files.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/files",
-      "hash": "b61811df067aa91c4527769e911ef6de76861c9183e555db5c8a971f1c5cd090",
+      "hash": "551b021ccdfc94203ef48f06522283b2f8ee3711a043524d10946057e79e06d4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-13T18:50:02.662493"
+      "last_updated": "2026-08-18T18:22:59.693193"
     },
     "build-with-claude__handling-stop-reasons.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
@@ -4955,10 +4955,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/cmek.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/cmek",
-      "hash": "89f24bbbc7c0d54c1c0e873dd91fa3e0112bb7694a4a38850fda5d17db1408e8",
+      "hash": "2442254da893874ee3b057a73e780434a833d24d60e3bad483f127f915a43f9d",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-14T21:16:00.178385"
+      "last_updated": "2026-08-18T18:22:59.702757"
     },
     "manage-claude__cmek-aws-kms.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms",
@@ -5175,80 +5175,80 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/aws.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/aws",
-      "hash": "7a7329cac388161216139b70be3c6ab028e9ee4d4e6f1c8513a9047fde711163",
+      "hash": "d082cf13165349dd5ad2b3fbabca130186b463f2c78c23b586daa6ed9381ee33",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424057"
+      "last_updated": "2026-08-18T18:22:59.705513"
     },
     "manage-claude__wif-providers__azure.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/azure",
-      "hash": "692be78fa37f6fbac3616479822fda5db9fd44155c88a9bad07d0bafabcb0d2f",
+      "hash": "72e6fe9a650eb9ebaf44fb01f6037caff2348b22183f6a4dfa32b2fc4d59d3c4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424128"
+      "last_updated": "2026-08-18T18:22:59.705653"
     },
     "manage-claude__wif-providers__gcp.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/gcp",
-      "hash": "a5f65d27df2dab97d76255832941eac729695aa2952ea9a6e2e56cc2281b0856",
+      "hash": "efe3244f28ad8fe613c2884f5a4cb6614a5df067d559b64598d1843ca5c9b7a0",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424237"
+      "last_updated": "2026-08-18T18:22:59.705855"
     },
     "manage-claude__wif-providers__github-actions.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/github-actions",
-      "hash": "39e7ca0df85e2fb04361209dd3402a6d74410b024940d8467dbbbf78fb05a2ea",
+      "hash": "9c43244dbae3a9d5585f598354d9714bd7d9f0b9ea4c394cb9165d6e6dafeaca",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424292"
+      "last_updated": "2026-08-18T18:22:59.705979"
     },
     "manage-claude__wif-providers__kubernetes.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/kubernetes",
-      "hash": "ad2facaa7e4bdfd6fe353cd2bd5f8b28483018e4d343d64bd6259246ee979122",
+      "hash": "19f3b787564c7174727fb42ec236681751578b128265765b5d2ff4207b79df81",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424332"
+      "last_updated": "2026-08-18T18:22:59.706095"
     },
     "manage-claude__wif-providers__okta.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/okta",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/okta.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/okta",
-      "hash": "f4933a56ce7e25e63d9d3fab9407d8cd179416cc5445a4a7830c20501610adf2",
+      "hash": "3e68dc5d9a6f12e93758df67ccaca4ef41743a93514f51a1b5edef0256307c5c",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424372"
+      "last_updated": "2026-08-18T18:22:59.706209"
     },
     "manage-claude__wif-providers__spiffe.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-providers/spiffe",
-      "hash": "9dd2a2282a961cbc0c4b0060d9133a7a42e651ce95e3ffb14333396549f8c49d",
+      "hash": "83168298f357fe74f937c2734aed6470dfdcd84729b9d4983b9687c478e81a4e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424422"
+      "last_updated": "2026-08-18T18:22:59.706332"
     },
     "manage-claude__wif-reference.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-reference",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/wif-reference.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/wif-reference",
-      "hash": "9e01bfc0f087daae1cc344b18f55feb27234487273e8f1da0395fec87172ba2b",
+      "hash": "d008cbf13118fa7560b0f0cd26c36307a913476e2b04908966ab98d76bd42c29",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T00:40:03.424483"
+      "last_updated": "2026-08-18T18:22:59.706470"
     },
     "manage-claude__workload-identity-federation.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation",
@@ -5632,13 +5632,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-18T15:21:39.024065",
-    "fetch_duration_seconds": 8.912467,
+    "last_fetch_completed": "2026-08-18T18:22:59.715542",
+    "fetch_duration_seconds": 32.900578,
     "total_pages_discovered": 564,
     "pages_fetched_successfully": 563,
     "pages_failed": 1,
-    "pages_unchanged": 563,
-    "pages_updated": 0,
+    "pages_unchanged": 553,
+    "pages_updated": 10,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -5657,5 +5657,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-18T15:21:39.024242"
+  "last_updated": "2026-08-18T18:22:59.715722"
 }

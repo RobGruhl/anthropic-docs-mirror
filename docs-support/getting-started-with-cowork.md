@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -45,7 +45,7 @@ With Cowork, you can describe an outcome, step away, and come back to finished w
 - You control your Cowork tasks and can delete a task at any time using the "Delete" option (click "⋮" next to the task, or select tasks from your Tasks list and click the trash icon). Your Cowork task will be removed from your task history immediately, and deleted from our backend storage systems within 30 days, in accordance with our **[data retention periods](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
 - Cowork via mobile and web is captured in the Compliance API. Learn more about **[retrieving remote sessions in the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-content-data)**.
 - If you're a Team or Enterprise plan admin, you can **[use OpenTelemetry (OTel) to monitor Claude Cowork activity](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)** across your organization.
-- Please review **[Use Cowork safely](https://support.claude.com/en/articles/13364135-using-cowork-safely)** for more information.
+- For more information, review **[Use Cowork safely](https://support.claude.com/en/articles/13364135-using-cowork-safely)**.
 
 For important limitations and considerations for Team and Enterprise organizations using Cowork, see **[Cowork for Team and Enterprise plans](https://support.claude.com/en/articles/13455879-cowork-for-team-and-enterprise-plans)**.
 
@@ -186,7 +186,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787068800&signature=b1d64433e41690a3cc335389dfa68b811b0e1f63b2abe5d8224ed30c73291081&req=diUlE8B8m4lYXfMW1HO4zcDl6t%2FsMFm48iWjaktE943VgL7PGxjbYeKrwi0l%0AXw1S1JGLOGlq1pt0UM8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787184000&signature=9529a95f39fe9f78106192711ec59c3fb9ae4a7e57150173a2c8c654b20a9d9a&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD27fUb1GMqW%2FkK1chgZP9BieGa1m9iOda%0A6ccDHnIS3I4YHcwrj6LBdqUtjS0%3D%0A)
 
  
 
@@ -240,7 +240,7 @@ If you find yourself hitting usage limits frequently when using Cowork, consider
 - Using standard chat for simpler tasks that don't require file access or extended execution.
 - Monitoring your individual usage in **[Settings > Usage](https://claude.ai/settings/usage)**.
 
-See **[Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)** for more information.
+For more information, see **[Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)**.
 
  
 
@@ -335,12 +335,6 @@ This message is expected and indicates that Cowork is updating to the most recen
 
  
 
-### I don't see Cowork on web or mobile
-
-Cowork on web and mobile is rolling out gradually across paid plans. Make sure you're on an eligible plan and, on mobile, that you've updated to the latest version of the app.
-
- 
-
 ### Claude stopped working on my task 
 
 For local sessions, ensure the Claude Desktop app was open throughout the entire task. If the app was closed or your computer went to sleep, the session may have ended. Sessions in the cloud keep running in the background; open the session from any surface to check its progress.
@@ -364,6 +358,6 @@ Check that you've granted Claude the appropriate file access permissions. Review
 
 - [Use Claude Cowork safely](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
-- [Assign tasks from anywhere in Claude Cowork](https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork)
+- [Schedule recurring tasks in Claude Cowork](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)
 - [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
 - [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)
