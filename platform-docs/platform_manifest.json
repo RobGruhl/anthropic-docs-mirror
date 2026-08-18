@@ -3855,20 +3855,20 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/enterprise",
-      "hash": "b609110ae08ed94a57601d7ee4aeb1302ffe40119108788b24501d281f0f54ad",
+      "hash": "5522583daf1a94660f1605561c80e5b643aac7e8be667a16e3c8a76c840fe262",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-12T18:48:09.268906"
+      "last_updated": "2026-08-18T21:14:10.563724"
     },
     "agents-and-tools__agent-skills__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/overview",
-      "hash": "32a26b11bcadf1bef0b0775e7a62c66c283b02a3f198f71a627a17a081fdfd0e",
+      "hash": "4c3d32924cfa8ff827001a50bc08a24547ee7b9b2b3f1364121405819dfd3412",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-14T21:16:00.169529"
+      "last_updated": "2026-08-18T21:14:10.563795"
     },
     "agents-and-tools__agent-skills__quickstart.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart",
@@ -4565,10 +4565,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/skills-guide",
-      "hash": "4ffce37f39dc335796e78f61bbd70bb1138e742db16208252562ec2d5c8dfb27",
+      "hash": "be1eb3113984403b0a17fa700756a95d7678d23f4025ab98c8db5c160367594d",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-12T18:48:09.295591"
+      "last_updated": "2026-08-18T21:14:10.602911"
     },
     "build-with-claude__streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
@@ -5632,13 +5632,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-18T18:22:59.715542",
-    "fetch_duration_seconds": 32.900578,
+    "last_fetch_completed": "2026-08-18T21:14:10.660787",
+    "fetch_duration_seconds": 10.559514,
     "total_pages_discovered": 564,
     "pages_fetched_successfully": 563,
     "pages_failed": 1,
-    "pages_unchanged": 553,
-    "pages_updated": 10,
+    "pages_unchanged": 560,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -5657,5 +5657,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-18T18:22:59.715722"
+  "last_updated": "2026-08-18T21:14:10.660945"
 }

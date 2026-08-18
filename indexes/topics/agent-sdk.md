@@ -1,9 +1,9 @@
 # Agent Sdk Topic Index
-*Last updated: 2026-08-18 18:28*
+*Last updated: 2026-08-18 21:19*
 
-Documents related to Agent Sdk across all sources (36 documents)
+Documents related to Agent Sdk across all sources (35 documents)
 ---
-## Claude Code Documentation (32)
+## Claude Code Documentation (31)
 - [Agent Loop](/code-claude-docs/agent-sdk__agent-loop.md)
 - [Claude Code Features](/code-claude-docs/agent-sdk__claude-code-features.md)
 - [Cost Tracking](/code-claude-docs/agent-sdk__cost-tracking.md)
@@ -25,7 +25,6 @@ Documents related to Agent Sdk across all sources (36 documents)
 - [Session Storage](/code-claude-docs/agent-sdk__session-storage.md)
 - [Sessions](/code-claude-docs/agent-sdk__sessions.md)
 - [Skills](/code-claude-docs/agent-sdk__skills.md)
-- [Slash Commands](/code-claude-docs/agent-sdk__slash-commands.md)
 - [Streaming Output](/code-claude-docs/agent-sdk__streaming-output.md)
 - [Streaming Vs Single Mode](/code-claude-docs/agent-sdk__streaming-vs-single-mode.md)
 - [Structured Outputs](/code-claude-docs/agent-sdk__structured-outputs.md)
