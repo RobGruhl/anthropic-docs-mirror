@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-17 21:19*
+*Last updated: 2026-08-18 00:43*
 Total documents: 563
 ---
 ## Uncategorized (563 documents)
@@ -2501,42 +2501,42 @@ Total documents: 563
 ### manage-claude__wif-providers__aws
 **File:** `/platform-docs/manage-claude__wif-providers__aws.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/aws  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__azure
 **File:** `/platform-docs/manage-claude__wif-providers__azure.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/azure  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__gcp
 **File:** `/platform-docs/manage-claude__wif-providers__gcp.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__github-actions
 **File:** `/platform-docs/manage-claude__wif-providers__github-actions.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__kubernetes
 **File:** `/platform-docs/manage-claude__wif-providers__kubernetes.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__okta
 **File:** `/platform-docs/manage-claude__wif-providers__okta.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/okta  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-providers__spiffe
 **File:** `/platform-docs/manage-claude__wif-providers__spiffe.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__wif-reference
 **File:** `/platform-docs/manage-claude__wif-reference.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/wif-reference  
-**Updated:** 2026-08-17  
+**Updated:** 2026-08-18  
 
 ### manage-claude__workload-identity-federation
 **File:** `/platform-docs/manage-claude__workload-identity-federation.md`  

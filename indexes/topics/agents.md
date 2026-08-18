@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-17 21:19*
+*Last updated: 2026-08-18 00:43*
 
-Documents related to Agents across all sources (155 documents)
+Documents related to Agents across all sources (158 documents)
 ---
 ## Platform Documentation (platform.claude.com) (41)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -65,7 +65,7 @@ Documents related to Agents across all sources (155 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (97)
+## Claude.com Blog Posts (100)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -105,6 +105,7 @@ Documents related to Agents across all sources (155 documents)
 - [Deploying Claude across the legal industry](/claude-blog/deploying-claude-across-the-legal-industry.md) - ![](https://cdn
 - [Deploying agentic AI across the enterprise with Claude Cowork](/claude-blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork.md) - ![](https://cdn
 - [Giving admins more visibility and control over Claude spend](/claude-blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend.md) - ![](https://cdn
+- [How ABC Legal turned every employee into a builder with Claude Managed Agents](/claude-blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents.md) - ![](https://cdn
 - [How Anthropic enables self-service data analytics with Claude](/claude-blog/how-anthropic-enables-self-service-data-analytics-with-claude.md) - ![](https://cdn
 - [How Anthropic runs large-scale code migrations with Claude Code](/claude-blog/ai-code-migration.md) - ![](https://cdn
 - [How Anthropic secures its AI-native software development lifecycle](/claude-blog/how-anthropic-secures-its-ai-native-software-development-lifecycle.md) - ![](https://cdn
@@ -125,6 +126,7 @@ Documents related to Agents across all sources (155 documents)
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Loop engineering: Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Managing context on the Claude Developer Platform](/claude-blog/context-management.md) - ![](https://cdn
+- [Maximizing the value of your Claude Code sessions](/claude-blog/maximizing-the-value-of-your-claude-code-sessions.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn
 - [Millennium and Anthropic are building a digital risk analyst with Claude](/claude-blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude.md) - ![](https://cdn
 - [Multi-agent coordination patterns: Five approaches and when to use them](/claude-blog/multi-agent-coordination-patterns.md) - ![](https://cdn
@@ -139,6 +141,7 @@ Documents related to Agents across all sources (155 documents)
 - [Run Claude Code sessions on your own compute](/claude-blog/run-claude-code-sessions-on-your-own-compute.md) - ![](https://cdn
 - [Running an AI-native engineering org](/claude-blog/running-an-ai-native-engineering-org.md) - ![](https://cdn
 - [Running auto mode in production](/claude-blog/auto-mode-in-production.md) - ![](https://cdn
+- [Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5](/claude-blog/how-jetbrains-evaluates-and-deploys-claude-fable-5.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions](/claude-blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions.md) - ![](https://cdn
 - [Skills MCP 서버로 Claude의 역량 확장](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn

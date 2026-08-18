@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-08-17 21:19*
+*Last updated: 2026-08-18 00:43*
 
-Documents related to Tools across all sources (90 documents)
+Documents related to Tools across all sources (92 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -39,7 +39,7 @@ Documents related to Tools across all sources (90 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (58)
+## Claude.com Blog Posts (60)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
@@ -67,6 +67,7 @@ Documents related to Tools across all sources (90 documents)
 - [Discover tools that work with Claude](/claude-blog/connectors-directory.md) - ![](https://cdn
 - [Get to production faster with the upgraded Anthropic Console](/claude-blog/upgraded-anthropic-console.md) - ![](https://cdn
 - [Giving admins more visibility and control over Claude spend](/claude-blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend.md) - ![](https://cdn
+- [How ABC Legal turned every employee into a builder with Claude Managed Agents](/claude-blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents.md) - ![](https://cdn
 - [How Anthropic's cybersecurity team built a threat detection platform with Claude Code](/claude-blog/how-anthropic-uses-claude-cybersecurity.md) - ![](https://cdn
 - [How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](/claude-blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds.md) - ![](https://cdn
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
@@ -84,6 +85,7 @@ Documents related to Tools across all sources (90 documents)
 - [Optimize code performance quickly](/claude-blog/optimize-code-performance-quickly.md) - ![](https://cdn
 - [Put Claude to work on your computer](/claude-blog/dispatch-and-computer-use.md) - ![](https://cdn
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
+- [Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5](/claude-blog/how-jetbrains-evaluates-and-deploys-claude-fable-5.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The Claude in Chrome side panel is now Claude Cowork](/claude-blog/cowork-chrome-side-panel.md) - ![](https://cdn

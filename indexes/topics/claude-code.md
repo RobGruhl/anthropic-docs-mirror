@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-17 21:19*
+*Last updated: 2026-08-18 00:43*
 
-Documents related to Claude Code across all sources (318 documents)
+Documents related to Claude Code across all sources (319 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -213,7 +213,7 @@ Documents related to Claude Code across all sources (318 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (108)
+## Claude.com Blog Posts (109)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -280,6 +280,7 @@ Documents related to Claude Code across all sources (318 documents)
 - [Lessons from building Claude Code: Prompt caching is everything](/claude-blog/lessons-from-building-claude-code-prompt-caching-is-everything.md) - ![](https://cdn
 - [Loop engineering: Getting started with loops](/claude-blog/getting-started-with-loops.md) - ![](https://cdn
 - [Making Claude Cowork ready for enterprise](/claude-blog/cowork-for-enterprise.md) - ![](https://cdn
+- [Maximizing the value of your Claude Code sessions](/claude-blog/maximizing-the-value-of-your-claude-code-sessions.md) - ![](https://cdn
 - [Meet the winners of our Built with Opus 4.6 Claude Code hackathon](/claude-blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon.md) - ![](https://cdn
 - [Meet the winners of our Claude Opus 4.8 Build Day hackathon](/claude-blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon.md) - ![](https://cdn
 - [Meet the winners of the Built with Opus 4.7 Claude Code hackathon](/claude-blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.md) - ![](https://cdn

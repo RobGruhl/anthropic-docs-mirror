@@ -1,18 +1,10 @@
 # Verify your phone number
 
-*Updated over 3 months ago*
+*Updated today*
 
 ---
 
-When you first create a Claude account, you’ll be asked to enter your phone number from a **[supported location](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)** to receive a verification code via text message:
-
- 
-
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893173143/de034a2e7d9a6ae1f703cf867afd/image.png?expires=1787003100&signature=5402b7986eccc8870084be674fb953c3106769800f527176dc24b640df60e1e3&req=dSguFch5noBbWvMW1HO4zVIf8Jdj3Cl7oTnI%2BoMZk7dIEy1GCa8aXrJjO%2FUF%0A7zRWaWADImVAYTxK%2BlY%3D%0A)
-
- 
-
-Once you receive the text message with the code, type it into the box and click “Verify code.” This will complete the verification and account creation process and allow you to start chatting with Claude.
+When you first create a Claude account, you’ll be asked to enter your phone number from a **[supported location](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)** to receive a verification code via text message. Once you receive the text message with the code, type it into the box and click "Verify code." This will complete the verification and account creation process and allow you to start chatting with Claude.
 
  
 
@@ -34,7 +26,7 @@ We only accept phone numbers from our supported locations at this time. Addition
 
  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### What if I don't have a phone number from a supported location?
 
@@ -50,25 +42,25 @@ You must have a phone number that can receive a verification code via text messa
 
 ### I didn't receive my phone verification code. What should I do?
 
-The code may take a few minutes to arrive via text, but if it has been more than five minutes, click “Try again” to reset the modal and reenter your phone number, ensuring that you’re entering the correct one.
+The code may take a few minutes to arrive via text, but if it has been more than five minutes, click "Try again" to reset the modal and reenter your phone number, ensuring that you’re entering the correct one.
 
  
 
-### I’m still not receiving the code, or I’m seeing “Error sending code. Double check your phone number.”
+### I’m still not receiving the code, or I’m seeing "Error sending code. Double check your phone number."
 
-If you aren’t receiving a verification code via text after reentering your phone number, or you’re seeing an error message (“Error sending code. Double check your phone number.”), you’ll need to try using a different phone number to verify your account.
+If you aren’t receiving a verification code via text after reentering your phone number, or you’re seeing an error message ("Error sending code. Double check your phone number."), you’ll need to try using a different phone number to verify your account.
 
  
 
 ### I received the text message with the verification code, but the code isn’t working.
 
-The texted verification codes are temporary, so ensure you’re entering the most recent code you received. You can use “Try again” to restart the verification and receive a new code, so you should request one and enter it as soon as you receive it
+The texted verification codes are temporary, so ensure you’re entering the most recent code you received. You can use "Try again" to restart the verification and receive a new code, so you should request one and enter it as soon as you receive it
 
  
 
 ### Why am I seeing a message stating that my phone number was used too many times?
 
-If you see an error stating that your phone number is already in use, this means there’s another Claude account in our system that was verified using that number. If you know which email address is associated with this verified account, you should log in to that account and contact our Support team to ask for help unlinking your phone number from it. Once we unlink the number, you’ll be able to use it to verify a different account.
+If you see an error stating that your phone number is already in use, this means there are already three other Claude accounts in our system that were verified using that number. We only allow a maximum of three Claude accounts to be verified with the same phone number. If you know which email addresses are associated with these verified accounts, you should log in to one of those accounts and contact our Support team to ask for help unlinking your phone number from it. Once we unlink the number, you’ll be able to use it to verify a different account.
 
  
 
