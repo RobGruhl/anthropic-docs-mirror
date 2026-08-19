@@ -1,6 +1,6 @@
 # How can I create and manage projects?
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -104,7 +104,7 @@ You can move a standalone chat into a project by clicking on the dropdown arrow 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1787165100&signature=d99c1d1baef4af3d16efae92d78283e255c2b20ad7126bb2271e4e755e1df8db&req=dScvEsh3nYNbUfMW1HO4zQABaWZtTKUUBSXNVFXQ%2FVHOdTMucd4Kj0fM7aFl%0AwyZqLo4cDU%2BCxV9Fxfw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190248/0f19c8de18b494a27be252fdfaff/d4e7a5c5-25f5-4623-862b-c593d2dc0b39?expires=1787313600&signature=21038e856624509c3059c18672683db9b3373252b7148845b7b1beed2a8cbc7d&req=dScvEsh3nYNbUfMW3nq%2BgXuLDiqq7DYwX%2FkvfZakkxFHN7pe5yPzUOfPxs%2Bi%0Aempr9qYCOgWcEe9HWJTERwCCkVw%3D%0A)
 
  
 
@@ -112,7 +112,7 @@ Browse or search for the correct project in the **Move chat** modal that appears
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1787165100&signature=42e4a8b6ec4e61f19e4f07693e651a5de28dc9967dd553c1111bfc96fac4b1b5&req=dScvEsh3nYhaWPMW1HO4zSMECiexzQwAgYbpTjViBxDWCMEqTpd8MEjehzo8%0ApXQNetCKrFnNTrVn70w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784190951/34dc256ccd4c0cf74976f31062e6/55365cf2-059d-41b2-ac95-4b00c4389a76?expires=1787313600&signature=da21a8b7fe0cda54897a8a2d36637dc219743e94b0cdd81dc79cd78c5e75629b&req=dScvEsh3nYhaWPMW3nq%2BgaHJV1YFlI4d9i2LKq4iewqRXR1ThzhwZaOLPRRE%0AqVT20of4OkRX62GjZh%2BOQA8MhGo%3D%0A)
 
  
 
@@ -120,7 +120,7 @@ You can also remove chats from projects, or move them between projects, using th
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1787165100&signature=79cc1b94722c51b5ff7f20cf66af952196de7df1d94a27f1a58418f83e71c0f5&req=dScvEsh2mIdXW%2FMW1HO4zb6DuPAtCEALS2r1%2FGRlqOQK%2BeDxK8UuhliRctaE%0An6PZFjqPxZw3eQDNK1U%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185682/8625eac15b9fa452f148a6c47250/c53a1bc4-a991-4684-a789-5447ed789d35?expires=1787313600&signature=fce303f66a90c3b194e12cd86866ab10de52ae11f799a5345fbf8132e8c23d58&req=dScvEsh2mIdXW%2FMW3nq%2BgcRackgi6l%2BuCYxgXkUx%2BGGRLNbVnTSGUlRsuzeo%0ALnT4%2FqHf339r7MPftlt4zCAc%2Bk4%3D%0A)
 
  
 
@@ -128,7 +128,7 @@ You can move chats into projects in bulk from **[Your chat history page](https:/
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1787165100&signature=229c74cf9d2a40a05ca5c4d5354ca1057dcac4a6c3b13d2798588664e90d37b7&req=dScvEsh2mIdXXPMW1HO4zbParUtI7%2F%2BiuQSB0Ebsw9fUOiuSwGttI7sU%2FhTe%0Ags3bF%2BgwhFatGb0PIzc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1784185685/bb960063204592db277a4ba62d8d/ebbf5c69-da79-4e56-9d87-f2a97a22fe67?expires=1787313600&signature=f8203a3fd0f4788d772eb3d8eddf34fad6ca40890ab7a9e93371e3788102c940&req=dScvEsh2mIdXXPMW3nq%2BgSoMxJ7JZGBGqgI3Kn7bRQI4il37aBTk6x0qcwqB%0AXHwpE26suY0KVtt0X9tc5z%2Flejs%3D%0A)
 
  
 
@@ -146,7 +146,7 @@ For Team and Enterprise plans using Claude’s memory, the ability to move chats
 
  
 
-Refer to our article on chat search and memory for more information: **[What is Claude’s memory?](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context#h_c1c0b33879)**
+Refer to our article on chat search and memory for more information: **[What is Claude’s memory?](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_82126ebcc9)**
 
  
 

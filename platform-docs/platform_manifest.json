@@ -3865,30 +3865,30 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/enterprise",
-      "hash": "5522583daf1a94660f1605561c80e5b643aac7e8be667a16e3c8a76c840fe262",
+      "hash": "8565626ee104a0eea6965802cb01df452acaa83ce11135ab0dbb8e18483e5c90",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T21:14:10.563724"
+      "last_updated": "2026-08-19T21:16:32.881035"
     },
     "agents-and-tools__agent-skills__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/overview",
-      "hash": "4c3d32924cfa8ff827001a50bc08a24547ee7b9b2b3f1364121405819dfd3412",
+      "hash": "3578a0736d2818257e3253b2c5e14734eddcd0826d75c9a04cbfc93d26162b21",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T21:14:10.563795"
+      "last_updated": "2026-08-19T21:16:32.881174"
     },
     "agents-and-tools__agent-skills__quickstart.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart",
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/quickstart",
-      "hash": "c62f9a8b1e915fa9746574bb207c80daca3ea12fce85d0409a20006dd0b57e87",
+      "hash": "560cd2d3194d7057db0b06b80b1d4f14c14789cec2204a2fd1eaa613bdc3ec29",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-12T18:48:09.269037"
+      "last_updated": "2026-08-19T21:16:32.881326"
     },
     "agents-and-tools__mcp-connector.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector",
@@ -4415,10 +4415,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/files.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/files",
-      "hash": "551b021ccdfc94203ef48f06522283b2f8ee3711a043524d10946057e79e06d4",
+      "hash": "96b70a41d747c4d61d89d30d8531094bde5277e8417a08b3d67cab77d277cf82",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T18:22:59.693193"
+      "last_updated": "2026-08-19T21:16:32.890364"
     },
     "build-with-claude__handling-stop-reasons.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
@@ -4575,10 +4575,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/skills-guide",
-      "hash": "be1eb3113984403b0a17fa700756a95d7678d23f4025ab98c8db5c160367594d",
+      "hash": "719ae05795a0bd720f95b961d2dded9586a2f2e0bcf40a9fc2efb7cf43350fdb",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-18T21:14:10.602911"
+      "last_updated": "2026-08-19T21:16:32.893450"
     },
     "build-with-claude__streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
@@ -4925,10 +4925,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/api-and-data-retention",
-      "hash": "cf6f208c867e210ef9eb2575e0b6e63779e560cc047491432f93ef191905ab89",
+      "hash": "3b5275ccdd1e26227dade3f87558b8a648d6fdbabff62313d09acfe75158776a",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-19T00:40:15.639059"
+      "last_updated": "2026-08-19T21:16:32.899107"
     },
     "manage-claude__app-attest.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/app-attest",
@@ -5642,14 +5642,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-19T18:19:22.188500",
-    "fetch_duration_seconds": 8.554307,
+    "last_fetch_completed": "2026-08-19T21:16:32.915007",
+    "fetch_duration_seconds": 6.478969,
     "total_pages_discovered": 565,
     "pages_fetched_successfully": 564,
     "pages_failed": 1,
     "pages_unchanged": 558,
-    "pages_updated": 5,
-    "pages_new": 1,
+    "pages_updated": 6,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/home"
@@ -5667,5 +5667,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-19T18:19:22.188686"
+  "last_updated": "2026-08-19T21:16:32.915187"
 }
