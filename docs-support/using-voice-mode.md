@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787102100&signature=ffc439b9d46d90287e70e04431e2d2e1df7d28894cfe1fcb5ffd08aed43b64ba&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLSL5oxNdRzYWrfF7LqXYK%2BRotErNA7rz7%0AoYBaYHPQStCO6r1VS2A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787112900&signature=aba559b3ac6fd6f128913ae6335cda18d8f968ea3302107bc9c452b95c25c2a2&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLSb5gxNdRzYWrfF7I963lv4K2vXYn7zvl%0AHqZlwRy8M%2FtujUuK1EA%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787102100&signature=18208b3fc20d897f17f3cb4e72e45578a07b8886463f40ad77ffd3ecab2528ae&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UYFILy8OQfYsvK3weop3OAxbzxZ1CjH8o%0AJE2F1W7r55c8%2B0%2BXEb4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787112900&signature=099e5e62d5cba28fe4a1a7e0cab6416e60b12e944c0dc487ef168f9c4dee975b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UYVIDy8OQfYsvK3z2LUNMi9np6nJJS8kR%0ARQ38loQTlaUUjHstAf4%3D%0A)
 
  
 
