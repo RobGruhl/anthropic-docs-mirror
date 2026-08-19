@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-19 03:41*
+*Last updated: 2026-08-19 06:31*
 Total documents: 563
 ---
 ## Uncategorized (563 documents)
@@ -1811,7 +1811,7 @@ Total documents: 563
 ### build-with-claude__prompt-caching
 **File:** `/platform-docs/build-with-claude__prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-caching  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### build-with-claude__prompt-engineering__claude-prompting-best-practices
 **File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  

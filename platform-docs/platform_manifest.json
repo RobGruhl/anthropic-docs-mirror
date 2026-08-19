@@ -4475,10 +4475,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-caching",
-      "hash": "dc21254568a68e067add9205ea98d979d9fdbdf7b6643e341c2cbede4b8e66ed",
+      "hash": "dee65ef5ae766f867440516ca0ae983d5a96cdad7d7f527c8f7d8d572928b835",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-13T18:50:02.663476"
+      "last_updated": "2026-08-19T06:26:52.018533"
     },
     "build-with-claude__prompt-engineering__claude-prompting-best-practices.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
@@ -5632,13 +5632,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-19T03:38:08.803054",
-    "fetch_duration_seconds": 6.160656,
+    "last_fetch_completed": "2026-08-19T06:26:52.036550",
+    "fetch_duration_seconds": 41.307374,
     "total_pages_discovered": 564,
     "pages_fetched_successfully": 563,
     "pages_failed": 1,
-    "pages_unchanged": 563,
-    "pages_updated": 0,
+    "pages_unchanged": 562,
+    "pages_updated": 1,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -5657,5 +5657,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-19T03:38:08.803229"
+  "last_updated": "2026-08-19T06:26:52.036737"
 }
