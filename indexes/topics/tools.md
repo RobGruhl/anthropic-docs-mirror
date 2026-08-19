@@ -1,7 +1,7 @@
 # Tools Topic Index
-*Last updated: 2026-08-19 12:29*
+*Last updated: 2026-08-19 15:27*
 
-Documents related to Tools across all sources (92 documents)
+Documents related to Tools across all sources (93 documents)
 ---
 ## Platform Documentation (platform.claude.com) (25)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
@@ -39,7 +39,7 @@ Documents related to Tools across all sources (92 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (60)
+## Claude.com Blog Posts (61)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
@@ -88,6 +88,7 @@ Documents related to Tools across all sources (92 documents)
 - [Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5](/claude-blog/how-jetbrains-evaluates-and-deploys-claude-fable-5.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
+- [The Claude Science product guide](/claude-blog/the-claude-science-product-guide.md) - ![](https://cdn
 - [The Claude in Chrome side panel is now Claude Cowork](/claude-blog/cowork-chrome-side-panel.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The founder's playbook: Building an AI-native startup](/claude-blog/the-founders-playbook.md) - ![](https://cdn

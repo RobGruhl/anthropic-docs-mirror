@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787144400&signature=b6b0cc3b75b9eca7f43a732d8a4701f3fe8a124c3a8da3158c6388b9b5c82e53&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLTLhtxNdRzYWrfF4REwhK9n7EqUXVh98n%0Ajvs5FAMbOTGfwqoHcfQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787155200&signature=862a32c70b85e4db26de741c8521ac879ac33c2f06994777cf3eea29fc6f93d1&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLTblrxNdRzYWrfF5TywPlJnuClohRRLMa%0ALf5To%2BGvwAJpLMGhBAc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787144400&signature=5b6e065d0771ab1507cdf71f6d104423b8768713690bd31df7b9b301832449bc&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UZFQOy8OQfYsvK3wCji68%2FD1A8swTIYBp%0AduUqbvS7a78etyNnBnQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787155200&signature=02bebfb26b8482361f7530e6ca20e7dca6df266cfc00ad390a3c2af0579aa6e7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UZVUIy8OQfYsvK3z%2FbSGF2OkY1yakoGwE%0AWp%2BeQczvdwnf6dKWSVA%3D%0A)
 
  
 

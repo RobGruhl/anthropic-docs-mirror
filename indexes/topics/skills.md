@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-08-19 12:29*
+*Last updated: 2026-08-19 15:27*
 
-Documents related to Skills across all sources (49 documents)
+Documents related to Skills across all sources (50 documents)
 ---
 ## Platform Documentation (platform.claude.com) (16)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -36,7 +36,7 @@ Documents related to Skills across all sources (49 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (24)
+## Claude.com Blog Posts (25)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
 - [Building verification loops in Claude Code with skills](/claude-blog/building-verification-loops-in-claude-code-with-skills.md) - ![](https://cdn
@@ -56,6 +56,7 @@ Documents related to Skills across all sources (49 documents)
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [The Claude Science product guide](/claude-blog/the-claude-science-product-guide.md) - ![](https://cdn
 - [The Claude in Chrome side panel is now Claude Cowork](/claude-blog/cowork-chrome-side-panel.md) - ![](https://cdn
 - [The new rules of context engineering for Claude 5 generation models](/claude-blog/the-new-rules-of-context-engineering-for-claude-5-generation-models.md) - ![](https://cdn
 - [Verbesserung des Frontend-Designs durch Skills](/claude-blog/improving-frontend-design-through-skills.md) - ![](https://cdn
