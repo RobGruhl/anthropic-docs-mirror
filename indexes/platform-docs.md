@@ -1,8 +1,13 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-19 15:27*
-Total documents: 563
+*Last updated: 2026-08-19 18:24*
+Total documents: 564
 ---
-## Uncategorized (563 documents)
+## Uncategorized (564 documents)
+### about-claude__additional-resources
+**File:** `/platform-docs/about-claude__additional-resources.md`  
+**Source:** https://platform.claude.com/docs/en/about-claude/additional-resources  
+**Updated:** 2026-08-19  
+
 ### about-claude__glossary
 **File:** `/platform-docs/about-claude__glossary.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/glossary  
@@ -1926,7 +1931,7 @@ Total documents: 563
 ### claude_api_primer
 **File:** `/platform-docs/claude_api_primer.md`  
 **Source:** https://platform.claude.com/docs/en/claude_api_primer  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### cli-sdks-libraries__cli__authentication
 **File:** `/platform-docs/cli-sdks-libraries__cli__authentication.md`  
@@ -2356,7 +2361,7 @@ Total documents: 563
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api-keys  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
@@ -2491,7 +2496,7 @@ Total documents: 563
 ### manage-claude__user-management
 **File:** `/platform-docs/manage-claude__user-management.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/user-management  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  

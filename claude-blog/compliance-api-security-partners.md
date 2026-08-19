@@ -55,13 +55,13 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
-
-### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
-
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
 ### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+
+### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7365ae69f4d9f4f96fa2_Object-DoubleHelix.svg)
 

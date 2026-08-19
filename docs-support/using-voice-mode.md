@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787155200&signature=862a32c70b85e4db26de741c8521ac879ac33c2f06994777cf3eea29fc6f93d1&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLTblrxNdRzYWrfF5TywPlJnuClohRRLMa%0ALf5To%2BGvwAJpLMGhBAc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787165100&signature=60fca6c92303972c4c65424fb2b0d5da56f5942111f96fc72194c29bb03a160f&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLTrloxNdRzYWrfF7yIcsTR%2Bh%2BQSskmoXQ%0Abu3GWTrHA3GwsWRgiAg%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787155200&signature=02bebfb26b8482361f7530e6ca20e7dca6df266cfc00ad390a3c2af0579aa6e7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UZVUIy8OQfYsvK3z%2FbSGF2OkY1yakoGwE%0AWp%2BeQczvdwnf6dKWSVA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787165100&signature=fdb920f8aa9bbee20730e9f170c5a0e8b5b04cbeee6b773ae03ba0541ea781d2&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UZlULy8OQfYsvK3wOuB57A6aiFYBlwalq%0AiOZ%2Bvs8NoNpegHmfEtk%3D%0A)
 
  
 

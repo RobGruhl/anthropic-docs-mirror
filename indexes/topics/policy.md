@@ -1,5 +1,5 @@
 # Policy Topic Index
-*Last updated: 2026-08-19 15:27*
+*Last updated: 2026-08-19 18:24*
 
 Documents related to Policy across all sources (127 documents)
 ---

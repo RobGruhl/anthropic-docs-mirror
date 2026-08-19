@@ -3680,6 +3680,16 @@
       "last_modified": null,
       "last_updated": "2026-08-12T18:48:09.267605"
     },
+    "about-claude__additional-resources.md": {
+      "original_url": "https://platform.claude.com/docs/en/about-claude/additional-resources",
+      "original_md_url": "https://platform.claude.com/docs/en/about-claude/additional-resources.md",
+      "category": "developer-guide",
+      "path": "/docs/en/about-claude/additional-resources",
+      "hash": "562d59477cc1d44fb6d6e8c9863d91f3c2cbe63bd5b449589aaf05a6063a7d2c",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-08-19T18:19:22.157690"
+    },
     "about-claude__glossary.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/glossary",
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/glossary.md",
@@ -4685,10 +4695,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/claude_api_primer.md",
       "category": "developer-guide",
       "path": "/docs/en/claude_api_primer",
-      "hash": "970d7b68fc76e896abe3b33de46f523d38293b9690229237e30dc4809b30f4c9",
+      "hash": "a0005751c091f40a27426b93b8adef7fa59b9ff9004216ef51beeb723aeae4d6",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-13T18:50:02.665396"
+      "last_updated": "2026-08-19T18:19:22.172530"
     },
     "cli-sdks-libraries__cli__authentication.md": {
       "original_url": "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/authentication",
@@ -4885,20 +4895,20 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/admin-api.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/admin-api",
-      "hash": "4271aff91a64aeafdb55ad925c8fbcdd2d0a144996e15cedda90d255aef9a722",
+      "hash": "43b47155770d77bc04b23ab398b8ae89aeeb8354ddb27870eccff106cd3a1303",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-19T00:40:15.638694"
+      "last_updated": "2026-08-19T18:19:22.174883"
     },
     "manage-claude__admin-api-keys.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/admin-api-keys",
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/admin-api-keys.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/admin-api-keys",
-      "hash": "d6fb4d761c9bbccaf607c8d1aa0dcadee0f1bad3e36477b602eddd7208e3377a",
+      "hash": "367970d353f7d8df17eb0af926aa17a68df5786d911e00db592f8653ffa175f1",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-13T18:50:02.666585"
+      "last_updated": "2026-08-19T18:19:22.175021"
     },
     "manage-claude__analytics-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/analytics-api",
@@ -5155,10 +5165,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/manage-claude/user-management.md",
       "category": "developer-guide",
       "path": "/docs/en/manage-claude/user-management",
-      "hash": "d89fc821919338d66e5e3e3faf0b1fda910f302fbbefd5fcf1812856cafb87f4",
+      "hash": "eb9333237c1a11b7db489c696df85c432c413ca9a59ec43703cf147d45e48fb0",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-12T18:48:09.332661"
+      "last_updated": "2026-08-19T18:19:22.177944"
     },
     "manage-claude__wif-admin-api.md": {
       "original_url": "https://platform.claude.com/docs/en/manage-claude/wif-admin-api",
@@ -5545,10 +5555,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/release-notes/overview",
-      "hash": "e49ab5dc30df6f1ca6968e71923be577d1f6e019ab6f1d14b8fe5bc3fcac438f",
+      "hash": "26841e03eb203f58110966a324aea850f3dcf1bbdda51f9674743d6d32120c78",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-19T00:40:15.647493"
+      "last_updated": "2026-08-19T18:19:22.182951"
     },
     "release-notes__system-prompts.md": {
       "original_url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
@@ -5632,20 +5642,20 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-19T15:21:34.093518",
-    "fetch_duration_seconds": 10.726284,
-    "total_pages_discovered": 564,
-    "pages_fetched_successfully": 563,
+    "last_fetch_completed": "2026-08-19T18:19:22.188500",
+    "fetch_duration_seconds": 8.554307,
+    "total_pages_discovered": 565,
+    "pages_fetched_successfully": 564,
     "pages_failed": 1,
-    "pages_unchanged": 563,
-    "pages_updated": 0,
-    "pages_new": 0,
+    "pages_unchanged": 558,
+    "pages_updated": 5,
+    "pages_new": 1,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/home"
     ],
     "by_category": {
-      "developer-guide": 195,
+      "developer-guide": 196,
       "api-reference": 368,
       "resources": 0
     },
@@ -5657,5 +5667,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-19T15:21:34.093694"
+  "last_updated": "2026-08-19T18:19:22.188686"
 }
