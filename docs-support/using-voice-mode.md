@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787122800&signature=87913d1cce9d3474ff6ee65c8af9c70ea2cc1cfbf473186917ecd0812bf67e6f&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLSr5hxNdRzYWrfF7Fi%2FSLs77czsAsDTQG%0A%2BaRIwC1astj0vy%2FF3FY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787133600&signature=f9002f1d18310dbb9cfcbed9ac950f167820cc890e026f654ade8cd793494a3b&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLS79vxNdRzYWrfF5wEu0fvDWj8xYQxAiD%0AzhgF%2FTVbFo%2FUFeIyBRk%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787122800&signature=150b417eeb6d166bbe13f1066aac70794567f95a578043b9b6c3db336b2ee7ca&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UYlICy8OQfYsvK3xW1u64rCJyXaxMkv4r%0A1lioYhztBSiyPmHGB80%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787133600&signature=a780756c8b7dc940c736f0d3487b056242bbe5cdd49082e272bf5a11ff53d16d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UY1MMy8OQfYsvK3wSXVwGZ%2B3Ex6JEtzfz%0AagGRBbj1zunPYsenTp0%3D%0A)
 
  
 
