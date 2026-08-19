@@ -1,6 +1,6 @@
 # What is the Team plan?
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -104,7 +104,7 @@ Yes. For both Standard and Premium seats, weekly limits reset at a fixed time ea
 
  
 
-**Premium seats:** Team plan Premium seats offer 6.25x more usage per session than the Pro plan. Users assigned to these seats ​​also have two weekly usage limits: one that applies across all models and another for Sonnet models only. 
+**Premium seats:** Team plan Premium seats offer 6.25x more usage per session than the Pro plan and have a weekly usage limit that applies across all models.
 
  
 

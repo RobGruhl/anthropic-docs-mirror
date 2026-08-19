@@ -1,6 +1,6 @@
 # Log in to your Console account
 
-*Updated over a week ago*
+*Updated today*
 
 ---
 
@@ -8,7 +8,7 @@ When you navigate to the **[Claude Console](https://platform.claude.com)**, you 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1787089500&signature=0c10b8a622226b23f6e3b3267e34fb8e43a494da6b59ee9a3ddbba05e3c5095e&req=dSkkE8l8m4dbX%2FMW1HO4zcrI547sqIkI8vUNcPt4%2B71lWIoYJJ%2BKtzoWexiJ%0Ai5hQNjT7%2FApDVZ7%2BaRM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1787119200&signature=a91267085dd7aa182600807799131a07496f238823503864f52a6bb9bec87636&req=dSkkE8l8m4dbX%2FMW3nq%2Bgcz%2BjLKQQR4qg3qxKXGdglofQil8jsajFWntldBA%0A0apyF9OaRi5i8qSeJcurCTiqKzc%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ If you've previously authenticated using Google, you can follow these steps to u
 
 ### Can I have both a Claude account and a Console account?
 
-Yes, you can have both a Claude account (for using Claude at claude.ai) and a Console account (for accessing the Workbench and Claude API). These are separate accounts, though you can use the same email address for both. Learn more in **[Can I have a Claude account and a Console account?](https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account)**
+Yes, you can have both a Claude account (for using Claude at claude.ai) and a Console account (for accessing the playground and Claude API). These are separate accounts, though you can use the same email address for both. Learn more in **[Can I have a Claude account and a Console account?](https://support.claude.com/en/articles/8987223-can-i-have-a-claude-account-and-a-console-account)**
 
 
 ---
@@ -97,4 +97,4 @@ Yes, you can have both a Claude account (for using Claude at claude.ai) and a Co
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Google Workspace SSO/SCIM email mismatch](https://support.claude.com/en/articles/13917817-google-workspace-sso-scim-email-mismatch)
 - [Google Workspace SSO setup](https://support.claude.com/en/articles/13917884-google-workspace-sso-setup)
-- [SSO login](https://support.claude.com/en/articles/14503613-sso-login)
+- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)

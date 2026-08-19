@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-18 21:19*
+*Last updated: 2026-08-19 00:44*
 Total documents: 563
 ---
 ## Uncategorized (563 documents)
@@ -1906,7 +1906,7 @@ Total documents: 563
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
@@ -2341,7 +2341,7 @@ Total documents: 563
 ### intro
 **File:** `/platform-docs/intro.md`  
 **Source:** https://platform.claude.com/docs/en/intro  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### ip-addresses
 **File:** `/platform-docs/ip-addresses.md`  
@@ -2351,7 +2351,7 @@ Total documents: 563
 ### manage-claude__access-transparency
 **File:** `/platform-docs/manage-claude__access-transparency.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/access-transparency  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__admin-api-keys
 **File:** `/platform-docs/manage-claude__admin-api-keys.md`  
@@ -2361,7 +2361,7 @@ Total documents: 563
 ### manage-claude__admin-api
 **File:** `/platform-docs/manage-claude__admin-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/admin-api  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__analytics-api
 **File:** `/platform-docs/manage-claude__analytics-api.md`  
@@ -2371,7 +2371,7 @@ Total documents: 563
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### manage-claude__app-attest
 **File:** `/platform-docs/manage-claude__app-attest.md`  
@@ -2391,22 +2391,22 @@ Total documents: 563
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__cmek-azure-key-vault
 **File:** `/platform-docs/manage-claude__cmek-azure-key-vault.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__cmek-google-cloud-kms
 **File:** `/platform-docs/manage-claude__cmek-google-cloud-kms.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-08-18  
+**Updated:** 2026-08-19  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  
@@ -2486,7 +2486,7 @@ Total documents: 563
 ### manage-claude__usage-cost-api
 **File:** `/platform-docs/manage-claude__usage-cost-api.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/usage-cost-api  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### manage-claude__user-management
 **File:** `/platform-docs/manage-claude__user-management.md`  
@@ -2546,7 +2546,7 @@ Total documents: 563
 ### manage-claude__workspaces
 **File:** `/platform-docs/manage-claude__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/workspaces  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
@@ -2751,7 +2751,7 @@ Total documents: 563
 ### overview
 **File:** `/platform-docs/overview.md`  
 **Source:** https://platform.claude.com/docs/en/api/overview  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-19  
 
 ### rate-limits
 **File:** `/platform-docs/rate-limits.md`  
@@ -2761,7 +2761,7 @@ Total documents: 563
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-19  
 
 ### release-notes__system-prompts
 **File:** `/platform-docs/release-notes__system-prompts.md`  

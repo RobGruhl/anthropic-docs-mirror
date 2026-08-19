@@ -1,10 +1,10 @@
 # How can I access the Claude API?
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
-Organizations interested in building with the Claude API can create a [Claude Console account](https://platform.claude.com). The Claude Console is where you can create API keys, add users to your team, set up billing, and experiment with Claude on the Workbench. Please note that access to the API is subject to our [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms).
+Organizations interested in building with the Claude API can create a [Claude Console account](https://platform.claude.com). The Claude Console is where you can create API keys, add users to your team, set up billing, and experiment with Claude on the playground. Please note that access to the API is subject to our [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms).
 
  
 
@@ -20,7 +20,7 @@ If you are an alignment researcher and are interested in accessing the API for A
 ## Related Articles
 
 - [I created a Claude Console organization - how do I start using the Claude API?](https://support.claude.com/en/articles/8114531-i-created-a-claude-console-organization-how-do-i-start-using-the-claude-api)
-- [How do I use the Workbench?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-workbench)
+- [How do I use the playground?](https://support.claude.com/en/articles/8606378-how-do-i-use-the-playground)
 - [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [I have a paid Claude subscription (Pro, Max, Team, or Enterprise plans). Why do I have to pay separately to use the Claude API and Console?](https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)

@@ -1,6 +1,6 @@
 # Business Associate Agreements (BAA) for Commercial Customers
 
-*Updated in the last hour*
+*Updated today*
 
 ---
 
@@ -16,7 +16,7 @@ Anthropic provides a BAA covering our HIPAA-ready services, such as use of our f
 
  
 
-For clarity, the BAA only covers the single organization that accepted it, and excludes features such as Workbench, Claude Console, Claude Cowork, or features currently in beta such as Claude in Office and Claude Design. As part of the BAA, customers of Anthropic’s HIPAA-ready services are subject to certain configuration requirements and limitations on what features/integrations are available.
+For clarity, the BAA only covers the single organization that accepted it, and excludes features such as Claude Console, Claude Cowork, or features currently in beta such as Claude in Office and Claude Design. As part of the BAA, customers of Anthropic’s HIPAA-ready services are subject to certain configuration requirements and limitations on what features/integrations are available.
 
  
 

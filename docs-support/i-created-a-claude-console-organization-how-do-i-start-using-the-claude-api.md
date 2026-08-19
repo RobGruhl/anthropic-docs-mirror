@@ -4,7 +4,7 @@
 
 ---
 
-To use the Claude API and Workbench, add usage credits to your organization's balance. You’ll need to fill out some additional information about your organization and use case. Then, you’ll enter your payment details and fund your account.
+To use the Claude API and the playground, add usage credits to your organization's balance. You’ll need to fill out some additional information about your organization and use case. Then, you’ll enter your payment details and fund your account.
 
  
 

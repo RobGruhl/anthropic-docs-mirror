@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787089500&signature=a1ce8d5be6b25bf1911c3579a3b831d7d82be84343347a38fb53b1ba6db0a159&req=diAjFMp7n4FZWfMW1HO4zU6VRfrKQLVsxNdRzYWrfF6f%2FkX4CoCm94zrrIy9%0A80CAEgFSdby85OHC4HI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787102100&signature=ffc439b9d46d90287e70e04431e2d2e1df7d28894cfe1fcb5ffd08aed43b64ba&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLSL5oxNdRzYWrfF7LqXYK%2BRotErNA7rz7%0AoYBaYHPQStCO6r1VS2A%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787089500&signature=3ec0490f95d77e5547417fef4d482fbe93cbc5919cfeb54ff757d5bc74059968&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2VaFkPy8OQfYsvK3z3yHORPOeSXp7oF%2B88%0AFi5r1mjTrs7JHX8zB3I%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787102100&signature=18208b3fc20d897f17f3cb4e72e45578a07b8886463f40ad77ffd3ecab2528ae&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UYFILy8OQfYsvK3weop3OAxbzxZ1CjH8o%0AJE2F1W7r55c8%2B0%2BXEb4%3D%0A)
 
  
 
