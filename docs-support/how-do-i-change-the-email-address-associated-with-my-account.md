@@ -44,6 +44,6 @@ After cancelling your previous subscription and unlinking your phone number, you
 
 - [Verify your phone number](https://support.claude.com/en/articles/8287232-verify-your-phone-number)
 - [How do I sign up for the Pro plan?](https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan)
-- [How can I delete my Claude account?](https://support.claude.com/en/articles/9028421-how-can-i-delete-my-claude-account)
+- [Delete your Claude account](https://support.claude.com/en/articles/9028421-delete-your-claude-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Log in to your Console account](https://support.claude.com/en/articles/13371040-log-in-to-your-console-account)

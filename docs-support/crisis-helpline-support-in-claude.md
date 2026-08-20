@@ -165,7 +165,7 @@ We work with ThroughLine, an organization that curates and maintains a global di
 ## Related Articles
 
 - [I use Claude in Amazon Bedrock. Who do I contact for customer support inquiries?](https://support.claude.com/en/articles/7996921-i-use-claude-in-amazon-bedrock-who-do-i-contact-for-customer-support-inquiries)
+- [Delete your Claude account](https://support.claude.com/en/articles/9028421-delete-your-claude-account)
 - [Who owns and manages the data of my Claude for Education account?](https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 - [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
-- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)

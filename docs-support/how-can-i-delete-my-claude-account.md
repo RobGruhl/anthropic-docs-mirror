@@ -1,46 +1,75 @@
-# How can I delete my Claude account?
+# Delete your Claude account
 
-*Updated over 4 months ago*
+*Updated today*
 
 ---
 
-Once you are logged in, click your initials or name in the lower left corner and select "Settings." Navigate to **[Settings > Account](https://claude.ai/settings/account)** and click the "Delete account" button:
+This article shows you how to permanently delete your account on the web and in the Claude mobile apps, and explains what happens to your data when you do.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2274267534/e7064e2657b1bd20031ba40da11c/CleanShot+2026-04-14+at+09_48_08.png?expires=1787175900&signature=8317917644dad0d49dbd083563f76217db8d4b86c781d65a3d22c5b9587bfcfd&req=diIgEst4moRcXfMW1HO4zeqzlXsPIYT1oVDupr7i4TEVjVbf15NRvj6EPVVc%0Az3uJsVraGUWErnCrcqQ%3D%0A)
+## Before you delete a paid account
 
- 
-
-## Considerations for paid Claude accounts
-
-Before deleting Claude accounts with paid subscriptions (Pro or Max plans):
+If you're on a Pro or Max plan:
 
 1. Cancel your subscription from your **[Billing settings](https://claude.ai/settings/billing)**.
 2. Wait until the end of your current subscription period.
-3. Once the subscription lapses, proceed with account deletion.
+3. Once the subscription lapses, delete your account using the steps below.
 
-Click "Delete account" and follow the prompts. **Please note that deleting your account is permanent** and you will no longer have access to saved chats. If you wish to keep your data, we recommend exporting it before deletion by following the steps listed here: **[How can I export my Claude data?](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-data)**
-
- 
-
-If you have multiple accounts associated with the same email address, you'll need to specify which accounts you want to delete when making your request.
+For detailed cancellation instructions, including for Claude for iOS and Android, see **[Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617)**.
 
  
 
-There are some scenarios where you will need to **[contact our team](https://support.claude.com/en/articles/9015913-how-to-get-support)** to delete your account. If this is the case, it will be noted in your account:
+## Delete your account on the web
+
+1. Go to **[claude.ai](https://claude.ai/)** and click your initials or name in the lower left corner.
+2. Select "Settings," or navigate directly to **[Settings > Account](https://claude.ai/settings/account)**.
+3. Click "Delete account" and follow the prompts.
+3.  
+
+## Delete your account on Claude for iOS
+
+These steps apply to Claude for iOS, listed on the App Store as Claude by Anthropic.
+
+1. Open the Claude app and tap "Settings."
+2. Find the **Account** section and tap "Profile."
+3. Tap "Delete account."
+4. Tap "Delete" to confirm.
+4.  
+
+## Delete your account on Claude for Android
+
+These steps apply to Claude for Android, listed on Google Play as Claude by Anthropic.
+
+1. Open the Claude app and tap the menu button in the upper left corner.
+2. Tap your initials in the lower left corner.
+3. Tap "Profile."
+4. Under **Account Actions**, tap "Delete Account."
+5. Tap "I Understand" to confirm.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584796811/331afc5dc61eec6f72786155b782/Screenshot+2025-06-23+at+1_54_23%E2%80%AFPM.png?expires=1787175900&signature=c6653f2641a86203bd3d14c23f701146c8495aaab576fd2950a413293cae7ffa&req=dSUvEs53m4leWPMW1HO4zXW0qxIKHI9SVOsMorzl%2B%2FQ%2FZHo%2Bi8Jv4DtRuev2%0ANK7Oy6F9Rpw4Iqt9%2B4o%3D%0A)
+## What happens when you delete your account
+
+When you delete your account, you’ll no longer have access to your conversations, projects, and account information. Learn more about **[how long Anthropic stores your data](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
+
+ 
+
+## When you need to contact support
+
+In some scenarios you'll need to contact our team to delete your account. If this applies to you, it'll be noted in your account settings. Learn more about **[how to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
+
+ 
+
+If you have multiple accounts associated with the same email address, you'll need to specify which accounts you want to delete when you contact us.
 
 
 ---
 
 ## Related Articles
 
-- [How do I change the email address associated with my account?](https://support.claude.com/en/articles/8452276-how-do-i-change-the-email-address-associated-with-my-account)
+- [Delete or rename a conversation](https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation)
+- [Install Claude for iOS](https://support.claude.com/en/articles/9266462-install-claude-for-ios)
 - [Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)
-- [How can I delete my Claude Console account?](https://support.claude.com/en/articles/10366376-how-can-i-delete-my-claude-console-account)
+- [Install Claude for Android](https://support.claude.com/en/articles/9612887-install-claude-for-android)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
-- [Respond to an Enterprise domain claim on your Claude account](https://support.claude.com/en/articles/14625626-respond-to-an-enterprise-domain-claim-on-your-claude-account)
