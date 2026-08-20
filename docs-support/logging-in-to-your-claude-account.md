@@ -8,7 +8,7 @@ When you open Claude on a web browser ([claude.ai](http://claude.ai)), the deskt
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1787199300&signature=674abf6199baf905ddcde7051e16373a6b5775e0272d3246fb3f2d136c906225&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoWN6hu3zWhrqpWiTMkeBTqbvR%2F2rD27DS%2F4%0AvBAnCJ1dVf2qfmnO4Do%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1787209200&signature=3f5d9462a7c662b8c518f73164b41dc8c80113226f1bdd7dae22f5e2f737e52d&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoWO4xu2zWhrqpWiTMmVOQ7WTKYNcdzgQ3jw%0AiKBCTa3eJIFO1bVA0bc%3D%0A)
 
  
 
