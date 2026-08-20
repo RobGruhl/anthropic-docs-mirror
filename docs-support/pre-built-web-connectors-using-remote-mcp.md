@@ -1,6 +1,6 @@
 # Use connectors to extend Claude's capabilities
 
-*Updated over a week ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -14,7 +14,7 @@ Connectors let Claude access your apps and services, retrieve your data, and tak
 
  
 
-For example, you can connect Claude to Linear to create issues, to Slack to send messages, or to Google Drive to search your files. Connectors work across Claude, Claude Desktop, Claude Code, and the API (via the **[MCP Connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector)**).
+For example, you can connect Claude to Linear to create issues, to Slack to send messages, or to Google Drive to search your files. Connectors work across Claude, Claude Desktop, Claude Code, and the API (via the **[MCP Connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector)**). Setup details for individual pre-built connectors are in **[Claude Docs: Connectors](https://claude.com/docs/connectors/overview)**.
 
  
 
@@ -207,6 +207,7 @@ If you're having trouble connecting to a service, try these steps:
 2. Verify you have an active account with the service.
 3. Review any permissions or account type requirements for the service.
 4. If authentication fails, try disconnecting and reconnecting from **[Customize > Connectors](https://claude.ai/customize/connectors)**.
+5. For connector-specific requirements and known issues (Slack, GitHub, Google Drive, Gmail, Google Calendar, Microsoft 365), see the connector's page in **[Claude Docs: Connectors](https://claude.com/docs/connectors/overview)**.
 
 ### See a message that says, "This corporate identity belongs to an Enterprise that manages access through their own Claude account"?
 

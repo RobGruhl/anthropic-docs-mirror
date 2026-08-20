@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787241600&signature=aa92cce03f39bb7c294df5e2ad222aa25cd5433a4b9ca69a7cc2fea81c877ea6&req=diAjFMp7n4FZWfMW1HO4zU6VRfrITL1vxNdRzYWrfF51%2BhgcJ2LI8qvKb9Zv%0AVl51it%2FI0GV9EdXPi3Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787251500&signature=b5801178235cf6dae2850f66f0d2a436d2c169fdb3dd8bce476d0963f1de93cf&req=diAjFMp7n4FZWfMW1HO4zU6VRfrITb1sxNdRzYWrfF6hOFH%2Bal2Lo7HrhSif%0AFpXy%2BT1Wf%2FBcE5e4lCw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787241600&signature=aa6c78223eab4f7b7144bb82eb775c7425871475082a0ed21fdf9b9625fe4e76&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XZFEMy8OQfYsvK3zbO%2FecgJXvQSh9H0Cy%0AoPs5ChisjGpBvMJ8YBs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787251500&signature=0baf04978243df71e593f4ef0f950e3abea17e0c7834b512d8f37e624b21bea2&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XZVEPy8OQfYsvK3wXcZxjMlm0aOdERArb%0Aphr1uVhtcDpuWlztV54%3D%0A)
 
  
 

@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-20 15:29*
-Total documents: 564
+*Last updated: 2026-08-20 18:27*
+Total documents: 580
 ---
-## Uncategorized (564 documents)
+## Uncategorized (580 documents)
 ### about-claude__additional-resources
 **File:** `/platform-docs/about-claude__additional-resources.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/additional-resources  
@@ -31,7 +31,7 @@ Total documents: 564
 ### about-claude__models__migration-guide
 **File:** `/platform-docs/about-claude__models__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### about-claude__models__model-ids-and-versions
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
@@ -41,7 +41,7 @@ Total documents: 564
 ### about-claude__models__optimizing-for-cost-and-intelligence
 **File:** `/platform-docs/about-claude__models__optimizing-for-cost-and-intelligence.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence  
-**Updated:** 2026-08-14  
+**Updated:** 2026-08-20  
 
 ### about-claude__models__overview
 **File:** `/platform-docs/about-claude__models__overview.md`  
@@ -56,7 +56,7 @@ Total documents: 564
 ### about-claude__models__whats-new-sonnet-5
 **File:** `/platform-docs/about-claude__models__whats-new-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
@@ -771,12 +771,12 @@ Total documents: 564
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__mcp-connector
 **File:** `/platform-docs/agents-and-tools__mcp-connector.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/mcp-connector  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__mcp-tunnels__concepts
 **File:** `/platform-docs/agents-and-tools__mcp-tunnels__concepts.md`  
@@ -856,7 +856,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
@@ -886,7 +886,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__overview
 **File:** `/platform-docs/agents-and-tools__tool-use__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
@@ -896,7 +896,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__server-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__server-tools.md`  
@@ -906,7 +906,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__strict-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__strict-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__text-editor-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__text-editor-tool.md`  
@@ -931,7 +931,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__tool-search-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-search-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__tool-use-with-prompt-caching
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-use-with-prompt-caching.md`  
@@ -941,7 +941,7 @@ Total documents: 564
 ### agents-and-tools__tool-use__troubleshooting-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__troubleshooting-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__web-fetch-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__web-fetch-tool.md`  
@@ -956,742 +956,742 @@ Total documents: 564
 ### beta-headers
 **File:** `/platform-docs/beta-headers.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta-headers  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta
 **File:** `/platform-docs/beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents
 **File:** `/platform-docs/beta__agents.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__archive
 **File:** `/platform-docs/beta__agents__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__create
 **File:** `/platform-docs/beta__agents__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__list
 **File:** `/platform-docs/beta__agents__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__retrieve
 **File:** `/platform-docs/beta__agents__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__update
 **File:** `/platform-docs/beta__agents__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__versions
 **File:** `/platform-docs/beta__agents__versions.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/versions  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__agents__versions__list
 **File:** `/platform-docs/beta__agents__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/agents/versions/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployment_runs
 **File:** `/platform-docs/beta__deployment_runs.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployment_runs__list
 **File:** `/platform-docs/beta__deployment_runs__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployment_runs__retrieve
 **File:** `/platform-docs/beta__deployment_runs__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployment_runs/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments
 **File:** `/platform-docs/beta__deployments.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__archive
 **File:** `/platform-docs/beta__deployments__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__create
 **File:** `/platform-docs/beta__deployments__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__list
 **File:** `/platform-docs/beta__deployments__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__pause
 **File:** `/platform-docs/beta__deployments__pause.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/pause  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__retrieve
 **File:** `/platform-docs/beta__deployments__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__run
 **File:** `/platform-docs/beta__deployments__run.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/run  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__unpause
 **File:** `/platform-docs/beta__deployments__unpause.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/unpause  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__deployments__update
 **File:** `/platform-docs/beta__deployments__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/deployments/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams
 **File:** `/platform-docs/beta__dreams.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams__archive
 **File:** `/platform-docs/beta__dreams__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams__cancel
 **File:** `/platform-docs/beta__dreams__cancel.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams/cancel  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams__create
 **File:** `/platform-docs/beta__dreams__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams__list
 **File:** `/platform-docs/beta__dreams__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__dreams__retrieve
 **File:** `/platform-docs/beta__dreams__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/dreams/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments
 **File:** `/platform-docs/beta__environments.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__archive
 **File:** `/platform-docs/beta__environments__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__create
 **File:** `/platform-docs/beta__environments__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__delete
 **File:** `/platform-docs/beta__environments__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__environments__list
 **File:** `/platform-docs/beta__environments__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__retrieve
 **File:** `/platform-docs/beta__environments__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__update
 **File:** `/platform-docs/beta__environments__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work
 **File:** `/platform-docs/beta__environments__work.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__ack
 **File:** `/platform-docs/beta__environments__work__ack.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/ack  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__heartbeat
 **File:** `/platform-docs/beta__environments__work__heartbeat.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/heartbeat  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__list
 **File:** `/platform-docs/beta__environments__work__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__poll
 **File:** `/platform-docs/beta__environments__work__poll.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/poll  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__retrieve
 **File:** `/platform-docs/beta__environments__work__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__stats
 **File:** `/platform-docs/beta__environments__work__stats.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/stats  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__stop
 **File:** `/platform-docs/beta__environments__work__stop.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/stop  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__environments__work__update
 **File:** `/platform-docs/beta__environments__work__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/environments/work/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__files
 **File:** `/platform-docs/beta__files.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__files__delete
 **File:** `/platform-docs/beta__files__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__files__download
 **File:** `/platform-docs/beta__files__download.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/download  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__files__list
 **File:** `/platform-docs/beta__files__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__files__retrieve_metadata
 **File:** `/platform-docs/beta__files__retrieve_metadata.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__files__upload
 **File:** `/platform-docs/beta__files__upload.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/upload  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores
 **File:** `/platform-docs/beta__memory_stores.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__archive
 **File:** `/platform-docs/beta__memory_stores__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__create
 **File:** `/platform-docs/beta__memory_stores__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__delete
 **File:** `/platform-docs/beta__memory_stores__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__list
 **File:** `/platform-docs/beta__memory_stores__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories
 **File:** `/platform-docs/beta__memory_stores__memories.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories__create
 **File:** `/platform-docs/beta__memory_stores__memories__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories__delete
 **File:** `/platform-docs/beta__memory_stores__memories__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories__list
 **File:** `/platform-docs/beta__memory_stores__memories__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories__retrieve
 **File:** `/platform-docs/beta__memory_stores__memories__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memories__update
 **File:** `/platform-docs/beta__memory_stores__memories__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memories/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memory_versions
 **File:** `/platform-docs/beta__memory_stores__memory_versions.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memory_versions__list
 **File:** `/platform-docs/beta__memory_stores__memory_versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memory_versions__redact
 **File:** `/platform-docs/beta__memory_stores__memory_versions__redact.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__memory_versions__retrieve
 **File:** `/platform-docs/beta__memory_stores__memory_versions__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__retrieve
 **File:** `/platform-docs/beta__memory_stores__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__memory_stores__update
 **File:** `/platform-docs/beta__memory_stores__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/memory_stores/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages
 **File:** `/platform-docs/beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches
 **File:** `/platform-docs/beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__cancel
 **File:** `/platform-docs/beta__messages__batches__cancel.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/cancel  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__create
 **File:** `/platform-docs/beta__messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__delete
 **File:** `/platform-docs/beta__messages__batches__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__list
 **File:** `/platform-docs/beta__messages__batches__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__results
 **File:** `/platform-docs/beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/results  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__batches__retrieve
 **File:** `/platform-docs/beta__messages__batches__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__count_tokens
 **File:** `/platform-docs/beta__messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/count_tokens  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__messages__create
 **File:** `/platform-docs/beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__models
 **File:** `/platform-docs/beta__models.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/models  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__models__list
 **File:** `/platform-docs/beta__models__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/models/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__models__retrieve
 **File:** `/platform-docs/beta__models__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/models/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions
 **File:** `/platform-docs/beta__sessions.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__archive
 **File:** `/platform-docs/beta__sessions__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__create
 **File:** `/platform-docs/beta__sessions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__delete
 **File:** `/platform-docs/beta__sessions__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__events
 **File:** `/platform-docs/beta__sessions__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/events  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__events__list
 **File:** `/platform-docs/beta__sessions__events__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/events/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__events__send
 **File:** `/platform-docs/beta__sessions__events__send.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/events/send  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__events__stream
 **File:** `/platform-docs/beta__sessions__events__stream.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/events/stream  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__list
 **File:** `/platform-docs/beta__sessions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources
 **File:** `/platform-docs/beta__sessions__resources.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources__add
 **File:** `/platform-docs/beta__sessions__resources__add.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources/add  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources__delete
 **File:** `/platform-docs/beta__sessions__resources__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources__list
 **File:** `/platform-docs/beta__sessions__resources__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources__retrieve
 **File:** `/platform-docs/beta__sessions__resources__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__resources__update
 **File:** `/platform-docs/beta__sessions__resources__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/resources/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__retrieve
 **File:** `/platform-docs/beta__sessions__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads
 **File:** `/platform-docs/beta__sessions__threads.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__archive
 **File:** `/platform-docs/beta__sessions__threads__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__events
 **File:** `/platform-docs/beta__sessions__threads__events.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/events  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__events__list
 **File:** `/platform-docs/beta__sessions__threads__events__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/events/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__events__stream
 **File:** `/platform-docs/beta__sessions__threads__events__stream.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/events/stream  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__list
 **File:** `/platform-docs/beta__sessions__threads__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__threads__retrieve
 **File:** `/platform-docs/beta__sessions__threads__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/threads/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__sessions__update
 **File:** `/platform-docs/beta__sessions__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/sessions/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills
 **File:** `/platform-docs/beta__skills.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__create
 **File:** `/platform-docs/beta__skills__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__delete
 **File:** `/platform-docs/beta__skills__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__skills__list
 **File:** `/platform-docs/beta__skills__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__retrieve
 **File:** `/platform-docs/beta__skills__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions
 **File:** `/platform-docs/beta__skills__versions.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions__create
 **File:** `/platform-docs/beta__skills__versions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/create  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions__delete
 **File:** `/platform-docs/beta__skills__versions__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions__download
 **File:** `/platform-docs/beta__skills__versions__download.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/download  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions__list
 **File:** `/platform-docs/beta__skills__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__skills__versions__retrieve
 **File:** `/platform-docs/beta__skills__versions__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels
 **File:** `/platform-docs/beta__tunnels.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__archive
 **File:** `/platform-docs/beta__tunnels__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__certificates
 **File:** `/platform-docs/beta__tunnels__certificates.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/certificates  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__certificates__archive
 **File:** `/platform-docs/beta__tunnels__certificates__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/certificates/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__certificates__create
 **File:** `/platform-docs/beta__tunnels__certificates__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/certificates/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__certificates__list
 **File:** `/platform-docs/beta__tunnels__certificates__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/certificates/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__certificates__retrieve
 **File:** `/platform-docs/beta__tunnels__certificates__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/certificates/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__create
 **File:** `/platform-docs/beta__tunnels__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__list
 **File:** `/platform-docs/beta__tunnels__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__retrieve
 **File:** `/platform-docs/beta__tunnels__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__reveal_token
 **File:** `/platform-docs/beta__tunnels__reveal_token.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/reveal_token  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__tunnels__rotate_token
 **File:** `/platform-docs/beta__tunnels__rotate_token.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/tunnels/rotate_token  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles
 **File:** `/platform-docs/beta__user_profiles.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles__create
 **File:** `/platform-docs/beta__user_profiles__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles__create_enrollment_url
 **File:** `/platform-docs/beta__user_profiles__create_enrollment_url.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles/create_enrollment_url  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles__list
 **File:** `/platform-docs/beta__user_profiles__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles__retrieve
 **File:** `/platform-docs/beta__user_profiles__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__user_profiles__update
 **File:** `/platform-docs/beta__user_profiles__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/user_profiles/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults
 **File:** `/platform-docs/beta__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__archive
 **File:** `/platform-docs/beta__vaults__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__create
 **File:** `/platform-docs/beta__vaults__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials
 **File:** `/platform-docs/beta__vaults__credentials.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__archive
 **File:** `/platform-docs/beta__vaults__credentials__archive.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/archive  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__create
 **File:** `/platform-docs/beta__vaults__credentials__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__delete
 **File:** `/platform-docs/beta__vaults__credentials__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__list
 **File:** `/platform-docs/beta__vaults__credentials__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__mcp_oauth_validate
 **File:** `/platform-docs/beta__vaults__credentials__mcp_oauth_validate.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/mcp_oauth_validate  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__retrieve
 **File:** `/platform-docs/beta__vaults__credentials__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__credentials__update
 **File:** `/platform-docs/beta__vaults__credentials__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/credentials/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__delete
 **File:** `/platform-docs/beta__vaults__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/delete  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__list
 **File:** `/platform-docs/beta__vaults__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__retrieve
 **File:** `/platform-docs/beta__vaults__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__vaults__update
 **File:** `/platform-docs/beta__vaults__update.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/vaults/update  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### beta__webhooks
 **File:** `/platform-docs/beta__webhooks.md`  
@@ -1716,22 +1716,22 @@ Total documents: 564
 ### build-with-claude__claude-in-amazon-bedrock
 **File:** `/platform-docs/build-with-claude__claude-in-amazon-bedrock.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__claude-in-microsoft-foundry
 **File:** `/platform-docs/build-with-claude__claude-in-microsoft-foundry.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__claude-on-amazon-bedrock-legacy
 **File:** `/platform-docs/build-with-claude__claude-on-amazon-bedrock-legacy.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__claude-on-vertex-ai
 **File:** `/platform-docs/build-with-claude__claude-on-vertex-ai.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
@@ -1861,7 +1861,7 @@ Total documents: 564
 ### build-with-claude__skills-guide
 **File:** `/platform-docs/build-with-claude__skills-guide.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/skills-guide  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__streaming
 **File:** `/platform-docs/build-with-claude__streaming.md`  
@@ -1911,7 +1911,7 @@ Total documents: 564
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
@@ -1941,7 +1941,7 @@ Total documents: 564
 ### cli-sdks-libraries__cli__quickstart
 **File:** `/platform-docs/cli-sdks-libraries__cli__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__cli__scripting
 **File:** `/platform-docs/cli-sdks-libraries__cli__scripting.md`  
@@ -1951,7 +1951,7 @@ Total documents: 564
 ### cli-sdks-libraries__cli__using
 **File:** `/platform-docs/cli-sdks-libraries__cli__using.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/cli/using  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__libraries__apple-foundation-models
 **File:** `/platform-docs/cli-sdks-libraries__libraries__apple-foundation-models.md`  
@@ -1976,17 +1976,17 @@ Total documents: 564
 ### cli-sdks-libraries__sdks__csharp
 **File:** `/platform-docs/cli-sdks-libraries__sdks__csharp.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/csharp  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__sdks__go
 **File:** `/platform-docs/cli-sdks-libraries__sdks__go.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/go  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__sdks__java
 **File:** `/platform-docs/cli-sdks-libraries__sdks__java.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/java  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__sdks__php
 **File:** `/platform-docs/cli-sdks-libraries__sdks__php.md`  
@@ -1996,27 +1996,27 @@ Total documents: 564
 ### cli-sdks-libraries__sdks__python
 **File:** `/platform-docs/cli-sdks-libraries__sdks__python.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__sdks__ruby
 **File:** `/platform-docs/cli-sdks-libraries__sdks__ruby.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/ruby  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### cli-sdks-libraries__sdks__typescript
 **File:** `/platform-docs/cli-sdks-libraries__sdks__typescript.md`  
 **Source:** https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/typescript  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### completions
 **File:** `/platform-docs/completions.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### completions__create
 **File:** `/platform-docs/completions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/completions/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### compliance
 **File:** `/platform-docs/compliance.md`  
@@ -2331,7 +2331,37 @@ Total documents: 564
 ### errors
 **File:** `/platform-docs/errors.md`  
 **Source:** https://platform.claude.com/docs/en/api/errors  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
+
+### files
+**File:** `/platform-docs/files.md`  
+**Source:** https://platform.claude.com/docs/en/api/files  
+**Updated:** 2026-08-20  
+
+### files__delete
+**File:** `/platform-docs/files__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/files/delete  
+**Updated:** 2026-08-20  
+
+### files__download
+**File:** `/platform-docs/files__download.md`  
+**Source:** https://platform.claude.com/docs/en/api/files/download  
+**Updated:** 2026-08-20  
+
+### files__list
+**File:** `/platform-docs/files__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/files/list  
+**Updated:** 2026-08-20  
+
+### files__retrieve_metadata
+**File:** `/platform-docs/files__retrieve_metadata.md`  
+**Source:** https://platform.claude.com/docs/en/api/files/retrieve_metadata  
+**Updated:** 2026-08-20  
+
+### files__upload
+**File:** `/platform-docs/files__upload.md`  
+**Source:** https://platform.claude.com/docs/en/api/files/upload  
+**Updated:** 2026-08-20  
 
 ### get-api-key
 **File:** `/platform-docs/get-api-key.md`  
@@ -2341,7 +2371,7 @@ Total documents: 564
 ### get-started
 **File:** `/platform-docs/get-started.md`  
 **Source:** https://platform.claude.com/docs/en/get-started  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### intro
 **File:** `/platform-docs/intro.md`  
@@ -2376,7 +2406,7 @@ Total documents: 564
 ### manage-claude__api-and-data-retention
 **File:** `/platform-docs/manage-claude__api-and-data-retention.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/api-and-data-retention  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### manage-claude__app-attest
 **File:** `/platform-docs/manage-claude__app-attest.md`  
@@ -2496,7 +2526,7 @@ Total documents: 564
 ### manage-claude__user-management
 **File:** `/platform-docs/manage-claude__user-management.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/user-management  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### manage-claude__wif-admin-api
 **File:** `/platform-docs/manage-claude__wif-admin-api.md`  
@@ -2556,7 +2586,7 @@ Total documents: 564
 ### managed-agents__agent-setup
 **File:** `/platform-docs/managed-agents__agent-setup.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/agent-setup  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### managed-agents__budgets
 **File:** `/platform-docs/managed-agents__budgets.md`  
@@ -2591,12 +2621,12 @@ Total documents: 564
 ### managed-agents__files
 **File:** `/platform-docs/managed-agents__files.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/files  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### managed-agents__github
 **File:** `/platform-docs/managed-agents__github.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/github  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### managed-agents__mcp-connector
 **File:** `/platform-docs/managed-agents__mcp-connector.md`  
@@ -2616,7 +2646,7 @@ Total documents: 564
 ### managed-agents__multiagent-orchestration
 **File:** `/platform-docs/managed-agents__multiagent-orchestration.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### managed-agents__onboarding
 **File:** `/platform-docs/managed-agents__onboarding.md`  
@@ -2636,7 +2666,7 @@ Total documents: 564
 ### managed-agents__quickstart
 **File:** `/platform-docs/managed-agents__quickstart.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/quickstart  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### managed-agents__reference
 **File:** `/platform-docs/managed-agents__reference.md`  
@@ -2681,7 +2711,7 @@ Total documents: 564
 ### managed-agents__vaults
 **File:** `/platform-docs/managed-agents__vaults.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/vaults  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### managed-agents__webhooks
 **File:** `/platform-docs/managed-agents__webhooks.md`  
@@ -2691,12 +2721,12 @@ Total documents: 564
 ### messages
 **File:** `/platform-docs/messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### messages__batches
 **File:** `/platform-docs/messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### messages__batches__cancel
 **File:** `/platform-docs/messages__batches__cancel.md`  
@@ -2706,7 +2736,7 @@ Total documents: 564
 ### messages__batches__create
 **File:** `/platform-docs/messages__batches__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### messages__batches__delete
 **File:** `/platform-docs/messages__batches__delete.md`  
@@ -2721,7 +2751,7 @@ Total documents: 564
 ### messages__batches__results
 **File:** `/platform-docs/messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/batches/results  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### messages__batches__retrieve
 **File:** `/platform-docs/messages__batches__retrieve.md`  
@@ -2731,27 +2761,27 @@ Total documents: 564
 ### messages__count_tokens
 **File:** `/platform-docs/messages__count_tokens.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/count_tokens  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### messages__create
 **File:** `/platform-docs/messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/messages/create  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### models
 **File:** `/platform-docs/models.md`  
 **Source:** https://platform.claude.com/docs/en/api/models  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### models__list
 **File:** `/platform-docs/models__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/models/list  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### models__retrieve
 **File:** `/platform-docs/models__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/models/retrieve  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### overview
 **File:** `/platform-docs/overview.md`  
@@ -2777,6 +2807,56 @@ Total documents: 564
 **File:** `/platform-docs/service-tiers.md`  
 **Source:** https://platform.claude.com/docs/en/api/service-tiers  
 **Updated:** 2026-08-12  
+
+### skills
+**File:** `/platform-docs/skills.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills  
+**Updated:** 2026-08-20  
+
+### skills__create
+**File:** `/platform-docs/skills__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/create  
+**Updated:** 2026-08-20  
+
+### skills__delete
+**File:** `/platform-docs/skills__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/delete  
+**Updated:** 2026-08-20  
+
+### skills__list
+**File:** `/platform-docs/skills__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/list  
+**Updated:** 2026-08-20  
+
+### skills__retrieve
+**File:** `/platform-docs/skills__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/retrieve  
+**Updated:** 2026-08-20  
+
+### skills__versions
+**File:** `/platform-docs/skills__versions.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/versions  
+**Updated:** 2026-08-20  
+
+### skills__versions__create
+**File:** `/platform-docs/skills__versions__create.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/versions/create  
+**Updated:** 2026-08-20  
+
+### skills__versions__delete
+**File:** `/platform-docs/skills__versions__delete.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/versions/delete  
+**Updated:** 2026-08-20  
+
+### skills__versions__list
+**File:** `/platform-docs/skills__versions__list.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/versions/list  
+**Updated:** 2026-08-20  
+
+### skills__versions__retrieve
+**File:** `/platform-docs/skills__versions__retrieve.md`  
+**Source:** https://platform.claude.com/docs/en/api/skills/versions/retrieve  
+**Updated:** 2026-08-20  
 
 ### supported-regions
 **File:** `/platform-docs/supported-regions.md`  

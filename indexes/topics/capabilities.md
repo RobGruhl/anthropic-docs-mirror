@@ -1,5 +1,5 @@
 # Capabilities Topic Index
-*Last updated: 2026-08-20 15:29*
+*Last updated: 2026-08-20 18:27*
 
 Documents related to Capabilities across all sources (77 documents)
 ---

@@ -1,6 +1,6 @@
 # Set up the Microsoft 365 connector
 
-*Updated today*
+*Updated this week*
 
 ---
 
@@ -374,8 +374,8 @@ Only after an Entra admin grants write scopes. With write tools on, Claude can s
 
 ## Related Articles
 
+- [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
-- [Microsoft Entra ID SSO setup](https://support.claude.com/en/articles/13917889-microsoft-entra-id-sso-setup)
 - [Set up role-based permissions on Enterprise plans](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans)
 - [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365)
