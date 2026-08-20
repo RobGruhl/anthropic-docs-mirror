@@ -1,5 +1,5 @@
 # Jetbrains Topic Index
-*Last updated: 2026-08-20 09:27*
+*Last updated: 2026-08-20 12:30*
 
 Documents related to Jetbrains across all sources (1 documents)
 ---

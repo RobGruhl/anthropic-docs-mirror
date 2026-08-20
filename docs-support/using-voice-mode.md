@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787220000&signature=69457a9a6500e7f245dc3ec564ddaf0b07a0dd33d0c589d6fa3c016e21250311&req=diAjFMp7n4FZWfMW1HO4zU6VRfrISrxpxNdRzYWrfF7W6RH24xzw1U%2F5AmVb%0A7MJnKDPM6%2FnXPNtBhs8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787230800&signature=15e4cbe6aab0f39320aea82292c529f879cb44e1e2581b3d6e103f8d5e9882ff&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIS7xhxNdRzYWrfF79Eb63F48XByXAnWIg%0ASFwrBF7JHDyUXqsyIb4%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787220000&signature=bc3fd12b632f6b9a89fa5d234a524f6b5718c3ee8b20c6f3c29bafe2e1523b8d&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XYlAKy8OQfYsvK3z3j9dnUv2Lv73%2F%2FjGG%0A7i892X3jXSuWLNeQ8V8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787230800&signature=b1efce8050b67870b878aa19a6f5bc3d12ae21b2062d6e1fa87b0721f659e51e&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XY1ACy8OQfYsvK3zZFzOQ06DuzePyDqMv%0ACgzcoDtVPxciSgmN3Hs%3D%0A)
 
  
 
