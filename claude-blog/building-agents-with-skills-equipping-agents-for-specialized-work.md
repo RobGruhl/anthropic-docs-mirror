@@ -214,6 +214,10 @@ Barry Zhang, Mahesh Murag, Keith Lazuka, Ryan Whitehead
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### AI가 COBOL 현대화의 비용 장벽을 극복하도록 지원하는 방법
@@ -225,10 +229,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 ### skill-creator 개선: Agent Skills 테스트, 측정 및 개선
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226da492fb9f7f815ba_1c3d1af62032009538b8bf5864139ca124b06741-1000x1000.svg)
-
-### 엔터프라이즈 전반에서 팀을 위한 Cowork 및 플러그인
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

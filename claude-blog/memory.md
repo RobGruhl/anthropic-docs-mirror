@@ -68,6 +68,10 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a025cf25f0694905405e054_Object-Scale.svg)
 
 ### 法務業界向けの Claude
@@ -79,10 +83,6 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22cf0b73a86025c5ba9_2174acb37a84767550abfe2588eb5648f941a897-1000x1000.svg)
 
 ### Max planの紹介
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d0099a66d72e05699_33ddc751e21fb4b116b3f57dd553f0bc55ea09d1-1000x1000.svg)
-
-### Claude in Chrome のパイロット試験
 
 ## Claude を活用して組織運営の方法を変革
 

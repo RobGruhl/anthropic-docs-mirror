@@ -206,6 +206,10 @@ Claude의 에이전틱 기능을 사용하여 빌드에 대한 더 많은 인사
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2260bfc90348429f9c3_cd9cf56a7f049285b7c1c8786c0a600cf3d7f317-1000x1000.svg)
 
 ### AI 에이전트의 일반적인 워크플로우 패턴과 사용 시점
@@ -217,10 +221,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d230e0a787df988a8558_97cf99624aa60f59b75f9e08cdf0f00d33c34804-1000x1000.svg)
 
 ### 멀티 에이전트 시스템 구축: 사용해야 할 시점 및 사용 방법
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
-
-### Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-08-20 18:27*
+*Last updated: 2026-08-20 21:23*
 
-Documents related to Api across all sources (61 documents)
+Documents related to Api across all sources (63 documents)
 ---
 ## Platform Documentation (platform.claude.com) (11)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -16,12 +16,14 @@ Documents related to Api across all sources (61 documents)
 - [beta__skills__versions__list](/platform-docs/api-reference/beta__skills__versions__list.md)
 - [beta__skills__versions__retrieve](/platform-docs/api-reference/beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (50)
+## Claude.com Blog Posts (52)
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
+- [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
 - [Auto mode for Claude Code](/claude-blog/auto-mode.md) - ![](https://cdn
 - [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](/claude-blog/auto-mode-default-in-claude-code.md) - ![](https://cdn
 - [Build and share AI-powered apps with Claude](/claude-blog/claude-powered-artifacts.md) - ![](https://cdn
+- [Build production agents with computer use, the Skills API, and the Files API](/claude-blog/computer-use-skills-api-files-api.md) - ![](https://cdn
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
 - [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn

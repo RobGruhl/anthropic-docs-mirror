@@ -1,7 +1,7 @@
 # Skills Topic Index
-*Last updated: 2026-08-20 18:27*
+*Last updated: 2026-08-20 21:23*
 
-Documents related to Skills across all sources (49 documents)
+Documents related to Skills across all sources (51 documents)
 ---
 ## Platform Documentation (platform.claude.com) (16)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -36,9 +36,11 @@ Documents related to Skills across all sources (49 documents)
 ## Engineering Blog Posts (1)
 - [Equipping agents for the real world with Agent Skills](/engineering-blog/equipping-agents-for-the-real-world-with-agent-skills.md) - Discover how Anthropic builds AI agents with practical capabilities through m...
 
-## Claude.com Blog Posts (24)
+## Claude.com Blog Posts (26)
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
+- [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
+- [Build production agents with computer use, the Skills API, and the Files API](/claude-blog/computer-use-skills-api-files-api.md) - ![](https://cdn
 - [Building verification loops in Claude Code with skills](/claude-blog/building-verification-loops-in-claude-code-with-skills.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude for Excel 및 Claude for PowerPoint 향상](/claude-blog/claude-excel-powerpoint-updates.md) - ![](https://cdn

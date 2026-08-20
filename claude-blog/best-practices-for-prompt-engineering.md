@@ -446,6 +446,10 @@ Claude を活用して構築を行うチーム向けの、その他の製品
 
 ニュースとベストプラクティスをご覧ください。
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f70ecef3c9356822a_928166e443bc1b1f19ebadf4fd11b7c45fce4153-1000x1000.svg)
 
 ### スキルの作成方法：主なステップ、制限事項、および事例

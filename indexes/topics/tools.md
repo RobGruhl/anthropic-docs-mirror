@@ -1,11 +1,12 @@
 # Tools Topic Index
-*Last updated: 2026-08-20 18:27*
+*Last updated: 2026-08-20 21:23*
 
-Documents related to Tools across all sources (92 documents)
+Documents related to Tools across all sources (95 documents)
 ---
-## Platform Documentation (platform.claude.com) (25)
+## Platform Documentation (platform.claude.com) (26)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
 - [agents-and-tools__tool-use__bash-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__bash-tool.md)
+- [agents-and-tools__tool-use__browser-use-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__browser-use-tool.md)
 - [agents-and-tools__tool-use__build-a-tool-using-agent](/platform-docs/developer-guide/agents-and-tools__tool-use__build-a-tool-using-agent.md)
 - [agents-and-tools__tool-use__code-execution-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__code-execution-tool.md)
 - [agents-and-tools__tool-use__computer-use-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__computer-use-tool.md)
@@ -39,10 +40,11 @@ Documents related to Tools across all sources (92 documents)
 - [The "think" tool: Enabling Claude to stop and think in complex tool use situations](/engineering-blog/claude-think-tool.md) - A blog post for developers, describing a new method for complex tool-use situ...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (60)
+## Claude.com Blog Posts (62)
 - [Advancing finance with Claude Opus 4.6](/claude-blog/opus-4-6-finance.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
+- [Anthropic’s approach to teaching and learning AI](/claude-blog/anthropics-approach-to-teaching-and-learning-ai.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
@@ -87,6 +89,7 @@ Documents related to Tools across all sources (92 documents)
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5](/claude-blog/how-jetbrains-evaluates-and-deploys-claude-fable-5.md) - ![](https://cdn
 - [Seeing like an agent: how we design tools in Claude Code](/claude-blog/seeing-like-an-agent.md) - ![](https://cdn
+- [The Claude Code guide for startups](/claude-blog/claude-code-guide-for-startups.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The Claude in Chrome side panel is now Claude Cowork](/claude-blog/cowork-chrome-side-panel.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn

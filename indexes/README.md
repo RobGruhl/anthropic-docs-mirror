@@ -1,9 +1,9 @@
 # Claude Documentation Index
-*Last updated: 2026-08-20 18:27*
+*Last updated: 2026-08-20 21:23*
 
 ## Quick Stats
-- **Total Documents:** 1733
-- **Platform Docs:** 580
+- **Total Documents:** 1738
+- **Platform Docs:** 581
 - **Claude Code Docs:** 186
 - **MCP Docs:** 168
 - **AgentSkills Docs:** 6
@@ -11,14 +11,14 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 219
+- **Claude.com Blog:** 223
 - **Support Articles:** 242
 - **Topics:** 84
 
 ## Quick Navigation
 
 ### By Content Type
-- [Platform Documentation](platform-docs.md) - 580 docs from platform.claude.com
+- [Platform Documentation](platform-docs.md) - 581 docs from platform.claude.com
 - [Claude Code Documentation](code-claude-docs.md) - 186 docs from code.claude.com
 - [MCP Documentation](mcp-docs.md) - 168 docs from modelcontextprotocol.io
 - [AgentSkills Documentation](agentskills-docs.md) - 6 docs from agentskills.io
@@ -26,28 +26,28 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 219 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 223 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 242 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 319 documents
+- [Claude Code](topics/claude-code.md) - 320 documents
 - [Mcp](topics/mcp.md) - 232 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
-- [Agents](topics/agents.md) - 160 documents
+- [Agents](topics/agents.md) - 165 documents
 - [Company](topics/company.md) - 157 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 92 documents
+- [Tools](topics/tools.md) - 95 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
+- [Api](topics/api.md) - 63 documents
 - [Alignment](topics/alignment.md) - 62 documents
-- [Api](topics/api.md) - 61 documents
 - [Interpretability](topics/interpretability.md) - 53 documents
-- [Skills](topics/skills.md) - 49 documents
+- [Skills](topics/skills.md) - 51 documents
 - [Agent Sdk](topics/agent-sdk.md) - 35 documents
 - [Community](topics/community.md) - 32 documents
 - [View all 84 topics](topics/)

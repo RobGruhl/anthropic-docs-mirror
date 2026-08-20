@@ -211,6 +211,10 @@ Learn how life sciences organizations are driving impact with Claude for Life Sc
 
 Explore more product news and best practices for teams building with Claude.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
 ### Anthropic’s approach to teaching and learning AI
@@ -219,13 +223,9 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-### How monday.com transformed its platform into an agent-first product where humans and agents collaborate
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
-
-### How Anthropic secures its AI-native software development lifecycle
+### How Anthropic's business development team uses Claude to run inbound and outbound at scale
 
 ## Transform how your organization operates with Claude
 

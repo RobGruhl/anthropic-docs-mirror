@@ -102,6 +102,10 @@ Erste Schritte mit Claude Code.
 
 Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Wie Brex mit Claude Code die Codequalität und Produktivität verbessert
@@ -113,10 +117,6 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
 ### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
-### Beobachtbarkeit für Entwickler, die Konnektoren entwickeln
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

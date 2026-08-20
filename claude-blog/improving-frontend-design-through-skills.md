@@ -180,6 +180,10 @@ Häufig gestellte Fragen
 
 Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d223de65e7dcca8267d8_ea364001be6bf6d2e86b58109ead6a779d5771a7-1000x1000.svg)
 
 ### Wie Anthropic-Teams Claude Code verwenden
@@ -191,10 +195,6 @@ Weitere Produktneuheiten und Best Practices für Teams, die mit Claude arbeiten.
 ![](https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg)
 
 ### Welche Vorteile hat der Übergang zu agentischem Coding für die Softwareentwicklung?
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### Wie KI hilft, die Kostenschwelle bei der COBOL-Modernisierung senkt
 
 ## Transformieren Sie mit Claude die Arbeitsweise Ihres Unternehmens
 

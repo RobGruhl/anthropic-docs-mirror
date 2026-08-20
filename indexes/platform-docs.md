@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-20 18:27*
-Total documents: 580
+*Last updated: 2026-08-20 21:23*
+Total documents: 581
 ---
-## Uncategorized (580 documents)
+## Uncategorized (581 documents)
 ### about-claude__additional-resources
 **File:** `/platform-docs/about-claude__additional-resources.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/additional-resources  
@@ -61,7 +61,7 @@ Total documents: 580
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/pricing  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### about-claude__use-case-guides__content-moderation
 **File:** `/platform-docs/about-claude__use-case-guides__content-moderation.md`  
@@ -766,7 +766,7 @@ Total documents: 580
 ### agents-and-tools__agent-skills__overview
 **File:** `/platform-docs/agents-and-tools__agent-skills__overview.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__agent-skills__quickstart
 **File:** `/platform-docs/agents-and-tools__agent-skills__quickstart.md`  
@@ -836,7 +836,12 @@ Total documents: 580
 ### agents-and-tools__tool-use__bash-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__bash-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
+
+### agents-and-tools__tool-use__browser-use-tool
+**File:** `/platform-docs/agents-and-tools__tool-use__browser-use-tool.md`  
+**Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__build-a-tool-using-agent
 **File:** `/platform-docs/agents-and-tools__tool-use__build-a-tool-using-agent.md`  
@@ -851,7 +856,7 @@ Total documents: 580
 ### agents-and-tools__tool-use__computer-use-tool
 **File:** `/platform-docs/agents-and-tools__tool-use__computer-use-tool.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__define-tools
 **File:** `/platform-docs/agents-and-tools__tool-use__define-tools.md`  
@@ -861,17 +866,17 @@ Total documents: 580
 ### agents-and-tools__tool-use__fine-grained-tool-streaming
 **File:** `/platform-docs/agents-and-tools__tool-use__fine-grained-tool-streaming.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__handle-tool-calls
 **File:** `/platform-docs/agents-and-tools__tool-use__handle-tool-calls.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__how-tool-use-works
 **File:** `/platform-docs/agents-and-tools__tool-use__how-tool-use-works.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__manage-tool-context
 **File:** `/platform-docs/agents-and-tools__tool-use__manage-tool-context.md`  
@@ -891,7 +896,7 @@ Total documents: 580
 ### agents-and-tools__tool-use__parallel-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__parallel-tool-use.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__programmatic-tool-calling
 **File:** `/platform-docs/agents-and-tools__tool-use__programmatic-tool-calling.md`  
@@ -916,12 +921,12 @@ Total documents: 580
 ### agents-and-tools__tool-use__tool-combinations
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-combinations.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__tool-reference
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-reference.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__tool-runner
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-runner.md`  
@@ -936,7 +941,7 @@ Total documents: 580
 ### agents-and-tools__tool-use__tool-use-with-prompt-caching
 **File:** `/platform-docs/agents-and-tools__tool-use__tool-use-with-prompt-caching.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### agents-and-tools__tool-use__troubleshooting-tool-use
 **File:** `/platform-docs/agents-and-tools__tool-use__troubleshooting-tool-use.md`  
@@ -1821,7 +1826,7 @@ Total documents: 580
 ### build-with-claude__prompt-engineering__claude-prompting-best-practices
 **File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__prompt-engineering__overview
 **File:** `/platform-docs/build-with-claude__prompt-engineering__overview.md`  
@@ -1836,7 +1841,7 @@ Total documents: 580
 ### build-with-claude__prompt-engineering__prompting-claude-opus-4-8
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8  
-**Updated:** 2026-08-13  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__prompt-engineering__prompting-claude-opus-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-5.md`  
@@ -1846,7 +1851,7 @@ Total documents: 580
 ### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
@@ -1856,7 +1861,7 @@ Total documents: 580
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/search-results  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__skills-guide
 **File:** `/platform-docs/build-with-claude__skills-guide.md`  
@@ -1906,7 +1911,7 @@ Total documents: 580
 ### build-with-claude__vision-coordinates
 **File:** `/platform-docs/build-with-claude__vision-coordinates.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/vision-coordinates  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### build-with-claude__vision
 **File:** `/platform-docs/build-with-claude__vision.md`  
@@ -1916,7 +1921,7 @@ Total documents: 580
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/working-with-messages  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-20  
 
 ### claude-code__routines-fire
 **File:** `/platform-docs/claude-code__routines-fire.md`  
@@ -2441,7 +2446,7 @@ Total documents: 580
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-20  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  

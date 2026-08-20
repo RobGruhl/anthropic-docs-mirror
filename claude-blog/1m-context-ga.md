@@ -114,6 +114,10 @@ Opus의 컨텍스트 창을 200k에서 500k로 늘렸더니 에이전트가 더 
 
 Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례를 살펴보세요.
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d229061abf091318fc81_6905c83d0735e1bc430025fdd1748d1406079036-1000x1000.svg)
+
+### Build production agents with computer use, the Skills API, and the Files API
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f06154e381e9a1203_fb2273e9cacb0299a3ee1bf1d76d0bff95ba4e15-1000x1000.svg)
 
 ### Anthropic의 그로스 마케팅 팀이 Claude Code를 사용해 광고 제작 시간을 30분에서 30초로 단축한 방법
@@ -125,10 +129,6 @@ Claude로 구축하는 팀을 위한 더 많은 제품 뉴스와 모범 사례�
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Brex가 Claude Code로 코드 품질과 생산성을 개선하는 방법
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2319ef2161fcf9ba649_ddad92700787ec1bf1d80359c0c5e6ca305682b0-1000x1000.svg)
-
-### Claude for Excel 및 Claude for PowerPoint 향상
 
 ## Claude와 함께 조직의 운영 방식을 혁신하세요
 

@@ -1,9 +1,9 @@
 # Agents Topic Index
-*Last updated: 2026-08-20 18:27*
+*Last updated: 2026-08-20 21:23*
 
-Documents related to Agents across all sources (160 documents)
+Documents related to Agents across all sources (165 documents)
 ---
-## Platform Documentation (platform.claude.com) (41)
+## Platform Documentation (platform.claude.com) (42)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
 - [agents-and-tools__agent-skills__claude-api-skill](/platform-docs/developer-guide/agents-and-tools__agent-skills__claude-api-skill.md)
 - [agents-and-tools__agent-skills__enterprise](/platform-docs/developer-guide/agents-and-tools__agent-skills__enterprise.md)
@@ -22,6 +22,7 @@ Documents related to Agents across all sources (160 documents)
 - [agents-and-tools__remote-mcp-servers](/platform-docs/developer-guide/agents-and-tools__remote-mcp-servers.md)
 - [agents-and-tools__tool-use__advisor-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__advisor-tool.md)
 - [agents-and-tools__tool-use__bash-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__bash-tool.md)
+- [agents-and-tools__tool-use__browser-use-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__browser-use-tool.md)
 - [agents-and-tools__tool-use__build-a-tool-using-agent](/platform-docs/developer-guide/agents-and-tools__tool-use__build-a-tool-using-agent.md)
 - [agents-and-tools__tool-use__code-execution-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__code-execution-tool.md)
 - [agents-and-tools__tool-use__computer-use-tool](/platform-docs/developer-guide/agents-and-tools__tool-use__computer-use-tool.md)
@@ -65,16 +66,18 @@ Documents related to Agents across all sources (160 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (102)
+## Claude.com Blog Posts (106)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
 - [Agent identity in Claude Tag: a new access model for autonomous, team-wide AI](/claude-blog/agent-identity-access-model.md) - ![](https://cdn
 - [Agent view in Claude Code](/claude-blog/agent-view-in-claude-code.md) - ![](https://cdn
+- [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Best practices for computer and browser use with Claude](/claude-blog/best-practices-for-computer-and-browser-use-with-claude.md) - ![](https://cdn
 - [Best practices for using Claude Opus 4.7 with Claude Code](/claude-blog/best-practices-for-using-claude-opus-4-7-with-claude-code.md) - ![](https://cdn
 - [Bringing Code Review to Claude Code](/claude-blog/code-review.md) - ![](https://cdn
 - [Bringing MCP 2026-07-28 to Claude](/claude-blog/bringing-mcp-2026-07-28-to-claude.md) - ![](https://cdn
+- [Build production agents with computer use, the Skills API, and the Files API](/claude-blog/computer-use-skills-api-files-api.md) - ![](https://cdn
 - [Building AI agents for financial services](/claude-blog/building-ai-agents-in-financial-services.md) - ![](https://cdn
 - [Building AI agents for healthcare and life sciences](/claude-blog/building-ai-agents-in-healthcare-and-life-sciences.md) - ![](https://cdn
 - [Building AI agents for startups](/claude-blog/building-ai-agents-for-startups.md) - ![](https://cdn
@@ -114,6 +117,7 @@ Documents related to Agents across all sources (160 documents)
 - [How Datadog built a “universal machine tool” for Claude Code](/claude-blog/how-datadog-built-a-universal-machine-tool-for-claude-code.md) - ![](https://cdn
 - [How Outtake built a cyber investigator on Claude](/claude-blog/how-outtake-built-a-cyber-investigator-on-claude.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
+- [How monday.com transformed its platform into an agent-first product where humans and agents collaborate](/claude-blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate.md) - ![](https://cdn
 - [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn
 - [How to create Skills: Key steps, limitations, and examples](/claude-blog/how-to-create-skills-key-steps-limitations-and-examples.md) - ![](https://cdn
 - [How to scale agentic coding across your engineering organization](/claude-blog/scaling-agentic-coding.md) - ![](https://cdn
@@ -150,6 +154,7 @@ Documents related to Agents across all sources (160 documents)
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [The Claude Code guide for startups](/claude-blog/claude-code-guide-for-startups.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn
 - [The evolution of agentic surfaces: building with Claude Managed Agents](/claude-blog/building-with-claude-managed-agents.md) - ![](https://cdn
