@@ -167,9 +167,9 @@ Explore more product news and best practices for teams building with Claude.
 
 ### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f7365ae69f4d9f4f96fa2_Object-DoubleHelix.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
 
-### The Claude Science product guide
+### Maximizing the value of your Claude Code sessions
 
 ## Transform how your organization operates with Claude
 

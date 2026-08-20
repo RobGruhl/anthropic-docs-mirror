@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787188500&signature=d9d53c570cde555f6b55eeb0ee702aa1aa011afe05e21adc76ce27128f7bea2d&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLQLRsxNdRzYWrfF7FgQFFmDw8NOj4C5Lg%0AwLadj1xtWwvP4hJtFWo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787199300&signature=2b09720972dd94ab92265872d6d0cd274f661e49310a215889d08946b68ae615&req=diAjFMp7n4FZWfMW1HO4zU6VRfrLQbVqxNdRzYWrfF7rpaTQoQ6g27hP3lHE%0AkvpWG2%2FpXECPrAlaufk%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787188500&signature=3e1b32a8d81697d42dd2624d736f8f4b96da038a26a8caeaf737acfb9d62a99b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UaFgPy8OQfYsvK3yv6u5Vf4fkU4WULp%2BZ%0AAlrz6twwCPeMW21K5c0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787199300&signature=61fba3b28f73213b5208910d2f260c4b66dcec08091de49560434c5066eef6b9&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2UaVkJy8OQfYsvK3xgGGzu0djTW6R6ZmTs%0AvY85DFMa3aQstzDJOHE%3D%0A)
 
  
 
