@@ -15,6 +15,8 @@
 
 - ShareCopy linkhttps://claude.com/blog/claude-model-and-effort-level-in-claude-code
 
+- Author(s)Lydia Hallie
+
 Key takeaways:
 
 - Claude model selection chooses the set of fixed weights, or the overall capability range of the model. While models can be provided context or steered, the model’s overall knowledge base and capabilities are set.
@@ -183,6 +185,8 @@ Another nuance to this: effort shapes token consumption but doesn't limit it. Th
 
 Most of the time, you shouldn't be thinking about either setting. When a result misses the mark, ask, “did Claude not know enough or did it not try hard enough?”  and adjust as needed.
 
+For the full set of techniques to increase efficiency specfically, see[maximizing the value of your Claude Code sessions](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions).
+
 This article was written by Lydia Hallie, member of technical staff on the Claude Code team.
 
 FAQ
@@ -191,21 +195,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
 
-### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22f63175f636cba4641_c0af2a56f56cf298ce5904f2901e9a36facd0dbe-1000x1000.svg)
-
-### Maximizing the value of your Claude Code sessions
+### The Claude Code Guide For Startups
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
 ### Product management on the AI exponential
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22d7d4c10df6024f7bc_ee580919acaba2ddc07425f7a7390c8962cadc94-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-### Using Claude Code: The unreasonable effectiveness of HTML
+### How Anthropic secures its AI-native software development lifecycle
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
+
+### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
 
 ## Transform how your organization operates with Claude
 

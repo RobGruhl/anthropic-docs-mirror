@@ -79,6 +79,8 @@ We also use Claude for event outreach. One of my AEs recently flagged that we ha
 
 Together, these skills, scheduled tasks, and the context we've curated turn Claude into an always-on business development partner.
 
+> The same governed foundations that power BD's reporting are described in how Anthropic enablesself-service data analytics with Claude.
+
 ## Advice for business development teams on getting started with Claude Cowork
 
 Below, are some tips for business development teams on getting started with Claude Cowork:
@@ -115,21 +117,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-### Turning conversation into knowledge: how Slack builds human-agent teams
+### How Anthropic secures its AI-native software development lifecycle
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
 ### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22349f86cd1968deab7_f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg)
 
-### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
+### How Anthropic enables self-service data analytics with Claude
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### How ABC Legal turned every employee into a builder with Claude Managed Agents
+### Zero risk isn't the job: a CISO's guide to agentic AI
 
 ## Transform how your organization operates with Claude
 

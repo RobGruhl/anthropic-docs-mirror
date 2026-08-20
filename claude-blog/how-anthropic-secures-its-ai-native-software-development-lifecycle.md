@@ -17,6 +17,8 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 - ShareCopy linkhttps://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle
 
+- Author(s)Jason Clinton
+
 At Anthropic, the amount of code and velocity of deployment have scaled exponentially. Our software engineers on average ship 8x as much code per quarter as they did from 2021 to 2025.
 
 Our reviews, monitoring, and other security processes needed to scale alongside this increased pace. Otherwise it becomes a formula for bottlenecks ([Amdahl’s Law](https://en.wikipedia.org/wiki/Amdahl%27s_law)).
@@ -127,13 +129,15 @@ This is much more effective than one mega-prompt or super security agent for a f
 
 To be clear, agents aren't merging code to production unchecked. We tier our codebase by risk, and make deliberate decisions on what parts to automate. Entire codebases have strict human approval processes.
 
-Human accountability is still central for code that is reviewed and merged by Claude.  Every approval is logged with the signals and reasoning behind it, and a risk-weighted sample is reviewed by humans. Another round of testing focuses on invariants like “user A can never read user B’s data,” and triggers additional manual reviews.We combine our agentic scans with SAST tools as well, which post directly on PRs.
+Human accountability is still central for code that is reviewed and merged by Claude.  Every approval is logged with the signals and reasoning behind it, and a risk-weighted sample is reviewed by humans. Another round of testing focuses on invariants like “user A can never read user B’s data,” and triggers additional manual reviews. We combine our agentic scans with SAST tools as well, which post directly on PRs.
 
 Most scanning approaches, whether agentic or deterministic, are consumption based. Costs will increase as code throughput increases, and teams will need to decide what level of coverage is appropriate for them.
 
 At Anthropic, we accept costs here will grow as our code velocity increases, but anticipate unit cost will fall. Models today are much better at coding than all models from a few years ago, and we anticipate that this pattern will continue.
 
 Enduring Principle: Automated reviews are a different type of risk that is controlled differently (through multiple gates and agents with separate context windows). Humans stay in the loop, but may be in different places in the lifecycle depending on the nature of the codebase.
+
+> When CI does break, Claude Tag acts as ourfirst responder for CI/CD failures.
 
 ## Deploy (CD)
 
@@ -217,21 +221,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
 
-### Turning conversation into knowledge: how Slack builds human-agent teams
+### How monday.com transformed its platform into an agent-first product where humans and agents collaborate
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d222061abf091318fb82_423062049d4676b41d52b16068cbb5e21603190e-1000x1000.svg)
 
-### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
+### The Claude Code Guide For Startups
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22651dd05046d0fdb0b_39c40393e610cc0a5e65f50ad12ff5ada273f792-1000x1000.svg)
 
-### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
+### Choosing a Claude model and effort level in Claude Code
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2287f90c57df4c9dd97_c1ef4c0b6882dfe985555b52999d370ea88a3c50-1000x1000.svg)
 
-### How ABC Legal turned every employee into a builder with Claude Managed Agents
+### Product management on the AI exponential
 
 ## Transform how your organization operates with Claude
 

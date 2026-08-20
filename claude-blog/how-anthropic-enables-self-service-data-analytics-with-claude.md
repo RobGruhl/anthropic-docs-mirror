@@ -15,7 +15,9 @@
 
 - ShareCopy linkhttps://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
 
-As many data science and data engineering teams can attest, enabling self-service business analytics has traditionally been a slog.
+- Author(s)Josh CherryClement PengJohanne JiaoJustin LederChen Chang
+
+As many data science and data engineering teams can attest, enabling self-service data analytics has traditionally been a slog.
 
 Making the data model more accessible to less technical coworkers via wide and denormalized tables often leads to overlapping views with inconsistent definitions as the business scales (and does little to bridge the gap for employees with little desire to learn SQL). Alternatively, creating more ringfenced environments for users often misses the long tail of business questions and leads to metric and dashboard bloat as teams silo their work.
 
@@ -61,7 +63,7 @@ We’ve identified three attributes of this problem that account for an overwhel
 
 ![](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6889473610b50328dbb70b58_placeholder.svg)
 
-## Our agentic analytics stack
+## Our agentic self-service analytics stack
 
 At Anthropic, the main way we minimize these three errors is via our agentic data stack. Each layer exists primarily to attack one or more of these problems:
 
@@ -74,6 +76,8 @@ At Anthropic, the main way we minimize these three errors is via our agentic dat
 In this section, we’ll discuss how we built each layer.
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a2049920443016925a3ef72_74528df2.png)
+
+> For ad-hoc questions asked directly in Slack, see how our data team deploys adata analytics agent with Claude Tag.
 
 ### Data foundations
 
@@ -208,7 +212,7 @@ The final step is ensuring the actual online system performance is as accurate a
 
 The failure mode none of this fully catches is thesilentone. The answer is wrong, but looks plausible and is used without objection. Our mitigations are the provenance footer, explicit human sign-off on anything leadership-bound, and a standing eval for each domain's top KPIs that sanity-checks against the blessed dashboard daily, though we don’t have a robust solution yet.
 
-## Getting started
+## Getting started with self-service analytics
 
 If you're starting from zero, a handful of canonical datasets, a few dozen offline evals, and a thin knowledge skill will capture most of the upside; everything else in this post is what we added once those were built.
 
@@ -383,21 +387,21 @@ FAQ
 
 Explore more product news and best practices for teams building with Claude.
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22b1ef956a6d81cfd9c_653e7474811cf768b6b0f628e253f98c60e2747e-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22824d4124c2e33ba8e_b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg)
 
-### Turning conversation into knowledge: how Slack builds human-agent teams
+### How Anthropic secures its AI-native software development lifecycle
 
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22a7bb714a55b503cd7_cad034e66b44f7f017c0cb931c403a97d1763758-1000x1000.svg)
 
 ### Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225588ad176f7c4aafd_abc884c723daea810d2e986455358281a2f94102-1000x1000.svg)
 
-### Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5
+### How Anthropic's business development team uses Claude to run inbound and outbound at scale
 
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22949f86cd1968deb9f_33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
 
-### How ABC Legal turned every employee into a builder with Claude Managed Agents
+### Zero risk isn't the job: a CISO's guide to agentic AI
 
 ## Transform how your organization operates with Claude
 
