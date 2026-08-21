@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -139,14 +139,10 @@ Cowork has three modes that control when Claude asks your permission before taki
 |  | **Connector tool permission: "Always allow"** | **Connector tool permission: "Needs approval"** | **Connector tool permission: "Blocked"** |
 | --- | --- | --- | --- |
 | **"Manual" mode** | Approved | Asks for permission | Denied |
-| **"Auto" mode*** | Read-only tools are approved  For write/delete tools, Claude decides | Claude decides | Denied |
+| **"Auto" mode** | Read-only tools are approved  For write/delete tools, Claude decides | Claude decides | Denied |
 | **"Skip" mode** | Approved | Approved | Denied |
 
-**Currently available for Pro and Max plans only.*
-
- 
-
-As a reminder, you control which connectors Claude can use via the + menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
+As a reminder, you control which connectors Claude can use via the "+" menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
 
 **Manually approve (Manual)**, formerly "Ask before acting." Claude pauses and asks for approval for actions. You review each request and choose Allow or Deny.
 
@@ -186,7 +182,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787262300&signature=762115ba6f97fe9be65ba7b09d2cbc90d3898c288876393e2f9afc14268d33a2&req=diUlE8B8m4lYXfMW1HO4zcDl6t%2FuMFOz8iWjaktE941l7izYV%2FzLW6ox3uM5%0AHetvcWvYxf2667hjzJs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787378400&signature=1f23915e9782c371111ad74e940c112b9d65fa60bfdba49e6b4ab5030643482e&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD27XbY1WMqW%2FkK1ejkPq%2F%2FgmD4VVDpr87%0APryXtSd63sDxuIdFr2LO7%2BIc2i4%3D%0A)
 
  
 

@@ -1,12 +1,10 @@
 # Use skills in Claude
 
-*Updated this week*
+*Updated today*
 
 ---
 
-Skills extend Claude's capabilities by giving it access to specialized knowledge and workflows. This guide shows you how to enable, discover, and use skills in Claude. 
-
- 
+Skills extend Claude's capabilities by giving it access to specialized knowledge and workflows. This guide shows you how to enable, discover, and use skills in Claude.
 
 ## Prerequisites
 
@@ -222,6 +220,17 @@ Ensure code execution is enabled in **[Settings > Capabilities](https://claude.a
 - Check that the skill's description field clearly explains when it should be used.
 - Ensure the skill's instructions are clear and well-structured.
 - Try being more explicit in your request (e.g., "Use my brand guidelines skill to create a presentation").
+-  
+
+### Can't create or upload a skill
+
+On Team and Enterprise plans, an organization owner can turn off skill creation for users. If the option to create or upload a skill is missing, your organization may have **User-created skills** turned off, or—on Enterprise plans with custom roles—your role may not include the **Create skills** capability. You can still enable and use skills your owner has provisioned. Contact your organization owner if you need to create your own.
+
+ 
+
+### Skills greyed out
+
+If skills appear greyed out, code execution may be disabled at the organization level (for Team and Enterprise plans) or individually. Check with your organization's Owner (Team, Enterprise) or make sure to enable code execution in **[Settings > Capabilities](https://claude.ai/settings/capabilities)** (Free, Pro, Max).
 
  
 
@@ -233,12 +242,6 @@ Common reasons for upload failures:
 - Skill folder name doesn't match the skill name
 - Missing required skill.md file
 - Invalid characters in skill name or description
-
- 
-
-### Skills greyed out
-
-If skills appear greyed out, code execution may be disabled at the organization level (for Team and Enterprise plans) or individually. Check with your organization's Owner (Team, Enterprise) or make sure to enable code execution in **[Settings > Capabilities](https://claude.ai/settings/capabilities)** (Free, Pro, Max).
 
  
 

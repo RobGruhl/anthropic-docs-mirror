@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787262300&signature=e170ec6b36848072ae1a521da56417cc07353131f1d6a243bbb514758a34953d&req=diAjFMp7n4FZWfMW1HO4zU6VRfrITr5qxNdRzYWrfF5D8WgZY%2FnUdO73mAFr%0A6ZQISUD1fXaixt5gBSI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787274900&signature=0add88f44d7b2b84ce2c5c00be0ea47c3e7d910b92d242ef18030094563bc6df&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIT7hgxNdRzYWrfF74fScD7smMrodgxwkH%0ASOkBtS0Fw6B0LJEjlYI%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787262300&signature=1654f953d776b443e1e0b928cfe581b22500d6855fc9894dcc06c3f1ebf0746f&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XZlIJy8OQfYsvK3zfSQCD8QG5ZBGFsVix%0AmvWJZpcu3Fwjvagn9zA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787274900&signature=f8dcc4c46b8facc7b91d355273cb2268aa42627a1341e8999d95f8764277e8e8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XZ1QDy8OQfYsvK3yYW68qZs9BTEh4%2BKLL%0AzlMQj6CmFh7x8S8Ze3w%3D%0A)
 
  
 
