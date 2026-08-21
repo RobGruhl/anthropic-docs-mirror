@@ -1,6 +1,6 @@
 # Manage members on Team and Enterprise plans
 
-*Updated over 2 weeks ago*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -114,7 +114,7 @@ Admins can enable or disable member-to-member invites from the admin settings. W
 
 ## Remove members
 
-You can remove a member by navigating to **[Organization settings > Members](https://claude.ai/admin-settings/members)**, clicking the menu button to the right of the member, then selecting "Remove from team."
+You can remove a member by navigating to **[Organization settings > Members](https://claude.ai/admin-settings/members)**, clicking the menu button to the right of the member, then selecting "Remove from team." However, if you are an Owner or Primary Owner, you can't remove yourself from your organization. Another Primary Owner or Owner must remove you from the team.
 
  
 

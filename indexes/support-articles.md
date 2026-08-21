@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-21 18:29*
+*Last updated: 2026-08-21 21:19*
 Total documents: 242
 ---
 ## Uncategorized (242 documents)
@@ -126,7 +126,7 @@ Total documents: 242
 ### Cancel your organization's Team plan subscription
 **File:** `/docs-support/how-do-i-cancel-my-organization-s-team-plan-subscription.md`  
 **Source:** https://support.claude.com/en/articles/9267323-how-do-i-cancel-my-organization-s-team-plan-subscription  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-21  
 
 ### Change the model, effort, and thinking settings
 **File:** `/docs-support/how-can-i-change-the-model-version-that-i-m-chatting-with.md`  
