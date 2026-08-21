@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787274900&signature=0add88f44d7b2b84ce2c5c00be0ea47c3e7d910b92d242ef18030094563bc6df&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIT7hgxNdRzYWrfF74fScD7smMrodgxwkH%0ASOkBtS0Fw6B0LJEjlYI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787285700&signature=b11d58407c6c702f83a460ba534e2767824008e7a3a658a0754dcf53a054cc8c&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIQLluxNdRzYWrfF76vf8V55%2FwbcFzXEMz%0AtZchBi1JzudgmkWipw8%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787274900&signature=f8dcc4c46b8facc7b91d355273cb2268aa42627a1341e8999d95f8764277e8e8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XZ1QDy8OQfYsvK3yYW68qZs9BTEh4%2BKLL%0AzlMQj6CmFh7x8S8Ze3w%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787285700&signature=7abb8ec0c802ab2177b0d2fa540491e2a3e2e17d526f8e25b5e8f52eb5361cfe&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XaFUNy8OQfYsvK3wJMw%2FiRYr%2BAJSvzviu%0AJIjbdLGIeKslmsmS2CM%3D%0A)
 
  
 
