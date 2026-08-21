@@ -8,7 +8,7 @@ Skills extend Claude's capabilities by giving it access to specialized knowledge
 
 ## Prerequisites
 
-**For Enterprise plans:** Owners must first enable both **Code execution and file creation** and **Skills **in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)**. Owners can also upload skills to provision them organization-wide—these skills automatically appear for all users. Once skills are enabled at the organization level, individual members can toggle on example skills, access provisioned skills, and upload their own personal skills in **[Customize > Skills](https://claude.ai/customize/skills)**.
+**For Enterprise plans:** Owners must check that both **Code execution and file creation** and **Skills** are enabled in **[Organization settings > Skills](https://claude.ai/admin-settings/skills)**. Owners can also upload skills to provision them organization-wide—these skills automatically appear for all users. Once skills are enabled at the organization level, individual members can toggle on example skills, access provisioned skills, and upload their own personal skills in **[Customize > Skills](https://claude.ai/customize/skills)**.
 
  
 
@@ -253,7 +253,7 @@ The group needs the **Share resources with this group** visibility setting turne
 
 ### Share button not visible
 
-Skill sharing for Team and Enterprise plans is off by default. An organization owner must enable peer-to-peer, peer-to-org, or group sharing before you can share skills. If your organization uses custom roles, make sure your role also has this capability enabled. Contact your organization owner if you'd like sharing enabled.
+The **Skill sharing** toggle is on by default for Team plans and for Enterprise plans that haven't set a skills preference. For organizations with HIPAA readiness or other regulated configurations, skills and skill sharing are off by default and an admin can enable them. The **Share with organization** and **Share with groups** toggles are also off by default. An owner must navigate to **[Organization settings > Skills](https://claude.ai/admin-settings/skills)** and enable at least one of the toggles before the "Share" button appears. If your organization uses custom roles, your role must also have the **Share skills with groups** capability enabled. If you don't see the option to share, check with your organization owner.
 
  
 

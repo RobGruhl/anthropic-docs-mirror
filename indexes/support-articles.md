@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-08-21 15:27*
+*Last updated: 2026-08-21 18:29*
 Total documents: 242
 ---
 ## Uncategorized (242 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -76,7 +76,7 @@ Total documents: 242
 ### Anthropic's AI for Science Program
 **File:** `/docs-support/anthropic-s-ai-for-science-program.md`  
 **Source:** https://support.claude.com/en/articles/11199177-anthropic-s-ai-for-science-program  
-**Updated:** 2026-07-26  
+**Updated:** 2026-08-21  
 
 ### Automated Security Reviews in Claude Code
 **File:** `/docs-support/automated-security-reviews-in-claude-code.md`  
@@ -206,7 +206,7 @@ Total documents: 242
 ### Claude is providing incorrect or misleading responses. What’s going on?
 **File:** `/docs-support/claude-is-providing-incorrect-or-misleading-responses-what-s-going-on.md`  
 **Source:** https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Claude’s response to my prompt is too brief.
 **File:** `/docs-support/claude-s-response-to-my-prompt-is-too-brief.md`  
@@ -616,7 +616,7 @@ Total documents: 242
 ### Introduction to prompt design
 **File:** `/docs-support/introduction-to-prompt-design.md`  
 **Source:** https://support.claude.com/en/articles/7996853-introduction-to-prompt-design  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Inviting members to the Claude Console
 **File:** `/docs-support/inviting-members-to-the-claude-console.md`  
@@ -701,7 +701,7 @@ Total documents: 242
 ### Managing your active sessions
 **File:** `/docs-support/managing-your-active-sessions.md`  
 **Source:** https://support.claude.com/en/articles/13124001-managing-your-active-sessions  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Microsoft 365 connector security guide
 **File:** `/docs-support/microsoft-365-connector-security-guide.md`  
@@ -816,7 +816,7 @@ Total documents: 242
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
 **Source:** https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
@@ -901,7 +901,7 @@ Total documents: 242
 ### Upload files to Claude
 **File:** `/docs-support/uploading-files-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8241126-uploading-files-to-claude  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Usage limit best practices
 **File:** `/docs-support/usage-limit-best-practices.md`  
@@ -1011,7 +1011,7 @@ Total documents: 242
 ### Use research on Claude
 **File:** `/docs-support/using-research-on-claude.md`  
 **Source:** https://support.claude.com/en/articles/11088861-using-research-on-claude  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-21  
 
 ### Use skills in Claude
 **File:** `/docs-support/using-skills-in-claude.md`  
@@ -1041,7 +1041,7 @@ Total documents: 242
 ### Using Agents According to Our Usage Policy
 **File:** `/docs-support/using-agents-according-to-our-usage-policy.md`  
 **Source:** https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-21  
 
 ### Verify your phone number
 **File:** `/docs-support/verifying-your-phone-number.md`  
