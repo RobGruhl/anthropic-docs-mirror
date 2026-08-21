@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-21 09:29*
+*Last updated: 2026-08-21 12:30*
 Total documents: 242
 ---
 ## Uncategorized (242 documents)
@@ -416,7 +416,7 @@ Total documents: 242
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
 **Source:** https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-21  
 
 ### How can I delete my Claude Console account?
 **File:** `/docs-support/how-can-i-delete-my-claude-console-account.md`  
@@ -836,7 +836,7 @@ Total documents: 242
 ### Set up JIT or SCIM provisioning
 **File:** `/docs-support/set-up-jit-or-scim-provisioning.md`  
 **Source:** https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-21  
 
 ### Set up single sign-on (SSO)
 **File:** `/docs-support/set-up-single-sign-on-sso.md`  
