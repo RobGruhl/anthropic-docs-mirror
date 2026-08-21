@@ -1,5 +1,5 @@
 # Claude Code Documentation Index
-*Last updated: 2026-08-21 03:45*
+*Last updated: 2026-08-21 06:33*
 Total documents: 186
 ---
 ## Amazon Bedrock (2 documents)

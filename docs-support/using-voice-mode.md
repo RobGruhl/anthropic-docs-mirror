@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787285700&signature=b11d58407c6c702f83a460ba534e2767824008e7a3a658a0754dcf53a054cc8c&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIQLluxNdRzYWrfF76vf8V55%2FwbcFzXEMz%0AtZchBi1JzudgmkWipw8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787295600&signature=000b556f59ada7565e03e6723c0d8b8d78894488b3569b7819738f04fdf67e72&req=diAjFMp7n4FZWfMW1HO4zU6VRfrIQblvxNdRzYWrfF7toRAl8dAXB%2F40XHmu%0AVKGdohTX3LOAkkTeHas%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787285700&signature=7abb8ec0c802ab2177b0d2fa540491e2a3e2e17d526f8e25b5e8f52eb5361cfe&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XaFUNy8OQfYsvK3wJMw%2FiRYr%2BAJSvzviu%0AJIjbdLGIeKslmsmS2CM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787295600&signature=0bf288f5d7511a37547b66c7bcb8fac73fd098413f1eee0b87dd8a7b83b52ae4&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2XaVUMy8OQfYsvK3xcKlfNJXMBkaraW5dG%0Ax2lZonjbIQyMSGvx9GQ%3D%0A)
 
  
 
