@@ -196,7 +196,7 @@ Permission requirements vary by feature:
 
 For features requiring permissions (like location or calendar access), Claude will request permission contextually with clear explanations of why the access is needed. You’ll be prompted to approve the action with three options: Allow once, Always allow, or Don't allow.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1787361300&signature=c2709761a981bc3d7e76c690e2f0c4adda511f1a27dcd1ccb439b1965c68882c&req=dScnEcp7nIdeXfMW1HO4zQe5GliM3ST3S5x65TIld%2FCQeh%2FQR0Fo22GNDPwS%0AY9Ut3gRgi7D1ybv7RkQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1707351614/ccb910e4b87b1e96ad9a11bbd835/b57b2130-d8d6-4499-89f6-6c12de236fd4?expires=1787371200&signature=660827214c2cf9686a67d678d0644323470f30a65b54f0f2c88967e093f73cb2&req=dScnEcp7nIdeXfMW1HO4zQe5GliM3CT2S5x65TIld%2FAgTwCzJWg8QVxfLcmz%0ASHd%2FBn%2BC1GqsO%2BPApNE%3D%0A)
 
  
 

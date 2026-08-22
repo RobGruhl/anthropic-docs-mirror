@@ -34,7 +34,7 @@ This article provides information on how to enable the Claude LTI integration in
 4. Input the Client ID generated for your developer key (from Step 6 under Creating Claude LTI Developer Key in Canvas).
 5. Click "Install" and refresh the course page.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1787361300&signature=5e021811b56044a090b3cc90582092b4af42b773bf369b5b3c78bd7937c299fa&req=dSYmF818n4VcWfMW1HO4zTEDauwdnfKCEv2ojHLMyla8GSkITb244wMHcsO%2B%0Ah3o7QEATM0897%2B9GX2Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1787371200&signature=c05c8a300b1706bed323930bf74d08d07576adbb3aff8abaf3afd29d3d1bc980&req=dSYmF818n4VcWfMW1HO4zTEDauwdnPKDEv2ojHLMylaeOJmMsH7cN5FGr%2B8C%0A93utL3WYdXVuGwH0MbM%3D%0A)
 
  
 
