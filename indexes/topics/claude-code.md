@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-21 21:19*
+*Last updated: 2026-08-22 00:43*
 
-Documents related to Claude Code across all sources (320 documents)
+Documents related to Claude Code across all sources (323 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -9,7 +9,7 @@ Documents related to Claude Code across all sources (320 documents)
 - [claude-code__routines-fire](/platform-docs/api-reference/claude-code__routines-fire.md)
 - [manage-claude__claude-code-analytics-api](/platform-docs/developer-guide/manage-claude__claude-code-analytics-api.md)
 
-## Claude Code Documentation (186)
+## Claude Code Documentation (189)
 - [2026 W13](/code-claude-docs/whats-new__2026-w13.md)
 - [2026 W14](/code-claude-docs/whats-new__2026-w14.md)
 - [2026 W15](/code-claude-docs/whats-new__2026-w15.md)
@@ -116,6 +116,7 @@ Documents related to Claude Code across all sources (320 documents)
 - [Llm Gateway Protocol](/code-claude-docs/llm-gateway-protocol.md)
 - [Llm Gateway Rollout](/code-claude-docs/llm-gateway-rollout.md)
 - [Managed Mcp](/code-claude-docs/managed-mcp.md)
+- [Managed Settings](/code-claude-docs/managed-settings.md)
 - [Mcp](/code-claude-docs/agent-sdk__mcp.md)
 - [Mcp](/code-claude-docs/mcp.md)
 - [Mcp Quickstart](/code-claude-docs/mcp-quickstart.md)
@@ -167,6 +168,8 @@ Documents related to Claude Code across all sources (320 documents)
 - [Sessions](/code-claude-docs/agent-sdk__sessions.md)
 - [Sessions](/code-claude-docs/sessions.md)
 - [Settings](/code-claude-docs/settings.md)
+- [Settings Example](/code-claude-docs/settings-example.md)
+- [Settings Reference](/code-claude-docs/settings-reference.md)
 - [Setup](/code-claude-docs/setup.md)
 - [Skills](/code-claude-docs/agent-sdk__skills.md)
 - [Skills](/code-claude-docs/skills.md)

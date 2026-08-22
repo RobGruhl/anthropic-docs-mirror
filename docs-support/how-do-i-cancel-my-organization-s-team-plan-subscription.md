@@ -1,6 +1,6 @@
 # Cancel your organization's Team plan subscription
 
-*Updated in the last 15 minutes*
+*Updated today*
 
 ---
 
@@ -16,7 +16,7 @@ After you cancel, the option to remove members from **[Organization settings > M
 ## Related Articles
 
 - [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
-- [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [Use Claude Code with your Team or Enterprise plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan)
 - [Purchase and manage seats on Team plans](https://support.claude.com/en/articles/12004354-purchase-and-manage-seats-on-team-plans)
+- [Team plan billing FAQs](https://support.claude.com/en/articles/12997503-team-plan-billing-faqs)
 - [Purchase and manage seats on Enterprise plans](https://support.claude.com/en/articles/13393991-purchase-and-manage-seats-on-enterprise-plans)

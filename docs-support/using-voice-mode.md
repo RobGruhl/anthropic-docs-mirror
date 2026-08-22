@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787348700&signature=398772617ff22b457361f086bfecbf37b9b1bb560509097db76a398416485120&req=diAjFMp7n4FZWfMW1HO4zU6VRfrJTLRuxNdRzYWrfF56j3ejy8LWSv90Pf0f%0AoSsf1d%2FRx%2FmbJ00qKgU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787361300&signature=b06a8795a0f14eca0794465278f04ac82caac3364933c5e69f7fd5dc6283f0fb&req=diAjFMp7n4FZWfMW1HO4zU6VRfrJTr1qxNdRzYWrfF6zeTRhwsv5ZQTj%2Btk6%0AMluBmzzrlfTsO9N9Gwc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787348700&signature=47bad9cdc8deb653ade1a0865d41c3cfb5956e5f0fdc7ab44dc4b22d34ca9ad8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2WZFgNy8OQfYsvK3yTqw9YtTbvo139A%2FYY%0A%2Fi1u6KzZ%2Foy7J%2BnIMBw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787361300&signature=ec8d8e470e57f952bb216a2c8decf26e30c087946c6c818ec7531b6e3455a545&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2WZlEJy8OQfYsvK3wvDUr2E%2F0MxWPmzbQ6%0A%2Bud24tMoTlnXIax0qUo%3D%0A)
 
  
 

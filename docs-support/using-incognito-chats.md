@@ -31,7 +31,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1787348700&signature=31cd645f140a83add2a3e3dc249f599adcb6981706afecff35c27bd76061147a&req=dScmH854lYZbXfMW1HO4zeUcuwW%2Bau2MDCAt3Cx%2FSO14DIObHOy6knAJH%2FHl%0ARM7JTmBEHhvsH52e7kY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1787361300&signature=420240e705df6cb4e4f5a47505724c2299e72b925daaa5003cb9014eeef8e466&req=dScmH854lYZbXfMW1HO4zeUcuwW%2BaOSIDCAt3Cx%2FSO3zi56V8qwzTgVxHr5A%0A1%2Bhgp1JSHm8IrZcmwjs%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 2. The interface will indicate you're in an incognito chat with a black border and “Incognito chat” label in the upper left corner.
@@ -88,5 +88,5 @@ Once closed, incognito chats cannot be reopened. Make sure to save any important
 - [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
 - [Release notes](https://support.claude.com/en/articles/12138966-release-notes)
-- [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)
 - [See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)

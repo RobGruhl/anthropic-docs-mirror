@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -24,7 +24,6 @@ Both paths move the same content for each person.
 - Artifacts within chats
 - Projects, project instructions, and files, including projects created through or used with Cowork
 - Uploaded files and attachments
-- Tasks
 - Project sync configurations (which Drive folders and repositories a project syncs)
 - Claude's memory from chats and projects, unless your organization has memory turned off
 - Claude Code memory and personal settings such as tool settings, notification preferences, and consents, unless your organization account already has its own values set
@@ -39,8 +38,8 @@ Both paths move the same content for each person.
 - Published artifacts. Publishing isn't available on Team and Enterprise plans.
 - Public share links to chats. These stop working permanently.
 - Pending share invites
-- Cowork tasks and session history
-- Anything Cowork stored on your computer. Local session data and the folders you've connected stay on your machine. Copy anything you want to keep after you migrate.
+- Cowork sessions in the desktop app. Desktop sessions and the folders you've connected are stored locally, not in the cloud, so they stay on your computer. Copy anything you want to keep after you migrate.
+- Cowork cloud sessions (web and mobile). Download any files or outputs you want to keep before you migrate.
 - Claude Code cloud sessions (web, scheduled tasks, and mobile)
 - Claude Design systems and projects migrated before 14 August 2026
 -  
@@ -132,7 +131,7 @@ You may have both a personal account and an organization account tied to the sam
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1787348700&signature=6b7720fd515672734a68b051f932738b4a713efba08fa5d37c3b02284b11afe9&req=diMmFMh3noJbXvMW1HO4zXhPndc1zBdmufhmlOXMdYbW9oU6W%2B7lAUXtIY3t%0AyCCkjuACr%2BHYM1CDHjY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1787508000&signature=8cd6b18123872d2cbd5da398c7b1f3d1caa3636f106ba98217c3a447f4e50d7b&req=diMmFMh3noJbXvMW3nq%2BgXydQ01U60IOC%2Bxl6PawEbnoSP2qUUrumH1HMbsz%0AJ7yMJroNygBczvDiuNt3dVdmPjE%3D%0A)
 
  
 
