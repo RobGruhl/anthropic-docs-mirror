@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787371200&signature=62afc7786e1bd5a1a1cced09516ab0e0d47b29f610dd80379654879353a6fd83&req=diAjFMp7n4FZWfMW1HO4zU6VRfrJT71rxNdRzYWrfF49yS7jvXElloH0lP3s%0AYhivBAPW0QeZg6iH%2F5U%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787382000&signature=8d86e544f6318910eb215f7768e96ca2d90a6f3db3d7613e7ae1c2d88d0d74e2&req=diAjFMp7n4FZWfMW1HO4zU6VRfrJQL5pxNdRzYWrfF5YK7YHmCmFNygv2QHQ%0AltrfNCuMfv4iQfOmdtI%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787371200&signature=583e874a0441863b63a39e4679e143b74d0ce8ef6d8abfcf9f44edcc23957452&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2WZ1EIy8OQfYsvK3xxOZ%2Bl6yJLOwccMyp6%0AcF8Znf41pybOyS4OfNQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787382000&signature=b78e1e3044b3ae5846e18aef0917afeecf49de0d69e14ac09d1081fffa341064&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2WaFIKy8OQfYsvK3yuiZJAnA1cocLahRHf%0Adc0PCDlAITFMmMN5IZo%3D%0A)
 
  
 
