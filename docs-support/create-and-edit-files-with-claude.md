@@ -62,7 +62,7 @@ To give Claude access to external data sources, toggle **Allow network egress** 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1787413500&signature=4f2acaace4b92999d950271596783065c9e0fcf0001558dd8c01a72ca923dc9c&req=diAiEs55mYFfXPMW1HO4zYFJywpBDZrLPQVowIiib2muzUwkFfAY3sPEPbD8%0AjvD7%2Bc50Ls3V2aCBIAk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1787424300&signature=b23601170d0faa11a594d72ecb7939ce28217c758460f0131e0d6874aec3b235&req=diAiEs55mYFfXPMW1HO4zYFJywpBDp3NPQVowIiib2kgoiV2Y20HqCFZjFqT%0AsBI9NRpTAAVCodHSyFw%3D%0A)
 
  
 
@@ -86,7 +86,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1787413500&signature=84eb3b1346291da87278bb425441a99dee5ccae51dd7b6878fcdf74afe083fa0&req=dScvH8B6mIJZW%2FMW1HO4zXJcBmpHlCpOpMW6Iph6YZdcpX50imhz%2FZuzGvgy%0Az4pfm0QPriywOBh3tj0%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1787424300&signature=7284fbf2d52d60ea3f6981afdd36b1b71fa5aab8a63c665eb844591a952a0bd8&req=dScvH8B6mIJZW%2FMW1HO4zXJcBmpHly1IpMW6Iph6YZdzSuoYbmcRXLiahgXL%0AGSwObboecnY8c2xIDWA%3D%0A)
 
  
 
@@ -94,7 +94,7 @@ Team and Enterprise organization owners can control network access settings in *
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1787413500&signature=940b47f5402a4b1be751b7ccd66a82241a49524c23f00011026b08eee6c4545b&req=dScvH8B6mIJZWPMW1HO4zdnseBOW7zynqgKIA6CM1toz3zRxdAW95dTfylQP%0AF7NpPgb3KT%2BxLiq%2FHNs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1787424300&signature=299b2d4e037966c23ea2257fed15efb4ed13cf168ffe44d0369b7fa425075f48&req=dScvH8B6mIJZWPMW1HO4zdnseBOW7DuhqgKIA6CM1tpsdhP4NCrQPOqD5yuu%0AEorl18nJ5syfY0X0mZQ%3D%0A)
 
  
 
