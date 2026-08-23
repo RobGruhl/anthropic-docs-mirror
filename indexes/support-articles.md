@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-23 15:16*
+*Last updated: 2026-08-23 18:18*
 Total documents: 242
 ---
 ## Uncategorized (242 documents)
@@ -726,7 +726,7 @@ Total documents: 242
 ### Move your personal Claude account to a Team or Enterprise organization
 **File:** `/docs-support/can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations.md`  
 **Source:** https://support.claude.com/en/articles/9267400-can-individuals-with-pro-or-max-plan-accounts-migrate-them-to-team-or-enterprise-plan-organizations  
-**Updated:** 2026-08-22  
+**Updated:** 2026-08-23  
 
 ### My prompt isn’t giving me a helpful answer.
 **File:** `/docs-support/my-prompt-isn-t-giving-me-a-helpful-answer.md`  
