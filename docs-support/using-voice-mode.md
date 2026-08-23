@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787489100&signature=6669c255e76e786c65a1527a8e02b08e3658d3068a8ebad9e94c4ad79b9cab5a&req=diAjFMp7n4FZWfMW1HO4zU6VRfrOQLVoxNdRzYWrfF5DnB92as2GK5rmj0G%2B%0Aq2ExWoNkvowpv4BJsxs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787499900&signature=92c9a4f51763a78000d2d492e725b126db3c428662d8e4594ca87cc0befd76d5&req=diAjFMp7n4FZWfMW1HO4zU6VRfrOQbVgxNdRzYWrfF5%2BXRf%2B1%2BG1D86l3tu7%0AxDTFtq2JIgm%2F0MY8kjE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787489100&signature=174f3a6df4a22d66c93d9c707c41a31e4c83bef73f89d6fea84f0ed0ce0ce4ea&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2RaFkLy8OQfYsvK3ysJN2Cv9s5iGue6V8z%0AWXWUUYSwzCCoGKgGIvU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787499900&signature=40ce667e140ea0cbdd6911b195902078b6428f54a4ac1798e13e105ebb2b098a&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2RaVkDy8OQfYsvK3xfgl5ECdbrYjKf%2BDdp%0A9zHnc78VVKERX6s9iAI%3D%0A)
 
  
 
