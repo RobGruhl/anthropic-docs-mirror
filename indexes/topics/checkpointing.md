@@ -1,5 +1,5 @@
 # Checkpointing Topic Index
-*Last updated: 2026-08-22 21:14*
+*Last updated: 2026-08-23 00:47*
 
 Documents related to Checkpointing across all sources (2 documents)
 ---

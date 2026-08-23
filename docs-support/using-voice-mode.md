@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787435100&signature=507c8b1760d12c9fc206638420bd5b4567612f9e019e68a0546a659f1f310862&req=diAjFMp7n4FZWfMW1HO4zU6VRfrOS7loxNdRzYWrfF60vOHX%2FDvjPeqq%2FtYT%0A6xb7z20JptuQ9W6Natg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787447700&signature=309a0ab2a08c1417709f08e4f84cf0466d8e1285b7811978b8d06b0bd569b5b9&req=diAjFMp7n4FZWfMW1HO4zU6VRfrOTLtuxNdRzYWrfF7pQD9nPjeH64%2FLkPfG%0ApMhFbRLJ6McmyYXFKzw%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787435100&signature=8976236f6885728cc5afae115f7680c90364f05698939401f4a931b66a11f8af&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2RY1ULy8OQfYsvK3zWvYtWdNsUX9ApE4oI%0AZ68ZFn5VvGUm780UQMc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787447700&signature=9fdf7d81c5beda64eb20e5d8c5336d845558cb0f64f339d2dd952a43d72cf1ff&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2RZFcNy8OQfYsvK3yWyoT3%2FCmwneJ443QF%0Al5ytD7zbkjdhjQqfAKc%3D%0A)
 
  
 

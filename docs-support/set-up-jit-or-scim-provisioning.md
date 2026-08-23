@@ -48,7 +48,7 @@ Use this table to help decide which provisioning mode is right for your organiza
 
 Both JIT and SCIM can be combined with **Enable group mappings** to control role or seat tier assignment based on IdP group membership. If you select either of these options for your provisioning mode, **Enable group mappings** will appear within the **User provisioning** section:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1787435100&signature=4a92b60739645ee1feea72c59cc10b82ecfbd73aff571ff6371b420bbd9c24ae&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6xQDl93xFMG%2BIEvQSdbdCEtZx9ZOnRZs0wD%0AWIZcLbdqEaSS7mXxWIo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312706099/35d5d3ec149880a96bb7acec59f6/a4cfce55-86bf-40b0-b455-c8f412d48e9e?expires=1787447700&signature=fcfc8f1ba687da34e9ecd62b469a8bdfdc69b981f2599399ad43fbd8cd82aa8b&req=diMmFM5%2Bm4FWUPMW1HO4zXBDQ6xQCV1xxFMG%2BIEvQScTkwvgmIJf9iugbxbn%0AcACnVHRuuCQ10%2FixVzU%3D%0A)
 
  
 
