@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787544900&signature=d447fd485a4c026960df14a492f5ee1d45f686b30918bea3567653df27b9489b&req=diAjFMp7n4FZWfMW1HO4zU6VRfrPTLhgxNdRzYWrfF6i8aBS8Uy0gmpxDMON%0AhoYTG%2BEZQqnS0%2Fl90ps%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787555700&signature=05ce58edf2f5a150aae08a0ca1f2113bfe3ee9b044e662fdf18173073031de63&req=diAjFMp7n4FZWfMW1HO4zU6VRfrPTbluxNdRzYWrfF52ky8GlEJiz7cG4geo%0ATu8q6tjnclZeNnchvyE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787544900&signature=ebbbc34b7ec2c3c48acee60ff04ae2706e06756fb3e29e7c15bac4bad310aae7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2QZFQDy8OQfYsvK3yR6c1ZANBn31aVBWIh%0ANHcbTholTv4pfs3Cr40%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787555700&signature=58e6bc882421bc09533729f7f18052a4e24a46365cbe5a9c56dedb7c218697b4&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2QZVUNy8OQfYsvK3z1%2BTxwkRK%2B7jWJXhhm%0A%2F8nQakiuM3YCMRB%2Bm6E%3D%0A)
 
  
 
