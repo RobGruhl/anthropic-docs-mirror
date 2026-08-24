@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787576400&signature=ecd0bd1f8b7e4be969924b539516081eed6dd1448093eee521515ca8c98e0380&req=diAjFMp7n4FZWfMW1HO4zU6VRfrPT7ptxNdRzYWrfF6R%2B7PyD8gpU9NeCay6%0AbNgnFbQ7xtDYGyHcgX4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787587200&signature=37c8cb8810e3b38dad81d94b66d5bc66967656fe1659fb97439e21394b1b5d17&req=diAjFMp7n4FZWfMW1HO4zU6VRfrPQLtrxNdRzYWrfF5H8IV281hh6cV7o9X0%0Am2tT7%2FekvKTQtqayf4E%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787576400&signature=043088f862bb14465a37e5fc2f1afc14479dbd387a71b30baafba09a67ecef53&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2QZ1YOy8OQfYsvK3wDVSn0zi9vZkgI9k8w%0APa2jpmBc%2B9ye7w1N2ZA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787587200&signature=bf6cf41e796871471aebf6657ec8946d4d0eeeaeaa1ceccdd45758ddd227ffb6&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2QaFcIy8OQfYsvK3xXUGBUYWk8va%2BjeF6N%0AxBHOU1Zxn%2FI3%2Fmkr4g0%3D%0A)
 
  
 
