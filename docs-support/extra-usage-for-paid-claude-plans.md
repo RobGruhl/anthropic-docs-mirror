@@ -44,7 +44,7 @@ To enable usage credits on your paid Claude plan:
 7. You’ll then need to prepay to cover usage beyond your plan limits. Click “Add funds,” enter the amount you want to purchase in the modal, then click “Purchase.”
 8. You can also enable auto-reload to automatically make a purchase when your balance falls below a threshold you set:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1787565600&signature=62c5a9142c7f5020322bc072179ac6e66bdf1e8b644df94c79e1d2cb092e9047&req=dSgnE8F%2FlIZXXPMW1HO4zYj2ARWco%2FU%2BopE7m38YdfeZ7T0cV%2B4%2FaTN8siYy%0AlI128FFQYDQ0uU7aFT4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1805819785/5e203c38e6ba3f76bfd1dab0d5ce/fe062e7c-18cb-48cc-a7e2-754ac6e6c4be?expires=1787576400&signature=c6f2ff9fbe3272afcfec37143c872aee417eefbf5da164b30f131e7dd53667b1&req=dSgnE8F%2FlIZXXPMW1HO4zYj2ARWcovY8opE7m38YdfcdjETCqpd06BRHzXja%0Ai%2F5f4gfBpGGYXRFnsgA%3D%0A)
 
  
 
@@ -173,7 +173,7 @@ In most cases, usage credits do not expire. However, in certain jurisdictions su
 ## Related Articles
 
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
+- [How do I pay for my Claude API usage?](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 - [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Manage usage credits for Team and seat-based Enterprise plans](https://support.claude.com/en/articles/12005970-manage-usage-credits-for-team-and-seat-based-enterprise-plans)
 - [Buy usage bundles](https://support.claude.com/en/articles/14246112-buy-usage-bundles)
-- [Claude Fable 5 on your plan](https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan)

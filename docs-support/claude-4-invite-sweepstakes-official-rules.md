@@ -20,8 +20,8 @@ By entering the Claude 4 Invite Sweepstakes, you accept and agree to these Offic
 
 ## Related Articles
 
-- [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Claude 4 Invite Contest](https://support.claude.com/en/articles/11408405-claude-4-invite-contest)
 - [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
+- [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)
 - [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)

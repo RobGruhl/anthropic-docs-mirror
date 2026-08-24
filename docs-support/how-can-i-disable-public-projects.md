@@ -13,7 +13,7 @@ Follow these steps:
 1. Navigate to **[Organization settings > Data and privacy](https://claude.ai/admin-settings/data-privacy-controls)**.
 2. Find **Public projects** and toggle it off
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1787565600&signature=c1177f283896ae39c99bfe142628b56ff787a1ff3ce2b7cb04cecd48d577d404&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2ChbQVZYabJlVJ9VPzu7FBLt9aAphF%2BNlqg%0Aq8Kq7TKG5eZvdtY%2FZlo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1787576400&signature=373eaafe043e0edc10d200bf732856824c99c0b4e8856740fe61a8cb7de187b0&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2ChbAZbYabJlVJ9VPydN%2FwpKYafsQFYdPXk%0AUFF8wSutTXGI98qUNek%3D%0A)
 
  
 
@@ -55,5 +55,5 @@ If you choose to re-enable public projects after disabling them:
 - [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
 - [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 - [What happens to a user's data when they are removed from a Team or Enterprise organization?](https://support.claude.com/en/articles/12053672-what-happens-to-a-user-s-data-when-they-are-removed-from-a-team-or-enterprise-organization)
-- [Provision and manage skills for your organization](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization)
+- [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [Manage plugins for your organization](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
