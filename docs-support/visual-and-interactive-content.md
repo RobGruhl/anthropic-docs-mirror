@@ -28,7 +28,7 @@ Claude automatically displays temperatures in Fahrenheit for US locations and Ce
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1787587200&signature=15a407bfb7b9c51875f861bdea1ffb3abd9e6b9ca902d8a7a485e6ee904041ec&req=diAjFsx6mYhdXvMW1HO4zXlB7Tm%2F3R%2BKdgndksVD5R1c90tKf8UZqlUlYt03%0Az5h6x8O9HyWx8sKpzmU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544927/3a9c695b24df387ecdd766ad308c/8be9f393-dcb0-4ff8-89e8-5fa47bedaa38?expires=1787598000&signature=70a1218bbea261761d797abeaaf45f1331f2686d9c21e64888146a6d94688d11&req=diAjFsx6mYhdXvMW1HO4zXlB7Tm%2F3BCIdgndksVD5R0voPNHR8xKV09XLoi1%0A%2F2ejUxM7cK2l9pt%2Ftvs%3D%0A)
 
  
 
@@ -42,7 +42,7 @@ When you ask about recipes, Claude can display formatted recipe cards that are e
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1787587200&signature=215d09bf64fb8e8a1774a021146a3fb77991209bc076a294f1acbf0e7d6ea94a&req=diAjFsx6mYhdUPMW1HO4zUQpe7cQ2lOVrIPm%2FImZVg1%2BudVMLWjTul46apQb%0Ae1beJE2%2BmIu3hxqVuqk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544929/12f4c51eda7779d65d3ea2c7ab16/d0f4a314-cff8-421a-b401-10c2bf50374e?expires=1787598000&signature=429f131cd8e0d49ca6c13bc4f5159ddf4a165f323783cb9f24301d4a641924e7&req=diAjFsx6mYhdUPMW1HO4zUQpe7cQ21yXrIPm%2FImZVg0Z%2FQm2ijW8fHN4lvqw%0AYkqHenNcCWwAjsLMuNE%3D%0A)
 
  
 
@@ -101,7 +101,7 @@ For example, if you ask Claude to help you plan a trip, it might ask you to:
 
 This content appears at the bottom of the chat. You can still type a response if you prefer.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1787587200&signature=59815eed2cf3e28c51bed40a28970ab8a04f73dbda4cff7a82647d3c209abcd7&req=diAjFsx6mYhcWfMW1HO4zWmF5%2FK7YRmgx4wz0C7CTAKOnm0Nrpylib2sTKUN%0Al0PwARvXQ6FWTvuliX4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2040544930/9ad066e137d11e4b559b0217e12d/9bf30d2d-1715-42b3-9da5-2a9298f41f08?expires=1787598000&signature=df6e2f644afad5dc6acb18fb3a86b0c67145bca7a0e20a8e5f26e5f46fa75f1a&req=diAjFsx6mYhcWfMW1HO4zWmF5%2FK7YBaix4wz0C7CTALMAZwqCN2PUculvSjG%0Am%2BL3oRqTehl5PXXvxF8%3D%0A)
 
  
 

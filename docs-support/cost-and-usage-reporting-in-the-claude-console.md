@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1787587200&signature=d7a119e18f6b12bd2078a7903075ac338c4574246ecbaeabd365a7750480bc30&req=dSUvEs97mYNeXvMW1HO4zYCWiSMdicGYuqqBX2puyxRTz4%2Fx7sH%2FV73sAWUl%0AW3MbM7raX%2B7wom51WrY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1787598000&signature=710c22103e5b84b554ee6a50b598ecebf508e95b5854d38a41f3510f21d36476&req=dSUvEs97mYNeXvMW1HO4zYCWiSMdiM6auqqBX2puyxQz70w7UpdJydVSG1mA%0Aqg19HrOe7RQVh%2FD%2B%2BoQ%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1787587200&signature=13adee738aa38edb3fc88182d4fcf07b80bf0f1d3ac3daae7c245890088c538b&req=dSUvEs94mYJdWPMW1HO4zQwER3QvKYhkqMITUZbanFAoLGkFiTCKfqBny5Bk%0Aqx4qW0L9HjuqozUFJKs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1787598000&signature=4b55f316042f0c823cdba6acebf865bca60871dcff33efdd1ee36a4ea5518d73&req=dSUvEs94mYJdWPMW1HO4zQwER3QvKIdmqMITUZbanFAa26A3ZYn07KuBnzEI%0AS8L%2FJj9n92Q%2Ft2Cjc3U%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1787587200&signature=38f35ae5933b6492b7ef5b4d7faf99e6de81bf85884538d4ed81849627347123&req=dSUvEs93noJXX%2FMW1HO4zRxEwWxI7lZu21D6pckxWMaeRQyvgchfukJ3u3KG%0AyGhD6ztzchwsIZujkRI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1787598000&signature=b1b2dc20dfa2a55fa102b0b6a41410dacc826aa1a7240276c7bec15b70f17d7d&req=dSUvEs93noJXX%2FMW1HO4zRxEwWxI71ls21D6pckxWMZrOvk2S50oLEyuPXeh%0Al2UkdInlmq2lYXbYdao%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1787587200&signature=09890edf467a69916f6db3a64910b817546b277f2e76ea855b85e899504db2f2&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5vGW9djCyIF5nuUsbz%2FzoQwwZXPyAJA99PT%0AR03d2xU4ABX%2FiUzKA0M%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1787598000&signature=c7758932dfaba15761327e0bc897b46c88e643e1e9fda92c5cc82b50944a94e2&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5vGWthhCyIF5nuUsbzP0XLbM4NoV10tsdSm%0AK4%2Bla%2FZCtpdjEwAkgmE%3D%0A)
 
  
 
@@ -106,6 +106,6 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
-- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
+- [View usage analytics for Team and Enterprise plans](https://support.claude.com/en/articles/12883420-view-usage-analytics-for-team-and-enterprise-plans)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

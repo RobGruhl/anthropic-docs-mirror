@@ -15,6 +15,8 @@
 
 - ShareCopy linkhttps://claude.com/blog/enterprise-managed-auth
 
+Update: Enterprise-managed authorization is now generally available and supports Datadog, Notion, and Slack with Exa, Miro, and Zoom coming soon in addition to the existing support for Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase. (August 24, 2026)
+
 Admins can now provision MCP connectors for their whole organization through their identity provider, starting with Okta. Users get connector access automatically on first login, with authorization configured centrally by their organization.
 
 Connectors make Claude more useful at work — they give Claude the context it needs from the tools that your teams already use. Until now, turning them on required action at two steps: admins enabled a connector for the organization, and then every individual user authorized it themselves.

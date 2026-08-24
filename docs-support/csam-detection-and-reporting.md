@@ -19,8 +19,8 @@ As part of Anthropic’s safety process, we will also send a notice to the user 
 
 ## Related Articles
 
-- [Report, block, and remove content from Claude](https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude)
 - [I’m planning to launch a product using the Claude API. What steps should I take to ensure I’m not violating Anthropic’s Usage Policy?](https://support.claude.com/en/articles/8241216-i-m-planning-to-launch-a-product-using-the-claude-api-what-steps-should-i-take-to-ensure-i-m-not-violating-anthropic-s-usage-policy)
 - [Law Enforcement Requests](https://support.claude.com/en/articles/9035075-law-enforcement-requests)
+- [API Safeguards Tools](https://support.claude.com/en/articles/9199617-api-safeguards-tools)
 - [Report, block, and remove content from Claude](https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude)
 - [Child safety guidance for developers](https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers)
