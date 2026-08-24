@@ -8,7 +8,7 @@ When you open Claude on a web browser ([claude.ai](http://claude.ai)), the deskt
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1787598000&signature=00010c27d558e59996eb0db59c1bb3b29d52f1997f5c83f8327cdefc25ce164c&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoWJ6hq0zWhrqpWiTMmDmaDEoj4sUjstrEZa%0AOhlz1ial64%2BbnWRRqrs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1787607900&signature=182a83ce921cddbe88811d13afe9ec1d2fea8c3432a2f367256091a0a05ef103&req=dSguFct%2Fm4lfXfMW1HO4zXg5BoWK4xW9zWhrqpWiTMmU4Jx66X%2BQlG4VROfI%0AHfJyF0evr3W0StmL%2BQo%3D%0A)
 
  
 
@@ -137,7 +137,7 @@ If you are already logged in to Claude for iOS, you can see the email address yo
 ## Related Articles
 
 - [Delete your Claude account](https://support.claude.com/en/articles/9028421-delete-your-claude-account)
-- [How do I log out of all active sessions?](https://support.claude.com/en/articles/10310342-how-do-i-log-out-of-all-active-sessions)
 - [Get started with Claude for Education at your university (for Owners/Admins)](https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins)
 - [Claude 4 Invite Sweepstakes Official Rules](https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules)
 - [Log in to your Console account](https://support.claude.com/en/articles/13371040-log-in-to-your-console-account)
+- [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)

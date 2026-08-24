@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-24 18:31*
+*Last updated: 2026-08-24 21:23*
 Total documents: 242
 ---
 ## Uncategorized (242 documents)
@@ -941,7 +941,7 @@ Total documents: 242
 ### Use Claude in Chrome safely
 **File:** `/docs-support/using-claude-in-chrome-safely.md`  
 **Source:** https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely  
-**Updated:** 2026-08-19  
+**Updated:** 2026-08-24  
 
 ### Use Claude in Microsoft Foundry
 **File:** `/docs-support/using-claude-in-microsoft-foundry.md`  

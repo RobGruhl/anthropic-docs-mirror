@@ -1,6 +1,6 @@
 # Official Anthropic marketing email addresses
 
-*Updated over 5 months ago*
+*Updated today*
 
 ---
 
@@ -9,7 +9,6 @@ To help you identify legitimate marketing communications from Anthropic, all our
 - [team@email.anthropic.com](mailto:team@email.anthropic.com)
 - [api@email.anthropic.com](mailto:api@email.anthropic.com)
 - [notice@email.anthropic.com](mailto:notice@email.anthropic.com)
-- [support@mail.anthropic.com](mailto:support@mail.anthropic.com)
 - [anthropic-team@mail.anthropic.com](mailto:anthropic-team@mail.anthropic.com)
 - [sales@mail.anthropic.com](mailto:sales@mail.anthropic.com)
 - [no-reply@email.claude.com](mailto:no-reply@email.claude.com)
@@ -19,7 +18,7 @@ Please note that these addresses are outbound only with unmonitored inboxes.
 
  
 
-Concerned about an email you received? Visit our [How to Get Support](https://support.claude.com/en/articles/9015913-how-to-get-support) guide to understand your options for further assistance.
+Concerned about an email you received? Visit our **[How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)** guide to understand your options for further assistance.
 
 
 ---
