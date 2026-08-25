@@ -1,8 +1,8 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-25 12:32*
-Total documents: 608
+*Last updated: 2026-08-25 15:37*
+Total documents: 612
 ---
-## Uncategorized (608 documents)
+## Uncategorized (612 documents)
 ### about-claude__additional-resources
 **File:** `/platform-docs/about-claude__additional-resources.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/additional-resources  
@@ -16,7 +16,7 @@ Total documents: 608
 ### about-claude__model-deprecations
 **File:** `/platform-docs/about-claude__model-deprecations.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/model-deprecations  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### about-claude__models__choosing-a-model
 **File:** `/platform-docs/about-claude__models__choosing-a-model.md`  
@@ -26,7 +26,7 @@ Total documents: 608
 ### about-claude__models__migration-guide
 **File:** `/platform-docs/about-claude__models__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/models/migration-guide  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### about-claude__models__model-ids-and-versions
 **File:** `/platform-docs/about-claude__models__model-ids-and-versions.md`  
@@ -736,7 +736,7 @@ Total documents: 608
 ### agents-and-tools__agent-skills__claude-api-skill
 **File:** `/platform-docs/agents-and-tools__agent-skills__claude-api-skill.md`  
 **Source:** https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### agents-and-tools__agent-skills__enterprise
 **File:** `/platform-docs/agents-and-tools__agent-skills__enterprise.md`  
@@ -1761,7 +1761,7 @@ Total documents: 608
 ### build-with-claude__fast-mode
 **File:** `/platform-docs/build-with-claude__fast-mode.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/fast-mode  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__files
 **File:** `/platform-docs/build-with-claude__files.md`  
@@ -1806,7 +1806,7 @@ Total documents: 608
 ### build-with-claude__prompt-engineering__claude-prompting-best-practices
 **File:** `/platform-docs/build-with-claude__prompt-engineering__claude-prompting-best-practices.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__prompt-engineering__overview
 **File:** `/platform-docs/build-with-claude__prompt-engineering__overview.md`  
@@ -1821,22 +1821,22 @@ Total documents: 608
 ### build-with-claude__prompt-engineering__prompting-claude-opus-4-8
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-4-8.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__prompt-engineering__prompting-claude-opus-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__prompt-engineering__prompting-claude-sonnet-5
 **File:** `/platform-docs/build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__refusals-and-fallback
 **File:** `/platform-docs/build-with-claude__refusals-and-fallback.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__search-results
 **File:** `/platform-docs/build-with-claude__search-results.md`  
@@ -1901,7 +1901,7 @@ Total documents: 608
 ### build-with-claude__working-with-messages
 **File:** `/platform-docs/build-with-claude__working-with-messages.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/working-with-messages  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### claude-code__routines-fire
 **File:** `/platform-docs/claude-code__routines-fire.md`  
@@ -2761,17 +2761,27 @@ Total documents: 608
 ### models__fable-5__introducing-claude-fable-5-and-claude-mythos-5
 **File:** `/platform-docs/models__fable-5__introducing-claude-fable-5-and-claude-mythos-5.md`  
 **Source:** https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
+
+### models__fable-5__migration-guide
+**File:** `/platform-docs/models__fable-5__migration-guide.md`  
+**Source:** https://platform.claude.com/docs/en/models/fable-5/migration-guide  
+**Updated:** 2026-08-25  
 
 ### models__fable-5__overview
 **File:** `/platform-docs/models__fable-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/fable-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
+
+### models__haiku-4-5__migration-guide
+**File:** `/platform-docs/models__haiku-4-5__migration-guide.md`  
+**Source:** https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide  
+**Updated:** 2026-08-25  
 
 ### models__haiku-4-5__overview
 **File:** `/platform-docs/models__haiku-4-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/haiku-4-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__list
 **File:** `/platform-docs/models__list.md`  
@@ -2781,42 +2791,47 @@ Total documents: 608
 ### models__mythos-5__overview
 **File:** `/platform-docs/models__mythos-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/mythos-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__opus-4-5__overview
 **File:** `/platform-docs/models__opus-4-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-4-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__opus-4-6__overview
 **File:** `/platform-docs/models__opus-4-6__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-4-6/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__opus-4-7__overview
 **File:** `/platform-docs/models__opus-4-7__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-4-7/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__opus-4-8__overview
 **File:** `/platform-docs/models__opus-4-8__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-4-8/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
+
+### models__opus-5__migration-guide
+**File:** `/platform-docs/models__opus-5__migration-guide.md`  
+**Source:** https://platform.claude.com/docs/en/models/opus-5/migration-guide  
+**Updated:** 2026-08-25  
 
 ### models__opus-5__overview
 **File:** `/platform-docs/models__opus-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__opus-5__whats-new-opus-5
 **File:** `/platform-docs/models__opus-5__whats-new-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__overview
 **File:** `/platform-docs/models__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__retrieve
 **File:** `/platform-docs/models__retrieve.md`  
@@ -2826,22 +2841,27 @@ Total documents: 608
 ### models__sonnet-4-5__overview
 **File:** `/platform-docs/models__sonnet-4-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/sonnet-4-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__sonnet-4-6__overview
 **File:** `/platform-docs/models__sonnet-4-6__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/sonnet-4-6/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
+
+### models__sonnet-5__migration-guide
+**File:** `/platform-docs/models__sonnet-5__migration-guide.md`  
+**Source:** https://platform.claude.com/docs/en/models/sonnet-5/migration-guide  
+**Updated:** 2026-08-25  
 
 ### models__sonnet-5__overview
 **File:** `/platform-docs/models__sonnet-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/sonnet-5/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### models__sonnet-5__whats-new-sonnet-5
 **File:** `/platform-docs/models__sonnet-5__whats-new-sonnet-5.md`  
 **Source:** https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### overview
 **File:** `/platform-docs/overview.md`  
@@ -2856,7 +2876,7 @@ Total documents: 608
 ### release-notes__overview
 **File:** `/platform-docs/release-notes__overview.md`  
 **Source:** https://platform.claude.com/docs/en/release-notes/overview  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-25  
 
 ### release-notes__system-prompts__claude-fable-5
 **File:** `/platform-docs/release-notes__system-prompts__claude-fable-5.md`  

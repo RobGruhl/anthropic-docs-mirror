@@ -3865,10 +3865,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md",
       "category": "developer-guide",
       "path": "/docs/en/about-claude/model-deprecations",
-      "hash": "5a3418707cff8a8302ccc9d71b624c32b9c056164119f5f42ec3007f959e55c9",
+      "hash": "902cbd7bf643e664a939aac0c5e4babd3ed4514a9759a2d79163a5189987d358",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.492780"
+      "last_updated": "2026-08-25T15:33:17.994474"
     },
     "about-claude__models__choosing-a-model.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model",
@@ -3885,10 +3885,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/about-claude/models/migration-guide",
-      "hash": "965bb3e9ba5bf6d290f11076f65fef411a1bb6e7eb3c547d60674dcf34796cf7",
+      "hash": "afcf963ffb4a19efa3b0d42c5c5aaffabe586db5cda2ba037a50a2db828d0e05",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.034012"
+      "last_updated": "2026-08-25T15:33:17.994736"
     },
     "about-claude__models__model-ids-and-versions.md": {
       "original_url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
@@ -3975,10 +3975,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/agent-skills/claude-api-skill",
-      "hash": "3ecbb92a6da2edf408f09dec776a01c5fa024797b20bd708af3674245e8708c7",
+      "hash": "6d4da54b6c985a859ef0a6b7b69b959275d629dd4a15ff82a05f52364b1d9f9e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.495541"
+      "last_updated": "2026-08-25T15:33:17.996340"
     },
     "agents-and-tools__agent-skills__enterprise.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise",
@@ -4535,10 +4535,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/fast-mode",
-      "hash": "5aec5fb665ae7af226c264bac5541646198fa0717ae6fab53973ef07f2383f9a",
+      "hash": "f6c5c0204bbd0538d457c1a2c6f81e0ee964b2d5b7a091502c9712fcaf87eed4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.505513"
+      "last_updated": "2026-08-25T15:33:18.006366"
     },
     "build-with-claude__files.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/files",
@@ -4625,10 +4625,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "hash": "6dfdbc4b32b050125e3b0429c0a50f16ea1278e5c8a332f8ef9cda5fb4b3f7e8",
+      "hash": "21e58b594547a99ec051419a7e27135e6b59c5bbb0fef34ec35274628f75c3cb",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.041227"
+      "last_updated": "2026-08-25T15:33:18.008367"
     },
     "build-with-claude__prompt-engineering__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
@@ -4655,40 +4655,40 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8",
-      "hash": "5b0661e419449720b257221a1cc24b233cca2f4d04821e7afe216b8d0ff7cd77",
+      "hash": "821b17d3454b70a8c222cec8a3f6f256745042e7ff3c185a06f4d27f226c6b4f",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-20T21:18:48.830075"
+      "last_updated": "2026-08-25T15:33:18.008831"
     },
     "build-with-claude__prompt-engineering__prompting-claude-opus-5.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5",
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5",
-      "hash": "cc8360eb527bd23603af87da40d739c0f866e685ce9d651b8659efb372e53172",
+      "hash": "003dd8755e984785b7d6831d0395e45256e63f913c987005443f21aae660da8f",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.041492"
+      "last_updated": "2026-08-25T15:33:18.008960"
     },
     "build-with-claude__prompt-engineering__prompting-claude-sonnet-5.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5",
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5",
-      "hash": "dd31f085154d5b9352f4739ef34a41c9aeaa249ec0077353292eee8fda959c74",
+      "hash": "2bdd20f02c32bd757cf60fc6e6aad46f1327c2d0ece215aca169aeb8a304d723",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.081667"
+      "last_updated": "2026-08-25T15:33:18.009114"
     },
     "build-with-claude__refusals-and-fallback.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/refusals-and-fallback",
-      "hash": "f82e52543120e0c7e5252f5f353237d1713d72f4ee8c9d09864f7de40d89e5ee",
+      "hash": "7e6d6a493cdfb6acdf7a0107ec19fcfebb08db019a91d9d7eb13ebbb024003ec",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.508419"
+      "last_updated": "2026-08-25T15:33:18.009257"
     },
     "build-with-claude__search-results.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/search-results",
@@ -4815,10 +4815,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/working-with-messages",
-      "hash": "96529eb06942f3d100b375ca22e9bbc4ebc0562e11f4b0bc670037cee2b1c0f1",
+      "hash": "f8da248a3cd2549419d5f5ce6b7e98fd6ecc6ae795b1473adbfe0920f403657a",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.511073"
+      "last_updated": "2026-08-25T15:33:18.011846"
     },
     "claude_api_primer.md": {
       "original_url": "https://platform.claude.com/docs/en/claude_api_primer",
@@ -5685,160 +5685,200 @@
       "original_md_url": "https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5.md",
       "category": "developer-guide",
       "path": "/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5",
-      "hash": "3379924b2b425e29d70ea663fd772a97ae44067108beaecf2ea109f71dce431e",
+      "hash": "fcb11f6de14c95962ba7db7819303d5baaf64bdc0f9193a0509be2eae0aa9b35",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089357"
+      "last_updated": "2026-08-25T15:33:18.023626"
+    },
+    "models__fable-5__migration-guide.md": {
+      "original_url": "https://platform.claude.com/docs/en/models/fable-5/migration-guide",
+      "original_md_url": "https://platform.claude.com/docs/en/models/fable-5/migration-guide.md",
+      "category": "developer-guide",
+      "path": "/docs/en/models/fable-5/migration-guide",
+      "hash": "e0a4b31f78b728b1e65e999fe547bf7815685ad2b29501fc0140cba9051ac65b",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-08-25T15:33:18.023736"
     },
     "models__fable-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/fable-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/fable-5/overview",
-      "hash": "de7d312cdc9e14751597c7d383177845c44df4ed97ca8616f14f5052c3074451",
+      "hash": "371dc6b2110b948da064a44ae0b7583fd1c49d505b953286c91a236512f69eee",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089427"
+      "last_updated": "2026-08-25T15:33:18.023879"
+    },
+    "models__haiku-4-5__migration-guide.md": {
+      "original_url": "https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide",
+      "original_md_url": "https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide.md",
+      "category": "developer-guide",
+      "path": "/docs/en/models/haiku-4-5/migration-guide",
+      "hash": "7cf23a225e63b9fbcff955230628936037fd19414633a367c2213f8e8b3824c6",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-08-25T15:33:18.023981"
     },
     "models__haiku-4-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/haiku-4-5/overview",
-      "hash": "491c44f22c512d6ac32696c37b5ff983003de1385f61f37b545fd4061a9920c4",
+      "hash": "c8dc315027f0ddf9e94a1d15b00c0a62eab89ad0071d7d7c23b1e37dab730fbd",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089474"
+      "last_updated": "2026-08-25T15:33:18.024066"
     },
     "models__mythos-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/mythos-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/mythos-5/overview",
-      "hash": "0d07a52ab77de289b41186a8c85a17f4ab223a22d7ff29e2f85e6cee634c3f63",
+      "hash": "3fe32c912ef34835ed35339ac6bf5d9e06c5f72d9ede83e056ac830b5681503d",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089517"
+      "last_updated": "2026-08-25T15:33:18.024183"
     },
     "models__opus-4-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-4-5/overview",
-      "hash": "dfd84d1c88576b6a41fdea350078d698de9530925fef7d4c5044b25d50668d9b",
+      "hash": "3e7cf5efddf5fc930a847917af4b94a2cd973a4efe49fe7e0f640facca501429",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089553"
+      "last_updated": "2026-08-25T15:33:18.024284"
     },
     "models__opus-4-6__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-4-6/overview",
-      "hash": "924fe06907b961e8798d2a403d16c9070477dbd3b439b75efb28afb801965759",
+      "hash": "1238c4343a5cbeb89c63e7688069244b81b03c95f7682f44b117f077cf43286e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089596"
+      "last_updated": "2026-08-25T15:33:18.024389"
     },
     "models__opus-4-7__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-4-7/overview",
-      "hash": "648302397753b22a2d8a260c09e2c3f572d54111b6e4cb3ae9234fac23b30d35",
+      "hash": "453a7bb3beb787e7f5902eafcdb81067d8a68aba2ccbb6d323297458ea8303ab",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089634"
+      "last_updated": "2026-08-25T15:33:18.024495"
     },
     "models__opus-4-8__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-4-8/overview",
-      "hash": "65d27f6b3caceb8a105ceec7b0c6c41136201053967bf39afff6756f40159f50",
+      "hash": "d37d29e62ba19168c9f4463eb28ad9cfa1fb67972cf9364caad8e8e7221f6f74",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089673"
+      "last_updated": "2026-08-25T15:33:18.024597"
+    },
+    "models__opus-5__migration-guide.md": {
+      "original_url": "https://platform.claude.com/docs/en/models/opus-5/migration-guide",
+      "original_md_url": "https://platform.claude.com/docs/en/models/opus-5/migration-guide.md",
+      "category": "developer-guide",
+      "path": "/docs/en/models/opus-5/migration-guide",
+      "hash": "931eb5c701d4fc71271d529d347feb1c2e959b52dc00b586589047b9a2b4eed5",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-08-25T15:33:18.024701"
     },
     "models__opus-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-5/overview",
-      "hash": "f4d64bd8e457908daa0d7bdd0b898ff5c61f364f767bea5553d8281d192763fe",
+      "hash": "163f8a747972df3efa76501b5cb35efa18c75df136c727e4d56d3fb4ee7a2a71",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089711"
+      "last_updated": "2026-08-25T15:33:18.024895"
     },
     "models__opus-5__whats-new-opus-5.md": {
       "original_url": "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5",
       "original_md_url": "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5.md",
       "category": "developer-guide",
       "path": "/docs/en/models/opus-5/whats-new-opus-5",
-      "hash": "a07cc75053baeb9a313db59707ae2bec7d008355ee2a06b711270eae8320c9c2",
+      "hash": "01babf40b5b328eefea73708923497854c6d9fbb249c6907d36827042a876d1e",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089753"
+      "last_updated": "2026-08-25T15:33:18.024997"
     },
     "models__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/overview",
-      "hash": "d3b6d37a22e2f31cd4b5a65a30f39be3982fddd43cf08ca3e8aa002e873cc35f",
+      "hash": "82330cad3dde6d45cfa1102f3127dda10a8d973f45592ebee7e71a4ab0de6db5",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089802"
+      "last_updated": "2026-08-25T15:33:18.025132"
     },
     "models__sonnet-4-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/sonnet-4-5/overview",
-      "hash": "69c40aeda044b1fe04a80af356bdc65e6de1530155c58c01e7e132b44805bd7f",
+      "hash": "de7117dd2105b0e46feaa46fe604acaf1f859a522431582b807c95d31be125d2",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089849"
+      "last_updated": "2026-08-25T15:33:18.025248"
     },
     "models__sonnet-4-6__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/sonnet-4-6/overview",
-      "hash": "3b0a172f5228fdbdf5f65409358e41ba070d70a2a5f879641966dd4c00744dc2",
+      "hash": "a505739e232d75424c0c8ed41e3776ccfb74aef983244caa9f71097d32428e10",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089892"
+      "last_updated": "2026-08-25T15:33:18.025346"
+    },
+    "models__sonnet-5__migration-guide.md": {
+      "original_url": "https://platform.claude.com/docs/en/models/sonnet-5/migration-guide",
+      "original_md_url": "https://platform.claude.com/docs/en/models/sonnet-5/migration-guide.md",
+      "category": "developer-guide",
+      "path": "/docs/en/models/sonnet-5/migration-guide",
+      "hash": "91939110aa1afc614fa4e70f4f0a9b47e0432b7c9678db73f068592ae161694a",
+      "etag": null,
+      "last_modified": null,
+      "last_updated": "2026-08-25T15:33:18.025459"
     },
     "models__sonnet-5__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
       "original_md_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/models/sonnet-5/overview",
-      "hash": "007683a3d6b4dcc4b35a7fd14349b49fcfb1d81fbd80374f5e6c9fae822c4c39",
+      "hash": "69cca199e119a18e4ad6b3ba095fab588e36cc5669486f033f028019db07c6f8",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089933"
+      "last_updated": "2026-08-25T15:33:18.025584"
     },
     "models__sonnet-5__whats-new-sonnet-5.md": {
       "original_url": "https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5",
       "original_md_url": "https://platform.claude.com/docs/en/models/sonnet-5/whats-new-sonnet-5.md",
       "category": "developer-guide",
       "path": "/docs/en/models/sonnet-5/whats-new-sonnet-5",
-      "hash": "f2d4d5865c3a4ac99738f56a62e78d3e21e7e9ae4153e390f7fc66fd762dd79e",
+      "hash": "a45890d7950314dea405abe92f8e58526db1c78185df9285f441477eb6f835fc",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.089976"
+      "last_updated": "2026-08-25T15:33:18.025683"
     },
     "release-notes__overview.md": {
       "original_url": "https://platform.claude.com/docs/en/release-notes/overview",
       "original_md_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/release-notes/overview",
-      "hash": "86e44d0a7b2718440de4763c5c69b0104da69188e9db840f1a73649edc781371",
+      "hash": "9ee326c0109f9368aa10381d74fb9671344badd1aa8ebff726e00fe08c95d7bf",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-24T21:19:39.090023"
+      "last_updated": "2026-08-25T15:33:18.025789"
     },
     "release-notes__system-prompts__claude-fable-5.md": {
       "original_url": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5",
@@ -6082,21 +6122,21 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-25T12:28:06.482367",
-    "fetch_duration_seconds": 10.823788,
-    "total_pages_discovered": 610,
-    "pages_fetched_successfully": 608,
+    "last_fetch_completed": "2026-08-25T15:33:18.033098",
+    "fetch_duration_seconds": 10.875727,
+    "total_pages_discovered": 614,
+    "pages_fetched_successfully": 612,
     "pages_failed": 2,
-    "pages_unchanged": 608,
-    "pages_updated": 0,
-    "pages_new": 0,
+    "pages_unchanged": 582,
+    "pages_updated": 26,
+    "pages_new": 4,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/home",
       "/docs/en/release-notes/system-prompts/overview"
     ],
     "by_category": {
-      "developer-guide": 224,
+      "developer-guide": 228,
       "api-reference": 384,
       "resources": 0
     },
@@ -6108,5 +6148,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-25T12:28:06.482550"
+  "last_updated": "2026-08-25T15:33:18.033284"
 }
