@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787620500&signature=c38f0d69cb81d949ae069354b495ace10e6341b32baf4807117a014c06915f9c&req=diAjFMp7n4FZWfMW1HO4zU6VRfrMSrxsxNdRzYWrfF5P%2B1zZSM98pjgJf8u0%0A5RQJMCpwwlIRtKCxJYQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787631300&signature=de4bb71f02300f05159b6f7062f0274bb621540530881d3f58a271bb4213fa28&req=diAjFMp7n4FZWfMW1HO4zU6VRfrMS71qxNdRzYWrfF43U8aAOxfgMmsHI97y%0AMvtQcbqrNfyjbbqczXQ%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787620500&signature=e8f132973a0ca8b8045398710d1aff8db0fa9a8f8caff17f62a95765bad38d5b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2TYlAPy8OQfYsvK3wCSr6WxrC%2F%2FiBOWXft%0Ae9S1LI2dGdPikSFbbuE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787631300&signature=5ae462dac301f7f3b947731b3dd97503666767af6105f0162686f45a43c08fe7&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2TY1EJy8OQfYsvK3y2vulkJbLYuGGW0Elv%0AUruBmzt7LzHFOqcLYeg%3D%0A)
 
  
 

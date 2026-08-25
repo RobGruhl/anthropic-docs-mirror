@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-25 00:45*
+*Last updated: 2026-08-25 03:43*
 Total documents: 608
 ---
 ## Uncategorized (608 documents)
@@ -1721,7 +1721,7 @@ Total documents: 608
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -1911,7 +1911,7 @@ Total documents: 608
 ### claude-platform-on-aws-iam-actions
 **File:** `/platform-docs/claude-platform-on-aws-iam-actions.md`  
 **Source:** https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-25  
 
 ### claude_api_primer
 **File:** `/platform-docs/claude_api_primer.md`  
@@ -2596,7 +2596,7 @@ Total documents: 608
 ### managed-agents__environments
 **File:** `/platform-docs/managed-agents__environments.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/environments  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-25  
 
 ### managed-agents__events-and-streaming
 **File:** `/platform-docs/managed-agents__events-and-streaming.md`  

@@ -2835,10 +2835,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions.md",
       "category": "api-reference",
       "path": "/docs/en/api/claude-platform-on-aws-iam-actions",
-      "hash": "3fd5223d53c58a50885fa7f91cfe8862292d270cee5fbaaf5e91f8d702d3deb8",
+      "hash": "6339ee9a4d2424bbfb4cc6479b1526ed8a0d7eaf746c4d262268c1b2a42d2f71",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-12T18:48:09.208159"
+      "last_updated": "2026-08-25T03:39:50.899991"
     },
     "completions.md": {
       "original_url": "https://platform.claude.com/docs/en/api/completions",
@@ -4455,10 +4455,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/claude-platform-on-aws",
-      "hash": "c11a236db6f47aac340fbd5bdb37c5b33715134ad6c0027ebbf384cbf7d70312",
+      "hash": "b7b1b2df9074741e84b8f14bd86c01faaf72043f723e286ba1cdb9c6a39f75c8",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.503928"
+      "last_updated": "2026-08-25T03:39:50.939390"
     },
     "build-with-claude__compaction.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
@@ -5465,10 +5465,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/managed-agents/environments.md",
       "category": "developer-guide",
       "path": "/docs/en/managed-agents/environments",
-      "hash": "d565be3b73f0d087801f2a4e75c7c14e062ddab92178657b06893ea22609f2a5",
+      "hash": "b10006ef8d5e84b59f1ce6500a9c2a0c9466431250349f9aeec7a674c6a73def",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.519690"
+      "last_updated": "2026-08-25T03:39:50.953627"
     },
     "managed-agents__events-and-streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/events-and-streaming",
@@ -6082,13 +6082,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-25T00:41:37.335721",
-    "fetch_duration_seconds": 9.173041,
+    "last_fetch_completed": "2026-08-25T03:39:50.966306",
+    "fetch_duration_seconds": 9.919714,
     "total_pages_discovered": 610,
     "pages_fetched_successfully": 608,
     "pages_failed": 2,
-    "pages_unchanged": 234,
-    "pages_updated": 374,
+    "pages_unchanged": 605,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -6108,5 +6108,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-25T00:41:37.335918"
+  "last_updated": "2026-08-25T03:39:50.966516"
 }
