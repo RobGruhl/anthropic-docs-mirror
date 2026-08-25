@@ -1,7 +1,7 @@
 # Mcp Topic Index
-*Last updated: 2026-08-25 18:32*
+*Last updated: 2026-08-25 21:23*
 
-Documents related to Mcp across all sources (232 documents)
+Documents related to Mcp across all sources (231 documents)
 ---
 ## Platform Documentation (platform.claude.com) (24)
 - [admin__mcp_tunnels](/platform-docs/api-reference/admin__mcp_tunnels.md)
@@ -229,7 +229,7 @@ Documents related to Mcp across all sources (232 documents)
 - [Desktop Extensions: One-click MCP server installation for Claude Desktop](/engineering-blog/desktop-extensions.md) - Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (11)
+## Claude.com Blog Posts (10)
 - [Bringing MCP 2026-07-28 to Claude](/claude-blog/bringing-mcp-2026-07-28-to-claude.md) - ![](https://cdn
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Centrally manage authorization for MCP connectors](/claude-blog/enterprise-managed-auth.md) - ![](https://cdn
@@ -240,7 +240,6 @@ Documents related to Mcp across all sources (232 documents)
 - [Remote MCP support in Claude Code](/claude-blog/claude-code-remote-mcp.md) - ![](https://cdn
 - [Skills MCP 서버로 Claude의 역량 확장](/claude-blog/extending-claude-capabilities-with-skills-mcp-servers.md) - ![](https://cdn
 - [Skills explained: How Skills compares to prompts, Projects, MCP, and subagents](/claude-blog/skills-explained.md) - ![](https://cdn
-- [모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
 ## Support Articles (7)
 - [Anthropic Connectors Directory FAQ](/docs-support/anthropic-connectors-directory-faq.md)

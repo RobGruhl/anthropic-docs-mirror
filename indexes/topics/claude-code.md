@@ -1,7 +1,7 @@
 # Claude Code Topic Index
-*Last updated: 2026-08-25 18:32*
+*Last updated: 2026-08-25 21:23*
 
-Documents related to Claude Code across all sources (328 documents)
+Documents related to Claude Code across all sources (327 documents)
 ---
 ## Platform Documentation (platform.claude.com) (4)
 - [admin__analytics__plugins](/platform-docs/api-reference/admin__analytics__plugins.md)
@@ -217,7 +217,7 @@ Documents related to Claude Code across all sources (328 documents)
 - [How we built Claude Code auto mode: a safer way to skip permissions](/engineering-blog/claude-code-auto-mode.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (114)
+## Claude.com Blog Posts (113)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A complete guide to building skills for Claude](/claude-blog/complete-guide-to-building-skills-for-claude.md) - ![](https://cdn
 - [A field guide to Claude Fable 5: Finding your unknowns](/claude-blog/a-field-guide-to-claude-fable-finding-your-unknowns.md) - ![](https://cdn
@@ -236,7 +236,6 @@ Documents related to Claude Code across all sources (328 documents)
 - [Building agents with the Claude Agent SDK](/claude-blog/building-agents-with-the-claude-agent-sdk.md) - ![](https://cdn
 - [Building multi-agent systems: When and how to use them](/claude-blog/building-multi-agent-systems-when-and-how-to-use-them.md) - ![](https://cdn
 - [Building verification loops in Claude Code with skills](/claude-blog/building-verification-loops-in-claude-code-with-skills.md) - ![](https://cdn
-- [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn
 - [Choosing a Claude model and effort level in Claude Code](/claude-blog/claude-model-and-effort-level-in-claude-code.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn

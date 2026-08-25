@@ -1,9 +1,9 @@
 # Product Topic Index
-*Last updated: 2026-08-25 18:32*
+*Last updated: 2026-08-25 21:23*
 
-Documents related to Product across all sources (19 documents)
+Documents related to Product across all sources (18 documents)
 ---
-## Claude.com Blog Posts (19)
+## Claude.com Blog Posts (18)
 - [A guide to cost visibility and control in Claude](/claude-blog/a-guide-to-cost-visibility-and-control-in-claude.md) - ![](https://cdn
 - [Behind the model launch: What customers discovered testing Claude Opus 4.6 early](/claude-blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early.md) - ![](https://cdn
 - [Building intelligent apps for Apple platforms with Claude in the Foundation Models framework](/claude-blog/claude-for-foundation-models.md) - ![](https://cdn
@@ -22,5 +22,4 @@ Documents related to Product across all sources (19 documents)
 - [What’s new in Claude: Turning Claude into your thinking partner](/claude-blog/your-thinking-partner.md) - ![](https://cdn
 - [Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail](/claude-blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail.md) - ![](https://cdn
 - [Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work](/claude-blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work.md) - ![](https://cdn
-- [모델 컨텍스트 프로토콜이란? AI를 나만의 세계와 연결하세요](/claude-blog/what-is-model-context-protocol.md) - ![](https://cdn
 
