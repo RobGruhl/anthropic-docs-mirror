@@ -26,7 +26,7 @@ If you want to use a name other than the one tied to your payment method, an org
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1787607900&signature=8dfc704bf1117fc7b923b1a2cc558832df3ba99164039a0c70ad4eaa87586130&req=dSklFMh6mINaWvMW1HO4zRZTxF3Hu8zaKAqLF4ERnlVIp7hzJEatdpJ%2Fmx2x%0A9Cah8ZEjgEsexcofn%2BA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1787620500&signature=d4eba3e9b48388a64a256d01493a6aa920c8aefb6263a4f2b93de6e441fca615&req=dSklFMh6mINaWvMW1HO4zRZTxF3HucvWKAqLF4ERnlU%2BDQmd9DqCi3v7jDhg%0Aj4reOUEdvgcn5%2BjRkzY%3D%0A)
 
  
 
@@ -74,7 +74,7 @@ An organization owner can resubscribe for Team plan access by navigating to **[O
 ## Related Articles
 
 - [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
-- [How is my Team plan bill calculated?](https://support.claude.com/en/articles/9267289-how-is-my-team-plan-bill-calculated)
 - [Add or update your Team plan's tax or VAT ID](https://support.claude.com/en/articles/9927624-add-or-update-your-team-plan-s-tax-or-vat-id)
-- [How am I billed for my Enterprise plan?](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Understanding your billing address and tax calculation](https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation)
+- [Understanding your Pro or Max plan invoices](https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices)
+- [Understanding your Team plan invoices](https://support.claude.com/en/articles/16607668-understanding-your-team-plan-invoices)

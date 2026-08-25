@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-08-24 21:23*
+*Last updated: 2026-08-25 00:45*
 
 ## Quick Stats
-- **Total Documents:** 1770
+- **Total Documents:** 1772
 - **Platform Docs:** 608
 - **Claude Code Docs:** 191
 - **MCP Docs:** 168
@@ -11,8 +11,8 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 223
-- **Support Articles:** 242
+- **Claude.com Blog:** 226
+- **Support Articles:** 241
 - **Topics:** 84
 
 ## Quick Navigation
@@ -26,22 +26,22 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 223 product/API posts from claude.com/blog
-- [Support Articles](support-articles.md) - 242 help articles from support.claude.com
+- [Claude.com Blog](claude-blog.md) - 226 product/API posts from claude.com/blog
+- [Support Articles](support-articles.md) - 241 help articles from support.claude.com
 
 ### By Topic
-- [Claude Code](topics/claude-code.md) - 325 documents
+- [Claude Code](topics/claude-code.md) - 327 documents
 - [Mcp](topics/mcp.md) - 232 documents
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
-- [Agents](topics/agents.md) - 165 documents
+- [Agents](topics/agents.md) - 166 documents
 - [Company](topics/company.md) - 157 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 95 documents
+- [Tools](topics/tools.md) - 96 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Api](topics/api.md) - 63 documents

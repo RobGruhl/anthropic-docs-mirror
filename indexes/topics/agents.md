@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-24 21:23*
+*Last updated: 2026-08-25 00:45*
 
-Documents related to Agents across all sources (165 documents)
+Documents related to Agents across all sources (166 documents)
 ---
 ## Platform Documentation (platform.claude.com) (42)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -66,7 +66,7 @@ Documents related to Agents across all sources (165 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (106)
+## Claude.com Blog Posts (107)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -154,6 +154,7 @@ Documents related to Agents across all sources (165 documents)
 - [Skills for organizations, partners, the ecosystem](/claude-blog/organization-skills-and-directory.md) - ![](https://cdn
 - [Skills로 에이전트 구축: 전문 업무를 위한 에이전트 역량 갖추기](/claude-blog/building-agents-with-skills-equipping-agents-for-specialized-work.md) - ![](https://cdn
 - [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](/claude-blog/steering-claude-code-skills-hooks-rules-subagents-and-more.md) - ![](https://cdn
+- [The AI-Native SDLC playbook](/claude-blog/the-ai-native-sdlc-playbook.md) - ![](https://cdn
 - [The Claude Code guide for startups](/claude-blog/claude-code-guide-for-startups.md) - ![](https://cdn
 - [The Claude Cowork product guide](/claude-blog/the-claude-cowork-product-guide.md) - ![](https://cdn
 - [The advisor strategy: Give agents an intelligence boost](/claude-blog/the-advisor-strategy.md) - ![](https://cdn

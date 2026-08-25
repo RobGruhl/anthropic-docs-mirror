@@ -1,6 +1,6 @@
 # How do I sign up for the Pro plan?
 
-*Updated today*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -51,7 +51,7 @@ Yes. You can still access the free version of Claude without subscribing for a p
 ## Related Articles
 
 - [What is the Pro plan?](https://support.claude.com/en/articles/8325606-what-is-the-pro-plan)
-- [Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
 - [How to change your Pro plan from monthly to annual billing](https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
+- [Understanding your Pro or Max plan invoices](https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices)
