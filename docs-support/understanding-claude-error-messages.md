@@ -76,7 +76,7 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1787673600&signature=2205688f98d91fcb0411200dd8ef971c4694df041fb51c5aedf638177d0370f4&req=dSciFc53m4NbXvMW1HO4za4BXqgl1bHC7y68oYp%2BYg9AkQOLadSYr7hct%2BRz%0AgzSwZNbJ9%2FvBShg%2Bpes%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1753796247/e6a8c6ef8653b229c5758e881242/c2fc6fc0-d163-4119-93e0-394104d86bc9?expires=1787684400&signature=f9e074b9dd08976177cf9f4c85198da8e15a7140471b40ffbb85a8e144ef6d86&req=dSciFc53m4NbXvMW1HO4za4BXqgl2rbA7y68oYp%2BYg8eR%2FgZMceFateq0%2BiE%0AlU%2BvInsPDdNehcsNWE4%3D%0A)
 
  
 
@@ -89,4 +89,4 @@ Service incidents are disruptions where Claude is unavailable or significantly d
 - [How large is the context window on paid Claude plans?](https://support.claude.com/en/articles/8606394-how-large-is-the-context-window-on-paid-claude-plans)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
-- [Claude Fable 5 on your plan](https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan)
+- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)

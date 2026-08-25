@@ -1,6 +1,6 @@
 # Import and export your memory from Claude
 
-*Updated today*
+*Updated over 2 weeks ago*
 
 ---
 
@@ -120,6 +120,6 @@ To view your memory exactly how Claude sees it, go to **[Settings > Capabilities
 
 - [Get started with Claude](https://support.claude.com/en/articles/8114491-get-started-with-claude)
 - [Use Claude’s chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context)
+- [Use Claude with iOS apps](https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
 - [Your first day in Claude Code](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code)
-- [Claude Code communications kit](https://support.claude.com/en/articles/14555877-claude-code-communications-kit)

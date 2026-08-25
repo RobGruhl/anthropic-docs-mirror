@@ -1,6 +1,6 @@
 # Use Claude with iOS apps
 
-*Updated over a month ago*
+*Updated today*
 
 ---
 
@@ -124,8 +124,6 @@ With your permission, Claude can read the following types of data from Apple Hea
 - **Body measurements:** Weight, height, body mass index, and body fat percentage.
 - **Sleep:** Total sleep time, sleep stages, time in bed, and sleep efficiency.
 - **Nutrition:** Calories consumed, macronutrients, water intake, and micronutrients (if tracked).
-
- 
 
 ### How to use health features
 

@@ -1,6 +1,6 @@
 # Get started with Claude Cowork
 
-*Updated this week*
+*Updated today*
 
 ---
 
@@ -13,7 +13,7 @@ This article explains how to use **[Claude Cowork](https://claude.com/product/co
 Claude Cowork is available on paid plans (Pro, Max, Team, Enterprise). Availability varies by surface:
 
 - **Claude Desktop for macOS** — Available on all paid plans. **[Click here](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect)** to download.
-- **Claude Desktop for Windows** — Available on all paid plans. Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](http://claude.com/download)**..
+- **Claude Desktop for Windows** — Available on all paid plans. Cowork requires the latest version of Claude for Windows. Download or update at **[claude.com/download](http://claude.com/download)**.
 - **Web**, at claude.ai — Available on Pro, Max, and Team plans. On Enterprise plans, available where an admin has enabled it.
 - **Claude Mobile** — Available on Pro, Max, and Team plans, in the latest version of Claude for iOS and Claude for Android. On Enterprise plans, available where an admin has enabled it.
 - **Claude in Chrome side panel** — Available on Max and Team plans, and rolling out to Pro plans. On Enterprise plans, available where an admin has enabled it. See **[Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)** for more information.
@@ -55,6 +55,7 @@ For important limitations and considerations for Team and Enterprise organizatio
 
 - **Work from anywhere:** Sessions in the cloud follow your Claude account. Start a task on one surface, steer it from another, and pick up the finished output wherever you are. See **[Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349)**.
 - **Work that continues without you:** In sessions in the cloud, Claude keeps working when you close your laptop or step away.
+- **Shared memory with chat:** In sessions in the cloud, Claude starts from what it already remembers from your chats, and what comes up in a Cowork task carries back to chat. Learn more about **[Claude's memory](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context#h_82126ebcc9)**.
 - **Direct local file access:** On desktop, Claude can read from and write to your local files without manual uploads or downloads.
 - **Sub-agent coordination:** Claude breaks complex work into smaller tasks and coordinates parallel workstreams to complete them.
 - **Professional outputs:** Generate polished deliverables like Excel spreadsheets with working formulas, PowerPoint presentations, and formatted documents.
@@ -62,7 +63,7 @@ For important limitations and considerations for Team and Enterprise organizatio
 - **Long-running tasks:** Work on complex tasks for extended periods without conversation timeouts or context limits interrupting your progress.
 - **Scheduled tasks:** Create and save tasks that you can have Claude run on-demand or automatically on a cadence of your choosing. Scheduled tasks run in the cloud, with no device online.
 - **Spreadsheets and presentations:** Cowork can produce spreadsheets and slides that can be further edited with Claude for Excel and Powerpoint.
-- **Projects:** Group related tasks into separate workspaces with their own files, context, instructions, and memory. See **[Organize your tasks with projects in Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork).**
+- **Projects:** Group related tasks into separate workspaces with their own files, context, instructions, and memory. See **[Organize your tasks with projects in Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork)**.
 - **Browser actions:** Claude can open Chrome and work on websites—clicking, typing, navigating, and filling forms—for tasks that touch websites. On Max and Team plans, Pro plans as it rolls out, and Enterprise plans where an admin has enabled it, you can also run a Cowork session directly in the Chrome side panel. See **[Get started with Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome)**.
 -  
 
@@ -182,7 +183,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787673600&signature=6b1baf59190bb5e7d38bfb58651e24df6ab03db19fbfc7baed31da765c1b201f&req=diUlE8B8m4lYXfMW1HO4zcDl6t%2FqMVK28iWjaktE943kIH7kvRPliPhkZoD4%0ARuh2Zhm4EA8yORBtv14%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1787832000&signature=04401821cce8c533387e4c29048e01bb4f6ca451703580c6dae2e0be007e477a&req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BD277faVGMqW%2FkK1fj3UBn0LlxqIXEHFzN%0A%2Fis3EcOylHgkGGRrw5uf0eDnVxE%3D%0A)
 
  
 
@@ -311,7 +312,6 @@ For more detailed examples, see our **[use cases](https://claude.com/resources/u
 
 Some Cowork capabilities are not yet available:
 
-- **Memory:** What Claude remembers about you in chat doesn't carry into Cowork sessions yet. Within Cowork, memory is supported in projects only**.**
 - **No session sharing:** Sessions can't be shared with others. On Team and Enterprise plans, you can share live artifacts within your organization. Learn more about **[using live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249)**.
 - **Some features are desktop-only:** Live artifacts and plugins that include local MCP servers work through the desktop app only.
 
