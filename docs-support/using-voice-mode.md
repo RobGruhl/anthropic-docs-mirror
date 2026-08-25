@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787641200&signature=9e48abfa8e4a871b9c2e42103551eb0cbcc5090db54d6d7ff17a75bf31ee2723&req=diAjFMp7n4FZWfMW1HO4zU6VRfrMTL1rxNdRzYWrfF7kqaTE%2B3GyNrshtDN1%0AHbqkTp9sMAtoHeKTtnY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787652000&signature=86f4205763a618db835b52f804275dfbb27e4fc92c2388fc2b4b0d54df94f6af&req=diAjFMp7n4FZWfMW1HO4zU6VRfrMTb5pxNdRzYWrfF4xYKRP%2BdkmqK3tRxSV%0AqmYgFcMBD99K69IQwDk%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787641200&signature=e31413a593f836a37563d97cc54a8a8e9ab1c4fdff7e8f49fde175b954fa8f19&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2TZFEIy8OQfYsvK3zg54zgn%2FKXXmGDFCzn%0AIPyg8YZ2u0WYmcHO8Bw%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787652000&signature=fb8d66c94d76cdf7fd30e97e4a884698f7a94f7f940db194cde55d606c47c3e8&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2TZVIKy8OQfYsvK3yJssr1%2F3oTF6lDx8SC%0Aoy%2F9WrWPTkwpZdIaLos%3D%0A)
 
  
 

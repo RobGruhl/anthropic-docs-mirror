@@ -20,7 +20,7 @@ Claude Code for web enables asynchronous development workflows. With Claude Code
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1787641200&signature=fb8a3a01104392247b1598cf01da7e280ae8782284d40007df66d72bb67569e8&req=dScvEM16m4BaXvMW1HO4zR8%2BAFSGRpx07XrRA1YwWGvnTNb%2B01FcF%2FVhFizO%0AnTPcTTxv6w0D5SDxUDk%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1787652000&signature=d66a34a45ed4eed702495910e88f88c85575fec8e3cf37acb90e588639400fe4&req=dScvEM16m4BaXvMW1HO4zR8%2BAFSGR5927XrRA1YwWGt%2BFPSj7%2F8ZPkasBd91%0AXUP1SSybTTRgfSNCI%2B8%3D%0A)
 
  
 
@@ -34,7 +34,7 @@ When you start a task, Claude Code on the web creates an isolated virtual machin
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1787641200&signature=8d46dc18207882579a67b6db9324e4718c108fa54dc45ccd5a9c0e0bb3c356d1&req=dScvEM16m4BaUfMW1HO4zcR0rZEyi%2BjC7DtpMiX%2FBYn5cbq5tn4EvRweW4PL%0AJ87vvI6EbeZLhg8Yxms%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1787652000&signature=6de33360dd716cc9011ee5ee2e0188a592e2c0675e8a8e1c2b3cfadfb6ee45a7&req=dScvEM16m4BaUfMW1HO4zcR0rZEyiuvA7DtpMiX%2FBYnz%2Fb3E7vI3Ik468HXi%0AA9Yn%2B3Fry2X%2FCOxUxPA%3D%0A)
 
  
 
@@ -46,7 +46,7 @@ Once the environment is ready, Claude begins working on your task. Claude reads 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1787641200&signature=19f6a7f4e0765065d6c9676236e3a463794d65fe68519b2e33f4d15e75bed8c5&req=dScvEM16m4BaX%2FMW1HO4zVbcTGSF58XMUQl3YqgIJdZhTqFDLlvfsw7ZXWAa%0Aycovc3ZPVGGmC1guTrY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1787652000&signature=492c6e731f56ddade99c686d6bf3974108d42e90481485e0c0517150f3d31214&req=dScvEM16m4BaX%2FMW1HO4zVbcTGSF5sbOUQl3YqgIJdaBbk%2BS6rBMGiaREy1v%0Atq2LMRVKxAGwG5Geurg%3D%0A)
 
  
 
