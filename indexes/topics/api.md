@@ -1,7 +1,7 @@
 # Api Topic Index
-*Last updated: 2026-08-25 21:23*
+*Last updated: 2026-08-26 00:46*
 
-Documents related to Api across all sources (62 documents)
+Documents related to Api across all sources (63 documents)
 ---
 ## Platform Documentation (platform.claude.com) (11)
 - [beta__skills](/platform-docs/api-reference/beta__skills.md)
@@ -16,7 +16,7 @@ Documents related to Api across all sources (62 documents)
 - [beta__skills__versions__list](/platform-docs/api-reference/beta__skills__versions__list.md)
 - [beta__skills__versions__retrieve](/platform-docs/api-reference/beta__skills__versions__retrieve.md)
 
-## Claude.com Blog Posts (51)
+## Claude.com Blog Posts (52)
 - [APIをシームレスに統合する方法](/claude-blog/integrate-apis-seamlessly.md) - ![](https://cdn
 - [Anthropic이 법률 사무에 Claude를 활용하는 방법](/claude-blog/how-anthropic-uses-claude-for-legal.md) - ![](https://cdn
 - [Audit Claude Platform activity with the Compliance API](/claude-blog/claude-platform-compliance-api.md) - ![](https://cdn
@@ -26,6 +26,7 @@ Documents related to Api across all sources (62 documents)
 - [Build production agents with computer use, the Skills API, and the Files API](/claude-blog/computer-use-skills-api-files-api.md) - ![](https://cdn
 - [Building agents that reach production systems with MCP](/claude-blog/building-agents-that-reach-production-systems-with-mcp.md) - ![](https://cdn
 - [Built-in memory for Claude Managed Agents](/claude-blog/claude-managed-agents-memory.md) - ![](https://cdn
+- [CLAUDE.md 파일 사용: 코드베이스에 맞게 Claude Code 맞춤화하기](/claude-blog/using-claude-md-files.md) - ![](https://cdn
 - [Claude 2 on Amazon Bedrock](/claude-blog/claude-2-amazon-bedrock.md) - ![](https://cdn
 - [Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp](/claude-blog/claude-api-skill.md) - ![](https://cdn
 - [Claude Code and new admin controls for business plans](/claude-blog/claude-code-and-new-admin-controls-for-business-plans.md) - ![](https://cdn
