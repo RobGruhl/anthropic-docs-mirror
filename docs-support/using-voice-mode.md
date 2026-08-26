@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787738400&signature=9a846a0dd5765937eb916d1c3675283287ce7bca61c8d7f806281d0499b51d2b&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNS7RtxNdRzYWrfF5%2BOAEeudvHBUDYVrom%0AkwYeb4Ew83vemKvepPE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787749200&signature=f211cbaa494470df96fd8a5472fb91f26b2f308d2260d06adcbdff61e94e70b9&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNTLVrxNdRzYWrfF7hWMs%2FgwvM59y%2Bj3fY%0AzcRMHf%2FInO4HFrllD3s%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787738400&signature=1f61c05370aa92262cd0f12856e70ffdb7e5957fb0d9e47d0d900185382f775b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SY1gOy8OQfYsvK3wA3mfzDg7aHhnVIAo7%0ALQ%2B2u9gkpoM%2BfWZ9KXE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787749200&signature=02b28fa7c1cf75879e46fc2a11953fcba9d996b3df31ec65b058e8da75911a96&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SZFkIy8OQfYsvK3wveV38wlfBeCnoAdpA%0AUOOYrVMi%2FF7XlOu0SLI%3D%0A)
 
  
 
