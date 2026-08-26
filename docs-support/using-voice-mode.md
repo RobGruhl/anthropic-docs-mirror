@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787727600&signature=3e5ac9428de67278b5f740f72e44a79f8c99dafd44b13795cedcecc41d9ceb04&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNSrtvxNdRzYWrfF6CHtAxj61zyWA1ZClM%0AJIBmEafmSIW%2B4J5563g%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787738400&signature=9a846a0dd5765937eb916d1c3675283287ce7bca61c8d7f806281d0499b51d2b&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNS7RtxNdRzYWrfF5%2BOAEeudvHBUDYVrom%0AkwYeb4Ew83vemKvepPE%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787727600&signature=fa66952f5b3b986e77a861e3500b6b55cfa7c4c36469d1d79eea4df973d85215&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SYlcMy8OQfYsvK3xNBTTgR2En7GgvnORH%0AUOEnrX0kYXjBuFeWhSI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787738400&signature=1f61c05370aa92262cd0f12856e70ffdb7e5957fb0d9e47d0d900185382f775b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SY1gOy8OQfYsvK3wA3mfzDg7aHhnVIAo7%0ALQ%2B2u9gkpoM%2BfWZ9KXE%3D%0A)
 
  
 
