@@ -1,6 +1,6 @@
 # Use Claude Cowork on Team and Enterprise plans
 
-*Updated today*
+*Updated in the last hour*
 
 ---
 
@@ -158,7 +158,7 @@ Cowork via Claude, Claude Desktop, and Claude Mobile is captured in the Complian
 
 ### Local conversation storage
 
-For local sessions, Cowork stores conversation history locally on users' computers. This data is not subject to Anthropic's standard **[data retention policies](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)** and cannot be centrally managed or exported by admins. Claude Enterprise admins can retrieve this session content in beta through the Compliance API; deletion endpoints for local sessions aren't available yet.<br>​<br>For sessions in the cloud, your sessions and files are saved to your Claude account.
+For local sessions, Cowork stores conversation history locally on users' computers. This data is not subject to Anthropic's standard **[data retention policies](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data)** and cannot be centrally managed or exported by admins. Claude Enterprise admins can retrieve this session content through the Compliance API; deletion endpoints for local sessions aren't available yet.<br>​<br>For sessions in the cloud, your sessions and files are saved to your Claude account.
 
  
 

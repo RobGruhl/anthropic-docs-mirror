@@ -45,7 +45,7 @@ You may cancel your Pro or Max subscription at any time from the platform you si
 
 ## Related Articles
 
-- [How to change your Pro plan from monthly to annual billing](https://support.claude.com/en/articles/10185996-how-to-change-your-pro-plan-from-monthly-to-annual-billing)
+- [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)
 - [What is the Max plan?](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 - [How do I sign up for the Max plan?](https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)

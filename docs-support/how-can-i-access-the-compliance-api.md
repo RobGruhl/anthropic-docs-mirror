@@ -1,12 +1,10 @@
 # Access the Compliance API
 
-*Updated over 2 weeks ago*
+*Updated in the last hour*
 
 ---
 
 The Compliance API lets your organization programmatically pull activity feed events, chat data, and file content across all your Claude deployments. Use it to monitor, audit, and meet compliance requirements with your own tools.
-
- 
 
  
 
@@ -31,8 +29,8 @@ The Compliance API now includes audit log events, giving you a full view across 
 
 ## Related Articles
 
-- [Business Associate Agreements (BAA) for Commercial Customers](https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers)
-- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
-- [Claude Cowork architecture overview](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)
-- [Get started with Claude for Government](https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government)
+- [Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector)
+- [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
+- [Configure a custom OpenTelemetry collector for Office agents](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents)
+- [Monitor Claude Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry)
 - [Get started with Claude Compliance API integrations](https://support.claude.com/en/articles/15167101-get-started-with-claude-compliance-api-integrations)
