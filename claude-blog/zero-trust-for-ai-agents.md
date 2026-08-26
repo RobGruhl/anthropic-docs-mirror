@@ -61,17 +61,17 @@ Explore more product news and best practices for teams building with Claude.
 
 ### The AI-Native SDLC playbook
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+
+### How Warp builds self-improving agents on Claude
+
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
 ### Bain & Company joins the Claude Partner Network as a Global Premier partner
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
-
-### Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0112e18cdd7f0b92d19e40_Hand-BuildingBricks.svg)
-
-### The new rules of context engineering for Claude 5 generation models
 
 ## Transform how your organization operates with Claude
 

@@ -165,6 +165,10 @@ Explore more product news and best practices for teams building with Claude.
 
 ### The AI-Native SDLC playbook
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d225485fe31f1ed2d9a1_db28a79c9f4492b8471009d4c20e900f234ece48-1000x1000.svg)
+
+### How Warp builds self-improving agents on Claude
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d226ca443e2e05990c00_83d7d2fe412ceb4dfe627f0d5f3d64aff1a3f5db-1000x1000.svg)
 
 ### How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep
@@ -172,10 +176,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/692f76874e94e489958af8ba_Object-CodeMagnifier.svg)
-
-### How monday.com transformed its platform into an agent-first product where humans and agents collaborate
 
 ## Transform how your organization operates with Claude
 

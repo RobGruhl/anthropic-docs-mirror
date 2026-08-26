@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-26 16:15*
+*Last updated: 2026-08-26 19:44*
 Total documents: 241
 ---
 ## Uncategorized (241 documents)
@@ -166,7 +166,7 @@ Total documents: 241
 ### Claude Code model configuration
 **File:** `/docs-support/claude-code-model-configuration.md`  
 **Source:** https://support.claude.com/en/articles/11940350-claude-code-model-configuration  
-**Updated:** 2026-08-24  
+**Updated:** 2026-08-26  
 
 ### Claude Code on the web
 **File:** `/docs-support/claude-code-on-the-web.md`  
@@ -636,7 +636,7 @@ Total documents: 241
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-26  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -711,7 +711,7 @@ Total documents: 241
 ### Migrate your organization from Team to Enterprise
 **File:** `/docs-support/migrate-your-organization-from-team-to-enterprise.md`  
 **Source:** https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-26  
 
 ### Minimum age requirement access restriction
 **File:** `/docs-support/minimum-age-requirement-access-restriction.md`  
@@ -811,7 +811,7 @@ Total documents: 241
 ### Responsible Use of Anthropic's Models: Guidelines for Organizations Serving Minors
 **File:** `/docs-support/responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors.md`  
 **Source:** https://support.claude.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-26  
 
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
@@ -886,7 +886,7 @@ Total documents: 241
 ### Understanding Claude's personalization features
 **File:** `/docs-support/understanding-claude-s-personalization-features.md`  
 **Source:** https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-26  
 
 ### Understanding your billing address and tax calculation
 **File:** `/docs-support/understanding-your-billing-address-and-tax-calculation.md`  
@@ -971,7 +971,7 @@ Total documents: 241
 ### Use Google Workspace connectors
 **File:** `/docs-support/using-the-google-drive-integration.md`  
 **Source:** https://support.claude.com/en/articles/10166901-using-the-google-drive-integration  
-**Updated:** 2026-08-21  
+**Updated:** 2026-08-26  
 
 ### Use connectors to extend Claude's capabilities
 **File:** `/docs-support/pre-built-web-connectors-using-remote-mcp.md`  

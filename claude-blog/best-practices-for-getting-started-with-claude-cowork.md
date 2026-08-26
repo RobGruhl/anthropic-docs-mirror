@@ -151,6 +151,10 @@ Explore more product news and best practices for teams building with Claude.
 
 ### The AI-Native SDLC playbook
 
+![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2308749b4e883cc44b7_e029027e0b3beeb5b629bd4a26143597e7775b38-1000x1000.svg)
+
+### Compliance API coverage extends to Claude Cowork and Claude Code
+
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d22727482c9ba6a02e71_1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg)
 
 ### Bain & Company joins the Claude Partner Network as a Global Premier partner
@@ -158,10 +162,6 @@ Explore more product news and best practices for teams building with Claude.
 ![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d2238ce207f9b2011d3f_e44a6b53398f189b9fd0d4f70516db614ac84db3-1000x1000.svg)
 
 ### Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions
-
-![](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d23008bbc20c0ffaeb6f_43abe7e54b56a891e74a8542944dfbd33f07f49c-1000x1000.svg)
-
-### Centrally manage authorization for MCP connectors
 
 ## Transform how your organization operates with Claude
 
