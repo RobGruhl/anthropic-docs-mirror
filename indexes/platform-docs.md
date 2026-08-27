@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-27 00:25*
+*Last updated: 2026-08-27 13:27*
 Total documents: 684
 ---
 ## Uncategorized (684 documents)
@@ -41,7 +41,7 @@ Total documents: 684
 ### about-claude__pricing
 **File:** `/platform-docs/about-claude__pricing.md`  
 **Source:** https://platform.claude.com/docs/en/about-claude/pricing  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-27  
 
 ### about-claude__use-case-guides__content-moderation
 **File:** `/platform-docs/about-claude__use-case-guides__content-moderation.md`  
@@ -2081,7 +2081,7 @@ Total documents: 684
 ### build-with-claude__claude-platform-on-aws
 **File:** `/platform-docs/build-with-claude__claude-platform-on-aws.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-27  
 
 ### build-with-claude__compaction
 **File:** `/platform-docs/build-with-claude__compaction.md`  
@@ -2366,22 +2366,22 @@ Total documents: 684
 ### compliance
 **File:** `/platform-docs/compliance.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__activities
 **File:** `/platform-docs/compliance__activities.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__activities__list
 **File:** `/platform-docs/compliance__activities__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/activities/list  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps
 **File:** `/platform-docs/compliance__apps.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__artifacts
 **File:** `/platform-docs/compliance__apps__artifacts.md`  
@@ -2521,32 +2521,32 @@ Total documents: 684
 ### compliance__apps__sessions
 **File:** `/platform-docs/compliance__apps__sessions.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__local
 **File:** `/platform-docs/compliance__apps__sessions__local.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__local__list
 **File:** `/platform-docs/compliance__apps__sessions__local__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/list  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__local__messages
 **File:** `/platform-docs/compliance__apps__sessions__local__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/messages  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__local__messages__list
 **File:** `/platform-docs/compliance__apps__sessions__local__messages__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/messages/list  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__local__retrieve
 **File:** `/platform-docs/compliance__apps__sessions__local__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/retrieve  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__apps__sessions__remote
 **File:** `/platform-docs/compliance__apps__sessions__remote.md`  
@@ -2621,7 +2621,7 @@ Total documents: 684
 ### compliance__organizations
 **File:** `/platform-docs/compliance__organizations.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__organizations__list
 **File:** `/platform-docs/compliance__organizations__list.md`  
@@ -2656,12 +2656,12 @@ Total documents: 684
 ### compliance__organizations__settings
 **File:** `/platform-docs/compliance__organizations__settings.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__organizations__settings__retrieve
 **File:** `/platform-docs/compliance__organizations__settings__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### compliance__organizations__users
 **File:** `/platform-docs/compliance__organizations__users.md`  
@@ -2771,7 +2771,7 @@ Total documents: 684
 ### manage-claude__cmek-aws-kms
 **File:** `/platform-docs/manage-claude__cmek-aws-kms.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-27  
 
 ### manage-claude__cmek-azure-key-vault
 **File:** `/platform-docs/manage-claude__cmek-azure-key-vault.md`  
@@ -2786,7 +2786,7 @@ Total documents: 684
 ### manage-claude__cmek
 **File:** `/platform-docs/manage-claude__cmek.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/cmek  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-27  
 
 ### manage-claude__compliance-activity-feed
 **File:** `/platform-docs/manage-claude__compliance-activity-feed.md`  

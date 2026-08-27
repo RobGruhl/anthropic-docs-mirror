@@ -1,5 +1,5 @@
 # Support Articles Index
-*Last updated: 2026-08-27 00:25*
+*Last updated: 2026-08-27 13:27*
 Total documents: 241
 ---
 ## Uncategorized (241 documents)
@@ -141,7 +141,7 @@ Total documents: 241
 ### Change your Team plan from monthly to annual billing
 **File:** `/docs-support/how-to-change-your-team-plan-from-monthly-to-annual-billing.md`  
 **Source:** https://support.claude.com/en/articles/12083917-how-to-change-your-team-plan-from-monthly-to-annual-billing  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-27  
 
 ### Choose a Claude plan
 **File:** `/docs-support/choosing-a-claude-plan.md`  
@@ -416,7 +416,7 @@ Total documents: 241
 ### How can I create and manage projects?
 **File:** `/docs-support/how-can-i-create-and-manage-projects.md`  
 **Source:** https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### How can I delete my Claude Console account?
 **File:** `/docs-support/how-can-i-delete-my-claude-console-account.md`  
@@ -956,7 +956,7 @@ Total documents: 241
 ### Use Claude with Android apps
 **File:** `/docs-support/using-claude-with-android-apps.md`  
 **Source:** https://support.claude.com/en/articles/11869629-using-claude-with-android-apps  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-27  
 
 ### Use Claude with iOS apps
 **File:** `/docs-support/using-claude-with-ios-apps.md`  
