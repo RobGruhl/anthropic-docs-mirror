@@ -47,7 +47,7 @@ The **Usage** tab displays the following metrics for your organization. Data on 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1787775300&signature=7ad2fdfe69dd01ee2ba0752677aac0a789f59f190cb82d0655ec16304063f3cf&req=dScmEcx5lINYXvMW1HO4zfiEP6FXiHzNCX9h5MbdDjOojCGWDnYz56%2BmlEUL%0A0jEQusq8lo%2FKFiPp7XQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1787792400&signature=d44038ab51baadcc5c35508e4037042a0a56e3d8dc7e8fe943864995756c6894&req=dScmEcx5lINYXvMW1HO4zfiEP6FXhnvKCX9h5MbdDjNwA5Hb%2FhwG0okf%2BtCV%0Aism0yFImamOeqGCQHTc%3D%0A)
 
  
 

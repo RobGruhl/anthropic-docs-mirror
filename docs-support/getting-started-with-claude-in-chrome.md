@@ -1,6 +1,6 @@
 # Get started with Claude in Chrome
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -9,6 +9,8 @@ Claude in Chrome is a browser extension that allows Claude to read, click, and n
  
 
 ---
+
+ 
 
 ## Where you can use Claude in Chrome
 
@@ -28,16 +30,14 @@ This integration is especially useful for design verification (comparing Figma m
 
 When you start a chat, task, or session in Claude Cowork that touches a website, Claude can open the browser directly in Chrome and do the work, clicking, typing, and filling out forms the way a person would. You can let Claude handle work in the browser without switching windows.
 
- 
-
-Follow these steps to enable the Claude in Chrome connector in your desktop app:
+Follow these steps to connect Claude in Chrome in your desktop app:
 
 1. Click your initials in the lower left corner, then select “Settings.”
 2. Navigate to “Connectors.”
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1787775300&signature=ed76b9204759ec9485ecaab0334a10b813d9241686e060f7a257b258d279967c&req=diYnEsB9noleWPMW1HO4zUOPbPvBkeeOnt%2F2nPMwUPhD8lXtfPdt3c4MsVUt%0Am8BOmo5d5r4U%2FtXRb7U%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1787896800&signature=711bbc3805fd2ceac2ed0f38c88b5647f5364d19f890b02142a491f570a29d01&req=diYnEsB9noleWPMW3nq%2BgYRoBvFK8e7NNt1ouCD7O2iMkRRKXBOxZa37nKzb%0AlL7GFas%2BCPl8IHOD8pB0cm83mYU%3D%0A)
 
  
 
@@ -65,7 +65,7 @@ The side panel is a good fit for in-the-moment browsing tasks:
 
 The side panel starts in "Automatically approve" mode: Claude works continuously, reviews each action for safety, and pauses to ask you when something needs your approval. If you switch to a different mode, **the side panel keeps your choice for future sessions**. Learn more in the[ Claude in Chrome permissions guide](https://support.claude.com/en/articles/12902446).
 
-To open the side panel, click the Claude icon in your Chrome toolbar. It stays visible while you browse. If you haven't installed the extension yet, see **[Install Claude in Chrome](#h_e0aabae2db)** below.
+To open the side panel, click the Claude icon in your Chrome toolbar. It stays visible while you browse. If you haven't installed the extension yet, see **[Install Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome#h_e0aabae2db)** below.
 
 **To switch back to the classic side panel:**
 

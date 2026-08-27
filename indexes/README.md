@@ -1,8 +1,8 @@
 # Claude Documentation Index
-*Last updated: 2026-08-26 19:44*
+*Last updated: 2026-08-27 00:25*
 
 ## Quick Stats
-- **Total Documents:** 1850
+- **Total Documents:** 1852
 - **Platform Docs:** 684
 - **Claude Code Docs:** 191
 - **MCP Docs:** 168
@@ -11,7 +11,7 @@
 - **Anthropic News:** 192
 - **MCP Blog:** 13
 - **Engineering Blog:** 25
-- **Claude.com Blog:** 228
+- **Claude.com Blog:** 230
 - **Support Articles:** 241
 - **Topics:** 84
 
@@ -26,7 +26,7 @@
 - [Anthropic News](anthropic-news.md) - 192 news articles from anthropic.com/news
 - [MCP Blog](mcp-blog.md) - 13 posts from blog.modelcontextprotocol.io
 - [Engineering Blog](engineering-blog.md) - 25 technical posts from anthropic.com/engineering
-- [Claude.com Blog](claude-blog.md) - 228 product/API posts from claude.com/blog
+- [Claude.com Blog](claude-blog.md) - 230 product/API posts from claude.com/blog
 - [Support Articles](support-articles.md) - 241 help articles from support.claude.com
 
 ### By Topic
@@ -35,13 +35,13 @@
 - [Partnerships](topics/partnerships.md) - 191 documents
 - [Products](topics/products.md) - 187 documents
 - [Announcements](topics/announcements.md) - 177 documents
-- [Agents](topics/agents.md) - 166 documents
+- [Agents](topics/agents.md) - 167 documents
 - [Company](topics/company.md) - 157 documents
 - [Policy](topics/policy.md) - 127 documents
 - [Specification](topics/specification.md) - 103 documents
 - [Evaluations](topics/evaluations.md) - 101 documents
 - [Societal Impacts](topics/societal-impacts.md) - 100 documents
-- [Tools](topics/tools.md) - 97 documents
+- [Tools](topics/tools.md) - 98 documents
 - [Capabilities](topics/capabilities.md) - 77 documents
 - [Safety](topics/safety.md) - 69 documents
 - [Api](topics/api.md) - 63 documents

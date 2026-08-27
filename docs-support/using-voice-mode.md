@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787775300&signature=1cfa903136057e5f3e71f4687aebdf9bbb0540d2150f359710d2193e05082329&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNT7lqxNdRzYWrfF47QnhSslMlMoyAswzk%0AdNZ6IF%2FMkPfvXWjX74c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787792400&signature=baf52395e1328c83f05ac5d3971bfd0f5ef031feb2f7e6ab55135f10752d4558&req=diAjFMp7n4FZWfMW1HO4zU6VRfrNQb5txNdRzYWrfF7PXI0YlmzjL9LXF9Vz%0AvHupU7e%2FIidLe5L42T4%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787775300&signature=e545f144d1e2eac06edcdb0ae52c8957e24ab6628e78d4f7468e6f05fd29a370&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SZ1UJy8OQfYsvK3y2Eo1TLIzjmFzZ%2BujQ%0Aet2Eo3pwmWB7E90I204%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787792400&signature=b18b1c6876b89fd255a43b76659470994b0c3d311b223dc7dd13c3fd377dba4b&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2SaVIOy8OQfYsvK3zpaJ4q5mdwLuGcFbDk%0AISMAbDBYbRXUpdWBeSk%3D%0A)
 
  
 

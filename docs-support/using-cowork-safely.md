@@ -1,16 +1,12 @@
 # Use Claude Cowork safely
 
-*Updated yesterday*
+*Updated today*
 
 ---
 
 Cowork sessions run in the cloud on Anthropic's servers (in beta), and Claude reaches your files, browser, and apps through the Claude Desktop app.  These capabilities come with risks worth understanding. This article covers what we've built to keep you safe, what you should watch for, and how to protect yourself when using Cowork. 
 
- 
-
 ---
-
- 
 
 ## Understanding the risks
 
@@ -54,7 +50,7 @@ For prompt injection attacks to be successful, two things must be true at the sa
 **To minimize risks:**
 
 - Avoid granting access to local files with sensitive information, like financial documents.
-- Be deliberate about which sites Claude works in through Claude in Chrome, especially sites where you're signed in or that handle money or personal information.
+- Be deliberate about which sites Claude works in, whether through the built-in browser or Claude in Chrome, especially sites where you're signed in or that handle money or personal information.
 - Extend internet access only to sites you trust.
 - Monitor Claude for suspicious actions that may indicate prompt injection.
 - Ensure you’re using trusted MCPs (as always).
@@ -66,11 +62,7 @@ Cowork via mobile and web is captured in Compliance API. Learn more about **[ret
 
 Team and Enterprise owners can also stream Cowork events to your SIEM and observability tools through OpenTelemetry. For setup, supported events, and security considerations, see **[Monitor Cowork activity with OpenTelemetry](https://support.claude.com/en/articles/14477985-monitor-cowork-activity-with-opentelemetry)**.
 
- 
-
 ---
-
- 
 
 ## Our safety measures
 
@@ -83,11 +75,7 @@ We've implemented multiple layers of protection:
 - **Deletion protection:** Cowork requires your explicit permission before permanently deleting any files. You'll see a permission prompt and must select "Allow" before Claude can perform deletion tasks.
 - **Computer use safeguards:** When Claude uses your computer, it asks for your permission before accessing each application. For full details, see **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542-computer-use-safety)**.
 
- 
-
 ---
-
- 
 
 ## Protect yourself from malicious attackers
 
@@ -191,11 +179,7 @@ If your organization manages your computer, note that connecting local folders m
 
 If Claude suddenly starts discussing unrelated topics, attempts to access unexpected resources, or requests sensitive information unprompted, stop the task and report it to [usersafety@anthropic.com](mailto:usersafety@anthropic.com) or use the in-app feedback button. Your reports help us improve our defenses.
 
- 
-
 ---
-
- 
 
 ## Your responsibility
 

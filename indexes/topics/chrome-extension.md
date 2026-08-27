@@ -1,9 +1,10 @@
 # Chrome Extension Topic Index
-*Last updated: 2026-08-26 19:44*
+*Last updated: 2026-08-27 00:25*
 
-Documents related to Chrome Extension across all sources (2 documents)
+Documents related to Chrome Extension across all sources (3 documents)
 ---
-## Claude.com Blog Posts (2)
+## Claude.com Blog Posts (3)
+- [Claude in Chrome is generally available](/claude-blog/claude-in-chrome-generally-available.md) - ![](https://cdn
 - [The Claude in Chrome side panel is now Claude Cowork](/claude-blog/cowork-chrome-side-panel.md) - ![](https://cdn
 - [Wir testen Claude in Chrome](/claude-blog/claude-for-chrome.md) - ![](https://cdn
 

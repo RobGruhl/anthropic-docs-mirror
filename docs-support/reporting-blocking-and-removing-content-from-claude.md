@@ -1,6 +1,6 @@
 # Report, block, and remove content from Claude
 
-*Updated over 2 weeks ago*
+*Updated over 3 weeks ago*
 
 ---
 

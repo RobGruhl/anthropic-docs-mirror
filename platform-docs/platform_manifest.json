@@ -4735,10 +4735,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/mcp-connector",
-      "hash": "6dc52a05ab8cfb9e177074e69479ff075b7c3811a66dcbad42e2d2a32ffc8642",
+      "hash": "c67e564ccf8a74a9f1626a6fc0426c460f10d4a4da544f8cdd059f4a35724118",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.496158"
+      "last_updated": "2026-08-27T00:21:03.753608"
     },
     "agents-and-tools__mcp-tunnels__concepts.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/concepts",
@@ -5085,10 +5085,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md",
       "category": "developer-guide",
       "path": "/docs/en/agents-and-tools/tool-use/web-fetch-tool",
-      "hash": "cfae449adca24f924f0e675d040ab3eaba3c9aae0094a62a18a98759f406b364",
+      "hash": "f30ed5d6063f65cc2c116dc10c91e6d03a599a3f15fb35b5aaae5cf2e1883a15",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-20T21:18:48.825580"
+      "last_updated": "2026-08-27T00:21:03.758402"
     },
     "agents-and-tools__tool-use__web-search-tool.md": {
       "original_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
@@ -5145,10 +5145,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/claude-in-microsoft-foundry",
-      "hash": "97fe1fc19447580e3fdcfd39eb8033eb4eae3f72d020031064add2dd121f9435",
+      "hash": "1572f53ed55399a140b0f509b29f2caa28efcca8d44d8f2fab15545847703770",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-20T21:18:48.826468"
+      "last_updated": "2026-08-27T00:21:03.759288"
     },
     "build-with-claude__claude-on-amazon-bedrock-legacy.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy",
@@ -5315,10 +5315,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/overview",
-      "hash": "17c9d3761ee19d9b7fb8830f7b42b0c2c6b3bc4e30ae1fcb1f55e7c54395e239",
+      "hash": "d65b33533f427dcb1223d3703bb453331c0d2003b32a641b3f0a164153d11cc4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-26T16:09:51.082471"
+      "last_updated": "2026-08-27T00:21:03.761984"
     },
     "build-with-claude__pdf-support.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/pdf-support",
@@ -5445,10 +5445,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/structured-outputs",
-      "hash": "bdf54ac18c5cf1b9b53984da5f6fac910a6ff369d5a2ae072a23c1823c3fd590",
+      "hash": "bb038f6a030ea933c0756203828cb5ffe203086d46f94ff9c9710ae4feefe671",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-21T21:14:21.509363"
+      "last_updated": "2026-08-27T00:21:03.764010"
     },
     "build-with-claude__task-budgets.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
@@ -6842,14 +6842,14 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-26T19:38:42.859438",
-    "fetch_duration_seconds": 24.46367,
+    "last_fetch_completed": "2026-08-27T00:21:03.784699",
+    "fetch_duration_seconds": 14.775991,
     "total_pages_discovered": 686,
     "pages_fetched_successfully": 684,
     "pages_failed": 2,
-    "pages_unchanged": 446,
-    "pages_updated": 166,
-    "pages_new": 72,
+    "pages_unchanged": 679,
+    "pages_updated": 5,
+    "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
       "/docs/en/home",
@@ -6868,5 +6868,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-26T19:38:42.859614"
+  "last_updated": "2026-08-27T00:21:03.784884"
 }

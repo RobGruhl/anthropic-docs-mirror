@@ -1,7 +1,7 @@
 # Agents Topic Index
-*Last updated: 2026-08-26 19:44*
+*Last updated: 2026-08-27 00:25*
 
-Documents related to Agents across all sources (166 documents)
+Documents related to Agents across all sources (167 documents)
 ---
 ## Platform Documentation (platform.claude.com) (42)
 - [agents-and-tools__agent-skills__best-practices](/platform-docs/developer-guide/agents-and-tools__agent-skills__best-practices.md)
@@ -66,7 +66,7 @@ Documents related to Agents across all sources (166 documents)
 - [Scaling Managed Agents: Decoupling the brain from the hands](/engineering-blog/managed-agents.md) - Anthropic is an AI safety and research company that's working to build reliab...
 - [Writing effective tools for agents — with agents](/engineering-blog/writing-tools-for-agents.md) - Writing effective tools for AI agents—using AI agents
 
-## Claude.com Blog Posts (107)
+## Claude.com Blog Posts (108)
 - [2026년 소프트웨어 개발 방향을 규정하는 8가지 트렌드](/claude-blog/eight-trends-defining-how-software-gets-built-in-2026.md) - ![](https://cdn
 - [A harness for every task: dynamic workflows in Claude Code](/claude-blog/a-harness-for-every-task-dynamic-workflows-in-claude-code.md) - ![](https://cdn
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](/claude-blog/harnessing-claudes-intelligence.md) - ![](https://cdn
@@ -116,6 +116,7 @@ Documents related to Agents across all sources (166 documents)
 - [How CodeRabbit used Claude to build an agent orchestration system](/claude-blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system.md) - ![](https://cdn
 - [How Datadog built a “universal machine tool” for Claude Code](/claude-blog/how-datadog-built-a-universal-machine-tool-for-claude-code.md) - ![](https://cdn
 - [How Outtake built a cyber investigator on Claude](/claude-blog/how-outtake-built-a-cyber-investigator-on-claude.md) - ![](https://cdn
+- [How Warp builds self-improving agents on Claude](/claude-blog/how-warp-builds-self-improving-agents-on-claude.md) - ![](https://cdn
 - [How and when to use subagents in Claude Code](/claude-blog/subagents-in-claude-code.md) - ![](https://cdn
 - [How monday.com transformed its platform into an agent-first product where humans and agents collaborate](/claude-blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate.md) - ![](https://cdn
 - [How people are using Claude Cowork](/claude-blog/how-people-are-using-claude-cowork.md) - ![](https://cdn

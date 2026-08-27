@@ -1,6 +1,6 @@
 # Enable and use web search
 
-*Updated over 2 weeks ago*
+*Updated today*
 
 ---
 
@@ -19,13 +19,13 @@ Web search expands Claude's knowledge with real-time data, helping you make bett
 
  
 
-## How to enable web search in a chat
+## Enable web search in a chat
 
-1. Click on the slider icon in your chat input interface.
-2. Locate **Web search** in the dropdown.
-3. Switch the toggle on.
+1. Click on the “+” button in the lower left corner of the chat window.
+2. Find "Web search” in the dropdown and click on it.
+3. A checkmark will appear next to “Web search” when it’s enabled.
 
-You can disable the feature at any time by following the same steps and turning the toggle off.
+You can disable the feature at any time by clicking “Web search” again.
 
  
 
@@ -56,7 +56,7 @@ When “Web search” is toggled on, Claude can also retrieve content directly f
 
 ## Image results
 
-When web search is enabled, Claude can also search for and display images directly in your conversation. You don't need to enable a separate setting — image results are part of web search.
+When web search is enabled, Claude can also search for and display images directly in your conversation. You don't need to enable a separate setting—image results are part of web search.
 
  
 
@@ -71,7 +71,7 @@ Claude selects images from web search results, powered by Bing, and displays the
 
  
 
-Image search is powered by Bing ([https://www.microsoft.com/en-us/privacy/privacystatement](https://www.microsoft.com/en-us/privacy/privacystatement)).
+Image search is powered by Bing (**[Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement)**).
 
  
 
@@ -79,7 +79,7 @@ Claude can also display interactive content in search results. For more detailed
 
  
 
-## Managing usage on free Claude accounts
+## Manage usage on free Claude accounts
 
 As a free user, you have daily usage limits for Claude. Since web search and fetch both contribute to these limits, here are some tips to make the most of your capacity:
 
@@ -89,9 +89,9 @@ As a free user, you have daily usage limits for Claude. Since web search and fet
 
 To disable web search and conserve your capacity:
 
-1. Click on the slider icon in the lower left corner of your chat input.
-2. Find **Web search** in the dropdown.
-3. Toggle it off.
+1. Click on the “+” button in the lower left corner of the chat window.
+2. Find "Web search” in the dropdown and click on it.
+3. The checkmark next to “Web search” will disappear when it’s disabled.
 
 You can re-enable it anytime you need current information.
 
@@ -123,7 +123,7 @@ You can re-enable it anytime you need current information.
 ## Support
 
 - For web search questions or support, please visit our **[Online Safety Contacts](https://support.claude.com/en/articles/11174660-online-safety-contacts)** page.
-- For content removal requests, please visit our **[Blocking and Removing Content from Claude](https://support.claude.com/en/articles/10684638-reporting-blocking-and-removing-content-from-claude)** page.
+- For content removal requests, please visit our **[Report, block, and remove content from Claude](https://support.claude.com/en/articles/10684638)** page.
 
 
 ---
