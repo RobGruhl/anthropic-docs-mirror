@@ -1,12 +1,12 @@
 # Support Articles Index
-*Last updated: 2026-08-28 00:13*
+*Last updated: 2026-08-28 14:47*
 Total documents: 241
 ---
 ## Uncategorized (241 documents)
 ### API Key Best Practices: Keeping Your Keys Safe and Secure
 **File:** `/docs-support/api-key-best-practices-keeping-your-keys-safe-and-secure.md`  
 **Source:** https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### API Safeguards Tools
 **File:** `/docs-support/api-safeguards-tools.md`  
@@ -116,7 +116,7 @@ Total documents: 241
 ### Can you delete data that I sent via Team and Enterprise plans?
 **File:** `/docs-support/can-you-delete-data-that-i-sent-via-team-and-enterprise-plans.md`  
 **Source:** https://support.claude.com/en/articles/9796617-can-you-delete-data-that-i-sent-via-team-and-enterprise-plans  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### Cancel your Pro or Max subscription
 **File:** `/docs-support/how-do-i-cancel-my-paid-claude-subscription.md`  
@@ -356,7 +356,7 @@ Total documents: 241
 ### Get started with Claude Cowork
 **File:** `/docs-support/getting-started-with-cowork.md`  
 **Source:** https://support.claude.com/en/articles/13345190-getting-started-with-cowork  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### Get started with Claude for Education at your university (for Owners/Admins)
 **File:** `/docs-support/getting-started-with-claude-for-education-at-your-university-for-owners-admins.md`  
@@ -366,7 +366,7 @@ Total documents: 241
 ### Get started with Claude in Chrome
 **File:** `/docs-support/getting-started-with-claude-in-chrome.md`  
 **Source:** https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### Get started with custom connectors using remote MCP
 **File:** `/docs-support/get-started-with-custom-connectors-using-remote-mcp.md`  
@@ -496,7 +496,7 @@ Total documents: 241
 ### How does Claude handle mathematical equations and calculations?
 **File:** `/docs-support/how-does-claude-handle-mathematical-equations-and-calculations.md`  
 **Source:** https://support.claude.com/en/articles/10366421-how-does-claude-handle-mathematical-equations-and-calculations  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### How is my Team plan bill calculated?
 **File:** `/docs-support/how-is-my-team-plan-bill-calculated.md`  
@@ -636,7 +636,7 @@ Total documents: 241
 ### I’ve been using other large language models (LLMs) to power my product. How should I alter my prompts when switching to Claude?
 **File:** `/docs-support/i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114533-i-ve-been-using-other-large-language-models-llms-to-power-my-product-how-should-i-alter-my-prompts-when-switching-to-claude  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### Join an organization via invite link
 **File:** `/docs-support/join-an-organization-via-invite-link.md`  
@@ -816,7 +816,7 @@ Total documents: 241
 ### Restrict access to Claude with IP allowlisting
 **File:** `/docs-support/restrict-access-to-claude-with-ip-allowlisting.md`  
 **Source:** https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### Retrieval augmented generation (RAG) for projects
 **File:** `/docs-support/retrieval-augmented-generation-rag-for-projects.md`  
@@ -1096,7 +1096,7 @@ Total documents: 241
 ### What interfaces can I use to access Claude?
 **File:** `/docs-support/what-interfaces-can-i-use-to-access-claude.md`  
 **Source:** https://support.claude.com/en/articles/8114487-what-interfaces-can-i-use-to-access-claude  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### What is Amazon Bedrock?
 **File:** `/docs-support/what-is-amazon-bedrock.md`  

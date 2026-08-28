@@ -5265,10 +5265,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/files.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/files",
-      "hash": "f9abbc6b7a0dc8c76461d10ea6e1efc6496c19541b8b6f67bfbb3cb24b74e825",
+      "hash": "86207156ce28f29f67e05ae034fc7b1f6c125e4485b44d553f49127c6503e4af",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-28T00:09:43.323776"
+      "last_updated": "2026-08-28T14:43:15.119087"
     },
     "build-with-claude__handling-stop-reasons.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
@@ -5425,10 +5425,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md",
       "category": "developer-guide",
       "path": "/docs/en/build-with-claude/skills-guide",
-      "hash": "3e847ac3c3ecfb80a6a503df67461b0b8dfde39ed82fb362c0a9e106a4f144d9",
+      "hash": "5f4027c2b6a669605a323fb09b7f5a2608e9e9274034fd8c7ecc3a51437a45a4",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-28T00:09:43.326757"
+      "last_updated": "2026-08-28T14:43:15.121953"
     },
     "build-with-claude__streaming.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
@@ -6595,10 +6595,10 @@
       "original_md_url": "https://platform.claude.com/docs/en/release-notes/overview.md",
       "category": "developer-guide",
       "path": "/docs/en/release-notes/overview",
-      "hash": "0a43dc88d55cd8db2be024ce9999c1bdee00edba13f1fa9bbe3880eabe4ce1a0",
+      "hash": "13cf227f2de9e8d5c290b3c73898b6a83d304424131c39f5c4531572dfc4cded",
       "etag": null,
       "last_modified": null,
-      "last_updated": "2026-08-28T00:09:43.345653"
+      "last_updated": "2026-08-28T14:43:15.137999"
     },
     "release-notes__system-prompts__claude-fable-5.md": {
       "original_url": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5",
@@ -6842,13 +6842,13 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-08-28T00:09:43.354163",
-    "fetch_duration_seconds": 10.868897,
+    "last_fetch_completed": "2026-08-28T14:43:15.145796",
+    "fetch_duration_seconds": 15.675484,
     "total_pages_discovered": 686,
     "pages_fetched_successfully": 684,
     "pages_failed": 2,
-    "pages_unchanged": 557,
-    "pages_updated": 127,
+    "pages_unchanged": 681,
+    "pages_updated": 3,
     "pages_new": 0,
     "pages_skipped_304": 0,
     "failed_pages": [
@@ -6868,5 +6868,5 @@
   "github_repository": "RobGruhl/anthropic-docs-mirror",
   "github_ref": "main",
   "source_site": "platform.claude.com",
-  "last_updated": "2026-08-28T00:09:43.354370"
+  "last_updated": "2026-08-28T14:43:15.145982"
 }

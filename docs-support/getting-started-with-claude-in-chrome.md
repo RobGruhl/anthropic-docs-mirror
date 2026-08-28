@@ -1,6 +1,6 @@
 # Get started with Claude in Chrome
 
-*Updated today*
+*Updated yesterday*
 
 ---
 
@@ -37,7 +37,7 @@ Follow these steps to connect Claude in Chrome in your desktop app:
 3. Find **Claude in Chrome** in the list and click “Configure.”
 4. Toggle the connector on, then download and install the extension if you haven’t already.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1787896800&signature=711bbc3805fd2ceac2ed0f38c88b5647f5364d19f890b02142a491f570a29d01&req=diYnEsB9noleWPMW3nq%2BgYRoBvFK8e7NNt1ouCD7O2iMkRRKXBOxZa37nKzb%0AlL7GFas%2BCPl8IHOD8pB0cm83mYU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604933811/ae37c41fc808dbdf48d135338334/6cc9ba4b-9d31-43a2-ab80-8048b5f9d791?expires=1787930100&signature=8e8594a565b73166dc01403e7fbaf53552088beb33d73b3611fb8aba40ec77ce&req=diYnEsB9noleWPMW1HO4zUOPbPvPleKMnt%2F2nPMwUPhVRoZ2gKuNSe%2FSNubu%0A5gjdxDXX%2FH0vSCtlvMU%3D%0A)
 
  
 
