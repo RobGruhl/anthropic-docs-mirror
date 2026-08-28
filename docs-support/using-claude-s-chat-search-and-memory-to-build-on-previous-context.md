@@ -1,6 +1,6 @@
 # Use Claude’s chat search and memory to build on previous context
 
-*Updated yesterday*
+*Updated this week*
 
 ---
 
@@ -45,7 +45,7 @@ Yes, navigate to **[Settings > Memory](https://claude.ai/new#settings/customize-
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1787839200&signature=a5dd601bea5d07edd1ff0845a309b3020ef18bc3f84d330b4f2469457e8b143d&req=diUkFc12n4VcUPMW1HO4zY9IRA1kVth1YNcz5nFaZkGZwA4OmFlK8t18z2VA%0A3xuL0iNB93p6FgMe0LM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482439/4dee2d7b267f865205feefc8f4f3/cb60c334-d1e2-4828-a01d-dfb36bbaa7eb?expires=1787877900&signature=d55867726a05d37e682ec935bd29139b603d532604201024de3e55aec942530b&req=diUkFc12n4VcUPMW1HO4zY9IRA1kUtZ%2BYNcz5nFaZkGopegD44QKj2mxHLP1%0A1cUU%2F2Uo5JcL5Oj7KOQ%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ What Claude remembers from your chats is available when you hand it a task in Co
 
 You can toggle Claude’s memory on by navigating to **[Settings > Memory](https://claude.ai/new#settings/customize-memory)** and turning on **Generate memory from chats**:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1787839200&signature=fc56a9832e3d36330665be7e4753a975bdf658bad6f6c10e68ba864d5e796ff3&req=diUkFc12n4VbWPMW1HO4zRlYrpxl4VkuNshWSMEMw9eTJfPnrlRrb09jJ40E%0ALQIgSx%2BPER2zVBS%2BkJc%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533482441/b5c806a8e3f68bf34c4a70724d38/d30be013-d099-4c93-99d1-23d404792f08?expires=1787877900&signature=c7d0369a20cf82c9484d0cd253587e2f88eb03dc47a114c706375b2c942ba915&req=diUkFc12n4VbWPMW1HO4zRlYrpxl5VclNshWSMEMw9f1zc6Me0jh%2Fg4ckcWn%0AzV8vxPZWWjUcBn0pOvs%3D%0A)
 
  
 
@@ -266,7 +266,7 @@ Yes, navigate to **[Settings > Capabilities](https://claude.ai/settings/capabili
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1787839200&signature=72ef329c8abb5c4d328802cc25f6c3ad579888ef81cbf2f3205c5a0651c16603&req=dScmH859nYlXUPMW1HO4zRzXH1g4IDjAJG68qZhl781Y00r8%2BvA8q69Hcqi7%0AydI1WPVQhvYePIrNpeo%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730889/3fafbf5ecaa0ae31d7d84a66229b/c25536c1-7433-4b94-a5e9-cd5acf97a4fd?expires=1787877900&signature=808e06b5dcaa24adaf72a2f18281e2ed624a060c09e91d8cf676a5c1ab7f34e5&req=dScmH859nYlXUPMW1HO4zRzXH1g4JDbLJG68qZhl783r%2FvAurQxIeQwJP6Z9%0A6FYPXJK%2Bba2oBFlZDkw%3D%0A)
 
  
 
@@ -276,7 +276,7 @@ When starting a new chat with Claude outside of a project, you'll see a ghost ic
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1787839200&signature=bdd22c61097a9329ec87880e6c91b3197a827b644774476d7250c0d81da86a90&req=dScmH859nYlWWvMW1HO4za54sKRkP4%2B5XDpzhlKsgjMiHzaeUwFBDJuv3e7s%0Azfo%2FLNMkoP6OtTHAL5E%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730893/9549b21954e0070ceb6b85231fd5/88e59234-6fc2-4229-84fe-733b33efff26?expires=1787877900&signature=149b670693ffd16cdfaf270c97ceb2d5ec6f603c205e4a4f60195915024480b3&req=dScmH859nYlWWvMW1HO4za54sKRkO4GyXDpzhlKsgjP34U5y39y7Qdy3q2sx%0AtZmvLQ2Z6N83W75P59c%3D%0A)
 
  
 
@@ -318,7 +318,7 @@ You can toggle Claude’s memory on by navigating to **[Settings > Capabilities]
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1787839200&signature=4e8b865f428e4939c02b84a7dbd9292e292f6b84526a0aba80aaec5ad2b3abd3&req=dScmH859nYlWW%2FMW1HO4zTD5MMbudO1HBq9N9dRTKYedPsqP0UX18uIPk1xv%0A%2Bks8HQeM7eFRO4IrBaE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719730892/62f9f2b68d675a8e33393f06024f/89198978-192f-4c52-915d-5294b16f3fe1?expires=1787877900&signature=4683d8c1d915474f3a7a9a1de08c30cc6428c2756176fb3572f74d2a8f42773f&req=dScmH859nYlWW%2FMW1HO4zTD5MMbucONMBq9N9dRTKYef83nDqV8kMc23n1Cr%0AIvwr2pIh94sec9S91wY%3D%0A)
 
  
 
@@ -436,8 +436,8 @@ Team plans do not have organization-level controls for memory features. Individu
 
 ## Related Articles
 
-- [Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)
 - [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 - [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)
 - [Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)
 - [Organize your tasks with projects in Claude Cowork](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork)
+- [Use analytics chat to ask Claude about usage](https://support.claude.com/en/articles/14729354-use-analytics-chat-to-ask-claude-about-usage)

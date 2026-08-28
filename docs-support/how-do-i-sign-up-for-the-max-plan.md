@@ -1,6 +1,6 @@
 # How do I sign up for the Max plan?
 
-*Updated today*
+*Updated over a month ago*
 
 ---
 
@@ -55,4 +55,4 @@ After subscribing for a Max plan, your subscription will be set to automatically
 - [Choose a Claude plan](https://support.claude.com/en/articles/11049762-choose-a-claude-plan)
 - [Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - [Holiday 2025 Usage Promotion](https://support.claude.com/en/articles/13163666-holiday-2025-usage-promotion)
-- [Use the Claude Agent SDK with your Claude plan](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)
+- [Understanding your Pro or Max plan invoices](https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices)

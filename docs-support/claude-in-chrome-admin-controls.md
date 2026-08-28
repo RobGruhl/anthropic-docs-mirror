@@ -1,6 +1,6 @@
 # Claude in Chrome admin controls
 
-*Updated today*
+*Updated in the last 15 minutes*
 
 ---
 
@@ -24,7 +24,7 @@ To manage Claude in Chrome settings for your organization:
 Use the **Enable for your team** toggle to enable or disable Claude in Chrome for your entire organization.
 
 - **Team plans:** The extension is enabled by default. Disable it if you prefer users not to have access.
-- **Enterprise plans:** The extension is disabled by default. Enable it when you're ready for users to access the feature.
+- **Enterprise plans:** The extension is disabled by default. Starting September 10, 2026, it turns on by default.
 
 Claude in Chrome and Claude Cowork are managed separately. Enabling Claude in Chrome for your organization lets users use the extension. Whether Claude can use it within Cowork is a separate capability setting, and users' browsers still need the extension deployed or installed. Cowork also has a browser built into the Claude Desktop app (rolling out this week) that doesn't require the extension; it's off by default on Enterprise plans and managed from **[Organization settings > Cowork](https://claude.ai/admin-settings/cowork)**. You can enable Claude in Chrome, the built-in browser, both, or neither. For Cowork admin settings, see **[Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans)**.
 

@@ -210,8 +210,8 @@ Browse all available connectors in the **[Connectors Directory](https://claude.a
 
 ## Related Articles
 
+- [Get started with custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 - [Use enterprise search](https://support.claude.com/en/articles/12489464-use-enterprise-search)
 - [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
-- [MCP connectors](https://support.claude.com/en/articles/14503689-mcp-connectors)
 - [Restrict verified-domain connectors to your Enterprise](https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise)
