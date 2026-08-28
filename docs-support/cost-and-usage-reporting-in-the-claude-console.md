@@ -14,7 +14,7 @@ Users with access to these reports can click into them on the left navigation me
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1787930100&signature=f565599c37fa7ccae611ee0ba7bc74a925828c6fc97021c338b3bb2aed447ad6&req=dSUvEs97mYNeXvMW1HO4zYCWiSMRgsabuqqBX2puyxSJCmD%2BdeOylI90RqpW%0A1yg%2B1xA27d4CrnJeTZE%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584654217/db0a977417e38e43639f060d96e0/image.png?expires=1787962500&signature=1ac43ea8fefe54997cdb632cbfbbc990d4075f8928bf5a596fd98d5c00240444&req=dSUvEs97mYNeXvMW1HO4zYCWiSMRh8SfuqqBX2puyxQwvZahXvQJ45V%2BDwpZ%0AwYvHX8nSEYBDZWrfOPA%3D%0A)
 
  
 
@@ -47,11 +47,11 @@ The [Usage page](https://platform.claude.com/usage) offers a detailed breakdown 
 5. The chart and statistics will update based on your selections.
 6. Use the export button to download a CSV of the displayed data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1787930100&signature=880e7118a71fa383e3613f21127cab7c5977042f61658cfd423ef775aa95295e&req=dSUvEs94mYJdWPMW1HO4zQwER3QjIo9nqMITUZbanFCtxfnnAg1XuB0QvVEJ%0AZI%2Fyukx11yCrmB14oF4%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584664321/59b50eba0b61e0789f7055fcf9f4/image+%285%29.png?expires=1787962500&signature=3c2dde9b4e5f68ad20c05b2fe6a14799ea733ed37edf69ebece419d3dd0cd5a5&req=dSUvEs94mYJdWPMW1HO4zQwER3QjJ41jqMITUZbanFDhoXacn4NpsYSv19kT%0AcROWzTzYCHvPHLkfg5M%3D%0A)
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1787930100&signature=cb3f25a9ce30ab81b2167a06690c219c606df48610707968aa7c2a782cf5a82b&req=dSUvEs93noJXX%2FMW1HO4zRxEwWxE5VFt21D6pckxWMZOWvJVYAR%2Fm%2FemFkU5%0AgkEoa8bbulpq%2BVtaE9Q%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584693386/aed472efe163abcbc14fa32f3699/rate+limited+requests.png?expires=1787962500&signature=f4222ed06b06cc2483b495681bdc600d499e3a11b49e2af4cb2c14af8059428f&req=dSUvEs93noJXX%2FMW1HO4zRxEwWxE4FNp21D6pckxWMaPLniWYtjMgdg%2FamWy%0AQNOZvrgFbdMAIkJAlqM%3D%0A)
 
  
 
@@ -95,7 +95,7 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 4. You can see the chart, token cost, and tool use costs, which will update based on your selections.
 5. Use the export button to download a CSV of the cost data.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1787930100&signature=4e4543699be90a867ad6cf4183b01b77cf986827f3574c43caf7e87bf40c3204&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5vKUNBgCyIF5nuUsbwdXXR0Yd8cKvaSis2Z%0AsiwUXrt%2Bo8BHvdEHL6A%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1584679401/4d0bc8ed08625e1adee414e77030/CleanShot+2025-06-23+at+08_54_40%402x.png?expires=1787962500&signature=cc56540f5d60a55d6adfc185f710be07f179b767cf898eba211cd239af477bc2&req=dSUvEs95lIVfWPMW1HO4zUR%2Bh5vKVdJkCyIF5nuUsbxHD4mkRQrwjpPFPeiG%0A6bL0n2EN7iuYtjpGqkE%3D%0A)
 
  
 
@@ -104,8 +104,8 @@ The [Cost page](https://platform.claude.com/cost) helps you understand your spen
 
 ## Related Articles
 
-- [Creating and managing Workspaces in the Claude Console](https://support.claude.com/en/articles/9796807-creating-and-managing-workspaces-in-the-claude-console)
 - [Claude Console roles and permissions](https://support.claude.com/en/articles/10186004-claude-console-roles-and-permissions)
 - [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- [Claude Code on Console to Enterprise migration](https://support.claude.com/en/articles/14128775-claude-code-on-console-to-enterprise-migration)
 - [Models, usage, and limits in Claude Code](https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code)
 - [Claude Enterprise consumption guide](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)

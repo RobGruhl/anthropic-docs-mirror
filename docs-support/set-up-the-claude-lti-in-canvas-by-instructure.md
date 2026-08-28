@@ -34,7 +34,7 @@ This article provides information on how to enable the Claude LTI integration in
 4. Input the Client ID generated for your developer key (from Step 6 under Creating Claude LTI Developer Key in Canvas).
 5. Click "Install" and refresh the course page.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1787930100&signature=6a34ec8bc9969a182a9e2a23f57bceac25f4ccc35b966b4d803913bc08ada158&req=dSYmF818n4VcWfMW1HO4zTEDauwXmPOAEv2ojHLMylZ2jcW9aSMSZ0WjcRdW%0A%2FsbK2UFJGUKdhZBHgbg%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1611422430/c8e0875feac1f2c7cb033be74fc9/AD_4nXfLU_bui3EXcCjQ0qm70HD97neqjGayKeDer_t76utlci8gZSUjYRhw6ZSOlDdqSEcwXBzd_shAh7pQEJ-8OoE0O21DM5coOgxmO_WD5hlwiuwtS2iYXcTavhIRyQT5zKFWvfn3NA?expires=1787962500&signature=fd844c14157f0666a60497d4b4c7ff1cadb9117c18ec7eaf2b5dd19ac6c13598&req=dSYmF818n4VcWfMW1HO4zTEDauwXnfGEEv2ojHLMylaR1QQ8Y%2FbigQZzCO8X%0AQ7feswEorozccA%2F1bCI%3D%0A)
 
  
 
@@ -62,4 +62,4 @@ If you have any questions about your Claude for Education plan account or the Cl
 - [Set up SCIM in Claude for Government](https://support.claude.com/en/articles/14503643-set-up-scim-in-claude-for-government)
 - [Open Claude Desktop with a link](https://support.claude.com/en/articles/14729294-open-claude-desktop-with-a-link)
 - [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)
-- [Claude for Teachers: your data and our terms](https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms)
+- [Set up Claude for Teachers for your school or district](https://support.claude.com/en/articles/16559896-set-up-claude-for-teachers-for-your-school-or-district)

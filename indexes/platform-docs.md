@@ -1,5 +1,5 @@
 # Platform Documentation (platform.claude.com) Index
-*Last updated: 2026-08-28 14:47*
+*Last updated: 2026-08-28 23:49*
 Total documents: 684
 ---
 ## Uncategorized (684 documents)
@@ -296,7 +296,7 @@ Total documents: 684
 ### admin__federation_rules__workspaces
 **File:** `/platform-docs/admin__federation_rules__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### admin__federation_rules__workspaces__create
 **File:** `/platform-docs/admin__federation_rules__workspaces__create.md`  
@@ -341,7 +341,7 @@ Total documents: 684
 ### admin__mcp_tunnels
 **File:** `/platform-docs/admin__mcp_tunnels.md`  
 **Source:** https://platform.claude.com/docs/en/api/admin/mcp_tunnels  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### admin__mcp_tunnels__archive
 **File:** `/platform-docs/admin__mcp_tunnels__archive.md`  
@@ -946,7 +946,7 @@ Total documents: 684
 ### beta
 **File:** `/platform-docs/beta.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__agents
 **File:** `/platform-docs/beta__agents.md`  
@@ -1161,32 +1161,32 @@ Total documents: 684
 ### beta__files
 **File:** `/platform-docs/beta__files.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__files__delete
 **File:** `/platform-docs/beta__files__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/delete  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__files__download
 **File:** `/platform-docs/beta__files__download.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/download  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__files__list
 **File:** `/platform-docs/beta__files__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/list  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__files__retrieve_metadata
 **File:** `/platform-docs/beta__files__retrieve_metadata.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__files__upload
 **File:** `/platform-docs/beta__files__upload.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/files/upload  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__memory_stores
 **File:** `/platform-docs/beta__memory_stores.md`  
@@ -1276,12 +1276,12 @@ Total documents: 684
 ### beta__messages
 **File:** `/platform-docs/beta__messages.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__messages__batches
 **File:** `/platform-docs/beta__messages__batches.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__messages__batches__cancel
 **File:** `/platform-docs/beta__messages__batches__cancel.md`  
@@ -1306,7 +1306,7 @@ Total documents: 684
 ### beta__messages__batches__results
 **File:** `/platform-docs/beta__messages__batches__results.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/batches/results  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__messages__batches__retrieve
 **File:** `/platform-docs/beta__messages__batches__retrieve.md`  
@@ -1321,7 +1321,7 @@ Total documents: 684
 ### beta__messages__create
 **File:** `/platform-docs/beta__messages__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/messages/create  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__models
 **File:** `/platform-docs/beta__models.md`  
@@ -1341,7 +1341,7 @@ Total documents: 684
 ### beta__organization
 **File:** `/platform-docs/beta__organization.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__api_keys
 **File:** `/platform-docs/beta__organization__api_keys.md`  
@@ -1511,12 +1511,12 @@ Total documents: 684
 ### beta__organization__rate_limits
 **File:** `/platform-docs/beta__organization__rate_limits.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization/rate_limits  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__rate_limits__list
 **File:** `/platform-docs/beta__organization__rate_limits__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization/rate_limits/list  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__retrieve
 **File:** `/platform-docs/beta__organization__retrieve.md`  
@@ -1601,7 +1601,7 @@ Total documents: 684
 ### beta__organization__workspaces
 **File:** `/platform-docs/beta__organization__workspaces.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization/workspaces  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__workspaces__archive
 **File:** `/platform-docs/beta__organization__workspaces__archive.md`  
@@ -1651,12 +1651,12 @@ Total documents: 684
 ### beta__organization__workspaces__rate_limits
 **File:** `/platform-docs/beta__organization__workspaces__rate_limits.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__workspaces__rate_limits__list
 **File:** `/platform-docs/beta__organization__workspaces__rate_limits__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/organization/workspaces/rate_limits/list  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__organization__workspaces__retrieve
 **File:** `/platform-docs/beta__organization__workspaces__retrieve.md`  
@@ -1821,57 +1821,57 @@ Total documents: 684
 ### beta__skills
 **File:** `/platform-docs/beta__skills.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__create
 **File:** `/platform-docs/beta__skills__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/create  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__delete
 **File:** `/platform-docs/beta__skills__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/delete  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__list
 **File:** `/platform-docs/beta__skills__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/list  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__retrieve
 **File:** `/platform-docs/beta__skills__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/retrieve  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions
 **File:** `/platform-docs/beta__skills__versions.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions__create
 **File:** `/platform-docs/beta__skills__versions__create.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/create  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions__delete
 **File:** `/platform-docs/beta__skills__versions__delete.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/delete  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions__download
 **File:** `/platform-docs/beta__skills__versions__download.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/download  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions__list
 **File:** `/platform-docs/beta__skills__versions__list.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/list  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__skills__versions__retrieve
 **File:** `/platform-docs/beta__skills__versions__retrieve.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### beta__tunnels
 **File:** `/platform-docs/beta__tunnels.md`  
@@ -2041,7 +2041,7 @@ Total documents: 684
 ### beta__webhooks
 **File:** `/platform-docs/beta__webhooks.md`  
 **Source:** https://platform.claude.com/docs/en/api/beta/webhooks  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### build-with-claude__batch-processing
 **File:** `/platform-docs/build-with-claude__batch-processing.md`  
@@ -2216,7 +2216,7 @@ Total documents: 684
 ### build-with-claude__structured-outputs
 **File:** `/platform-docs/build-with-claude__structured-outputs.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/structured-outputs  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### build-with-claude__task-budgets
 **File:** `/platform-docs/build-with-claude__task-budgets.md`  
@@ -2226,7 +2226,7 @@ Total documents: 684
 ### build-with-claude__thinking-steering-and-cost
 **File:** `/platform-docs/build-with-claude__thinking-steering-and-cost.md`  
 **Source:** https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost  
-**Updated:** 2026-08-12  
+**Updated:** 2026-08-28  
 
 ### build-with-claude__thinking-tool-workflows
 **File:** `/platform-docs/build-with-claude__thinking-tool-workflows.md`  
@@ -2461,7 +2461,7 @@ Total documents: 684
 ### compliance__apps__projects
 **File:** `/platform-docs/compliance__apps__projects.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### compliance__apps__projects__attachments
 **File:** `/platform-docs/compliance__apps__projects__attachments.md`  
@@ -2491,7 +2491,7 @@ Total documents: 684
 ### compliance__apps__projects__documents
 **File:** `/platform-docs/compliance__apps__projects__documents.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/projects/documents  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### compliance__apps__projects__documents__delete
 **File:** `/platform-docs/compliance__apps__projects__documents__delete.md`  
@@ -2526,7 +2526,7 @@ Total documents: 684
 ### compliance__apps__sessions__local
 **File:** `/platform-docs/compliance__apps__sessions__local.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/apps/sessions/local  
-**Updated:** 2026-08-27  
+**Updated:** 2026-08-28  
 
 ### compliance__apps__sessions__local__list
 **File:** `/platform-docs/compliance__apps__sessions__local__list.md`  
@@ -2596,7 +2596,7 @@ Total documents: 684
 ### compliance__groups
 **File:** `/platform-docs/compliance__groups.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/groups  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### compliance__groups__list
 **File:** `/platform-docs/compliance__groups__list.md`  
@@ -2631,7 +2631,7 @@ Total documents: 684
 ### compliance__organizations__roles
 **File:** `/platform-docs/compliance__organizations__roles.md`  
 **Source:** https://platform.claude.com/docs/en/api/compliance/organizations/roles  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### compliance__organizations__roles__list
 **File:** `/platform-docs/compliance__organizations__roles__list.md`  
@@ -2816,7 +2816,7 @@ Total documents: 684
 ### manage-claude__compliance-faq
 **File:** `/platform-docs/manage-claude__compliance-faq.md`  
 **Source:** https://platform.claude.com/docs/en/manage-claude/compliance-faq  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### manage-claude__compliance-integration-patterns
 **File:** `/platform-docs/manage-claude__compliance-integration-patterns.md`  
@@ -2981,7 +2981,7 @@ Total documents: 684
 ### managed-agents__memory
 **File:** `/platform-docs/managed-agents__memory.md`  
 **Source:** https://platform.claude.com/docs/en/managed-agents/memory  
-**Updated:** 2026-08-20  
+**Updated:** 2026-08-28  
 
 ### managed-agents__migration
 **File:** `/platform-docs/managed-agents__migration.md`  
@@ -3126,7 +3126,7 @@ Total documents: 684
 ### models__fable-5__migration-guide
 **File:** `/platform-docs/models__fable-5__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/models/fable-5/migration-guide  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### models__fable-5__overview
 **File:** `/platform-docs/models__fable-5__overview.md`  
@@ -3176,22 +3176,22 @@ Total documents: 684
 ### models__opus-5__migration-guide
 **File:** `/platform-docs/models__opus-5__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-5/migration-guide  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### models__opus-5__overview
 **File:** `/platform-docs/models__opus-5__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-5/overview  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### models__opus-5__whats-new-opus-5
 **File:** `/platform-docs/models__opus-5__whats-new-opus-5.md`  
 **Source:** https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### models__overview
 **File:** `/platform-docs/models__overview.md`  
 **Source:** https://platform.claude.com/docs/en/models/overview  
-**Updated:** 2026-08-25  
+**Updated:** 2026-08-28  
 
 ### models__retrieve
 **File:** `/platform-docs/models__retrieve.md`  
@@ -3211,7 +3211,7 @@ Total documents: 684
 ### models__sonnet-5__migration-guide
 **File:** `/platform-docs/models__sonnet-5__migration-guide.md`  
 **Source:** https://platform.claude.com/docs/en/models/sonnet-5/migration-guide  
-**Updated:** 2026-08-26  
+**Updated:** 2026-08-28  
 
 ### models__sonnet-5__overview
 **File:** `/platform-docs/models__sonnet-5__overview.md`  
