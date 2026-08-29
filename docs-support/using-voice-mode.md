@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1788006600&signature=cbd552fe6a18b8c3b00b83ab66fb606cf1876e0ace489c9df19f35c5b02c496f&req=diAjFMp7n4FZWfMW1HO4zU6VRfXKSLpvxNdRzYWrfF5j2RswD3KZB85n0CUj%0AwSNg41ukMM3cHpWgJJM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1788021900&signature=8a02481facfa1a4e5f4097ef2d819ba9d39e3ab2ba683cdc5646aaceccea9c55&req=diAjFMp7n4FZWfMW1HO4zU6VRfXKSr1gxNdRzYWrfF5b%2Fu5fqdDmKaMYvFYe%0A3IvKOqohc4ewJaPc6uc%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1788006600&signature=13dfce0dce3dbafe2ffb994a7de930339392974c1c024b77dc8903767cbe9028&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGKVYFYMy8OQfYsvK3wILZKOyId0qX%2BW95bw%0AmoDo5r7vHpmQ6IV1bQQ%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1788021900&signature=bcd4454c3bb3f7e8bd2668212d3797ebd76f61cd199f70cf6faae82a2b7c1d28&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGKVYlEDy8OQfYsvK3yTdk2B7psl10QgzWV4%0Al5slwhora%2B7y2RUvNY0%3D%0A)
 
  
 
