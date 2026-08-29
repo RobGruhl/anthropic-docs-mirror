@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787962500&signature=fe43c57ccaa9afad857eb2961399e8bc845b01f0cfa1c41070088bc496a0e74b&req=diAjFMp7n4FZWfMW1HO4zU6VRfrDTr5sxNdRzYWrfF4%2BZ77CXyKq3F3HhChn%0ASRCRwPQqAVIrVkRFdxs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1787980500&signature=f33a3263992b0c7410e5965ca330f34389868ca4673834a97afb3892f8868d45&req=diAjFMp7n4FZWfMW1HO4zU6VRfrDQLxsxNdRzYWrfF6edqn%2Fe04s9l4XCks4%0AzbbJx77Fn%2B7dnLYkyVY%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787962500&signature=cf0ad074fb16f877165efb304b3ed51834026f75c7932dfbb5a8a3d102082e6a&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2cZlIPy8OQfYsvK3wCs%2FGTAdAJ81U%2F8sDv%0A26CzTdnn7nRCuIGROCM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1787980500&signature=9bbc173dafdcf5524fff0ec16644c3fc30c2bf7cf884570bd4c92c5c15b54cba&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGG2caFAPy8OQfYsvK3zPpGctzetq3ZlpXhUm%0A13NY6UALl33C6jjk1Nc%3D%0A)
 
  
 
