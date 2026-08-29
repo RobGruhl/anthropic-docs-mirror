@@ -1,6 +1,6 @@
 # Official Anthropic marketing email addresses
 
-*Updated today*
+*Updated this week*
 
 ---
 
@@ -27,6 +27,6 @@ Concerned about an email you received? Visit our **[How to get support](https://
 
 - [Report, block, and remove content from Claude](https://support.claude.com/en/articles/7996906-report-block-and-remove-content-from-claude)
 - [Does Anthropic crawl data from the web, and how can site owners block the crawler?](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler)
-- [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 - [I think a user is infringing my copyright or other intellectual property. How do I report it?](https://support.claude.com/en/articles/10023646-i-think-a-user-is-infringing-my-copyright-or-other-intellectual-property-how-do-i-report-it)
+- [Report, block, and remove content from Claude](https://support.claude.com/en/articles/10684638-report-block-and-remove-content-from-claude)
 - [Unauthorized Anthropic stock sales and investment scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams)

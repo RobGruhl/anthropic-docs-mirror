@@ -61,7 +61,7 @@ After publishing, you'll see a “Get embed code” button.
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1788036300&signature=87a8532d1e1032448021696f668d1dee39d34ced131d5dd3c81b9ce7010ae8c5&req=dSkiF892mYhZWfMW1HO4zdcpD15S5gWCR8xgMH3ra8jkiqLNF8UZ41xoDkHb%0ASilc6eA%2BeQgp15b%2BzMY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951684960/0cd917c4455b31e86b70a97f8234/image.png?expires=1788046200&signature=1a7ff10c5fdf0822ddf73b129d6ecf0c5d7b998b91baec21a491b05503c51877&req=dSkiF892mYhZWfMW1HO4zdcpD15S4QWDR8xgMH3ra8i%2FszIy%2Br1BotijKsF1%0A8bPc5ll16Lfs%2FYGJvM8%3D%0A)
 
  
 
@@ -69,7 +69,7 @@ Click it to open a modal with automatically generated code you can copy and past
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1788036300&signature=a3e9144d4379f8de956afe2713d16b68d2cc3294835112235e62a380e6a10816&req=dSkiF892mIlZWfMW1HO4zcqH79GDyoJuf3CUbx4Ru6W5ilE6UFDI4VIhibl4%0A%2FALN7oA4ZG%2FCFZ4vWkU%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951685860/6bf1aa2c57d6ff95804797779e9c/image.png?expires=1788046200&signature=a5b480ac2b3f625924a5b097431deca62eb987c3d6fa932f253c6c69cc5a5932&req=dSkiF892mIlZWfMW1HO4zcqH79GDzYJvf3CUbx4Ru6UiWFS73aZRmJwbmP0b%0ArwR9i1Hq%2FyvPeqz%2FqWg%3D%0A)
 
  
 
@@ -121,7 +121,7 @@ Artifacts created on Team or Enterprise accounts can only be shared within your 
 3. Click the “Share” button.
 4. Click “Share & copy link” to make this version shareable.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1788036300&signature=5a3e759b959a54539acc3f342ebcc59c49646cb53115f20a906cb2d0a3bf6630&req=dSkiF892nYBZWfMW1HO4zbvYOlnlLn%2BQK6hAzMpXfmM8%2B2jAtds2gqN5X7f8%0AZ2tC8aw73sVad0sS9o8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951680160/d5a38784df4c6d0cc55eda339279/Screenshot%2B2025-10-28%2Bat%2B2_00_15-E2-80-AFPM.png?expires=1788046200&signature=53482a4a7ab1a5eb75ff4bdceb6705e34772034b9d0a458c26e812a01c03e2cb&req=dSkiF892nYBZWfMW1HO4zbvYOlnlKX%2BRK6hAzMpXfmNJwo7ASlbIcjF%2F8QO%2B%0A5gqbKRas4phuJqMpVFk%3D%0A)
 
  
 
@@ -145,7 +145,7 @@ When you share an artifact, viewers also gain access to any attachments and file
 1. Click the “Share” button in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click “Unshare.”
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1788036300&signature=ff3f869deb13a367e8ef0253cc9e77718cc7a7523fece7b1499c036e08fe0ef4&req=dSkiF895m4hdXvMW1HO4zW9EwgG9%2BnKwgj8mTHivCKZdKy9iq%2BRaaVD%2Bg2%2Fv%0ABi1bP8B7WzRIyvZ3Z1Y%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1788046200&signature=a6d4a831e9453c0de9fc73d38583c22ebe585e960ceda0b80b29c8a09c6fc26f&req=dSkiF895m4hdXvMW1HO4zW9EwgG9%2FXKxgj8mTHivCKZVWz9anxdw9M%2BH9kDT%0AQd%2BYVku9e53IvZIWqh0%3D%0A)
 
   
 
