@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 4. Once you finish telling Claude your prompt, it will respond to continue the conversation.
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1788115500&signature=3f9b2178c72f2c1c17da9c2a4c3696f25efe024f395ab50479900b7c57ef0460&req=diAjFMp7n4FZWfMW1HO4zU6VRfXLSblsxNdRzYWrfF5NUCCxFb3S%2ByVnark5%0AWfCvWSneQbx9cL4jjHM%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1788132600&signature=d9620358b3583323442cd9f5cdb802d25f390919b4dd96b5fa56ef05c7cf8faa&req=diAjFMp7n4FZWfMW1HO4zU6VRfXLS75vxNdRzYWrfF7nImxV1eYWhWfVnsDo%0AabiFB70dyTwDEzp%2Feww%3D%0A)
 
  
 
@@ -92,7 +92,7 @@ To change the voice later:
 - **On the web and desktop:** Go to **[Settings > General](https://claude.ai/new#settings/general)** and scroll down to **Voice settings**. Select your preferred voice from the options. You’ll hear a preview when you click each option; click it again to stop the preview.
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1788115500&signature=bae437e947100225691b40cd5385c976fd9be6c63f26c3eb9773068c6fd28e01&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGKUYVUPy8OQfYsvK3zSFEChWZLGRuW3E63k%0AZ2Yyj9a0xtuApxlCVm8%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1788132600&signature=42c967b71d0bd8375e2cb4d2f1988a2c4fb71d52675c9050c220ec8a655ee153&req=diAjFMp7n4FZWvMW1HO4zZ3%2FGGKUY1IMy8OQfYsvK3xuV6od9YH6qhTTpl8c%0AJXKnxuyKURiE59iFsvU%3D%0A)
 
  
 
