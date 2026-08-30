@@ -164,7 +164,7 @@ To set global instructions:
 2. Click "Edit" next to **Global instructions**.
 3. Type your instructions in the text box and click "Save":
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1788046200&signature=f1e8dee564201f5e0eab14090449114c7d7765506cc5f55a46f66908ce00c7a6&req=diUlE8B8m4lYXfMW1HO4zcDl6tDsMley8iWjaktE942Fp4wqx5cDu2JV7IbE%0AVbdUPhUOOkDD9gLupDA%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1788058800&signature=645967a9f7910d188b880d75a07987c10a8c4081dfb4e0ca66962226c5eac731&req=diUlE8B8m4lYXfMW1HO4zcDl6tDsM1m48iWjaktE941LYOhO2J%2B6NAYIo%2B4Q%0AMCnowFiUDzq11TwPVcU%3D%0A)
 
  
 

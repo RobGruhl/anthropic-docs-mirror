@@ -1,5 +1,5 @@
 # MCP Blog Posts Index
-*Last updated: 2026-08-29 22:58*
+*Last updated: 2026-08-30 02:32*
 Total documents: 13
 ---
 ## Uncategorized (13 documents)
