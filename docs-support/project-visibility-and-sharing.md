@@ -13,7 +13,7 @@ When creating a project on a Team or Enterprise plan, you can choose between two
 - **Public:** Everyone in your organization can view and use the project.
 - **Private:** Only invited members can view and use the project.
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1788058800&signature=cc079ffb049b27b3c90a7928e6f05c7b061d026f977329003f2151c55966cc82&req=dScjFsp5nYhWWPMW1HO4zd3a2VQkIYavHK95%2FTFaPymD2bV0yEfmZlsp%2FqZZ%0A3LzSKhMOgu5l1kJO4co%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370991/2b6b16e5deff094e073a5b4bb0ea/63197103-24c0-41e5-aebd-9b8f431837bb?expires=1788081300&signature=cb18aa25f18aecb323c3d858797bf20c916f06ab13ba3eb661f9d2e955d84810&req=dScjFsp5nYhWWPMW1HO4zd3a2VQkLI%2BkHK95%2FTFaPykIorhUQ%2BWN%2F4sHROmE%0ApfQpxEXgvqYO8LzO8dc%3D%0A)
 
  
 
@@ -29,7 +29,7 @@ Yes, you can switch the visibility of a project you created as public to private
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1788058800&signature=e48830492d5a261a7e3f9c099d55372191ebb2cef3fecc451e4cbbe403fc79bc&req=dScjFsp5nYhXXvMW1HO4zUiDoiH3hA4hE8Kp5wh0MSA%2FzHtO3cFBAZmvZZc%2B%0ABQGrp6X1YvVatTCutDY%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370987/5d5db997e6b42e627ffa62fddf75/4823906b-9535-4a19-b89e-a1003f1e6e68?expires=1788081300&signature=a6d1197b621f4c9d00f9654bb94b0925f443bafb918b69bec594c1f880161740&req=dScjFsp5nYhXXvMW1HO4zUiDoiH3iQcqE8Kp5wh0MSBndQsSSFaddeKaGcjk%0ABn7De9DfTVYm2ReWacI%3D%0A)
 
  
 
@@ -37,7 +37,7 @@ Click “Everyone at [your organization]” under **General access** and select 
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1788058800&signature=ee81f9147dc05bc9159b34bc3461df221cd75d2b4f0ab409dba5c21464c0ed9a&req=dScjFsp5nYhXUfMW1HO4zckCIfpiZyqsl3XeGelDRW3dgPSkvUapP5Z91Sk4%0A9HHjUtpdDRlvgV3OR5c%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370988/386407facbf3e73d2f5538623a18/69d8ffcd-e1ca-470f-a219-5b88704e41f2?expires=1788081300&signature=71b97ee9f7050024dd730e864dd39693e488a889c292942854978718aa0f82ba&req=dScjFsp5nYhXUfMW1HO4zckCIfpiaiOnl3XeGelDRW0ALDEmCoNkrcUf0%2Btu%0AnCGQLoi5zPU5HWIDkA4%3D%0A)
 
  
 
@@ -53,7 +53,7 @@ Yes, you can switch the visibility of a project you created as private to public
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1788058800&signature=f219047ea7021b6ba3cd585cc47cb7c0a8f0da41adf1ff0854f4b9fcb82bee14&req=dScjFsp5nYhXUPMW1HO4zaSEGlucT7AF2JrJefVtywlm0FxO%2FpGDjps3jRlu%0A%2BgJdGgdk0om%2BgKtAxWs%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370989/f829dcd8bdd88e944322f678323f/9d25eff1-6df3-40be-82eb-ba7fe09187e8?expires=1788081300&signature=69fb4df172a2b811bd23de5b0dba8a64d070a390bf5028b9bab8334d3d986ea5&req=dScjFsp5nYhXUPMW1HO4zaSEGlucQrkO2JrJefVtywlPWB7dsW%2B2%2B6yS5S56%0AFRzhHrVVdk%2FE0DArWYM%3D%0A)
 
  
 
@@ -61,7 +61,7 @@ Click “Only people invited” under General access and select “Everyone at [
 
  
 
-![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1788058800&signature=047454093bb26941c586c1d9360561ad9ef10a4986d7c8643073f4a739c19adc&req=dScjFsp5nYhWWfMW1HO4zT7Q08C7uAQeAmYRPrgMBZn%2FfiXtxGgmM9lZvuW2%0A3YZj2gYiV5q5aCgnuHI%3D%0A)
+![image](https://downloads.intercomcdn.com/i/o/lupk8zyo/1740370990/d173fbc6f030780d30c6d7b8e204/7e47b9d1-89fe-4607-8b5b-f7b06e7ad0d6?expires=1788081300&signature=6fc7403f28f2748238474e82acb2c1dcef6f0f4fd036937f8ee909a13473404e&req=dScjFsp5nYhWWfMW1HO4zT7Q08C7tQ0VAmYRPrgMBZmhQWYnXtMHcMVYZHdi%0AqI1%2BEn1YMsDsPsQ3mm8%3D%0A)
 
  
 
